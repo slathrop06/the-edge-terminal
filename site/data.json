@@ -1,16 +1,374 @@
 {
-  "generated_at": "2026-05-16T12:59:52.649257-04:00",
+  "generated_at": "2026-05-16T13:02:29.805237-04:00",
   "today": "2026-05-16",
   "system_paused": false,
   "pause_reason": "",
-  "today_picks": [],
-  "all_picks": [],
+  "today_picks": [
+    {
+      "id": "20260516-MLB-MIA-TB-TOTAL",
+      "sport": "MLB",
+      "game": "MIA @ TB",
+      "first_pitch_iso": "2026-05-16T16:10:00-04:00",
+      "pick": "Under 7.5",
+      "best_book": "FanDuel",
+      "best_odds": "-102",
+      "book_prices": {
+        "draftkings": "-104",
+        "fanduel": "-102",
+        "betmgm": "-102"
+      },
+      "book_links": {
+        "fanduel": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.578846185&selectionId=7017906",
+        "draftkings": "https://sportsbook.draftkings.com/?outcomes=0OU84796358U750_3",
+        "betmgm": "https://sports.nj.betmgm.com/en/sports?options=19415590-1501825301--85033682&type=Single"
+      },
+      "market": "TOTAL",
+      "confidence": 3,
+      "units": 1.0,
+      "ladder_designation": false,
+      "data_confidence": 0.72,
+      "rules_passed": [
+        "max_juice",
+        "ladder_even_money",
+        "parlay_well_formed",
+        "confidence_units_match",
+        "data_confidence_floor",
+        "pick_type_allowed",
+        "mlb_hr_prop_check",
+        "mlb_run_line_check",
+        "mlb_under_bb_check",
+        "no_same_game_opposite"
+      ],
+      "locked": true,
+      "late_add": false,
+      "late_add_reason": "",
+      "legs": [],
+      "headline": "Nick Martinez is having a season, Alcantara is back to being Alcantara, and the dome takes weather out of the equation.",
+      "the_thesis": "Nick Martinez is sitting at a 1.70 ERA with a 1.05 WHIP and a 5.2% walk rate \u2014 the latter is the key number for an under bet. Pitchers who don't walk people don't blow up. He's not a huge strikeout guy (16.1 K%), but he keeps the ball in the yard (0.57 HR/9) and gets you deep into games (15.7 IP/start in his last three).\\n\\nSandy Alcantara at 3.90 isn't his Cy Young self but he's back to being a workhorse \u2014 19 IP per start in his last three, which is borderline absurd in 2026. He's at 0.63 HR/9 with a manageable walk rate. The combined HR/9 here is 1.20 across both starters, and we're playing in a dome at Tropicana with a 0.95 runs factor and 0.92 HR factor.\\n\\nThis is just a low-event game in a low-event environment with two starters who go deep and don't beat themselves.",
+      "the_data": [
+        {
+          "label": "Martinez profile",
+          "value": "1.70 ERA, 1.05 WHIP, 5.2 BB%",
+          "context": "elite control"
+        },
+        {
+          "label": "Alcantara profile",
+          "value": "3.90 ERA, 8.3 BB%, 0.63 HR/9",
+          "context": "solid workhorse"
+        },
+        {
+          "label": "Alcantara recent IP/start",
+          "value": "19.1 IP across last 3",
+          "context": "saving the bullpen"
+        },
+        {
+          "label": "Tropicana Field factors",
+          "value": "0.95 runs / 0.92 HR",
+          "context": "HR-suppressing dome"
+        },
+        {
+          "label": "Combined SP HR/9",
+          "value": "0.60 average",
+          "context": "neither gives up the long ball"
+        }
+      ],
+      "the_market": "Total opened 7.5 and is sitting at 7.5 across all three books. Flat line, modest juice \u2014 clean number.",
+      "weather_park": "Indoor at Tropicana Field \u2014 no weather variable, and the park itself suppresses both runs and homers.",
+      "case_against": "Alcantara's ERA is a tick high for a reason \u2014 he's been hittable at times this year and the Rays have decent lineup balance. If either starter exits before the 6th and the bullpens take over, low totals like 7.5 are exactly where the variance bites. One three-run inning makes this very sweaty.",
+      "what_were_betting_on": "Both starters going 6+, no crooked innings, the dome doing what the dome does.",
+      "scott_bot_quip": "Two veterans, a dome, and a stingy number. Sometimes the boring bet is the right bet.",
+      "ladder_note": "",
+      "date": "2026-05-16",
+      "status": "PEND",
+      "units_result": null,
+      "clv_cents": null,
+      "result_score": null,
+      "graded_at": null,
+      "slate_assessment": "Big 15-game MLB board with two clear pitching-edge unders standing out \u2014 S\u00e1nchez over Chandler in Pittsburgh and a Martinez/Alcantara matchup in the dome. Rest of the slate is mostly fair-priced or has small SP samples we can't trust.",
+      "slate_vibe": "NORMAL",
+      "published_at": "2026-05-16T13:02:29.804349-04:00"
+    },
+    {
+      "id": "20260516-MLB-PHI-PIT-TOTAL",
+      "sport": "MLB",
+      "game": "PHI @ PIT",
+      "first_pitch_iso": "2026-05-16T16:05:00-04:00",
+      "pick": "Under 8.5",
+      "best_book": "FanDuel",
+      "best_odds": "-115",
+      "book_prices": {
+        "draftkings": "-115",
+        "fanduel": "-115",
+        "betmgm": "-120"
+      },
+      "book_links": {
+        "fanduel": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.578846019&selectionId=7017906",
+        "draftkings": "https://sportsbook.draftkings.com/?outcomes=0OU84796356U850_3",
+        "betmgm": "https://sports.nj.betmgm.com/en/sports?options=19415589-1501825201--85033902&type=Single"
+      },
+      "market": "TOTAL",
+      "confidence": 4,
+      "units": 1.5,
+      "ladder_designation": true,
+      "data_confidence": 0.78,
+      "rules_passed": [
+        "max_juice",
+        "ladder_even_money",
+        "parlay_well_formed",
+        "confidence_units_match",
+        "data_confidence_floor",
+        "pick_type_allowed",
+        "mlb_hr_prop_check",
+        "mlb_run_line_check",
+        "mlb_under_bb_check",
+        "no_same_game_opposite"
+      ],
+      "locked": true,
+      "late_add": false,
+      "late_add_reason": "",
+      "legs": [],
+      "headline": "S\u00e1nchez is pitching like a Cy Young runner-up again, and Chandler walks the ballpark \u2014 at a park that smothers runs.",
+      "the_thesis": "Cristopher S\u00e1nchez is the headline. He's at a 2.11 ERA with a 28.4% strikeout rate against just 5.9% walks and 0.49 HR/9 \u2014 that walk-and-homer profile is the holy trinity of a guy who just doesn't beat himself. He hasn't allowed an earned run across his last 15 innings, with 17 K to 1 BB in that span. He's also averaging 18.4 IP across his last three starts, which matters here \u2014 every inning he goes is an inning Pittsburgh's bullpen doesn't.\\n\\nOn the other side: Bubba Chandler at 4.62 ERA with a 15.6% walk rate, which is genuinely bad \u2014 among qualified starters that's the kind of number that produces traffic every inning. Even when he limits damage, he typically tops out around 13 IP across his last three starts and leaves things in middle relief. PNC Park does him zero favors and does us a lot \u2014 runs PF 0.95, HR PF 0.91. The H2H total has gone under in 6 of the last 9 matchups between these clubs, and the Phillies have themselves gone under in 4 of their last 5 before last night's outlier.\\n\\nThe market opened 8.5 and held there across all three books \u2014 nothing has moved off this number, which tells you the sharps are comfortable here. We're getting it at the same number they are.",
+      "the_data": [
+        {
+          "label": "S\u00e1nchez ERA / xFIP profile",
+          "value": "2.11 ERA, 28.4 K%, 5.9 BB%, 0.49 HR/9",
+          "context": "elite across the board"
+        },
+        {
+          "label": "S\u00e1nchez recent form",
+          "value": "0 ER over last 15 IP, 17 K / 1 BB",
+          "context": "peak form"
+        },
+        {
+          "label": "Chandler walk rate",
+          "value": "15.6 BB%",
+          "context": "bottom-tier \u2014 traffic every inning"
+        },
+        {
+          "label": "Chandler HR/9",
+          "value": "1.38",
+          "context": "below average"
+        },
+        {
+          "label": "PNC Park factors",
+          "value": "0.95 runs / 0.91 HR",
+          "context": "pitcher-friendly"
+        },
+        {
+          "label": "H2H L9 totals",
+          "value": "Under 6-3",
+          "context": "trend with us"
+        },
+        {
+          "label": "Total movement",
+          "value": "Opened 8.5, sits 8.5",
+          "context": "flat \u2014 sharps not chasing over"
+        }
+      ],
+      "the_market": "Total opened at 8.5 and sits at 8.5 across all three of our books. No movement, no juice creep \u2014 the line is sharp and we're getting the number we want.",
+      "weather_park": "PNC Park is one of the better pitcher-friendly venues in baseball (runs PF 0.95, HR PF 0.91), no weather concerns at first pitch.",
+      "case_against": "Schwarber is on a literal historic home run pace \u2014 nine homers in his last eight games, a feat only Albert Belle has matched twice. One swing from him changes everything, and Chandler's stuff is good enough that he could overpower the Phillies on a day his command shows up. If S\u00e1nchez exits at 85 pitches and the Phils pen gives up a crooked number to a Pirates lineup that's hitting .282 at home, we're cooked. The over also cashed last night in this same series \u2014 momentum can carry.",
+      "what_were_betting_on": "S\u00e1nchez goes 6+ innings of 1-2 run ball, Chandler walks himself into trouble but Pittsburgh's pen contains it, neither team puts up a crooked inning.",
+      "scott_bot_quip": "When the Cy Young runner-up faces the guy who hands out free passes like Halloween candy, you don't have to overthink it. Take the under and go enjoy your Saturday.",
+      "ladder_note": "Highest-floor play on the board: massive SP advantage, walk-prone opponent, suppressive park, sharp line that hasn't moved. The variance is contained and the price is right in the even-money pocket.",
+      "date": "2026-05-16",
+      "status": "PEND",
+      "units_result": null,
+      "clv_cents": null,
+      "result_score": null,
+      "graded_at": null,
+      "slate_assessment": "Big 15-game MLB board with two clear pitching-edge unders standing out \u2014 S\u00e1nchez over Chandler in Pittsburgh and a Martinez/Alcantara matchup in the dome. Rest of the slate is mostly fair-priced or has small SP samples we can't trust.",
+      "slate_vibe": "NORMAL",
+      "published_at": "2026-05-16T13:02:29.804237-04:00"
+    }
+  ],
+  "all_picks": [
+    {
+      "id": "20260516-MLB-MIA-TB-TOTAL",
+      "sport": "MLB",
+      "game": "MIA @ TB",
+      "first_pitch_iso": "2026-05-16T16:10:00-04:00",
+      "pick": "Under 7.5",
+      "best_book": "FanDuel",
+      "best_odds": "-102",
+      "book_prices": {
+        "draftkings": "-104",
+        "fanduel": "-102",
+        "betmgm": "-102"
+      },
+      "book_links": {
+        "fanduel": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.578846185&selectionId=7017906",
+        "draftkings": "https://sportsbook.draftkings.com/?outcomes=0OU84796358U750_3",
+        "betmgm": "https://sports.nj.betmgm.com/en/sports?options=19415590-1501825301--85033682&type=Single"
+      },
+      "market": "TOTAL",
+      "confidence": 3,
+      "units": 1.0,
+      "ladder_designation": false,
+      "data_confidence": 0.72,
+      "rules_passed": [
+        "max_juice",
+        "ladder_even_money",
+        "parlay_well_formed",
+        "confidence_units_match",
+        "data_confidence_floor",
+        "pick_type_allowed",
+        "mlb_hr_prop_check",
+        "mlb_run_line_check",
+        "mlb_under_bb_check",
+        "no_same_game_opposite"
+      ],
+      "locked": true,
+      "late_add": false,
+      "late_add_reason": "",
+      "legs": [],
+      "headline": "Nick Martinez is having a season, Alcantara is back to being Alcantara, and the dome takes weather out of the equation.",
+      "the_thesis": "Nick Martinez is sitting at a 1.70 ERA with a 1.05 WHIP and a 5.2% walk rate \u2014 the latter is the key number for an under bet. Pitchers who don't walk people don't blow up. He's not a huge strikeout guy (16.1 K%), but he keeps the ball in the yard (0.57 HR/9) and gets you deep into games (15.7 IP/start in his last three).\\n\\nSandy Alcantara at 3.90 isn't his Cy Young self but he's back to being a workhorse \u2014 19 IP per start in his last three, which is borderline absurd in 2026. He's at 0.63 HR/9 with a manageable walk rate. The combined HR/9 here is 1.20 across both starters, and we're playing in a dome at Tropicana with a 0.95 runs factor and 0.92 HR factor.\\n\\nThis is just a low-event game in a low-event environment with two starters who go deep and don't beat themselves.",
+      "the_data": [
+        {
+          "label": "Martinez profile",
+          "value": "1.70 ERA, 1.05 WHIP, 5.2 BB%",
+          "context": "elite control"
+        },
+        {
+          "label": "Alcantara profile",
+          "value": "3.90 ERA, 8.3 BB%, 0.63 HR/9",
+          "context": "solid workhorse"
+        },
+        {
+          "label": "Alcantara recent IP/start",
+          "value": "19.1 IP across last 3",
+          "context": "saving the bullpen"
+        },
+        {
+          "label": "Tropicana Field factors",
+          "value": "0.95 runs / 0.92 HR",
+          "context": "HR-suppressing dome"
+        },
+        {
+          "label": "Combined SP HR/9",
+          "value": "0.60 average",
+          "context": "neither gives up the long ball"
+        }
+      ],
+      "the_market": "Total opened 7.5 and is sitting at 7.5 across all three books. Flat line, modest juice \u2014 clean number.",
+      "weather_park": "Indoor at Tropicana Field \u2014 no weather variable, and the park itself suppresses both runs and homers.",
+      "case_against": "Alcantara's ERA is a tick high for a reason \u2014 he's been hittable at times this year and the Rays have decent lineup balance. If either starter exits before the 6th and the bullpens take over, low totals like 7.5 are exactly where the variance bites. One three-run inning makes this very sweaty.",
+      "what_were_betting_on": "Both starters going 6+, no crooked innings, the dome doing what the dome does.",
+      "scott_bot_quip": "Two veterans, a dome, and a stingy number. Sometimes the boring bet is the right bet.",
+      "ladder_note": "",
+      "date": "2026-05-16",
+      "status": "PEND",
+      "units_result": null,
+      "clv_cents": null,
+      "result_score": null,
+      "graded_at": null,
+      "slate_assessment": "Big 15-game MLB board with two clear pitching-edge unders standing out \u2014 S\u00e1nchez over Chandler in Pittsburgh and a Martinez/Alcantara matchup in the dome. Rest of the slate is mostly fair-priced or has small SP samples we can't trust.",
+      "slate_vibe": "NORMAL",
+      "published_at": "2026-05-16T13:02:29.804349-04:00"
+    },
+    {
+      "id": "20260516-MLB-PHI-PIT-TOTAL",
+      "sport": "MLB",
+      "game": "PHI @ PIT",
+      "first_pitch_iso": "2026-05-16T16:05:00-04:00",
+      "pick": "Under 8.5",
+      "best_book": "FanDuel",
+      "best_odds": "-115",
+      "book_prices": {
+        "draftkings": "-115",
+        "fanduel": "-115",
+        "betmgm": "-120"
+      },
+      "book_links": {
+        "fanduel": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.578846019&selectionId=7017906",
+        "draftkings": "https://sportsbook.draftkings.com/?outcomes=0OU84796356U850_3",
+        "betmgm": "https://sports.nj.betmgm.com/en/sports?options=19415589-1501825201--85033902&type=Single"
+      },
+      "market": "TOTAL",
+      "confidence": 4,
+      "units": 1.5,
+      "ladder_designation": true,
+      "data_confidence": 0.78,
+      "rules_passed": [
+        "max_juice",
+        "ladder_even_money",
+        "parlay_well_formed",
+        "confidence_units_match",
+        "data_confidence_floor",
+        "pick_type_allowed",
+        "mlb_hr_prop_check",
+        "mlb_run_line_check",
+        "mlb_under_bb_check",
+        "no_same_game_opposite"
+      ],
+      "locked": true,
+      "late_add": false,
+      "late_add_reason": "",
+      "legs": [],
+      "headline": "S\u00e1nchez is pitching like a Cy Young runner-up again, and Chandler walks the ballpark \u2014 at a park that smothers runs.",
+      "the_thesis": "Cristopher S\u00e1nchez is the headline. He's at a 2.11 ERA with a 28.4% strikeout rate against just 5.9% walks and 0.49 HR/9 \u2014 that walk-and-homer profile is the holy trinity of a guy who just doesn't beat himself. He hasn't allowed an earned run across his last 15 innings, with 17 K to 1 BB in that span. He's also averaging 18.4 IP across his last three starts, which matters here \u2014 every inning he goes is an inning Pittsburgh's bullpen doesn't.\\n\\nOn the other side: Bubba Chandler at 4.62 ERA with a 15.6% walk rate, which is genuinely bad \u2014 among qualified starters that's the kind of number that produces traffic every inning. Even when he limits damage, he typically tops out around 13 IP across his last three starts and leaves things in middle relief. PNC Park does him zero favors and does us a lot \u2014 runs PF 0.95, HR PF 0.91. The H2H total has gone under in 6 of the last 9 matchups between these clubs, and the Phillies have themselves gone under in 4 of their last 5 before last night's outlier.\\n\\nThe market opened 8.5 and held there across all three books \u2014 nothing has moved off this number, which tells you the sharps are comfortable here. We're getting it at the same number they are.",
+      "the_data": [
+        {
+          "label": "S\u00e1nchez ERA / xFIP profile",
+          "value": "2.11 ERA, 28.4 K%, 5.9 BB%, 0.49 HR/9",
+          "context": "elite across the board"
+        },
+        {
+          "label": "S\u00e1nchez recent form",
+          "value": "0 ER over last 15 IP, 17 K / 1 BB",
+          "context": "peak form"
+        },
+        {
+          "label": "Chandler walk rate",
+          "value": "15.6 BB%",
+          "context": "bottom-tier \u2014 traffic every inning"
+        },
+        {
+          "label": "Chandler HR/9",
+          "value": "1.38",
+          "context": "below average"
+        },
+        {
+          "label": "PNC Park factors",
+          "value": "0.95 runs / 0.91 HR",
+          "context": "pitcher-friendly"
+        },
+        {
+          "label": "H2H L9 totals",
+          "value": "Under 6-3",
+          "context": "trend with us"
+        },
+        {
+          "label": "Total movement",
+          "value": "Opened 8.5, sits 8.5",
+          "context": "flat \u2014 sharps not chasing over"
+        }
+      ],
+      "the_market": "Total opened at 8.5 and sits at 8.5 across all three of our books. No movement, no juice creep \u2014 the line is sharp and we're getting the number we want.",
+      "weather_park": "PNC Park is one of the better pitcher-friendly venues in baseball (runs PF 0.95, HR PF 0.91), no weather concerns at first pitch.",
+      "case_against": "Schwarber is on a literal historic home run pace \u2014 nine homers in his last eight games, a feat only Albert Belle has matched twice. One swing from him changes everything, and Chandler's stuff is good enough that he could overpower the Phillies on a day his command shows up. If S\u00e1nchez exits at 85 pitches and the Phils pen gives up a crooked number to a Pirates lineup that's hitting .282 at home, we're cooked. The over also cashed last night in this same series \u2014 momentum can carry.",
+      "what_were_betting_on": "S\u00e1nchez goes 6+ innings of 1-2 run ball, Chandler walks himself into trouble but Pittsburgh's pen contains it, neither team puts up a crooked inning.",
+      "scott_bot_quip": "When the Cy Young runner-up faces the guy who hands out free passes like Halloween candy, you don't have to overthink it. Take the under and go enjoy your Saturday.",
+      "ladder_note": "Highest-floor play on the board: massive SP advantage, walk-prone opponent, suppressive park, sharp line that hasn't moved. The variance is contained and the price is right in the even-money pocket.",
+      "date": "2026-05-16",
+      "status": "PEND",
+      "units_result": null,
+      "clv_cents": null,
+      "result_score": null,
+      "graded_at": null,
+      "slate_assessment": "Big 15-game MLB board with two clear pitching-edge unders standing out \u2014 S\u00e1nchez over Chandler in Pittsburgh and a Martinez/Alcantara matchup in the dome. Rest of the slate is mostly fair-priced or has small SP samples we can't trust.",
+      "slate_vibe": "NORMAL",
+      "published_at": "2026-05-16T13:02:29.804237-04:00"
+    }
+  ],
   "ladder": {
     "current_streak": 0,
     "longest_streak": 0,
     "completed_climbs": 0,
     "target": 10,
     "history": [],
-    "updated_at": "2026-05-16T12:59:52.649260-04:00"
+    "updated_at": "2026-05-16T13:02:29.805251-04:00"
   }
 }
