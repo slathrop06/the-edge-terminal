@@ -95,6 +95,7 @@ class Pick(BaseModel):
 
 class HandicapperResponse(BaseModel):
     slate_assessment: str
+    slate_analysis: str = ""    # multi-paragraph "show the work" view of the slate
     slate_vibe: str
     picks: list[Pick] = Field(default_factory=list)
 

@@ -131,6 +131,7 @@ def _pick_to_dict(pick: Pick, response: HandicapperResponse, date_str: str,
     d["result_score"] = None
     d["graded_at"] = None
     d["slate_assessment"] = response.slate_assessment
+    d["slate_analysis"] = getattr(response, "slate_analysis", "") or ""
     d["slate_vibe"] = response.slate_vibe
     d["published_at"] = nyc_now().isoformat()
     d["locked"] = True              # once published, locked

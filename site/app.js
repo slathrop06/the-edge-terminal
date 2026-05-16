@@ -64,11 +64,29 @@
     renderNavRecord();
     renderLadder();
     renderTodayPicks();
+    renderSlateAnalysis();
     renderScopeTabs();
     renderRollups();
     renderRecentForm();
     renderHistory();
     renderUpdated();
+  }
+
+  function renderSlateAnalysis() {
+    const sect = $('#slateAnalysisSection');
+    const body = $('#slateAnalysisBody');
+    const picks = state.data.today_picks || [];
+    // Use the slate_analysis from any of today's picks (they all share it)
+    const analysis = picks.find(p => p.slate_analysis)?.slate_analysis
+                  || picks.find(p => p.slate_assessment)?.slate_assessment
+                  || '';
+    if (!analysis.trim()) {
+      sect.style.display = 'none';
+      return;
+    }
+    const paras = analysis.split(/\n\n+/).filter(Boolean);
+    body.innerHTML = paras.map(p => `<p>${escapeHtml(p.trim())}</p>`).join('');
+    sect.style.display = '';
   }
 
   function renderPaused() {
