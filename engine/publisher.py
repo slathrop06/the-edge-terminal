@@ -63,27 +63,27 @@ def publish(
     date_str = date_str or nyc_date()
     history = load_history()
 
-    # Designate ladder pick
-    ladder_pick = ladder.designate_ladder_pick(picks)
+    # Each morning run is the canonical pick set for today.
+    # Wipe any PEND picks for date_str (graded picks are preserved untouched).
+    before = len(history["picks"])
+    history["picks"] = [p for p in history["picks"]
+                        if not (p.get("date") == date_str and p.get("status") == "PEND")]
+    removed = before - len(history["picks"])
+    if removed:
+        logger.info(f"Cleared {removed} prior PEND picks for {date_str} before re-publishing")
 
-    # Avoid duplicate inserts: if a pick with same (date, game, pick) exists, replace it
-    existing_keys = {(p.get("date"), p.get("game"), p.get("pick")): i
-                     for i, p in enumerate(history["picks"])}
+    # Designate ladder pick on the fresh set
+    ladder.designate_ladder_pick(picks)
 
     inserted = 0
     for pick in picks:
         record = _pick_to_dict(pick, response, date_str)
-        key = (date_str, record["game"], record["pick"])
-        if key in existing_keys:
-            history["picks"][existing_keys[key]] = record
-            logger.info(f"REPLACED: {record['pick']} ({record['game']})")
-        else:
-            history["picks"].insert(0, record)
-            inserted += 1
-            logger.info(f"INSERTED: {record['pick']} ({record['game']}) ladder={record.get('ladder_designation', False)}")
+        history["picks"].insert(0, record)
+        inserted += 1
+        logger.info(f"INSERTED: {record['pick']} ({record['game']}) ladder={record.get('ladder_designation', False)}")
 
     save_history(history)
-    logger.info(f"Picks committed: {inserted} new, total now {len(history['picks'])}")
+    logger.info(f"Picks committed: {inserted} for {date_str}, history total {len(history['picks'])}")
 
     # Regenerate site/data.json
     regenerate_site_data(system_paused=system_paused, pause_reason=pause_reason)
