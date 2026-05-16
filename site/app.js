@@ -5,6 +5,27 @@
   const $ = (sel) => document.querySelector(sel);
   const $$ = (sel) => Array.from(document.querySelectorAll(sel));
 
+  // ── Analytics helper ─────────────────────────────────────────────────
+  // Fires Plausible custom events safely. No-ops if Plausible isn't loaded
+  // (dev, ad-blocker, etc).
+  function track(eventName, props = {}) {
+    try {
+      const clean = {};
+      for (const [k, v] of Object.entries(props)) {
+        if (v === undefined || v === null) continue;
+        clean[k] = (typeof v === 'boolean') ? (v ? 'yes' : 'no') : String(v);
+      }
+      if (window.plausible) window.plausible(eventName, { props: clean });
+    } catch (_) { /* swallow */ }
+  }
+  // One-shot events (e.g. "Methodology Viewed" once per session)
+  const _seen = new Set();
+  function trackOnce(eventName, props) {
+    if (_seen.has(eventName)) return;
+    _seen.add(eventName);
+    track(eventName, props);
+  }
+
   const state = {
     data: null,
     analytics: null,
@@ -165,6 +186,31 @@
     grid.querySelectorAll('.pick-card').forEach((el) => {
       el.addEventListener('click', () => openModal(el.dataset.pickId));
     });
+    // Wire book-cell clicks to fire detailed "Bet Slip Opened" events
+    grid.querySelectorAll('.book-cell.linked').forEach((el) => {
+      el.addEventListener('click', (ev) => {
+        // Don't preventDefault — let the link follow
+        const card = el.closest('.pick-card');
+        const pickId = card?.dataset.pickId;
+        const pick = (state.data.today_picks || []).find(p => p.id === pickId);
+        if (!pick) return;
+        const href = el.getAttribute('href') || '';
+        const book = href.includes('draftkings') ? 'draftkings'
+                   : href.includes('fanduel')   ? 'fanduel'
+                   : href.includes('betmgm')    ? 'betmgm'
+                   : 'unknown';
+        track('Bet Slip Opened', {
+          book,
+          pick: pick.pick,
+          game: pick.game,
+          sport: pick.sport,
+          ladder: pick.ladder_designation,
+          late_add: pick.late_add,
+          odds: (pick.book_prices && pick.book_prices[book]) || pick.best_odds,
+          is_best_price: pick.best_book && pick.best_book.toLowerCase().includes(book),
+        });
+      });
+    });
   }
 
   const BOOK_LABEL = { draftkings: 'DK', fanduel: 'FD', betmgm: 'MGM' };
@@ -228,10 +274,24 @@
   }
 
   // ── Pick detail modal ────────────────────────────────────────────────
+  let _modalOpenTs = 0;
+  let _modalOpenPick = null;
   function openModal(pickId) {
     const pick = (state.data.today_picks || []).find(p => p.id === pickId)
                || (state.data.all_picks || []).find(p => p.id === pickId);
     if (!pick) return;
+    _modalOpenTs = Date.now();
+    _modalOpenPick = pick;
+    track('Pick Opened', {
+      pick: pick.pick,
+      game: pick.game,
+      sport: pick.sport,
+      ladder: pick.ladder_designation,
+      late_add: pick.late_add,
+      confidence: pick.confidence,
+      odds: pick.best_odds,
+      win_pct: (typeof pick.win_probability === 'number') ? Math.round(pick.win_probability * 100) : null,
+    });
 
     const dataHTML = (pick.the_data || []).map(d => `
       <div class="m-data-card">
@@ -322,6 +382,20 @@
   }
 
   function closeModal() {
+    if (_modalOpenPick && _modalOpenTs) {
+      const secs = Math.round((Date.now() - _modalOpenTs) / 1000);
+      track('Pick Closed', {
+        pick: _modalOpenPick.pick,
+        game: _modalOpenPick.game,
+        sport: _modalOpenPick.sport,
+        ladder: _modalOpenPick.ladder_designation,
+        read_seconds: secs,
+        // Bucket reading time so the dashboard is readable
+        read_band: secs < 5 ? 'glance' : secs < 20 ? 'skim' : secs < 60 ? 'read' : 'deep_read',
+      });
+    }
+    _modalOpenTs = 0;
+    _modalOpenPick = null;
     $('#pickModal').style.display = 'none';
     document.body.style.overflow = '';
   }
@@ -334,7 +408,12 @@
   function renderScopeTabs() {
     $$('.scope-tab').forEach(btn => {
       btn.classList.toggle('active', btn.dataset.scope === state.scope);
-      btn.onclick = () => { state.scope = btn.dataset.scope; renderScopeTabs(); renderRollups(); };
+      btn.onclick = () => {
+        state.scope = btn.dataset.scope;
+        track('Scope Changed', { scope: state.scope });
+        renderScopeTabs();
+        renderRollups();
+      };
     });
   }
 
@@ -440,6 +519,68 @@
       .replaceAll("'", '&#39;');
   }
   function escapeAttr(s) { return escapeHtml(s).replaceAll('\n', ''); }
+
+  // ── Viewport-based section view tracking ─────────────────────────────
+  // Fires once when each section enters the viewport. Tells us how many
+  // visitors actually scrolled far enough to see the methodology / history.
+  function observeSection(selector, eventName) {
+    const el = document.querySelector(selector);
+    if (!el || !('IntersectionObserver' in window)) return;
+    const obs = new IntersectionObserver((entries) => {
+      for (const entry of entries) {
+        if (entry.isIntersecting) {
+          trackOnce(eventName, {});
+          obs.disconnect();
+        }
+      }
+    }, { threshold: 0.25 });
+    obs.observe(el);
+  }
+
+  // Tracks scroll depth in bands (25/50/75/100%) — proxy for engagement.
+  function setupScrollDepth() {
+    const bands = [25, 50, 75, 100];
+    let lastBand = 0;
+    window.addEventListener('scroll', () => {
+      const h = document.documentElement;
+      const scrolled = h.scrollTop + window.innerHeight;
+      const pct = Math.min(100, Math.round((scrolled / h.scrollHeight) * 100));
+      for (const b of bands) {
+        if (pct >= b && lastBand < b) {
+          lastBand = b;
+          trackOnce(`Scroll ${b}%`, {});
+        }
+      }
+    }, { passive: true });
+  }
+
+  // Track time-on-page when the user leaves
+  function setupTimeOnPage() {
+    const startTs = Date.now();
+    const fire = () => {
+      const secs = Math.round((Date.now() - startTs) / 1000);
+      const band = secs < 10 ? '0-10s'
+                 : secs < 30 ? '10-30s'
+                 : secs < 60 ? '30-60s'
+                 : secs < 180 ? '1-3m'
+                 : secs < 600 ? '3-10m'
+                 : '10m+';
+      track('Session End', { seconds: secs, band });
+    };
+    // Use pagehide (best for mobile) with visibilitychange as fallback
+    window.addEventListener('pagehide', fire, { once: true });
+    document.addEventListener('visibilitychange', () => {
+      if (document.visibilityState === 'hidden') fire();
+    });
+  }
+
+  // Wire it all up after first render
+  document.addEventListener('DOMContentLoaded', () => {
+    observeSection('.methodology', 'Methodology Viewed');
+    observeSection('.history-wrap', 'History Viewed');
+    setupScrollDepth();
+    setupTimeOnPage();
+  });
 
   load();
 })();
