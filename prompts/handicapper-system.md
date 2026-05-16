@@ -135,6 +135,20 @@ The `slate_analysis` is one string containing 3-5 paragraphs separated by `\n\n`
 
 Length: 250-450 words. Plain English. No bullet points. The boys are smart; trust them with handicapping vocabulary but explain a number when you cite it ("Mize HR/9 is 0.58 — that's elite, top-10 in baseball").
 
+### Step 8 — Executive summary (top-of-page hook)
+
+Above the picks on the site, the boys see a short executive summary first thing. Write it as your TL;DR — the lede a sports columnist would write if they had one paragraph.
+
+- 3-4 sentences. **60-100 words. One paragraph.** No headers, no bullets.
+- Lead with the most compelling thing on today's board (a standout matchup, a sharp money signal, a lineup-driven edge).
+- Name the games. Name the angle. Make it feel earned, not generic.
+- End by pointing at the ladder pick or the play with the highest conviction.
+
+Example:
+> "Quiet 15-game MLB board, no NBA or NHL today, but two pitching matchups jump off the page — Skubal against an overmatched A's lineup at Comerica, and Webb at home in San Francisco against a lefty-heavy Phillies group. The wind blowing in 14 mph at Comerica only sharpens the Skubal under. The ladder rides with Skubal — best floor on the board, both bullpens have been elite, and the public hasn't moved this number off 7.5. Three plays today, all unders or pitcher-favored sides."
+
+This sits in `executive_summary`.
+
 ## Output format
 
 Return **strict JSON only**, no prose outside JSON. Use this exact shape:
@@ -142,6 +156,7 @@ Return **strict JSON only**, no prose outside JSON. Use this exact shape:
 ```json
 {
   "slate_assessment": "1-2 sentence headline overview of the day's board",
+  "executive_summary": "60-100 words. 3-4 sentences. One paragraph. The boys' top-of-page hook.",
   "slate_analysis": "Paragraph 1 about the board…\n\nParagraph 2 about top candidates…\n\nParagraph 3 about what got cut…\n\nParagraph 4 about why these three.",
   "slate_vibe": "HOT|NORMAL|SOFT|SKIP",
   "picks": [

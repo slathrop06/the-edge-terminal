@@ -63,6 +63,14 @@
     </div>
   </section>
 
+  <!-- ── EXECUTIVE SUMMARY (top-of-page hook, above picks) ─────────────── -->
+  <section class="exec-summary-section" id="execSummarySection" style="display:none">
+    <div class="exec-summary-inner">
+      <p class="exec-kicker">TODAY'S READ</p>
+      <p class="exec-summary" id="execSummaryBody"></p>
+    </div>
+  </section>
+
   <!-- ── TODAY'S PICKS (now the visual hero) ───────────────────────────── -->
   <section class="section picks-hero">
     <div class="section-head">
@@ -136,6 +144,117 @@
         </thead>
         <tbody><tr><td colspan="8" class="empty-state">No picks yet.</td></tr></tbody>
       </table>
+    </div>
+  </section>
+
+  <!-- ── UNDER THE HOOD — methodology / how Scott Bot works ────────────── -->
+  <section class="section methodology">
+    <div class="section-head">
+      <div>
+        <p class="kicker">UNDER THE HOOD</p>
+        <h2 class="section-title-xl">HOW SCOTT BOT PICKS</h2>
+      </div>
+    </div>
+
+    <p class="meth-intro">
+      Scott Bot is built on a single principle: the truth in sports betting isn't W-L — it's <strong>closing line value</strong> and the gap between a sharp's price and the market's fair line. Every pick on this site goes through a deterministic pipeline before it ships. Here's what's actually happening.
+    </p>
+
+    <div class="meth-grid">
+
+      <div class="meth-card">
+        <div class="meth-num">01</div>
+        <h3 class="meth-title">The Brain</h3>
+        <p>The handicapper is <strong>Claude Opus 4.7</strong> — Anthropic's most capable reasoning model — driven by a system prompt that codifies sharp Vegas discipline (no hype, no fire emojis, no "lock" language, edge-required, max -150 juice). For the 5 PM late-edge check, a cheaper <strong>Claude Sonnet 4.6</strong> pass runs a focused scan for material new info.</p>
+      </div>
+
+      <div class="meth-card">
+        <div class="meth-num">02</div>
+        <h3 class="meth-title">The Data</h3>
+        <p>Per game, the engine harvests:</p>
+        <ul>
+          <li><strong>Probable pitchers</strong> + season + last-3-start splits (ERA, FIP, xFIP, SIERA, K%, BB%, HR/9, Stuff+, WHIP) via the MLB Stats API</li>
+          <li><strong>Team-level offense splits</strong> — wRC+ vs LHP/RHP, recent 14-day runs/game</li>
+          <li><strong>Bullpen quality</strong> — rolling 14-day FIP, closer availability</li>
+          <li><strong>Statcast park factors</strong> for runs and HR (3-year rolling) across all 30 MLB parks</li>
+          <li><strong>Weather</strong> — temp, wind direction + speed at outdoor venues, modeled HR impact (±15% from wind, ±5% from temp)</li>
+          <li><strong>NBA team ratings</strong> — Net/Off/Def Rating, eFG%, TS%, pace, rest days</li>
+          <li><strong>NHL standings + goalie matchup data</strong></li>
+          <li><strong>Live odds across DraftKings, FanDuel, BetMGM</strong> with line movement tracked since open</li>
+        </ul>
+      </div>
+
+      <div class="meth-card">
+        <div class="meth-num">03</div>
+        <h3 class="meth-title">Pre-Computed Signals</h3>
+        <p>Before the model sees the data, the engine pre-computes signal tags it can latch onto — saving tokens and forcing structured reasoning. Signals include:</p>
+        <ul>
+          <li><strong>Reverse line movement</strong> — line drifting <em>against</em> the popular side, a known sharp-money tell</li>
+          <li><strong>Pitcher form divergence</strong> — last-3 xFIP vs season xFIP gap ≥ 0.6</li>
+          <li><strong>Lineup handedness mismatches</strong> — wRC+ gap ≥ 15 between team and opposing handedness</li>
+          <li><strong>Bullpen disparity</strong> — 14-day FIP gap ≥ 1.5 runs</li>
+          <li><strong>Weather HR impact</strong> ≥ ±8%</li>
+          <li><strong>Park-factor extremes</strong> — runs PF ≥ 1.07 or ≤ 0.94</li>
+        </ul>
+      </div>
+
+      <div class="meth-card">
+        <div class="meth-num">04</div>
+        <h3 class="meth-title">Real-Time Web Search</h3>
+        <p>Inside the model call, Scott Bot has tool access to live web search. He uses it for late-breaking signal — confirmed lineup news, surprise scratches, late weather changes, breaking injuries. He doesn't use it for things already in the IntelPack, and he doesn't ramble. Targeted queries only.</p>
+      </div>
+
+      <div class="meth-card">
+        <div class="meth-num">05</div>
+        <h3 class="meth-title">The Validator</h3>
+        <p>After Scott Bot returns picks, <strong>10 deterministic rules</strong> gate every selection before it ships. The validator isn't Claude — it's pure logic, and if a pick fails, it doesn't make the site.</p>
+        <ul>
+          <li>Max -150 juice on straight bets</li>
+          <li>Confidence-to-units must match exactly (5 → 2.0u, 4 → 1.5u, 3 → 1.0u)</li>
+          <li>Pick's data confidence ≥ 0.6</li>
+          <li>Only ML, spread, total, prop, or 2-leg parlay — no teasers, SGPs, live bets, or correlated plays</li>
+          <li>No same-game opposite sides</li>
+          <li>MLB-specific: HR props need HR/9 + L3 ERA data; run lines need top-10 R/G; unders downgrade on starters with BB% > 11</li>
+          <li>Ladder pick odds must land between -125 and +130 (~even money)</li>
+          <li>Parlay legs must be uncorrelated (different games)</li>
+        </ul>
+      </div>
+
+      <div class="meth-card">
+        <div class="meth-num">06</div>
+        <h3 class="meth-title">The Ladder Challenge</h3>
+        <p>One pick per day is the <strong>ladder pick</strong> — priced near even money so a win doubles the unit. The target is 10 wins in a row; pushes carry the streak, losses reset it. When the strongest single play on the board is too short (worse than -125), Scott Bot can build a <strong>2-leg parlay</strong> from uncorrelated games to land near even money. The ladder is about discipline, not heat.</p>
+      </div>
+
+      <div class="meth-card">
+        <div class="meth-num">07</div>
+        <h3 class="meth-title">The Schedule</h3>
+        <ul>
+          <li><strong>11 AM ET — Morning Lock.</strong> Canonical picks for the day. Once locked, they never change.</li>
+          <li><strong>1 PM ET — Midday Refresh.</strong> Re-snapshot odds for CLV math. No model call.</li>
+          <li><strong>5 PM ET — Late-Edge Check.</strong> Sonnet does a focused pass — anything material change since lock-in? 95% of days: nothing new. Occasionally one ⚡ LATE ADD joins the board.</li>
+          <li><strong>11:30 PM ET — Grader.</strong> ESPN finals come in. Each pick marked WIN / LOSS / PUSH. Ladder counter updates. Units P/L computed. Autopsy fires on every loss.</li>
+        </ul>
+      </div>
+
+      <div class="meth-card">
+        <div class="meth-num">08</div>
+        <h3 class="meth-title">The Autopsy</h3>
+        <p>Every loss gets a Claude post-mortem and is classified as one of:</p>
+        <ul>
+          <li><strong>DATA</strong> — the data was wrong, missing, or stale. The pick might've been right with better data.</li>
+          <li><strong>MODEL</strong> — the reasoning was flawed. Wrong thesis, bad odds compare, ignored a factor.</li>
+          <li><strong>VARIANCE</strong> — the pick was sound; the outcome was unlucky.</li>
+        </ul>
+        <p>Loss patterns suggesting new validator rules are queued for review. <strong>Rules are never auto-installed</strong> — humans decide what becomes law.</p>
+      </div>
+
+      <div class="meth-card">
+        <div class="meth-num">09</div>
+        <h3 class="meth-title">The Truth</h3>
+        <p>The W-L record up top is what the boys see. The truth signal is the per-pick <strong>closing line value</strong> (CLV) — the gap between Scott Bot's price at publish and the market's closing line. Long-run positive CLV proves real edge. Win rates fluctuate over small samples. CLV doesn't lie.</p>
+      </div>
+
     </div>
   </section>
 

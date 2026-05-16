@@ -600,6 +600,116 @@ button {
   text-align: center;
 }
 
+/* ── Executive summary band (top-of-page, above picks) ─────────────── */
+.exec-summary-section {
+  background: var(--bg);
+  border-bottom: 1px solid var(--border);
+  padding: 24px 20px;
+}
+.exec-summary-inner {
+  max-width: 920px;
+  margin: 0 auto;
+}
+.exec-kicker {
+  font-size: 10px;
+  font-weight: 800;
+  letter-spacing: 0.22em;
+  color: var(--brand-red);
+  margin-bottom: 8px;
+}
+.exec-summary {
+  font-size: 18px;
+  line-height: 1.55;
+  color: var(--text);
+  font-weight: 500;
+}
+@media (max-width: 600px) {
+  .exec-summary-section { padding: 18px 16px; }
+  .exec-summary { font-size: 16px; line-height: 1.5; }
+}
+
+/* ── Methodology / Under the Hood ───────────────────────────────────── */
+.methodology { background: var(--bg-gray); padding-top: 56px; padding-bottom: 64px; }
+.meth-intro {
+  max-width: 780px;
+  margin: 0 auto 32px;
+  font-size: 17px;
+  line-height: 1.65;
+  color: var(--text);
+  text-align: center;
+}
+.meth-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 16px;
+}
+.meth-card {
+  background: var(--bg);
+  border: 1px solid var(--border);
+  border-radius: var(--r-lg);
+  padding: 24px 26px;
+  position: relative;
+  box-shadow: var(--shadow-sm);
+}
+.meth-num {
+  position: absolute;
+  top: 16px; right: 22px;
+  font-family: var(--font-display);
+  font-weight: 900;
+  font-size: 28px;
+  color: var(--brand-red);
+  opacity: 0.85;
+  letter-spacing: -0.02em;
+}
+.meth-title {
+  font-family: var(--font-display);
+  font-weight: 800;
+  font-size: 22px;
+  letter-spacing: -0.01em;
+  margin-bottom: 12px;
+  padding-right: 60px;
+  color: var(--text);
+}
+.meth-card p {
+  font-size: 15px;
+  line-height: 1.6;
+  color: var(--text);
+}
+.meth-card p + p { margin-top: 10px; }
+.meth-card p + ul { margin-top: 8px; }
+.meth-card ul {
+  list-style: none;
+  padding: 0;
+}
+.meth-card ul li {
+  font-size: 14px;
+  line-height: 1.55;
+  color: var(--text);
+  padding-left: 16px;
+  position: relative;
+  margin-bottom: 6px;
+}
+.meth-card ul li::before {
+  content: '';
+  position: absolute;
+  left: 0; top: 9px;
+  width: 6px; height: 6px;
+  border-radius: 50%;
+  background: var(--brand-red);
+}
+.meth-card ul + p { margin-top: 12px; }
+.meth-card strong { font-weight: 700; color: var(--text); }
+.meth-card em { font-style: italic; color: var(--text-dim); }
+
+@media (max-width: 720px) {
+  .meth-grid { grid-template-columns: 1fr; gap: 12px; }
+  .meth-card { padding: 20px 20px; }
+  .meth-num { top: 14px; right: 18px; font-size: 24px; }
+  .meth-title { font-size: 19px; padding-right: 48px; }
+  .meth-card p, .meth-card ul li { font-size: 14px; }
+  .meth-intro { font-size: 15px; }
+}
+
 /* ── Slate analysis ─────────────────────────────────────────────────── */
 .slate-analysis-section { background: var(--bg-gray); }
 .slate-analysis {

@@ -63,6 +63,7 @@
     renderPaused();
     renderNavRecord();
     renderLadder();
+    renderExecSummary();
     renderTodayPicks();
     renderSlateAnalysis();
     renderScopeTabs();
@@ -70,6 +71,21 @@
     renderRecentForm();
     renderHistory();
     renderUpdated();
+  }
+
+  function renderExecSummary() {
+    const sect = $('#execSummarySection');
+    const body = $('#execSummaryBody');
+    const picks = state.data.today_picks || [];
+    const summary = picks.find(p => p.executive_summary)?.executive_summary
+                 || picks.find(p => p.slate_assessment)?.slate_assessment
+                 || '';
+    if (!summary.trim()) {
+      sect.style.display = 'none';
+      return;
+    }
+    body.textContent = summary.trim();
+    sect.style.display = '';
   }
 
   function renderSlateAnalysis() {
