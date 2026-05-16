@@ -3,7 +3,7 @@
 > An AI-powered handicapper using advanced analytics to create the edge.
 > Three picks daily. One ladder pick carries the streak. Paper-traded. Tracked publicly.
 
-Live: **https://the-edge-terminal.netlify.app/** (custom domain `scottbotpicks.com` planned)
+Live: **https://scottbotpicks.com/** (also reachable at the-edge-terminal.netlify.app)
 
 Scott Bot (Claude Opus 4.7) reads every morning's MLB / NBA / NHL / NFL / CFB slate, calls in real odds + pitcher splits + park factors + line movement + late news, and writes up to three picks with full analytical breakdowns. One pick per day is designated the **ladder pick** — get 10 ladder wins in a row and you complete a climb.
 
