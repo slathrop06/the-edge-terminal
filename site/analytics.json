@@ -1,0 +1,458 @@
+{
+  "generated_at": "2026-05-16T10:27:35.587112-04:00",
+  "scopes": {
+    "daily": {
+      "overall": {
+        "record": "0-0-0",
+        "wins": 0,
+        "losses": 0,
+        "pushes": 0,
+        "total_picks": 2,
+        "units_pl": 0,
+        "roi_pct": 0.0,
+        "win_rate_pct": 0.0,
+        "avg_clv_cents": 0.0,
+        "longest_w_streak": 0,
+        "longest_l_streak": 0,
+        "biggest_win_units": 0,
+        "biggest_loss_units": 0
+      },
+      "by_sport": {
+        "MLB": {
+          "record": "0-0-0",
+          "wins": 0,
+          "losses": 0,
+          "pushes": 0,
+          "total_picks": 2,
+          "units_pl": 0,
+          "roi_pct": 0.0,
+          "win_rate_pct": 0.0,
+          "avg_clv_cents": 0.0,
+          "longest_w_streak": 0,
+          "longest_l_streak": 0,
+          "biggest_win_units": 0,
+          "biggest_loss_units": 0
+        }
+      },
+      "by_confidence": {
+        "3": {
+          "record": "0-0-0",
+          "wins": 0,
+          "losses": 0,
+          "pushes": 0,
+          "total_picks": 1,
+          "units_pl": 0,
+          "roi_pct": 0.0,
+          "win_rate_pct": 0.0,
+          "avg_clv_cents": 0.0,
+          "longest_w_streak": 0,
+          "longest_l_streak": 0,
+          "biggest_win_units": 0,
+          "biggest_loss_units": 0
+        },
+        "4": {
+          "record": "0-0-0",
+          "wins": 0,
+          "losses": 0,
+          "pushes": 0,
+          "total_picks": 1,
+          "units_pl": 0,
+          "roi_pct": 0.0,
+          "win_rate_pct": 0.0,
+          "avg_clv_cents": 0.0,
+          "longest_w_streak": 0,
+          "longest_l_streak": 0,
+          "biggest_win_units": 0,
+          "biggest_loss_units": 0
+        }
+      },
+      "by_pick_type": {
+        "TOTAL": {
+          "record": "0-0-0",
+          "wins": 0,
+          "losses": 0,
+          "pushes": 0,
+          "total_picks": 2,
+          "units_pl": 0,
+          "roi_pct": 0.0,
+          "win_rate_pct": 0.0,
+          "avg_clv_cents": 0.0,
+          "longest_w_streak": 0,
+          "longest_l_streak": 0,
+          "biggest_win_units": 0,
+          "biggest_loss_units": 0
+        }
+      }
+    },
+    "weekly": {
+      "overall": {
+        "record": "0-0-0",
+        "wins": 0,
+        "losses": 0,
+        "pushes": 0,
+        "total_picks": 2,
+        "units_pl": 0,
+        "roi_pct": 0.0,
+        "win_rate_pct": 0.0,
+        "avg_clv_cents": 0.0,
+        "longest_w_streak": 0,
+        "longest_l_streak": 0,
+        "biggest_win_units": 0,
+        "biggest_loss_units": 0
+      },
+      "by_sport": {
+        "MLB": {
+          "record": "0-0-0",
+          "wins": 0,
+          "losses": 0,
+          "pushes": 0,
+          "total_picks": 2,
+          "units_pl": 0,
+          "roi_pct": 0.0,
+          "win_rate_pct": 0.0,
+          "avg_clv_cents": 0.0,
+          "longest_w_streak": 0,
+          "longest_l_streak": 0,
+          "biggest_win_units": 0,
+          "biggest_loss_units": 0
+        }
+      },
+      "by_confidence": {
+        "3": {
+          "record": "0-0-0",
+          "wins": 0,
+          "losses": 0,
+          "pushes": 0,
+          "total_picks": 1,
+          "units_pl": 0,
+          "roi_pct": 0.0,
+          "win_rate_pct": 0.0,
+          "avg_clv_cents": 0.0,
+          "longest_w_streak": 0,
+          "longest_l_streak": 0,
+          "biggest_win_units": 0,
+          "biggest_loss_units": 0
+        },
+        "4": {
+          "record": "0-0-0",
+          "wins": 0,
+          "losses": 0,
+          "pushes": 0,
+          "total_picks": 1,
+          "units_pl": 0,
+          "roi_pct": 0.0,
+          "win_rate_pct": 0.0,
+          "avg_clv_cents": 0.0,
+          "longest_w_streak": 0,
+          "longest_l_streak": 0,
+          "biggest_win_units": 0,
+          "biggest_loss_units": 0
+        }
+      },
+      "by_pick_type": {
+        "TOTAL": {
+          "record": "0-0-0",
+          "wins": 0,
+          "losses": 0,
+          "pushes": 0,
+          "total_picks": 2,
+          "units_pl": 0,
+          "roi_pct": 0.0,
+          "win_rate_pct": 0.0,
+          "avg_clv_cents": 0.0,
+          "longest_w_streak": 0,
+          "longest_l_streak": 0,
+          "biggest_win_units": 0,
+          "biggest_loss_units": 0
+        }
+      }
+    },
+    "monthly": {
+      "overall": {
+        "record": "0-0-0",
+        "wins": 0,
+        "losses": 0,
+        "pushes": 0,
+        "total_picks": 2,
+        "units_pl": 0,
+        "roi_pct": 0.0,
+        "win_rate_pct": 0.0,
+        "avg_clv_cents": 0.0,
+        "longest_w_streak": 0,
+        "longest_l_streak": 0,
+        "biggest_win_units": 0,
+        "biggest_loss_units": 0
+      },
+      "by_sport": {
+        "MLB": {
+          "record": "0-0-0",
+          "wins": 0,
+          "losses": 0,
+          "pushes": 0,
+          "total_picks": 2,
+          "units_pl": 0,
+          "roi_pct": 0.0,
+          "win_rate_pct": 0.0,
+          "avg_clv_cents": 0.0,
+          "longest_w_streak": 0,
+          "longest_l_streak": 0,
+          "biggest_win_units": 0,
+          "biggest_loss_units": 0
+        }
+      },
+      "by_confidence": {
+        "3": {
+          "record": "0-0-0",
+          "wins": 0,
+          "losses": 0,
+          "pushes": 0,
+          "total_picks": 1,
+          "units_pl": 0,
+          "roi_pct": 0.0,
+          "win_rate_pct": 0.0,
+          "avg_clv_cents": 0.0,
+          "longest_w_streak": 0,
+          "longest_l_streak": 0,
+          "biggest_win_units": 0,
+          "biggest_loss_units": 0
+        },
+        "4": {
+          "record": "0-0-0",
+          "wins": 0,
+          "losses": 0,
+          "pushes": 0,
+          "total_picks": 1,
+          "units_pl": 0,
+          "roi_pct": 0.0,
+          "win_rate_pct": 0.0,
+          "avg_clv_cents": 0.0,
+          "longest_w_streak": 0,
+          "longest_l_streak": 0,
+          "biggest_win_units": 0,
+          "biggest_loss_units": 0
+        }
+      },
+      "by_pick_type": {
+        "TOTAL": {
+          "record": "0-0-0",
+          "wins": 0,
+          "losses": 0,
+          "pushes": 0,
+          "total_picks": 2,
+          "units_pl": 0,
+          "roi_pct": 0.0,
+          "win_rate_pct": 0.0,
+          "avg_clv_cents": 0.0,
+          "longest_w_streak": 0,
+          "longest_l_streak": 0,
+          "biggest_win_units": 0,
+          "biggest_loss_units": 0
+        }
+      }
+    },
+    "yearly": {
+      "overall": {
+        "record": "0-0-0",
+        "wins": 0,
+        "losses": 0,
+        "pushes": 0,
+        "total_picks": 2,
+        "units_pl": 0,
+        "roi_pct": 0.0,
+        "win_rate_pct": 0.0,
+        "avg_clv_cents": 0.0,
+        "longest_w_streak": 0,
+        "longest_l_streak": 0,
+        "biggest_win_units": 0,
+        "biggest_loss_units": 0
+      },
+      "by_sport": {
+        "MLB": {
+          "record": "0-0-0",
+          "wins": 0,
+          "losses": 0,
+          "pushes": 0,
+          "total_picks": 2,
+          "units_pl": 0,
+          "roi_pct": 0.0,
+          "win_rate_pct": 0.0,
+          "avg_clv_cents": 0.0,
+          "longest_w_streak": 0,
+          "longest_l_streak": 0,
+          "biggest_win_units": 0,
+          "biggest_loss_units": 0
+        }
+      },
+      "by_confidence": {
+        "3": {
+          "record": "0-0-0",
+          "wins": 0,
+          "losses": 0,
+          "pushes": 0,
+          "total_picks": 1,
+          "units_pl": 0,
+          "roi_pct": 0.0,
+          "win_rate_pct": 0.0,
+          "avg_clv_cents": 0.0,
+          "longest_w_streak": 0,
+          "longest_l_streak": 0,
+          "biggest_win_units": 0,
+          "biggest_loss_units": 0
+        },
+        "4": {
+          "record": "0-0-0",
+          "wins": 0,
+          "losses": 0,
+          "pushes": 0,
+          "total_picks": 1,
+          "units_pl": 0,
+          "roi_pct": 0.0,
+          "win_rate_pct": 0.0,
+          "avg_clv_cents": 0.0,
+          "longest_w_streak": 0,
+          "longest_l_streak": 0,
+          "biggest_win_units": 0,
+          "biggest_loss_units": 0
+        }
+      },
+      "by_pick_type": {
+        "TOTAL": {
+          "record": "0-0-0",
+          "wins": 0,
+          "losses": 0,
+          "pushes": 0,
+          "total_picks": 2,
+          "units_pl": 0,
+          "roi_pct": 0.0,
+          "win_rate_pct": 0.0,
+          "avg_clv_cents": 0.0,
+          "longest_w_streak": 0,
+          "longest_l_streak": 0,
+          "biggest_win_units": 0,
+          "biggest_loss_units": 0
+        }
+      }
+    },
+    "all_time": {
+      "overall": {
+        "record": "0-0-0",
+        "wins": 0,
+        "losses": 0,
+        "pushes": 0,
+        "total_picks": 2,
+        "units_pl": 0,
+        "roi_pct": 0.0,
+        "win_rate_pct": 0.0,
+        "avg_clv_cents": 0.0,
+        "longest_w_streak": 0,
+        "longest_l_streak": 0,
+        "biggest_win_units": 0,
+        "biggest_loss_units": 0
+      },
+      "by_sport": {
+        "MLB": {
+          "record": "0-0-0",
+          "wins": 0,
+          "losses": 0,
+          "pushes": 0,
+          "total_picks": 2,
+          "units_pl": 0,
+          "roi_pct": 0.0,
+          "win_rate_pct": 0.0,
+          "avg_clv_cents": 0.0,
+          "longest_w_streak": 0,
+          "longest_l_streak": 0,
+          "biggest_win_units": 0,
+          "biggest_loss_units": 0
+        }
+      },
+      "by_confidence": {
+        "3": {
+          "record": "0-0-0",
+          "wins": 0,
+          "losses": 0,
+          "pushes": 0,
+          "total_picks": 1,
+          "units_pl": 0,
+          "roi_pct": 0.0,
+          "win_rate_pct": 0.0,
+          "avg_clv_cents": 0.0,
+          "longest_w_streak": 0,
+          "longest_l_streak": 0,
+          "biggest_win_units": 0,
+          "biggest_loss_units": 0
+        },
+        "4": {
+          "record": "0-0-0",
+          "wins": 0,
+          "losses": 0,
+          "pushes": 0,
+          "total_picks": 1,
+          "units_pl": 0,
+          "roi_pct": 0.0,
+          "win_rate_pct": 0.0,
+          "avg_clv_cents": 0.0,
+          "longest_w_streak": 0,
+          "longest_l_streak": 0,
+          "biggest_win_units": 0,
+          "biggest_loss_units": 0
+        }
+      },
+      "by_pick_type": {
+        "TOTAL": {
+          "record": "0-0-0",
+          "wins": 0,
+          "losses": 0,
+          "pushes": 0,
+          "total_picks": 2,
+          "units_pl": 0,
+          "roi_pct": 0.0,
+          "win_rate_pct": 0.0,
+          "avg_clv_cents": 0.0,
+          "longest_w_streak": 0,
+          "longest_l_streak": 0,
+          "biggest_win_units": 0,
+          "biggest_loss_units": 0
+        }
+      }
+    }
+  },
+  "current_streak": {
+    "type": "none",
+    "count": 0,
+    "label": "\u2014"
+  },
+  "clv_trend": [],
+  "recent_form": [],
+  "ladder": {
+    "state": {
+      "current_streak": 0,
+      "longest_streak": 0,
+      "completed_climbs": 0,
+      "target": 10,
+      "history": [],
+      "updated_at": "2026-05-16T10:27:35.587093-04:00"
+    },
+    "all_time_record": {
+      "record": "0-0-0",
+      "wins": 0,
+      "losses": 0,
+      "pushes": 0,
+      "total_picks": 1,
+      "units_pl": 0,
+      "roi_pct": 0.0,
+      "win_rate_pct": 0.0,
+      "avg_clv_cents": 0.0,
+      "longest_w_streak": 0,
+      "longest_l_streak": 0,
+      "biggest_win_units": 0,
+      "biggest_loss_units": 0
+    }
+  },
+  "totals": {
+    "all_picks": 2,
+    "sports": [
+      "MLB"
+    ]
+  }
+}

@@ -1,0 +1,13 @@
+.env
+venv/
+__pycache__/
+*.pyc
+*.pyo
+.pytest_cache/
+.netlify/
+.DS_Store
+*.egg-info/
+dist/
+build/
+logs/*.log
+logs/api-cost-*.txt

@@ -1,0 +1,310 @@
+{
+  "generated_at": "2026-05-16T10:27:35.586428-04:00",
+  "today": "2026-05-16",
+  "system_paused": false,
+  "pause_reason": "",
+  "today_picks": [
+    {
+      "id": "20260516-MLB-TOR-DET-TOTAL",
+      "sport": "MLB",
+      "game": "TOR @ DET",
+      "first_pitch_iso": "2026-05-16T13:10:00-04:00",
+      "pick": "Under 8.5",
+      "best_book": "lowvig",
+      "best_odds": "-114",
+      "market": "TOTAL",
+      "confidence": 3,
+      "units": 1.0,
+      "ladder_designation": false,
+      "data_confidence": 0.68,
+      "rules_passed": [
+        "max_juice",
+        "confidence_units_match",
+        "data_confidence_floor",
+        "pick_type_allowed",
+        "mlb_hr_prop_check",
+        "mlb_run_line_check",
+        "mlb_under_bb_check",
+        "no_same_game_opposite"
+      ],
+      "headline": "Mize is dealing, Toronto's running an opener, and a 14-mph wind is blowing straight in from center.",
+      "the_thesis": "The headline number here is the wind. Comerica Park already plays as HR-suppressing (PF 0.95 HR, 0.96 runs) and tonight you've got a 14-mph wind blowing in from center field \u2014 our model has that knocking HR likelihood down 18%. That alone takes a chunk out of the over.\n\nLayer on Casey Mize: 2.90 ERA, 27.3% K rate, 0.58 HR/9, 1.19 WHIP. That's a top-20 starter line and the Blue Jays have to manufacture against him without the long ball working in their favor. Toronto, meanwhile, is running Mason Fluharty as what looks like an opener (5.0 IP per 'start') with a 5.40 ERA \u2014 meaning the Tigers will see Toronto's bullpen for 4-5 innings. The bullpen day cuts both ways for the under, but with the park and weather where they are, Detroit's run production should also be capped.\n\nMarket has held at 8.5 across 9 books \u2014 no movement either way, which tells me the sharps haven't found a side, but the priced-in expectation already accounts for offense. With the wind we have, that should play closer to 7.5-8.",
+      "the_data": [
+        {
+          "label": "Mize ERA / K%",
+          "value": "2.90 / 27.3%",
+          "context": "Genuine top-end SP profile"
+        },
+        {
+          "label": "Mize HR/9",
+          "value": "0.58",
+          "context": "Hard to homer off him"
+        },
+        {
+          "label": "Fluharty role",
+          "value": "Opener (5.0 IP per start)",
+          "context": "Bullpen game for Toronto"
+        },
+        {
+          "label": "Comerica HR factor",
+          "value": "0.95",
+          "context": "HR-suppressing"
+        },
+        {
+          "label": "Wind",
+          "value": "14 mph in from CF",
+          "context": "Estimated -18% HR impact"
+        }
+      ],
+      "the_market": "Total opened 8.5, sits at 8.5 across 9 books \u2014 stable, no sharp action either way. Best price on the under is -114 at lowvig.",
+      "weather_park": "Comerica 70\u00b0F, 14mph wind blowing in from center \u2014 meaningful drag on fly-ball offense. Park already runs- and HR-suppressing.",
+      "case_against": "Bullpen games can go either way: if Toronto's pen has fresh arms and matches up well against Detroit's lineup, the under is fine \u2014 but if Detroit chases an early Fluharty exit and gets into long relief, the runs can pile quickly. Also, the Tigers offense at home isn't punchless. The break-even point on 8.5 is tighter than it looks if either team plates 5+.",
+      "what_were_betting_on": "Mize 6+ innings of low-damage work, wind suppressing the few mistakes that do get hit, Toronto bullpen day not turning into a 7-run inning. Final under 9.",
+      "scott_bot_quip": "Wind in, Mize dealing, Toronto's running an opener parade. That's three reasons the over needs a hero.",
+      "ladder_note": "",
+      "date": "2026-05-16",
+      "status": "PEND",
+      "units_result": null,
+      "clv_cents": null,
+      "result_score": null,
+      "graded_at": null,
+      "slate_assessment": "Big MLB board, no other major sports tonight. Data packs are thinner than I'd like on offense splits, but a couple of starting-pitcher matchups jump off the page with clear market mispricing. Two plays I like, one ladder.",
+      "slate_vibe": "NORMAL",
+      "published_at": "2026-05-16T10:27:35.585805-04:00"
+    },
+    {
+      "id": "20260516-MLB-BOS-ATL-TOTAL",
+      "sport": "MLB",
+      "game": "BOS @ ATL",
+      "first_pitch_iso": "2026-05-16T19:15:00-04:00",
+      "pick": "Under 7.5",
+      "best_book": "Bovada",
+      "best_odds": "+100",
+      "market": "TOTAL",
+      "confidence": 4,
+      "units": 1.5,
+      "ladder_designation": true,
+      "data_confidence": 0.72,
+      "rules_passed": [
+        "max_juice",
+        "confidence_units_match",
+        "data_confidence_floor",
+        "pick_type_allowed",
+        "mlb_hr_prop_check",
+        "mlb_run_line_check",
+        "mlb_under_bb_check",
+        "no_same_game_opposite"
+      ],
+      "headline": "Two starters under 2.00 ERA, the worst offense in the NL meets a Braves club playing without Acu\u00f1a, and you can buy the under at plus money.",
+      "the_thesis": "This is a pitching mismatch the market hasn't fully priced. Bryce Elder is sitting on a 1.81 ERA with a 1.01 WHIP \u2014 the lowest of his career \u2014 and against lefties this year hitters are slashing .130/.246/.236. The Red Sox lineup is left-handed-heavy (Duran, Abreu, Mayer, Baldwin) which means Elder gets a platoon party tonight.\n\nThe other side is just as ugly for the over. Payton Tolle's 2.80 FIP and 0.88 WHIP say his 2.78 ERA isn't a mirage \u2014 the underlying stuff backs it up (31% K rate in our pack, 6.9% BB%). He's facing a Braves lineup that's still elite top-to-bottom but is without Ronald Acu\u00f1a Jr. (hamstring) and Sean Murphy (finger), so the version of Atlanta he sees tonight is a tier below the .272 team average.\n\nBoth bullpens have been sharp over the last 10 games \u2014 Braves 2.25 ERA, Red Sox 2.40 \u2014 so even if a starter exits in the 6th, late-inning crooked numbers aren't likely. The Red Sox are 27th in runs scored at 3.8/game. The market sits at 8 with a 7.5 alt available at even money \u2014 that's the number you want.",
+      "the_data": [
+        {
+          "label": "Elder ERA / WHIP",
+          "value": "1.81 / 1.01",
+          "context": "5th-best ERA in MLB, career-low WHIP"
+        },
+        {
+          "label": "Elder vs LHB (2026)",
+          "value": ".130/.246/.236",
+          "context": "Lefties can't touch him, Boston bats lefty-heavy"
+        },
+        {
+          "label": "Tolle FIP / WHIP",
+          "value": "2.80 / 0.88",
+          "context": "Underlying numbers back the ERA"
+        },
+        {
+          "label": "Red Sox runs/game rank",
+          "value": "3.8 (27th)",
+          "context": "Bottom-five offense in MLB"
+        },
+        {
+          "label": "Braves bullpen ERA (L10)",
+          "value": "2.25",
+          "context": "Locked in"
+        },
+        {
+          "label": "Red Sox bullpen ERA (L10)",
+          "value": "2.40",
+          "context": "Also rolling"
+        },
+        {
+          "label": "Acu\u00f1a status",
+          "value": "10-day IL (hamstring)",
+          "context": "Braves lineup downgraded"
+        }
+      ],
+      "the_market": "Consensus total sits at 7.83-8.0 across 9 books, with FanDuel research projecting 59% Braves win probability. The fact that you can still grab 7.5 at +100 on Bovada is the value \u2014 most books are at 8.",
+      "weather_park": "Truist Park is roughly neutral (runs PF 1.02, HR PF 1.04). No outdoor weather concerns flagged.",
+      "case_against": "Tolle has wobbled on four days' rest before (one start with four walks), and Elder only averages 87 pitches per outing \u2014 if he gets pulled at 5.2 IP into a thinner Braves middle relief look, Boston can scratch some runs late. Plus, the Braves offense is the best team average in the NL; if Tolle leaves runners on, Olson and Baldwin punish mistakes. The bear case is one bullpen has a hiccup and we lose 5-3.",
+      "what_were_betting_on": "Both starters going 5.2+ innings, Elder neutralizing the Red Sox lefties, neither pen blowing up, final lands at 7 or fewer.",
+      "scott_bot_quip": "Boston offense is 27th in runs and now they face a guy who turns lefties into Caleb Durbin. The under bets itself.",
+      "ladder_note": "Highest floor on the board: two starters with sub-2.00 ERAs and confirmed back-up underlying metrics, opposing the worst offense in the NL, a depleted Braves lineup, two hot bullpens. The variance dependencies are minimal \u2014 this is what a ladder pick should look like.",
+      "date": "2026-05-16",
+      "status": "PEND",
+      "units_result": null,
+      "clv_cents": null,
+      "result_score": null,
+      "graded_at": null,
+      "slate_assessment": "Big MLB board, no other major sports tonight. Data packs are thinner than I'd like on offense splits, but a couple of starting-pitcher matchups jump off the page with clear market mispricing. Two plays I like, one ladder.",
+      "slate_vibe": "NORMAL",
+      "published_at": "2026-05-16T10:27:35.585725-04:00"
+    }
+  ],
+  "all_picks": [
+    {
+      "id": "20260516-MLB-TOR-DET-TOTAL",
+      "sport": "MLB",
+      "game": "TOR @ DET",
+      "first_pitch_iso": "2026-05-16T13:10:00-04:00",
+      "pick": "Under 8.5",
+      "best_book": "lowvig",
+      "best_odds": "-114",
+      "market": "TOTAL",
+      "confidence": 3,
+      "units": 1.0,
+      "ladder_designation": false,
+      "data_confidence": 0.68,
+      "rules_passed": [
+        "max_juice",
+        "confidence_units_match",
+        "data_confidence_floor",
+        "pick_type_allowed",
+        "mlb_hr_prop_check",
+        "mlb_run_line_check",
+        "mlb_under_bb_check",
+        "no_same_game_opposite"
+      ],
+      "headline": "Mize is dealing, Toronto's running an opener, and a 14-mph wind is blowing straight in from center.",
+      "the_thesis": "The headline number here is the wind. Comerica Park already plays as HR-suppressing (PF 0.95 HR, 0.96 runs) and tonight you've got a 14-mph wind blowing in from center field \u2014 our model has that knocking HR likelihood down 18%. That alone takes a chunk out of the over.\n\nLayer on Casey Mize: 2.90 ERA, 27.3% K rate, 0.58 HR/9, 1.19 WHIP. That's a top-20 starter line and the Blue Jays have to manufacture against him without the long ball working in their favor. Toronto, meanwhile, is running Mason Fluharty as what looks like an opener (5.0 IP per 'start') with a 5.40 ERA \u2014 meaning the Tigers will see Toronto's bullpen for 4-5 innings. The bullpen day cuts both ways for the under, but with the park and weather where they are, Detroit's run production should also be capped.\n\nMarket has held at 8.5 across 9 books \u2014 no movement either way, which tells me the sharps haven't found a side, but the priced-in expectation already accounts for offense. With the wind we have, that should play closer to 7.5-8.",
+      "the_data": [
+        {
+          "label": "Mize ERA / K%",
+          "value": "2.90 / 27.3%",
+          "context": "Genuine top-end SP profile"
+        },
+        {
+          "label": "Mize HR/9",
+          "value": "0.58",
+          "context": "Hard to homer off him"
+        },
+        {
+          "label": "Fluharty role",
+          "value": "Opener (5.0 IP per start)",
+          "context": "Bullpen game for Toronto"
+        },
+        {
+          "label": "Comerica HR factor",
+          "value": "0.95",
+          "context": "HR-suppressing"
+        },
+        {
+          "label": "Wind",
+          "value": "14 mph in from CF",
+          "context": "Estimated -18% HR impact"
+        }
+      ],
+      "the_market": "Total opened 8.5, sits at 8.5 across 9 books \u2014 stable, no sharp action either way. Best price on the under is -114 at lowvig.",
+      "weather_park": "Comerica 70\u00b0F, 14mph wind blowing in from center \u2014 meaningful drag on fly-ball offense. Park already runs- and HR-suppressing.",
+      "case_against": "Bullpen games can go either way: if Toronto's pen has fresh arms and matches up well against Detroit's lineup, the under is fine \u2014 but if Detroit chases an early Fluharty exit and gets into long relief, the runs can pile quickly. Also, the Tigers offense at home isn't punchless. The break-even point on 8.5 is tighter than it looks if either team plates 5+.",
+      "what_were_betting_on": "Mize 6+ innings of low-damage work, wind suppressing the few mistakes that do get hit, Toronto bullpen day not turning into a 7-run inning. Final under 9.",
+      "scott_bot_quip": "Wind in, Mize dealing, Toronto's running an opener parade. That's three reasons the over needs a hero.",
+      "ladder_note": "",
+      "date": "2026-05-16",
+      "status": "PEND",
+      "units_result": null,
+      "clv_cents": null,
+      "result_score": null,
+      "graded_at": null,
+      "slate_assessment": "Big MLB board, no other major sports tonight. Data packs are thinner than I'd like on offense splits, but a couple of starting-pitcher matchups jump off the page with clear market mispricing. Two plays I like, one ladder.",
+      "slate_vibe": "NORMAL",
+      "published_at": "2026-05-16T10:27:35.585805-04:00"
+    },
+    {
+      "id": "20260516-MLB-BOS-ATL-TOTAL",
+      "sport": "MLB",
+      "game": "BOS @ ATL",
+      "first_pitch_iso": "2026-05-16T19:15:00-04:00",
+      "pick": "Under 7.5",
+      "best_book": "Bovada",
+      "best_odds": "+100",
+      "market": "TOTAL",
+      "confidence": 4,
+      "units": 1.5,
+      "ladder_designation": true,
+      "data_confidence": 0.72,
+      "rules_passed": [
+        "max_juice",
+        "confidence_units_match",
+        "data_confidence_floor",
+        "pick_type_allowed",
+        "mlb_hr_prop_check",
+        "mlb_run_line_check",
+        "mlb_under_bb_check",
+        "no_same_game_opposite"
+      ],
+      "headline": "Two starters under 2.00 ERA, the worst offense in the NL meets a Braves club playing without Acu\u00f1a, and you can buy the under at plus money.",
+      "the_thesis": "This is a pitching mismatch the market hasn't fully priced. Bryce Elder is sitting on a 1.81 ERA with a 1.01 WHIP \u2014 the lowest of his career \u2014 and against lefties this year hitters are slashing .130/.246/.236. The Red Sox lineup is left-handed-heavy (Duran, Abreu, Mayer, Baldwin) which means Elder gets a platoon party tonight.\n\nThe other side is just as ugly for the over. Payton Tolle's 2.80 FIP and 0.88 WHIP say his 2.78 ERA isn't a mirage \u2014 the underlying stuff backs it up (31% K rate in our pack, 6.9% BB%). He's facing a Braves lineup that's still elite top-to-bottom but is without Ronald Acu\u00f1a Jr. (hamstring) and Sean Murphy (finger), so the version of Atlanta he sees tonight is a tier below the .272 team average.\n\nBoth bullpens have been sharp over the last 10 games \u2014 Braves 2.25 ERA, Red Sox 2.40 \u2014 so even if a starter exits in the 6th, late-inning crooked numbers aren't likely. The Red Sox are 27th in runs scored at 3.8/game. The market sits at 8 with a 7.5 alt available at even money \u2014 that's the number you want.",
+      "the_data": [
+        {
+          "label": "Elder ERA / WHIP",
+          "value": "1.81 / 1.01",
+          "context": "5th-best ERA in MLB, career-low WHIP"
+        },
+        {
+          "label": "Elder vs LHB (2026)",
+          "value": ".130/.246/.236",
+          "context": "Lefties can't touch him, Boston bats lefty-heavy"
+        },
+        {
+          "label": "Tolle FIP / WHIP",
+          "value": "2.80 / 0.88",
+          "context": "Underlying numbers back the ERA"
+        },
+        {
+          "label": "Red Sox runs/game rank",
+          "value": "3.8 (27th)",
+          "context": "Bottom-five offense in MLB"
+        },
+        {
+          "label": "Braves bullpen ERA (L10)",
+          "value": "2.25",
+          "context": "Locked in"
+        },
+        {
+          "label": "Red Sox bullpen ERA (L10)",
+          "value": "2.40",
+          "context": "Also rolling"
+        },
+        {
+          "label": "Acu\u00f1a status",
+          "value": "10-day IL (hamstring)",
+          "context": "Braves lineup downgraded"
+        }
+      ],
+      "the_market": "Consensus total sits at 7.83-8.0 across 9 books, with FanDuel research projecting 59% Braves win probability. The fact that you can still grab 7.5 at +100 on Bovada is the value \u2014 most books are at 8.",
+      "weather_park": "Truist Park is roughly neutral (runs PF 1.02, HR PF 1.04). No outdoor weather concerns flagged.",
+      "case_against": "Tolle has wobbled on four days' rest before (one start with four walks), and Elder only averages 87 pitches per outing \u2014 if he gets pulled at 5.2 IP into a thinner Braves middle relief look, Boston can scratch some runs late. Plus, the Braves offense is the best team average in the NL; if Tolle leaves runners on, Olson and Baldwin punish mistakes. The bear case is one bullpen has a hiccup and we lose 5-3.",
+      "what_were_betting_on": "Both starters going 5.2+ innings, Elder neutralizing the Red Sox lefties, neither pen blowing up, final lands at 7 or fewer.",
+      "scott_bot_quip": "Boston offense is 27th in runs and now they face a guy who turns lefties into Caleb Durbin. The under bets itself.",
+      "ladder_note": "Highest floor on the board: two starters with sub-2.00 ERAs and confirmed back-up underlying metrics, opposing the worst offense in the NL, a depleted Braves lineup, two hot bullpens. The variance dependencies are minimal \u2014 this is what a ladder pick should look like.",
+      "date": "2026-05-16",
+      "status": "PEND",
+      "units_result": null,
+      "clv_cents": null,
+      "result_score": null,
+      "graded_at": null,
+      "slate_assessment": "Big MLB board, no other major sports tonight. Data packs are thinner than I'd like on offense splits, but a couple of starting-pitcher matchups jump off the page with clear market mispricing. Two plays I like, one ladder.",
+      "slate_vibe": "NORMAL",
+      "published_at": "2026-05-16T10:27:35.585725-04:00"
+    }
+  ],
+  "ladder": {
+    "current_streak": 0,
+    "longest_streak": 0,
+    "completed_climbs": 0,
+    "target": 10,
+    "history": [],
+    "updated_at": "2026-05-16T10:27:35.586436-04:00"
+  }
+}

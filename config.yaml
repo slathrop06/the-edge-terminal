@@ -1,0 +1,37 @@
+sports:
+  enabled: [MLB, NBA, NHL, NFL, CFB]
+
+schedule:
+  morning_et: "10:00"
+  midday_et:  "13:00"
+  evening_et: "17:00"
+  grader_et:  "23:30"
+
+limits:
+  max_picks_per_day: 3
+  max_juice: -150
+  data_confidence_floor: 0.6
+  min_edge_cents: 8
+
+claude:
+  primary_model: "claude-opus-4-7"
+  fallback_model: "claude-sonnet-4-6"
+  temperature: 0.2
+  max_tokens: 8000
+  use_web_search: true
+
+cost_cap:
+  daily_usd: 8.0
+
+ladder:
+  target: 10                    # rungs to complete a climb
+
+odds_api:
+  region: "us"
+  markets: ["h2h", "spreads", "totals"]
+  sports:
+    MLB: "baseball_mlb"
+    NBA: "basketball_nba"
+    NHL: "icehockey_nhl"
+    NFL: "americanfootball_nfl"
+    CFB: "americanfootball_ncaaf"

@@ -1,0 +1,46 @@
+name: Midday Refresh (1 PM + 5 PM ET)
+
+on:
+  schedule:
+    - cron: '0 17 * * *'   # 1 PM ET (EDT)
+    - cron: '0 21 * * *'   # 5 PM ET (EDT)
+  workflow_dispatch: {}
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    concurrency:
+      group: edge-engine
+      cancel-in-progress: false
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 1
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+          cache: 'pip'
+
+      - name: Install deps
+        run: |
+          python -m pip install --upgrade pip
+          pip install -r requirements.txt
+
+      - name: Run midday refresh
+        env:
+          ODDS_API_KEY: ${{ secrets.ODDS_API_KEY }}
+          TZ: America/New_York
+        run: python -m engine.main midday
+
+      - name: Commit + push data updates
+        run: |
+          git config user.name  "scott-bot[bot]"
+          git config user.email "scott-bot@users.noreply.github.com"
+          git add site/data.json site/analytics.json data/*.json || true
+          git diff --cached --quiet && echo "No data changes." || (
+            git commit -m "refresh: midday $(date -u +%Y-%m-%dT%H:%MZ)"
+            git push
+          )

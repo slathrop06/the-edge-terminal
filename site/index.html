@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>THE EDGE — Scott Bot's Daily Picks</title>
+<meta name="description" content="Daily sports picks from Scott Bot. Three a day. Tracked publicly. The boys ride.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&family=Big+Shoulders+Display:wght@600;700;800;900&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<header class="topnav">
+  <div class="topnav-inner">
+    <a class="brand" href="#top">
+      <span class="brand-mark">THE</span>
+      <span class="brand-name">EDGE</span>
+      <span class="brand-tag">SCOTT BOT</span>
+    </a>
+    <div class="nav-record" id="navRecord">
+      <span class="nav-label">RECORD</span>
+      <span class="nav-value" id="navRecordValue">—</span>
+      <span class="nav-label">UNITS</span>
+      <span class="nav-value" id="navUnitsValue">—</span>
+      <span class="nav-label">ROI</span>
+      <span class="nav-value" id="navRoiValue">—</span>
+    </div>
+  </div>
+</header>
+
+<div id="pausedBanner" class="paused-banner" style="display:none">
+  <strong>SYSTEM PAUSED</strong>
+  <span id="pausedReason"></span>
+</div>
+
+<main id="top">
+
+  <!-- ── HERO: LADDER CHALLENGE ────────────────────────────────────────── -->
+  <section class="hero">
+    <div class="hero-inner">
+      <div class="hero-copy">
+        <p class="kicker">LADDER CHALLENGE</p>
+        <h1 class="hero-title">
+          <span id="ladderProgress">— of 10</span>
+        </h1>
+        <p class="hero-sub" id="ladderSub">Climbing for ten in a row. One pick a day carries the streak.</p>
+        <div class="hero-stats">
+          <div class="hero-stat">
+            <span class="hs-label">CURRENT</span>
+            <span class="hs-value" id="ladderCurrent">—</span>
+          </div>
+          <div class="hero-stat">
+            <span class="hs-label">LONGEST</span>
+            <span class="hs-value" id="ladderLongest">—</span>
+          </div>
+          <div class="hero-stat">
+            <span class="hs-label">CLIMBS</span>
+            <span class="hs-value" id="ladderClimbs">—</span>
+          </div>
+        </div>
+      </div>
+      <div class="ladder-graphic" id="ladderGraphic"></div>
+    </div>
+  </section>
+
+  <!-- ── TODAY'S PICKS ─────────────────────────────────────────────────── -->
+  <section class="section">
+    <div class="section-head">
+      <h2 class="section-title">TODAY'S PICKS</h2>
+      <p class="section-sub" id="dateLabel">—</p>
+    </div>
+    <div class="picks-grid" id="picksGrid">
+      <p class="empty-state">Loading today's slate…</p>
+    </div>
+  </section>
+
+  <!-- ── SCOPE TABS + ROLLUPS ──────────────────────────────────────────── -->
+  <section class="section section-gray">
+    <div class="section-head">
+      <h2 class="section-title">RECORD</h2>
+    </div>
+    <div class="scope-tabs" id="scopeTabs">
+      <button class="scope-tab active" data-scope="daily">TODAY</button>
+      <button class="scope-tab" data-scope="weekly">WEEK</button>
+      <button class="scope-tab" data-scope="monthly">MONTH</button>
+      <button class="scope-tab" data-scope="yearly">YEAR</button>
+      <button class="scope-tab" data-scope="all_time">ALL-TIME</button>
+    </div>
+    <div class="rollup-grid" id="rollupGrid">
+      <p class="empty-state">Loading record…</p>
+    </div>
+  </section>
+
+  <!-- ── RECENT FORM TICKER ────────────────────────────────────────────── -->
+  <section class="section">
+    <div class="section-head">
+      <h2 class="section-title">RECENT FORM</h2>
+    </div>
+    <div class="ticker" id="recentForm">
+      <p class="empty-state">No graded picks yet.</p>
+    </div>
+  </section>
+
+  <!-- ── HISTORY TABLE ─────────────────────────────────────────────────── -->
+  <section class="section section-gray">
+    <div class="section-head">
+      <h2 class="section-title">FULL HISTORY</h2>
+    </div>
+    <div class="history-wrap">
+      <table class="history-table" id="historyTable">
+        <thead>
+          <tr>
+            <th>DATE</th>
+            <th>SPORT</th>
+            <th>GAME</th>
+            <th>PICK</th>
+            <th>ODDS</th>
+            <th>UNITS</th>
+            <th>RESULT</th>
+            <th>P/L</th>
+          </tr>
+        </thead>
+        <tbody><tr><td colspan="8" class="empty-state">No picks yet.</td></tr></tbody>
+      </table>
+    </div>
+  </section>
+
+</main>
+
+<footer class="footer">
+  <p>THE EDGE • paper-trade only • Built for the boys, sharpened by the losses.</p>
+  <p class="footer-meta">Updated <span id="updatedAt">—</span> · <a href="#top">back to top</a></p>
+</footer>
+
+<!-- Pick detail modal -->
+<div class="modal" id="pickModal" style="display:none">
+  <div class="modal-backdrop" data-close></div>
+  <div class="modal-card" role="dialog" aria-modal="true">
+    <button class="modal-close" data-close aria-label="Close">×</button>
+    <div id="modalBody"></div>
+  </div>
+</div>
+
+<script src="app.js"></script>
+</body>
+</html>
