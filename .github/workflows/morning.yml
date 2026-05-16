@@ -1,10 +1,11 @@
-name: Morning Picks (6:00 AM ET)
+name: Morning Picks (11:00 AM ET)
 
 on:
   schedule:
-    # 10:00 UTC = 6 AM EDT (Mar–Nov) / 5 AM EST (Nov–Mar). The early start in winter is fine —
-    # picks just go live a touch earlier; cron in GitHub Actions can't be DST-aware.
-    - cron: '0 10 * * *'
+    # 15:00 UTC = 11 AM EDT (Mar–Nov) / 10 AM EST (Nov–Mar).
+    # Late enough that MLB probable pitchers + weather + morning scratches are locked.
+    # Early enough that boys see picks before the 1 PM MLB starts.
+    - cron: '0 15 * * *'
   workflow_dispatch: {}
 
 jobs:

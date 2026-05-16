@@ -2,7 +2,7 @@ sports:
   enabled: [MLB, NBA, NHL, NFL, CFB]
 
 schedule:
-  morning_et: "10:00"
+  morning_et: "11:00"
   midday_et:  "13:00"
   evening_et: "17:00"
   grader_et:  "23:30"

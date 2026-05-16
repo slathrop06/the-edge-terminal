@@ -8,9 +8,10 @@ Scott Bot (Claude Opus 4.7) reads every morning's MLB / NBA / NHL / NFL / CFB sl
 
 ## How it runs
 
-- **6:00 AM ET** — GitHub Actions runs the morning pipeline: harvest intel → call Claude → validate → publish.
-- **1:00 PM + 5:00 PM ET** — Actions re-harvests odds + regenerates the site data.
-- **11:30 PM ET** — Actions grades the day's picks via ESPN finals, updates the ladder, runs autopsy on losses.
+- **11:00 AM ET** — GitHub Actions runs the morning pipeline: harvest intel → call Claude → validate → publish. Picks are **locked** at this point.
+- **1:00 PM ET** — Light refresh: re-snapshot odds for CLV math. No Claude call.
+- **5:00 PM ET** — Late edge check: Sonnet looks for material new info (late scratches, weather, sharp moves) and may add 0-1 picks marked LATE ADD. Morning picks stay locked.
+- **11:30 PM ET** — Grader runs: ESPN finals → WIN/LOSS/PUSH, ladder counter updates, autopsy on losses.
 
 Every job commits the updated `site/data.json` + `site/analytics.json` back to `main`. Netlify auto-deploys on every push. The static site never needs a manual deploy — the boys just refresh the page.
 
