@@ -26,6 +26,17 @@
     track(eventName, props);
   }
 
+  // Single human-readable label for a pick, e.g.
+  //   "Under 7.5 · BOS @ ATL 🪜"  (ladder)
+  //   "Mets ML · NYY @ NYM ⚡"     (late add)
+  function pickLabel(p) {
+    const badges = [];
+    if (p.ladder_designation) badges.push('🪜');
+    if (p.late_add) badges.push('⚡');
+    const tag = badges.length ? ` ${badges.join('')}` : '';
+    return `${p.pick} · ${p.game}${tag}`;
+  }
+
   const state = {
     data: null,
     analytics: null,
@@ -200,6 +211,8 @@
                    : href.includes('betmgm')    ? 'betmgm'
                    : 'unknown';
         track('Bet Slip Opened', {
+          pick_label: pickLabel(pick),
+          pick_id: pick.id,
           book,
           pick: pick.pick,
           game: pick.game,
@@ -283,6 +296,8 @@
     _modalOpenTs = Date.now();
     _modalOpenPick = pick;
     track('Pick Opened', {
+      pick_label: pickLabel(pick),
+      pick_id: pick.id,
       pick: pick.pick,
       game: pick.game,
       sport: pick.sport,
@@ -385,6 +400,8 @@
     if (_modalOpenPick && _modalOpenTs) {
       const secs = Math.round((Date.now() - _modalOpenTs) / 1000);
       track('Pick Closed', {
+        pick_label: pickLabel(_modalOpenPick),
+        pick_id: _modalOpenPick.id,
         pick: _modalOpenPick.pick,
         game: _modalOpenPick.game,
         sport: _modalOpenPick.sport,
