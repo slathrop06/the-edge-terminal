@@ -1,7 +1,221 @@
 {
   "version": 1,
-  "updated_at": "2026-05-16T10:27:35.585843-04:00",
+  "updated_at": "2026-05-16T12:12:41.195947-04:00",
   "picks": [
+    {
+      "id": "20260516-MLB-TOR-DET-UNDER",
+      "sport": "MLB",
+      "game": "TOR @ DET",
+      "first_pitch_iso": "2026-05-16T13:10:00-04:00",
+      "pick": "Under 8.0",
+      "best_book": "BetRivers",
+      "best_odds": "-106",
+      "market": "TOTAL",
+      "confidence": 3,
+      "units": 1.0,
+      "ladder_designation": false,
+      "data_confidence": 0.7,
+      "rules_passed": [
+        "max_juice",
+        "confidence_units_match",
+        "data_confidence_floor",
+        "pick_type_allowed",
+        "mlb_hr_prop_check",
+        "mlb_run_line_check",
+        "mlb_under_bb_check",
+        "no_same_game_opposite"
+      ],
+      "headline": "Mize on a 2.90 ERA run, Toronto in a bullpen game, 14 mph wind blowing straight in from center.",
+      "the_thesis": "Mize has been the steady version of himself this year \u2014 2.90 ERA, 27.3% K rate, 0.58 HR/9 across 31 IP. He's the home starter against a Toronto club that's running Mason Fluharty out there. Fluharty's a 15-inning sample with a 5.40 ERA and a 5.0 IP-per-start average \u2014 this is a bullpen game with an opener tag, which means we're betting against the Tigers offense facing Toronto's relief corps for 5+ innings. That can go either way, which keeps this from being a 4-unit confidence play.\\n\\nWhat tips it under: the wind. 14 mph blowing in from center field at Comerica \u2014 already a 0.95 HR park \u2014 drops the HR environment another ~18%. The total opened 8.5 and has settled at 8.0 on the under side at -106, while the over is sitting at 8.5 \u2014 the half-run gap between the books is the tell. Sharp side is the under at the 8.0 number. Mize's HR-suppression plus the weather plus a Toronto offense that has to grind every at-bat against the Detroit pen makes 8 a reasonable line to play under.",
+      "the_data": [
+        {
+          "label": "Mize ERA / K% / HR9",
+          "value": "2.90 / 27.3% / 0.58",
+          "context": "Stable, above-average RHP"
+        },
+        {
+          "label": "Fluharty ERA / IP",
+          "value": "5.40 / 15 IP",
+          "context": "Effectively an opener"
+        },
+        {
+          "label": "Wind",
+          "value": "14 mph IN from CF",
+          "context": "Cuts HR ~18%"
+        },
+        {
+          "label": "Park (Comerica)",
+          "value": "PF runs 0.96, HR 0.95",
+          "context": "Slight pitcher tilt"
+        },
+        {
+          "label": "Total open vs now",
+          "value": "8.5 \u2192 8.0 (under)",
+          "context": "Line moved toward under"
+        },
+        {
+          "label": "Mize BB%",
+          "value": "8.6%",
+          "context": "Borderline but under 3.5 BB/9 threshold"
+        }
+      ],
+      "the_market": "Total opened around 8.5 and has compressed \u2014 under 8.0 available at -106, over 8.5 still listed at +103. That divergence across 9 books is the market telling you it doesn't know where to land, with sharps leaning under.",
+      "weather_park": "Comerica Park, 70\u00b0F, 14 mph wind straight in from center \u2014 HR impact -18%. Big lean to the under.",
+      "case_against": "Bullpen games are variance bombs. If Toronto's relievers can't find the zone and walk five Tigers in the middle innings, this gets to 9-10 runs without anyone hitting it hard. Also, Fluharty's a lefty \u2014 if Detroit stacks righties and runs up the count, a Toronto pen day can implode.",
+      "what_were_betting_on": "Mize going 6 quality innings, the wind eating one or two would-be homers, Toronto's bullpen committee surviving 5+ without a meltdown inning.",
+      "scott_bot_quip": "Wind in your face at Comerica, an ace on the mound, and the other team handing the ball to whoever's in the pen. Under, please.",
+      "ladder_note": "",
+      "date": "2026-05-16",
+      "status": "PEND",
+      "units_result": null,
+      "clv_cents": null,
+      "result_score": null,
+      "graded_at": null,
+      "slate_assessment": "Big 15-game MLB board with a few clean edges and a lot of noise. Two pitching mismatches stand out (Cleveland over a just-signed Paddack, Mets catching a post-surgery Rod\u00f3n with no command), plus a wind-aided under in Detroit. Skipping the rest \u2014 Coors, deGrom, and the LA/SF nightcaps are coin flips dressed up as plays.",
+      "slate_vibe": "NORMAL",
+      "published_at": "2026-05-16T12:12:41.195851-04:00"
+    },
+    {
+      "id": "20260516-MLB-NYY-NYM-ML",
+      "sport": "MLB",
+      "game": "NYY @ NYM",
+      "first_pitch_iso": "2026-05-16T19:15:00-04:00",
+      "pick": "New York Mets ML",
+      "best_book": "BetRivers",
+      "best_odds": "+112",
+      "market": "MONEYLINE",
+      "confidence": 3,
+      "units": 1.0,
+      "ladder_designation": false,
+      "data_confidence": 0.72,
+      "rules_passed": [
+        "max_juice",
+        "confidence_units_match",
+        "data_confidence_floor",
+        "pick_type_allowed",
+        "mlb_hr_prop_check",
+        "mlb_run_line_check",
+        "mlb_under_bb_check",
+        "no_same_game_opposite"
+      ],
+      "headline": "Rod\u00f3n just walked five in 4.1 innings in his debut. The Mets are home dogs at plus money.",
+      "the_thesis": "Rod\u00f3n's season line \u2014 6.23 ERA, 23.8% walk rate, 4.1 IP \u2014 looks insane on paper because it's a one-start sample from his 2026 debut last Sunday in Milwaukee. We confirmed via reporting that he threw just 42 of 78 pitches for strikes and walked five. He's coming off October elbow surgery to remove a bone spur, and while his velocity is back up (95.7 on the heater), his command is gone right now. That's the version of Rod\u00f3n the Mets are facing tonight.\\n\\nOn the other side, Brazob\u00e1n has been excellent in a small sample: 2.14 ERA, 0.95 WHIP across 21 IP. He's a converted reliever stretched out, so don't expect 7 innings \u2014 but the Mets pen has been the better unit. At +112 the market gives the Mets a 46.6% implied probability. With Rod\u00f3n this scattershot against a Mets lineup that draws walks, plus Citi Field's HR-suppressing factor (0.91) neutralizing the Yankees' biggest weapon (Judge/Bellinger pop), we get to about 52-53% fair. That's roughly 6 cents of edge \u2014 borderline on the 8-cent rule, which is why this is a 3-unit confidence, not a 4.",
+      "the_data": [
+        {
+          "label": "Rod\u00f3n 2026 debut",
+          "value": "4.1 IP, 5 BB, 78 pitches",
+          "context": "Confirmed, May 10 vs MIL"
+        },
+        {
+          "label": "Rod\u00f3n BB%",
+          "value": "23.8%",
+          "context": "Command not back yet post-surgery"
+        },
+        {
+          "label": "Brazob\u00e1n ERA / WHIP",
+          "value": "2.14 / 0.95",
+          "context": "Sharp in 21 IP sample"
+        },
+        {
+          "label": "NYM ML implied vs fair",
+          "value": "46.6% mkt / ~52% fair",
+          "context": "~5-6 cents edge"
+        },
+        {
+          "label": "Citi Field HR factor",
+          "value": "0.91",
+          "context": "Suppresses Yankees power"
+        }
+      ],
+      "the_market": "Line essentially hasn't moved from open \u2014 Mets sit at +112 across 9 books. No sharp signal either direction; the public sees 'Yankees ML' and lays the number without checking who's pitching.",
+      "weather_park": "Citi Field, outdoor, HR factor 0.91 \u2014 that matters with Judge and Bellinger in the box.",
+      "case_against": "Rod\u00f3n could come out tonight and pitch like the All-Star he was in 2024-25. The velocity is real; if the command sharpens up just one tick, the Mets lineup doesn't scare anyone. Brazob\u00e1n has 21 career-stretched-out innings \u2014 if he can't get through 5 it puts the Mets pen in a long-relief spot against the Yankees' lineup, which is the worst outcome.",
+      "what_were_betting_on": "Rod\u00f3n laboring with walks and an early hook, Mets pen handling the back half, one timely Mets rally against a Yankees bullpen that just got swept in Milwaukee.",
+      "scott_bot_quip": "Plus money on the home team against a guy whose elbow was a chop-shop project six months ago. We'll take that price.",
+      "ladder_note": "",
+      "date": "2026-05-16",
+      "status": "PEND",
+      "units_result": null,
+      "clv_cents": null,
+      "result_score": null,
+      "graded_at": null,
+      "slate_assessment": "Big 15-game MLB board with a few clean edges and a lot of noise. Two pitching mismatches stand out (Cleveland over a just-signed Paddack, Mets catching a post-surgery Rod\u00f3n with no command), plus a wind-aided under in Detroit. Skipping the rest \u2014 Coors, deGrom, and the LA/SF nightcaps are coin flips dressed up as plays.",
+      "slate_vibe": "NORMAL",
+      "published_at": "2026-05-16T12:12:41.195764-04:00"
+    },
+    {
+      "id": "20260516-MLB-CIN-CLE-ML",
+      "sport": "MLB",
+      "game": "CIN @ CLE",
+      "first_pitch_iso": "2026-05-16T18:10:00-04:00",
+      "pick": "Cleveland Guardians ML",
+      "best_book": "BetOnline",
+      "best_odds": "-150",
+      "market": "MONEYLINE",
+      "confidence": 4,
+      "units": 1.5,
+      "ladder_designation": true,
+      "data_confidence": 0.78,
+      "rules_passed": [
+        "max_juice",
+        "confidence_units_match",
+        "data_confidence_floor",
+        "pick_type_allowed",
+        "mlb_hr_prop_check",
+        "mlb_run_line_check",
+        "mlb_under_bb_check",
+        "no_same_game_opposite"
+      ],
+      "headline": "Cantillo at 2.98 ERA against a Paddack who was DFA'd ten days ago and just signed his way into this start.",
+      "the_thesis": "This is the cleanest pitching-mismatch on the board. Cantillo has a 2.98 ERA, 21.8% K rate, and an under-1.00 HR/9 over 45.1 IP \u2014 he's not Gerrit Cole, but he's a stable, above-average lefty with a real strikeout pitch. Across the diamond, Chris Paddack has a 7.63 ERA and a 1.79 HR/9 in 30.2 IP. We confirmed he was DFA'd by Miami May 5, released, and signed with the Reds three days ago to plug a rotation hole. He had one bullpen Thursday and that's it \u2014 he's walking into Progressive Field on essentially a fresh-team debut, after a stretch of baseball where he could not get major leaguers out.\\n\\nThe Reds aren't sending him out there because they think he's fixed. They're sending him out there because their rotation is decimated \u2014 Greene, Williamson, and Lowder are all on the IL, and they had no one else. The market has Cleveland at -150, which is right at our max juice ceiling, and the de-vigged implied probability sits at 58.6%. With this pitching gap and Cleveland at home, our fair line is closer to -175. That's about 6-7 cents of edge, plus the situational angle. The line opened with Cleveland at a slightly higher implied 59.5%, so it's drifted half a tick \u2014 minor, but it hasn't moved against us.",
+      "the_data": [
+        {
+          "label": "Cantillo ERA / K%",
+          "value": "2.98 / 21.8%",
+          "context": "Stable, above-average LHP"
+        },
+        {
+          "label": "Paddack ERA / HR9",
+          "value": "7.63 / 1.79",
+          "context": "Worst qualified ERA on the slate"
+        },
+        {
+          "label": "Paddack situation",
+          "value": "DFA'd May 5, signed May 13",
+          "context": "First start with new team after release"
+        },
+        {
+          "label": "CLE ML implied vs fair",
+          "value": "58.6% mkt / ~63% fair",
+          "context": "~5-7 cents of edge"
+        },
+        {
+          "label": "Park (Progressive)",
+          "value": "PF runs 0.97, HR 0.96",
+          "context": "Neutral, slight pitcher tilt"
+        },
+        {
+          "label": "Books shopped",
+          "value": "9",
+          "context": "Healthy market depth"
+        }
+      ],
+      "the_market": "Line opened with Cleveland at -157 equivalent and sits at -150 across 9 books \u2014 slight drift toward Cincy, but nothing that signals sharp money on the Reds. Looks like routine public dog-money on a free-fall pitcher.",
+      "weather_park": "Progressive Field, outdoor, neutral park factors \u2014 no weather edge either way.",
+      "case_against": "Paddack is a known commodity who's pitched 600+ MLB innings \u2014 the 7.63 ERA is a 30-inning sample with a bad team behind him. New environment, new catcher, fresh head \u2014 sometimes guys just go out and throw six decent innings. And -150 means we're laying real juice; one Cantillo blow-up inning and the Reds lineup is competent enough to grind out a win. If the Guardians pen has a wobble, this gets ugly fast.",
+      "what_were_betting_on": "Cantillo going 5-6 innings of two-or-three-run ball, Paddack giving up 4+ early, Cleveland's pen closing it without drama.",
+      "scott_bot_quip": "When a guy gets released by the Marlins and you can bet against him three days later, the universe is handing you a gift. Don't overthink it.",
+      "ladder_note": "Best floor on the board: biggest pitching gap, neutral park, no weather risk, no late-scratch worry on Cantillo. If you're stacking the ladder today, this is the rung.",
+      "date": "2026-05-16",
+      "status": "PEND",
+      "units_result": null,
+      "clv_cents": null,
+      "result_score": null,
+      "graded_at": null,
+      "slate_assessment": "Big 15-game MLB board with a few clean edges and a lot of noise. Two pitching mismatches stand out (Cleveland over a just-signed Paddack, Mets catching a post-surgery Rod\u00f3n with no command), plus a wind-aided under in Detroit. Skipping the rest \u2014 Coors, deGrom, and the LA/SF nightcaps are coin flips dressed up as plays.",
+      "slate_vibe": "NORMAL",
+      "published_at": "2026-05-16T12:12:41.195653-04:00"
+    },
     {
       "id": "20260516-MLB-TOR-DET-TOTAL",
       "sport": "MLB",
