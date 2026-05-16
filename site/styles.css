@@ -401,13 +401,38 @@ button {
   text-align: center;
   border: 1px solid var(--border);
   border-radius: var(--r-sm);
-  padding: 6px 4px;
+  padding: 8px 4px;
   background: var(--bg-gray);
+  display: block;
+  color: inherit;
+  text-decoration: none;
+  transition: transform 0.12s ease, box-shadow 0.12s ease, background 0.12s ease;
+  min-height: 56px;
 }
 .book-cell.best {
   border-color: var(--brand-red);
   background: rgba(215,35,45,0.06);
 }
+.book-cell.linked {
+  cursor: pointer;
+}
+.book-cell.linked:hover, .book-cell.linked:active {
+  transform: translateY(-1px);
+  box-shadow: var(--shadow-sm);
+  background: #FFFFFF;
+  text-decoration: none;
+}
+.book-cell.linked.best:hover, .book-cell.linked.best:active {
+  background: rgba(215,35,45,0.10);
+}
+.book-tap {
+  font-size: 9px;
+  font-weight: 800;
+  letter-spacing: 0.12em;
+  color: var(--text-mute);
+  margin-top: 2px;
+}
+.book-cell.best .book-tap { color: var(--brand-red); }
 .book-name {
   font-size: 10px;
   font-weight: 800;

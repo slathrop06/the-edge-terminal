@@ -155,17 +155,23 @@
 
   function bookPricesHTML(p) {
     const prices = p.book_prices || {};
+    const links = p.book_links || {};
     const keys = ['draftkings', 'fanduel', 'betmgm'];
     const cells = keys.map(k => {
       const odds = prices[k];
+      const link = links[k];
       const isBest = (p.best_book && p.best_book.toLowerCase().includes(k))
                   || (odds && odds === p.best_odds);
-      return `
-        <div class="book-cell${isBest ? ' best' : ''}">
-          <div class="book-name">${BOOK_LABEL[k]}</div>
-          <div class="book-odds">${odds ? escapeHtml(odds) : '—'}</div>
-        </div>
+      const classes = `book-cell${isBest ? ' best' : ''}${link ? ' linked' : ''}`;
+      const inner = `
+        <div class="book-name">${BOOK_LABEL[k]}</div>
+        <div class="book-odds">${odds ? escapeHtml(odds) : '—'}</div>
+        ${link ? '<div class="book-tap">TAP →</div>' : ''}
       `;
+      // Stop propagation so clicking the link doesn't open the modal
+      return link
+        ? `<a class="${classes}" href="${escapeAttr(link)}" target="_blank" rel="noopener noreferrer" onclick="event.stopPropagation()">${inner}</a>`
+        : `<div class="${classes}">${inner}</div>`;
     }).join('');
     return `<div class="book-prices">${cells}</div>`;
   }

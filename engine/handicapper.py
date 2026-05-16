@@ -46,6 +46,9 @@ class Pick(BaseModel):
     # Per-book prices for the SAME pick across DK / FD / MGM, e.g.
     # {"draftkings": "-110", "fanduel": "-105", "betmgm": "-108"}
     book_prices: dict[str, str] = Field(default_factory=dict)
+    # Per-book deep links that pre-populate the bet slip on that book.
+    # Filled by the publisher (not Claude) by matching pick.pick → outcome.
+    book_links: dict[str, str] = Field(default_factory=dict)
     market: str = ""
     confidence: int
     units: float

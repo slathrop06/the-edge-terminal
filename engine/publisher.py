@@ -5,7 +5,10 @@ import json
 from pathlib import Path
 from typing import Optional
 
+import re
+
 from engine.handicapper import Pick, HandicapperResponse
+from engine.intel.types import IntelPack, MarketIntel, BookOdds
 from engine.utils import (
     get_logger, nyc_now, nyc_date, read_json, write_json,
     DATA_DIR, SITE_DIR
@@ -39,6 +42,85 @@ def save_history(history: dict) -> None:
     write_json(PICKS_HISTORY_PATH, history)
 
 
+def _match_pack(packs: list[IntelPack], pick: Pick) -> Optional[IntelPack]:
+    """Find the intel pack matching the pick's game label."""
+    if not packs:
+        return None
+    g = pick.game.lower()
+    sport_packs = [p for p in packs if p.sport == pick.sport]
+    # 1. Full name substring match
+    for p in sport_packs:
+        if p.home_team.lower() in g and p.away_team.lower() in g:
+            return p
+    # 2. Abbreviation match (Claude often writes "TOR @ DET")
+    for p in sport_packs:
+        ha, aa = (p.home_abbr or "").lower(), (p.away_abbr or "").lower()
+        if ha and aa and ha in g and aa in g:
+            return p
+    # 3. Token overlap fallback
+    for p in sport_packs:
+        ht_tokens = [t for t in p.home_team.lower().split() if len(t) > 3]
+        at_tokens = [t for t in p.away_team.lower().split() if len(t) > 3]
+        if any(t in g for t in ht_tokens) and any(t in g for t in at_tokens):
+            return p
+    return None
+
+
+def _book_dict_for_selection(pick: Pick, pack: IntelPack) -> dict[str, BookOdds]:
+    """Pick the right per-book odds dict based on the pick string + market type."""
+    market = pack.market
+    if not market:
+        return {}
+    pl = pick.pick.lower()
+    mkt = pick.market.upper()
+    if mkt in ("ML", "MONEYLINE"):
+        return market.home_ml_by_book if _is_home_pick(pick, pl, pack) else market.away_ml_by_book
+    if mkt in ("RUNLINE", "PUCKLINE", "SPREAD"):
+        return market.home_spread_by_book if _is_home_pick(pick, pl, pack) else market.away_spread_by_book
+    if mkt in ("TOTAL", "OVER", "UNDER"):
+        if "over" in pl:
+            return market.over_by_book
+        if "under" in pl:
+            return market.under_by_book
+    return {}
+
+
+def _is_home_pick(pick: Pick, pick_lower: str, pack: IntelPack) -> bool:
+    """Decide if pick.pick refers to the home or away team. Uses full name,
+    abbreviation, and meaningful tokens from the pack."""
+    home_aliases = {pack.home_team.lower(), (pack.home_abbr or "").lower()}
+    away_aliases = {pack.away_team.lower(), (pack.away_abbr or "").lower()}
+    home_aliases |= {t for t in pack.home_team.lower().split() if len(t) > 3}
+    away_aliases |= {t for t in pack.away_team.lower().split() if len(t) > 3}
+    home_aliases = {a for a in home_aliases if a}
+    away_aliases = {a for a in away_aliases if a}
+    if any(a in pick_lower for a in home_aliases):
+        return True
+    if any(a in pick_lower for a in away_aliases):
+        return False
+    return False
+
+
+def _attach_links_and_prices(pick: Pick, packs: list[IntelPack]) -> None:
+    """Use the matching intel pack to fill pick.book_prices + pick.book_links."""
+    if pick.market.upper() == "PARLAY":
+        return  # parlays don't have a single outcome link
+    pack = _match_pack(packs, pick)
+    if not pack or not pack.market:
+        return
+    books = _book_dict_for_selection(pick, pack)
+    for book_key, odds in books.items():
+        # American odds formatting
+        v = odds.price_american
+        odds_str = f"{v:+d}" if v > 0 else str(v)
+        pick.book_prices.setdefault(book_key, odds_str)
+        if odds.link:
+            pick.book_links[book_key] = odds.link
+    # Fallback to event-level link if no outcome link
+    for book_key, ev_link in pack.market.event_link_by_book.items():
+        pick.book_links.setdefault(book_key, ev_link)
+
+
 def _pick_to_dict(pick: Pick, response: HandicapperResponse, date_str: str,
                   *, late_add: bool = False) -> dict:
     d = pick.model_dump()
@@ -64,6 +146,7 @@ def publish(
     pause_reason: str = "",
     *,
     mode: str = "morning",           # "morning" or "late_add"
+    packs: Optional[list[IntelPack]] = None,
 ) -> dict:
     """Publish picks for date_str.
 
@@ -87,6 +170,14 @@ def publish(
     # Any existing PEND pick for today counts as locked (we published it earlier).
     # The `locked` field was added later; older picks default to locked too.
     has_locked = bool(existing_today)
+
+    # Attach per-book prices + deep links from the matching intel pack
+    if packs:
+        for pick in picks:
+            try:
+                _attach_links_and_prices(pick, packs)
+            except Exception as e:
+                logger.warning(f"Link attach failed for {pick.pick}: {e}")
 
     if mode == "morning":
         if has_locked:

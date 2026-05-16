@@ -42,11 +42,15 @@ def schedule_to_packs(sport: SportCode, espn_data: dict) -> list[IntelPack]:
             start = ev.get("date", "")
             home_name = home["team"].get("displayName") or home["team"].get("name") or home["team"].get("abbreviation", "")
             away_name = away["team"].get("displayName") or away["team"].get("name") or away["team"].get("abbreviation", "")
+            home_abbr = home["team"].get("abbreviation", "")
+            away_abbr = away["team"].get("abbreviation", "")
             packs.append(IntelPack(
                 game_id=f"{sport}-{ev['id']}",
                 sport=sport,
                 home_team=home_name,
                 away_team=away_name,
+                home_abbr=home_abbr,
+                away_abbr=away_abbr,
                 venue=venue,
                 first_pitch_iso=start,
             ))

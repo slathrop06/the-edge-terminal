@@ -28,6 +28,27 @@ SPORT_KEYS: dict[SportCode, str] = {
 ENABLED_BOOKS = {"draftkings", "fanduel", "betmgm"}
 BOOK_DISPLAY = {"draftkings": "DraftKings", "fanduel": "FanDuel", "betmgm": "BetMGM"}
 
+
+def _bm_state_code() -> str:
+    """Read BetMGM state code from config.yaml; default 'nj'."""
+    import yaml
+    try:
+        cfg = yaml.safe_load((Path(__file__).parent.parent.parent / "config.yaml").read_text()) or {}
+        return (cfg.get("odds_api") or {}).get("betmgm_state_code") or "nj"
+    except Exception:
+        return "nj"
+
+
+def _sub_state(url: Optional[str], state_code: str) -> Optional[str]:
+    """BetMGM URLs come back with literal '{state}' placeholder. Replace with config code."""
+    if not url:
+        return url
+    return url.replace("{state}", state_code)
+
+
+# Module path import used inside _bm_state_code
+from pathlib import Path
+
 LINE_HISTORY_PATH = DATA_DIR / "line_history.json"
 
 
@@ -45,6 +66,7 @@ def _fetch_odds(sport_key: str) -> list[dict]:
         "bookmakers": ",".join(sorted(ENABLED_BOOKS)),
         "oddsFormat": "american",
         "dateFormat": "iso",
+        "includeLinks": "true",
     }
     r = requests.get(url, params=params, timeout=20)
     if r.status_code == 401:
@@ -132,32 +154,39 @@ def _build_intel_for_game(game: dict, pack: IntelPack, history: dict) -> MarketI
     totals_seen: list[float] = []
     home_spreads_seen: list[float] = []
     enabled_book_keys_seen: set[str] = set()
+    event_link_by_book: dict[str, str] = {}
+    state_code = _bm_state_code()
 
     for bk in game.get("bookmakers", []):
         book = bk.get("key", "")
         if book not in ENABLED_BOOKS:
             continue
         enabled_book_keys_seen.add(book)
+        # Event-level link (game page on this book)
+        bk_link = _sub_state(bk.get("link"), state_code)
+        if bk_link:
+            event_link_by_book[book] = bk_link
         for mk in bk.get("markets", []):
             mkey = mk.get("key", "")
             for out in mk.get("outcomes", []):
                 name = out.get("name", "")
                 price = out.get("price", 0)
                 point = out.get("point")
+                outcome_link = _sub_state(out.get("link"), state_code)
                 try:
                     price = int(price)
                 except (TypeError, ValueError):
                     continue
                 if mkey == "h2h":
                     side = _team_match(name, pack.home_team, pack.away_team)
-                    odds = BookOdds(book=book, market="h2h", selection=name, price_american=price)
+                    odds = BookOdds(book=book, market="h2h", selection=name, price_american=price, link=outcome_link)
                     if side == "home":
                         home_ml.append(odds); home_ml_by_book[book] = odds
                     elif side == "away":
                         away_ml.append(odds); away_ml_by_book[book] = odds
                 elif mkey == "spreads":
                     side = _team_match(name, pack.home_team, pack.away_team)
-                    odds = BookOdds(book=book, market="spreads", selection=name, line=point, price_american=price)
+                    odds = BookOdds(book=book, market="spreads", selection=name, line=point, price_american=price, link=outcome_link)
                     if side == "home":
                         home_spread.append(odds); home_spread_by_book[book] = odds
                         if point is not None:
@@ -166,7 +195,7 @@ def _build_intel_for_game(game: dict, pack: IntelPack, history: dict) -> MarketI
                         away_spread.append(odds); away_spread_by_book[book] = odds
                 elif mkey == "totals":
                     lower = name.lower()
-                    odds = BookOdds(book=book, market="totals", selection=lower, line=point, price_american=price)
+                    odds = BookOdds(book=book, market="totals", selection=lower, line=point, price_american=price, link=outcome_link)
                     if lower.startswith("over"):
                         over.append(odds); over_by_book[book] = odds
                         if point is not None:
@@ -189,6 +218,7 @@ def _build_intel_for_game(game: dict, pack: IntelPack, history: dict) -> MarketI
         under_by_book=under_by_book,
         consensus_total=(sum(totals_seen) / len(totals_seen)) if totals_seen else None,
         consensus_home_spread=(sum(home_spreads_seen) / len(home_spreads_seen)) if home_spreads_seen else None,
+        event_link_by_book=event_link_by_book,
         book_count=len(enabled_book_keys_seen),
         snapshot_iso=nyc_now().isoformat(),
     )

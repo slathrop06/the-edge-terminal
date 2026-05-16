@@ -61,7 +61,7 @@ def run_morning() -> None:
         response = run_handicapper(packs, claude_cfg)
         valid = validate_picks(response)
         log.info(f"Valid picks after validator: {len(valid)}")
-        publish(valid, response, mode="morning")
+        publish(valid, response, mode="morning", packs=packs)
         log.info("=== MORNING RUN COMPLETE ===")
 
     except Exception as e:
@@ -139,7 +139,7 @@ def run_late_check() -> None:
 
         valid = validate_picks(response)
         log.info(f"Late check: {len(valid)} valid late-add picks")
-        publish(valid, response, mode="late_add")
+        publish(valid, response, mode="late_add", packs=packs)
         log.info("=== LATE-ADD CHECK COMPLETE ===")
     except Exception as e:
         import traceback

@@ -14,6 +14,7 @@ class BookOdds(BaseModel):
     selection: str            # team name or "over"/"under"
     line: Optional[float] = None    # spread or total value
     price_american: int       # American odds
+    link: Optional[str] = None      # deep link: pre-populates bet slip on book
 
 
 class MarketIntel(BaseModel):
@@ -44,6 +45,9 @@ class MarketIntel(BaseModel):
     home_spread_open: Optional[float] = None
     home_ml_open_pct: Optional[float] = None
     reverse_line_movement: Optional[str] = None    # human description, e.g. "Total dropped 8.5→8 despite 67% over"
+
+    # Event-page deep links per book (opens the game on that book)
+    event_link_by_book: dict[str, str] = Field(default_factory=dict)
 
     book_count: int = 0
     snapshot_iso: str = ""
@@ -147,6 +151,8 @@ class IntelPack(BaseModel):
     sport: SportCode
     home_team: str
     away_team: str
+    home_abbr: str = ""
+    away_abbr: str = ""
     venue: str = ""
     first_pitch_iso: str
 

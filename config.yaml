@@ -31,6 +31,9 @@ odds_api:
   markets: ["h2h", "spreads", "totals"]
   # The boys use DK / FD / MGM. Everything else is filtered out.
   books_enabled: ["draftkings", "fanduel", "betmgm"]
+  # BetMGM URLs come back with a {state} placeholder (sports.{state}.betmgm.com).
+  # Set this to the boys' state code (e.g. "nj", "pa", "ny", "va", "mi", "co", "mn").
+  betmgm_state_code: "nj"
   sports:
     MLB: "baseball_mlb"
     NBA: "basketball_nba"
