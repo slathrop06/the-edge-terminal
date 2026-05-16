@@ -19,12 +19,20 @@ from engine.utils import (
 logger = get_logger("handicapper")
 
 SYSTEM_PROMPT_PATH = PROJECT_ROOT / "prompts" / "handicapper-system.md"
+LATE_ADD_PROMPT_PATH = PROJECT_ROOT / "prompts" / "late-add-system.md"
 
 
 class DataPoint(BaseModel):
     label: str
     value: str
     context: str = ""
+
+
+class ParlayLeg(BaseModel):
+    game: str
+    pick: str
+    best_book: str = ""
+    best_odds: str = ""
 
 
 class Pick(BaseModel):
@@ -35,12 +43,21 @@ class Pick(BaseModel):
     pick: str
     best_book: str = ""
     best_odds: str
+    # Per-book prices for the SAME pick across DK / FD / MGM, e.g.
+    # {"draftkings": "-110", "fanduel": "-105", "betmgm": "-108"}
+    book_prices: dict[str, str] = Field(default_factory=dict)
     market: str = ""
     confidence: int
     units: float
     ladder_designation: bool = False
     data_confidence: float = 0.7
     rules_passed: list[str] = Field(default_factory=list)
+    # Lifecycle / lock state — set by publisher
+    locked: bool = True
+    late_add: bool = False
+    late_add_reason: Optional[str] = ""
+    # Parlay support — when market=="PARLAY", legs is non-empty
+    legs: list[ParlayLeg] = Field(default_factory=list)
     headline: str = ""
     the_thesis: str = ""
     the_data: list[DataPoint] = Field(default_factory=list)
@@ -173,6 +190,71 @@ def run_handicapper(
     logger.info(f"vibe={response.slate_vibe}, {len(response.picks)} picks")
     for p in response.picks:
         logger.info(f"  • {p.pick} ({p.game}) conf={p.confidence} u={p.units} ladder={p.ladder_designation}")
+    return response
+
+
+def run_late_add(
+    packs: list[IntelPack],
+    existing_picks: list[dict],
+    config: Optional[dict] = None,
+) -> HandicapperResponse:
+    """Late-afternoon edge check. Uses a focused prompt and Sonnet (cheaper).
+    Returns 0-1 picks marked as late_add. Existing locked picks are listed in
+    the user message so Claude knows what's already locked in."""
+    config = config or {}
+    model = config.get("late_add_model", "claude-sonnet-4-6")
+    daily_cap = float(config.get("daily_cap_usd", 8.0))
+    _check_cost_cap(daily_cap)
+
+    if not LATE_ADD_PROMPT_PATH.exists():
+        raise FileNotFoundError(f"Late-add prompt missing: {LATE_ADD_PROMPT_PATH}")
+    system_prompt = LATE_ADD_PROMPT_PATH.read_text()
+
+    summary_existing = [
+        {"game": p.get("game"), "pick": p.get("pick"), "odds": p.get("best_odds"),
+         "confidence": p.get("confidence"), "ladder": p.get("ladder_designation")}
+        for p in existing_picks
+    ]
+    slate = {
+        "date": nyc_date(),
+        "now_iso": nyc_now().isoformat(),
+        "locked_picks_already_published": summary_existing,
+        "games": [p.model_dump(exclude_none=True) for p in packs],
+    }
+    slate_json = json.dumps(slate, default=str, separators=(",", ":"))
+    if len(slate_json) > 180_000:
+        slate_json = slate_json[:180_000] + "...}"
+
+    user_msg = (
+        f"Late-edge check ({slate['date']}). Locked picks already published this morning "
+        f"are listed above. Review the IntelPacks for material new info since 6 AM and "
+        f"decide if ONE late pick is warranted. Default to zero. Strict JSON.\n\n"
+        f"```json\n{slate_json}\n```"
+    )
+
+    client = anthropic.Anthropic(api_key=os.getenv("ANTHROPIC_API_KEY", ""))
+    tools = [{"type": "web_search_20250305", "name": "web_search", "max_uses": 4}]
+
+    msg = _call_with_tools(client, model, system_prompt, user_msg, tools,
+                           max_tokens=3500, temperature=0.2)
+
+    if msg and msg.usage:
+        cost = estimate_cost(model, msg.usage.input_tokens, msg.usage.output_tokens)
+        total = record_api_cost(cost)
+        logger.info(f"Late-add tokens in={msg.usage.input_tokens} out={msg.usage.output_tokens} "
+                    f"cost=${cost:.4f} day total=${total:.4f}")
+
+    final_text = _extract_text(msg)
+    json_str = _extract_json(final_text)
+    if not json_str:
+        raise ValueError(f"No JSON in late-add output: {final_text[:300]}")
+    parsed = _robust_json_loads(json_str, final_text)
+    response = HandicapperResponse.model_validate(parsed)
+    # Force-mark all picks as late_add for downstream wiring
+    for p in response.picks:
+        p.late_add = True
+        p.ladder_designation = False  # ladder is morning-only
+    logger.info(f"Late-add: vibe={response.slate_vibe}, {len(response.picks)} picks proposed")
     return response
 
 

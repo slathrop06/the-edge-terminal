@@ -61,7 +61,7 @@ def run_morning() -> None:
         response = run_handicapper(packs, claude_cfg)
         valid = validate_picks(response)
         log.info(f"Valid picks after validator: {len(valid)}")
-        publish(valid, response)
+        publish(valid, response, mode="morning")
         log.info("=== MORNING RUN COMPLETE ===")
 
     except Exception as e:
@@ -99,6 +99,59 @@ def run_midday() -> None:
         sys.exit(1)
 
 
+def run_late_check() -> None:
+    """Evening edge check: refresh intel, ask Sonnet for 0-1 late add, publish if any."""
+    from engine.utils import get_logger
+    from engine.intel.orchestrator import harvest_intel
+    from engine.handicapper import run_late_add
+    from engine.validator import validate_picks
+    from engine.publisher import publish, load_history, regenerate_site_data, set_system_paused
+    from engine import analytics
+
+    log = get_logger("main")
+    config = _load_config()
+    log.info("=== LATE-ADD CHECK START ===")
+    try:
+        _cost_cap_check(config)
+        sports = config.get("sports", {}).get("enabled", ["MLB", "NBA", "NHL", "NFL", "CFB"])
+        claude_cfg = config.get("claude", {})
+        claude_cfg["daily_cap_usd"] = config.get("cost_cap", {}).get("daily_usd", 8.0)
+
+        packs = harvest_intel(sports)
+        if not packs:
+            log.info("No games on the board.")
+            regenerate_site_data()
+            analytics.refresh()
+            return
+
+        from engine.utils import nyc_date
+        today = nyc_date()
+        history = load_history()
+        existing = [p for p in history.get("picks", [])
+                    if p.get("date") == today and p.get("status") == "PEND"]
+
+        response = run_late_add(packs, existing, claude_cfg)
+        if not response.picks:
+            log.info("Late check: all quiet — no add today.")
+            regenerate_site_data()
+            analytics.refresh()
+            return
+
+        valid = validate_picks(response)
+        log.info(f"Late check: {len(valid)} valid late-add picks")
+        publish(valid, response, mode="late_add")
+        log.info("=== LATE-ADD CHECK COMPLETE ===")
+    except Exception as e:
+        import traceback
+        log.error(f"LATE-ADD FAILED: {e}\n{traceback.format_exc()}")
+        # Do NOT pause the whole system on a late-check failure.
+        try:
+            regenerate_site_data()
+            analytics.refresh()
+        except Exception:
+            pass
+
+
 def run_grader_job() -> None:
     from engine.utils import get_logger
     from engine.grader import run_grader
@@ -123,10 +176,11 @@ def run_refresh() -> None:
 
 if __name__ == "__main__":
     cmds = {
-        "morning": run_morning,
-        "midday":  run_midday,
-        "grader":  run_grader_job,
-        "refresh": run_refresh,
+        "morning":    run_morning,
+        "midday":     run_midday,
+        "late_check": run_late_check,
+        "grader":     run_grader_job,
+        "refresh":    run_refresh,
     }
     cmd = sys.argv[1] if len(sys.argv) > 1 else "morning"
     fn = cmds.get(cmd)

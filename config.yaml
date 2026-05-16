@@ -29,9 +29,18 @@ ladder:
 odds_api:
   region: "us"
   markets: ["h2h", "spreads", "totals"]
+  # The boys use DK / FD / MGM. Everything else is filtered out.
+  books_enabled: ["draftkings", "fanduel", "betmgm"]
   sports:
     MLB: "baseball_mlb"
     NBA: "basketball_nba"
     NHL: "icehockey_nhl"
     NFL: "americanfootball_nfl"
     CFB: "americanfootball_ncaaf"
+
+# Ladder challenge — target ~even money so a win doubles the unit (1u → 2u total).
+# Picks at odds in this American-odds band qualify as ladder candidates.
+ladder:
+  target: 10
+  odds_min: -125     # most-favored allowed
+  odds_max:  +130    # least-favored allowed

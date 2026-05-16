@@ -68,42 +68,72 @@ def _grade_total(pick: dict, home_score: int, away_score: int) -> Optional[str]:
     return None
 
 
-def _grade_pick(pick: dict, scores: dict) -> tuple[str, Optional[str]]:
-    eid = pick.get("game_id") or pick.get("id", "")
-    sport = pick.get("sport", "")
-    # Try direct match by ESPN id buried in our id format "{SPORT}-{ESPN_ID}-..."
-    found = None
-    for k, v in scores.items():
-        if k in pick.get("id", "") or k.startswith(f"{sport}-"):
-            # Match by team names in game label
-            game = pick.get("game", "")
-            if v["home_team"].lower() in game.lower() or v["away_team"].lower() in game.lower():
-                found = v
-                break
-    if not found:
-        # Token match
-        game = pick.get("game", "").lower()
-        for k, v in scores.items():
-            if v.get("home_team", "").lower() in game and v.get("away_team", "").lower() in game:
-                found = v
-                break
+def _find_score(scores: dict, game_label: str) -> Optional[dict]:
+    gl = game_label.lower()
+    for v in scores.values():
+        if v.get("home_team", "").lower() in gl and v.get("away_team", "").lower() in gl:
+            return v
+    return None
+
+
+def _grade_single(pick_data: dict, scores: dict) -> tuple[str, Optional[str]]:
+    """Grade a single (non-parlay) selection. pick_data needs 'game', 'pick',
+    'market'. Returns (status, result_score)."""
+    found = _find_score(scores, pick_data.get("game", ""))
     if not found or found.get("status_state") != "post":
         return "PEND", None
 
     hs = found["home_score"]; as_ = found["away_score"]
     result_score = f"{as_}-{hs}"
-    market = pick.get("market", "").upper()
+    market = (pick_data.get("market") or "").upper()
     home_name = found["home_team"]; away_name = found["away_team"]
 
+    # Infer market from pick string if missing (parlay legs may not carry market)
+    pick_str = pick_data.get("pick", "").lower()
+    if not market:
+        if "over" in pick_str or "under" in pick_str:
+            market = "TOTAL"
+        elif "ml" in pick_str or "moneyline" in pick_str:
+            market = "ML"
+        elif any(s in pick_str for s in ("-1.5", "+1.5", "-2.5", "+2.5", "run line", "puck line", "spread")):
+            market = "SPREAD"
+
     if market in ("ML", "MONEYLINE"):
-        status = _grade_moneyline(pick, hs, as_, home_name, away_name)
+        status = _grade_moneyline(pick_data, hs, as_, home_name, away_name)
     elif market in ("RUNLINE", "PUCKLINE", "SPREAD"):
-        status = _grade_spread(pick, hs, as_, home_name, away_name)
+        status = _grade_spread(pick_data, hs, as_, home_name, away_name)
     elif market in ("TOTAL", "OVER", "UNDER"):
-        status = _grade_total(pick, hs, as_)
+        status = _grade_total(pick_data, hs, as_)
     else:
-        status = None  # props/parlays need manual grading
+        status = None
     return (status or "PEND"), result_score
+
+
+def _grade_pick(pick: dict, scores: dict) -> tuple[str, Optional[str]]:
+    """Top-level pick grader, handles singles and parlays."""
+    market = (pick.get("market") or "").upper()
+    if market == "PARLAY" and pick.get("legs"):
+        leg_statuses = []
+        leg_scores = []
+        for leg in pick["legs"]:
+            # Each leg is a {game, pick, best_book, best_odds}
+            leg_status, leg_score = _grade_single(leg, scores)
+            leg_statuses.append(leg_status)
+            if leg_score:
+                leg_scores.append(f"{leg.get('game', '?')}:{leg_score}")
+        # If any leg still pending, the parlay is pending
+        if "PEND" in leg_statuses:
+            return "PEND", None
+        # If any leg lost, parlay lost
+        if "LOSS" in leg_statuses:
+            return "LOSS", " | ".join(leg_scores)
+        # If any pushed, parlay typically voids that leg → effectively pushes
+        # Convention: push the whole parlay (conservative; the boys can verify)
+        if "PUSH" in leg_statuses:
+            return "PUSH", " | ".join(leg_scores)
+        # All wins
+        return "WIN", " | ".join(leg_scores)
+    return _grade_single(pick, scores)
 
 
 def run_grader(date_str: Optional[str] = None) -> None:

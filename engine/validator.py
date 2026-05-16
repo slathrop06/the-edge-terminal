@@ -9,20 +9,48 @@ from engine.utils import get_logger, american_value
 logger = get_logger("validator")
 
 ALLOWED_PICK_TYPES = {"ml", "moneyline", "spread", "runline", "puckline",
-                      "total", "over", "under", "prop"}
+                      "total", "over", "under", "prop", "parlay"}
 FORBIDDEN_PICK_TYPES = {"teaser", "sgp", "same game parlay", "live", "in-game", "correlated"}
 
 EXPECTED_UNITS = {5: 2.0, 4: 1.5, 3: 1.0}
 
+# Ladder must be near even money (American odds band)
+LADDER_ODDS_MIN = -125
+LADDER_ODDS_MAX = +130
+
 
 def rule_max_juice(pick: Pick) -> tuple[bool, str]:
     p_lower = pick.pick.lower()
-    if "parlay" in p_lower:
+    if pick.market.upper() == "PARLAY" or "parlay" in p_lower:
         return True, "parlay exempt"
     val = american_value(pick.best_odds)
     if val < -150:
         return False, f"juice {pick.best_odds} worse than -150"
     return True, f"juice OK {pick.best_odds}"
+
+
+def rule_ladder_even_money(pick: Pick) -> tuple[bool, str]:
+    """Ladder picks must be priced ~even money (between LADDER_ODDS_MIN and LADDER_ODDS_MAX)."""
+    if not pick.ladder_designation:
+        return True, "not ladder"
+    val = american_value(pick.best_odds)
+    if val < LADDER_ODDS_MIN or val > LADDER_ODDS_MAX:
+        return False, f"ladder odds {pick.best_odds} outside [{LADDER_ODDS_MIN}, {LADDER_ODDS_MAX}] band"
+    return True, f"ladder odds OK ({pick.best_odds})"
+
+
+def rule_parlay_well_formed(pick: Pick) -> tuple[bool, str]:
+    """If market=PARLAY, must have >=2 legs and they must be in different games."""
+    if pick.market.upper() != "PARLAY":
+        return True, "not parlay"
+    if len(pick.legs) < 2:
+        return False, f"parlay must have >= 2 legs (got {len(pick.legs)})"
+    if len(pick.legs) > 3:
+        return False, f"parlay too long ({len(pick.legs)} legs) — max 3"
+    games = [leg.game for leg in pick.legs]
+    if len(set(games)) < len(games):
+        return False, "parlay legs include same game (correlated)"
+    return True, f"parlay {len(pick.legs)} legs across {len(set(games))} games"
 
 
 def rule_confidence_units_match(pick: Pick) -> tuple[bool, str]:
@@ -129,6 +157,8 @@ def validate_picks(response: HandicapperResponse) -> list[Pick]:
         logger.info(f"--- check: {pick.pick} ({pick.game}) ---")
         rules = [
             ("max_juice",                  rule_max_juice(pick)),
+            ("ladder_even_money",          rule_ladder_even_money(pick)),
+            ("parlay_well_formed",         rule_parlay_well_formed(pick)),
             ("confidence_units_match",     rule_confidence_units_match(pick)),
             ("data_confidence_floor",      rule_data_confidence_floor(pick)),
             ("pick_type_allowed",          rule_pick_type_allowed(pick)),

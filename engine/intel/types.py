@@ -17,6 +17,7 @@ class BookOdds(BaseModel):
 
 
 class MarketIntel(BaseModel):
+    # Best price among enabled books (DK/FD/MGM)
     home_ml_best: Optional[BookOdds] = None
     away_ml_best: Optional[BookOdds] = None
     home_spread_best: Optional[BookOdds] = None
@@ -24,9 +25,18 @@ class MarketIntel(BaseModel):
     over_best: Optional[BookOdds] = None
     under_best: Optional[BookOdds] = None
 
+    # Per-book breakdown so we can render DK/FD/MGM side-by-side
+    # Each dict key is a normalized book key: "draftkings", "fanduel", "betmgm"
+    home_ml_by_book: dict[str, BookOdds] = Field(default_factory=dict)
+    away_ml_by_book: dict[str, BookOdds] = Field(default_factory=dict)
+    home_spread_by_book: dict[str, BookOdds] = Field(default_factory=dict)
+    away_spread_by_book: dict[str, BookOdds] = Field(default_factory=dict)
+    over_by_book: dict[str, BookOdds] = Field(default_factory=dict)
+    under_by_book: dict[str, BookOdds] = Field(default_factory=dict)
+
     consensus_total: Optional[float] = None
     consensus_home_spread: Optional[float] = None
-    home_ml_implied_pct: Optional[float] = None    # de-vigged probability across books
+    home_ml_implied_pct: Optional[float] = None    # de-vigged probability across enabled books
     away_ml_implied_pct: Optional[float] = None
 
     # Movement vs opening line (if we have history; null on first snapshot)

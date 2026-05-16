@@ -291,6 +291,104 @@ button {
   letter-spacing: 0.12em;
   border-bottom-left-radius: var(--r-md);
 }
+.pick-card.late-add {
+  border-color: #F59E0B;
+}
+.pick-card.late-add::before {
+  content: '⚡ LATE ADD';
+  position: absolute;
+  top: 0; right: 0;
+  background: #F59E0B;
+  color: #fff;
+  font-size: 10px;
+  font-weight: 800;
+  padding: 6px 12px;
+  letter-spacing: 0.12em;
+  border-bottom-left-radius: var(--r-md);
+}
+.pick-card.ladder.late-add::before {
+  content: '🪜 LADDER · ⚡ LATE';
+  background: var(--brand-red);
+}
+
+/* DK / FD / MGM price row */
+.book-prices {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 6px;
+  margin: 10px 0 8px;
+}
+.book-cell {
+  text-align: center;
+  border: 1px solid var(--border);
+  border-radius: var(--r-sm);
+  padding: 6px 4px;
+  background: var(--bg-gray);
+}
+.book-cell.best {
+  border-color: var(--brand-red);
+  background: rgba(215,35,45,0.06);
+}
+.book-name {
+  font-size: 10px;
+  font-weight: 800;
+  letter-spacing: 0.12em;
+  color: var(--text-mute);
+}
+.book-cell.best .book-name { color: var(--brand-red); }
+.book-odds {
+  font-family: var(--font-display);
+  font-weight: 700;
+  font-size: 16px;
+  font-variant-numeric: tabular-nums;
+  color: var(--text);
+}
+
+/* Modal: late-add note + parlay legs */
+.m-late-note {
+  margin-top: 14px;
+  padding: 14px 16px;
+  background: #FEF3C7;
+  border: 1px solid #FCD34D;
+  border-radius: var(--r-md);
+  font-size: 13px;
+  color: #78350F;
+}
+.m-legs {
+  display: grid;
+  gap: 8px;
+}
+.m-leg {
+  display: grid;
+  grid-template-columns: 1fr auto;
+  align-items: baseline;
+  gap: 8px;
+  padding: 12px 14px;
+  background: var(--bg-gray);
+  border: 1px solid var(--border);
+  border-radius: var(--r-md);
+}
+.m-leg-game {
+  font-size: 11px;
+  font-weight: 700;
+  letter-spacing: 0.1em;
+  color: var(--text-mute);
+  text-transform: uppercase;
+}
+.m-leg-pick {
+  font-family: var(--font-display);
+  font-weight: 700;
+  font-size: 18px;
+  color: var(--text);
+}
+.m-leg-meta {
+  grid-column: 2;
+  grid-row: 1 / span 2;
+  font-size: 12px;
+  color: var(--text-dim);
+  font-variant-numeric: tabular-nums;
+  font-weight: 600;
+}
 
 .pick-head {
   display: flex;

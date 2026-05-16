@@ -171,14 +171,35 @@
     });
   }
 
+  const BOOK_LABEL = { draftkings: 'DK', fanduel: 'FD', betmgm: 'MGM' };
+
+  function bookPricesHTML(p) {
+    const prices = p.book_prices || {};
+    const keys = ['draftkings', 'fanduel', 'betmgm'];
+    const cells = keys.map(k => {
+      const odds = prices[k];
+      const isBest = (p.best_book && p.best_book.toLowerCase().includes(k))
+                  || (odds && odds === p.best_odds);
+      return `
+        <div class="book-cell${isBest ? ' best' : ''}">
+          <div class="book-name">${BOOK_LABEL[k]}</div>
+          <div class="book-odds">${odds ? escapeHtml(odds) : '—'}</div>
+        </div>
+      `;
+    }).join('');
+    return `<div class="book-prices">${cells}</div>`;
+  }
+
   function pickCardHTML(p) {
     const ladderClass = p.ladder_designation ? ' ladder' : '';
+    const lateClass = p.late_add ? ' late-add' : '';
     const dots = [1, 2, 3, 4, 5].map(n => `<span class="dot${n <= (p.confidence || 0) ? ' on' : ''}"></span>`).join('');
     const time = formatTime(p.first_pitch_iso);
+    const isParlay = (p.market || '').toUpperCase() === 'PARLAY';
     return `
-      <article class="pick-card${ladderClass}" data-pick-id="${escapeAttr(p.id)}">
+      <article class="pick-card${ladderClass}${lateClass}" data-pick-id="${escapeAttr(p.id)}">
         <div class="pick-head">
-          <span class="sport-tag">${escapeHtml(p.sport)}</span>
+          <span class="sport-tag">${escapeHtml(p.sport)}${isParlay ? ' · PARLAY' : ''}</span>
           <span class="confidence-dots" title="Confidence ${p.confidence}/5">${dots}</span>
         </div>
         <div class="pick-game">${escapeHtml(p.game)}</div>
@@ -186,9 +207,9 @@
         <div class="pick-line">${escapeHtml(p.pick)}</div>
         <div class="pick-odds-row">
           <span class="pick-odds">${escapeHtml(p.best_odds || '')}</span>
-          <span>${escapeHtml(p.best_book || '')}</span>
           <span class="pick-units">${formatUnits(p.units)}</span>
         </div>
+        ${bookPricesHTML(p)}
         <div class="pick-headline">${escapeHtml(p.headline || '')}</div>
         <div class="pick-cta">READ THE FULL BREAKDOWN →</div>
       </article>
@@ -218,6 +239,27 @@
       ? `<div class="m-ladder-note"><strong>🪜 LADDER PICK:</strong> ${escapeHtml(pick.ladder_note)}</div>`
       : '';
 
+    const lateBox = pick.late_add
+      ? `<div class="m-late-note"><strong>⚡ LATE ADD:</strong> ${escapeHtml(pick.late_add_reason || 'Material edge identified after morning lock-in.')}</div>`
+      : '';
+
+    const legs = pick.legs || [];
+    const legsBlock = legs.length
+      ? `<div class="m-section"><h4>PARLAY LEGS</h4><div class="m-legs">${
+          legs.map(l => `
+            <div class="m-leg">
+              <div class="m-leg-game">${escapeHtml(l.game)}</div>
+              <div class="m-leg-pick">${escapeHtml(l.pick)}</div>
+              <div class="m-leg-meta">${escapeHtml(l.best_odds || '')} ${escapeHtml(l.best_book || '')}</div>
+            </div>
+          `).join('')
+        }</div></div>`
+      : '';
+
+    const bookGrid = pick.book_prices && Object.keys(pick.book_prices).length
+      ? `<div class="m-section"><h4>BOOK PRICES</h4>${bookPricesHTML(pick)}</div>`
+      : '';
+
     const html = `
       <div class="m-kicker">${escapeHtml(pick.sport)} · ${escapeHtml(pick.market || '')}</div>
       <div class="m-game">${escapeHtml(pick.game)}</div>
@@ -233,6 +275,9 @@
       <p class="m-headline">${escapeHtml(pick.headline || '')}</p>
 
       ${ladderBox}
+      ${lateBox}
+      ${legsBlock}
+      ${bookGrid}
 
       <div class="m-section">
         <h4>THE THESIS</h4>

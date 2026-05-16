@@ -21,6 +21,7 @@ For each game on today's slate, an `IntelPack` containing:
 - **Weather** (outdoor games only): temp, wind, direction, computed HR impact.
 - **Team ratings** (NBA: NET/Off/Def/eFG%/pace; NHL: standings basics; NFL/CFB: light, use web search for depth).
 - **Market**: best price per book for ML/spread/total, consensus, opening-line snapshot (for movement), de-vigged implied probabilities, book count.
+  **The boys only use DraftKings, FanDuel, and BetMGM** — these are the only books in your IntelPack. Pick the book with the best price among the three; quote that book + odds explicitly.
 - **Signals**: a pre-computed short list of edges in the data (line movement, pitcher form, weather, etc.).
 - **News headlines** when available.
 
@@ -72,11 +73,26 @@ The boys' deterministic validator runs after you. Pre-screen so you don't waste 
 - No teasers, SGPs, live bets, correlated plays
 - Cut anything with `data_confidence < 0.6`
 
-### Step 5 — Ladder designation
+### Step 5 — Ladder designation (special rules)
 
-Of your picks, designate **exactly one** as the **ladder pick** via `ladder_designation: true`. The ladder pick is the highest-floor play on the board — not necessarily the highest upside. Best floor = soft opponent, strong supporting metrics, market support, minimal variance dependencies. Explain *why* this pick was chosen for the ladder in `ladder_note`.
+Of your picks, designate **exactly one** as the **ladder pick** via `ladder_designation: true`. The ladder challenge is "double your money 10 days in a row" — so the ladder pick must be priced at **roughly even money** (American odds between **-125 and +130**). A win returns ~2× the wager.
 
-If you have only one pick total, it's the ladder pick by default — flag it.
+The ladder pick is the highest-floor play that lives near even money. Best floor = soft opponent, strong supporting metrics, market support, minimal variance dependencies. Explain in `ladder_note` *why* this is the floor.
+
+**If your strongest single play is priced too short (worse than -125)**, you may construct a **2-leg parlay** to land near even money. Use this freedom when it actually produces a better-expected-value play, not just to game the constraint. To construct:
+
+- Two independent legs, no correlation (don't parlay two sides of the same game).
+- Each leg should be a play you'd otherwise like as a stand-alone pick.
+- Combined American odds must land in the even-money band (-125 to +130).
+- Output:
+  - `market`: `"PARLAY"`
+  - `pick`: `"Parlay: <Leg A> + <Leg B>"` (e.g. `"Parlay: Mets ML + Tigers Under 8.5"`)
+  - `best_odds`: combined American odds (e.g. `"+105"`)
+  - `best_book`: the book where the parlay nets best (usually the same on all three; specify one)
+  - `legs`: `[{"game": "...", "pick": "...", "best_book": "...", "best_odds": "..."}, ...]`
+  - Both legs must use one of DK / FD / MGM and the validator-passing rules.
+
+If you have only one pick total, it's the ladder pick by default.
 If you have zero picks, no ladder today.
 
 ### Step 6 — Write the analysis
@@ -110,12 +126,14 @@ Return **strict JSON only**, no prose outside JSON. Use this exact shape:
       "pick": "Under 8.5",
       "best_book": "FanDuel",
       "best_odds": "-115",
+      "book_prices": {"draftkings": "-110", "fanduel": "-115", "betmgm": "-108"},
       "market": "TOTAL",
       "confidence": 4,
       "units": 1.5,
       "ladder_designation": true,
       "data_confidence": 0.84,
       "rules_passed": ["max_juice_150", "data_confidence_floor", "..."],
+      "legs": [],
       "headline": "Two aces, soft lineups on both sides, sharp money already on the under.",
       "the_thesis": "Paragraph 1...\\n\\nParagraph 2...",
       "the_data": [

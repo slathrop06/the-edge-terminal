@@ -4,18 +4,7 @@ The full system is built locally and verified end-to-end. Today's smoke run prod
 
 ---
 
-## 1) Rotate the exposed API keys (do this first)
-
-Both keys appeared in our chat — they're no longer secret.
-
-- **Anthropic**: https://console.anthropic.com/settings/keys → revoke the current one, create a fresh one.
-- **The Odds API**: https://the-odds-api.com → log in → regenerate key.
-
-Hold the new values; you'll paste them as GitHub Secrets in step 4.
-
----
-
-## 2) Push the new code to your GitHub repo
+## 1) Push the new code to your GitHub repo
 
 The old repo content (`.gitignore`, `README.md`, `update_picks.py`) gets replaced. The repo is already private, so no one else sees the in-flight history.
 
@@ -34,7 +23,7 @@ git push -u origin main --force
 
 ---
 
-## 3) Connect Netlify to the new repo layout
+## 2) Connect Netlify to the new repo layout
 
 The Netlify site (`64f398e6-2d60-4dd7-9064-2b203a6c4a76`) is currently publishing the repo root. We need to point it at `site/`.
 
@@ -49,21 +38,21 @@ Then trigger a deploy: **Deploys → Trigger deploy → Deploy site**.
 
 ---
 
-## 4) Add GitHub Secrets
+## 3) Add GitHub Secrets
 
 In the repo settings:
 
 https://github.com/slathrop06/the-edge-terminal/settings/secrets/actions
 
-Add three repository secrets:
+Add two repository secrets — use the same values from your local `.env`:
 
-- `ANTHROPIC_API_KEY` — your **new** Anthropic key
-- `ODDS_API_KEY` — your **new** Odds API key
-- `OPENWEATHERMAP_API_KEY` — optional, leave blank for now (only used for outdoor MLB weather context)
+- `ANTHROPIC_API_KEY` — the one currently in `.env`
+- `ODDS_API_KEY` — the one currently in `.env` (`ba70bab48d599e1f66b8f55fb9840da0`)
+- `OPENWEATHERMAP_API_KEY` — optional, skip for now (only adds outdoor MLB weather detail)
 
 ---
 
-## 5) Verify the GitHub Actions workflows
+## 4) Verify the GitHub Actions workflows
 
 After the push, go to https://github.com/slathrop06/the-edge-terminal/actions — you'll see three workflows registered:
 
@@ -83,7 +72,7 @@ When it pushes, Netlify will see the commit and redeploy automatically (~30 seco
 
 ---
 
-## 6) That's it
+## 5) That's it
 
 From here forward, the system is autonomous:
 

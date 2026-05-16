@@ -24,6 +24,10 @@ SPORT_KEYS: dict[SportCode, str] = {
     "CFB": "americanfootball_ncaaf",
 }
 
+# Only these three are surfaced anywhere. Easy to extend via config.
+ENABLED_BOOKS = {"draftkings", "fanduel", "betmgm"}
+BOOK_DISPLAY = {"draftkings": "DraftKings", "fanduel": "FanDuel", "betmgm": "BetMGM"}
+
 LINE_HISTORY_PATH = DATA_DIR / "line_history.json"
 
 
@@ -38,6 +42,7 @@ def _fetch_odds(sport_key: str) -> list[dict]:
         "apiKey": api_key,
         "regions": "us",
         "markets": "h2h,spreads,totals",
+        "bookmakers": ",".join(sorted(ENABLED_BOOKS)),
         "oddsFormat": "american",
         "dateFormat": "iso",
     }
@@ -110,18 +115,29 @@ def _opening_snapshot(history: dict, game_id: str, snapshot: dict) -> dict:
 
 
 def _build_intel_for_game(game: dict, pack: IntelPack, history: dict) -> MarketIntel:
-    """Convert one Odds-API game payload to MarketIntel for the matching pack."""
+    """Convert one Odds-API game payload to MarketIntel for the matching pack.
+    Only entries from ENABLED_BOOKS (DK/FD/MGM) are kept."""
     home_ml: list[BookOdds] = []
     away_ml: list[BookOdds] = []
     home_spread: list[BookOdds] = []
     away_spread: list[BookOdds] = []
     over: list[BookOdds] = []
     under: list[BookOdds] = []
+    home_ml_by_book: dict[str, BookOdds] = {}
+    away_ml_by_book: dict[str, BookOdds] = {}
+    home_spread_by_book: dict[str, BookOdds] = {}
+    away_spread_by_book: dict[str, BookOdds] = {}
+    over_by_book: dict[str, BookOdds] = {}
+    under_by_book: dict[str, BookOdds] = {}
     totals_seen: list[float] = []
     home_spreads_seen: list[float] = []
+    enabled_book_keys_seen: set[str] = set()
 
     for bk in game.get("bookmakers", []):
         book = bk.get("key", "")
+        if book not in ENABLED_BOOKS:
+            continue
+        enabled_book_keys_seen.add(book)
         for mk in bk.get("markets", []):
             mkey = mk.get("key", "")
             for out in mk.get("outcomes", []):
@@ -134,26 +150,29 @@ def _build_intel_for_game(game: dict, pack: IntelPack, history: dict) -> MarketI
                     continue
                 if mkey == "h2h":
                     side = _team_match(name, pack.home_team, pack.away_team)
+                    odds = BookOdds(book=book, market="h2h", selection=name, price_american=price)
                     if side == "home":
-                        home_ml.append(BookOdds(book=book, market="h2h", selection=name, price_american=price))
+                        home_ml.append(odds); home_ml_by_book[book] = odds
                     elif side == "away":
-                        away_ml.append(BookOdds(book=book, market="h2h", selection=name, price_american=price))
+                        away_ml.append(odds); away_ml_by_book[book] = odds
                 elif mkey == "spreads":
                     side = _team_match(name, pack.home_team, pack.away_team)
+                    odds = BookOdds(book=book, market="spreads", selection=name, line=point, price_american=price)
                     if side == "home":
-                        home_spread.append(BookOdds(book=book, market="spreads", selection=name, line=point, price_american=price))
+                        home_spread.append(odds); home_spread_by_book[book] = odds
                         if point is not None:
                             home_spreads_seen.append(point)
                     elif side == "away":
-                        away_spread.append(BookOdds(book=book, market="spreads", selection=name, line=point, price_american=price))
+                        away_spread.append(odds); away_spread_by_book[book] = odds
                 elif mkey == "totals":
                     lower = name.lower()
+                    odds = BookOdds(book=book, market="totals", selection=lower, line=point, price_american=price)
                     if lower.startswith("over"):
-                        over.append(BookOdds(book=book, market="totals", selection="over", line=point, price_american=price))
+                        over.append(odds); over_by_book[book] = odds
                         if point is not None:
                             totals_seen.append(point)
                     elif lower.startswith("under"):
-                        under.append(BookOdds(book=book, market="totals", selection="under", line=point, price_american=price))
+                        under.append(odds); under_by_book[book] = odds
 
     mi = MarketIntel(
         home_ml_best=_best_price(home_ml, prefer_high=True),
@@ -162,9 +181,15 @@ def _build_intel_for_game(game: dict, pack: IntelPack, history: dict) -> MarketI
         away_spread_best=_best_price(away_spread, prefer_high=True),
         over_best=_best_price(over, prefer_high=True),
         under_best=_best_price(under, prefer_high=True),
+        home_ml_by_book=home_ml_by_book,
+        away_ml_by_book=away_ml_by_book,
+        home_spread_by_book=home_spread_by_book,
+        away_spread_by_book=away_spread_by_book,
+        over_by_book=over_by_book,
+        under_by_book=under_by_book,
         consensus_total=(sum(totals_seen) / len(totals_seen)) if totals_seen else None,
         consensus_home_spread=(sum(home_spreads_seen) / len(home_spreads_seen)) if home_spreads_seen else None,
-        book_count=len(game.get("bookmakers", [])),
+        book_count=len(enabled_book_keys_seen),
         snapshot_iso=nyc_now().isoformat(),
     )
     if mi.home_ml_best and mi.away_ml_best:

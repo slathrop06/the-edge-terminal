@@ -39,7 +39,8 @@ def save_history(history: dict) -> None:
     write_json(PICKS_HISTORY_PATH, history)
 
 
-def _pick_to_dict(pick: Pick, response: HandicapperResponse, date_str: str) -> dict:
+def _pick_to_dict(pick: Pick, response: HandicapperResponse, date_str: str,
+                  *, late_add: bool = False) -> dict:
     d = pick.model_dump()
     d["date"] = date_str
     d["status"] = "PEND"
@@ -50,6 +51,8 @@ def _pick_to_dict(pick: Pick, response: HandicapperResponse, date_str: str) -> d
     d["slate_assessment"] = response.slate_assessment
     d["slate_vibe"] = response.slate_vibe
     d["published_at"] = nyc_now().isoformat()
+    d["locked"] = True              # once published, locked
+    d["late_add"] = bool(late_add)
     return d
 
 
@@ -59,31 +62,69 @@ def publish(
     date_str: Optional[str] = None,
     system_paused: bool = False,
     pause_reason: str = "",
+    *,
+    mode: str = "morning",           # "morning" or "late_add"
 ) -> dict:
+    """Publish picks for date_str.
+
+    Morning mode (mode="morning"):
+      - If today already has locked PEND picks, this is a no-op for those
+        (they stay locked). New picks are NOT inserted on top because morning
+        is meant to be the canonical first publish.
+      - If today has NO locked PEND picks, this is the canonical publish:
+        insert all picks, designate a ladder, lock them.
+
+    Late-add mode (mode="late_add"):
+      - Existing locked picks are untouched.
+      - Picks in this batch are inserted alongside, marked late_add=True.
+      - They do NOT get ladder designation (ladder is set at morning lock-in).
+    """
     date_str = date_str or nyc_date()
     history = load_history()
 
-    # Each morning run is the canonical pick set for today.
-    # Wipe any PEND picks for date_str (graded picks are preserved untouched).
-    before = len(history["picks"])
-    history["picks"] = [p for p in history["picks"]
-                        if not (p.get("date") == date_str and p.get("status") == "PEND")]
-    removed = before - len(history["picks"])
-    if removed:
-        logger.info(f"Cleared {removed} prior PEND picks for {date_str} before re-publishing")
+    existing_today = [p for p in history["picks"]
+                      if p.get("date") == date_str and p.get("status") == "PEND"]
+    # Any existing PEND pick for today counts as locked (we published it earlier).
+    # The `locked` field was added later; older picks default to locked too.
+    has_locked = bool(existing_today)
 
-    # Designate ladder pick on the fresh set
-    ladder.designate_ladder_pick(picks)
+    if mode == "morning":
+        if has_locked:
+            logger.info(f"Morning publish skipped: {len(existing_today)} locked picks already exist for {date_str}.")
+            # Still regenerate site state so the timestamp updates
+            regenerate_site_data(system_paused=system_paused, pause_reason=pause_reason)
+            from engine import analytics; analytics.refresh()
+            return history
+        # Canonical first publish
+        ladder.designate_ladder_pick(picks)
+        for pick in picks:
+            record = _pick_to_dict(pick, response, date_str, late_add=False)
+            history["picks"].insert(0, record)
+            logger.info(f"INSERTED [LOCKED]: {record['pick']} ({record['game']}) "
+                        f"ladder={record.get('ladder_designation', False)}")
+        save_history(history)
+        logger.info(f"Morning publish: {len(picks)} picks LOCKED for {date_str}")
 
-    inserted = 0
-    for pick in picks:
-        record = _pick_to_dict(pick, response, date_str)
-        history["picks"].insert(0, record)
-        inserted += 1
-        logger.info(f"INSERTED: {record['pick']} ({record['game']}) ladder={record.get('ladder_designation', False)}")
+    elif mode == "late_add":
+        # Detect dupes against existing picks (same game + same market + same side wording)
+        existing_keys = {(p.get("game"), p.get("market"), p.get("pick")) for p in existing_today}
+        added = 0
+        for pick in picks:
+            key = (pick.game, pick.market, pick.pick)
+            if key in existing_keys:
+                logger.info(f"Late-add dupe skipped: {pick.pick} ({pick.game})")
+                continue
+            record = _pick_to_dict(pick, response, date_str, late_add=True)
+            # Late adds never get ladder
+            record["ladder_designation"] = False
+            history["picks"].insert(0, record)
+            added += 1
+            logger.info(f"INSERTED [LATE ADD]: {record['pick']} ({record['game']})")
+        save_history(history)
+        logger.info(f"Late-add publish: {added} new picks added for {date_str}")
 
-    save_history(history)
-    logger.info(f"Picks committed: {inserted} for {date_str}, history total {len(history['picks'])}")
+    else:
+        raise ValueError(f"Unknown publish mode: {mode}")
 
     # Regenerate site/data.json
     regenerate_site_data(system_paused=system_paused, pause_reason=pause_reason)

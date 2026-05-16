@@ -1,12 +1,12 @@
-name: Midday Refresh (1 PM ET)
+name: Late Edge Check (5 PM ET)
 
 on:
   schedule:
-    - cron: '0 17 * * *'   # 1 PM EDT
+    - cron: '0 21 * * *'   # 5 PM EDT
   workflow_dispatch: {}
 
 jobs:
-  refresh:
+  late_check:
     runs-on: ubuntu-latest
     permissions:
       contents: write
@@ -28,18 +28,19 @@ jobs:
           python -m pip install --upgrade pip
           pip install -r requirements.txt
 
-      - name: Run midday refresh (data only — no Claude call)
+      - name: Ask Sonnet for any material late add (0 or 1)
         env:
-          ODDS_API_KEY: ${{ secrets.ODDS_API_KEY }}
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+          ODDS_API_KEY:      ${{ secrets.ODDS_API_KEY }}
           TZ: America/New_York
-        run: python -m engine.main midday
+        run: python -m engine.main late_check
 
       - name: Commit + push data updates
         run: |
           git config user.name  "scott-bot[bot]"
           git config user.email "scott-bot@users.noreply.github.com"
           git add site/data.json site/analytics.json data/*.json || true
-          git diff --cached --quiet && echo "No data changes." || (
-            git commit -m "refresh: midday $(date -u +%Y-%m-%dT%H:%MZ)"
+          git diff --cached --quiet && echo "No late add today." || (
+            git commit -m "late-check: $(date -u +%Y-%m-%dT%H:%MZ)"
             git push
           )
