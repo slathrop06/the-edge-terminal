@@ -195,14 +195,23 @@
   function pickCardHTML(p) {
     const ladderClass = p.ladder_designation ? ' ladder' : '';
     const lateClass = p.late_add ? ' late-add' : '';
-    const dots = [1, 2, 3, 4, 5].map(n => `<span class="dot${n <= (p.confidence || 0) ? ' on' : ''}"></span>`).join('');
     const time = formatTime(p.first_pitch_iso);
     const isParlay = (p.market || '').toUpperCase() === 'PARLAY';
+    const hasWP = (typeof p.win_probability === 'number' && p.win_probability > 0);
+    const wpBlock = hasWP
+      ? `<span class="win-prob" title="Scott Bot's model-estimated win probability">
+           <span class="wp-num">${Math.round(p.win_probability * 100)}%</span>
+           <span class="wp-label">WIN PROB</span>
+         </span>`
+      : (p.confidence ? `<span class="win-prob conf-fallback" title="Confidence ${p.confidence}/5 — units ${formatUnits(p.units)}">
+           <span class="wp-num">${p.confidence}/5</span>
+           <span class="wp-label">CONF</span>
+         </span>` : '');
     return `
       <article class="pick-card${ladderClass}${lateClass}" data-pick-id="${escapeAttr(p.id)}">
         <div class="pick-head">
           <span class="sport-tag">${escapeHtml(p.sport)}${isParlay ? ' · PARLAY' : ''}</span>
-          <span class="confidence-dots" title="Confidence ${p.confidence}/5">${dots}</span>
+          ${wpBlock}
         </div>
         <div class="pick-game">${escapeHtml(p.game)}</div>
         <div class="pick-time">${time}</div>
@@ -231,6 +240,15 @@
         <div class="m-data-context">${escapeHtml(d.context || '')}</div>
       </div>
     `).join('');
+
+    // Win probability card at the top of the_data block, if present
+    const wpCard = (typeof pick.win_probability === 'number' && pick.win_probability > 0)
+      ? `<div class="m-data-card m-wp-card">
+           <div class="m-data-label">SCOTT BOT WIN PROB</div>
+           <div class="m-data-value">${Math.round(pick.win_probability * 100)}%</div>
+           <div class="m-data-context">Model-estimated true probability of this pick winning</div>
+         </div>`
+      : '';
 
     const thesisHTML = (pick.the_thesis || '')
       .split(/\n\n+/)
@@ -286,7 +304,7 @@
         ${thesisHTML}
       </div>
 
-      ${dataHTML ? `<div class="m-section"><h4>THE DATA</h4><div class="m-data-grid">${dataHTML}</div></div>` : ''}
+      ${(wpCard || dataHTML) ? `<div class="m-section"><h4>THE DATA</h4><div class="m-data-grid">${wpCard}${dataHTML}</div></div>` : ''}
 
       ${pick.the_market ? `<div class="m-section"><h4>THE MARKET</h4><p>${escapeHtml(pick.the_market)}</p></div>` : ''}
 

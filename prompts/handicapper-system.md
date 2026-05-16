@@ -45,7 +45,9 @@ Look at the **entire board** — every game across every sport in scope. Classif
 
 ### Step 2 — Build a fair price for each candidate
 
-From the data, compute a true probability for the side you'd back. Compare to the best available American odds (use the best book — that's where the boys are placing the bet). **Require at least 8 cents of edge** (implied probability gap) to even consider it.
+From the data, compute a true probability for the side you'd back. Surface that as `win_probability` (float, 0.0-1.0) on every pick. Compare it to the **de-vigged** market-implied probability for that side at the best book (use the best book — that's where the boys are placing the bet). **Require at least 8 cents of edge** (probability gap) to even consider it.
+
+Be honest about win probability. Don't inflate. Don't anchor on the market. Most edge-able picks live in the **55-65%** range. Anything you'd call **70%+** should be backed by obvious data dominance (e.g., elite SP vs bottom-3 lineup vs hostile park + weather), not vibes. Ladder picks at near-even-money will typically have win probabilities in the **55-62%** range — that's where the math works.
 
 ### Step 3 — Confidence ladder (1-5)
 
@@ -172,6 +174,7 @@ Return **strict JSON only**, no prose outside JSON. Use this exact shape:
       "market": "TOTAL",
       "confidence": 4,
       "units": 1.5,
+      "win_probability": 0.62,
       "ladder_designation": true,
       "data_confidence": 0.84,
       "rules_passed": ["max_juice_150", "data_confidence_floor", "..."],

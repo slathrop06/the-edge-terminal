@@ -52,6 +52,9 @@ class Pick(BaseModel):
     market: str = ""
     confidence: int
     units: float
+    # Scott Bot's model-estimated true probability that this pick wins (0.0-1.0).
+    # The basis of the edge claim: win_probability > de-vigged market implied probability.
+    win_probability: Optional[float] = None
     ladder_designation: bool = False
     data_confidence: float = 0.7
     rules_passed: list[str] = Field(default_factory=list)

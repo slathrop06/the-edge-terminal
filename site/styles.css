@@ -510,15 +510,29 @@ button {
   background: rgba(215,35,45,0.08);
   border-radius: var(--r-sm);
 }
-.confidence-dots {
-  display: flex;
-  gap: 4px;
+.win-prob {
+  display: inline-flex;
+  flex-direction: column;
+  align-items: flex-end;
+  gap: 0;
+  line-height: 1;
 }
-.dot {
-  width: 8px; height: 8px; border-radius: 50%;
-  background: var(--border-strong);
+.wp-num {
+  font-family: var(--font-display);
+  font-weight: 900;
+  font-size: 24px;
+  color: var(--brand-red);
+  letter-spacing: -0.01em;
+  font-variant-numeric: tabular-nums;
 }
-.dot.on { background: var(--brand-red); }
+.wp-label {
+  font-size: 9px;
+  font-weight: 800;
+  letter-spacing: 0.14em;
+  color: var(--text-mute);
+  margin-top: 2px;
+}
+.win-prob.conf-fallback .wp-num { color: var(--text-dim); font-size: 20px; }
 
 .pick-game {
   font-family: var(--font-display);
@@ -1025,6 +1039,12 @@ button {
   grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
   gap: 12px;
 }
+.m-data-card.m-wp-card {
+  background: linear-gradient(135deg, rgba(215,35,45,0.10), rgba(215,35,45,0.04));
+  border-color: rgba(215,35,45,0.35);
+}
+.m-data-card.m-wp-card .m-data-label { color: var(--brand-red); }
+.m-data-card.m-wp-card .m-data-value { color: var(--brand-red); font-size: 28px; }
 .m-data-card {
   background: var(--bg-gray);
   padding: 12px 14px;
