@@ -167,10 +167,7 @@ def run_handicapper(
     json_str = _extract_json(final_text)
     if not json_str:
         raise ValueError(f"No JSON found in handicapper output (first 400 chars): {final_text[:400]}")
-    try:
-        parsed = json.loads(json_str)
-    except json.JSONDecodeError as e:
-        raise ValueError(f"Handicapper JSON parse error: {e}\nRaw: {final_text[:400]}")
+    parsed = _robust_json_loads(json_str, final_text)
 
     response = HandicapperResponse.model_validate(parsed)
     logger.info(f"vibe={response.slate_vibe}, {len(response.picks)} picks")
@@ -237,6 +234,44 @@ def _extract_text(msg) -> str:
         if t == "text":
             parts.append(getattr(block, "text", ""))
     return "\n".join(parts)
+
+
+def _robust_json_loads(s: str, raw_for_error: str = "") -> dict:
+    """Parse JSON tolerantly. Claude sometimes emits unescaped newlines/tabs
+    inside string values (e.g. multi-paragraph the_thesis). Try strict first,
+    then strict=False, then a cleanup pass that escapes raw control chars
+    only inside string spans."""
+    try:
+        return json.loads(s, strict=False)
+    except json.JSONDecodeError:
+        pass
+    # Escape any raw newlines/tabs/carriage returns that appear inside strings.
+    cleaned: list[str] = []
+    in_str = False
+    esc = False
+    for ch in s:
+        if in_str:
+            if esc:
+                cleaned.append(ch); esc = False; continue
+            if ch == "\\":
+                cleaned.append(ch); esc = True; continue
+            if ch == '"':
+                cleaned.append(ch); in_str = False; continue
+            if ch == "\n":
+                cleaned.append("\\n"); continue
+            if ch == "\r":
+                cleaned.append("\\r"); continue
+            if ch == "\t":
+                cleaned.append("\\t"); continue
+            cleaned.append(ch)
+        else:
+            cleaned.append(ch)
+            if ch == '"':
+                in_str = True
+    try:
+        return json.loads("".join(cleaned), strict=False)
+    except json.JSONDecodeError as e:
+        raise ValueError(f"Handicapper JSON parse error: {e}\nRaw: {raw_for_error[:400]}")
 
 
 def _extract_json(text: str) -> Optional[str]:
