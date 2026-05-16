@@ -103,48 +103,28 @@
     const longest = l.longest_streak || 0;
     const climbs = l.completed_climbs || 0;
 
-    $('#ladderProgress').textContent = `${cur} of ${target}`;
-    $('#ladderCurrent').textContent = cur;
+    $('#ladderProgress').textContent = `${cur} / ${target}`;
     $('#ladderLongest').textContent = longest;
     $('#ladderClimbs').textContent = climbs;
 
-    let sub = 'Climbing for ten in a row. One pick a day carries the streak.';
-    if (cur === 0 && longest === 0) sub = 'New climb starts on the next ladder pick.';
-    else if (cur === 0 && longest > 0) sub = 'Streak broken. New climb starts on the next ladder pick.';
-    else if (cur >= target - 2) sub = 'Almost there, boys. Hold it together.';
-    else if (cur >= 5) sub = 'Halfway up the ladder. Don\'t look down.';
+    let sub = 'Climbing for ten in a row.';
+    if (cur === 0 && longest === 0) sub = 'New climb starts on next ladder pick.';
+    else if (cur === 0 && longest > 0) sub = 'Streak broken. Starting over.';
+    else if (cur >= target - 1) sub = 'One away. Hold it together, boys.';
+    else if (cur >= target - 2) sub = 'Almost there, boys.';
+    else if (cur >= 5) sub = 'Halfway up. Don\'t look down.';
+    else if (cur >= 1) sub = `Climbing — ${cur} in a row.`;
     $('#ladderSub').textContent = sub;
 
-    // SVG ladder, target rungs
-    const svg = ladderSvg(cur, target);
-    $('#ladderGraphic').innerHTML = svg;
-  }
-
-  function ladderSvg(filled, total) {
-    const W = 220, H = 360;
-    const padTop = 24, padBot = 28;
-    const usable = H - padTop - padBot;
-    const rungGap = usable / (total - 1);
-    const railX1 = 60, railX2 = W - 60;
-    const rungInset = 10;
-
+    // Horizontal rungs (10 dots)
     let rungs = '';
-    for (let i = 0; i < total; i++) {
-      const y = padTop + (total - 1 - i) * rungGap;  // bottom rung is i=0
-      const isFilled = i < filled;
-      const color = isFilled ? '#D7232D' : '#D0D0D3';
-      const strokeW = isFilled ? 5 : 3;
-      rungs += `<line x1="${railX1 + rungInset}" y1="${y}" x2="${railX2 - rungInset}" y2="${y}" stroke="${color}" stroke-width="${strokeW}" stroke-linecap="round" />`;
-      // rung label (1-10)
-      rungs += `<text x="${railX2 + 8}" y="${y + 4}" font-family="Big Shoulders Display, sans-serif" font-weight="800" font-size="12" fill="${isFilled ? '#D7232D' : '#8A8A8E'}">${i + 1}</text>`;
+    for (let i = 0; i < target; i++) {
+      const isOn = i < cur;
+      const isTarget = i === cur && cur < target;  // next rung to aim for
+      const cls = isOn ? 'rung on' : isTarget ? 'rung target' : 'rung';
+      rungs += `<div class="${cls}" title="Rung ${i + 1}"></div>`;
     }
-    return `
-      <svg viewBox="0 0 ${W + 16} ${H}" xmlns="http://www.w3.org/2000/svg">
-        <line x1="${railX1}" y1="${padTop - 8}" x2="${railX1}" y2="${H - padBot + 8}" stroke="#0C0C0C" stroke-width="6" stroke-linecap="round" />
-        <line x1="${railX2}" y1="${padTop - 8}" x2="${railX2}" y2="${H - padBot + 8}" stroke="#0C0C0C" stroke-width="6" stroke-linecap="round" />
-        ${rungs}
-      </svg>
-    `;
+    $('#ladderRungs').innerHTML = rungs;
   }
 
   // ── Today's picks ────────────────────────────────────────────────────

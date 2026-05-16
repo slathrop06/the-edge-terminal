@@ -67,11 +67,11 @@ button {
 .topnav-inner {
   max-width: 1280px;
   margin: 0 auto;
-  padding: 14px 24px;
+  padding: 12px 20px;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  gap: 24px;
+  gap: 16px;
 }
 .brand {
   display: flex; align-items: baseline; gap: 6px;
@@ -103,29 +103,34 @@ button {
 }
 .nav-record {
   display: flex;
-  gap: 14px;
+  gap: 12px;
   align-items: center;
   font-size: 12px;
   color: var(--text-dim);
 }
 .nav-label {
   font-weight: 700;
-  letter-spacing: 0.15em;
+  letter-spacing: 0.12em;
   color: var(--text-mute);
-  font-size: 10px;
+  font-size: 9px;
 }
 .nav-value {
   font-family: var(--font-display);
   font-weight: 700;
-  font-size: 18px;
+  font-size: 16px;
   color: var(--text);
   font-variant-numeric: tabular-nums;
 }
 .nav-value.positive { color: var(--win); }
 .nav-value.negative { color: var(--loss); }
 
-@media (max-width: 720px) {
-  .nav-record { display: none; }
+@media (max-width: 600px) {
+  .brand-tag { display: none; }
+  .nav-record { gap: 8px; font-size: 11px; }
+  .nav-label { font-size: 8px; }
+  .nav-value { font-size: 13px; }
+  .brand-mark { font-size: 18px; }
+  .brand-name { font-size: 22px; }
 }
 
 /* ── Paused banner ──────────────────────────────────────────────────── */
@@ -143,93 +148,138 @@ button {
   letter-spacing: 0.1em;
 }
 
-/* ── Hero / Ladder ──────────────────────────────────────────────────── */
-.hero {
-  background: linear-gradient(180deg, #FFFFFF 0%, #FAFAFA 100%);
+/* ── Ladder strip (compact, horizontal) ─────────────────────────────── */
+.ladder-strip {
+  background: linear-gradient(90deg, #FFF8F0 0%, #FFFFFF 60%);
   border-bottom: 1px solid var(--border);
 }
-.hero-inner {
+.ladder-strip-inner {
   max-width: 1280px;
   margin: 0 auto;
-  padding: 56px 24px 64px;
-  display: grid;
-  grid-template-columns: 1fr 360px;
-  gap: 48px;
+  padding: 18px 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 24px;
+}
+.ladder-strip-left {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  flex: 1;
+  min-width: 0;
+}
+.ladder-kicker {
+  font-size: 11px;
+  font-weight: 800;
+  letter-spacing: 0.18em;
+  color: var(--brand-red);
+}
+.ladder-rungs {
+  display: flex;
+  gap: 6px;
   align-items: center;
 }
+.rung {
+  flex: 1;
+  height: 12px;
+  border-radius: 6px;
+  background: var(--border);
+  transition: background 0.3s ease;
+  position: relative;
+  max-width: 56px;
+}
+.rung.on {
+  background: var(--brand-red);
+  box-shadow: 0 0 0 3px rgba(215,35,45,0.12);
+}
+.rung.target {
+  background: var(--border);
+  border: 2px dashed var(--brand-red);
+  background: transparent;
+}
+
+.ladder-strip-right {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  flex-shrink: 0;
+}
+.ls-progress {
+  text-align: right;
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+}
+.ls-progress-num {
+  font-family: var(--font-display);
+  font-weight: 900;
+  font-size: 32px;
+  color: var(--text);
+  font-variant-numeric: tabular-nums;
+  line-height: 1;
+}
+.ls-progress-sub {
+  font-size: 11px;
+  color: var(--text-mute);
+  font-weight: 600;
+}
+.ls-stats {
+  display: flex;
+  gap: 14px;
+  padding-left: 20px;
+  border-left: 1px solid var(--border);
+}
+.ls-stat {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+  text-align: center;
+}
+.ls-stat-label {
+  font-size: 9px;
+  font-weight: 800;
+  letter-spacing: 0.14em;
+  color: var(--text-mute);
+}
+.ls-stat-value {
+  font-family: var(--font-display);
+  font-weight: 800;
+  font-size: 18px;
+  color: var(--text);
+  font-variant-numeric: tabular-nums;
+}
+
+@media (max-width: 720px) {
+  .ladder-strip-inner {
+    flex-direction: column;
+    align-items: stretch;
+    gap: 12px;
+    padding: 14px 16px;
+  }
+  .ladder-strip-right {
+    justify-content: space-between;
+    gap: 12px;
+  }
+  .rung { max-width: none; }
+  .ls-progress { text-align: left; flex-direction: row; align-items: baseline; gap: 8px; }
+  .ls-progress-num { font-size: 24px; }
+  .ls-progress-sub { font-size: 11px; }
+  .ls-stats { padding-left: 14px; gap: 12px; }
+  .ls-stat-value { font-size: 16px; }
+}
+
 .kicker {
   font-size: 11px;
   font-weight: 800;
   letter-spacing: 0.22em;
   color: var(--brand-red);
-  margin-bottom: 12px;
-}
-.hero-title {
-  font-family: var(--font-display);
-  font-weight: 900;
-  font-size: clamp(72px, 12vw, 132px);
-  line-height: 0.92;
-  letter-spacing: -0.02em;
-  color: var(--text);
-}
-.hero-title #ladderProgress {
-  display: inline-block;
-  background: linear-gradient(180deg, var(--text) 0%, #2A2A2A 100%);
-  -webkit-background-clip: text;
-  background-clip: text;
-  -webkit-text-fill-color: transparent;
-}
-.hero-sub {
-  font-size: 17px;
-  color: var(--text-dim);
-  margin-top: 16px;
-  max-width: 520px;
-}
-.hero-stats {
-  display: flex;
-  gap: 28px;
-  margin-top: 28px;
-  padding-top: 24px;
-  border-top: 1px solid var(--border);
-}
-.hero-stat {
-  display: flex;
-  flex-direction: column;
-  gap: 4px;
-}
-.hs-label {
-  font-size: 10px;
-  font-weight: 700;
-  letter-spacing: 0.18em;
-  color: var(--text-mute);
-}
-.hs-value {
-  font-family: var(--font-display);
-  font-weight: 800;
-  font-size: 28px;
-  color: var(--text);
-  font-variant-numeric: tabular-nums;
-}
-
-/* Ladder graphic — 10 rungs */
-.ladder-graphic {
-  position: relative;
-  width: 100%;
-  height: 360px;
-  display: flex;
-  align-items: stretch;
-  justify-content: center;
-}
-.ladder-graphic svg { width: 100%; height: 100%; }
-
-@media (max-width: 920px) {
-  .hero-inner { grid-template-columns: 1fr; gap: 32px; padding: 40px 20px 48px; }
-  .ladder-graphic { height: 280px; max-width: 320px; margin: 0 auto; }
+  margin-bottom: 8px;
 }
 
 /* ── Sections ──────────────────────────────────────────────────────── */
 .section {
-  padding: 56px 24px;
+  padding: 44px 20px;
 }
 .section-gray { background: var(--bg-gray); }
 .section > * { max-width: 1280px; margin-left: auto; margin-right: auto; }
@@ -247,6 +297,13 @@ button {
   font-size: 32px;
   letter-spacing: -0.01em;
 }
+.section-title-xl {
+  font-family: var(--font-display);
+  font-weight: 900;
+  font-size: clamp(42px, 8vw, 72px);
+  letter-spacing: -0.02em;
+  line-height: 0.95;
+}
 .section-sub {
   font-size: 13px;
   font-weight: 600;
@@ -254,30 +311,52 @@ button {
   letter-spacing: 0.08em;
 }
 
+/* Picks-hero: amplify the picks section */
+.picks-hero {
+  padding-top: 36px;
+  padding-bottom: 56px;
+  background: linear-gradient(180deg, #FFFFFF 0%, #FBFBFA 100%);
+}
+
+@media (max-width: 600px) {
+  .section { padding: 32px 16px; }
+  .picks-hero { padding-top: 24px; padding-bottom: 36px; }
+  .section-title { font-size: 26px; }
+  .section-title-xl { font-size: 36px; }
+}
+
 /* ── Picks grid ────────────────────────────────────────────────────── */
 .picks-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(360px, 1fr));
-  gap: 20px;
+  grid-template-columns: repeat(auto-fit, minmax(340px, 1fr));
+  gap: 16px;
 }
 .pick-card {
   background: var(--bg);
   border: 1px solid var(--border);
   border-radius: var(--r-lg);
-  padding: 24px;
-  box-shadow: var(--shadow-sm);
+  padding: 22px;
+  box-shadow: var(--shadow-md);
   transition: box-shadow 0.18s ease, transform 0.18s ease;
   cursor: pointer;
   position: relative;
   overflow: hidden;
+  display: flex;
+  flex-direction: column;
 }
 .pick-card:hover {
-  box-shadow: var(--shadow-md);
+  box-shadow: var(--shadow-lg);
   transform: translateY(-2px);
+}
+.pick-card:active { transform: translateY(0); }
+@media (max-width: 600px) {
+  .picks-grid { grid-template-columns: 1fr; gap: 14px; }
+  .pick-card { padding: 18px; }
 }
 .pick-card.ladder {
   border: 2px solid var(--brand-red);
   background: linear-gradient(180deg, #FFF8F0 0%, #FFFFFF 60%);
+  box-shadow: 0 4px 16px rgba(215,35,45,0.10), var(--shadow-md);
 }
 .pick-card.ladder::before {
   content: '🪜 LADDER PICK';
@@ -419,58 +498,74 @@ button {
 .pick-game {
   font-family: var(--font-display);
   font-weight: 700;
-  font-size: 22px;
+  font-size: 20px;
   letter-spacing: -0.01em;
-  margin-bottom: 4px;
+  margin-bottom: 2px;
+  color: var(--text-dim);
 }
 .pick-time {
-  font-size: 12px;
+  font-size: 11px;
   color: var(--text-mute);
-  margin-bottom: 16px;
+  margin-bottom: 14px;
+  font-weight: 600;
+  letter-spacing: 0.04em;
 }
 .pick-line {
   font-family: var(--font-display);
-  font-weight: 800;
-  font-size: 26px;
-  margin-bottom: 4px;
+  font-weight: 900;
+  font-size: 34px;
+  margin-bottom: 6px;
+  line-height: 1.05;
+  letter-spacing: -0.015em;
   color: var(--text);
 }
 .pick-odds-row {
   display: flex;
   align-items: baseline;
-  gap: 14px;
+  gap: 12px;
   margin-bottom: 14px;
   font-size: 14px;
   color: var(--text-dim);
 }
 .pick-odds {
   font-family: var(--font-display);
-  font-size: 20px;
-  font-weight: 700;
+  font-size: 24px;
+  font-weight: 800;
   color: var(--text);
   font-variant-numeric: tabular-nums;
 }
 .pick-units {
-  font-weight: 700;
-  font-size: 13px;
+  font-weight: 800;
+  font-size: 12px;
   color: var(--gold);
-  letter-spacing: 0.05em;
+  letter-spacing: 0.08em;
+  padding: 3px 8px;
+  background: rgba(212,132,59,0.12);
+  border-radius: 4px;
 }
 
 .pick-headline {
   font-size: 15px;
   line-height: 1.5;
   color: var(--text);
-  margin-top: 12px;
+  margin-top: 10px;
   padding-top: 14px;
   border-top: 1px solid var(--border);
+  flex: 1;
 }
 .pick-cta {
   margin-top: 14px;
-  font-size: 12px;
-  font-weight: 700;
+  font-size: 11px;
+  font-weight: 800;
   color: var(--brand-red);
-  letter-spacing: 0.06em;
+  letter-spacing: 0.12em;
+}
+
+@media (max-width: 600px) {
+  .pick-line { font-size: 28px; }
+  .pick-odds { font-size: 22px; }
+  .pick-game { font-size: 17px; }
+  .pick-headline { font-size: 14px; }
 }
 
 .empty-state {
@@ -801,8 +896,12 @@ button {
 }
 
 @media (max-width: 600px) {
-  .modal-card { padding: 28px 20px; }
+  .modal { padding: 20px 12px; }
+  .modal-card { padding: 24px 18px; border-radius: var(--r-md); }
   .m-game { font-size: 24px; }
   .m-pick { font-size: 28px; }
-  .section { padding: 40px 20px; }
+  .m-odds { font-size: 20px; }
+  .m-headline { font-size: 16px; }
+  .m-data-grid { grid-template-columns: 1fr 1fr; }
+  .m-section h4 { font-size: 10px; }
 }

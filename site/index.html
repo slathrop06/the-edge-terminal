@@ -37,38 +37,33 @@
 
 <main id="top">
 
-  <!-- ── HERO: LADDER CHALLENGE ────────────────────────────────────────── -->
-  <section class="hero">
-    <div class="hero-inner">
-      <div class="hero-copy">
-        <p class="kicker">LADDER CHALLENGE</p>
-        <h1 class="hero-title">
-          <span id="ladderProgress">— of 10</span>
-        </h1>
-        <p class="hero-sub" id="ladderSub">Climbing for ten in a row. One pick a day carries the streak.</p>
-        <div class="hero-stats">
-          <div class="hero-stat">
-            <span class="hs-label">CURRENT</span>
-            <span class="hs-value" id="ladderCurrent">—</span>
-          </div>
-          <div class="hero-stat">
-            <span class="hs-label">LONGEST</span>
-            <span class="hs-value" id="ladderLongest">—</span>
-          </div>
-          <div class="hero-stat">
-            <span class="hs-label">CLIMBS</span>
-            <span class="hs-value" id="ladderClimbs">—</span>
-          </div>
+  <!-- ── LADDER STRIP (compact, horizontal) ────────────────────────────── -->
+  <section class="ladder-strip">
+    <div class="ladder-strip-inner">
+      <div class="ladder-strip-left">
+        <span class="ladder-kicker">🪜 LADDER CHALLENGE</span>
+        <div class="ladder-rungs" id="ladderRungs"></div>
+      </div>
+      <div class="ladder-strip-right">
+        <div class="ls-progress">
+          <span class="ls-progress-num" id="ladderProgress">— / 10</span>
+          <span class="ls-progress-sub" id="ladderSub">Climbing for ten in a row.</span>
+        </div>
+        <div class="ls-stats">
+          <div class="ls-stat"><span class="ls-stat-label">LONGEST</span><span class="ls-stat-value" id="ladderLongest">—</span></div>
+          <div class="ls-stat"><span class="ls-stat-label">CLIMBS</span><span class="ls-stat-value" id="ladderClimbs">—</span></div>
         </div>
       </div>
-      <div class="ladder-graphic" id="ladderGraphic"></div>
     </div>
   </section>
 
-  <!-- ── TODAY'S PICKS ─────────────────────────────────────────────────── -->
-  <section class="section">
+  <!-- ── TODAY'S PICKS (now the visual hero) ───────────────────────────── -->
+  <section class="section picks-hero">
     <div class="section-head">
-      <h2 class="section-title">TODAY'S PICKS</h2>
+      <div>
+        <p class="kicker">SCOTT BOT'S CALLS</p>
+        <h2 class="section-title-xl">TODAY'S PICKS</h2>
+      </div>
       <p class="section-sub" id="dateLabel">—</p>
     </div>
     <div class="picks-grid" id="picksGrid">
