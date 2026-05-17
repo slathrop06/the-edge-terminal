@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated_at": "2026-05-17T09:21:41.637748-04:00",
+  "updated_at": "2026-05-17T10:44:52.980835-04:00",
   "picks": [
     {
       "id": "20260517-GOLF-PGA-WINNER-RAHM",
@@ -182,9 +182,9 @@
       "published_at": "2026-05-16T13:02:29.804349-04:00",
       "autopsy": {
         "classification": "VARIANCE",
-        "post_mortem": "The thesis was structurally sound \u2014 two starters with low walk rates, a HR-suppressing dome, and a flat market line all pointed toward a low-event game. A 10-5 final (15 runs) represents a significant blowup that the underlying profile didn't predict, likely driven by a multi-run inning or early starter exit \u2014 exactly the tail risk flagged in the case against. The data was accurate and the reasoning was coherent; the outcome was simply in the bad tail.",
+        "post_mortem": "Through nine innings this game was exactly what the thesis promised: a 2-2 tie, both starters doing their jobs (Martinez held Miami to 1 run through 7, Alcantara surrendered 7 hits in 6 innings but kept it close), and the under alive with room to spare. Then the 10th inning arrived and the Rays' bullpen \u2014 specifically Hunter Bigge \u2014 imploded catastrophically, surrendering 8 runs on 6 hits including a Liam Hicks two-run single and a Javier Sanoja double that plated three, turning a 2-2 game into a 10-2 final before Tampa added 3 garbage runs of their own. The under was breathing comfortably at 4 total runs through 9; a single bullpen meltdown in extras buried it.",
         "candidate_rule": null,
-        "sample_size_warning": "N=1, insufficient \u2014 one high-scoring outlier in a dome game does not invalidate dome suppression factors or low-walk-rate pitcher theses."
+        "sample_size_warning": "N=1, insufficient to establish rule \u2014 this is a clean VARIANCE loss, not a modeling failure requiring a corrective rule."
       }
     },
     {

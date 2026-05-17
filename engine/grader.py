@@ -300,6 +300,17 @@ def run_grader(date_str: Optional[str] = None) -> None:
             logger.error(f"Grade failed for {pick.get('id')}: {e}")
 
     save_history(history)
+
+    # Generate night recaps for any dates with newly-graded main picks
+    try:
+        from engine import night_recap, ladder
+        ladder_state = ladder.load_state()
+        graded_dates = {p["date"] for p in pend if p.get("status") in ("WIN", "LOSS", "PUSH")}
+        for d in sorted(graded_dates):
+            night_recap.generate_recap(d, history["picks"], ladder_state)
+    except Exception as e:
+        logger.error(f"Night recap generation failed: {e}")
+
     regenerate_site_data()
     from engine import analytics
     analytics.refresh()

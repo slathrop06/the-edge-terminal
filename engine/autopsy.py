@@ -18,19 +18,23 @@ AUTOPSY_LOG = DATA_DIR / "autopsy_log.json"
 RULE_CANDIDATES = DATA_DIR / "rule_candidates.json"
 AUTOPSY_MODEL = "claude-sonnet-4-6"
 
-SYSTEM_PROMPT = """You are the autopsy engine for THE EDGE. You classify and document losing picks.
+SYSTEM_PROMPT = """You are the autopsy engine for Scott Bot Picks. You analyze losing picks honestly and tell the story of HOW the loss actually played out.
+
+You have `web_search` available. **Use it** to look up the box score, key plays, and how the game flowed. A specific story makes the autopsy useful. Don't write generic "the outcome was unlucky" prose — say what specifically happened.
 
 Classifications:
-- DATA: data was wrong/missing/stale. The pick might've been right with better data.
-- MODEL: reasoning was flawed — wrong thesis, bad odds compare, ignored a factor.
-- VARIANCE: pick was sound, outcome was unlucky.
+- **DATA** — the data we had was wrong, missing, or stale (e.g. starting pitcher changed at the last minute, weather report was off). The pick might have been correct with better data.
+- **MODEL** — the reasoning was flawed (wrong thesis, bad odds compare, ignored a key factor, picked a side the data didn't actually support).
+- **VARIANCE** — the pick was correctly reasoned and the data was good, but a specific unlucky thing happened. **Cite the unlucky moment** — extra innings, bullpen meltdown, walk-off, blown save, garbage-time touchdown, a player injury mid-game, a 10-run inning, a weather event nobody could've forecast.
+
+**Be honest. Don't lazy-classify.** A 10-5 final on an Under 7.5 looks like a model failure on the surface — but if the under was alive at 5-5 through 9 and the team put up a 5-spot in extras, that's VARIANCE with a specific story. SAY THAT.
 
 Return strict JSON:
 {
   "classification": "DATA|MODEL|VARIANCE",
-  "post_mortem": "2-3 sentences. Clinical, honest.",
-  "candidate_rule": "If DATA or MODEL, one sentence proposing a validator rule. Include sample size caveat. If VARIANCE, null.",
-  "sample_size_warning": "e.g. 'N=1, insufficient' or 'N=3 in sample, approaching threshold'"
+  "post_mortem": "2-3 sentences. The SPECIFIC story — what was the score / where did it go wrong / what was the deciding moment. If web_search gave you the box score, cite it.",
+  "candidate_rule": "If DATA or MODEL, one sentence proposing a validator rule, with sample size caveat. If VARIANCE, null.",
+  "sample_size_warning": "e.g. 'N=1, insufficient to establish rule' or 'N=3 in sample, watching for pattern'"
 }
 
 Never propose a rule without a sample size caveat. One loss is noise.
@@ -63,22 +67,37 @@ def run_autopsy(pick_row: dict, result_score: str) -> dict:
     else:
         try:
             client = anthropic.Anthropic(api_key=api_key)
-            msg = client.messages.create(
-                model=AUTOPSY_MODEL,
-                max_tokens=900,
-                temperature=0.2,
-                system=SYSTEM_PROMPT,
-                messages=[{"role": "user", "content": f"Post-loss autopsy:\n\n{json.dumps(context, indent=2)}\n\nReturn strict JSON."}],
+            user_msg = (
+                f"Post-loss autopsy. Use web_search to look up the box score "
+                f"and key moments — make the post_mortem SPECIFIC. Then return strict JSON only.\n\n"
+                f"{json.dumps(context, indent=2)}"
             )
-            if msg.usage:
-                cost = estimate_cost(AUTOPSY_MODEL, msg.usage.input_tokens, msg.usage.output_tokens)
-                record_api_cost(cost)
-            raw = msg.content[0].text if msg.content else ""
-            from engine.handicapper import _extract_json
-            js = _extract_json(raw)
+            messages: list = [{"role": "user", "content": user_msg}]
+            final_text = ""
+            for _ in range(8):
+                msg = client.messages.create(
+                    model=AUTOPSY_MODEL,
+                    max_tokens=1200,
+                    temperature=0.2,
+                    system=SYSTEM_PROMPT,
+                    tools=[{"type": "web_search_20250305", "name": "web_search", "max_uses": 4}],
+                    messages=messages,
+                )
+                if msg.usage:
+                    cost = estimate_cost(AUTOPSY_MODEL, msg.usage.input_tokens, msg.usage.output_tokens)
+                    record_api_cost(cost)
+                if msg.stop_reason != "tool_use":
+                    for block in (msg.content or []):
+                        if getattr(block, "type", "") == "text":
+                            final_text += getattr(block, "text", "")
+                    break
+                # If model returned a client-side tool call, append + continue.
+                messages.append({"role": "assistant", "content": msg.content})
+            from engine.handicapper import _extract_json, _robust_json_loads
+            js = _extract_json(final_text)
             if not js:
-                raise ValueError("No JSON in autopsy response")
-            entry = json.loads(js)
+                raise ValueError(f"No JSON in autopsy response: {final_text[:200]}")
+            entry = _robust_json_loads(js, final_text)
         except Exception as e:
             logger.error(f"Autopsy API call failed: {e}")
             entry = _stub(pick_row, result_score)

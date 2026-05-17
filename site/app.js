@@ -95,6 +95,7 @@
     renderPaused();
     renderNavRecord();
     renderLadder();
+    renderLastNight();
     renderExecSummary();
     renderTodayPicks();
     renderJuicePicks();
@@ -103,6 +104,30 @@
     renderRecentForm();
     renderHistory();
     renderUpdated();
+  }
+
+  function renderLastNight() {
+    const sect = $('#lastNightSection');
+    const recap = state.data.last_night_recap;
+    const todayPicks = state.data.today_picks || [];
+
+    // Only show when:
+    //   1. There IS a recap to show
+    //   2. Today's main picks haven't been published yet (we're between
+    //      11:30 PM grader and 11 AM next-morning lock).
+    // Once today's picks lock, the recap is buried in the clickable history.
+    if (!recap || !recap.night_summary || todayPicks.length > 0) {
+      sect.style.display = 'none';
+      return;
+    }
+    $('#lastNightRecord').textContent = recap.record || '—';
+    const u = recap.units_pl ?? 0;
+    const uEl = $('#lastNightUnits');
+    uEl.textContent = (u >= 0 ? '+' : '') + (+u).toFixed(2) + 'u';
+    uEl.className = 'ln-units ' + (u > 0 ? 'positive' : u < 0 ? 'negative' : '');
+    $('#lastNightDate').textContent = formatDateLabel(recap.date);
+    $('#lastNightSummary').textContent = recap.night_summary;
+    sect.style.display = '';
   }
 
   function renderJuicePicks() {
