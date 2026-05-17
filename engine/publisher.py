@@ -263,11 +263,15 @@ def publish(
     date_str = date_str or nyc_date()
     history = load_history()
 
-    existing_today = [p for p in history["picks"]
-                      if p.get("date") == date_str and p.get("status") == "PEND"]
-    # Any existing PEND pick for today counts as locked (we published it earlier).
-    # The `locked` field was added later; older picks default to locked too.
-    has_locked = bool(existing_today)
+    # Lock check applies to MAIN-TRACK picks only. Bonus picks (golf
+    # longshots etc) live in their own track and never block a morning
+    # daily-pick publish.
+    existing_today_main = [p for p in history["picks"]
+                            if p.get("date") == date_str
+                            and p.get("status") == "PEND"
+                            and not p.get("bonus_pick")]
+    existing_today = existing_today_main  # used downstream in late_add dedupe
+    has_locked = bool(existing_today_main)
 
     # Attach per-book prices + deep links from the matching intel pack
     if packs or golf_packs:
