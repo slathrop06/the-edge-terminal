@@ -184,7 +184,15 @@
 
     const picks = state.data.today_picks || [];
     if (picks.length === 0) {
-      grid.innerHTML = `<p class="empty-state">No picks today. Either the slate was soft or Scott Bot took a pass. Zero is a valid play.</p>`;
+      // Different message before vs. after the 11 AM ET lock time
+      const etHour = parseInt(
+        new Intl.DateTimeFormat('en-US', { hour: '2-digit', hour12: false, timeZone: 'America/New_York' }).format(new Date()),
+        10
+      );
+      const beforeLock = !isNaN(etHour) && etHour < 11;
+      grid.innerHTML = beforeLock
+        ? `<p class="empty-state pre-lock">Picks lock at <strong>11 AM ET</strong>. Scott Bot is reading the slate. Check back then.</p>`
+        : `<p class="empty-state">Scott Bot took a pass today. Zero is a valid play — better to publish nothing than garbage.</p>`;
       return;
     }
     // Ladder pick first, then by confidence desc
