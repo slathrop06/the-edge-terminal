@@ -11,3 +11,4 @@ dist/
 build/
 logs/*.log
 logs/api-cost-*.txt
+.claude/

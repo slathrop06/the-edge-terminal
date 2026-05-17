@@ -40,7 +40,7 @@
   const state = {
     data: null,
     analytics: null,
-    scope: 'daily',
+    scope: 'weekly',
   };
 
   // ── Fetch ────────────────────────────────────────────────────────────
