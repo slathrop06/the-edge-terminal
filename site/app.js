@@ -248,15 +248,28 @@
 
     const picks = state.data.today_picks || [];
     if (picks.length === 0) {
-      // Different message before vs. after the 11 AM ET lock time
-      const etHour = parseInt(
-        new Intl.DateTimeFormat('en-US', { hour: '2-digit', hour12: false, timeZone: 'America/New_York' }).format(new Date()),
-        10
-      );
-      const beforeLock = !isNaN(etHour) && etHour < 11;
-      grid.innerHTML = beforeLock
-        ? `<p class="empty-state pre-lock">Picks lock at <strong>11 AM ET</strong>. Scott Bot is reading the slate. Check back then.</p>`
-        : `<p class="empty-state">Scott Bot took a pass today. Zero is a valid play — better to publish nothing than garbage.</p>`;
+      // Use data freshness (not wall-clock) to decide which copy to show.
+      // If site/data.json was last regenerated BEFORE today's 11 AM ET lock,
+      // then today's morning workflow hasn't published yet → "lock pending"
+      // If it was generated AFTER 11 AM ET and there are no picks → real pass
+      const generated = state.data.generated_at ? new Date(state.data.generated_at) : null;
+      // Compute today's 11 AM ET as a UTC instant
+      const nowET = new Date(new Date().toLocaleString('en-US', { timeZone: 'America/New_York' }));
+      const todayLock = new Date(nowET.getFullYear(), nowET.getMonth(), nowET.getDate(), 11, 0, 0);
+      // GHA cron drift can push the morning run as late as 12:30 PM ET; treat that
+      // window as still "running" rather than a deliberate pass.
+      const lockCutoff = new Date(nowET.getFullYear(), nowET.getMonth(), nowET.getDate(), 12, 30, 0);
+      let beforeLock = nowET < todayLock;
+      let running = !beforeLock && nowET < lockCutoff && (!generated || generated < todayLock);
+      let realPass = !beforeLock && !running;
+
+      if (beforeLock) {
+        grid.innerHTML = `<p class="empty-state pre-lock">Picks lock at <strong>11 AM ET</strong>. Scott Bot is reading the slate. Check back then.</p>`;
+      } else if (running) {
+        grid.innerHTML = `<p class="empty-state pre-lock">Scott Bot is reading the slate. Today's picks should land in the next few minutes — refresh shortly.</p>`;
+      } else {
+        grid.innerHTML = `<p class="empty-state">Scott Bot took a pass today. Zero is a valid play — better to publish nothing than garbage.</p>`;
+      }
       return;
     }
     // Order: bonus picks first (rare special events), then ladder pick, then by confidence desc
