@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-16T17:42:32.638850-04:00",
+  "generated_at": "2026-05-17T08:26:48.624123-04:00",
   "scopes": {
     "daily": {
       "overall": {
@@ -7,7 +7,7 @@
         "wins": 0,
         "losses": 0,
         "pushes": 0,
-        "total_picks": 2,
+        "total_picks": 0,
         "units_pl": 0,
         "roi_pct": 0.0,
         "win_rate_pct": 0.0,
@@ -17,72 +17,9 @@
         "biggest_win_units": 0,
         "biggest_loss_units": 0
       },
-      "by_sport": {
-        "MLB": {
-          "record": "0-0-0",
-          "wins": 0,
-          "losses": 0,
-          "pushes": 0,
-          "total_picks": 2,
-          "units_pl": 0,
-          "roi_pct": 0.0,
-          "win_rate_pct": 0.0,
-          "avg_clv_cents": 0.0,
-          "longest_w_streak": 0,
-          "longest_l_streak": 0,
-          "biggest_win_units": 0,
-          "biggest_loss_units": 0
-        }
-      },
-      "by_confidence": {
-        "3": {
-          "record": "0-0-0",
-          "wins": 0,
-          "losses": 0,
-          "pushes": 0,
-          "total_picks": 1,
-          "units_pl": 0,
-          "roi_pct": 0.0,
-          "win_rate_pct": 0.0,
-          "avg_clv_cents": 0.0,
-          "longest_w_streak": 0,
-          "longest_l_streak": 0,
-          "biggest_win_units": 0,
-          "biggest_loss_units": 0
-        },
-        "4": {
-          "record": "0-0-0",
-          "wins": 0,
-          "losses": 0,
-          "pushes": 0,
-          "total_picks": 1,
-          "units_pl": 0,
-          "roi_pct": 0.0,
-          "win_rate_pct": 0.0,
-          "avg_clv_cents": 0.0,
-          "longest_w_streak": 0,
-          "longest_l_streak": 0,
-          "biggest_win_units": 0,
-          "biggest_loss_units": 0
-        }
-      },
-      "by_pick_type": {
-        "TOTAL": {
-          "record": "0-0-0",
-          "wins": 0,
-          "losses": 0,
-          "pushes": 0,
-          "total_picks": 2,
-          "units_pl": 0,
-          "roi_pct": 0.0,
-          "win_rate_pct": 0.0,
-          "avg_clv_cents": 0.0,
-          "longest_w_streak": 0,
-          "longest_l_streak": 0,
-          "biggest_win_units": 0,
-          "biggest_loss_units": 0
-        }
-      }
+      "by_sport": {},
+      "by_confidence": {},
+      "by_pick_type": {}
     },
     "weekly": {
       "overall": {
@@ -431,7 +368,7 @@
       "completed_climbs": 0,
       "target": 10,
       "history": [],
-      "updated_at": "2026-05-16T17:42:32.638811-04:00"
+      "updated_at": "2026-05-17T08:26:48.624097-04:00"
     },
     "all_time_record": {
       "record": "0-0-0",
