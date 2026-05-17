@@ -137,20 +137,37 @@ def _grade_pick(pick: dict, scores: dict) -> tuple[str, Optional[str]]:
 
 
 def run_grader(date_str: Optional[str] = None) -> None:
-    date_str = date_str or nyc_date()
-    history = load_history()
-    pend = [p for p in history["picks"] if p.get("date") == date_str and p.get("status") == "PEND"]
-    if not pend:
-        logger.info(f"No PEND picks on {date_str}")
-        return
+    """Grade PEND picks.
 
-    sports_needed: set[SportCode] = {p["sport"] for p in pend}
+    If date_str is None (the cron default), grade ALL PEND picks regardless
+    of date. This is robust against GHA cron delays that push the grader
+    past midnight ET — if it fires at 2 AM ET, nyc_date() returns the next
+    day, and we'd miss yesterday's picks entirely.
+
+    If date_str is provided (manual run), grade only PEND picks for that date.
+    """
+    history = load_history()
+    if date_str:
+        pend = [p for p in history["picks"]
+                if p.get("date") == date_str and p.get("status") == "PEND"]
+        if not pend:
+            logger.info(f"No PEND picks on {date_str}")
+            return
+    else:
+        pend = [p for p in history["picks"] if p.get("status") == "PEND"]
+        if not pend:
+            logger.info("No PEND picks across all dates")
+            return
+
+    # Fetch finals for each (sport, date) pair we have PEND picks for
+    needed_pairs: set[tuple[SportCode, str]] = {(p["sport"], p["date"]) for p in pend}
+    logger.info(f"Grading {len(pend)} PEND pick(s) across {len(needed_pairs)} sport/date pair(s)")
     all_scores: dict[str, dict] = {}
-    for sport in sports_needed:
+    for sport, d in needed_pairs:
         try:
-            all_scores.update(fetch_finals(sport, date_str))
+            all_scores.update(fetch_finals(sport, d))
         except Exception as e:
-            logger.error(f"Finals fetch failed for {sport}: {e}")
+            logger.error(f"Finals fetch failed for {sport} on {d}: {e}")
 
     for pick in pend:
         try:
