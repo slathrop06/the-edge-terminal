@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated_at": "2026-05-17T09:02:07.663331-04:00",
+  "updated_at": "2026-05-17T09:21:41.637748-04:00",
   "picks": [
     {
       "id": "20260517-GOLF-PGA-WINNER-RAHM",
@@ -15,7 +15,11 @@
         "fanduel": "+550",
         "betmgm": "+500"
       },
-      "book_links": {},
+      "book_links": {
+        "betmgm": "https://sports.nj.betmgm.com/en/sports/golf-7",
+        "draftkings": "https://sportsbook.draftkings.com/leagues/golf/pga",
+        "fanduel": "https://sportsbook.fanduel.com/navigation/golf"
+      },
       "market": "OUTRIGHT",
       "confidence": 4,
       "units": 1.5,

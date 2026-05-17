@@ -282,6 +282,9 @@
     const prices = p.book_prices || {};
     const links = p.book_links || {};
     const keys = ['draftkings', 'fanduel', 'betmgm'];
+    // Bonus picks (outrights) can't pre-populate a bet slip — link opens the
+    // book's golf section instead. Distinct CTA text so the boys know.
+    const tapText = p.bonus_pick ? 'OPEN ↗' : 'TAP →';
     const cells = keys.map(k => {
       const odds = prices[k];
       const link = links[k];
@@ -291,7 +294,7 @@
       const inner = `
         <div class="book-name">${BOOK_LABEL[k]}</div>
         <div class="book-odds">${odds ? escapeHtml(odds) : '—'}</div>
-        ${link ? '<div class="book-tap">TAP →</div>' : ''}
+        ${link ? `<div class="book-tap">${tapText}</div>` : ''}
       `;
       // Stop propagation so clicking the link doesn't open the modal
       return link

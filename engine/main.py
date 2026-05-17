@@ -208,7 +208,7 @@ def run_golf_major() -> None:
             valid = validate_picks(response)
             log.info(f"Golf major valid picks after validator: {len(valid)}")
             if valid:
-                publish(valid, response, mode="golf_bonus")
+                publish(valid, response, mode="golf_bonus", golf_packs=[pack])
         regenerate_site_data()
         analytics.refresh()
         log.info("=== GOLF MAJOR BONUS COMPLETE ===")

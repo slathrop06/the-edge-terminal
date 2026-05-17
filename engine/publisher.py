@@ -101,9 +101,85 @@ def _is_home_pick(pick: Pick, pick_lower: str, pack: IntelPack) -> bool:
     return False
 
 
-def _attach_links_and_prices(pick: Pick, packs: list[IntelPack]) -> None:
+def _golf_fallback_links(state_code: str) -> dict[str, str]:
+    """Generic per-book golf-section URLs. Used when the Odds API doesn't
+    return per-player bet-slip links (which is the case for outrights)."""
+    return {
+        "draftkings": "https://sportsbook.draftkings.com/leagues/golf/pga",
+        "fanduel":    "https://sportsbook.fanduel.com/navigation/golf",
+        "betmgm":     f"https://sports.{state_code}.betmgm.com/en/sports/golf-7",
+    }
+
+
+def _attach_golf_links(pick: Pick, golf_packs: list[dict]) -> None:
+    """For golf bonus picks: find the matching tournament + player and copy
+    over per-book prices and bet-slip deep links from the Odds API data."""
+    if not golf_packs:
+        return
+    # Find the tournament by event_name / tournament_name
+    matching_pack = None
+    pick_tourney = (pick.event_name or "").lower()
+    for gp in golf_packs:
+        if gp.get("tournament_name", "").lower() == pick_tourney:
+            matching_pack = gp
+            break
+    if not matching_pack:
+        # Fall back: if only one major active, use it
+        if len(golf_packs) == 1:
+            matching_pack = golf_packs[0]
+        else:
+            return
+
+    # Extract player name from pick string. Common format:
+    #   "Jon Rahm — Outright Winner"  or  "Jon Rahm - Top 10"
+    pick_str = pick.pick
+    player_name = pick_str
+    for sep in (" — ", " - ", " – ", " · "):
+        if sep in pick_str:
+            player_name = pick_str.split(sep, 1)[0].strip()
+            break
+    pn_lower = player_name.lower()
+
+    # Find the player in the pack
+    player = None
+    for p in matching_pack.get("players", []):
+        if p.get("player", "").lower() == pn_lower:
+            player = p
+            break
+    # Fallback: partial match (handles "J. Rahm" / "Rahm" / "Jon M. Rahm")
+    if not player:
+        for p in matching_pack.get("players", []):
+            n = p.get("player", "").lower()
+            if pn_lower in n or n in pn_lower:
+                player = p
+                break
+
+    if not player:
+        return
+
+    # Format helper for American odds
+    def fmt(price: int) -> str:
+        return f"{price:+d}" if price > 0 else str(price)
+
+    state_code = matching_pack.get("state_code") or "nj"
+    fallback_urls = _golf_fallback_links(state_code)
+    for book_key, info in (player.get("by_book") or {}).items():
+        price = info.get("price")
+        link = info.get("link")
+        if price is not None:
+            pick.book_prices.setdefault(book_key, fmt(price))
+        # Per-outcome link if Odds API provided one (rare for outrights);
+        # otherwise fall back to the generic golf-section URL on that book.
+        pick.book_links[book_key] = link or fallback_urls.get(book_key, "")
+
+
+def _attach_links_and_prices(pick: Pick, packs: list[IntelPack],
+                              golf_packs: Optional[list[dict]] = None) -> None:
     """Use the matching intel pack to fill pick.book_prices, pick.book_links,
     and backfill first_pitch_iso if Claude didn't include it."""
+    if pick.bonus_pick and pick.event_type == "golf_major":
+        _attach_golf_links(pick, golf_packs or [])
+        return
     if pick.market.upper() == "PARLAY":
         # For parlays, just backfill first_pitch_iso from the FIRST leg's pack if possible
         if pick.legs and not pick.first_pitch_iso:
@@ -166,8 +242,9 @@ def publish(
     system_paused: bool = False,
     pause_reason: str = "",
     *,
-    mode: str = "morning",           # "morning" or "late_add"
+    mode: str = "morning",           # "morning" | "late_add" | "golf_bonus"
     packs: Optional[list[IntelPack]] = None,
+    golf_packs: Optional[list[dict]] = None,
 ) -> dict:
     """Publish picks for date_str.
 
@@ -193,10 +270,10 @@ def publish(
     has_locked = bool(existing_today)
 
     # Attach per-book prices + deep links from the matching intel pack
-    if packs:
+    if packs or golf_packs:
         for pick in picks:
             try:
-                _attach_links_and_prices(pick, packs)
+                _attach_links_and_prices(pick, packs or [], golf_packs=golf_packs)
             except Exception as e:
                 logger.warning(f"Link attach failed for {pick.pick}: {e}")
 
