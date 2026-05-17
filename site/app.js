@@ -564,13 +564,17 @@
       const u = p.units_result;
       const ucls = u == null ? '' : u > 0 ? 'positive' : u < 0 ? 'negative' : '';
       const uStr = u == null ? '—' : (u >= 0 ? '+' : '') + u.toFixed(2) + 'u';
-      const ladder = p.ladder_designation ? '<span class="ladder-badge">LADDER</span>' : '';
+      const badges = [];
+      if (p.ladder_designation) badges.push('<span class="ladder-badge">🪜 LADDER</span>');
+      if (p.bonus_pick)         badges.push('<span class="lab-badge">🧪 LAB</span>');
+      if (p.late_add)           badges.push('<span class="late-badge">⚡ LATE</span>');
+      const badgeHTML = badges.join(' ');
       return `
-        <tr>
+        <tr data-pick-id="${escapeAttr(p.id || '')}" class="history-row clickable">
           <td>${escapeHtml(p.date || '')}</td>
           <td>${escapeHtml(p.sport || '')}</td>
           <td>${escapeHtml(p.game || '')}</td>
-          <td>${escapeHtml(p.pick || '')} ${ladder}</td>
+          <td>${escapeHtml(p.pick || '')} ${badgeHTML}</td>
           <td>${escapeHtml(p.best_odds || '')}</td>
           <td>${formatUnits(p.units)}</td>
           <td class="${status.toLowerCase()}">${status}</td>
@@ -578,6 +582,13 @@
         </tr>
       `;
     }).join('');
+    // Wire click on each row → open modal with the pick's full analysis
+    tbody.querySelectorAll('.history-row').forEach((tr) => {
+      tr.addEventListener('click', () => {
+        const id = tr.dataset.pickId;
+        if (id) openModal(id);
+      });
+    });
   }
 
   function renderUpdated() {

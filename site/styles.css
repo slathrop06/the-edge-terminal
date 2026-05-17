@@ -977,6 +977,15 @@ button {
   position: sticky;
   top: 0;
 }
+.history-table tbody tr.clickable {
+  cursor: pointer;
+  transition: background 0.12s ease, box-shadow 0.12s ease;
+}
+.history-table tbody tr.clickable:hover {
+  background: #FFF8F0;
+  box-shadow: inset 3px 0 0 var(--brand-red);
+}
+.history-table tbody tr.clickable:active { background: #FFEFD9; }
 .history-table tbody tr:hover { background: #FAFAFA; }
 .history-table td.right { text-align: right; }
 .history-table td.win { color: var(--win); font-weight: 700; }
@@ -985,16 +994,29 @@ button {
 .history-table td.pend { color: var(--text-mute); font-style: italic; }
 .history-table .units-pl.positive { color: var(--win); font-weight: 700; }
 .history-table .units-pl.negative { color: var(--loss); font-weight: 700; }
-.history-table .ladder-badge {
+.history-table .ladder-badge,
+.history-table .lab-badge,
+.history-table .late-badge {
   display: inline-block;
   font-size: 10px;
   padding: 2px 6px;
-  background: rgba(215,35,45,0.1);
-  color: var(--brand-red);
   border-radius: 3px;
-  margin-left: 6px;
+  margin-left: 4px;
   font-weight: 800;
   letter-spacing: 0.06em;
+  white-space: nowrap;
+}
+.history-table .ladder-badge {
+  background: rgba(215,35,45,0.1);
+  color: var(--brand-red);
+}
+.history-table .lab-badge {
+  background: rgba(107,70,193,0.10);
+  color: #6B46C1;
+}
+.history-table .late-badge {
+  background: rgba(245,158,11,0.12);
+  color: #B45309;
 }
 
 /* ── Footer ────────────────────────────────────────────────────────── */
