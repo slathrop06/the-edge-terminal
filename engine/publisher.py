@@ -297,14 +297,19 @@ def regenerate_site_data(system_paused: bool = False, pause_reason: str = "") ->
     except Exception as e:
         logger.debug(f"Autopsy backfill skipped: {e}")
 
-    today_picks = [p for p in history["picks"] if p.get("date") == today]
+    today_picks_all = [p for p in history["picks"] if p.get("date") == today]
+    # Split: bonus picks live in their own track ("For the Juice"), not in
+    # the main "Today's Picks" grid and not counted in the record.
+    today_picks = [p for p in today_picks_all if not p.get("bonus_pick")]
+    today_bonus_picks = [p for p in today_picks_all if p.get("bonus_pick")]
 
     payload = {
         "generated_at": nyc_now().isoformat(),
         "today": today,
         "system_paused": system_paused,
         "pause_reason": pause_reason if system_paused else "",
-        "today_picks": today_picks,
+        "today_picks": today_picks,                # main track only
+        "today_bonus_picks": today_bonus_picks,    # longshot lab picks, separate
         "all_picks": history["picks"],
         "ladder": ladder.load_state(),
     }

@@ -1,9 +1,10 @@
 {
-  "generated_at": "2026-05-17T09:02:07.666031-04:00",
+  "generated_at": "2026-05-17T09:08:34.846701-04:00",
   "today": "2026-05-17",
   "system_paused": false,
   "pause_reason": "",
-  "today_picks": [
+  "today_picks": [],
+  "today_bonus_picks": [
     {
       "id": "20260517-GOLF-PGA-WINNER-RAHM",
       "sport": "GOLF",

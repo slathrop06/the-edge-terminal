@@ -389,28 +389,69 @@ button {
   content: '🪜 LADDER · ⚡ LATE';
   background: var(--brand-red);
 }
+/* Bonus pick — purple/lab styling. Distinct from red ladder + green win/loss. */
 .pick-card.bonus {
-  border: 2px solid #047857;
-  background: linear-gradient(180deg, #F0FDF4 0%, #FFFFFF 60%);
-  box-shadow: 0 4px 16px rgba(4,120,87,0.10), var(--shadow-md);
+  border: 2px solid #6B46C1;
+  background: linear-gradient(180deg, #FAF5FF 0%, #FFFFFF 60%);
+  box-shadow: 0 4px 16px rgba(107,70,193,0.10), var(--shadow-md);
 }
 .pick-card.bonus::before {
-  content: '🏆 BONUS PICK';
+  content: '🧪 LAB PICK · FOR FUN';
   position: absolute;
   top: 0; right: 0;
-  background: #047857;
+  background: #6B46C1;
   color: #fff;
   font-size: 10px;
   font-weight: 800;
   padding: 6px 12px;
-  letter-spacing: 0.12em;
+  letter-spacing: 0.10em;
   border-bottom-left-radius: var(--r-md);
 }
 .pick-card.bonus .sport-tag {
-  color: #047857;
-  background: rgba(4,120,87,0.08);
+  color: #6B46C1;
+  background: rgba(107,70,193,0.08);
 }
-.pick-card.bonus .pick-cta { color: #047857; }
+.pick-card.bonus .pick-cta { color: #6B46C1; }
+.pick-card.bonus .win-prob .wp-num { color: #6B46C1; }
+
+/* "FOR THE JUICE" section header + disclaimer */
+.juice-section {
+  background: #FAF5FF;
+  border-top: 1px solid #E9D5FF;
+  border-bottom: 1px solid #E9D5FF;
+}
+.juice-kicker { color: #6B46C1; }
+.juice-intro {
+  max-width: 720px;
+  margin: 0 auto 24px;
+  text-align: center;
+  font-size: 15px;
+  line-height: 1.55;
+  color: var(--text-dim);
+  padding: 14px 20px;
+  background: var(--bg);
+  border: 1px dashed #C4B5FD;
+  border-radius: var(--r-md);
+}
+.juice-intro strong { color: #6B46C1; font-weight: 700; }
+
+/* Modal disclaimer for bonus picks */
+.m-bonus-note {
+  margin-top: 14px;
+  padding: 14px 16px;
+  background: linear-gradient(135deg, #FAF5FF 0%, #F3E8FF 100%);
+  border-left: 4px solid #6B46C1;
+  border-radius: var(--r-md);
+  font-size: 13px;
+  color: var(--text);
+  line-height: 1.5;
+}
+.m-bonus-note strong { color: #6B46C1; }
+.m-bonus-note em { font-style: italic; }
+
+@media (max-width: 600px) {
+  .juice-intro { font-size: 13px; padding: 12px 14px; }
+}
 
 /* DK / FD / MGM price row */
 .book-prices {

@@ -142,13 +142,20 @@ def _recent_form(picks: list[dict], n: int = 20) -> list[dict]:
 def refresh() -> None:
     history = load_history()
     all_picks = history.get("picks", [])
-    sports = sorted({p.get("sport") for p in all_picks if p.get("sport")})
+
+    # Bonus picks (golf longshots etc) are NOT part of the official record.
+    # All rollup math runs only on `main_picks`. Bonus picks get their own
+    # tiny side-track for completeness.
+    main_picks = [p for p in all_picks if not p.get("bonus_pick")]
+    bonus_picks = [p for p in all_picks if p.get("bonus_pick")]
+
+    sports = sorted({p.get("sport") for p in main_picks if p.get("sport")})
     conf_tiers = ["3", "4", "5"]
-    markets = sorted({p.get("market") for p in all_picks if p.get("market")})
+    markets = sorted({p.get("market") for p in main_picks if p.get("market")})
 
     scopes = {}
     for scope in ("daily", "weekly", "monthly", "yearly", "all_time"):
-        subset = _scope_picks(all_picks, scope)
+        subset = _scope_picks(main_picks, scope)
         scopes[scope] = {
             "overall": _rollup(subset),
             "by_sport": _by_slice(subset, "sport", sports),
@@ -157,23 +164,32 @@ def refresh() -> None:
         }
 
     ladder_state = ladder.load_state()
-    ladder_picks = [p for p in all_picks if p.get("ladder_designation")]
+    ladder_picks = [p for p in main_picks if p.get("ladder_designation")]
     ladder_rollup = _rollup(ladder_picks) if ladder_picks else _rollup([])
 
     payload = {
         "generated_at": nyc_now().isoformat(),
         "scopes": scopes,
-        "current_streak": _current_streak(all_picks),
-        "clv_trend": _clv_trend(all_picks, 50),
-        "recent_form": _recent_form(all_picks, 20),
+        "current_streak": _current_streak(main_picks),
+        "clv_trend": _clv_trend(main_picks, 50),
+        "recent_form": _recent_form(main_picks, 20),
         "ladder": {
             "state": ladder_state,
             "all_time_record": ladder_rollup,
         },
+        "bonus_track": {
+            "label": "For the Juice — longshot bonus picks, not part of the official record",
+            "all_time": _rollup(bonus_picks) if bonus_picks else _rollup([]),
+            "total": len(bonus_picks),
+        },
         "totals": {
-            "all_picks": len(all_picks),
+            "all_picks": len(main_picks),     # excludes bonus
+            "bonus_picks": len(bonus_picks),
             "sports": sports,
         },
     }
     write_json(ANALYTICS_JSON_PATH, payload)
-    logger.info(f"analytics.json refreshed: {len(all_picks)} picks, ladder cur={ladder_state['current_streak']}")
+    logger.info(
+        f"analytics.json refreshed: {len(main_picks)} main + {len(bonus_picks)} bonus picks, "
+        f"ladder cur={ladder_state['current_streak']}"
+    )

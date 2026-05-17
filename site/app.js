@@ -97,11 +97,50 @@
     renderLadder();
     renderExecSummary();
     renderTodayPicks();
+    renderJuicePicks();
     renderScopeTabs();
     renderRollups();
     renderRecentForm();
     renderHistory();
     renderUpdated();
+  }
+
+  function renderJuicePicks() {
+    const sect = $('#juiceSection');
+    const grid = $('#juiceGrid');
+    const list = state.data.today_bonus_picks || [];
+    if (!list.length) {
+      sect.style.display = 'none';
+      return;
+    }
+    grid.innerHTML = list.map(pickCardHTML).join('');
+    grid.querySelectorAll('.pick-card').forEach((el) => {
+      el.addEventListener('click', () => openModal(el.dataset.pickId));
+    });
+    grid.querySelectorAll('.book-cell.linked').forEach((el) => {
+      el.addEventListener('click', () => {
+        const card = el.closest('.pick-card');
+        const pickId = card?.dataset.pickId;
+        const pick = (state.data.today_bonus_picks || []).find(p => p.id === pickId);
+        if (!pick) return;
+        const href = el.getAttribute('href') || '';
+        const book = href.includes('draftkings') ? 'draftkings'
+                   : href.includes('fanduel')   ? 'fanduel'
+                   : href.includes('betmgm')    ? 'betmgm'
+                   : 'unknown';
+        track('Bet Slip Opened', {
+          pick_label: pickLabel(pick),
+          pick_id: pick.id,
+          book,
+          pick: pick.pick,
+          game: pick.game,
+          sport: pick.sport,
+          bonus: true,
+          odds: (pick.book_prices && pick.book_prices[book]) || pick.best_odds,
+        });
+      });
+    });
+    sect.style.display = '';
   }
 
   function renderExecSummary() {
@@ -306,6 +345,7 @@
   let _modalOpenPick = null;
   function openModal(pickId) {
     const pick = (state.data.today_picks || []).find(p => p.id === pickId)
+               || (state.data.today_bonus_picks || []).find(p => p.id === pickId)
                || (state.data.all_picks || []).find(p => p.id === pickId);
     if (!pick) return;
     _modalOpenTs = Date.now();
@@ -353,6 +393,10 @@
       ? `<div class="m-late-note"><strong>⚡ LATE ADD:</strong> ${escapeHtml(pick.late_add_reason || 'Material edge identified after morning lock-in.')}</div>`
       : '';
 
+    const bonusBox = pick.bonus_pick
+      ? `<div class="m-bonus-note"><strong>🧪 LAB PICK · FOR THE JUICE:</strong> Longshot bonus pick from the lab. <em>Not tracked in our official W-L record.</em> Take it for the adrenaline — leave it if you don't want the variance.</div>`
+      : '';
+
     // Autopsy block — shown on LOSS picks once the grader has classified them
     const ap = pick.autopsy;
     const autopsyBox = (pick.status === 'LOSS' && ap && ap.post_mortem)
@@ -390,6 +434,7 @@
 
       <p class="m-headline">${escapeHtml(pick.headline || '')}</p>
 
+      ${bonusBox}
       ${ladderBox}
       ${lateBox}
       ${autopsyBox}
