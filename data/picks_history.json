@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated_at": "2026-05-17T08:26:48.574136-04:00",
+  "updated_at": "2026-05-17T08:29:14.055059-04:00",
   "picks": [
     {
       "id": "20260516-MLB-MIA-TB-TOTAL",
@@ -77,11 +77,11 @@
       "scott_bot_quip": "Two veterans, a dome, and a stingy number. Sometimes the boring bet is the right bet.",
       "ladder_note": "",
       "date": "2026-05-16",
-      "status": "PEND",
-      "units_result": null,
+      "status": "LOSS",
+      "units_result": -1.0,
       "clv_cents": null,
-      "result_score": null,
-      "graded_at": null,
+      "result_score": "10-5",
+      "graded_at": "2026-05-17T08:29:08.343798-04:00",
       "slate_assessment": "Big 15-game MLB board with two clear pitching-edge unders standing out \u2014 S\u00e1nchez over Chandler in Pittsburgh and a Martinez/Alcantara matchup in the dome. Rest of the slate is mostly fair-priced or has small SP samples we can't trust.",
       "slate_vibe": "NORMAL",
       "published_at": "2026-05-16T13:02:29.804349-04:00"
@@ -171,11 +171,11 @@
       "scott_bot_quip": "When the Cy Young runner-up faces the guy who hands out free passes like Halloween candy, you don't have to overthink it. Take the under and go enjoy your Saturday.",
       "ladder_note": "Highest-floor play on the board: massive SP advantage, walk-prone opponent, suppressive park, sharp line that hasn't moved. The variance is contained and the price is right in the even-money pocket.",
       "date": "2026-05-16",
-      "status": "PEND",
-      "units_result": null,
+      "status": "WIN",
+      "units_result": 1.3043,
       "clv_cents": null,
-      "result_score": null,
-      "graded_at": null,
+      "result_score": "6-0",
+      "graded_at": "2026-05-17T08:29:14.054551-04:00",
       "slate_assessment": "Big 15-game MLB board with two clear pitching-edge unders standing out \u2014 S\u00e1nchez over Chandler in Pittsburgh and a Martinez/Alcantara matchup in the dome. Rest of the slate is mostly fair-priced or has small SP samples we can't trust.",
       "slate_vibe": "NORMAL",
       "published_at": "2026-05-16T13:02:29.804237-04:00"

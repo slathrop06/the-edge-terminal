@@ -1,0 +1,15 @@
+[
+  {
+    "id": "20260516-MLB-MIA-TB-TOTAL",
+    "date": "2026-05-16",
+    "pick": "Under 7.5",
+    "game": "MIA @ TB",
+    "odds": "-102",
+    "result_score": "10-5",
+    "classification": "VARIANCE",
+    "post_mortem": "The thesis was structurally sound \u2014 two starters with low walk rates, a HR-suppressing dome, and a flat market line all pointed toward a low-event game. A 10-5 final (15 runs) represents a significant blowup that the underlying profile didn't predict, likely driven by a multi-run inning or early starter exit \u2014 exactly the tail risk flagged in the case against. The data was accurate and the reasoning was coherent; the outcome was simply in the bad tail.",
+    "candidate_rule": null,
+    "sample_size_warning": "N=1, insufficient \u2014 one high-scoring outlier in a dome game does not invalidate dome suppression factors or low-walk-rate pitcher theses.",
+    "analyzed_at": "2026-05-17T08:29:14.054262-04:00"
+  }
+]
