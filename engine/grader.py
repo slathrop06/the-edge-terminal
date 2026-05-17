@@ -69,9 +69,28 @@ def _grade_total(pick: dict, home_score: int, away_score: int) -> Optional[str]:
 
 
 def _find_score(scores: dict, game_label: str) -> Optional[dict]:
+    """Match a pick's game label (e.g. 'MIA @ TB' or 'Miami Marlins @ Tampa Bay Rays')
+    against ESPN's finals dict. Tries full name AND abbreviation."""
     gl = game_label.lower()
+    # 1. Full-name substring match
     for v in scores.values():
-        if v.get("home_team", "").lower() in gl and v.get("away_team", "").lower() in gl:
+        ht = v.get("home_team", "").lower()
+        at = v.get("away_team", "").lower()
+        if ht and at and ht in gl and at in gl:
+            return v
+    # 2. Abbreviation match (Claude typically writes 'MIA @ TB')
+    for v in scores.values():
+        ha = v.get("home_abbr", "").lower()
+        aa = v.get("away_abbr", "").lower()
+        if ha and aa and ha in gl and aa in gl:
+            return v
+    # 3. Token-overlap fallback
+    for v in scores.values():
+        ht = v.get("home_team", "").lower()
+        at = v.get("away_team", "").lower()
+        ht_tokens = [t for t in ht.split() if len(t) > 3]
+        at_tokens = [t for t in at.split() if len(t) > 3]
+        if any(t in gl for t in ht_tokens) and any(t in gl for t in at_tokens):
             return v
     return None
 

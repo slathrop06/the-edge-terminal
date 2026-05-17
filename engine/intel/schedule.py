@@ -76,6 +76,8 @@ def fetch_finals(sport: SportCode, date_str: str) -> dict[str, dict]:
                 "status_state": state,
                 "home_team": home["team"].get("displayName") or home["team"].get("abbreviation", ""),
                 "away_team": away["team"].get("displayName") or away["team"].get("abbreviation", ""),
+                "home_abbr": home["team"].get("abbreviation", ""),
+                "away_abbr": away["team"].get("abbreviation", ""),
             }
         except (KeyError, StopIteration):
             continue
