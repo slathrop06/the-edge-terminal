@@ -164,7 +164,12 @@ def run_handicapper(
     user_msg = (
         f"Today's slate ({slate['date']}). Review the IntelPacks, optionally use web_search "
         f"for late-breaking news, then return strict JSON per the system prompt.\n\n"
-        f"```json\n{slate_json}\n```"
+        f"```json\n{slate_json}\n```\n\n"
+        f"**CRITICAL OUTPUT RULES:**\n"
+        f"- Your response MUST be valid JSON ONLY. No markdown, no headers, no thinking-out-loud preamble.\n"
+        f"- Begin your response with the character `{{` and end with `}}`. Nothing before or after.\n"
+        f"- Do reasoning internally (and via web_search tool calls); deliver only the JSON object as the final text response.\n"
+        f"- If you'd normally write 'Let me check...' or '**Top candidates:**', stop — that goes in your private reasoning, not the output."
     )
 
     client = anthropic.Anthropic(api_key=os.getenv("ANTHROPIC_API_KEY", ""))
