@@ -1,7 +1,297 @@
 {
   "version": 1,
-  "updated_at": "2026-05-17T10:44:52.980835-04:00",
+  "updated_at": "2026-05-17T12:10:05.833204-04:00",
   "picks": [
+    {
+      "id": "20260517-MLB-NYY-NYM-ML",
+      "sport": "MLB",
+      "game": "NYY @ NYM",
+      "first_pitch_iso": "2026-05-17T13:40:00-04:00",
+      "pick": "New York Mets ML",
+      "best_book": "FanDuel",
+      "best_odds": "-120",
+      "book_prices": {
+        "draftkings": "-120",
+        "fanduel": "-120",
+        "betmgm": "-120"
+      },
+      "book_links": {
+        "fanduel": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.578965151&selectionId=29174",
+        "draftkings": "https://sportsbook.draftkings.com/?outcomes=0ML84809914_1",
+        "betmgm": "https://sports.nj.betmgm.com/en/sports?options=19532351-1514983736-2179553043&type=Single"
+      },
+      "market": "ML",
+      "confidence": 3,
+      "units": 1.0,
+      "win_probability": 0.58,
+      "ladder_designation": true,
+      "data_confidence": 0.62,
+      "rules_passed": [
+        "max_juice",
+        "ladder_even_money",
+        "parlay_well_formed",
+        "confidence_units_match",
+        "data_confidence_floor",
+        "pick_type_allowed",
+        "mlb_hr_prop_check",
+        "mlb_run_line_check",
+        "mlb_under_bb_check",
+        "no_same_game_opposite"
+      ],
+      "locked": true,
+      "late_add": false,
+      "late_add_reason": "",
+      "bonus_pick": false,
+      "event_type": "",
+      "event_name": "",
+      "legs": [],
+      "headline": "Peralta's a stable mid-rotation arm; the Yankees are throwing an opener with an 18% walk rate.",
+      "the_thesis": "Freddy Peralta is the real starter in this game. 3.10 ERA, 1.22 WHIP, 23.8% K rate, 0.92 HR/9 across 49.1 innings \u2014 that's a reliable mid-rotation arm trending stable. Against him, the Yankees are running out Elmer Rodr\u00edguez, who in 8.2 MLB innings this year has put up a 2.08 WHIP and an 18.2% walk rate. Eight innings is a tiny sample, yes, but it tells you all you need to know about the role: he's a bullpen/opener arm being asked to navigate a top-half NL East lineup at home.\n\nIf Rodr\u00edguez throws 2-3 innings and the Yankees pen has to cover six, even a healthy Yankees pen is going to lose innings to a Mets lineup that's been productive. Peralta's been giving the Mets 5+ innings consistently, and the Mets' bullpen has been one of the more reliable units in the NL.\n\n-120 is fair for a home favorite with that level of starter mismatch. The de-vigged implied at home ML is 52.4% \u2014 I have the Mets at ~58%. That's 5-6 cents of edge, right at the bar.",
+      "the_data": [
+        {
+          "label": "Peralta ERA / WHIP",
+          "value": "3.10 / 1.22",
+          "context": "Solid #2/3 starter"
+        },
+        {
+          "label": "Peralta K%",
+          "value": "23.8%",
+          "context": "Above average"
+        },
+        {
+          "label": "Rodr\u00edguez WHIP (8.2 IP)",
+          "value": "2.08",
+          "context": "Extreme \u2014 small sample"
+        },
+        {
+          "label": "Rodr\u00edguez BB%",
+          "value": "18.2%",
+          "context": "Wildness"
+        },
+        {
+          "label": "Rodr\u00edguez IP/start L3",
+          "value": "2.73",
+          "context": "Opener role"
+        },
+        {
+          "label": "Mets de-vig home ML",
+          "value": "52.4%",
+          "context": "Our model: ~58%"
+        }
+      ],
+      "the_market": "Mets -120 across all three books, line hasn't moved off open. No sharp signal either way \u2014 this is a soft favorite spot the public hasn't latched onto.",
+      "weather_park": "Citi Field 83\u00b0F, 9mph wind blowing out to center boosts HR ~13% \u2014 slight tailwind for both offenses, but park HR factor of 0.91 mostly cancels it.",
+      "case_against": "Yankees bullpen could lock it down once Rodr\u00edguez exits \u2014 Yankees have quality arms and a deep pen. The Yankees lineup is also legit, and Peralta has had occasional command issues (9.0% BB%). If Aaron Judge sees three good fastballs over the plate, that's a 2-run swing. Tiny sample on Rodr\u00edguez means our worst-case (he's actually fine) is plausible.",
+      "what_were_betting_on": "Rodr\u00edguez exits after 3 innings having issued multiple walks, Mets get to the middle relief, Peralta navigates 6 strong, Mets bullpen closes.",
+      "scott_bot_quip": "When the other team's starter has more walks than innings pitched, you take the price.",
+      "ladder_note": "Highest floor on the board: even-money price, Peralta is the most stable variable, and the starter mismatch doesn't require a specific run total \u2014 just a win. No weather variance dependency on the result, only on the size.",
+      "date": "2026-05-17",
+      "status": "PEND",
+      "units_result": null,
+      "clv_cents": null,
+      "result_score": null,
+      "graded_at": null,
+      "slate_assessment": "Quiet 15-game MLB Sunday with one NBA play-in style game; two ace-vs-ace pitching matchups headline the board and a season debut by Giolito creates a clean under spot.",
+      "executive_summary": "Sunday's board is built around pitching. \nThe Phillies and Pirates conclude their three-game set at PNC Park at 1:35 p.m. ET with a battle of aces, as Philadelphia righty Zack Wheeler squares off against Pittsburgh righty and defending NL Cy Young winner Paul Skenes.\n Out west, \nGeorge Kirby faces Lucas Giolito, who makes his first appearance of the season, with first pitch at 7:20 p.m. ET from T-Mobile Park.\n Two unders and a Peralta-led Mets ML at near-even money \u2014 three plays, all pitcher-driven. The ladder rides Mets ML against a Yankees opener throwing a 2.08 WHIP.",
+      "slate_analysis": "Fifteen MLB games and a single NBA game (DET-CLE) on the board. The MLB slate is pricing climate-normal \u2014 most favorites in the -120 to -160 band with no obvious chalk traps, and totals clustered between 7.5 and 10.5 (the Coors game). No NHL, no other major sports moving.\n\nThe candidates that earned a hard look: PIT-PHI under 7.5 (Skenes/Wheeler, both elite), SEA-SD under 7.5 (Kirby vs Giolito season debut), NYM-NYY Mets ML (Peralta vs an opener with 18.2% walk rate), DET-TOR under 7.5 (Gausman elite but Flaherty's 24% K rate offsets some), STL-KC over (19mph wind blowing out but Kolek has 10.2 IP \u2014 sample too thin), and ATL-BOS Braves ML (Bello at 6.46 ERA but -155 is steep with no edge after de-vig).\n\nWhat got cut: STL-KC over \u2014 Kolek's 10.2 IP sample is below the threshold of reliable, and a wind-driven over without lineup confirmation is variance-chasing, not edge. ATL-BOS Braves ML \u2014 Holmes is only league-average (4.35 ERA) and -155 prices in the matchup edge; no daylight to the de-vigged market. DET-TOR under \u2014 Flaherty walks the world (15.9% BB%) and could put crooked numbers up himself; Gausman's edge alone isn't enough. COL-ARI total \u2014 Coors variance with a bad Lorenzen is a coinflip, not a pick. TB-MIA was workable but Rasmussen's 1.49 HR/9 in a small sample and confidence_data of 0.4 keeps it off the card.\n\nThe final three: Skenes/Wheeler under is the strongest signal on the board \u2014 two of the three best pitchers in the National League starting on the same mound. Kirby/Giolito under is a clean fade of a starter who hasn't pitched in the majors in eight months, in a pitcher's park. Mets ML is the ladder \u2014 Peralta's a stable 3.10 ERA arm against a Yankees opener with a 2.08 WHIP and 18.2% walk rate in 8.2 innings; even-money price, highest floor of the three because we don't need a specific run total to land.",
+      "slate_vibe": "NORMAL",
+      "published_at": "2026-05-17T12:10:05.833123-04:00"
+    },
+    {
+      "id": "20260517-MLB-SD-SEA-TOTAL",
+      "sport": "MLB",
+      "game": "SD @ SEA",
+      "first_pitch_iso": "2026-05-17T19:20:00-04:00",
+      "pick": "Under 7.5",
+      "best_book": "BetMGM",
+      "best_odds": "-110",
+      "book_prices": {
+        "draftkings": "-112",
+        "fanduel": "-115",
+        "betmgm": "-110"
+      },
+      "book_links": {
+        "fanduel": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.579081681&selectionId=7017906",
+        "draftkings": "https://sportsbook.draftkings.com/?outcomes=0OU84809922U750_3",
+        "betmgm": "https://sports.nj.betmgm.com/en/sports?options=19414758-1501786150--85125007&type=Single"
+      },
+      "market": "TOTAL",
+      "confidence": 3,
+      "units": 1.0,
+      "win_probability": 0.58,
+      "ladder_designation": false,
+      "data_confidence": 0.65,
+      "rules_passed": [
+        "max_juice",
+        "ladder_even_money",
+        "parlay_well_formed",
+        "confidence_units_match",
+        "data_confidence_floor",
+        "pick_type_allowed",
+        "mlb_hr_prop_check",
+        "mlb_run_line_check",
+        "mlb_under_bb_check",
+        "no_same_game_opposite"
+      ],
+      "locked": true,
+      "late_add": false,
+      "late_add_reason": "",
+      "bonus_pick": false,
+      "event_type": "",
+      "event_name": "",
+      "legs": [],
+      "headline": "Kirby at home in a pitcher's park against a starter who hasn't pitched in the majors in eight months.",
+      "the_thesis": "George Kirby is doing Kirby things \u2014 2.84 ERA, 1.16 WHIP, 0.63 HR/9 over 57 innings. That HR/9 is elite for a fly-ball pitcher in a fly-ball-suppressing park. T-Mobile Park grades as one of the most pitcher-friendly venues in the league (0.93 run factor, 0.93 HR factor).\n\nThe edge is on the other side though. \nThis will be Giolito's first MLB game in nearly eight months, and he had an ERA of almost 5.00 across four minor league appearances this season.\n Eight months off, rehab numbers shaky, and now stepping into a Sunday night MLB start against an offense that just got Arozarena and Julio rolling. Even if Giolito gives San Diego five passable innings, that means a heavily worked Padres pen for the back half. The counterargument is that bullpen-heavy games tend to go over \u2014 but Seattle's offense ranks well below average and the Padres' pen is solid.\n\nThe contrarian note: \nAs for Kirby, he's coming off an outing in which he threw a season-low of 5 IP but gave up his second-most hits (7) and baserunners (9) of the season. Kirby has also been lit up by current Padres batters, allowing a .318 average (14 for 44) versus them.\n That's real and I'm respecting it \u2014 that's why this is a 1-unit play and not a 1.5.",
+      "the_data": [
+        {
+          "label": "Kirby ERA / WHIP",
+          "value": "2.84 / 1.16",
+          "context": "Above average"
+        },
+        {
+          "label": "Kirby HR/9",
+          "value": "0.63",
+          "context": "Elite contact suppression"
+        },
+        {
+          "label": "Giolito 2026 MLB IP",
+          "value": "0",
+          "context": "Season debut after 8 months off"
+        },
+        {
+          "label": "Giolito minor league ERA",
+          "value": "~5.00",
+          "context": "Rehab struggles"
+        },
+        {
+          "label": "T-Mobile Park run factor",
+          "value": "0.93",
+          "context": "Pitcher-friendly"
+        },
+        {
+          "label": "Padres L10 batting avg",
+          "value": ".180",
+          "context": "Cold offense"
+        }
+      ],
+      "the_market": "Total at 7.5 across all books, no meaningful movement. BetMGM and DK have under at -110/-112. Public model at CBS has the over but that's predicated on Giolito blowing up, which is the consensus narrative \u2014 we're fading it.",
+      "weather_park": "Roof considerations aside, T-Mobile is a pitcher's park and weather isn't a factor at this venue tonight.",
+      "case_against": "Giolito could simply be sharp in his debut \u2014 he's a veteran with big-league pedigree, and rehab ERAs are notoriously unreliable indicators. Kirby has shown signs of regression in his last start and Padres hitters have historically owned him (.318 BA). If Giolito gives them five clean and Kirby coughs up a 3-run inning, this total clears in a hurry. Also, Padres have won 5 straight vs Seattle.",
+      "what_were_betting_on": "Giolito working short and the Padres pen managing it; Kirby giving 6 quality; combined score landing 3-4.",
+      "scott_bot_quip": "Eight months off and your first start back is on Sunday Night Baseball against a Gold Glove command artist. Good luck.",
+      "ladder_note": "",
+      "date": "2026-05-17",
+      "status": "PEND",
+      "units_result": null,
+      "clv_cents": null,
+      "result_score": null,
+      "graded_at": null,
+      "slate_assessment": "Quiet 15-game MLB Sunday with one NBA play-in style game; two ace-vs-ace pitching matchups headline the board and a season debut by Giolito creates a clean under spot.",
+      "executive_summary": "Sunday's board is built around pitching. \nThe Phillies and Pirates conclude their three-game set at PNC Park at 1:35 p.m. ET with a battle of aces, as Philadelphia righty Zack Wheeler squares off against Pittsburgh righty and defending NL Cy Young winner Paul Skenes.\n Out west, \nGeorge Kirby faces Lucas Giolito, who makes his first appearance of the season, with first pitch at 7:20 p.m. ET from T-Mobile Park.\n Two unders and a Peralta-led Mets ML at near-even money \u2014 three plays, all pitcher-driven. The ladder rides Mets ML against a Yankees opener throwing a 2.08 WHIP.",
+      "slate_analysis": "Fifteen MLB games and a single NBA game (DET-CLE) on the board. The MLB slate is pricing climate-normal \u2014 most favorites in the -120 to -160 band with no obvious chalk traps, and totals clustered between 7.5 and 10.5 (the Coors game). No NHL, no other major sports moving.\n\nThe candidates that earned a hard look: PIT-PHI under 7.5 (Skenes/Wheeler, both elite), SEA-SD under 7.5 (Kirby vs Giolito season debut), NYM-NYY Mets ML (Peralta vs an opener with 18.2% walk rate), DET-TOR under 7.5 (Gausman elite but Flaherty's 24% K rate offsets some), STL-KC over (19mph wind blowing out but Kolek has 10.2 IP \u2014 sample too thin), and ATL-BOS Braves ML (Bello at 6.46 ERA but -155 is steep with no edge after de-vig).\n\nWhat got cut: STL-KC over \u2014 Kolek's 10.2 IP sample is below the threshold of reliable, and a wind-driven over without lineup confirmation is variance-chasing, not edge. ATL-BOS Braves ML \u2014 Holmes is only league-average (4.35 ERA) and -155 prices in the matchup edge; no daylight to the de-vigged market. DET-TOR under \u2014 Flaherty walks the world (15.9% BB%) and could put crooked numbers up himself; Gausman's edge alone isn't enough. COL-ARI total \u2014 Coors variance with a bad Lorenzen is a coinflip, not a pick. TB-MIA was workable but Rasmussen's 1.49 HR/9 in a small sample and confidence_data of 0.4 keeps it off the card.\n\nThe final three: Skenes/Wheeler under is the strongest signal on the board \u2014 two of the three best pitchers in the National League starting on the same mound. Kirby/Giolito under is a clean fade of a starter who hasn't pitched in the majors in eight months, in a pitcher's park. Mets ML is the ladder \u2014 Peralta's a stable 3.10 ERA arm against a Yankees opener with a 2.08 WHIP and 18.2% walk rate in 8.2 innings; even-money price, highest floor of the three because we don't need a specific run total to land.",
+      "slate_vibe": "NORMAL",
+      "published_at": "2026-05-17T12:10:05.833013-04:00"
+    },
+    {
+      "id": "20260517-MLB-PHI-PIT-TOTAL",
+      "sport": "MLB",
+      "game": "PHI @ PIT",
+      "first_pitch_iso": "2026-05-17T13:35:00-04:00",
+      "pick": "Under 7.5",
+      "best_book": "BetMGM",
+      "best_odds": "-125",
+      "book_prices": {
+        "draftkings": "-120",
+        "fanduel": "-122",
+        "betmgm": "-125"
+      },
+      "book_links": {
+        "fanduel": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.579080281&selectionId=7017906",
+        "draftkings": "https://sportsbook.draftkings.com/?outcomes=0OU84809910U750_3",
+        "betmgm": "https://sports.nj.betmgm.com/en/sports?options=19532350-1514983652-2179552857&type=Single"
+      },
+      "market": "TOTAL",
+      "confidence": 4,
+      "units": 1.5,
+      "win_probability": 0.6,
+      "ladder_designation": false,
+      "data_confidence": 0.75,
+      "rules_passed": [
+        "max_juice",
+        "ladder_even_money",
+        "parlay_well_formed",
+        "confidence_units_match",
+        "data_confidence_floor",
+        "pick_type_allowed",
+        "mlb_hr_prop_check",
+        "mlb_run_line_check",
+        "mlb_under_bb_check",
+        "no_same_game_opposite"
+      ],
+      "locked": true,
+      "late_add": false,
+      "late_add_reason": "",
+      "bonus_pick": false,
+      "event_type": "",
+      "event_name": "",
+      "legs": [],
+      "headline": "Two Cy Young arms, two struggling lineups, and a number that hasn't moved off 7.5.",
+      "the_thesis": "This is the cleanest pitching matchup on the entire board. \nPhiladelphia righty Zack Wheeler squares off against Pittsburgh righty and defending NL Cy Young winner Paul Skenes.\n Skenes is sitting on a 1.98 ERA, 0.64 WHIP, 30.3% K rate, and a 0.72 HR/9 \u2014 that last number means he gives up homers at a rate that ranks among the very best in baseball. \nSkenes is coming off an eight-scoreless-inning masterpiece against the Rockies in which he allowed just two hits and struck out 10.\n\n\nOn the other side, Wheeler isn't far behind. He's at 2.55 ERA, 0.93 WHIP, and a 0.37 HR/9 \u2014 that's elite home-run suppression. \nHe's coming off a gem against the Red Sox on Tuesday, when he went 7 1/3 innings and allowed just one run.\n Even the bullpen narrative cuts the right way for the under tonight: \nPhilly's pen has a league-best 2.76 xFIP in that same span, with a 2.30 ERA, and they also got a full day's rest yesterday.\n\n\nThe Pirates' pen is the only real wobble \u2014 it's been getting tagged lately \u2014 but Skenes is throwing complete-game-adjacent outings. He went 8 innings his last start and we only need him to give us 6-7 to lock this in. \nSkenes should rack up plenty of punchouts against a Philly lineup with the fifth-highest chase rate over the past two weeks, swinging at 37.1% of pitches outside the zone.\n",
+      "the_data": [
+        {
+          "label": "Skenes ERA / WHIP",
+          "value": "1.98 / 0.64",
+          "context": "Best in MLB"
+        },
+        {
+          "label": "Wheeler ERA / WHIP",
+          "value": "2.55 / 0.93",
+          "context": "Elite"
+        },
+        {
+          "label": "Skenes HR/9",
+          "value": "0.72",
+          "context": "Top tier"
+        },
+        {
+          "label": "Wheeler HR/9",
+          "value": "0.37",
+          "context": "Best in baseball"
+        },
+        {
+          "label": "Skenes K%",
+          "value": "30.3%",
+          "context": "Strikeout artist"
+        },
+        {
+          "label": "PNC Park HR factor",
+          "value": "0.91",
+          "context": "HR-suppressing"
+        },
+        {
+          "label": "Total movement",
+          "value": "Open 7.5 \u2192 7.5",
+          "context": "Market won't budge"
+        }
+      ],
+      "the_market": "Total opened at 7.5 and has stayed at 7.5 across all three books \u2014 sharp money is comfortable here. BetMGM at -125 is the best price; DK is -120, FD -122.",
+      "weather_park": "PNC Park 78\u00b0F, 9mph wind blowing out to left \u2014 that's the only real concern, but both pitchers suppress contact hard enough to neutralize it.",
+      "case_against": "Wind blowing out 9mph at PNC could turn one Schwarber or O'Hearn swing into a 3-run inning that we never recover from. Skenes had one bad start this year \u2014 Opening Day vs the Mets where he allowed 5 runs in 0.2 IP. If he's off, the Phillies have the bats to make him pay. Wheeler is also five starts removed from thoracic outlet surgery and his velocity is down from last year (94.7 vs 96.1). Bullpens matter too \u2014 Pirates' pen has been awful lately.",
+      "what_were_betting_on": "Skenes and Wheeler combining for 13+ innings, both lineups failing to string anything together, and the under landing in the 5-6 run range.",
+      "scott_bot_quip": "Two aces, no defense lawyer needed. The number hasn't moved an inch \u2014 that tells you everything.",
+      "ladder_note": "",
+      "date": "2026-05-17",
+      "status": "PEND",
+      "units_result": null,
+      "clv_cents": null,
+      "result_score": null,
+      "graded_at": null,
+      "slate_assessment": "Quiet 15-game MLB Sunday with one NBA play-in style game; two ace-vs-ace pitching matchups headline the board and a season debut by Giolito creates a clean under spot.",
+      "executive_summary": "Sunday's board is built around pitching. \nThe Phillies and Pirates conclude their three-game set at PNC Park at 1:35 p.m. ET with a battle of aces, as Philadelphia righty Zack Wheeler squares off against Pittsburgh righty and defending NL Cy Young winner Paul Skenes.\n Out west, \nGeorge Kirby faces Lucas Giolito, who makes his first appearance of the season, with first pitch at 7:20 p.m. ET from T-Mobile Park.\n Two unders and a Peralta-led Mets ML at near-even money \u2014 three plays, all pitcher-driven. The ladder rides Mets ML against a Yankees opener throwing a 2.08 WHIP.",
+      "slate_analysis": "Fifteen MLB games and a single NBA game (DET-CLE) on the board. The MLB slate is pricing climate-normal \u2014 most favorites in the -120 to -160 band with no obvious chalk traps, and totals clustered between 7.5 and 10.5 (the Coors game). No NHL, no other major sports moving.\n\nThe candidates that earned a hard look: PIT-PHI under 7.5 (Skenes/Wheeler, both elite), SEA-SD under 7.5 (Kirby vs Giolito season debut), NYM-NYY Mets ML (Peralta vs an opener with 18.2% walk rate), DET-TOR under 7.5 (Gausman elite but Flaherty's 24% K rate offsets some), STL-KC over (19mph wind blowing out but Kolek has 10.2 IP \u2014 sample too thin), and ATL-BOS Braves ML (Bello at 6.46 ERA but -155 is steep with no edge after de-vig).\n\nWhat got cut: STL-KC over \u2014 Kolek's 10.2 IP sample is below the threshold of reliable, and a wind-driven over without lineup confirmation is variance-chasing, not edge. ATL-BOS Braves ML \u2014 Holmes is only league-average (4.35 ERA) and -155 prices in the matchup edge; no daylight to the de-vigged market. DET-TOR under \u2014 Flaherty walks the world (15.9% BB%) and could put crooked numbers up himself; Gausman's edge alone isn't enough. COL-ARI total \u2014 Coors variance with a bad Lorenzen is a coinflip, not a pick. TB-MIA was workable but Rasmussen's 1.49 HR/9 in a small sample and confidence_data of 0.4 keeps it off the card.\n\nThe final three: Skenes/Wheeler under is the strongest signal on the board \u2014 two of the three best pitchers in the National League starting on the same mound. Kirby/Giolito under is a clean fade of a starter who hasn't pitched in the majors in eight months, in a pitcher's park. Mets ML is the ladder \u2014 Peralta's a stable 3.10 ERA arm against a Yankees opener with a 2.08 WHIP and 18.2% walk rate in 8.2 innings; even-money price, highest floor of the three because we don't need a specific run total to land.",
+      "slate_vibe": "NORMAL",
+      "published_at": "2026-05-17T12:10:05.832854-04:00"
+    },
     {
       "id": "20260517-GOLF-PGA-WINNER-RAHM",
       "sport": "GOLF",
