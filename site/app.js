@@ -346,6 +346,12 @@
       ? `<div class="m-late-note"><strong>⚡ LATE ADD:</strong> ${escapeHtml(pick.late_add_reason || 'Material edge identified after morning lock-in.')}</div>`
       : '';
 
+    // Autopsy block — shown on LOSS picks once the grader has classified them
+    const ap = pick.autopsy;
+    const autopsyBox = (pick.status === 'LOSS' && ap && ap.post_mortem)
+      ? `<div class="m-autopsy"><div class="m-autopsy-head"><strong>AUTOPSY · ${escapeHtml(ap.classification || 'VARIANCE')}</strong>${ap.sample_size_warning ? ` <span class="m-autopsy-sample">(${escapeHtml(ap.sample_size_warning)})</span>` : ''}</div><p>${escapeHtml(ap.post_mortem)}</p>${ap.candidate_rule ? `<p class="m-autopsy-rule"><strong>Proposed rule for review:</strong> ${escapeHtml(ap.candidate_rule)}</p>` : ''}</div>`
+      : '';
+
     const legs = pick.legs || [];
     const legsBlock = legs.length
       ? `<div class="m-section"><h4>PARLAY LEGS</h4><div class="m-legs">${
@@ -379,6 +385,7 @@
 
       ${ladderBox}
       ${lateBox}
+      ${autopsyBox}
       ${legsBlock}
       ${bookGrid}
 
@@ -448,8 +455,13 @@
     if (!scope) { grid.innerHTML = `<p class="empty-state">No data for ${state.scope}.</p>`; return; }
     const units = scope.units_pl ?? 0;
     const roi = scope.roi_pct ?? 0;
+    const settled = scope.settled_picks ?? ((scope.wins || 0) + (scope.losses || 0) + (scope.pushes || 0));
+    const pending = scope.pending ?? Math.max(0, (scope.total_picks || 0) - settled);
+    const recordSub = settled === 0
+      ? (pending > 0 ? `${pending} pending` : 'no picks yet')
+      : pending > 0 ? `${settled} settled · ${pending} pending` : `${settled} settled`;
     const cards = [
-      { label: 'RECORD',       value: scope.record || '0-0-0',       sub: `${scope.total_picks || 0} picks` },
+      { label: 'RECORD',       value: scope.record || '0-0-0',       sub: recordSub },
       { label: 'UNITS',        value: (units >= 0 ? '+' : '') + units.toFixed(2),  sub: 'P/L',     cls: units > 0 ? 'positive' : units < 0 ? 'negative' : '' },
       { label: 'ROI',          value: (roi >= 0 ? '+' : '') + roi.toFixed(1) + '%',  sub: 'return',  cls: roi > 0 ? 'positive' : roi < 0 ? 'negative' : '' },
       { label: 'WIN RATE',     value: (scope.win_rate_pct || 0).toFixed(1) + '%',   sub: 'of decided' },

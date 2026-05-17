@@ -227,12 +227,22 @@ def _build_intel_for_game(game: dict, pack: IntelPack, history: dict) -> MarketI
         pa = american_to_prob(mi.away_ml_best.price_american)
         mi.home_ml_implied_pct, mi.away_ml_implied_pct = _devig_two_way(ph, pa)
 
-    # Movement vs opening
+    # Movement vs opening AND CLV source data: store best prices per market
+    # so the grader can compute closing line value later.
     snapshot = {
         "snap_iso": mi.snapshot_iso,
         "total": mi.consensus_total,
         "home_spread": mi.consensus_home_spread,
         "home_ml_implied": mi.home_ml_implied_pct,
+        "home_ml_price":    mi.home_ml_best.price_american    if mi.home_ml_best    else None,
+        "away_ml_price":    mi.away_ml_best.price_american    if mi.away_ml_best    else None,
+        "home_spread_price": mi.home_spread_best.price_american if mi.home_spread_best else None,
+        "away_spread_price": mi.away_spread_best.price_american if mi.away_spread_best else None,
+        "home_spread_line":  mi.home_spread_best.line          if mi.home_spread_best else None,
+        "over_price":  mi.over_best.price_american  if mi.over_best  else None,
+        "over_line":   mi.over_best.line            if mi.over_best  else None,
+        "under_price": mi.under_best.price_american if mi.under_best else None,
+        "under_line":  mi.under_best.line           if mi.under_best else None,
     }
     opening = _opening_snapshot(history, pack.game_id, snapshot)
     mi.total_open = opening.get("total")

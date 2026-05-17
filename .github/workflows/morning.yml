@@ -2,10 +2,11 @@ name: Morning Picks (11:00 AM ET)
 
 on:
   schedule:
-    # 15:00 UTC = 11 AM EDT (Mar–Nov) / 10 AM EST (Nov–Mar).
-    # Late enough that MLB probable pitchers + weather + morning scratches are locked.
-    # Early enough that boys see picks before the 1 PM MLB starts.
+    # DST-aware: fire at both 15:00 UTC (EDT 11 AM) and 16:00 UTC (EST 11 AM).
+    # The engine code guards: it bails immediately if NYC's wall-clock hour isn't 11,
+    # so only the correct one of these two crons actually does work each day.
     - cron: '0 15 * * *'
+    - cron: '0 16 * * *'
   workflow_dispatch: {}
 
 jobs:
@@ -36,6 +37,7 @@ jobs:
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
           ODDS_API_KEY:      ${{ secrets.ODDS_API_KEY }}
           OPENWEATHERMAP_API_KEY: ${{ secrets.OPENWEATHERMAP_API_KEY }}
+          GITHUB_EVENT_NAME: ${{ github.event_name }}
           TZ: America/New_York
         run: python -m engine.main morning
 

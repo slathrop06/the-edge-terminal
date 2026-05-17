@@ -5,12 +5,15 @@ import re
 from typing import Optional
 
 from engine.utils import (
-    get_logger, nyc_now, nyc_date, units_profit, american_to_prob
+    get_logger, nyc_now, nyc_date, units_profit, american_to_prob,
+    read_json, DATA_DIR
 )
 from engine.intel.schedule import fetch_finals
 from engine.intel.types import SportCode
 from engine.publisher import load_history, save_history, regenerate_site_data
 from engine import ladder
+
+LINE_HISTORY_PATH = DATA_DIR / "line_history.json"
 
 logger = get_logger("grader")
 
@@ -103,7 +106,10 @@ def _grade_single(pick_data: dict, scores: dict) -> tuple[str, Optional[str]]:
         return "PEND", None
 
     hs = found["home_score"]; as_ = found["away_score"]
-    result_score = f"{as_}-{hs}"
+    # Team-labeled score for human readability — "MIA 10 · TB 5"
+    away_label = found.get("away_abbr") or found.get("away_team", "AWAY")
+    home_label = found.get("home_abbr") or found.get("home_team", "HOME")
+    result_score = f"{away_label} {as_} · {home_label} {hs}"
     market = (pick_data.get("market") or "").upper()
     home_name = found["home_team"]; away_name = found["away_team"]
 
@@ -126,6 +132,69 @@ def _grade_single(pick_data: dict, scores: dict) -> tuple[str, Optional[str]]:
     else:
         status = None
     return (status or "PEND"), result_score
+
+
+def _closing_snapshot(pick: dict) -> Optional[dict]:
+    """Find the last (closest-to-game-start) line_history snapshot for this pick's game."""
+    history = read_json(LINE_HISTORY_PATH, {})
+    snaps = history.get(pick.get("game_id") or "", [])
+    # game_id on the pick was set when intel was harvested; but some early picks may not have it.
+    if not snaps:
+        # Try to find by matching IntelPack id format SPORT-{ESPN_ID}-...
+        # We don't have ESPN_ID on the pick. Best-effort: scan all keys for any with matching game label tokens
+        gl = pick.get("game", "").lower()
+        for gid, gid_snaps in history.items():
+            # game_id format is e.g. "MLB-401696000" — no name embedded. Skip — without explicit linkage, we can't match.
+            pass
+    if not snaps:
+        return None
+    return snaps[-1]  # latest snapshot = closest to close
+
+
+def _compute_clv(pick: dict) -> Optional[float]:
+    """CLV in cents = (closing implied probability − our published implied probability) × 100.
+    Positive = we beat the close. Negative = the line moved away from us."""
+    snap = _closing_snapshot(pick)
+    if not snap:
+        return None
+    market = (pick.get("market") or "").upper()
+    pl = (pick.get("pick") or "").lower()
+    pick_odds = pick.get("best_odds") or ""
+    if not pick_odds:
+        return None
+    our_prob = american_to_prob(pick_odds)
+
+    close_price = None
+    if market in ("ML", "MONEYLINE"):
+        # Need to know if pick is home or away — use _is_home_pick helper if available
+        from engine.publisher import _is_home_pick, _match_pack
+        # We don't have packs at grade time, but we can heuristically check team tokens
+        game = pick.get("game", "")
+        if " @ " in game:
+            away, home = [s.strip() for s in game.split(" @ ", 1)]
+            home_tokens = [t for t in home.lower().split() if len(t) > 2]
+            away_tokens = [t for t in away.lower().split() if len(t) > 2]
+            if any(t in pl for t in home_tokens):
+                close_price = snap.get("home_ml_price")
+            elif any(t in pl for t in away_tokens):
+                close_price = snap.get("away_ml_price")
+    elif market in ("RUNLINE", "PUCKLINE", "SPREAD"):
+        # similar home/away routing — simplified
+        if "+" in pl and "-" not in pl.split("+", 1)[1][:5]:
+            # picked the underdog (positive spread)
+            pass
+        # Could refine; for v1 fall back to consensus implied prob
+        close_price = snap.get("home_spread_price") or snap.get("away_spread_price")
+    elif market in ("TOTAL", "OVER", "UNDER"):
+        if "over" in pl:
+            close_price = snap.get("over_price")
+        elif "under" in pl:
+            close_price = snap.get("under_price")
+
+    if close_price is None:
+        return None
+    close_prob = american_to_prob(close_price)
+    return round((close_prob - our_prob) * 100, 2)
 
 
 def _grade_pick(pick: dict, scores: dict) -> tuple[str, Optional[str]]:
@@ -198,16 +267,33 @@ def run_grader(date_str: Optional[str] = None) -> None:
             pick["result_score"] = result_score
             pick["units_result"] = units_profit(float(pick.get("units", 1.0)), pick.get("best_odds", "-110"), status)
             pick["graded_at"] = nyc_now().isoformat()
-            logger.info(f"GRADED: {pick['pick']} ({pick['game']}) → {status} ({pick['units_result']:+.2f}u)")
+            # CLV — compute even on losses, even pushes
+            try:
+                clv = _compute_clv(pick)
+                if clv is not None:
+                    pick["clv_cents"] = clv
+            except Exception as e:
+                logger.debug(f"CLV compute failed for {pick.get('id')}: {e}")
+            logger.info(
+                f"GRADED: {pick['pick']} ({pick['game']}) → {status} "
+                f"({pick['units_result']:+.2f}u, CLV={pick.get('clv_cents')})"
+            )
 
             if pick.get("ladder_designation"):
                 ladder.update_after_grading(pick, status)
 
-            # Run autopsy on losses
+            # Run autopsy on losses + embed result on the pick record so site can show it
             if status == "LOSS":
                 try:
                     from engine import autopsy
-                    autopsy.run_autopsy(pick, result_score or "")
+                    entry = autopsy.run_autopsy(pick, result_score or "")
+                    if entry:
+                        pick["autopsy"] = {
+                            "classification": entry.get("classification"),
+                            "post_mortem": entry.get("post_mortem"),
+                            "candidate_rule": entry.get("candidate_rule"),
+                            "sample_size_warning": entry.get("sample_size_warning"),
+                        }
                 except Exception as e:
                     logger.error(f"Autopsy failed for {pick.get('id')}: {e}")
         except Exception as e:

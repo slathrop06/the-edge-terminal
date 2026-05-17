@@ -24,7 +24,9 @@ def _rollup(picks: list[dict]) -> dict:
     w = sum(1 for p in picks if p.get("status") == "WIN")
     l = sum(1 for p in picks if p.get("status") == "LOSS")
     push = sum(1 for p in picks if p.get("status") == "PUSH")
+    pending = sum(1 for p in picks if p.get("status") == "PEND")
     decided = _decided(picks)
+    settled_count = len(decided) + push          # WIN + LOSS + PUSH — anything not PEND
     total_pl = sum(p.get("units_result") or 0 for p in picks if p.get("status") in ("WIN", "LOSS"))
     total_wagered = sum(float(p.get("units", 1.0)) for p in decided)
     roi = round((total_pl / total_wagered) * 100, 2) if total_wagered else 0.0
@@ -34,7 +36,9 @@ def _rollup(picks: list[dict]) -> dict:
     return {
         "record": f"{w}-{l}-{push}",
         "wins": w, "losses": l, "pushes": push,
+        "pending": pending,
         "total_picks": len(picks),
+        "settled_picks": settled_count,
         "units_pl": round(total_pl, 3),
         "roi_pct": roi,
         "win_rate_pct": win_rate,

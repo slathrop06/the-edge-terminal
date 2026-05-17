@@ -102,11 +102,30 @@ def _is_home_pick(pick: Pick, pick_lower: str, pack: IntelPack) -> bool:
 
 
 def _attach_links_and_prices(pick: Pick, packs: list[IntelPack]) -> None:
-    """Use the matching intel pack to fill pick.book_prices + pick.book_links."""
+    """Use the matching intel pack to fill pick.book_prices, pick.book_links,
+    and backfill first_pitch_iso if Claude didn't include it."""
     if pick.market.upper() == "PARLAY":
-        return  # parlays don't have a single outcome link
+        # For parlays, just backfill first_pitch_iso from the FIRST leg's pack if possible
+        if pick.legs and not pick.first_pitch_iso:
+            for leg in pick.legs:
+                # Match the leg's game to a pack
+                synthetic = Pick(
+                    id="_tmp", sport=pick.sport, game=leg.game,
+                    pick=leg.pick, best_odds=leg.best_odds or "-110",
+                    confidence=pick.confidence, units=pick.units,
+                )
+                lp = _match_pack(packs, synthetic)
+                if lp:
+                    pick.first_pitch_iso = lp.first_pitch_iso
+                    break
+        return
     pack = _match_pack(packs, pick)
-    if not pack or not pack.market:
+    if not pack:
+        return
+    # Backfill first pitch / tipoff / faceoff time if Claude left it blank
+    if not pick.first_pitch_iso and pack.first_pitch_iso:
+        pick.first_pitch_iso = pack.first_pitch_iso
+    if not pack.market:
         return
     books = _book_dict_for_selection(pick, pack)
     for book_key, odds in books.items():
@@ -233,6 +252,30 @@ def regenerate_site_data(system_paused: bool = False, pause_reason: str = "") ->
     """site/data.json — current state served to the front-end."""
     history = load_history()
     today = nyc_date()
+
+    # Backfill autopsy on LOSS picks that don't have it embedded — covers
+    # losses graded by older code that only wrote to data/autopsy_log.json.
+    try:
+        autopsy_log = read_json(DATA_DIR / "autopsy_log.json", [])
+        by_id = {e.get("id"): e for e in autopsy_log if e.get("id")}
+        dirty = False
+        for p in history["picks"]:
+            if p.get("status") == "LOSS" and not p.get("autopsy"):
+                entry = by_id.get(p.get("id"))
+                if entry:
+                    p["autopsy"] = {
+                        "classification": entry.get("classification"),
+                        "post_mortem": entry.get("post_mortem"),
+                        "candidate_rule": entry.get("candidate_rule"),
+                        "sample_size_warning": entry.get("sample_size_warning"),
+                    }
+                    dirty = True
+        if dirty:
+            save_history(history)
+            logger.info("Backfilled autopsy on prior LOSS picks")
+    except Exception as e:
+        logger.debug(f"Autopsy backfill skipped: {e}")
+
     today_picks = [p for p in history["picks"] if p.get("date") == today]
 
     payload = {

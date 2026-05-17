@@ -458,6 +458,38 @@ button {
   font-size: 13px;
   color: #78350F;
 }
+.m-autopsy {
+  margin-top: 14px;
+  padding: 16px 18px;
+  background: #FEF2F2;
+  border-left: 4px solid var(--loss);
+  border-radius: var(--r-md);
+}
+.m-autopsy-head {
+  font-size: 11px;
+  font-weight: 800;
+  letter-spacing: 0.16em;
+  color: var(--loss);
+  margin-bottom: 8px;
+}
+.m-autopsy-sample {
+  font-weight: 600;
+  color: var(--text-mute);
+  letter-spacing: 0.05em;
+  text-transform: none;
+  font-size: 10px;
+}
+.m-autopsy p {
+  font-size: 14px;
+  line-height: 1.55;
+  color: var(--text);
+}
+.m-autopsy p + p { margin-top: 8px; }
+.m-autopsy-rule {
+  font-size: 13px;
+  color: var(--text-dim);
+  font-style: italic;
+}
 .m-legs {
   display: grid;
   gap: 8px;

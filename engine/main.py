@@ -32,6 +32,27 @@ def _cost_cap_check(config: dict) -> None:
         sys.exit(1)
 
 
+def _et_hour_guard(target_hour: int, label: str) -> bool:
+    """When two crons fire (DST awareness), only the one whose UTC time
+    corresponds to `target_hour` ET should actually do the work. Returns
+    True if we should proceed, False if we should bail.
+
+    Manual `gh workflow run` (workflow_dispatch) always bypasses the guard
+    so humans can trigger arbitrarily."""
+    import os
+    from engine.utils import nyc_now, get_logger
+    if os.getenv("GITHUB_EVENT_NAME") == "workflow_dispatch":
+        return True
+    h = nyc_now().hour
+    if h != target_hour:
+        get_logger("main").info(
+            f"Skipping {label}: ET hour is {h}, target is {target_hour} "
+            f"(the other DST-twin cron will run at the right time)"
+        )
+        return False
+    return True
+
+
 def run_morning() -> None:
     from engine.utils import get_logger
     from engine.intel.orchestrator import harvest_intel
@@ -41,6 +62,8 @@ def run_morning() -> None:
     from engine import analytics
 
     log = get_logger("main")
+    if not _et_hour_guard(11, "morning"):
+        return
     config = _load_config()
     log.info("=== MORNING RUN START ===")
     try:
@@ -81,6 +104,8 @@ def run_midday() -> None:
     from engine import analytics
 
     log = get_logger("main")
+    if not _et_hour_guard(13, "midday"):
+        return
     config = _load_config()
     log.info("=== MIDDAY REFRESH START ===")
     try:
@@ -109,6 +134,8 @@ def run_late_check() -> None:
     from engine import analytics
 
     log = get_logger("main")
+    if not _et_hour_guard(17, "late_check"):
+        return
     config = _load_config()
     log.info("=== LATE-ADD CHECK START ===")
     try:

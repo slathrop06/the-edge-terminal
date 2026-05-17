@@ -2,7 +2,9 @@ name: Late Edge Check (5 PM ET)
 
 on:
   schedule:
-    - cron: '0 21 * * *'   # 5 PM EDT
+    # DST-aware: 21:00 UTC = 5 PM EDT, 22:00 UTC = 5 PM EST.
+    - cron: '0 21 * * *'
+    - cron: '0 22 * * *'
   workflow_dispatch: {}
 
 jobs:
@@ -32,6 +34,7 @@ jobs:
         env:
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
           ODDS_API_KEY:      ${{ secrets.ODDS_API_KEY }}
+          GITHUB_EVENT_NAME: ${{ github.event_name }}
           TZ: America/New_York
         run: python -m engine.main late_check
 

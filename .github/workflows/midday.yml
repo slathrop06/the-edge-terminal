@@ -2,7 +2,10 @@ name: Midday Refresh (1 PM ET)
 
 on:
   schedule:
-    - cron: '0 17 * * *'   # 1 PM EDT
+    # DST-aware: 17:00 UTC = 1 PM EDT, 18:00 UTC = 1 PM EST.
+    # Engine code guards against the wrong one running.
+    - cron: '0 17 * * *'
+    - cron: '0 18 * * *'
   workflow_dispatch: {}
 
 jobs:
@@ -31,6 +34,7 @@ jobs:
       - name: Run midday refresh (data only — no Claude call)
         env:
           ODDS_API_KEY: ${{ secrets.ODDS_API_KEY }}
+          GITHUB_EVENT_NAME: ${{ github.event_name }}
           TZ: America/New_York
         run: python -m engine.main midday
 
