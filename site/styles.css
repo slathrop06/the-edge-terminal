@@ -644,6 +644,43 @@ button {
   font-weight: 600;
   letter-spacing: 0.04em;
 }
+/* Live score chip — slots in between the game time and the pick line */
+.live-score {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  font-family: var(--font-display);
+  font-weight: 800;
+  font-size: 13px;
+  letter-spacing: 0.04em;
+  padding: 5px 10px;
+  border-radius: 999px;
+  margin-bottom: 10px;
+  font-variant-numeric: tabular-nums;
+}
+.live-score.live {
+  background: rgba(215,35,45,0.10);
+  color: var(--brand-red);
+}
+.live-score.final {
+  background: rgba(12,12,12,0.08);
+  color: var(--text);
+}
+.live-score.pre {
+  background: rgba(212,132,59,0.10);
+  color: var(--gold);
+}
+.dot-live {
+  width: 8px; height: 8px; border-radius: 50%;
+  background: var(--brand-red);
+  display: inline-block;
+  animation: pulse-live 1.8s ease-in-out infinite;
+}
+@keyframes pulse-live {
+  0%, 100% { opacity: 1;   transform: scale(1); }
+  50%      { opacity: 0.35; transform: scale(0.85); }
+}
+
 .pick-line {
   font-family: var(--font-display);
   font-weight: 900;

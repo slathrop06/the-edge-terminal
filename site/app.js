@@ -5,6 +5,119 @@
   const $ = (sel) => document.querySelector(sel);
   const $$ = (sel) => Array.from(document.querySelectorAll(sel));
 
+  // ── Live scores (browser-direct from ESPN) ───────────────────────────
+  const SPORT_TO_ESPN = {
+    MLB: 'baseball/mlb',
+    NBA: 'basketball/nba',
+    NHL: 'hockey/nhl',
+    NFL: 'football/nfl',
+    CFB: 'football/college-football',
+  };
+  const liveScores = { map: {}, lastFetch: 0, inFlight: false };
+
+  function _todayETKey() {
+    // ESPN scoreboard wants YYYYMMDD in ET
+    const d = new Date().toLocaleDateString('en-CA', { timeZone: 'America/New_York' });
+    return d.replace(/-/g, '');
+  }
+
+  async function fetchLiveScores() {
+    if (liveScores.inFlight) return;
+    liveScores.inFlight = true;
+    try {
+      const sports = new Set();
+      ['today_picks', 'today_bonus_picks'].forEach(k => {
+        (state.data[k] || []).forEach(p => {
+          if (p.status === 'PEND' && SPORT_TO_ESPN[p.sport]) sports.add(p.sport);
+        });
+      });
+      if (!sports.size) return;
+      const dateKey = _todayETKey();
+      const work = [...sports].map(async (sport) => {
+        try {
+          const r = await fetch(`https://site.api.espn.com/apis/site/v2/sports/${SPORT_TO_ESPN[sport]}/scoreboard?dates=${dateKey}`, { cache: 'no-store' });
+          if (!r.ok) return;
+          const data = await r.json();
+          for (const ev of (data.events || [])) {
+            const comp = (ev.competitions && ev.competitions[0]) || {};
+            const competitors = comp.competitors || [];
+            const home = competitors.find(c => c.homeAway === 'home');
+            const away = competitors.find(c => c.homeAway === 'away');
+            if (!home || !away) continue;
+            const status = (ev.status && ev.status.type) || {};
+            const homeAbbr = home.team && home.team.abbreviation;
+            const awayAbbr = away.team && away.team.abbreviation;
+            if (!homeAbbr || !awayAbbr) continue;
+            liveScores.map[`${sport}|${awayAbbr}|${homeAbbr}`] = {
+              sport,
+              home_abbr: homeAbbr,
+              away_abbr: awayAbbr,
+              home_score: parseInt(home.score, 10) || 0,
+              away_score: parseInt(away.score, 10) || 0,
+              state: status.state || '',         // 'pre' | 'in' | 'post'
+              short_detail: status.shortDetail || '',
+              completed: !!status.completed,
+            };
+          }
+        } catch (e) { /* swallow per-sport */ }
+      });
+      await Promise.all(work);
+      liveScores.lastFetch = Date.now();
+      applyScoresToCards();
+    } finally {
+      liveScores.inFlight = false;
+    }
+  }
+
+  function _gameKey(pick) {
+    const m = (pick.game || '').match(/([A-Z]{2,5})\s*@\s*([A-Z]{2,5})/);
+    if (!m) return null;
+    return `${pick.sport}|${m[1]}|${m[2]}`;
+  }
+
+  function applyScoresToCards() {
+    document.querySelectorAll('.pick-card[data-pick-id]').forEach(card => {
+      const pickId = card.dataset.pickId;
+      const pick = (state.data.today_picks || []).find(p => p.id === pickId)
+                || (state.data.today_bonus_picks || []).find(p => p.id === pickId)
+                || (state.data.all_picks || []).find(p => p.id === pickId);
+      if (!pick || pick.status !== 'PEND') return;
+      const key = _gameKey(pick);
+      const score = key && liveScores.map[key];
+      let chip = card.querySelector('.live-score');
+      if (!score) { if (chip) chip.remove(); return; }
+      let cls = 'live-score';
+      let text;
+      if (score.state === 'post' || score.completed) {
+        cls += ' final';
+        text = `FINAL · ${score.away_abbr} ${score.away_score} · ${score.home_abbr} ${score.home_score}`;
+      } else if (score.state === 'in') {
+        cls += ' live';
+        text = `<span class="dot-live"></span>LIVE · ${score.away_abbr} ${score.away_score} · ${score.home_abbr} ${score.home_score} · ${escapeHtml(score.short_detail)}`;
+      } else {
+        cls += ' pre';
+        text = `${escapeHtml(score.short_detail || 'Scheduled')}`;
+      }
+      if (!chip) {
+        chip = document.createElement('div');
+        const timeEl = card.querySelector('.pick-time');
+        if (timeEl) timeEl.after(chip); else card.querySelector('.pick-game').after(chip);
+      }
+      chip.className = cls;
+      chip.innerHTML = text;
+    });
+  }
+
+  function startLiveScoresLoop() {
+    fetchLiveScores();   // initial
+    setInterval(() => {
+      if (document.visibilityState === 'visible') fetchLiveScores();
+    }, 60_000);          // every 60s while tab visible
+    document.addEventListener('visibilitychange', () => {
+      if (document.visibilityState === 'visible') fetchLiveScores();
+    });
+  }
+
   // ── Analytics helper ─────────────────────────────────────────────────
   // Fires Plausible custom events safely. No-ops if Plausible isn't loaded
   // (dev, ad-blocker, etc).
@@ -723,5 +836,6 @@
     setupTimeOnPage();
   });
 
-  load();
+  // Boot — load data + render, then start the live-scores poll
+  load().then(() => startLiveScoresLoop());
 })();
