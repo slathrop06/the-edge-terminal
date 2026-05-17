@@ -39,12 +39,17 @@ jobs:
           TZ: America/New_York
         run: python -m engine.main golf_major
 
-      - name: Commit + push data updates
+      - name: Commit + push data updates (retry-on-race)
         run: |
           git config user.name  "scott-bot[bot]"
           git config user.email "scott-bot@users.noreply.github.com"
           git add site/data.json site/analytics.json data/*.json || true
-          git diff --cached --quiet && echo "No major this week — nothing to commit." || (
-            git commit -m "golf-major: bonus pick $(date -u +%Y-%m-%d)"
-            git push
-          )
+          git diff --cached --quiet && { echo "No major this week — nothing to commit."; exit 0; }
+          git commit -m "golf-major: bonus pick $(date -u +%Y-%m-%d)"
+          for i in 1 2 3 4 5; do
+            git push && exit 0
+            echo "Push rejected (attempt $i). Rebasing..."
+            git fetch origin main && git rebase origin/main || exit 1
+            sleep $((i * 3))
+          done
+          exit 1

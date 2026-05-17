@@ -38,12 +38,17 @@ jobs:
           TZ: America/New_York
         run: python -m engine.main midday
 
-      - name: Commit + push data updates
+      - name: Commit + push data updates (retry-on-race)
         run: |
           git config user.name  "scott-bot[bot]"
           git config user.email "scott-bot@users.noreply.github.com"
           git add site/data.json site/analytics.json data/*.json || true
-          git diff --cached --quiet && echo "No data changes." || (
-            git commit -m "refresh: midday $(date -u +%Y-%m-%dT%H:%MZ)"
-            git push
-          )
+          git diff --cached --quiet && { echo "No data changes."; exit 0; }
+          git commit -m "refresh: midday $(date -u +%Y-%m-%dT%H:%MZ)"
+          for i in 1 2 3 4 5; do
+            git push && exit 0
+            echo "Push rejected (attempt $i). Rebasing..."
+            git fetch origin main && git rebase origin/main || exit 1
+            sleep $((i * 3))
+          done
+          exit 1
