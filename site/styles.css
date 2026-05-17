@@ -389,6 +389,28 @@ button {
   content: '🪜 LADDER · ⚡ LATE';
   background: var(--brand-red);
 }
+.pick-card.bonus {
+  border: 2px solid #047857;
+  background: linear-gradient(180deg, #F0FDF4 0%, #FFFFFF 60%);
+  box-shadow: 0 4px 16px rgba(4,120,87,0.10), var(--shadow-md);
+}
+.pick-card.bonus::before {
+  content: '🏆 BONUS PICK';
+  position: absolute;
+  top: 0; right: 0;
+  background: #047857;
+  color: #fff;
+  font-size: 10px;
+  font-weight: 800;
+  padding: 6px 12px;
+  letter-spacing: 0.12em;
+  border-bottom-left-radius: var(--r-md);
+}
+.pick-card.bonus .sport-tag {
+  color: #047857;
+  background: rgba(4,120,87,0.08);
+}
+.pick-card.bonus .pick-cta { color: #047857; }
 
 /* DK / FD / MGM price row */
 .book-prices {

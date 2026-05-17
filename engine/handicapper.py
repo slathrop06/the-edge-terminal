@@ -20,6 +20,7 @@ logger = get_logger("handicapper")
 
 SYSTEM_PROMPT_PATH = PROJECT_ROOT / "prompts" / "handicapper-system.md"
 LATE_ADD_PROMPT_PATH = PROJECT_ROOT / "prompts" / "late-add-system.md"
+GOLF_MAJOR_PROMPT_PATH = PROJECT_ROOT / "prompts" / "golf-major-system.md"
 
 
 class DataPoint(BaseModel):
@@ -62,6 +63,11 @@ class Pick(BaseModel):
     locked: bool = True
     late_add: bool = False
     late_add_reason: Optional[str] = ""
+    # Bonus pick (off-cadence — e.g. golf majors, future big-event picks).
+    # Does NOT count against the daily 3-pick cap. Lives in its own analytics track.
+    bonus_pick: bool = False
+    event_type: Optional[str] = ""    # "golf_major" | "" (regular)
+    event_name: Optional[str] = ""    # "PGA Championship" | "U.S. Open" | ""
     # Parlay support — when market=="PARLAY", legs is non-empty
     legs: list[ParlayLeg] = Field(default_factory=list)
     headline: str = ""
@@ -97,7 +103,7 @@ class Pick(BaseModel):
 
 
 class HandicapperResponse(BaseModel):
-    slate_assessment: str
+    slate_assessment: str = ""   # 1-2 sentence overview; optional for non-daily flows
     executive_summary: str = ""  # 60-100 word top-of-page TL;DR
     slate_analysis: str = ""     # multi-paragraph "show the work" view of the slate
     slate_vibe: str
@@ -263,6 +269,83 @@ def run_late_add(
         p.late_add = True
         p.ladder_designation = False  # ladder is morning-only
     logger.info(f"Late-add: vibe={response.slate_vibe}, {len(response.picks)} picks proposed")
+    return response
+
+
+def run_golf_major(
+    golf_pack: dict,
+    config: Optional[dict] = None,
+) -> HandicapperResponse:
+    """One-shot bonus pick for an active golf major. Uses Opus 4.7 + web_search
+    so it can verify the live leaderboard and tournament-specific context."""
+    config = config or {}
+    primary_model = config.get("primary_model", "claude-opus-4-7")
+    fallback_model = config.get("fallback_model", "claude-sonnet-4-6")
+    temperature = float(config.get("temperature", 0.2))
+    max_tokens = int(config.get("max_tokens", 6000))
+    daily_cap = float(config.get("daily_cap_usd", 8.0))
+    _check_cost_cap(daily_cap)
+
+    if not GOLF_MAJOR_PROMPT_PATH.exists():
+        raise FileNotFoundError(f"Golf prompt missing: {GOLF_MAJOR_PROMPT_PATH}")
+    system_prompt = GOLF_MAJOR_PROMPT_PATH.read_text()
+
+    # Trim player list to top-50 by best odds — keep token cost reasonable
+    trimmed_players = (golf_pack.get("players") or [])[:50]
+    pack_for_model = {
+        "tournament_name": golf_pack.get("tournament_name"),
+        "event_id": golf_pack.get("event_id"),
+        "sport_key": golf_pack.get("sport_key"),
+        "commence_time": golf_pack.get("commence_time"),
+        "snapshot_iso": golf_pack.get("snapshot_iso"),
+        "players_top_50": trimmed_players,
+        "today_iso": nyc_now().isoformat(),
+        "today_date": nyc_date(),
+    }
+    pack_json = json.dumps(pack_for_model, default=str, separators=(",", ":"))
+
+    user_msg = (
+        f"Golf major bonus pick — {golf_pack.get('tournament_name')}.\n\n"
+        f"Use web_search to verify the current leaderboard, weather, and any late news. "
+        f"Then return strict JSON per the system prompt. Today is {nyc_date()}.\n\n"
+        f"```json\n{pack_json}\n```"
+    )
+
+    client = anthropic.Anthropic(api_key=os.getenv("ANTHROPIC_API_KEY", ""))
+    tools = [{"type": "web_search_20250305", "name": "web_search", "max_uses": 8}]
+
+    used_model = primary_model
+    try:
+        msg = _call_with_tools(client, primary_model, system_prompt, user_msg, tools, max_tokens, temperature)
+    except (anthropic.RateLimitError, anthropic.APIStatusError) as e:
+        logger.warning(f"{primary_model} failed ({e}); fallback to {fallback_model}")
+        used_model = fallback_model
+        msg = _call_with_tools(client, fallback_model, system_prompt, user_msg, tools, max_tokens, temperature)
+
+    if msg and msg.usage:
+        cost = estimate_cost(used_model, msg.usage.input_tokens, msg.usage.output_tokens)
+        total = record_api_cost(cost)
+        logger.info(
+            f"Golf major tokens in={msg.usage.input_tokens} out={msg.usage.output_tokens} "
+            f"cost=${cost:.4f} day total=${total:.4f}"
+        )
+
+    final_text = _extract_text(msg)
+    json_str = _extract_json(final_text)
+    if not json_str:
+        raise ValueError(f"No JSON in golf-major output: {final_text[:400]}")
+    parsed = _robust_json_loads(json_str, final_text)
+    response = HandicapperResponse.model_validate(parsed)
+    # Force-mark all picks as bonus_pick with proper event_type/name
+    for p in response.picks:
+        p.bonus_pick = True
+        p.event_type = "golf_major"
+        if not p.event_name:
+            p.event_name = golf_pack.get("tournament_name", "Golf Major")
+        p.ladder_designation = False
+    logger.info(f"Golf major: vibe={response.slate_vibe}, {len(response.picks)} bonus picks")
+    for p in response.picks:
+        logger.info(f"  • {p.pick} ({p.event_name}) conf={p.confidence} u={p.units} odds={p.best_odds}")
     return response
 
 

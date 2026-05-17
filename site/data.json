@@ -1,10 +1,193 @@
 {
-  "generated_at": "2026-05-17T08:47:59.592733-04:00",
+  "generated_at": "2026-05-17T09:02:07.666031-04:00",
   "today": "2026-05-17",
   "system_paused": false,
   "pause_reason": "",
-  "today_picks": [],
+  "today_picks": [
+    {
+      "id": "20260517-GOLF-PGA-WINNER-RAHM",
+      "sport": "GOLF",
+      "game": "PGA Championship \u2014 Final Round (Aronimink GC)",
+      "first_pitch_iso": "2026-05-17T14:25:00Z",
+      "pick": "Jon Rahm \u2014 Outright Winner",
+      "best_book": "FanDuel",
+      "best_odds": "+550",
+      "book_prices": {
+        "draftkings": "+465",
+        "fanduel": "+550",
+        "betmgm": "+500"
+      },
+      "book_links": {},
+      "market": "OUTRIGHT",
+      "confidence": 4,
+      "units": 1.5,
+      "win_probability": 0.215,
+      "ladder_designation": false,
+      "data_confidence": 0.74,
+      "rules_passed": [
+        "max_juice",
+        "ladder_even_money",
+        "parlay_well_formed",
+        "confidence_units_match",
+        "data_confidence_floor",
+        "pick_type_allowed",
+        "mlb_hr_prop_check",
+        "mlb_run_line_check",
+        "mlb_under_bb_check",
+        "no_same_game_opposite"
+      ],
+      "locked": true,
+      "late_add": false,
+      "late_add_reason": "",
+      "bonus_pick": true,
+      "event_type": "golf_major",
+      "event_name": "PGA Championship",
+      "legs": [],
+      "headline": "Rahm two back on a firm Donald Ross track with two major wins on his resume and the shortest-priced never-was sitting in front of him.",
+      "the_thesis": "The setup screams Rahm. \nThe morning wave took advantage of lighter winds while afternoon leaders faced whipping wind and firming greens\n, which means the course is playing crusty into Sunday. \nSunday's final round features the hottest temperatures with up to 83F and winds from the west at 8-12mph with gusts up to 20mph\n \u2014 that bakes greens further. \nIt's a Donald Ross design on the outskirts of Philadelphia, a tricky parkland layout that plays to a par 70\n. Par-70 Ross designs reward elite iron play and short-game scrambling \u2014 Rahm's bread and butter.\n\nThe leaderboard is the second piece. Smalley at +485 has never won on Tour and is making his major-contender debut in the final pairing two days in a row \u2014 that's a ton of pressure on a guy who admitted he doesn't love the spotlight. \nHe spoke on Saturday about not handling the spotlight well\n. Rahm tees off two back with two major closures on his resume (2021 U.S. Open, 2023 Masters). If Smalley wobbles early \u2014 and history says first-time major leaders wobble more than they hold \u2014 the door swings open to a chase pack of about six guys, and Rahm is the most proven closer in that group.\n\n\u00c5berg at +650 is the next-best price but he's \na Swede who has struggled to close\n. McIlroy at +760 is one shot further back. Rahm is the best price-to-position bet on this board.",
+      "the_data": [
+        {
+          "label": "Current position",
+          "value": "T2 at -4, 2 shots back",
+          "context": "Real path \u2014 leader has never contended in a major"
+        },
+        {
+          "label": "Major wins",
+          "value": "2 (2021 U.S. Open, 2023 Masters)",
+          "context": "Knows how to close on Sunday"
+        },
+        {
+          "label": "Sunday conditions",
+          "value": "Mid-80s, W winds 8-12, gusts 20",
+          "context": "Firm course, premium on ball-striking"
+        },
+        {
+          "label": "Leader profile",
+          "value": "Smalley \u2014 0 PGA Tour wins, 0 prior major top-10s",
+          "context": "Final pairing pressure unprecedented for him"
+        },
+        {
+          "label": "Chase pack at -4",
+          "value": "Rahm, Rai, Taylor, Schmid, \u00c5berg",
+          "context": "Rahm has by far the strongest closing resume"
+        },
+        {
+          "label": "Best price",
+          "value": "+550 FanDuel (vs +465 DK, +500 MGM)",
+          "context": "~85 cents of book-shop edge alone"
+        }
+      ],
+      "the_market": "+550 at FanDuel is the high across DK/FD/MGM (DK +465, MGM +500). Implied 15.4% at FD vs 17.7% at DK. My fair line on Rahm given position, closing resume, course fit, and leader profile: ~21-22%. Edge of roughly 6 cents in implied probability. Take FanDuel.",
+      "weather_park": "Aronimink (par 70, Donald Ross): Sunday mid-80s, W winds 8-12mph with gusts to 20. \nGusts will reach the low 20s for the final round, but it will calm down a bit after the leaders tee off\n. Firm and crusty after three days of sun and wind \u2014 favors elite iron players and scramblers. Pure Rahm setup.",
+      "case_against": "He's still two back of a guy who just gutted out one of the toughest rounds of his life. \n22 players within four shots\n means even a Rahm 66 might not be enough if two or three guys in the chase pack also go low. And Rahm at majors hasn't been quite vintage Rahm the last 18 months \u2014 he's a closer, but he hasn't actually closed a major since the 2023 Masters.",
+      "what_were_betting_on": "Smalley plays the front nine like a first-time major leader plays the front nine \u2014 a couple of early bogeys, lead shrinks to one. Rahm makes 2-3 birdies on the front. By the turn it's a tie or Rahm has the lead. Then his Sunday experience does the rest while the rest of the chase pack (Rai, Taylor, Schmid) feels the major pressure they've never felt either.",
+      "scott_bot_quip": "Smalley at +485 is the market betting that a guy who's never been here before doesn't blink. Rahm at +550 is the market giving you a discount on a guy who's already won two of these. I'll take the discount.",
+      "ladder_note": "",
+      "date": "2026-05-17",
+      "status": "PEND",
+      "units_result": null,
+      "clv_cents": null,
+      "result_score": null,
+      "graded_at": null,
+      "slate_assessment": "",
+      "executive_summary": "Sunday at Aronimink and it's a Royal Rumble \u2014 \n22 players within four shots of the lead, 30 within five\n. \nAlex Smalley leads at -6 with Rahm, \u00c5berg, Rai, Taylor, Schmid at -4 and McIlroy/Schauffele/Reed all within three\n. Smalley has never won on Tour and has never contended in a major \u2014 his +485 is the squeeze price on the board. The value lives one tier down with a guy who's done this before. Jon Rahm at +550 (FanDuel), two back, firm-and-fast conditions, established Sunday closer.",
+      "slate_analysis": "",
+      "slate_vibe": "NORMAL",
+      "published_at": "2026-05-17T09:02:07.663180-04:00"
+    }
+  ],
   "all_picks": [
+    {
+      "id": "20260517-GOLF-PGA-WINNER-RAHM",
+      "sport": "GOLF",
+      "game": "PGA Championship \u2014 Final Round (Aronimink GC)",
+      "first_pitch_iso": "2026-05-17T14:25:00Z",
+      "pick": "Jon Rahm \u2014 Outright Winner",
+      "best_book": "FanDuel",
+      "best_odds": "+550",
+      "book_prices": {
+        "draftkings": "+465",
+        "fanduel": "+550",
+        "betmgm": "+500"
+      },
+      "book_links": {},
+      "market": "OUTRIGHT",
+      "confidence": 4,
+      "units": 1.5,
+      "win_probability": 0.215,
+      "ladder_designation": false,
+      "data_confidence": 0.74,
+      "rules_passed": [
+        "max_juice",
+        "ladder_even_money",
+        "parlay_well_formed",
+        "confidence_units_match",
+        "data_confidence_floor",
+        "pick_type_allowed",
+        "mlb_hr_prop_check",
+        "mlb_run_line_check",
+        "mlb_under_bb_check",
+        "no_same_game_opposite"
+      ],
+      "locked": true,
+      "late_add": false,
+      "late_add_reason": "",
+      "bonus_pick": true,
+      "event_type": "golf_major",
+      "event_name": "PGA Championship",
+      "legs": [],
+      "headline": "Rahm two back on a firm Donald Ross track with two major wins on his resume and the shortest-priced never-was sitting in front of him.",
+      "the_thesis": "The setup screams Rahm. \nThe morning wave took advantage of lighter winds while afternoon leaders faced whipping wind and firming greens\n, which means the course is playing crusty into Sunday. \nSunday's final round features the hottest temperatures with up to 83F and winds from the west at 8-12mph with gusts up to 20mph\n \u2014 that bakes greens further. \nIt's a Donald Ross design on the outskirts of Philadelphia, a tricky parkland layout that plays to a par 70\n. Par-70 Ross designs reward elite iron play and short-game scrambling \u2014 Rahm's bread and butter.\n\nThe leaderboard is the second piece. Smalley at +485 has never won on Tour and is making his major-contender debut in the final pairing two days in a row \u2014 that's a ton of pressure on a guy who admitted he doesn't love the spotlight. \nHe spoke on Saturday about not handling the spotlight well\n. Rahm tees off two back with two major closures on his resume (2021 U.S. Open, 2023 Masters). If Smalley wobbles early \u2014 and history says first-time major leaders wobble more than they hold \u2014 the door swings open to a chase pack of about six guys, and Rahm is the most proven closer in that group.\n\n\u00c5berg at +650 is the next-best price but he's \na Swede who has struggled to close\n. McIlroy at +760 is one shot further back. Rahm is the best price-to-position bet on this board.",
+      "the_data": [
+        {
+          "label": "Current position",
+          "value": "T2 at -4, 2 shots back",
+          "context": "Real path \u2014 leader has never contended in a major"
+        },
+        {
+          "label": "Major wins",
+          "value": "2 (2021 U.S. Open, 2023 Masters)",
+          "context": "Knows how to close on Sunday"
+        },
+        {
+          "label": "Sunday conditions",
+          "value": "Mid-80s, W winds 8-12, gusts 20",
+          "context": "Firm course, premium on ball-striking"
+        },
+        {
+          "label": "Leader profile",
+          "value": "Smalley \u2014 0 PGA Tour wins, 0 prior major top-10s",
+          "context": "Final pairing pressure unprecedented for him"
+        },
+        {
+          "label": "Chase pack at -4",
+          "value": "Rahm, Rai, Taylor, Schmid, \u00c5berg",
+          "context": "Rahm has by far the strongest closing resume"
+        },
+        {
+          "label": "Best price",
+          "value": "+550 FanDuel (vs +465 DK, +500 MGM)",
+          "context": "~85 cents of book-shop edge alone"
+        }
+      ],
+      "the_market": "+550 at FanDuel is the high across DK/FD/MGM (DK +465, MGM +500). Implied 15.4% at FD vs 17.7% at DK. My fair line on Rahm given position, closing resume, course fit, and leader profile: ~21-22%. Edge of roughly 6 cents in implied probability. Take FanDuel.",
+      "weather_park": "Aronimink (par 70, Donald Ross): Sunday mid-80s, W winds 8-12mph with gusts to 20. \nGusts will reach the low 20s for the final round, but it will calm down a bit after the leaders tee off\n. Firm and crusty after three days of sun and wind \u2014 favors elite iron players and scramblers. Pure Rahm setup.",
+      "case_against": "He's still two back of a guy who just gutted out one of the toughest rounds of his life. \n22 players within four shots\n means even a Rahm 66 might not be enough if two or three guys in the chase pack also go low. And Rahm at majors hasn't been quite vintage Rahm the last 18 months \u2014 he's a closer, but he hasn't actually closed a major since the 2023 Masters.",
+      "what_were_betting_on": "Smalley plays the front nine like a first-time major leader plays the front nine \u2014 a couple of early bogeys, lead shrinks to one. Rahm makes 2-3 birdies on the front. By the turn it's a tie or Rahm has the lead. Then his Sunday experience does the rest while the rest of the chase pack (Rai, Taylor, Schmid) feels the major pressure they've never felt either.",
+      "scott_bot_quip": "Smalley at +485 is the market betting that a guy who's never been here before doesn't blink. Rahm at +550 is the market giving you a discount on a guy who's already won two of these. I'll take the discount.",
+      "ladder_note": "",
+      "date": "2026-05-17",
+      "status": "PEND",
+      "units_result": null,
+      "clv_cents": null,
+      "result_score": null,
+      "graded_at": null,
+      "slate_assessment": "",
+      "executive_summary": "Sunday at Aronimink and it's a Royal Rumble \u2014 \n22 players within four shots of the lead, 30 within five\n. \nAlex Smalley leads at -6 with Rahm, \u00c5berg, Rai, Taylor, Schmid at -4 and McIlroy/Schauffele/Reed all within three\n. Smalley has never won on Tour and has never contended in a major \u2014 his +485 is the squeeze price on the board. The value lives one tier down with a guy who's done this before. Jon Rahm at +550 (FanDuel), two back, firm-and-fast conditions, established Sunday closer.",
+      "slate_analysis": "",
+      "slate_vibe": "NORMAL",
+      "published_at": "2026-05-17T09:02:07.663180-04:00"
+    },
     {
       "id": "20260516-MLB-MIA-TB-TOTAL",
       "sport": "MLB",

@@ -179,6 +179,50 @@ def run_late_check() -> None:
             pass
 
 
+def run_golf_major() -> None:
+    """Bonus pick for an active golf major (Masters / PGA / US Open / The Open).
+    Returns silently if no major is currently active in The Odds API."""
+    from engine.utils import get_logger
+    from engine.intel.golf import harvest_golf_majors
+    from engine.handicapper import run_golf_major as call_claude_golf
+    from engine.validator import validate_picks
+    from engine.publisher import publish, regenerate_site_data
+    from engine import analytics
+
+    log = get_logger("main")
+    # Hour guard — DST-aware. workflow_dispatch always bypasses.
+    if not _et_hour_guard(11, "golf_major"):
+        return
+    config = _load_config()
+    log.info("=== GOLF MAJOR BONUS START ===")
+    try:
+        _cost_cap_check(config)
+        active_majors = harvest_golf_majors()
+        if not active_majors:
+            log.info("No active golf major. Nothing to do.")
+            return
+        for pack in active_majors:
+            claude_cfg = config.get("claude", {}).copy()
+            claude_cfg["daily_cap_usd"] = config.get("cost_cap", {}).get("daily_usd", 8.0)
+            response = call_claude_golf(pack, claude_cfg)
+            valid = validate_picks(response)
+            log.info(f"Golf major valid picks after validator: {len(valid)}")
+            if valid:
+                publish(valid, response, mode="golf_bonus")
+        regenerate_site_data()
+        analytics.refresh()
+        log.info("=== GOLF MAJOR BONUS COMPLETE ===")
+    except Exception as e:
+        import traceback
+        log.error(f"GOLF MAJOR FAILED: {e}\n{traceback.format_exc()}")
+        # Don't pause the system — bonus failures shouldn't break daily picks
+        try:
+            regenerate_site_data()
+            analytics.refresh()
+        except Exception:
+            pass
+
+
 def run_grader_job() -> None:
     from engine.utils import get_logger
     from engine.grader import run_grader
@@ -203,11 +247,12 @@ def run_refresh() -> None:
 
 if __name__ == "__main__":
     cmds = {
-        "morning":    run_morning,
-        "midday":     run_midday,
-        "late_check": run_late_check,
-        "grader":     run_grader_job,
-        "refresh":    run_refresh,
+        "morning":     run_morning,
+        "midday":      run_midday,
+        "late_check":  run_late_check,
+        "golf_major":  run_golf_major,
+        "grader":      run_grader_job,
+        "refresh":     run_refresh,
     }
     cmd = sys.argv[1] if len(sys.argv) > 1 else "morning"
     fn = cmds.get(cmd)

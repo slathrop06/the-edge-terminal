@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-17T08:47:59.593247-04:00",
+  "generated_at": "2026-05-17T09:02:07.666585-04:00",
   "scopes": {
     "daily": {
       "overall": {
@@ -7,8 +7,8 @@
         "wins": 0,
         "losses": 0,
         "pushes": 0,
-        "pending": 0,
-        "total_picks": 0,
+        "pending": 1,
+        "total_picks": 1,
         "settled_picks": 0,
         "units_pl": 0,
         "roi_pct": 0.0,
@@ -19,9 +19,63 @@
         "biggest_win_units": 0,
         "biggest_loss_units": 0
       },
-      "by_sport": {},
-      "by_confidence": {},
-      "by_pick_type": {}
+      "by_sport": {
+        "GOLF": {
+          "record": "0-0-0",
+          "wins": 0,
+          "losses": 0,
+          "pushes": 0,
+          "pending": 1,
+          "total_picks": 1,
+          "settled_picks": 0,
+          "units_pl": 0,
+          "roi_pct": 0.0,
+          "win_rate_pct": 0.0,
+          "avg_clv_cents": 0.0,
+          "longest_w_streak": 0,
+          "longest_l_streak": 0,
+          "biggest_win_units": 0,
+          "biggest_loss_units": 0
+        }
+      },
+      "by_confidence": {
+        "4": {
+          "record": "0-0-0",
+          "wins": 0,
+          "losses": 0,
+          "pushes": 0,
+          "pending": 1,
+          "total_picks": 1,
+          "settled_picks": 0,
+          "units_pl": 0,
+          "roi_pct": 0.0,
+          "win_rate_pct": 0.0,
+          "avg_clv_cents": 0.0,
+          "longest_w_streak": 0,
+          "longest_l_streak": 0,
+          "biggest_win_units": 0,
+          "biggest_loss_units": 0
+        }
+      },
+      "by_pick_type": {
+        "OUTRIGHT": {
+          "record": "0-0-0",
+          "wins": 0,
+          "losses": 0,
+          "pushes": 0,
+          "pending": 1,
+          "total_picks": 1,
+          "settled_picks": 0,
+          "units_pl": 0,
+          "roi_pct": 0.0,
+          "win_rate_pct": 0.0,
+          "avg_clv_cents": 0.0,
+          "longest_w_streak": 0,
+          "longest_l_streak": 0,
+          "biggest_win_units": 0,
+          "biggest_loss_units": 0
+        }
+      }
     },
     "weekly": {
       "overall": {
@@ -29,8 +83,8 @@
         "wins": 1,
         "losses": 1,
         "pushes": 0,
-        "pending": 0,
-        "total_picks": 2,
+        "pending": 1,
+        "total_picks": 3,
         "settled_picks": 2,
         "units_pl": 0.304,
         "roi_pct": 12.17,
@@ -42,6 +96,23 @@
         "biggest_loss_units": -1.0
       },
       "by_sport": {
+        "GOLF": {
+          "record": "0-0-0",
+          "wins": 0,
+          "losses": 0,
+          "pushes": 0,
+          "pending": 1,
+          "total_picks": 1,
+          "settled_picks": 0,
+          "units_pl": 0,
+          "roi_pct": 0.0,
+          "win_rate_pct": 0.0,
+          "avg_clv_cents": 0.0,
+          "longest_w_streak": 0,
+          "longest_l_streak": 0,
+          "biggest_win_units": 0,
+          "biggest_loss_units": 0
+        },
         "MLB": {
           "record": "1-1-0",
           "wins": 1,
@@ -83,8 +154,8 @@
           "wins": 1,
           "losses": 0,
           "pushes": 0,
-          "pending": 0,
-          "total_picks": 1,
+          "pending": 1,
+          "total_picks": 2,
           "settled_picks": 1,
           "units_pl": 1.304,
           "roi_pct": 86.95,
@@ -97,6 +168,23 @@
         }
       },
       "by_pick_type": {
+        "OUTRIGHT": {
+          "record": "0-0-0",
+          "wins": 0,
+          "losses": 0,
+          "pushes": 0,
+          "pending": 1,
+          "total_picks": 1,
+          "settled_picks": 0,
+          "units_pl": 0,
+          "roi_pct": 0.0,
+          "win_rate_pct": 0.0,
+          "avg_clv_cents": 0.0,
+          "longest_w_streak": 0,
+          "longest_l_streak": 0,
+          "biggest_win_units": 0,
+          "biggest_loss_units": 0
+        },
         "TOTAL": {
           "record": "1-1-0",
           "wins": 1,
@@ -122,8 +210,8 @@
         "wins": 1,
         "losses": 1,
         "pushes": 0,
-        "pending": 0,
-        "total_picks": 2,
+        "pending": 1,
+        "total_picks": 3,
         "settled_picks": 2,
         "units_pl": 0.304,
         "roi_pct": 12.17,
@@ -135,6 +223,23 @@
         "biggest_loss_units": -1.0
       },
       "by_sport": {
+        "GOLF": {
+          "record": "0-0-0",
+          "wins": 0,
+          "losses": 0,
+          "pushes": 0,
+          "pending": 1,
+          "total_picks": 1,
+          "settled_picks": 0,
+          "units_pl": 0,
+          "roi_pct": 0.0,
+          "win_rate_pct": 0.0,
+          "avg_clv_cents": 0.0,
+          "longest_w_streak": 0,
+          "longest_l_streak": 0,
+          "biggest_win_units": 0,
+          "biggest_loss_units": 0
+        },
         "MLB": {
           "record": "1-1-0",
           "wins": 1,
@@ -176,8 +281,8 @@
           "wins": 1,
           "losses": 0,
           "pushes": 0,
-          "pending": 0,
-          "total_picks": 1,
+          "pending": 1,
+          "total_picks": 2,
           "settled_picks": 1,
           "units_pl": 1.304,
           "roi_pct": 86.95,
@@ -190,6 +295,23 @@
         }
       },
       "by_pick_type": {
+        "OUTRIGHT": {
+          "record": "0-0-0",
+          "wins": 0,
+          "losses": 0,
+          "pushes": 0,
+          "pending": 1,
+          "total_picks": 1,
+          "settled_picks": 0,
+          "units_pl": 0,
+          "roi_pct": 0.0,
+          "win_rate_pct": 0.0,
+          "avg_clv_cents": 0.0,
+          "longest_w_streak": 0,
+          "longest_l_streak": 0,
+          "biggest_win_units": 0,
+          "biggest_loss_units": 0
+        },
         "TOTAL": {
           "record": "1-1-0",
           "wins": 1,
@@ -215,8 +337,8 @@
         "wins": 1,
         "losses": 1,
         "pushes": 0,
-        "pending": 0,
-        "total_picks": 2,
+        "pending": 1,
+        "total_picks": 3,
         "settled_picks": 2,
         "units_pl": 0.304,
         "roi_pct": 12.17,
@@ -228,6 +350,23 @@
         "biggest_loss_units": -1.0
       },
       "by_sport": {
+        "GOLF": {
+          "record": "0-0-0",
+          "wins": 0,
+          "losses": 0,
+          "pushes": 0,
+          "pending": 1,
+          "total_picks": 1,
+          "settled_picks": 0,
+          "units_pl": 0,
+          "roi_pct": 0.0,
+          "win_rate_pct": 0.0,
+          "avg_clv_cents": 0.0,
+          "longest_w_streak": 0,
+          "longest_l_streak": 0,
+          "biggest_win_units": 0,
+          "biggest_loss_units": 0
+        },
         "MLB": {
           "record": "1-1-0",
           "wins": 1,
@@ -269,8 +408,8 @@
           "wins": 1,
           "losses": 0,
           "pushes": 0,
-          "pending": 0,
-          "total_picks": 1,
+          "pending": 1,
+          "total_picks": 2,
           "settled_picks": 1,
           "units_pl": 1.304,
           "roi_pct": 86.95,
@@ -283,6 +422,23 @@
         }
       },
       "by_pick_type": {
+        "OUTRIGHT": {
+          "record": "0-0-0",
+          "wins": 0,
+          "losses": 0,
+          "pushes": 0,
+          "pending": 1,
+          "total_picks": 1,
+          "settled_picks": 0,
+          "units_pl": 0,
+          "roi_pct": 0.0,
+          "win_rate_pct": 0.0,
+          "avg_clv_cents": 0.0,
+          "longest_w_streak": 0,
+          "longest_l_streak": 0,
+          "biggest_win_units": 0,
+          "biggest_loss_units": 0
+        },
         "TOTAL": {
           "record": "1-1-0",
           "wins": 1,
@@ -308,8 +464,8 @@
         "wins": 1,
         "losses": 1,
         "pushes": 0,
-        "pending": 0,
-        "total_picks": 2,
+        "pending": 1,
+        "total_picks": 3,
         "settled_picks": 2,
         "units_pl": 0.304,
         "roi_pct": 12.17,
@@ -321,6 +477,23 @@
         "biggest_loss_units": -1.0
       },
       "by_sport": {
+        "GOLF": {
+          "record": "0-0-0",
+          "wins": 0,
+          "losses": 0,
+          "pushes": 0,
+          "pending": 1,
+          "total_picks": 1,
+          "settled_picks": 0,
+          "units_pl": 0,
+          "roi_pct": 0.0,
+          "win_rate_pct": 0.0,
+          "avg_clv_cents": 0.0,
+          "longest_w_streak": 0,
+          "longest_l_streak": 0,
+          "biggest_win_units": 0,
+          "biggest_loss_units": 0
+        },
         "MLB": {
           "record": "1-1-0",
           "wins": 1,
@@ -362,8 +535,8 @@
           "wins": 1,
           "losses": 0,
           "pushes": 0,
-          "pending": 0,
-          "total_picks": 1,
+          "pending": 1,
+          "total_picks": 2,
           "settled_picks": 1,
           "units_pl": 1.304,
           "roi_pct": 86.95,
@@ -376,6 +549,23 @@
         }
       },
       "by_pick_type": {
+        "OUTRIGHT": {
+          "record": "0-0-0",
+          "wins": 0,
+          "losses": 0,
+          "pushes": 0,
+          "pending": 1,
+          "total_picks": 1,
+          "settled_picks": 0,
+          "units_pl": 0,
+          "roi_pct": 0.0,
+          "win_rate_pct": 0.0,
+          "avg_clv_cents": 0.0,
+          "longest_w_streak": 0,
+          "longest_l_streak": 0,
+          "biggest_win_units": 0,
+          "biggest_loss_units": 0
+        },
         "TOTAL": {
           "record": "1-1-0",
           "wins": 1,
@@ -457,8 +647,9 @@
     }
   },
   "totals": {
-    "all_picks": 2,
+    "all_picks": 3,
     "sports": [
+      "GOLF",
       "MLB"
     ]
   }

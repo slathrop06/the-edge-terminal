@@ -195,8 +195,11 @@
         : `<p class="empty-state">Scott Bot took a pass today. Zero is a valid play — better to publish nothing than garbage.</p>`;
       return;
     }
-    // Ladder pick first, then by confidence desc
+    // Order: bonus picks first (rare special events), then ladder pick, then by confidence desc
     const sorted = picks.slice().sort((a, b) => {
+      const aBonus = a.bonus_pick ? 1 : 0;
+      const bBonus = b.bonus_pick ? 1 : 0;
+      if (aBonus !== bBonus) return bBonus - aBonus;
       if (a.ladder_designation && !b.ladder_designation) return -1;
       if (!a.ladder_designation && b.ladder_designation) return 1;
       return (b.confidence || 0) - (a.confidence || 0);
@@ -262,6 +265,7 @@
   function pickCardHTML(p) {
     const ladderClass = p.ladder_designation ? ' ladder' : '';
     const lateClass = p.late_add ? ' late-add' : '';
+    const bonusClass = p.bonus_pick ? ' bonus' : '';
     const time = formatTime(p.first_pitch_iso);
     const isParlay = (p.market || '').toUpperCase() === 'PARLAY';
     const hasWP = (typeof p.win_probability === 'number' && p.win_probability > 0);
@@ -274,10 +278,13 @@
            <span class="wp-num">${p.confidence}/5</span>
            <span class="wp-label">CONF</span>
          </span>` : '');
+    const sportLabel = p.bonus_pick && p.event_name
+      ? `${p.sport || 'GOLF'} · ${p.event_name.toUpperCase()}`
+      : `${p.sport}${isParlay ? ' · PARLAY' : ''}`;
     return `
-      <article class="pick-card${ladderClass}${lateClass}" data-pick-id="${escapeAttr(p.id)}">
+      <article class="pick-card${ladderClass}${lateClass}${bonusClass}" data-pick-id="${escapeAttr(p.id)}">
         <div class="pick-head">
-          <span class="sport-tag">${escapeHtml(p.sport)}${isParlay ? ' · PARLAY' : ''}</span>
+          <span class="sport-tag">${escapeHtml(sportLabel)}</span>
           ${wpBlock}
         </div>
         <div class="pick-game">${escapeHtml(p.game)}</div>

@@ -217,6 +217,27 @@ def publish(
         save_history(history)
         logger.info(f"Morning publish: {len(picks)} picks LOCKED for {date_str}")
 
+    elif mode == "golf_bonus":
+        # Bonus picks live alongside daily picks but don't conflict with them.
+        # Dedupe by id (same tournament + same player + same market wouldn't be re-published).
+        existing_bonus_ids = {p.get("id") for p in history["picks"]
+                              if p.get("bonus_pick") and p.get("status") == "PEND"}
+        added = 0
+        for pick in picks:
+            if pick.id in existing_bonus_ids:
+                logger.info(f"Bonus dupe skipped: {pick.pick} ({pick.event_name})")
+                continue
+            record = _pick_to_dict(pick, response, date_str, late_add=False)
+            record["bonus_pick"] = True
+            record["event_type"] = pick.event_type or "golf_major"
+            record["event_name"] = pick.event_name or ""
+            record["ladder_designation"] = False
+            history["picks"].insert(0, record)
+            added += 1
+            logger.info(f"INSERTED [BONUS · {record['event_name']}]: {record['pick']}")
+        save_history(history)
+        logger.info(f"Bonus publish: {added} pick(s) for {date_str}")
+
     elif mode == "late_add":
         # Detect dupes against existing picks (same game + same market + same side wording)
         existing_keys = {(p.get("game"), p.get("market"), p.get("pick")) for p in existing_today}
