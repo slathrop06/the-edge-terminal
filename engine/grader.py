@@ -303,7 +303,7 @@ def run_grader(date_str: Optional[str] = None) -> None:
 
     # Generate night recaps for any dates with newly-graded main picks
     try:
-        from engine import night_recap, ladder
+        from engine import night_recap
         ladder_state = ladder.load_state()
         graded_dates = {p["date"] for p in pend if p.get("status") in ("WIN", "LOSS", "PUSH")}
         for d in sorted(graded_dates):
