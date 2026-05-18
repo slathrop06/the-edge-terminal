@@ -88,6 +88,10 @@ def rule_no_same_game_opposite_sides(pick: Pick, accepted: list[Pick]) -> tuple[
 
 
 def rule_mlb_hr_prop_check(pick: Pick) -> tuple[bool, str]:
+    # Parlays are vetted by rule_parlay_well_formed; their combined pick
+    # name can contain "HR" from leg titles even when no leg is an HR prop.
+    if pick.market.upper() == "PARLAY":
+        return True, "parlay exempt"
     pl = pick.pick.lower()
     if "hr" not in pl and "home run" not in pl:
         return True, "not HR prop"
@@ -105,6 +109,8 @@ def rule_mlb_hr_prop_check(pick: Pick) -> tuple[bool, str]:
 
 
 def rule_mlb_run_line_check(pick: Pick) -> tuple[bool, str]:
+    if pick.market.upper() == "PARLAY":
+        return True, "parlay exempt"
     pl = pick.pick.lower()
     if "run line" not in pl and "-1.5" not in pl and "+1.5" not in pl:
         return True, "not run line"
@@ -115,6 +121,15 @@ def rule_mlb_run_line_check(pick: Pick) -> tuple[bool, str]:
 
 
 def rule_mlb_under_bb_check(pick: Pick) -> tuple[bool, str]:
+    # Parlays aggregate the_data across legs, so a parlay whose name
+    # contains "Under" (because one leg is an under) will see the OTHER
+    # leg's pitcher stats and wrongly fail this check. Example that hit
+    # prod 2026-05-18: a Cubs ML + Rays Under parlay was killed because
+    # the Cubs leg's opposing pitcher (Sproat) had BB% 28 — a feature for
+    # the Cubs ML leg, not a bug. Parlay well-formedness is handled by
+    # rule_parlay_well_formed; leave the per-leg sanity to the model.
+    if pick.market.upper() == "PARLAY":
+        return True, "parlay exempt"
     pl = pick.pick.lower()
     if "under" not in pl and "total" not in pl:
         return True, "not under/total"
