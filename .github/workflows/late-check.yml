@@ -3,6 +3,7 @@ name: Late Edge Check (5 PM ET)
 on:
   schedule:
     # DST-aware: 21:00 UTC = 5 PM EDT, 22:00 UTC = 5 PM EST.
+    # Engine picks the right twin via the GITHUB_SCHEDULE env var below.
     - cron: '0 21 * * *'
     - cron: '0 22 * * *'
   workflow_dispatch: {}
@@ -35,6 +36,7 @@ jobs:
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
           ODDS_API_KEY:      ${{ secrets.ODDS_API_KEY }}
           GITHUB_EVENT_NAME: ${{ github.event_name }}
+          GITHUB_SCHEDULE:   ${{ github.event.schedule }}
           TZ: America/New_York
         run: python -m engine.main late_check
 

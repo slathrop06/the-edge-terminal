@@ -3,7 +3,7 @@ name: Golf Major Bonus (Wed 11 AM ET)
 on:
   schedule:
     # Wednesday 11 AM ET — pre-tournament lock for golf majors.
-    # DST-aware twin crons; engine bails when ET hour isn't 11.
+    # DST-aware twin crons; engine picks the right one via GITHUB_SCHEDULE.
     - cron: '0 15 * * 3'
     - cron: '0 16 * * 3'
   workflow_dispatch: {}
@@ -36,6 +36,7 @@ jobs:
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
           ODDS_API_KEY:      ${{ secrets.ODDS_API_KEY }}
           GITHUB_EVENT_NAME: ${{ github.event_name }}
+          GITHUB_SCHEDULE:   ${{ github.event.schedule }}
           TZ: America/New_York
         run: python -m engine.main golf_major
 

@@ -3,8 +3,9 @@ name: Morning Picks (11:00 AM ET)
 on:
   schedule:
     # DST-aware: fire at both 15:00 UTC (EDT 11 AM) and 16:00 UTC (EST 11 AM).
-    # The engine code guards: it bails immediately if NYC's wall-clock hour isn't 11,
-    # so only the correct one of these two crons actually does work each day.
+    # The engine picks the right twin based on today's NYC DST state and the
+    # triggering cron expression (forwarded via GITHUB_SCHEDULE below) — so
+    # GH Actions cron delivery delay can't push us out of the window anymore.
     - cron: '0 15 * * *'
     - cron: '0 16 * * *'
   workflow_dispatch: {}
@@ -38,6 +39,7 @@ jobs:
           ODDS_API_KEY:      ${{ secrets.ODDS_API_KEY }}
           OPENWEATHERMAP_API_KEY: ${{ secrets.OPENWEATHERMAP_API_KEY }}
           GITHUB_EVENT_NAME: ${{ github.event_name }}
+          GITHUB_SCHEDULE:   ${{ github.event.schedule }}
           TZ: America/New_York
         run: python -m engine.main morning
 

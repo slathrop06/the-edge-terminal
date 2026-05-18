@@ -32,22 +32,42 @@ def _cost_cap_check(config: dict) -> None:
         sys.exit(1)
 
 
-def _et_hour_guard(target_hour: int, label: str) -> bool:
-    """When two crons fire (DST awareness), only the one whose UTC time
-    corresponds to `target_hour` ET should actually do the work. Returns
-    True if we should proceed, False if we should bail.
+def _dst_cron_guard(edt_cron: str, est_cron: str, label: str) -> bool:
+    """When two DST-twin crons fire (one for EDT, one for EST), only the
+    one matching today's NYC DST state should actually do the work.
+    Returns True if we should proceed, False if we should bail.
+
+    The discriminator is the triggering cron expression (passed in via the
+    GITHUB_SCHEDULE env var, sourced from ${{ github.event.schedule }} in
+    the workflow). This is deterministic regardless of when GitHub Actions
+    actually delivers the cron — the previous wall-clock-hour guard lost
+    a race when cron delivery slipped past the top of the target hour.
 
     Manual `gh workflow run` (workflow_dispatch) always bypasses the guard
     so humans can trigger arbitrarily."""
     import os
     from engine.utils import nyc_now, get_logger
+    log = get_logger("main")
+
     if os.getenv("GITHUB_EVENT_NAME") == "workflow_dispatch":
         return True
-    h = nyc_now().hour
-    if h != target_hour:
-        get_logger("main").info(
-            f"Skipping {label}: ET hour is {h}, target is {target_hour} "
-            f"(the other DST-twin cron will run at the right time)"
+
+    triggering_cron = os.getenv("GITHUB_SCHEDULE", "").strip()
+    is_dst = bool(nyc_now().dst())
+    correct_cron = edt_cron if is_dst else est_cron
+
+    # If we don't know which cron triggered us (local run, older workflow
+    # config, etc.), proceed — better to over-fire than to silently miss.
+    if not triggering_cron:
+        log.info(f"{label}: GITHUB_SCHEDULE not set — proceeding without DST guard.")
+        return True
+
+    if triggering_cron != correct_cron:
+        log.info(
+            f"Skipping {label}: triggering cron {triggering_cron!r} is the "
+            f"{'EST' if is_dst else 'EDT'} twin; today NYC is in "
+            f"{'EDT' if is_dst else 'EST'}, so the {correct_cron!r} twin "
+            f"is the one that does the work."
         )
         return False
     return True
@@ -62,7 +82,7 @@ def run_morning() -> None:
     from engine import analytics
 
     log = get_logger("main")
-    if not _et_hour_guard(11, "morning"):
+    if not _dst_cron_guard("0 15 * * *", "0 16 * * *", "morning"):
         return
     config = _load_config()
     log.info("=== MORNING RUN START ===")
@@ -104,7 +124,7 @@ def run_midday() -> None:
     from engine import analytics
 
     log = get_logger("main")
-    if not _et_hour_guard(13, "midday"):
+    if not _dst_cron_guard("0 17 * * *", "0 18 * * *", "midday"):
         return
     config = _load_config()
     log.info("=== MIDDAY REFRESH START ===")
@@ -134,7 +154,7 @@ def run_late_check() -> None:
     from engine import analytics
 
     log = get_logger("main")
-    if not _et_hour_guard(17, "late_check"):
+    if not _dst_cron_guard("0 21 * * *", "0 22 * * *", "late_check"):
         return
     config = _load_config()
     log.info("=== LATE-ADD CHECK START ===")
@@ -190,8 +210,8 @@ def run_golf_major() -> None:
     from engine import analytics
 
     log = get_logger("main")
-    # Hour guard — DST-aware. workflow_dispatch always bypasses.
-    if not _et_hour_guard(11, "golf_major"):
+    # Cron-based DST guard. workflow_dispatch always bypasses.
+    if not _dst_cron_guard("0 15 * * 3", "0 16 * * 3", "golf_major"):
         return
     config = _load_config()
     log.info("=== GOLF MAJOR BONUS START ===")
