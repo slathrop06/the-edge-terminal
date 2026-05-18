@@ -1,12 +1,37 @@
-name: Grader (11:30 PM ET previous day)
+name: Grader (multiple checks per day)
 
+# The grader is idempotent — it only acts on PEND picks. Running it more
+# often is safe and cheap. Schedule:
+#
+#   DAILY (Mon–Sun)
+#     - 11:00 PM ET  → after most East Coast evening games
+#     - 01:30 AM ET  → after West Coast / late games
+#
+#   WEEKEND extras (Sat + Sun)
+#     - 06:00 PM ET  → after early afternoon (1 PM ET) day games
+#     - 09:00 PM ET  → after late afternoon / early evening games
+#
+# Each schedule time has DST-twin crons (UTC and UTC+1) so it fires
+# at the right ET wall-clock hour year-round.
 on:
   schedule:
-    - cron: '30 3 * * *'   # 11:30 PM ET previous day (EDT)
+    # ── Daily evening check at 11:00 PM ET ───────────────────────
+    - cron: '0 3 * * *'      # 23:00 EDT → 03:00 UTC daily
+    - cron: '0 4 * * *'      # 23:00 EST → 04:00 UTC daily
+    # ── Daily late-night check at 01:30 AM ET ────────────────────
+    - cron: '30 5 * * *'     # 01:30 EDT → 05:30 UTC daily
+    - cron: '30 6 * * *'     # 01:30 EST → 06:30 UTC daily
+    # ── Weekend afternoon check at 06:00 PM ET (Sat + Sun) ───────
+    - cron: '0 22 * * 0,6'   # 18:00 EDT Sun/Sat → 22:00 UTC
+    - cron: '0 23 * * 0,6'   # 18:00 EST Sun/Sat → 23:00 UTC
+    # ── Weekend early-evening check at 09:00 PM ET (Sat + Sun) ───
+    # Sat 21:00 ET → Sun 01:00 UTC (next day) ; Sun 21:00 ET → Mon 01:00 UTC
+    - cron: '0 1 * * 0,1'    # 21:00 EDT Sat (Sun 01:00 UTC) + Sun (Mon 01:00 UTC)
+    - cron: '0 2 * * 0,1'    # 21:00 EST equivalents
   workflow_dispatch:
     inputs:
       date:
-        description: "Date to grade (YYYY-MM-DD); defaults to today ET"
+        description: "Date to grade (YYYY-MM-DD); blank = all PEND picks"
         required: false
 
 jobs:
