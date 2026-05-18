@@ -1,0 +1,10 @@
+[
+  {
+    "proposed_at": "2026-05-18T02:07:52.692242-04:00",
+    "source_pick_id": "20260517-MLB-SD-SEA-TOTAL",
+    "source_loss": "Under 7.5 (SD @ SEA)",
+    "candidate_rule": "When the starting pitcher on the 'safe' side of an under has a documented ERA above 8.00 in multiple prior starts against the opposing lineup, treat that as a disqualifying factor for the under regardless of park factors \u2014 but validate against a larger sample before hardcoding.",
+    "sample_size_warning": "N=1, insufficient to establish rule. One loss where Kirby's Padres-specific splits were the deciding factor is noise; need N\u22655 similar setups to confirm the pattern.",
+    "status": "PENDING_REVIEW"
+  }
+]

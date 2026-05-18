@@ -1,5 +1,18 @@
 [
   {
+    "id": "20260517-MLB-SD-SEA-TOTAL",
+    "date": "2026-05-17",
+    "pick": "Under 7.5",
+    "game": "SD @ SEA",
+    "odds": "-110",
+    "result_score": "SD 8 \u00b7 SEA 3",
+    "classification": "MODEL",
+    "post_mortem": "The thesis was predicated on Giolito being the weak link \u2014 he wasn't. Giolito allowed one hit through five innings in a strong debut. The loss came from Kirby, who was torched for five runs in the sixth: Sheets hit two homers off him (including a hanging changeup in the 6th), Merrill added an RBI double, and France's two-out single made it 7-0. Kirby entered the game 0-2 with a 10.38 ERA in two prior starts vs. the Padres \u2014 a red flag the pick acknowledged but underweighted, calling it a 1-unit play instead of a pass.",
+    "candidate_rule": "When the starting pitcher on the 'safe' side of an under has a documented ERA above 8.00 in multiple prior starts against the opposing lineup, treat that as a disqualifying factor for the under regardless of park factors \u2014 but validate against a larger sample before hardcoding.",
+    "sample_size_warning": "N=1, insufficient to establish rule. One loss where Kirby's Padres-specific splits were the deciding factor is noise; need N\u22655 similar setups to confirm the pattern.",
+    "analyzed_at": "2026-05-18T02:07:52.691906-04:00"
+  },
+  {
     "id": "20260516-MLB-MIA-TB-TOTAL",
     "date": "2026-05-16",
     "pick": "Under 7.5",
