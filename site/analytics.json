@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-17T21:30:20.487755-04:00",
+  "generated_at": "2026-05-17T21:32:16.600861-04:00",
   "scopes": {
     "daily": {
       "overall": {
@@ -594,11 +594,19 @@
   ],
   "ladder": {
     "state": {
-      "current_streak": 1,
-      "longest_streak": 1,
+      "current_streak": 2,
+      "longest_streak": 2,
       "completed_climbs": 0,
       "target": 10,
       "history": [
+        {
+          "date": "2026-05-17",
+          "pick_id": "20260517-MLB-NYY-NYM-ML",
+          "pick": "New York Mets ML",
+          "game": "NYY @ NYM",
+          "status": "WIN",
+          "after_streak": 2
+        },
         {
           "date": "2026-05-16",
           "pick_id": "20260516-MLB-PHI-PIT-TOTAL",
@@ -608,7 +616,7 @@
           "after_streak": 1
         }
       ],
-      "updated_at": "2026-05-17T08:29:14.054777-04:00"
+      "updated_at": "2026-05-17T21:32:16.599319-04:00"
     },
     "all_time_record": {
       "record": "2-0-0",
