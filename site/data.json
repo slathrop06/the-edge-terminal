@@ -1,11 +1,392 @@
 {
-  "generated_at": "2026-05-19T06:12:54.950452-04:00",
+  "generated_at": "2026-05-19T12:37:00.724816-04:00",
   "today": "2026-05-19",
   "system_paused": false,
   "pause_reason": "",
-  "today_picks": [],
+  "today_picks": [
+    {
+      "id": "20260519-MLB-CIN-PHI-ML",
+      "sport": "MLB",
+      "game": "CIN @ PHI",
+      "first_pitch_iso": "2026-05-19T22:40Z",
+      "pick": "Cincinnati Reds ML",
+      "best_book": "BetMGM",
+      "best_odds": "+125",
+      "book_prices": {
+        "draftkings": "+124",
+        "fanduel": "+124",
+        "betmgm": "+125"
+      },
+      "book_links": {
+        "fanduel": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.579387427&selectionId=29167",
+        "draftkings": "https://sportsbook.draftkings.com/?outcomes=0ML84834323_3",
+        "betmgm": "https://sports.nj.betmgm.com/en/sports?options=19414070-1501751744--85204337&type=Single"
+      },
+      "market": "ML",
+      "confidence": 3,
+      "units": 1.0,
+      "win_probability": 0.5,
+      "ladder_designation": false,
+      "data_confidence": 0.65,
+      "rules_passed": [
+        "max_juice",
+        "ladder_even_money",
+        "parlay_well_formed",
+        "confidence_units_match",
+        "data_confidence_floor",
+        "pick_type_allowed",
+        "mlb_hr_prop_check",
+        "mlb_run_line_check",
+        "mlb_under_bb_check",
+        "no_same_game_opposite"
+      ],
+      "locked": true,
+      "late_add": false,
+      "late_add_reason": "",
+      "bonus_pick": false,
+      "event_type": "",
+      "event_name": "",
+      "legs": [],
+      "headline": "Chase Burns at 1.87 ERA is the better pitcher in this matchup \u2014 and we're getting paid plus-money to back him.",
+      "the_thesis": "Chase Burns is having a monster year: 1.87 ERA, 1.00 WHIP, 26.6% K rate, and 53 innings of consistent dominance. His ERA is over three runs lower than Jes\u00fas Luzardo's 5.07 on the other side. Luzardo's underlying stuff is good (28.6% K rate, 6.1% BB rate) but he's been getting hit hard \u2014 5+ ERA over 49.2 innings is a real sample, not a fluke.\n\nThe market has the Reds at +125, which implies ~44% \u2014 we model them closer to 50% straight up, possibly slightly favored. Citizens Bank Park has a 1.10 HR factor, which is the one real concern (Burns has given up 1.02 HR/9), but Burns' overall command and strikeout profile keeps the damage contained even in a homer park. When you can take the better pitcher and get plus money on the moneyline, you take it \u2014 the dog price gives us a margin for variance that the favorite side doesn't get.",
+      "the_data": [
+        {
+          "label": "Burns ERA / WHIP",
+          "value": "1.87 / 1.00",
+          "context": "Top-10 in MLB"
+        },
+        {
+          "label": "Luzardo ERA",
+          "value": "5.07",
+          "context": "Underperforming his stuff"
+        },
+        {
+          "label": "Burns K% / BB%",
+          "value": "26.6% / 8.7%",
+          "context": "Strong"
+        },
+        {
+          "label": "Burns IP",
+          "value": "53.0",
+          "context": "Substantial sample"
+        },
+        {
+          "label": "CBP HR factor",
+          "value": "1.10",
+          "context": "Hitter-friendly \u2014 main risk"
+        },
+        {
+          "label": "CIN ML implied",
+          "value": "44.5%",
+          "context": "Our model: ~50%"
+        }
+      ],
+      "the_market": "Reds opened around +130 and have ticked down slightly to +124/+125 across the books \u2014 that's mild sharp support for the dog without any major movement.",
+      "weather_park": "Citizens Bank Park, outdoor, HR factor 1.10 \u2014 the main reason this isn't a higher-confidence play. One swing can change everything.",
+      "case_against": "Luzardo's strikeout stuff is real \u2014 if he has one of his good nights, he can shut Cincinnati down for six. The Phillies lineup at home in a homer park is the most dangerous offense Burns will face this month. A two-homer night flips this game and the dog ticket. We're betting on Burns being who his numbers say he is over a smaller-sample Luzardo bounceback.",
+      "what_were_betting_on": "Burns going 6+ innings of 2-or-fewer-run ball, Reds scratching 3-4 against Luzardo and a solid Phillies pen, and the homer math not blowing up in our face.",
+      "scott_bot_quip": "Better pitcher, plus money. That's the trade \u2014 we don't need to overthink the dog tag.",
+      "ladder_note": "",
+      "date": "2026-05-19",
+      "status": "PEND",
+      "units_result": null,
+      "clv_cents": null,
+      "result_score": null,
+      "graded_at": null,
+      "slate_assessment": "Big 15-game MLB board plus one NBA playoff game (Knicks-Cavs); pitching headliners include Cease, McLean, Burns, Misiorowski vs Brown, and Suarez at Kauffman against a Falter disaster start.",
+      "executive_summary": "Fifteen MLB games and a Knicks-Cavs playoff tilt headline a deep Tuesday board. The headline arm is Ranger Suarez walking into Kauffman against Bailey Falter's 10.13 ERA \u2014 that's the cleanest data mismatch on the slate. Behind it, Nolan McLean (2.92 ERA, 31.5% K) and Chase Burns (1.87 ERA) both check the boxes against beatable opposition. The ladder rides with the Red Sox \u2014 best floor by a mile, pitching edge so wide the market hasn't priced it cleanly yet.",
+      "slate_analysis": "Fifteen MLB games on the board with first pitches stretching from Miami at 4:10 ET to the West Coast night caps, plus a Knicks-Cavs playoff game at MSG. Pricing climate is normal \u2014 most totals sit at 7.5 to 8.5, most favorites in the -130 to -160 band, no obvious public traps screaming for action. Data confidence on the IntelPacks comes in at 0.4 across the board because lineups aren't confirmed yet, which means we have to lean on the cleanest pitching mismatches rather than offense-driven angles.\n\nThe board narrowed to six real candidates on first review. Suarez at Kauffman against Bailey Falter \u2014 Falter's 10.13 ERA and 1.7 IP/start are a five-alarm fire. McLean (2.92 ERA, 31.5% K rate, 0.69 HR/9) drawing Foster Griffin and the Nationals at home. Chase Burns at 1.87 ERA against Luzardo's 5.07 in Philly. Cease (2.41 ERA, 34.6% K, 0.17 HR/9 \u2014 absurd) against Will Warren and the Yankees. Ben Brown (1.60 ERA) vs Misiorowski (2.12, 39.6% K) at Wrigley as a potential under spot. And Messick (2.35 ERA, 28.3% K) against Keider Montero in Detroit.\n\nWhat got cut: Cease ML at -136 is the right side but the juice is heavier than the edge \u2014 Yankees lineup is the best Cease will face in months and Warren's been solid at 3.42. Cubs-Brewers under 7.5 is tempting with two aces, but both bullpens have been shaky and Wrigley wind can flip on you \u2014 data_confidence too thin to commit. Burns is excellent but Luzardo's 28.6% K rate keeps the Phillies' over equation alive in a hitter's park (PF 1.10 HR); fade Phillies on the road wins, not at home. Messick vs Montero looks like a Guardians ML spot but -158 juice is right at our ceiling and Montero's 0.99 WHIP says he's not a giveaway. Knicks -7.5 is a playoff number we can't model with the data we have.\n\nFinal three: Red Sox ML at Kansas City as the headline pitching mismatch and ladder pick (best floor \u2014 Falter is essentially an opener masquerading as a starter, Suarez is a legitimate top-20 SP). Mets ML on the road against Washington \u2014 McLean's profile dwarfs Foster Griffin and the Mets are getting a price that implies they're closer to a coin flip than they should be. Reds +125 at Philly \u2014 Chase Burns is the better pitcher in this matchup and we're getting a plus-money dog, the rare spot where we get paid to take the right side.",
+      "slate_vibe": "NORMAL",
+      "published_at": "2026-05-19T12:37:00.720571-04:00"
+    },
+    {
+      "id": "20260519-MLB-NYM-WSH-ML",
+      "sport": "MLB",
+      "game": "NYM @ WSH",
+      "first_pitch_iso": "2026-05-19T22:45Z",
+      "pick": "New York Mets ML",
+      "best_book": "FanDuel",
+      "best_odds": "-142",
+      "book_prices": {
+        "draftkings": "-143",
+        "fanduel": "-142",
+        "betmgm": "-145"
+      },
+      "book_links": {
+        "fanduel": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.579387423&selectionId=29174",
+        "draftkings": "https://sportsbook.draftkings.com/?outcomes=0ML84834405_3",
+        "betmgm": "https://sports.nj.betmgm.com/en/sports?options=19414076-1501752131--85203473&type=Single"
+      },
+      "market": "ML",
+      "confidence": 4,
+      "units": 1.5,
+      "win_probability": 0.64,
+      "ladder_designation": true,
+      "data_confidence": 0.7,
+      "rules_passed": [
+        "max_juice",
+        "ladder_even_money",
+        "parlay_well_formed",
+        "confidence_units_match",
+        "data_confidence_floor",
+        "pick_type_allowed",
+        "mlb_hr_prop_check",
+        "mlb_run_line_check",
+        "mlb_under_bb_check",
+        "no_same_game_opposite"
+      ],
+      "locked": true,
+      "late_add": false,
+      "late_add_reason": "",
+      "bonus_pick": false,
+      "event_type": "",
+      "event_name": "",
+      "legs": [],
+      "headline": "Nolan McLean's 31.5% strikeout rate and 0.69 HR/9 walking into a Nationals lineup that hasn't been able to slow anyone down.",
+      "the_thesis": "Nolan McLean is quietly putting together one of the best young-pitcher seasons in baseball \u2014 2.92 ERA across 52.1 innings, 0.96 WHIP, a 31.5% strikeout rate that puts him in the top 10 in MLB, and a 0.69 HR/9 that means he's not getting beat by the longball. K% above 30% is the single most predictive stat for a pitcher staying dominant \u2014 strikeouts don't depend on defense or luck on balls in play. He's the real deal.\n\nForward-throwing Foster Griffin on the other side is fine but unspectacular \u2014 3.53 ERA, 1.41 HR/9. That HR/9 number matters in a neutral park (Nationals Park PF 1.02) against a Mets lineup that has been running an above-average offense all season. The Mets are -142, implying ~58.6%; we model them closer to 63-65% given the pitching gap and the Nationals' overall roster quality. This is a quiet edge \u2014 no flashy line movement, just a better team with a better pitcher getting a fair price.",
+      "the_data": [
+        {
+          "label": "McLean ERA / WHIP",
+          "value": "2.92 / 0.96",
+          "context": "Elite, top-20"
+        },
+        {
+          "label": "McLean K% / BB%",
+          "value": "31.5% / 7.4%",
+          "context": "K% top-10 in MLB"
+        },
+        {
+          "label": "McLean HR/9",
+          "value": "0.69",
+          "context": "Elite contact management"
+        },
+        {
+          "label": "Griffin ERA / HR9",
+          "value": "3.53 / 1.41",
+          "context": "Solid but homer-prone"
+        },
+        {
+          "label": "Park HR factor",
+          "value": "1.02",
+          "context": "Neutral"
+        },
+        {
+          "label": "NYM ML implied",
+          "value": "58.7%",
+          "context": "Our model: 63-65%"
+        }
+      ],
+      "the_market": "Line opened Mets -140-ish and has held across all three books \u2014 no sharp move either way, which is consistent with the books pricing the matchup correctly but offering a small edge to the side with the better arm.",
+      "weather_park": "Nationals Park, outdoor, neutral run (1.01) and HR (1.02) factors \u2014 no environmental tilt.",
+      "case_against": "McLean is young \u2014 52 innings is still a smallish sample for projecting forward, and rookies can hit walls. Foster Griffin pitches to contact and can string together quiet outings against teams that try to swing for the fences. If the Mets' bullpen has to close a one-run lead, the Nationals can grind out a late rally \u2014 they've done it before.",
+      "what_were_betting_on": "McLean dominating into the 6th, Mets stacking 4+ on Griffin and the Nats pen, no late-inning leverage spot for Washington.",
+      "scott_bot_quip": "Strikeout rates don't lie. McLean punches out a third of the guys he sees \u2014 that travels anywhere.",
+      "ladder_note": "",
+      "date": "2026-05-19",
+      "status": "PEND",
+      "units_result": null,
+      "clv_cents": null,
+      "result_score": null,
+      "graded_at": null,
+      "slate_assessment": "Big 15-game MLB board plus one NBA playoff game (Knicks-Cavs); pitching headliners include Cease, McLean, Burns, Misiorowski vs Brown, and Suarez at Kauffman against a Falter disaster start.",
+      "executive_summary": "Fifteen MLB games and a Knicks-Cavs playoff tilt headline a deep Tuesday board. The headline arm is Ranger Suarez walking into Kauffman against Bailey Falter's 10.13 ERA \u2014 that's the cleanest data mismatch on the slate. Behind it, Nolan McLean (2.92 ERA, 31.5% K) and Chase Burns (1.87 ERA) both check the boxes against beatable opposition. The ladder rides with the Red Sox \u2014 best floor by a mile, pitching edge so wide the market hasn't priced it cleanly yet.",
+      "slate_analysis": "Fifteen MLB games on the board with first pitches stretching from Miami at 4:10 ET to the West Coast night caps, plus a Knicks-Cavs playoff game at MSG. Pricing climate is normal \u2014 most totals sit at 7.5 to 8.5, most favorites in the -130 to -160 band, no obvious public traps screaming for action. Data confidence on the IntelPacks comes in at 0.4 across the board because lineups aren't confirmed yet, which means we have to lean on the cleanest pitching mismatches rather than offense-driven angles.\n\nThe board narrowed to six real candidates on first review. Suarez at Kauffman against Bailey Falter \u2014 Falter's 10.13 ERA and 1.7 IP/start are a five-alarm fire. McLean (2.92 ERA, 31.5% K rate, 0.69 HR/9) drawing Foster Griffin and the Nationals at home. Chase Burns at 1.87 ERA against Luzardo's 5.07 in Philly. Cease (2.41 ERA, 34.6% K, 0.17 HR/9 \u2014 absurd) against Will Warren and the Yankees. Ben Brown (1.60 ERA) vs Misiorowski (2.12, 39.6% K) at Wrigley as a potential under spot. And Messick (2.35 ERA, 28.3% K) against Keider Montero in Detroit.\n\nWhat got cut: Cease ML at -136 is the right side but the juice is heavier than the edge \u2014 Yankees lineup is the best Cease will face in months and Warren's been solid at 3.42. Cubs-Brewers under 7.5 is tempting with two aces, but both bullpens have been shaky and Wrigley wind can flip on you \u2014 data_confidence too thin to commit. Burns is excellent but Luzardo's 28.6% K rate keeps the Phillies' over equation alive in a hitter's park (PF 1.10 HR); fade Phillies on the road wins, not at home. Messick vs Montero looks like a Guardians ML spot but -158 juice is right at our ceiling and Montero's 0.99 WHIP says he's not a giveaway. Knicks -7.5 is a playoff number we can't model with the data we have.\n\nFinal three: Red Sox ML at Kansas City as the headline pitching mismatch and ladder pick (best floor \u2014 Falter is essentially an opener masquerading as a starter, Suarez is a legitimate top-20 SP). Mets ML on the road against Washington \u2014 McLean's profile dwarfs Foster Griffin and the Mets are getting a price that implies they're closer to a coin flip than they should be. Reds +125 at Philly \u2014 Chase Burns is the better pitcher in this matchup and we're getting a plus-money dog, the rare spot where we get paid to take the right side.",
+      "slate_vibe": "NORMAL",
+      "published_at": "2026-05-19T12:37:00.720383-04:00"
+    }
+  ],
   "today_bonus_picks": [],
   "all_picks": [
+    {
+      "id": "20260519-MLB-CIN-PHI-ML",
+      "sport": "MLB",
+      "game": "CIN @ PHI",
+      "first_pitch_iso": "2026-05-19T22:40Z",
+      "pick": "Cincinnati Reds ML",
+      "best_book": "BetMGM",
+      "best_odds": "+125",
+      "book_prices": {
+        "draftkings": "+124",
+        "fanduel": "+124",
+        "betmgm": "+125"
+      },
+      "book_links": {
+        "fanduel": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.579387427&selectionId=29167",
+        "draftkings": "https://sportsbook.draftkings.com/?outcomes=0ML84834323_3",
+        "betmgm": "https://sports.nj.betmgm.com/en/sports?options=19414070-1501751744--85204337&type=Single"
+      },
+      "market": "ML",
+      "confidence": 3,
+      "units": 1.0,
+      "win_probability": 0.5,
+      "ladder_designation": false,
+      "data_confidence": 0.65,
+      "rules_passed": [
+        "max_juice",
+        "ladder_even_money",
+        "parlay_well_formed",
+        "confidence_units_match",
+        "data_confidence_floor",
+        "pick_type_allowed",
+        "mlb_hr_prop_check",
+        "mlb_run_line_check",
+        "mlb_under_bb_check",
+        "no_same_game_opposite"
+      ],
+      "locked": true,
+      "late_add": false,
+      "late_add_reason": "",
+      "bonus_pick": false,
+      "event_type": "",
+      "event_name": "",
+      "legs": [],
+      "headline": "Chase Burns at 1.87 ERA is the better pitcher in this matchup \u2014 and we're getting paid plus-money to back him.",
+      "the_thesis": "Chase Burns is having a monster year: 1.87 ERA, 1.00 WHIP, 26.6% K rate, and 53 innings of consistent dominance. His ERA is over three runs lower than Jes\u00fas Luzardo's 5.07 on the other side. Luzardo's underlying stuff is good (28.6% K rate, 6.1% BB rate) but he's been getting hit hard \u2014 5+ ERA over 49.2 innings is a real sample, not a fluke.\n\nThe market has the Reds at +125, which implies ~44% \u2014 we model them closer to 50% straight up, possibly slightly favored. Citizens Bank Park has a 1.10 HR factor, which is the one real concern (Burns has given up 1.02 HR/9), but Burns' overall command and strikeout profile keeps the damage contained even in a homer park. When you can take the better pitcher and get plus money on the moneyline, you take it \u2014 the dog price gives us a margin for variance that the favorite side doesn't get.",
+      "the_data": [
+        {
+          "label": "Burns ERA / WHIP",
+          "value": "1.87 / 1.00",
+          "context": "Top-10 in MLB"
+        },
+        {
+          "label": "Luzardo ERA",
+          "value": "5.07",
+          "context": "Underperforming his stuff"
+        },
+        {
+          "label": "Burns K% / BB%",
+          "value": "26.6% / 8.7%",
+          "context": "Strong"
+        },
+        {
+          "label": "Burns IP",
+          "value": "53.0",
+          "context": "Substantial sample"
+        },
+        {
+          "label": "CBP HR factor",
+          "value": "1.10",
+          "context": "Hitter-friendly \u2014 main risk"
+        },
+        {
+          "label": "CIN ML implied",
+          "value": "44.5%",
+          "context": "Our model: ~50%"
+        }
+      ],
+      "the_market": "Reds opened around +130 and have ticked down slightly to +124/+125 across the books \u2014 that's mild sharp support for the dog without any major movement.",
+      "weather_park": "Citizens Bank Park, outdoor, HR factor 1.10 \u2014 the main reason this isn't a higher-confidence play. One swing can change everything.",
+      "case_against": "Luzardo's strikeout stuff is real \u2014 if he has one of his good nights, he can shut Cincinnati down for six. The Phillies lineup at home in a homer park is the most dangerous offense Burns will face this month. A two-homer night flips this game and the dog ticket. We're betting on Burns being who his numbers say he is over a smaller-sample Luzardo bounceback.",
+      "what_were_betting_on": "Burns going 6+ innings of 2-or-fewer-run ball, Reds scratching 3-4 against Luzardo and a solid Phillies pen, and the homer math not blowing up in our face.",
+      "scott_bot_quip": "Better pitcher, plus money. That's the trade \u2014 we don't need to overthink the dog tag.",
+      "ladder_note": "",
+      "date": "2026-05-19",
+      "status": "PEND",
+      "units_result": null,
+      "clv_cents": null,
+      "result_score": null,
+      "graded_at": null,
+      "slate_assessment": "Big 15-game MLB board plus one NBA playoff game (Knicks-Cavs); pitching headliners include Cease, McLean, Burns, Misiorowski vs Brown, and Suarez at Kauffman against a Falter disaster start.",
+      "executive_summary": "Fifteen MLB games and a Knicks-Cavs playoff tilt headline a deep Tuesday board. The headline arm is Ranger Suarez walking into Kauffman against Bailey Falter's 10.13 ERA \u2014 that's the cleanest data mismatch on the slate. Behind it, Nolan McLean (2.92 ERA, 31.5% K) and Chase Burns (1.87 ERA) both check the boxes against beatable opposition. The ladder rides with the Red Sox \u2014 best floor by a mile, pitching edge so wide the market hasn't priced it cleanly yet.",
+      "slate_analysis": "Fifteen MLB games on the board with first pitches stretching from Miami at 4:10 ET to the West Coast night caps, plus a Knicks-Cavs playoff game at MSG. Pricing climate is normal \u2014 most totals sit at 7.5 to 8.5, most favorites in the -130 to -160 band, no obvious public traps screaming for action. Data confidence on the IntelPacks comes in at 0.4 across the board because lineups aren't confirmed yet, which means we have to lean on the cleanest pitching mismatches rather than offense-driven angles.\n\nThe board narrowed to six real candidates on first review. Suarez at Kauffman against Bailey Falter \u2014 Falter's 10.13 ERA and 1.7 IP/start are a five-alarm fire. McLean (2.92 ERA, 31.5% K rate, 0.69 HR/9) drawing Foster Griffin and the Nationals at home. Chase Burns at 1.87 ERA against Luzardo's 5.07 in Philly. Cease (2.41 ERA, 34.6% K, 0.17 HR/9 \u2014 absurd) against Will Warren and the Yankees. Ben Brown (1.60 ERA) vs Misiorowski (2.12, 39.6% K) at Wrigley as a potential under spot. And Messick (2.35 ERA, 28.3% K) against Keider Montero in Detroit.\n\nWhat got cut: Cease ML at -136 is the right side but the juice is heavier than the edge \u2014 Yankees lineup is the best Cease will face in months and Warren's been solid at 3.42. Cubs-Brewers under 7.5 is tempting with two aces, but both bullpens have been shaky and Wrigley wind can flip on you \u2014 data_confidence too thin to commit. Burns is excellent but Luzardo's 28.6% K rate keeps the Phillies' over equation alive in a hitter's park (PF 1.10 HR); fade Phillies on the road wins, not at home. Messick vs Montero looks like a Guardians ML spot but -158 juice is right at our ceiling and Montero's 0.99 WHIP says he's not a giveaway. Knicks -7.5 is a playoff number we can't model with the data we have.\n\nFinal three: Red Sox ML at Kansas City as the headline pitching mismatch and ladder pick (best floor \u2014 Falter is essentially an opener masquerading as a starter, Suarez is a legitimate top-20 SP). Mets ML on the road against Washington \u2014 McLean's profile dwarfs Foster Griffin and the Mets are getting a price that implies they're closer to a coin flip than they should be. Reds +125 at Philly \u2014 Chase Burns is the better pitcher in this matchup and we're getting a plus-money dog, the rare spot where we get paid to take the right side.",
+      "slate_vibe": "NORMAL",
+      "published_at": "2026-05-19T12:37:00.720571-04:00"
+    },
+    {
+      "id": "20260519-MLB-NYM-WSH-ML",
+      "sport": "MLB",
+      "game": "NYM @ WSH",
+      "first_pitch_iso": "2026-05-19T22:45Z",
+      "pick": "New York Mets ML",
+      "best_book": "FanDuel",
+      "best_odds": "-142",
+      "book_prices": {
+        "draftkings": "-143",
+        "fanduel": "-142",
+        "betmgm": "-145"
+      },
+      "book_links": {
+        "fanduel": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.579387423&selectionId=29174",
+        "draftkings": "https://sportsbook.draftkings.com/?outcomes=0ML84834405_3",
+        "betmgm": "https://sports.nj.betmgm.com/en/sports?options=19414076-1501752131--85203473&type=Single"
+      },
+      "market": "ML",
+      "confidence": 4,
+      "units": 1.5,
+      "win_probability": 0.64,
+      "ladder_designation": true,
+      "data_confidence": 0.7,
+      "rules_passed": [
+        "max_juice",
+        "ladder_even_money",
+        "parlay_well_formed",
+        "confidence_units_match",
+        "data_confidence_floor",
+        "pick_type_allowed",
+        "mlb_hr_prop_check",
+        "mlb_run_line_check",
+        "mlb_under_bb_check",
+        "no_same_game_opposite"
+      ],
+      "locked": true,
+      "late_add": false,
+      "late_add_reason": "",
+      "bonus_pick": false,
+      "event_type": "",
+      "event_name": "",
+      "legs": [],
+      "headline": "Nolan McLean's 31.5% strikeout rate and 0.69 HR/9 walking into a Nationals lineup that hasn't been able to slow anyone down.",
+      "the_thesis": "Nolan McLean is quietly putting together one of the best young-pitcher seasons in baseball \u2014 2.92 ERA across 52.1 innings, 0.96 WHIP, a 31.5% strikeout rate that puts him in the top 10 in MLB, and a 0.69 HR/9 that means he's not getting beat by the longball. K% above 30% is the single most predictive stat for a pitcher staying dominant \u2014 strikeouts don't depend on defense or luck on balls in play. He's the real deal.\n\nForward-throwing Foster Griffin on the other side is fine but unspectacular \u2014 3.53 ERA, 1.41 HR/9. That HR/9 number matters in a neutral park (Nationals Park PF 1.02) against a Mets lineup that has been running an above-average offense all season. The Mets are -142, implying ~58.6%; we model them closer to 63-65% given the pitching gap and the Nationals' overall roster quality. This is a quiet edge \u2014 no flashy line movement, just a better team with a better pitcher getting a fair price.",
+      "the_data": [
+        {
+          "label": "McLean ERA / WHIP",
+          "value": "2.92 / 0.96",
+          "context": "Elite, top-20"
+        },
+        {
+          "label": "McLean K% / BB%",
+          "value": "31.5% / 7.4%",
+          "context": "K% top-10 in MLB"
+        },
+        {
+          "label": "McLean HR/9",
+          "value": "0.69",
+          "context": "Elite contact management"
+        },
+        {
+          "label": "Griffin ERA / HR9",
+          "value": "3.53 / 1.41",
+          "context": "Solid but homer-prone"
+        },
+        {
+          "label": "Park HR factor",
+          "value": "1.02",
+          "context": "Neutral"
+        },
+        {
+          "label": "NYM ML implied",
+          "value": "58.7%",
+          "context": "Our model: 63-65%"
+        }
+      ],
+      "the_market": "Line opened Mets -140-ish and has held across all three books \u2014 no sharp move either way, which is consistent with the books pricing the matchup correctly but offering a small edge to the side with the better arm.",
+      "weather_park": "Nationals Park, outdoor, neutral run (1.01) and HR (1.02) factors \u2014 no environmental tilt.",
+      "case_against": "McLean is young \u2014 52 innings is still a smallish sample for projecting forward, and rookies can hit walls. Foster Griffin pitches to contact and can string together quiet outings against teams that try to swing for the fences. If the Mets' bullpen has to close a one-run lead, the Nationals can grind out a late rally \u2014 they've done it before.",
+      "what_were_betting_on": "McLean dominating into the 6th, Mets stacking 4+ on Griffin and the Nats pen, no late-inning leverage spot for Washington.",
+      "scott_bot_quip": "Strikeout rates don't lie. McLean punches out a third of the guys he sees \u2014 that travels anywhere.",
+      "ladder_note": "",
+      "date": "2026-05-19",
+      "status": "PEND",
+      "units_result": null,
+      "clv_cents": null,
+      "result_score": null,
+      "graded_at": null,
+      "slate_assessment": "Big 15-game MLB board plus one NBA playoff game (Knicks-Cavs); pitching headliners include Cease, McLean, Burns, Misiorowski vs Brown, and Suarez at Kauffman against a Falter disaster start.",
+      "executive_summary": "Fifteen MLB games and a Knicks-Cavs playoff tilt headline a deep Tuesday board. The headline arm is Ranger Suarez walking into Kauffman against Bailey Falter's 10.13 ERA \u2014 that's the cleanest data mismatch on the slate. Behind it, Nolan McLean (2.92 ERA, 31.5% K) and Chase Burns (1.87 ERA) both check the boxes against beatable opposition. The ladder rides with the Red Sox \u2014 best floor by a mile, pitching edge so wide the market hasn't priced it cleanly yet.",
+      "slate_analysis": "Fifteen MLB games on the board with first pitches stretching from Miami at 4:10 ET to the West Coast night caps, plus a Knicks-Cavs playoff game at MSG. Pricing climate is normal \u2014 most totals sit at 7.5 to 8.5, most favorites in the -130 to -160 band, no obvious public traps screaming for action. Data confidence on the IntelPacks comes in at 0.4 across the board because lineups aren't confirmed yet, which means we have to lean on the cleanest pitching mismatches rather than offense-driven angles.\n\nThe board narrowed to six real candidates on first review. Suarez at Kauffman against Bailey Falter \u2014 Falter's 10.13 ERA and 1.7 IP/start are a five-alarm fire. McLean (2.92 ERA, 31.5% K rate, 0.69 HR/9) drawing Foster Griffin and the Nationals at home. Chase Burns at 1.87 ERA against Luzardo's 5.07 in Philly. Cease (2.41 ERA, 34.6% K, 0.17 HR/9 \u2014 absurd) against Will Warren and the Yankees. Ben Brown (1.60 ERA) vs Misiorowski (2.12, 39.6% K) at Wrigley as a potential under spot. And Messick (2.35 ERA, 28.3% K) against Keider Montero in Detroit.\n\nWhat got cut: Cease ML at -136 is the right side but the juice is heavier than the edge \u2014 Yankees lineup is the best Cease will face in months and Warren's been solid at 3.42. Cubs-Brewers under 7.5 is tempting with two aces, but both bullpens have been shaky and Wrigley wind can flip on you \u2014 data_confidence too thin to commit. Burns is excellent but Luzardo's 28.6% K rate keeps the Phillies' over equation alive in a hitter's park (PF 1.10 HR); fade Phillies on the road wins, not at home. Messick vs Montero looks like a Guardians ML spot but -158 juice is right at our ceiling and Montero's 0.99 WHIP says he's not a giveaway. Knicks -7.5 is a playoff number we can't model with the data we have.\n\nFinal three: Red Sox ML at Kansas City as the headline pitching mismatch and ladder pick (best floor \u2014 Falter is essentially an opener masquerading as a starter, Suarez is a legitimate top-20 SP). Mets ML on the road against Washington \u2014 McLean's profile dwarfs Foster Griffin and the Mets are getting a price that implies they're closer to a coin flip than they should be. Reds +125 at Philly \u2014 Chase Burns is the better pitcher in this matchup and we're getting a plus-money dog, the rare spot where we get paid to take the right side.",
+      "slate_vibe": "NORMAL",
+      "published_at": "2026-05-19T12:37:00.720383-04:00"
+    },
     {
       "id": "20260518-NBA-SA-OKC-SPREAD",
       "sport": "NBA",
