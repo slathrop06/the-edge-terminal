@@ -6,5 +6,13 @@
     "candidate_rule": "When the starting pitcher on the 'safe' side of an under has a documented ERA above 8.00 in multiple prior starts against the opposing lineup, treat that as a disqualifying factor for the under regardless of park factors \u2014 but validate against a larger sample before hardcoding.",
     "sample_size_warning": "N=1, insufficient to establish rule. One loss where Kirby's Padres-specific splits were the deciding factor is noise; need N\u22655 similar setups to confirm the pattern.",
     "status": "PENDING_REVIEW"
+  },
+  {
+    "proposed_at": "2026-05-19T02:55:08.277115-04:00",
+    "source_pick_id": "20260518-MLB-BAL-TB-TOTAL",
+    "source_loss": "Under 7.5 (BAL @ TB)",
+    "candidate_rule": "When a starter carries a WHIP above 1.45, do not lean Under regardless of the opposing ace \u2014 high-WHIP pitchers generate multi-run innings via baserunner accumulation at a rate that overwhelms even elite run suppression on the other side; flag any Under pick where one starter's WHIP exceeds 1.40 for manual review. (N=1, insufficient to establish rule \u2014 monitor for pattern.)",
+    "sample_size_warning": "N=1, insufficient to establish rule. One blowup from a high-WHIP starter does not validate a blanket filter \u2014 watch for recurrence across 10+ similar setups before codifying.",
+    "status": "PENDING_REVIEW"
   }
 ]

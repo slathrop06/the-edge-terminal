@@ -1,190 +1,9 @@
 {
-  "generated_at": "2026-05-18T18:00:17.277146-04:00",
-  "today": "2026-05-18",
+  "generated_at": "2026-05-19T02:55:22.487785-04:00",
+  "today": "2026-05-19",
   "system_paused": false,
   "pause_reason": "",
-  "today_picks": [
-    {
-      "id": "20260518-NBA-SA-OKC-SPREAD",
-      "sport": "NBA",
-      "game": "SA @ OKC",
-      "first_pitch_iso": "2026-05-19T00:30Z",
-      "pick": "Thunder -6.5",
-      "best_book": "DraftKings",
-      "best_odds": "-110",
-      "book_prices": {
-        "draftkings": "-110",
-        "fanduel": "-110",
-        "betmgm": "-110"
-      },
-      "book_links": {
-        "draftkings": "https://sportsbook.draftkings.com/?outcomes=0HC84805625N650_1",
-        "fanduel": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.578923574&selectionId=3319741",
-        "betmgm": "https://sports.nj.betmgm.com/en/sports?options=19544896-1517637485-2186426241&type=Single"
-      },
-      "market": "SPREAD",
-      "confidence": 3,
-      "units": 1.0,
-      "win_probability": 0.57,
-      "ladder_designation": false,
-      "data_confidence": 0.65,
-      "rules_passed": [
-        "max_juice",
-        "ladder_even_money",
-        "parlay_well_formed",
-        "confidence_units_match",
-        "data_confidence_floor",
-        "pick_type_allowed",
-        "mlb_hr_prop_check",
-        "mlb_run_line_check",
-        "mlb_under_bb_check",
-        "no_same_game_opposite"
-      ],
-      "locked": true,
-      "late_add": false,
-      "late_add_reason": "",
-      "bonus_pick": false,
-      "event_type": "",
-      "event_name": "",
-      "legs": [],
-      "headline": "OKC at home against a young Spurs team \u2014 six and a half is a reasonable number to lay with this talent gap.",
-      "the_thesis": "Thunder are the better team across every meaningful dimension \u2014 talent, depth, defensive scheme, and home-court familiarity at Paycom. The market has them at -235 ML, which translates to roughly 68% win probability. The -6.5 spread implies they win by 7+ in something like 52-54% of their winning scenarios. With OKC's typical margin of victory profile against rebuilding-tier opponents at home, 6.5 is the right side.\\n\\nSan Antonio is dangerous for stretches because of their young core's talent, but they're not a team that wins road games against top-tier opponents by being efficient \u2014 they win them by getting hot. In a half-court game in a hostile building, the variance favors the favorite covering, not the underdog hanging around. OKC's defense in particular makes life miserable on possession-by-possession execution, which is exactly what punctures young road teams.\\n\\nLine has been static at -6.5 across all three books, no key-number movement. That's a market that's comfortable, not one that's reaching.",
-      "the_data": [
-        {
-          "label": "OKC ML implied win prob",
-          "value": "67.8%",
-          "context": "heavy home favorite"
-        },
-        {
-          "label": "Spread",
-          "value": "-6.5",
-          "context": "no movement, all three books aligned"
-        },
-        {
-          "label": "Total",
-          "value": "221.5",
-          "context": "moderate pace, neutral"
-        },
-        {
-          "label": "Venue",
-          "value": "Paycom Center",
-          "context": "strong home edge for OKC"
-        }
-      ],
-      "the_market": "Spread opened -6.5 and held across DK, FD, and MGM at -110 both ways. No sharp money trying to buy through the key 7. Market is settled here.",
-      "weather_park": "",
-      "case_against": "Young teams playing loose on the road can hang for three quarters, and if SA hits some early threes the cover number becomes a problem fast. OKC also has a tendency to let off the gas with a comfortable lead, leading to backdoor covers \u2014 that's the real risk on any number 6+ against a team with shooters.",
-      "what_were_betting_on": "OKC building a double-digit lead by halftime, defense suffocating Spurs' half-court sets, and the margin staying north of 7 down the stretch.",
-      "scott_bot_quip": "Talent gap at home, line hasn't moved, no need to dress it up.",
-      "ladder_note": "",
-      "date": "2026-05-18",
-      "status": "PEND",
-      "units_result": null,
-      "clv_cents": null,
-      "result_score": null,
-      "graded_at": null,
-      "slate_assessment": "Big 14-game MLB board with one NBA playoff matchup and one NHL game. Several elite pitchers in soft spots create clear under and favorite angles.",
-      "executive_summary": "Fourteen MLB games headlined by two of the most lopsided pitching mismatches of the week \u2014 McClanahan (2.27 ERA) hosting a sputtering Trevor Rogers in a dome that already kills offense, and Imanaga (2.32 ERA, 0.90 WHIP) drawing a wild Brandon Sproat at Wrigley. Add in OKC laying a manageable number at home against a Spurs team they should overwhelm, and we've got a clean three-pick day. Ladder rides with the Cubs in the parlay slot \u2014 best floor on the board.",
-      "slate_analysis": "Fifteen total games on the board: fourteen MLB, one NBA playoff (OKC-SA), one NHL (BUF-MTL). MLB pricing is fairly tight across the three books \u2014 DK, FD, and MGM are all within a couple cents on most lines \u2014 which actually makes the pitching-driven angles cleaner because we're not chasing soft numbers, we're betting clear talent gaps.\n\nThe candidates that rose during review: Rays-Orioles under 7.5 (McClanahan 2.27 ERA, 0.23 HR/9 vs Trevor Rogers at 5.77 ERA \u2014 but both being lefty starters in a dome screams under, not Rays ML); Cubs-Brewers (Imanaga 2.32 ERA, 0.90 WHIP vs Sproat 5.75 ERA, 13% BB rate); Yankees-Blue Jays (Weathers 3.00 ERA, 29.8 K% \u2014 but -170 juice exceeds our -150 cap on a straight); Tigers-Guardians (Framber Valdez at home, but Tigers ML priced -150 at best book, edge thin); Twins-Astros (both starters are walking machines with tiny samples \u2014 pass, too volatile); OKC-Spurs playoff spot (Thunder -6.5 at home, Spurs without their core in a hostile building); Dodgers-Padres total (two elite SPs in pitcher's park, but already priced to that reality at 7.5).\n\nWhat got cut: Yankees ML at -170 fails the juice cap. Twins-Astros \u2014 Rojas has 7.1 IP and a 23.5% BB rate, Imai has 12.2 IP and 21.5% BB rate, sample sizes too thin to trust either way. Tigers ML \u2014 the edge over -150 implied probability is razor-thin, and Cecconi has actually been steady relative to his ERA. Dodgers-Padres under \u2014 market already sitting at 7.5, no edge to chase. Marlins-Braves \u2014 Ritchie's 16% walk rate is scary but Meyer's sample is also limited; data confidence below the floor.\n\nThe three survivors: Rays-Orioles under 7.5 (McClanahan dominance + Rogers regression + Tropicana suppressing), OKC -6.5 (rest, talent, home court in a closeout-type spot against a young Spurs team), and the ladder parlay anchored by Imanaga's Cubs plus the Rays under to land near even money. The ladder gets the parlay because Imanaga ML at -162 is too short for a straight ladder slot, but combining two of our highest-floor plays at +105 hits the band cleanly.",
-      "slate_vibe": "NORMAL",
-      "published_at": "2026-05-18T12:19:17.718467-04:00"
-    },
-    {
-      "id": "20260518-MLB-BAL-TB-TOTAL",
-      "sport": "MLB",
-      "game": "BAL @ TB",
-      "first_pitch_iso": "2026-05-18T22:40Z",
-      "pick": "Under 7.5",
-      "best_book": "DraftKings",
-      "best_odds": "-108",
-      "book_prices": {
-        "draftkings": "-108",
-        "fanduel": "-110",
-        "betmgm": "-110"
-      },
-      "book_links": {
-        "fanduel": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.579291673&selectionId=7017906",
-        "draftkings": "https://sportsbook.draftkings.com/?outcomes=0OU84820787U750_3",
-        "betmgm": "https://sports.nj.betmgm.com/en/sports?options=19414760-1501786345--85124581&type=Single"
-      },
-      "market": "TOTAL",
-      "confidence": 4,
-      "units": 1.5,
-      "win_probability": 0.61,
-      "ladder_designation": true,
-      "data_confidence": 0.72,
-      "rules_passed": [
-        "max_juice",
-        "ladder_even_money",
-        "parlay_well_formed",
-        "confidence_units_match",
-        "data_confidence_floor",
-        "pick_type_allowed",
-        "mlb_hr_prop_check",
-        "mlb_run_line_check",
-        "mlb_under_bb_check",
-        "no_same_game_opposite"
-      ],
-      "locked": true,
-      "late_add": false,
-      "late_add_reason": "",
-      "bonus_pick": false,
-      "event_type": "",
-      "event_name": "",
-      "legs": [],
-      "headline": "McClanahan in a dome, Rogers regressing, total opens and stays at 7.5 \u2014 the math is on the under.",
-      "the_thesis": "This is the cleanest pitching mismatch on the board that still has a workable total. Shane McClanahan is sitting on a 2.27 ERA with a 0.98 WHIP and a microscopic 0.23 HR/9 \u2014 that last number is elite, top-five-in-baseball territory. He's striking out 25.8% with manageable walks at 9.4%. Translation: he's missing bats, limiting hard contact, and the ball isn't leaving the yard against him.\\n\\nTrevor Rogers on the other side has been a disaster \u2014 5.77 ERA, 1.54 WHIP, 1.32 HR/9. He's a lefty pitching in a dome where his fly-ball tendency is somewhat masked, but he's also been giving up traffic and burning his pitch count. The interesting wrinkle: when Rogers struggles, he struggles by walking guys and giving up the long ball, not by getting hammered for clusters of singles. That favors the under \u2014 fewer big innings of station-to-station damage, more solo shots that don't cluster.\\n\\nTropicana Field plays as a pitcher's park (0.95 run factor, 0.92 HR factor), and 7.5 is already a low number. We don't need a gem from both guys \u2014 we need McClanahan to do McClanahan things for 6 and Rogers to give up 3-4 instead of 6-7. Both bullpens are functional. The under cashes around 60-62% of the time in this specific setup.",
-      "the_data": [
-        {
-          "label": "McClanahan ERA / WHIP",
-          "value": "2.27 / 0.98",
-          "context": "elite, ace-tier"
-        },
-        {
-          "label": "McClanahan HR/9",
-          "value": "0.23",
-          "context": "top of the league"
-        },
-        {
-          "label": "Rogers ERA / HR9",
-          "value": "5.77 / 1.32",
-          "context": "regressing, fly-ball prone"
-        },
-        {
-          "label": "Tropicana run factor",
-          "value": "0.95",
-          "context": "pitcher-friendly dome"
-        },
-        {
-          "label": "Tropicana HR factor",
-          "value": "0.92",
-          "context": "HR-suppressing"
-        },
-        {
-          "label": "Total open / now",
-          "value": "7.5 / 7.5",
-          "context": "no movement, sharp consensus"
-        }
-      ],
-      "the_market": "Total opened at 7.5 and hasn't budged across all three books. No movement on a number this low against a 5.77 ERA pitcher suggests the market already knows McClanahan is the anchor \u2014 and sharp money isn't trying to push it lower because there's nowhere to go.",
-      "weather_park": "Tropicana Field is indoors, no weather. Park plays 0.95 runs / 0.92 HR \u2014 a real edge for the under.",
-      "case_against": "Rogers gets knocked out in the third, the Rays' offense rolls against Baltimore's middle relief, and we eat a 6-3 Rays win that pushes over 7.5. The under also gets cooked if McClanahan has one of his rare bad starts \u2014 he's an injury-history guy and one clunker is always in play. Lefty-on-lefty also doesn't fully neutralize Baltimore's righty bats, who can punish mistakes.",
-      "what_were_betting_on": "McClanahan goes 6+ giving up 2 or fewer, Rogers gives up 3-4 over 4-5 innings, neither bullpen blows up.",
-      "scott_bot_quip": "Sometimes the edge is just one ace, one mess, and a dome. We don't have to overthink this one.",
-      "ladder_note": "",
-      "date": "2026-05-18",
-      "status": "PEND",
-      "units_result": null,
-      "clv_cents": null,
-      "result_score": null,
-      "graded_at": null,
-      "slate_assessment": "Big 14-game MLB board with one NBA playoff matchup and one NHL game. Several elite pitchers in soft spots create clear under and favorite angles.",
-      "executive_summary": "Fourteen MLB games headlined by two of the most lopsided pitching mismatches of the week \u2014 McClanahan (2.27 ERA) hosting a sputtering Trevor Rogers in a dome that already kills offense, and Imanaga (2.32 ERA, 0.90 WHIP) drawing a wild Brandon Sproat at Wrigley. Add in OKC laying a manageable number at home against a Spurs team they should overwhelm, and we've got a clean three-pick day. Ladder rides with the Cubs in the parlay slot \u2014 best floor on the board.",
-      "slate_analysis": "Fifteen total games on the board: fourteen MLB, one NBA playoff (OKC-SA), one NHL (BUF-MTL). MLB pricing is fairly tight across the three books \u2014 DK, FD, and MGM are all within a couple cents on most lines \u2014 which actually makes the pitching-driven angles cleaner because we're not chasing soft numbers, we're betting clear talent gaps.\n\nThe candidates that rose during review: Rays-Orioles under 7.5 (McClanahan 2.27 ERA, 0.23 HR/9 vs Trevor Rogers at 5.77 ERA \u2014 but both being lefty starters in a dome screams under, not Rays ML); Cubs-Brewers (Imanaga 2.32 ERA, 0.90 WHIP vs Sproat 5.75 ERA, 13% BB rate); Yankees-Blue Jays (Weathers 3.00 ERA, 29.8 K% \u2014 but -170 juice exceeds our -150 cap on a straight); Tigers-Guardians (Framber Valdez at home, but Tigers ML priced -150 at best book, edge thin); Twins-Astros (both starters are walking machines with tiny samples \u2014 pass, too volatile); OKC-Spurs playoff spot (Thunder -6.5 at home, Spurs without their core in a hostile building); Dodgers-Padres total (two elite SPs in pitcher's park, but already priced to that reality at 7.5).\n\nWhat got cut: Yankees ML at -170 fails the juice cap. Twins-Astros \u2014 Rojas has 7.1 IP and a 23.5% BB rate, Imai has 12.2 IP and 21.5% BB rate, sample sizes too thin to trust either way. Tigers ML \u2014 the edge over -150 implied probability is razor-thin, and Cecconi has actually been steady relative to his ERA. Dodgers-Padres under \u2014 market already sitting at 7.5, no edge to chase. Marlins-Braves \u2014 Ritchie's 16% walk rate is scary but Meyer's sample is also limited; data confidence below the floor.\n\nThe three survivors: Rays-Orioles under 7.5 (McClanahan dominance + Rogers regression + Tropicana suppressing), OKC -6.5 (rest, talent, home court in a closeout-type spot against a young Spurs team), and the ladder parlay anchored by Imanaga's Cubs plus the Rays under to land near even money. The ladder gets the parlay because Imanaga ML at -162 is too short for a straight ladder slot, but combining two of our highest-floor plays at +105 hits the band cleanly.",
-      "slate_vibe": "NORMAL",
-      "published_at": "2026-05-18T12:19:17.718301-04:00"
-    }
-  ],
+  "today_picks": [],
   "today_bonus_picks": [],
   "all_picks": [
     {
@@ -261,16 +80,22 @@
       "scott_bot_quip": "Talent gap at home, line hasn't moved, no need to dress it up.",
       "ladder_note": "",
       "date": "2026-05-18",
-      "status": "PEND",
-      "units_result": null,
+      "status": "LOSS",
+      "units_result": -1.0,
       "clv_cents": null,
-      "result_score": null,
-      "graded_at": null,
+      "result_score": "SA 122 \u00b7 OKC 115",
+      "graded_at": "2026-05-19T02:54:33.687024-04:00",
       "slate_assessment": "Big 14-game MLB board with one NBA playoff matchup and one NHL game. Several elite pitchers in soft spots create clear under and favorite angles.",
       "executive_summary": "Fourteen MLB games headlined by two of the most lopsided pitching mismatches of the week \u2014 McClanahan (2.27 ERA) hosting a sputtering Trevor Rogers in a dome that already kills offense, and Imanaga (2.32 ERA, 0.90 WHIP) drawing a wild Brandon Sproat at Wrigley. Add in OKC laying a manageable number at home against a Spurs team they should overwhelm, and we've got a clean three-pick day. Ladder rides with the Cubs in the parlay slot \u2014 best floor on the board.",
       "slate_analysis": "Fifteen total games on the board: fourteen MLB, one NBA playoff (OKC-SA), one NHL (BUF-MTL). MLB pricing is fairly tight across the three books \u2014 DK, FD, and MGM are all within a couple cents on most lines \u2014 which actually makes the pitching-driven angles cleaner because we're not chasing soft numbers, we're betting clear talent gaps.\n\nThe candidates that rose during review: Rays-Orioles under 7.5 (McClanahan 2.27 ERA, 0.23 HR/9 vs Trevor Rogers at 5.77 ERA \u2014 but both being lefty starters in a dome screams under, not Rays ML); Cubs-Brewers (Imanaga 2.32 ERA, 0.90 WHIP vs Sproat 5.75 ERA, 13% BB rate); Yankees-Blue Jays (Weathers 3.00 ERA, 29.8 K% \u2014 but -170 juice exceeds our -150 cap on a straight); Tigers-Guardians (Framber Valdez at home, but Tigers ML priced -150 at best book, edge thin); Twins-Astros (both starters are walking machines with tiny samples \u2014 pass, too volatile); OKC-Spurs playoff spot (Thunder -6.5 at home, Spurs without their core in a hostile building); Dodgers-Padres total (two elite SPs in pitcher's park, but already priced to that reality at 7.5).\n\nWhat got cut: Yankees ML at -170 fails the juice cap. Twins-Astros \u2014 Rojas has 7.1 IP and a 23.5% BB rate, Imai has 12.2 IP and 21.5% BB rate, sample sizes too thin to trust either way. Tigers ML \u2014 the edge over -150 implied probability is razor-thin, and Cecconi has actually been steady relative to his ERA. Dodgers-Padres under \u2014 market already sitting at 7.5, no edge to chase. Marlins-Braves \u2014 Ritchie's 16% walk rate is scary but Meyer's sample is also limited; data confidence below the floor.\n\nThe three survivors: Rays-Orioles under 7.5 (McClanahan dominance + Rogers regression + Tropicana suppressing), OKC -6.5 (rest, talent, home court in a closeout-type spot against a young Spurs team), and the ladder parlay anchored by Imanaga's Cubs plus the Rays under to land near even money. The ladder gets the parlay because Imanaga ML at -162 is too short for a straight ladder slot, but combining two of our highest-floor plays at +105 hits the band cleanly.",
       "slate_vibe": "NORMAL",
-      "published_at": "2026-05-18T12:19:17.718467-04:00"
+      "published_at": "2026-05-18T12:19:17.718467-04:00",
+      "autopsy": {
+        "classification": "VARIANCE",
+        "post_mortem": "This game was a double-overtime Western Conference Finals opener \u2014 OKC was not blown out. Per CBS Sports, the Spurs were up 10 with 9:10 left in regulation, OKC clawed back, and the lead changed hands twice with the game tied three times in under two minutes before the clock ran out on regulation. Wembanyama (41 pts, 24 reb) and Harper (24 pts, 7 steals) took over in double OT to seal it \u2014 the Thunder -6.5 cover was alive deep into the fourth quarter and was ultimately killed by two overtime periods, not by a bad thesis.",
+        "candidate_rule": null,
+        "sample_size_warning": "N=1, insufficient to establish rule. The pick was correctly reasoned \u2014 OKC led or was competitive through regulation \u2014 and was undone by a specific, low-probability double-OT outcome, not a structural model failure."
+      }
     },
     {
       "id": "20260518-MLB-BAL-TB-TOTAL",
@@ -356,16 +181,22 @@
       "scott_bot_quip": "Sometimes the edge is just one ace, one mess, and a dome. We don't have to overthink this one.",
       "ladder_note": "",
       "date": "2026-05-18",
-      "status": "PEND",
-      "units_result": null,
+      "status": "LOSS",
+      "units_result": -1.5,
       "clv_cents": null,
-      "result_score": null,
-      "graded_at": null,
+      "result_score": "BAL 6 \u00b7 TB 16",
+      "graded_at": "2026-05-19T02:54:51.528140-04:00",
       "slate_assessment": "Big 14-game MLB board with one NBA playoff matchup and one NHL game. Several elite pitchers in soft spots create clear under and favorite angles.",
       "executive_summary": "Fourteen MLB games headlined by two of the most lopsided pitching mismatches of the week \u2014 McClanahan (2.27 ERA) hosting a sputtering Trevor Rogers in a dome that already kills offense, and Imanaga (2.32 ERA, 0.90 WHIP) drawing a wild Brandon Sproat at Wrigley. Add in OKC laying a manageable number at home against a Spurs team they should overwhelm, and we've got a clean three-pick day. Ladder rides with the Cubs in the parlay slot \u2014 best floor on the board.",
       "slate_analysis": "Fifteen total games on the board: fourteen MLB, one NBA playoff (OKC-SA), one NHL (BUF-MTL). MLB pricing is fairly tight across the three books \u2014 DK, FD, and MGM are all within a couple cents on most lines \u2014 which actually makes the pitching-driven angles cleaner because we're not chasing soft numbers, we're betting clear talent gaps.\n\nThe candidates that rose during review: Rays-Orioles under 7.5 (McClanahan 2.27 ERA, 0.23 HR/9 vs Trevor Rogers at 5.77 ERA \u2014 but both being lefty starters in a dome screams under, not Rays ML); Cubs-Brewers (Imanaga 2.32 ERA, 0.90 WHIP vs Sproat 5.75 ERA, 13% BB rate); Yankees-Blue Jays (Weathers 3.00 ERA, 29.8 K% \u2014 but -170 juice exceeds our -150 cap on a straight); Tigers-Guardians (Framber Valdez at home, but Tigers ML priced -150 at best book, edge thin); Twins-Astros (both starters are walking machines with tiny samples \u2014 pass, too volatile); OKC-Spurs playoff spot (Thunder -6.5 at home, Spurs without their core in a hostile building); Dodgers-Padres total (two elite SPs in pitcher's park, but already priced to that reality at 7.5).\n\nWhat got cut: Yankees ML at -170 fails the juice cap. Twins-Astros \u2014 Rojas has 7.1 IP and a 23.5% BB rate, Imai has 12.2 IP and 21.5% BB rate, sample sizes too thin to trust either way. Tigers ML \u2014 the edge over -150 implied probability is razor-thin, and Cecconi has actually been steady relative to his ERA. Dodgers-Padres under \u2014 market already sitting at 7.5, no edge to chase. Marlins-Braves \u2014 Ritchie's 16% walk rate is scary but Meyer's sample is also limited; data confidence below the floor.\n\nThe three survivors: Rays-Orioles under 7.5 (McClanahan dominance + Rogers regression + Tropicana suppressing), OKC -6.5 (rest, talent, home court in a closeout-type spot against a young Spurs team), and the ladder parlay anchored by Imanaga's Cubs plus the Rays under to land near even money. The ladder gets the parlay because Imanaga ML at -162 is too short for a straight ladder slot, but combining two of our highest-floor plays at +105 hits the band cleanly.",
       "slate_vibe": "NORMAL",
-      "published_at": "2026-05-18T12:19:17.718301-04:00"
+      "published_at": "2026-05-18T12:19:17.718301-04:00",
+      "autopsy": {
+        "classification": "MODEL",
+        "post_mortem": "The thesis correctly identified Rogers as a liability but fatally misread HOW he damages you. The pick's own 'case against' warned Rogers hurts via solo shots and walks \u2014 not clusters of singles \u2014 yet Rogers sent 10 batters to the plate in a five-run second inning, exactly the station-to-station cluster damage the model said was unlikely. Tampa Bay then batted around again in a four-run sixth, capped by Caminero's three-run homer, pushing the total to 22 runs (TB 16, BAL 6) \u2014 nearly triple the 7.5 line. McClanahan did his job (held Baltimore scoreless into the third, extending his streak to 23\u2154 innings), but the under was already dead by the end of the second inning on Rogers alone. The model's core error: it discounted the 'big inning via traffic' scenario for Rogers despite his 1.54 WHIP screaming exactly that risk.",
+        "candidate_rule": "When a starter carries a WHIP above 1.45, do not lean Under regardless of the opposing ace \u2014 high-WHIP pitchers generate multi-run innings via baserunner accumulation at a rate that overwhelms even elite run suppression on the other side; flag any Under pick where one starter's WHIP exceeds 1.40 for manual review. (N=1, insufficient to establish rule \u2014 monitor for pattern.)",
+        "sample_size_warning": "N=1, insufficient to establish rule. One blowup from a high-WHIP starter does not validate a blanket filter \u2014 watch for recurrence across 10+ similar setups before codifying."
+      }
     },
     {
       "id": "20260517-MLB-NYY-NYM-ML",
@@ -944,11 +775,19 @@
     }
   ],
   "ladder": {
-    "current_streak": 2,
+    "current_streak": 0,
     "longest_streak": 2,
     "completed_climbs": 0,
     "target": 10,
     "history": [
+      {
+        "date": "2026-05-18",
+        "pick_id": "20260518-MLB-BAL-TB-TOTAL",
+        "pick": "Under 7.5",
+        "game": "BAL @ TB",
+        "status": "LOSS",
+        "after_streak": 0
+      },
       {
         "date": "2026-05-17",
         "pick_id": "20260517-MLB-NYY-NYM-ML",
@@ -966,13 +805,13 @@
         "after_streak": 1
       }
     ],
-    "updated_at": "2026-05-17T21:32:16.599319-04:00"
+    "updated_at": "2026-05-19T02:54:51.529337-04:00"
   },
   "last_night_recap": {
-    "date": "2026-05-17",
-    "record": "2-1-0",
-    "units_pl": 1.0333,
-    "night_summary": "2-1 night, +1.03u. The PHI @ PIT under was the cleanest win of the card \u2014 Zack Wheeler blanked Pittsburgh and the Phillies won 6-0, never threatening 7.5; 1.5 units, no drama. The Mets ML came through the hard way: New York trailed by four before Tyrone Taylor tied it with a homer and Carson Benge walked it off in the 10th for a 7-6 win. The SD @ SEA under was a model miss \u2014 Kirby got torched for six runs in 5.2 innings, including two homers off Gavin Sheets, dropping to a 10.50 ERA in three career starts against San Diego; the red flag was flagged and underweighted, and we own that one. Ladder sits at 2 of 10 \u2014 climbing.",
-    "generated_at": "2026-05-18T02:08:07.316347-04:00"
+    "date": "2026-05-18",
+    "record": "0-2-0",
+    "units_pl": -2.5,
+    "night_summary": "0-2 night, -2.50u \u2014 a rough one, but the stories behind the losses are different. The BAL @ TB under (ladder pick) was a model miss, plain and simple: Rogers sent 10 batters to the plate in a five-run second inning, then Tampa Bay batted around again in a four-run sixth capped by Caminero's three-run homer, and the final was 16-6 \u2014 more than double the 7.5 line before the fifth inning was over. We got that one wrong; a 1.54 WHIP screamed big-inning risk and we discounted it. The SA @ OKC pick is a different story \u2014 Thunder -6.5 was alive and competitive through regulation, with OKC clawing back from a 10-point deficit and the lead changing hands twice in the final two minutes, before Wembanyama's logo-range three in the first OT and a pair of sealing dunks in double OT finished it 122-115. Variance got us there, not a bad read. Ladder resets to 0 of 10 \u2014 we start climbing again tomorrow.",
+    "generated_at": "2026-05-19T02:55:22.486622-04:00"
   }
 }
