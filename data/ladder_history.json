@@ -5,6 +5,14 @@
   "target": 10,
   "history": [
     {
+      "date": "2026-05-19",
+      "pick_id": "20260519-MLB-NYM-WSH-ML",
+      "pick": "New York Mets ML",
+      "game": "NYM @ WSH",
+      "status": "LOSS",
+      "after_streak": 0
+    },
+    {
       "date": "2026-05-18",
       "pick_id": "20260518-MLB-BAL-TB-TOTAL",
       "pick": "Under 7.5",
@@ -29,5 +37,5 @@
       "after_streak": 1
     }
   ],
-  "updated_at": "2026-05-19T02:54:51.529337-04:00"
+  "updated_at": "2026-05-20T02:54:46.201018-04:00"
 }

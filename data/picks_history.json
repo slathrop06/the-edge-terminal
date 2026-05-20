@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated_at": "2026-05-19T12:37:00.720673-04:00",
+  "updated_at": "2026-05-20T02:55:10.765314-04:00",
   "picks": [
     {
       "id": "20260519-MLB-CIN-PHI-ML",
@@ -86,11 +86,11 @@
       "scott_bot_quip": "Better pitcher, plus money. That's the trade \u2014 we don't need to overthink the dog tag.",
       "ladder_note": "",
       "date": "2026-05-19",
-      "status": "PEND",
-      "units_result": null,
+      "status": "WIN",
+      "units_result": 1.25,
       "clv_cents": null,
-      "result_score": null,
-      "graded_at": null,
+      "result_score": "CIN 4 \u00b7 PHI 1",
+      "graded_at": "2026-05-20T02:54:46.198472-04:00",
       "slate_assessment": "Big 15-game MLB board plus one NBA playoff game (Knicks-Cavs); pitching headliners include Cease, McLean, Burns, Misiorowski vs Brown, and Suarez at Kauffman against a Falter disaster start.",
       "executive_summary": "Fifteen MLB games and a Knicks-Cavs playoff tilt headline a deep Tuesday board. The headline arm is Ranger Suarez walking into Kauffman against Bailey Falter's 10.13 ERA \u2014 that's the cleanest data mismatch on the slate. Behind it, Nolan McLean (2.92 ERA, 31.5% K) and Chase Burns (1.87 ERA) both check the boxes against beatable opposition. The ladder rides with the Red Sox \u2014 best floor by a mile, pitching edge so wide the market hasn't priced it cleanly yet.",
       "slate_analysis": "Fifteen MLB games on the board with first pitches stretching from Miami at 4:10 ET to the West Coast night caps, plus a Knicks-Cavs playoff game at MSG. Pricing climate is normal \u2014 most totals sit at 7.5 to 8.5, most favorites in the -130 to -160 band, no obvious public traps screaming for action. Data confidence on the IntelPacks comes in at 0.4 across the board because lineups aren't confirmed yet, which means we have to lean on the cleanest pitching mismatches rather than offense-driven angles.\n\nThe board narrowed to six real candidates on first review. Suarez at Kauffman against Bailey Falter \u2014 Falter's 10.13 ERA and 1.7 IP/start are a five-alarm fire. McLean (2.92 ERA, 31.5% K rate, 0.69 HR/9) drawing Foster Griffin and the Nationals at home. Chase Burns at 1.87 ERA against Luzardo's 5.07 in Philly. Cease (2.41 ERA, 34.6% K, 0.17 HR/9 \u2014 absurd) against Will Warren and the Yankees. Ben Brown (1.60 ERA) vs Misiorowski (2.12, 39.6% K) at Wrigley as a potential under spot. And Messick (2.35 ERA, 28.3% K) against Keider Montero in Detroit.\n\nWhat got cut: Cease ML at -136 is the right side but the juice is heavier than the edge \u2014 Yankees lineup is the best Cease will face in months and Warren's been solid at 3.42. Cubs-Brewers under 7.5 is tempting with two aces, but both bullpens have been shaky and Wrigley wind can flip on you \u2014 data_confidence too thin to commit. Burns is excellent but Luzardo's 28.6% K rate keeps the Phillies' over equation alive in a hitter's park (PF 1.10 HR); fade Phillies on the road wins, not at home. Messick vs Montero looks like a Guardians ML spot but -158 juice is right at our ceiling and Montero's 0.99 WHIP says he's not a giveaway. Knicks -7.5 is a playoff number we can't model with the data we have.\n\nFinal three: Red Sox ML at Kansas City as the headline pitching mismatch and ladder pick (best floor \u2014 Falter is essentially an opener masquerading as a starter, Suarez is a legitimate top-20 SP). Mets ML on the road against Washington \u2014 McLean's profile dwarfs Foster Griffin and the Mets are getting a price that implies they're closer to a coin flip than they should be. Reds +125 at Philly \u2014 Chase Burns is the better pitcher in this matchup and we're getting a plus-money dog, the rare spot where we get paid to take the right side.",
@@ -181,16 +181,22 @@
       "scott_bot_quip": "Strikeout rates don't lie. McLean punches out a third of the guys he sees \u2014 that travels anywhere.",
       "ladder_note": "",
       "date": "2026-05-19",
-      "status": "PEND",
-      "units_result": null,
+      "status": "LOSS",
+      "units_result": -1.5,
       "clv_cents": null,
-      "result_score": null,
-      "graded_at": null,
+      "result_score": "NYM 6 \u00b7 WSH 9",
+      "graded_at": "2026-05-20T02:54:46.199688-04:00",
       "slate_assessment": "Big 15-game MLB board plus one NBA playoff game (Knicks-Cavs); pitching headliners include Cease, McLean, Burns, Misiorowski vs Brown, and Suarez at Kauffman against a Falter disaster start.",
       "executive_summary": "Fifteen MLB games and a Knicks-Cavs playoff tilt headline a deep Tuesday board. The headline arm is Ranger Suarez walking into Kauffman against Bailey Falter's 10.13 ERA \u2014 that's the cleanest data mismatch on the slate. Behind it, Nolan McLean (2.92 ERA, 31.5% K) and Chase Burns (1.87 ERA) both check the boxes against beatable opposition. The ladder rides with the Red Sox \u2014 best floor by a mile, pitching edge so wide the market hasn't priced it cleanly yet.",
       "slate_analysis": "Fifteen MLB games on the board with first pitches stretching from Miami at 4:10 ET to the West Coast night caps, plus a Knicks-Cavs playoff game at MSG. Pricing climate is normal \u2014 most totals sit at 7.5 to 8.5, most favorites in the -130 to -160 band, no obvious public traps screaming for action. Data confidence on the IntelPacks comes in at 0.4 across the board because lineups aren't confirmed yet, which means we have to lean on the cleanest pitching mismatches rather than offense-driven angles.\n\nThe board narrowed to six real candidates on first review. Suarez at Kauffman against Bailey Falter \u2014 Falter's 10.13 ERA and 1.7 IP/start are a five-alarm fire. McLean (2.92 ERA, 31.5% K rate, 0.69 HR/9) drawing Foster Griffin and the Nationals at home. Chase Burns at 1.87 ERA against Luzardo's 5.07 in Philly. Cease (2.41 ERA, 34.6% K, 0.17 HR/9 \u2014 absurd) against Will Warren and the Yankees. Ben Brown (1.60 ERA) vs Misiorowski (2.12, 39.6% K) at Wrigley as a potential under spot. And Messick (2.35 ERA, 28.3% K) against Keider Montero in Detroit.\n\nWhat got cut: Cease ML at -136 is the right side but the juice is heavier than the edge \u2014 Yankees lineup is the best Cease will face in months and Warren's been solid at 3.42. Cubs-Brewers under 7.5 is tempting with two aces, but both bullpens have been shaky and Wrigley wind can flip on you \u2014 data_confidence too thin to commit. Burns is excellent but Luzardo's 28.6% K rate keeps the Phillies' over equation alive in a hitter's park (PF 1.10 HR); fade Phillies on the road wins, not at home. Messick vs Montero looks like a Guardians ML spot but -158 juice is right at our ceiling and Montero's 0.99 WHIP says he's not a giveaway. Knicks -7.5 is a playoff number we can't model with the data we have.\n\nFinal three: Red Sox ML at Kansas City as the headline pitching mismatch and ladder pick (best floor \u2014 Falter is essentially an opener masquerading as a starter, Suarez is a legitimate top-20 SP). Mets ML on the road against Washington \u2014 McLean's profile dwarfs Foster Griffin and the Mets are getting a price that implies they're closer to a coin flip than they should be. Reds +125 at Philly \u2014 Chase Burns is the better pitcher in this matchup and we're getting a plus-money dog, the rare spot where we get paid to take the right side.",
       "slate_vibe": "NORMAL",
-      "published_at": "2026-05-19T12:37:00.720383-04:00"
+      "published_at": "2026-05-19T12:37:00.720383-04:00",
+      "autopsy": {
+        "classification": "VARIANCE",
+        "post_mortem": "The Mets built a 5-0 lead and the thesis was playing out \u2014 then a once-in-a-generation play erased it. With the bases loaded in the 2nd, McLean's sweeper to James Wood glanced off debutant Nick Morabito's arm in left field and caromed into center, allowing Wood to score an inside-the-park grand slam \u2014 only the 9th such play since 1994. The Nationals then added three more in the 3rd on a homer, a passed ball, and a sac fly to go up 7-5. McLean's final line (9 R, 6 ER, 5.2 IP) was a career-worst, but three of those runs were unearned and the decisive blow was a freak defensive misplay on a ball that had no business leaving the infield. The pick was correctly reasoned; a ball bouncing off a rookie's arm in the 2nd inning is not a model failure.",
+        "candidate_rule": null,
+        "sample_size_warning": "N=1, insufficient to establish rule; the inside-the-park grand slam is a ~0.1% frequency event and not a repeatable risk factor to model against."
+      }
     },
     {
       "id": "20260518-NBA-SA-OKC-SPREAD",
