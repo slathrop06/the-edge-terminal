@@ -73,6 +73,64 @@ def _dst_cron_guard(edt_cron: str, est_cron: str, label: str) -> bool:
     return True
 
 
+def _should_run_morning() -> bool:
+    """Permanent morning-run gate. Replaces the earlier cron-expression DST
+    guard for morning specifically — the cron-expression guard was tolerant
+    of GH Actions cron *delay* but had no answer when GH Actions silently
+    *skips* a scheduled delivery entirely (which happens — observed in prod
+    on 2026-05-18 and again 2026-05-19, where neither DST-twin cron fired).
+
+    Three checks, in order:
+      1. workflow_dispatch always wins (manual trigger from anyone).
+      2. If today's morning publish already happened (any PEND main-track
+         pick exists for nyc_date()), bail — the work is done. Publisher
+         already enforces this in its lock check; bailing here avoids an
+         unnecessary harvest + Claude call (~$1.20).
+      3. If NYC's wall clock is earlier than 11:00, bail — we promised the
+         boys an 11 AM lock-in, not 10 AM. Earlier crons (the EST-window
+         15:00 UTC fire when in EDT, etc.) wait for the next one.
+
+    Combined with multiple cron triggers in morning.yml (every 30 min from
+    15:00 to 18:00 UTC), this is resilient to BOTH cron delay (delayed
+    crons hit the idempotency check and no-op) AND cron skip (a later cron
+    catches the missed earlier one). Year-round, in either DST state.
+    """
+    import os
+    from engine.utils import nyc_now, nyc_date, get_logger
+    log = get_logger("main")
+
+    if os.getenv("GITHUB_EVENT_NAME") == "workflow_dispatch":
+        return True
+
+    # Idempotency: did morning already publish today?
+    try:
+        from engine.publisher import load_history
+        history = load_history()
+        today = nyc_date()
+        already_done = any(
+            p.get("date") == today
+            and p.get("status") == "PEND"
+            and not p.get("bonus_pick")
+            for p in history.get("picks", [])
+        )
+        if already_done:
+            log.info(f"morning: today's picks already locked for {today} — no-op.")
+            return False
+    except Exception as e:
+        log.warning(f"morning: idempotency check failed ({e}); proceeding.")
+
+    # Time gate: don't publish before 11 AM ET.
+    now = nyc_now()
+    if now.hour < 11:
+        log.info(
+            f"morning: NYC clock is {now.strftime('%H:%M')} — "
+            f"waiting for 11:00+ (next cron will pick it up)."
+        )
+        return False
+
+    return True
+
+
 def run_morning() -> None:
     from engine.utils import get_logger
     from engine.intel.orchestrator import harvest_intel
@@ -82,7 +140,7 @@ def run_morning() -> None:
     from engine import analytics
 
     log = get_logger("main")
-    if not _dst_cron_guard("0 15 * * *", "0 16 * * *", "morning"):
+    if not _should_run_morning():
         return
     config = _load_config()
     log.info("=== MORNING RUN START ===")

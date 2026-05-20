@@ -2,12 +2,29 @@ name: Morning Picks (11:00 AM ET)
 
 on:
   schedule:
-    # DST-aware: fire at both 15:00 UTC (EDT 11 AM) and 16:00 UTC (EST 11 AM).
-    # The engine picks the right twin based on today's NYC DST state and the
-    # triggering cron expression (forwarded via GITHUB_SCHEDULE below) — so
-    # GH Actions cron delivery delay can't push us out of the window anymore.
-    - cron: '0 15 * * *'
-    - cron: '0 16 * * *'
+    # Seven cron triggers across the morning window. The engine's
+    # _should_run_morning() guard is idempotent and time-gated:
+    #   - If today's picks are already locked, the run is a no-op.
+    #   - If NYC's wall clock is before 11:00 ET, the run waits for the
+    #     next cron (so the EST-window 15:00 UTC fire bails in EDT? — no,
+    #     it's 11:00 EDT, so it fires for real; the early ones bail only
+    #     in EST mode when NYC is still at 10:xx ET).
+    # Year-round behavior:
+    #   EDT (Mar–Nov): 15:00 UTC = 11:00 ET → publishes. 15:30…18:00 no-op.
+    #   EST (Nov–Mar): 15:00 UTC = 10:00 ET → time-gate bails.
+    #                  15:30 UTC = 10:30 ET → time-gate bails.
+    #                  16:00 UTC = 11:00 ET → publishes. 16:30…18:00 no-op.
+    # If GH Actions skips OR delays one cron, the next 30-min cron catches
+    # it. The last chance (18:00 UTC) gives us up to a 3-hour catch-up
+    # window in EDT, 2-hour in EST — long enough to survive any realistic
+    # GH Actions outage. workflow_dispatch always bypasses the guard.
+    - cron: '0 15 * * *'    # 11:00 EDT / 10:00 EST
+    - cron: '30 15 * * *'   # 11:30 EDT / 10:30 EST
+    - cron: '0 16 * * *'    # 12:00 EDT / 11:00 EST  ← EST primary
+    - cron: '30 16 * * *'   # 12:30 EDT / 11:30 EST
+    - cron: '0 17 * * *'    # 13:00 EDT / 12:00 EST
+    - cron: '30 17 * * *'   # 13:30 EDT / 12:30 EST
+    - cron: '0 18 * * *'    # 14:00 EDT / 13:00 EST  (last chance)
   workflow_dispatch: {}
 
 jobs:
@@ -39,7 +56,6 @@ jobs:
           ODDS_API_KEY:      ${{ secrets.ODDS_API_KEY }}
           OPENWEATHERMAP_API_KEY: ${{ secrets.OPENWEATHERMAP_API_KEY }}
           GITHUB_EVENT_NAME: ${{ github.event_name }}
-          GITHUB_SCHEDULE:   ${{ github.event.schedule }}
           TZ: America/New_York
         run: python -m engine.main morning
 
