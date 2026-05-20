@@ -1,7 +1,297 @@
 {
   "version": 1,
-  "updated_at": "2026-05-20T05:58:52.006329-04:00",
+  "updated_at": "2026-05-20T12:39:54.172426-04:00",
   "picks": [
+    {
+      "id": "20260520-MLB-TOR-NYY-TOTAL",
+      "sport": "MLB",
+      "game": "TOR @ NYY",
+      "first_pitch_iso": "2026-05-20T23:05Z",
+      "pick": "Under 7.5",
+      "best_book": "DraftKings",
+      "best_odds": "-104",
+      "book_prices": {
+        "draftkings": "-104",
+        "fanduel": "-106",
+        "betmgm": "-105"
+      },
+      "book_links": {
+        "fanduel": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.579713141&selectionId=7017906",
+        "draftkings": "https://sportsbook.draftkings.com/?outcomes=0OU84848041U750_3",
+        "betmgm": "https://sports.nj.betmgm.com/en/sports?options=19423459-1502562140-2147626505&type=Single"
+      },
+      "market": "TOTAL",
+      "confidence": 3,
+      "units": 1.0,
+      "win_probability": 0.57,
+      "ladder_designation": false,
+      "data_confidence": 0.62,
+      "rules_passed": [
+        "max_juice",
+        "ladder_even_money",
+        "parlay_well_formed",
+        "confidence_units_match",
+        "data_confidence_floor",
+        "pick_type_allowed",
+        "mlb_hr_prop_check",
+        "mlb_run_line_check",
+        "mlb_under_bb_check",
+        "no_same_game_opposite"
+      ],
+      "locked": true,
+      "late_add": false,
+      "late_add_reason": "",
+      "bonus_pick": false,
+      "event_type": "",
+      "event_name": "",
+      "legs": [],
+      "headline": "Schlittler's been unhittable; Yesavage on a rookie pitch count.",
+      "the_thesis": "Cam Schlittler is the story of the Yankee rotation \u2014 1.35 ERA, 0.78 WHIP, 30.1% K rate, and a microscopic 0.30 HR/9 across 60 innings. He's averaging 20 IP per start over his last three. Even acknowledging some regression is coming, those underlying numbers are best-pitcher-in-baseball territory, and against a Toronto lineup that's been streaky he should suppress runs comfortably.\n\nTrey Yesavage on the other side has a shiny 1.40 ERA but only 19.1 innings pitched \u2014 sample is genuinely thin. The bigger issue: 6.37 IP per start across his last three means the Jays are pulling him by the 5th inning, which exposes their middle relief. The Bronx is HR-friendly (park factor 1.14), which works against the under at the margin \u2014 but Yankee Stadium's effect on RHP-vs-RHP matchups is more muted.\n\nThe play is built on Schlittler's dominance. If he goes 7+ IP allowing 1 or 2 runs (his season norm), the Yankees only need to score 3-4 off Yesavage and the Toronto pen to push the under home. A 4-3, 3-2, or 4-2 game gets us there.",
+      "the_data": [
+        {
+          "label": "Schlittler ERA / WHIP / K%",
+          "value": "1.35 / 0.78 / 30.1%",
+          "context": "Best pitcher in baseball form"
+        },
+        {
+          "label": "Schlittler HR/9",
+          "value": "0.30",
+          "context": "Elite-elite, near-best in MLB"
+        },
+        {
+          "label": "Schlittler IP/start L3",
+          "value": "20.0",
+          "context": "Goes the distance"
+        },
+        {
+          "label": "Yesavage IP",
+          "value": "19.1",
+          "context": "Tiny sample \u2014 be cautious"
+        },
+        {
+          "label": "Yesavage IP/start L3",
+          "value": "6.4",
+          "context": "Short outings, bullpen exposure"
+        },
+        {
+          "label": "Yankee Stadium HR factor",
+          "value": "1.14",
+          "context": "Mild bump, slight concern"
+        }
+      ],
+      "the_market": "Total sits at 7.5 across all three books \u2014 line opened there too. Juice is friendly at -104 to -106.",
+      "weather_park": "Yankee Stadium outdoor, HR factor 1.14 \u2014 mild upward pressure on the over, the biggest risk factor here.",
+      "case_against": "Yankee Stadium's short porch is the bear case \u2014 one cheap solo shot off Schlittler changes the math. Yesavage's sample is tiny, so his 1.40 ERA could be hiding a worse underlying profile, but it could also mean he's pitching fine and the Yankees lineup gets stymied. If both lineups hit the ball in the air, this park can produce a 5-4 game in a hurry.",
+      "what_were_betting_on": "Schlittler 7+ IP of 1-2 runs, Yesavage 5 IP of 2-3, no porch homers turning solo HRs into 3-run shots.",
+      "scott_bot_quip": "Two sub-1.50 ERAs on the bump and the line is seven and a half. The market noticed too \u2014 we still like it.",
+      "ladder_note": "",
+      "date": "2026-05-20",
+      "status": "PEND",
+      "units_result": null,
+      "clv_cents": null,
+      "result_score": null,
+      "graded_at": null,
+      "slate_assessment": "Big 15-game MLB board with one NBA playoff game and one NHL game. Several standout pitching matchups headline the day, with the Sale-vs-Junk dynamic in Miami and Schlittler-vs-Yesavage at Yankee Stadium leading a pitcher-friendly slate.",
+      "executive_summary": "Heavy 15-game MLB board with a pair of standout pitching matchups doing the heavy lifting. Chris Sale at 1.96 ERA in a pitcher's park against Miami, and Cam Schlittler's microscopic 1.35 ERA in the Bronx against a rookie Yesavage on a strict pitch count \u2014 both scream under. We've also got Joe Ryan dominating a Burrows-led Astros lineup in Minnesota. Three plays today, all pitcher-favored. The ladder rides the Sale under \u2014 best floor on the board.",
+      "slate_analysis": "Fifteen MLB games, one NBA (OKC heavy chalk vs the Spurs), one NHL (COL home favorite). The MLB board is the meat \u2014 pricing is mostly tight, with the standout edges concentrated on the totals market thanks to several elite arms drawing weak opposing offenses. No game-changing weather aside from Philly (90\u00b0F, wind out 11mph) which actively pushes us away from that total.\n\nThe candidates that earned a hard look: Sale (1.96 ERA, 29.6% K) at LoanDepot (HR factor 0.86) against Janson Junk and a Marlins lineup \u2014 total 7.0. Schlittler (1.35 ERA, 0.78 WHIP, 0.30 HR/9) vs Yesavage (1.40 ERA but only 19.1 IP \u2014 sample tiny) at 7.5 under. Joe Ryan (3.20 ERA, 25.6% K, 0.54 HR/9) at home vs Burrows (5.72 ERA) \u2014 total 8.0. Ohtani (0.82 ERA) at Petco against V\u00e1squez (2.68) \u2014 total 7.5 but the under is already juiced to -123. McGreevy (2.10 ERA, 0.88 WHIP) hosting the Pirates at 7.5. And Harrison (2.09 ERA) at Wrigley with a 6.5 total.\n\nWhat got cut: Padres/Dodgers under 7.5 \u2014 the under is already -123 at DK, no edge left after de-vig (market implied ~55%, our fair line ~57%, edge under 3 cents). Brewers/Cubs under 6.5 \u2014 line already low at 6.5 and juice -117; the market has fully baked in both arms, no remaining edge. Cardinals under 7.5 \u2014 McGreevy's a stud but Pirates lineup is also dreadful, and the line of 7.5 already prices that in. PHI/CIN over tempting with the wind but Nola's 5.91 ERA is partially BABIP-driven and the data_confidence is 0.45 \u2014 too thin to trust. Coors over is the obvious tourist trap; line is already 10/10.5. NBA OKC -7.5 has no edge \u2014 sharps have hammered this for weeks, no value remaining.\n\nThe three that survived: Joe Ryan under 8.0 (ace vs scuffling Burrows, weak Houston offense on the road), Sale under 7.0 (dominant lefty in HR-suppressing park), and Schlittler under 7.5 (elite SP at home, opposing rookie can't go deep). The Sale under is the ladder \u2014 best floor: Sale has been the most consistent pitcher in baseball this year, Junk has been adequate (4.14 ERA), and the park actively suppresses runs. The -102 price puts it perfectly in even-money territory.",
+      "slate_vibe": "NORMAL",
+      "published_at": "2026-05-20T12:39:54.172364-04:00"
+    },
+    {
+      "id": "20260520-MLB-HOU-MIN-TOTAL",
+      "sport": "MLB",
+      "game": "HOU @ MIN",
+      "first_pitch_iso": "2026-05-20T17:40Z",
+      "pick": "Under 8.0",
+      "best_book": "DraftKings",
+      "best_odds": "-109",
+      "book_prices": {
+        "draftkings": "-109",
+        "fanduel": "-110",
+        "betmgm": "-110"
+      },
+      "book_links": {
+        "fanduel": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.579712103&selectionId=7017906",
+        "draftkings": "https://sportsbook.draftkings.com/?outcomes=0OU84848026U800_3",
+        "betmgm": "https://sports.nj.betmgm.com/en/sports?options=19414089-1501753499--85200369&type=Single"
+      },
+      "market": "TOTAL",
+      "confidence": 4,
+      "units": 1.5,
+      "win_probability": 0.59,
+      "ladder_designation": false,
+      "data_confidence": 0.68,
+      "rules_passed": [
+        "max_juice",
+        "ladder_even_money",
+        "parlay_well_formed",
+        "confidence_units_match",
+        "data_confidence_floor",
+        "pick_type_allowed",
+        "mlb_hr_prop_check",
+        "mlb_run_line_check",
+        "mlb_under_bb_check",
+        "no_same_game_opposite"
+      ],
+      "locked": true,
+      "late_add": false,
+      "late_add_reason": "",
+      "bonus_pick": false,
+      "event_type": "",
+      "event_name": "",
+      "legs": [],
+      "headline": "Joe Ryan is a top-tier arm. Mike Burrows is not. Cold weather seals it.",
+      "the_thesis": "Joe Ryan has been outstanding \u2014 3.20 ERA, 1.01 WHIP, 25.6% K rate, and an elite 0.54 HR/9 across 50+ innings. That HR/9 is genuinely top-10 in baseball; he doesn't give up the big inning. With a 6.9% walk rate and a tidy WHIP, baserunners are scarce, and his last three starts have averaged 16.7 IP \u2014 he's pitching deep into games.\n\nHouston counters with Mike Burrows, who's been hittable (5.72 ERA, 1.53 WHIP, 1.80 HR/9). That HR/9 number is brutal but it's partly Houston's home park; on the road at Target Field with a 54\u00b0F game-time temp, the ball doesn't fly. The Twins offense is league-average at best, but they don't need to drop 6 \u2014 they need to drop 4 against a struggling SP, which is well within reach.\n\nThe weather is the kicker. 54\u00b0F suppresses ball flight materially \u2014 cold air is dense air, fly balls die at the warning track. Combine that with Target Field's already-neutral park factors, Ryan's HR-suppression skill, and you have a low-scoring environment baked in.",
+      "the_data": [
+        {
+          "label": "Joe Ryan ERA / WHIP / K%",
+          "value": "3.20 / 1.01 / 25.6%",
+          "context": "Top-15 SP form"
+        },
+        {
+          "label": "Ryan HR/9",
+          "value": "0.54",
+          "context": "Elite, top-10 in MLB"
+        },
+        {
+          "label": "Ryan BB%",
+          "value": "6.9%",
+          "context": "Above average control"
+        },
+        {
+          "label": "Burrows ERA / WHIP",
+          "value": "5.72 / 1.53",
+          "context": "Bottom-tier results"
+        },
+        {
+          "label": "Game-time temp",
+          "value": "54\u00b0F",
+          "context": "Cold suppresses HR significantly"
+        },
+        {
+          "label": "Target Field park factors",
+          "value": "0.98 runs / 0.97 HR",
+          "context": "Neutral-leaning pitcher"
+        }
+      ],
+      "the_market": "Total opened 8.0 and held at 8.0 across all three books \u2014 sharp consensus on the number. Juice is -109 to -110 on the under.",
+      "weather_park": "Target Field outdoor, 54\u00b0F, light 6mph crosswind \u2014 cold weather is a meaningful drag on offense.",
+      "case_against": "Burrows' high HR/9 is the worry \u2014 if he gives up two early bombs to Buxton/Correa, the under math gets ugly fast. Also, Ryan has occasionally had short outings (the 4-IP, 5-ER nuker exists in his profile) \u2014 if he gets knocked around early, the floor caves in.",
+      "what_were_betting_on": "Ryan 6+ IP of 2 or fewer runs, Burrows giving up 3-4 across 5 innings, cold weather suppressing the HR ball.",
+      "scott_bot_quip": "Cold-weather game, ace vs. a guy with a 5.72. We've been here before.",
+      "ladder_note": "",
+      "date": "2026-05-20",
+      "status": "PEND",
+      "units_result": null,
+      "clv_cents": null,
+      "result_score": null,
+      "graded_at": null,
+      "slate_assessment": "Big 15-game MLB board with one NBA playoff game and one NHL game. Several standout pitching matchups headline the day, with the Sale-vs-Junk dynamic in Miami and Schlittler-vs-Yesavage at Yankee Stadium leading a pitcher-friendly slate.",
+      "executive_summary": "Heavy 15-game MLB board with a pair of standout pitching matchups doing the heavy lifting. Chris Sale at 1.96 ERA in a pitcher's park against Miami, and Cam Schlittler's microscopic 1.35 ERA in the Bronx against a rookie Yesavage on a strict pitch count \u2014 both scream under. We've also got Joe Ryan dominating a Burrows-led Astros lineup in Minnesota. Three plays today, all pitcher-favored. The ladder rides the Sale under \u2014 best floor on the board.",
+      "slate_analysis": "Fifteen MLB games, one NBA (OKC heavy chalk vs the Spurs), one NHL (COL home favorite). The MLB board is the meat \u2014 pricing is mostly tight, with the standout edges concentrated on the totals market thanks to several elite arms drawing weak opposing offenses. No game-changing weather aside from Philly (90\u00b0F, wind out 11mph) which actively pushes us away from that total.\n\nThe candidates that earned a hard look: Sale (1.96 ERA, 29.6% K) at LoanDepot (HR factor 0.86) against Janson Junk and a Marlins lineup \u2014 total 7.0. Schlittler (1.35 ERA, 0.78 WHIP, 0.30 HR/9) vs Yesavage (1.40 ERA but only 19.1 IP \u2014 sample tiny) at 7.5 under. Joe Ryan (3.20 ERA, 25.6% K, 0.54 HR/9) at home vs Burrows (5.72 ERA) \u2014 total 8.0. Ohtani (0.82 ERA) at Petco against V\u00e1squez (2.68) \u2014 total 7.5 but the under is already juiced to -123. McGreevy (2.10 ERA, 0.88 WHIP) hosting the Pirates at 7.5. And Harrison (2.09 ERA) at Wrigley with a 6.5 total.\n\nWhat got cut: Padres/Dodgers under 7.5 \u2014 the under is already -123 at DK, no edge left after de-vig (market implied ~55%, our fair line ~57%, edge under 3 cents). Brewers/Cubs under 6.5 \u2014 line already low at 6.5 and juice -117; the market has fully baked in both arms, no remaining edge. Cardinals under 7.5 \u2014 McGreevy's a stud but Pirates lineup is also dreadful, and the line of 7.5 already prices that in. PHI/CIN over tempting with the wind but Nola's 5.91 ERA is partially BABIP-driven and the data_confidence is 0.45 \u2014 too thin to trust. Coors over is the obvious tourist trap; line is already 10/10.5. NBA OKC -7.5 has no edge \u2014 sharps have hammered this for weeks, no value remaining.\n\nThe three that survived: Joe Ryan under 8.0 (ace vs scuffling Burrows, weak Houston offense on the road), Sale under 7.0 (dominant lefty in HR-suppressing park), and Schlittler under 7.5 (elite SP at home, opposing rookie can't go deep). The Sale under is the ladder \u2014 best floor: Sale has been the most consistent pitcher in baseball this year, Junk has been adequate (4.14 ERA), and the park actively suppresses runs. The -102 price puts it perfectly in even-money territory.",
+      "slate_vibe": "NORMAL",
+      "published_at": "2026-05-20T12:39:54.172277-04:00"
+    },
+    {
+      "id": "20260520-MLB-ATL-MIA-TOTAL",
+      "sport": "MLB",
+      "game": "ATL @ MIA",
+      "first_pitch_iso": "2026-05-20T22:40Z",
+      "pick": "Under 7.0",
+      "best_book": "FanDuel",
+      "best_odds": "-102",
+      "book_prices": {
+        "draftkings": "-105",
+        "fanduel": "-102",
+        "betmgm": "-105"
+      },
+      "book_links": {
+        "fanduel": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.579712821&selectionId=7017906",
+        "draftkings": "https://sportsbook.draftkings.com/?outcomes=0OU84848039U700_3",
+        "betmgm": "https://sports.nj.betmgm.com/en/sports?options=19423456-1502561830-2147625831&type=Single"
+      },
+      "market": "TOTAL",
+      "confidence": 4,
+      "units": 1.5,
+      "win_probability": 0.6,
+      "ladder_designation": true,
+      "data_confidence": 0.72,
+      "rules_passed": [
+        "max_juice",
+        "ladder_even_money",
+        "parlay_well_formed",
+        "confidence_units_match",
+        "data_confidence_floor",
+        "pick_type_allowed",
+        "mlb_hr_prop_check",
+        "mlb_run_line_check",
+        "mlb_under_bb_check",
+        "no_same_game_opposite"
+      ],
+      "locked": true,
+      "late_add": false,
+      "late_add_reason": "",
+      "bonus_pick": false,
+      "event_type": "",
+      "event_name": "",
+      "legs": [],
+      "headline": "Sale dominating in a park that swallows fly balls.",
+      "the_thesis": "Chris Sale is having a vintage season \u2014 1.96 ERA, 0.91 WHIP, 29.6% strikeout rate over 55 innings. Those numbers aren't a small-sample mirage; that's near-Cy Young pace and he's been remarkably efficient (18.3 IP per start across his last three, meaning he's going deep and saving the Atlanta bullpen). When the starter's WHIP is under 1.00, baserunners are scarce, and scarce baserunners means a low ceiling on the opposing scoring.\n\nThe Marlins counter with Janson Junk, who has actually been competent (4.14 ERA, 1.24 WHIP, decent 1.08 HR/9 in 50 innings). Not a stopper, but not a fire-starter either \u2014 he keeps the ball in the yard, which matters more in a park where Statcast HR factor is 0.86 (one of the most HR-suppressing venues in MLB). The roof at LoanDepot means no weather variance either.\n\nThe path to the under: Sale eats 7+ innings of one-run ball, Junk gives Atlanta 3-4 runs across 5-6 innings, and the bullpens close it out in a 4-2 or 3-2 type game. Combined K rate between these two starters suppresses the slate, and the park does the rest.",
+      "the_data": [
+        {
+          "label": "Sale ERA / WHIP / K%",
+          "value": "1.96 / 0.91 / 29.6%",
+          "context": "Elite across the board"
+        },
+        {
+          "label": "Sale HR/9",
+          "value": "0.98",
+          "context": "Solid; doesn't get burned"
+        },
+        {
+          "label": "Sale IP/start L3",
+          "value": "18.3",
+          "context": "Going deep, saving the pen"
+        },
+        {
+          "label": "Junk HR/9",
+          "value": "1.08",
+          "context": "League-average, doesn't blow up"
+        },
+        {
+          "label": "LoanDepot HR park factor",
+          "value": "0.86",
+          "context": "Top-3 HR suppressor in MLB"
+        },
+        {
+          "label": "LoanDepot runs park factor",
+          "value": "0.94",
+          "context": "Pitcher-friendly"
+        },
+        {
+          "label": "Roof",
+          "value": "Closed",
+          "context": "No weather variance"
+        }
+      ],
+      "the_market": "Total opened 7.0 and stayed there across all three books \u2014 no movement, which means the market and the sharps agree this is a low-scoring spot. Under priced -102 to -105.",
+      "weather_park": "LoanDepot is indoor, HR factor 0.86, runs factor 0.94 \u2014 significant downward pressure on scoring.",
+      "case_against": "Sale's the variance here. If he lets a 1st-inning homer get out or his pitch count climbs early, Atlanta's pen (mostly fine but not elite) could leak runs late. And if the Braves jump on Junk early for 4-5 in the first three innings, the under is in trouble before Sale's even pitched a full game. Marlins offense is bad but not nonexistent.",
+      "what_were_betting_on": "Sale going 7+ giving up 0-2, Junk going 5-6 giving up 2-3, no bullpen meltdown.",
+      "scott_bot_quip": "Sale at 1.96 in a roof-closed pitcher's park. The line is 7. You do the math.",
+      "ladder_note": "Best floor on the board today. Sale has been the most reliable arm in baseball this year, the park kills offense, and the price is right at even money. If anything's a 'show up and cash' play, it's this one.",
+      "date": "2026-05-20",
+      "status": "PEND",
+      "units_result": null,
+      "clv_cents": null,
+      "result_score": null,
+      "graded_at": null,
+      "slate_assessment": "Big 15-game MLB board with one NBA playoff game and one NHL game. Several standout pitching matchups headline the day, with the Sale-vs-Junk dynamic in Miami and Schlittler-vs-Yesavage at Yankee Stadium leading a pitcher-friendly slate.",
+      "executive_summary": "Heavy 15-game MLB board with a pair of standout pitching matchups doing the heavy lifting. Chris Sale at 1.96 ERA in a pitcher's park against Miami, and Cam Schlittler's microscopic 1.35 ERA in the Bronx against a rookie Yesavage on a strict pitch count \u2014 both scream under. We've also got Joe Ryan dominating a Burrows-led Astros lineup in Minnesota. Three plays today, all pitcher-favored. The ladder rides the Sale under \u2014 best floor on the board.",
+      "slate_analysis": "Fifteen MLB games, one NBA (OKC heavy chalk vs the Spurs), one NHL (COL home favorite). The MLB board is the meat \u2014 pricing is mostly tight, with the standout edges concentrated on the totals market thanks to several elite arms drawing weak opposing offenses. No game-changing weather aside from Philly (90\u00b0F, wind out 11mph) which actively pushes us away from that total.\n\nThe candidates that earned a hard look: Sale (1.96 ERA, 29.6% K) at LoanDepot (HR factor 0.86) against Janson Junk and a Marlins lineup \u2014 total 7.0. Schlittler (1.35 ERA, 0.78 WHIP, 0.30 HR/9) vs Yesavage (1.40 ERA but only 19.1 IP \u2014 sample tiny) at 7.5 under. Joe Ryan (3.20 ERA, 25.6% K, 0.54 HR/9) at home vs Burrows (5.72 ERA) \u2014 total 8.0. Ohtani (0.82 ERA) at Petco against V\u00e1squez (2.68) \u2014 total 7.5 but the under is already juiced to -123. McGreevy (2.10 ERA, 0.88 WHIP) hosting the Pirates at 7.5. And Harrison (2.09 ERA) at Wrigley with a 6.5 total.\n\nWhat got cut: Padres/Dodgers under 7.5 \u2014 the under is already -123 at DK, no edge left after de-vig (market implied ~55%, our fair line ~57%, edge under 3 cents). Brewers/Cubs under 6.5 \u2014 line already low at 6.5 and juice -117; the market has fully baked in both arms, no remaining edge. Cardinals under 7.5 \u2014 McGreevy's a stud but Pirates lineup is also dreadful, and the line of 7.5 already prices that in. PHI/CIN over tempting with the wind but Nola's 5.91 ERA is partially BABIP-driven and the data_confidence is 0.45 \u2014 too thin to trust. Coors over is the obvious tourist trap; line is already 10/10.5. NBA OKC -7.5 has no edge \u2014 sharps have hammered this for weeks, no value remaining.\n\nThe three that survived: Joe Ryan under 8.0 (ace vs scuffling Burrows, weak Houston offense on the road), Sale under 7.0 (dominant lefty in HR-suppressing park), and Schlittler under 7.5 (elite SP at home, opposing rookie can't go deep). The Sale under is the ladder \u2014 best floor: Sale has been the most consistent pitcher in baseball this year, Junk has been adequate (4.14 ERA), and the park actively suppresses runs. The -102 price puts it perfectly in even-money territory.",
+      "slate_vibe": "NORMAL",
+      "published_at": "2026-05-20T12:39:54.172161-04:00"
+    },
     {
       "id": "20260519-MLB-CIN-PHI-ML",
       "sport": "MLB",
