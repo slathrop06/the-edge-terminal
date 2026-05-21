@@ -6,18 +6,12 @@ on:
     # _should_run_morning() guard is idempotent and time-gated:
     #   - If today's picks are already locked, the run is a no-op.
     #   - If NYC's wall clock is before 11:00 ET, the run waits for the
-    #     next cron (so the EST-window 15:00 UTC fire bails in EDT? — no,
-    #     it's 11:00 EDT, so it fires for real; the early ones bail only
-    #     in EST mode when NYC is still at 10:xx ET).
+    #     next cron.
     # Year-round behavior:
     #   EDT (Mar–Nov): 15:00 UTC = 11:00 ET → publishes. 15:30…18:00 no-op.
     #   EST (Nov–Mar): 15:00 UTC = 10:00 ET → time-gate bails.
     #                  15:30 UTC = 10:30 ET → time-gate bails.
     #                  16:00 UTC = 11:00 ET → publishes. 16:30…18:00 no-op.
-    # If GH Actions skips OR delays one cron, the next 30-min cron catches
-    # it. The last chance (18:00 UTC) gives us up to a 3-hour catch-up
-    # window in EDT, 2-hour in EST — long enough to survive any realistic
-    # GH Actions outage. workflow_dispatch always bypasses the guard.
     - cron: '0 15 * * *'    # 11:00 EDT / 10:00 EST
     - cron: '30 15 * * *'   # 11:30 EDT / 10:30 EST
     - cron: '0 16 * * *'    # 12:00 EDT / 11:00 EST  ← EST primary
@@ -25,6 +19,21 @@ on:
     - cron: '0 17 * * *'    # 13:00 EDT / 12:00 EST
     - cron: '30 17 * * *'   # 13:30 EDT / 12:30 EST
     - cron: '0 18 * * *'    # 14:00 EDT / 13:00 EST  (last chance)
+  # Manual override + safety net: any human-authored push to main triggers
+  # a morning attempt too. The engine's _should_run_morning() guard makes
+  # this a no-op when today's picks are already locked, so unrelated
+  # pushes (workflow edits, code changes) won't double-spend Claude.
+  # Grader/morning/late-check commits use GITHUB_TOKEN inside a workflow,
+  # which by GH design does NOT trigger downstream workflows — so this
+  # won't loop on auto-generated picks/grader commits.
+  push:
+    branches: [main]
+    paths-ignore:
+      - 'site/data.json'
+      - 'site/analytics.json'
+      - 'data/**'
+      - 'README.md'
+      - 'SETUP_HANDOFF.md'
   workflow_dispatch: {}
 
 jobs:
