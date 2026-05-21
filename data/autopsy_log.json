@@ -1,5 +1,18 @@
 [
   {
+    "id": "20260520-MLB-ATL-MIA-TOTAL",
+    "date": "2026-05-20",
+    "pick": "Under 7.0",
+    "game": "ATL @ MIA",
+    "odds": "-102",
+    "result_score": "ATL 9 \u00b7 MIA 1",
+    "classification": "MODEL",
+    "post_mortem": "The under died on Janson Junk, not Chris Sale. Sale was excellent \u2014 7 IP, 1 ER, 8 K \u2014 and held up his end of the thesis perfectly. But Junk was a fire-starter in disguise: he entered with a 6.35 ERA in May and had surrendered 7 runs over 5.2 innings to the Rays just five days earlier. The Braves tagged him for a 3-run Riley homer in the 2nd and a 3-run Smith homer in the 6th, putting up 8 runs off Junk alone. The model correctly identified Sale's side of the ledger but materially underweighted Junk's recent collapse \u2014 his 4.14 ERA was a season-long average masking a brutal May, and the 'case against' section even flagged the Braves jumping on Junk early as the primary risk, then didn't adjust the confidence or units accordingly.",
+    "candidate_rule": "When the opposing starter's current-month ERA diverges from his season ERA by 2+ runs (Junk: 4.14 season / 6.35 May), treat the under as structurally compromised and require the total to be set at least 0.5 below the implied run total before playing it \u2014 N=1, insufficient to establish rule.",
+    "sample_size_warning": "N=1, insufficient to establish rule. One loss on a bad-month ERA divergence is noise; track over minimum 10 comparable starts before codifying.",
+    "analyzed_at": "2026-05-21T02:59:29.723843-04:00"
+  },
+  {
     "id": "20260519-MLB-NYM-WSH-ML",
     "date": "2026-05-19",
     "pick": "New York Mets ML",

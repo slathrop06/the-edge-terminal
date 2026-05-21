@@ -14,5 +14,13 @@
     "candidate_rule": "When a starter carries a WHIP above 1.45, do not lean Under regardless of the opposing ace \u2014 high-WHIP pitchers generate multi-run innings via baserunner accumulation at a rate that overwhelms even elite run suppression on the other side; flag any Under pick where one starter's WHIP exceeds 1.40 for manual review. (N=1, insufficient to establish rule \u2014 monitor for pattern.)",
     "sample_size_warning": "N=1, insufficient to establish rule. One blowup from a high-WHIP starter does not validate a blanket filter \u2014 watch for recurrence across 10+ similar setups before codifying.",
     "status": "PENDING_REVIEW"
+  },
+  {
+    "proposed_at": "2026-05-21T02:59:29.724295-04:00",
+    "source_pick_id": "20260520-MLB-ATL-MIA-TOTAL",
+    "source_loss": "Under 7.0 (ATL @ MIA)",
+    "candidate_rule": "When the opposing starter's current-month ERA diverges from his season ERA by 2+ runs (Junk: 4.14 season / 6.35 May), treat the under as structurally compromised and require the total to be set at least 0.5 below the implied run total before playing it \u2014 N=1, insufficient to establish rule.",
+    "sample_size_warning": "N=1, insufficient to establish rule. One loss on a bad-month ERA divergence is noise; track over minimum 10 comparable starts before codifying.",
+    "status": "PENDING_REVIEW"
   }
 ]
