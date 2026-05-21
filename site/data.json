@@ -22,7 +22,7 @@
       "confidence": 3,
       "units": 1.0,
       "win_probability": 0.58,
-      "ladder_designation": false,
+      "ladder_designation": true,
       "data_confidence": 0.62,
       "rules_passed": [
         "max_juice",
@@ -89,92 +89,6 @@
       "slate_analysis": "Seven MLB games on the board plus a Knicks-Cavs NBA game and a Hurricanes-Canadiens NHL matchup with data confidence so low (0.30 and 0.35) they're non-starters before we even look at numbers. Pricing climate is normal \u2014 no obvious mispriced sides, so the edges live in pitching matchups and weather, not sides.\n\nThe games that earned a hard look: Tigers-Guardians at Comerica (Mize is pitching at an ace level \u2014 2.47 ERA, 0.42 HR/9 \u2014 into 60\u00b0F with wind blowing in from left at 9 mph, projected -11.7% HR impact), Mets-Nationals in DC (two below-average lefties in Peterson and a righty in Cavalli, both with HR/9 under 0.55, into another in-blowing wind), Diamondbacks-Rockies (E-Rod 2.53 ERA at home vs Zach Agnos 5.59 ERA \u2014 a clear pitching mismatch), Braves-Marlins (Strider back but with only 14.2 IP this year and a wild 17.2% BB rate \u2014 sample too thin to trust), and Cardinals-Pirates (Ashcraft's 2.89 ERA looks real but Dustin May at 5.00 is the question mark).\n\nWhat got cut: Braves-Marlins \u2014 Strider's 14.2 IP this season is sample-size territory, and a 17.2% BB rate is a red flag we can't ignore. Cardinals-Pirates \u2014 no clear edge on either side, Ashcraft is good but the line will reflect that. Yankees-Blue Jays \u2014 Rod\u00f3n has 8 total IP this year with a 21.1% walk rate, the data is unusable. Angels-A's \u2014 Soriano is sharp but his 10.9% BB rate caps the under (system rule: unders rejected if SP BB/9 trends high), borderline cut. NBA and NHL games sit below the 0.6 data confidence floor.\n\nThe three survivors: Tigers-Guardians Under (Mize + weather + park), Nationals-Mets Under (two HR-suppressed pitchers + wind), and Diamondbacks ML/Under as the clear pitching mismatch. The ladder goes to Mize Under \u2014 the floor is built on a stable ace, a park that already suppresses runs (0.96 PF), and weather doing additional work. That's three independent factors all stacking the same direction. Highest floor, near even money, no variance landmines.",
       "slate_vibe": "NORMAL",
       "published_at": "2026-05-21T17:09:54.981682-04:00"
-    },
-    {
-      "id": "20260521-MLB-NYM-WSH-TOTAL",
-      "sport": "MLB",
-      "game": "NYM @ WSH",
-      "first_pitch_iso": "2026-05-21T20:05Z",
-      "pick": "Under 8.5",
-      "best_book": "DraftKings",
-      "best_odds": "-108",
-      "book_prices": {
-        "draftkings": "-108",
-        "fanduel": "-110",
-        "betmgm": "-112"
-      },
-      "book_links": {},
-      "market": "TOTAL",
-      "confidence": 3,
-      "units": 1.0,
-      "win_probability": 0.57,
-      "ladder_designation": true,
-      "data_confidence": 0.65,
-      "rules_passed": [
-        "max_juice",
-        "ladder_even_money",
-        "parlay_well_formed",
-        "confidence_units_match",
-        "data_confidence_floor",
-        "pick_type_allowed",
-        "mlb_hr_prop_check",
-        "mlb_run_line_check",
-        "mlb_under_bb_check",
-        "no_same_game_opposite"
-      ],
-      "locked": true,
-      "late_add": false,
-      "late_add_reason": "",
-      "bonus_pick": false,
-      "event_type": "",
-      "event_name": "",
-      "legs": [],
-      "headline": "Two starters who don't give up homers, in a park with the wind blowing in.",
-      "the_thesis": "This isn't a sexy pick \u2014 neither Cavalli (4.09 ERA) nor Peterson (4.98 ERA) is going to make highlight reels. But the under doesn't care about ERA; it cares about run prevention mechanics, and both guys share one specific trait: they don't give up home runs. Cavalli's HR/9 is 0.54 and Peterson's is 0.38 \u2014 both well below league average. When the home run goes away, totals collapse.\n\nThe weather amplifies it. 61\u00b0F at first pitch with a 10 mph wind blowing in from center field \u2014 that's a -13% HR impact. So you've got two starters who already don't get beat over the wall, in conditions that suppress whatever marginal flyball power either lineup brings.\n\nThe ERAs look bad because both guys walk people (Peterson 9.1%, Cavalli 7.7%) and give up singles. But singles-and-walks baseball with the long ball off the table usually plays under in a national-TV-quiet ballpark like Nationals Park.",
-      "the_data": [
-        {
-          "label": "Cavalli HR9",
-          "value": "0.54",
-          "context": "Well below league avg"
-        },
-        {
-          "label": "Peterson HR9",
-          "value": "0.38",
-          "context": "Elite HR suppression"
-        },
-        {
-          "label": "Weather HR impact",
-          "value": "-13%",
-          "context": "10mph wind in from CF, 61\u00b0F"
-        },
-        {
-          "label": "Nationals Park factors",
-          "value": "1.01 runs / 1.02 HR",
-          "context": "Neutral baseline"
-        },
-        {
-          "label": "Peterson BB%",
-          "value": "9.1%",
-          "context": "Walks are the bear case"
-        }
-      ],
-      "the_market": "Total at 8.5 across the books with juice -108 to -112. Standard pricing, no sharp movement flagged, but the number is high enough that the HR-suppression angle gives us room.",
-      "weather_park": "Nationals Park, 61\u00b0F, 10 mph wind blowing in from center \u2014 projected -13% HR impact in a neutral park.",
-      "case_against": "Both pitchers walk people. If either one strings together a 30-pitch inning early, the bullpens become the game \u2014 and the Mets pen has been shaky, the Nats pen has been worse. A 5-4 or 6-3 final ties or loses this. Also, Peterson's 4.98 ERA is real; he gives up hard contact.",
-      "what_were_betting_on": "Both starters give up 3 runs or fewer, no balls leave the yard, and the bullpens combine to allow another 2-3 max.",
-      "scott_bot_quip": "Neither guy's a star, but neither gives up homers. Tonight that's all we need.",
-      "ladder_note": "",
-      "date": "2026-05-21",
-      "status": "PEND",
-      "units_result": null,
-      "clv_cents": null,
-      "result_score": null,
-      "graded_at": null,
-      "slate_assessment": "Quiet Thursday board \u2014 7 MLB games headlined by Mize vs Cantillo at a cold, wind-blown Comerica, plus a tossup NBA game and an NHL matinee with thin data. No standout team edges, but two pitching/weather setups jump out.",
-      "executive_summary": "Thursday gives us a 7-game MLB slate with two pitching matchups that scream under. Casey Mize is dealing (2.47 ERA, 0.42 HR/9) and gets a 60\u00b0F Comerica with a 9 mph wind blowing in from left \u2014 HR impact down ~11%. Across the league, Cade Cavalli and David Peterson take the mound in DC with another in-blowing wind. Lefty Eduardo Rodriguez at home against a punchless Rockies lineup rounds out the card. The ladder rides with Mize Under \u2014 best floor on the board.",
-      "slate_analysis": "Seven MLB games on the board plus a Knicks-Cavs NBA game and a Hurricanes-Canadiens NHL matchup with data confidence so low (0.30 and 0.35) they're non-starters before we even look at numbers. Pricing climate is normal \u2014 no obvious mispriced sides, so the edges live in pitching matchups and weather, not sides.\n\nThe games that earned a hard look: Tigers-Guardians at Comerica (Mize is pitching at an ace level \u2014 2.47 ERA, 0.42 HR/9 \u2014 into 60\u00b0F with wind blowing in from left at 9 mph, projected -11.7% HR impact), Mets-Nationals in DC (two below-average lefties in Peterson and a righty in Cavalli, both with HR/9 under 0.55, into another in-blowing wind), Diamondbacks-Rockies (E-Rod 2.53 ERA at home vs Zach Agnos 5.59 ERA \u2014 a clear pitching mismatch), Braves-Marlins (Strider back but with only 14.2 IP this year and a wild 17.2% BB rate \u2014 sample too thin to trust), and Cardinals-Pirates (Ashcraft's 2.89 ERA looks real but Dustin May at 5.00 is the question mark).\n\nWhat got cut: Braves-Marlins \u2014 Strider's 14.2 IP this season is sample-size territory, and a 17.2% BB rate is a red flag we can't ignore. Cardinals-Pirates \u2014 no clear edge on either side, Ashcraft is good but the line will reflect that. Yankees-Blue Jays \u2014 Rod\u00f3n has 8 total IP this year with a 21.1% walk rate, the data is unusable. Angels-A's \u2014 Soriano is sharp but his 10.9% BB rate caps the under (system rule: unders rejected if SP BB/9 trends high), borderline cut. NBA and NHL games sit below the 0.6 data confidence floor.\n\nThe three survivors: Tigers-Guardians Under (Mize + weather + park), Nationals-Mets Under (two HR-suppressed pitchers + wind), and Diamondbacks ML/Under as the clear pitching mismatch. The ladder goes to Mize Under \u2014 the floor is built on a stable ace, a park that already suppresses runs (0.96 PF), and weather doing additional work. That's three independent factors all stacking the same direction. Highest floor, near even money, no variance landmines.",
-      "slate_vibe": "NORMAL",
-      "published_at": "2026-05-21T17:09:54.981567-04:00"
     }
   ],
   "today_bonus_picks": [],
@@ -197,7 +111,7 @@
       "confidence": 3,
       "units": 1.0,
       "win_probability": 0.58,
-      "ladder_designation": false,
+      "ladder_designation": true,
       "data_confidence": 0.62,
       "rules_passed": [
         "max_juice",
@@ -264,92 +178,6 @@
       "slate_analysis": "Seven MLB games on the board plus a Knicks-Cavs NBA game and a Hurricanes-Canadiens NHL matchup with data confidence so low (0.30 and 0.35) they're non-starters before we even look at numbers. Pricing climate is normal \u2014 no obvious mispriced sides, so the edges live in pitching matchups and weather, not sides.\n\nThe games that earned a hard look: Tigers-Guardians at Comerica (Mize is pitching at an ace level \u2014 2.47 ERA, 0.42 HR/9 \u2014 into 60\u00b0F with wind blowing in from left at 9 mph, projected -11.7% HR impact), Mets-Nationals in DC (two below-average lefties in Peterson and a righty in Cavalli, both with HR/9 under 0.55, into another in-blowing wind), Diamondbacks-Rockies (E-Rod 2.53 ERA at home vs Zach Agnos 5.59 ERA \u2014 a clear pitching mismatch), Braves-Marlins (Strider back but with only 14.2 IP this year and a wild 17.2% BB rate \u2014 sample too thin to trust), and Cardinals-Pirates (Ashcraft's 2.89 ERA looks real but Dustin May at 5.00 is the question mark).\n\nWhat got cut: Braves-Marlins \u2014 Strider's 14.2 IP this season is sample-size territory, and a 17.2% BB rate is a red flag we can't ignore. Cardinals-Pirates \u2014 no clear edge on either side, Ashcraft is good but the line will reflect that. Yankees-Blue Jays \u2014 Rod\u00f3n has 8 total IP this year with a 21.1% walk rate, the data is unusable. Angels-A's \u2014 Soriano is sharp but his 10.9% BB rate caps the under (system rule: unders rejected if SP BB/9 trends high), borderline cut. NBA and NHL games sit below the 0.6 data confidence floor.\n\nThe three survivors: Tigers-Guardians Under (Mize + weather + park), Nationals-Mets Under (two HR-suppressed pitchers + wind), and Diamondbacks ML/Under as the clear pitching mismatch. The ladder goes to Mize Under \u2014 the floor is built on a stable ace, a park that already suppresses runs (0.96 PF), and weather doing additional work. That's three independent factors all stacking the same direction. Highest floor, near even money, no variance landmines.",
       "slate_vibe": "NORMAL",
       "published_at": "2026-05-21T17:09:54.981682-04:00"
-    },
-    {
-      "id": "20260521-MLB-NYM-WSH-TOTAL",
-      "sport": "MLB",
-      "game": "NYM @ WSH",
-      "first_pitch_iso": "2026-05-21T20:05Z",
-      "pick": "Under 8.5",
-      "best_book": "DraftKings",
-      "best_odds": "-108",
-      "book_prices": {
-        "draftkings": "-108",
-        "fanduel": "-110",
-        "betmgm": "-112"
-      },
-      "book_links": {},
-      "market": "TOTAL",
-      "confidence": 3,
-      "units": 1.0,
-      "win_probability": 0.57,
-      "ladder_designation": true,
-      "data_confidence": 0.65,
-      "rules_passed": [
-        "max_juice",
-        "ladder_even_money",
-        "parlay_well_formed",
-        "confidence_units_match",
-        "data_confidence_floor",
-        "pick_type_allowed",
-        "mlb_hr_prop_check",
-        "mlb_run_line_check",
-        "mlb_under_bb_check",
-        "no_same_game_opposite"
-      ],
-      "locked": true,
-      "late_add": false,
-      "late_add_reason": "",
-      "bonus_pick": false,
-      "event_type": "",
-      "event_name": "",
-      "legs": [],
-      "headline": "Two starters who don't give up homers, in a park with the wind blowing in.",
-      "the_thesis": "This isn't a sexy pick \u2014 neither Cavalli (4.09 ERA) nor Peterson (4.98 ERA) is going to make highlight reels. But the under doesn't care about ERA; it cares about run prevention mechanics, and both guys share one specific trait: they don't give up home runs. Cavalli's HR/9 is 0.54 and Peterson's is 0.38 \u2014 both well below league average. When the home run goes away, totals collapse.\n\nThe weather amplifies it. 61\u00b0F at first pitch with a 10 mph wind blowing in from center field \u2014 that's a -13% HR impact. So you've got two starters who already don't get beat over the wall, in conditions that suppress whatever marginal flyball power either lineup brings.\n\nThe ERAs look bad because both guys walk people (Peterson 9.1%, Cavalli 7.7%) and give up singles. But singles-and-walks baseball with the long ball off the table usually plays under in a national-TV-quiet ballpark like Nationals Park.",
-      "the_data": [
-        {
-          "label": "Cavalli HR9",
-          "value": "0.54",
-          "context": "Well below league avg"
-        },
-        {
-          "label": "Peterson HR9",
-          "value": "0.38",
-          "context": "Elite HR suppression"
-        },
-        {
-          "label": "Weather HR impact",
-          "value": "-13%",
-          "context": "10mph wind in from CF, 61\u00b0F"
-        },
-        {
-          "label": "Nationals Park factors",
-          "value": "1.01 runs / 1.02 HR",
-          "context": "Neutral baseline"
-        },
-        {
-          "label": "Peterson BB%",
-          "value": "9.1%",
-          "context": "Walks are the bear case"
-        }
-      ],
-      "the_market": "Total at 8.5 across the books with juice -108 to -112. Standard pricing, no sharp movement flagged, but the number is high enough that the HR-suppression angle gives us room.",
-      "weather_park": "Nationals Park, 61\u00b0F, 10 mph wind blowing in from center \u2014 projected -13% HR impact in a neutral park.",
-      "case_against": "Both pitchers walk people. If either one strings together a 30-pitch inning early, the bullpens become the game \u2014 and the Mets pen has been shaky, the Nats pen has been worse. A 5-4 or 6-3 final ties or loses this. Also, Peterson's 4.98 ERA is real; he gives up hard contact.",
-      "what_were_betting_on": "Both starters give up 3 runs or fewer, no balls leave the yard, and the bullpens combine to allow another 2-3 max.",
-      "scott_bot_quip": "Neither guy's a star, but neither gives up homers. Tonight that's all we need.",
-      "ladder_note": "",
-      "date": "2026-05-21",
-      "status": "PEND",
-      "units_result": null,
-      "clv_cents": null,
-      "result_score": null,
-      "graded_at": null,
-      "slate_assessment": "Quiet Thursday board \u2014 7 MLB games headlined by Mize vs Cantillo at a cold, wind-blown Comerica, plus a tossup NBA game and an NHL matinee with thin data. No standout team edges, but two pitching/weather setups jump out.",
-      "executive_summary": "Thursday gives us a 7-game MLB slate with two pitching matchups that scream under. Casey Mize is dealing (2.47 ERA, 0.42 HR/9) and gets a 60\u00b0F Comerica with a 9 mph wind blowing in from left \u2014 HR impact down ~11%. Across the league, Cade Cavalli and David Peterson take the mound in DC with another in-blowing wind. Lefty Eduardo Rodriguez at home against a punchless Rockies lineup rounds out the card. The ladder rides with Mize Under \u2014 best floor on the board.",
-      "slate_analysis": "Seven MLB games on the board plus a Knicks-Cavs NBA game and a Hurricanes-Canadiens NHL matchup with data confidence so low (0.30 and 0.35) they're non-starters before we even look at numbers. Pricing climate is normal \u2014 no obvious mispriced sides, so the edges live in pitching matchups and weather, not sides.\n\nThe games that earned a hard look: Tigers-Guardians at Comerica (Mize is pitching at an ace level \u2014 2.47 ERA, 0.42 HR/9 \u2014 into 60\u00b0F with wind blowing in from left at 9 mph, projected -11.7% HR impact), Mets-Nationals in DC (two below-average lefties in Peterson and a righty in Cavalli, both with HR/9 under 0.55, into another in-blowing wind), Diamondbacks-Rockies (E-Rod 2.53 ERA at home vs Zach Agnos 5.59 ERA \u2014 a clear pitching mismatch), Braves-Marlins (Strider back but with only 14.2 IP this year and a wild 17.2% BB rate \u2014 sample too thin to trust), and Cardinals-Pirates (Ashcraft's 2.89 ERA looks real but Dustin May at 5.00 is the question mark).\n\nWhat got cut: Braves-Marlins \u2014 Strider's 14.2 IP this season is sample-size territory, and a 17.2% BB rate is a red flag we can't ignore. Cardinals-Pirates \u2014 no clear edge on either side, Ashcraft is good but the line will reflect that. Yankees-Blue Jays \u2014 Rod\u00f3n has 8 total IP this year with a 21.1% walk rate, the data is unusable. Angels-A's \u2014 Soriano is sharp but his 10.9% BB rate caps the under (system rule: unders rejected if SP BB/9 trends high), borderline cut. NBA and NHL games sit below the 0.6 data confidence floor.\n\nThe three survivors: Tigers-Guardians Under (Mize + weather + park), Nationals-Mets Under (two HR-suppressed pitchers + wind), and Diamondbacks ML/Under as the clear pitching mismatch. The ladder goes to Mize Under \u2014 the floor is built on a stable ace, a park that already suppresses runs (0.96 PF), and weather doing additional work. That's three independent factors all stacking the same direction. Highest floor, near even money, no variance landmines.",
-      "slate_vibe": "NORMAL",
-      "published_at": "2026-05-21T17:09:54.981567-04:00"
     },
     {
       "id": "20260520-MLB-TOR-NYY-TOTAL",
