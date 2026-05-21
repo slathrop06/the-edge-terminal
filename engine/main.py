@@ -3,6 +3,7 @@ from __future__ import annotations
 
 import sys
 import traceback
+from datetime import datetime, timezone
 from pathlib import Path
 
 import yaml
@@ -131,6 +132,47 @@ def _should_run_morning() -> bool:
     return True
 
 
+def _drop_started_games(packs: list, label: str) -> list:
+    """Filter out IntelPacks whose first_pitch_iso is already in the past.
+
+    Why: when the morning workflow runs late (e.g., after a manual retrigger
+    or after long cron delay), The Odds API may still list games whose first
+    pitch has already happened — books leave pre-game markets up briefly
+    after start. Without this filter, Claude can recommend a pick the boys
+    have no chance to act on (happened 2026-05-21: a 17:09 ET rerun produced
+    an NYM @ WSH under for a game that first-pitched at 16:05 ET).
+
+    Keep packs with missing/unparseable first_pitch_iso — don't reject for
+    bad data, only for confirmed past starts.
+    """
+    from engine.utils import get_logger
+    log = get_logger("main")
+    now = datetime.now(timezone.utc)
+    kept, dropped = [], []
+    for p in packs:
+        fpi = (getattr(p, "first_pitch_iso", "") or "").strip()
+        if not fpi:
+            kept.append(p)
+            continue
+        try:
+            t = datetime.fromisoformat(fpi.replace("Z", "+00:00"))
+            if t.tzinfo is None:
+                t = t.replace(tzinfo=timezone.utc)
+        except Exception:
+            kept.append(p)
+            continue
+        if t > now:
+            kept.append(p)
+        else:
+            dropped.append((p, t))
+    if dropped:
+        log.info(
+            f"{label}: dropped {len(dropped)} already-started game(s): "
+            + ", ".join(f"{getattr(p,'game_id','?')} @ {t.isoformat()}" for p, t in dropped)
+        )
+    return kept
+
+
 def run_morning() -> None:
     from engine.utils import get_logger
     from engine.intel.orchestrator import harvest_intel
@@ -152,8 +194,9 @@ def run_morning() -> None:
         claude_cfg["daily_cap_usd"] = config.get("cost_cap", {}).get("daily_usd", 8.0)
 
         packs = harvest_intel(sports)
+        packs = _drop_started_games(packs, "morning")
         if not packs:
-            log.warning("No games today across enabled sports")
+            log.warning("No (future) games today across enabled sports")
             from engine.publisher import regenerate_site_data
             regenerate_site_data()
             analytics.refresh()
@@ -223,8 +266,9 @@ def run_late_check() -> None:
         claude_cfg["daily_cap_usd"] = config.get("cost_cap", {}).get("daily_usd", 8.0)
 
         packs = harvest_intel(sports)
+        packs = _drop_started_games(packs, "late_check")
         if not packs:
-            log.info("No games on the board.")
+            log.info("No (future) games on the board.")
             regenerate_site_data()
             analytics.refresh()
             return
