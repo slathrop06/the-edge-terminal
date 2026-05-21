@@ -101,6 +101,50 @@ def _is_home_pick(pick: Pick, pick_lower: str, pack: IntelPack) -> bool:
     return False
 
 
+def _sport_fallback_links(sport: str, state_code: str) -> dict[str, str]:
+    """Generic per-book landing pages for a sport. Used when the Odds API
+    doesn't return per-outcome or per-event links — better to send the
+    bettor to the sport's lobby on each book (where they can find the
+    game in 1 tap) than to leave book_links empty (broken UX). Observed
+    in prod 2026-05-21 when the Odds API was 401ing all afternoon."""
+    sport = (sport or "").upper()
+    if sport == "MLB":
+        return {
+            "draftkings": "https://sportsbook.draftkings.com/leagues/baseball/mlb",
+            "fanduel":    "https://sportsbook.fanduel.com/navigation/mlb",
+            "betmgm":     f"https://sports.{state_code}.betmgm.com/en/sports/baseball-23/betting/usa-9/mlb-75",
+        }
+    if sport == "NBA":
+        return {
+            "draftkings": "https://sportsbook.draftkings.com/leagues/basketball/nba",
+            "fanduel":    "https://sportsbook.fanduel.com/navigation/nba",
+            "betmgm":     f"https://sports.{state_code}.betmgm.com/en/sports/basketball-7/betting/usa-9/nba-6004",
+        }
+    if sport == "NHL":
+        return {
+            "draftkings": "https://sportsbook.draftkings.com/leagues/hockey/nhl",
+            "fanduel":    "https://sportsbook.fanduel.com/navigation/nhl",
+            "betmgm":     f"https://sports.{state_code}.betmgm.com/en/sports/hockey-12/betting/usa-9/nhl-34",
+        }
+    if sport == "NFL":
+        return {
+            "draftkings": "https://sportsbook.draftkings.com/leagues/football/nfl",
+            "fanduel":    "https://sportsbook.fanduel.com/navigation/nfl",
+            "betmgm":     f"https://sports.{state_code}.betmgm.com/en/sports/football-11/betting/usa-9/nfl-35",
+        }
+    if sport == "CFB":
+        return {
+            "draftkings": "https://sportsbook.draftkings.com/leagues/football/college-football",
+            "fanduel":    "https://sportsbook.fanduel.com/navigation/college-football",
+            "betmgm":     f"https://sports.{state_code}.betmgm.com/en/sports/football-11/betting/usa-9/college-football-211",
+        }
+    return {
+        "draftkings": "https://sportsbook.draftkings.com/",
+        "fanduel":    "https://sportsbook.fanduel.com/",
+        "betmgm":     f"https://sports.{state_code}.betmgm.com/en/sports",
+    }
+
+
 def _golf_fallback_links(state_code: str) -> dict[str, str]:
     """Generic per-book golf-section URLs. Used when the Odds API doesn't
     return per-player bet-slip links (which is the case for outrights)."""
@@ -196,12 +240,22 @@ def _attach_links_and_prices(pick: Pick, packs: list[IntelPack],
                     break
         return
     pack = _match_pack(packs, pick)
+    # Final-fallback link map per sport. Used when pack/market is missing or
+    # the Odds API doesn't provide per-event links (happened 2026-05-21 when
+    # The Odds API returned 401 all afternoon — picks shipped with empty
+    # book_links, betting slips on the site went nowhere).
+    from engine.intel.market import _bm_state_code
+    sport_fallbacks = _sport_fallback_links(pick.sport, _bm_state_code())
     if not pack:
+        for book_key, url in sport_fallbacks.items():
+            pick.book_links.setdefault(book_key, url)
         return
     # Backfill first pitch / tipoff / faceoff time if Claude left it blank
     if not pick.first_pitch_iso and pack.first_pitch_iso:
         pick.first_pitch_iso = pack.first_pitch_iso
     if not pack.market:
+        for book_key, url in sport_fallbacks.items():
+            pick.book_links.setdefault(book_key, url)
         return
     books = _book_dict_for_selection(pick, pack)
     for book_key, odds in books.items():
@@ -214,6 +268,9 @@ def _attach_links_and_prices(pick: Pick, packs: list[IntelPack],
     # Fallback to event-level link if no outcome link
     for book_key, ev_link in pack.market.event_link_by_book.items():
         pick.book_links.setdefault(book_key, ev_link)
+    # Final fallback: generic sport landing page on each enabled book
+    for book_key, url in sport_fallbacks.items():
+        pick.book_links.setdefault(book_key, url)
 
 
 def _pick_to_dict(pick: Pick, response: HandicapperResponse, date_str: str,

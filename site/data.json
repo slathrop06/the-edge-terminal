@@ -17,7 +17,11 @@
         "fanduel": "-108",
         "betmgm": "-105"
       },
-      "book_links": {},
+      "book_links": {
+        "draftkings": "https://sportsbook.draftkings.com/leagues/baseball/mlb",
+        "fanduel": "https://sportsbook.fanduel.com/navigation/mlb",
+        "betmgm": "https://sports.nj.betmgm.com/en/sports/baseball-23/betting/usa-9/mlb-75"
+      },
       "market": "TOTAL",
       "confidence": 3,
       "units": 1.0,
@@ -106,7 +110,11 @@
         "fanduel": "-108",
         "betmgm": "-105"
       },
-      "book_links": {},
+      "book_links": {
+        "draftkings": "https://sportsbook.draftkings.com/leagues/baseball/mlb",
+        "fanduel": "https://sportsbook.fanduel.com/navigation/mlb",
+        "betmgm": "https://sports.nj.betmgm.com/en/sports/baseball-23/betting/usa-9/mlb-75"
+      },
       "market": "TOTAL",
       "confidence": 3,
       "units": 1.0,
