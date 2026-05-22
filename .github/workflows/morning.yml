@@ -19,21 +19,6 @@ on:
     - cron: '0 17 * * *'    # 13:00 EDT / 12:00 EST
     - cron: '30 17 * * *'   # 13:30 EDT / 12:30 EST
     - cron: '0 18 * * *'    # 14:00 EDT / 13:00 EST  (last chance)
-  # Manual override + safety net: any human-authored push to main triggers
-  # a morning attempt too. The engine's _should_run_morning() guard makes
-  # this a no-op when today's picks are already locked, so unrelated
-  # pushes (workflow edits, code changes) won't double-spend Claude.
-  # Grader/morning/late-check commits use GITHUB_TOKEN inside a workflow,
-  # which by GH design does NOT trigger downstream workflows — so this
-  # won't loop on auto-generated picks/grader commits.
-  push:
-    branches: [main]
-    paths-ignore:
-      - 'site/data.json'
-      - 'site/analytics.json'
-      - 'data/**'
-      - 'README.md'
-      - 'SETUP_HANDOFF.md'
   workflow_dispatch: {}
 
 jobs:
