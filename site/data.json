@@ -1,100 +1,9 @@
 {
-  "generated_at": "2026-05-21T18:15:50.576523-04:00",
-  "today": "2026-05-21",
+  "generated_at": "2026-05-22T02:55:16.347599-04:00",
+  "today": "2026-05-22",
   "system_paused": false,
   "pause_reason": "",
-  "today_picks": [
-    {
-      "id": "20260521-MLB-COL-ARI-TOTAL",
-      "sport": "MLB",
-      "game": "COL @ ARI",
-      "first_pitch_iso": "2026-05-22T01:40Z",
-      "pick": "Under 9.5",
-      "best_book": "BetMGM",
-      "best_odds": "-105",
-      "book_prices": {
-        "draftkings": "-110",
-        "fanduel": "-108",
-        "betmgm": "-105"
-      },
-      "book_links": {
-        "draftkings": "https://sportsbook.draftkings.com/leagues/baseball/mlb",
-        "fanduel": "https://sportsbook.fanduel.com/navigation/mlb",
-        "betmgm": "https://sports.nj.betmgm.com/en/sports/baseball-23/betting/usa-9/mlb-75"
-      },
-      "market": "TOTAL",
-      "confidence": 3,
-      "units": 1.0,
-      "win_probability": 0.58,
-      "ladder_designation": true,
-      "data_confidence": 0.62,
-      "rules_passed": [
-        "max_juice",
-        "ladder_even_money",
-        "parlay_well_formed",
-        "confidence_units_match",
-        "data_confidence_floor",
-        "pick_type_allowed",
-        "mlb_hr_prop_check",
-        "mlb_run_line_check",
-        "mlb_under_bb_check",
-        "no_same_game_opposite"
-      ],
-      "locked": true,
-      "late_add": false,
-      "late_add_reason": "",
-      "bonus_pick": false,
-      "event_type": "",
-      "event_name": "",
-      "legs": [],
-      "headline": "E-Rod is dealing at home, the Rockies are still the Rockies away from Coors.",
-      "the_thesis": "Eduardo Rodriguez has quietly put together a really good season \u2014 2.53 ERA, 1.26 WHIP, and a 0.68 HR/9 at Chase Field, which is impressive given Chase boosts HR (1.07 park factor). The lefty matchup against Colorado is the angle: the Rockies are a bottom-tier offense overall and significantly worse away from Coors Field, where their hitters are calibrated to thin air and big gaps.\n\nZach Agnos on the other side has a 5.59 ERA and a 15.6% K rate \u2014 he's a contact-allowing back-end starter. Normally that's an over signal, but the Diamondbacks lineup against a righty isn't a juggernaut and Chase tonight is indoors with the roof closed (it's a dome environment effectively, neutral conditions).\n\nThe edge here is E-Rod's 5-6 inning floor against a lineup that historically struggles on the road, plus Agnos being good enough to keep Arizona to 4-5 runs even on a rough day. 9.5 is a high number \u2014 we just need this to land at 9 or fewer.",
-      "the_data": [
-        {
-          "label": "E-Rod ERA / WHIP",
-          "value": "2.53 / 1.26",
-          "context": "Strong season"
-        },
-        {
-          "label": "E-Rod HR9 at Chase",
-          "value": "0.68",
-          "context": "Below avg in HR park"
-        },
-        {
-          "label": "Agnos ERA / K%",
-          "value": "5.59 / 15.6%",
-          "context": "Below-replacement"
-        },
-        {
-          "label": "Agnos IP/start L3",
-          "value": "9.67",
-          "context": "Goes 5+ on average"
-        },
-        {
-          "label": "Chase Field PF",
-          "value": "1.01 runs / 1.07 HR",
-          "context": "Slightly hitter-friendly"
-        }
-      ],
-      "the_market": "Total at 9.5, juice -105 to -110. The number is set high because Agnos is bad and Chase plays hot, but the market may be underweighting how poor Colorado's road offense has been.",
-      "weather_park": "Chase Field indoors, neutral environment \u2014 park slightly favors HR but the roof neutralizes any weather impact.",
-      "case_against": "Agnos can absolutely get blown up \u2014 Arizona's lineup against a 5.59 ERA righty is the obvious lean, and if Ketel Marte and Pederson get to him early, 6 runs by the 4th inning isn't crazy. Chase also gives up cheap HRs. If E-Rod has any off night, the under is cooked quickly.",
-      "what_were_betting_on": "E-Rod through 6 giving up 2 or fewer, Colorado scoring 3 or less on the road, and Agnos limiting Arizona to 4-5 runs.",
-      "scott_bot_quip": "E-Rod's been the quiet ace nobody talks about. Rockies on the road don't change that.",
-      "ladder_note": "",
-      "date": "2026-05-21",
-      "status": "PEND",
-      "units_result": null,
-      "clv_cents": null,
-      "result_score": null,
-      "graded_at": null,
-      "slate_assessment": "Quiet Thursday board \u2014 7 MLB games headlined by Mize vs Cantillo at a cold, wind-blown Comerica, plus a tossup NBA game and an NHL matinee with thin data. No standout team edges, but two pitching/weather setups jump out.",
-      "executive_summary": "Thursday gives us a 7-game MLB slate with two pitching matchups that scream under. Casey Mize is dealing (2.47 ERA, 0.42 HR/9) and gets a 60\u00b0F Comerica with a 9 mph wind blowing in from left \u2014 HR impact down ~11%. Across the league, Cade Cavalli and David Peterson take the mound in DC with another in-blowing wind. Lefty Eduardo Rodriguez at home against a punchless Rockies lineup rounds out the card. The ladder rides with Mize Under \u2014 best floor on the board.",
-      "slate_analysis": "Seven MLB games on the board plus a Knicks-Cavs NBA game and a Hurricanes-Canadiens NHL matchup with data confidence so low (0.30 and 0.35) they're non-starters before we even look at numbers. Pricing climate is normal \u2014 no obvious mispriced sides, so the edges live in pitching matchups and weather, not sides.\n\nThe games that earned a hard look: Tigers-Guardians at Comerica (Mize is pitching at an ace level \u2014 2.47 ERA, 0.42 HR/9 \u2014 into 60\u00b0F with wind blowing in from left at 9 mph, projected -11.7% HR impact), Mets-Nationals in DC (two below-average lefties in Peterson and a righty in Cavalli, both with HR/9 under 0.55, into another in-blowing wind), Diamondbacks-Rockies (E-Rod 2.53 ERA at home vs Zach Agnos 5.59 ERA \u2014 a clear pitching mismatch), Braves-Marlins (Strider back but with only 14.2 IP this year and a wild 17.2% BB rate \u2014 sample too thin to trust), and Cardinals-Pirates (Ashcraft's 2.89 ERA looks real but Dustin May at 5.00 is the question mark).\n\nWhat got cut: Braves-Marlins \u2014 Strider's 14.2 IP this season is sample-size territory, and a 17.2% BB rate is a red flag we can't ignore. Cardinals-Pirates \u2014 no clear edge on either side, Ashcraft is good but the line will reflect that. Yankees-Blue Jays \u2014 Rod\u00f3n has 8 total IP this year with a 21.1% walk rate, the data is unusable. Angels-A's \u2014 Soriano is sharp but his 10.9% BB rate caps the under (system rule: unders rejected if SP BB/9 trends high), borderline cut. NBA and NHL games sit below the 0.6 data confidence floor.\n\nThe three survivors: Tigers-Guardians Under (Mize + weather + park), Nationals-Mets Under (two HR-suppressed pitchers + wind), and Diamondbacks ML/Under as the clear pitching mismatch. The ladder goes to Mize Under \u2014 the floor is built on a stable ace, a park that already suppresses runs (0.96 PF), and weather doing additional work. That's three independent factors all stacking the same direction. Highest floor, near even money, no variance landmines.",
-      "slate_vibe": "NORMAL",
-      "published_at": "2026-05-21T17:09:54.981682-04:00"
-    }
-  ],
+  "today_picks": [],
   "today_bonus_picks": [],
   "all_picks": [
     {
@@ -176,11 +85,11 @@
       "scott_bot_quip": "E-Rod's been the quiet ace nobody talks about. Rockies on the road don't change that.",
       "ladder_note": "",
       "date": "2026-05-21",
-      "status": "PEND",
-      "units_result": null,
+      "status": "WIN",
+      "units_result": 0.9524,
       "clv_cents": null,
-      "result_score": null,
-      "graded_at": null,
+      "result_score": "COL 1 \u00b7 ARI 2",
+      "graded_at": "2026-05-22T02:55:06.151590-04:00",
       "slate_assessment": "Quiet Thursday board \u2014 7 MLB games headlined by Mize vs Cantillo at a cold, wind-blown Comerica, plus a tossup NBA game and an NHL matinee with thin data. No standout team edges, but two pitching/weather setups jump out.",
       "executive_summary": "Thursday gives us a 7-game MLB slate with two pitching matchups that scream under. Casey Mize is dealing (2.47 ERA, 0.42 HR/9) and gets a 60\u00b0F Comerica with a 9 mph wind blowing in from left \u2014 HR impact down ~11%. Across the league, Cade Cavalli and David Peterson take the mound in DC with another in-blowing wind. Lefty Eduardo Rodriguez at home against a punchless Rockies lineup rounds out the card. The ladder rides with Mize Under \u2014 best floor on the board.",
       "slate_analysis": "Seven MLB games on the board plus a Knicks-Cavs NBA game and a Hurricanes-Canadiens NHL matchup with data confidence so low (0.30 and 0.35) they're non-starters before we even look at numbers. Pricing climate is normal \u2014 no obvious mispriced sides, so the edges live in pitching matchups and weather, not sides.\n\nThe games that earned a hard look: Tigers-Guardians at Comerica (Mize is pitching at an ace level \u2014 2.47 ERA, 0.42 HR/9 \u2014 into 60\u00b0F with wind blowing in from left at 9 mph, projected -11.7% HR impact), Mets-Nationals in DC (two below-average lefties in Peterson and a righty in Cavalli, both with HR/9 under 0.55, into another in-blowing wind), Diamondbacks-Rockies (E-Rod 2.53 ERA at home vs Zach Agnos 5.59 ERA \u2014 a clear pitching mismatch), Braves-Marlins (Strider back but with only 14.2 IP this year and a wild 17.2% BB rate \u2014 sample too thin to trust), and Cardinals-Pirates (Ashcraft's 2.89 ERA looks real but Dustin May at 5.00 is the question mark).\n\nWhat got cut: Braves-Marlins \u2014 Strider's 14.2 IP this season is sample-size territory, and a 17.2% BB rate is a red flag we can't ignore. Cardinals-Pirates \u2014 no clear edge on either side, Ashcraft is good but the line will reflect that. Yankees-Blue Jays \u2014 Rod\u00f3n has 8 total IP this year with a 21.1% walk rate, the data is unusable. Angels-A's \u2014 Soriano is sharp but his 10.9% BB rate caps the under (system rule: unders rejected if SP BB/9 trends high), borderline cut. NBA and NHL games sit below the 0.6 data confidence floor.\n\nThe three survivors: Tigers-Guardians Under (Mize + weather + park), Nationals-Mets Under (two HR-suppressed pitchers + wind), and Diamondbacks ML/Under as the clear pitching mismatch. The ladder goes to Mize Under \u2014 the floor is built on a stable ace, a park that already suppresses runs (0.96 PF), and weather doing additional work. That's three independent factors all stacking the same direction. Highest floor, near even money, no variance landmines.",
@@ -1448,11 +1357,19 @@
     }
   ],
   "ladder": {
-    "current_streak": 0,
+    "current_streak": 1,
     "longest_streak": 2,
     "completed_climbs": 0,
     "target": 10,
     "history": [
+      {
+        "date": "2026-05-21",
+        "pick_id": "20260521-MLB-COL-ARI-TOTAL",
+        "pick": "Under 9.5",
+        "game": "COL @ ARI",
+        "status": "WIN",
+        "after_streak": 1
+      },
       {
         "date": "2026-05-20",
         "pick_id": "20260520-MLB-ATL-MIA-TOTAL",
@@ -1494,13 +1411,13 @@
         "after_streak": 1
       }
     ],
-    "updated_at": "2026-05-21T02:59:08.152221-04:00"
+    "updated_at": "2026-05-22T02:55:06.152976-04:00"
   },
   "last_night_recap": {
-    "date": "2026-05-20",
-    "record": "2-1-0",
-    "units_pl": 0.8376,
-    "night_summary": "2-1 night, +0.84u, but the ladder took a hit. The two non-ladder unders were clean \u2014 TOR @ NYY finished 2-1 with Schlittler and Yesavage both dealing, and HOU @ MIN was a quiet 4-1 with the Astros' offense going nowhere. Both unders cleared without drama. The ladder loss is on us \u2014 ATL @ MIA under 7.0 was a model miss. Chris Sale was everything we needed: 7 IP, 1 ER, 8 K. But Janson Junk was a disaster waiting to happen, and we didn't weight it enough \u2014 he allowed a career-high 8 runs, including Austin Riley's 3-run shot in the 2nd and Dominic Smith's 3-run blast in the 6th, and couldn't get out of the fifth. The 9-1 final wasn't bad luck; Junk's May ERA was the tell we underweighted. Ladder resets at 0 of 10 \u2014 back to the bottom, starting fresh.",
-    "generated_at": "2026-05-21T02:59:42.911374-04:00"
+    "date": "2026-05-21",
+    "record": "1-0-0",
+    "units_pl": 0.9524,
+    "night_summary": "1-0 night, +0.95u. The COL @ ARI under 9.5 was a gift \u2014 Eduardo Rodriguez threw seven scoreless innings for Arizona, and Colorado's bats were quiet all night against a pitcher looking to avenge a loss to this same Rockies club last weekend. The game did get a little spicy late: Colorado tied it at 1 in the eighth on a bases-loaded HBP, and Corbin Carroll walked it off with a two-out single in the ninth to make it 2-1 \u2014 but that's still well clear of 9.5. Clean win, no sweat after the first pitch. Ladder is at 1 of 10 \u2014 back on the board and climbing.",
+    "generated_at": "2026-05-22T02:55:16.346302-04:00"
   }
 }
