@@ -1,7 +1,97 @@
 {
   "version": 1,
-  "updated_at": "2026-05-22T05:54:30.190613-04:00",
+  "updated_at": "2026-05-22T13:04:43.303887-04:00",
   "picks": [
+    {
+      "id": "20260522-MLB-HOU-CHC-TOTAL",
+      "sport": "MLB",
+      "game": "HOU @ CHC",
+      "first_pitch_iso": "2026-05-22T14:20:00-04:00",
+      "pick": "Under 8.0",
+      "best_book": "FanDuel",
+      "best_odds": "-110",
+      "book_prices": {
+        "draftkings": "-105",
+        "fanduel": "-110",
+        "betmgm": "-108"
+      },
+      "book_links": {
+        "draftkings": "https://sportsbook.draftkings.com/leagues/baseball/mlb",
+        "fanduel": "https://sportsbook.fanduel.com/navigation/mlb",
+        "betmgm": "https://sports.nj.betmgm.com/en/sports/baseball-23/betting/usa-9/mlb-75"
+      },
+      "market": "TOTAL",
+      "confidence": 4,
+      "units": 1.5,
+      "win_probability": 0.6,
+      "ladder_designation": true,
+      "data_confidence": 0.7,
+      "rules_passed": [
+        "max_juice",
+        "ladder_even_money",
+        "parlay_well_formed",
+        "confidence_units_match",
+        "data_confidence_floor",
+        "pick_type_allowed",
+        "mlb_hr_prop_check",
+        "mlb_run_line_check",
+        "mlb_under_bb_check",
+        "no_same_game_opposite"
+      ],
+      "locked": true,
+      "late_add": false,
+      "late_add_reason": "",
+      "bonus_pick": false,
+      "event_type": "",
+      "event_name": "",
+      "legs": [],
+      "headline": "Wind 14 mph straight in from center at Wrigley with Arrighetti carrying a 1.50 ERA \u2014 the under does the work for us.",
+      "the_thesis": "Wrigley with the wind blowing in is a different ballpark than Wrigley with the wind blowing out. Today's wind is 14 mph in from center field, and the pack puts the HR impact at roughly -18%. That neutralizes the one real fear in this game, which is Jameson Taillon's 2.87 HR/9 \u2014 an alarming number normally, but turned into a paper tiger when fly balls die at the warning track.\n\nOn the other side, Spencer Arrighetti is throwing a 1.50 ERA with a 0.25 HR/9 across 36 innings. The 13.8% walk rate is the wart, but walks don't score by themselves against the Cubs lineup at Wrigley in a 57-degree game with wind in. Even granting some regression to Arrighetti's run prevention, the run environment today caps total scoring. Total opened around 8.5 and the wind report has nudged it to 8.0 at most shops \u2014 that's the market agreeing with us, and we're still buying because the weather impact is large.\n\nThe risk is walks turning into a crooked inning before Arrighetti settles, but in a 57-degree wind-suppressed game, even crooked innings tend to be 3-run innings, not 5-run innings.",
+      "the_data": [
+        {
+          "label": "Wind",
+          "value": "14 mph in from CF",
+          "context": "HR impact ~-18%"
+        },
+        {
+          "label": "Arrighetti ERA / HR/9",
+          "value": "1.50 / 0.25",
+          "context": "Elite run prevention, no HR risk"
+        },
+        {
+          "label": "Taillon HR/9",
+          "value": "2.87",
+          "context": "Normally bad \u2014 neutralized by wind today"
+        },
+        {
+          "label": "Game-time temp",
+          "value": "57\u00b0F",
+          "context": "Cold air kills carry"
+        },
+        {
+          "label": "Wrigley HR park factor",
+          "value": "1.00",
+          "context": "Neutral before weather adjustment"
+        }
+      ],
+      "the_market": "Total opened near 8.5 and has been bet down to 8.0 across the three books as the weather firmed up. Sharp money agreeing with our angle \u2014 we're still in at -110 because the weather edge is real, not priced fully.",
+      "weather_park": "Wrigley Field, 57\u00b0F, wind 14 mph in from CF \u2014 large HR suppression baked into the run environment today.",
+      "case_against": "Arrighetti's 13.8% walk rate is a real problem and the Astros lineup can capitalize even at Wrigley. If Arrighetti walks the park in the third inning and Taillon gives up a couple of doubles before exiting, this can be 5-3 through five and the under is in trouble even with wind in. Bullpens are average on both sides, so any early exits scale the variance.",
+      "what_were_betting_on": "Arrighetti throwing 5+ controlled innings, the wind killing 2-3 would-be doubles or homers, and both bullpens holding serve in cold air.",
+      "scott_bot_quip": "When the flag at Wrigley points the right way, you don't have to overthink it.",
+      "ladder_note": "",
+      "date": "2026-05-22",
+      "status": "PEND",
+      "units_result": null,
+      "clv_cents": null,
+      "result_score": null,
+      "graded_at": null,
+      "slate_assessment": "15-game MLB board, one NBA playoff-adjacent game, one NHL. Pitching mismatches and weather are the main signals \u2014 Wrigley's wind blowing in and a few stark starter advantages do most of the work today.",
+      "executive_summary": "Quiet but workable Friday board \u2014 15 MLB games plus one NBA and one NHL we're staying off of. The pitching mismatches do the talking: Cristopher S\u00e1nchez against a Guardians lineup that doesn't slug, Arrighetti at Wrigley with 14 mph blowing straight in from center, and deGrom against an Angels staff trotting out a pitcher with a 17 ERA across 3.2 innings. Three plays, all pitcher-driven. Ladder rides with S\u00e1nchez at home \u2014 best floor on the board.",
+      "slate_analysis": "Seventeen total games on the board \u2014 15 MLB, one NBA (Spurs/Thunder), one NHL (Avalanche/Golden Knights). Pricing climate is normal, no obvious overpriced favorites distorting the menu, and a handful of clean pitching mismatches make this a pitcher's slate. We're staying off the NBA and NHL entirely \u2014 data_confidence on both is below 0.4 in the pack and we don't have ratings to build a real fair line. Discipline over volume.\n\nThe games that earned a hard look: Cubs/Astros at Wrigley with 14 mph wind blowing in from center and Arrighetti's 1.50 ERA against Taillon's 4.97 and 2.87 HR/9 \u2014 under angle obvious. Phillies/Guardians with Cristopher S\u00e1nchez (1.82 ERA, 29.9% K rate, 5.2% BB rate over 64.1 IP) at home against a Cleveland lineup that doesn't punish lefties. Rangers at Angels where deGrom (3.02 ERA, 31% K, 0.91 WHIP) draws Grayson Rodriguez, who has a 17.18 ERA across 3.2 innings of work and is essentially an opener-by-default. Padres/A's at Petco with two run-suppressing factors stacked. Giants/White Sox at Oracle Park with Davis Martin's 1.61 ERA also tempting for an under.\n\nWhat got cut: Padres/A's under \u2014 Petco plays under but Buehler's 5.01 ERA and 1.35 WHIP undermines the SP side of the equation and we'd need confirmed totals pricing to clear 8 cents of edge; we don't. Giants/White Sox under \u2014 same problem, McDonald has only 19 IP on the year, sample too thin and data_confidence too low to trust. Brewers/Dodgers \u2014 Henderson at 18 IP is too small a sample to bet around. Yankees/Rays \u2014 no stat line on Cole in the pack, can't fair-price it. Red Sox/Twins \u2014 two lefty starters with strong numbers but both under 31 IP, the under is tempting but variance is high with shallow bullpens behind both.\n\nFinal three: Cubs/Astros Under (wind + Arrighetti dominance + Taillon's HR problem neutralized by weather), Phillies ML at home with S\u00e1nchez (clearest SP edge on the board against a middling Cleveland offense), and Rangers ML with deGrom against a replacement-level Angels starter. The ladder goes to Phillies \u2014 S\u00e1nchez is the most predictable arm in this group, Citizens Bank plays neutral-to-hitter-friendly but Cleveland's offense doesn't scare us, and the price should land in our even-money band. Rangers ML is the highest-conviction play overall but likely prices too short to ladder.",
+      "slate_vibe": "NORMAL",
+      "published_at": "2026-05-22T13:04:43.303756-04:00"
+    },
     {
       "id": "20260521-MLB-COL-ARI-TOTAL",
       "sport": "MLB",
