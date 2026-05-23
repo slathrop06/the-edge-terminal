@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated_at": "2026-05-22T13:04:43.303887-04:00",
+  "updated_at": "2026-05-23T02:17:18.730434-04:00",
   "picks": [
     {
       "id": "20260522-MLB-HOU-CHC-TOTAL",
@@ -81,11 +81,11 @@
       "scott_bot_quip": "When the flag at Wrigley points the right way, you don't have to overthink it.",
       "ladder_note": "",
       "date": "2026-05-22",
-      "status": "PEND",
-      "units_result": null,
+      "status": "WIN",
+      "units_result": 1.3636,
       "clv_cents": null,
-      "result_score": null,
-      "graded_at": null,
+      "result_score": "HOU 4 \u00b7 CHC 2",
+      "graded_at": "2026-05-23T02:17:18.728614-04:00",
       "slate_assessment": "15-game MLB board, one NBA playoff-adjacent game, one NHL. Pitching mismatches and weather are the main signals \u2014 Wrigley's wind blowing in and a few stark starter advantages do most of the work today.",
       "executive_summary": "Quiet but workable Friday board \u2014 15 MLB games plus one NBA and one NHL we're staying off of. The pitching mismatches do the talking: Cristopher S\u00e1nchez against a Guardians lineup that doesn't slug, Arrighetti at Wrigley with 14 mph blowing straight in from center, and deGrom against an Angels staff trotting out a pitcher with a 17 ERA across 3.2 innings. Three plays, all pitcher-driven. Ladder rides with S\u00e1nchez at home \u2014 best floor on the board.",
       "slate_analysis": "Seventeen total games on the board \u2014 15 MLB, one NBA (Spurs/Thunder), one NHL (Avalanche/Golden Knights). Pricing climate is normal, no obvious overpriced favorites distorting the menu, and a handful of clean pitching mismatches make this a pitcher's slate. We're staying off the NBA and NHL entirely \u2014 data_confidence on both is below 0.4 in the pack and we don't have ratings to build a real fair line. Discipline over volume.\n\nThe games that earned a hard look: Cubs/Astros at Wrigley with 14 mph wind blowing in from center and Arrighetti's 1.50 ERA against Taillon's 4.97 and 2.87 HR/9 \u2014 under angle obvious. Phillies/Guardians with Cristopher S\u00e1nchez (1.82 ERA, 29.9% K rate, 5.2% BB rate over 64.1 IP) at home against a Cleveland lineup that doesn't punish lefties. Rangers at Angels where deGrom (3.02 ERA, 31% K, 0.91 WHIP) draws Grayson Rodriguez, who has a 17.18 ERA across 3.2 innings of work and is essentially an opener-by-default. Padres/A's at Petco with two run-suppressing factors stacked. Giants/White Sox at Oracle Park with Davis Martin's 1.61 ERA also tempting for an under.\n\nWhat got cut: Padres/A's under \u2014 Petco plays under but Buehler's 5.01 ERA and 1.35 WHIP undermines the SP side of the equation and we'd need confirmed totals pricing to clear 8 cents of edge; we don't. Giants/White Sox under \u2014 same problem, McDonald has only 19 IP on the year, sample too thin and data_confidence too low to trust. Brewers/Dodgers \u2014 Henderson at 18 IP is too small a sample to bet around. Yankees/Rays \u2014 no stat line on Cole in the pack, can't fair-price it. Red Sox/Twins \u2014 two lefty starters with strong numbers but both under 31 IP, the under is tempting but variance is high with shallow bullpens behind both.\n\nFinal three: Cubs/Astros Under (wind + Arrighetti dominance + Taillon's HR problem neutralized by weather), Phillies ML at home with S\u00e1nchez (clearest SP edge on the board against a middling Cleveland offense), and Rangers ML with deGrom against a replacement-level Angels starter. The ladder goes to Phillies \u2014 S\u00e1nchez is the most predictable arm in this group, Citizens Bank plays neutral-to-hitter-friendly but Cleveland's offense doesn't scare us, and the price should land in our even-money band. Rangers ML is the highest-conviction play overall but likely prices too short to ladder.",

@@ -1,9 +1,17 @@
 {
-  "current_streak": 1,
+  "current_streak": 2,
   "longest_streak": 2,
   "completed_climbs": 0,
   "target": 10,
   "history": [
+    {
+      "date": "2026-05-22",
+      "pick_id": "20260522-MLB-HOU-CHC-TOTAL",
+      "pick": "Under 8.0",
+      "game": "HOU @ CHC",
+      "status": "WIN",
+      "after_streak": 2
+    },
     {
       "date": "2026-05-21",
       "pick_id": "20260521-MLB-COL-ARI-TOTAL",
@@ -53,5 +61,5 @@
       "after_streak": 1
     }
   ],
-  "updated_at": "2026-05-22T02:55:06.152976-04:00"
+  "updated_at": "2026-05-23T02:17:18.729938-04:00"
 }
