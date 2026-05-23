@@ -23,6 +23,44 @@ LATE_ADD_PROMPT_PATH = PROJECT_ROOT / "prompts" / "late-add-system.md"
 GOLF_MAJOR_PROMPT_PATH = PROJECT_ROOT / "prompts" / "golf-major-system.md"
 
 
+def _slim_book_odds(odds: dict) -> dict:
+    """Strip per-book deep-link URLs (long, useless to Claude) and drop the
+    "selection" / "market" string (redundant with the prop's market key)."""
+    if not odds:
+        return odds
+    return {"book": odds.get("book"), "price_american": odds.get("price_american"),
+            "line": odds.get("line")}
+
+
+def _slim_player_prop(prop: dict) -> dict:
+    """One PlayerProp → slate-bound form. Claude needs the player, line,
+    and best over/under price+book. Per-book breakdowns + deep links stay
+    on the IntelPack for the publisher's link-attach step."""
+    return {
+        "player_name": prop.get("player_name"),
+        "market":      prop.get("market"),
+        "line":        prop.get("line"),
+        "over_best":   _slim_book_odds(prop.get("over_best") or {}),
+        "under_best":  _slim_book_odds(prop.get("under_best") or {}),
+    }
+
+
+def _pack_for_slate(pack) -> dict:
+    """IntelPack → slate-bound dict. Identical to model_dump(exclude_none=True)
+    except props are slimmed (no by_book dicts, no per-outcome links).
+    Without this slim path a 6-MLB-game slate with 4 prop markets each
+    produced a 545k-char JSON that exceeded the 180k Claude budget."""
+    d = pack.model_dump(exclude_none=True)
+    props = d.get("props")
+    if not props:
+        return d
+    for prop_field, prop_list in list(props.items()):
+        if not isinstance(prop_list, list):
+            continue
+        props[prop_field] = [_slim_player_prop(p) for p in prop_list]
+    return d
+
+
 class DataPoint(BaseModel):
     label: str
     value: str
@@ -150,11 +188,14 @@ def run_handicapper(
         raise FileNotFoundError(f"System prompt missing: {SYSTEM_PROMPT_PATH}")
     system_prompt = SYSTEM_PROMPT_PATH.read_text()
 
-    # Serialize packs as JSON the model can reason over
+    # Serialize packs as JSON the model can reason over. Props get slimmed:
+    # Claude only needs best over/under price+book per line, not the full
+    # per-book breakdown or deep-link URLs (those stay on the pack object
+    # for the publisher to attach to picks downstream).
     slate = {
         "date": nyc_date(),
         "now_iso": nyc_now().isoformat(),
-        "games": [p.model_dump(exclude_none=True) for p in packs],
+        "games": [_pack_for_slate(p) for p in packs],
     }
     slate_json = json.dumps(slate, default=str, separators=(",", ":"))
     if len(slate_json) > 180_000:
@@ -238,7 +279,7 @@ def run_late_add(
         "date": nyc_date(),
         "now_iso": nyc_now().isoformat(),
         "locked_picks_already_published": summary_existing,
-        "games": [p.model_dump(exclude_none=True) for p in packs],
+        "games": [_pack_for_slate(p) for p in packs],
     }
     slate_json = json.dumps(slate, default=str, separators=(",", ":"))
     if len(slate_json) > 180_000:
