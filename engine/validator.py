@@ -273,14 +273,35 @@ def rule_slate_skip(response: HandicapperResponse) -> tuple[bool, str]:
     return True, f"vibe={response.slate_vibe}"
 
 
-def rule_max_3(picks: list[Pick]) -> list[Pick]:
-    if len(picks) <= 3:
+def rule_max_4(picks: list[Pick]) -> list[Pick]:
+    if len(picks) <= 4:
         return picks
     sorted_p = sorted(picks, key=lambda p: (p.confidence, p.data_confidence), reverse=True)
-    kept, dropped = sorted_p[:3], sorted_p[3:]
+    kept, dropped = sorted_p[:4], sorted_p[4:]
     for d in dropped:
         logger.warning(f"OVERFLOW DROP: {d.pick} ({d.game}) conf={d.confidence}")
     return kept
+
+
+# Data-presence rules that REJECTED picks for missing the_data fields are
+# now downgraded to soft warnings. Source intel (pybaseball/Fangraphs,
+# nba_api advanced stats) goes down often enough that strict-reject was
+# killing 30-50% of Claude's picks on bad-intel days. The hard quality
+# gates (juice cap, confidence-units match, parlay well-formed, data
+# confidence floor, slate skip) stay enforced. The 4-pick mandatory
+# floor in the prompt + this softer pre-screen produces a publishable
+# slate even when an upstream data source is partially blocked.
+DATA_PRESENCE_RULES = {
+    "mlb_hr_prop_check", "mlb_run_line_check", "mlb_under_bb_check",
+    "mlb_pitcher_k_check", "mlb_total_bases_check", "mlb_hits_check",
+    "nba_player_prop_check", "nhl_shots_check",
+}
+
+
+def rule_max_3(picks: list[Pick]) -> list[Pick]:
+    # Kept as a back-compat alias — anything still calling rule_max_3 gets
+    # the new 4-pick behavior. Will remove once all references are updated.
+    return rule_max_4(picks)
 
 
 def validate_picks(response: HandicapperResponse) -> list[Pick]:
@@ -311,19 +332,28 @@ def validate_picks(response: HandicapperResponse) -> list[Pick]:
         ]
         ok = True
         passed_names = []
+        soft_warnings = []
         for name, (passed, why) in rules:
             tag = "PASS" if passed else "FAIL"
             logger.info(f"  [{tag}] {name}: {why}")
             if passed:
                 passed_names.append(name)
+            elif name in DATA_PRESENCE_RULES:
+                # Soft fail — log a warning, mark the pick, but don't reject.
+                # Source intel is too unreliable to make data-presence a hard gate.
+                soft_warnings.append(f"{name}: {why}")
+                passed_names.append(f"{name}(soft)")
             else:
                 ok = False
                 break
         if ok:
             pick.rules_passed = passed_names
+            if soft_warnings:
+                logger.warning(f"  → ACCEPTED with soft warnings: {'; '.join(soft_warnings)}")
+            else:
+                logger.info(f"  → ACCEPTED")
             valid.append(pick)
-            logger.info(f"  → ACCEPTED")
         else:
             logger.warning(f"  → REJECTED")
 
-    return rule_max_3(valid)
+    return rule_max_4(valid)
