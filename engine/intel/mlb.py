@@ -151,6 +151,72 @@ def _pybaseball_pitchers(season: int) -> list[dict]:
         return _PB_PITCHING_CACHE
 
 
+_MLB_TEAMS_CACHE: Optional[dict[str, int]] = None
+_MLB_TEAM_HITTING_CACHE: dict[tuple[int, int], dict] = {}
+
+
+def _mlb_team_id_by_name(team_name: str) -> Optional[int]:
+    """Map MLB team display name → team id. Cached process-wide so we make
+    one /teams call per morning regardless of how many games are on the
+    slate. Indexed by every reasonable form of the team name (full, club,
+    short, abbreviation) so the schedule layer's various naming styles all
+    resolve."""
+    global _MLB_TEAMS_CACHE
+    if _MLB_TEAMS_CACHE is None:
+        try:
+            r = requests.get(f"{MLB_BASE}/teams", params={"sportId": 1},
+                             timeout=10, headers={"User-Agent": "TheEdge/1.0"})
+            r.raise_for_status()
+            _MLB_TEAMS_CACHE = {}
+            for t in r.json().get("teams", []):
+                tid = t.get("id")
+                if not tid:
+                    continue
+                for key in (t.get("name"), t.get("teamName"), t.get("clubName"),
+                            t.get("shortName"), t.get("abbreviation")):
+                    if key:
+                        _MLB_TEAMS_CACHE[key.lower()] = tid
+        except Exception as e:
+            logger.warning(f"MLB Stats API /teams fetch failed: {e}")
+            _MLB_TEAMS_CACHE = {}
+    nl = (team_name or "").lower()
+    if not nl:
+        return None
+    if nl in _MLB_TEAMS_CACHE:
+        return _MLB_TEAMS_CACHE[nl]
+    for key, tid in _MLB_TEAMS_CACHE.items():
+        if key in nl or nl in key:
+            return tid
+    return None
+
+
+def _mlb_team_hitting_season(team_id: int, season: int) -> dict:
+    """Fetch a team's season hitting stats from MLB Stats API. Used as
+    the primary source for team offense data when pybaseball/Fangraphs
+    is blocked (Fangraphs has 403'd pybaseball's UA since mid-May 2026).
+    Returns the raw stat dict (avg, ops, runs, gamesPlayed, etc.); empty
+    dict on any failure."""
+    key = (team_id, season)
+    if key in _MLB_TEAM_HITTING_CACHE:
+        return _MLB_TEAM_HITTING_CACHE[key]
+    try:
+        url = f"{MLB_BASE}/teams/{team_id}/stats"
+        params = {"stats": "season", "group": "hitting", "season": season}
+        r = requests.get(url, params=params, timeout=10,
+                         headers={"User-Agent": "TheEdge/1.0"})
+        r.raise_for_status()
+        for s in r.json().get("stats", []):
+            for split in s.get("splits", []):
+                stat = split.get("stat") or {}
+                if stat:
+                    _MLB_TEAM_HITTING_CACHE[key] = stat
+                    return stat
+    except Exception as e:
+        logger.debug(f"MLB team hitting fetch failed (team_id={team_id}): {e}")
+    _MLB_TEAM_HITTING_CACHE[key] = {}
+    return _MLB_TEAM_HITTING_CACHE[key]
+
+
 def _pybaseball_team_batting(season: int) -> list[dict]:
     global _PB_TEAM_BATTING_CACHE
     if _PB_TEAM_BATTING_CACHE is not None:
@@ -271,6 +337,7 @@ def _build_pitcher_profile(p_data: dict, throws: str, season: int) -> PitcherPro
 
 def _build_offense_profile(team_name: str, opposing_throws: str, season: int) -> OffenseProfile:
     profile = OffenseProfile()
+    # Primary: pybaseball (has wRC+, the gold-standard offense metric).
     try:
         rows = _pybaseball_team_batting(season)
         team_row = _find_pb_team(rows, team_name)
@@ -279,7 +346,18 @@ def _build_offense_profile(team_name: str, opposing_throws: str, season: int) ->
             profile.runs_per_game_season = _to_float(team_row.get("R/G") or team_row.get("R") and (team_row["R"] / max(team_row.get("G", 1), 1)))
     except Exception as e:
         logger.debug(f"team_batting lookup failed for {team_name}: {e}")
-    # vs LHP / RHP requires split fetch which is heavier — leave None for v1, Claude can flag missing
+    # Fallback: MLB Stats API (no wRC+ — that's a Fangraphs proprietary
+    # metric — but R/G is the field the validator's run-line rule and
+    # Claude's slate-analysis actually need). Fires when pybaseball
+    # returned nothing or failed silently (e.g., Fangraphs 403'd today).
+    if profile.runs_per_game_season is None:
+        team_id = _mlb_team_id_by_name(team_name)
+        if team_id:
+            stat = _mlb_team_hitting_season(team_id, season)
+            runs = _to_float(stat.get("runs"))
+            games = _to_float(stat.get("gamesPlayed"))
+            if runs is not None and games and games > 0:
+                profile.runs_per_game_season = round(runs / games, 2)
     return profile
 
 
