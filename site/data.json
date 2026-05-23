@@ -1,11 +1,582 @@
 {
-  "generated_at": "2026-05-23T11:44:04.795845-04:00",
+  "generated_at": "2026-05-23T11:54:55.655964-04:00",
   "today": "2026-05-23",
   "system_paused": false,
   "pause_reason": "",
-  "today_picks": [],
+  "today_picks": [
+    {
+      "id": "20260523-MLB-HOU-CHC-TOTAL",
+      "sport": "MLB",
+      "game": "HOU @ CHC",
+      "first_pitch_iso": "2026-05-23T18:20Z",
+      "pick": "Under 7.5",
+      "best_book": "BetMGM",
+      "best_odds": "-115",
+      "book_prices": {
+        "draftkings": "-117",
+        "fanduel": "-118",
+        "betmgm": "-115"
+      },
+      "book_links": {
+        "fanduel": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.580435159&selectionId=7017906",
+        "draftkings": "https://sportsbook.draftkings.com/?outcomes=0OU84894244U750_3",
+        "betmgm": "https://sports.nj.betmgm.com/en/sports?options=19435697-1503766941-2150752232&type=Single"
+      },
+      "market": "TOTAL",
+      "confidence": 3,
+      "units": 1.0,
+      "win_probability": 0.57,
+      "ladder_designation": false,
+      "data_confidence": 0.65,
+      "rules_passed": [
+        "max_juice",
+        "ladder_even_money",
+        "parlay_well_formed",
+        "confidence_units_match",
+        "data_confidence_floor",
+        "pick_type_allowed",
+        "mlb_hr_prop_check",
+        "mlb_run_line_check",
+        "mlb_under_bb_check",
+        "no_same_game_opposite"
+      ],
+      "locked": true,
+      "late_add": false,
+      "late_add_reason": "",
+      "bonus_pick": false,
+      "event_type": "",
+      "event_name": "",
+      "legs": [],
+      "headline": "Wind 9 mph in from left at Wrigley, Teng pitching to a 2.61 ERA, the over is fighting physics.",
+      "the_thesis": "Wrigley with the wind blowing in is a different ballpark \u2014 the IntelPack flags a -11.7% HR impact from a 9 mph wind in from left field, and 57\u00b0F dense air makes the ball travel even less. Wrigley is a 1.00 HR factor neutral park; with this wind, it plays as one of the most HR-suppressing parks in the league for the day. That alone shaves about a quarter run off the expected total.\n\nKai-Wei Teng has a 2.61 ERA in 31 IP \u2014 a moderate sample but the underlying ratios support it (24% K, 0.87 HR/9). He'll be facing a Cubs offense that has plenty of fly-ball hitters who lose value in this wind. Colin Rea is the bigger question (4.98 ERA, 1.15 HR/9) \u2014 he's the path to the over busting \u2014 but even Rea's HR-prone tendencies get neutralized by the wind. A guy averaging 1.15 HR/9 in normal conditions becomes ~0.95 HR/9 with the wind blowing in.\n\nThis is a smaller-edge play than the other two \u2014 confidence 3, one unit \u2014 but the weather signal is real and the line at 7.5 doesn't fully price it in.",
+      "the_data": [
+        {
+          "label": "Teng ERA / WHIP",
+          "value": "2.61 / 1.10",
+          "context": "Strong, modest sample (31 IP)"
+        },
+        {
+          "label": "Teng HR/9",
+          "value": "0.87",
+          "context": "Above-average HR suppression"
+        },
+        {
+          "label": "Rea ERA / HR9",
+          "value": "4.98 / 1.15",
+          "context": "The wobble point \u2014 but wind helps"
+        },
+        {
+          "label": "Wrigley wind",
+          "value": "9 mph in from LF",
+          "context": "HR impact -11.7%"
+        },
+        {
+          "label": "Game-time temp",
+          "value": "57\u00b0F",
+          "context": "Cold, dense air, ball doesn't travel"
+        },
+        {
+          "label": "Total line",
+          "value": "7.5",
+          "context": "Hasn't moved despite the wind"
+        }
+      ],
+      "the_market": "Total stayed at 7.5 across all books \u2014 the under is the juiced side (-115 to -118), which tells me the market is aware of the weather but hasn't fully adjusted the line down to 7.0.",
+      "weather_park": "Wrigley Field, 57\u00b0F, 9 mph wind blowing in from left. HR impact -11.7% per intel. This is the kind of day where well-struck balls die at the warning track.",
+      "case_against": "Rea is the wobble. If the Cubs' #1 starter goes out and gets shelled for 5 in 4 innings, the wind doesn't matter \u2014 the over comes home on singles and doubles. Houston's offense is also good enough to manufacture runs without homers. And Teng has only 31 IP on the year, so there's a regression risk \u2014 his true talent might be more like a 4.00 ERA arm having a hot stretch.",
+      "what_were_betting_on": "Wind suppressing the HR component, Teng going 5+ giving up 2 or fewer, Rea grinding through 4-5 allowing 3, total finishes at 5-7.",
+      "scott_bot_quip": "Wind in at Wrigley in May, 57 degrees. The boys know what time it is.",
+      "ladder_note": "",
+      "date": "2026-05-23",
+      "status": "PEND",
+      "units_result": null,
+      "clv_cents": null,
+      "result_score": null,
+      "graded_at": null,
+      "slate_assessment": "Sixteen-game MLB main, a Cavs-Knicks NBA matchup, and a Canes-Habs NHL game. Two pitching mismatches stand out \u2014 Wheeler at home vs Cecconi, and Skenes vs Corbin in Toronto.",
+      "executive_summary": "Big board today \u2014 16 MLB, one NBA, one NHL \u2014 but the edges live with the aces. Zack Wheeler (1.99 ERA, 0.88 WHIP) draws Slade Cecconi and a 5.16 ERA at Citizens Bank Park, and Paul Skenes (2.62 ERA, 0.71 WHIP) gets Patrick Corbin in Toronto. Cubs-Astros at Wrigley has 9 mph blowing in from left, suppressing HRs ~11%. Three plays, all pitcher-driven. Ladder rides with Wheeler \u2014 highest floor on the board.",
+      "slate_analysis": "Sixteen MLB games, a Cavs-Knicks playoff-flavored matchup at Rocket Arena, and Hurricanes-Canadiens in Carolina. The MLB pricing climate is soft \u2014 lots of pick'em-ish games (CIN/STL game 1 at -106/-110, SF/CHW at -115/-102, MIA/NYM at -112/-102) where the books don't see clear separation. That tells me the edges, if they exist, live in the pitching matchups where one side is wildly mispriced relative to the arm on the mound.\n\nFour candidates rose during the review. Wheeler vs Cecconi at Citizens Bank: a 1.99 ERA / 0.88 WHIP / 0.29 HR/9 starter against a 5.16 ERA / 1.55 HR/9 arm. The under 7.0 is the cleaner play than laying -188 on the Phillies. Skenes vs Corbin in Toronto: 2.62 ERA / 0.71 WHIP / 30.3% K-rate against a 4.23 ERA Corbin with a 15% K-rate; Pirates ML at -154 is fair but the under 7.5 at -114 is the angle. Cubs vs Astros at Wrigley with 9 mph wind blowing straight in from left (HR impact -11.7%) and Teng (2.61 ERA) on the mound \u2014 under 7.5 is in play. Mets-Marlins at loanDepot: two solid arms (Meyer 2.85, Peralta 3.31) in a pitcher's park (0.94 runs PF, 0.86 HR PF) \u2014 under 7.5 has merit but the line is already shaded.\n\nWhat got cut: Mets-Marlins under 7.5 \u2014 line already reflects the matchup, no edge after de-vig. Phillies ML \u2014 -188 juice exceeds our -150 straight-bet cap, so it can only live as a parlay leg. Padres-A's under 8.0 \u2014 Giolito has 5 IP this season, sample too thin, data confidence below 0.6. Braves ML at -170 \u2014 over our juice cap. Cavs -2.5 \u2014 no playoff series context in the pack, can't justify NBA pick blind. Canes ML at -210 \u2014 juice cap and we don't have NHL form data.\n\nThe three that survived: Wheeler/Cecconi under 7.0 (the cleanest pitching mismatch on the board favoring suppression), Skenes/Corbin under 7.5 (ace + dome + Skenes' 0.71 WHIP), and Cubs-Astros under 7.5 (weather + Teng's form). Ladder is Wheeler under \u2014 best floor because Wheeler's HR/9 of 0.29 is genuinely elite and Cecconi gives up 1.55 HR/9, so even if one side scores, the other side stays quiet. Floor over ceiling, every time.",
+      "slate_vibe": "NORMAL",
+      "published_at": "2026-05-23T11:54:55.651504-04:00"
+    },
+    {
+      "id": "20260523-MLB-PIT-TOR-TOTAL",
+      "sport": "MLB",
+      "game": "PIT @ TOR",
+      "first_pitch_iso": "2026-05-23T19:07Z",
+      "pick": "Under 7.5",
+      "best_book": "DraftKings",
+      "best_odds": "-114",
+      "book_prices": {
+        "draftkings": "-114",
+        "fanduel": "-115",
+        "betmgm": "-115"
+      },
+      "book_links": {
+        "fanduel": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.580435371&selectionId=7017906",
+        "betmgm": "https://sports.nj.betmgm.com/en/sports?options=19435698-1503767040-2150752448&type=Single",
+        "draftkings": "https://sportsbook.draftkings.com/?outcomes=0OU84894245U750_3"
+      },
+      "market": "TOTAL",
+      "confidence": 4,
+      "units": 1.5,
+      "win_probability": 0.58,
+      "ladder_designation": false,
+      "data_confidence": 0.7,
+      "rules_passed": [
+        "max_juice",
+        "ladder_even_money",
+        "parlay_well_formed",
+        "confidence_units_match",
+        "data_confidence_floor",
+        "pick_type_allowed",
+        "mlb_hr_prop_check",
+        "mlb_run_line_check",
+        "mlb_under_bb_check",
+        "no_same_game_opposite"
+      ],
+      "locked": true,
+      "late_add": false,
+      "late_add_reason": "",
+      "bonus_pick": false,
+      "event_type": "",
+      "event_name": "",
+      "legs": [],
+      "headline": "Skenes brings a 0.71 WHIP into a dome, and Corbin's softness is priced into the ML, not the total.",
+      "the_thesis": "Paul Skenes is doing things in his sophomore year that nobody else in baseball is doing. A 2.62 ERA is excellent on its own, but the 0.71 WHIP is otherworldly \u2014 fewer than three baserunners per nine innings. His 30.3% K-rate means he's not relying on weak contact, he's just missing bats. Toronto's lineup has talent but a 30% K-rate arm in a dome (no wind variable) is a quiet-bats recipe.\n\nPatrick Corbin gets pegged as a punching bag, but his 4.23 ERA isn't disastrous \u2014 and his 0.94 HR/9 in Rogers Centre is actually fine. His 15% K-rate is the concern (lets balls in play), but the Pirates lineup isn't an offensive juggernaut. The Pirates ML at -154 is fair-to-rich. The under 7.5 captures both halves: Skenes dominates (likely), Corbin gets through 5 giving up 2-3 (very possible). 2 Pirates runs + 3 Toronto runs = 5 = under cashes comfortably.\n\nThe key here is Skenes' 18.3 IP per start in his last three \u2014 he's pitching deep, limiting bullpen exposure, and Pittsburgh's pen has been steady. Even if Corbin gives up 4, Toronto needs to score multiple runs off Skenes, and that's the bet against.",
+      "the_data": [
+        {
+          "label": "Skenes ERA / WHIP",
+          "value": "2.62 / 0.71",
+          "context": "Top-3 starter in MLB"
+        },
+        {
+          "label": "Skenes K%",
+          "value": "30.3%",
+          "context": "Elite swing-and-miss"
+        },
+        {
+          "label": "Skenes IP/start (L3)",
+          "value": "18.33",
+          "context": "Going deep \u2014 limits bullpen exposure"
+        },
+        {
+          "label": "Corbin ERA / HR9",
+          "value": "4.23 / 0.94",
+          "context": "Mediocre but not disastrous"
+        },
+        {
+          "label": "Corbin K%",
+          "value": "15.0%",
+          "context": "Below-average \u2014 concern for damage"
+        },
+        {
+          "label": "Rogers Centre",
+          "value": "Dome, 1.02 runs PF",
+          "context": "Neutral park, no wind variable"
+        }
+      ],
+      "the_market": "Total opened 7.5 and held. Under priced at -114/-115 across all three books \u2014 slight juice on the under suggests sharps are aware of the Skenes effect but the line hasn't moved to 7.0.",
+      "weather_park": "Rogers Centre dome \u2014 neutral park factors (1.02 runs, 1.04 HR), no weather variable.",
+      "case_against": "Corbin can implode. A 5-run inning against him isn't unusual \u2014 his floor is genuinely terrible. If Toronto puts up a crooked number in the 3rd or 4th, suddenly the Pirates only need to scratch 2-3 off Corbin or his replacement to clear 7.5. Toronto's lineup is also better against lefties than righties in past years, and Corbin is a lefty. If Vlad Jr. or Springer goes deep, this gets uncomfortable fast.",
+      "what_were_betting_on": "Skenes going 7 IP allowing 1-2 runs, Corbin grinding through 5 giving up 2-3, no crooked-number innings on either side.",
+      "scott_bot_quip": "Skenes against anybody in a dome is a fade-the-bats spot. We'll take the math.",
+      "ladder_note": "",
+      "date": "2026-05-23",
+      "status": "PEND",
+      "units_result": null,
+      "clv_cents": null,
+      "result_score": null,
+      "graded_at": null,
+      "slate_assessment": "Sixteen-game MLB main, a Cavs-Knicks NBA matchup, and a Canes-Habs NHL game. Two pitching mismatches stand out \u2014 Wheeler at home vs Cecconi, and Skenes vs Corbin in Toronto.",
+      "executive_summary": "Big board today \u2014 16 MLB, one NBA, one NHL \u2014 but the edges live with the aces. Zack Wheeler (1.99 ERA, 0.88 WHIP) draws Slade Cecconi and a 5.16 ERA at Citizens Bank Park, and Paul Skenes (2.62 ERA, 0.71 WHIP) gets Patrick Corbin in Toronto. Cubs-Astros at Wrigley has 9 mph blowing in from left, suppressing HRs ~11%. Three plays, all pitcher-driven. Ladder rides with Wheeler \u2014 highest floor on the board.",
+      "slate_analysis": "Sixteen MLB games, a Cavs-Knicks playoff-flavored matchup at Rocket Arena, and Hurricanes-Canadiens in Carolina. The MLB pricing climate is soft \u2014 lots of pick'em-ish games (CIN/STL game 1 at -106/-110, SF/CHW at -115/-102, MIA/NYM at -112/-102) where the books don't see clear separation. That tells me the edges, if they exist, live in the pitching matchups where one side is wildly mispriced relative to the arm on the mound.\n\nFour candidates rose during the review. Wheeler vs Cecconi at Citizens Bank: a 1.99 ERA / 0.88 WHIP / 0.29 HR/9 starter against a 5.16 ERA / 1.55 HR/9 arm. The under 7.0 is the cleaner play than laying -188 on the Phillies. Skenes vs Corbin in Toronto: 2.62 ERA / 0.71 WHIP / 30.3% K-rate against a 4.23 ERA Corbin with a 15% K-rate; Pirates ML at -154 is fair but the under 7.5 at -114 is the angle. Cubs vs Astros at Wrigley with 9 mph wind blowing straight in from left (HR impact -11.7%) and Teng (2.61 ERA) on the mound \u2014 under 7.5 is in play. Mets-Marlins at loanDepot: two solid arms (Meyer 2.85, Peralta 3.31) in a pitcher's park (0.94 runs PF, 0.86 HR PF) \u2014 under 7.5 has merit but the line is already shaded.\n\nWhat got cut: Mets-Marlins under 7.5 \u2014 line already reflects the matchup, no edge after de-vig. Phillies ML \u2014 -188 juice exceeds our -150 straight-bet cap, so it can only live as a parlay leg. Padres-A's under 8.0 \u2014 Giolito has 5 IP this season, sample too thin, data confidence below 0.6. Braves ML at -170 \u2014 over our juice cap. Cavs -2.5 \u2014 no playoff series context in the pack, can't justify NBA pick blind. Canes ML at -210 \u2014 juice cap and we don't have NHL form data.\n\nThe three that survived: Wheeler/Cecconi under 7.0 (the cleanest pitching mismatch on the board favoring suppression), Skenes/Corbin under 7.5 (ace + dome + Skenes' 0.71 WHIP), and Cubs-Astros under 7.5 (weather + Teng's form). Ladder is Wheeler under \u2014 best floor because Wheeler's HR/9 of 0.29 is genuinely elite and Cecconi gives up 1.55 HR/9, so even if one side scores, the other side stays quiet. Floor over ceiling, every time.",
+      "slate_vibe": "NORMAL",
+      "published_at": "2026-05-23T11:54:55.651392-04:00"
+    },
+    {
+      "id": "20260523-MLB-CLE-PHI-TOTAL",
+      "sport": "MLB",
+      "game": "CLE @ PHI",
+      "first_pitch_iso": "2026-05-23T20:05Z",
+      "pick": "Under 7.0",
+      "best_book": "FanDuel",
+      "best_odds": "-104",
+      "book_prices": {
+        "draftkings": "-106",
+        "fanduel": "-104",
+        "betmgm": "-105"
+      },
+      "book_links": {
+        "fanduel": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.580436384&selectionId=7017906",
+        "draftkings": "https://sportsbook.draftkings.com/?outcomes=0OU84894247U700_3",
+        "betmgm": "https://sports.nj.betmgm.com/en/sports?options=19435699-1503767143-2150752672&type=Single"
+      },
+      "market": "TOTAL",
+      "confidence": 4,
+      "units": 1.5,
+      "win_probability": 0.6,
+      "ladder_designation": true,
+      "data_confidence": 0.75,
+      "rules_passed": [
+        "max_juice",
+        "ladder_even_money",
+        "parlay_well_formed",
+        "confidence_units_match",
+        "data_confidence_floor",
+        "pick_type_allowed",
+        "mlb_hr_prop_check",
+        "mlb_run_line_check",
+        "mlb_under_bb_check",
+        "no_same_game_opposite"
+      ],
+      "locked": true,
+      "late_add": false,
+      "late_add_reason": "",
+      "bonus_pick": false,
+      "event_type": "",
+      "event_name": "",
+      "legs": [],
+      "headline": "Wheeler's 1.99 ERA and a 0.29 HR/9 floor against a Cleveland lineup facing the league's best arm.",
+      "the_thesis": "Zack Wheeler is the best pitcher on the board today and it's not close. His 1.99 ERA is backed by a 0.88 WHIP \u2014 that means barely one baserunner per inning, the kind of suppression that strangles totals. The number that jumps off the page is his HR/9 of 0.29, which is genuinely elite (top-3 in MLB territory). Citizens Bank is a HR-boosting park (1.10 HR factor) and Wheeler is still keeping the ball in it.\n\nOpposite him, Slade Cecconi is exactly the kind of arm you fade when the total is 7. His 5.16 ERA, 1.49 WHIP, and 1.55 HR/9 are bottom-tier \u2014 he gives up traffic and he gives up damage. The Phillies offense isn't elite-elite but they have plenty of run-producers; if anyone is scoring today it's them, and even 4-5 Phillies runs still keeps this number alive on the under as long as Wheeler holds Cleveland to 2 or fewer, which is the expected outcome.\n\nThe under 7.0 is the play because the ML at -188 is too expensive \u2014 we're capturing the same thesis (Wheeler dominates, Cleveland scores \u22642) at a much better price. We need 6 runs or fewer combined, not a Phillies win specifically.",
+      "the_data": [
+        {
+          "label": "Wheeler ERA / WHIP",
+          "value": "1.99 / 0.88",
+          "context": "Elite, top-5 in MLB"
+        },
+        {
+          "label": "Wheeler HR/9",
+          "value": "0.29",
+          "context": "Truly elite, almost never gives up the long ball"
+        },
+        {
+          "label": "Cecconi ERA / WHIP",
+          "value": "5.16 / 1.49",
+          "context": "Below-replacement starter"
+        },
+        {
+          "label": "Cecconi HR/9",
+          "value": "1.55",
+          "context": "Bottom-quartile, gives up too many barrels"
+        },
+        {
+          "label": "Total line",
+          "value": "7.0",
+          "context": "Already shaded down from typical Philly home total"
+        },
+        {
+          "label": "Citizens Bank HR factor",
+          "value": "1.10",
+          "context": "HR-boosting, the one cause for concern"
+        }
+      ],
+      "the_market": "Total opened 7.0 and sits at 7.0 across all three books \u2014 no movement, but the under is the cheaper side at -104 (FD), suggesting the market is balanced and hasn't been forced lower despite Wheeler on the mound. Books holding the number means the line is sharp.",
+      "weather_park": "Citizens Bank Park is a HR-boosting venue (1.10 HR factor) \u2014 the only real concern, mitigated by Wheeler's 0.29 HR/9.",
+      "case_against": "Wheeler has 31.2 IP on the year \u2014 that's a smallish sample if he's not as locked in as the numbers suggest. Citizens Bank can turn a routine fly ball into a 3-run shot. If Cecconi grinds out 5 unspectacular innings and the Phillies' bullpen has a leaky middle inning, you can see a 5-3 final that pushes or busts the under. The HR-friendly park is the one variable working against the play.",
+      "what_were_betting_on": "Wheeler going 6-7 innings allowing 1-2 runs, Cleveland's offense staying quiet, and Philly winning a tidy 4-2 or 3-1 game.",
+      "scott_bot_quip": "When the best arm in baseball faces a 5+ ERA, you don't pay the moneyline tax. You take the under.",
+      "ladder_note": "Best floor on the board \u2014 Wheeler's HR/9 of 0.29 is the single most under-friendly data point on the slate, and we're getting near-even money at -104. Even if Philly hits Cecconi for 4-5 runs, Wheeler holds Cleveland to 1-2 and the total stays alive.",
+      "date": "2026-05-23",
+      "status": "PEND",
+      "units_result": null,
+      "clv_cents": null,
+      "result_score": null,
+      "graded_at": null,
+      "slate_assessment": "Sixteen-game MLB main, a Cavs-Knicks NBA matchup, and a Canes-Habs NHL game. Two pitching mismatches stand out \u2014 Wheeler at home vs Cecconi, and Skenes vs Corbin in Toronto.",
+      "executive_summary": "Big board today \u2014 16 MLB, one NBA, one NHL \u2014 but the edges live with the aces. Zack Wheeler (1.99 ERA, 0.88 WHIP) draws Slade Cecconi and a 5.16 ERA at Citizens Bank Park, and Paul Skenes (2.62 ERA, 0.71 WHIP) gets Patrick Corbin in Toronto. Cubs-Astros at Wrigley has 9 mph blowing in from left, suppressing HRs ~11%. Three plays, all pitcher-driven. Ladder rides with Wheeler \u2014 highest floor on the board.",
+      "slate_analysis": "Sixteen MLB games, a Cavs-Knicks playoff-flavored matchup at Rocket Arena, and Hurricanes-Canadiens in Carolina. The MLB pricing climate is soft \u2014 lots of pick'em-ish games (CIN/STL game 1 at -106/-110, SF/CHW at -115/-102, MIA/NYM at -112/-102) where the books don't see clear separation. That tells me the edges, if they exist, live in the pitching matchups where one side is wildly mispriced relative to the arm on the mound.\n\nFour candidates rose during the review. Wheeler vs Cecconi at Citizens Bank: a 1.99 ERA / 0.88 WHIP / 0.29 HR/9 starter against a 5.16 ERA / 1.55 HR/9 arm. The under 7.0 is the cleaner play than laying -188 on the Phillies. Skenes vs Corbin in Toronto: 2.62 ERA / 0.71 WHIP / 30.3% K-rate against a 4.23 ERA Corbin with a 15% K-rate; Pirates ML at -154 is fair but the under 7.5 at -114 is the angle. Cubs vs Astros at Wrigley with 9 mph wind blowing straight in from left (HR impact -11.7%) and Teng (2.61 ERA) on the mound \u2014 under 7.5 is in play. Mets-Marlins at loanDepot: two solid arms (Meyer 2.85, Peralta 3.31) in a pitcher's park (0.94 runs PF, 0.86 HR PF) \u2014 under 7.5 has merit but the line is already shaded.\n\nWhat got cut: Mets-Marlins under 7.5 \u2014 line already reflects the matchup, no edge after de-vig. Phillies ML \u2014 -188 juice exceeds our -150 straight-bet cap, so it can only live as a parlay leg. Padres-A's under 8.0 \u2014 Giolito has 5 IP this season, sample too thin, data confidence below 0.6. Braves ML at -170 \u2014 over our juice cap. Cavs -2.5 \u2014 no playoff series context in the pack, can't justify NBA pick blind. Canes ML at -210 \u2014 juice cap and we don't have NHL form data.\n\nThe three that survived: Wheeler/Cecconi under 7.0 (the cleanest pitching mismatch on the board favoring suppression), Skenes/Corbin under 7.5 (ace + dome + Skenes' 0.71 WHIP), and Cubs-Astros under 7.5 (weather + Teng's form). Ladder is Wheeler under \u2014 best floor because Wheeler's HR/9 of 0.29 is genuinely elite and Cecconi gives up 1.55 HR/9, so even if one side scores, the other side stays quiet. Floor over ceiling, every time.",
+      "slate_vibe": "NORMAL",
+      "published_at": "2026-05-23T11:54:55.651224-04:00"
+    }
+  ],
   "today_bonus_picks": [],
   "all_picks": [
+    {
+      "id": "20260523-MLB-HOU-CHC-TOTAL",
+      "sport": "MLB",
+      "game": "HOU @ CHC",
+      "first_pitch_iso": "2026-05-23T18:20Z",
+      "pick": "Under 7.5",
+      "best_book": "BetMGM",
+      "best_odds": "-115",
+      "book_prices": {
+        "draftkings": "-117",
+        "fanduel": "-118",
+        "betmgm": "-115"
+      },
+      "book_links": {
+        "fanduel": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.580435159&selectionId=7017906",
+        "draftkings": "https://sportsbook.draftkings.com/?outcomes=0OU84894244U750_3",
+        "betmgm": "https://sports.nj.betmgm.com/en/sports?options=19435697-1503766941-2150752232&type=Single"
+      },
+      "market": "TOTAL",
+      "confidence": 3,
+      "units": 1.0,
+      "win_probability": 0.57,
+      "ladder_designation": false,
+      "data_confidence": 0.65,
+      "rules_passed": [
+        "max_juice",
+        "ladder_even_money",
+        "parlay_well_formed",
+        "confidence_units_match",
+        "data_confidence_floor",
+        "pick_type_allowed",
+        "mlb_hr_prop_check",
+        "mlb_run_line_check",
+        "mlb_under_bb_check",
+        "no_same_game_opposite"
+      ],
+      "locked": true,
+      "late_add": false,
+      "late_add_reason": "",
+      "bonus_pick": false,
+      "event_type": "",
+      "event_name": "",
+      "legs": [],
+      "headline": "Wind 9 mph in from left at Wrigley, Teng pitching to a 2.61 ERA, the over is fighting physics.",
+      "the_thesis": "Wrigley with the wind blowing in is a different ballpark \u2014 the IntelPack flags a -11.7% HR impact from a 9 mph wind in from left field, and 57\u00b0F dense air makes the ball travel even less. Wrigley is a 1.00 HR factor neutral park; with this wind, it plays as one of the most HR-suppressing parks in the league for the day. That alone shaves about a quarter run off the expected total.\n\nKai-Wei Teng has a 2.61 ERA in 31 IP \u2014 a moderate sample but the underlying ratios support it (24% K, 0.87 HR/9). He'll be facing a Cubs offense that has plenty of fly-ball hitters who lose value in this wind. Colin Rea is the bigger question (4.98 ERA, 1.15 HR/9) \u2014 he's the path to the over busting \u2014 but even Rea's HR-prone tendencies get neutralized by the wind. A guy averaging 1.15 HR/9 in normal conditions becomes ~0.95 HR/9 with the wind blowing in.\n\nThis is a smaller-edge play than the other two \u2014 confidence 3, one unit \u2014 but the weather signal is real and the line at 7.5 doesn't fully price it in.",
+      "the_data": [
+        {
+          "label": "Teng ERA / WHIP",
+          "value": "2.61 / 1.10",
+          "context": "Strong, modest sample (31 IP)"
+        },
+        {
+          "label": "Teng HR/9",
+          "value": "0.87",
+          "context": "Above-average HR suppression"
+        },
+        {
+          "label": "Rea ERA / HR9",
+          "value": "4.98 / 1.15",
+          "context": "The wobble point \u2014 but wind helps"
+        },
+        {
+          "label": "Wrigley wind",
+          "value": "9 mph in from LF",
+          "context": "HR impact -11.7%"
+        },
+        {
+          "label": "Game-time temp",
+          "value": "57\u00b0F",
+          "context": "Cold, dense air, ball doesn't travel"
+        },
+        {
+          "label": "Total line",
+          "value": "7.5",
+          "context": "Hasn't moved despite the wind"
+        }
+      ],
+      "the_market": "Total stayed at 7.5 across all books \u2014 the under is the juiced side (-115 to -118), which tells me the market is aware of the weather but hasn't fully adjusted the line down to 7.0.",
+      "weather_park": "Wrigley Field, 57\u00b0F, 9 mph wind blowing in from left. HR impact -11.7% per intel. This is the kind of day where well-struck balls die at the warning track.",
+      "case_against": "Rea is the wobble. If the Cubs' #1 starter goes out and gets shelled for 5 in 4 innings, the wind doesn't matter \u2014 the over comes home on singles and doubles. Houston's offense is also good enough to manufacture runs without homers. And Teng has only 31 IP on the year, so there's a regression risk \u2014 his true talent might be more like a 4.00 ERA arm having a hot stretch.",
+      "what_were_betting_on": "Wind suppressing the HR component, Teng going 5+ giving up 2 or fewer, Rea grinding through 4-5 allowing 3, total finishes at 5-7.",
+      "scott_bot_quip": "Wind in at Wrigley in May, 57 degrees. The boys know what time it is.",
+      "ladder_note": "",
+      "date": "2026-05-23",
+      "status": "PEND",
+      "units_result": null,
+      "clv_cents": null,
+      "result_score": null,
+      "graded_at": null,
+      "slate_assessment": "Sixteen-game MLB main, a Cavs-Knicks NBA matchup, and a Canes-Habs NHL game. Two pitching mismatches stand out \u2014 Wheeler at home vs Cecconi, and Skenes vs Corbin in Toronto.",
+      "executive_summary": "Big board today \u2014 16 MLB, one NBA, one NHL \u2014 but the edges live with the aces. Zack Wheeler (1.99 ERA, 0.88 WHIP) draws Slade Cecconi and a 5.16 ERA at Citizens Bank Park, and Paul Skenes (2.62 ERA, 0.71 WHIP) gets Patrick Corbin in Toronto. Cubs-Astros at Wrigley has 9 mph blowing in from left, suppressing HRs ~11%. Three plays, all pitcher-driven. Ladder rides with Wheeler \u2014 highest floor on the board.",
+      "slate_analysis": "Sixteen MLB games, a Cavs-Knicks playoff-flavored matchup at Rocket Arena, and Hurricanes-Canadiens in Carolina. The MLB pricing climate is soft \u2014 lots of pick'em-ish games (CIN/STL game 1 at -106/-110, SF/CHW at -115/-102, MIA/NYM at -112/-102) where the books don't see clear separation. That tells me the edges, if they exist, live in the pitching matchups where one side is wildly mispriced relative to the arm on the mound.\n\nFour candidates rose during the review. Wheeler vs Cecconi at Citizens Bank: a 1.99 ERA / 0.88 WHIP / 0.29 HR/9 starter against a 5.16 ERA / 1.55 HR/9 arm. The under 7.0 is the cleaner play than laying -188 on the Phillies. Skenes vs Corbin in Toronto: 2.62 ERA / 0.71 WHIP / 30.3% K-rate against a 4.23 ERA Corbin with a 15% K-rate; Pirates ML at -154 is fair but the under 7.5 at -114 is the angle. Cubs vs Astros at Wrigley with 9 mph wind blowing straight in from left (HR impact -11.7%) and Teng (2.61 ERA) on the mound \u2014 under 7.5 is in play. Mets-Marlins at loanDepot: two solid arms (Meyer 2.85, Peralta 3.31) in a pitcher's park (0.94 runs PF, 0.86 HR PF) \u2014 under 7.5 has merit but the line is already shaded.\n\nWhat got cut: Mets-Marlins under 7.5 \u2014 line already reflects the matchup, no edge after de-vig. Phillies ML \u2014 -188 juice exceeds our -150 straight-bet cap, so it can only live as a parlay leg. Padres-A's under 8.0 \u2014 Giolito has 5 IP this season, sample too thin, data confidence below 0.6. Braves ML at -170 \u2014 over our juice cap. Cavs -2.5 \u2014 no playoff series context in the pack, can't justify NBA pick blind. Canes ML at -210 \u2014 juice cap and we don't have NHL form data.\n\nThe three that survived: Wheeler/Cecconi under 7.0 (the cleanest pitching mismatch on the board favoring suppression), Skenes/Corbin under 7.5 (ace + dome + Skenes' 0.71 WHIP), and Cubs-Astros under 7.5 (weather + Teng's form). Ladder is Wheeler under \u2014 best floor because Wheeler's HR/9 of 0.29 is genuinely elite and Cecconi gives up 1.55 HR/9, so even if one side scores, the other side stays quiet. Floor over ceiling, every time.",
+      "slate_vibe": "NORMAL",
+      "published_at": "2026-05-23T11:54:55.651504-04:00"
+    },
+    {
+      "id": "20260523-MLB-PIT-TOR-TOTAL",
+      "sport": "MLB",
+      "game": "PIT @ TOR",
+      "first_pitch_iso": "2026-05-23T19:07Z",
+      "pick": "Under 7.5",
+      "best_book": "DraftKings",
+      "best_odds": "-114",
+      "book_prices": {
+        "draftkings": "-114",
+        "fanduel": "-115",
+        "betmgm": "-115"
+      },
+      "book_links": {
+        "fanduel": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.580435371&selectionId=7017906",
+        "betmgm": "https://sports.nj.betmgm.com/en/sports?options=19435698-1503767040-2150752448&type=Single",
+        "draftkings": "https://sportsbook.draftkings.com/?outcomes=0OU84894245U750_3"
+      },
+      "market": "TOTAL",
+      "confidence": 4,
+      "units": 1.5,
+      "win_probability": 0.58,
+      "ladder_designation": false,
+      "data_confidence": 0.7,
+      "rules_passed": [
+        "max_juice",
+        "ladder_even_money",
+        "parlay_well_formed",
+        "confidence_units_match",
+        "data_confidence_floor",
+        "pick_type_allowed",
+        "mlb_hr_prop_check",
+        "mlb_run_line_check",
+        "mlb_under_bb_check",
+        "no_same_game_opposite"
+      ],
+      "locked": true,
+      "late_add": false,
+      "late_add_reason": "",
+      "bonus_pick": false,
+      "event_type": "",
+      "event_name": "",
+      "legs": [],
+      "headline": "Skenes brings a 0.71 WHIP into a dome, and Corbin's softness is priced into the ML, not the total.",
+      "the_thesis": "Paul Skenes is doing things in his sophomore year that nobody else in baseball is doing. A 2.62 ERA is excellent on its own, but the 0.71 WHIP is otherworldly \u2014 fewer than three baserunners per nine innings. His 30.3% K-rate means he's not relying on weak contact, he's just missing bats. Toronto's lineup has talent but a 30% K-rate arm in a dome (no wind variable) is a quiet-bats recipe.\n\nPatrick Corbin gets pegged as a punching bag, but his 4.23 ERA isn't disastrous \u2014 and his 0.94 HR/9 in Rogers Centre is actually fine. His 15% K-rate is the concern (lets balls in play), but the Pirates lineup isn't an offensive juggernaut. The Pirates ML at -154 is fair-to-rich. The under 7.5 captures both halves: Skenes dominates (likely), Corbin gets through 5 giving up 2-3 (very possible). 2 Pirates runs + 3 Toronto runs = 5 = under cashes comfortably.\n\nThe key here is Skenes' 18.3 IP per start in his last three \u2014 he's pitching deep, limiting bullpen exposure, and Pittsburgh's pen has been steady. Even if Corbin gives up 4, Toronto needs to score multiple runs off Skenes, and that's the bet against.",
+      "the_data": [
+        {
+          "label": "Skenes ERA / WHIP",
+          "value": "2.62 / 0.71",
+          "context": "Top-3 starter in MLB"
+        },
+        {
+          "label": "Skenes K%",
+          "value": "30.3%",
+          "context": "Elite swing-and-miss"
+        },
+        {
+          "label": "Skenes IP/start (L3)",
+          "value": "18.33",
+          "context": "Going deep \u2014 limits bullpen exposure"
+        },
+        {
+          "label": "Corbin ERA / HR9",
+          "value": "4.23 / 0.94",
+          "context": "Mediocre but not disastrous"
+        },
+        {
+          "label": "Corbin K%",
+          "value": "15.0%",
+          "context": "Below-average \u2014 concern for damage"
+        },
+        {
+          "label": "Rogers Centre",
+          "value": "Dome, 1.02 runs PF",
+          "context": "Neutral park, no wind variable"
+        }
+      ],
+      "the_market": "Total opened 7.5 and held. Under priced at -114/-115 across all three books \u2014 slight juice on the under suggests sharps are aware of the Skenes effect but the line hasn't moved to 7.0.",
+      "weather_park": "Rogers Centre dome \u2014 neutral park factors (1.02 runs, 1.04 HR), no weather variable.",
+      "case_against": "Corbin can implode. A 5-run inning against him isn't unusual \u2014 his floor is genuinely terrible. If Toronto puts up a crooked number in the 3rd or 4th, suddenly the Pirates only need to scratch 2-3 off Corbin or his replacement to clear 7.5. Toronto's lineup is also better against lefties than righties in past years, and Corbin is a lefty. If Vlad Jr. or Springer goes deep, this gets uncomfortable fast.",
+      "what_were_betting_on": "Skenes going 7 IP allowing 1-2 runs, Corbin grinding through 5 giving up 2-3, no crooked-number innings on either side.",
+      "scott_bot_quip": "Skenes against anybody in a dome is a fade-the-bats spot. We'll take the math.",
+      "ladder_note": "",
+      "date": "2026-05-23",
+      "status": "PEND",
+      "units_result": null,
+      "clv_cents": null,
+      "result_score": null,
+      "graded_at": null,
+      "slate_assessment": "Sixteen-game MLB main, a Cavs-Knicks NBA matchup, and a Canes-Habs NHL game. Two pitching mismatches stand out \u2014 Wheeler at home vs Cecconi, and Skenes vs Corbin in Toronto.",
+      "executive_summary": "Big board today \u2014 16 MLB, one NBA, one NHL \u2014 but the edges live with the aces. Zack Wheeler (1.99 ERA, 0.88 WHIP) draws Slade Cecconi and a 5.16 ERA at Citizens Bank Park, and Paul Skenes (2.62 ERA, 0.71 WHIP) gets Patrick Corbin in Toronto. Cubs-Astros at Wrigley has 9 mph blowing in from left, suppressing HRs ~11%. Three plays, all pitcher-driven. Ladder rides with Wheeler \u2014 highest floor on the board.",
+      "slate_analysis": "Sixteen MLB games, a Cavs-Knicks playoff-flavored matchup at Rocket Arena, and Hurricanes-Canadiens in Carolina. The MLB pricing climate is soft \u2014 lots of pick'em-ish games (CIN/STL game 1 at -106/-110, SF/CHW at -115/-102, MIA/NYM at -112/-102) where the books don't see clear separation. That tells me the edges, if they exist, live in the pitching matchups where one side is wildly mispriced relative to the arm on the mound.\n\nFour candidates rose during the review. Wheeler vs Cecconi at Citizens Bank: a 1.99 ERA / 0.88 WHIP / 0.29 HR/9 starter against a 5.16 ERA / 1.55 HR/9 arm. The under 7.0 is the cleaner play than laying -188 on the Phillies. Skenes vs Corbin in Toronto: 2.62 ERA / 0.71 WHIP / 30.3% K-rate against a 4.23 ERA Corbin with a 15% K-rate; Pirates ML at -154 is fair but the under 7.5 at -114 is the angle. Cubs vs Astros at Wrigley with 9 mph wind blowing straight in from left (HR impact -11.7%) and Teng (2.61 ERA) on the mound \u2014 under 7.5 is in play. Mets-Marlins at loanDepot: two solid arms (Meyer 2.85, Peralta 3.31) in a pitcher's park (0.94 runs PF, 0.86 HR PF) \u2014 under 7.5 has merit but the line is already shaded.\n\nWhat got cut: Mets-Marlins under 7.5 \u2014 line already reflects the matchup, no edge after de-vig. Phillies ML \u2014 -188 juice exceeds our -150 straight-bet cap, so it can only live as a parlay leg. Padres-A's under 8.0 \u2014 Giolito has 5 IP this season, sample too thin, data confidence below 0.6. Braves ML at -170 \u2014 over our juice cap. Cavs -2.5 \u2014 no playoff series context in the pack, can't justify NBA pick blind. Canes ML at -210 \u2014 juice cap and we don't have NHL form data.\n\nThe three that survived: Wheeler/Cecconi under 7.0 (the cleanest pitching mismatch on the board favoring suppression), Skenes/Corbin under 7.5 (ace + dome + Skenes' 0.71 WHIP), and Cubs-Astros under 7.5 (weather + Teng's form). Ladder is Wheeler under \u2014 best floor because Wheeler's HR/9 of 0.29 is genuinely elite and Cecconi gives up 1.55 HR/9, so even if one side scores, the other side stays quiet. Floor over ceiling, every time.",
+      "slate_vibe": "NORMAL",
+      "published_at": "2026-05-23T11:54:55.651392-04:00"
+    },
+    {
+      "id": "20260523-MLB-CLE-PHI-TOTAL",
+      "sport": "MLB",
+      "game": "CLE @ PHI",
+      "first_pitch_iso": "2026-05-23T20:05Z",
+      "pick": "Under 7.0",
+      "best_book": "FanDuel",
+      "best_odds": "-104",
+      "book_prices": {
+        "draftkings": "-106",
+        "fanduel": "-104",
+        "betmgm": "-105"
+      },
+      "book_links": {
+        "fanduel": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.580436384&selectionId=7017906",
+        "draftkings": "https://sportsbook.draftkings.com/?outcomes=0OU84894247U700_3",
+        "betmgm": "https://sports.nj.betmgm.com/en/sports?options=19435699-1503767143-2150752672&type=Single"
+      },
+      "market": "TOTAL",
+      "confidence": 4,
+      "units": 1.5,
+      "win_probability": 0.6,
+      "ladder_designation": true,
+      "data_confidence": 0.75,
+      "rules_passed": [
+        "max_juice",
+        "ladder_even_money",
+        "parlay_well_formed",
+        "confidence_units_match",
+        "data_confidence_floor",
+        "pick_type_allowed",
+        "mlb_hr_prop_check",
+        "mlb_run_line_check",
+        "mlb_under_bb_check",
+        "no_same_game_opposite"
+      ],
+      "locked": true,
+      "late_add": false,
+      "late_add_reason": "",
+      "bonus_pick": false,
+      "event_type": "",
+      "event_name": "",
+      "legs": [],
+      "headline": "Wheeler's 1.99 ERA and a 0.29 HR/9 floor against a Cleveland lineup facing the league's best arm.",
+      "the_thesis": "Zack Wheeler is the best pitcher on the board today and it's not close. His 1.99 ERA is backed by a 0.88 WHIP \u2014 that means barely one baserunner per inning, the kind of suppression that strangles totals. The number that jumps off the page is his HR/9 of 0.29, which is genuinely elite (top-3 in MLB territory). Citizens Bank is a HR-boosting park (1.10 HR factor) and Wheeler is still keeping the ball in it.\n\nOpposite him, Slade Cecconi is exactly the kind of arm you fade when the total is 7. His 5.16 ERA, 1.49 WHIP, and 1.55 HR/9 are bottom-tier \u2014 he gives up traffic and he gives up damage. The Phillies offense isn't elite-elite but they have plenty of run-producers; if anyone is scoring today it's them, and even 4-5 Phillies runs still keeps this number alive on the under as long as Wheeler holds Cleveland to 2 or fewer, which is the expected outcome.\n\nThe under 7.0 is the play because the ML at -188 is too expensive \u2014 we're capturing the same thesis (Wheeler dominates, Cleveland scores \u22642) at a much better price. We need 6 runs or fewer combined, not a Phillies win specifically.",
+      "the_data": [
+        {
+          "label": "Wheeler ERA / WHIP",
+          "value": "1.99 / 0.88",
+          "context": "Elite, top-5 in MLB"
+        },
+        {
+          "label": "Wheeler HR/9",
+          "value": "0.29",
+          "context": "Truly elite, almost never gives up the long ball"
+        },
+        {
+          "label": "Cecconi ERA / WHIP",
+          "value": "5.16 / 1.49",
+          "context": "Below-replacement starter"
+        },
+        {
+          "label": "Cecconi HR/9",
+          "value": "1.55",
+          "context": "Bottom-quartile, gives up too many barrels"
+        },
+        {
+          "label": "Total line",
+          "value": "7.0",
+          "context": "Already shaded down from typical Philly home total"
+        },
+        {
+          "label": "Citizens Bank HR factor",
+          "value": "1.10",
+          "context": "HR-boosting, the one cause for concern"
+        }
+      ],
+      "the_market": "Total opened 7.0 and sits at 7.0 across all three books \u2014 no movement, but the under is the cheaper side at -104 (FD), suggesting the market is balanced and hasn't been forced lower despite Wheeler on the mound. Books holding the number means the line is sharp.",
+      "weather_park": "Citizens Bank Park is a HR-boosting venue (1.10 HR factor) \u2014 the only real concern, mitigated by Wheeler's 0.29 HR/9.",
+      "case_against": "Wheeler has 31.2 IP on the year \u2014 that's a smallish sample if he's not as locked in as the numbers suggest. Citizens Bank can turn a routine fly ball into a 3-run shot. If Cecconi grinds out 5 unspectacular innings and the Phillies' bullpen has a leaky middle inning, you can see a 5-3 final that pushes or busts the under. The HR-friendly park is the one variable working against the play.",
+      "what_were_betting_on": "Wheeler going 6-7 innings allowing 1-2 runs, Cleveland's offense staying quiet, and Philly winning a tidy 4-2 or 3-1 game.",
+      "scott_bot_quip": "When the best arm in baseball faces a 5+ ERA, you don't pay the moneyline tax. You take the under.",
+      "ladder_note": "Best floor on the board \u2014 Wheeler's HR/9 of 0.29 is the single most under-friendly data point on the slate, and we're getting near-even money at -104. Even if Philly hits Cecconi for 4-5 runs, Wheeler holds Cleveland to 1-2 and the total stays alive.",
+      "date": "2026-05-23",
+      "status": "PEND",
+      "units_result": null,
+      "clv_cents": null,
+      "result_score": null,
+      "graded_at": null,
+      "slate_assessment": "Sixteen-game MLB main, a Cavs-Knicks NBA matchup, and a Canes-Habs NHL game. Two pitching mismatches stand out \u2014 Wheeler at home vs Cecconi, and Skenes vs Corbin in Toronto.",
+      "executive_summary": "Big board today \u2014 16 MLB, one NBA, one NHL \u2014 but the edges live with the aces. Zack Wheeler (1.99 ERA, 0.88 WHIP) draws Slade Cecconi and a 5.16 ERA at Citizens Bank Park, and Paul Skenes (2.62 ERA, 0.71 WHIP) gets Patrick Corbin in Toronto. Cubs-Astros at Wrigley has 9 mph blowing in from left, suppressing HRs ~11%. Three plays, all pitcher-driven. Ladder rides with Wheeler \u2014 highest floor on the board.",
+      "slate_analysis": "Sixteen MLB games, a Cavs-Knicks playoff-flavored matchup at Rocket Arena, and Hurricanes-Canadiens in Carolina. The MLB pricing climate is soft \u2014 lots of pick'em-ish games (CIN/STL game 1 at -106/-110, SF/CHW at -115/-102, MIA/NYM at -112/-102) where the books don't see clear separation. That tells me the edges, if they exist, live in the pitching matchups where one side is wildly mispriced relative to the arm on the mound.\n\nFour candidates rose during the review. Wheeler vs Cecconi at Citizens Bank: a 1.99 ERA / 0.88 WHIP / 0.29 HR/9 starter against a 5.16 ERA / 1.55 HR/9 arm. The under 7.0 is the cleaner play than laying -188 on the Phillies. Skenes vs Corbin in Toronto: 2.62 ERA / 0.71 WHIP / 30.3% K-rate against a 4.23 ERA Corbin with a 15% K-rate; Pirates ML at -154 is fair but the under 7.5 at -114 is the angle. Cubs vs Astros at Wrigley with 9 mph wind blowing straight in from left (HR impact -11.7%) and Teng (2.61 ERA) on the mound \u2014 under 7.5 is in play. Mets-Marlins at loanDepot: two solid arms (Meyer 2.85, Peralta 3.31) in a pitcher's park (0.94 runs PF, 0.86 HR PF) \u2014 under 7.5 has merit but the line is already shaded.\n\nWhat got cut: Mets-Marlins under 7.5 \u2014 line already reflects the matchup, no edge after de-vig. Phillies ML \u2014 -188 juice exceeds our -150 straight-bet cap, so it can only live as a parlay leg. Padres-A's under 8.0 \u2014 Giolito has 5 IP this season, sample too thin, data confidence below 0.6. Braves ML at -170 \u2014 over our juice cap. Cavs -2.5 \u2014 no playoff series context in the pack, can't justify NBA pick blind. Canes ML at -210 \u2014 juice cap and we don't have NHL form data.\n\nThe three that survived: Wheeler/Cecconi under 7.0 (the cleanest pitching mismatch on the board favoring suppression), Skenes/Corbin under 7.5 (ace + dome + Skenes' 0.71 WHIP), and Cubs-Astros under 7.5 (weather + Teng's form). Ladder is Wheeler under \u2014 best floor because Wheeler's HR/9 of 0.29 is genuinely elite and Cecconi gives up 1.55 HR/9, so even if one side scores, the other side stays quiet. Floor over ceiling, every time.",
+      "slate_vibe": "NORMAL",
+      "published_at": "2026-05-23T11:54:55.651224-04:00"
+    },
     {
       "id": "20260522-MLB-HOU-CHC-TOTAL",
       "sport": "MLB",
