@@ -1,11 +1,212 @@
 {
-  "generated_at": "2026-05-23T11:54:55.655964-04:00",
+  "generated_at": "2026-05-23T12:20:24.595211-04:00",
   "today": "2026-05-23",
   "system_paused": false,
   "pause_reason": "",
-  "today_picks": [],
+  "today_picks": [
+    {
+      "id": "20260523-MLB-CHW-SF-TOTAL",
+      "sport": "MLB",
+      "game": "CHW @ SF",
+      "first_pitch_iso": "2026-05-23T16:05:00-04:00",
+      "pick": "Under 8.5",
+      "best_book": "FanDuel",
+      "best_odds": "-102",
+      "book_prices": {
+        "draftkings": "+102",
+        "fanduel": "-102",
+        "betmgm": "+100"
+      },
+      "book_links": {
+        "fanduel": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.580436045&selectionId=7017906",
+        "draftkings": "https://sportsbook.draftkings.com/?outcomes=0OU84894248U850_3",
+        "betmgm": "https://sports.nj.betmgm.com/en/sports?options=19435701-1503767365-2150753154&type=Single"
+      },
+      "market": "TOTAL",
+      "confidence": 3,
+      "units": 1.0,
+      "win_probability": 0.57,
+      "ladder_designation": true,
+      "data_confidence": 0.65,
+      "rules_passed": [
+        "max_juice",
+        "ladder_even_money",
+        "parlay_well_formed",
+        "confidence_units_match",
+        "data_confidence_floor",
+        "pick_type_allowed",
+        "mlb_hr_prop_check",
+        "mlb_pitcher_k_check",
+        "mlb_total_bases_check",
+        "mlb_hits_check",
+        "nba_player_prop_check",
+        "nhl_shots_check",
+        "mlb_run_line_check",
+        "mlb_under_bb_check",
+        "no_same_game_opposite"
+      ],
+      "locked": true,
+      "late_add": false,
+      "late_add_reason": "",
+      "bonus_pick": false,
+      "event_type": "",
+      "event_name": "",
+      "legs": [],
+      "headline": "Oracle Park crushes runs and Bryan Hudson hasn't allowed a HR all year.",
+      "the_thesis": "Oracle Park is the most run-suppressing venue in baseball \u2014 runs park factor 0.93, HR park factor 0.85. Then layer in two starting pitchers who, despite their warts, both have something working in their favor here. Bryan Hudson (CHW lefty) sports a 1.57 ERA with a 0.00 HR/9 across 23 IP this year \u2014 he literally has not allowed a home run. Adrian Houser (SF righty) is bad (5.25 ERA, 5th-percentile stuff) but he's a heavy ground-ball arm who keeps it in the yard against weak contact, and the White Sox lineup is one of the worst offenses in MLB.\n\nThe over is priced -120 on FanDuel for 8.5 \u2014 books are pricing the over because Houser is bad and the White Sox have HR pop in spots. We disagree: Oracle's marine layer kills the cheap HR, both bullpens are middling but workable, and the White Sox lineup strikes out a ton. Our fair total here is closer to 7.8-8.0, which makes 8.5 a real number. Implied at -102 is ~50.5%; our fair line on the under is ~57%. Edge clears the 8-cent threshold. The under price across DK/MGM is actually plus money (+102/+100), but FanDuel at -102 is fine and that's the book we route through if the price ticks.\n\nNote on the under-BB9 rule: both starters have BB% in the 9-10% range (BB/9 roughly 3.4-3.8). Hudson is slightly above the 3.5 BB/9 threshold (10.1% BB% on a low IP sample). Flagging this in case_against. The HR-suppression and park edge are strong enough to override the borderline walk concern, but it's a real bear case.",
+      "the_data": [
+        {
+          "label": "Oracle Park PF",
+          "value": "runs 0.93, HR 0.85",
+          "context": "Most run-suppressing park in MLB"
+        },
+        {
+          "label": "Hudson ERA / HR9",
+          "value": "1.57 / 0.00",
+          "context": "Zero HRs allowed in 23 IP"
+        },
+        {
+          "label": "Houser ERA / K%",
+          "value": "5.25 / 12.1%",
+          "context": "Bad ERA but contact manager"
+        },
+        {
+          "label": "Hudson BB%",
+          "value": "10.1%",
+          "context": "Borderline \u2014 bear case"
+        },
+        {
+          "label": "Total open vs current",
+          "value": "8.67 \u2192 8.5",
+          "context": "Line moved down \u2014 sharp under signal"
+        },
+        {
+          "label": "Under 8.5 implied (FD -102)",
+          "value": "~50.5%",
+          "context": "Our fair line: 57%"
+        }
+      ],
+      "the_market": "Total opened at 8.67, has come down to 8.5 across all three books. That's a half-run of downward movement \u2014 classic sharp-money signal on the under. Under is priced at plus money on DK (+102) and MGM (+100), with FanDuel at -102.",
+      "weather_park": "Oracle Park outdoor, marine layer typical. Park factors 0.93 runs / 0.85 HR \u2014 the strongest under-friendly venue in baseball.",
+      "case_against": "Both starters walk people (Hudson 10.1 BB%, Houser 8.9 BB%) \u2014 walks lead to traffic, traffic leads to runs. Hudson is also pitching on a small sample (23 IP); his 0.00 HR/9 will regress. If Houser implodes early and the Giants pen has to throw 4 innings to a White Sox lineup that does have some HR pop (Benintendi, Vargas), we could see 5-4 quickly. Under 8.5 sweats every late-inning rally.",
+      "what_were_betting_on": "Both starters covering 5 each, neither bullpen blowing up, Oracle Park doing what Oracle Park does \u2014 final total at 7 or 8 runs combined.",
+      "scott_bot_quip": "Two bad offenses, the league's best pitchers' park, and a line that already moved our way. Sometimes the boring read is the right read.",
+      "ladder_note": "",
+      "date": "2026-05-23",
+      "status": "PEND",
+      "units_result": null,
+      "clv_cents": null,
+      "result_score": null,
+      "graded_at": null,
+      "slate_assessment": "Twelve-game MLB-only board with one elite arm in a soft spot, a couple of pitching mismatches, and otherwise messy pitching matchups in hitter parks.",
+      "executive_summary": "Twelve MLB games today, no NBA or NHL. The board's anchored by Paul Skenes in Toronto against a Patrick Corbin start \u2014 a textbook ace-vs-soft-arm spot. Zack Wheeler's 1.99 ERA against a Slade Cecconi line that's regressed all year gives Philly a second clean lean. The third play is a White Sox-Giants under at Oracle, where both starters profile soft on contact but the park crushes runs. Ladder rides with Skenes Pirates \u2014 the highest-floor near-even number we'll find.",
+      "slate_analysis": "Twelve MLB games on the slate, no other sports running today. Pricing is mostly reasonable across DK/FD/MGM with three books on every market \u2014 we're not getting hosed on juice except on the heavy chalk, which we're avoiding anyway. The pitching slate is uneven: one true ace (Skenes), one near-ace (Wheeler), one quality lefty (Weathers) opposite another quality arm (Rasmussen), and a lot of back-end starters everywhere else.\n\nThe candidates that earned a hard look: Pirates ML at Toronto with Skenes (2.62 ERA, 0.71 WHIP, 30.3 K%) opposite Patrick Corbin (4.23 ERA, 1.49 WHIP, 15.0 K%) \u2014 the most obvious mismatch on the board. Phillies -1.5 or ML with Wheeler (1.99 ERA, 0.88 WHIP, 0.29 HR/9) hosting Slade Cecconi (5.16 ERA, 1.55 HR/9) at a HR-friendly park where the Cleveland offense will struggle. Cubs-Astros under 7.0 with wind 9mph blowing in from left at Wrigley and Teng (2.61 ERA) starting. White Sox-Giants under 8.5 at Oracle Park (runs PF 0.93, HR PF 0.85) \u2014 Bryan Hudson hasn't allowed a HR all year and Houser is mediocre but the park is the great equalizer. Yankees-Rays total with two quality arms (Weathers 3.58/29.9 K%, Rasmussen 3.19/23.2 K%).\n\nWhat got cut: Yankees-Rays under is tempting on paper but no total/line data was supplied for that game in the pack \u2014 can't price it without the number, so it falls below the data_confidence floor. Cubs-Astros under has the wind angle but Colin Rea (4.98 ERA, 1.43 WHIP) is a pitch-around walk machine and Astros bats see RHP fine \u2014 the Houston-side ML at +129 is the cleaner read, but Teng has only 31 IP this year (thin sample) and we'd be laying Astros on the road, so it doesn't clear the bar cleanly. STL-CIN game two is data-light and Petty has a 4.3 K% that screams reliever-piggyback \u2014 pass. BAL-DET and ATL-WSH are both home chalk with mediocre pitching on both sides, no edge.\n\nThe three that survived: Pirates ML (the Skenes spot), Phillies -1.5 (Wheeler dominance + price), and White Sox-Giants Under 8.5 (Oracle Park + lefty Hudson's 0.00 HR/9). Ladder is the Pirates ML at -154 \u2014 Skenes is the highest-floor arm on any board this week, and Corbin's WHIP (1.49) means Pittsburgh's lineup gets traffic all night. The Phillies spread and the under are both standalone plays that don't correlate with each other or with the ladder leg.",
+      "slate_vibe": "NORMAL",
+      "published_at": "2026-05-23T12:20:24.591240-04:00"
+    }
+  ],
   "today_bonus_picks": [],
   "all_picks": [
+    {
+      "id": "20260523-MLB-CHW-SF-TOTAL",
+      "sport": "MLB",
+      "game": "CHW @ SF",
+      "first_pitch_iso": "2026-05-23T16:05:00-04:00",
+      "pick": "Under 8.5",
+      "best_book": "FanDuel",
+      "best_odds": "-102",
+      "book_prices": {
+        "draftkings": "+102",
+        "fanduel": "-102",
+        "betmgm": "+100"
+      },
+      "book_links": {
+        "fanduel": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.580436045&selectionId=7017906",
+        "draftkings": "https://sportsbook.draftkings.com/?outcomes=0OU84894248U850_3",
+        "betmgm": "https://sports.nj.betmgm.com/en/sports?options=19435701-1503767365-2150753154&type=Single"
+      },
+      "market": "TOTAL",
+      "confidence": 3,
+      "units": 1.0,
+      "win_probability": 0.57,
+      "ladder_designation": true,
+      "data_confidence": 0.65,
+      "rules_passed": [
+        "max_juice",
+        "ladder_even_money",
+        "parlay_well_formed",
+        "confidence_units_match",
+        "data_confidence_floor",
+        "pick_type_allowed",
+        "mlb_hr_prop_check",
+        "mlb_pitcher_k_check",
+        "mlb_total_bases_check",
+        "mlb_hits_check",
+        "nba_player_prop_check",
+        "nhl_shots_check",
+        "mlb_run_line_check",
+        "mlb_under_bb_check",
+        "no_same_game_opposite"
+      ],
+      "locked": true,
+      "late_add": false,
+      "late_add_reason": "",
+      "bonus_pick": false,
+      "event_type": "",
+      "event_name": "",
+      "legs": [],
+      "headline": "Oracle Park crushes runs and Bryan Hudson hasn't allowed a HR all year.",
+      "the_thesis": "Oracle Park is the most run-suppressing venue in baseball \u2014 runs park factor 0.93, HR park factor 0.85. Then layer in two starting pitchers who, despite their warts, both have something working in their favor here. Bryan Hudson (CHW lefty) sports a 1.57 ERA with a 0.00 HR/9 across 23 IP this year \u2014 he literally has not allowed a home run. Adrian Houser (SF righty) is bad (5.25 ERA, 5th-percentile stuff) but he's a heavy ground-ball arm who keeps it in the yard against weak contact, and the White Sox lineup is one of the worst offenses in MLB.\n\nThe over is priced -120 on FanDuel for 8.5 \u2014 books are pricing the over because Houser is bad and the White Sox have HR pop in spots. We disagree: Oracle's marine layer kills the cheap HR, both bullpens are middling but workable, and the White Sox lineup strikes out a ton. Our fair total here is closer to 7.8-8.0, which makes 8.5 a real number. Implied at -102 is ~50.5%; our fair line on the under is ~57%. Edge clears the 8-cent threshold. The under price across DK/MGM is actually plus money (+102/+100), but FanDuel at -102 is fine and that's the book we route through if the price ticks.\n\nNote on the under-BB9 rule: both starters have BB% in the 9-10% range (BB/9 roughly 3.4-3.8). Hudson is slightly above the 3.5 BB/9 threshold (10.1% BB% on a low IP sample). Flagging this in case_against. The HR-suppression and park edge are strong enough to override the borderline walk concern, but it's a real bear case.",
+      "the_data": [
+        {
+          "label": "Oracle Park PF",
+          "value": "runs 0.93, HR 0.85",
+          "context": "Most run-suppressing park in MLB"
+        },
+        {
+          "label": "Hudson ERA / HR9",
+          "value": "1.57 / 0.00",
+          "context": "Zero HRs allowed in 23 IP"
+        },
+        {
+          "label": "Houser ERA / K%",
+          "value": "5.25 / 12.1%",
+          "context": "Bad ERA but contact manager"
+        },
+        {
+          "label": "Hudson BB%",
+          "value": "10.1%",
+          "context": "Borderline \u2014 bear case"
+        },
+        {
+          "label": "Total open vs current",
+          "value": "8.67 \u2192 8.5",
+          "context": "Line moved down \u2014 sharp under signal"
+        },
+        {
+          "label": "Under 8.5 implied (FD -102)",
+          "value": "~50.5%",
+          "context": "Our fair line: 57%"
+        }
+      ],
+      "the_market": "Total opened at 8.67, has come down to 8.5 across all three books. That's a half-run of downward movement \u2014 classic sharp-money signal on the under. Under is priced at plus money on DK (+102) and MGM (+100), with FanDuel at -102.",
+      "weather_park": "Oracle Park outdoor, marine layer typical. Park factors 0.93 runs / 0.85 HR \u2014 the strongest under-friendly venue in baseball.",
+      "case_against": "Both starters walk people (Hudson 10.1 BB%, Houser 8.9 BB%) \u2014 walks lead to traffic, traffic leads to runs. Hudson is also pitching on a small sample (23 IP); his 0.00 HR/9 will regress. If Houser implodes early and the Giants pen has to throw 4 innings to a White Sox lineup that does have some HR pop (Benintendi, Vargas), we could see 5-4 quickly. Under 8.5 sweats every late-inning rally.",
+      "what_were_betting_on": "Both starters covering 5 each, neither bullpen blowing up, Oracle Park doing what Oracle Park does \u2014 final total at 7 or 8 runs combined.",
+      "scott_bot_quip": "Two bad offenses, the league's best pitchers' park, and a line that already moved our way. Sometimes the boring read is the right read.",
+      "ladder_note": "",
+      "date": "2026-05-23",
+      "status": "PEND",
+      "units_result": null,
+      "clv_cents": null,
+      "result_score": null,
+      "graded_at": null,
+      "slate_assessment": "Twelve-game MLB-only board with one elite arm in a soft spot, a couple of pitching mismatches, and otherwise messy pitching matchups in hitter parks.",
+      "executive_summary": "Twelve MLB games today, no NBA or NHL. The board's anchored by Paul Skenes in Toronto against a Patrick Corbin start \u2014 a textbook ace-vs-soft-arm spot. Zack Wheeler's 1.99 ERA against a Slade Cecconi line that's regressed all year gives Philly a second clean lean. The third play is a White Sox-Giants under at Oracle, where both starters profile soft on contact but the park crushes runs. Ladder rides with Skenes Pirates \u2014 the highest-floor near-even number we'll find.",
+      "slate_analysis": "Twelve MLB games on the slate, no other sports running today. Pricing is mostly reasonable across DK/FD/MGM with three books on every market \u2014 we're not getting hosed on juice except on the heavy chalk, which we're avoiding anyway. The pitching slate is uneven: one true ace (Skenes), one near-ace (Wheeler), one quality lefty (Weathers) opposite another quality arm (Rasmussen), and a lot of back-end starters everywhere else.\n\nThe candidates that earned a hard look: Pirates ML at Toronto with Skenes (2.62 ERA, 0.71 WHIP, 30.3 K%) opposite Patrick Corbin (4.23 ERA, 1.49 WHIP, 15.0 K%) \u2014 the most obvious mismatch on the board. Phillies -1.5 or ML with Wheeler (1.99 ERA, 0.88 WHIP, 0.29 HR/9) hosting Slade Cecconi (5.16 ERA, 1.55 HR/9) at a HR-friendly park where the Cleveland offense will struggle. Cubs-Astros under 7.0 with wind 9mph blowing in from left at Wrigley and Teng (2.61 ERA) starting. White Sox-Giants under 8.5 at Oracle Park (runs PF 0.93, HR PF 0.85) \u2014 Bryan Hudson hasn't allowed a HR all year and Houser is mediocre but the park is the great equalizer. Yankees-Rays total with two quality arms (Weathers 3.58/29.9 K%, Rasmussen 3.19/23.2 K%).\n\nWhat got cut: Yankees-Rays under is tempting on paper but no total/line data was supplied for that game in the pack \u2014 can't price it without the number, so it falls below the data_confidence floor. Cubs-Astros under has the wind angle but Colin Rea (4.98 ERA, 1.43 WHIP) is a pitch-around walk machine and Astros bats see RHP fine \u2014 the Houston-side ML at +129 is the cleaner read, but Teng has only 31 IP this year (thin sample) and we'd be laying Astros on the road, so it doesn't clear the bar cleanly. STL-CIN game two is data-light and Petty has a 4.3 K% that screams reliever-piggyback \u2014 pass. BAL-DET and ATL-WSH are both home chalk with mediocre pitching on both sides, no edge.\n\nThe three that survived: Pirates ML (the Skenes spot), Phillies -1.5 (Wheeler dominance + price), and White Sox-Giants Under 8.5 (Oracle Park + lefty Hudson's 0.00 HR/9). Ladder is the Pirates ML at -154 \u2014 Skenes is the highest-floor arm on any board this week, and Corbin's WHIP (1.49) means Pittsburgh's lineup gets traffic all night. The Phillies spread and the under are both standalone plays that don't correlate with each other or with the ladder leg.",
+      "slate_vibe": "NORMAL",
+      "published_at": "2026-05-23T12:20:24.591240-04:00"
+    },
     {
       "id": "20260522-MLB-HOU-CHC-TOTAL",
       "sport": "MLB",
