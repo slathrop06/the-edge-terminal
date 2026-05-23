@@ -69,10 +69,20 @@ def _match_pack(packs: list[IntelPack], pick: Pick) -> Optional[IntelPack]:
 def _book_dict_for_selection(pick: Pick, pack: IntelPack) -> dict[str, BookOdds]:
     """Pick the right per-book odds dict based on the pick string + market type."""
     market = pack.market
-    if not market:
-        return {}
     pl = pick.pick.lower()
     mkt = pick.market.upper()
+    # Player props live on pack.props, not pack.market. Match by player
+    # name + over/under direction. Currently HR-only (batter_home_runs).
+    if mkt == "PROP" and pack.props:
+        for hp in pack.props.hr_props:
+            if hp.player_name.lower() not in pl:
+                continue
+            if "under" in pl:
+                return hp.under_by_book
+            return hp.over_by_book  # default to "over" if direction unclear
+        return {}
+    if not market:
+        return {}
     if mkt in ("ML", "MONEYLINE"):
         return market.home_ml_by_book if _is_home_pick(pick, pl, pack) else market.away_ml_by_book
     if mkt in ("RUNLINE", "PUCKLINE", "SPREAD"):
@@ -253,7 +263,10 @@ def _attach_links_and_prices(pick: Pick, packs: list[IntelPack],
     # Backfill first pitch / tipoff / faceoff time if Claude left it blank
     if not pick.first_pitch_iso and pack.first_pitch_iso:
         pick.first_pitch_iso = pack.first_pitch_iso
-    if not pack.market:
+    # PROP picks read from pack.props, not pack.market — don't bail when
+    # market is missing on a prop pick.
+    is_prop = pick.market.upper() == "PROP"
+    if not pack.market and not is_prop:
         for book_key, url in sport_fallbacks.items():
             pick.book_links.setdefault(book_key, url)
         return
@@ -266,8 +279,9 @@ def _attach_links_and_prices(pick: Pick, packs: list[IntelPack],
         if odds.link:
             pick.book_links[book_key] = odds.link
     # Fallback to event-level link if no outcome link
-    for book_key, ev_link in pack.market.event_link_by_book.items():
-        pick.book_links.setdefault(book_key, ev_link)
+    if pack.market:
+        for book_key, ev_link in pack.market.event_link_by_book.items():
+            pick.book_links.setdefault(book_key, ev_link)
     # Final fallback: generic sport landing page on each enabled book
     for book_key, url in sport_fallbacks.items():
         pick.book_links.setdefault(book_key, url)

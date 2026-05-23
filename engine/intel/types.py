@@ -145,6 +145,24 @@ class TeamRatingsFootball(BaseModel):
     key_injuries: list[str] = Field(default_factory=list)
 
 
+class PlayerProp(BaseModel):
+    """One player's prop line, with per-book pricing + deep links."""
+    player_name: str
+    team: str = ""                              # "home" or "away" if known
+    market: str                                 # "batter_home_runs", "batter_hits", etc.
+    line: float                                 # e.g., 0.5 for HR props (Over 0.5 = ≥1 HR)
+    over_best: Optional[BookOdds] = None       # best (highest) over price across books
+    under_best: Optional[BookOdds] = None      # best (lowest negative) under price
+    over_by_book: dict[str, BookOdds] = Field(default_factory=dict)
+    under_by_book: dict[str, BookOdds] = Field(default_factory=dict)
+
+
+class PropMarket(BaseModel):
+    """All player props for a single game. Currently HR-only for V1;
+    structure is forward-compatible with hits/TBs/Ks/etc."""
+    hr_props: list[PlayerProp] = Field(default_factory=list)
+
+
 class IntelPack(BaseModel):
     """Complete intel package the handicapper sees for one game."""
     game_id: str
@@ -181,6 +199,10 @@ class IntelPack(BaseModel):
 
     # Market + news (cross-sport)
     market: Optional[MarketIntel] = None
+    props: Optional[PropMarket] = None
+    # The Odds API event id for this game (set during attach_market_intel) —
+    # required to fetch per-event prop markets in a follow-up call.
+    odds_api_event_id: Optional[str] = None
     news_headlines: list[str] = Field(default_factory=list)
 
     # Pre-computed signals — short tags the handicapper can latch onto

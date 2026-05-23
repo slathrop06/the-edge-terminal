@@ -11,7 +11,7 @@ import requests
 from engine.utils import (
     get_logger, retry, nyc_now, read_json, write_json, american_to_prob, DATA_DIR
 )
-from engine.intel.types import IntelPack, MarketIntel, BookOdds, SportCode
+from engine.intel.types import IntelPack, MarketIntel, BookOdds, SportCode, PlayerProp, PropMarket
 
 logger = get_logger("intel-market")
 
@@ -252,6 +252,136 @@ def _build_intel_for_game(game: dict, pack: IntelPack, history: dict) -> MarketI
     return mi
 
 
+@retry(attempts=2, backoff=2)
+def _fetch_event_props(sport_key: str, event_id: str, market_key: str) -> Optional[dict]:
+    """Fetch a single player-prop market for one game from The Odds API.
+
+    Player props live on a different endpoint than sides/totals — per-event
+    odds at /sports/{sport}/events/{event_id}/odds. Each call costs 1 API
+    credit per market per region per book set, so we call this sparingly
+    (HR-only for V1, top-N games by total).
+    """
+    api_key = os.getenv("ODDS_API_KEY", "")
+    if not api_key:
+        return None
+    url = f"{ODDS_API_BASE}/sports/{sport_key}/events/{event_id}/odds"
+    params = {
+        "apiKey": api_key,
+        "regions": "us",
+        "markets": market_key,
+        "bookmakers": ",".join(sorted(ENABLED_BOOKS)),
+        "oddsFormat": "american",
+        "dateFormat": "iso",
+        "includeLinks": "true",
+    }
+    r = requests.get(url, params=params, timeout=20)
+    if r.status_code == 401:
+        logger.error("Odds API 401 — invalid key (props)")
+        return None
+    if r.status_code in (404, 422):
+        return None  # market not offered for this event
+    r.raise_for_status()
+    remaining = r.headers.get("x-requests-remaining")
+    used = r.headers.get("x-requests-used")
+    logger.info(f"Odds API props {market_key} for {event_id}: remaining={remaining} used={used}")
+    return r.json()
+
+
+def _build_hr_props_for_game(game_payload: dict) -> list[PlayerProp]:
+    """Parse The Odds API per-event response for batter_home_runs into PlayerProp list.
+
+    Outcome shape from the API:
+        {"name": "Over", "description": "Aaron Judge", "price": 250, "point": 0.5, "link": "..."}
+    The "description" carries the player name; "name" is Over/Under.
+    """
+    state_code = _bm_state_code()
+    by_player: dict[tuple[str, float], dict] = {}  # (player, line) → {"over": {}, "under": {}}
+
+    for bk in game_payload.get("bookmakers", []):
+        book = bk.get("key", "")
+        if book not in ENABLED_BOOKS:
+            continue
+        for mk in bk.get("markets", []):
+            if mk.get("key") != "batter_home_runs":
+                continue
+            for out in mk.get("outcomes", []):
+                player = (out.get("description") or "").strip()
+                if not player:
+                    continue
+                try:
+                    price = int(out.get("price", 0))
+                except (TypeError, ValueError):
+                    continue
+                line = out.get("point")
+                if line is None:
+                    continue
+                side = (out.get("name") or "").strip().lower()
+                if side not in ("over", "under"):
+                    continue
+                link = _sub_state(out.get("link"), state_code)
+                key = (player, float(line))
+                slot = by_player.setdefault(key, {"over": {}, "under": {}})
+                slot[side][book] = BookOdds(
+                    book=book, market="batter_home_runs", selection=f"{player} {side} {line}",
+                    line=float(line), price_american=price, link=link,
+                )
+
+    props: list[PlayerProp] = []
+    for (player, line), slots in by_player.items():
+        over_dict = slots["over"]
+        under_dict = slots["under"]
+        if not over_dict and not under_dict:
+            continue
+        over_best = max(over_dict.values(), key=lambda b: b.price_american) if over_dict else None
+        under_best = max(under_dict.values(), key=lambda b: b.price_american) if under_dict else None
+        props.append(PlayerProp(
+            player_name=player,
+            market="batter_home_runs",
+            line=line,
+            over_best=over_best,
+            under_best=under_best,
+            over_by_book=over_dict,
+            under_by_book=under_dict,
+        ))
+    return props
+
+
+def attach_hr_props(packs: list[IntelPack], sport: SportCode,
+                    event_id_by_pack: dict[str, str], max_games: int = 6) -> None:
+    """Fetch HR props for up to max_games packs ranked by consensus_total
+    (highest totals = best HR environments — pitcher-quality, park, weather
+    all favor the over). Caps API spend at ~6 prop calls per morning run.
+
+    event_id_by_pack maps pack.game_id → The Odds API event id (obtained
+    from the same /sports/{sport}/odds payload during attach_market_intel).
+    """
+    sport_key = SPORT_KEYS.get(sport)
+    if not sport_key:
+        return
+    # Rank by consensus_total descending; packs without a total get pushed
+    # to the back (no market data → no HR props worth fetching).
+    ranked = sorted(
+        [p for p in packs if p.sport == sport and p.game_id in event_id_by_pack],
+        key=lambda p: (p.market.consensus_total if (p.market and p.market.consensus_total) else 0),
+        reverse=True,
+    )[:max_games]
+    for pack in ranked:
+        event_id = event_id_by_pack.get(pack.game_id)
+        if not event_id:
+            continue
+        try:
+            payload = _fetch_event_props(sport_key, event_id, "batter_home_runs")
+        except Exception as e:
+            logger.warning(f"HR prop fetch failed for {pack.game_id}: {e}")
+            continue
+        if not payload:
+            continue
+        hr_props = _build_hr_props_for_game(payload)
+        if hr_props:
+            pack.props = PropMarket(hr_props=hr_props)
+            logger.info(f"Attached {len(hr_props)} HR prop lines to {pack.game_id}")
+
+
 def attach_market_intel(packs: list[IntelPack], sport: SportCode) -> None:
     sport_key = SPORT_KEYS.get(sport)
     if not sport_key:
@@ -278,6 +408,11 @@ def attach_market_intel(packs: list[IntelPack], sport: SportCode) -> None:
             continue
         try:
             match.market = _build_intel_for_game(game, match, history)
+            # Capture event id so a follow-up step can fetch player props for
+            # this game via /sports/{sport}/events/{event_id}/odds.
+            ev_id = game.get("id")
+            if ev_id:
+                match.odds_api_event_id = ev_id
         except Exception as e:
             logger.warning(f"Market intel build failed for {match.game_id}: {e}")
 

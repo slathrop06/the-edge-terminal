@@ -6,7 +6,7 @@ from typing import Optional
 from engine.utils import get_logger, nyc_date
 from engine.intel.types import IntelPack, SportCode
 from engine.intel.schedule import fetch_scoreboard, schedule_to_packs
-from engine.intel.market import attach_market_intel
+from engine.intel.market import attach_market_intel, attach_hr_props
 from engine.intel.mlb import attach_mlb_intel
 from engine.intel.nba import attach_nba_intel
 from engine.intel.nhl import attach_nhl_intel
@@ -61,6 +61,16 @@ def harvest_intel(sports: list[SportCode], date_str: Optional[str] = None) -> li
             attach_market_intel(packs, sport)
         except Exception as e:
             logger.warning(f"Market intel attach failed for {sport}: {e}")
+
+    # 3b. Player props (MLB HR only for V1; capped at top-6 games by total
+    # so we don't blow through Odds API per-event quota).
+    if "MLB" in sports:
+        try:
+            event_id_map = {p.game_id: p.odds_api_event_id for p in packs
+                            if p.sport == "MLB" and p.odds_api_event_id}
+            attach_hr_props(packs, "MLB", event_id_map, max_games=6)
+        except Exception as e:
+            logger.warning(f"MLB HR props attach failed: {e}")
 
     # 4. Compute signals per pack
     for pack in packs:

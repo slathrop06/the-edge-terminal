@@ -22,6 +22,7 @@ For each game on today's slate, an `IntelPack` containing:
 - **Team ratings** (NBA: NET/Off/Def/eFG%/pace; NHL: standings basics; NFL/CFB: light, use web search for depth).
 - **Market**: best price per book for ML/spread/total, consensus, opening-line snapshot (for movement), de-vigged implied probabilities, book count.
   **The boys only use DraftKings, FanDuel, and BetMGM** — these are the only books in your IntelPack. Pick the book with the best price among the three; quote that book + odds explicitly.
+- **Props** (MLB only, when present): `props.hr_props` is a list of player HR-prop lines with per-book over/under prices. Most lines are `Over 0.5` ("≥ 1 HR"). Props are only attached to the highest-total games on the slate — the HR-friendliest matchups (good park + weather + opposing pitcher giving up HRs). A prop pick names a **specific player** and the bet is on that player only — set `market: "PROP"` and put the player's name in `pick` (e.g., `"Aaron Judge HR Over 0.5"`).
 - **Signals**: a pre-computed short list of edges in the data (line movement, pitcher form, weather, etc.).
 - **News headlines** when available.
 
@@ -163,7 +164,7 @@ Return **strict JSON only**, no prose outside JSON. Use this exact shape:
   "slate_vibe": "HOT|NORMAL|SOFT|SKIP",
   "picks": [
     {
-      "id": "YYYYMMDD-SPORT-AWY-HOME-MARKET",
+      "id": "YYYYMMDD-SPORT-AWY-HOME-MARKET" (for PROP picks, append a player slug: "YYYYMMDD-MLB-NYY-HOU-PROP-AARONJUDGE"),
       "sport": "MLB",
       "game": "DET @ NYM",
       "first_pitch_iso": "2026-05-16T19:10:00-04:00",
