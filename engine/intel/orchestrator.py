@@ -6,7 +6,7 @@ from typing import Optional
 from engine.utils import get_logger, nyc_date
 from engine.intel.types import IntelPack, SportCode
 from engine.intel.schedule import fetch_scoreboard, schedule_to_packs
-from engine.intel.market import attach_market_intel, attach_hr_props
+from engine.intel.market import attach_market_intel, attach_player_props
 from engine.intel.mlb import attach_mlb_intel
 from engine.intel.nba import attach_nba_intel
 from engine.intel.nhl import attach_nhl_intel
@@ -62,15 +62,36 @@ def harvest_intel(sports: list[SportCode], date_str: Optional[str] = None) -> li
         except Exception as e:
             logger.warning(f"Market intel attach failed for {sport}: {e}")
 
-    # 3b. Player props (MLB HR only for V1; capped at top-6 games by total
-    # so we don't blow through Odds API per-event quota).
-    if "MLB" in sports:
+    # 3b. Player props per sport. Each market = 1 per-event API call per
+    # game; counts add up so cap max_games and only attach in-season sports.
+    # Lite plan gives 20k credits/month — total daily prop burn well under 50.
+    PROPS_BY_SPORT: dict[str, dict] = {
+        "MLB": {
+            "markets":  ["batter_home_runs", "pitcher_strikeouts",
+                          "batter_total_bases", "batter_hits"],
+            "max_games": 6,    # top-6 highest-total games
+        },
+        "NBA": {
+            "markets":  ["player_points", "player_rebounds", "player_assists",
+                          "player_points_rebounds_assists"],
+            "max_games": 4,    # Finals = 1 game; Conf Finals = 1; regular = up to 4
+        },
+        "NHL": {
+            "markets":  ["player_shots_on_goal"],
+            "max_games": 4,    # Stanley Cup Final = 1 game; Conf Finals = 1-2
+        },
+    }
+    for sport, cfg in PROPS_BY_SPORT.items():
+        if sport not in sports:
+            continue
         try:
             event_id_map = {p.game_id: p.odds_api_event_id for p in packs
-                            if p.sport == "MLB" and p.odds_api_event_id}
-            attach_hr_props(packs, "MLB", event_id_map, max_games=6)
+                            if p.sport == sport and p.odds_api_event_id}
+            if not event_id_map:
+                continue
+            attach_player_props(packs, sport, event_id_map, cfg["markets"], cfg["max_games"])
         except Exception as e:
-            logger.warning(f"MLB HR props attach failed: {e}")
+            logger.warning(f"{sport} player props attach failed: {e}")
 
     # 4. Compute signals per pack
     for pack in packs:

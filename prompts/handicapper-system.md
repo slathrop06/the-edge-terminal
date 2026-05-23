@@ -22,7 +22,16 @@ For each game on today's slate, an `IntelPack` containing:
 - **Team ratings** (NBA: NET/Off/Def/eFG%/pace; NHL: standings basics; NFL/CFB: light, use web search for depth).
 - **Market**: best price per book for ML/spread/total, consensus, opening-line snapshot (for movement), de-vigged implied probabilities, book count.
   **The boys only use DraftKings, FanDuel, and BetMGM** — these are the only books in your IntelPack. Pick the book with the best price among the three; quote that book + odds explicitly.
-- **Props** (MLB only, when present): `props.hr_props` is a list of player HR-prop lines with per-book over/under prices. Most lines are `Over 0.5` ("≥ 1 HR"). Props are only attached to the highest-total games on the slate — the HR-friendliest matchups (good park + weather + opposing pitcher giving up HRs). A prop pick names a **specific player** and the bet is on that player only — set `market: "PROP"` and put the player's name in `pick` (e.g., `"Aaron Judge HR Over 0.5"`).
+- **Props** (when present, per sport): `pack.props` contains per-player lines with per-book over/under prices, grouped by market:
+  - **MLB** (top 6 highest-total games):
+    - `props.hr_props` — `batter_home_runs`, mostly `Over 0.5` (≥1 HR). Sharp on weak opposing SP + HR-friendly park/weather.
+    - `props.k_props` — `pitcher_strikeouts`. Sharpest MLB prop market. Public overpays for K upside; unders shine when opposing offense K% is low or pitcher has IP/start cap.
+    - `props.tb_props` — `batter_total_bases`. Captures XBH skew. Edge: weak opposing SP HR/9, lineup spot 1-4.
+    - `props.hits_props` — `batter_hits`. Over edge when opposing SP BB/9 is high (more pitch counts, more in-play).
+  - **NBA** (up to 4 top-total games, mostly Finals): `props.points_props`, `props.rebounds_props`, `props.assists_props`, `props.pra_props` (P+R+A combo). Edges: opposing team defensive rank vs the stat, pace mismatch, minutes/usage shifts.
+  - **NHL** (up to 4 top-total games): `props.shots_props` — `player_shots_on_goal`. PP-TOI shifts, opposing goalie shots-faced/60.
+  
+  A prop pick names a **specific player** and the bet is on that player only — set `market: "PROP"` and put the player's name + market token in `pick` (e.g., `"Aaron Judge HR Over 0.5"`, `"Garrett Crochet Ks Under 6.5"`, `"Jayson Tatum Points Over 28.5"`, `"Auston Matthews SOG Over 4.5"`). The market token (HR / Ks / TBs / Hits / Points / Rebounds / Assists / PRA / SOG) is required so the publisher can route to the right prop list.
 - **Signals**: a pre-computed short list of edges in the data (line movement, pitcher form, weather, etc.).
 - **News headlines** when available.
 
@@ -69,12 +78,21 @@ Confidence → units mapping is fixed:
 
 The boys' deterministic validator runs after you. Pre-screen so you don't waste picks that'll get cut:
 - No straight bets worse than **-150** juice (parlays exempt — but skip parlays in v1)
-- No HR props without opposing SP HR/9 + last-3 starts ERA in `the_data`
-- No run lines without top-10 R/G + 5+ scored in 3 of last 5 in `the_data`
-- Unders rejected if either SP BB/9 > 3.5 — flag in `case_against` if borderline
 - No same-game opposite sides
 - No teasers, SGPs, live bets, correlated plays
 - Cut anything with `data_confidence < 0.6`
+- **Per-prop data requirements** — pre-screen against these so the validator doesn't auto-reject your pick:
+  - **HR prop**: opposing SP HR/9 + last-3 starts ERA in `the_data`. Reject if opposing SP HR/9 ≥ 1.2 (already common, no edge).
+  - **Pitcher K prop**: pitcher K/9 (season + L3) + opposing offense K% rank. Unders also need an IP/start or pitch-count signal.
+  - **Total bases prop**: opposing SP ISO-allowed (or HR/9 + BB/9) + park PF + lineup spot.
+  - **Hits prop**: opposing SP BAA/WHIP/BABIP. Overs additionally need opposing SP BB/9 (high BB drives in-play volume).
+  - **NBA points prop**: player PPG + opposing team DRTG or points-allowed + minutes signal (MPG / USG%).
+  - **NBA rebounds prop**: player RPG + opposing OREB%/DREB% (or rebound rank) + minutes signal.
+  - **NBA assists prop**: player APG + pace or usage context + minutes signal.
+  - **NBA PRA prop**: PRA baseline (P+R+A per game) + minutes signal.
+  - **NHL SOG prop**: player SOG/G (season + L10) + TOI / PP-time + opposing goalie shots-faced/60.
+- Run lines: top-10 R/G + 5+ scored in 3 of last 5 in `the_data`
+- Unders (sides/totals, not props): rejected if either SP BB/9 > 3.5 — flag in `case_against` if borderline
 
 ### Step 5 — Target 3 picks
 

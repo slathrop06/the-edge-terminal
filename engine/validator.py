@@ -108,6 +108,128 @@ def rule_mlb_hr_prop_check(pick: Pick) -> tuple[bool, str]:
     return True, "HR prop OK"
 
 
+def _data_text(pick: Pick) -> str:
+    return " ".join(f"{d.label} {d.value}" for d in pick.the_data).lower()
+
+
+def rule_mlb_pitcher_k_check(pick: Pick) -> tuple[bool, str]:
+    """Pitcher strikeout props require: pitcher K/9 (season + L3) AND
+    opposing offense K% rank. Unders also need a pitch-count cap signal
+    (recent IP/start) since manager hooks drive most K-unders."""
+    if pick.market.upper() == "PARLAY":
+        return True, "parlay exempt"
+    pl = pick.pick.lower()
+    is_k = bool(re.search(r"\b(k|ks|k's|strikeouts?)\b", pl))
+    if not is_k or pick.market.upper() != "PROP":
+        return True, "not pitcher K prop"
+    txt = _data_text(pick)
+    if "k/9" not in txt and "k per 9" not in txt:
+        return False, "K prop missing pitcher K/9 in the_data"
+    if "k%" not in txt and "k rank" not in txt and "k-rank" not in txt:
+        return False, "K prop missing opposing offense K% (or rank) in the_data"
+    if "under" in pl and "ip/start" not in txt and "ip per start" not in txt and "pitch count" not in txt:
+        return False, "K under missing IP/start or pitch-count signal"
+    return True, "pitcher K prop OK"
+
+
+def rule_mlb_total_bases_check(pick: Pick) -> tuple[bool, str]:
+    """Total-bases props require: opposing SP ISO-allowed (or HR/9 + BB/9),
+    park PF (runs or HR), and the bettor's lineup-spot context (1-4
+    materially different from 7-9)."""
+    if pick.market.upper() == "PARLAY":
+        return True, "parlay exempt"
+    pl = pick.pick.lower()
+    is_tb = ("total base" in pl) or bool(re.search(r"\b(tb|tbs)\b", pl))
+    if not is_tb or pick.market.upper() != "PROP":
+        return True, "not total-bases prop"
+    txt = _data_text(pick)
+    has_sp_signal = ("iso" in txt) or ("hr/9" in txt) or ("bb/9" in txt) or ("xfip" in txt)
+    if not has_sp_signal:
+        return False, "TB prop missing opposing SP signal (ISO/HR9/BB9/xFIP)"
+    if "pf" not in txt and "park factor" not in txt:
+        return False, "TB prop missing park factor in the_data"
+    if "lineup" not in txt and "batting" not in txt:
+        return False, "TB prop missing lineup-spot context"
+    return True, "total-bases prop OK"
+
+
+def rule_mlb_hits_check(pick: Pick) -> tuple[bool, str]:
+    """Hits props require: opposing SP BAA or WHIP, and (for overs) a BB/9
+    signal — high-walk pitchers boost BABIP indirectly via pitch counts."""
+    if pick.market.upper() == "PARLAY":
+        return True, "parlay exempt"
+    pl = pick.pick.lower()
+    is_hits = bool(re.search(r"\bhits?\b", pl))
+    if not is_hits or pick.market.upper() != "PROP":
+        return True, "not hits prop"
+    txt = _data_text(pick)
+    if "baa" not in txt and "whip" not in txt and "babip" not in txt:
+        return False, "hits prop missing opposing SP BAA/WHIP/BABIP in the_data"
+    if "over" in pl and "bb/9" not in txt and "bb%" not in txt:
+        return False, "hits over missing opposing SP BB/9 signal (drives in-play volume)"
+    return True, "hits prop OK"
+
+
+def rule_nba_player_prop_check(pick: Pick) -> tuple[bool, str]:
+    """NBA props (points / rebounds / assists / PRA). All require: player's
+    per-game baseline for the stat (PPG, RPG, APG, or their sum for PRA),
+    opposing team's defensive rank vs that stat, AND a minutes/usage signal
+    (recent MPG or USG%) — minutes shifts cause most NBA-prop blowups.
+    Combined check (instead of one per market) keeps validator.py compact."""
+    if pick.market.upper() == "PARLAY":
+        return True, "parlay exempt"
+    if pick.market.upper() != "PROP" or (pick.sport or "").upper() != "NBA":
+        return True, "not NBA prop"
+    pl = pick.pick.lower()
+    txt = _data_text(pick)
+    # Figure out which NBA market we're checking
+    if "pra" in pl:
+        if not any(kw in txt for kw in ("pra", "p+r+a", "p/r/a")):
+            return False, "PRA prop missing PRA baseline in the_data"
+    elif "rebound" in pl or "reb" in pl or "boards" in pl:
+        if "rpg" not in txt and "rebounds per game" not in txt and "reb/g" not in txt:
+            return False, "rebounds prop missing RPG in the_data"
+        if "oreb" not in txt and "defensive rebound" not in txt and "reb rank" not in txt:
+            return False, "rebounds prop missing opp DREB%/OREB% (or rank) in the_data"
+    elif "assist" in pl or "ast" in pl or "dimes" in pl:
+        if "apg" not in txt and "assists per game" not in txt and "ast/g" not in txt:
+            return False, "assists prop missing APG in the_data"
+        if "pace" not in txt and "usage" not in txt and "usg" not in txt:
+            return False, "assists prop missing pace or usage signal"
+    elif "point" in pl or "pts" in pl:
+        if "ppg" not in txt and "points per game" not in txt and "pts/g" not in txt:
+            return False, "points prop missing PPG in the_data"
+        if "def rating" not in txt and "drtg" not in txt and "points allowed" not in txt:
+            return False, "points prop missing opp defensive context (DRTG / pts allowed)"
+    else:
+        return False, "NBA prop pick must name a stat (points/rebounds/assists/PRA)"
+    # Minutes signal required across all NBA prop types
+    if "mpg" not in txt and "minutes per game" not in txt and "min/g" not in txt and "usg" not in txt:
+        return False, "NBA prop missing minutes/usage signal (mpg or USG%)"
+    return True, "NBA prop OK"
+
+
+def rule_nhl_shots_check(pick: Pick) -> tuple[bool, str]:
+    """NHL shots-on-goal props require: player SOG/game baseline (season + L10),
+    line-1 vs line-3 context (TOI on PP matters), and opposing goalie's
+    shots-faced/60 — high-volume goalies = better over environments."""
+    if pick.market.upper() == "PARLAY":
+        return True, "parlay exempt"
+    if pick.market.upper() != "PROP" or (pick.sport or "").upper() != "NHL":
+        return True, "not NHL prop"
+    pl = pick.pick.lower()
+    if "shot" not in pl and "sog" not in pl:
+        return True, "not SOG prop"
+    txt = _data_text(pick)
+    if "sog/g" not in txt and "shots/g" not in txt and "sog per game" not in txt:
+        return False, "SOG prop missing player SOG/game in the_data"
+    if "toi" not in txt and "ice time" not in txt and "pp time" not in txt:
+        return False, "SOG prop missing TOI / PP-time signal"
+    if "goalie" not in txt and "sa/60" not in txt and "shots faced" not in txt:
+        return False, "SOG prop missing opposing goalie shots-faced signal"
+    return True, "SOG prop OK"
+
+
 def rule_mlb_run_line_check(pick: Pick) -> tuple[bool, str]:
     if pick.market.upper() == "PARLAY":
         return True, "parlay exempt"
@@ -178,6 +300,11 @@ def validate_picks(response: HandicapperResponse) -> list[Pick]:
             ("data_confidence_floor",      rule_data_confidence_floor(pick)),
             ("pick_type_allowed",          rule_pick_type_allowed(pick)),
             ("mlb_hr_prop_check",          rule_mlb_hr_prop_check(pick)),
+            ("mlb_pitcher_k_check",        rule_mlb_pitcher_k_check(pick)),
+            ("mlb_total_bases_check",      rule_mlb_total_bases_check(pick)),
+            ("mlb_hits_check",             rule_mlb_hits_check(pick)),
+            ("nba_player_prop_check",      rule_nba_player_prop_check(pick)),
+            ("nhl_shots_check",            rule_nhl_shots_check(pick)),
             ("mlb_run_line_check",         rule_mlb_run_line_check(pick)),
             ("mlb_under_bb_check",         rule_mlb_under_bb_check(pick)),
             ("no_same_game_opposite",      rule_no_same_game_opposite_sides(pick, valid)),

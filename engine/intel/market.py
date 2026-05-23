@@ -287,22 +287,26 @@ def _fetch_event_props(sport_key: str, event_id: str, market_key: str) -> Option
     return r.json()
 
 
-def _build_hr_props_for_game(game_payload: dict) -> list[PlayerProp]:
-    """Parse The Odds API per-event response for batter_home_runs into PlayerProp list.
+def _build_props_for_game(game_payload: dict, market_key: str) -> list[PlayerProp]:
+    """Parse The Odds API per-event response for one player-prop market into
+    a PlayerProp list. Works across all player-prop markets (HR, K's, hits,
+    TBs, points, rebounds, assists, PRA, shots).
 
     Outcome shape from the API:
         {"name": "Over", "description": "Aaron Judge", "price": 250, "point": 0.5, "link": "..."}
     The "description" carries the player name; "name" is Over/Under.
+    Some markets use "Yes/No" instead of Over/Under (e.g., anytime_td) — we
+    treat Yes as Over for storage uniformity.
     """
     state_code = _bm_state_code()
-    by_player: dict[tuple[str, float], dict] = {}  # (player, line) → {"over": {}, "under": {}}
+    by_player: dict[tuple[str, float], dict] = {}
 
     for bk in game_payload.get("bookmakers", []):
         book = bk.get("key", "")
         if book not in ENABLED_BOOKS:
             continue
         for mk in bk.get("markets", []):
-            if mk.get("key") != "batter_home_runs":
+            if mk.get("key") != market_key:
                 continue
             for out in mk.get("outcomes", []):
                 player = (out.get("description") or "").strip()
@@ -314,15 +318,20 @@ def _build_hr_props_for_game(game_payload: dict) -> list[PlayerProp]:
                     continue
                 line = out.get("point")
                 if line is None:
-                    continue
-                side = (out.get("name") or "").strip().lower()
-                if side not in ("over", "under"):
+                    # Some markets (yes/no props like anytime HR) have no line; default to 0.5
+                    line = 0.5
+                raw_side = (out.get("name") or "").strip().lower()
+                if raw_side in ("over", "yes"):
+                    side = "over"
+                elif raw_side in ("under", "no"):
+                    side = "under"
+                else:
                     continue
                 link = _sub_state(out.get("link"), state_code)
                 key = (player, float(line))
                 slot = by_player.setdefault(key, {"over": {}, "under": {}})
                 slot[side][book] = BookOdds(
-                    book=book, market="batter_home_runs", selection=f"{player} {side} {line}",
+                    book=book, market=market_key, selection=f"{player} {side} {line}",
                     line=float(line), price_american=price, link=link,
                 )
 
@@ -336,7 +345,7 @@ def _build_hr_props_for_game(game_payload: dict) -> list[PlayerProp]:
         under_best = max(under_dict.values(), key=lambda b: b.price_american) if under_dict else None
         props.append(PlayerProp(
             player_name=player,
-            market="batter_home_runs",
+            market=market_key,
             line=line,
             over_best=over_best,
             under_best=under_best,
@@ -346,22 +355,49 @@ def _build_hr_props_for_game(game_payload: dict) -> list[PlayerProp]:
     return props
 
 
-def attach_hr_props(packs: list[IntelPack], sport: SportCode,
-                    event_id_by_pack: dict[str, str], max_games: int = 6) -> None:
-    """Fetch HR props for up to max_games packs ranked by consensus_total
-    (highest totals = best HR environments — pitcher-quality, park, weather
-    all favor the over). Caps API spend at ~6 prop calls per morning run.
+# Kept as a thin alias so any external caller still works.
+def _build_hr_props_for_game(game_payload: dict) -> list[PlayerProp]:
+    return _build_props_for_game(game_payload, "batter_home_runs")
 
-    event_id_by_pack maps pack.game_id → The Odds API event id (obtained
-    from the same /sports/{sport}/odds payload during attach_market_intel).
+
+# Map Odds API market keys → PropMarket field names. Adding a new prop type
+# is just two lines: register the market key here, and put the matching
+# attribute on PropMarket in types.py.
+_PROP_MARKET_TO_FIELD: dict[str, str] = {
+    "batter_home_runs":                 "hr_props",
+    "pitcher_strikeouts":               "k_props",
+    "batter_total_bases":               "tb_props",
+    "batter_hits":                      "hits_props",
+    "player_points":                    "points_props",
+    "player_rebounds":                  "rebounds_props",
+    "player_assists":                   "assists_props",
+    "player_points_rebounds_assists":   "pra_props",
+    "player_shots_on_goal":             "shots_props",
+}
+
+
+def attach_player_props(packs: list[IntelPack], sport: SportCode,
+                        event_id_by_pack: dict[str, str],
+                        market_keys: list[str],
+                        max_games: int = 6) -> None:
+    """Fetch one-or-more player-prop markets for the top max_games packs in
+    `sport`, ranked by consensus_total descending. Each market = one
+    per-event API call per game; cost scales as games × markets.
+
+    For MLB: max_games=6 against the 4 batter/pitcher markets = 24 credits.
+    For NBA: max_games=3 (or all in Finals) × 4 markets = up to 12.
+    For NHL: max_games=2 × 1 market = 2.
+
+    Storage: each market's results land on pack.props.<field> via the
+    _PROP_MARKET_TO_FIELD map. PropMarket is created on first attach,
+    appended to on subsequent attaches.
     """
     sport_key = SPORT_KEYS.get(sport)
     if not sport_key:
         return
-    # Rank by consensus_total descending; packs without a total get pushed
-    # to the back (no market data → no HR props worth fetching).
+    eligible = [p for p in packs if p.sport == sport and p.game_id in event_id_by_pack]
     ranked = sorted(
-        [p for p in packs if p.sport == sport and p.game_id in event_id_by_pack],
+        eligible,
         key=lambda p: (p.market.consensus_total if (p.market and p.market.consensus_total) else 0),
         reverse=True,
     )[:max_games]
@@ -369,17 +405,34 @@ def attach_hr_props(packs: list[IntelPack], sport: SportCode,
         event_id = event_id_by_pack.get(pack.game_id)
         if not event_id:
             continue
-        try:
-            payload = _fetch_event_props(sport_key, event_id, "batter_home_runs")
-        except Exception as e:
-            logger.warning(f"HR prop fetch failed for {pack.game_id}: {e}")
-            continue
-        if not payload:
-            continue
-        hr_props = _build_hr_props_for_game(payload)
-        if hr_props:
-            pack.props = PropMarket(hr_props=hr_props)
-            logger.info(f"Attached {len(hr_props)} HR prop lines to {pack.game_id}")
+        for mkey in market_keys:
+            field_name = _PROP_MARKET_TO_FIELD.get(mkey)
+            if not field_name:
+                logger.warning(f"Unknown prop market key: {mkey}")
+                continue
+            try:
+                payload = _fetch_event_props(sport_key, event_id, mkey)
+            except Exception as e:
+                logger.warning(f"{mkey} fetch failed for {pack.game_id}: {e}")
+                continue
+            if not payload:
+                continue
+            props = _build_props_for_game(payload, mkey)
+            if not props:
+                continue
+            if pack.props is None:
+                pack.props = PropMarket()
+            existing = list(getattr(pack.props, field_name))
+            existing.extend(props)
+            setattr(pack.props, field_name, existing)
+            logger.info(f"Attached {len(props)} {mkey} lines to {pack.game_id}")
+
+
+# Back-compat shim: old name still works for any external caller (none in
+# this repo today, but cheap to keep so PR #1's tests don't drift).
+def attach_hr_props(packs: list[IntelPack], sport: SportCode,
+                    event_id_by_pack: dict[str, str], max_games: int = 6) -> None:
+    attach_player_props(packs, sport, event_id_by_pack, ["batter_home_runs"], max_games)
 
 
 def attach_market_intel(packs: list[IntelPack], sport: SportCode) -> None:

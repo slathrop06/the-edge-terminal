@@ -158,9 +158,22 @@ class PlayerProp(BaseModel):
 
 
 class PropMarket(BaseModel):
-    """All player props for a single game. Currently HR-only for V1;
-    structure is forward-compatible with hits/TBs/Ks/etc."""
+    """All player props for a single game, grouped by market type.
+    Each list contains PlayerProp objects with per-book over/under pricing.
+    Markets that aren't fetched (e.g., NBA props on an MLB game) stay
+    empty — exclude_none in serialization will keep noise out of the slate."""
+    # MLB
     hr_props: list[PlayerProp] = Field(default_factory=list)
+    k_props: list[PlayerProp] = Field(default_factory=list)           # pitcher_strikeouts
+    tb_props: list[PlayerProp] = Field(default_factory=list)          # batter_total_bases
+    hits_props: list[PlayerProp] = Field(default_factory=list)        # batter_hits
+    # NBA
+    points_props: list[PlayerProp] = Field(default_factory=list)       # player_points
+    rebounds_props: list[PlayerProp] = Field(default_factory=list)     # player_rebounds
+    assists_props: list[PlayerProp] = Field(default_factory=list)      # player_assists
+    pra_props: list[PlayerProp] = Field(default_factory=list)          # player_points_rebounds_assists
+    # NHL
+    shots_props: list[PlayerProp] = Field(default_factory=list)        # player_shots_on_goal
 
 
 class IntelPack(BaseModel):

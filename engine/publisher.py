@@ -72,14 +72,38 @@ def _book_dict_for_selection(pick: Pick, pack: IntelPack) -> dict[str, BookOdds]
     pl = pick.pick.lower()
     mkt = pick.market.upper()
     # Player props live on pack.props, not pack.market. Match by player
-    # name + over/under direction. Currently HR-only (batter_home_runs).
+    # name + over/under direction across all configured prop markets
+    # (HR/K/TB/hits for MLB; points/reb/ast/PRA for NBA; shots for NHL).
+    # If pick.pick contains a market keyword (HR, K, points, etc.) we use it
+    # to disambiguate when a player has lines in multiple markets; otherwise
+    # we take the first match in the iteration order below.
     if mkt == "PROP" and pack.props:
-        for hp in pack.props.hr_props:
-            if hp.player_name.lower() not in pl:
+        # Each tuple: (one-or-more keywords found in pick string → this list)
+        candidate_lists: list[tuple[tuple[str, ...], list]] = [
+            (("hr", "home run"),                          pack.props.hr_props),
+            (("strikeout", " k ", "k's", "ks "),          pack.props.k_props),
+            (("total base", " tb ", "tbs", "tb "),        pack.props.tb_props),
+            (("hits", "hit "),                            pack.props.hits_props),
+            (("pra",),                                    pack.props.pra_props),
+            (("point", "pts"),                            pack.props.points_props),
+            (("rebound", "reb", "boards"),                pack.props.rebounds_props),
+            (("assist", "ast", "dimes"),                  pack.props.assists_props),
+            (("shot", "sog"),                             pack.props.shots_props),
+        ]
+        # First try keyword-disambiguated match
+        for kws, prop_list in candidate_lists:
+            if not any(kw in pl for kw in kws):
                 continue
-            if "under" in pl:
-                return hp.under_by_book
-            return hp.over_by_book  # default to "over" if direction unclear
+            for hp in prop_list:
+                if hp.player_name.lower() not in pl:
+                    continue
+                return hp.under_by_book if "under" in pl else hp.over_by_book
+        # Fallback: search every list for the player (rare; logs noisy)
+        for _kws, prop_list in candidate_lists:
+            for hp in prop_list:
+                if hp.player_name.lower() not in pl:
+                    continue
+                return hp.under_by_book if "under" in pl else hp.over_by_book
         return {}
     if not market:
         return {}
