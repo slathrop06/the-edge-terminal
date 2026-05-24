@@ -30,5 +30,13 @@
     "candidate_rule": "Before backing a home favorite in a must-win elimination game, validate opponent's current playoff momentum streak and series point differential \u2014 if the road team's differential exceeds +150 over 10+ games, fade the home urgency narrative regardless of spread value; N=1, insufficient to establish rule.",
     "sample_size_warning": "N=1, insufficient to establish rule \u2014 one game where a dominant road team steamrolled a fatigued home side does not confirm the pattern.",
     "status": "PENDING_REVIEW"
+  },
+  {
+    "proposed_at": "2026-05-24T18:48:09.137658-04:00",
+    "source_pick_id": "20260524-MLB-CLE-PHI-ML",
+    "source_loss": "Cleveland Guardians ML (CLE @ PHI)",
+    "candidate_rule": "Before running autopsy, cross-validate result_score against an external box score source \u2014 a misattributed score from an adjacent game in the same series is a known failure mode; add a date-stamp check against the game_id or box score URL (N=1 occurrence, insufficient to establish pattern).",
+    "sample_size_warning": "N=1 data-entry error observed; watching for pattern of same-series score confusion before formalizing a validation rule.",
+    "status": "PENDING_REVIEW"
   }
 ]

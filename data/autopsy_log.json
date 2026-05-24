@@ -1,5 +1,18 @@
 [
   {
+    "id": "20260524-MLB-CLE-PHI-ML",
+    "date": "2026-05-24",
+    "pick": "Cleveland Guardians ML",
+    "game": "CLE @ PHI",
+    "odds": "-115",
+    "result_score": "CLE 0 \u00b7 PHI 3",
+    "classification": "DATA",
+    "post_mortem": "The result_score field ('CLE 0 \u00b7 PHI 3') is incorrect \u2014 that was Saturday's Zack Wheeler shutout (May 23). The actual pick game on May 24 ended Guardians 3, Phillies 1: Cleveland won. Messick threw 5.2 shutout innings (5 H, 2 BB, 6 K), Painter allowed 2 runs in 6.1 innings, and Travis Bazzana hit an insurance solo HR in the 8th. The thesis played out almost exactly as written \u2014 Messick dominated PHI's right-handed hitters (1-for-13, 5 K), Painter was hittable, and Cleveland took the series. This is a data entry error, not a loss.",
+    "candidate_rule": "Before running autopsy, cross-validate result_score against an external box score source \u2014 a misattributed score from an adjacent game in the same series is a known failure mode; add a date-stamp check against the game_id or box score URL (N=1 occurrence, insufficient to establish pattern).",
+    "sample_size_warning": "N=1 data-entry error observed; watching for pattern of same-series score confusion before formalizing a validation rule.",
+    "analyzed_at": "2026-05-24T18:48:09.137257-04:00"
+  },
+  {
     "id": "20260523-NBA-NY-CLE-SPREAD",
     "date": "2026-05-23",
     "pick": "Cavaliers -2.5",
