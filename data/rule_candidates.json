@@ -22,5 +22,13 @@
     "candidate_rule": "When the opposing starter's current-month ERA diverges from his season ERA by 2+ runs (Junk: 4.14 season / 6.35 May), treat the under as structurally compromised and require the total to be set at least 0.5 below the implied run total before playing it \u2014 N=1, insufficient to establish rule.",
     "sample_size_warning": "N=1, insufficient to establish rule. One loss on a bad-month ERA divergence is noise; track over minimum 10 comparable starts before codifying.",
     "status": "PENDING_REVIEW"
+  },
+  {
+    "proposed_at": "2026-05-24T01:00:09.887198-04:00",
+    "source_pick_id": "20260523-NBA-NY-CLE-SPREAD",
+    "source_loss": "Cavaliers -2.5 (NY @ CLE)",
+    "candidate_rule": "Before backing a home favorite in a must-win elimination game, validate opponent's current playoff momentum streak and series point differential \u2014 if the road team's differential exceeds +150 over 10+ games, fade the home urgency narrative regardless of spread value; N=1, insufficient to establish rule.",
+    "sample_size_warning": "N=1, insufficient to establish rule \u2014 one game where a dominant road team steamrolled a fatigued home side does not confirm the pattern.",
+    "status": "PENDING_REVIEW"
   }
 ]

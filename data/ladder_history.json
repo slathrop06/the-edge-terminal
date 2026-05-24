@@ -1,9 +1,17 @@
 {
-  "current_streak": 2,
-  "longest_streak": 2,
+  "current_streak": 3,
+  "longest_streak": 3,
   "completed_climbs": 0,
   "target": 10,
   "history": [
+    {
+      "date": "2026-05-23",
+      "pick_id": "20260523-MLB-CLE-PHI-TOTAL",
+      "pick": "Under 7.0",
+      "game": "CLE @ PHI",
+      "status": "WIN",
+      "after_streak": 3
+    },
     {
       "date": "2026-05-22",
       "pick_id": "20260522-MLB-HOU-CHC-TOTAL",
@@ -61,5 +69,5 @@
       "after_streak": 1
     }
   ],
-  "updated_at": "2026-05-23T02:17:18.729938-04:00"
+  "updated_at": "2026-05-24T01:00:09.891346-04:00"
 }

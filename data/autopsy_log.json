@@ -1,5 +1,18 @@
 [
   {
+    "id": "20260523-NBA-NY-CLE-SPREAD",
+    "date": "2026-05-23",
+    "pick": "Cavaliers -2.5",
+    "game": "NY @ CLE",
+    "odds": "-108",
+    "result_score": "NY 121 \u00b7 CLE 108",
+    "classification": "MODEL",
+    "post_mortem": "New York led wire-to-wire \u2014 the 'home elimination urgency' thesis never materialized. The Knicks jumped out 9-1 inside two minutes, led 37-27 after Q1, 60-54 at half, and 91-82 after three quarters. The kill shot came in Q4 when Landry Shamet hit three 3-pointers in a 99-second span to push it to 105-94, putting the game out of reach. Mitchell finished with only 23 points and Cleveland shot a brutal 12-of-41 from three \u2014 but the Cavs were never competitive enough for the spread to even be in play. The model ignored a critical structural factor: Cleveland was already showing signs of fatigue from a seven-game series against Toronto/Detroit, the Knicks were riding a 9-game playoff win streak with a plus-221 point differential (an NBA record through 12 games), and New York was 7-1 all-time in playoff games at Cleveland. The 'home elimination urgency' edge was real in theory but was overwhelmed by a Knicks team operating at a historically dominant level.",
+    "candidate_rule": "Before backing a home favorite in a must-win elimination game, validate opponent's current playoff momentum streak and series point differential \u2014 if the road team's differential exceeds +150 over 10+ games, fade the home urgency narrative regardless of spread value; N=1, insufficient to establish rule.",
+    "sample_size_warning": "N=1, insufficient to establish rule \u2014 one game where a dominant road team steamrolled a fatigued home side does not confirm the pattern.",
+    "analyzed_at": "2026-05-24T01:00:09.886762-04:00"
+  },
+  {
     "id": "20260520-MLB-ATL-MIA-TOTAL",
     "date": "2026-05-20",
     "pick": "Under 7.0",

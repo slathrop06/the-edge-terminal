@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated_at": "2026-05-23T20:03:24.401433-04:00",
+  "updated_at": "2026-05-24T01:00:09.891806-04:00",
   "picks": [
     {
       "id": "20260523-NBA-NY-CLE-SPREAD",
@@ -86,16 +86,22 @@
       "scott_bot_quip": "Top seed, elimination game, home court, laying less than a field goal. The boys take that math every time.",
       "ladder_note": "",
       "date": "2026-05-23",
-      "status": "PEND",
-      "units_result": null,
+      "status": "LOSS",
+      "units_result": -1.0,
       "clv_cents": null,
-      "result_score": null,
-      "graded_at": null,
+      "result_score": "NY 121 \u00b7 CLE 108",
+      "graded_at": "2026-05-24T00:59:48.786073-04:00",
       "slate_assessment": "Heavy 15-game MLB board headlined by Skenes at Rogers Centre and Wheeler at home, plus Cavs-Knicks ECF Game 6 and Hurricanes-Habs. Soft pitching matchups on the West Coast and a brutal opposing arm in Philly create the cleanest edges.",
       "executive_summary": "Big Saturday board \u2014 15 MLB games, Cavs-Knicks Eastern Conference Finals, and Canes-Habs. The pitching mismatches do the heavy lifting: Wheeler (1.99 ERA, 0.29 HR/9) against a Cecconi/Cleveland group with wind howling in at Citizens Bank, Skenes (2.62, 0.71 WHIP) facing a Corbin-led Toronto staff that can't miss bats, and George Kirby's K floor against a Royals lineup that whiffs. The ladder rides with Wheeler under \u2014 best-floor play on the board.",
       "slate_analysis": "Fifteen MLB games, one NBA playoff game (Knicks-Cavs ECF), and one NHL playoff game (Canes-Habs) on the board. Pricing is reasonable across DK/FD/MGM with totals mostly stable and a few obvious pitching mismatches creating real number disagreement between books.\n\nThe candidates that earned a hard look: Phillies-Guardians under 7.0 (Wheeler 1.99 ERA, 0.29 HR/9, plus 13 mph wind blowing in cutting HR impact ~17%); Pirates-Blue Jays under 7.5 (Skenes 2.62 ERA, 0.71 WHIP, 30.3% K vs a Toronto lineup facing a top-3 arm in baseball); Mariners-Royals George Kirby strikeouts over 5.5 (+127 \u2014 Kirby's K/9 ~8.5, Royals lineup K-prone, and the price is plus money); Marlins-Mets under 7.5 (Meyer 2.85/0.68 HR9 + Peralta 3.31 in a pitcher's park, PF 0.94 runs/0.86 HR); Cavs ML at home in an elimination Game 6 (-130). I also looked at Braves-Nats (Irvin 5.79 ERA but Holmes' 10.9 BB% scares me on the over) and Yankees-Rays (two stable arms, no juice edge).\n\nWhat got cut: Cavs-Knicks ML \u2014 I like Cleveland at home in an elimination game but -130 is fair and the Knicks are a legit playoff team, no 8-cent edge. Braves-Nats over felt obvious but Holmes' walk rate (10.9%) and Irvin's HR/9 (1.36) cut both ways without a wind tailwind to push it. Marlins-Mets under is tempting but Meyer's 53.2 IP is a moderate sample and Peralta's 10.7 BB% adds variance \u2014 passed in favor of cleaner spots. Dodgers-Brewers passed because Gasser has 4.0 career IP (sample too thin) and Sasaki's 2.01 HR9 makes the under risky too.\n\nThe four that survived: (1) Phillies-Guardians under 7.0 \u2014 Wheeler is the best pitcher in baseball this year and the wind is killing flyballs. (2) Pirates-Blue Jays under 7.5 \u2014 Skenes is a different animal, and Corbin's not a bat-misser but his 0.94 HR9 keeps runs reasonable. (3) Kirby Ks over 5.5 at +127 \u2014 pure pitching prop edge, plus-money on a guy who routinely hits this number. (4) Cavs -2.5 at home in Game 6 elimination \u2014 value on the spread vs the ML, Cleveland's defense at home is the edge. Wheeler under gets the ladder badge \u2014 it's the highest-floor play, near even money, with two independent suppressors (elite SP + wind).",
       "slate_vibe": "NORMAL",
-      "published_at": "2026-05-23T12:38:55.499971-04:00"
+      "published_at": "2026-05-23T12:38:55.499971-04:00",
+      "autopsy": {
+        "classification": "MODEL",
+        "post_mortem": "New York led wire-to-wire \u2014 the 'home elimination urgency' thesis never materialized. The Knicks jumped out 9-1 inside two minutes, led 37-27 after Q1, 60-54 at half, and 91-82 after three quarters. The kill shot came in Q4 when Landry Shamet hit three 3-pointers in a 99-second span to push it to 105-94, putting the game out of reach. Mitchell finished with only 23 points and Cleveland shot a brutal 12-of-41 from three \u2014 but the Cavs were never competitive enough for the spread to even be in play. The model ignored a critical structural factor: Cleveland was already showing signs of fatigue from a seven-game series against Toronto/Detroit, the Knicks were riding a 9-game playoff win streak with a plus-221 point differential (an NBA record through 12 games), and New York was 7-1 all-time in playoff games at Cleveland. The 'home elimination urgency' edge was real in theory but was overwhelmed by a Knicks team operating at a historically dominant level.",
+        "candidate_rule": "Before backing a home favorite in a must-win elimination game, validate opponent's current playoff momentum streak and series point differential \u2014 if the road team's differential exceeds +150 over 10+ games, fade the home urgency narrative regardless of spread value; N=1, insufficient to establish rule.",
+        "sample_size_warning": "N=1, insufficient to establish rule \u2014 one game where a dominant road team steamrolled a fatigued home side does not confirm the pattern."
+      }
     },
     {
       "id": "20260523-MLB-SEA-KC-PROP-GEORGEKIRBY",
@@ -385,11 +391,11 @@
       "scott_bot_quip": "Wheeler in cold air with the wind in his face. The math here isn't hard.",
       "ladder_note": "Highest-floor play on the board \u2014 elite SP, weather working with us, even-money price, no variance-dependent prop. This is what a ladder spot looks like.",
       "date": "2026-05-23",
-      "status": "PEND",
-      "units_result": null,
+      "status": "WIN",
+      "units_result": 1.4423,
       "clv_cents": null,
-      "result_score": null,
-      "graded_at": null,
+      "result_score": "CLE 0 \u00b7 PHI 3",
+      "graded_at": "2026-05-24T01:00:09.887862-04:00",
       "slate_assessment": "Heavy 15-game MLB board headlined by Skenes at Rogers Centre and Wheeler at home, plus Cavs-Knicks ECF Game 6 and Hurricanes-Habs. Soft pitching matchups on the West Coast and a brutal opposing arm in Philly create the cleanest edges.",
       "executive_summary": "Big Saturday board \u2014 15 MLB games, Cavs-Knicks Eastern Conference Finals, and Canes-Habs. The pitching mismatches do the heavy lifting: Wheeler (1.99 ERA, 0.29 HR/9) against a Cecconi/Cleveland group with wind howling in at Citizens Bank, Skenes (2.62, 0.71 WHIP) facing a Corbin-led Toronto staff that can't miss bats, and George Kirby's K floor against a Royals lineup that whiffs. The ladder rides with Wheeler under \u2014 best-floor play on the board.",
       "slate_analysis": "Fifteen MLB games, one NBA playoff game (Knicks-Cavs ECF), and one NHL playoff game (Canes-Habs) on the board. Pricing is reasonable across DK/FD/MGM with totals mostly stable and a few obvious pitching mismatches creating real number disagreement between books.\n\nThe candidates that earned a hard look: Phillies-Guardians under 7.0 (Wheeler 1.99 ERA, 0.29 HR/9, plus 13 mph wind blowing in cutting HR impact ~17%); Pirates-Blue Jays under 7.5 (Skenes 2.62 ERA, 0.71 WHIP, 30.3% K vs a Toronto lineup facing a top-3 arm in baseball); Mariners-Royals George Kirby strikeouts over 5.5 (+127 \u2014 Kirby's K/9 ~8.5, Royals lineup K-prone, and the price is plus money); Marlins-Mets under 7.5 (Meyer 2.85/0.68 HR9 + Peralta 3.31 in a pitcher's park, PF 0.94 runs/0.86 HR); Cavs ML at home in an elimination Game 6 (-130). I also looked at Braves-Nats (Irvin 5.79 ERA but Holmes' 10.9 BB% scares me on the over) and Yankees-Rays (two stable arms, no juice edge).\n\nWhat got cut: Cavs-Knicks ML \u2014 I like Cleveland at home in an elimination game but -130 is fair and the Knicks are a legit playoff team, no 8-cent edge. Braves-Nats over felt obvious but Holmes' walk rate (10.9%) and Irvin's HR/9 (1.36) cut both ways without a wind tailwind to push it. Marlins-Mets under is tempting but Meyer's 53.2 IP is a moderate sample and Peralta's 10.7 BB% adds variance \u2014 passed in favor of cleaner spots. Dodgers-Brewers passed because Gasser has 4.0 career IP (sample too thin) and Sasaki's 2.01 HR9 makes the under risky too.\n\nThe four that survived: (1) Phillies-Guardians under 7.0 \u2014 Wheeler is the best pitcher in baseball this year and the wind is killing flyballs. (2) Pirates-Blue Jays under 7.5 \u2014 Skenes is a different animal, and Corbin's not a bat-misser but his 0.94 HR9 keeps runs reasonable. (3) Kirby Ks over 5.5 at +127 \u2014 pure pitching prop edge, plus-money on a guy who routinely hits this number. (4) Cavs -2.5 at home in Game 6 elimination \u2014 value on the spread vs the ML, Cleveland's defense at home is the edge. Wheeler under gets the ladder badge \u2014 it's the highest-floor play, near even money, with two independent suppressors (elite SP + wind).",
