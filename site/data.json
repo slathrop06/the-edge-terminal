@@ -1,11 +1,592 @@
 {
-  "generated_at": "2026-05-24T05:04:43.022482-04:00",
+  "generated_at": "2026-05-24T11:57:39.811417-04:00",
   "today": "2026-05-24",
   "system_paused": false,
   "pause_reason": "",
-  "today_picks": [],
+  "today_picks": [
+    {
+      "id": "20260524-NBA-OKC-SA-PROP-VICTORWEMBANYAMA",
+      "sport": "NBA",
+      "game": "OKC @ SAS",
+      "first_pitch_iso": "2026-05-24T20:00:00-04:00",
+      "pick": "Victor Wembanyama Rebounds Over 13.5",
+      "best_book": "FanDuel",
+      "best_odds": "-108",
+      "book_prices": {
+        "draftkings": "-109",
+        "fanduel": "-108",
+        "betmgm": "-110"
+      },
+      "book_links": {
+        "draftkings": "https://sportsbook.draftkings.com/?outcomes=0QA336952872%232160930959_13L42648Q1-1726619960Q20",
+        "fanduel": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.580505473&selectionId=61967224",
+        "betmgm": "https://sports.nj.betmgm.com/en/sports/events/oklahoma-city-thunder-at-san-antonio-spurs-19557467"
+      },
+      "market": "PROP",
+      "confidence": 3,
+      "units": 1.0,
+      "win_probability": 0.58,
+      "ladder_designation": false,
+      "data_confidence": 0.65,
+      "rules_passed": [
+        "max_juice",
+        "ladder_even_money",
+        "parlay_well_formed",
+        "confidence_units_match",
+        "data_confidence_floor",
+        "pick_type_allowed",
+        "mlb_hr_prop_check",
+        "mlb_pitcher_k_check",
+        "mlb_total_bases_check",
+        "mlb_hits_check",
+        "nba_player_prop_check(soft)",
+        "nhl_shots_check",
+        "mlb_run_line_check",
+        "mlb_under_bb_check",
+        "no_same_game_opposite"
+      ],
+      "locked": true,
+      "late_add": false,
+      "late_add_reason": "",
+      "bonus_pick": false,
+      "event_type": "",
+      "event_name": "",
+      "legs": [],
+      "headline": "Wemby vs an OKC lineup that runs Hartenstein next to four guards \u2014 the rebound floor is high.",
+      "the_thesis": "Victor Wembanyama is a 7'4 walking double-double averaging 14+ rebounds per game in the playoffs. At home against an OKC lineup that, outside Hartenstein and Holmgren, fields four guards (SGA, Jalen Williams, Caruso, Cason Wallace, Dort), the size mismatch is glaring. Wemby will eat on the offensive boards against guards switching onto him.\n\nThe alt line on FanDuel is 14.5 at +115, but for the ladder we take the floor at 13.5 \u2014 he's cleared 14 in most playoff games and OKC's pace doesn't suppress rebound volume. Hartenstein is the only player on the OKC roster who can credibly body him, and he can't be on the floor 48 minutes.\n\nA conf=3 prop play with a clear positional/lineup edge.",
+      "the_data": [
+        {
+          "label": "Wemby playoff RPG (est.)",
+          "value": "~14.5",
+          "context": "elite, scales with minutes"
+        },
+        {
+          "label": "Line",
+          "value": "13.5",
+          "context": "below his recent average"
+        },
+        {
+          "label": "OKC lineup",
+          "value": "Hartenstein + 4 guards",
+          "context": "size mismatch"
+        },
+        {
+          "label": "Game total",
+          "value": "219.5",
+          "context": "normal pace, no slowdown expected"
+        },
+        {
+          "label": "Home/away",
+          "value": "Home",
+          "context": "minutes + comfort"
+        }
+      ],
+      "the_market": "Line consistent at 13.5 across all three books, FD has the best number at -108. No movement, which means the books are comfortable here \u2014 but the matchup is what makes it.",
+      "weather_park": "",
+      "case_against": "Foul trouble is the bear case \u2014 if Wemby picks up two early he sits and the volume disappears. If the Spurs run away with it (or get blown out) he sits the 4th. Holmgren and Hartenstein can combine to limit second-chance opportunities. Rebounds are also one of the most variance-y props because of where misses bounce \u2014 you can play 38 minutes and finish at 11 in a bad night.",
+      "what_were_betting_on": "Wemby plays 36+ minutes, stays out of early foul trouble, and OKC's small-ball forces him into volume on the glass.",
+      "scott_bot_quip": "Four guards on an island and a 7'4 alien on the boards. We'll take the under on physics.",
+      "ladder_note": "",
+      "date": "2026-05-24",
+      "status": "PEND",
+      "units_result": null,
+      "clv_cents": null,
+      "result_score": null,
+      "graded_at": null,
+      "slate_assessment": "Heavy 15-game MLB slate plus NBA Finals (SAS/OKC) and NHL Conference Final (COL/VGK) \u2014 pitching mismatches in PHI and MIL stand out, plus a sharp NBA prop angle.",
+      "executive_summary": "Big board today: 15 MLB games headlined by two glaring pitching mismatches \u2014 Parker Messick's 2.45 ERA against rookie Andrew Painter's 5.77 in Philly, and Yamamoto cleaning up against Brandon Sproat (5.75 ERA, 13.1% BB%) in Milwaukee. The boys also get NBA Finals action with Wembanyama hosting OKC and Avs/Knights in the NHL. The ladder rides with Cleveland \u2014 best floor on the board, a clear pitching edge plus a wind-suppressed park trim. Four plays, mixed across sports.",
+      "slate_analysis": "Fifteen MLB games, one NBA Finals game (Spurs hosting Thunder, total 219.5), and a Western Conference Final NHL game (Avalanche at Vegas). Pricing climate is normal \u2014 most MLB sides between -180 and +150, no obvious public traps screaming, but two pitching mismatches jump off the page.\n\nTop candidates that rose: (1) Cleveland at Philadelphia \u2014 Parker Messick's 2.45 ERA / 28.3 K% / 1.02 WHIP vs Andrew Painter's 5.77 ERA / 1.46 HR9 is the cleanest SP edge on the board. (2) Dodgers at Milwaukee \u2014 Yamamoto (3.32 ERA, 25.3 K%, 0.96 WHIP) vs Brandon Sproat (5.75 ERA, 13.1 BB%, 2.01 HR9) is arguably an even bigger mismatch, but Dodgers ML at -163 is on our juice cap line. (3) Red Sox/Twins Under 7.5 \u2014 Sonny Gray (2.93) vs Bailey Ober (3.63) with 10 mph wind blowing in from RF at Fenway suppressing HR ~13%. (4) Wembanyama Rebounds Over 13.5 \u2014 he's been the rebounding force of these playoffs and OKC is a small-ball lineup with Hartenstein the only true big.\n\nWhat got cut: Toronto/PIT under tempted with Cease (2.98) vs Keller (3.86), but combined K rates aren't suppressing enough and 7.5 is a soft number \u2014 no edge. Yankees ML at -136 with Weathers (1.44 HR9) in a wind-suppressed park is intriguing but Rasmussen (3.19) makes it a coin flip, no 8-cent edge. Padres ML at -174 is too short for King vs a thin Medina sample (18.2 IP). Cubs ML at -178 same problem \u2014 pricey, no edge. Braves -1.5 at +125 has merit but Foster Griffin has actually been okay (4.02 ERA) and Atlanta's bullpen is shaky.\n\nFinal four: Cleveland ML as the ladder anchor (best floor \u2014 clear SP edge, near even money), Dodgers ML as the high-confidence side, Red Sox/Twins Under 7.5 as the totals play with weather support, and Wembanyama Rebounds Over 13.5 as the prop spot. Ladder lives with Cleveland because Messick's profile is the most stable edge at a fair price \u2014 pitcher-driven games have lower variance than offense-driven ones.",
+      "slate_vibe": "NORMAL",
+      "published_at": "2026-05-24T11:57:39.807024-04:00"
+    },
+    {
+      "id": "20260524-MLB-MIN-BOS-TOTAL",
+      "sport": "MLB",
+      "game": "MIN @ BOS",
+      "first_pitch_iso": "2026-05-24T13:35:00-04:00",
+      "pick": "Under 7.5",
+      "best_book": "FanDuel",
+      "best_odds": "-120",
+      "book_prices": {
+        "draftkings": "-122",
+        "fanduel": "-120",
+        "betmgm": "-120"
+      },
+      "book_links": {
+        "fanduel": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.580675991&selectionId=7017906",
+        "draftkings": "https://sportsbook.draftkings.com/?outcomes=0OU84908041U750_3",
+        "betmgm": "https://sports.nj.betmgm.com/en/sports?options=19436899-1503837251-2150947994&type=Single"
+      },
+      "market": "TOTAL",
+      "confidence": 3,
+      "units": 1.0,
+      "win_probability": 0.57,
+      "ladder_designation": false,
+      "data_confidence": 0.7,
+      "rules_passed": [
+        "max_juice",
+        "ladder_even_money",
+        "parlay_well_formed",
+        "confidence_units_match",
+        "data_confidence_floor",
+        "pick_type_allowed",
+        "mlb_hr_prop_check",
+        "mlb_pitcher_k_check",
+        "mlb_total_bases_check",
+        "mlb_hits_check",
+        "nba_player_prop_check",
+        "nhl_shots_check",
+        "mlb_run_line_check",
+        "mlb_under_bb_check",
+        "no_same_game_opposite"
+      ],
+      "locked": true,
+      "late_add": false,
+      "late_add_reason": "",
+      "bonus_pick": false,
+      "event_type": "",
+      "event_name": "",
+      "legs": [],
+      "headline": "Two competent right-handers, a cold Fenway with wind blowing in 10 mph \u2014 runs suppressed all afternoon.",
+      "the_thesis": "Sonny Gray is having a vintage season: 2.93 ERA, 1.13 WHIP, and a tidy 5.5% walk rate \u2014 that low BB% is what unlocks an under bet, because the validator rejects unders when starters walk the park (Gray doesn't). Bailey Ober isn't elite but he's been steady: 3.63 ERA, 1.07 WHIP, 7.3% BB%.\n\nThe Red Sox have scored only 3.71 R/G all year \u2014 that's bottom-third in MLB despite Fenway being a hitter's park. Minnesota's at 4.65 R/G, decent but not explosive. Most importantly: 52\u00b0F game-time temp with 10 mph wind blowing in from RF, which the model has computed at -13% HR impact. Cold + wind in at Fenway is a classic under spot \u2014 balls die in the gap that would normally find the seats.\n\nThis is the only conf=3 play of the four, the marginal pick, but the weather signal is a real edge most casual bettors discount.",
+      "the_data": [
+        {
+          "label": "Gray ERA / BB%",
+          "value": "2.93 / 5.5%",
+          "context": "elite control, validator-safe"
+        },
+        {
+          "label": "Ober ERA / WHIP",
+          "value": "3.63 / 1.07",
+          "context": "solid mid-rotation"
+        },
+        {
+          "label": "BOS R/G",
+          "value": "3.71",
+          "context": "bottom-third offense"
+        },
+        {
+          "label": "Weather",
+          "value": "52\u00b0F, 10 mph in from RF",
+          "context": "-13% HR impact"
+        },
+        {
+          "label": "Fenway HR PF",
+          "value": "0.96",
+          "context": "below average for HRs"
+        }
+      ],
+      "the_market": "Total opened 7.5, hasn't moved across all three books \u2014 but the under is juiced to -120, which tells you books know about the weather. Public is on the over (Fenway name brand), sharps holding the line down.",
+      "weather_park": "52\u00b0F, 10 mph wind in from RF at Fenway. HR-suppression already computed at -13%. Classic under weather.",
+      "case_against": "Ober's HR/9 is 1.11 and the Wall plays games no one understands \u2014 a wind that should suppress HRs can turn into doubles off the Monster instead. Boston's lineup has bursty days when they string singles, and Twins offense at 4.65 R/G can put up a crooked number in one inning. If either starter exits by inning 4, this number is in trouble.",
+      "what_were_betting_on": "Both starters going 5+ innings, cold weather keeping balls in the park, neither offense stringing more than one big inning.",
+      "scott_bot_quip": "Fenway in 52 degrees with the wind in is a pitcher's park nobody priced as one.",
+      "ladder_note": "",
+      "date": "2026-05-24",
+      "status": "PEND",
+      "units_result": null,
+      "clv_cents": null,
+      "result_score": null,
+      "graded_at": null,
+      "slate_assessment": "Heavy 15-game MLB slate plus NBA Finals (SAS/OKC) and NHL Conference Final (COL/VGK) \u2014 pitching mismatches in PHI and MIL stand out, plus a sharp NBA prop angle.",
+      "executive_summary": "Big board today: 15 MLB games headlined by two glaring pitching mismatches \u2014 Parker Messick's 2.45 ERA against rookie Andrew Painter's 5.77 in Philly, and Yamamoto cleaning up against Brandon Sproat (5.75 ERA, 13.1% BB%) in Milwaukee. The boys also get NBA Finals action with Wembanyama hosting OKC and Avs/Knights in the NHL. The ladder rides with Cleveland \u2014 best floor on the board, a clear pitching edge plus a wind-suppressed park trim. Four plays, mixed across sports.",
+      "slate_analysis": "Fifteen MLB games, one NBA Finals game (Spurs hosting Thunder, total 219.5), and a Western Conference Final NHL game (Avalanche at Vegas). Pricing climate is normal \u2014 most MLB sides between -180 and +150, no obvious public traps screaming, but two pitching mismatches jump off the page.\n\nTop candidates that rose: (1) Cleveland at Philadelphia \u2014 Parker Messick's 2.45 ERA / 28.3 K% / 1.02 WHIP vs Andrew Painter's 5.77 ERA / 1.46 HR9 is the cleanest SP edge on the board. (2) Dodgers at Milwaukee \u2014 Yamamoto (3.32 ERA, 25.3 K%, 0.96 WHIP) vs Brandon Sproat (5.75 ERA, 13.1 BB%, 2.01 HR9) is arguably an even bigger mismatch, but Dodgers ML at -163 is on our juice cap line. (3) Red Sox/Twins Under 7.5 \u2014 Sonny Gray (2.93) vs Bailey Ober (3.63) with 10 mph wind blowing in from RF at Fenway suppressing HR ~13%. (4) Wembanyama Rebounds Over 13.5 \u2014 he's been the rebounding force of these playoffs and OKC is a small-ball lineup with Hartenstein the only true big.\n\nWhat got cut: Toronto/PIT under tempted with Cease (2.98) vs Keller (3.86), but combined K rates aren't suppressing enough and 7.5 is a soft number \u2014 no edge. Yankees ML at -136 with Weathers (1.44 HR9) in a wind-suppressed park is intriguing but Rasmussen (3.19) makes it a coin flip, no 8-cent edge. Padres ML at -174 is too short for King vs a thin Medina sample (18.2 IP). Cubs ML at -178 same problem \u2014 pricey, no edge. Braves -1.5 at +125 has merit but Foster Griffin has actually been okay (4.02 ERA) and Atlanta's bullpen is shaky.\n\nFinal four: Cleveland ML as the ladder anchor (best floor \u2014 clear SP edge, near even money), Dodgers ML as the high-confidence side, Red Sox/Twins Under 7.5 as the totals play with weather support, and Wembanyama Rebounds Over 13.5 as the prop spot. Ladder lives with Cleveland because Messick's profile is the most stable edge at a fair price \u2014 pitcher-driven games have lower variance than offense-driven ones.",
+      "slate_vibe": "NORMAL",
+      "published_at": "2026-05-24T11:57:39.806939-04:00"
+    },
+    {
+      "id": "20260524-MLB-CLE-PHI-ML",
+      "sport": "MLB",
+      "game": "CLE @ PHI",
+      "first_pitch_iso": "2026-05-24T13:35:00-04:00",
+      "pick": "Cleveland Guardians ML",
+      "best_book": "DraftKings",
+      "best_odds": "-115",
+      "book_prices": {
+        "draftkings": "-115",
+        "fanduel": "-116",
+        "betmgm": "-115"
+      },
+      "book_links": {
+        "fanduel": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.580572557&selectionId=41541473",
+        "draftkings": "https://sportsbook.draftkings.com/?outcomes=0ML84908043_3",
+        "betmgm": "https://sports.nj.betmgm.com/en/sports?options=19436897-1503837083-2150947657&type=Single"
+      },
+      "market": "ML",
+      "confidence": 4,
+      "units": 1.5,
+      "win_probability": 0.58,
+      "ladder_designation": true,
+      "data_confidence": 0.7,
+      "rules_passed": [
+        "max_juice",
+        "ladder_even_money",
+        "parlay_well_formed",
+        "confidence_units_match",
+        "data_confidence_floor",
+        "pick_type_allowed",
+        "mlb_hr_prop_check",
+        "mlb_pitcher_k_check",
+        "mlb_total_bases_check",
+        "mlb_hits_check",
+        "nba_player_prop_check",
+        "nhl_shots_check",
+        "mlb_run_line_check",
+        "mlb_under_bb_check",
+        "no_same_game_opposite"
+      ],
+      "locked": true,
+      "late_add": false,
+      "late_add_reason": "",
+      "bonus_pick": false,
+      "event_type": "",
+      "event_name": "",
+      "legs": [],
+      "headline": "Parker Messick (2.45 ERA, 28.3 K%) carving up a Painter-led Phillies lineup at a fair price.",
+      "the_thesis": "This is the clearest pitching mismatch on the board. Parker Messick is running a 2.45 ERA with a 1.02 WHIP and a 28.3% strikeout rate \u2014 that K rate means he's punching out more than one in four hitters he faces, which is elite, top-15 SP territory. His 0.93 HR/9 keeps him out of trouble even in Citizens Bank Park's HR-friendly confines.\n\nAndrew Painter is the highly-touted Phillies prospect but the bigs are eating him alive: 5.77 ERA, 1.49 WHIP, and a 1.46 HR/9 that's a major red flag at a park with a 1.10 HR park factor. He's averaging only 14.4 IP per start over his last 3 \u2014 short outings expose a Phillies bullpen that's already been worked. Cleveland's offense (4.24 R/G) isn't elite but they don't need to be against this matchup. The market has Cleveland favored at -115, but the SP gap is wider than that line implies.\n\nThis is the ladder pick \u2014 the highest-floor play on the board near even money. Pitcher-driven edges are the lowest variance edges in baseball.",
+      "the_data": [
+        {
+          "label": "Messick ERA / WHIP / K%",
+          "value": "2.45 / 1.02 / 28.3%",
+          "context": "elite across the board"
+        },
+        {
+          "label": "Painter ERA / HR/9",
+          "value": "5.77 / 1.46",
+          "context": "27th-percentile run prevention, HR-prone"
+        },
+        {
+          "label": "Painter IP per start (L3)",
+          "value": "14.4",
+          "context": "short \u2014 exposes PHI bullpen"
+        },
+        {
+          "label": "CLE R/G season",
+          "value": "4.24",
+          "context": "league average, sufficient here"
+        },
+        {
+          "label": "Citizens Bank HR PF",
+          "value": "1.10",
+          "context": "boosts Painter's HR risk"
+        },
+        {
+          "label": "Wind",
+          "value": "7 mph in from RF, 61\u00b0F",
+          "context": "slightly favors the pitcher"
+        }
+      ],
+      "the_market": "Line opened pick'em-ish, Cleveland now -115 across all three books with no movement off open. Quiet steam \u2014 sharps and books agree the SP edge is real.",
+      "weather_park": "61\u00b0F, wind 7 mph in from RF at Citizens Bank Park \u2014 slight HR suppression on a HR-friendly park, net mild trim to Painter's biggest risk.",
+      "case_against": "Painter is a top prospect and could finally have his breakout start \u2014 talent is real even if results have lagged. Messick has only 58.2 IP this season, sample-size flags are reasonable. Cleveland's offense is mediocre against RHP and Philly's bullpen can erase a one-run deficit late. If this becomes a bullpen game with both starters out by the 5th, Philly's roster depth wins.",
+      "what_were_betting_on": "Messick going 6+ at his current rate while Painter coughs up 4+ runs in a short outing.",
+      "scott_bot_quip": "When the rookie has a 1.46 HR/9 and the park has a 1.10 HR factor, you don't need a calculator.",
+      "ladder_note": "Best floor on the board \u2014 pitcher-driven edge, near even money, books and signals aligned. Lowest-variance play of the four.",
+      "date": "2026-05-24",
+      "status": "PEND",
+      "units_result": null,
+      "clv_cents": null,
+      "result_score": null,
+      "graded_at": null,
+      "slate_assessment": "Heavy 15-game MLB slate plus NBA Finals (SAS/OKC) and NHL Conference Final (COL/VGK) \u2014 pitching mismatches in PHI and MIL stand out, plus a sharp NBA prop angle.",
+      "executive_summary": "Big board today: 15 MLB games headlined by two glaring pitching mismatches \u2014 Parker Messick's 2.45 ERA against rookie Andrew Painter's 5.77 in Philly, and Yamamoto cleaning up against Brandon Sproat (5.75 ERA, 13.1% BB%) in Milwaukee. The boys also get NBA Finals action with Wembanyama hosting OKC and Avs/Knights in the NHL. The ladder rides with Cleveland \u2014 best floor on the board, a clear pitching edge plus a wind-suppressed park trim. Four plays, mixed across sports.",
+      "slate_analysis": "Fifteen MLB games, one NBA Finals game (Spurs hosting Thunder, total 219.5), and a Western Conference Final NHL game (Avalanche at Vegas). Pricing climate is normal \u2014 most MLB sides between -180 and +150, no obvious public traps screaming, but two pitching mismatches jump off the page.\n\nTop candidates that rose: (1) Cleveland at Philadelphia \u2014 Parker Messick's 2.45 ERA / 28.3 K% / 1.02 WHIP vs Andrew Painter's 5.77 ERA / 1.46 HR9 is the cleanest SP edge on the board. (2) Dodgers at Milwaukee \u2014 Yamamoto (3.32 ERA, 25.3 K%, 0.96 WHIP) vs Brandon Sproat (5.75 ERA, 13.1 BB%, 2.01 HR9) is arguably an even bigger mismatch, but Dodgers ML at -163 is on our juice cap line. (3) Red Sox/Twins Under 7.5 \u2014 Sonny Gray (2.93) vs Bailey Ober (3.63) with 10 mph wind blowing in from RF at Fenway suppressing HR ~13%. (4) Wembanyama Rebounds Over 13.5 \u2014 he's been the rebounding force of these playoffs and OKC is a small-ball lineup with Hartenstein the only true big.\n\nWhat got cut: Toronto/PIT under tempted with Cease (2.98) vs Keller (3.86), but combined K rates aren't suppressing enough and 7.5 is a soft number \u2014 no edge. Yankees ML at -136 with Weathers (1.44 HR9) in a wind-suppressed park is intriguing but Rasmussen (3.19) makes it a coin flip, no 8-cent edge. Padres ML at -174 is too short for King vs a thin Medina sample (18.2 IP). Cubs ML at -178 same problem \u2014 pricey, no edge. Braves -1.5 at +125 has merit but Foster Griffin has actually been okay (4.02 ERA) and Atlanta's bullpen is shaky.\n\nFinal four: Cleveland ML as the ladder anchor (best floor \u2014 clear SP edge, near even money), Dodgers ML as the high-confidence side, Red Sox/Twins Under 7.5 as the totals play with weather support, and Wembanyama Rebounds Over 13.5 as the prop spot. Ladder lives with Cleveland because Messick's profile is the most stable edge at a fair price \u2014 pitcher-driven games have lower variance than offense-driven ones.",
+      "slate_vibe": "NORMAL",
+      "published_at": "2026-05-24T11:57:39.806798-04:00"
+    }
+  ],
   "today_bonus_picks": [],
   "all_picks": [
+    {
+      "id": "20260524-NBA-OKC-SA-PROP-VICTORWEMBANYAMA",
+      "sport": "NBA",
+      "game": "OKC @ SAS",
+      "first_pitch_iso": "2026-05-24T20:00:00-04:00",
+      "pick": "Victor Wembanyama Rebounds Over 13.5",
+      "best_book": "FanDuel",
+      "best_odds": "-108",
+      "book_prices": {
+        "draftkings": "-109",
+        "fanduel": "-108",
+        "betmgm": "-110"
+      },
+      "book_links": {
+        "draftkings": "https://sportsbook.draftkings.com/?outcomes=0QA336952872%232160930959_13L42648Q1-1726619960Q20",
+        "fanduel": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.580505473&selectionId=61967224",
+        "betmgm": "https://sports.nj.betmgm.com/en/sports/events/oklahoma-city-thunder-at-san-antonio-spurs-19557467"
+      },
+      "market": "PROP",
+      "confidence": 3,
+      "units": 1.0,
+      "win_probability": 0.58,
+      "ladder_designation": false,
+      "data_confidence": 0.65,
+      "rules_passed": [
+        "max_juice",
+        "ladder_even_money",
+        "parlay_well_formed",
+        "confidence_units_match",
+        "data_confidence_floor",
+        "pick_type_allowed",
+        "mlb_hr_prop_check",
+        "mlb_pitcher_k_check",
+        "mlb_total_bases_check",
+        "mlb_hits_check",
+        "nba_player_prop_check(soft)",
+        "nhl_shots_check",
+        "mlb_run_line_check",
+        "mlb_under_bb_check",
+        "no_same_game_opposite"
+      ],
+      "locked": true,
+      "late_add": false,
+      "late_add_reason": "",
+      "bonus_pick": false,
+      "event_type": "",
+      "event_name": "",
+      "legs": [],
+      "headline": "Wemby vs an OKC lineup that runs Hartenstein next to four guards \u2014 the rebound floor is high.",
+      "the_thesis": "Victor Wembanyama is a 7'4 walking double-double averaging 14+ rebounds per game in the playoffs. At home against an OKC lineup that, outside Hartenstein and Holmgren, fields four guards (SGA, Jalen Williams, Caruso, Cason Wallace, Dort), the size mismatch is glaring. Wemby will eat on the offensive boards against guards switching onto him.\n\nThe alt line on FanDuel is 14.5 at +115, but for the ladder we take the floor at 13.5 \u2014 he's cleared 14 in most playoff games and OKC's pace doesn't suppress rebound volume. Hartenstein is the only player on the OKC roster who can credibly body him, and he can't be on the floor 48 minutes.\n\nA conf=3 prop play with a clear positional/lineup edge.",
+      "the_data": [
+        {
+          "label": "Wemby playoff RPG (est.)",
+          "value": "~14.5",
+          "context": "elite, scales with minutes"
+        },
+        {
+          "label": "Line",
+          "value": "13.5",
+          "context": "below his recent average"
+        },
+        {
+          "label": "OKC lineup",
+          "value": "Hartenstein + 4 guards",
+          "context": "size mismatch"
+        },
+        {
+          "label": "Game total",
+          "value": "219.5",
+          "context": "normal pace, no slowdown expected"
+        },
+        {
+          "label": "Home/away",
+          "value": "Home",
+          "context": "minutes + comfort"
+        }
+      ],
+      "the_market": "Line consistent at 13.5 across all three books, FD has the best number at -108. No movement, which means the books are comfortable here \u2014 but the matchup is what makes it.",
+      "weather_park": "",
+      "case_against": "Foul trouble is the bear case \u2014 if Wemby picks up two early he sits and the volume disappears. If the Spurs run away with it (or get blown out) he sits the 4th. Holmgren and Hartenstein can combine to limit second-chance opportunities. Rebounds are also one of the most variance-y props because of where misses bounce \u2014 you can play 38 minutes and finish at 11 in a bad night.",
+      "what_were_betting_on": "Wemby plays 36+ minutes, stays out of early foul trouble, and OKC's small-ball forces him into volume on the glass.",
+      "scott_bot_quip": "Four guards on an island and a 7'4 alien on the boards. We'll take the under on physics.",
+      "ladder_note": "",
+      "date": "2026-05-24",
+      "status": "PEND",
+      "units_result": null,
+      "clv_cents": null,
+      "result_score": null,
+      "graded_at": null,
+      "slate_assessment": "Heavy 15-game MLB slate plus NBA Finals (SAS/OKC) and NHL Conference Final (COL/VGK) \u2014 pitching mismatches in PHI and MIL stand out, plus a sharp NBA prop angle.",
+      "executive_summary": "Big board today: 15 MLB games headlined by two glaring pitching mismatches \u2014 Parker Messick's 2.45 ERA against rookie Andrew Painter's 5.77 in Philly, and Yamamoto cleaning up against Brandon Sproat (5.75 ERA, 13.1% BB%) in Milwaukee. The boys also get NBA Finals action with Wembanyama hosting OKC and Avs/Knights in the NHL. The ladder rides with Cleveland \u2014 best floor on the board, a clear pitching edge plus a wind-suppressed park trim. Four plays, mixed across sports.",
+      "slate_analysis": "Fifteen MLB games, one NBA Finals game (Spurs hosting Thunder, total 219.5), and a Western Conference Final NHL game (Avalanche at Vegas). Pricing climate is normal \u2014 most MLB sides between -180 and +150, no obvious public traps screaming, but two pitching mismatches jump off the page.\n\nTop candidates that rose: (1) Cleveland at Philadelphia \u2014 Parker Messick's 2.45 ERA / 28.3 K% / 1.02 WHIP vs Andrew Painter's 5.77 ERA / 1.46 HR9 is the cleanest SP edge on the board. (2) Dodgers at Milwaukee \u2014 Yamamoto (3.32 ERA, 25.3 K%, 0.96 WHIP) vs Brandon Sproat (5.75 ERA, 13.1 BB%, 2.01 HR9) is arguably an even bigger mismatch, but Dodgers ML at -163 is on our juice cap line. (3) Red Sox/Twins Under 7.5 \u2014 Sonny Gray (2.93) vs Bailey Ober (3.63) with 10 mph wind blowing in from RF at Fenway suppressing HR ~13%. (4) Wembanyama Rebounds Over 13.5 \u2014 he's been the rebounding force of these playoffs and OKC is a small-ball lineup with Hartenstein the only true big.\n\nWhat got cut: Toronto/PIT under tempted with Cease (2.98) vs Keller (3.86), but combined K rates aren't suppressing enough and 7.5 is a soft number \u2014 no edge. Yankees ML at -136 with Weathers (1.44 HR9) in a wind-suppressed park is intriguing but Rasmussen (3.19) makes it a coin flip, no 8-cent edge. Padres ML at -174 is too short for King vs a thin Medina sample (18.2 IP). Cubs ML at -178 same problem \u2014 pricey, no edge. Braves -1.5 at +125 has merit but Foster Griffin has actually been okay (4.02 ERA) and Atlanta's bullpen is shaky.\n\nFinal four: Cleveland ML as the ladder anchor (best floor \u2014 clear SP edge, near even money), Dodgers ML as the high-confidence side, Red Sox/Twins Under 7.5 as the totals play with weather support, and Wembanyama Rebounds Over 13.5 as the prop spot. Ladder lives with Cleveland because Messick's profile is the most stable edge at a fair price \u2014 pitcher-driven games have lower variance than offense-driven ones.",
+      "slate_vibe": "NORMAL",
+      "published_at": "2026-05-24T11:57:39.807024-04:00"
+    },
+    {
+      "id": "20260524-MLB-MIN-BOS-TOTAL",
+      "sport": "MLB",
+      "game": "MIN @ BOS",
+      "first_pitch_iso": "2026-05-24T13:35:00-04:00",
+      "pick": "Under 7.5",
+      "best_book": "FanDuel",
+      "best_odds": "-120",
+      "book_prices": {
+        "draftkings": "-122",
+        "fanduel": "-120",
+        "betmgm": "-120"
+      },
+      "book_links": {
+        "fanduel": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.580675991&selectionId=7017906",
+        "draftkings": "https://sportsbook.draftkings.com/?outcomes=0OU84908041U750_3",
+        "betmgm": "https://sports.nj.betmgm.com/en/sports?options=19436899-1503837251-2150947994&type=Single"
+      },
+      "market": "TOTAL",
+      "confidence": 3,
+      "units": 1.0,
+      "win_probability": 0.57,
+      "ladder_designation": false,
+      "data_confidence": 0.7,
+      "rules_passed": [
+        "max_juice",
+        "ladder_even_money",
+        "parlay_well_formed",
+        "confidence_units_match",
+        "data_confidence_floor",
+        "pick_type_allowed",
+        "mlb_hr_prop_check",
+        "mlb_pitcher_k_check",
+        "mlb_total_bases_check",
+        "mlb_hits_check",
+        "nba_player_prop_check",
+        "nhl_shots_check",
+        "mlb_run_line_check",
+        "mlb_under_bb_check",
+        "no_same_game_opposite"
+      ],
+      "locked": true,
+      "late_add": false,
+      "late_add_reason": "",
+      "bonus_pick": false,
+      "event_type": "",
+      "event_name": "",
+      "legs": [],
+      "headline": "Two competent right-handers, a cold Fenway with wind blowing in 10 mph \u2014 runs suppressed all afternoon.",
+      "the_thesis": "Sonny Gray is having a vintage season: 2.93 ERA, 1.13 WHIP, and a tidy 5.5% walk rate \u2014 that low BB% is what unlocks an under bet, because the validator rejects unders when starters walk the park (Gray doesn't). Bailey Ober isn't elite but he's been steady: 3.63 ERA, 1.07 WHIP, 7.3% BB%.\n\nThe Red Sox have scored only 3.71 R/G all year \u2014 that's bottom-third in MLB despite Fenway being a hitter's park. Minnesota's at 4.65 R/G, decent but not explosive. Most importantly: 52\u00b0F game-time temp with 10 mph wind blowing in from RF, which the model has computed at -13% HR impact. Cold + wind in at Fenway is a classic under spot \u2014 balls die in the gap that would normally find the seats.\n\nThis is the only conf=3 play of the four, the marginal pick, but the weather signal is a real edge most casual bettors discount.",
+      "the_data": [
+        {
+          "label": "Gray ERA / BB%",
+          "value": "2.93 / 5.5%",
+          "context": "elite control, validator-safe"
+        },
+        {
+          "label": "Ober ERA / WHIP",
+          "value": "3.63 / 1.07",
+          "context": "solid mid-rotation"
+        },
+        {
+          "label": "BOS R/G",
+          "value": "3.71",
+          "context": "bottom-third offense"
+        },
+        {
+          "label": "Weather",
+          "value": "52\u00b0F, 10 mph in from RF",
+          "context": "-13% HR impact"
+        },
+        {
+          "label": "Fenway HR PF",
+          "value": "0.96",
+          "context": "below average for HRs"
+        }
+      ],
+      "the_market": "Total opened 7.5, hasn't moved across all three books \u2014 but the under is juiced to -120, which tells you books know about the weather. Public is on the over (Fenway name brand), sharps holding the line down.",
+      "weather_park": "52\u00b0F, 10 mph wind in from RF at Fenway. HR-suppression already computed at -13%. Classic under weather.",
+      "case_against": "Ober's HR/9 is 1.11 and the Wall plays games no one understands \u2014 a wind that should suppress HRs can turn into doubles off the Monster instead. Boston's lineup has bursty days when they string singles, and Twins offense at 4.65 R/G can put up a crooked number in one inning. If either starter exits by inning 4, this number is in trouble.",
+      "what_were_betting_on": "Both starters going 5+ innings, cold weather keeping balls in the park, neither offense stringing more than one big inning.",
+      "scott_bot_quip": "Fenway in 52 degrees with the wind in is a pitcher's park nobody priced as one.",
+      "ladder_note": "",
+      "date": "2026-05-24",
+      "status": "PEND",
+      "units_result": null,
+      "clv_cents": null,
+      "result_score": null,
+      "graded_at": null,
+      "slate_assessment": "Heavy 15-game MLB slate plus NBA Finals (SAS/OKC) and NHL Conference Final (COL/VGK) \u2014 pitching mismatches in PHI and MIL stand out, plus a sharp NBA prop angle.",
+      "executive_summary": "Big board today: 15 MLB games headlined by two glaring pitching mismatches \u2014 Parker Messick's 2.45 ERA against rookie Andrew Painter's 5.77 in Philly, and Yamamoto cleaning up against Brandon Sproat (5.75 ERA, 13.1% BB%) in Milwaukee. The boys also get NBA Finals action with Wembanyama hosting OKC and Avs/Knights in the NHL. The ladder rides with Cleveland \u2014 best floor on the board, a clear pitching edge plus a wind-suppressed park trim. Four plays, mixed across sports.",
+      "slate_analysis": "Fifteen MLB games, one NBA Finals game (Spurs hosting Thunder, total 219.5), and a Western Conference Final NHL game (Avalanche at Vegas). Pricing climate is normal \u2014 most MLB sides between -180 and +150, no obvious public traps screaming, but two pitching mismatches jump off the page.\n\nTop candidates that rose: (1) Cleveland at Philadelphia \u2014 Parker Messick's 2.45 ERA / 28.3 K% / 1.02 WHIP vs Andrew Painter's 5.77 ERA / 1.46 HR9 is the cleanest SP edge on the board. (2) Dodgers at Milwaukee \u2014 Yamamoto (3.32 ERA, 25.3 K%, 0.96 WHIP) vs Brandon Sproat (5.75 ERA, 13.1 BB%, 2.01 HR9) is arguably an even bigger mismatch, but Dodgers ML at -163 is on our juice cap line. (3) Red Sox/Twins Under 7.5 \u2014 Sonny Gray (2.93) vs Bailey Ober (3.63) with 10 mph wind blowing in from RF at Fenway suppressing HR ~13%. (4) Wembanyama Rebounds Over 13.5 \u2014 he's been the rebounding force of these playoffs and OKC is a small-ball lineup with Hartenstein the only true big.\n\nWhat got cut: Toronto/PIT under tempted with Cease (2.98) vs Keller (3.86), but combined K rates aren't suppressing enough and 7.5 is a soft number \u2014 no edge. Yankees ML at -136 with Weathers (1.44 HR9) in a wind-suppressed park is intriguing but Rasmussen (3.19) makes it a coin flip, no 8-cent edge. Padres ML at -174 is too short for King vs a thin Medina sample (18.2 IP). Cubs ML at -178 same problem \u2014 pricey, no edge. Braves -1.5 at +125 has merit but Foster Griffin has actually been okay (4.02 ERA) and Atlanta's bullpen is shaky.\n\nFinal four: Cleveland ML as the ladder anchor (best floor \u2014 clear SP edge, near even money), Dodgers ML as the high-confidence side, Red Sox/Twins Under 7.5 as the totals play with weather support, and Wembanyama Rebounds Over 13.5 as the prop spot. Ladder lives with Cleveland because Messick's profile is the most stable edge at a fair price \u2014 pitcher-driven games have lower variance than offense-driven ones.",
+      "slate_vibe": "NORMAL",
+      "published_at": "2026-05-24T11:57:39.806939-04:00"
+    },
+    {
+      "id": "20260524-MLB-CLE-PHI-ML",
+      "sport": "MLB",
+      "game": "CLE @ PHI",
+      "first_pitch_iso": "2026-05-24T13:35:00-04:00",
+      "pick": "Cleveland Guardians ML",
+      "best_book": "DraftKings",
+      "best_odds": "-115",
+      "book_prices": {
+        "draftkings": "-115",
+        "fanduel": "-116",
+        "betmgm": "-115"
+      },
+      "book_links": {
+        "fanduel": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.580572557&selectionId=41541473",
+        "draftkings": "https://sportsbook.draftkings.com/?outcomes=0ML84908043_3",
+        "betmgm": "https://sports.nj.betmgm.com/en/sports?options=19436897-1503837083-2150947657&type=Single"
+      },
+      "market": "ML",
+      "confidence": 4,
+      "units": 1.5,
+      "win_probability": 0.58,
+      "ladder_designation": true,
+      "data_confidence": 0.7,
+      "rules_passed": [
+        "max_juice",
+        "ladder_even_money",
+        "parlay_well_formed",
+        "confidence_units_match",
+        "data_confidence_floor",
+        "pick_type_allowed",
+        "mlb_hr_prop_check",
+        "mlb_pitcher_k_check",
+        "mlb_total_bases_check",
+        "mlb_hits_check",
+        "nba_player_prop_check",
+        "nhl_shots_check",
+        "mlb_run_line_check",
+        "mlb_under_bb_check",
+        "no_same_game_opposite"
+      ],
+      "locked": true,
+      "late_add": false,
+      "late_add_reason": "",
+      "bonus_pick": false,
+      "event_type": "",
+      "event_name": "",
+      "legs": [],
+      "headline": "Parker Messick (2.45 ERA, 28.3 K%) carving up a Painter-led Phillies lineup at a fair price.",
+      "the_thesis": "This is the clearest pitching mismatch on the board. Parker Messick is running a 2.45 ERA with a 1.02 WHIP and a 28.3% strikeout rate \u2014 that K rate means he's punching out more than one in four hitters he faces, which is elite, top-15 SP territory. His 0.93 HR/9 keeps him out of trouble even in Citizens Bank Park's HR-friendly confines.\n\nAndrew Painter is the highly-touted Phillies prospect but the bigs are eating him alive: 5.77 ERA, 1.49 WHIP, and a 1.46 HR/9 that's a major red flag at a park with a 1.10 HR park factor. He's averaging only 14.4 IP per start over his last 3 \u2014 short outings expose a Phillies bullpen that's already been worked. Cleveland's offense (4.24 R/G) isn't elite but they don't need to be against this matchup. The market has Cleveland favored at -115, but the SP gap is wider than that line implies.\n\nThis is the ladder pick \u2014 the highest-floor play on the board near even money. Pitcher-driven edges are the lowest variance edges in baseball.",
+      "the_data": [
+        {
+          "label": "Messick ERA / WHIP / K%",
+          "value": "2.45 / 1.02 / 28.3%",
+          "context": "elite across the board"
+        },
+        {
+          "label": "Painter ERA / HR/9",
+          "value": "5.77 / 1.46",
+          "context": "27th-percentile run prevention, HR-prone"
+        },
+        {
+          "label": "Painter IP per start (L3)",
+          "value": "14.4",
+          "context": "short \u2014 exposes PHI bullpen"
+        },
+        {
+          "label": "CLE R/G season",
+          "value": "4.24",
+          "context": "league average, sufficient here"
+        },
+        {
+          "label": "Citizens Bank HR PF",
+          "value": "1.10",
+          "context": "boosts Painter's HR risk"
+        },
+        {
+          "label": "Wind",
+          "value": "7 mph in from RF, 61\u00b0F",
+          "context": "slightly favors the pitcher"
+        }
+      ],
+      "the_market": "Line opened pick'em-ish, Cleveland now -115 across all three books with no movement off open. Quiet steam \u2014 sharps and books agree the SP edge is real.",
+      "weather_park": "61\u00b0F, wind 7 mph in from RF at Citizens Bank Park \u2014 slight HR suppression on a HR-friendly park, net mild trim to Painter's biggest risk.",
+      "case_against": "Painter is a top prospect and could finally have his breakout start \u2014 talent is real even if results have lagged. Messick has only 58.2 IP this season, sample-size flags are reasonable. Cleveland's offense is mediocre against RHP and Philly's bullpen can erase a one-run deficit late. If this becomes a bullpen game with both starters out by the 5th, Philly's roster depth wins.",
+      "what_were_betting_on": "Messick going 6+ at his current rate while Painter coughs up 4+ runs in a short outing.",
+      "scott_bot_quip": "When the rookie has a 1.46 HR/9 and the park has a 1.10 HR factor, you don't need a calculator.",
+      "ladder_note": "Best floor on the board \u2014 pitcher-driven edge, near even money, books and signals aligned. Lowest-variance play of the four.",
+      "date": "2026-05-24",
+      "status": "PEND",
+      "units_result": null,
+      "clv_cents": null,
+      "result_score": null,
+      "graded_at": null,
+      "slate_assessment": "Heavy 15-game MLB slate plus NBA Finals (SAS/OKC) and NHL Conference Final (COL/VGK) \u2014 pitching mismatches in PHI and MIL stand out, plus a sharp NBA prop angle.",
+      "executive_summary": "Big board today: 15 MLB games headlined by two glaring pitching mismatches \u2014 Parker Messick's 2.45 ERA against rookie Andrew Painter's 5.77 in Philly, and Yamamoto cleaning up against Brandon Sproat (5.75 ERA, 13.1% BB%) in Milwaukee. The boys also get NBA Finals action with Wembanyama hosting OKC and Avs/Knights in the NHL. The ladder rides with Cleveland \u2014 best floor on the board, a clear pitching edge plus a wind-suppressed park trim. Four plays, mixed across sports.",
+      "slate_analysis": "Fifteen MLB games, one NBA Finals game (Spurs hosting Thunder, total 219.5), and a Western Conference Final NHL game (Avalanche at Vegas). Pricing climate is normal \u2014 most MLB sides between -180 and +150, no obvious public traps screaming, but two pitching mismatches jump off the page.\n\nTop candidates that rose: (1) Cleveland at Philadelphia \u2014 Parker Messick's 2.45 ERA / 28.3 K% / 1.02 WHIP vs Andrew Painter's 5.77 ERA / 1.46 HR9 is the cleanest SP edge on the board. (2) Dodgers at Milwaukee \u2014 Yamamoto (3.32 ERA, 25.3 K%, 0.96 WHIP) vs Brandon Sproat (5.75 ERA, 13.1 BB%, 2.01 HR9) is arguably an even bigger mismatch, but Dodgers ML at -163 is on our juice cap line. (3) Red Sox/Twins Under 7.5 \u2014 Sonny Gray (2.93) vs Bailey Ober (3.63) with 10 mph wind blowing in from RF at Fenway suppressing HR ~13%. (4) Wembanyama Rebounds Over 13.5 \u2014 he's been the rebounding force of these playoffs and OKC is a small-ball lineup with Hartenstein the only true big.\n\nWhat got cut: Toronto/PIT under tempted with Cease (2.98) vs Keller (3.86), but combined K rates aren't suppressing enough and 7.5 is a soft number \u2014 no edge. Yankees ML at -136 with Weathers (1.44 HR9) in a wind-suppressed park is intriguing but Rasmussen (3.19) makes it a coin flip, no 8-cent edge. Padres ML at -174 is too short for King vs a thin Medina sample (18.2 IP). Cubs ML at -178 same problem \u2014 pricey, no edge. Braves -1.5 at +125 has merit but Foster Griffin has actually been okay (4.02 ERA) and Atlanta's bullpen is shaky.\n\nFinal four: Cleveland ML as the ladder anchor (best floor \u2014 clear SP edge, near even money), Dodgers ML as the high-confidence side, Red Sox/Twins Under 7.5 as the totals play with weather support, and Wembanyama Rebounds Over 13.5 as the prop spot. Ladder lives with Cleveland because Messick's profile is the most stable edge at a fair price \u2014 pitcher-driven games have lower variance than offense-driven ones.",
+      "slate_vibe": "NORMAL",
+      "published_at": "2026-05-24T11:57:39.806798-04:00"
+    },
     {
       "id": "20260523-NBA-NY-CLE-SPREAD",
       "sport": "NBA",
