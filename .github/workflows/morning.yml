@@ -1,5 +1,5 @@
 name: Morning Picks (11:00 AM ET)
-# deploy-trigger: 2026-05-23T17:00Z
+# deploy-trigger: 2026-05-25T15:30Z
 
 on:
   schedule:
