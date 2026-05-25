@@ -388,7 +388,12 @@ def publish(
             from engine import analytics; analytics.refresh()
             return history
         if has_locked and force_overwrite:
-            logger.info(f"Morning RE-PUBLISH ({event}): clearing {len(existing_today_main)} existing picks for {date_str}")
+            if not picks:
+                logger.warning(f"Morning RE-PUBLISH ({event}): Claude returned 0 valid picks — keeping existing {len(existing_today_main)} picks intact.")
+                regenerate_site_data(system_paused=system_paused, pause_reason=pause_reason)
+                from engine import analytics; analytics.refresh()
+                return history
+            logger.info(f"Morning RE-PUBLISH ({event}): replacing {len(existing_today_main)} existing picks with {len(picks)} new picks for {date_str}")
             history["picks"] = [p for p in history["picks"]
                                 if not (p.get("date") == date_str
                                         and p.get("status") == "PEND"
