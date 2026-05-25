@@ -100,7 +100,8 @@ def _should_run_morning() -> bool:
     from engine.utils import nyc_now, nyc_date, get_logger
     log = get_logger("main")
 
-    if os.getenv("GITHUB_EVENT_NAME") == "workflow_dispatch":
+    event = os.getenv("GITHUB_EVENT_NAME", "")
+    if event in ("workflow_dispatch", "push"):
         return True
 
     # Idempotency: did morning already publish today?
