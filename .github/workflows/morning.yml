@@ -1,25 +1,15 @@
 name: Morning Picks (11:00 AM ET)
-# deploy-trigger: 2026-05-25T15:30Z
+# deploy-trigger: 2026-05-25T15:35Z-deterministic
 
 on:
   schedule:
-    # Seven cron triggers across the morning window. The engine's
-    # _should_run_morning() guard is idempotent and time-gated:
-    #   - If today's picks are already locked, the run is a no-op.
-    #   - If NYC's wall clock is before 11:00 ET, the run waits for the
-    #     next cron.
-    # Year-round behavior:
-    #   EDT (Mar–Nov): 15:00 UTC = 11:00 ET → publishes. 15:30…18:00 no-op.
-    #   EST (Nov–Mar): 15:00 UTC = 10:00 ET → time-gate bails.
-    #                  15:30 UTC = 10:30 ET → time-gate bails.
-    #                  16:00 UTC = 11:00 ET → publishes. 16:30…18:00 no-op.
-    - cron: '0 15 * * *'    # 11:00 EDT / 10:00 EST
-    - cron: '30 15 * * *'   # 11:30 EDT / 10:30 EST
-    - cron: '0 16 * * *'    # 12:00 EDT / 11:00 EST  ← EST primary
-    - cron: '30 16 * * *'   # 12:30 EDT / 11:30 EST
-    - cron: '0 17 * * *'    # 13:00 EDT / 12:00 EST
-    - cron: '30 17 * * *'   # 13:30 EDT / 12:30 EST
-    - cron: '0 18 * * *'    # 14:00 EDT / 13:00 EST  (last chance)
+    - cron: '0 15 * * *'
+    - cron: '30 15 * * *'
+    - cron: '0 16 * * *'
+    - cron: '30 16 * * *'
+    - cron: '0 17 * * *'
+    - cron: '30 17 * * *'
+    - cron: '0 18 * * *'
   push:
     branches: [main]
     paths-ignore:
