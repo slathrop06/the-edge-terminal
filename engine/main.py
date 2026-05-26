@@ -50,7 +50,7 @@ def _dst_cron_guard(edt_cron: str, est_cron: str, label: str) -> bool:
     from engine.utils import nyc_now, get_logger
     log = get_logger("main")
 
-    if os.getenv("GITHUB_EVENT_NAME") == "workflow_dispatch":
+    if os.getenv("GITHUB_EVENT_NAME") in ("workflow_dispatch", "push"):
         return True
 
     triggering_cron = os.getenv("GITHUB_SCHEDULE", "").strip()
@@ -100,7 +100,7 @@ def _should_run_morning() -> bool:
     from engine.utils import nyc_now, nyc_date, get_logger
     log = get_logger("main")
 
-    if os.getenv("GITHUB_EVENT_NAME") == "workflow_dispatch":
+    if os.getenv("GITHUB_EVENT_NAME") in ("workflow_dispatch", "push"):
         return True
 
     # Idempotency: did morning already publish today?
