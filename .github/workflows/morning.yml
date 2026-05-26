@@ -1,5 +1,5 @@
 name: Morning Picks (11:00 AM ET)
-# deploy-trigger: 2026-05-25T15:50Z-final
+# deploy-trigger: 2026-05-26T13:00Z
 
 on:
   schedule:
@@ -10,6 +10,14 @@ on:
     - cron: '0 17 * * *'
     - cron: '30 17 * * *'
     - cron: '0 18 * * *'
+  push:
+    branches: [main]
+    paths-ignore:
+      - "site/data.json"
+      - "site/analytics.json"
+      - "data/**"
+      - "README.md"
+      - "SETUP_HANDOFF.md"
   workflow_dispatch: {}
 
 jobs:
