@@ -379,13 +379,21 @@ def publish(
                 logger.warning(f"Link attach failed for {pick.pick}: {e}")
 
     if mode == "morning":
-        if has_locked:
+        import os
+        force = os.getenv("GITHUB_EVENT_NAME", "") in ("workflow_dispatch", "push")
+        if has_locked and force and picks:
+            logger.info(f"Morning RE-PUBLISH ({os.getenv('GITHUB_EVENT_NAME')}): replacing {len(existing_today_main)} picks with {len(picks)} new picks")
+            history["picks"] = [p for p in history["picks"]
+                                if not (p.get("date") == date_str
+                                        and p.get("status") == "PEND"
+                                        and not p.get("bonus_pick"))]
+            save_history(history)
+        elif has_locked:
             logger.info(f"Morning publish skipped: {len(existing_today)} locked picks already exist for {date_str}.")
-            # Still regenerate site state so the timestamp updates
             regenerate_site_data(system_paused=system_paused, pause_reason=pause_reason)
             from engine import analytics; analytics.refresh()
             return history
-        # Canonical first publish
+        # Canonical publish
         ladder.designate_ladder_pick(picks)
         for pick in picks:
             record = _pick_to_dict(pick, response, date_str, late_add=False)
