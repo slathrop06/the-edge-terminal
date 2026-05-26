@@ -1,31 +1,131 @@
 {
-  "generated_at": "2026-05-26T14:32:47.703796-04:00",
+  "generated_at": "2026-05-26T14:41:16.745032-04:00",
   "today": "2026-05-26",
   "system_paused": false,
   "pause_reason": "",
   "today_picks": [
     {
-      "id": "20260526-MLB-CIN-NYM-TOTAL",
+      "id": "20260526-MLB-COL-LAD-RUNLINE",
       "sport": "MLB",
-      "game": "CIN @ NYM",
-      "first_pitch_iso": "2026-05-26T23:10:00-04:00",
-      "pick": "Under 7.5",
+      "game": "COL @ LAD",
+      "first_pitch_iso": "2026-05-27T02:10Z",
+      "pick": "Los Angeles Dodgers -1.5",
       "best_book": "FanDuel",
-      "best_odds": "-120",
+      "best_odds": "-110",
       "book_prices": {
-        "draftkings": "-120",
-        "fanduel": "-120",
-        "betmgm": "-120"
+        "draftkings": "-111",
+        "fanduel": "-110",
+        "betmgm": "-110"
       },
       "book_links": {
-        "fanduel": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.581165685&selectionId=7017906",
-        "draftkings": "https://sportsbook.draftkings.com/?outcomes=0OU84926647U750_3",
-        "betmgm": "https://sports.nj.betmgm.com/en/sports?options=19436914-1503840069-2150954675&type=Single"
+        "fanduel": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.581167988&selectionId=29171",
+        "draftkings": "https://sportsbook.draftkings.com/?outcomes=0HC84926655N150_1",
+        "betmgm": "https://sports.nj.betmgm.com/en/sports?options=19436922-1503840982-2150956804&type=Single"
+      },
+      "market": "RUNLINE",
+      "confidence": 3,
+      "units": 1.0,
+      "win_probability": 0.57,
+      "ladder_designation": false,
+      "data_confidence": 0.62,
+      "rules_passed": [
+        "max_juice",
+        "ladder_even_money",
+        "parlay_well_formed",
+        "confidence_units_match",
+        "data_confidence_floor",
+        "pick_type_allowed",
+        "mlb_hr_prop_check",
+        "mlb_pitcher_k_check",
+        "mlb_total_bases_check",
+        "mlb_hits_check",
+        "nba_player_prop_check",
+        "nhl_shots_check",
+        "mlb_run_line_check",
+        "mlb_under_bb_check",
+        "no_same_game_opposite"
+      ],
+      "locked": true,
+      "late_add": false,
+      "late_add_reason": "",
+      "bonus_pick": false,
+      "event_type": "",
+      "event_name": "",
+      "legs": [],
+      "headline": "Dodgers -1.5 at -110 against Kyle Freeland (7.04 ERA) \u2014 LAD offense (5.17 R/G) is the best in the NL and the price is near even money.",
+      "the_thesis": "The Dodgers are the best offensive team in the National League, scoring 5.17 runs per game \u2014 and tonight they face Kyle Freeland, who has a 7.04 ERA, 1.70 WHIP, and 2.13 HR/9 across 38.1 innings. Freeland has been one of the worst starting pitchers in baseball in 2026, and the Dodgers lineup \u2014 featuring Shohei Ohtani, Mookie Betts, Freddie Freeman, and Kyle Tucker \u2014 is built to punish exactly this type of arm. The run line at -110 on FanDuel is near even money for a team that should win by multiple runs.\n\nEric Lauer on the other side is also struggling (6.69 ERA, 2.74 HR/9), which creates some over risk. However, the Rockies offense (4.04 R/G) is below average, and Dodger Stadium has a neutral park factor (runs 0.97, HR 0.99). The key edge here is the offensive mismatch \u2014 the Dodgers' 5.17 R/G against a 7.04-ERA starter is a recipe for a multi-run win. The run line at -110 implies 52.4% probability \u2014 our fair line puts it at 57%, giving us roughly 4.5 cents of edge.\n\nThis is a confidence-3 play because Lauer's 2.74 HR/9 creates genuine variance risk \u2014 if the Rockies hit a couple of home runs early, the game could tighten. But the Dodgers' offensive floor against Freeland is high enough to make -1.5 at -110 a defensible play.",
+      "the_data": [
+        {
+          "label": "LAD R/G (season)",
+          "value": "5.17",
+          "context": "Best offense in NL"
+        },
+        {
+          "label": "Freeland ERA / WHIP / HR9",
+          "value": "7.04 / 1.70 / 2.13",
+          "context": "One of worst SPs in baseball in 2026"
+        },
+        {
+          "label": "Lauer ERA / HR9",
+          "value": "6.69 / 2.74",
+          "context": "Also struggling, creates over risk"
+        },
+        {
+          "label": "COL R/G (season)",
+          "value": "4.04",
+          "context": "Below-average offense"
+        },
+        {
+          "label": "Dodger Stadium runs PF / HR PF",
+          "value": "0.97 / 0.99",
+          "context": "Neutral park, no amplification"
+        },
+        {
+          "label": "LAD lineup depth",
+          "value": "Ohtani, Betts, Freeman, Tucker",
+          "context": "Four elite bats vs. 7.04-ERA arm"
+        }
+      ],
+      "the_market": "Dodgers ML opened -235 and has held there. The run line at -110 on FanDuel is the best price across all three books and represents genuine value \u2014 the market is pricing the Dodgers to win by 2+ at only 52.4% implied, which undervalues their offensive advantage against Freeland.",
+      "weather_park": "Dodger Stadium is outdoor. No weather data in pack. Park factors are neutral (runs 0.97, HR 0.99) \u2014 no meaningful amplification or suppression.",
+      "case_against": "Eric Lauer's 2.74 HR/9 is the primary risk \u2014 if the Rockies hit two or three home runs early, the game could tighten and the Dodgers might win by only one run. The Dodgers have also been known to play down to opponents occasionally. Both starters are struggling, which creates a higher-variance game script than ideal for a run-line play.",
+      "what_were_betting_on": "Dodgers offense generates 5+ runs against Freeland and the Rockies bullpen, Lauer limits Colorado to 3 or fewer, final margin of 2+.",
+      "scott_bot_quip": "Ohtani, Betts, Freeman, and Tucker vs. a 7.04-ERA starter. The Dodgers don't need a scouting report tonight.",
+      "ladder_note": "",
+      "date": "2026-05-26",
+      "status": "PEND",
+      "units_result": null,
+      "clv_cents": null,
+      "result_score": null,
+      "graded_at": null,
+      "slate_assessment": "15-game MLB slate plus OKC-SA NBA WCF Game 5 and COL-VGK NHL playoff game. Three elite pitching spots jump off the page \u2014 Schlittler vs. a 9.82-ERA Falter, Harrison vs. a Cardinals team in freefall, and Ashcraft at pitcher-friendly PNC. Prop slate is thin on data confidence but a few K and total-bases spots survive screening.",
+      "executive_summary": "The best pitching matchup on the board tonight isn't close: Cam Schlittler (1.50 ERA, 75:13 K:BB) faces Bailey Falter (9.82 ERA, 2.86 WHIP) in Kansas City, and the Yankees run line at -118 is the sharpest play on the slate. Kyle Harrison (1.77 ERA, 32.2% K-rate) gets a Cardinals team that has dropped four of five, and Braxton Ashcraft (2.89 ERA, 26.4% K%) works at pitcher-friendly PNC against a Cubs lineup without a confirmed starter's full data. The ladder rides with the Brewers -1.5 at +120 on FanDuel \u2014 Harrison's floor is as high as any arm on the board tonight.",
+      "slate_analysis": "Fifteen MLB games, one NBA Western Conference Finals game (OKC-SA), and one NHL playoff game (COL-VGK) make up tonight's board. Pricing climate is mostly efficient \u2014 the NBA and NHL games carry data confidence below 0.35, which is below our floor, so those are non-starters for straight bets. The MLB slate has several games with data confidence at 0.40-0.45, which is thin but workable when the pitching edge is overwhelming.\n\nTop candidates that earned a hard look: (1) NYY-KC \u2014 Schlittler (1.50 ERA, 0.86 WHIP, 75:13 K:BB) vs. Falter (9.82 ERA, 2.86 WHIP, 7.1 IP total). The run-line at -118 on FanDuel is the cleanest play on the board. (2) STL-MIL \u2014 Harrison (1.77 ERA, 32.2% K-rate, 59:14 K:BB) vs. McGreevy (2.40 ERA, 5.5% BB) with the Cardinals having dropped four of five. Brewers -1.5 at +120 FanDuel is near even money and fits the ladder. (3) CHC-PIT \u2014 Ashcraft (2.89 ERA, 26.4% K%, 65:16 K:BB) at pitcher-friendly PNC against Jordan Wicks, whose data is thin in the pack. Under 8.0 at DraftKings -108 is clean. (4) ATL-BOS \u2014 Strider (3.0 ERA but 14.6% BB, 1.71 HR/9) vs. Suarez (2.40 ERA, 0.56 HR/9) at Fenway with wind blowing out 9 mph boosting HR ~13%. The over is tempting but Strider's walk rate and HR/9 in a hitter-friendly park with wind out is a double-edged sword \u2014 Suarez suppresses it. Passed. (5) Braxton Ashcraft Ks Over 5.5 at BetMGM -120 \u2014 26.4% K-rate, 65:16 K:BB, Cubs lineup is not a high-K offense but Ashcraft's curveball whiff rate jumped to 50.9% in 2026. Passes data screening. (6) Kyle Harrison Ks Over 5.5 \u2014 not in the pack for this game, so no prop available. Looked at Schlittler K props but the line is 5.5 at -153 DK, too much juice. Settled on Ashcraft Ks Over 5.5 at -120 as the sixth play.\n\nWhat got cut: CLE-WSH (data confidence 0.45, only one book, total rose 7.5\u21928.0 which is a red flag for the under, Cantillo BB% 11.6% is borderline for under screening); TB-BAL (data confidence 0.40, Griffin Jax HR/9 1.29 disqualifies HR props, Baz is a below-average SP but the market has TB as a slight favorite \u2014 no clean edge); ARI-SF (Eduardo Rodriguez is excellent but Oracle Park under at -105 is barely above our juice threshold and data confidence is 0.40 \u2014 passed); LAD-COL (Lauer 2.74 HR/9 and Freeland 2.13 HR/9 screams over, but both SPs are so bad the market has already priced it at 9.0 \u2014 no edge on the over at -108); OKC-SA NBA (data confidence 0.30 \u2014 below floor, no play); COL-VGK NHL (data confidence 0.35 \u2014 below floor, no play).\n\nFinal six: Yankees -1.5 run line (conf 5, 2.0u), Brewers -1.5 run line as ladder (conf 4, 1.5u), Pirates Under 8.0 (conf 4, 1.5u), Ashcraft Ks Over 5.5 (conf 3, 1.0u), Dodgers -1.5 run line (conf 3, 1.0u), and Ranger Suarez Under 8.0 at BOS (conf 3, 1.0u). The ladder is Brewers -1.5 at +120 \u2014 Harrison's floor is elite, the Cardinals are in a skid, and the price lands squarely in the even-money band.",
+      "slate_vibe": "NORMAL",
+      "published_at": "2026-05-26T14:41:16.741095-04:00"
+    },
+    {
+      "id": "20260526-MLB-ATL-BOS-TOTAL",
+      "sport": "MLB",
+      "game": "ATL @ BOS",
+      "first_pitch_iso": "2026-05-26T22:45Z",
+      "pick": "Under 8.0",
+      "best_book": "FanDuel",
+      "best_odds": "-108",
+      "book_prices": {
+        "draftkings": "-111",
+        "fanduel": "-108",
+        "betmgm": "-110"
+      },
+      "book_links": {
+        "fanduel": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.581165205&selectionId=7017906",
+        "draftkings": "https://sportsbook.draftkings.com/?outcomes=0OU84926645U800_3",
+        "betmgm": "https://sports.nj.betmgm.com/en/sports?options=19436912-1503839863-2150954227&type=Single"
       },
       "market": "TOTAL",
       "confidence": 3,
       "units": 1.0,
-      "win_probability": 0.58,
+      "win_probability": 0.57,
       "ladder_designation": false,
       "data_confidence": 0.6,
       "rules_passed": [
@@ -52,45 +152,50 @@
       "event_type": "",
       "event_name": "",
       "legs": [],
-      "headline": "Chase Burns' 1.83 ERA at a HR-suppressing Citi Field \u2014 the Mets SP is unconfirmed, but Burns alone anchors the under.",
-      "the_thesis": "Chase Burns is one of the best pitchers in baseball right now. His 1.83 ERA, 0.95 WHIP, and 28.2% K-rate through 59 innings are elite across the board. He's coming off a stretch where he's allowed 1.83 ERA in his last three starts (19.67 IP), and he's facing a Mets offense that scores just 3.85 runs per game \u2014 22nd in MLB. Citi Field has a HR park factor of 0.91 and a runs factor of 0.97, making it one of the more pitcher-friendly venues in the NL.\n\nThe Mets SP is listed as 'D. Peterson' in the FanDuel event link but no stats are in the pack. That's the primary uncertainty here \u2014 if Peterson is a soft-tossing lefty, the Reds offense (4.45 R/G) could generate runs. However, Burns' dominance is so pronounced that even if the Mets score 3-4 runs, the Reds would need to score 4+ against Burns to push the over, which is a tall order given his current form and the park.\n\nThe under at -120 is uniform across all three books, which suggests the market has already priced in Burns' quality. We're getting a fair price on a play anchored by one of the best pitchers in the NL at a pitcher-friendly park.",
+      "headline": "Ranger Suarez (2.40 ERA, 0.56 HR/9) anchors the under despite wind blowing out at Fenway \u2014 the ace suppresses what the park amplifies.",
+      "the_thesis": "Ranger Suarez is one of the best pitchers in the American League this season. His 2.40 ERA, 1.01 WHIP, and 0.56 HR/9 represent elite run prevention \u2014 the HR/9 is particularly important here because Fenway Park has wind blowing out to center field at 9 mph tonight, boosting HR probability by approximately 13%. Suarez's ability to suppress home runs even in favorable conditions for hitters is the key edge. His 7.4% BB rate is within our under-screening threshold.\n\nSpencer Strider (3.0 ERA) is the concern on the other side. His 14.6% BB rate is elevated and his 1.71 HR/9 is genuinely alarming in a hitter-friendly park with wind out. The Red Sox offense (3.73 R/G) is below average, but Strider's walk rate means he will put runners on base, and Fenway's dimensions could turn a walk into a multi-run inning. However, the market has already priced this in \u2014 the total sits at 8.0, not 9.0 or 9.5, suggesting the books are accounting for Suarez's dominance suppressing the Strider-driven over risk.\n\nThe under at -108 on FanDuel is the best price. The de-vigged implied probability is approximately 51.9% \u2014 our fair line puts it at 57%, giving us roughly 5 cents of edge. This is a confidence-3 play because Strider's walk rate and HR/9 create genuine variance risk, but Suarez's floor is high enough to anchor the under.",
       "the_data": [
         {
-          "label": "Chase Burns ERA / WHIP (2026)",
-          "value": "1.83 / 0.95",
-          "context": "Elite \u2014 top-5 NL starter by ERA"
+          "label": "Suarez ERA / WHIP / HR9",
+          "value": "2.40 / 1.01 / 0.56",
+          "context": "Elite HR suppression, top-10 AL starter"
         },
         {
-          "label": "Burns K-rate (2026)",
-          "value": "28.2%",
-          "context": "Above-average swing-and-miss profile"
+          "label": "Suarez BB% (season)",
+          "value": "7.4%",
+          "context": "Within under-screening threshold"
         },
         {
-          "label": "Burns HR/9 (2026)",
-          "value": "1.07",
-          "context": "Slightly elevated \u2014 Citi Field mitigates this"
+          "label": "Strider ERA / BB% / HR9",
+          "value": "3.0 / 14.6% / 1.71",
+          "context": "High walk rate and HR/9 are risk factors"
         },
         {
-          "label": "NYM runs per game (season)",
-          "value": "3.85",
-          "context": "22nd in MLB \u2014 soft offense"
+          "label": "Fenway Park runs PF / HR PF",
+          "value": "1.05 / 0.96",
+          "context": "Hitter-friendly runs, slight HR suppression"
         },
         {
-          "label": "Citi Field HR park factor",
-          "value": "0.91",
-          "context": "HR-suppressing \u2014 limits Burns' HR/9 risk"
+          "label": "Weather: wind out to CF",
+          "value": "9 mph, +13% HR impact",
+          "context": "Amplifies Strider's HR/9 risk"
         },
         {
-          "label": "CIN runs per game (season)",
-          "value": "4.45",
-          "context": "Average offense \u2014 not a run-scoring machine"
+          "label": "BOS R/G (season)",
+          "value": "3.73",
+          "context": "Below-average offense, helps under"
+        },
+        {
+          "label": "ATL R/G (season)",
+          "value": "5.22",
+          "context": "Strong offense, but faces Suarez"
         }
       ],
-      "the_market": "Total is 7.5 across all books at -120 under / -101 to +100 over. The market is nearly split, with the over available at even money at BetMGM. The uniform -120 under pricing suggests the books are confident in Burns' quality but haven't moved the line, which is fine \u2014 we're getting a fair price.",
-      "weather_park": "Citi Field is outdoor. No significant weather flags in the pack. HR park factor 0.91 and runs factor 0.97 \u2014 pitcher-friendly, which suppresses Burns' slightly elevated HR/9.",
-      "case_against": "Burns' HR/9 of 1.07 is the one blemish on his line \u2014 if the Mets SP is soft and the Reds score 3-4 runs, the Mets would only need 4+ to push the over. The Mets SP is unconfirmed in the pack, which is the biggest risk here. If it's a bullpen game or a soft arm, the Mets could score enough to push the total over 7.5.",
-      "what_were_betting_on": "Burns going 6+ innings allowing 2 or fewer runs, Mets SP keeping the Reds to 3 or fewer, and the combined total staying at 7 or under.",
-      "scott_bot_quip": "Burns has a 1.83 ERA. The park suppresses HRs. The Mets score 3.85 runs a game. The math is doing the work tonight.",
+      "the_market": "Total opened at 8.0 and has held across all three books. FanDuel offers the best under price at -108. No movement noted \u2014 the market is stable, suggesting the books are comfortable with this number.",
+      "weather_park": "Fenway Park, 80\u00b0F, wind 9 mph blowing out to center field \u2014 boosts HR probability ~13%. This amplifies Strider's 1.71 HR/9 risk but Suarez's 0.56 HR/9 largely neutralizes the park effect on his half of the game.",
+      "case_against": "Strider's 14.6% BB rate is the primary risk \u2014 walks plus wind-out at Fenway is a dangerous combination. If he issues 3-4 walks and one leaves the yard, the over hits quickly. The Braves offense (5.22 R/G) is one of the best in baseball and could punish Suarez if he has an off night. The wind-out signal is real and the pack flagged it explicitly.",
+      "what_were_betting_on": "Suarez goes 6+ innings allowing 2 or fewer runs, Strider limits walks and avoids the big inning, combined total stays under 8 runs.",
+      "scott_bot_quip": "Suarez's HR/9 is 0.56. The wind is blowing out. One ace cancels the other's risk. We'll take the quiet game.",
       "ladder_note": "",
       "date": "2026-05-26",
       "status": "PEND",
@@ -98,31 +203,31 @@
       "clv_cents": null,
       "result_score": null,
       "graded_at": null,
-      "slate_assessment": "15-game MLB slate headlined by two elite SP matchups \u2014 Schlittler vs. a toothless KC rotation and Harrison vs. a Cardinals lineup cold against lefties. OKC-SA NBA playoff game and VGK-COL NHL game round out the board.",
-      "executive_summary": "The sharpest play on today's board is Kyle Harrison against a Cardinals lineup batting .236 against lefties in May with a 86 wRC+ vs southpaws \u2014 the Brewers Under 8.0 is the cleanest total on the slate. Cam Schlittler's historic 1.50 ERA against a Bailey Falter-led KC rotation makes the Yankees ML the most lopsided side play, but the juice (-200) keeps it off the straight-bet list. The ladder rides with the Brewers Under 8.0 at -110 BetMGM \u2014 two quality starters, both bullpens fresh, and a Cardinals offense that just went 1-for-2 hits in Monday's opener. Braxton Ashcraft's 26.4% K-rate and 2.89 ERA at PNC Park against a Cubs lineup facing a pitcher-friendly park rounds out the top tier.",
-      "slate_analysis": "Fifteen MLB games tonight plus an NBA playoff game (OKC-SA) and an NHL playoff game (VGK-COL). The pricing climate is mostly tight \u2014 several games sitting near pick'em on the ML \u2014 which means the edge has to come from pitching matchup asymmetry, not market mispricing alone. The NBA game has a data_confidence of 0.3 and the total moved from 216.5 to 217.5, but without team NET/Off/Def ratings in the pack, the prop slate is thin and the side/total is too uncertain to build around. The NHL game is a near-coin-flip ML with no SOG prop data that clears the bar.\n\nTop candidates that earned a hard look: (1) MIL Under 8.0 \u2014 Kyle Harrison (1.77 ERA, 2.48 FIP, 32.2% K-rate, 9 starts) vs. Cardinals lineup batting .236/.307 against LHP in May, wRC+ 86 vs. southpaws. McGreevy's 4.03 FIP vs. a Brewers offense that manufactures runs rather than hits. Both bullpens fresh after light Monday usage. (2) NYY ML vs. KC \u2014 Schlittler (1.50 ERA, 0.86 WHIP, 75:13 K:BB in 66 IP) against Bailey Falter (9.82 ERA, 2.86 WHIP, 7.1 IP). The most lopsided pitching matchup on the board. (3) PIT Under 8.0 / Ashcraft K prop \u2014 Braxton Ashcraft (2.89 ERA, 26.4% K-rate, 65:16 K:BB in 62.1 IP) at PNC Park (PF 0.91 HR, 0.95 runs) vs. Jordan Wicks (no full stats in pack). (4) CIN ML / Chase Burns \u2014 Burns (1.83 ERA, 0.95 WHIP, 28.2% K-rate) at Citi Field (HR-suppressing) vs. an unconfirmed Mets SP. (5) Cam Schlittler Ks Over 5.5 \u2014 29.6% K-rate, 75 Ks in 66 IP, KC lineup is bottom-tier. (6) Braxton Ashcraft Ks Over 5.5 \u2014 26.4% K-rate, 9.11 K/9, curveball whiff rate jumped to 50.9%, facing Cubs at PNC.\n\nWhat got cut and why: NYY ML at -200 exceeds the -150 straight-bet juice cap \u2014 hard rule, no exceptions. CIN ML at -126 is borderline but the Mets SP is listed as 'D. Peterson' in the FanDuel link with no stats in the pack \u2014 data_confidence 0.4 and no pitcher intel means we can't build a thesis. The OKC-SA NBA game has data_confidence 0.3 and no team NET/Off/Def ratings \u2014 the prop slate has lines but no opposing defensive rank context to anchor NBA props. VGK-COL NHL: near-coin-flip ML, no SOG prop data with sufficient context. ATH-SEA: both SPs have HR/9 above 1.0 and the total is 9.5 \u2014 the over is tempting but Severino's 11.7% BB-rate and 1.18 HR/9 make the under risky too; no clean edge. LAD-COL: Lauer (6.69 ERA, 2.74 HR/9) and Freeland (7.04 ERA, 2.13 HR/9) are both disasters but the Dodgers ML is -235, exceeding juice cap.\n\nFinal six: (1) MIL Under 8.0 \u2014 ladder pick, highest floor, two quality arms, fresh pens, cold Cardinals offense vs. LHP. (2) Braxton Ashcraft Ks Over 5.5 \u2014 elite K-rate, pitcher-friendly park, Cubs lineup facing a pitcher they haven't seen. (3) Cam Schlittler Ks Over 5.5 \u2014 historic K-rate, KC lineup is bottom-tier, 29.6% K-rate season-long. (4) NYY -1.5 run line at -118 FD \u2014 Schlittler vs. Falter is so lopsided the run line is the right vehicle at -118 instead of -200 ML. (5) Chase Burns Under 7.5 total (CIN-NYM) \u2014 Burns' 1.83 ERA and 0.95 WHIP at a HR-suppressing Citi Field with an unconfirmed Mets SP. (6) PIT Under 8.0 at DraftKings \u2014 Ashcraft at PNC Park, pitcher-friendly, Wicks has no full stats but the park and Ashcraft's form anchor the under.",
+      "slate_assessment": "15-game MLB slate plus OKC-SA NBA WCF Game 5 and COL-VGK NHL playoff game. Three elite pitching spots jump off the page \u2014 Schlittler vs. a 9.82-ERA Falter, Harrison vs. a Cardinals team in freefall, and Ashcraft at pitcher-friendly PNC. Prop slate is thin on data confidence but a few K and total-bases spots survive screening.",
+      "executive_summary": "The best pitching matchup on the board tonight isn't close: Cam Schlittler (1.50 ERA, 75:13 K:BB) faces Bailey Falter (9.82 ERA, 2.86 WHIP) in Kansas City, and the Yankees run line at -118 is the sharpest play on the slate. Kyle Harrison (1.77 ERA, 32.2% K-rate) gets a Cardinals team that has dropped four of five, and Braxton Ashcraft (2.89 ERA, 26.4% K%) works at pitcher-friendly PNC against a Cubs lineup without a confirmed starter's full data. The ladder rides with the Brewers -1.5 at +120 on FanDuel \u2014 Harrison's floor is as high as any arm on the board tonight.",
+      "slate_analysis": "Fifteen MLB games, one NBA Western Conference Finals game (OKC-SA), and one NHL playoff game (COL-VGK) make up tonight's board. Pricing climate is mostly efficient \u2014 the NBA and NHL games carry data confidence below 0.35, which is below our floor, so those are non-starters for straight bets. The MLB slate has several games with data confidence at 0.40-0.45, which is thin but workable when the pitching edge is overwhelming.\n\nTop candidates that earned a hard look: (1) NYY-KC \u2014 Schlittler (1.50 ERA, 0.86 WHIP, 75:13 K:BB) vs. Falter (9.82 ERA, 2.86 WHIP, 7.1 IP total). The run-line at -118 on FanDuel is the cleanest play on the board. (2) STL-MIL \u2014 Harrison (1.77 ERA, 32.2% K-rate, 59:14 K:BB) vs. McGreevy (2.40 ERA, 5.5% BB) with the Cardinals having dropped four of five. Brewers -1.5 at +120 FanDuel is near even money and fits the ladder. (3) CHC-PIT \u2014 Ashcraft (2.89 ERA, 26.4% K%, 65:16 K:BB) at pitcher-friendly PNC against Jordan Wicks, whose data is thin in the pack. Under 8.0 at DraftKings -108 is clean. (4) ATL-BOS \u2014 Strider (3.0 ERA but 14.6% BB, 1.71 HR/9) vs. Suarez (2.40 ERA, 0.56 HR/9) at Fenway with wind blowing out 9 mph boosting HR ~13%. The over is tempting but Strider's walk rate and HR/9 in a hitter-friendly park with wind out is a double-edged sword \u2014 Suarez suppresses it. Passed. (5) Braxton Ashcraft Ks Over 5.5 at BetMGM -120 \u2014 26.4% K-rate, 65:16 K:BB, Cubs lineup is not a high-K offense but Ashcraft's curveball whiff rate jumped to 50.9% in 2026. Passes data screening. (6) Kyle Harrison Ks Over 5.5 \u2014 not in the pack for this game, so no prop available. Looked at Schlittler K props but the line is 5.5 at -153 DK, too much juice. Settled on Ashcraft Ks Over 5.5 at -120 as the sixth play.\n\nWhat got cut: CLE-WSH (data confidence 0.45, only one book, total rose 7.5\u21928.0 which is a red flag for the under, Cantillo BB% 11.6% is borderline for under screening); TB-BAL (data confidence 0.40, Griffin Jax HR/9 1.29 disqualifies HR props, Baz is a below-average SP but the market has TB as a slight favorite \u2014 no clean edge); ARI-SF (Eduardo Rodriguez is excellent but Oracle Park under at -105 is barely above our juice threshold and data confidence is 0.40 \u2014 passed); LAD-COL (Lauer 2.74 HR/9 and Freeland 2.13 HR/9 screams over, but both SPs are so bad the market has already priced it at 9.0 \u2014 no edge on the over at -108); OKC-SA NBA (data confidence 0.30 \u2014 below floor, no play); COL-VGK NHL (data confidence 0.35 \u2014 below floor, no play).\n\nFinal six: Yankees -1.5 run line (conf 5, 2.0u), Brewers -1.5 run line as ladder (conf 4, 1.5u), Pirates Under 8.0 (conf 4, 1.5u), Ashcraft Ks Over 5.5 (conf 3, 1.0u), Dodgers -1.5 run line (conf 3, 1.0u), and Ranger Suarez Under 8.0 at BOS (conf 3, 1.0u). The ladder is Brewers -1.5 at +120 \u2014 Harrison's floor is elite, the Cardinals are in a skid, and the price lands squarely in the even-money band.",
       "slate_vibe": "NORMAL",
-      "published_at": "2026-05-26T14:05:27.384805-04:00"
+      "published_at": "2026-05-26T14:41:16.741016-04:00"
     },
     {
-      "id": "20260526-MLB-NYY-KC-SPREAD",
+      "id": "20260526-MLB-CHC-PIT-TOTAL",
       "sport": "MLB",
-      "game": "NYY @ KC",
-      "first_pitch_iso": "2026-05-26T23:40:00-04:00",
-      "pick": "New York Yankees -1.5",
-      "best_book": "FanDuel",
-      "best_odds": "-118",
+      "game": "CHC @ PIT",
+      "first_pitch_iso": "2026-05-26T22:40Z",
+      "pick": "Under 8.0",
+      "best_book": "DraftKings",
+      "best_odds": "-108",
       "book_prices": {
-        "draftkings": "-125",
-        "fanduel": "-118",
-        "betmgm": "-125"
+        "draftkings": "-108",
+        "fanduel": "-124",
+        "betmgm": "-110"
       },
       "book_links": {
-        "fanduel": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.581166638&selectionId=29161",
-        "draftkings": "https://sportsbook.draftkings.com/?outcomes=0HC84926649N150_3",
-        "betmgm": "https://sports.nj.betmgm.com/en/sports?options=19436916-1503840277-2150955134&type=Single"
+        "fanduel": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.581165035&selectionId=7017906",
+        "draftkings": "https://sportsbook.draftkings.com/?outcomes=0OU84926644U800_3",
+        "betmgm": "https://sports.nj.betmgm.com/en/sports?options=19436911-1503839770-2150954023&type=Single"
       },
-      "market": "SPREAD",
+      "market": "TOTAL",
       "confidence": 4,
       "units": 1.5,
       "win_probability": 0.6,
@@ -152,45 +257,50 @@
       "event_type": "",
       "event_name": "",
       "legs": [],
-      "headline": "Schlittler vs. Falter is the most lopsided pitching matchup on the board \u2014 the run line at -118 is the right vehicle.",
-      "the_thesis": "Bailey Falter has a 9.82 ERA and 2.86 WHIP through 7.1 innings this season \u2014 those are historically bad numbers. He's averaging 2.37 IP per start in his last three outings, meaning the KC bullpen will be heavily taxed tonight. The Yankees are sending out Cam Schlittler, who has a 1.50 ERA and 0.86 WHIP through 66 innings. The pitching gap here is as wide as you'll find on any slate this season.\n\nThe Yankees ML is -200, which exceeds our straight-bet juice cap. The run line at -118 FanDuel is the correct vehicle \u2014 it requires the Yankees to win by 2+ runs, which is entirely reasonable given that Falter will likely exit by the third inning and hand the game to a KC bullpen that will be overworked. The Yankees offense scores 4.78 runs per game on the season, and they're facing a pitcher who has allowed runs at a historic rate.\n\nKauffman Stadium has a HR park factor of 0.92, which is slightly suppressive, but the Yankees don't need home runs to win this game \u2014 they just need to score against a pitcher who can't get anyone out. The run line at -118 gives us a clean, juice-efficient way to back the most obvious pitching mismatch on the board.",
+      "headline": "Ashcraft (2.89 ERA, 26.4% K%) at pitcher-friendly PNC against a Cubs lineup facing a lefty with thin data \u2014 under 8.0 at near-even money.",
+      "the_thesis": "Braxton Ashcraft has been one of the most quietly dominant starters in baseball in 2026. His 2.89 ERA, 1.03 WHIP, and 65:16 K:BB across 62.1 innings are backed by a curveball whiff rate that jumped from 36.6% to 50.9% this season \u2014 that is a legitimate arsenal upgrade, not a hot streak. He has pitched into the seventh inning in three of his four May starts and has allowed two earned runs or fewer in nine of eleven outings. His 6.5% BB rate is well within our under-screening threshold.\n\nThe Cubs send Jordan Wicks to the mound, whose data in the pack is thin (no season stats provided beyond the name), which is a flag \u2014 but the market has set this total at 8.0 on DraftKings, suggesting the books are already accounting for a solid Cubs arm. PNC Park is one of the most pitcher-friendly venues in baseball, with a runs park factor of 0.95 and an HR factor of 0.91. Both offenses are middle-of-the-pack (PIT 4.78 R/G, CHC 4.70 R/G), and neither lineup profiles as a high-variance scoring unit.\n\nThe under at -108 on DraftKings is the best price on the board for this total. The de-vigged implied probability for the under is approximately 51.9% \u2014 our fair line puts it at 60%, giving us roughly 8 cents of edge. The combination of Ashcraft's elite form, a pitcher-friendly park, and two average offenses makes this a clean under play.",
       "the_data": [
         {
-          "label": "Bailey Falter ERA / WHIP (2026)",
-          "value": "9.82 / 2.86",
-          "context": "Historically bad \u2014 7.1 IP in 3 starts"
+          "label": "Ashcraft ERA / WHIP / K:BB",
+          "value": "2.89 / 1.03 / 65:16 (62.1 IP)",
+          "context": "Top-15 NL starter by ERA"
         },
         {
-          "label": "Falter IP/start (L3)",
-          "value": "2.37 IP avg",
-          "context": "KC bullpen will carry the load tonight"
+          "label": "Ashcraft K% (season)",
+          "value": "26.4%",
+          "context": "Above-average strikeout rate"
         },
         {
-          "label": "Schlittler ERA / WHIP (2026)",
-          "value": "1.50 / 0.86",
-          "context": "MLB-leading \u2014 historic start to season"
+          "label": "Ashcraft curveball whiff rate",
+          "value": "50.9% (up from 36.6% in 2025)",
+          "context": "Legitimate arsenal upgrade"
         },
         {
-          "label": "NYY runs per game (season)",
-          "value": "4.78",
-          "context": "Top-10 offense \u2014 4th in AL"
+          "label": "Ashcraft BB% (season)",
+          "value": "6.5%",
+          "context": "Well within under-screening threshold"
         },
         {
-          "label": "KC runs per game (season)",
-          "value": "3.89",
-          "context": "Bottom-tier offense \u2014 25th in MLB"
+          "label": "PNC Park runs PF / HR PF",
+          "value": "0.95 / 0.91",
+          "context": "Pitcher-friendly, HR-suppressing"
         },
         {
-          "label": "Kauffman Stadium runs PF",
-          "value": "0.98",
-          "context": "Neutral \u2014 no significant park effect"
+          "label": "PIT R/G / CHC R/G",
+          "value": "4.78 / 4.70",
+          "context": "Both middle-of-pack offenses"
+        },
+        {
+          "label": "Ashcraft May ERA (4 starts)",
+          "value": "1.91",
+          "context": "Best month of his career"
         }
       ],
-      "the_market": "Yankees ML opened at -200 and has held there across all three books. The run line at -118 FanDuel is the best price available. The market is pricing the Yankees as a 2-to-1 favorite, which is appropriate given the pitching mismatch, but the run line offers better value than the ML at this juice level.",
-      "weather_park": "Kauffman Stadium is outdoor. No significant weather flags. Neutral park \u2014 no meaningful impact on run scoring.",
-      "case_against": "Schlittler took a calf shot in his last start and may be managing discomfort. If he exits early, the Yankees bullpen \u2014 which has had some volatility this season \u2014 would need to close out a game against a KC team that plays scrappy baseball at home. The Royals are 3.89 R/G but they play better at Kauffman. A short Schlittler start could make this a 1-run game.",
-      "what_were_betting_on": "Schlittler going 6+ healthy innings, Yankees scoring 4+ runs against Falter and the KC pen, and winning by 2 or more.",
-      "scott_bot_quip": "Bailey Falter has a 9.82 ERA. The run line is doing the boys a favor.",
+      "the_market": "Total is set at 8.0 on DraftKings and BetMGM, 8.5 on FanDuel. The DraftKings -108 is the best price for the under at 8.0. No significant line movement noted \u2014 market opened at this level and has held, suggesting no sharp steam on the over.",
+      "weather_park": "PNC Park is outdoor. No weather data in pack, but park factors (runs 0.95, HR 0.91) are meaningfully pitcher-friendly \u2014 net suppressive effect on scoring.",
+      "case_against": "Jordan Wicks' data is thin in the pack \u2014 if he is struggling this season (which we cannot confirm), the Cubs could score more than expected against a PIT offense that has been solid. Ashcraft did allow six runs in one start against the Cardinals earlier this season, showing he is not immune to bad outings. If either bullpen is taxed from recent games, the late innings could get messy.",
+      "what_were_betting_on": "Ashcraft goes 6+ innings allowing 2 or fewer runs, Wicks holds the Pirates to 3 or fewer, combined total stays under 8 runs.",
+      "scott_bot_quip": "Ashcraft's curveball whiff rate went from 36% to 51% this year. PNC Park eats home runs. The math is doing the work tonight.",
       "ladder_note": "",
       "date": "2026-05-26",
       "status": "PEND",
@@ -198,35 +308,35 @@
       "clv_cents": null,
       "result_score": null,
       "graded_at": null,
-      "slate_assessment": "15-game MLB slate headlined by two elite SP matchups \u2014 Schlittler vs. a toothless KC rotation and Harrison vs. a Cardinals lineup cold against lefties. OKC-SA NBA playoff game and VGK-COL NHL game round out the board.",
-      "executive_summary": "The sharpest play on today's board is Kyle Harrison against a Cardinals lineup batting .236 against lefties in May with a 86 wRC+ vs southpaws \u2014 the Brewers Under 8.0 is the cleanest total on the slate. Cam Schlittler's historic 1.50 ERA against a Bailey Falter-led KC rotation makes the Yankees ML the most lopsided side play, but the juice (-200) keeps it off the straight-bet list. The ladder rides with the Brewers Under 8.0 at -110 BetMGM \u2014 two quality starters, both bullpens fresh, and a Cardinals offense that just went 1-for-2 hits in Monday's opener. Braxton Ashcraft's 26.4% K-rate and 2.89 ERA at PNC Park against a Cubs lineup facing a pitcher-friendly park rounds out the top tier.",
-      "slate_analysis": "Fifteen MLB games tonight plus an NBA playoff game (OKC-SA) and an NHL playoff game (VGK-COL). The pricing climate is mostly tight \u2014 several games sitting near pick'em on the ML \u2014 which means the edge has to come from pitching matchup asymmetry, not market mispricing alone. The NBA game has a data_confidence of 0.3 and the total moved from 216.5 to 217.5, but without team NET/Off/Def ratings in the pack, the prop slate is thin and the side/total is too uncertain to build around. The NHL game is a near-coin-flip ML with no SOG prop data that clears the bar.\n\nTop candidates that earned a hard look: (1) MIL Under 8.0 \u2014 Kyle Harrison (1.77 ERA, 2.48 FIP, 32.2% K-rate, 9 starts) vs. Cardinals lineup batting .236/.307 against LHP in May, wRC+ 86 vs. southpaws. McGreevy's 4.03 FIP vs. a Brewers offense that manufactures runs rather than hits. Both bullpens fresh after light Monday usage. (2) NYY ML vs. KC \u2014 Schlittler (1.50 ERA, 0.86 WHIP, 75:13 K:BB in 66 IP) against Bailey Falter (9.82 ERA, 2.86 WHIP, 7.1 IP). The most lopsided pitching matchup on the board. (3) PIT Under 8.0 / Ashcraft K prop \u2014 Braxton Ashcraft (2.89 ERA, 26.4% K-rate, 65:16 K:BB in 62.1 IP) at PNC Park (PF 0.91 HR, 0.95 runs) vs. Jordan Wicks (no full stats in pack). (4) CIN ML / Chase Burns \u2014 Burns (1.83 ERA, 0.95 WHIP, 28.2% K-rate) at Citi Field (HR-suppressing) vs. an unconfirmed Mets SP. (5) Cam Schlittler Ks Over 5.5 \u2014 29.6% K-rate, 75 Ks in 66 IP, KC lineup is bottom-tier. (6) Braxton Ashcraft Ks Over 5.5 \u2014 26.4% K-rate, 9.11 K/9, curveball whiff rate jumped to 50.9%, facing Cubs at PNC.\n\nWhat got cut and why: NYY ML at -200 exceeds the -150 straight-bet juice cap \u2014 hard rule, no exceptions. CIN ML at -126 is borderline but the Mets SP is listed as 'D. Peterson' in the FanDuel link with no stats in the pack \u2014 data_confidence 0.4 and no pitcher intel means we can't build a thesis. The OKC-SA NBA game has data_confidence 0.3 and no team NET/Off/Def ratings \u2014 the prop slate has lines but no opposing defensive rank context to anchor NBA props. VGK-COL NHL: near-coin-flip ML, no SOG prop data with sufficient context. ATH-SEA: both SPs have HR/9 above 1.0 and the total is 9.5 \u2014 the over is tempting but Severino's 11.7% BB-rate and 1.18 HR/9 make the under risky too; no clean edge. LAD-COL: Lauer (6.69 ERA, 2.74 HR/9) and Freeland (7.04 ERA, 2.13 HR/9) are both disasters but the Dodgers ML is -235, exceeding juice cap.\n\nFinal six: (1) MIL Under 8.0 \u2014 ladder pick, highest floor, two quality arms, fresh pens, cold Cardinals offense vs. LHP. (2) Braxton Ashcraft Ks Over 5.5 \u2014 elite K-rate, pitcher-friendly park, Cubs lineup facing a pitcher they haven't seen. (3) Cam Schlittler Ks Over 5.5 \u2014 historic K-rate, KC lineup is bottom-tier, 29.6% K-rate season-long. (4) NYY -1.5 run line at -118 FD \u2014 Schlittler vs. Falter is so lopsided the run line is the right vehicle at -118 instead of -200 ML. (5) Chase Burns Under 7.5 total (CIN-NYM) \u2014 Burns' 1.83 ERA and 0.95 WHIP at a HR-suppressing Citi Field with an unconfirmed Mets SP. (6) PIT Under 8.0 at DraftKings \u2014 Ashcraft at PNC Park, pitcher-friendly, Wicks has no full stats but the park and Ashcraft's form anchor the under.",
+      "slate_assessment": "15-game MLB slate plus OKC-SA NBA WCF Game 5 and COL-VGK NHL playoff game. Three elite pitching spots jump off the page \u2014 Schlittler vs. a 9.82-ERA Falter, Harrison vs. a Cardinals team in freefall, and Ashcraft at pitcher-friendly PNC. Prop slate is thin on data confidence but a few K and total-bases spots survive screening.",
+      "executive_summary": "The best pitching matchup on the board tonight isn't close: Cam Schlittler (1.50 ERA, 75:13 K:BB) faces Bailey Falter (9.82 ERA, 2.86 WHIP) in Kansas City, and the Yankees run line at -118 is the sharpest play on the slate. Kyle Harrison (1.77 ERA, 32.2% K-rate) gets a Cardinals team that has dropped four of five, and Braxton Ashcraft (2.89 ERA, 26.4% K%) works at pitcher-friendly PNC against a Cubs lineup without a confirmed starter's full data. The ladder rides with the Brewers -1.5 at +120 on FanDuel \u2014 Harrison's floor is as high as any arm on the board tonight.",
+      "slate_analysis": "Fifteen MLB games, one NBA Western Conference Finals game (OKC-SA), and one NHL playoff game (COL-VGK) make up tonight's board. Pricing climate is mostly efficient \u2014 the NBA and NHL games carry data confidence below 0.35, which is below our floor, so those are non-starters for straight bets. The MLB slate has several games with data confidence at 0.40-0.45, which is thin but workable when the pitching edge is overwhelming.\n\nTop candidates that earned a hard look: (1) NYY-KC \u2014 Schlittler (1.50 ERA, 0.86 WHIP, 75:13 K:BB) vs. Falter (9.82 ERA, 2.86 WHIP, 7.1 IP total). The run-line at -118 on FanDuel is the cleanest play on the board. (2) STL-MIL \u2014 Harrison (1.77 ERA, 32.2% K-rate, 59:14 K:BB) vs. McGreevy (2.40 ERA, 5.5% BB) with the Cardinals having dropped four of five. Brewers -1.5 at +120 FanDuel is near even money and fits the ladder. (3) CHC-PIT \u2014 Ashcraft (2.89 ERA, 26.4% K%, 65:16 K:BB) at pitcher-friendly PNC against Jordan Wicks, whose data is thin in the pack. Under 8.0 at DraftKings -108 is clean. (4) ATL-BOS \u2014 Strider (3.0 ERA but 14.6% BB, 1.71 HR/9) vs. Suarez (2.40 ERA, 0.56 HR/9) at Fenway with wind blowing out 9 mph boosting HR ~13%. The over is tempting but Strider's walk rate and HR/9 in a hitter-friendly park with wind out is a double-edged sword \u2014 Suarez suppresses it. Passed. (5) Braxton Ashcraft Ks Over 5.5 at BetMGM -120 \u2014 26.4% K-rate, 65:16 K:BB, Cubs lineup is not a high-K offense but Ashcraft's curveball whiff rate jumped to 50.9% in 2026. Passes data screening. (6) Kyle Harrison Ks Over 5.5 \u2014 not in the pack for this game, so no prop available. Looked at Schlittler K props but the line is 5.5 at -153 DK, too much juice. Settled on Ashcraft Ks Over 5.5 at -120 as the sixth play.\n\nWhat got cut: CLE-WSH (data confidence 0.45, only one book, total rose 7.5\u21928.0 which is a red flag for the under, Cantillo BB% 11.6% is borderline for under screening); TB-BAL (data confidence 0.40, Griffin Jax HR/9 1.29 disqualifies HR props, Baz is a below-average SP but the market has TB as a slight favorite \u2014 no clean edge); ARI-SF (Eduardo Rodriguez is excellent but Oracle Park under at -105 is barely above our juice threshold and data confidence is 0.40 \u2014 passed); LAD-COL (Lauer 2.74 HR/9 and Freeland 2.13 HR/9 screams over, but both SPs are so bad the market has already priced it at 9.0 \u2014 no edge on the over at -108); OKC-SA NBA (data confidence 0.30 \u2014 below floor, no play); COL-VGK NHL (data confidence 0.35 \u2014 below floor, no play).\n\nFinal six: Yankees -1.5 run line (conf 5, 2.0u), Brewers -1.5 run line as ladder (conf 4, 1.5u), Pirates Under 8.0 (conf 4, 1.5u), Ashcraft Ks Over 5.5 (conf 3, 1.0u), Dodgers -1.5 run line (conf 3, 1.0u), and Ranger Suarez Under 8.0 at BOS (conf 3, 1.0u). The ladder is Brewers -1.5 at +120 \u2014 Harrison's floor is elite, the Cardinals are in a skid, and the price lands squarely in the even-money band.",
       "slate_vibe": "NORMAL",
-      "published_at": "2026-05-26T14:05:27.384668-04:00"
+      "published_at": "2026-05-26T14:41:16.740959-04:00"
     },
     {
-      "id": "20260526-MLB-STL-PIT-PROP-BRAXTONASHCRAFT",
+      "id": "20260526-MLB-STL-MIL-RUNLINE",
       "sport": "MLB",
-      "game": "CHC @ PIT",
-      "first_pitch_iso": "2026-05-26T22:40:00-04:00",
-      "pick": "Braxton Ashcraft Ks Over 5.5",
-      "best_book": "BetMGM",
-      "best_odds": "-120",
+      "game": "STL @ MIL",
+      "first_pitch_iso": "2026-05-26T23:40Z",
+      "pick": "Milwaukee Brewers -1.5",
+      "best_book": "FanDuel",
+      "best_odds": "+120",
       "book_prices": {
-        "draftkings": "N/A",
-        "fanduel": "+100",
-        "betmgm": "-120"
+        "draftkings": "+114",
+        "fanduel": "+120",
+        "betmgm": "+110"
       },
       "book_links": {
-        "fanduel": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.581177081&selectionId=85181440",
-        "draftkings": "https://sportsbook.draftkings.com/?outcomes=0QA337592342%232163389208_13L84240Q1-2091356037Q20",
-        "betmgm": "https://sports.nj.betmgm.com/en/sports?options=2:7789991-199926858-756339932&type=Single"
+        "fanduel": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.581165865&selectionId=29172",
+        "draftkings": "https://sportsbook.draftkings.com/?outcomes=0HC84926650N150_1",
+        "betmgm": "https://sports.nj.betmgm.com/en/sports?options=19436917-1503840408-2150955467&type=Single"
       },
-      "market": "PROP",
+      "market": "RUNLINE",
       "confidence": 4,
       "units": 1.5,
-      "win_probability": 0.62,
-      "ladder_designation": false,
+      "win_probability": 0.58,
+      "ladder_designation": true,
       "data_confidence": 0.68,
       "rules_passed": [
         "max_juice",
@@ -236,7 +346,7 @@
         "data_confidence_floor",
         "pick_type_allowed",
         "mlb_hr_prop_check",
-        "mlb_pitcher_k_check(soft)",
+        "mlb_pitcher_k_check",
         "mlb_total_bases_check",
         "mlb_hits_check",
         "nba_player_prop_check",
@@ -252,81 +362,86 @@
       "event_type": "",
       "event_name": "",
       "legs": [],
-      "headline": "Ashcraft's 26.4% K-rate and 50.9% curveball whiff rate at a pitcher-friendly PNC Park against a Cubs lineup seeing him for the first time.",
-      "the_thesis": "Braxton Ashcraft has quietly become one of the most compelling strikeout arms in the NL. Through 11 starts in 2026, he carries a 2.89 ERA, 1.03 WHIP, and a 65:16 K:BB ratio across 62.1 innings \u2014 that's a 9.11 K/9 rate. His curveball whiff rate has jumped from 36.6% in 2025 to 50.9% this season, and he added a splitter specifically to attack left-handed batters. He's pitched into the seventh inning in three of his four May starts, meaning he'll have the opportunity to accumulate strikeouts deep into the game.\n\nThe Cubs lineup tonight is a favorable matchup. Jordan Wicks is the away starter with no full stats in the pack, but the key is what Ashcraft does \u2014 and he's coming off a 9-K performance against the Cardinals last Thursday. PNC Park is one of the most pitcher-friendly venues in baseball (HR PF 0.91, runs PF 0.95), which suppresses the type of hard contact that cuts into strikeout opportunities. The Cubs have a lineup that strikes out at a reasonable clip, and Ashcraft's three-pitch mix (sinker, slider, curveball) gives him legitimate weapons against both sides of the plate.\n\nThe Over 5.5 at -120 BetMGM is the best available price. FanDuel has it at +100 for the same line \u2014 if you can get +100, take it there. The market is pricing this conservatively given Ashcraft's recent form.",
+      "headline": "Kyle Harrison (1.77 ERA, 32.2% K-rate) vs. a Cardinals team that has dropped four of five \u2014 and you're getting plus money on the run line.",
+      "the_thesis": "Kyle Harrison is the only pitcher in the National League with an ERA below 1.85 and a strikeout rate above 30%. His 1.77 ERA, 59:14 K:BB, and 32.2% strikeout rate across 45.2 innings are not a fluke \u2014 his xERA per Statcast sits at 3.43, which is still comfortably a career best and validates the performance. The Brewers' pitching lab has turned Harrison into a weapon: he scrapped his cutter, sharpened his slurve (batters are 2-for-22 against it with 7 Ks), and improved his changeup's vertical drop by 3.4 inches. In his last two starts against the Cubs and Padres, he allowed zero runs across 12 innings with 18 strikeouts and one walk.\n\nThe Cardinals enter this game having dropped four of five and facing Harrison for the first time in his career. Michael McGreevy (2.40 ERA, 5.5% BB) is a solid arm, but the Brewers offense (4.92 R/G, best in the NL Central) has the firepower to generate a multi-run cushion. Milwaukee has won six of Harrison's last six starts and is 13-4 in their last 17 games overall.\n\nThe run line at +120 on FanDuel is the ladder pick because it lands squarely in the even-money band and Harrison's floor is as high as any arm on the board. You're getting paid to take the team with the better pitcher, the better offense, and the better recent form. The implied probability at +120 is 45.5% \u2014 our fair line puts the Brewers winning by 2+ at roughly 53%, giving us nearly 8 cents of edge.",
       "the_data": [
         {
-          "label": "Ashcraft K-rate (2026)",
-          "value": "26.4%",
-          "context": "9.11 K/9 \u2014 legitimate strikeout arm"
+          "label": "Harrison ERA / xERA / WHIP",
+          "value": "1.77 / 3.43 / 1.07",
+          "context": "Only NL pitcher with ERA <1.85 and K% >30%"
         },
         {
-          "label": "Ashcraft K:BB (2026)",
-          "value": "65:16 in 62.1 IP",
-          "context": "Elite command-to-strikeout ratio"
+          "label": "Harrison K:BB (season)",
+          "value": "59:14 across 45.2 IP",
+          "context": "Elite command, 32.2% K-rate"
         },
         {
-          "label": "Ashcraft curveball whiff rate",
-          "value": "50.9%",
-          "context": "Up from 36.6% in 2025 \u2014 real improvement"
+          "label": "Harrison last 2 starts",
+          "value": "0 ER, 12 IP, 18 K, 1 BB",
+          "context": "Peak form entering tonight"
         },
         {
-          "label": "Ashcraft ERA / WHIP (2026)",
-          "value": "2.89 / 1.03",
-          "context": "Stable, above-average across 11 starts"
+          "label": "MIL R/G (season)",
+          "value": "4.92",
+          "context": "Best offense in NL Central"
         },
         {
-          "label": "PNC Park HR park factor",
-          "value": "0.91",
-          "context": "HR-suppressing \u2014 favors strikeout outcomes"
+          "label": "STL recent form",
+          "value": "Lost 4 of last 5",
+          "context": "Struggling offense, poor momentum"
         },
         {
-          "label": "Ashcraft IP/start (L3)",
-          "value": "20.7 IP in 3 starts",
-          "context": "6.9 IP/start \u2014 deep enough to pile Ks"
+          "label": "McGreevy ERA / BB%",
+          "value": "2.40 / 5.5%",
+          "context": "Solid but first career start vs. MIL"
+        },
+        {
+          "label": "American Family Field HR PF",
+          "value": "1.06",
+          "context": "Slight HR boost, indoor dome"
         }
       ],
-      "the_market": "The Over 5.5 is priced at -120 BetMGM and +100 FanDuel \u2014 a notable discrepancy. The market is treating this conservatively, likely anchoring on Ashcraft's modest reputation rather than his 2026 underlying numbers. Best price is FanDuel at +100 if available.",
-      "weather_park": "PNC Park is outdoor but no weather data flagged. Park HR factor 0.91 and runs factor 0.95 \u2014 one of the most pitcher-friendly venues in the NL.",
-      "case_against": "Ashcraft has a 6.5% BB-rate that can spike \u2014 if he walks batters early and gets into trouble, the Pirates may pull him before he reaches 6 Ks. The Cubs have a lineup that makes contact (Nico Hoerner, Ian Happ) and can grind at-bats. If Wicks is sharp and the game stays close, Ashcraft may be on a pitch count that limits his innings.",
-      "what_were_betting_on": "Ashcraft going 6+ innings, his curveball generating whiffs against the Cubs lineup, and at least 6 strikeouts on the night.",
-      "scott_bot_quip": "The Cubs haven't seen this version of Ashcraft. Neither has the sportsbook, apparently.",
-      "ladder_note": "",
+      "the_market": "Brewers ML opened -180 and has held there. The run line at +120 on FanDuel is the best price across the three books and represents genuine value \u2014 the market is pricing the Brewers to win by 2+ at only 45.5% implied, which undervalues Harrison's floor significantly.",
+      "weather_park": "American Family Field is a domed stadium \u2014 no weather impact.",
+      "case_against": "McGreevy (2.40 ERA) is a legitimate arm who could keep this game close into the sixth or seventh inning. If the Cardinals steal early runs and Harrison has an uncharacteristic off night, the Brewers could win by one and the run line loses. Harrison has only 45.2 innings this season \u2014 a small sample relative to his xERA, and regression toward 3.43 is possible. The Cardinals also have never faced Harrison, which cuts both ways.",
+      "what_were_betting_on": "Harrison goes 6+ innings allowing 2 or fewer runs, Brewers offense generates 4+ runs against McGreevy, final margin of 2+.",
+      "scott_bot_quip": "The only NL pitcher with an ERA under 1.85 and a K-rate over 30% is pitching tonight. We're getting plus money. The boys know what to do.",
+      "ladder_note": "Harrison's floor is elite \u2014 1.77 ERA, 32.2% K-rate, zero runs allowed in his last two starts. The Cardinals are in a skid. The Brewers offense is the best in the division. At +120, this is the highest-floor play near even money on the board, which is exactly what the ladder needs.",
       "date": "2026-05-26",
       "status": "PEND",
       "units_result": null,
       "clv_cents": null,
       "result_score": null,
       "graded_at": null,
-      "slate_assessment": "15-game MLB slate headlined by two elite SP matchups \u2014 Schlittler vs. a toothless KC rotation and Harrison vs. a Cardinals lineup cold against lefties. OKC-SA NBA playoff game and VGK-COL NHL game round out the board.",
-      "executive_summary": "The sharpest play on today's board is Kyle Harrison against a Cardinals lineup batting .236 against lefties in May with a 86 wRC+ vs southpaws \u2014 the Brewers Under 8.0 is the cleanest total on the slate. Cam Schlittler's historic 1.50 ERA against a Bailey Falter-led KC rotation makes the Yankees ML the most lopsided side play, but the juice (-200) keeps it off the straight-bet list. The ladder rides with the Brewers Under 8.0 at -110 BetMGM \u2014 two quality starters, both bullpens fresh, and a Cardinals offense that just went 1-for-2 hits in Monday's opener. Braxton Ashcraft's 26.4% K-rate and 2.89 ERA at PNC Park against a Cubs lineup facing a pitcher-friendly park rounds out the top tier.",
-      "slate_analysis": "Fifteen MLB games tonight plus an NBA playoff game (OKC-SA) and an NHL playoff game (VGK-COL). The pricing climate is mostly tight \u2014 several games sitting near pick'em on the ML \u2014 which means the edge has to come from pitching matchup asymmetry, not market mispricing alone. The NBA game has a data_confidence of 0.3 and the total moved from 216.5 to 217.5, but without team NET/Off/Def ratings in the pack, the prop slate is thin and the side/total is too uncertain to build around. The NHL game is a near-coin-flip ML with no SOG prop data that clears the bar.\n\nTop candidates that earned a hard look: (1) MIL Under 8.0 \u2014 Kyle Harrison (1.77 ERA, 2.48 FIP, 32.2% K-rate, 9 starts) vs. Cardinals lineup batting .236/.307 against LHP in May, wRC+ 86 vs. southpaws. McGreevy's 4.03 FIP vs. a Brewers offense that manufactures runs rather than hits. Both bullpens fresh after light Monday usage. (2) NYY ML vs. KC \u2014 Schlittler (1.50 ERA, 0.86 WHIP, 75:13 K:BB in 66 IP) against Bailey Falter (9.82 ERA, 2.86 WHIP, 7.1 IP). The most lopsided pitching matchup on the board. (3) PIT Under 8.0 / Ashcraft K prop \u2014 Braxton Ashcraft (2.89 ERA, 26.4% K-rate, 65:16 K:BB in 62.1 IP) at PNC Park (PF 0.91 HR, 0.95 runs) vs. Jordan Wicks (no full stats in pack). (4) CIN ML / Chase Burns \u2014 Burns (1.83 ERA, 0.95 WHIP, 28.2% K-rate) at Citi Field (HR-suppressing) vs. an unconfirmed Mets SP. (5) Cam Schlittler Ks Over 5.5 \u2014 29.6% K-rate, 75 Ks in 66 IP, KC lineup is bottom-tier. (6) Braxton Ashcraft Ks Over 5.5 \u2014 26.4% K-rate, 9.11 K/9, curveball whiff rate jumped to 50.9%, facing Cubs at PNC.\n\nWhat got cut and why: NYY ML at -200 exceeds the -150 straight-bet juice cap \u2014 hard rule, no exceptions. CIN ML at -126 is borderline but the Mets SP is listed as 'D. Peterson' in the FanDuel link with no stats in the pack \u2014 data_confidence 0.4 and no pitcher intel means we can't build a thesis. The OKC-SA NBA game has data_confidence 0.3 and no team NET/Off/Def ratings \u2014 the prop slate has lines but no opposing defensive rank context to anchor NBA props. VGK-COL NHL: near-coin-flip ML, no SOG prop data with sufficient context. ATH-SEA: both SPs have HR/9 above 1.0 and the total is 9.5 \u2014 the over is tempting but Severino's 11.7% BB-rate and 1.18 HR/9 make the under risky too; no clean edge. LAD-COL: Lauer (6.69 ERA, 2.74 HR/9) and Freeland (7.04 ERA, 2.13 HR/9) are both disasters but the Dodgers ML is -235, exceeding juice cap.\n\nFinal six: (1) MIL Under 8.0 \u2014 ladder pick, highest floor, two quality arms, fresh pens, cold Cardinals offense vs. LHP. (2) Braxton Ashcraft Ks Over 5.5 \u2014 elite K-rate, pitcher-friendly park, Cubs lineup facing a pitcher they haven't seen. (3) Cam Schlittler Ks Over 5.5 \u2014 historic K-rate, KC lineup is bottom-tier, 29.6% K-rate season-long. (4) NYY -1.5 run line at -118 FD \u2014 Schlittler vs. Falter is so lopsided the run line is the right vehicle at -118 instead of -200 ML. (5) Chase Burns Under 7.5 total (CIN-NYM) \u2014 Burns' 1.83 ERA and 0.95 WHIP at a HR-suppressing Citi Field with an unconfirmed Mets SP. (6) PIT Under 8.0 at DraftKings \u2014 Ashcraft at PNC Park, pitcher-friendly, Wicks has no full stats but the park and Ashcraft's form anchor the under.",
+      "slate_assessment": "15-game MLB slate plus OKC-SA NBA WCF Game 5 and COL-VGK NHL playoff game. Three elite pitching spots jump off the page \u2014 Schlittler vs. a 9.82-ERA Falter, Harrison vs. a Cardinals team in freefall, and Ashcraft at pitcher-friendly PNC. Prop slate is thin on data confidence but a few K and total-bases spots survive screening.",
+      "executive_summary": "The best pitching matchup on the board tonight isn't close: Cam Schlittler (1.50 ERA, 75:13 K:BB) faces Bailey Falter (9.82 ERA, 2.86 WHIP) in Kansas City, and the Yankees run line at -118 is the sharpest play on the slate. Kyle Harrison (1.77 ERA, 32.2% K-rate) gets a Cardinals team that has dropped four of five, and Braxton Ashcraft (2.89 ERA, 26.4% K%) works at pitcher-friendly PNC against a Cubs lineup without a confirmed starter's full data. The ladder rides with the Brewers -1.5 at +120 on FanDuel \u2014 Harrison's floor is as high as any arm on the board tonight.",
+      "slate_analysis": "Fifteen MLB games, one NBA Western Conference Finals game (OKC-SA), and one NHL playoff game (COL-VGK) make up tonight's board. Pricing climate is mostly efficient \u2014 the NBA and NHL games carry data confidence below 0.35, which is below our floor, so those are non-starters for straight bets. The MLB slate has several games with data confidence at 0.40-0.45, which is thin but workable when the pitching edge is overwhelming.\n\nTop candidates that earned a hard look: (1) NYY-KC \u2014 Schlittler (1.50 ERA, 0.86 WHIP, 75:13 K:BB) vs. Falter (9.82 ERA, 2.86 WHIP, 7.1 IP total). The run-line at -118 on FanDuel is the cleanest play on the board. (2) STL-MIL \u2014 Harrison (1.77 ERA, 32.2% K-rate, 59:14 K:BB) vs. McGreevy (2.40 ERA, 5.5% BB) with the Cardinals having dropped four of five. Brewers -1.5 at +120 FanDuel is near even money and fits the ladder. (3) CHC-PIT \u2014 Ashcraft (2.89 ERA, 26.4% K%, 65:16 K:BB) at pitcher-friendly PNC against Jordan Wicks, whose data is thin in the pack. Under 8.0 at DraftKings -108 is clean. (4) ATL-BOS \u2014 Strider (3.0 ERA but 14.6% BB, 1.71 HR/9) vs. Suarez (2.40 ERA, 0.56 HR/9) at Fenway with wind blowing out 9 mph boosting HR ~13%. The over is tempting but Strider's walk rate and HR/9 in a hitter-friendly park with wind out is a double-edged sword \u2014 Suarez suppresses it. Passed. (5) Braxton Ashcraft Ks Over 5.5 at BetMGM -120 \u2014 26.4% K-rate, 65:16 K:BB, Cubs lineup is not a high-K offense but Ashcraft's curveball whiff rate jumped to 50.9% in 2026. Passes data screening. (6) Kyle Harrison Ks Over 5.5 \u2014 not in the pack for this game, so no prop available. Looked at Schlittler K props but the line is 5.5 at -153 DK, too much juice. Settled on Ashcraft Ks Over 5.5 at -120 as the sixth play.\n\nWhat got cut: CLE-WSH (data confidence 0.45, only one book, total rose 7.5\u21928.0 which is a red flag for the under, Cantillo BB% 11.6% is borderline for under screening); TB-BAL (data confidence 0.40, Griffin Jax HR/9 1.29 disqualifies HR props, Baz is a below-average SP but the market has TB as a slight favorite \u2014 no clean edge); ARI-SF (Eduardo Rodriguez is excellent but Oracle Park under at -105 is barely above our juice threshold and data confidence is 0.40 \u2014 passed); LAD-COL (Lauer 2.74 HR/9 and Freeland 2.13 HR/9 screams over, but both SPs are so bad the market has already priced it at 9.0 \u2014 no edge on the over at -108); OKC-SA NBA (data confidence 0.30 \u2014 below floor, no play); COL-VGK NHL (data confidence 0.35 \u2014 below floor, no play).\n\nFinal six: Yankees -1.5 run line (conf 5, 2.0u), Brewers -1.5 run line as ladder (conf 4, 1.5u), Pirates Under 8.0 (conf 4, 1.5u), Ashcraft Ks Over 5.5 (conf 3, 1.0u), Dodgers -1.5 run line (conf 3, 1.0u), and Ranger Suarez Under 8.0 at BOS (conf 3, 1.0u). The ladder is Brewers -1.5 at +120 \u2014 Harrison's floor is elite, the Cardinals are in a skid, and the price lands squarely in the even-money band.",
       "slate_vibe": "NORMAL",
-      "published_at": "2026-05-26T14:05:27.384541-04:00"
+      "published_at": "2026-05-26T14:41:16.740886-04:00"
     },
     {
-      "id": "20260526-MLB-STL-MIL-TOTAL",
+      "id": "20260526-MLB-NYY-KC-RUNLINE",
       "sport": "MLB",
-      "game": "STL @ MIL",
-      "first_pitch_iso": "2026-05-26T23:40:00-05:00",
-      "pick": "Under 8.0",
-      "best_book": "BetMGM",
-      "best_odds": "-110",
+      "game": "NYY @ KC",
+      "first_pitch_iso": "2026-05-26T23:40Z",
+      "pick": "New York Yankees -1.5",
+      "best_book": "FanDuel",
+      "best_odds": "-118",
       "book_prices": {
-        "draftkings": "-114",
-        "fanduel": "-114",
-        "betmgm": "-110"
+        "draftkings": "-125",
+        "fanduel": "-118",
+        "betmgm": "-125"
       },
       "book_links": {
-        "fanduel": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.581165864&selectionId=7017906",
-        "draftkings": "https://sportsbook.draftkings.com/?outcomes=0OU84926650U800_3",
-        "betmgm": "https://sports.nj.betmgm.com/en/sports?options=19436917-1503840420-2150955491&type=Single"
+        "fanduel": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.581166638&selectionId=29161",
+        "draftkings": "https://sportsbook.draftkings.com/?outcomes=0HC84926649N150_3",
+        "betmgm": "https://sports.nj.betmgm.com/en/sports?options=19436916-1503840277-2150955134&type=Single"
       },
-      "market": "TOTAL",
+      "market": "RUNLINE",
       "confidence": 5,
       "units": 2.0,
-      "win_probability": 0.63,
-      "ladder_designation": true,
+      "win_probability": 0.64,
+      "ladder_designation": false,
       "data_confidence": 0.72,
       "rules_passed": [
         "max_juice",
@@ -352,88 +467,188 @@
       "event_type": "",
       "event_name": "",
       "legs": [],
-      "headline": "Harrison vs. a Cardinals lineup that's ice-cold against lefties \u2014 both pens fresh, both starters dealing.",
-      "the_thesis": "Kyle Harrison is one of the best stories in baseball right now. The 24-year-old lefty carries a 1.77 ERA and 2.48 FIP through nine starts, with a 32.2% strikeout rate that ranks in the 95th percentile among MLB starters. His curveball whiff rate has jumped to 50.9% this season, and he's coming off a 7-inning, 11-K shutout of the Cubs. Tonight is his first career start against the Cardinals \u2014 no familiarity advantage for St. Louis, and the Cardinals have never seen his current arsenal configuration.\n\nThe Cardinals' offense is the perfect foil. They're batting .236 against left-handed pitching in May with a wRC+ of 86 vs. southpaws \u2014 that's 14% below league average. They just went 1-for-2 hits in Monday's series opener against Misiorowski. On the other side, Michael McGreevy's 2.40 ERA looks good on the surface but his 4.03 FIP tells the real story \u2014 he's been surviving on weak contact and good defense, not missing bats. The Brewers' offense is built on manufacturing runs, not the long ball (last in MLB in HRs), which keeps the over ceiling low even if McGreevy gets hit around.\n\nBoth bullpens are fully rested after light Monday usage \u2014 Aaron Ashby was the only Brewers reliever used, and Brycen Mautz was the only Cardinals arm deployed. That removes the late-inning blowup variable that typically inflates totals. The total opened at 7.5 and has moved to 8.0 with juice shifting, which reflects the market pricing in Harrison's dominance. We're getting the under at -110 BetMGM, which is the best price on the board.",
+      "headline": "Schlittler (1.50 ERA) vs. Falter (9.82 ERA) \u2014 the most lopsided pitching matchup on the board.",
+      "the_thesis": "Cam Schlittler is the best pitcher in baseball right now and tonight he faces the worst starting pitcher on the slate. Schlittler enters with a 1.50 ERA, 0.86 WHIP, and a 75:13 K:BB ratio across 66 innings \u2014 his xFIP and xERA both sit around 2.60, meaning the underlying metrics validate the surface numbers. He is not a mirage. His 29.6% strikeout rate and 5.1% walk rate create an elite run-prevention profile, and the Royals lineup (22-32, bottom-third offense) profiles as one of the worst matchups he could face. Kansas City's 22% projected strikeout rate against right-handed pitching and average chase rate of 30.2% means they won't punish him with discipline or loud contact.\n\nOn the other side, Bailey Falter has a 9.82 ERA and 2.86 WHIP across just 7.1 innings \u2014 he is a spot starter who will likely be pulled after two innings in a piggyback arrangement. The Yankees lineup features Aaron Judge (17 HR), Ben Rice (16 HR), and Cody Bellinger, all projected to see multiple at-bats against a pitcher who cannot throw strikes. The run differential in this matchup is extreme. The Yankees have won 12 straight against Kansas City, and tonight's pitching edge is the most pronounced of that entire streak.\n\nThe run line at -118 on FanDuel is the value play here. The ML is -200, which is too short for a straight bet under our rules. But -1.5 at -118 is a gift \u2014 the Yankees should win by multiple runs far more often than the implied 54% suggests when Schlittler is dealing and the opponent is running out a 9.82-ERA arm. This is the highest-conviction play on the board.",
       "the_data": [
         {
-          "label": "Kyle Harrison ERA / FIP (2026)",
-          "value": "1.77 / 2.48",
-          "context": "Elite \u2014 FIP confirms ERA is real"
+          "label": "Schlittler ERA / xERA / WHIP",
+          "value": "1.50 / 2.60 / 0.86",
+          "context": "Best pitcher in baseball, metrics validated"
         },
         {
-          "label": "Harrison K-rate (2026)",
-          "value": "32.2%",
-          "context": "95th percentile among MLB starters"
+          "label": "Schlittler K:BB (season)",
+          "value": "75:13 across 66 IP",
+          "context": "Elite command, 29.6% K-rate"
         },
         {
-          "label": "Harrison curveball whiff rate",
-          "value": "50.9%",
-          "context": "Up from 36.6% in 2025 \u2014 legitimate leap"
+          "label": "Falter ERA / WHIP (season)",
+          "value": "9.82 / 2.86 across 7.1 IP",
+          "context": "Replacement-level, piggyback role"
         },
         {
-          "label": "Cardinals wRC+ vs LHP (May)",
-          "value": "86",
-          "context": "14% below league average \u2014 cold"
+          "label": "KC Royals record / R/G",
+          "value": "22-32 / 3.89 R/G",
+          "context": "Bottom-third offense, 8th-worst in AL"
         },
         {
-          "label": "Cardinals BA vs LHP (May)",
-          "value": ".236",
-          "context": "16th in MLB \u2014 soft contact profile"
+          "label": "NYY R/G (season)",
+          "value": "4.78",
+          "context": "Top-5 AL offense"
         },
         {
-          "label": "McGreevy FIP vs ERA",
-          "value": "4.03 vs 2.40",
-          "context": "ERA is fool's gold \u2014 BABIP-driven"
+          "label": "NYY vs KC streak",
+          "value": "12 straight wins",
+          "context": "Dominant series history"
         },
         {
-          "label": "Brewers bullpen ERA (team)",
-          "value": "3.47",
-          "context": "10th in MLB \u2014 solid late-inning support"
+          "label": "Kauffman Stadium HR PF",
+          "value": "0.92",
+          "context": "HR-suppressing, favors pitching"
         }
       ],
-      "the_market": "Total opened at 7.5 and has climbed to 8.0 with juice shifting back and forth. The Brewers ML has moved from -156 to -180+ as Harrison money pours in. The total movement to 8.0 reflects the market pricing in McGreevy's vulnerability, but Harrison's dominance should cap the Cardinals' contribution well below 4 runs.",
-      "weather_park": "American Family Field is a dome \u2014 no weather factor. Park HR factor 1.06 is slightly HR-boosting, but the Cardinals are last in MLB in HRs and Harrison suppresses hard contact.",
-      "case_against": "McGreevy's 1.57 ERA over his last four starts is real enough to keep the Brewers' run total modest, and if Harrison has any command issues early \u2014 he's never faced this Cardinals lineup \u2014 St. Louis could jump on him before he settles in. Jordan Walker, Ivan Herrera, and Masyn Winn have all handled lefties reasonably well this season. A 5-4 game is entirely possible if McGreevy is sharp and Harrison is off his curveball location.",
-      "what_were_betting_on": "Harrison going 6+ innings with 8+ strikeouts, Cardinals scoring 2 or fewer, McGreevy keeping the Brewers to 3-4 runs, and both fresh bullpens closing it out cleanly.",
-      "scott_bot_quip": "Harrison's never faced these Cardinals. They've never faced him. One of those facts matters more than the other.",
-      "ladder_note": "Best floor on the board \u2014 two quality starters, both bullpens fully rested, a Cardinals offense that's cold against lefties, and a total that's priced at -110. No weather variance, no park inflation. This is the play you sleep on.",
+      "the_market": "Yankees ML opened -200 and has held there across all three books. The run line at -118 on FanDuel is the best price available and represents genuine value given the pitching gap. No meaningful line movement \u2014 the market has been stable, suggesting sharp money is already priced in.",
+      "weather_park": "Kauffman Stadium is outdoor; no weather data in pack. Park HR factor 0.92 \u2014 slightly suppresses home runs, net neutral for this play.",
+      "case_against": "Schlittler took a comebacker off his left calf last start and was still limping the next morning per Aaron Boone. If he exits early due to discomfort, the Yankees bullpen faces a Royals lineup that can steal a game against a tired pen. The Yankees have also failed to cover the run line in each of their last seven games following a win, and Kansas City has covered the run line in five straight home games against New York \u2014 situational trends cut against the -1.5.",
+      "what_were_betting_on": "Schlittler goes 6+ innings, Yankees offense scores 4+ runs against Falter and the KC bullpen, final margin of 2+ runs.",
+      "scott_bot_quip": "A 1.50 ERA vs. a 9.82 ERA. The boys don't need a thesis \u2014 they need a receipt.",
+      "ladder_note": "",
       "date": "2026-05-26",
       "status": "PEND",
       "units_result": null,
       "clv_cents": null,
       "result_score": null,
       "graded_at": null,
-      "slate_assessment": "15-game MLB slate headlined by two elite SP matchups \u2014 Schlittler vs. a toothless KC rotation and Harrison vs. a Cardinals lineup cold against lefties. OKC-SA NBA playoff game and VGK-COL NHL game round out the board.",
-      "executive_summary": "The sharpest play on today's board is Kyle Harrison against a Cardinals lineup batting .236 against lefties in May with a 86 wRC+ vs southpaws \u2014 the Brewers Under 8.0 is the cleanest total on the slate. Cam Schlittler's historic 1.50 ERA against a Bailey Falter-led KC rotation makes the Yankees ML the most lopsided side play, but the juice (-200) keeps it off the straight-bet list. The ladder rides with the Brewers Under 8.0 at -110 BetMGM \u2014 two quality starters, both bullpens fresh, and a Cardinals offense that just went 1-for-2 hits in Monday's opener. Braxton Ashcraft's 26.4% K-rate and 2.89 ERA at PNC Park against a Cubs lineup facing a pitcher-friendly park rounds out the top tier.",
-      "slate_analysis": "Fifteen MLB games tonight plus an NBA playoff game (OKC-SA) and an NHL playoff game (VGK-COL). The pricing climate is mostly tight \u2014 several games sitting near pick'em on the ML \u2014 which means the edge has to come from pitching matchup asymmetry, not market mispricing alone. The NBA game has a data_confidence of 0.3 and the total moved from 216.5 to 217.5, but without team NET/Off/Def ratings in the pack, the prop slate is thin and the side/total is too uncertain to build around. The NHL game is a near-coin-flip ML with no SOG prop data that clears the bar.\n\nTop candidates that earned a hard look: (1) MIL Under 8.0 \u2014 Kyle Harrison (1.77 ERA, 2.48 FIP, 32.2% K-rate, 9 starts) vs. Cardinals lineup batting .236/.307 against LHP in May, wRC+ 86 vs. southpaws. McGreevy's 4.03 FIP vs. a Brewers offense that manufactures runs rather than hits. Both bullpens fresh after light Monday usage. (2) NYY ML vs. KC \u2014 Schlittler (1.50 ERA, 0.86 WHIP, 75:13 K:BB in 66 IP) against Bailey Falter (9.82 ERA, 2.86 WHIP, 7.1 IP). The most lopsided pitching matchup on the board. (3) PIT Under 8.0 / Ashcraft K prop \u2014 Braxton Ashcraft (2.89 ERA, 26.4% K-rate, 65:16 K:BB in 62.1 IP) at PNC Park (PF 0.91 HR, 0.95 runs) vs. Jordan Wicks (no full stats in pack). (4) CIN ML / Chase Burns \u2014 Burns (1.83 ERA, 0.95 WHIP, 28.2% K-rate) at Citi Field (HR-suppressing) vs. an unconfirmed Mets SP. (5) Cam Schlittler Ks Over 5.5 \u2014 29.6% K-rate, 75 Ks in 66 IP, KC lineup is bottom-tier. (6) Braxton Ashcraft Ks Over 5.5 \u2014 26.4% K-rate, 9.11 K/9, curveball whiff rate jumped to 50.9%, facing Cubs at PNC.\n\nWhat got cut and why: NYY ML at -200 exceeds the -150 straight-bet juice cap \u2014 hard rule, no exceptions. CIN ML at -126 is borderline but the Mets SP is listed as 'D. Peterson' in the FanDuel link with no stats in the pack \u2014 data_confidence 0.4 and no pitcher intel means we can't build a thesis. The OKC-SA NBA game has data_confidence 0.3 and no team NET/Off/Def ratings \u2014 the prop slate has lines but no opposing defensive rank context to anchor NBA props. VGK-COL NHL: near-coin-flip ML, no SOG prop data with sufficient context. ATH-SEA: both SPs have HR/9 above 1.0 and the total is 9.5 \u2014 the over is tempting but Severino's 11.7% BB-rate and 1.18 HR/9 make the under risky too; no clean edge. LAD-COL: Lauer (6.69 ERA, 2.74 HR/9) and Freeland (7.04 ERA, 2.13 HR/9) are both disasters but the Dodgers ML is -235, exceeding juice cap.\n\nFinal six: (1) MIL Under 8.0 \u2014 ladder pick, highest floor, two quality arms, fresh pens, cold Cardinals offense vs. LHP. (2) Braxton Ashcraft Ks Over 5.5 \u2014 elite K-rate, pitcher-friendly park, Cubs lineup facing a pitcher they haven't seen. (3) Cam Schlittler Ks Over 5.5 \u2014 historic K-rate, KC lineup is bottom-tier, 29.6% K-rate season-long. (4) NYY -1.5 run line at -118 FD \u2014 Schlittler vs. Falter is so lopsided the run line is the right vehicle at -118 instead of -200 ML. (5) Chase Burns Under 7.5 total (CIN-NYM) \u2014 Burns' 1.83 ERA and 0.95 WHIP at a HR-suppressing Citi Field with an unconfirmed Mets SP. (6) PIT Under 8.0 at DraftKings \u2014 Ashcraft at PNC Park, pitcher-friendly, Wicks has no full stats but the park and Ashcraft's form anchor the under.",
+      "slate_assessment": "15-game MLB slate plus OKC-SA NBA WCF Game 5 and COL-VGK NHL playoff game. Three elite pitching spots jump off the page \u2014 Schlittler vs. a 9.82-ERA Falter, Harrison vs. a Cardinals team in freefall, and Ashcraft at pitcher-friendly PNC. Prop slate is thin on data confidence but a few K and total-bases spots survive screening.",
+      "executive_summary": "The best pitching matchup on the board tonight isn't close: Cam Schlittler (1.50 ERA, 75:13 K:BB) faces Bailey Falter (9.82 ERA, 2.86 WHIP) in Kansas City, and the Yankees run line at -118 is the sharpest play on the slate. Kyle Harrison (1.77 ERA, 32.2% K-rate) gets a Cardinals team that has dropped four of five, and Braxton Ashcraft (2.89 ERA, 26.4% K%) works at pitcher-friendly PNC against a Cubs lineup without a confirmed starter's full data. The ladder rides with the Brewers -1.5 at +120 on FanDuel \u2014 Harrison's floor is as high as any arm on the board tonight.",
+      "slate_analysis": "Fifteen MLB games, one NBA Western Conference Finals game (OKC-SA), and one NHL playoff game (COL-VGK) make up tonight's board. Pricing climate is mostly efficient \u2014 the NBA and NHL games carry data confidence below 0.35, which is below our floor, so those are non-starters for straight bets. The MLB slate has several games with data confidence at 0.40-0.45, which is thin but workable when the pitching edge is overwhelming.\n\nTop candidates that earned a hard look: (1) NYY-KC \u2014 Schlittler (1.50 ERA, 0.86 WHIP, 75:13 K:BB) vs. Falter (9.82 ERA, 2.86 WHIP, 7.1 IP total). The run-line at -118 on FanDuel is the cleanest play on the board. (2) STL-MIL \u2014 Harrison (1.77 ERA, 32.2% K-rate, 59:14 K:BB) vs. McGreevy (2.40 ERA, 5.5% BB) with the Cardinals having dropped four of five. Brewers -1.5 at +120 FanDuel is near even money and fits the ladder. (3) CHC-PIT \u2014 Ashcraft (2.89 ERA, 26.4% K%, 65:16 K:BB) at pitcher-friendly PNC against Jordan Wicks, whose data is thin in the pack. Under 8.0 at DraftKings -108 is clean. (4) ATL-BOS \u2014 Strider (3.0 ERA but 14.6% BB, 1.71 HR/9) vs. Suarez (2.40 ERA, 0.56 HR/9) at Fenway with wind blowing out 9 mph boosting HR ~13%. The over is tempting but Strider's walk rate and HR/9 in a hitter-friendly park with wind out is a double-edged sword \u2014 Suarez suppresses it. Passed. (5) Braxton Ashcraft Ks Over 5.5 at BetMGM -120 \u2014 26.4% K-rate, 65:16 K:BB, Cubs lineup is not a high-K offense but Ashcraft's curveball whiff rate jumped to 50.9% in 2026. Passes data screening. (6) Kyle Harrison Ks Over 5.5 \u2014 not in the pack for this game, so no prop available. Looked at Schlittler K props but the line is 5.5 at -153 DK, too much juice. Settled on Ashcraft Ks Over 5.5 at -120 as the sixth play.\n\nWhat got cut: CLE-WSH (data confidence 0.45, only one book, total rose 7.5\u21928.0 which is a red flag for the under, Cantillo BB% 11.6% is borderline for under screening); TB-BAL (data confidence 0.40, Griffin Jax HR/9 1.29 disqualifies HR props, Baz is a below-average SP but the market has TB as a slight favorite \u2014 no clean edge); ARI-SF (Eduardo Rodriguez is excellent but Oracle Park under at -105 is barely above our juice threshold and data confidence is 0.40 \u2014 passed); LAD-COL (Lauer 2.74 HR/9 and Freeland 2.13 HR/9 screams over, but both SPs are so bad the market has already priced it at 9.0 \u2014 no edge on the over at -108); OKC-SA NBA (data confidence 0.30 \u2014 below floor, no play); COL-VGK NHL (data confidence 0.35 \u2014 below floor, no play).\n\nFinal six: Yankees -1.5 run line (conf 5, 2.0u), Brewers -1.5 run line as ladder (conf 4, 1.5u), Pirates Under 8.0 (conf 4, 1.5u), Ashcraft Ks Over 5.5 (conf 3, 1.0u), Dodgers -1.5 run line (conf 3, 1.0u), and Ranger Suarez Under 8.0 at BOS (conf 3, 1.0u). The ladder is Brewers -1.5 at +120 \u2014 Harrison's floor is elite, the Cardinals are in a skid, and the price lands squarely in the even-money band.",
       "slate_vibe": "NORMAL",
-      "published_at": "2026-05-26T14:05:27.384377-04:00"
+      "published_at": "2026-05-26T14:41:16.740802-04:00"
     }
   ],
   "today_bonus_picks": [],
   "all_picks": [
     {
-      "id": "20260526-MLB-CIN-NYM-TOTAL",
+      "id": "20260526-MLB-COL-LAD-RUNLINE",
       "sport": "MLB",
-      "game": "CIN @ NYM",
-      "first_pitch_iso": "2026-05-26T23:10:00-04:00",
-      "pick": "Under 7.5",
+      "game": "COL @ LAD",
+      "first_pitch_iso": "2026-05-27T02:10Z",
+      "pick": "Los Angeles Dodgers -1.5",
       "best_book": "FanDuel",
-      "best_odds": "-120",
+      "best_odds": "-110",
       "book_prices": {
-        "draftkings": "-120",
-        "fanduel": "-120",
-        "betmgm": "-120"
+        "draftkings": "-111",
+        "fanduel": "-110",
+        "betmgm": "-110"
       },
       "book_links": {
-        "fanduel": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.581165685&selectionId=7017906",
-        "draftkings": "https://sportsbook.draftkings.com/?outcomes=0OU84926647U750_3",
-        "betmgm": "https://sports.nj.betmgm.com/en/sports?options=19436914-1503840069-2150954675&type=Single"
+        "fanduel": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.581167988&selectionId=29171",
+        "draftkings": "https://sportsbook.draftkings.com/?outcomes=0HC84926655N150_1",
+        "betmgm": "https://sports.nj.betmgm.com/en/sports?options=19436922-1503840982-2150956804&type=Single"
+      },
+      "market": "RUNLINE",
+      "confidence": 3,
+      "units": 1.0,
+      "win_probability": 0.57,
+      "ladder_designation": false,
+      "data_confidence": 0.62,
+      "rules_passed": [
+        "max_juice",
+        "ladder_even_money",
+        "parlay_well_formed",
+        "confidence_units_match",
+        "data_confidence_floor",
+        "pick_type_allowed",
+        "mlb_hr_prop_check",
+        "mlb_pitcher_k_check",
+        "mlb_total_bases_check",
+        "mlb_hits_check",
+        "nba_player_prop_check",
+        "nhl_shots_check",
+        "mlb_run_line_check",
+        "mlb_under_bb_check",
+        "no_same_game_opposite"
+      ],
+      "locked": true,
+      "late_add": false,
+      "late_add_reason": "",
+      "bonus_pick": false,
+      "event_type": "",
+      "event_name": "",
+      "legs": [],
+      "headline": "Dodgers -1.5 at -110 against Kyle Freeland (7.04 ERA) \u2014 LAD offense (5.17 R/G) is the best in the NL and the price is near even money.",
+      "the_thesis": "The Dodgers are the best offensive team in the National League, scoring 5.17 runs per game \u2014 and tonight they face Kyle Freeland, who has a 7.04 ERA, 1.70 WHIP, and 2.13 HR/9 across 38.1 innings. Freeland has been one of the worst starting pitchers in baseball in 2026, and the Dodgers lineup \u2014 featuring Shohei Ohtani, Mookie Betts, Freddie Freeman, and Kyle Tucker \u2014 is built to punish exactly this type of arm. The run line at -110 on FanDuel is near even money for a team that should win by multiple runs.\n\nEric Lauer on the other side is also struggling (6.69 ERA, 2.74 HR/9), which creates some over risk. However, the Rockies offense (4.04 R/G) is below average, and Dodger Stadium has a neutral park factor (runs 0.97, HR 0.99). The key edge here is the offensive mismatch \u2014 the Dodgers' 5.17 R/G against a 7.04-ERA starter is a recipe for a multi-run win. The run line at -110 implies 52.4% probability \u2014 our fair line puts it at 57%, giving us roughly 4.5 cents of edge.\n\nThis is a confidence-3 play because Lauer's 2.74 HR/9 creates genuine variance risk \u2014 if the Rockies hit a couple of home runs early, the game could tighten. But the Dodgers' offensive floor against Freeland is high enough to make -1.5 at -110 a defensible play.",
+      "the_data": [
+        {
+          "label": "LAD R/G (season)",
+          "value": "5.17",
+          "context": "Best offense in NL"
+        },
+        {
+          "label": "Freeland ERA / WHIP / HR9",
+          "value": "7.04 / 1.70 / 2.13",
+          "context": "One of worst SPs in baseball in 2026"
+        },
+        {
+          "label": "Lauer ERA / HR9",
+          "value": "6.69 / 2.74",
+          "context": "Also struggling, creates over risk"
+        },
+        {
+          "label": "COL R/G (season)",
+          "value": "4.04",
+          "context": "Below-average offense"
+        },
+        {
+          "label": "Dodger Stadium runs PF / HR PF",
+          "value": "0.97 / 0.99",
+          "context": "Neutral park, no amplification"
+        },
+        {
+          "label": "LAD lineup depth",
+          "value": "Ohtani, Betts, Freeman, Tucker",
+          "context": "Four elite bats vs. 7.04-ERA arm"
+        }
+      ],
+      "the_market": "Dodgers ML opened -235 and has held there. The run line at -110 on FanDuel is the best price across all three books and represents genuine value \u2014 the market is pricing the Dodgers to win by 2+ at only 52.4% implied, which undervalues their offensive advantage against Freeland.",
+      "weather_park": "Dodger Stadium is outdoor. No weather data in pack. Park factors are neutral (runs 0.97, HR 0.99) \u2014 no meaningful amplification or suppression.",
+      "case_against": "Eric Lauer's 2.74 HR/9 is the primary risk \u2014 if the Rockies hit two or three home runs early, the game could tighten and the Dodgers might win by only one run. The Dodgers have also been known to play down to opponents occasionally. Both starters are struggling, which creates a higher-variance game script than ideal for a run-line play.",
+      "what_were_betting_on": "Dodgers offense generates 5+ runs against Freeland and the Rockies bullpen, Lauer limits Colorado to 3 or fewer, final margin of 2+.",
+      "scott_bot_quip": "Ohtani, Betts, Freeman, and Tucker vs. a 7.04-ERA starter. The Dodgers don't need a scouting report tonight.",
+      "ladder_note": "",
+      "date": "2026-05-26",
+      "status": "PEND",
+      "units_result": null,
+      "clv_cents": null,
+      "result_score": null,
+      "graded_at": null,
+      "slate_assessment": "15-game MLB slate plus OKC-SA NBA WCF Game 5 and COL-VGK NHL playoff game. Three elite pitching spots jump off the page \u2014 Schlittler vs. a 9.82-ERA Falter, Harrison vs. a Cardinals team in freefall, and Ashcraft at pitcher-friendly PNC. Prop slate is thin on data confidence but a few K and total-bases spots survive screening.",
+      "executive_summary": "The best pitching matchup on the board tonight isn't close: Cam Schlittler (1.50 ERA, 75:13 K:BB) faces Bailey Falter (9.82 ERA, 2.86 WHIP) in Kansas City, and the Yankees run line at -118 is the sharpest play on the slate. Kyle Harrison (1.77 ERA, 32.2% K-rate) gets a Cardinals team that has dropped four of five, and Braxton Ashcraft (2.89 ERA, 26.4% K%) works at pitcher-friendly PNC against a Cubs lineup without a confirmed starter's full data. The ladder rides with the Brewers -1.5 at +120 on FanDuel \u2014 Harrison's floor is as high as any arm on the board tonight.",
+      "slate_analysis": "Fifteen MLB games, one NBA Western Conference Finals game (OKC-SA), and one NHL playoff game (COL-VGK) make up tonight's board. Pricing climate is mostly efficient \u2014 the NBA and NHL games carry data confidence below 0.35, which is below our floor, so those are non-starters for straight bets. The MLB slate has several games with data confidence at 0.40-0.45, which is thin but workable when the pitching edge is overwhelming.\n\nTop candidates that earned a hard look: (1) NYY-KC \u2014 Schlittler (1.50 ERA, 0.86 WHIP, 75:13 K:BB) vs. Falter (9.82 ERA, 2.86 WHIP, 7.1 IP total). The run-line at -118 on FanDuel is the cleanest play on the board. (2) STL-MIL \u2014 Harrison (1.77 ERA, 32.2% K-rate, 59:14 K:BB) vs. McGreevy (2.40 ERA, 5.5% BB) with the Cardinals having dropped four of five. Brewers -1.5 at +120 FanDuel is near even money and fits the ladder. (3) CHC-PIT \u2014 Ashcraft (2.89 ERA, 26.4% K%, 65:16 K:BB) at pitcher-friendly PNC against Jordan Wicks, whose data is thin in the pack. Under 8.0 at DraftKings -108 is clean. (4) ATL-BOS \u2014 Strider (3.0 ERA but 14.6% BB, 1.71 HR/9) vs. Suarez (2.40 ERA, 0.56 HR/9) at Fenway with wind blowing out 9 mph boosting HR ~13%. The over is tempting but Strider's walk rate and HR/9 in a hitter-friendly park with wind out is a double-edged sword \u2014 Suarez suppresses it. Passed. (5) Braxton Ashcraft Ks Over 5.5 at BetMGM -120 \u2014 26.4% K-rate, 65:16 K:BB, Cubs lineup is not a high-K offense but Ashcraft's curveball whiff rate jumped to 50.9% in 2026. Passes data screening. (6) Kyle Harrison Ks Over 5.5 \u2014 not in the pack for this game, so no prop available. Looked at Schlittler K props but the line is 5.5 at -153 DK, too much juice. Settled on Ashcraft Ks Over 5.5 at -120 as the sixth play.\n\nWhat got cut: CLE-WSH (data confidence 0.45, only one book, total rose 7.5\u21928.0 which is a red flag for the under, Cantillo BB% 11.6% is borderline for under screening); TB-BAL (data confidence 0.40, Griffin Jax HR/9 1.29 disqualifies HR props, Baz is a below-average SP but the market has TB as a slight favorite \u2014 no clean edge); ARI-SF (Eduardo Rodriguez is excellent but Oracle Park under at -105 is barely above our juice threshold and data confidence is 0.40 \u2014 passed); LAD-COL (Lauer 2.74 HR/9 and Freeland 2.13 HR/9 screams over, but both SPs are so bad the market has already priced it at 9.0 \u2014 no edge on the over at -108); OKC-SA NBA (data confidence 0.30 \u2014 below floor, no play); COL-VGK NHL (data confidence 0.35 \u2014 below floor, no play).\n\nFinal six: Yankees -1.5 run line (conf 5, 2.0u), Brewers -1.5 run line as ladder (conf 4, 1.5u), Pirates Under 8.0 (conf 4, 1.5u), Ashcraft Ks Over 5.5 (conf 3, 1.0u), Dodgers -1.5 run line (conf 3, 1.0u), and Ranger Suarez Under 8.0 at BOS (conf 3, 1.0u). The ladder is Brewers -1.5 at +120 \u2014 Harrison's floor is elite, the Cardinals are in a skid, and the price lands squarely in the even-money band.",
+      "slate_vibe": "NORMAL",
+      "published_at": "2026-05-26T14:41:16.741095-04:00"
+    },
+    {
+      "id": "20260526-MLB-ATL-BOS-TOTAL",
+      "sport": "MLB",
+      "game": "ATL @ BOS",
+      "first_pitch_iso": "2026-05-26T22:45Z",
+      "pick": "Under 8.0",
+      "best_book": "FanDuel",
+      "best_odds": "-108",
+      "book_prices": {
+        "draftkings": "-111",
+        "fanduel": "-108",
+        "betmgm": "-110"
+      },
+      "book_links": {
+        "fanduel": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.581165205&selectionId=7017906",
+        "draftkings": "https://sportsbook.draftkings.com/?outcomes=0OU84926645U800_3",
+        "betmgm": "https://sports.nj.betmgm.com/en/sports?options=19436912-1503839863-2150954227&type=Single"
       },
       "market": "TOTAL",
       "confidence": 3,
       "units": 1.0,
-      "win_probability": 0.58,
+      "win_probability": 0.57,
       "ladder_designation": false,
       "data_confidence": 0.6,
       "rules_passed": [
@@ -460,45 +675,50 @@
       "event_type": "",
       "event_name": "",
       "legs": [],
-      "headline": "Chase Burns' 1.83 ERA at a HR-suppressing Citi Field \u2014 the Mets SP is unconfirmed, but Burns alone anchors the under.",
-      "the_thesis": "Chase Burns is one of the best pitchers in baseball right now. His 1.83 ERA, 0.95 WHIP, and 28.2% K-rate through 59 innings are elite across the board. He's coming off a stretch where he's allowed 1.83 ERA in his last three starts (19.67 IP), and he's facing a Mets offense that scores just 3.85 runs per game \u2014 22nd in MLB. Citi Field has a HR park factor of 0.91 and a runs factor of 0.97, making it one of the more pitcher-friendly venues in the NL.\n\nThe Mets SP is listed as 'D. Peterson' in the FanDuel event link but no stats are in the pack. That's the primary uncertainty here \u2014 if Peterson is a soft-tossing lefty, the Reds offense (4.45 R/G) could generate runs. However, Burns' dominance is so pronounced that even if the Mets score 3-4 runs, the Reds would need to score 4+ against Burns to push the over, which is a tall order given his current form and the park.\n\nThe under at -120 is uniform across all three books, which suggests the market has already priced in Burns' quality. We're getting a fair price on a play anchored by one of the best pitchers in the NL at a pitcher-friendly park.",
+      "headline": "Ranger Suarez (2.40 ERA, 0.56 HR/9) anchors the under despite wind blowing out at Fenway \u2014 the ace suppresses what the park amplifies.",
+      "the_thesis": "Ranger Suarez is one of the best pitchers in the American League this season. His 2.40 ERA, 1.01 WHIP, and 0.56 HR/9 represent elite run prevention \u2014 the HR/9 is particularly important here because Fenway Park has wind blowing out to center field at 9 mph tonight, boosting HR probability by approximately 13%. Suarez's ability to suppress home runs even in favorable conditions for hitters is the key edge. His 7.4% BB rate is within our under-screening threshold.\n\nSpencer Strider (3.0 ERA) is the concern on the other side. His 14.6% BB rate is elevated and his 1.71 HR/9 is genuinely alarming in a hitter-friendly park with wind out. The Red Sox offense (3.73 R/G) is below average, but Strider's walk rate means he will put runners on base, and Fenway's dimensions could turn a walk into a multi-run inning. However, the market has already priced this in \u2014 the total sits at 8.0, not 9.0 or 9.5, suggesting the books are accounting for Suarez's dominance suppressing the Strider-driven over risk.\n\nThe under at -108 on FanDuel is the best price. The de-vigged implied probability is approximately 51.9% \u2014 our fair line puts it at 57%, giving us roughly 5 cents of edge. This is a confidence-3 play because Strider's walk rate and HR/9 create genuine variance risk, but Suarez's floor is high enough to anchor the under.",
       "the_data": [
         {
-          "label": "Chase Burns ERA / WHIP (2026)",
-          "value": "1.83 / 0.95",
-          "context": "Elite \u2014 top-5 NL starter by ERA"
+          "label": "Suarez ERA / WHIP / HR9",
+          "value": "2.40 / 1.01 / 0.56",
+          "context": "Elite HR suppression, top-10 AL starter"
         },
         {
-          "label": "Burns K-rate (2026)",
-          "value": "28.2%",
-          "context": "Above-average swing-and-miss profile"
+          "label": "Suarez BB% (season)",
+          "value": "7.4%",
+          "context": "Within under-screening threshold"
         },
         {
-          "label": "Burns HR/9 (2026)",
-          "value": "1.07",
-          "context": "Slightly elevated \u2014 Citi Field mitigates this"
+          "label": "Strider ERA / BB% / HR9",
+          "value": "3.0 / 14.6% / 1.71",
+          "context": "High walk rate and HR/9 are risk factors"
         },
         {
-          "label": "NYM runs per game (season)",
-          "value": "3.85",
-          "context": "22nd in MLB \u2014 soft offense"
+          "label": "Fenway Park runs PF / HR PF",
+          "value": "1.05 / 0.96",
+          "context": "Hitter-friendly runs, slight HR suppression"
         },
         {
-          "label": "Citi Field HR park factor",
-          "value": "0.91",
-          "context": "HR-suppressing \u2014 limits Burns' HR/9 risk"
+          "label": "Weather: wind out to CF",
+          "value": "9 mph, +13% HR impact",
+          "context": "Amplifies Strider's HR/9 risk"
         },
         {
-          "label": "CIN runs per game (season)",
-          "value": "4.45",
-          "context": "Average offense \u2014 not a run-scoring machine"
+          "label": "BOS R/G (season)",
+          "value": "3.73",
+          "context": "Below-average offense, helps under"
+        },
+        {
+          "label": "ATL R/G (season)",
+          "value": "5.22",
+          "context": "Strong offense, but faces Suarez"
         }
       ],
-      "the_market": "Total is 7.5 across all books at -120 under / -101 to +100 over. The market is nearly split, with the over available at even money at BetMGM. The uniform -120 under pricing suggests the books are confident in Burns' quality but haven't moved the line, which is fine \u2014 we're getting a fair price.",
-      "weather_park": "Citi Field is outdoor. No significant weather flags in the pack. HR park factor 0.91 and runs factor 0.97 \u2014 pitcher-friendly, which suppresses Burns' slightly elevated HR/9.",
-      "case_against": "Burns' HR/9 of 1.07 is the one blemish on his line \u2014 if the Mets SP is soft and the Reds score 3-4 runs, the Mets would only need 4+ to push the over. The Mets SP is unconfirmed in the pack, which is the biggest risk here. If it's a bullpen game or a soft arm, the Mets could score enough to push the total over 7.5.",
-      "what_were_betting_on": "Burns going 6+ innings allowing 2 or fewer runs, Mets SP keeping the Reds to 3 or fewer, and the combined total staying at 7 or under.",
-      "scott_bot_quip": "Burns has a 1.83 ERA. The park suppresses HRs. The Mets score 3.85 runs a game. The math is doing the work tonight.",
+      "the_market": "Total opened at 8.0 and has held across all three books. FanDuel offers the best under price at -108. No movement noted \u2014 the market is stable, suggesting the books are comfortable with this number.",
+      "weather_park": "Fenway Park, 80\u00b0F, wind 9 mph blowing out to center field \u2014 boosts HR probability ~13%. This amplifies Strider's 1.71 HR/9 risk but Suarez's 0.56 HR/9 largely neutralizes the park effect on his half of the game.",
+      "case_against": "Strider's 14.6% BB rate is the primary risk \u2014 walks plus wind-out at Fenway is a dangerous combination. If he issues 3-4 walks and one leaves the yard, the over hits quickly. The Braves offense (5.22 R/G) is one of the best in baseball and could punish Suarez if he has an off night. The wind-out signal is real and the pack flagged it explicitly.",
+      "what_were_betting_on": "Suarez goes 6+ innings allowing 2 or fewer runs, Strider limits walks and avoids the big inning, combined total stays under 8 runs.",
+      "scott_bot_quip": "Suarez's HR/9 is 0.56. The wind is blowing out. One ace cancels the other's risk. We'll take the quiet game.",
       "ladder_note": "",
       "date": "2026-05-26",
       "status": "PEND",
@@ -506,31 +726,31 @@
       "clv_cents": null,
       "result_score": null,
       "graded_at": null,
-      "slate_assessment": "15-game MLB slate headlined by two elite SP matchups \u2014 Schlittler vs. a toothless KC rotation and Harrison vs. a Cardinals lineup cold against lefties. OKC-SA NBA playoff game and VGK-COL NHL game round out the board.",
-      "executive_summary": "The sharpest play on today's board is Kyle Harrison against a Cardinals lineup batting .236 against lefties in May with a 86 wRC+ vs southpaws \u2014 the Brewers Under 8.0 is the cleanest total on the slate. Cam Schlittler's historic 1.50 ERA against a Bailey Falter-led KC rotation makes the Yankees ML the most lopsided side play, but the juice (-200) keeps it off the straight-bet list. The ladder rides with the Brewers Under 8.0 at -110 BetMGM \u2014 two quality starters, both bullpens fresh, and a Cardinals offense that just went 1-for-2 hits in Monday's opener. Braxton Ashcraft's 26.4% K-rate and 2.89 ERA at PNC Park against a Cubs lineup facing a pitcher-friendly park rounds out the top tier.",
-      "slate_analysis": "Fifteen MLB games tonight plus an NBA playoff game (OKC-SA) and an NHL playoff game (VGK-COL). The pricing climate is mostly tight \u2014 several games sitting near pick'em on the ML \u2014 which means the edge has to come from pitching matchup asymmetry, not market mispricing alone. The NBA game has a data_confidence of 0.3 and the total moved from 216.5 to 217.5, but without team NET/Off/Def ratings in the pack, the prop slate is thin and the side/total is too uncertain to build around. The NHL game is a near-coin-flip ML with no SOG prop data that clears the bar.\n\nTop candidates that earned a hard look: (1) MIL Under 8.0 \u2014 Kyle Harrison (1.77 ERA, 2.48 FIP, 32.2% K-rate, 9 starts) vs. Cardinals lineup batting .236/.307 against LHP in May, wRC+ 86 vs. southpaws. McGreevy's 4.03 FIP vs. a Brewers offense that manufactures runs rather than hits. Both bullpens fresh after light Monday usage. (2) NYY ML vs. KC \u2014 Schlittler (1.50 ERA, 0.86 WHIP, 75:13 K:BB in 66 IP) against Bailey Falter (9.82 ERA, 2.86 WHIP, 7.1 IP). The most lopsided pitching matchup on the board. (3) PIT Under 8.0 / Ashcraft K prop \u2014 Braxton Ashcraft (2.89 ERA, 26.4% K-rate, 65:16 K:BB in 62.1 IP) at PNC Park (PF 0.91 HR, 0.95 runs) vs. Jordan Wicks (no full stats in pack). (4) CIN ML / Chase Burns \u2014 Burns (1.83 ERA, 0.95 WHIP, 28.2% K-rate) at Citi Field (HR-suppressing) vs. an unconfirmed Mets SP. (5) Cam Schlittler Ks Over 5.5 \u2014 29.6% K-rate, 75 Ks in 66 IP, KC lineup is bottom-tier. (6) Braxton Ashcraft Ks Over 5.5 \u2014 26.4% K-rate, 9.11 K/9, curveball whiff rate jumped to 50.9%, facing Cubs at PNC.\n\nWhat got cut and why: NYY ML at -200 exceeds the -150 straight-bet juice cap \u2014 hard rule, no exceptions. CIN ML at -126 is borderline but the Mets SP is listed as 'D. Peterson' in the FanDuel link with no stats in the pack \u2014 data_confidence 0.4 and no pitcher intel means we can't build a thesis. The OKC-SA NBA game has data_confidence 0.3 and no team NET/Off/Def ratings \u2014 the prop slate has lines but no opposing defensive rank context to anchor NBA props. VGK-COL NHL: near-coin-flip ML, no SOG prop data with sufficient context. ATH-SEA: both SPs have HR/9 above 1.0 and the total is 9.5 \u2014 the over is tempting but Severino's 11.7% BB-rate and 1.18 HR/9 make the under risky too; no clean edge. LAD-COL: Lauer (6.69 ERA, 2.74 HR/9) and Freeland (7.04 ERA, 2.13 HR/9) are both disasters but the Dodgers ML is -235, exceeding juice cap.\n\nFinal six: (1) MIL Under 8.0 \u2014 ladder pick, highest floor, two quality arms, fresh pens, cold Cardinals offense vs. LHP. (2) Braxton Ashcraft Ks Over 5.5 \u2014 elite K-rate, pitcher-friendly park, Cubs lineup facing a pitcher they haven't seen. (3) Cam Schlittler Ks Over 5.5 \u2014 historic K-rate, KC lineup is bottom-tier, 29.6% K-rate season-long. (4) NYY -1.5 run line at -118 FD \u2014 Schlittler vs. Falter is so lopsided the run line is the right vehicle at -118 instead of -200 ML. (5) Chase Burns Under 7.5 total (CIN-NYM) \u2014 Burns' 1.83 ERA and 0.95 WHIP at a HR-suppressing Citi Field with an unconfirmed Mets SP. (6) PIT Under 8.0 at DraftKings \u2014 Ashcraft at PNC Park, pitcher-friendly, Wicks has no full stats but the park and Ashcraft's form anchor the under.",
+      "slate_assessment": "15-game MLB slate plus OKC-SA NBA WCF Game 5 and COL-VGK NHL playoff game. Three elite pitching spots jump off the page \u2014 Schlittler vs. a 9.82-ERA Falter, Harrison vs. a Cardinals team in freefall, and Ashcraft at pitcher-friendly PNC. Prop slate is thin on data confidence but a few K and total-bases spots survive screening.",
+      "executive_summary": "The best pitching matchup on the board tonight isn't close: Cam Schlittler (1.50 ERA, 75:13 K:BB) faces Bailey Falter (9.82 ERA, 2.86 WHIP) in Kansas City, and the Yankees run line at -118 is the sharpest play on the slate. Kyle Harrison (1.77 ERA, 32.2% K-rate) gets a Cardinals team that has dropped four of five, and Braxton Ashcraft (2.89 ERA, 26.4% K%) works at pitcher-friendly PNC against a Cubs lineup without a confirmed starter's full data. The ladder rides with the Brewers -1.5 at +120 on FanDuel \u2014 Harrison's floor is as high as any arm on the board tonight.",
+      "slate_analysis": "Fifteen MLB games, one NBA Western Conference Finals game (OKC-SA), and one NHL playoff game (COL-VGK) make up tonight's board. Pricing climate is mostly efficient \u2014 the NBA and NHL games carry data confidence below 0.35, which is below our floor, so those are non-starters for straight bets. The MLB slate has several games with data confidence at 0.40-0.45, which is thin but workable when the pitching edge is overwhelming.\n\nTop candidates that earned a hard look: (1) NYY-KC \u2014 Schlittler (1.50 ERA, 0.86 WHIP, 75:13 K:BB) vs. Falter (9.82 ERA, 2.86 WHIP, 7.1 IP total). The run-line at -118 on FanDuel is the cleanest play on the board. (2) STL-MIL \u2014 Harrison (1.77 ERA, 32.2% K-rate, 59:14 K:BB) vs. McGreevy (2.40 ERA, 5.5% BB) with the Cardinals having dropped four of five. Brewers -1.5 at +120 FanDuel is near even money and fits the ladder. (3) CHC-PIT \u2014 Ashcraft (2.89 ERA, 26.4% K%, 65:16 K:BB) at pitcher-friendly PNC against Jordan Wicks, whose data is thin in the pack. Under 8.0 at DraftKings -108 is clean. (4) ATL-BOS \u2014 Strider (3.0 ERA but 14.6% BB, 1.71 HR/9) vs. Suarez (2.40 ERA, 0.56 HR/9) at Fenway with wind blowing out 9 mph boosting HR ~13%. The over is tempting but Strider's walk rate and HR/9 in a hitter-friendly park with wind out is a double-edged sword \u2014 Suarez suppresses it. Passed. (5) Braxton Ashcraft Ks Over 5.5 at BetMGM -120 \u2014 26.4% K-rate, 65:16 K:BB, Cubs lineup is not a high-K offense but Ashcraft's curveball whiff rate jumped to 50.9% in 2026. Passes data screening. (6) Kyle Harrison Ks Over 5.5 \u2014 not in the pack for this game, so no prop available. Looked at Schlittler K props but the line is 5.5 at -153 DK, too much juice. Settled on Ashcraft Ks Over 5.5 at -120 as the sixth play.\n\nWhat got cut: CLE-WSH (data confidence 0.45, only one book, total rose 7.5\u21928.0 which is a red flag for the under, Cantillo BB% 11.6% is borderline for under screening); TB-BAL (data confidence 0.40, Griffin Jax HR/9 1.29 disqualifies HR props, Baz is a below-average SP but the market has TB as a slight favorite \u2014 no clean edge); ARI-SF (Eduardo Rodriguez is excellent but Oracle Park under at -105 is barely above our juice threshold and data confidence is 0.40 \u2014 passed); LAD-COL (Lauer 2.74 HR/9 and Freeland 2.13 HR/9 screams over, but both SPs are so bad the market has already priced it at 9.0 \u2014 no edge on the over at -108); OKC-SA NBA (data confidence 0.30 \u2014 below floor, no play); COL-VGK NHL (data confidence 0.35 \u2014 below floor, no play).\n\nFinal six: Yankees -1.5 run line (conf 5, 2.0u), Brewers -1.5 run line as ladder (conf 4, 1.5u), Pirates Under 8.0 (conf 4, 1.5u), Ashcraft Ks Over 5.5 (conf 3, 1.0u), Dodgers -1.5 run line (conf 3, 1.0u), and Ranger Suarez Under 8.0 at BOS (conf 3, 1.0u). The ladder is Brewers -1.5 at +120 \u2014 Harrison's floor is elite, the Cardinals are in a skid, and the price lands squarely in the even-money band.",
       "slate_vibe": "NORMAL",
-      "published_at": "2026-05-26T14:05:27.384805-04:00"
+      "published_at": "2026-05-26T14:41:16.741016-04:00"
     },
     {
-      "id": "20260526-MLB-NYY-KC-SPREAD",
+      "id": "20260526-MLB-CHC-PIT-TOTAL",
       "sport": "MLB",
-      "game": "NYY @ KC",
-      "first_pitch_iso": "2026-05-26T23:40:00-04:00",
-      "pick": "New York Yankees -1.5",
-      "best_book": "FanDuel",
-      "best_odds": "-118",
+      "game": "CHC @ PIT",
+      "first_pitch_iso": "2026-05-26T22:40Z",
+      "pick": "Under 8.0",
+      "best_book": "DraftKings",
+      "best_odds": "-108",
       "book_prices": {
-        "draftkings": "-125",
-        "fanduel": "-118",
-        "betmgm": "-125"
+        "draftkings": "-108",
+        "fanduel": "-124",
+        "betmgm": "-110"
       },
       "book_links": {
-        "fanduel": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.581166638&selectionId=29161",
-        "draftkings": "https://sportsbook.draftkings.com/?outcomes=0HC84926649N150_3",
-        "betmgm": "https://sports.nj.betmgm.com/en/sports?options=19436916-1503840277-2150955134&type=Single"
+        "fanduel": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.581165035&selectionId=7017906",
+        "draftkings": "https://sportsbook.draftkings.com/?outcomes=0OU84926644U800_3",
+        "betmgm": "https://sports.nj.betmgm.com/en/sports?options=19436911-1503839770-2150954023&type=Single"
       },
-      "market": "SPREAD",
+      "market": "TOTAL",
       "confidence": 4,
       "units": 1.5,
       "win_probability": 0.6,
@@ -560,45 +780,50 @@
       "event_type": "",
       "event_name": "",
       "legs": [],
-      "headline": "Schlittler vs. Falter is the most lopsided pitching matchup on the board \u2014 the run line at -118 is the right vehicle.",
-      "the_thesis": "Bailey Falter has a 9.82 ERA and 2.86 WHIP through 7.1 innings this season \u2014 those are historically bad numbers. He's averaging 2.37 IP per start in his last three outings, meaning the KC bullpen will be heavily taxed tonight. The Yankees are sending out Cam Schlittler, who has a 1.50 ERA and 0.86 WHIP through 66 innings. The pitching gap here is as wide as you'll find on any slate this season.\n\nThe Yankees ML is -200, which exceeds our straight-bet juice cap. The run line at -118 FanDuel is the correct vehicle \u2014 it requires the Yankees to win by 2+ runs, which is entirely reasonable given that Falter will likely exit by the third inning and hand the game to a KC bullpen that will be overworked. The Yankees offense scores 4.78 runs per game on the season, and they're facing a pitcher who has allowed runs at a historic rate.\n\nKauffman Stadium has a HR park factor of 0.92, which is slightly suppressive, but the Yankees don't need home runs to win this game \u2014 they just need to score against a pitcher who can't get anyone out. The run line at -118 gives us a clean, juice-efficient way to back the most obvious pitching mismatch on the board.",
+      "headline": "Ashcraft (2.89 ERA, 26.4% K%) at pitcher-friendly PNC against a Cubs lineup facing a lefty with thin data \u2014 under 8.0 at near-even money.",
+      "the_thesis": "Braxton Ashcraft has been one of the most quietly dominant starters in baseball in 2026. His 2.89 ERA, 1.03 WHIP, and 65:16 K:BB across 62.1 innings are backed by a curveball whiff rate that jumped from 36.6% to 50.9% this season \u2014 that is a legitimate arsenal upgrade, not a hot streak. He has pitched into the seventh inning in three of his four May starts and has allowed two earned runs or fewer in nine of eleven outings. His 6.5% BB rate is well within our under-screening threshold.\n\nThe Cubs send Jordan Wicks to the mound, whose data in the pack is thin (no season stats provided beyond the name), which is a flag \u2014 but the market has set this total at 8.0 on DraftKings, suggesting the books are already accounting for a solid Cubs arm. PNC Park is one of the most pitcher-friendly venues in baseball, with a runs park factor of 0.95 and an HR factor of 0.91. Both offenses are middle-of-the-pack (PIT 4.78 R/G, CHC 4.70 R/G), and neither lineup profiles as a high-variance scoring unit.\n\nThe under at -108 on DraftKings is the best price on the board for this total. The de-vigged implied probability for the under is approximately 51.9% \u2014 our fair line puts it at 60%, giving us roughly 8 cents of edge. The combination of Ashcraft's elite form, a pitcher-friendly park, and two average offenses makes this a clean under play.",
       "the_data": [
         {
-          "label": "Bailey Falter ERA / WHIP (2026)",
-          "value": "9.82 / 2.86",
-          "context": "Historically bad \u2014 7.1 IP in 3 starts"
+          "label": "Ashcraft ERA / WHIP / K:BB",
+          "value": "2.89 / 1.03 / 65:16 (62.1 IP)",
+          "context": "Top-15 NL starter by ERA"
         },
         {
-          "label": "Falter IP/start (L3)",
-          "value": "2.37 IP avg",
-          "context": "KC bullpen will carry the load tonight"
+          "label": "Ashcraft K% (season)",
+          "value": "26.4%",
+          "context": "Above-average strikeout rate"
         },
         {
-          "label": "Schlittler ERA / WHIP (2026)",
-          "value": "1.50 / 0.86",
-          "context": "MLB-leading \u2014 historic start to season"
+          "label": "Ashcraft curveball whiff rate",
+          "value": "50.9% (up from 36.6% in 2025)",
+          "context": "Legitimate arsenal upgrade"
         },
         {
-          "label": "NYY runs per game (season)",
-          "value": "4.78",
-          "context": "Top-10 offense \u2014 4th in AL"
+          "label": "Ashcraft BB% (season)",
+          "value": "6.5%",
+          "context": "Well within under-screening threshold"
         },
         {
-          "label": "KC runs per game (season)",
-          "value": "3.89",
-          "context": "Bottom-tier offense \u2014 25th in MLB"
+          "label": "PNC Park runs PF / HR PF",
+          "value": "0.95 / 0.91",
+          "context": "Pitcher-friendly, HR-suppressing"
         },
         {
-          "label": "Kauffman Stadium runs PF",
-          "value": "0.98",
-          "context": "Neutral \u2014 no significant park effect"
+          "label": "PIT R/G / CHC R/G",
+          "value": "4.78 / 4.70",
+          "context": "Both middle-of-pack offenses"
+        },
+        {
+          "label": "Ashcraft May ERA (4 starts)",
+          "value": "1.91",
+          "context": "Best month of his career"
         }
       ],
-      "the_market": "Yankees ML opened at -200 and has held there across all three books. The run line at -118 FanDuel is the best price available. The market is pricing the Yankees as a 2-to-1 favorite, which is appropriate given the pitching mismatch, but the run line offers better value than the ML at this juice level.",
-      "weather_park": "Kauffman Stadium is outdoor. No significant weather flags. Neutral park \u2014 no meaningful impact on run scoring.",
-      "case_against": "Schlittler took a calf shot in his last start and may be managing discomfort. If he exits early, the Yankees bullpen \u2014 which has had some volatility this season \u2014 would need to close out a game against a KC team that plays scrappy baseball at home. The Royals are 3.89 R/G but they play better at Kauffman. A short Schlittler start could make this a 1-run game.",
-      "what_were_betting_on": "Schlittler going 6+ healthy innings, Yankees scoring 4+ runs against Falter and the KC pen, and winning by 2 or more.",
-      "scott_bot_quip": "Bailey Falter has a 9.82 ERA. The run line is doing the boys a favor.",
+      "the_market": "Total is set at 8.0 on DraftKings and BetMGM, 8.5 on FanDuel. The DraftKings -108 is the best price for the under at 8.0. No significant line movement noted \u2014 market opened at this level and has held, suggesting no sharp steam on the over.",
+      "weather_park": "PNC Park is outdoor. No weather data in pack, but park factors (runs 0.95, HR 0.91) are meaningfully pitcher-friendly \u2014 net suppressive effect on scoring.",
+      "case_against": "Jordan Wicks' data is thin in the pack \u2014 if he is struggling this season (which we cannot confirm), the Cubs could score more than expected against a PIT offense that has been solid. Ashcraft did allow six runs in one start against the Cardinals earlier this season, showing he is not immune to bad outings. If either bullpen is taxed from recent games, the late innings could get messy.",
+      "what_were_betting_on": "Ashcraft goes 6+ innings allowing 2 or fewer runs, Wicks holds the Pirates to 3 or fewer, combined total stays under 8 runs.",
+      "scott_bot_quip": "Ashcraft's curveball whiff rate went from 36% to 51% this year. PNC Park eats home runs. The math is doing the work tonight.",
       "ladder_note": "",
       "date": "2026-05-26",
       "status": "PEND",
@@ -606,35 +831,35 @@
       "clv_cents": null,
       "result_score": null,
       "graded_at": null,
-      "slate_assessment": "15-game MLB slate headlined by two elite SP matchups \u2014 Schlittler vs. a toothless KC rotation and Harrison vs. a Cardinals lineup cold against lefties. OKC-SA NBA playoff game and VGK-COL NHL game round out the board.",
-      "executive_summary": "The sharpest play on today's board is Kyle Harrison against a Cardinals lineup batting .236 against lefties in May with a 86 wRC+ vs southpaws \u2014 the Brewers Under 8.0 is the cleanest total on the slate. Cam Schlittler's historic 1.50 ERA against a Bailey Falter-led KC rotation makes the Yankees ML the most lopsided side play, but the juice (-200) keeps it off the straight-bet list. The ladder rides with the Brewers Under 8.0 at -110 BetMGM \u2014 two quality starters, both bullpens fresh, and a Cardinals offense that just went 1-for-2 hits in Monday's opener. Braxton Ashcraft's 26.4% K-rate and 2.89 ERA at PNC Park against a Cubs lineup facing a pitcher-friendly park rounds out the top tier.",
-      "slate_analysis": "Fifteen MLB games tonight plus an NBA playoff game (OKC-SA) and an NHL playoff game (VGK-COL). The pricing climate is mostly tight \u2014 several games sitting near pick'em on the ML \u2014 which means the edge has to come from pitching matchup asymmetry, not market mispricing alone. The NBA game has a data_confidence of 0.3 and the total moved from 216.5 to 217.5, but without team NET/Off/Def ratings in the pack, the prop slate is thin and the side/total is too uncertain to build around. The NHL game is a near-coin-flip ML with no SOG prop data that clears the bar.\n\nTop candidates that earned a hard look: (1) MIL Under 8.0 \u2014 Kyle Harrison (1.77 ERA, 2.48 FIP, 32.2% K-rate, 9 starts) vs. Cardinals lineup batting .236/.307 against LHP in May, wRC+ 86 vs. southpaws. McGreevy's 4.03 FIP vs. a Brewers offense that manufactures runs rather than hits. Both bullpens fresh after light Monday usage. (2) NYY ML vs. KC \u2014 Schlittler (1.50 ERA, 0.86 WHIP, 75:13 K:BB in 66 IP) against Bailey Falter (9.82 ERA, 2.86 WHIP, 7.1 IP). The most lopsided pitching matchup on the board. (3) PIT Under 8.0 / Ashcraft K prop \u2014 Braxton Ashcraft (2.89 ERA, 26.4% K-rate, 65:16 K:BB in 62.1 IP) at PNC Park (PF 0.91 HR, 0.95 runs) vs. Jordan Wicks (no full stats in pack). (4) CIN ML / Chase Burns \u2014 Burns (1.83 ERA, 0.95 WHIP, 28.2% K-rate) at Citi Field (HR-suppressing) vs. an unconfirmed Mets SP. (5) Cam Schlittler Ks Over 5.5 \u2014 29.6% K-rate, 75 Ks in 66 IP, KC lineup is bottom-tier. (6) Braxton Ashcraft Ks Over 5.5 \u2014 26.4% K-rate, 9.11 K/9, curveball whiff rate jumped to 50.9%, facing Cubs at PNC.\n\nWhat got cut and why: NYY ML at -200 exceeds the -150 straight-bet juice cap \u2014 hard rule, no exceptions. CIN ML at -126 is borderline but the Mets SP is listed as 'D. Peterson' in the FanDuel link with no stats in the pack \u2014 data_confidence 0.4 and no pitcher intel means we can't build a thesis. The OKC-SA NBA game has data_confidence 0.3 and no team NET/Off/Def ratings \u2014 the prop slate has lines but no opposing defensive rank context to anchor NBA props. VGK-COL NHL: near-coin-flip ML, no SOG prop data with sufficient context. ATH-SEA: both SPs have HR/9 above 1.0 and the total is 9.5 \u2014 the over is tempting but Severino's 11.7% BB-rate and 1.18 HR/9 make the under risky too; no clean edge. LAD-COL: Lauer (6.69 ERA, 2.74 HR/9) and Freeland (7.04 ERA, 2.13 HR/9) are both disasters but the Dodgers ML is -235, exceeding juice cap.\n\nFinal six: (1) MIL Under 8.0 \u2014 ladder pick, highest floor, two quality arms, fresh pens, cold Cardinals offense vs. LHP. (2) Braxton Ashcraft Ks Over 5.5 \u2014 elite K-rate, pitcher-friendly park, Cubs lineup facing a pitcher they haven't seen. (3) Cam Schlittler Ks Over 5.5 \u2014 historic K-rate, KC lineup is bottom-tier, 29.6% K-rate season-long. (4) NYY -1.5 run line at -118 FD \u2014 Schlittler vs. Falter is so lopsided the run line is the right vehicle at -118 instead of -200 ML. (5) Chase Burns Under 7.5 total (CIN-NYM) \u2014 Burns' 1.83 ERA and 0.95 WHIP at a HR-suppressing Citi Field with an unconfirmed Mets SP. (6) PIT Under 8.0 at DraftKings \u2014 Ashcraft at PNC Park, pitcher-friendly, Wicks has no full stats but the park and Ashcraft's form anchor the under.",
+      "slate_assessment": "15-game MLB slate plus OKC-SA NBA WCF Game 5 and COL-VGK NHL playoff game. Three elite pitching spots jump off the page \u2014 Schlittler vs. a 9.82-ERA Falter, Harrison vs. a Cardinals team in freefall, and Ashcraft at pitcher-friendly PNC. Prop slate is thin on data confidence but a few K and total-bases spots survive screening.",
+      "executive_summary": "The best pitching matchup on the board tonight isn't close: Cam Schlittler (1.50 ERA, 75:13 K:BB) faces Bailey Falter (9.82 ERA, 2.86 WHIP) in Kansas City, and the Yankees run line at -118 is the sharpest play on the slate. Kyle Harrison (1.77 ERA, 32.2% K-rate) gets a Cardinals team that has dropped four of five, and Braxton Ashcraft (2.89 ERA, 26.4% K%) works at pitcher-friendly PNC against a Cubs lineup without a confirmed starter's full data. The ladder rides with the Brewers -1.5 at +120 on FanDuel \u2014 Harrison's floor is as high as any arm on the board tonight.",
+      "slate_analysis": "Fifteen MLB games, one NBA Western Conference Finals game (OKC-SA), and one NHL playoff game (COL-VGK) make up tonight's board. Pricing climate is mostly efficient \u2014 the NBA and NHL games carry data confidence below 0.35, which is below our floor, so those are non-starters for straight bets. The MLB slate has several games with data confidence at 0.40-0.45, which is thin but workable when the pitching edge is overwhelming.\n\nTop candidates that earned a hard look: (1) NYY-KC \u2014 Schlittler (1.50 ERA, 0.86 WHIP, 75:13 K:BB) vs. Falter (9.82 ERA, 2.86 WHIP, 7.1 IP total). The run-line at -118 on FanDuel is the cleanest play on the board. (2) STL-MIL \u2014 Harrison (1.77 ERA, 32.2% K-rate, 59:14 K:BB) vs. McGreevy (2.40 ERA, 5.5% BB) with the Cardinals having dropped four of five. Brewers -1.5 at +120 FanDuel is near even money and fits the ladder. (3) CHC-PIT \u2014 Ashcraft (2.89 ERA, 26.4% K%, 65:16 K:BB) at pitcher-friendly PNC against Jordan Wicks, whose data is thin in the pack. Under 8.0 at DraftKings -108 is clean. (4) ATL-BOS \u2014 Strider (3.0 ERA but 14.6% BB, 1.71 HR/9) vs. Suarez (2.40 ERA, 0.56 HR/9) at Fenway with wind blowing out 9 mph boosting HR ~13%. The over is tempting but Strider's walk rate and HR/9 in a hitter-friendly park with wind out is a double-edged sword \u2014 Suarez suppresses it. Passed. (5) Braxton Ashcraft Ks Over 5.5 at BetMGM -120 \u2014 26.4% K-rate, 65:16 K:BB, Cubs lineup is not a high-K offense but Ashcraft's curveball whiff rate jumped to 50.9% in 2026. Passes data screening. (6) Kyle Harrison Ks Over 5.5 \u2014 not in the pack for this game, so no prop available. Looked at Schlittler K props but the line is 5.5 at -153 DK, too much juice. Settled on Ashcraft Ks Over 5.5 at -120 as the sixth play.\n\nWhat got cut: CLE-WSH (data confidence 0.45, only one book, total rose 7.5\u21928.0 which is a red flag for the under, Cantillo BB% 11.6% is borderline for under screening); TB-BAL (data confidence 0.40, Griffin Jax HR/9 1.29 disqualifies HR props, Baz is a below-average SP but the market has TB as a slight favorite \u2014 no clean edge); ARI-SF (Eduardo Rodriguez is excellent but Oracle Park under at -105 is barely above our juice threshold and data confidence is 0.40 \u2014 passed); LAD-COL (Lauer 2.74 HR/9 and Freeland 2.13 HR/9 screams over, but both SPs are so bad the market has already priced it at 9.0 \u2014 no edge on the over at -108); OKC-SA NBA (data confidence 0.30 \u2014 below floor, no play); COL-VGK NHL (data confidence 0.35 \u2014 below floor, no play).\n\nFinal six: Yankees -1.5 run line (conf 5, 2.0u), Brewers -1.5 run line as ladder (conf 4, 1.5u), Pirates Under 8.0 (conf 4, 1.5u), Ashcraft Ks Over 5.5 (conf 3, 1.0u), Dodgers -1.5 run line (conf 3, 1.0u), and Ranger Suarez Under 8.0 at BOS (conf 3, 1.0u). The ladder is Brewers -1.5 at +120 \u2014 Harrison's floor is elite, the Cardinals are in a skid, and the price lands squarely in the even-money band.",
       "slate_vibe": "NORMAL",
-      "published_at": "2026-05-26T14:05:27.384668-04:00"
+      "published_at": "2026-05-26T14:41:16.740959-04:00"
     },
     {
-      "id": "20260526-MLB-STL-PIT-PROP-BRAXTONASHCRAFT",
+      "id": "20260526-MLB-STL-MIL-RUNLINE",
       "sport": "MLB",
-      "game": "CHC @ PIT",
-      "first_pitch_iso": "2026-05-26T22:40:00-04:00",
-      "pick": "Braxton Ashcraft Ks Over 5.5",
-      "best_book": "BetMGM",
-      "best_odds": "-120",
+      "game": "STL @ MIL",
+      "first_pitch_iso": "2026-05-26T23:40Z",
+      "pick": "Milwaukee Brewers -1.5",
+      "best_book": "FanDuel",
+      "best_odds": "+120",
       "book_prices": {
-        "draftkings": "N/A",
-        "fanduel": "+100",
-        "betmgm": "-120"
+        "draftkings": "+114",
+        "fanduel": "+120",
+        "betmgm": "+110"
       },
       "book_links": {
-        "fanduel": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.581177081&selectionId=85181440",
-        "draftkings": "https://sportsbook.draftkings.com/?outcomes=0QA337592342%232163389208_13L84240Q1-2091356037Q20",
-        "betmgm": "https://sports.nj.betmgm.com/en/sports?options=2:7789991-199926858-756339932&type=Single"
+        "fanduel": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.581165865&selectionId=29172",
+        "draftkings": "https://sportsbook.draftkings.com/?outcomes=0HC84926650N150_1",
+        "betmgm": "https://sports.nj.betmgm.com/en/sports?options=19436917-1503840408-2150955467&type=Single"
       },
-      "market": "PROP",
+      "market": "RUNLINE",
       "confidence": 4,
       "units": 1.5,
-      "win_probability": 0.62,
-      "ladder_designation": false,
+      "win_probability": 0.58,
+      "ladder_designation": true,
       "data_confidence": 0.68,
       "rules_passed": [
         "max_juice",
@@ -644,7 +869,7 @@
         "data_confidence_floor",
         "pick_type_allowed",
         "mlb_hr_prop_check",
-        "mlb_pitcher_k_check(soft)",
+        "mlb_pitcher_k_check",
         "mlb_total_bases_check",
         "mlb_hits_check",
         "nba_player_prop_check",
@@ -660,81 +885,86 @@
       "event_type": "",
       "event_name": "",
       "legs": [],
-      "headline": "Ashcraft's 26.4% K-rate and 50.9% curveball whiff rate at a pitcher-friendly PNC Park against a Cubs lineup seeing him for the first time.",
-      "the_thesis": "Braxton Ashcraft has quietly become one of the most compelling strikeout arms in the NL. Through 11 starts in 2026, he carries a 2.89 ERA, 1.03 WHIP, and a 65:16 K:BB ratio across 62.1 innings \u2014 that's a 9.11 K/9 rate. His curveball whiff rate has jumped from 36.6% in 2025 to 50.9% this season, and he added a splitter specifically to attack left-handed batters. He's pitched into the seventh inning in three of his four May starts, meaning he'll have the opportunity to accumulate strikeouts deep into the game.\n\nThe Cubs lineup tonight is a favorable matchup. Jordan Wicks is the away starter with no full stats in the pack, but the key is what Ashcraft does \u2014 and he's coming off a 9-K performance against the Cardinals last Thursday. PNC Park is one of the most pitcher-friendly venues in baseball (HR PF 0.91, runs PF 0.95), which suppresses the type of hard contact that cuts into strikeout opportunities. The Cubs have a lineup that strikes out at a reasonable clip, and Ashcraft's three-pitch mix (sinker, slider, curveball) gives him legitimate weapons against both sides of the plate.\n\nThe Over 5.5 at -120 BetMGM is the best available price. FanDuel has it at +100 for the same line \u2014 if you can get +100, take it there. The market is pricing this conservatively given Ashcraft's recent form.",
+      "headline": "Kyle Harrison (1.77 ERA, 32.2% K-rate) vs. a Cardinals team that has dropped four of five \u2014 and you're getting plus money on the run line.",
+      "the_thesis": "Kyle Harrison is the only pitcher in the National League with an ERA below 1.85 and a strikeout rate above 30%. His 1.77 ERA, 59:14 K:BB, and 32.2% strikeout rate across 45.2 innings are not a fluke \u2014 his xERA per Statcast sits at 3.43, which is still comfortably a career best and validates the performance. The Brewers' pitching lab has turned Harrison into a weapon: he scrapped his cutter, sharpened his slurve (batters are 2-for-22 against it with 7 Ks), and improved his changeup's vertical drop by 3.4 inches. In his last two starts against the Cubs and Padres, he allowed zero runs across 12 innings with 18 strikeouts and one walk.\n\nThe Cardinals enter this game having dropped four of five and facing Harrison for the first time in his career. Michael McGreevy (2.40 ERA, 5.5% BB) is a solid arm, but the Brewers offense (4.92 R/G, best in the NL Central) has the firepower to generate a multi-run cushion. Milwaukee has won six of Harrison's last six starts and is 13-4 in their last 17 games overall.\n\nThe run line at +120 on FanDuel is the ladder pick because it lands squarely in the even-money band and Harrison's floor is as high as any arm on the board. You're getting paid to take the team with the better pitcher, the better offense, and the better recent form. The implied probability at +120 is 45.5% \u2014 our fair line puts the Brewers winning by 2+ at roughly 53%, giving us nearly 8 cents of edge.",
       "the_data": [
         {
-          "label": "Ashcraft K-rate (2026)",
-          "value": "26.4%",
-          "context": "9.11 K/9 \u2014 legitimate strikeout arm"
+          "label": "Harrison ERA / xERA / WHIP",
+          "value": "1.77 / 3.43 / 1.07",
+          "context": "Only NL pitcher with ERA <1.85 and K% >30%"
         },
         {
-          "label": "Ashcraft K:BB (2026)",
-          "value": "65:16 in 62.1 IP",
-          "context": "Elite command-to-strikeout ratio"
+          "label": "Harrison K:BB (season)",
+          "value": "59:14 across 45.2 IP",
+          "context": "Elite command, 32.2% K-rate"
         },
         {
-          "label": "Ashcraft curveball whiff rate",
-          "value": "50.9%",
-          "context": "Up from 36.6% in 2025 \u2014 real improvement"
+          "label": "Harrison last 2 starts",
+          "value": "0 ER, 12 IP, 18 K, 1 BB",
+          "context": "Peak form entering tonight"
         },
         {
-          "label": "Ashcraft ERA / WHIP (2026)",
-          "value": "2.89 / 1.03",
-          "context": "Stable, above-average across 11 starts"
+          "label": "MIL R/G (season)",
+          "value": "4.92",
+          "context": "Best offense in NL Central"
         },
         {
-          "label": "PNC Park HR park factor",
-          "value": "0.91",
-          "context": "HR-suppressing \u2014 favors strikeout outcomes"
+          "label": "STL recent form",
+          "value": "Lost 4 of last 5",
+          "context": "Struggling offense, poor momentum"
         },
         {
-          "label": "Ashcraft IP/start (L3)",
-          "value": "20.7 IP in 3 starts",
-          "context": "6.9 IP/start \u2014 deep enough to pile Ks"
+          "label": "McGreevy ERA / BB%",
+          "value": "2.40 / 5.5%",
+          "context": "Solid but first career start vs. MIL"
+        },
+        {
+          "label": "American Family Field HR PF",
+          "value": "1.06",
+          "context": "Slight HR boost, indoor dome"
         }
       ],
-      "the_market": "The Over 5.5 is priced at -120 BetMGM and +100 FanDuel \u2014 a notable discrepancy. The market is treating this conservatively, likely anchoring on Ashcraft's modest reputation rather than his 2026 underlying numbers. Best price is FanDuel at +100 if available.",
-      "weather_park": "PNC Park is outdoor but no weather data flagged. Park HR factor 0.91 and runs factor 0.95 \u2014 one of the most pitcher-friendly venues in the NL.",
-      "case_against": "Ashcraft has a 6.5% BB-rate that can spike \u2014 if he walks batters early and gets into trouble, the Pirates may pull him before he reaches 6 Ks. The Cubs have a lineup that makes contact (Nico Hoerner, Ian Happ) and can grind at-bats. If Wicks is sharp and the game stays close, Ashcraft may be on a pitch count that limits his innings.",
-      "what_were_betting_on": "Ashcraft going 6+ innings, his curveball generating whiffs against the Cubs lineup, and at least 6 strikeouts on the night.",
-      "scott_bot_quip": "The Cubs haven't seen this version of Ashcraft. Neither has the sportsbook, apparently.",
-      "ladder_note": "",
+      "the_market": "Brewers ML opened -180 and has held there. The run line at +120 on FanDuel is the best price across the three books and represents genuine value \u2014 the market is pricing the Brewers to win by 2+ at only 45.5% implied, which undervalues Harrison's floor significantly.",
+      "weather_park": "American Family Field is a domed stadium \u2014 no weather impact.",
+      "case_against": "McGreevy (2.40 ERA) is a legitimate arm who could keep this game close into the sixth or seventh inning. If the Cardinals steal early runs and Harrison has an uncharacteristic off night, the Brewers could win by one and the run line loses. Harrison has only 45.2 innings this season \u2014 a small sample relative to his xERA, and regression toward 3.43 is possible. The Cardinals also have never faced Harrison, which cuts both ways.",
+      "what_were_betting_on": "Harrison goes 6+ innings allowing 2 or fewer runs, Brewers offense generates 4+ runs against McGreevy, final margin of 2+.",
+      "scott_bot_quip": "The only NL pitcher with an ERA under 1.85 and a K-rate over 30% is pitching tonight. We're getting plus money. The boys know what to do.",
+      "ladder_note": "Harrison's floor is elite \u2014 1.77 ERA, 32.2% K-rate, zero runs allowed in his last two starts. The Cardinals are in a skid. The Brewers offense is the best in the division. At +120, this is the highest-floor play near even money on the board, which is exactly what the ladder needs.",
       "date": "2026-05-26",
       "status": "PEND",
       "units_result": null,
       "clv_cents": null,
       "result_score": null,
       "graded_at": null,
-      "slate_assessment": "15-game MLB slate headlined by two elite SP matchups \u2014 Schlittler vs. a toothless KC rotation and Harrison vs. a Cardinals lineup cold against lefties. OKC-SA NBA playoff game and VGK-COL NHL game round out the board.",
-      "executive_summary": "The sharpest play on today's board is Kyle Harrison against a Cardinals lineup batting .236 against lefties in May with a 86 wRC+ vs southpaws \u2014 the Brewers Under 8.0 is the cleanest total on the slate. Cam Schlittler's historic 1.50 ERA against a Bailey Falter-led KC rotation makes the Yankees ML the most lopsided side play, but the juice (-200) keeps it off the straight-bet list. The ladder rides with the Brewers Under 8.0 at -110 BetMGM \u2014 two quality starters, both bullpens fresh, and a Cardinals offense that just went 1-for-2 hits in Monday's opener. Braxton Ashcraft's 26.4% K-rate and 2.89 ERA at PNC Park against a Cubs lineup facing a pitcher-friendly park rounds out the top tier.",
-      "slate_analysis": "Fifteen MLB games tonight plus an NBA playoff game (OKC-SA) and an NHL playoff game (VGK-COL). The pricing climate is mostly tight \u2014 several games sitting near pick'em on the ML \u2014 which means the edge has to come from pitching matchup asymmetry, not market mispricing alone. The NBA game has a data_confidence of 0.3 and the total moved from 216.5 to 217.5, but without team NET/Off/Def ratings in the pack, the prop slate is thin and the side/total is too uncertain to build around. The NHL game is a near-coin-flip ML with no SOG prop data that clears the bar.\n\nTop candidates that earned a hard look: (1) MIL Under 8.0 \u2014 Kyle Harrison (1.77 ERA, 2.48 FIP, 32.2% K-rate, 9 starts) vs. Cardinals lineup batting .236/.307 against LHP in May, wRC+ 86 vs. southpaws. McGreevy's 4.03 FIP vs. a Brewers offense that manufactures runs rather than hits. Both bullpens fresh after light Monday usage. (2) NYY ML vs. KC \u2014 Schlittler (1.50 ERA, 0.86 WHIP, 75:13 K:BB in 66 IP) against Bailey Falter (9.82 ERA, 2.86 WHIP, 7.1 IP). The most lopsided pitching matchup on the board. (3) PIT Under 8.0 / Ashcraft K prop \u2014 Braxton Ashcraft (2.89 ERA, 26.4% K-rate, 65:16 K:BB in 62.1 IP) at PNC Park (PF 0.91 HR, 0.95 runs) vs. Jordan Wicks (no full stats in pack). (4) CIN ML / Chase Burns \u2014 Burns (1.83 ERA, 0.95 WHIP, 28.2% K-rate) at Citi Field (HR-suppressing) vs. an unconfirmed Mets SP. (5) Cam Schlittler Ks Over 5.5 \u2014 29.6% K-rate, 75 Ks in 66 IP, KC lineup is bottom-tier. (6) Braxton Ashcraft Ks Over 5.5 \u2014 26.4% K-rate, 9.11 K/9, curveball whiff rate jumped to 50.9%, facing Cubs at PNC.\n\nWhat got cut and why: NYY ML at -200 exceeds the -150 straight-bet juice cap \u2014 hard rule, no exceptions. CIN ML at -126 is borderline but the Mets SP is listed as 'D. Peterson' in the FanDuel link with no stats in the pack \u2014 data_confidence 0.4 and no pitcher intel means we can't build a thesis. The OKC-SA NBA game has data_confidence 0.3 and no team NET/Off/Def ratings \u2014 the prop slate has lines but no opposing defensive rank context to anchor NBA props. VGK-COL NHL: near-coin-flip ML, no SOG prop data with sufficient context. ATH-SEA: both SPs have HR/9 above 1.0 and the total is 9.5 \u2014 the over is tempting but Severino's 11.7% BB-rate and 1.18 HR/9 make the under risky too; no clean edge. LAD-COL: Lauer (6.69 ERA, 2.74 HR/9) and Freeland (7.04 ERA, 2.13 HR/9) are both disasters but the Dodgers ML is -235, exceeding juice cap.\n\nFinal six: (1) MIL Under 8.0 \u2014 ladder pick, highest floor, two quality arms, fresh pens, cold Cardinals offense vs. LHP. (2) Braxton Ashcraft Ks Over 5.5 \u2014 elite K-rate, pitcher-friendly park, Cubs lineup facing a pitcher they haven't seen. (3) Cam Schlittler Ks Over 5.5 \u2014 historic K-rate, KC lineup is bottom-tier, 29.6% K-rate season-long. (4) NYY -1.5 run line at -118 FD \u2014 Schlittler vs. Falter is so lopsided the run line is the right vehicle at -118 instead of -200 ML. (5) Chase Burns Under 7.5 total (CIN-NYM) \u2014 Burns' 1.83 ERA and 0.95 WHIP at a HR-suppressing Citi Field with an unconfirmed Mets SP. (6) PIT Under 8.0 at DraftKings \u2014 Ashcraft at PNC Park, pitcher-friendly, Wicks has no full stats but the park and Ashcraft's form anchor the under.",
+      "slate_assessment": "15-game MLB slate plus OKC-SA NBA WCF Game 5 and COL-VGK NHL playoff game. Three elite pitching spots jump off the page \u2014 Schlittler vs. a 9.82-ERA Falter, Harrison vs. a Cardinals team in freefall, and Ashcraft at pitcher-friendly PNC. Prop slate is thin on data confidence but a few K and total-bases spots survive screening.",
+      "executive_summary": "The best pitching matchup on the board tonight isn't close: Cam Schlittler (1.50 ERA, 75:13 K:BB) faces Bailey Falter (9.82 ERA, 2.86 WHIP) in Kansas City, and the Yankees run line at -118 is the sharpest play on the slate. Kyle Harrison (1.77 ERA, 32.2% K-rate) gets a Cardinals team that has dropped four of five, and Braxton Ashcraft (2.89 ERA, 26.4% K%) works at pitcher-friendly PNC against a Cubs lineup without a confirmed starter's full data. The ladder rides with the Brewers -1.5 at +120 on FanDuel \u2014 Harrison's floor is as high as any arm on the board tonight.",
+      "slate_analysis": "Fifteen MLB games, one NBA Western Conference Finals game (OKC-SA), and one NHL playoff game (COL-VGK) make up tonight's board. Pricing climate is mostly efficient \u2014 the NBA and NHL games carry data confidence below 0.35, which is below our floor, so those are non-starters for straight bets. The MLB slate has several games with data confidence at 0.40-0.45, which is thin but workable when the pitching edge is overwhelming.\n\nTop candidates that earned a hard look: (1) NYY-KC \u2014 Schlittler (1.50 ERA, 0.86 WHIP, 75:13 K:BB) vs. Falter (9.82 ERA, 2.86 WHIP, 7.1 IP total). The run-line at -118 on FanDuel is the cleanest play on the board. (2) STL-MIL \u2014 Harrison (1.77 ERA, 32.2% K-rate, 59:14 K:BB) vs. McGreevy (2.40 ERA, 5.5% BB) with the Cardinals having dropped four of five. Brewers -1.5 at +120 FanDuel is near even money and fits the ladder. (3) CHC-PIT \u2014 Ashcraft (2.89 ERA, 26.4% K%, 65:16 K:BB) at pitcher-friendly PNC against Jordan Wicks, whose data is thin in the pack. Under 8.0 at DraftKings -108 is clean. (4) ATL-BOS \u2014 Strider (3.0 ERA but 14.6% BB, 1.71 HR/9) vs. Suarez (2.40 ERA, 0.56 HR/9) at Fenway with wind blowing out 9 mph boosting HR ~13%. The over is tempting but Strider's walk rate and HR/9 in a hitter-friendly park with wind out is a double-edged sword \u2014 Suarez suppresses it. Passed. (5) Braxton Ashcraft Ks Over 5.5 at BetMGM -120 \u2014 26.4% K-rate, 65:16 K:BB, Cubs lineup is not a high-K offense but Ashcraft's curveball whiff rate jumped to 50.9% in 2026. Passes data screening. (6) Kyle Harrison Ks Over 5.5 \u2014 not in the pack for this game, so no prop available. Looked at Schlittler K props but the line is 5.5 at -153 DK, too much juice. Settled on Ashcraft Ks Over 5.5 at -120 as the sixth play.\n\nWhat got cut: CLE-WSH (data confidence 0.45, only one book, total rose 7.5\u21928.0 which is a red flag for the under, Cantillo BB% 11.6% is borderline for under screening); TB-BAL (data confidence 0.40, Griffin Jax HR/9 1.29 disqualifies HR props, Baz is a below-average SP but the market has TB as a slight favorite \u2014 no clean edge); ARI-SF (Eduardo Rodriguez is excellent but Oracle Park under at -105 is barely above our juice threshold and data confidence is 0.40 \u2014 passed); LAD-COL (Lauer 2.74 HR/9 and Freeland 2.13 HR/9 screams over, but both SPs are so bad the market has already priced it at 9.0 \u2014 no edge on the over at -108); OKC-SA NBA (data confidence 0.30 \u2014 below floor, no play); COL-VGK NHL (data confidence 0.35 \u2014 below floor, no play).\n\nFinal six: Yankees -1.5 run line (conf 5, 2.0u), Brewers -1.5 run line as ladder (conf 4, 1.5u), Pirates Under 8.0 (conf 4, 1.5u), Ashcraft Ks Over 5.5 (conf 3, 1.0u), Dodgers -1.5 run line (conf 3, 1.0u), and Ranger Suarez Under 8.0 at BOS (conf 3, 1.0u). The ladder is Brewers -1.5 at +120 \u2014 Harrison's floor is elite, the Cardinals are in a skid, and the price lands squarely in the even-money band.",
       "slate_vibe": "NORMAL",
-      "published_at": "2026-05-26T14:05:27.384541-04:00"
+      "published_at": "2026-05-26T14:41:16.740886-04:00"
     },
     {
-      "id": "20260526-MLB-STL-MIL-TOTAL",
+      "id": "20260526-MLB-NYY-KC-RUNLINE",
       "sport": "MLB",
-      "game": "STL @ MIL",
-      "first_pitch_iso": "2026-05-26T23:40:00-05:00",
-      "pick": "Under 8.0",
-      "best_book": "BetMGM",
-      "best_odds": "-110",
+      "game": "NYY @ KC",
+      "first_pitch_iso": "2026-05-26T23:40Z",
+      "pick": "New York Yankees -1.5",
+      "best_book": "FanDuel",
+      "best_odds": "-118",
       "book_prices": {
-        "draftkings": "-114",
-        "fanduel": "-114",
-        "betmgm": "-110"
+        "draftkings": "-125",
+        "fanduel": "-118",
+        "betmgm": "-125"
       },
       "book_links": {
-        "fanduel": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.581165864&selectionId=7017906",
-        "draftkings": "https://sportsbook.draftkings.com/?outcomes=0OU84926650U800_3",
-        "betmgm": "https://sports.nj.betmgm.com/en/sports?options=19436917-1503840420-2150955491&type=Single"
+        "fanduel": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.581166638&selectionId=29161",
+        "draftkings": "https://sportsbook.draftkings.com/?outcomes=0HC84926649N150_3",
+        "betmgm": "https://sports.nj.betmgm.com/en/sports?options=19436916-1503840277-2150955134&type=Single"
       },
-      "market": "TOTAL",
+      "market": "RUNLINE",
       "confidence": 5,
       "units": 2.0,
-      "win_probability": 0.63,
-      "ladder_designation": true,
+      "win_probability": 0.64,
+      "ladder_designation": false,
       "data_confidence": 0.72,
       "rules_passed": [
         "max_juice",
@@ -760,62 +990,62 @@
       "event_type": "",
       "event_name": "",
       "legs": [],
-      "headline": "Harrison vs. a Cardinals lineup that's ice-cold against lefties \u2014 both pens fresh, both starters dealing.",
-      "the_thesis": "Kyle Harrison is one of the best stories in baseball right now. The 24-year-old lefty carries a 1.77 ERA and 2.48 FIP through nine starts, with a 32.2% strikeout rate that ranks in the 95th percentile among MLB starters. His curveball whiff rate has jumped to 50.9% this season, and he's coming off a 7-inning, 11-K shutout of the Cubs. Tonight is his first career start against the Cardinals \u2014 no familiarity advantage for St. Louis, and the Cardinals have never seen his current arsenal configuration.\n\nThe Cardinals' offense is the perfect foil. They're batting .236 against left-handed pitching in May with a wRC+ of 86 vs. southpaws \u2014 that's 14% below league average. They just went 1-for-2 hits in Monday's series opener against Misiorowski. On the other side, Michael McGreevy's 2.40 ERA looks good on the surface but his 4.03 FIP tells the real story \u2014 he's been surviving on weak contact and good defense, not missing bats. The Brewers' offense is built on manufacturing runs, not the long ball (last in MLB in HRs), which keeps the over ceiling low even if McGreevy gets hit around.\n\nBoth bullpens are fully rested after light Monday usage \u2014 Aaron Ashby was the only Brewers reliever used, and Brycen Mautz was the only Cardinals arm deployed. That removes the late-inning blowup variable that typically inflates totals. The total opened at 7.5 and has moved to 8.0 with juice shifting, which reflects the market pricing in Harrison's dominance. We're getting the under at -110 BetMGM, which is the best price on the board.",
+      "headline": "Schlittler (1.50 ERA) vs. Falter (9.82 ERA) \u2014 the most lopsided pitching matchup on the board.",
+      "the_thesis": "Cam Schlittler is the best pitcher in baseball right now and tonight he faces the worst starting pitcher on the slate. Schlittler enters with a 1.50 ERA, 0.86 WHIP, and a 75:13 K:BB ratio across 66 innings \u2014 his xFIP and xERA both sit around 2.60, meaning the underlying metrics validate the surface numbers. He is not a mirage. His 29.6% strikeout rate and 5.1% walk rate create an elite run-prevention profile, and the Royals lineup (22-32, bottom-third offense) profiles as one of the worst matchups he could face. Kansas City's 22% projected strikeout rate against right-handed pitching and average chase rate of 30.2% means they won't punish him with discipline or loud contact.\n\nOn the other side, Bailey Falter has a 9.82 ERA and 2.86 WHIP across just 7.1 innings \u2014 he is a spot starter who will likely be pulled after two innings in a piggyback arrangement. The Yankees lineup features Aaron Judge (17 HR), Ben Rice (16 HR), and Cody Bellinger, all projected to see multiple at-bats against a pitcher who cannot throw strikes. The run differential in this matchup is extreme. The Yankees have won 12 straight against Kansas City, and tonight's pitching edge is the most pronounced of that entire streak.\n\nThe run line at -118 on FanDuel is the value play here. The ML is -200, which is too short for a straight bet under our rules. But -1.5 at -118 is a gift \u2014 the Yankees should win by multiple runs far more often than the implied 54% suggests when Schlittler is dealing and the opponent is running out a 9.82-ERA arm. This is the highest-conviction play on the board.",
       "the_data": [
         {
-          "label": "Kyle Harrison ERA / FIP (2026)",
-          "value": "1.77 / 2.48",
-          "context": "Elite \u2014 FIP confirms ERA is real"
+          "label": "Schlittler ERA / xERA / WHIP",
+          "value": "1.50 / 2.60 / 0.86",
+          "context": "Best pitcher in baseball, metrics validated"
         },
         {
-          "label": "Harrison K-rate (2026)",
-          "value": "32.2%",
-          "context": "95th percentile among MLB starters"
+          "label": "Schlittler K:BB (season)",
+          "value": "75:13 across 66 IP",
+          "context": "Elite command, 29.6% K-rate"
         },
         {
-          "label": "Harrison curveball whiff rate",
-          "value": "50.9%",
-          "context": "Up from 36.6% in 2025 \u2014 legitimate leap"
+          "label": "Falter ERA / WHIP (season)",
+          "value": "9.82 / 2.86 across 7.1 IP",
+          "context": "Replacement-level, piggyback role"
         },
         {
-          "label": "Cardinals wRC+ vs LHP (May)",
-          "value": "86",
-          "context": "14% below league average \u2014 cold"
+          "label": "KC Royals record / R/G",
+          "value": "22-32 / 3.89 R/G",
+          "context": "Bottom-third offense, 8th-worst in AL"
         },
         {
-          "label": "Cardinals BA vs LHP (May)",
-          "value": ".236",
-          "context": "16th in MLB \u2014 soft contact profile"
+          "label": "NYY R/G (season)",
+          "value": "4.78",
+          "context": "Top-5 AL offense"
         },
         {
-          "label": "McGreevy FIP vs ERA",
-          "value": "4.03 vs 2.40",
-          "context": "ERA is fool's gold \u2014 BABIP-driven"
+          "label": "NYY vs KC streak",
+          "value": "12 straight wins",
+          "context": "Dominant series history"
         },
         {
-          "label": "Brewers bullpen ERA (team)",
-          "value": "3.47",
-          "context": "10th in MLB \u2014 solid late-inning support"
+          "label": "Kauffman Stadium HR PF",
+          "value": "0.92",
+          "context": "HR-suppressing, favors pitching"
         }
       ],
-      "the_market": "Total opened at 7.5 and has climbed to 8.0 with juice shifting back and forth. The Brewers ML has moved from -156 to -180+ as Harrison money pours in. The total movement to 8.0 reflects the market pricing in McGreevy's vulnerability, but Harrison's dominance should cap the Cardinals' contribution well below 4 runs.",
-      "weather_park": "American Family Field is a dome \u2014 no weather factor. Park HR factor 1.06 is slightly HR-boosting, but the Cardinals are last in MLB in HRs and Harrison suppresses hard contact.",
-      "case_against": "McGreevy's 1.57 ERA over his last four starts is real enough to keep the Brewers' run total modest, and if Harrison has any command issues early \u2014 he's never faced this Cardinals lineup \u2014 St. Louis could jump on him before he settles in. Jordan Walker, Ivan Herrera, and Masyn Winn have all handled lefties reasonably well this season. A 5-4 game is entirely possible if McGreevy is sharp and Harrison is off his curveball location.",
-      "what_were_betting_on": "Harrison going 6+ innings with 8+ strikeouts, Cardinals scoring 2 or fewer, McGreevy keeping the Brewers to 3-4 runs, and both fresh bullpens closing it out cleanly.",
-      "scott_bot_quip": "Harrison's never faced these Cardinals. They've never faced him. One of those facts matters more than the other.",
-      "ladder_note": "Best floor on the board \u2014 two quality starters, both bullpens fully rested, a Cardinals offense that's cold against lefties, and a total that's priced at -110. No weather variance, no park inflation. This is the play you sleep on.",
+      "the_market": "Yankees ML opened -200 and has held there across all three books. The run line at -118 on FanDuel is the best price available and represents genuine value given the pitching gap. No meaningful line movement \u2014 the market has been stable, suggesting sharp money is already priced in.",
+      "weather_park": "Kauffman Stadium is outdoor; no weather data in pack. Park HR factor 0.92 \u2014 slightly suppresses home runs, net neutral for this play.",
+      "case_against": "Schlittler took a comebacker off his left calf last start and was still limping the next morning per Aaron Boone. If he exits early due to discomfort, the Yankees bullpen faces a Royals lineup that can steal a game against a tired pen. The Yankees have also failed to cover the run line in each of their last seven games following a win, and Kansas City has covered the run line in five straight home games against New York \u2014 situational trends cut against the -1.5.",
+      "what_were_betting_on": "Schlittler goes 6+ innings, Yankees offense scores 4+ runs against Falter and the KC bullpen, final margin of 2+ runs.",
+      "scott_bot_quip": "A 1.50 ERA vs. a 9.82 ERA. The boys don't need a thesis \u2014 they need a receipt.",
+      "ladder_note": "",
       "date": "2026-05-26",
       "status": "PEND",
       "units_result": null,
       "clv_cents": null,
       "result_score": null,
       "graded_at": null,
-      "slate_assessment": "15-game MLB slate headlined by two elite SP matchups \u2014 Schlittler vs. a toothless KC rotation and Harrison vs. a Cardinals lineup cold against lefties. OKC-SA NBA playoff game and VGK-COL NHL game round out the board.",
-      "executive_summary": "The sharpest play on today's board is Kyle Harrison against a Cardinals lineup batting .236 against lefties in May with a 86 wRC+ vs southpaws \u2014 the Brewers Under 8.0 is the cleanest total on the slate. Cam Schlittler's historic 1.50 ERA against a Bailey Falter-led KC rotation makes the Yankees ML the most lopsided side play, but the juice (-200) keeps it off the straight-bet list. The ladder rides with the Brewers Under 8.0 at -110 BetMGM \u2014 two quality starters, both bullpens fresh, and a Cardinals offense that just went 1-for-2 hits in Monday's opener. Braxton Ashcraft's 26.4% K-rate and 2.89 ERA at PNC Park against a Cubs lineup facing a pitcher-friendly park rounds out the top tier.",
-      "slate_analysis": "Fifteen MLB games tonight plus an NBA playoff game (OKC-SA) and an NHL playoff game (VGK-COL). The pricing climate is mostly tight \u2014 several games sitting near pick'em on the ML \u2014 which means the edge has to come from pitching matchup asymmetry, not market mispricing alone. The NBA game has a data_confidence of 0.3 and the total moved from 216.5 to 217.5, but without team NET/Off/Def ratings in the pack, the prop slate is thin and the side/total is too uncertain to build around. The NHL game is a near-coin-flip ML with no SOG prop data that clears the bar.\n\nTop candidates that earned a hard look: (1) MIL Under 8.0 \u2014 Kyle Harrison (1.77 ERA, 2.48 FIP, 32.2% K-rate, 9 starts) vs. Cardinals lineup batting .236/.307 against LHP in May, wRC+ 86 vs. southpaws. McGreevy's 4.03 FIP vs. a Brewers offense that manufactures runs rather than hits. Both bullpens fresh after light Monday usage. (2) NYY ML vs. KC \u2014 Schlittler (1.50 ERA, 0.86 WHIP, 75:13 K:BB in 66 IP) against Bailey Falter (9.82 ERA, 2.86 WHIP, 7.1 IP). The most lopsided pitching matchup on the board. (3) PIT Under 8.0 / Ashcraft K prop \u2014 Braxton Ashcraft (2.89 ERA, 26.4% K-rate, 65:16 K:BB in 62.1 IP) at PNC Park (PF 0.91 HR, 0.95 runs) vs. Jordan Wicks (no full stats in pack). (4) CIN ML / Chase Burns \u2014 Burns (1.83 ERA, 0.95 WHIP, 28.2% K-rate) at Citi Field (HR-suppressing) vs. an unconfirmed Mets SP. (5) Cam Schlittler Ks Over 5.5 \u2014 29.6% K-rate, 75 Ks in 66 IP, KC lineup is bottom-tier. (6) Braxton Ashcraft Ks Over 5.5 \u2014 26.4% K-rate, 9.11 K/9, curveball whiff rate jumped to 50.9%, facing Cubs at PNC.\n\nWhat got cut and why: NYY ML at -200 exceeds the -150 straight-bet juice cap \u2014 hard rule, no exceptions. CIN ML at -126 is borderline but the Mets SP is listed as 'D. Peterson' in the FanDuel link with no stats in the pack \u2014 data_confidence 0.4 and no pitcher intel means we can't build a thesis. The OKC-SA NBA game has data_confidence 0.3 and no team NET/Off/Def ratings \u2014 the prop slate has lines but no opposing defensive rank context to anchor NBA props. VGK-COL NHL: near-coin-flip ML, no SOG prop data with sufficient context. ATH-SEA: both SPs have HR/9 above 1.0 and the total is 9.5 \u2014 the over is tempting but Severino's 11.7% BB-rate and 1.18 HR/9 make the under risky too; no clean edge. LAD-COL: Lauer (6.69 ERA, 2.74 HR/9) and Freeland (7.04 ERA, 2.13 HR/9) are both disasters but the Dodgers ML is -235, exceeding juice cap.\n\nFinal six: (1) MIL Under 8.0 \u2014 ladder pick, highest floor, two quality arms, fresh pens, cold Cardinals offense vs. LHP. (2) Braxton Ashcraft Ks Over 5.5 \u2014 elite K-rate, pitcher-friendly park, Cubs lineup facing a pitcher they haven't seen. (3) Cam Schlittler Ks Over 5.5 \u2014 historic K-rate, KC lineup is bottom-tier, 29.6% K-rate season-long. (4) NYY -1.5 run line at -118 FD \u2014 Schlittler vs. Falter is so lopsided the run line is the right vehicle at -118 instead of -200 ML. (5) Chase Burns Under 7.5 total (CIN-NYM) \u2014 Burns' 1.83 ERA and 0.95 WHIP at a HR-suppressing Citi Field with an unconfirmed Mets SP. (6) PIT Under 8.0 at DraftKings \u2014 Ashcraft at PNC Park, pitcher-friendly, Wicks has no full stats but the park and Ashcraft's form anchor the under.",
+      "slate_assessment": "15-game MLB slate plus OKC-SA NBA WCF Game 5 and COL-VGK NHL playoff game. Three elite pitching spots jump off the page \u2014 Schlittler vs. a 9.82-ERA Falter, Harrison vs. a Cardinals team in freefall, and Ashcraft at pitcher-friendly PNC. Prop slate is thin on data confidence but a few K and total-bases spots survive screening.",
+      "executive_summary": "The best pitching matchup on the board tonight isn't close: Cam Schlittler (1.50 ERA, 75:13 K:BB) faces Bailey Falter (9.82 ERA, 2.86 WHIP) in Kansas City, and the Yankees run line at -118 is the sharpest play on the slate. Kyle Harrison (1.77 ERA, 32.2% K-rate) gets a Cardinals team that has dropped four of five, and Braxton Ashcraft (2.89 ERA, 26.4% K%) works at pitcher-friendly PNC against a Cubs lineup without a confirmed starter's full data. The ladder rides with the Brewers -1.5 at +120 on FanDuel \u2014 Harrison's floor is as high as any arm on the board tonight.",
+      "slate_analysis": "Fifteen MLB games, one NBA Western Conference Finals game (OKC-SA), and one NHL playoff game (COL-VGK) make up tonight's board. Pricing climate is mostly efficient \u2014 the NBA and NHL games carry data confidence below 0.35, which is below our floor, so those are non-starters for straight bets. The MLB slate has several games with data confidence at 0.40-0.45, which is thin but workable when the pitching edge is overwhelming.\n\nTop candidates that earned a hard look: (1) NYY-KC \u2014 Schlittler (1.50 ERA, 0.86 WHIP, 75:13 K:BB) vs. Falter (9.82 ERA, 2.86 WHIP, 7.1 IP total). The run-line at -118 on FanDuel is the cleanest play on the board. (2) STL-MIL \u2014 Harrison (1.77 ERA, 32.2% K-rate, 59:14 K:BB) vs. McGreevy (2.40 ERA, 5.5% BB) with the Cardinals having dropped four of five. Brewers -1.5 at +120 FanDuel is near even money and fits the ladder. (3) CHC-PIT \u2014 Ashcraft (2.89 ERA, 26.4% K%, 65:16 K:BB) at pitcher-friendly PNC against Jordan Wicks, whose data is thin in the pack. Under 8.0 at DraftKings -108 is clean. (4) ATL-BOS \u2014 Strider (3.0 ERA but 14.6% BB, 1.71 HR/9) vs. Suarez (2.40 ERA, 0.56 HR/9) at Fenway with wind blowing out 9 mph boosting HR ~13%. The over is tempting but Strider's walk rate and HR/9 in a hitter-friendly park with wind out is a double-edged sword \u2014 Suarez suppresses it. Passed. (5) Braxton Ashcraft Ks Over 5.5 at BetMGM -120 \u2014 26.4% K-rate, 65:16 K:BB, Cubs lineup is not a high-K offense but Ashcraft's curveball whiff rate jumped to 50.9% in 2026. Passes data screening. (6) Kyle Harrison Ks Over 5.5 \u2014 not in the pack for this game, so no prop available. Looked at Schlittler K props but the line is 5.5 at -153 DK, too much juice. Settled on Ashcraft Ks Over 5.5 at -120 as the sixth play.\n\nWhat got cut: CLE-WSH (data confidence 0.45, only one book, total rose 7.5\u21928.0 which is a red flag for the under, Cantillo BB% 11.6% is borderline for under screening); TB-BAL (data confidence 0.40, Griffin Jax HR/9 1.29 disqualifies HR props, Baz is a below-average SP but the market has TB as a slight favorite \u2014 no clean edge); ARI-SF (Eduardo Rodriguez is excellent but Oracle Park under at -105 is barely above our juice threshold and data confidence is 0.40 \u2014 passed); LAD-COL (Lauer 2.74 HR/9 and Freeland 2.13 HR/9 screams over, but both SPs are so bad the market has already priced it at 9.0 \u2014 no edge on the over at -108); OKC-SA NBA (data confidence 0.30 \u2014 below floor, no play); COL-VGK NHL (data confidence 0.35 \u2014 below floor, no play).\n\nFinal six: Yankees -1.5 run line (conf 5, 2.0u), Brewers -1.5 run line as ladder (conf 4, 1.5u), Pirates Under 8.0 (conf 4, 1.5u), Ashcraft Ks Over 5.5 (conf 3, 1.0u), Dodgers -1.5 run line (conf 3, 1.0u), and Ranger Suarez Under 8.0 at BOS (conf 3, 1.0u). The ladder is Brewers -1.5 at +120 \u2014 Harrison's floor is elite, the Cardinals are in a skid, and the price lands squarely in the even-money band.",
       "slate_vibe": "NORMAL",
-      "published_at": "2026-05-26T14:05:27.384377-04:00"
+      "published_at": "2026-05-26T14:41:16.740802-04:00"
     },
     {
       "id": "20260525-MLB-PHI-SD-TOTAL",
