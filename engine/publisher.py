@@ -284,8 +284,10 @@ def _attach_links_and_prices(pick: Pick, packs: list[IntelPack],
         for book_key, url in sport_fallbacks.items():
             pick.book_links.setdefault(book_key, url)
         return
-    # Backfill first pitch / tipoff / faceoff time if Claude left it blank
-    if not pick.first_pitch_iso and pack.first_pitch_iso:
+    # Always prefer the IntelPack's time over Claude's — Claude hallucinates
+    # first_pitch_iso (e.g., 11:10 PM ET for a 7:10 PM game). The schedule
+    # API is the source of truth.
+    if pack.first_pitch_iso:
         pick.first_pitch_iso = pack.first_pitch_iso
     # PROP picks read from pack.props, not pack.market — don't bail when
     # market is missing on a prop pick.
