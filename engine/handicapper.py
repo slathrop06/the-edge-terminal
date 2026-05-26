@@ -177,7 +177,7 @@ def run_handicapper(
     config = config or {}
     primary_model = config.get("primary_model", "claude-opus-4-7")
     fallback_model = config.get("fallback_model", "claude-sonnet-4-6")
-    temperature = float(config.get("temperature", 0.0))
+    temperature = float(config.get("temperature", 0.3))
     max_tokens = int(config.get("max_tokens", 8000))
     use_web_search = bool(config.get("use_web_search", True))
     daily_cap = float(config.get("daily_cap_usd", 8.0))
@@ -296,7 +296,7 @@ def run_late_add(
     tools = [{"type": "web_search_20250305", "name": "web_search", "max_uses": 4}]
 
     msg = _call_with_tools(client, model, system_prompt, user_msg, tools,
-                           max_tokens=3500, temperature=0.0)
+                           max_tokens=3500, temperature=0.3)
 
     if msg and msg.usage:
         cost = estimate_cost(model, msg.usage.input_tokens, msg.usage.output_tokens)
@@ -327,7 +327,7 @@ def run_golf_major(
     config = config or {}
     primary_model = config.get("primary_model", "claude-opus-4-7")
     fallback_model = config.get("fallback_model", "claude-sonnet-4-6")
-    temperature = float(config.get("temperature", 0.0))
+    temperature = float(config.get("temperature", 0.3))
     max_tokens = int(config.get("max_tokens", 6000))
     daily_cap = float(config.get("daily_cap_usd", 8.0))
     _check_cost_cap(daily_cap)
