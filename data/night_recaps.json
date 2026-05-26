@@ -61,5 +61,12 @@
     "units_pl": 0.3,
     "night_summary": "1-1 night, +0.30u \u2014 but both pick scores in the input were misattributed from the day before, so let's set the record straight. The CLE @ PHI ladder pick was logged as a loss with a 0-3 score that actually belonged to Zack Wheeler's Saturday shutout. The real May 24 finale ended Guardians 3, Phillies 1 \u2014 Cleveland won, the thesis held, and that's a ladder WIN. The MIN @ BOS under, meanwhile, was graded a win off Saturday's 4-2 final, but Sunday's actual game went 6-5 in a soggy Fenway affair where Brooks Lee's tiebreaking two-run single in the sixth did the damage \u2014 11 total runs, under loses. One win, one loss, same net. Ladder resets to 1 of 10 \u2014 climbing.",
     "generated_at": "2026-05-24T18:48:33.089254-04:00"
+  },
+  "2026-05-25": {
+    "date": "2026-05-25",
+    "record": "2-3-0",
+    "units_pl": -1.7608,
+    "night_summary": "2-3 night, -1.76u \u2014 a rough Memorial Day. The PHI @ SD under (3-0) and MIL -1.5 over STL (5-1) both cashed cleanly, but the losses were the story. The Rangers ML was pure, historically bad variance: Imai walked three of his first four batters and loaded the bases in the first, exactly the meltdown we modeled \u2014 then escaped on a double play, retired 16 straight, and combined with Okert and debutant Alimber Santa on the first no-hitter in MLB since 2024, a 9-0 Houston win. The Cubs ladder pick was similarly snakebitten \u2014 Ben Brown was excellent through six, Michael Busch tied it 1-1 in the 5th, and the game turned on a single Trent Thornton cutter that Henry Davis \u2014 hitting .105 in May \u2014 sent over the right-field fence in the 7th for a 2-1 final. The Toronto run-line was a model miss: Yesavage got tagged for a career-high five runs, Vladdy sat with an elbow issue, and Junk dealt. We got that one wrong. Ladder resets at zero \u2014 back to the bottom, climbing again.",
+    "generated_at": "2026-05-26T02:54:47.432595-04:00"
   }
 }

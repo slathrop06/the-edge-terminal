@@ -1,5 +1,44 @@
 [
   {
+    "id": "20260525-MLB-CHC-PIT-ML",
+    "date": "2026-05-25",
+    "pick": "Chicago Cubs ML",
+    "game": "CHC @ PIT",
+    "odds": "-122",
+    "result_score": "CHC 1 \u00b7 PIT 2",
+    "classification": "VARIANCE",
+    "post_mortem": "Ben Brown delivered exactly the gem the thesis demanded \u2014 he was dominant through his outing, with Brandon Lowe's RBI double in the 3rd being the only real damage Brown allowed. The Cubs tied it 1-1 on a Michael Busch solo HR in the 5th, and the game was still very much alive. The loss turned on a single at-bat in the 7th: reliever Trent Thornton surrendered a solo home run to light-hitting catcher Henry Davis, a low-leverage, low-probability outcome that handed Pittsburgh a 2-1 lead the Cubs never recovered from. The Cubs offense went 6-for-the-game with just one extra-base hit and stranded five runners in the first three innings alone \u2014 but the decisive run was a bullpen blowup against a bottom-of-the-order bat, not a starter failure or a lineup collapse.",
+    "candidate_rule": null,
+    "sample_size_warning": "N=1, insufficient to establish rule. The thesis (starter edge + lineup depth) was sound and nearly correct \u2014 this is a one-game bullpen variance event, not a signal.",
+    "analyzed_at": "2026-05-26T02:54:33.397427-04:00"
+  },
+  {
+    "id": "20260525-MLB-MIA-TOR-RL",
+    "date": "2026-05-25",
+    "pick": "Toronto Blue Jays -1.5",
+    "game": "MIA @ TOR",
+    "odds": "+135",
+    "result_score": "MIA 8 \u00b7 TOR 2",
+    "classification": "MODEL",
+    "post_mortem": "The entire thesis rested on Yesavage being Yesavage \u2014 but this was the start where the small sample finally regressed. He allowed a career-high five runs on five hits across 6.2 innings, surrendering more earned runs in one outing than he had in his previous five starts combined. Meanwhile, Junk \u2014 the supposed pi\u00f1ata \u2014 held Toronto to one run on eight singles across five innings, walking nobody and winning for the first time since April 28. The model correctly identified the pitching gap but built a run-line bet on a 25-inning ERA that was always one bad start away from evaporating; the 'case against' section even flagged this exact scenario and was overruled. Compounding matters, Vladimir Guerrero Jr. sat out with an elbow injury, quietly removing Toronto's most dangerous bat from the lineup the model priced in.",
+    "candidate_rule": "Do not back a run-line favorite when the anchor starter has fewer than 40 IP in the current season AND the implied win margin requires both the starter to hold AND the opposing back-end arm to implode \u2014 two independent events that must co-occur; N=1, insufficient to establish rule.",
+    "sample_size_warning": "N=1, insufficient to establish rule \u2014 but the failure mode (tiny-sample ERA regression + key lineup scratch) is a known structural risk that the pick's own 'case against' section identified and dismissed.",
+    "analyzed_at": "2026-05-26T02:54:14.036136-04:00"
+  },
+  {
+    "id": "20260525-MLB-HOU-TEX-ML",
+    "date": "2026-05-25",
+    "pick": "Texas Rangers ML",
+    "game": "HOU @ TEX",
+    "odds": "-126",
+    "result_score": "HOU 9 \u00b7 TEX 0",
+    "classification": "VARIANCE",
+    "post_mortem": "The entire thesis was directionally correct \u2014 Imai walked three of the first four batters he faced and loaded the bases in the first inning, exactly the meltdown scenario we modeled. But he escaped via a double play, then retired 16 of the final 17 Rangers he faced en route to six no-hit innings on 97 pitches. Relievers Steven Okert and debutant Alimber Santa finished the combined no-hitter \u2014 the first in MLB since 2024 \u2014 in a 9-0 Houston win. Rocker, the 'competent league-average arm' we backed, allowed four runs in five innings and took the loss. The pick lost not because the Imai walk-rate thesis was wrong (he walked four on the night), but because a historically rare event \u2014 a combined no-hitter thrown by a pitcher entering with an 8.31 ERA \u2014 intervened. Texas was no-hit while only striking out three times; they simply couldn't find a hit despite making contact all night.",
+    "candidate_rule": null,
+    "sample_size_warning": "N=1, pure VARIANCE \u2014 a combined no-hitter is a ~0.3% per-game event; no rule can be derived from this outcome.",
+    "analyzed_at": "2026-05-26T02:54:00.038098-04:00"
+  },
+  {
     "id": "20260524-MLB-CLE-PHI-ML",
     "date": "2026-05-24",
     "pick": "Cleveland Guardians ML",

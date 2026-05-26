@@ -5,6 +5,14 @@
   "target": 10,
   "history": [
     {
+      "date": "2026-05-25",
+      "pick_id": "20260525-MLB-CHC-PIT-ML",
+      "pick": "Chicago Cubs ML",
+      "game": "CHC @ PIT",
+      "status": "LOSS",
+      "after_streak": 0
+    },
+    {
       "date": "2026-05-24",
       "pick_id": "20260524-MLB-CLE-PHI-ML",
       "pick": "Cleveland Guardians ML",
@@ -77,5 +85,5 @@
       "after_streak": 1
     }
   ],
-  "updated_at": "2026-05-24T18:47:49.050768-04:00"
+  "updated_at": "2026-05-26T02:54:14.041587-04:00"
 }

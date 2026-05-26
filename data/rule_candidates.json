@@ -38,5 +38,13 @@
     "candidate_rule": "Before running autopsy, cross-validate result_score against an external box score source \u2014 a misattributed score from an adjacent game in the same series is a known failure mode; add a date-stamp check against the game_id or box score URL (N=1 occurrence, insufficient to establish pattern).",
     "sample_size_warning": "N=1 data-entry error observed; watching for pattern of same-series score confusion before formalizing a validation rule.",
     "status": "PENDING_REVIEW"
+  },
+  {
+    "proposed_at": "2026-05-26T02:54:14.036682-04:00",
+    "source_pick_id": "20260525-MLB-MIA-TOR-RL",
+    "source_loss": "Toronto Blue Jays -1.5 (MIA @ TOR)",
+    "candidate_rule": "Do not back a run-line favorite when the anchor starter has fewer than 40 IP in the current season AND the implied win margin requires both the starter to hold AND the opposing back-end arm to implode \u2014 two independent events that must co-occur; N=1, insufficient to establish rule.",
+    "sample_size_warning": "N=1, insufficient to establish rule \u2014 but the failure mode (tiny-sample ERA regression + key lineup scratch) is a known structural risk that the pick's own 'case against' section identified and dismissed.",
+    "status": "PENDING_REVIEW"
   }
 ]
