@@ -14,7 +14,7 @@ limits:
   min_edge_cents: 8
 
 claude:
-  primary_model: "claude-opus-4-7"
+  primary_model: "claude-opus-4-5"
   fallback_model: "claude-sonnet-4-6"
   temperature: 0.2
   max_tokens: 16000        # generous so a long prose preamble can't truncate the JSON

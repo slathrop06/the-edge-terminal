@@ -453,11 +453,52 @@ def _extract_text(msg) -> str:
     return "\n".join(parts)
 
 
+def _strip_json_comments(s: str) -> str:
+    """Strip // line comments from JSON-like text. Claude occasionally adds these."""
+    result: list[str] = []
+    in_str = False
+    esc = False
+    i = 0
+    while i < len(s):
+        ch = s[i]
+        if in_str:
+            if esc:
+                result.append(ch)
+                esc = False
+            elif ch == '\\':
+                result.append(ch)
+                esc = True
+            elif ch == '"':
+                result.append(ch)
+                in_str = False
+            else:
+                result.append(ch)
+        else:
+            if ch == '"':
+                result.append(ch)
+                in_str = True
+            elif ch == '/' and i + 1 < len(s) and s[i + 1] == '/':
+                # Skip to end of line
+                while i < len(s) and s[i] != '\n':
+                    i += 1
+                continue
+            else:
+                result.append(ch)
+        i += 1
+    return ''.join(result)
+
+
 def _robust_json_loads(s: str, raw_for_error: str = "") -> dict:
     """Parse JSON tolerantly. Claude sometimes emits unescaped newlines/tabs
     inside string values (e.g. multi-paragraph the_thesis). Try strict first,
     then strict=False, then a cleanup pass that escapes raw control chars
     only inside string spans."""
+    # Strip // comments Claude sometimes adds before trying any parse.
+    s_clean = _strip_json_comments(s)
+    try:
+        return json.loads(s_clean, strict=False)
+    except json.JSONDecodeError:
+        pass
     try:
         return json.loads(s, strict=False)
     except json.JSONDecodeError:
