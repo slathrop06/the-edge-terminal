@@ -1,5 +1,31 @@
 [
   {
+    "id": "20260526-MLB-CHC-PIT-TOTAL",
+    "date": "2026-05-26",
+    "pick": "Under 8.0",
+    "game": "CHC @ PIT",
+    "odds": "-108",
+    "result_score": "CHC 1 \u00b7 PIT 12",
+    "classification": "DATA",
+    "post_mortem": "The entire thesis rested on two starters \u2014 Ashcraft held up his end completely (1 R, 6.1 IP, quality start), but the Cubs' half of the equation was a ghost. Jordan Wicks was not a real MLB starter: he had a career 5.21 ERA, had spent 2025 exclusively as a reliever with a 6.28 ERA in 14.1 innings, and was recalled from Triple-A Iowa on Sunday \u2014 the day before the game \u2014 only because Edward Cabrera went on the IL with a finger blister. The pack flagged 'thin data' on Wicks but still priced the under as if a competent starter was taking the mound. He was rocked for 8 runs on 9 hits in 4.1 innings: a Reynolds two-run double and a Valdez 415-foot two-run homer made it 5-0 in the first inning alone, and the game was effectively over before Ashcraft threw his second pitch. Final: PIT 12, CHC 1 \u2014 11 of Pittsburgh's 13 runs came off Wicks and the Cubs' mop-up arms, not Ashcraft.",
+    "candidate_rule": "When the Cubs' (or any team's) listed starter is a same-day recall from Triple-A with a career MLB ERA above 5.00 and no MLB starts in the current season, treat the opposing half of the total as uncapped and do not play unders unless the total is set 1.5+ runs above the ace's expected contribution alone \u2014 N=1, insufficient to establish rule.",
+    "sample_size_warning": "N=1, insufficient to establish rule. One emergency-callup implosion is noise, but the DATA failure here (no MLB 2026 stats existed for Wicks at pick time, and the pack explicitly flagged it) is a process gap worth tracking.",
+    "analyzed_at": "2026-05-27T03:12:00.443370-04:00"
+  },
+  {
+    "id": "20260526-MLB-ATL-BOS-TOTAL",
+    "date": "2026-05-26",
+    "pick": "Under 8.0",
+    "game": "ATL @ BOS",
+    "odds": "-108",
+    "result_score": "ATL 7 \u00b7 BOS 6",
+    "classification": "MODEL",
+    "post_mortem": "The entire thesis rested on Suarez's elite HR suppression anchoring the under, but the kill shot came from the wrong side of the matchup: Suarez himself collapsed. He sailed through four scoreless innings, then surrendered two runs in the fifth on Matt Olson's 15th homer (a two-run shot that tied it 2-2), and was chased without recording an out in the sixth after Austin Riley tripled, Eli White walked, and Michael Harris II delivered an RBI double \u2014 Suarez was charged with five earned runs on six hits over five-plus innings, walking three and hitting a batter, the worst outing of his season. Atlanta's three-run sixth made it 5-2, Harris added a two-run homer in the eighth off the Boston bullpen, and despite three Boston home runs (Duran, Rafaela, Kiner-Falefa), the Red Sox fell 7-6 \u2014 13 combined runs, blowing past the 8.0 total. The model correctly flagged Strider's walk rate as a risk but misidentified which pitcher would blow up: Strider allowed only 3 runs in 5 innings and settled in after the first, while Suarez \u2014 the supposed anchor \u2014 had his worst start of the year. The thesis was built on the wrong pitcher's floor.",
+    "candidate_rule": "When anchoring an under on a specific starter's ERA/HR suppression, cross-check whether that pitcher has a recent 'cluster' of bad starts masked by a low season ERA \u2014 Suarez had allowed 12 of his 13 earned runs in just 13 innings across a subset of starts, a red flag that the ERA was misleading about his true variance profile; flag starters whose ERA and xERA diverge by >0.75 runs for under consideration (N=1, insufficient to establish rule).",
+    "sample_size_warning": "N=1, insufficient to establish rule \u2014 one Suarez blowup does not confirm a systematic ERA-masking pattern, but the pre-game data point (12 of 13 ER in 13 innings of bad starts) was available and should have widened the confidence interval on his floor.",
+    "analyzed_at": "2026-05-27T03:11:40.364982-04:00"
+  },
+  {
     "id": "20260525-MLB-CHC-PIT-ML",
     "date": "2026-05-25",
     "pick": "Chicago Cubs ML",

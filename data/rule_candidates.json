@@ -46,5 +46,21 @@
     "candidate_rule": "Do not back a run-line favorite when the anchor starter has fewer than 40 IP in the current season AND the implied win margin requires both the starter to hold AND the opposing back-end arm to implode \u2014 two independent events that must co-occur; N=1, insufficient to establish rule.",
     "sample_size_warning": "N=1, insufficient to establish rule \u2014 but the failure mode (tiny-sample ERA regression + key lineup scratch) is a known structural risk that the pick's own 'case against' section identified and dismissed.",
     "status": "PENDING_REVIEW"
+  },
+  {
+    "proposed_at": "2026-05-27T03:11:40.365587-04:00",
+    "source_pick_id": "20260526-MLB-ATL-BOS-TOTAL",
+    "source_loss": "Under 8.0 (ATL @ BOS)",
+    "candidate_rule": "When anchoring an under on a specific starter's ERA/HR suppression, cross-check whether that pitcher has a recent 'cluster' of bad starts masked by a low season ERA \u2014 Suarez had allowed 12 of his 13 earned runs in just 13 innings across a subset of starts, a red flag that the ERA was misleading about his true variance profile; flag starters whose ERA and xERA diverge by >0.75 runs for under consideration (N=1, insufficient to establish rule).",
+    "sample_size_warning": "N=1, insufficient to establish rule \u2014 one Suarez blowup does not confirm a systematic ERA-masking pattern, but the pre-game data point (12 of 13 ER in 13 innings of bad starts) was available and should have widened the confidence interval on his floor.",
+    "status": "PENDING_REVIEW"
+  },
+  {
+    "proposed_at": "2026-05-27T03:12:00.443925-04:00",
+    "source_pick_id": "20260526-MLB-CHC-PIT-TOTAL",
+    "source_loss": "Under 8.0 (CHC @ PIT)",
+    "candidate_rule": "When the Cubs' (or any team's) listed starter is a same-day recall from Triple-A with a career MLB ERA above 5.00 and no MLB starts in the current season, treat the opposing half of the total as uncapped and do not play unders unless the total is set 1.5+ runs above the ace's expected contribution alone \u2014 N=1, insufficient to establish rule.",
+    "sample_size_warning": "N=1, insufficient to establish rule. One emergency-callup implosion is noise, but the DATA failure here (no MLB 2026 stats existed for Wicks at pick time, and the pack explicitly flagged it) is a process gap worth tracking.",
+    "status": "PENDING_REVIEW"
   }
 ]
