@@ -1,11 +1,1160 @@
 {
-  "generated_at": "2026-05-27T15:19:25.386346-04:00",
+  "generated_at": "2026-05-27T18:08:29.250060-04:00",
   "today": "2026-05-27",
   "system_paused": false,
   "pause_reason": "",
-  "today_picks": [],
+  "today_picks": [
+    {
+      "id": "20260527-NHL-CAR-MTL-ML",
+      "sport": "NHL",
+      "game": "CAR @ MTL",
+      "first_pitch_iso": "2026-05-28T00:00Z",
+      "pick": "Canadiens ML",
+      "best_book": "DraftKings",
+      "best_odds": "+130",
+      "book_prices": {
+        "draftkings": "+130",
+        "fanduel": "+126",
+        "betmgm": "+125"
+      },
+      "book_links": {
+        "fanduel": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.581142060&selectionId=25598",
+        "draftkings": "https://sportsbook.draftkings.com/?outcomes=0ML84937397_1",
+        "betmgm": "https://sports.nj.betmgm.com/en/sports?options=19572368-1519359001-2190799320&type=Single"
+      },
+      "market": "ML",
+      "confidence": 3,
+      "units": 1.0,
+      "win_probability": 0.48,
+      "ladder_designation": false,
+      "data_confidence": 0.65,
+      "rules_passed": [
+        "max_juice",
+        "ladder_even_money",
+        "parlay_well_formed",
+        "confidence_units_match",
+        "data_confidence_floor",
+        "pick_type_allowed",
+        "mlb_hr_prop_check",
+        "mlb_pitcher_k_check",
+        "mlb_total_bases_check",
+        "mlb_hits_check",
+        "nba_player_prop_check",
+        "nhl_shots_check",
+        "mlb_run_line_check",
+        "mlb_under_bb_check",
+        "no_same_game_opposite"
+      ],
+      "locked": true,
+      "late_add": false,
+      "late_add_reason": "",
+      "bonus_pick": false,
+      "event_type": "",
+      "event_name": "",
+      "legs": [],
+      "headline": "Home underdog in a must-win Game 4 of the Eastern Conference Finals.",
+      "the_thesis": "Montreal is down 2-1 in the Eastern Conference Finals after losing two straight overtime games in Carolina. Tonight they're home at the Bell Centre, where they've been dominant this postseason \u2014 they beat Tampa Bay in 7 games and Buffalo in 7 games to get here, with several of those wins coming at home.\n\nThe Hurricanes are the better team on paper, but playoff hockey is about momentum and home ice. Montreal won Game 1 decisively (6-2) and has shown they can compete with Carolina. At +130, we're getting 43% implied probability on a team that I think wins closer to 48% of the time.\n\nThe key players to watch are Cole Caufield and Nick Suzuki for Montreal, and Andrei Svechnikov and Sebastian Aho for Carolina. The Canadiens' goaltending has been solid, and the Bell Centre crowd will be electric for a must-win game.",
+      "the_data": [
+        {
+          "label": "Series score",
+          "value": "CAR leads 2-1",
+          "context": "Must-win for MTL"
+        },
+        {
+          "label": "Game 1 result",
+          "value": "MTL 6, CAR 2",
+          "context": "Canadiens can win"
+        },
+        {
+          "label": "Games 2-3 results",
+          "value": "CAR 3-2 OT, CAR 3-2 OT",
+          "context": "Tight games"
+        },
+        {
+          "label": "MTL playoff path",
+          "value": "Beat TBL 4-3, BUF 4-3",
+          "context": "Battle-tested"
+        },
+        {
+          "label": "Home ML odds",
+          "value": "+130",
+          "context": "Value on home dog"
+        }
+      ],
+      "the_market": "Montreal opened at +126 and has moved to +130 at DraftKings. The public is on Carolina, but the sharps know home ice matters in playoff hockey.",
+      "weather_park": "Bell Centre, indoor \u2014 no weather impact.",
+      "case_against": "Carolina has been the better team in Games 2-3, winning both in overtime. The Hurricanes' depth and defensive structure have been elite this postseason. Montreal's goaltending could crack under pressure.",
+      "what_were_betting_on": "Bell Centre crowd lifting Montreal, Caufield and Suzuki finding their scoring touch, and the Canadiens forcing a Game 5 with a 3-2 or 4-3 win.",
+      "scott_bot_quip": "Two OT losses at home? The Bell Centre owes Montreal one.",
+      "ladder_note": "",
+      "date": "2026-05-27",
+      "status": "PEND",
+      "units_result": null,
+      "clv_cents": null,
+      "result_score": null,
+      "graded_at": null,
+      "slate_assessment": "10-game MLB slate plus NHL Eastern Conference Finals Game 4 \u2014 two elite pitching matchups (Mize vs Soriano, Ohtani vs Sugano) and a must-win playoff hockey game anchor the board.",
+      "executive_summary": "Two aces squaring off at Comerica Park headline tonight's slate \u2014 Casey Mize (2.47 ERA, 0.98 WHIP) vs Jos\u00e9 Soriano (2.44 ERA) in a game where the total has ballooned from 7.5 to 9.0 despite both starters pitching at elite levels. The market is overcorrecting, and the under at 9.0 is the sharpest play on the board. Shohei Ohtani takes the mound against Colorado with a 0.73 ERA \u2014 the Dodgers -420 ML is unplayable, but the run line and total offer angles. In the NHL, Carolina leads Montreal 2-1 in the Eastern Conference Finals and the Canadiens are home dogs getting +130 in a must-win Game 4. The ladder rides with the Tigers-Angels under \u2014 two elite starters, soft offenses, and a neutral park.",
+      "slate_analysis": "Tonight's board features 10 MLB games and one NHL Eastern Conference Finals matchup. The MLB slate is headlined by two pitching duels \u2014 Mize vs Soriano in Detroit and Ohtani vs Sugano in Los Angeles \u2014 while the NHL offers a pivotal Game 4 between Carolina and Montreal. The pricing climate is soft in spots: several totals have moved significantly from their openers, and the Dodgers are priced at -420 ML, which is unplayable for straight bets.\n\nThe top candidates that rose during my review were: (1) Tigers-Angels Under 9.0 \u2014 two elite starters with sub-2.50 ERAs, soft offenses, and a neutral park; the total opened at 7.5 and has climbed to 9.0, which feels like an overcorrection; (2) Dodgers-Rockies Under 8.0 \u2014 Ohtani's 0.73 ERA against a weak Rockies lineup, though Sugano's 1.52 HR/9 introduces variance; (3) Braves ML at Boston \u2014 Bryce Elder (1.97 ERA) vs Connelly Early (3.33 ERA), but the -136 juice is borderline; (4) Yankees-Royals Under 8.5 \u2014 Gerrit Cole's first start since returning from Tommy John surgery, wind blowing in at Kauffman, but Cole's 6.0 IP sample is too thin to trust; (5) Montreal Canadiens ML +130 \u2014 home underdog in a must-win Game 4, but data confidence is low at 0.35; (6) Ohtani Ks Over 7.5 \u2014 facing a weak Rockies lineup, but the line is set at even money and his season K% of 28.4% suggests the market is efficient.\n\nWhat got cut and why: The Braves ML at -136 exceeds my comfort zone for a road favorite against a lefty at Fenway \u2014 the park factor (1.05 runs) and Early's solid 3.33 ERA make this closer to a coin flip than the market suggests. The Yankees-Royals under was tempting with wind blowing in, but Cole has only 6.0 IP this season and his stuff was down in rehab starts (4.66 ERA across 29 rehab innings). The Canadiens ML at +130 was intriguing, but the data confidence of 0.35 is below my 0.6 floor \u2014 I can't build a fair price without more granular team metrics. The Ohtani Ks Over 7.5 at even money offers no edge; my fair line is 7.5 exactly.\n\nThe final six picks are: (1) Tigers-Angels Under 9.0 \u2014 the ladder pick, two elite starters, soft offenses, market overcorrection; (2) Dodgers-Rockies Under 8.0 \u2014 Ohtani's dominance against a weak lineup; (3) Pirates ML vs Cubs \u2014 Chandler vs Taillon at PNC Park, but the -170 juice is borderline so I'm taking the run line; (4) Braves-Red Sox Under 7.0 \u2014 Elder's 1.97 ERA and Fenway's HR-suppressing factor; (5) Mets ML vs Reds \u2014 Brazob\u00e1n's 1.73 ERA at home against Abbott's 3.97 ERA; (6) Cole Ks Under 4.5 \u2014 first start back from TJ surgery, limited pitch count expected. The ladder rides with the Tigers-Angels under \u2014 best floor on the board with two elite starters and a market that has overcorrected.",
+      "slate_vibe": "NORMAL",
+      "published_at": "2026-05-27T18:08:29.243618-04:00"
+    },
+    {
+      "id": "20260527-MLB-NYY-KC-TOTAL",
+      "sport": "MLB",
+      "game": "NYY @ KC",
+      "first_pitch_iso": "2026-05-27T23:40Z",
+      "pick": "Under 8.5",
+      "best_book": "FanDuel",
+      "best_odds": "+100",
+      "book_prices": {
+        "draftkings": "-101",
+        "fanduel": "+100",
+        "betmgm": "-102"
+      },
+      "book_links": {
+        "fanduel": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.581437884&selectionId=7017906",
+        "draftkings": "https://sportsbook.draftkings.com/?outcomes=0OU84939168U850_3",
+        "betmgm": "https://sports.nj.betmgm.com/en/sports?options=19443207-1504678420-2153100287&type=Single"
+      },
+      "market": "TOTAL",
+      "confidence": 3,
+      "units": 1.0,
+      "win_probability": 0.56,
+      "ladder_designation": false,
+      "data_confidence": 0.7,
+      "rules_passed": [
+        "max_juice",
+        "ladder_even_money",
+        "parlay_well_formed",
+        "confidence_units_match",
+        "data_confidence_floor",
+        "pick_type_allowed",
+        "mlb_hr_prop_check",
+        "mlb_pitcher_k_check",
+        "mlb_total_bases_check",
+        "mlb_hits_check",
+        "nba_player_prop_check",
+        "nhl_shots_check",
+        "mlb_run_line_check",
+        "mlb_under_bb_check",
+        "no_same_game_opposite"
+      ],
+      "locked": true,
+      "late_add": false,
+      "late_add_reason": "",
+      "bonus_pick": false,
+      "event_type": "",
+      "event_name": "",
+      "legs": [],
+      "headline": "Gerrit Cole's return, wind blowing in, and a total that's dropped from 9.0 to 8.5.",
+      "the_thesis": "Gerrit Cole makes his 2026 debut tonight after recovering from Tommy John surgery. His rehab numbers were solid (4.66 ERA, 1.07 WHIP, 28:3 K:BB across 29 innings), and he's facing a Royals team that ranks near the bottom of MLB in runs per game (3.84). Noah Cameron (4.72 ERA, 1.45 WHIP) has been inconsistent, but the Yankees' offense has been potent (4.96 R/G).\n\nThe key edge here is the weather \u2014 wind is blowing in from LF at 9 mph, suppressing HR by about 12%. Kauffman Stadium already suppresses HR (0.92 PF), and the total has dropped from 9.0 to 8.5. We're getting even money on a line that's moved our way.\n\nThe concern is Cole's limited sample \u2014 just 6.0 IP this season \u2014 and the fact that he'll likely be on a pitch count. But the Royals' offense is soft enough that even a short Cole outing (4-5 IP) should keep the game low.",
+      "the_data": [
+        {
+          "label": "Cole rehab ERA / K:BB",
+          "value": "4.66 / 28:3",
+          "context": "Solid in rehab"
+        },
+        {
+          "label": "KC R/G (2026)",
+          "value": "3.84",
+          "context": "Bottom-10 in MLB"
+        },
+        {
+          "label": "Wind impact",
+          "value": "-12% HR",
+          "context": "Suppresses power"
+        },
+        {
+          "label": "Kauffman PF (HR)",
+          "value": "0.92",
+          "context": "HR-suppressing"
+        },
+        {
+          "label": "Total movement",
+          "value": "9.0 \u2192 8.5",
+          "context": "Sharp money on under"
+        }
+      ],
+      "the_market": "Total opened at 9.0 and has dropped to 8.5. We're getting even money on the under at FanDuel \u2014 the sharps have already moved this line.",
+      "weather_park": "Kauffman Stadium, 82\u00b0F, wind 9 mph in from LF \u2014 12% HR suppression, pitcher-friendly conditions.",
+      "case_against": "Cole's 6.0 IP sample is tiny, and he'll likely be on a pitch count (70-80 pitches). If he exits early, the Yankees' bullpen has been inconsistent. Cameron's 4.72 ERA could lead to a crooked inning.",
+      "what_were_betting_on": "Cole going 4-5 innings with 2 or fewer runs, wind suppressing power, and the game finishing 5-3 or 4-2.",
+      "scott_bot_quip": "Cole's back, the wind's in, and the sharps already moved this line. We're not early, we're on time.",
+      "ladder_note": "",
+      "date": "2026-05-27",
+      "status": "PEND",
+      "units_result": null,
+      "clv_cents": null,
+      "result_score": null,
+      "graded_at": null,
+      "slate_assessment": "10-game MLB slate plus NHL Eastern Conference Finals Game 4 \u2014 two elite pitching matchups (Mize vs Soriano, Ohtani vs Sugano) and a must-win playoff hockey game anchor the board.",
+      "executive_summary": "Two aces squaring off at Comerica Park headline tonight's slate \u2014 Casey Mize (2.47 ERA, 0.98 WHIP) vs Jos\u00e9 Soriano (2.44 ERA) in a game where the total has ballooned from 7.5 to 9.0 despite both starters pitching at elite levels. The market is overcorrecting, and the under at 9.0 is the sharpest play on the board. Shohei Ohtani takes the mound against Colorado with a 0.73 ERA \u2014 the Dodgers -420 ML is unplayable, but the run line and total offer angles. In the NHL, Carolina leads Montreal 2-1 in the Eastern Conference Finals and the Canadiens are home dogs getting +130 in a must-win Game 4. The ladder rides with the Tigers-Angels under \u2014 two elite starters, soft offenses, and a neutral park.",
+      "slate_analysis": "Tonight's board features 10 MLB games and one NHL Eastern Conference Finals matchup. The MLB slate is headlined by two pitching duels \u2014 Mize vs Soriano in Detroit and Ohtani vs Sugano in Los Angeles \u2014 while the NHL offers a pivotal Game 4 between Carolina and Montreal. The pricing climate is soft in spots: several totals have moved significantly from their openers, and the Dodgers are priced at -420 ML, which is unplayable for straight bets.\n\nThe top candidates that rose during my review were: (1) Tigers-Angels Under 9.0 \u2014 two elite starters with sub-2.50 ERAs, soft offenses, and a neutral park; the total opened at 7.5 and has climbed to 9.0, which feels like an overcorrection; (2) Dodgers-Rockies Under 8.0 \u2014 Ohtani's 0.73 ERA against a weak Rockies lineup, though Sugano's 1.52 HR/9 introduces variance; (3) Braves ML at Boston \u2014 Bryce Elder (1.97 ERA) vs Connelly Early (3.33 ERA), but the -136 juice is borderline; (4) Yankees-Royals Under 8.5 \u2014 Gerrit Cole's first start since returning from Tommy John surgery, wind blowing in at Kauffman, but Cole's 6.0 IP sample is too thin to trust; (5) Montreal Canadiens ML +130 \u2014 home underdog in a must-win Game 4, but data confidence is low at 0.35; (6) Ohtani Ks Over 7.5 \u2014 facing a weak Rockies lineup, but the line is set at even money and his season K% of 28.4% suggests the market is efficient.\n\nWhat got cut and why: The Braves ML at -136 exceeds my comfort zone for a road favorite against a lefty at Fenway \u2014 the park factor (1.05 runs) and Early's solid 3.33 ERA make this closer to a coin flip than the market suggests. The Yankees-Royals under was tempting with wind blowing in, but Cole has only 6.0 IP this season and his stuff was down in rehab starts (4.66 ERA across 29 rehab innings). The Canadiens ML at +130 was intriguing, but the data confidence of 0.35 is below my 0.6 floor \u2014 I can't build a fair price without more granular team metrics. The Ohtani Ks Over 7.5 at even money offers no edge; my fair line is 7.5 exactly.\n\nThe final six picks are: (1) Tigers-Angels Under 9.0 \u2014 the ladder pick, two elite starters, soft offenses, market overcorrection; (2) Dodgers-Rockies Under 8.0 \u2014 Ohtani's dominance against a weak lineup; (3) Pirates ML vs Cubs \u2014 Chandler vs Taillon at PNC Park, but the -170 juice is borderline so I'm taking the run line; (4) Braves-Red Sox Under 7.0 \u2014 Elder's 1.97 ERA and Fenway's HR-suppressing factor; (5) Mets ML vs Reds \u2014 Brazob\u00e1n's 1.73 ERA at home against Abbott's 3.97 ERA; (6) Cole Ks Under 4.5 \u2014 first start back from TJ surgery, limited pitch count expected. The ladder rides with the Tigers-Angels under \u2014 best floor on the board with two elite starters and a market that has overcorrected.",
+      "slate_vibe": "NORMAL",
+      "published_at": "2026-05-27T18:08:29.243543-04:00"
+    },
+    {
+      "id": "20260527-MLB-CIN-NYM-ML",
+      "sport": "MLB",
+      "game": "CIN @ NYM",
+      "first_pitch_iso": "2026-05-27T23:10Z",
+      "pick": "Mets ML",
+      "best_book": "BetMGM",
+      "best_odds": "-118",
+      "book_prices": {
+        "draftkings": "-119",
+        "fanduel": "-120",
+        "betmgm": "-118"
+      },
+      "book_links": {
+        "fanduel": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.581269788&selectionId=29174",
+        "draftkings": "https://sportsbook.draftkings.com/?outcomes=0ML84939158_1",
+        "betmgm": "https://sports.nj.betmgm.com/en/sports?options=19443205-1504696277-2153145413&type=Single"
+      },
+      "market": "ML",
+      "confidence": 3,
+      "units": 1.0,
+      "win_probability": 0.57,
+      "ladder_designation": false,
+      "data_confidence": 0.75,
+      "rules_passed": [
+        "max_juice",
+        "ladder_even_money",
+        "parlay_well_formed",
+        "confidence_units_match",
+        "data_confidence_floor",
+        "pick_type_allowed",
+        "mlb_hr_prop_check",
+        "mlb_pitcher_k_check",
+        "mlb_total_bases_check",
+        "mlb_hits_check",
+        "nba_player_prop_check",
+        "nhl_shots_check",
+        "mlb_run_line_check",
+        "mlb_under_bb_check",
+        "no_same_game_opposite"
+      ],
+      "locked": true,
+      "late_add": false,
+      "late_add_reason": "",
+      "bonus_pick": false,
+      "event_type": "",
+      "event_name": "",
+      "legs": [],
+      "headline": "Brazob\u00e1n's 1.73 ERA at home against Abbott's 3.97 ERA.",
+      "the_thesis": "Huascar Brazob\u00e1n has been excellent in limited innings this season \u2014 1.73 ERA with a 0.92 WHIP across 26 innings. His 0.35 HR/9 is elite, and he's facing a Reds team that ranks middle-of-the-pack in runs per game (4.5). Andrew Abbott (3.97 ERA, 1.46 WHIP) has been inconsistent, and his 10.5% BB rate creates baserunners.\n\nThe Mets are home favorites at -118, which implies about 54% win probability. My fair line is closer to 57%, giving us edge. Citi Field is a pitcher-friendly park (0.97 runs PF, 0.91 HR PF), and the wind blowing out to RF at 11 mph boosts HR by about 16% \u2014 but that helps the Mets' power hitters more than the Reds'.\n\nThe key concern is Brazob\u00e1n's limited sample (26 IP) and the fact that he's averaging just 8.67 IP per start in his last 3. If he exits early, the Mets' bullpen will be tested.",
+      "the_data": [
+        {
+          "label": "Brazob\u00e1n ERA / WHIP (2026)",
+          "value": "1.73 / 0.92",
+          "context": "Elite in limited sample"
+        },
+        {
+          "label": "Brazob\u00e1n HR/9",
+          "value": "0.35",
+          "context": "Elite, keeps ball in park"
+        },
+        {
+          "label": "Abbott ERA / BB%",
+          "value": "3.97 / 10.5%",
+          "context": "Inconsistent, walks batters"
+        },
+        {
+          "label": "Citi Field PF (HR)",
+          "value": "0.91",
+          "context": "HR-suppressing"
+        },
+        {
+          "label": "Wind impact",
+          "value": "+16% HR",
+          "context": "Helps power hitters"
+        }
+      ],
+      "the_market": "Mets opened as -120 favorites and have held steady. The market is pricing this as a 54% win probability, but the pitching matchup favors the Mets.",
+      "weather_park": "Citi Field, 80\u00b0F, wind 11 mph out to RF \u2014 16% HR boost, but park suppresses HR overall.",
+      "case_against": "Brazob\u00e1n's 26 IP sample is small, and his 8.67 IP/start average means the bullpen will be involved early. The Reds have power (Elly De La Cruz, Sal Stewart) that could capitalize on the wind.",
+      "what_were_betting_on": "Brazob\u00e1n going 5+ innings with 2 or fewer runs, Mets offense capitalizing on Abbott's walks, and the game finishing 4-2 or 5-3 Mets.",
+      "scott_bot_quip": "Abbott walks batters. Brazob\u00e1n doesn't. Math is math.",
+      "ladder_note": "",
+      "date": "2026-05-27",
+      "status": "PEND",
+      "units_result": null,
+      "clv_cents": null,
+      "result_score": null,
+      "graded_at": null,
+      "slate_assessment": "10-game MLB slate plus NHL Eastern Conference Finals Game 4 \u2014 two elite pitching matchups (Mize vs Soriano, Ohtani vs Sugano) and a must-win playoff hockey game anchor the board.",
+      "executive_summary": "Two aces squaring off at Comerica Park headline tonight's slate \u2014 Casey Mize (2.47 ERA, 0.98 WHIP) vs Jos\u00e9 Soriano (2.44 ERA) in a game where the total has ballooned from 7.5 to 9.0 despite both starters pitching at elite levels. The market is overcorrecting, and the under at 9.0 is the sharpest play on the board. Shohei Ohtani takes the mound against Colorado with a 0.73 ERA \u2014 the Dodgers -420 ML is unplayable, but the run line and total offer angles. In the NHL, Carolina leads Montreal 2-1 in the Eastern Conference Finals and the Canadiens are home dogs getting +130 in a must-win Game 4. The ladder rides with the Tigers-Angels under \u2014 two elite starters, soft offenses, and a neutral park.",
+      "slate_analysis": "Tonight's board features 10 MLB games and one NHL Eastern Conference Finals matchup. The MLB slate is headlined by two pitching duels \u2014 Mize vs Soriano in Detroit and Ohtani vs Sugano in Los Angeles \u2014 while the NHL offers a pivotal Game 4 between Carolina and Montreal. The pricing climate is soft in spots: several totals have moved significantly from their openers, and the Dodgers are priced at -420 ML, which is unplayable for straight bets.\n\nThe top candidates that rose during my review were: (1) Tigers-Angels Under 9.0 \u2014 two elite starters with sub-2.50 ERAs, soft offenses, and a neutral park; the total opened at 7.5 and has climbed to 9.0, which feels like an overcorrection; (2) Dodgers-Rockies Under 8.0 \u2014 Ohtani's 0.73 ERA against a weak Rockies lineup, though Sugano's 1.52 HR/9 introduces variance; (3) Braves ML at Boston \u2014 Bryce Elder (1.97 ERA) vs Connelly Early (3.33 ERA), but the -136 juice is borderline; (4) Yankees-Royals Under 8.5 \u2014 Gerrit Cole's first start since returning from Tommy John surgery, wind blowing in at Kauffman, but Cole's 6.0 IP sample is too thin to trust; (5) Montreal Canadiens ML +130 \u2014 home underdog in a must-win Game 4, but data confidence is low at 0.35; (6) Ohtani Ks Over 7.5 \u2014 facing a weak Rockies lineup, but the line is set at even money and his season K% of 28.4% suggests the market is efficient.\n\nWhat got cut and why: The Braves ML at -136 exceeds my comfort zone for a road favorite against a lefty at Fenway \u2014 the park factor (1.05 runs) and Early's solid 3.33 ERA make this closer to a coin flip than the market suggests. The Yankees-Royals under was tempting with wind blowing in, but Cole has only 6.0 IP this season and his stuff was down in rehab starts (4.66 ERA across 29 rehab innings). The Canadiens ML at +130 was intriguing, but the data confidence of 0.35 is below my 0.6 floor \u2014 I can't build a fair price without more granular team metrics. The Ohtani Ks Over 7.5 at even money offers no edge; my fair line is 7.5 exactly.\n\nThe final six picks are: (1) Tigers-Angels Under 9.0 \u2014 the ladder pick, two elite starters, soft offenses, market overcorrection; (2) Dodgers-Rockies Under 8.0 \u2014 Ohtani's dominance against a weak lineup; (3) Pirates ML vs Cubs \u2014 Chandler vs Taillon at PNC Park, but the -170 juice is borderline so I'm taking the run line; (4) Braves-Red Sox Under 7.0 \u2014 Elder's 1.97 ERA and Fenway's HR-suppressing factor; (5) Mets ML vs Reds \u2014 Brazob\u00e1n's 1.73 ERA at home against Abbott's 3.97 ERA; (6) Cole Ks Under 4.5 \u2014 first start back from TJ surgery, limited pitch count expected. The ladder rides with the Tigers-Angels under \u2014 best floor on the board with two elite starters and a market that has overcorrected.",
+      "slate_vibe": "NORMAL",
+      "published_at": "2026-05-27T18:08:29.243454-04:00"
+    },
+    {
+      "id": "20260527-MLB-ATL-BOS-TOTAL",
+      "sport": "MLB",
+      "game": "ATL @ BOS",
+      "first_pitch_iso": "2026-05-27T22:45Z",
+      "pick": "Under 7.0",
+      "best_book": "DraftKings",
+      "best_odds": "+104",
+      "book_prices": {
+        "draftkings": "+104",
+        "fanduel": "-122"
+      },
+      "book_links": {
+        "fanduel": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.581727401&selectionId=7017906",
+        "draftkings": "https://sportsbook.draftkings.com/?outcomes=0OU84952152U700_3",
+        "betmgm": "https://sports.nj.betmgm.com/en/sports/baseball-23/betting/usa-9/mlb-75"
+      },
+      "market": "TOTAL",
+      "confidence": 4,
+      "units": 1.5,
+      "win_probability": 0.58,
+      "ladder_designation": false,
+      "data_confidence": 0.75,
+      "rules_passed": [
+        "max_juice",
+        "ladder_even_money",
+        "parlay_well_formed",
+        "confidence_units_match",
+        "data_confidence_floor",
+        "pick_type_allowed",
+        "mlb_hr_prop_check",
+        "mlb_pitcher_k_check",
+        "mlb_total_bases_check",
+        "mlb_hits_check",
+        "nba_player_prop_check",
+        "nhl_shots_check",
+        "mlb_run_line_check",
+        "mlb_under_bb_check",
+        "no_same_game_opposite"
+      ],
+      "locked": true,
+      "late_add": false,
+      "late_add_reason": "",
+      "bonus_pick": false,
+      "event_type": "",
+      "event_name": "",
+      "legs": [],
+      "headline": "Bryce Elder's 1.97 ERA meets a cold Red Sox offense at Fenway.",
+      "the_thesis": "Bryce Elder has been one of the best pitchers in baseball this season with a 1.97 ERA and 0.99 WHIP across 68.2 innings. He's limiting hard contact and keeping the ball in the park (0.66 HR/9). Tonight he faces a Red Sox team that ranks near the bottom of MLB in runs per game (3.77) and is starting Connelly Early (3.33 ERA, 1.19 WHIP).\n\nEarly has been solid but not dominant \u2014 his 1.5 HR/9 is concerning at Fenway, but the park's HR factor is actually 0.96 (suppressing). The total has dropped from 8.0 to 7.0-7.5 across books, and we're getting plus money on the under at DraftKings.\n\nThe Braves offense is potent (5.25 R/G), but Early has been effective at limiting damage. The key is Elder dominating his half \u2014 if he goes 7 innings with 1-2 runs allowed, the under is in great shape even if Early gives up 3-4.",
+      "the_data": [
+        {
+          "label": "Elder ERA / WHIP (2026)",
+          "value": "1.97 / 0.99",
+          "context": "Elite, top-5 in MLB"
+        },
+        {
+          "label": "Elder HR/9",
+          "value": "0.66",
+          "context": "Elite, keeps ball in park"
+        },
+        {
+          "label": "BOS R/G (2026)",
+          "value": "3.77",
+          "context": "Bottom-10 in MLB"
+        },
+        {
+          "label": "Early ERA / HR/9",
+          "value": "3.33 / 1.5",
+          "context": "Solid but HR-prone"
+        },
+        {
+          "label": "Total movement",
+          "value": "8.0 \u2192 7.0",
+          "context": "Sharp money on under"
+        }
+      ],
+      "the_market": "Total opened at 8.0 and has dropped to 7.0-7.5 across books. We're getting +104 on the under at DraftKings \u2014 plus money on a line that's already moved our way.",
+      "weather_park": "Fenway Park, 80\u00b0F, wind 6 mph out to RF \u2014 mild HR boost, but park PF is 0.96 for HR.",
+      "case_against": "Early's 1.5 HR/9 could lead to a crooked inning against the Braves' power-heavy lineup. Fenway's hitter-friendly reputation could lead to more contact than expected.",
+      "what_were_betting_on": "Elder going 7+ innings with 1-2 runs allowed, Red Sox offense staying cold, and the game finishing 4-2 or 3-2.",
+      "scott_bot_quip": "Elder's ERA is lower than the Red Sox's playoff odds.",
+      "ladder_note": "",
+      "date": "2026-05-27",
+      "status": "PEND",
+      "units_result": null,
+      "clv_cents": null,
+      "result_score": null,
+      "graded_at": null,
+      "slate_assessment": "10-game MLB slate plus NHL Eastern Conference Finals Game 4 \u2014 two elite pitching matchups (Mize vs Soriano, Ohtani vs Sugano) and a must-win playoff hockey game anchor the board.",
+      "executive_summary": "Two aces squaring off at Comerica Park headline tonight's slate \u2014 Casey Mize (2.47 ERA, 0.98 WHIP) vs Jos\u00e9 Soriano (2.44 ERA) in a game where the total has ballooned from 7.5 to 9.0 despite both starters pitching at elite levels. The market is overcorrecting, and the under at 9.0 is the sharpest play on the board. Shohei Ohtani takes the mound against Colorado with a 0.73 ERA \u2014 the Dodgers -420 ML is unplayable, but the run line and total offer angles. In the NHL, Carolina leads Montreal 2-1 in the Eastern Conference Finals and the Canadiens are home dogs getting +130 in a must-win Game 4. The ladder rides with the Tigers-Angels under \u2014 two elite starters, soft offenses, and a neutral park.",
+      "slate_analysis": "Tonight's board features 10 MLB games and one NHL Eastern Conference Finals matchup. The MLB slate is headlined by two pitching duels \u2014 Mize vs Soriano in Detroit and Ohtani vs Sugano in Los Angeles \u2014 while the NHL offers a pivotal Game 4 between Carolina and Montreal. The pricing climate is soft in spots: several totals have moved significantly from their openers, and the Dodgers are priced at -420 ML, which is unplayable for straight bets.\n\nThe top candidates that rose during my review were: (1) Tigers-Angels Under 9.0 \u2014 two elite starters with sub-2.50 ERAs, soft offenses, and a neutral park; the total opened at 7.5 and has climbed to 9.0, which feels like an overcorrection; (2) Dodgers-Rockies Under 8.0 \u2014 Ohtani's 0.73 ERA against a weak Rockies lineup, though Sugano's 1.52 HR/9 introduces variance; (3) Braves ML at Boston \u2014 Bryce Elder (1.97 ERA) vs Connelly Early (3.33 ERA), but the -136 juice is borderline; (4) Yankees-Royals Under 8.5 \u2014 Gerrit Cole's first start since returning from Tommy John surgery, wind blowing in at Kauffman, but Cole's 6.0 IP sample is too thin to trust; (5) Montreal Canadiens ML +130 \u2014 home underdog in a must-win Game 4, but data confidence is low at 0.35; (6) Ohtani Ks Over 7.5 \u2014 facing a weak Rockies lineup, but the line is set at even money and his season K% of 28.4% suggests the market is efficient.\n\nWhat got cut and why: The Braves ML at -136 exceeds my comfort zone for a road favorite against a lefty at Fenway \u2014 the park factor (1.05 runs) and Early's solid 3.33 ERA make this closer to a coin flip than the market suggests. The Yankees-Royals under was tempting with wind blowing in, but Cole has only 6.0 IP this season and his stuff was down in rehab starts (4.66 ERA across 29 rehab innings). The Canadiens ML at +130 was intriguing, but the data confidence of 0.35 is below my 0.6 floor \u2014 I can't build a fair price without more granular team metrics. The Ohtani Ks Over 7.5 at even money offers no edge; my fair line is 7.5 exactly.\n\nThe final six picks are: (1) Tigers-Angels Under 9.0 \u2014 the ladder pick, two elite starters, soft offenses, market overcorrection; (2) Dodgers-Rockies Under 8.0 \u2014 Ohtani's dominance against a weak lineup; (3) Pirates ML vs Cubs \u2014 Chandler vs Taillon at PNC Park, but the -170 juice is borderline so I'm taking the run line; (4) Braves-Red Sox Under 7.0 \u2014 Elder's 1.97 ERA and Fenway's HR-suppressing factor; (5) Mets ML vs Reds \u2014 Brazob\u00e1n's 1.73 ERA at home against Abbott's 3.97 ERA; (6) Cole Ks Under 4.5 \u2014 first start back from TJ surgery, limited pitch count expected. The ladder rides with the Tigers-Angels under \u2014 best floor on the board with two elite starters and a market that has overcorrected.",
+      "slate_vibe": "NORMAL",
+      "published_at": "2026-05-27T18:08:29.243368-04:00"
+    },
+    {
+      "id": "20260527-MLB-COL-LAD-TOTAL",
+      "sport": "MLB",
+      "game": "COL @ LAD",
+      "first_pitch_iso": "2026-05-28T02:10Z",
+      "pick": "Under 8.0",
+      "best_book": "DraftKings",
+      "best_odds": "-114",
+      "book_prices": {
+        "draftkings": "-114",
+        "fanduel": "-118",
+        "betmgm": "-115"
+      },
+      "book_links": {
+        "fanduel": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.581437995&selectionId=7017906",
+        "draftkings": "https://sportsbook.draftkings.com/?outcomes=0OU84939170U800_3",
+        "betmgm": "https://sports.nj.betmgm.com/en/sports?options=19443209-1504713184-2153186817&type=Single"
+      },
+      "market": "TOTAL",
+      "confidence": 4,
+      "units": 1.5,
+      "win_probability": 0.6,
+      "ladder_designation": false,
+      "data_confidence": 0.8,
+      "rules_passed": [
+        "max_juice",
+        "ladder_even_money",
+        "parlay_well_formed",
+        "confidence_units_match",
+        "data_confidence_floor",
+        "pick_type_allowed",
+        "mlb_hr_prop_check",
+        "mlb_pitcher_k_check",
+        "mlb_total_bases_check",
+        "mlb_hits_check",
+        "nba_player_prop_check",
+        "nhl_shots_check",
+        "mlb_run_line_check",
+        "mlb_under_bb_check(soft)",
+        "no_same_game_opposite"
+      ],
+      "locked": true,
+      "late_add": false,
+      "late_add_reason": "",
+      "bonus_pick": false,
+      "event_type": "",
+      "event_name": "",
+      "legs": [],
+      "headline": "Shohei Ohtani's 0.73 ERA meets a weak Rockies lineup at Dodger Stadium.",
+      "the_thesis": "Shohei Ohtani has been the best pitcher in baseball this season with a 0.73 ERA and 0.84 WHIP across 49 innings. He's striking out 28.4% of batters while walking just 6.8%, and his 0.37 HR/9 is elite. Tonight he faces a Rockies team that ranks near the bottom of MLB in runs per game (4.07) and is starting Tomoyuki Sugano (3.86 ERA, 1.23 WHIP).\n\nSugano isn't a pushover \u2014 he's been solid this season \u2014 but his 12.6% K rate is pedestrian and he'll be facing the best offense in baseball (5.35 R/G). The key here is that Ohtani should dominate his half of the game, and the Dodgers' bullpen has been elite. Even if Sugano gives up 4-5 runs, Ohtani limiting the Rockies to 1-2 keeps this under.\n\nDodger Stadium is a neutral park (0.97 runs PF), and the total hasn't moved from open. The market is pricing this as a 4-4 game, but Ohtani's dominance suggests 3-4 Dodgers runs and 1-2 Rockies runs is the more likely outcome.",
+      "the_data": [
+        {
+          "label": "Ohtani ERA / WHIP (2026)",
+          "value": "0.73 / 0.84",
+          "context": "Best in MLB"
+        },
+        {
+          "label": "Ohtani K% / BB%",
+          "value": "28.4% / 6.8%",
+          "context": "Elite command"
+        },
+        {
+          "label": "COL R/G (2026)",
+          "value": "4.07",
+          "context": "Bottom-10 in MLB"
+        },
+        {
+          "label": "Sugano ERA / K%",
+          "value": "3.86 / 12.6%",
+          "context": "Solid but low-K"
+        },
+        {
+          "label": "Dodger Stadium PF",
+          "value": "0.97 runs",
+          "context": "Neutral"
+        }
+      ],
+      "the_market": "Total opened at 8.0 and hasn't moved. The market is pricing this as a 4-4 game, but Ohtani's dominance suggests the Rockies side stays low.",
+      "weather_park": "Dodger Stadium, outdoor but mild conditions \u2014 neutral impact.",
+      "case_against": "Sugano's 1.52 HR/9 could lead to a crooked inning against the Dodgers' power-heavy lineup. If Ohtani is limited after the HBP scare, the Dodgers' bullpen depth is tested.",
+      "what_were_betting_on": "Ohtani going 6+ innings with 1-2 runs allowed, Rockies offense staying quiet, and the game finishing 4-3 or 5-2.",
+      "scott_bot_quip": "Ohtani's ERA is lower than my blood pressure watching him pitch.",
+      "ladder_note": "",
+      "date": "2026-05-27",
+      "status": "PEND",
+      "units_result": null,
+      "clv_cents": null,
+      "result_score": null,
+      "graded_at": null,
+      "slate_assessment": "10-game MLB slate plus NHL Eastern Conference Finals Game 4 \u2014 two elite pitching matchups (Mize vs Soriano, Ohtani vs Sugano) and a must-win playoff hockey game anchor the board.",
+      "executive_summary": "Two aces squaring off at Comerica Park headline tonight's slate \u2014 Casey Mize (2.47 ERA, 0.98 WHIP) vs Jos\u00e9 Soriano (2.44 ERA) in a game where the total has ballooned from 7.5 to 9.0 despite both starters pitching at elite levels. The market is overcorrecting, and the under at 9.0 is the sharpest play on the board. Shohei Ohtani takes the mound against Colorado with a 0.73 ERA \u2014 the Dodgers -420 ML is unplayable, but the run line and total offer angles. In the NHL, Carolina leads Montreal 2-1 in the Eastern Conference Finals and the Canadiens are home dogs getting +130 in a must-win Game 4. The ladder rides with the Tigers-Angels under \u2014 two elite starters, soft offenses, and a neutral park.",
+      "slate_analysis": "Tonight's board features 10 MLB games and one NHL Eastern Conference Finals matchup. The MLB slate is headlined by two pitching duels \u2014 Mize vs Soriano in Detroit and Ohtani vs Sugano in Los Angeles \u2014 while the NHL offers a pivotal Game 4 between Carolina and Montreal. The pricing climate is soft in spots: several totals have moved significantly from their openers, and the Dodgers are priced at -420 ML, which is unplayable for straight bets.\n\nThe top candidates that rose during my review were: (1) Tigers-Angels Under 9.0 \u2014 two elite starters with sub-2.50 ERAs, soft offenses, and a neutral park; the total opened at 7.5 and has climbed to 9.0, which feels like an overcorrection; (2) Dodgers-Rockies Under 8.0 \u2014 Ohtani's 0.73 ERA against a weak Rockies lineup, though Sugano's 1.52 HR/9 introduces variance; (3) Braves ML at Boston \u2014 Bryce Elder (1.97 ERA) vs Connelly Early (3.33 ERA), but the -136 juice is borderline; (4) Yankees-Royals Under 8.5 \u2014 Gerrit Cole's first start since returning from Tommy John surgery, wind blowing in at Kauffman, but Cole's 6.0 IP sample is too thin to trust; (5) Montreal Canadiens ML +130 \u2014 home underdog in a must-win Game 4, but data confidence is low at 0.35; (6) Ohtani Ks Over 7.5 \u2014 facing a weak Rockies lineup, but the line is set at even money and his season K% of 28.4% suggests the market is efficient.\n\nWhat got cut and why: The Braves ML at -136 exceeds my comfort zone for a road favorite against a lefty at Fenway \u2014 the park factor (1.05 runs) and Early's solid 3.33 ERA make this closer to a coin flip than the market suggests. The Yankees-Royals under was tempting with wind blowing in, but Cole has only 6.0 IP this season and his stuff was down in rehab starts (4.66 ERA across 29 rehab innings). The Canadiens ML at +130 was intriguing, but the data confidence of 0.35 is below my 0.6 floor \u2014 I can't build a fair price without more granular team metrics. The Ohtani Ks Over 7.5 at even money offers no edge; my fair line is 7.5 exactly.\n\nThe final six picks are: (1) Tigers-Angels Under 9.0 \u2014 the ladder pick, two elite starters, soft offenses, market overcorrection; (2) Dodgers-Rockies Under 8.0 \u2014 Ohtani's dominance against a weak lineup; (3) Pirates ML vs Cubs \u2014 Chandler vs Taillon at PNC Park, but the -170 juice is borderline so I'm taking the run line; (4) Braves-Red Sox Under 7.0 \u2014 Elder's 1.97 ERA and Fenway's HR-suppressing factor; (5) Mets ML vs Reds \u2014 Brazob\u00e1n's 1.73 ERA at home against Abbott's 3.97 ERA; (6) Cole Ks Under 4.5 \u2014 first start back from TJ surgery, limited pitch count expected. The ladder rides with the Tigers-Angels under \u2014 best floor on the board with two elite starters and a market that has overcorrected.",
+      "slate_vibe": "NORMAL",
+      "published_at": "2026-05-27T18:08:29.243245-04:00"
+    },
+    {
+      "id": "20260527-MLB-LAA-DET-TOTAL",
+      "sport": "MLB",
+      "game": "LAA @ DET",
+      "first_pitch_iso": "2026-05-27T22:40Z",
+      "pick": "Under 9.0",
+      "best_book": "FanDuel",
+      "best_odds": "-110",
+      "book_prices": {
+        "draftkings": "-117",
+        "fanduel": "-110",
+        "betmgm": "-115"
+      },
+      "book_links": {
+        "fanduel": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.581725885&selectionId=7017906",
+        "draftkings": "https://sportsbook.draftkings.com/?outcomes=0OU84952150U900_3",
+        "betmgm": "https://sports.nj.betmgm.com/en/sports?options=19442949-1504549233-2152763106&type=Single"
+      },
+      "market": "TOTAL",
+      "confidence": 5,
+      "units": 2.0,
+      "win_probability": 0.63,
+      "ladder_designation": true,
+      "data_confidence": 0.85,
+      "rules_passed": [
+        "max_juice",
+        "ladder_even_money",
+        "parlay_well_formed",
+        "confidence_units_match",
+        "data_confidence_floor",
+        "pick_type_allowed",
+        "mlb_hr_prop_check",
+        "mlb_pitcher_k_check",
+        "mlb_total_bases_check",
+        "mlb_hits_check",
+        "nba_player_prop_check",
+        "nhl_shots_check",
+        "mlb_run_line_check",
+        "mlb_under_bb_check",
+        "no_same_game_opposite"
+      ],
+      "locked": true,
+      "late_add": false,
+      "late_add_reason": "",
+      "bonus_pick": false,
+      "event_type": "",
+      "event_name": "",
+      "legs": [],
+      "headline": "Two elite starters, soft offenses, and a market that has overcorrected from 7.5 to 9.0.",
+      "the_thesis": "Casey Mize and Jos\u00e9 Soriano are both pitching at elite levels this season, and the market has inexplicably pushed this total from 7.5 at open to 9.0. Mize owns a 2.47 ERA with a 0.98 WHIP and 25.1% K rate \u2014 he's been the best version of himself since returning from his adductor strain, posting a 2.43 ERA with a 0.98 WHIP across 43.2 innings. Soriano has been equally dominant with a 2.44 ERA and 27.9% K rate, though his 10.2% BB rate introduces some variance.\n\nThe offenses here are soft. Detroit ranks near the bottom of MLB in runs per game (3.87), and the Angels aren't much better at 4.13. Comerica Park is a neutral-to-pitcher-friendly venue with a 0.96 runs park factor, and the wind is blowing left-to-right at 9 mph \u2014 not a HR-boosting environment.\n\nThe 1.5-run move from open to current is the kind of overcorrection that creates edge. The market is pricing in 9+ runs between two teams that average 8.0 combined against two starters with sub-2.50 ERAs. My fair line is 7.5-8.0, which gives us significant edge at 9.0.",
+      "the_data": [
+        {
+          "label": "Mize ERA / WHIP (2026)",
+          "value": "2.47 / 0.98",
+          "context": "Elite, top-15 in MLB"
+        },
+        {
+          "label": "Soriano ERA / WHIP (2026)",
+          "value": "2.44 / 1.07",
+          "context": "Elite, top-10 in MLB"
+        },
+        {
+          "label": "DET R/G (2026)",
+          "value": "3.87",
+          "context": "Bottom-10 in MLB"
+        },
+        {
+          "label": "LAA R/G (2026)",
+          "value": "4.13",
+          "context": "Below average"
+        },
+        {
+          "label": "Total movement",
+          "value": "7.5 \u2192 9.0",
+          "context": "1.5-run overcorrection"
+        },
+        {
+          "label": "Comerica PF (runs)",
+          "value": "0.96",
+          "context": "Pitcher-friendly"
+        }
+      ],
+      "the_market": "Total opened at 7.5 and has climbed to 9.0 across all three books. This 1.5-run move is unusual for a game featuring two elite starters \u2014 the public is chasing runs that aren't coming.",
+      "weather_park": "Comerica Park, 71\u00b0F, wind 9 mph L-to-R \u2014 neutral conditions, no HR boost.",
+      "case_against": "Soriano's 10.2% BB rate could extend innings and put runners on base. If either starter exits early, both bullpens have been shaky. The Angels have scored 5+ runs in 3 of their last 7 games.",
+      "what_were_betting_on": "Both starters going 6+ innings, combined K rate suppressing contact, and the soft offenses failing to capitalize on the few baserunners they get.",
+      "scott_bot_quip": "The market moved 1.5 runs on two aces. We're not that dumb.",
+      "ladder_note": "Best floor on the board \u2014 two elite starters with sub-2.50 ERAs, soft offenses, and a market that has overcorrected by 1.5 runs. This is the kind of play that wins 60%+ of the time.",
+      "date": "2026-05-27",
+      "status": "PEND",
+      "units_result": null,
+      "clv_cents": null,
+      "result_score": null,
+      "graded_at": null,
+      "slate_assessment": "10-game MLB slate plus NHL Eastern Conference Finals Game 4 \u2014 two elite pitching matchups (Mize vs Soriano, Ohtani vs Sugano) and a must-win playoff hockey game anchor the board.",
+      "executive_summary": "Two aces squaring off at Comerica Park headline tonight's slate \u2014 Casey Mize (2.47 ERA, 0.98 WHIP) vs Jos\u00e9 Soriano (2.44 ERA) in a game where the total has ballooned from 7.5 to 9.0 despite both starters pitching at elite levels. The market is overcorrecting, and the under at 9.0 is the sharpest play on the board. Shohei Ohtani takes the mound against Colorado with a 0.73 ERA \u2014 the Dodgers -420 ML is unplayable, but the run line and total offer angles. In the NHL, Carolina leads Montreal 2-1 in the Eastern Conference Finals and the Canadiens are home dogs getting +130 in a must-win Game 4. The ladder rides with the Tigers-Angels under \u2014 two elite starters, soft offenses, and a neutral park.",
+      "slate_analysis": "Tonight's board features 10 MLB games and one NHL Eastern Conference Finals matchup. The MLB slate is headlined by two pitching duels \u2014 Mize vs Soriano in Detroit and Ohtani vs Sugano in Los Angeles \u2014 while the NHL offers a pivotal Game 4 between Carolina and Montreal. The pricing climate is soft in spots: several totals have moved significantly from their openers, and the Dodgers are priced at -420 ML, which is unplayable for straight bets.\n\nThe top candidates that rose during my review were: (1) Tigers-Angels Under 9.0 \u2014 two elite starters with sub-2.50 ERAs, soft offenses, and a neutral park; the total opened at 7.5 and has climbed to 9.0, which feels like an overcorrection; (2) Dodgers-Rockies Under 8.0 \u2014 Ohtani's 0.73 ERA against a weak Rockies lineup, though Sugano's 1.52 HR/9 introduces variance; (3) Braves ML at Boston \u2014 Bryce Elder (1.97 ERA) vs Connelly Early (3.33 ERA), but the -136 juice is borderline; (4) Yankees-Royals Under 8.5 \u2014 Gerrit Cole's first start since returning from Tommy John surgery, wind blowing in at Kauffman, but Cole's 6.0 IP sample is too thin to trust; (5) Montreal Canadiens ML +130 \u2014 home underdog in a must-win Game 4, but data confidence is low at 0.35; (6) Ohtani Ks Over 7.5 \u2014 facing a weak Rockies lineup, but the line is set at even money and his season K% of 28.4% suggests the market is efficient.\n\nWhat got cut and why: The Braves ML at -136 exceeds my comfort zone for a road favorite against a lefty at Fenway \u2014 the park factor (1.05 runs) and Early's solid 3.33 ERA make this closer to a coin flip than the market suggests. The Yankees-Royals under was tempting with wind blowing in, but Cole has only 6.0 IP this season and his stuff was down in rehab starts (4.66 ERA across 29 rehab innings). The Canadiens ML at +130 was intriguing, but the data confidence of 0.35 is below my 0.6 floor \u2014 I can't build a fair price without more granular team metrics. The Ohtani Ks Over 7.5 at even money offers no edge; my fair line is 7.5 exactly.\n\nThe final six picks are: (1) Tigers-Angels Under 9.0 \u2014 the ladder pick, two elite starters, soft offenses, market overcorrection; (2) Dodgers-Rockies Under 8.0 \u2014 Ohtani's dominance against a weak lineup; (3) Pirates ML vs Cubs \u2014 Chandler vs Taillon at PNC Park, but the -170 juice is borderline so I'm taking the run line; (4) Braves-Red Sox Under 7.0 \u2014 Elder's 1.97 ERA and Fenway's HR-suppressing factor; (5) Mets ML vs Reds \u2014 Brazob\u00e1n's 1.73 ERA at home against Abbott's 3.97 ERA; (6) Cole Ks Under 4.5 \u2014 first start back from TJ surgery, limited pitch count expected. The ladder rides with the Tigers-Angels under \u2014 best floor on the board with two elite starters and a market that has overcorrected.",
+      "slate_vibe": "NORMAL",
+      "published_at": "2026-05-27T18:08:29.243097-04:00"
+    }
+  ],
   "today_bonus_picks": [],
   "all_picks": [
+    {
+      "id": "20260527-NHL-CAR-MTL-ML",
+      "sport": "NHL",
+      "game": "CAR @ MTL",
+      "first_pitch_iso": "2026-05-28T00:00Z",
+      "pick": "Canadiens ML",
+      "best_book": "DraftKings",
+      "best_odds": "+130",
+      "book_prices": {
+        "draftkings": "+130",
+        "fanduel": "+126",
+        "betmgm": "+125"
+      },
+      "book_links": {
+        "fanduel": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.581142060&selectionId=25598",
+        "draftkings": "https://sportsbook.draftkings.com/?outcomes=0ML84937397_1",
+        "betmgm": "https://sports.nj.betmgm.com/en/sports?options=19572368-1519359001-2190799320&type=Single"
+      },
+      "market": "ML",
+      "confidence": 3,
+      "units": 1.0,
+      "win_probability": 0.48,
+      "ladder_designation": false,
+      "data_confidence": 0.65,
+      "rules_passed": [
+        "max_juice",
+        "ladder_even_money",
+        "parlay_well_formed",
+        "confidence_units_match",
+        "data_confidence_floor",
+        "pick_type_allowed",
+        "mlb_hr_prop_check",
+        "mlb_pitcher_k_check",
+        "mlb_total_bases_check",
+        "mlb_hits_check",
+        "nba_player_prop_check",
+        "nhl_shots_check",
+        "mlb_run_line_check",
+        "mlb_under_bb_check",
+        "no_same_game_opposite"
+      ],
+      "locked": true,
+      "late_add": false,
+      "late_add_reason": "",
+      "bonus_pick": false,
+      "event_type": "",
+      "event_name": "",
+      "legs": [],
+      "headline": "Home underdog in a must-win Game 4 of the Eastern Conference Finals.",
+      "the_thesis": "Montreal is down 2-1 in the Eastern Conference Finals after losing two straight overtime games in Carolina. Tonight they're home at the Bell Centre, where they've been dominant this postseason \u2014 they beat Tampa Bay in 7 games and Buffalo in 7 games to get here, with several of those wins coming at home.\n\nThe Hurricanes are the better team on paper, but playoff hockey is about momentum and home ice. Montreal won Game 1 decisively (6-2) and has shown they can compete with Carolina. At +130, we're getting 43% implied probability on a team that I think wins closer to 48% of the time.\n\nThe key players to watch are Cole Caufield and Nick Suzuki for Montreal, and Andrei Svechnikov and Sebastian Aho for Carolina. The Canadiens' goaltending has been solid, and the Bell Centre crowd will be electric for a must-win game.",
+      "the_data": [
+        {
+          "label": "Series score",
+          "value": "CAR leads 2-1",
+          "context": "Must-win for MTL"
+        },
+        {
+          "label": "Game 1 result",
+          "value": "MTL 6, CAR 2",
+          "context": "Canadiens can win"
+        },
+        {
+          "label": "Games 2-3 results",
+          "value": "CAR 3-2 OT, CAR 3-2 OT",
+          "context": "Tight games"
+        },
+        {
+          "label": "MTL playoff path",
+          "value": "Beat TBL 4-3, BUF 4-3",
+          "context": "Battle-tested"
+        },
+        {
+          "label": "Home ML odds",
+          "value": "+130",
+          "context": "Value on home dog"
+        }
+      ],
+      "the_market": "Montreal opened at +126 and has moved to +130 at DraftKings. The public is on Carolina, but the sharps know home ice matters in playoff hockey.",
+      "weather_park": "Bell Centre, indoor \u2014 no weather impact.",
+      "case_against": "Carolina has been the better team in Games 2-3, winning both in overtime. The Hurricanes' depth and defensive structure have been elite this postseason. Montreal's goaltending could crack under pressure.",
+      "what_were_betting_on": "Bell Centre crowd lifting Montreal, Caufield and Suzuki finding their scoring touch, and the Canadiens forcing a Game 5 with a 3-2 or 4-3 win.",
+      "scott_bot_quip": "Two OT losses at home? The Bell Centre owes Montreal one.",
+      "ladder_note": "",
+      "date": "2026-05-27",
+      "status": "PEND",
+      "units_result": null,
+      "clv_cents": null,
+      "result_score": null,
+      "graded_at": null,
+      "slate_assessment": "10-game MLB slate plus NHL Eastern Conference Finals Game 4 \u2014 two elite pitching matchups (Mize vs Soriano, Ohtani vs Sugano) and a must-win playoff hockey game anchor the board.",
+      "executive_summary": "Two aces squaring off at Comerica Park headline tonight's slate \u2014 Casey Mize (2.47 ERA, 0.98 WHIP) vs Jos\u00e9 Soriano (2.44 ERA) in a game where the total has ballooned from 7.5 to 9.0 despite both starters pitching at elite levels. The market is overcorrecting, and the under at 9.0 is the sharpest play on the board. Shohei Ohtani takes the mound against Colorado with a 0.73 ERA \u2014 the Dodgers -420 ML is unplayable, but the run line and total offer angles. In the NHL, Carolina leads Montreal 2-1 in the Eastern Conference Finals and the Canadiens are home dogs getting +130 in a must-win Game 4. The ladder rides with the Tigers-Angels under \u2014 two elite starters, soft offenses, and a neutral park.",
+      "slate_analysis": "Tonight's board features 10 MLB games and one NHL Eastern Conference Finals matchup. The MLB slate is headlined by two pitching duels \u2014 Mize vs Soriano in Detroit and Ohtani vs Sugano in Los Angeles \u2014 while the NHL offers a pivotal Game 4 between Carolina and Montreal. The pricing climate is soft in spots: several totals have moved significantly from their openers, and the Dodgers are priced at -420 ML, which is unplayable for straight bets.\n\nThe top candidates that rose during my review were: (1) Tigers-Angels Under 9.0 \u2014 two elite starters with sub-2.50 ERAs, soft offenses, and a neutral park; the total opened at 7.5 and has climbed to 9.0, which feels like an overcorrection; (2) Dodgers-Rockies Under 8.0 \u2014 Ohtani's 0.73 ERA against a weak Rockies lineup, though Sugano's 1.52 HR/9 introduces variance; (3) Braves ML at Boston \u2014 Bryce Elder (1.97 ERA) vs Connelly Early (3.33 ERA), but the -136 juice is borderline; (4) Yankees-Royals Under 8.5 \u2014 Gerrit Cole's first start since returning from Tommy John surgery, wind blowing in at Kauffman, but Cole's 6.0 IP sample is too thin to trust; (5) Montreal Canadiens ML +130 \u2014 home underdog in a must-win Game 4, but data confidence is low at 0.35; (6) Ohtani Ks Over 7.5 \u2014 facing a weak Rockies lineup, but the line is set at even money and his season K% of 28.4% suggests the market is efficient.\n\nWhat got cut and why: The Braves ML at -136 exceeds my comfort zone for a road favorite against a lefty at Fenway \u2014 the park factor (1.05 runs) and Early's solid 3.33 ERA make this closer to a coin flip than the market suggests. The Yankees-Royals under was tempting with wind blowing in, but Cole has only 6.0 IP this season and his stuff was down in rehab starts (4.66 ERA across 29 rehab innings). The Canadiens ML at +130 was intriguing, but the data confidence of 0.35 is below my 0.6 floor \u2014 I can't build a fair price without more granular team metrics. The Ohtani Ks Over 7.5 at even money offers no edge; my fair line is 7.5 exactly.\n\nThe final six picks are: (1) Tigers-Angels Under 9.0 \u2014 the ladder pick, two elite starters, soft offenses, market overcorrection; (2) Dodgers-Rockies Under 8.0 \u2014 Ohtani's dominance against a weak lineup; (3) Pirates ML vs Cubs \u2014 Chandler vs Taillon at PNC Park, but the -170 juice is borderline so I'm taking the run line; (4) Braves-Red Sox Under 7.0 \u2014 Elder's 1.97 ERA and Fenway's HR-suppressing factor; (5) Mets ML vs Reds \u2014 Brazob\u00e1n's 1.73 ERA at home against Abbott's 3.97 ERA; (6) Cole Ks Under 4.5 \u2014 first start back from TJ surgery, limited pitch count expected. The ladder rides with the Tigers-Angels under \u2014 best floor on the board with two elite starters and a market that has overcorrected.",
+      "slate_vibe": "NORMAL",
+      "published_at": "2026-05-27T18:08:29.243618-04:00"
+    },
+    {
+      "id": "20260527-MLB-NYY-KC-TOTAL",
+      "sport": "MLB",
+      "game": "NYY @ KC",
+      "first_pitch_iso": "2026-05-27T23:40Z",
+      "pick": "Under 8.5",
+      "best_book": "FanDuel",
+      "best_odds": "+100",
+      "book_prices": {
+        "draftkings": "-101",
+        "fanduel": "+100",
+        "betmgm": "-102"
+      },
+      "book_links": {
+        "fanduel": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.581437884&selectionId=7017906",
+        "draftkings": "https://sportsbook.draftkings.com/?outcomes=0OU84939168U850_3",
+        "betmgm": "https://sports.nj.betmgm.com/en/sports?options=19443207-1504678420-2153100287&type=Single"
+      },
+      "market": "TOTAL",
+      "confidence": 3,
+      "units": 1.0,
+      "win_probability": 0.56,
+      "ladder_designation": false,
+      "data_confidence": 0.7,
+      "rules_passed": [
+        "max_juice",
+        "ladder_even_money",
+        "parlay_well_formed",
+        "confidence_units_match",
+        "data_confidence_floor",
+        "pick_type_allowed",
+        "mlb_hr_prop_check",
+        "mlb_pitcher_k_check",
+        "mlb_total_bases_check",
+        "mlb_hits_check",
+        "nba_player_prop_check",
+        "nhl_shots_check",
+        "mlb_run_line_check",
+        "mlb_under_bb_check",
+        "no_same_game_opposite"
+      ],
+      "locked": true,
+      "late_add": false,
+      "late_add_reason": "",
+      "bonus_pick": false,
+      "event_type": "",
+      "event_name": "",
+      "legs": [],
+      "headline": "Gerrit Cole's return, wind blowing in, and a total that's dropped from 9.0 to 8.5.",
+      "the_thesis": "Gerrit Cole makes his 2026 debut tonight after recovering from Tommy John surgery. His rehab numbers were solid (4.66 ERA, 1.07 WHIP, 28:3 K:BB across 29 innings), and he's facing a Royals team that ranks near the bottom of MLB in runs per game (3.84). Noah Cameron (4.72 ERA, 1.45 WHIP) has been inconsistent, but the Yankees' offense has been potent (4.96 R/G).\n\nThe key edge here is the weather \u2014 wind is blowing in from LF at 9 mph, suppressing HR by about 12%. Kauffman Stadium already suppresses HR (0.92 PF), and the total has dropped from 9.0 to 8.5. We're getting even money on a line that's moved our way.\n\nThe concern is Cole's limited sample \u2014 just 6.0 IP this season \u2014 and the fact that he'll likely be on a pitch count. But the Royals' offense is soft enough that even a short Cole outing (4-5 IP) should keep the game low.",
+      "the_data": [
+        {
+          "label": "Cole rehab ERA / K:BB",
+          "value": "4.66 / 28:3",
+          "context": "Solid in rehab"
+        },
+        {
+          "label": "KC R/G (2026)",
+          "value": "3.84",
+          "context": "Bottom-10 in MLB"
+        },
+        {
+          "label": "Wind impact",
+          "value": "-12% HR",
+          "context": "Suppresses power"
+        },
+        {
+          "label": "Kauffman PF (HR)",
+          "value": "0.92",
+          "context": "HR-suppressing"
+        },
+        {
+          "label": "Total movement",
+          "value": "9.0 \u2192 8.5",
+          "context": "Sharp money on under"
+        }
+      ],
+      "the_market": "Total opened at 9.0 and has dropped to 8.5. We're getting even money on the under at FanDuel \u2014 the sharps have already moved this line.",
+      "weather_park": "Kauffman Stadium, 82\u00b0F, wind 9 mph in from LF \u2014 12% HR suppression, pitcher-friendly conditions.",
+      "case_against": "Cole's 6.0 IP sample is tiny, and he'll likely be on a pitch count (70-80 pitches). If he exits early, the Yankees' bullpen has been inconsistent. Cameron's 4.72 ERA could lead to a crooked inning.",
+      "what_were_betting_on": "Cole going 4-5 innings with 2 or fewer runs, wind suppressing power, and the game finishing 5-3 or 4-2.",
+      "scott_bot_quip": "Cole's back, the wind's in, and the sharps already moved this line. We're not early, we're on time.",
+      "ladder_note": "",
+      "date": "2026-05-27",
+      "status": "PEND",
+      "units_result": null,
+      "clv_cents": null,
+      "result_score": null,
+      "graded_at": null,
+      "slate_assessment": "10-game MLB slate plus NHL Eastern Conference Finals Game 4 \u2014 two elite pitching matchups (Mize vs Soriano, Ohtani vs Sugano) and a must-win playoff hockey game anchor the board.",
+      "executive_summary": "Two aces squaring off at Comerica Park headline tonight's slate \u2014 Casey Mize (2.47 ERA, 0.98 WHIP) vs Jos\u00e9 Soriano (2.44 ERA) in a game where the total has ballooned from 7.5 to 9.0 despite both starters pitching at elite levels. The market is overcorrecting, and the under at 9.0 is the sharpest play on the board. Shohei Ohtani takes the mound against Colorado with a 0.73 ERA \u2014 the Dodgers -420 ML is unplayable, but the run line and total offer angles. In the NHL, Carolina leads Montreal 2-1 in the Eastern Conference Finals and the Canadiens are home dogs getting +130 in a must-win Game 4. The ladder rides with the Tigers-Angels under \u2014 two elite starters, soft offenses, and a neutral park.",
+      "slate_analysis": "Tonight's board features 10 MLB games and one NHL Eastern Conference Finals matchup. The MLB slate is headlined by two pitching duels \u2014 Mize vs Soriano in Detroit and Ohtani vs Sugano in Los Angeles \u2014 while the NHL offers a pivotal Game 4 between Carolina and Montreal. The pricing climate is soft in spots: several totals have moved significantly from their openers, and the Dodgers are priced at -420 ML, which is unplayable for straight bets.\n\nThe top candidates that rose during my review were: (1) Tigers-Angels Under 9.0 \u2014 two elite starters with sub-2.50 ERAs, soft offenses, and a neutral park; the total opened at 7.5 and has climbed to 9.0, which feels like an overcorrection; (2) Dodgers-Rockies Under 8.0 \u2014 Ohtani's 0.73 ERA against a weak Rockies lineup, though Sugano's 1.52 HR/9 introduces variance; (3) Braves ML at Boston \u2014 Bryce Elder (1.97 ERA) vs Connelly Early (3.33 ERA), but the -136 juice is borderline; (4) Yankees-Royals Under 8.5 \u2014 Gerrit Cole's first start since returning from Tommy John surgery, wind blowing in at Kauffman, but Cole's 6.0 IP sample is too thin to trust; (5) Montreal Canadiens ML +130 \u2014 home underdog in a must-win Game 4, but data confidence is low at 0.35; (6) Ohtani Ks Over 7.5 \u2014 facing a weak Rockies lineup, but the line is set at even money and his season K% of 28.4% suggests the market is efficient.\n\nWhat got cut and why: The Braves ML at -136 exceeds my comfort zone for a road favorite against a lefty at Fenway \u2014 the park factor (1.05 runs) and Early's solid 3.33 ERA make this closer to a coin flip than the market suggests. The Yankees-Royals under was tempting with wind blowing in, but Cole has only 6.0 IP this season and his stuff was down in rehab starts (4.66 ERA across 29 rehab innings). The Canadiens ML at +130 was intriguing, but the data confidence of 0.35 is below my 0.6 floor \u2014 I can't build a fair price without more granular team metrics. The Ohtani Ks Over 7.5 at even money offers no edge; my fair line is 7.5 exactly.\n\nThe final six picks are: (1) Tigers-Angels Under 9.0 \u2014 the ladder pick, two elite starters, soft offenses, market overcorrection; (2) Dodgers-Rockies Under 8.0 \u2014 Ohtani's dominance against a weak lineup; (3) Pirates ML vs Cubs \u2014 Chandler vs Taillon at PNC Park, but the -170 juice is borderline so I'm taking the run line; (4) Braves-Red Sox Under 7.0 \u2014 Elder's 1.97 ERA and Fenway's HR-suppressing factor; (5) Mets ML vs Reds \u2014 Brazob\u00e1n's 1.73 ERA at home against Abbott's 3.97 ERA; (6) Cole Ks Under 4.5 \u2014 first start back from TJ surgery, limited pitch count expected. The ladder rides with the Tigers-Angels under \u2014 best floor on the board with two elite starters and a market that has overcorrected.",
+      "slate_vibe": "NORMAL",
+      "published_at": "2026-05-27T18:08:29.243543-04:00"
+    },
+    {
+      "id": "20260527-MLB-CIN-NYM-ML",
+      "sport": "MLB",
+      "game": "CIN @ NYM",
+      "first_pitch_iso": "2026-05-27T23:10Z",
+      "pick": "Mets ML",
+      "best_book": "BetMGM",
+      "best_odds": "-118",
+      "book_prices": {
+        "draftkings": "-119",
+        "fanduel": "-120",
+        "betmgm": "-118"
+      },
+      "book_links": {
+        "fanduel": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.581269788&selectionId=29174",
+        "draftkings": "https://sportsbook.draftkings.com/?outcomes=0ML84939158_1",
+        "betmgm": "https://sports.nj.betmgm.com/en/sports?options=19443205-1504696277-2153145413&type=Single"
+      },
+      "market": "ML",
+      "confidence": 3,
+      "units": 1.0,
+      "win_probability": 0.57,
+      "ladder_designation": false,
+      "data_confidence": 0.75,
+      "rules_passed": [
+        "max_juice",
+        "ladder_even_money",
+        "parlay_well_formed",
+        "confidence_units_match",
+        "data_confidence_floor",
+        "pick_type_allowed",
+        "mlb_hr_prop_check",
+        "mlb_pitcher_k_check",
+        "mlb_total_bases_check",
+        "mlb_hits_check",
+        "nba_player_prop_check",
+        "nhl_shots_check",
+        "mlb_run_line_check",
+        "mlb_under_bb_check",
+        "no_same_game_opposite"
+      ],
+      "locked": true,
+      "late_add": false,
+      "late_add_reason": "",
+      "bonus_pick": false,
+      "event_type": "",
+      "event_name": "",
+      "legs": [],
+      "headline": "Brazob\u00e1n's 1.73 ERA at home against Abbott's 3.97 ERA.",
+      "the_thesis": "Huascar Brazob\u00e1n has been excellent in limited innings this season \u2014 1.73 ERA with a 0.92 WHIP across 26 innings. His 0.35 HR/9 is elite, and he's facing a Reds team that ranks middle-of-the-pack in runs per game (4.5). Andrew Abbott (3.97 ERA, 1.46 WHIP) has been inconsistent, and his 10.5% BB rate creates baserunners.\n\nThe Mets are home favorites at -118, which implies about 54% win probability. My fair line is closer to 57%, giving us edge. Citi Field is a pitcher-friendly park (0.97 runs PF, 0.91 HR PF), and the wind blowing out to RF at 11 mph boosts HR by about 16% \u2014 but that helps the Mets' power hitters more than the Reds'.\n\nThe key concern is Brazob\u00e1n's limited sample (26 IP) and the fact that he's averaging just 8.67 IP per start in his last 3. If he exits early, the Mets' bullpen will be tested.",
+      "the_data": [
+        {
+          "label": "Brazob\u00e1n ERA / WHIP (2026)",
+          "value": "1.73 / 0.92",
+          "context": "Elite in limited sample"
+        },
+        {
+          "label": "Brazob\u00e1n HR/9",
+          "value": "0.35",
+          "context": "Elite, keeps ball in park"
+        },
+        {
+          "label": "Abbott ERA / BB%",
+          "value": "3.97 / 10.5%",
+          "context": "Inconsistent, walks batters"
+        },
+        {
+          "label": "Citi Field PF (HR)",
+          "value": "0.91",
+          "context": "HR-suppressing"
+        },
+        {
+          "label": "Wind impact",
+          "value": "+16% HR",
+          "context": "Helps power hitters"
+        }
+      ],
+      "the_market": "Mets opened as -120 favorites and have held steady. The market is pricing this as a 54% win probability, but the pitching matchup favors the Mets.",
+      "weather_park": "Citi Field, 80\u00b0F, wind 11 mph out to RF \u2014 16% HR boost, but park suppresses HR overall.",
+      "case_against": "Brazob\u00e1n's 26 IP sample is small, and his 8.67 IP/start average means the bullpen will be involved early. The Reds have power (Elly De La Cruz, Sal Stewart) that could capitalize on the wind.",
+      "what_were_betting_on": "Brazob\u00e1n going 5+ innings with 2 or fewer runs, Mets offense capitalizing on Abbott's walks, and the game finishing 4-2 or 5-3 Mets.",
+      "scott_bot_quip": "Abbott walks batters. Brazob\u00e1n doesn't. Math is math.",
+      "ladder_note": "",
+      "date": "2026-05-27",
+      "status": "PEND",
+      "units_result": null,
+      "clv_cents": null,
+      "result_score": null,
+      "graded_at": null,
+      "slate_assessment": "10-game MLB slate plus NHL Eastern Conference Finals Game 4 \u2014 two elite pitching matchups (Mize vs Soriano, Ohtani vs Sugano) and a must-win playoff hockey game anchor the board.",
+      "executive_summary": "Two aces squaring off at Comerica Park headline tonight's slate \u2014 Casey Mize (2.47 ERA, 0.98 WHIP) vs Jos\u00e9 Soriano (2.44 ERA) in a game where the total has ballooned from 7.5 to 9.0 despite both starters pitching at elite levels. The market is overcorrecting, and the under at 9.0 is the sharpest play on the board. Shohei Ohtani takes the mound against Colorado with a 0.73 ERA \u2014 the Dodgers -420 ML is unplayable, but the run line and total offer angles. In the NHL, Carolina leads Montreal 2-1 in the Eastern Conference Finals and the Canadiens are home dogs getting +130 in a must-win Game 4. The ladder rides with the Tigers-Angels under \u2014 two elite starters, soft offenses, and a neutral park.",
+      "slate_analysis": "Tonight's board features 10 MLB games and one NHL Eastern Conference Finals matchup. The MLB slate is headlined by two pitching duels \u2014 Mize vs Soriano in Detroit and Ohtani vs Sugano in Los Angeles \u2014 while the NHL offers a pivotal Game 4 between Carolina and Montreal. The pricing climate is soft in spots: several totals have moved significantly from their openers, and the Dodgers are priced at -420 ML, which is unplayable for straight bets.\n\nThe top candidates that rose during my review were: (1) Tigers-Angels Under 9.0 \u2014 two elite starters with sub-2.50 ERAs, soft offenses, and a neutral park; the total opened at 7.5 and has climbed to 9.0, which feels like an overcorrection; (2) Dodgers-Rockies Under 8.0 \u2014 Ohtani's 0.73 ERA against a weak Rockies lineup, though Sugano's 1.52 HR/9 introduces variance; (3) Braves ML at Boston \u2014 Bryce Elder (1.97 ERA) vs Connelly Early (3.33 ERA), but the -136 juice is borderline; (4) Yankees-Royals Under 8.5 \u2014 Gerrit Cole's first start since returning from Tommy John surgery, wind blowing in at Kauffman, but Cole's 6.0 IP sample is too thin to trust; (5) Montreal Canadiens ML +130 \u2014 home underdog in a must-win Game 4, but data confidence is low at 0.35; (6) Ohtani Ks Over 7.5 \u2014 facing a weak Rockies lineup, but the line is set at even money and his season K% of 28.4% suggests the market is efficient.\n\nWhat got cut and why: The Braves ML at -136 exceeds my comfort zone for a road favorite against a lefty at Fenway \u2014 the park factor (1.05 runs) and Early's solid 3.33 ERA make this closer to a coin flip than the market suggests. The Yankees-Royals under was tempting with wind blowing in, but Cole has only 6.0 IP this season and his stuff was down in rehab starts (4.66 ERA across 29 rehab innings). The Canadiens ML at +130 was intriguing, but the data confidence of 0.35 is below my 0.6 floor \u2014 I can't build a fair price without more granular team metrics. The Ohtani Ks Over 7.5 at even money offers no edge; my fair line is 7.5 exactly.\n\nThe final six picks are: (1) Tigers-Angels Under 9.0 \u2014 the ladder pick, two elite starters, soft offenses, market overcorrection; (2) Dodgers-Rockies Under 8.0 \u2014 Ohtani's dominance against a weak lineup; (3) Pirates ML vs Cubs \u2014 Chandler vs Taillon at PNC Park, but the -170 juice is borderline so I'm taking the run line; (4) Braves-Red Sox Under 7.0 \u2014 Elder's 1.97 ERA and Fenway's HR-suppressing factor; (5) Mets ML vs Reds \u2014 Brazob\u00e1n's 1.73 ERA at home against Abbott's 3.97 ERA; (6) Cole Ks Under 4.5 \u2014 first start back from TJ surgery, limited pitch count expected. The ladder rides with the Tigers-Angels under \u2014 best floor on the board with two elite starters and a market that has overcorrected.",
+      "slate_vibe": "NORMAL",
+      "published_at": "2026-05-27T18:08:29.243454-04:00"
+    },
+    {
+      "id": "20260527-MLB-ATL-BOS-TOTAL",
+      "sport": "MLB",
+      "game": "ATL @ BOS",
+      "first_pitch_iso": "2026-05-27T22:45Z",
+      "pick": "Under 7.0",
+      "best_book": "DraftKings",
+      "best_odds": "+104",
+      "book_prices": {
+        "draftkings": "+104",
+        "fanduel": "-122"
+      },
+      "book_links": {
+        "fanduel": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.581727401&selectionId=7017906",
+        "draftkings": "https://sportsbook.draftkings.com/?outcomes=0OU84952152U700_3",
+        "betmgm": "https://sports.nj.betmgm.com/en/sports/baseball-23/betting/usa-9/mlb-75"
+      },
+      "market": "TOTAL",
+      "confidence": 4,
+      "units": 1.5,
+      "win_probability": 0.58,
+      "ladder_designation": false,
+      "data_confidence": 0.75,
+      "rules_passed": [
+        "max_juice",
+        "ladder_even_money",
+        "parlay_well_formed",
+        "confidence_units_match",
+        "data_confidence_floor",
+        "pick_type_allowed",
+        "mlb_hr_prop_check",
+        "mlb_pitcher_k_check",
+        "mlb_total_bases_check",
+        "mlb_hits_check",
+        "nba_player_prop_check",
+        "nhl_shots_check",
+        "mlb_run_line_check",
+        "mlb_under_bb_check",
+        "no_same_game_opposite"
+      ],
+      "locked": true,
+      "late_add": false,
+      "late_add_reason": "",
+      "bonus_pick": false,
+      "event_type": "",
+      "event_name": "",
+      "legs": [],
+      "headline": "Bryce Elder's 1.97 ERA meets a cold Red Sox offense at Fenway.",
+      "the_thesis": "Bryce Elder has been one of the best pitchers in baseball this season with a 1.97 ERA and 0.99 WHIP across 68.2 innings. He's limiting hard contact and keeping the ball in the park (0.66 HR/9). Tonight he faces a Red Sox team that ranks near the bottom of MLB in runs per game (3.77) and is starting Connelly Early (3.33 ERA, 1.19 WHIP).\n\nEarly has been solid but not dominant \u2014 his 1.5 HR/9 is concerning at Fenway, but the park's HR factor is actually 0.96 (suppressing). The total has dropped from 8.0 to 7.0-7.5 across books, and we're getting plus money on the under at DraftKings.\n\nThe Braves offense is potent (5.25 R/G), but Early has been effective at limiting damage. The key is Elder dominating his half \u2014 if he goes 7 innings with 1-2 runs allowed, the under is in great shape even if Early gives up 3-4.",
+      "the_data": [
+        {
+          "label": "Elder ERA / WHIP (2026)",
+          "value": "1.97 / 0.99",
+          "context": "Elite, top-5 in MLB"
+        },
+        {
+          "label": "Elder HR/9",
+          "value": "0.66",
+          "context": "Elite, keeps ball in park"
+        },
+        {
+          "label": "BOS R/G (2026)",
+          "value": "3.77",
+          "context": "Bottom-10 in MLB"
+        },
+        {
+          "label": "Early ERA / HR/9",
+          "value": "3.33 / 1.5",
+          "context": "Solid but HR-prone"
+        },
+        {
+          "label": "Total movement",
+          "value": "8.0 \u2192 7.0",
+          "context": "Sharp money on under"
+        }
+      ],
+      "the_market": "Total opened at 8.0 and has dropped to 7.0-7.5 across books. We're getting +104 on the under at DraftKings \u2014 plus money on a line that's already moved our way.",
+      "weather_park": "Fenway Park, 80\u00b0F, wind 6 mph out to RF \u2014 mild HR boost, but park PF is 0.96 for HR.",
+      "case_against": "Early's 1.5 HR/9 could lead to a crooked inning against the Braves' power-heavy lineup. Fenway's hitter-friendly reputation could lead to more contact than expected.",
+      "what_were_betting_on": "Elder going 7+ innings with 1-2 runs allowed, Red Sox offense staying cold, and the game finishing 4-2 or 3-2.",
+      "scott_bot_quip": "Elder's ERA is lower than the Red Sox's playoff odds.",
+      "ladder_note": "",
+      "date": "2026-05-27",
+      "status": "PEND",
+      "units_result": null,
+      "clv_cents": null,
+      "result_score": null,
+      "graded_at": null,
+      "slate_assessment": "10-game MLB slate plus NHL Eastern Conference Finals Game 4 \u2014 two elite pitching matchups (Mize vs Soriano, Ohtani vs Sugano) and a must-win playoff hockey game anchor the board.",
+      "executive_summary": "Two aces squaring off at Comerica Park headline tonight's slate \u2014 Casey Mize (2.47 ERA, 0.98 WHIP) vs Jos\u00e9 Soriano (2.44 ERA) in a game where the total has ballooned from 7.5 to 9.0 despite both starters pitching at elite levels. The market is overcorrecting, and the under at 9.0 is the sharpest play on the board. Shohei Ohtani takes the mound against Colorado with a 0.73 ERA \u2014 the Dodgers -420 ML is unplayable, but the run line and total offer angles. In the NHL, Carolina leads Montreal 2-1 in the Eastern Conference Finals and the Canadiens are home dogs getting +130 in a must-win Game 4. The ladder rides with the Tigers-Angels under \u2014 two elite starters, soft offenses, and a neutral park.",
+      "slate_analysis": "Tonight's board features 10 MLB games and one NHL Eastern Conference Finals matchup. The MLB slate is headlined by two pitching duels \u2014 Mize vs Soriano in Detroit and Ohtani vs Sugano in Los Angeles \u2014 while the NHL offers a pivotal Game 4 between Carolina and Montreal. The pricing climate is soft in spots: several totals have moved significantly from their openers, and the Dodgers are priced at -420 ML, which is unplayable for straight bets.\n\nThe top candidates that rose during my review were: (1) Tigers-Angels Under 9.0 \u2014 two elite starters with sub-2.50 ERAs, soft offenses, and a neutral park; the total opened at 7.5 and has climbed to 9.0, which feels like an overcorrection; (2) Dodgers-Rockies Under 8.0 \u2014 Ohtani's 0.73 ERA against a weak Rockies lineup, though Sugano's 1.52 HR/9 introduces variance; (3) Braves ML at Boston \u2014 Bryce Elder (1.97 ERA) vs Connelly Early (3.33 ERA), but the -136 juice is borderline; (4) Yankees-Royals Under 8.5 \u2014 Gerrit Cole's first start since returning from Tommy John surgery, wind blowing in at Kauffman, but Cole's 6.0 IP sample is too thin to trust; (5) Montreal Canadiens ML +130 \u2014 home underdog in a must-win Game 4, but data confidence is low at 0.35; (6) Ohtani Ks Over 7.5 \u2014 facing a weak Rockies lineup, but the line is set at even money and his season K% of 28.4% suggests the market is efficient.\n\nWhat got cut and why: The Braves ML at -136 exceeds my comfort zone for a road favorite against a lefty at Fenway \u2014 the park factor (1.05 runs) and Early's solid 3.33 ERA make this closer to a coin flip than the market suggests. The Yankees-Royals under was tempting with wind blowing in, but Cole has only 6.0 IP this season and his stuff was down in rehab starts (4.66 ERA across 29 rehab innings). The Canadiens ML at +130 was intriguing, but the data confidence of 0.35 is below my 0.6 floor \u2014 I can't build a fair price without more granular team metrics. The Ohtani Ks Over 7.5 at even money offers no edge; my fair line is 7.5 exactly.\n\nThe final six picks are: (1) Tigers-Angels Under 9.0 \u2014 the ladder pick, two elite starters, soft offenses, market overcorrection; (2) Dodgers-Rockies Under 8.0 \u2014 Ohtani's dominance against a weak lineup; (3) Pirates ML vs Cubs \u2014 Chandler vs Taillon at PNC Park, but the -170 juice is borderline so I'm taking the run line; (4) Braves-Red Sox Under 7.0 \u2014 Elder's 1.97 ERA and Fenway's HR-suppressing factor; (5) Mets ML vs Reds \u2014 Brazob\u00e1n's 1.73 ERA at home against Abbott's 3.97 ERA; (6) Cole Ks Under 4.5 \u2014 first start back from TJ surgery, limited pitch count expected. The ladder rides with the Tigers-Angels under \u2014 best floor on the board with two elite starters and a market that has overcorrected.",
+      "slate_vibe": "NORMAL",
+      "published_at": "2026-05-27T18:08:29.243368-04:00"
+    },
+    {
+      "id": "20260527-MLB-COL-LAD-TOTAL",
+      "sport": "MLB",
+      "game": "COL @ LAD",
+      "first_pitch_iso": "2026-05-28T02:10Z",
+      "pick": "Under 8.0",
+      "best_book": "DraftKings",
+      "best_odds": "-114",
+      "book_prices": {
+        "draftkings": "-114",
+        "fanduel": "-118",
+        "betmgm": "-115"
+      },
+      "book_links": {
+        "fanduel": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.581437995&selectionId=7017906",
+        "draftkings": "https://sportsbook.draftkings.com/?outcomes=0OU84939170U800_3",
+        "betmgm": "https://sports.nj.betmgm.com/en/sports?options=19443209-1504713184-2153186817&type=Single"
+      },
+      "market": "TOTAL",
+      "confidence": 4,
+      "units": 1.5,
+      "win_probability": 0.6,
+      "ladder_designation": false,
+      "data_confidence": 0.8,
+      "rules_passed": [
+        "max_juice",
+        "ladder_even_money",
+        "parlay_well_formed",
+        "confidence_units_match",
+        "data_confidence_floor",
+        "pick_type_allowed",
+        "mlb_hr_prop_check",
+        "mlb_pitcher_k_check",
+        "mlb_total_bases_check",
+        "mlb_hits_check",
+        "nba_player_prop_check",
+        "nhl_shots_check",
+        "mlb_run_line_check",
+        "mlb_under_bb_check(soft)",
+        "no_same_game_opposite"
+      ],
+      "locked": true,
+      "late_add": false,
+      "late_add_reason": "",
+      "bonus_pick": false,
+      "event_type": "",
+      "event_name": "",
+      "legs": [],
+      "headline": "Shohei Ohtani's 0.73 ERA meets a weak Rockies lineup at Dodger Stadium.",
+      "the_thesis": "Shohei Ohtani has been the best pitcher in baseball this season with a 0.73 ERA and 0.84 WHIP across 49 innings. He's striking out 28.4% of batters while walking just 6.8%, and his 0.37 HR/9 is elite. Tonight he faces a Rockies team that ranks near the bottom of MLB in runs per game (4.07) and is starting Tomoyuki Sugano (3.86 ERA, 1.23 WHIP).\n\nSugano isn't a pushover \u2014 he's been solid this season \u2014 but his 12.6% K rate is pedestrian and he'll be facing the best offense in baseball (5.35 R/G). The key here is that Ohtani should dominate his half of the game, and the Dodgers' bullpen has been elite. Even if Sugano gives up 4-5 runs, Ohtani limiting the Rockies to 1-2 keeps this under.\n\nDodger Stadium is a neutral park (0.97 runs PF), and the total hasn't moved from open. The market is pricing this as a 4-4 game, but Ohtani's dominance suggests 3-4 Dodgers runs and 1-2 Rockies runs is the more likely outcome.",
+      "the_data": [
+        {
+          "label": "Ohtani ERA / WHIP (2026)",
+          "value": "0.73 / 0.84",
+          "context": "Best in MLB"
+        },
+        {
+          "label": "Ohtani K% / BB%",
+          "value": "28.4% / 6.8%",
+          "context": "Elite command"
+        },
+        {
+          "label": "COL R/G (2026)",
+          "value": "4.07",
+          "context": "Bottom-10 in MLB"
+        },
+        {
+          "label": "Sugano ERA / K%",
+          "value": "3.86 / 12.6%",
+          "context": "Solid but low-K"
+        },
+        {
+          "label": "Dodger Stadium PF",
+          "value": "0.97 runs",
+          "context": "Neutral"
+        }
+      ],
+      "the_market": "Total opened at 8.0 and hasn't moved. The market is pricing this as a 4-4 game, but Ohtani's dominance suggests the Rockies side stays low.",
+      "weather_park": "Dodger Stadium, outdoor but mild conditions \u2014 neutral impact.",
+      "case_against": "Sugano's 1.52 HR/9 could lead to a crooked inning against the Dodgers' power-heavy lineup. If Ohtani is limited after the HBP scare, the Dodgers' bullpen depth is tested.",
+      "what_were_betting_on": "Ohtani going 6+ innings with 1-2 runs allowed, Rockies offense staying quiet, and the game finishing 4-3 or 5-2.",
+      "scott_bot_quip": "Ohtani's ERA is lower than my blood pressure watching him pitch.",
+      "ladder_note": "",
+      "date": "2026-05-27",
+      "status": "PEND",
+      "units_result": null,
+      "clv_cents": null,
+      "result_score": null,
+      "graded_at": null,
+      "slate_assessment": "10-game MLB slate plus NHL Eastern Conference Finals Game 4 \u2014 two elite pitching matchups (Mize vs Soriano, Ohtani vs Sugano) and a must-win playoff hockey game anchor the board.",
+      "executive_summary": "Two aces squaring off at Comerica Park headline tonight's slate \u2014 Casey Mize (2.47 ERA, 0.98 WHIP) vs Jos\u00e9 Soriano (2.44 ERA) in a game where the total has ballooned from 7.5 to 9.0 despite both starters pitching at elite levels. The market is overcorrecting, and the under at 9.0 is the sharpest play on the board. Shohei Ohtani takes the mound against Colorado with a 0.73 ERA \u2014 the Dodgers -420 ML is unplayable, but the run line and total offer angles. In the NHL, Carolina leads Montreal 2-1 in the Eastern Conference Finals and the Canadiens are home dogs getting +130 in a must-win Game 4. The ladder rides with the Tigers-Angels under \u2014 two elite starters, soft offenses, and a neutral park.",
+      "slate_analysis": "Tonight's board features 10 MLB games and one NHL Eastern Conference Finals matchup. The MLB slate is headlined by two pitching duels \u2014 Mize vs Soriano in Detroit and Ohtani vs Sugano in Los Angeles \u2014 while the NHL offers a pivotal Game 4 between Carolina and Montreal. The pricing climate is soft in spots: several totals have moved significantly from their openers, and the Dodgers are priced at -420 ML, which is unplayable for straight bets.\n\nThe top candidates that rose during my review were: (1) Tigers-Angels Under 9.0 \u2014 two elite starters with sub-2.50 ERAs, soft offenses, and a neutral park; the total opened at 7.5 and has climbed to 9.0, which feels like an overcorrection; (2) Dodgers-Rockies Under 8.0 \u2014 Ohtani's 0.73 ERA against a weak Rockies lineup, though Sugano's 1.52 HR/9 introduces variance; (3) Braves ML at Boston \u2014 Bryce Elder (1.97 ERA) vs Connelly Early (3.33 ERA), but the -136 juice is borderline; (4) Yankees-Royals Under 8.5 \u2014 Gerrit Cole's first start since returning from Tommy John surgery, wind blowing in at Kauffman, but Cole's 6.0 IP sample is too thin to trust; (5) Montreal Canadiens ML +130 \u2014 home underdog in a must-win Game 4, but data confidence is low at 0.35; (6) Ohtani Ks Over 7.5 \u2014 facing a weak Rockies lineup, but the line is set at even money and his season K% of 28.4% suggests the market is efficient.\n\nWhat got cut and why: The Braves ML at -136 exceeds my comfort zone for a road favorite against a lefty at Fenway \u2014 the park factor (1.05 runs) and Early's solid 3.33 ERA make this closer to a coin flip than the market suggests. The Yankees-Royals under was tempting with wind blowing in, but Cole has only 6.0 IP this season and his stuff was down in rehab starts (4.66 ERA across 29 rehab innings). The Canadiens ML at +130 was intriguing, but the data confidence of 0.35 is below my 0.6 floor \u2014 I can't build a fair price without more granular team metrics. The Ohtani Ks Over 7.5 at even money offers no edge; my fair line is 7.5 exactly.\n\nThe final six picks are: (1) Tigers-Angels Under 9.0 \u2014 the ladder pick, two elite starters, soft offenses, market overcorrection; (2) Dodgers-Rockies Under 8.0 \u2014 Ohtani's dominance against a weak lineup; (3) Pirates ML vs Cubs \u2014 Chandler vs Taillon at PNC Park, but the -170 juice is borderline so I'm taking the run line; (4) Braves-Red Sox Under 7.0 \u2014 Elder's 1.97 ERA and Fenway's HR-suppressing factor; (5) Mets ML vs Reds \u2014 Brazob\u00e1n's 1.73 ERA at home against Abbott's 3.97 ERA; (6) Cole Ks Under 4.5 \u2014 first start back from TJ surgery, limited pitch count expected. The ladder rides with the Tigers-Angels under \u2014 best floor on the board with two elite starters and a market that has overcorrected.",
+      "slate_vibe": "NORMAL",
+      "published_at": "2026-05-27T18:08:29.243245-04:00"
+    },
+    {
+      "id": "20260527-MLB-LAA-DET-TOTAL",
+      "sport": "MLB",
+      "game": "LAA @ DET",
+      "first_pitch_iso": "2026-05-27T22:40Z",
+      "pick": "Under 9.0",
+      "best_book": "FanDuel",
+      "best_odds": "-110",
+      "book_prices": {
+        "draftkings": "-117",
+        "fanduel": "-110",
+        "betmgm": "-115"
+      },
+      "book_links": {
+        "fanduel": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.581725885&selectionId=7017906",
+        "draftkings": "https://sportsbook.draftkings.com/?outcomes=0OU84952150U900_3",
+        "betmgm": "https://sports.nj.betmgm.com/en/sports?options=19442949-1504549233-2152763106&type=Single"
+      },
+      "market": "TOTAL",
+      "confidence": 5,
+      "units": 2.0,
+      "win_probability": 0.63,
+      "ladder_designation": true,
+      "data_confidence": 0.85,
+      "rules_passed": [
+        "max_juice",
+        "ladder_even_money",
+        "parlay_well_formed",
+        "confidence_units_match",
+        "data_confidence_floor",
+        "pick_type_allowed",
+        "mlb_hr_prop_check",
+        "mlb_pitcher_k_check",
+        "mlb_total_bases_check",
+        "mlb_hits_check",
+        "nba_player_prop_check",
+        "nhl_shots_check",
+        "mlb_run_line_check",
+        "mlb_under_bb_check",
+        "no_same_game_opposite"
+      ],
+      "locked": true,
+      "late_add": false,
+      "late_add_reason": "",
+      "bonus_pick": false,
+      "event_type": "",
+      "event_name": "",
+      "legs": [],
+      "headline": "Two elite starters, soft offenses, and a market that has overcorrected from 7.5 to 9.0.",
+      "the_thesis": "Casey Mize and Jos\u00e9 Soriano are both pitching at elite levels this season, and the market has inexplicably pushed this total from 7.5 at open to 9.0. Mize owns a 2.47 ERA with a 0.98 WHIP and 25.1% K rate \u2014 he's been the best version of himself since returning from his adductor strain, posting a 2.43 ERA with a 0.98 WHIP across 43.2 innings. Soriano has been equally dominant with a 2.44 ERA and 27.9% K rate, though his 10.2% BB rate introduces some variance.\n\nThe offenses here are soft. Detroit ranks near the bottom of MLB in runs per game (3.87), and the Angels aren't much better at 4.13. Comerica Park is a neutral-to-pitcher-friendly venue with a 0.96 runs park factor, and the wind is blowing left-to-right at 9 mph \u2014 not a HR-boosting environment.\n\nThe 1.5-run move from open to current is the kind of overcorrection that creates edge. The market is pricing in 9+ runs between two teams that average 8.0 combined against two starters with sub-2.50 ERAs. My fair line is 7.5-8.0, which gives us significant edge at 9.0.",
+      "the_data": [
+        {
+          "label": "Mize ERA / WHIP (2026)",
+          "value": "2.47 / 0.98",
+          "context": "Elite, top-15 in MLB"
+        },
+        {
+          "label": "Soriano ERA / WHIP (2026)",
+          "value": "2.44 / 1.07",
+          "context": "Elite, top-10 in MLB"
+        },
+        {
+          "label": "DET R/G (2026)",
+          "value": "3.87",
+          "context": "Bottom-10 in MLB"
+        },
+        {
+          "label": "LAA R/G (2026)",
+          "value": "4.13",
+          "context": "Below average"
+        },
+        {
+          "label": "Total movement",
+          "value": "7.5 \u2192 9.0",
+          "context": "1.5-run overcorrection"
+        },
+        {
+          "label": "Comerica PF (runs)",
+          "value": "0.96",
+          "context": "Pitcher-friendly"
+        }
+      ],
+      "the_market": "Total opened at 7.5 and has climbed to 9.0 across all three books. This 1.5-run move is unusual for a game featuring two elite starters \u2014 the public is chasing runs that aren't coming.",
+      "weather_park": "Comerica Park, 71\u00b0F, wind 9 mph L-to-R \u2014 neutral conditions, no HR boost.",
+      "case_against": "Soriano's 10.2% BB rate could extend innings and put runners on base. If either starter exits early, both bullpens have been shaky. The Angels have scored 5+ runs in 3 of their last 7 games.",
+      "what_were_betting_on": "Both starters going 6+ innings, combined K rate suppressing contact, and the soft offenses failing to capitalize on the few baserunners they get.",
+      "scott_bot_quip": "The market moved 1.5 runs on two aces. We're not that dumb.",
+      "ladder_note": "Best floor on the board \u2014 two elite starters with sub-2.50 ERAs, soft offenses, and a market that has overcorrected by 1.5 runs. This is the kind of play that wins 60%+ of the time.",
+      "date": "2026-05-27",
+      "status": "PEND",
+      "units_result": null,
+      "clv_cents": null,
+      "result_score": null,
+      "graded_at": null,
+      "slate_assessment": "10-game MLB slate plus NHL Eastern Conference Finals Game 4 \u2014 two elite pitching matchups (Mize vs Soriano, Ohtani vs Sugano) and a must-win playoff hockey game anchor the board.",
+      "executive_summary": "Two aces squaring off at Comerica Park headline tonight's slate \u2014 Casey Mize (2.47 ERA, 0.98 WHIP) vs Jos\u00e9 Soriano (2.44 ERA) in a game where the total has ballooned from 7.5 to 9.0 despite both starters pitching at elite levels. The market is overcorrecting, and the under at 9.0 is the sharpest play on the board. Shohei Ohtani takes the mound against Colorado with a 0.73 ERA \u2014 the Dodgers -420 ML is unplayable, but the run line and total offer angles. In the NHL, Carolina leads Montreal 2-1 in the Eastern Conference Finals and the Canadiens are home dogs getting +130 in a must-win Game 4. The ladder rides with the Tigers-Angels under \u2014 two elite starters, soft offenses, and a neutral park.",
+      "slate_analysis": "Tonight's board features 10 MLB games and one NHL Eastern Conference Finals matchup. The MLB slate is headlined by two pitching duels \u2014 Mize vs Soriano in Detroit and Ohtani vs Sugano in Los Angeles \u2014 while the NHL offers a pivotal Game 4 between Carolina and Montreal. The pricing climate is soft in spots: several totals have moved significantly from their openers, and the Dodgers are priced at -420 ML, which is unplayable for straight bets.\n\nThe top candidates that rose during my review were: (1) Tigers-Angels Under 9.0 \u2014 two elite starters with sub-2.50 ERAs, soft offenses, and a neutral park; the total opened at 7.5 and has climbed to 9.0, which feels like an overcorrection; (2) Dodgers-Rockies Under 8.0 \u2014 Ohtani's 0.73 ERA against a weak Rockies lineup, though Sugano's 1.52 HR/9 introduces variance; (3) Braves ML at Boston \u2014 Bryce Elder (1.97 ERA) vs Connelly Early (3.33 ERA), but the -136 juice is borderline; (4) Yankees-Royals Under 8.5 \u2014 Gerrit Cole's first start since returning from Tommy John surgery, wind blowing in at Kauffman, but Cole's 6.0 IP sample is too thin to trust; (5) Montreal Canadiens ML +130 \u2014 home underdog in a must-win Game 4, but data confidence is low at 0.35; (6) Ohtani Ks Over 7.5 \u2014 facing a weak Rockies lineup, but the line is set at even money and his season K% of 28.4% suggests the market is efficient.\n\nWhat got cut and why: The Braves ML at -136 exceeds my comfort zone for a road favorite against a lefty at Fenway \u2014 the park factor (1.05 runs) and Early's solid 3.33 ERA make this closer to a coin flip than the market suggests. The Yankees-Royals under was tempting with wind blowing in, but Cole has only 6.0 IP this season and his stuff was down in rehab starts (4.66 ERA across 29 rehab innings). The Canadiens ML at +130 was intriguing, but the data confidence of 0.35 is below my 0.6 floor \u2014 I can't build a fair price without more granular team metrics. The Ohtani Ks Over 7.5 at even money offers no edge; my fair line is 7.5 exactly.\n\nThe final six picks are: (1) Tigers-Angels Under 9.0 \u2014 the ladder pick, two elite starters, soft offenses, market overcorrection; (2) Dodgers-Rockies Under 8.0 \u2014 Ohtani's dominance against a weak lineup; (3) Pirates ML vs Cubs \u2014 Chandler vs Taillon at PNC Park, but the -170 juice is borderline so I'm taking the run line; (4) Braves-Red Sox Under 7.0 \u2014 Elder's 1.97 ERA and Fenway's HR-suppressing factor; (5) Mets ML vs Reds \u2014 Brazob\u00e1n's 1.73 ERA at home against Abbott's 3.97 ERA; (6) Cole Ks Under 4.5 \u2014 first start back from TJ surgery, limited pitch count expected. The ladder rides with the Tigers-Angels under \u2014 best floor on the board with two elite starters and a market that has overcorrected.",
+      "slate_vibe": "NORMAL",
+      "published_at": "2026-05-27T18:08:29.243097-04:00"
+    },
     {
       "id": "20260526-MLB-COL-LAD-RUNLINE",
       "sport": "MLB",
