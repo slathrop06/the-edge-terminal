@@ -1,5 +1,31 @@
 [
   {
+    "id": "20260527-MLB-ATL-BOS-TOTAL",
+    "date": "2026-05-27",
+    "pick": "Under 7.0",
+    "game": "ATL @ BOS",
+    "odds": "+104",
+    "result_score": "ATL 0 \u00b7 BOS 8",
+    "classification": "MODEL",
+    "post_mortem": "The entire thesis rested on Elder dominating his half \u2014 he didn't come close. Elder was knocked out in 3\u2153 innings, surrendering 6 runs on 9 hits (including 2 errors that extended the damage) in a catastrophic 4th inning where BOS sent 9+ batters to the plate and scored 6 runs via singles, errors, and a wild pitch. The under was dead by the 4th inning; this wasn't a late-game variance event. The model over-indexed on Elder's season-long ERA (1.97) without accounting for the risk of a short, blow-up start \u2014 a single bad outing from the anchor pitcher destroys the under regardless of how good the opposing pitcher is.",
+    "candidate_rule": "When the under thesis is structurally dependent on one pitcher going deep (6+ IP, \u22642 ER), apply a 'short-start discount' \u2014 if that pitcher's start-length variance (e.g. % of starts under 5 IP) exceeds 15%, reduce confidence by at least 1 unit; N=1, insufficient to establish rule.",
+    "sample_size_warning": "N=1, insufficient to establish rule \u2014 single data point, monitoring for pattern of over-reliance on ERA without start-length floor validation.",
+    "analyzed_at": "2026-05-28T03:01:16.966831-04:00"
+  },
+  {
+    "id": "20260527-NHL-CAR-MTL-ML",
+    "date": "2026-05-27",
+    "pick": "Canadiens ML",
+    "game": "CAR @ MTL",
+    "odds": "+130",
+    "result_score": "CAR 4 \u00b7 MTL 0",
+    "classification": "MODEL",
+    "post_mortem": "The thesis leaned on home-ice momentum and a must-win atmosphere, but Carolina dismantled that narrative in the first period alone \u2014 Aho (PP goal at 14:58), Staal (deflection at 16:07), and Stankoven (2-on-1 rush at 17:46) scored three times in a 2:47 span to make it 3-0 before the period was over, and the Bell Centre crowd was dead. Frederik Andersen needed only 18 saves for his third postseason shutout, while Dobes faced 39 shots \u2014 the Canadiens were outshot 19-3 in the third period alone, with the crowd audibly chanting 'Shoot the puck!' at their own team. The core model error was treating Game 1's 6-2 blowout as signal that Montreal could 'compete' with Carolina, when in reality Carolina had entered that game flat after an 11-day layoff off a sweep; Games 2-4 showed the true talent gap once the Hurricanes were locked in.",
+    "candidate_rule": "When a team's best win in a series came against a rested opponent returning from a long layoff (11+ days), discount that result as a talent signal and weight the subsequent games more heavily before pricing home-dog value \u2014 but N=1, insufficient to establish rule.",
+    "sample_size_warning": "N=1, insufficient to establish rule.",
+    "analyzed_at": "2026-05-28T03:00:59.314194-04:00"
+  },
+  {
     "id": "20260526-MLB-CHC-PIT-TOTAL",
     "date": "2026-05-26",
     "pick": "Under 8.0",

@@ -62,5 +62,21 @@
     "candidate_rule": "When the Cubs' (or any team's) listed starter is a same-day recall from Triple-A with a career MLB ERA above 5.00 and no MLB starts in the current season, treat the opposing half of the total as uncapped and do not play unders unless the total is set 1.5+ runs above the ace's expected contribution alone \u2014 N=1, insufficient to establish rule.",
     "sample_size_warning": "N=1, insufficient to establish rule. One emergency-callup implosion is noise, but the DATA failure here (no MLB 2026 stats existed for Wicks at pick time, and the pack explicitly flagged it) is a process gap worth tracking.",
     "status": "PENDING_REVIEW"
+  },
+  {
+    "proposed_at": "2026-05-28T03:00:59.314802-04:00",
+    "source_pick_id": "20260527-NHL-CAR-MTL-ML",
+    "source_loss": "Canadiens ML (CAR @ MTL)",
+    "candidate_rule": "When a team's best win in a series came against a rested opponent returning from a long layoff (11+ days), discount that result as a talent signal and weight the subsequent games more heavily before pricing home-dog value \u2014 but N=1, insufficient to establish rule.",
+    "sample_size_warning": "N=1, insufficient to establish rule.",
+    "status": "PENDING_REVIEW"
+  },
+  {
+    "proposed_at": "2026-05-28T03:01:16.967378-04:00",
+    "source_pick_id": "20260527-MLB-ATL-BOS-TOTAL",
+    "source_loss": "Under 7.0 (ATL @ BOS)",
+    "candidate_rule": "When the under thesis is structurally dependent on one pitcher going deep (6+ IP, \u22642 ER), apply a 'short-start discount' \u2014 if that pitcher's start-length variance (e.g. % of starts under 5 IP) exceeds 15%, reduce confidence by at least 1 unit; N=1, insufficient to establish rule.",
+    "sample_size_warning": "N=1, insufficient to establish rule \u2014 single data point, monitoring for pattern of over-reliance on ERA without start-length floor validation.",
+    "status": "PENDING_REVIEW"
   }
 ]
