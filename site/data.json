@@ -1,11 +1,962 @@
 {
-  "generated_at": "2026-05-28T06:37:10.350092-04:00",
+  "generated_at": "2026-05-28T11:25:40.819790-04:00",
   "today": "2026-05-28",
   "system_paused": false,
   "pause_reason": "",
-  "today_picks": [],
+  "today_picks": [
+    {
+      "id": "20260528-NBA-OKC-SA-PROP-SHAIGILGEOUSALEXANDER",
+      "sport": "NBA",
+      "game": "OKC @ SA",
+      "first_pitch_iso": "2026-05-29T00:30Z",
+      "pick": "Shai Gilgeous-Alexander Points Over 29.5",
+      "best_book": "DraftKings",
+      "best_odds": "-104",
+      "book_prices": {
+        "draftkings": "-104",
+        "fanduel": "-112",
+        "betmgm": "+115"
+      },
+      "book_links": {
+        "fanduel": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.581480813&selectionId=21662973",
+        "draftkings": "https://sportsbook.draftkings.com/?outcomes=0QA337931878%232164613929_13L42648Q1-607420801Q20",
+        "betmgm": "https://sports.nj.betmgm.com/en/sports/events/oklahoma-city-thunder-at-san-antonio-spurs-19557469"
+      },
+      "market": "PROP",
+      "confidence": 3,
+      "units": 1.0,
+      "win_probability": 0.57,
+      "ladder_designation": false,
+      "data_confidence": 0.7,
+      "rules_passed": [
+        "max_juice",
+        "ladder_even_money",
+        "parlay_well_formed",
+        "confidence_units_match",
+        "data_confidence_floor",
+        "pick_type_allowed",
+        "mlb_hr_prop_check",
+        "mlb_pitcher_k_check",
+        "mlb_total_bases_check",
+        "mlb_hits_check",
+        "nba_player_prop_check(soft)",
+        "nhl_shots_check",
+        "mlb_run_line_check",
+        "mlb_under_bb_check",
+        "no_same_game_opposite"
+      ],
+      "locked": true,
+      "late_add": false,
+      "late_add_reason": "",
+      "bonus_pick": false,
+      "event_type": "",
+      "event_name": "",
+      "legs": [],
+      "headline": "SGA has been carrying OKC with Jalen Williams out \u2014 expect another big scoring night.",
+      "the_thesis": "Shai Gilgeous-Alexander has been the Thunder's entire offense with Jalen Williams sidelined. Williams has missed Games 3, 4, and 5 with a left hamstring strain, and SGA has stepped up in a massive way. He's been the primary scorer, playmaker, and closer for OKC.\n\nThe Thunder still hold a 3-2 series lead despite being shorthanded, and that's largely because of SGA's brilliance. In a potential closeout game on the road, he'll need to be even more aggressive. The Spurs will throw everything at him defensively, but SGA has shown he can score against anyone.\n\nThe line is set at 29.5, which is right around his playoff average. But in a closeout game with his team shorthanded, expect SGA to take 25+ shots and push for 30+.",
+      "the_data": [
+        {
+          "label": "SGA playoff role",
+          "value": "Primary scorer",
+          "context": "Carrying OKC without Williams"
+        },
+        {
+          "label": "Jalen Williams status",
+          "value": "Questionable (missed G3-5)",
+          "context": "SGA's usage elevated"
+        },
+        {
+          "label": "Thunder series lead",
+          "value": "3-2",
+          "context": "Closeout opportunity"
+        },
+        {
+          "label": "SGA line",
+          "value": "29.5",
+          "context": "Near playoff average"
+        },
+        {
+          "label": "Game context",
+          "value": "Road closeout",
+          "context": "Maximum aggression expected"
+        }
+      ],
+      "the_market": "Line is 29.5 at DraftKings (-104), 30.5 at BetMGM (+115). We're taking the better number at DK.",
+      "weather_park": "Indoor game. No weather impact.",
+      "case_against": "The Spurs defense has been solid on SGA this series. If they continue to contain him and force role players to beat them, he could fall short. Elimination games are unpredictable.",
+      "what_were_betting_on": "SGA taking 25+ shots in a closeout game, being aggressive from the opening tip, and the Thunder needing him to carry the load with Williams out.",
+      "scott_bot_quip": "SGA's been carrying OKC without Williams. In a closeout game? He's not stopping now.",
+      "ladder_note": "",
+      "date": "2026-05-28",
+      "status": "PEND",
+      "units_result": null,
+      "clv_cents": null,
+      "result_score": null,
+      "graded_at": null,
+      "slate_assessment": "Light 6-game MLB slate plus a Western Conference Finals elimination game. Chris Sale vs. Payton Tolle at Fenway and Paul Skenes vs. Colin Rea at PNC Park headline the pitching matchups. Spurs host Thunder in Game 6 with San Antonio facing elimination.",
+      "executive_summary": "Thursday's board is thin but sharp. Six MLB games and a Western Conference Finals elimination game give us enough to work with. The Skenes-Rea matchup at PNC Park is the cleanest spot on the slate \u2014 reigning Cy Young winner at home in a pitcher's park against a struggling Colin Rea. Chris Sale continues his dominant run against a Boston lineup that's been anemic. The NBA game features a desperate Spurs team at home with Wembanyama due for a bounce-back after a 4-for-15 shooting night. The ladder rides with the Spurs spread \u2014 best floor on the board with San Antonio 20-6 SU coming off losses this season.",
+      "slate_analysis": "The board today is a 6-game MLB slate plus one NBA Western Conference Finals elimination game. No NHL, no other NBA. The MLB games are spread across the afternoon and evening, with first pitches ranging from 1:10 PM ET to 8:05 PM ET. The NBA tips at 8:30 PM ET. Pricing is relatively tight across the board \u2014 no massive favorites, no obvious traps.\n\nThe candidates that rose to the top: Pittsburgh vs. Chicago (Skenes vs. Rea at PNC Park) immediately jumped out \u2014 Skenes is the reigning NL Cy Young winner with a 3.00 ERA and 0.82 WHIP, facing Colin Rea who's sporting a 4.83 ERA and 1.37 HR/9. PNC Park suppresses runs (0.95 PF) and HRs (0.91 PF). The Atlanta-Boston game (Sale vs. Tolle) is intriguing \u2014 Sale's 1.89 ERA and 29.9 K% against a Boston offense averaging just 3.85 R/G. The Spurs-Thunder Game 6 is a classic elimination spot with Wembanyama due for a bounce-back after shooting 4-for-15 in Game 5. The Texas-Houston game (Eovaldi vs. Arrighetti) has some appeal with Arrighetti's 1.32 ERA, but his 14.3 BB% is a red flag. The Detroit-Angels game has weather boosting HRs 20% and two shaky starters, but data confidence is only 0.45. The White Sox-Twins game has Davis Martin's 2.04 ERA against a rookie lefty in Kendry Rojas, but again data confidence is 0.45.\n\nWhat got cut: The Detroit-Angels and White Sox-Twins games both have data confidence of 0.45 \u2014 below our 0.6 floor. The Baltimore-Toronto game has two mediocre starters (Bassitt 5.51 ERA, Corbin 3.86 ERA) and no clear edge. The Texas-Houston game is tempting but Arrighetti's 14.3 BB% creates too much variance for an under, and the Rangers ML at -142 is too short for the edge. The Skenes K prop was considered but his last two starts have been rough (5 ER each) and the line is set at 6.5 with juice on the under.\n\nThe final six: We're taking the Pirates ML (Skenes at home vs. Rea), the Braves ML (Sale's dominance continues), the Spurs spread (elimination game bounce-back), the Under 7.5 at PNC Park (two pitchers who can go deep, pitcher-friendly park), Wembanyama Points Over 27.5 (bounce-back spot after 4-for-15 shooting), and SGA Points Over 29.5 (he's been carrying OKC with Williams out). The ladder pick is the Spurs -3.5 \u2014 San Antonio is 20-6 SU coming off losses this season, Wembanyama is due for a big game, and the Thunder are missing Jalen Williams.",
+      "slate_vibe": "NORMAL",
+      "published_at": "2026-05-28T11:25:40.812940-04:00"
+    },
+    {
+      "id": "20260528-NBA-OKC-SA-PROP-VICTORWEMBANYAMA",
+      "sport": "NBA",
+      "game": "OKC @ SA",
+      "first_pitch_iso": "2026-05-29T00:30Z",
+      "pick": "Victor Wembanyama Points Over 27.5",
+      "best_book": "DraftKings",
+      "best_odds": "-113",
+      "book_prices": {
+        "draftkings": "-113",
+        "fanduel": "-110",
+        "betmgm": "-105"
+      },
+      "book_links": {
+        "fanduel": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.581480702&selectionId=61967224",
+        "draftkings": "https://sportsbook.draftkings.com/?outcomes=0QA337931836%232165239123_13L42648Q1-2066599955Q20",
+        "betmgm": "https://sports.nj.betmgm.com/en/sports?options=6:42666-3054776-4710221&type=Single"
+      },
+      "market": "PROP",
+      "confidence": 4,
+      "units": 1.5,
+      "win_probability": 0.62,
+      "ladder_designation": false,
+      "data_confidence": 0.7,
+      "rules_passed": [
+        "max_juice",
+        "ladder_even_money",
+        "parlay_well_formed",
+        "confidence_units_match",
+        "data_confidence_floor",
+        "pick_type_allowed",
+        "mlb_hr_prop_check",
+        "mlb_pitcher_k_check",
+        "mlb_total_bases_check",
+        "mlb_hits_check",
+        "nba_player_prop_check(soft)",
+        "nhl_shots_check",
+        "mlb_run_line_check",
+        "mlb_under_bb_check",
+        "no_same_game_opposite"
+      ],
+      "locked": true,
+      "late_add": false,
+      "late_add_reason": "",
+      "bonus_pick": false,
+      "event_type": "",
+      "event_name": "",
+      "legs": [],
+      "headline": "Bounce-back spot for Wemby after a 4-for-15 shooting night in Game 5.",
+      "the_thesis": "Victor Wembanyama is averaging 28.2 points per game in this series. His scoring line reads 41, 24, 25, 33, and 20 \u2014 and the drop to 20 points in Game 5 came on only 15 field goal attempts, his lowest shot volume of the series. That's not sustainable for a player of his caliber in an elimination game.\n\nThe historical data is compelling: in the last 21 games where Wembanyama took 15 or fewer field goal attempts without injury impact, he averaged 28 points in the following game and topped 30 in nine of those outings. The Spurs coaching staff has been clear \u2014 'He has to take more than 15 shots,' said coach Mitch Johnson. 'We need him to be aggressive,' pleaded Stephon Castle.\n\nThis is an elimination game at home. Wembanyama will be aggressive. He'll take 20+ shots. And with his efficiency (he's shooting well from the line and has shown he can score in bunches), 28+ points is well within reach.",
+      "the_data": [
+        {
+          "label": "Wemby WCF PPG",
+          "value": "28.2",
+          "context": "Series average"
+        },
+        {
+          "label": "Wemby Game 5 FGA",
+          "value": "15",
+          "context": "Lowest of series, bounce-back due"
+        },
+        {
+          "label": "Wemby after 15 FGA games",
+          "value": "28 PPG avg",
+          "context": "Historical bounce-back pattern"
+        },
+        {
+          "label": "Wemby series scoring",
+          "value": "41, 24, 25, 33, 20",
+          "context": "Volatile but high ceiling"
+        },
+        {
+          "label": "Elimination game factor",
+          "value": "Home",
+          "context": "Maximum aggression expected"
+        }
+      ],
+      "the_market": "Line is set at 27.5 across books. The market is pricing in a bounce-back but not fully.",
+      "weather_park": "Indoor game. No weather impact.",
+      "case_against": "The Thunder defense has been elite this series. If they continue to limit Wemby's touches, he could have another quiet night. Foul trouble is always a risk.",
+      "what_were_betting_on": "Wembanyama taking 20+ shots, being aggressive from the opening tip, and the Spurs feeding him early and often in an elimination game.",
+      "scott_bot_quip": "Wemby shot 4-for-15 and his coach said 'he has to take more shots.' Message received.",
+      "ladder_note": "",
+      "date": "2026-05-28",
+      "status": "PEND",
+      "units_result": null,
+      "clv_cents": null,
+      "result_score": null,
+      "graded_at": null,
+      "slate_assessment": "Light 6-game MLB slate plus a Western Conference Finals elimination game. Chris Sale vs. Payton Tolle at Fenway and Paul Skenes vs. Colin Rea at PNC Park headline the pitching matchups. Spurs host Thunder in Game 6 with San Antonio facing elimination.",
+      "executive_summary": "Thursday's board is thin but sharp. Six MLB games and a Western Conference Finals elimination game give us enough to work with. The Skenes-Rea matchup at PNC Park is the cleanest spot on the slate \u2014 reigning Cy Young winner at home in a pitcher's park against a struggling Colin Rea. Chris Sale continues his dominant run against a Boston lineup that's been anemic. The NBA game features a desperate Spurs team at home with Wembanyama due for a bounce-back after a 4-for-15 shooting night. The ladder rides with the Spurs spread \u2014 best floor on the board with San Antonio 20-6 SU coming off losses this season.",
+      "slate_analysis": "The board today is a 6-game MLB slate plus one NBA Western Conference Finals elimination game. No NHL, no other NBA. The MLB games are spread across the afternoon and evening, with first pitches ranging from 1:10 PM ET to 8:05 PM ET. The NBA tips at 8:30 PM ET. Pricing is relatively tight across the board \u2014 no massive favorites, no obvious traps.\n\nThe candidates that rose to the top: Pittsburgh vs. Chicago (Skenes vs. Rea at PNC Park) immediately jumped out \u2014 Skenes is the reigning NL Cy Young winner with a 3.00 ERA and 0.82 WHIP, facing Colin Rea who's sporting a 4.83 ERA and 1.37 HR/9. PNC Park suppresses runs (0.95 PF) and HRs (0.91 PF). The Atlanta-Boston game (Sale vs. Tolle) is intriguing \u2014 Sale's 1.89 ERA and 29.9 K% against a Boston offense averaging just 3.85 R/G. The Spurs-Thunder Game 6 is a classic elimination spot with Wembanyama due for a bounce-back after shooting 4-for-15 in Game 5. The Texas-Houston game (Eovaldi vs. Arrighetti) has some appeal with Arrighetti's 1.32 ERA, but his 14.3 BB% is a red flag. The Detroit-Angels game has weather boosting HRs 20% and two shaky starters, but data confidence is only 0.45. The White Sox-Twins game has Davis Martin's 2.04 ERA against a rookie lefty in Kendry Rojas, but again data confidence is 0.45.\n\nWhat got cut: The Detroit-Angels and White Sox-Twins games both have data confidence of 0.45 \u2014 below our 0.6 floor. The Baltimore-Toronto game has two mediocre starters (Bassitt 5.51 ERA, Corbin 3.86 ERA) and no clear edge. The Texas-Houston game is tempting but Arrighetti's 14.3 BB% creates too much variance for an under, and the Rangers ML at -142 is too short for the edge. The Skenes K prop was considered but his last two starts have been rough (5 ER each) and the line is set at 6.5 with juice on the under.\n\nThe final six: We're taking the Pirates ML (Skenes at home vs. Rea), the Braves ML (Sale's dominance continues), the Spurs spread (elimination game bounce-back), the Under 7.5 at PNC Park (two pitchers who can go deep, pitcher-friendly park), Wembanyama Points Over 27.5 (bounce-back spot after 4-for-15 shooting), and SGA Points Over 29.5 (he's been carrying OKC with Williams out). The ladder pick is the Spurs -3.5 \u2014 San Antonio is 20-6 SU coming off losses this season, Wembanyama is due for a big game, and the Thunder are missing Jalen Williams.",
+      "slate_vibe": "NORMAL",
+      "published_at": "2026-05-28T11:25:40.812861-04:00"
+    },
+    {
+      "id": "20260528-MLB-CHC-PIT-TOTAL",
+      "sport": "MLB",
+      "game": "CHC @ PIT",
+      "first_pitch_iso": "2026-05-28T22:40Z",
+      "pick": "Under 7.5",
+      "best_book": "BetMGM",
+      "best_odds": "-110",
+      "book_prices": {
+        "draftkings": "-112",
+        "fanduel": "-115",
+        "betmgm": "-110"
+      },
+      "book_links": {
+        "fanduel": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.581728514&selectionId=7017906",
+        "draftkings": "https://sportsbook.draftkings.com/?outcomes=0OU84952154U750_3",
+        "betmgm": "https://sports.nj.betmgm.com/en/sports?options=19442953-1504549714-2152764246&type=Single"
+      },
+      "market": "TOTAL",
+      "confidence": 3,
+      "units": 1.0,
+      "win_probability": 0.58,
+      "ladder_designation": false,
+      "data_confidence": 0.72,
+      "rules_passed": [
+        "max_juice",
+        "ladder_even_money",
+        "parlay_well_formed",
+        "confidence_units_match",
+        "data_confidence_floor",
+        "pick_type_allowed",
+        "mlb_hr_prop_check",
+        "mlb_pitcher_k_check",
+        "mlb_total_bases_check",
+        "mlb_hits_check",
+        "nba_player_prop_check",
+        "nhl_shots_check",
+        "mlb_run_line_check",
+        "mlb_under_bb_check",
+        "no_same_game_opposite"
+      ],
+      "locked": true,
+      "late_add": false,
+      "late_add_reason": "",
+      "bonus_pick": false,
+      "event_type": "",
+      "event_name": "",
+      "legs": [],
+      "headline": "Two starters who can go deep in a pitcher-friendly park.",
+      "the_thesis": "This is a classic under spot. Paul Skenes has a 3.9 BB% \u2014 that's elite command that keeps runners off base. Colin Rea's 7.3 BB% is higher but still under our 3.5 BB/9 threshold for unders. Both pitchers can go 6+ innings, which limits bullpen exposure.\n\nPNC Park is one of the best pitcher's parks in baseball. The 0.95 runs park factor and 0.91 HR factor mean balls don't carry and runs are suppressed. The Cubs offense (4.73 R/G) is solid but not elite, and they're facing the best pitcher in baseball. The Pirates offense (4.89 R/G) is better but facing a pitcher who can limit damage.\n\nThe total is set at 7.5, which feels about right for two average offenses. But with Skenes on the mound and the park factors working in our favor, we're getting enough edge to play the under.",
+      "the_data": [
+        {
+          "label": "Skenes BB%",
+          "value": "3.9%",
+          "context": "Elite command, limits free passes"
+        },
+        {
+          "label": "Rea BB%",
+          "value": "7.3%",
+          "context": "Acceptable for under"
+        },
+        {
+          "label": "PNC Park PF (runs)",
+          "value": "0.95",
+          "context": "Pitcher-friendly"
+        },
+        {
+          "label": "Cubs R/G",
+          "value": "4.73",
+          "context": "Average offense"
+        },
+        {
+          "label": "Pirates R/G",
+          "value": "4.89",
+          "context": "Slightly above average"
+        }
+      ],
+      "the_market": "Total opened at 7.5 and has held across all books. No movement suggesting sharp money on either side.",
+      "weather_park": "PNC Park suppresses runs and HRs. Outdoor game, mild conditions expected.",
+      "case_against": "Skenes has been shaky lately \u2014 if he doesn't go deep, the Pirates bullpen could give up runs. The Cubs have some pop in the lineup.",
+      "what_were_betting_on": "Both starters going 6+ innings, limited bullpen exposure, and the park factors suppressing offense.",
+      "scott_bot_quip": "Two starters who can go deep, a park that eats home runs, and a total that's begging for the under.",
+      "ladder_note": "",
+      "date": "2026-05-28",
+      "status": "PEND",
+      "units_result": null,
+      "clv_cents": null,
+      "result_score": null,
+      "graded_at": null,
+      "slate_assessment": "Light 6-game MLB slate plus a Western Conference Finals elimination game. Chris Sale vs. Payton Tolle at Fenway and Paul Skenes vs. Colin Rea at PNC Park headline the pitching matchups. Spurs host Thunder in Game 6 with San Antonio facing elimination.",
+      "executive_summary": "Thursday's board is thin but sharp. Six MLB games and a Western Conference Finals elimination game give us enough to work with. The Skenes-Rea matchup at PNC Park is the cleanest spot on the slate \u2014 reigning Cy Young winner at home in a pitcher's park against a struggling Colin Rea. Chris Sale continues his dominant run against a Boston lineup that's been anemic. The NBA game features a desperate Spurs team at home with Wembanyama due for a bounce-back after a 4-for-15 shooting night. The ladder rides with the Spurs spread \u2014 best floor on the board with San Antonio 20-6 SU coming off losses this season.",
+      "slate_analysis": "The board today is a 6-game MLB slate plus one NBA Western Conference Finals elimination game. No NHL, no other NBA. The MLB games are spread across the afternoon and evening, with first pitches ranging from 1:10 PM ET to 8:05 PM ET. The NBA tips at 8:30 PM ET. Pricing is relatively tight across the board \u2014 no massive favorites, no obvious traps.\n\nThe candidates that rose to the top: Pittsburgh vs. Chicago (Skenes vs. Rea at PNC Park) immediately jumped out \u2014 Skenes is the reigning NL Cy Young winner with a 3.00 ERA and 0.82 WHIP, facing Colin Rea who's sporting a 4.83 ERA and 1.37 HR/9. PNC Park suppresses runs (0.95 PF) and HRs (0.91 PF). The Atlanta-Boston game (Sale vs. Tolle) is intriguing \u2014 Sale's 1.89 ERA and 29.9 K% against a Boston offense averaging just 3.85 R/G. The Spurs-Thunder Game 6 is a classic elimination spot with Wembanyama due for a bounce-back after shooting 4-for-15 in Game 5. The Texas-Houston game (Eovaldi vs. Arrighetti) has some appeal with Arrighetti's 1.32 ERA, but his 14.3 BB% is a red flag. The Detroit-Angels game has weather boosting HRs 20% and two shaky starters, but data confidence is only 0.45. The White Sox-Twins game has Davis Martin's 2.04 ERA against a rookie lefty in Kendry Rojas, but again data confidence is 0.45.\n\nWhat got cut: The Detroit-Angels and White Sox-Twins games both have data confidence of 0.45 \u2014 below our 0.6 floor. The Baltimore-Toronto game has two mediocre starters (Bassitt 5.51 ERA, Corbin 3.86 ERA) and no clear edge. The Texas-Houston game is tempting but Arrighetti's 14.3 BB% creates too much variance for an under, and the Rangers ML at -142 is too short for the edge. The Skenes K prop was considered but his last two starts have been rough (5 ER each) and the line is set at 6.5 with juice on the under.\n\nThe final six: We're taking the Pirates ML (Skenes at home vs. Rea), the Braves ML (Sale's dominance continues), the Spurs spread (elimination game bounce-back), the Under 7.5 at PNC Park (two pitchers who can go deep, pitcher-friendly park), Wembanyama Points Over 27.5 (bounce-back spot after 4-for-15 shooting), and SGA Points Over 29.5 (he's been carrying OKC with Williams out). The ladder pick is the Spurs -3.5 \u2014 San Antonio is 20-6 SU coming off losses this season, Wembanyama is due for a big game, and the Thunder are missing Jalen Williams.",
+      "slate_vibe": "NORMAL",
+      "published_at": "2026-05-28T11:25:40.812780-04:00"
+    },
+    {
+      "id": "20260528-NBA-OKC-SA-SPREAD",
+      "sport": "NBA",
+      "game": "OKC @ SA",
+      "first_pitch_iso": "2026-05-29T00:30Z",
+      "pick": "San Antonio Spurs -3.5",
+      "best_book": "FanDuel",
+      "best_odds": "-108",
+      "book_prices": {
+        "draftkings": "-110",
+        "fanduel": "-108",
+        "betmgm": "-110"
+      },
+      "book_links": {
+        "fanduel": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.581005146&selectionId=237471",
+        "draftkings": "https://sportsbook.draftkings.com/?outcomes=0HC84928869N350_1",
+        "betmgm": "https://sports.nj.betmgm.com/en/sports?options=19557469-1523872212-2202437962&type=Single"
+      },
+      "market": "SPREAD",
+      "confidence": 4,
+      "units": 1.5,
+      "win_probability": 0.6,
+      "ladder_designation": true,
+      "data_confidence": 0.7,
+      "rules_passed": [
+        "max_juice",
+        "ladder_even_money",
+        "parlay_well_formed",
+        "confidence_units_match",
+        "data_confidence_floor",
+        "pick_type_allowed",
+        "mlb_hr_prop_check",
+        "mlb_pitcher_k_check",
+        "mlb_total_bases_check",
+        "mlb_hits_check",
+        "nba_player_prop_check",
+        "nhl_shots_check",
+        "mlb_run_line_check",
+        "mlb_under_bb_check",
+        "no_same_game_opposite"
+      ],
+      "locked": true,
+      "late_add": false,
+      "late_add_reason": "",
+      "bonus_pick": false,
+      "event_type": "",
+      "event_name": "",
+      "legs": [],
+      "headline": "Elimination game at home with Wembanyama due for a bounce-back after a 4-for-15 shooting night.",
+      "the_thesis": "The San Antonio Spurs are facing elimination at home, and Victor Wembanyama is due for a monster game. In Game 5, Wemby shot just 4-for-15 from the field \u2014 his worst offensive performance of the series. But here's the key stat: in the last 21 games where Wembanyama took 15 or fewer field goal attempts without injury impact, he averaged 28 points in the following game and topped 30 in nine of those outings.\n\nThe Thunder are also shorthanded. Jalen Williams remains questionable after missing Games 3, 4, and 5 with a left hamstring strain. Ajay Mitchell is out. Despite carrying those injuries for most of this series, OKC still leads 3-2 \u2014 but they've been doing it with smoke and mirrors.\n\nThe Spurs are 20-6 SU and 18-8 ATS when coming off a loss this season. That's a team that responds. At home, facing elimination, with their franchise player due for a bounce-back? This is the spot.",
+      "the_data": [
+        {
+          "label": "Wembanyama WCF avg",
+          "value": "28.2 PPG / 11.8 RPG",
+          "context": "Dominant series despite Game 5"
+        },
+        {
+          "label": "Wemby Game 5 shooting",
+          "value": "4-15 FG",
+          "context": "Worst of series, bounce-back due"
+        },
+        {
+          "label": "Spurs record after loss",
+          "value": "20-6 SU",
+          "context": "Elite response rate"
+        },
+        {
+          "label": "Jalen Williams status",
+          "value": "Questionable",
+          "context": "Missed Games 3-5"
+        },
+        {
+          "label": "Series average total",
+          "value": "225.8 PPG",
+          "context": "Above tonight's 219.5 line"
+        }
+      ],
+      "the_market": "Spurs opened -3.5 and have held. The market respects the home elimination spot but isn't overreacting to Game 5.",
+      "weather_park": "Indoor game at Frost Bank Center. No weather impact.",
+      "case_against": "The Thunder have won this series without Jalen Williams. SGA has been incredible. If Wembanyama doesn't bounce back, OKC can close it out on the road.",
+      "what_were_betting_on": "Wembanyama coming out aggressive, taking 20+ shots, and the Spurs' home crowd pushing them to a comfortable win that forces Game 7.",
+      "scott_bot_quip": "Wemby shot 4-for-15 and the Spurs lost by 13. He's not doing that again. Not at home. Not facing elimination.",
+      "ladder_note": "Best floor on the board. San Antonio is 20-6 SU coming off losses, Wembanyama is due for a bounce-back, and the Thunder are missing their second-best player. Elimination games at home favor the desperate team.",
+      "date": "2026-05-28",
+      "status": "PEND",
+      "units_result": null,
+      "clv_cents": null,
+      "result_score": null,
+      "graded_at": null,
+      "slate_assessment": "Light 6-game MLB slate plus a Western Conference Finals elimination game. Chris Sale vs. Payton Tolle at Fenway and Paul Skenes vs. Colin Rea at PNC Park headline the pitching matchups. Spurs host Thunder in Game 6 with San Antonio facing elimination.",
+      "executive_summary": "Thursday's board is thin but sharp. Six MLB games and a Western Conference Finals elimination game give us enough to work with. The Skenes-Rea matchup at PNC Park is the cleanest spot on the slate \u2014 reigning Cy Young winner at home in a pitcher's park against a struggling Colin Rea. Chris Sale continues his dominant run against a Boston lineup that's been anemic. The NBA game features a desperate Spurs team at home with Wembanyama due for a bounce-back after a 4-for-15 shooting night. The ladder rides with the Spurs spread \u2014 best floor on the board with San Antonio 20-6 SU coming off losses this season.",
+      "slate_analysis": "The board today is a 6-game MLB slate plus one NBA Western Conference Finals elimination game. No NHL, no other NBA. The MLB games are spread across the afternoon and evening, with first pitches ranging from 1:10 PM ET to 8:05 PM ET. The NBA tips at 8:30 PM ET. Pricing is relatively tight across the board \u2014 no massive favorites, no obvious traps.\n\nThe candidates that rose to the top: Pittsburgh vs. Chicago (Skenes vs. Rea at PNC Park) immediately jumped out \u2014 Skenes is the reigning NL Cy Young winner with a 3.00 ERA and 0.82 WHIP, facing Colin Rea who's sporting a 4.83 ERA and 1.37 HR/9. PNC Park suppresses runs (0.95 PF) and HRs (0.91 PF). The Atlanta-Boston game (Sale vs. Tolle) is intriguing \u2014 Sale's 1.89 ERA and 29.9 K% against a Boston offense averaging just 3.85 R/G. The Spurs-Thunder Game 6 is a classic elimination spot with Wembanyama due for a bounce-back after shooting 4-for-15 in Game 5. The Texas-Houston game (Eovaldi vs. Arrighetti) has some appeal with Arrighetti's 1.32 ERA, but his 14.3 BB% is a red flag. The Detroit-Angels game has weather boosting HRs 20% and two shaky starters, but data confidence is only 0.45. The White Sox-Twins game has Davis Martin's 2.04 ERA against a rookie lefty in Kendry Rojas, but again data confidence is 0.45.\n\nWhat got cut: The Detroit-Angels and White Sox-Twins games both have data confidence of 0.45 \u2014 below our 0.6 floor. The Baltimore-Toronto game has two mediocre starters (Bassitt 5.51 ERA, Corbin 3.86 ERA) and no clear edge. The Texas-Houston game is tempting but Arrighetti's 14.3 BB% creates too much variance for an under, and the Rangers ML at -142 is too short for the edge. The Skenes K prop was considered but his last two starts have been rough (5 ER each) and the line is set at 6.5 with juice on the under.\n\nThe final six: We're taking the Pirates ML (Skenes at home vs. Rea), the Braves ML (Sale's dominance continues), the Spurs spread (elimination game bounce-back), the Under 7.5 at PNC Park (two pitchers who can go deep, pitcher-friendly park), Wembanyama Points Over 27.5 (bounce-back spot after 4-for-15 shooting), and SGA Points Over 29.5 (he's been carrying OKC with Williams out). The ladder pick is the Spurs -3.5 \u2014 San Antonio is 20-6 SU coming off losses this season, Wembanyama is due for a big game, and the Thunder are missing Jalen Williams.",
+      "slate_vibe": "NORMAL",
+      "published_at": "2026-05-28T11:25:40.812689-04:00"
+    },
+    {
+      "id": "20260528-MLB-ATL-BOS-ML",
+      "sport": "MLB",
+      "game": "ATL @ BOS",
+      "first_pitch_iso": "2026-05-28T20:10Z",
+      "pick": "Atlanta Braves ML",
+      "best_book": "BetMGM",
+      "best_odds": "-135",
+      "book_prices": {
+        "draftkings": "-137",
+        "fanduel": "-136",
+        "betmgm": "-135"
+      },
+      "book_links": {
+        "fanduel": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.581546262&selectionId=7100960",
+        "draftkings": "https://sportsbook.draftkings.com/?outcomes=0ML84952152_3",
+        "betmgm": "https://sports.nj.betmgm.com/en/sports?options=19442951-1504549433-2152763560&type=Single"
+      },
+      "market": "ML",
+      "confidence": 4,
+      "units": 1.5,
+      "win_probability": 0.62,
+      "ladder_designation": false,
+      "data_confidence": 0.72,
+      "rules_passed": [
+        "max_juice",
+        "ladder_even_money",
+        "parlay_well_formed",
+        "confidence_units_match",
+        "data_confidence_floor",
+        "pick_type_allowed",
+        "mlb_hr_prop_check",
+        "mlb_pitcher_k_check",
+        "mlb_total_bases_check",
+        "mlb_hits_check",
+        "nba_player_prop_check",
+        "nhl_shots_check",
+        "mlb_run_line_check",
+        "mlb_under_bb_check",
+        "no_same_game_opposite"
+      ],
+      "locked": true,
+      "late_add": false,
+      "late_add_reason": "",
+      "bonus_pick": false,
+      "event_type": "",
+      "event_name": "",
+      "legs": [],
+      "headline": "Chris Sale's dominant run continues against a Boston offense averaging just 3.85 runs per game.",
+      "the_thesis": "Chris Sale is pitching like the 2024 Cy Young winner again. His 1.89 ERA and 0.87 WHIP are elite, and his 29.9 K% shows the stuff is still there at age 37. Sale has been particularly sharp recently \u2014 in his last start against the Rockies, he struck out 11 over 7 innings while allowing just one run.\n\nThe Boston offense is struggling. They're averaging just 3.85 runs per game this season, which ranks near the bottom of the league. Payton Tolle is a solid young arm (2.45 ERA, 0.82 WHIP), but he's facing an Atlanta offense that's averaging 5.16 R/G \u2014 the best in this matchup by a wide margin.\n\nThe Braves have the pitching edge (Sale > Tolle), the offensive edge (5.16 R/G vs 3.85 R/G), and the experience edge (Sale in a big spot vs. a young pitcher). The market has this right at -135, but we're getting enough edge to play it.",
+      "the_data": [
+        {
+          "label": "Sale ERA / WHIP",
+          "value": "1.89 / 0.87",
+          "context": "Cy Young caliber"
+        },
+        {
+          "label": "Sale K%",
+          "value": "29.9%",
+          "context": "Elite, still has the stuff"
+        },
+        {
+          "label": "Boston R/G",
+          "value": "3.85",
+          "context": "Bottom-tier offense"
+        },
+        {
+          "label": "Atlanta R/G",
+          "value": "5.16",
+          "context": "Top-tier offense"
+        },
+        {
+          "label": "Tolle ERA / WHIP",
+          "value": "2.45 / 0.82",
+          "context": "Solid but limited sample"
+        }
+      ],
+      "the_market": "Braves opened around -135 and have held steady. No significant line movement. The market respects Sale on the road.",
+      "weather_park": "Fenway Park is hitter-friendly (1.05 runs PF) but HR-suppressing (0.96 HR PF). Outdoor game, mild conditions.",
+      "case_against": "Sale is 37 and has had durability issues throughout his career. Tolle has been sharp this year and could match Sale pitch-for-pitch. Fenway is a tough place to pitch.",
+      "what_were_betting_on": "Sale going 6+ innings with 7+ strikeouts, the Braves offense providing run support against a young pitcher, and Atlanta's bullpen closing it out.",
+      "scott_bot_quip": "Sale's still got it. Boston's offense doesn't. Sometimes it's that simple.",
+      "ladder_note": "",
+      "date": "2026-05-28",
+      "status": "PEND",
+      "units_result": null,
+      "clv_cents": null,
+      "result_score": null,
+      "graded_at": null,
+      "slate_assessment": "Light 6-game MLB slate plus a Western Conference Finals elimination game. Chris Sale vs. Payton Tolle at Fenway and Paul Skenes vs. Colin Rea at PNC Park headline the pitching matchups. Spurs host Thunder in Game 6 with San Antonio facing elimination.",
+      "executive_summary": "Thursday's board is thin but sharp. Six MLB games and a Western Conference Finals elimination game give us enough to work with. The Skenes-Rea matchup at PNC Park is the cleanest spot on the slate \u2014 reigning Cy Young winner at home in a pitcher's park against a struggling Colin Rea. Chris Sale continues his dominant run against a Boston lineup that's been anemic. The NBA game features a desperate Spurs team at home with Wembanyama due for a bounce-back after a 4-for-15 shooting night. The ladder rides with the Spurs spread \u2014 best floor on the board with San Antonio 20-6 SU coming off losses this season.",
+      "slate_analysis": "The board today is a 6-game MLB slate plus one NBA Western Conference Finals elimination game. No NHL, no other NBA. The MLB games are spread across the afternoon and evening, with first pitches ranging from 1:10 PM ET to 8:05 PM ET. The NBA tips at 8:30 PM ET. Pricing is relatively tight across the board \u2014 no massive favorites, no obvious traps.\n\nThe candidates that rose to the top: Pittsburgh vs. Chicago (Skenes vs. Rea at PNC Park) immediately jumped out \u2014 Skenes is the reigning NL Cy Young winner with a 3.00 ERA and 0.82 WHIP, facing Colin Rea who's sporting a 4.83 ERA and 1.37 HR/9. PNC Park suppresses runs (0.95 PF) and HRs (0.91 PF). The Atlanta-Boston game (Sale vs. Tolle) is intriguing \u2014 Sale's 1.89 ERA and 29.9 K% against a Boston offense averaging just 3.85 R/G. The Spurs-Thunder Game 6 is a classic elimination spot with Wembanyama due for a bounce-back after shooting 4-for-15 in Game 5. The Texas-Houston game (Eovaldi vs. Arrighetti) has some appeal with Arrighetti's 1.32 ERA, but his 14.3 BB% is a red flag. The Detroit-Angels game has weather boosting HRs 20% and two shaky starters, but data confidence is only 0.45. The White Sox-Twins game has Davis Martin's 2.04 ERA against a rookie lefty in Kendry Rojas, but again data confidence is 0.45.\n\nWhat got cut: The Detroit-Angels and White Sox-Twins games both have data confidence of 0.45 \u2014 below our 0.6 floor. The Baltimore-Toronto game has two mediocre starters (Bassitt 5.51 ERA, Corbin 3.86 ERA) and no clear edge. The Texas-Houston game is tempting but Arrighetti's 14.3 BB% creates too much variance for an under, and the Rangers ML at -142 is too short for the edge. The Skenes K prop was considered but his last two starts have been rough (5 ER each) and the line is set at 6.5 with juice on the under.\n\nThe final six: We're taking the Pirates ML (Skenes at home vs. Rea), the Braves ML (Sale's dominance continues), the Spurs spread (elimination game bounce-back), the Under 7.5 at PNC Park (two pitchers who can go deep, pitcher-friendly park), Wembanyama Points Over 27.5 (bounce-back spot after 4-for-15 shooting), and SGA Points Over 29.5 (he's been carrying OKC with Williams out). The ladder pick is the Spurs -3.5 \u2014 San Antonio is 20-6 SU coming off losses this season, Wembanyama is due for a big game, and the Thunder are missing Jalen Williams.",
+      "slate_vibe": "NORMAL",
+      "published_at": "2026-05-28T11:25:40.812554-04:00"
+    }
+  ],
   "today_bonus_picks": [],
   "all_picks": [
+    {
+      "id": "20260528-NBA-OKC-SA-PROP-SHAIGILGEOUSALEXANDER",
+      "sport": "NBA",
+      "game": "OKC @ SA",
+      "first_pitch_iso": "2026-05-29T00:30Z",
+      "pick": "Shai Gilgeous-Alexander Points Over 29.5",
+      "best_book": "DraftKings",
+      "best_odds": "-104",
+      "book_prices": {
+        "draftkings": "-104",
+        "fanduel": "-112",
+        "betmgm": "+115"
+      },
+      "book_links": {
+        "fanduel": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.581480813&selectionId=21662973",
+        "draftkings": "https://sportsbook.draftkings.com/?outcomes=0QA337931878%232164613929_13L42648Q1-607420801Q20",
+        "betmgm": "https://sports.nj.betmgm.com/en/sports/events/oklahoma-city-thunder-at-san-antonio-spurs-19557469"
+      },
+      "market": "PROP",
+      "confidence": 3,
+      "units": 1.0,
+      "win_probability": 0.57,
+      "ladder_designation": false,
+      "data_confidence": 0.7,
+      "rules_passed": [
+        "max_juice",
+        "ladder_even_money",
+        "parlay_well_formed",
+        "confidence_units_match",
+        "data_confidence_floor",
+        "pick_type_allowed",
+        "mlb_hr_prop_check",
+        "mlb_pitcher_k_check",
+        "mlb_total_bases_check",
+        "mlb_hits_check",
+        "nba_player_prop_check(soft)",
+        "nhl_shots_check",
+        "mlb_run_line_check",
+        "mlb_under_bb_check",
+        "no_same_game_opposite"
+      ],
+      "locked": true,
+      "late_add": false,
+      "late_add_reason": "",
+      "bonus_pick": false,
+      "event_type": "",
+      "event_name": "",
+      "legs": [],
+      "headline": "SGA has been carrying OKC with Jalen Williams out \u2014 expect another big scoring night.",
+      "the_thesis": "Shai Gilgeous-Alexander has been the Thunder's entire offense with Jalen Williams sidelined. Williams has missed Games 3, 4, and 5 with a left hamstring strain, and SGA has stepped up in a massive way. He's been the primary scorer, playmaker, and closer for OKC.\n\nThe Thunder still hold a 3-2 series lead despite being shorthanded, and that's largely because of SGA's brilliance. In a potential closeout game on the road, he'll need to be even more aggressive. The Spurs will throw everything at him defensively, but SGA has shown he can score against anyone.\n\nThe line is set at 29.5, which is right around his playoff average. But in a closeout game with his team shorthanded, expect SGA to take 25+ shots and push for 30+.",
+      "the_data": [
+        {
+          "label": "SGA playoff role",
+          "value": "Primary scorer",
+          "context": "Carrying OKC without Williams"
+        },
+        {
+          "label": "Jalen Williams status",
+          "value": "Questionable (missed G3-5)",
+          "context": "SGA's usage elevated"
+        },
+        {
+          "label": "Thunder series lead",
+          "value": "3-2",
+          "context": "Closeout opportunity"
+        },
+        {
+          "label": "SGA line",
+          "value": "29.5",
+          "context": "Near playoff average"
+        },
+        {
+          "label": "Game context",
+          "value": "Road closeout",
+          "context": "Maximum aggression expected"
+        }
+      ],
+      "the_market": "Line is 29.5 at DraftKings (-104), 30.5 at BetMGM (+115). We're taking the better number at DK.",
+      "weather_park": "Indoor game. No weather impact.",
+      "case_against": "The Spurs defense has been solid on SGA this series. If they continue to contain him and force role players to beat them, he could fall short. Elimination games are unpredictable.",
+      "what_were_betting_on": "SGA taking 25+ shots in a closeout game, being aggressive from the opening tip, and the Thunder needing him to carry the load with Williams out.",
+      "scott_bot_quip": "SGA's been carrying OKC without Williams. In a closeout game? He's not stopping now.",
+      "ladder_note": "",
+      "date": "2026-05-28",
+      "status": "PEND",
+      "units_result": null,
+      "clv_cents": null,
+      "result_score": null,
+      "graded_at": null,
+      "slate_assessment": "Light 6-game MLB slate plus a Western Conference Finals elimination game. Chris Sale vs. Payton Tolle at Fenway and Paul Skenes vs. Colin Rea at PNC Park headline the pitching matchups. Spurs host Thunder in Game 6 with San Antonio facing elimination.",
+      "executive_summary": "Thursday's board is thin but sharp. Six MLB games and a Western Conference Finals elimination game give us enough to work with. The Skenes-Rea matchup at PNC Park is the cleanest spot on the slate \u2014 reigning Cy Young winner at home in a pitcher's park against a struggling Colin Rea. Chris Sale continues his dominant run against a Boston lineup that's been anemic. The NBA game features a desperate Spurs team at home with Wembanyama due for a bounce-back after a 4-for-15 shooting night. The ladder rides with the Spurs spread \u2014 best floor on the board with San Antonio 20-6 SU coming off losses this season.",
+      "slate_analysis": "The board today is a 6-game MLB slate plus one NBA Western Conference Finals elimination game. No NHL, no other NBA. The MLB games are spread across the afternoon and evening, with first pitches ranging from 1:10 PM ET to 8:05 PM ET. The NBA tips at 8:30 PM ET. Pricing is relatively tight across the board \u2014 no massive favorites, no obvious traps.\n\nThe candidates that rose to the top: Pittsburgh vs. Chicago (Skenes vs. Rea at PNC Park) immediately jumped out \u2014 Skenes is the reigning NL Cy Young winner with a 3.00 ERA and 0.82 WHIP, facing Colin Rea who's sporting a 4.83 ERA and 1.37 HR/9. PNC Park suppresses runs (0.95 PF) and HRs (0.91 PF). The Atlanta-Boston game (Sale vs. Tolle) is intriguing \u2014 Sale's 1.89 ERA and 29.9 K% against a Boston offense averaging just 3.85 R/G. The Spurs-Thunder Game 6 is a classic elimination spot with Wembanyama due for a bounce-back after shooting 4-for-15 in Game 5. The Texas-Houston game (Eovaldi vs. Arrighetti) has some appeal with Arrighetti's 1.32 ERA, but his 14.3 BB% is a red flag. The Detroit-Angels game has weather boosting HRs 20% and two shaky starters, but data confidence is only 0.45. The White Sox-Twins game has Davis Martin's 2.04 ERA against a rookie lefty in Kendry Rojas, but again data confidence is 0.45.\n\nWhat got cut: The Detroit-Angels and White Sox-Twins games both have data confidence of 0.45 \u2014 below our 0.6 floor. The Baltimore-Toronto game has two mediocre starters (Bassitt 5.51 ERA, Corbin 3.86 ERA) and no clear edge. The Texas-Houston game is tempting but Arrighetti's 14.3 BB% creates too much variance for an under, and the Rangers ML at -142 is too short for the edge. The Skenes K prop was considered but his last two starts have been rough (5 ER each) and the line is set at 6.5 with juice on the under.\n\nThe final six: We're taking the Pirates ML (Skenes at home vs. Rea), the Braves ML (Sale's dominance continues), the Spurs spread (elimination game bounce-back), the Under 7.5 at PNC Park (two pitchers who can go deep, pitcher-friendly park), Wembanyama Points Over 27.5 (bounce-back spot after 4-for-15 shooting), and SGA Points Over 29.5 (he's been carrying OKC with Williams out). The ladder pick is the Spurs -3.5 \u2014 San Antonio is 20-6 SU coming off losses this season, Wembanyama is due for a big game, and the Thunder are missing Jalen Williams.",
+      "slate_vibe": "NORMAL",
+      "published_at": "2026-05-28T11:25:40.812940-04:00"
+    },
+    {
+      "id": "20260528-NBA-OKC-SA-PROP-VICTORWEMBANYAMA",
+      "sport": "NBA",
+      "game": "OKC @ SA",
+      "first_pitch_iso": "2026-05-29T00:30Z",
+      "pick": "Victor Wembanyama Points Over 27.5",
+      "best_book": "DraftKings",
+      "best_odds": "-113",
+      "book_prices": {
+        "draftkings": "-113",
+        "fanduel": "-110",
+        "betmgm": "-105"
+      },
+      "book_links": {
+        "fanduel": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.581480702&selectionId=61967224",
+        "draftkings": "https://sportsbook.draftkings.com/?outcomes=0QA337931836%232165239123_13L42648Q1-2066599955Q20",
+        "betmgm": "https://sports.nj.betmgm.com/en/sports?options=6:42666-3054776-4710221&type=Single"
+      },
+      "market": "PROP",
+      "confidence": 4,
+      "units": 1.5,
+      "win_probability": 0.62,
+      "ladder_designation": false,
+      "data_confidence": 0.7,
+      "rules_passed": [
+        "max_juice",
+        "ladder_even_money",
+        "parlay_well_formed",
+        "confidence_units_match",
+        "data_confidence_floor",
+        "pick_type_allowed",
+        "mlb_hr_prop_check",
+        "mlb_pitcher_k_check",
+        "mlb_total_bases_check",
+        "mlb_hits_check",
+        "nba_player_prop_check(soft)",
+        "nhl_shots_check",
+        "mlb_run_line_check",
+        "mlb_under_bb_check",
+        "no_same_game_opposite"
+      ],
+      "locked": true,
+      "late_add": false,
+      "late_add_reason": "",
+      "bonus_pick": false,
+      "event_type": "",
+      "event_name": "",
+      "legs": [],
+      "headline": "Bounce-back spot for Wemby after a 4-for-15 shooting night in Game 5.",
+      "the_thesis": "Victor Wembanyama is averaging 28.2 points per game in this series. His scoring line reads 41, 24, 25, 33, and 20 \u2014 and the drop to 20 points in Game 5 came on only 15 field goal attempts, his lowest shot volume of the series. That's not sustainable for a player of his caliber in an elimination game.\n\nThe historical data is compelling: in the last 21 games where Wembanyama took 15 or fewer field goal attempts without injury impact, he averaged 28 points in the following game and topped 30 in nine of those outings. The Spurs coaching staff has been clear \u2014 'He has to take more than 15 shots,' said coach Mitch Johnson. 'We need him to be aggressive,' pleaded Stephon Castle.\n\nThis is an elimination game at home. Wembanyama will be aggressive. He'll take 20+ shots. And with his efficiency (he's shooting well from the line and has shown he can score in bunches), 28+ points is well within reach.",
+      "the_data": [
+        {
+          "label": "Wemby WCF PPG",
+          "value": "28.2",
+          "context": "Series average"
+        },
+        {
+          "label": "Wemby Game 5 FGA",
+          "value": "15",
+          "context": "Lowest of series, bounce-back due"
+        },
+        {
+          "label": "Wemby after 15 FGA games",
+          "value": "28 PPG avg",
+          "context": "Historical bounce-back pattern"
+        },
+        {
+          "label": "Wemby series scoring",
+          "value": "41, 24, 25, 33, 20",
+          "context": "Volatile but high ceiling"
+        },
+        {
+          "label": "Elimination game factor",
+          "value": "Home",
+          "context": "Maximum aggression expected"
+        }
+      ],
+      "the_market": "Line is set at 27.5 across books. The market is pricing in a bounce-back but not fully.",
+      "weather_park": "Indoor game. No weather impact.",
+      "case_against": "The Thunder defense has been elite this series. If they continue to limit Wemby's touches, he could have another quiet night. Foul trouble is always a risk.",
+      "what_were_betting_on": "Wembanyama taking 20+ shots, being aggressive from the opening tip, and the Spurs feeding him early and often in an elimination game.",
+      "scott_bot_quip": "Wemby shot 4-for-15 and his coach said 'he has to take more shots.' Message received.",
+      "ladder_note": "",
+      "date": "2026-05-28",
+      "status": "PEND",
+      "units_result": null,
+      "clv_cents": null,
+      "result_score": null,
+      "graded_at": null,
+      "slate_assessment": "Light 6-game MLB slate plus a Western Conference Finals elimination game. Chris Sale vs. Payton Tolle at Fenway and Paul Skenes vs. Colin Rea at PNC Park headline the pitching matchups. Spurs host Thunder in Game 6 with San Antonio facing elimination.",
+      "executive_summary": "Thursday's board is thin but sharp. Six MLB games and a Western Conference Finals elimination game give us enough to work with. The Skenes-Rea matchup at PNC Park is the cleanest spot on the slate \u2014 reigning Cy Young winner at home in a pitcher's park against a struggling Colin Rea. Chris Sale continues his dominant run against a Boston lineup that's been anemic. The NBA game features a desperate Spurs team at home with Wembanyama due for a bounce-back after a 4-for-15 shooting night. The ladder rides with the Spurs spread \u2014 best floor on the board with San Antonio 20-6 SU coming off losses this season.",
+      "slate_analysis": "The board today is a 6-game MLB slate plus one NBA Western Conference Finals elimination game. No NHL, no other NBA. The MLB games are spread across the afternoon and evening, with first pitches ranging from 1:10 PM ET to 8:05 PM ET. The NBA tips at 8:30 PM ET. Pricing is relatively tight across the board \u2014 no massive favorites, no obvious traps.\n\nThe candidates that rose to the top: Pittsburgh vs. Chicago (Skenes vs. Rea at PNC Park) immediately jumped out \u2014 Skenes is the reigning NL Cy Young winner with a 3.00 ERA and 0.82 WHIP, facing Colin Rea who's sporting a 4.83 ERA and 1.37 HR/9. PNC Park suppresses runs (0.95 PF) and HRs (0.91 PF). The Atlanta-Boston game (Sale vs. Tolle) is intriguing \u2014 Sale's 1.89 ERA and 29.9 K% against a Boston offense averaging just 3.85 R/G. The Spurs-Thunder Game 6 is a classic elimination spot with Wembanyama due for a bounce-back after shooting 4-for-15 in Game 5. The Texas-Houston game (Eovaldi vs. Arrighetti) has some appeal with Arrighetti's 1.32 ERA, but his 14.3 BB% is a red flag. The Detroit-Angels game has weather boosting HRs 20% and two shaky starters, but data confidence is only 0.45. The White Sox-Twins game has Davis Martin's 2.04 ERA against a rookie lefty in Kendry Rojas, but again data confidence is 0.45.\n\nWhat got cut: The Detroit-Angels and White Sox-Twins games both have data confidence of 0.45 \u2014 below our 0.6 floor. The Baltimore-Toronto game has two mediocre starters (Bassitt 5.51 ERA, Corbin 3.86 ERA) and no clear edge. The Texas-Houston game is tempting but Arrighetti's 14.3 BB% creates too much variance for an under, and the Rangers ML at -142 is too short for the edge. The Skenes K prop was considered but his last two starts have been rough (5 ER each) and the line is set at 6.5 with juice on the under.\n\nThe final six: We're taking the Pirates ML (Skenes at home vs. Rea), the Braves ML (Sale's dominance continues), the Spurs spread (elimination game bounce-back), the Under 7.5 at PNC Park (two pitchers who can go deep, pitcher-friendly park), Wembanyama Points Over 27.5 (bounce-back spot after 4-for-15 shooting), and SGA Points Over 29.5 (he's been carrying OKC with Williams out). The ladder pick is the Spurs -3.5 \u2014 San Antonio is 20-6 SU coming off losses this season, Wembanyama is due for a big game, and the Thunder are missing Jalen Williams.",
+      "slate_vibe": "NORMAL",
+      "published_at": "2026-05-28T11:25:40.812861-04:00"
+    },
+    {
+      "id": "20260528-MLB-CHC-PIT-TOTAL",
+      "sport": "MLB",
+      "game": "CHC @ PIT",
+      "first_pitch_iso": "2026-05-28T22:40Z",
+      "pick": "Under 7.5",
+      "best_book": "BetMGM",
+      "best_odds": "-110",
+      "book_prices": {
+        "draftkings": "-112",
+        "fanduel": "-115",
+        "betmgm": "-110"
+      },
+      "book_links": {
+        "fanduel": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.581728514&selectionId=7017906",
+        "draftkings": "https://sportsbook.draftkings.com/?outcomes=0OU84952154U750_3",
+        "betmgm": "https://sports.nj.betmgm.com/en/sports?options=19442953-1504549714-2152764246&type=Single"
+      },
+      "market": "TOTAL",
+      "confidence": 3,
+      "units": 1.0,
+      "win_probability": 0.58,
+      "ladder_designation": false,
+      "data_confidence": 0.72,
+      "rules_passed": [
+        "max_juice",
+        "ladder_even_money",
+        "parlay_well_formed",
+        "confidence_units_match",
+        "data_confidence_floor",
+        "pick_type_allowed",
+        "mlb_hr_prop_check",
+        "mlb_pitcher_k_check",
+        "mlb_total_bases_check",
+        "mlb_hits_check",
+        "nba_player_prop_check",
+        "nhl_shots_check",
+        "mlb_run_line_check",
+        "mlb_under_bb_check",
+        "no_same_game_opposite"
+      ],
+      "locked": true,
+      "late_add": false,
+      "late_add_reason": "",
+      "bonus_pick": false,
+      "event_type": "",
+      "event_name": "",
+      "legs": [],
+      "headline": "Two starters who can go deep in a pitcher-friendly park.",
+      "the_thesis": "This is a classic under spot. Paul Skenes has a 3.9 BB% \u2014 that's elite command that keeps runners off base. Colin Rea's 7.3 BB% is higher but still under our 3.5 BB/9 threshold for unders. Both pitchers can go 6+ innings, which limits bullpen exposure.\n\nPNC Park is one of the best pitcher's parks in baseball. The 0.95 runs park factor and 0.91 HR factor mean balls don't carry and runs are suppressed. The Cubs offense (4.73 R/G) is solid but not elite, and they're facing the best pitcher in baseball. The Pirates offense (4.89 R/G) is better but facing a pitcher who can limit damage.\n\nThe total is set at 7.5, which feels about right for two average offenses. But with Skenes on the mound and the park factors working in our favor, we're getting enough edge to play the under.",
+      "the_data": [
+        {
+          "label": "Skenes BB%",
+          "value": "3.9%",
+          "context": "Elite command, limits free passes"
+        },
+        {
+          "label": "Rea BB%",
+          "value": "7.3%",
+          "context": "Acceptable for under"
+        },
+        {
+          "label": "PNC Park PF (runs)",
+          "value": "0.95",
+          "context": "Pitcher-friendly"
+        },
+        {
+          "label": "Cubs R/G",
+          "value": "4.73",
+          "context": "Average offense"
+        },
+        {
+          "label": "Pirates R/G",
+          "value": "4.89",
+          "context": "Slightly above average"
+        }
+      ],
+      "the_market": "Total opened at 7.5 and has held across all books. No movement suggesting sharp money on either side.",
+      "weather_park": "PNC Park suppresses runs and HRs. Outdoor game, mild conditions expected.",
+      "case_against": "Skenes has been shaky lately \u2014 if he doesn't go deep, the Pirates bullpen could give up runs. The Cubs have some pop in the lineup.",
+      "what_were_betting_on": "Both starters going 6+ innings, limited bullpen exposure, and the park factors suppressing offense.",
+      "scott_bot_quip": "Two starters who can go deep, a park that eats home runs, and a total that's begging for the under.",
+      "ladder_note": "",
+      "date": "2026-05-28",
+      "status": "PEND",
+      "units_result": null,
+      "clv_cents": null,
+      "result_score": null,
+      "graded_at": null,
+      "slate_assessment": "Light 6-game MLB slate plus a Western Conference Finals elimination game. Chris Sale vs. Payton Tolle at Fenway and Paul Skenes vs. Colin Rea at PNC Park headline the pitching matchups. Spurs host Thunder in Game 6 with San Antonio facing elimination.",
+      "executive_summary": "Thursday's board is thin but sharp. Six MLB games and a Western Conference Finals elimination game give us enough to work with. The Skenes-Rea matchup at PNC Park is the cleanest spot on the slate \u2014 reigning Cy Young winner at home in a pitcher's park against a struggling Colin Rea. Chris Sale continues his dominant run against a Boston lineup that's been anemic. The NBA game features a desperate Spurs team at home with Wembanyama due for a bounce-back after a 4-for-15 shooting night. The ladder rides with the Spurs spread \u2014 best floor on the board with San Antonio 20-6 SU coming off losses this season.",
+      "slate_analysis": "The board today is a 6-game MLB slate plus one NBA Western Conference Finals elimination game. No NHL, no other NBA. The MLB games are spread across the afternoon and evening, with first pitches ranging from 1:10 PM ET to 8:05 PM ET. The NBA tips at 8:30 PM ET. Pricing is relatively tight across the board \u2014 no massive favorites, no obvious traps.\n\nThe candidates that rose to the top: Pittsburgh vs. Chicago (Skenes vs. Rea at PNC Park) immediately jumped out \u2014 Skenes is the reigning NL Cy Young winner with a 3.00 ERA and 0.82 WHIP, facing Colin Rea who's sporting a 4.83 ERA and 1.37 HR/9. PNC Park suppresses runs (0.95 PF) and HRs (0.91 PF). The Atlanta-Boston game (Sale vs. Tolle) is intriguing \u2014 Sale's 1.89 ERA and 29.9 K% against a Boston offense averaging just 3.85 R/G. The Spurs-Thunder Game 6 is a classic elimination spot with Wembanyama due for a bounce-back after shooting 4-for-15 in Game 5. The Texas-Houston game (Eovaldi vs. Arrighetti) has some appeal with Arrighetti's 1.32 ERA, but his 14.3 BB% is a red flag. The Detroit-Angels game has weather boosting HRs 20% and two shaky starters, but data confidence is only 0.45. The White Sox-Twins game has Davis Martin's 2.04 ERA against a rookie lefty in Kendry Rojas, but again data confidence is 0.45.\n\nWhat got cut: The Detroit-Angels and White Sox-Twins games both have data confidence of 0.45 \u2014 below our 0.6 floor. The Baltimore-Toronto game has two mediocre starters (Bassitt 5.51 ERA, Corbin 3.86 ERA) and no clear edge. The Texas-Houston game is tempting but Arrighetti's 14.3 BB% creates too much variance for an under, and the Rangers ML at -142 is too short for the edge. The Skenes K prop was considered but his last two starts have been rough (5 ER each) and the line is set at 6.5 with juice on the under.\n\nThe final six: We're taking the Pirates ML (Skenes at home vs. Rea), the Braves ML (Sale's dominance continues), the Spurs spread (elimination game bounce-back), the Under 7.5 at PNC Park (two pitchers who can go deep, pitcher-friendly park), Wembanyama Points Over 27.5 (bounce-back spot after 4-for-15 shooting), and SGA Points Over 29.5 (he's been carrying OKC with Williams out). The ladder pick is the Spurs -3.5 \u2014 San Antonio is 20-6 SU coming off losses this season, Wembanyama is due for a big game, and the Thunder are missing Jalen Williams.",
+      "slate_vibe": "NORMAL",
+      "published_at": "2026-05-28T11:25:40.812780-04:00"
+    },
+    {
+      "id": "20260528-NBA-OKC-SA-SPREAD",
+      "sport": "NBA",
+      "game": "OKC @ SA",
+      "first_pitch_iso": "2026-05-29T00:30Z",
+      "pick": "San Antonio Spurs -3.5",
+      "best_book": "FanDuel",
+      "best_odds": "-108",
+      "book_prices": {
+        "draftkings": "-110",
+        "fanduel": "-108",
+        "betmgm": "-110"
+      },
+      "book_links": {
+        "fanduel": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.581005146&selectionId=237471",
+        "draftkings": "https://sportsbook.draftkings.com/?outcomes=0HC84928869N350_1",
+        "betmgm": "https://sports.nj.betmgm.com/en/sports?options=19557469-1523872212-2202437962&type=Single"
+      },
+      "market": "SPREAD",
+      "confidence": 4,
+      "units": 1.5,
+      "win_probability": 0.6,
+      "ladder_designation": true,
+      "data_confidence": 0.7,
+      "rules_passed": [
+        "max_juice",
+        "ladder_even_money",
+        "parlay_well_formed",
+        "confidence_units_match",
+        "data_confidence_floor",
+        "pick_type_allowed",
+        "mlb_hr_prop_check",
+        "mlb_pitcher_k_check",
+        "mlb_total_bases_check",
+        "mlb_hits_check",
+        "nba_player_prop_check",
+        "nhl_shots_check",
+        "mlb_run_line_check",
+        "mlb_under_bb_check",
+        "no_same_game_opposite"
+      ],
+      "locked": true,
+      "late_add": false,
+      "late_add_reason": "",
+      "bonus_pick": false,
+      "event_type": "",
+      "event_name": "",
+      "legs": [],
+      "headline": "Elimination game at home with Wembanyama due for a bounce-back after a 4-for-15 shooting night.",
+      "the_thesis": "The San Antonio Spurs are facing elimination at home, and Victor Wembanyama is due for a monster game. In Game 5, Wemby shot just 4-for-15 from the field \u2014 his worst offensive performance of the series. But here's the key stat: in the last 21 games where Wembanyama took 15 or fewer field goal attempts without injury impact, he averaged 28 points in the following game and topped 30 in nine of those outings.\n\nThe Thunder are also shorthanded. Jalen Williams remains questionable after missing Games 3, 4, and 5 with a left hamstring strain. Ajay Mitchell is out. Despite carrying those injuries for most of this series, OKC still leads 3-2 \u2014 but they've been doing it with smoke and mirrors.\n\nThe Spurs are 20-6 SU and 18-8 ATS when coming off a loss this season. That's a team that responds. At home, facing elimination, with their franchise player due for a bounce-back? This is the spot.",
+      "the_data": [
+        {
+          "label": "Wembanyama WCF avg",
+          "value": "28.2 PPG / 11.8 RPG",
+          "context": "Dominant series despite Game 5"
+        },
+        {
+          "label": "Wemby Game 5 shooting",
+          "value": "4-15 FG",
+          "context": "Worst of series, bounce-back due"
+        },
+        {
+          "label": "Spurs record after loss",
+          "value": "20-6 SU",
+          "context": "Elite response rate"
+        },
+        {
+          "label": "Jalen Williams status",
+          "value": "Questionable",
+          "context": "Missed Games 3-5"
+        },
+        {
+          "label": "Series average total",
+          "value": "225.8 PPG",
+          "context": "Above tonight's 219.5 line"
+        }
+      ],
+      "the_market": "Spurs opened -3.5 and have held. The market respects the home elimination spot but isn't overreacting to Game 5.",
+      "weather_park": "Indoor game at Frost Bank Center. No weather impact.",
+      "case_against": "The Thunder have won this series without Jalen Williams. SGA has been incredible. If Wembanyama doesn't bounce back, OKC can close it out on the road.",
+      "what_were_betting_on": "Wembanyama coming out aggressive, taking 20+ shots, and the Spurs' home crowd pushing them to a comfortable win that forces Game 7.",
+      "scott_bot_quip": "Wemby shot 4-for-15 and the Spurs lost by 13. He's not doing that again. Not at home. Not facing elimination.",
+      "ladder_note": "Best floor on the board. San Antonio is 20-6 SU coming off losses, Wembanyama is due for a bounce-back, and the Thunder are missing their second-best player. Elimination games at home favor the desperate team.",
+      "date": "2026-05-28",
+      "status": "PEND",
+      "units_result": null,
+      "clv_cents": null,
+      "result_score": null,
+      "graded_at": null,
+      "slate_assessment": "Light 6-game MLB slate plus a Western Conference Finals elimination game. Chris Sale vs. Payton Tolle at Fenway and Paul Skenes vs. Colin Rea at PNC Park headline the pitching matchups. Spurs host Thunder in Game 6 with San Antonio facing elimination.",
+      "executive_summary": "Thursday's board is thin but sharp. Six MLB games and a Western Conference Finals elimination game give us enough to work with. The Skenes-Rea matchup at PNC Park is the cleanest spot on the slate \u2014 reigning Cy Young winner at home in a pitcher's park against a struggling Colin Rea. Chris Sale continues his dominant run against a Boston lineup that's been anemic. The NBA game features a desperate Spurs team at home with Wembanyama due for a bounce-back after a 4-for-15 shooting night. The ladder rides with the Spurs spread \u2014 best floor on the board with San Antonio 20-6 SU coming off losses this season.",
+      "slate_analysis": "The board today is a 6-game MLB slate plus one NBA Western Conference Finals elimination game. No NHL, no other NBA. The MLB games are spread across the afternoon and evening, with first pitches ranging from 1:10 PM ET to 8:05 PM ET. The NBA tips at 8:30 PM ET. Pricing is relatively tight across the board \u2014 no massive favorites, no obvious traps.\n\nThe candidates that rose to the top: Pittsburgh vs. Chicago (Skenes vs. Rea at PNC Park) immediately jumped out \u2014 Skenes is the reigning NL Cy Young winner with a 3.00 ERA and 0.82 WHIP, facing Colin Rea who's sporting a 4.83 ERA and 1.37 HR/9. PNC Park suppresses runs (0.95 PF) and HRs (0.91 PF). The Atlanta-Boston game (Sale vs. Tolle) is intriguing \u2014 Sale's 1.89 ERA and 29.9 K% against a Boston offense averaging just 3.85 R/G. The Spurs-Thunder Game 6 is a classic elimination spot with Wembanyama due for a bounce-back after shooting 4-for-15 in Game 5. The Texas-Houston game (Eovaldi vs. Arrighetti) has some appeal with Arrighetti's 1.32 ERA, but his 14.3 BB% is a red flag. The Detroit-Angels game has weather boosting HRs 20% and two shaky starters, but data confidence is only 0.45. The White Sox-Twins game has Davis Martin's 2.04 ERA against a rookie lefty in Kendry Rojas, but again data confidence is 0.45.\n\nWhat got cut: The Detroit-Angels and White Sox-Twins games both have data confidence of 0.45 \u2014 below our 0.6 floor. The Baltimore-Toronto game has two mediocre starters (Bassitt 5.51 ERA, Corbin 3.86 ERA) and no clear edge. The Texas-Houston game is tempting but Arrighetti's 14.3 BB% creates too much variance for an under, and the Rangers ML at -142 is too short for the edge. The Skenes K prop was considered but his last two starts have been rough (5 ER each) and the line is set at 6.5 with juice on the under.\n\nThe final six: We're taking the Pirates ML (Skenes at home vs. Rea), the Braves ML (Sale's dominance continues), the Spurs spread (elimination game bounce-back), the Under 7.5 at PNC Park (two pitchers who can go deep, pitcher-friendly park), Wembanyama Points Over 27.5 (bounce-back spot after 4-for-15 shooting), and SGA Points Over 29.5 (he's been carrying OKC with Williams out). The ladder pick is the Spurs -3.5 \u2014 San Antonio is 20-6 SU coming off losses this season, Wembanyama is due for a big game, and the Thunder are missing Jalen Williams.",
+      "slate_vibe": "NORMAL",
+      "published_at": "2026-05-28T11:25:40.812689-04:00"
+    },
+    {
+      "id": "20260528-MLB-ATL-BOS-ML",
+      "sport": "MLB",
+      "game": "ATL @ BOS",
+      "first_pitch_iso": "2026-05-28T20:10Z",
+      "pick": "Atlanta Braves ML",
+      "best_book": "BetMGM",
+      "best_odds": "-135",
+      "book_prices": {
+        "draftkings": "-137",
+        "fanduel": "-136",
+        "betmgm": "-135"
+      },
+      "book_links": {
+        "fanduel": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.581546262&selectionId=7100960",
+        "draftkings": "https://sportsbook.draftkings.com/?outcomes=0ML84952152_3",
+        "betmgm": "https://sports.nj.betmgm.com/en/sports?options=19442951-1504549433-2152763560&type=Single"
+      },
+      "market": "ML",
+      "confidence": 4,
+      "units": 1.5,
+      "win_probability": 0.62,
+      "ladder_designation": false,
+      "data_confidence": 0.72,
+      "rules_passed": [
+        "max_juice",
+        "ladder_even_money",
+        "parlay_well_formed",
+        "confidence_units_match",
+        "data_confidence_floor",
+        "pick_type_allowed",
+        "mlb_hr_prop_check",
+        "mlb_pitcher_k_check",
+        "mlb_total_bases_check",
+        "mlb_hits_check",
+        "nba_player_prop_check",
+        "nhl_shots_check",
+        "mlb_run_line_check",
+        "mlb_under_bb_check",
+        "no_same_game_opposite"
+      ],
+      "locked": true,
+      "late_add": false,
+      "late_add_reason": "",
+      "bonus_pick": false,
+      "event_type": "",
+      "event_name": "",
+      "legs": [],
+      "headline": "Chris Sale's dominant run continues against a Boston offense averaging just 3.85 runs per game.",
+      "the_thesis": "Chris Sale is pitching like the 2024 Cy Young winner again. His 1.89 ERA and 0.87 WHIP are elite, and his 29.9 K% shows the stuff is still there at age 37. Sale has been particularly sharp recently \u2014 in his last start against the Rockies, he struck out 11 over 7 innings while allowing just one run.\n\nThe Boston offense is struggling. They're averaging just 3.85 runs per game this season, which ranks near the bottom of the league. Payton Tolle is a solid young arm (2.45 ERA, 0.82 WHIP), but he's facing an Atlanta offense that's averaging 5.16 R/G \u2014 the best in this matchup by a wide margin.\n\nThe Braves have the pitching edge (Sale > Tolle), the offensive edge (5.16 R/G vs 3.85 R/G), and the experience edge (Sale in a big spot vs. a young pitcher). The market has this right at -135, but we're getting enough edge to play it.",
+      "the_data": [
+        {
+          "label": "Sale ERA / WHIP",
+          "value": "1.89 / 0.87",
+          "context": "Cy Young caliber"
+        },
+        {
+          "label": "Sale K%",
+          "value": "29.9%",
+          "context": "Elite, still has the stuff"
+        },
+        {
+          "label": "Boston R/G",
+          "value": "3.85",
+          "context": "Bottom-tier offense"
+        },
+        {
+          "label": "Atlanta R/G",
+          "value": "5.16",
+          "context": "Top-tier offense"
+        },
+        {
+          "label": "Tolle ERA / WHIP",
+          "value": "2.45 / 0.82",
+          "context": "Solid but limited sample"
+        }
+      ],
+      "the_market": "Braves opened around -135 and have held steady. No significant line movement. The market respects Sale on the road.",
+      "weather_park": "Fenway Park is hitter-friendly (1.05 runs PF) but HR-suppressing (0.96 HR PF). Outdoor game, mild conditions.",
+      "case_against": "Sale is 37 and has had durability issues throughout his career. Tolle has been sharp this year and could match Sale pitch-for-pitch. Fenway is a tough place to pitch.",
+      "what_were_betting_on": "Sale going 6+ innings with 7+ strikeouts, the Braves offense providing run support against a young pitcher, and Atlanta's bullpen closing it out.",
+      "scott_bot_quip": "Sale's still got it. Boston's offense doesn't. Sometimes it's that simple.",
+      "ladder_note": "",
+      "date": "2026-05-28",
+      "status": "PEND",
+      "units_result": null,
+      "clv_cents": null,
+      "result_score": null,
+      "graded_at": null,
+      "slate_assessment": "Light 6-game MLB slate plus a Western Conference Finals elimination game. Chris Sale vs. Payton Tolle at Fenway and Paul Skenes vs. Colin Rea at PNC Park headline the pitching matchups. Spurs host Thunder in Game 6 with San Antonio facing elimination.",
+      "executive_summary": "Thursday's board is thin but sharp. Six MLB games and a Western Conference Finals elimination game give us enough to work with. The Skenes-Rea matchup at PNC Park is the cleanest spot on the slate \u2014 reigning Cy Young winner at home in a pitcher's park against a struggling Colin Rea. Chris Sale continues his dominant run against a Boston lineup that's been anemic. The NBA game features a desperate Spurs team at home with Wembanyama due for a bounce-back after a 4-for-15 shooting night. The ladder rides with the Spurs spread \u2014 best floor on the board with San Antonio 20-6 SU coming off losses this season.",
+      "slate_analysis": "The board today is a 6-game MLB slate plus one NBA Western Conference Finals elimination game. No NHL, no other NBA. The MLB games are spread across the afternoon and evening, with first pitches ranging from 1:10 PM ET to 8:05 PM ET. The NBA tips at 8:30 PM ET. Pricing is relatively tight across the board \u2014 no massive favorites, no obvious traps.\n\nThe candidates that rose to the top: Pittsburgh vs. Chicago (Skenes vs. Rea at PNC Park) immediately jumped out \u2014 Skenes is the reigning NL Cy Young winner with a 3.00 ERA and 0.82 WHIP, facing Colin Rea who's sporting a 4.83 ERA and 1.37 HR/9. PNC Park suppresses runs (0.95 PF) and HRs (0.91 PF). The Atlanta-Boston game (Sale vs. Tolle) is intriguing \u2014 Sale's 1.89 ERA and 29.9 K% against a Boston offense averaging just 3.85 R/G. The Spurs-Thunder Game 6 is a classic elimination spot with Wembanyama due for a bounce-back after shooting 4-for-15 in Game 5. The Texas-Houston game (Eovaldi vs. Arrighetti) has some appeal with Arrighetti's 1.32 ERA, but his 14.3 BB% is a red flag. The Detroit-Angels game has weather boosting HRs 20% and two shaky starters, but data confidence is only 0.45. The White Sox-Twins game has Davis Martin's 2.04 ERA against a rookie lefty in Kendry Rojas, but again data confidence is 0.45.\n\nWhat got cut: The Detroit-Angels and White Sox-Twins games both have data confidence of 0.45 \u2014 below our 0.6 floor. The Baltimore-Toronto game has two mediocre starters (Bassitt 5.51 ERA, Corbin 3.86 ERA) and no clear edge. The Texas-Houston game is tempting but Arrighetti's 14.3 BB% creates too much variance for an under, and the Rangers ML at -142 is too short for the edge. The Skenes K prop was considered but his last two starts have been rough (5 ER each) and the line is set at 6.5 with juice on the under.\n\nThe final six: We're taking the Pirates ML (Skenes at home vs. Rea), the Braves ML (Sale's dominance continues), the Spurs spread (elimination game bounce-back), the Under 7.5 at PNC Park (two pitchers who can go deep, pitcher-friendly park), Wembanyama Points Over 27.5 (bounce-back spot after 4-for-15 shooting), and SGA Points Over 29.5 (he's been carrying OKC with Williams out). The ladder pick is the Spurs -3.5 \u2014 San Antonio is 20-6 SU coming off losses this season, Wembanyama is due for a big game, and the Thunder are missing Jalen Williams.",
+      "slate_vibe": "NORMAL",
+      "published_at": "2026-05-28T11:25:40.812554-04:00"
+    },
     {
       "id": "20260527-NHL-CAR-MTL-ML",
       "sport": "NHL",
