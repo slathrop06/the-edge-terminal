@@ -1,5 +1,18 @@
 [
   {
+    "id": "20260528-MLB-CHC-PIT-TOTAL",
+    "date": "2026-05-28",
+    "pick": "Under 7.5",
+    "game": "CHC @ PIT",
+    "odds": "-110",
+    "result_score": "CHC 7 \u00b7 PIT 2",
+    "classification": "MODEL",
+    "post_mortem": "The thesis leaned entirely on Skenes suppressing the Cubs, but the pick ignored two compounding red flags that were publicly available pre-game: Skenes had allowed 9 earned runs across his prior two starts (Phillies and Blue Jays), was entering what would become his first-ever three-game losing streak, and his pitch count was already at 70 through just four innings on Thursday. The game unraveled in the 5th-6th: Skenes walked Busch, surrendered an infield single and a bloop single to Suzuki that scored the first run, then a Pirates defensive error on an infield grounder by Happ let another run score before Skenes was pulled at 5.1 innings \u2014 well short of the '6+ innings' the thesis required. The Cubs bullpen then teed off on a depleted Pirates relief corps (four relievers used the night before), with Ian Happ's two-run homer in the 8th pushing it to 5-2, and Chicago added two more to finish 7-2. The under was never really alive: the 'case against' section of the pick itself flagged Skenes' shakiness and bullpen exposure, but the model still rated confidence at 3 and played the unit \u2014 the data didn't support the conviction.",
+    "candidate_rule": "When the named anchor starter has allowed 3+ ER in each of his prior two starts AND is projected for a rising pitch count (70+ through 4 IP in recent outings), discount under confidence by at least one tier and flag bullpen exposure as a primary risk, not a footnote \u2014 but validate across a minimum of 15\u201320 similar starter-fatigue under spots before codifying as a hard filter.",
+    "sample_size_warning": "N=1, insufficient to establish rule; this is a directional signal only and requires pattern confirmation across a larger sample of 'ace in mini-slump' under bets.",
+    "analyzed_at": "2026-05-29T01:53:50.464105-04:00"
+  },
+  {
     "id": "20260527-MLB-ATL-BOS-TOTAL",
     "date": "2026-05-27",
     "pick": "Under 7.0",
