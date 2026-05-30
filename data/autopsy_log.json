@@ -1,5 +1,18 @@
 [
   {
+    "id": "20260529-MLB-MIA-NYM-TOTAL",
+    "date": "2026-05-29",
+    "pick": "Under 7.5",
+    "game": "MIA @ NYM",
+    "odds": "-118",
+    "result_score": "MIA 7 \u00b7 NYM 9",
+    "classification": "MODEL",
+    "post_mortem": "The thesis leaned on Meyer's ERA and Peralta's K-rate while ignoring Peralta's known Marlins-specific vulnerability (career 4.18 ERA vs. MIA) and his 8 HR allowed in 61.1 IP \u2014 Liam Hicks had 2 HR in 6 prior BvP PA against him and delivered again. Meyer himself got torched in a 4-run Mets inning (Bichette single \u2192 Soto walk \u2192 Young walk \u2192 Ewing 2-RBI single \u2192 Baty 2-RBI single), and a depleted Mets bullpen (missing Senga, Burdi, Herget, and others) had no margin to hold the game once Peralta exited. The final 9-7 (16 total) wasn't a fluke \u2014 the structural conditions for a high-scoring game were present in the pre-game data and were underweighted.",
+    "candidate_rule": "When a starter has a HR/9 above 1.10 AND a documented negative BvP split against the opposing lineup's cleanup hitter (2+ HR in \u22648 PA), flag the Under as degraded regardless of ERA headline \u2014 but validate against a larger sample (N=1 here, insufficient to establish rule).",
+    "sample_size_warning": "N=1, insufficient to establish rule. Pattern to watch: Under picks where one starter has a sub-1.30 ERA but a 1.10+ HR/9 rate and a depleted home bullpen behind them.",
+    "analyzed_at": "2026-05-29T23:26:14.081975-04:00"
+  },
+  {
     "id": "20260528-MLB-CHC-PIT-TOTAL",
     "date": "2026-05-28",
     "pick": "Under 7.5",

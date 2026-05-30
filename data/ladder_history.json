@@ -1,9 +1,17 @@
 {
-  "current_streak": 3,
-  "longest_streak": 3,
+  "current_streak": 4,
+  "longest_streak": 4,
   "completed_climbs": 0,
   "target": 10,
   "history": [
+    {
+      "date": "2026-05-29",
+      "pick_id": "20260529-NHL-MTL-CAR-SPREAD",
+      "pick": "Carolina Hurricanes -1.5",
+      "game": "MTL @ CAR",
+      "status": "WIN",
+      "after_streak": 4
+    },
     {
       "date": "2026-05-28",
       "pick_id": "20260528-NBA-OKC-SA-SPREAD",
@@ -109,5 +117,5 @@
       "after_streak": 1
     }
   ],
-  "updated_at": "2026-05-29T01:53:50.468548-04:00"
+  "updated_at": "2026-05-29T23:26:14.089395-04:00"
 }
