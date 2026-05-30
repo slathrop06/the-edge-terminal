@@ -1,128 +1,33 @@
 {
-  "generated_at": "2026-05-29T23:26:28.746283-04:00",
-  "today": "2026-05-29",
+  "generated_at": "2026-05-30T11:26:54.354006-04:00",
+  "today": "2026-05-30",
   "system_paused": false,
   "pause_reason": "",
   "today_picks": [
     {
-      "id": "20260529-MLB-SF-COL-PROP-LUISARRAEZ",
-      "sport": "MLB",
-      "game": "SF @ COL",
-      "first_pitch_iso": "2026-05-30T00:40Z",
-      "pick": "Luis Arraez Hits Over 1.5",
-      "best_book": "BetMGM",
-      "best_odds": "-110",
-      "book_prices": {
-        "draftkings": "-116",
-        "fanduel": "N/A",
-        "betmgm": "-110"
-      },
-      "book_links": {
-        "draftkings": "https://sportsbook.draftkings.com/?outcomes=0QA338517099%232166673745_13L84240Q1-672051296Q20",
-        "betmgm": "https://sports.nj.betmgm.com/en/sports?options=2:7791433-200020169-756789560&type=Single",
-        "fanduel": "https://sportsbook.fanduel.com/baseball/mlb/san-francisco-giants-%28l-webb%29-%40-colorado-rockies-%28m-lorenzen%29-35659786"
-      },
-      "market": "PROP",
-      "confidence": 3,
-      "units": 1.0,
-      "win_probability": 0.56,
-      "ladder_designation": false,
-      "data_confidence": 0.75,
-      "rules_passed": [
-        "max_juice",
-        "ladder_even_money",
-        "parlay_well_formed",
-        "confidence_units_match",
-        "data_confidence_floor",
-        "pick_type_allowed",
-        "mlb_hr_prop_check",
-        "mlb_pitcher_k_check",
-        "mlb_total_bases_check",
-        "mlb_hits_check(soft)",
-        "nba_player_prop_check",
-        "nhl_shots_check",
-        "mlb_run_line_check",
-        "mlb_under_bb_check",
-        "no_same_game_opposite"
-      ],
-      "locked": true,
-      "late_add": false,
-      "late_add_reason": "",
-      "bonus_pick": false,
-      "event_type": "",
-      "event_name": "",
-      "legs": [],
-      "headline": "The best contact hitter in baseball faces a struggling pitcher at Coors Field.",
-      "the_thesis": "Luis Arraez is the best pure contact hitter in baseball. He's won multiple batting titles and rarely strikes out. Michael Lorenzen has been terrible this season \u2014 7.21 ERA, 1.90 WHIP, and a 15.7% K rate. He's not missing bats, and Arraez doesn't swing and miss.\n\nCoors Field is the most hitter-friendly park in baseball (1.18 runs PF), and Arraez's contact-oriented approach plays perfectly here. The thin air means balls carry, and Arraez's line-drive swing generates plenty of hard contact. His hits line is set at 1.5 at -110 on BetMGM \u2014 we need two hits, which is well within his range against a pitcher who can't miss bats.\n\nThe data requirements are met: Lorenzen's WHIP (1.90) is terrible, his BAA is elevated, and Coors Field boosts all offensive stats. Arraez is a high-floor play in a premium spot.",
-      "the_data": [
-        {
-          "label": "Lorenzen WHIP",
-          "value": "1.90",
-          "context": "Terrible"
-        },
-        {
-          "label": "Lorenzen K%",
-          "value": "15.7%",
-          "context": "Can't miss bats"
-        },
-        {
-          "label": "Coors Field runs PF",
-          "value": "1.18",
-          "context": "Most hitter-friendly in MLB"
-        },
-        {
-          "label": "Arraez career AVG",
-          "value": ".314",
-          "context": "Elite contact"
-        },
-        {
-          "label": "Lorenzen ERA",
-          "value": "7.21",
-          "context": "Struggling badly"
-        }
-      ],
-      "the_market": "Arraez's hits line is -110 over at BetMGM, -116 at DraftKings. The market is pricing in Coors but not fully respecting Lorenzen's struggles.",
-      "weather_park": "Coors Field, 65\u00b0F, clear \u2014 the most hitter-friendly park in baseball.",
-      "case_against": "Arraez could go 1-for-4 with a walk and a hard-hit out. Lorenzen could also get pulled early, limiting ABs. Coors is unpredictable \u2014 sometimes pitchers figure it out.",
-      "what_were_betting_on": "Arraez getting 4-5 ABs, making contact, and the park doing the rest.",
-      "scott_bot_quip": "Arraez doesn't strike out. Lorenzen can't miss bats. At Coors. Do the math.",
-      "ladder_note": "",
-      "date": "2026-05-29",
-      "status": "PEND",
-      "units_result": null,
-      "clv_cents": null,
-      "result_score": null,
-      "graded_at": null,
-      "slate_assessment": "17-game MLB slate plus a pivotal NHL Eastern Conference Final Game 5 \u2014 Carolina can clinch at home. Pitching matchups are soft across the board, but a few totals and props stand out with real edge.",
-      "executive_summary": "Friday's board is headlined by Carolina's chance to close out Montreal in Game 5 of the Eastern Conference Final \u2014 the Hurricanes have won three straight and Frederik Andersen has been the best goalie in the playoffs. On the MLB side, Zack Wheeler returns to ace form against the Dodgers, the Mets-Marlins under features two quality starters at a pitcher-friendly park, and the Seattle-Arizona under at T-Mobile Park offers a clean spot with George Kirby on the mound. The ladder rides with the Hurricanes puck line at +110 \u2014 best floor on the board, backed by dominant defensive metrics and home ice.",
-      "slate_analysis": "Friday's slate features 17 MLB games and one NHL Eastern Conference Final matchup. The MLB board is pricing-heavy with several favorites in the -140 to -165 range, which limits straight-bet opportunities under our -150 cap. The NHL game is the marquee event: Carolina leads Montreal 3-1 and can clinch at home.\n\nTop candidates that rose during my review: (1) Carolina -1.5 at +110 \u2014 the Hurricanes have been historically dominant defensively, allowing just 10 goals in 12 playoff games, and Andersen has a 1.44 GAA this postseason. (2) Mets-Marlins Under 7.5 \u2014 Freddy Peralta vs. Max Meyer at Citi Field, two quality arms in a pitcher-friendly park. (3) Seattle-Arizona Under 7.0 \u2014 George Kirby at T-Mobile Park against a struggling Zac Gallen. (4) Phillies-Dodgers Under 8.0 \u2014 Zack Wheeler has been elite since returning (1.67 ERA in six starts), facing a Dodgers lineup that's potent but Wheeler has the stuff to suppress. (5) Matt Olson Total Bases Over 1.5 at -105 \u2014 facing Chris Paddack (6.86 ERA, 1.34 HR/9) at Great American Ball Park, a HR-boosting venue. (6) Luis Arraez Hits Over 1.5 at -110 \u2014 Arraez is a contact machine facing Michael Lorenzen (7.21 ERA, 1.90 WHIP) at Coors Field.\n\nWhat got cut: Tampa Bay ML at -162 exceeds our juice cap. Cleveland ML at -124 has edge but the opposing SP (Samaniego) has only 17.1 IP \u2014 sample too thin for confidence. The Coors Field over at 10.5 is tempting but both offenses are bottom-half in R/G, and the market has already priced in the park factor. The Cubs-Cardinals total at 8.0 is a coin flip with no clear edge. Several HR props lacked the opposing SP HR/9 data needed for validation.\n\nThe final six: Carolina -1.5 (NHL clinch spot, elite defense, home ice), Mets-Marlins Under 7.5 (two quality arms, pitcher's park), Seattle-Arizona Under 7.0 (Kirby at T-Mobile, Gallen struggling), Phillies-Dodgers Under 8.0 (Wheeler elite, neutral park), Matt Olson TB Over 1.5 (Paddack's HR/9 + GABP), Luis Arraez Hits Over 1.5 (Lorenzen's WHIP + Coors). The ladder pick is Carolina -1.5 at +110 \u2014 best floor on the board with a team that's won three straight, has the best goalie in the playoffs, and is playing at home with a chance to clinch.",
-      "slate_vibe": "NORMAL",
-      "published_at": "2026-05-29T11:25:57.635948-04:00"
-    },
-    {
-      "id": "20260529-MLB-ATL-CIN-PROP-MATTOLSON",
-      "sport": "MLB",
-      "game": "ATL @ CIN",
-      "first_pitch_iso": "2026-05-29T22:40Z",
-      "pick": "Matt Olson TBs Over 1.5",
+      "id": "20260530-NBA-SA-OKC-PROP-SHAIGILGEOUSALEXANDER",
+      "sport": "NBA",
+      "game": "SA @ OKC",
+      "first_pitch_iso": "2026-05-31T00:00Z",
+      "pick": "Shai Gilgeous-Alexander Points Over 30.5",
       "best_book": "DraftKings",
-      "best_odds": "-105",
+      "best_odds": "-114",
       "book_prices": {
-        "draftkings": "-105",
-        "fanduel": "N/A",
-        "betmgm": "-125"
+        "draftkings": "-114",
+        "fanduel": "-114",
+        "betmgm": "-115"
       },
       "book_links": {
-        "draftkings": "https://sportsbook.draftkings.com/?outcomes=0QA338509074%232166645567_13L84240Q1-44994196Q20",
-        "betmgm": "https://sports.nj.betmgm.com/en/sports?options=2:7791450-200023922-756808440&type=Single",
-        "fanduel": "https://sportsbook.fanduel.com/baseball/mlb/atlanta-braves-%28g-holmes%29-%40-cincinnati-reds-%28c-paddack%29-35659781"
+        "draftkings": "https://sportsbook.draftkings.com/?outcomes=0QA338534153%232166740915_13L42648Q1-2000084800Q20",
+        "fanduel": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.582056161&selectionId=21662973",
+        "betmgm": "https://sports.nj.betmgm.com/en/sports?options=6:42667-3059451-4715920&type=Single"
       },
       "market": "PROP",
       "confidence": 3,
       "units": 1.0,
       "win_probability": 0.57,
       "ladder_designation": false,
-      "data_confidence": 0.75,
+      "data_confidence": 0.65,
       "rules_passed": [
         "max_juice",
         "ladder_even_money",
@@ -134,7 +39,7 @@
         "mlb_pitcher_k_check",
         "mlb_total_bases_check",
         "mlb_hits_check",
-        "nba_player_prop_check",
+        "nba_player_prop_check(soft)",
         "nhl_shots_check",
         "mlb_run_line_check",
         "mlb_under_bb_check",
@@ -147,172 +52,72 @@
       "event_type": "",
       "event_name": "",
       "legs": [],
-      "headline": "Olson faces a struggling Paddack at the most HR-friendly park in baseball.",
-      "the_thesis": "Chris Paddack has been brutal this season \u2014 6.86 ERA, 1.67 WHIP, and a 1.34 HR/9. He's regressing hard, with a 7.63 ERA over his last three starts. Matt Olson is a lefty masher who thrives against struggling right-handers, and Great American Ball Park is the most HR-friendly venue in baseball (1.18 HR PF).\n\nOlson's total bases line is set at 1.5 at -105 on DraftKings. That means we need him to record 2+ total bases \u2014 a double, two singles, or a home run. Given Paddack's HR/9 and the park factor, a home run is very much in play. Olson has been solid this year, and this is a premium matchup.\n\nThe data requirements are met: Paddack's HR/9 (1.34) is elevated, his L3 ERA (7.63) is terrible, and the park factor (1.18 HR) is the highest in baseball. This is a clean prop spot.",
+      "headline": "SGA's 31.1 PPG baseline meets a must-win Game 7 at home.",
+      "the_thesis": "Shai Gilgeous-Alexander has been the Thunder's engine all season, averaging 31.1 points per game \u2014 second in the NBA. In a Game 7 at home, with a trip to the Finals on the line, he's going to have the ball in his hands for every meaningful possession. The Thunder's offense runs through him, and there's no reason to expect that to change tonight.\n\nThe Spurs have been solid defensively (111.5 points allowed per game, 8th in the league), but they don't have a lockdown perimeter defender who can contain SGA. Stephon Castle has been good, but SGA is a different animal. He's going to get his shots, and he's going to make them.\n\nThe line is set at 30.5, and the over is getting -114 at DraftKings. The market implied probability is roughly 53.3%. I'm pricing this at 57% \u2014 that's a 3.7 cent edge. It's a thinner edge than the Wembanyama play, but the floor is high because SGA is so reliable.",
       "the_data": [
         {
-          "label": "Paddack HR/9",
-          "value": "1.34",
-          "context": "Elevated"
+          "label": "SGA PPG (regular season)",
+          "value": "31.1",
+          "context": "2nd in NBA"
         },
         {
-          "label": "Paddack L3 ERA",
-          "value": "7.63",
-          "context": "Terrible"
+          "label": "SGA PPG (WCF)",
+          "value": "24.3",
+          "context": "Below his baseline, due for a bounce-back"
         },
         {
-          "label": "GABP HR PF",
-          "value": "1.18",
-          "context": "Most HR-friendly in MLB"
+          "label": "Spurs DRTG",
+          "value": "111.5",
+          "context": "8th in NBA, solid but not elite"
         },
         {
-          "label": "Olson lineup spot",
-          "value": "3-4",
-          "context": "Heart of order"
-        },
-        {
-          "label": "Paddack WHIP",
-          "value": "1.67",
-          "context": "Traffic on bases"
+          "label": "Line",
+          "value": "30.5",
+          "context": "Just below his season average"
         }
       ],
-      "the_market": "Olson's TB line is -105 over at DraftKings, -125 at BetMGM. The market is respecting the matchup but not fully pricing in Paddack's struggles.",
-      "weather_park": "Great American Ball Park, 75\u00b0F, wind out to left \u2014 HR-boosting conditions.",
-      "case_against": "Olson has been streaky this year, and one bad AB could sink this. Paddack could also get pulled early if he struggles, limiting Olson's at-bats against him.",
-      "what_were_betting_on": "Olson getting 3-4 ABs against Paddack, making hard contact, and the park doing the rest.",
-      "scott_bot_quip": "Paddack's serving meatballs at the most hitter-friendly park in baseball. Olson's hungry.",
+      "the_market": "The line is set at 30.5 across all books. The over is getting -114 at DraftKings, -114 at FanDuel, -115 at BetMGM. No significant movement.",
+      "weather_park": "Indoor game at Paycom Center. No weather concerns.",
+      "case_against": "SGA has averaged just 24.3 PPG in this series \u2014 below his season baseline. The Spurs' defense has been effective against him. If the Thunder get blown out, his minutes could be limited. And 30.5 is a high number \u2014 he needs to exceed his series average by 6+ points.",
+      "what_were_betting_on": "A close Game 7 with SGA playing 38+ minutes and taking 25+ shots. He's the best player on the home team in a must-win game.",
+      "scott_bot_quip": "Game 7. Home court. SGA. He's not going out quiet.",
       "ladder_note": "",
-      "date": "2026-05-29",
+      "date": "2026-05-30",
       "status": "PEND",
       "units_result": null,
       "clv_cents": null,
       "result_score": null,
       "graded_at": null,
-      "slate_assessment": "17-game MLB slate plus a pivotal NHL Eastern Conference Final Game 5 \u2014 Carolina can clinch at home. Pitching matchups are soft across the board, but a few totals and props stand out with real edge.",
-      "executive_summary": "Friday's board is headlined by Carolina's chance to close out Montreal in Game 5 of the Eastern Conference Final \u2014 the Hurricanes have won three straight and Frederik Andersen has been the best goalie in the playoffs. On the MLB side, Zack Wheeler returns to ace form against the Dodgers, the Mets-Marlins under features two quality starters at a pitcher-friendly park, and the Seattle-Arizona under at T-Mobile Park offers a clean spot with George Kirby on the mound. The ladder rides with the Hurricanes puck line at +110 \u2014 best floor on the board, backed by dominant defensive metrics and home ice.",
-      "slate_analysis": "Friday's slate features 17 MLB games and one NHL Eastern Conference Final matchup. The MLB board is pricing-heavy with several favorites in the -140 to -165 range, which limits straight-bet opportunities under our -150 cap. The NHL game is the marquee event: Carolina leads Montreal 3-1 and can clinch at home.\n\nTop candidates that rose during my review: (1) Carolina -1.5 at +110 \u2014 the Hurricanes have been historically dominant defensively, allowing just 10 goals in 12 playoff games, and Andersen has a 1.44 GAA this postseason. (2) Mets-Marlins Under 7.5 \u2014 Freddy Peralta vs. Max Meyer at Citi Field, two quality arms in a pitcher-friendly park. (3) Seattle-Arizona Under 7.0 \u2014 George Kirby at T-Mobile Park against a struggling Zac Gallen. (4) Phillies-Dodgers Under 8.0 \u2014 Zack Wheeler has been elite since returning (1.67 ERA in six starts), facing a Dodgers lineup that's potent but Wheeler has the stuff to suppress. (5) Matt Olson Total Bases Over 1.5 at -105 \u2014 facing Chris Paddack (6.86 ERA, 1.34 HR/9) at Great American Ball Park, a HR-boosting venue. (6) Luis Arraez Hits Over 1.5 at -110 \u2014 Arraez is a contact machine facing Michael Lorenzen (7.21 ERA, 1.90 WHIP) at Coors Field.\n\nWhat got cut: Tampa Bay ML at -162 exceeds our juice cap. Cleveland ML at -124 has edge but the opposing SP (Samaniego) has only 17.1 IP \u2014 sample too thin for confidence. The Coors Field over at 10.5 is tempting but both offenses are bottom-half in R/G, and the market has already priced in the park factor. The Cubs-Cardinals total at 8.0 is a coin flip with no clear edge. Several HR props lacked the opposing SP HR/9 data needed for validation.\n\nThe final six: Carolina -1.5 (NHL clinch spot, elite defense, home ice), Mets-Marlins Under 7.5 (two quality arms, pitcher's park), Seattle-Arizona Under 7.0 (Kirby at T-Mobile, Gallen struggling), Phillies-Dodgers Under 8.0 (Wheeler elite, neutral park), Matt Olson TB Over 1.5 (Paddack's HR/9 + GABP), Luis Arraez Hits Over 1.5 (Lorenzen's WHIP + Coors). The ladder pick is Carolina -1.5 at +110 \u2014 best floor on the board with a team that's won three straight, has the best goalie in the playoffs, and is playing at home with a chance to clinch.",
+      "slate_assessment": "15-game MLB slate plus a Western Conference Finals Game 7 between the Thunder and Spurs. Multiple pitching matchups with clear edges, plus a high-stakes NBA game with prop value.",
+      "executive_summary": "The board is loaded tonight \u2014 15 MLB games and a Western Conference Finals Game 7 in OKC. The sharpest MLB edge is Cleveland's Parker Messick (2.24 ERA, elite K rate) at home against a struggling Boston offense in a pitcher-friendly park with a total at 6.5. The Thunder-Spurs Game 7 offers prop value on Wembanyama's rebounds in a must-win spot. We're also riding the Cubs behind Ben Brown's 2.01 ERA at Busch Stadium, and taking the under in Seattle where Bryan Woo faces a HR-prone Ryne Nelson in a pitcher's paradise. The ladder rides with the Cubs ML \u2014 best floor on the board at near even money.",
+      "slate_analysis": "Tonight's board features 15 MLB games and one NBA game \u2014 the Western Conference Finals Game 7 between the Thunder and Spurs in Oklahoma City. The MLB slate is spread across the evening with first pitches ranging from 6:10 PM ET to 10:10 PM ET. The NBA game tips at 8 PM ET. Data confidence across the MLB slate is generally soft (0.3-0.45 range), which is typical for lineups not yet confirmed, but the pitching matchups and market pricing are locked in.\n\nThe top candidates that rose during my review: Cleveland vs Boston (Messick's elite 2.24 ERA against a weak Boston offense, total at 6.5 in a neutral-to-pitcher-friendly park); Cubs at Cardinals (Ben Brown's 2.01 ERA and 0.99 WHIP against Kyle Leahy's 4.44 ERA and 1.58 WHIP, Cubs ML at -131); Seattle vs Arizona (Bryan Woo's 1.04 WHIP in a pitcher-friendly park against Ryne Nelson's 1.65 HR/9, under 7 looks sharp); Tampa Bay vs LA Angels (Rasmussen's 2.78 ERA and 0.98 WHIP at the Trop, but the -162 juice is too steep for a straight bet); Thunder-Spurs Game 7 (Wembanyama rebounds prop at 12.5 with his 11.5 RPG average and Game 7 intensity); and the Coors Field over at 11 (two weak starters, hitter-friendly park, but the market has already priced this in).\n\nWhat got cut and why: Tampa Bay ML at -162 exceeds our -150 juice cap for straight bets. The Coors over at 11 is already priced efficiently \u2014 my fair line is 10.5-11, no edge. The DET @ CHW game has data confidence at 0.45, which is borderline, and neither pitcher profile screams edge. The HOU vs MIL game has Sproat's 5.84 ERA looking like an over play, but the data confidence is 0.3 \u2014 too thin. The LAD vs PHI game features Sasaki's 4.93 ERA and 1.79 HR/9 against Luzardo, but the market is already pricing Philly as a live dog at +108; my fair line matches the market, no edge.\n\nThe final six picks: Cleveland Under 6.5 (Messick's elite profile, weak Boston offense, pitcher-friendly park); Cubs ML (Brown's dominance over Leahy, road favorite at -131); Seattle Under 7 (Woo's control in a pitcher's paradise against Nelson's HR-prone profile); Wembanyama Rebounds Over 12.5 (Game 7 intensity, 11.5 RPG baseline, boards available against OKC); Shai Gilgeous-Alexander Points Over 30.5 (31.1 PPG regular season, Game 7 at home, must-win); and Jackson Chourio Total Bases Over 1.5 (facing Sproat's 1.83 HR/9 and 5.84 ERA, even money at BetMGM). The ladder pick is Cubs ML \u2014 best floor on the board with Brown's elite metrics against a struggling Leahy, priced at -131 which lands in our even-money band.",
       "slate_vibe": "NORMAL",
-      "published_at": "2026-05-29T11:25:57.635870-04:00"
+      "published_at": "2026-05-30T11:26:54.346715-04:00"
     },
     {
-      "id": "20260529-MLB-PHI-LAD-TOTAL",
-      "sport": "MLB",
-      "game": "PHI @ LAD",
-      "first_pitch_iso": "2026-05-30T02:15Z",
-      "pick": "Under 8.0",
+      "id": "20260530-NBA-SA-OKC-PROP-VICTORWEMBANYAMA",
+      "sport": "NBA",
+      "game": "SA @ OKC",
+      "first_pitch_iso": "2026-05-31T00:00Z",
+      "pick": "Victor Wembanyama Rebounds Over 12.5",
       "best_book": "DraftKings",
-      "best_odds": "-103",
+      "best_odds": "-108",
       "book_prices": {
-        "draftkings": "-103",
-        "fanduel": "-124",
+        "draftkings": "-108",
+        "fanduel": "-108",
         "betmgm": "-105"
       },
       "book_links": {
-        "fanduel": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.582002836&selectionId=7017906",
-        "draftkings": "https://sportsbook.draftkings.com/?outcomes=0OU84965209U800_3",
-        "betmgm": "https://sports.nj.betmgm.com/en/sports?options=19441429-1504455534-2152512172&type=Single"
+        "draftkings": "https://sportsbook.draftkings.com/?outcomes=0QA338533790%232166795303_13L42648Q1583108280Q20",
+        "fanduel": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.582056303&selectionId=61967224",
+        "betmgm": "https://sports.nj.betmgm.com/en/sports?options=6:42667-3059462-4715932&type=Single"
       },
-      "market": "TOTAL",
-      "confidence": 4,
-      "units": 1.5,
-      "win_probability": 0.58,
-      "ladder_designation": false,
-      "data_confidence": 0.8,
-      "rules_passed": [
-        "max_juice",
-        "ladder_even_money",
-        "parlay_well_formed",
-        "confidence_units_match",
-        "data_confidence_floor",
-        "pick_type_allowed",
-        "mlb_hr_prop_check",
-        "mlb_pitcher_k_check",
-        "mlb_total_bases_check",
-        "mlb_hits_check",
-        "nba_player_prop_check",
-        "nhl_shots_check",
-        "mlb_run_line_check",
-        "mlb_under_bb_check",
-        "no_same_game_opposite"
-      ],
-      "locked": true,
-      "late_add": false,
-      "late_add_reason": "",
-      "bonus_pick": false,
-      "event_type": "",
-      "event_name": "",
-      "legs": [],
-      "headline": "Zack Wheeler has been elite since returning \u2014 this total is too high for a neutral park.",
-      "the_thesis": "Zack Wheeler has been the best story in baseball since returning from thoracic outlet surgery. In six starts, he's posted a 1.67 ERA with quality starts in five of them. His most recent outing was six scoreless innings against Cleveland, one of the best lineups in the AL. Wheeler's stuff is back \u2014 his fastball is sitting 94-95 mph, and he's generating whiffs at an elite rate.\n\nJustin Wrobleski has been solid for the Dodgers (3.07 ERA, 1.11 WHIP), though his K rate is low (13.7%). He's a contact manager who relies on his defense, which works at Dodger Stadium. The Dodgers offense is potent (5.32 R/G), but Wheeler has the stuff to suppress them.\n\nDodger Stadium is neutral (0.97 runs PF, 0.99 HR PF), so we're not getting park help \u2014 but we don't need it. Wheeler is pitching like an ace, and Wrobleski has been good enough to keep games close. The 8.0 at -103 on DraftKings is the play.",
-      "the_data": [
-        {
-          "label": "Wheeler ERA (6 starts)",
-          "value": "1.67",
-          "context": "Elite"
-        },
-        {
-          "label": "Wheeler K:BB (season)",
-          "value": "30:7",
-          "context": "Dominant"
-        },
-        {
-          "label": "Wrobleski ERA / WHIP",
-          "value": "3.07 / 1.11",
-          "context": "Solid"
-        },
-        {
-          "label": "Dodger Stadium runs PF",
-          "value": "0.97",
-          "context": "Neutral"
-        },
-        {
-          "label": "Wheeler fastball velo",
-          "value": "94-95 mph",
-          "context": "Back to form"
-        }
-      ],
-      "the_market": "Total opened at 8.0-8.5 and has settled at 8.0 on DraftKings. The under is getting slight action, but the line hasn't moved. Wheeler's return has been well-publicized, so the market knows he's back.",
-      "weather_park": "Dodger Stadium, 70\u00b0F, clear \u2014 neutral park, no weather concerns.",
-      "case_against": "The Dodgers have the best offense in baseball (5.32 R/G), and if Wheeler has one bad inning, this total is in trouble. Wrobleski's low K rate means balls in play, which can lead to crooked innings.",
-      "what_were_betting_on": "Wheeler continuing his elite run, Wrobleski keeping it close, and both bullpens holding late.",
-      "scott_bot_quip": "Wheeler's back, and he's pitching like he never left. The Dodgers are good, but so is he.",
-      "ladder_note": "",
-      "date": "2026-05-29",
-      "status": "PEND",
-      "units_result": null,
-      "clv_cents": null,
-      "result_score": null,
-      "graded_at": null,
-      "slate_assessment": "17-game MLB slate plus a pivotal NHL Eastern Conference Final Game 5 \u2014 Carolina can clinch at home. Pitching matchups are soft across the board, but a few totals and props stand out with real edge.",
-      "executive_summary": "Friday's board is headlined by Carolina's chance to close out Montreal in Game 5 of the Eastern Conference Final \u2014 the Hurricanes have won three straight and Frederik Andersen has been the best goalie in the playoffs. On the MLB side, Zack Wheeler returns to ace form against the Dodgers, the Mets-Marlins under features two quality starters at a pitcher-friendly park, and the Seattle-Arizona under at T-Mobile Park offers a clean spot with George Kirby on the mound. The ladder rides with the Hurricanes puck line at +110 \u2014 best floor on the board, backed by dominant defensive metrics and home ice.",
-      "slate_analysis": "Friday's slate features 17 MLB games and one NHL Eastern Conference Final matchup. The MLB board is pricing-heavy with several favorites in the -140 to -165 range, which limits straight-bet opportunities under our -150 cap. The NHL game is the marquee event: Carolina leads Montreal 3-1 and can clinch at home.\n\nTop candidates that rose during my review: (1) Carolina -1.5 at +110 \u2014 the Hurricanes have been historically dominant defensively, allowing just 10 goals in 12 playoff games, and Andersen has a 1.44 GAA this postseason. (2) Mets-Marlins Under 7.5 \u2014 Freddy Peralta vs. Max Meyer at Citi Field, two quality arms in a pitcher-friendly park. (3) Seattle-Arizona Under 7.0 \u2014 George Kirby at T-Mobile Park against a struggling Zac Gallen. (4) Phillies-Dodgers Under 8.0 \u2014 Zack Wheeler has been elite since returning (1.67 ERA in six starts), facing a Dodgers lineup that's potent but Wheeler has the stuff to suppress. (5) Matt Olson Total Bases Over 1.5 at -105 \u2014 facing Chris Paddack (6.86 ERA, 1.34 HR/9) at Great American Ball Park, a HR-boosting venue. (6) Luis Arraez Hits Over 1.5 at -110 \u2014 Arraez is a contact machine facing Michael Lorenzen (7.21 ERA, 1.90 WHIP) at Coors Field.\n\nWhat got cut: Tampa Bay ML at -162 exceeds our juice cap. Cleveland ML at -124 has edge but the opposing SP (Samaniego) has only 17.1 IP \u2014 sample too thin for confidence. The Coors Field over at 10.5 is tempting but both offenses are bottom-half in R/G, and the market has already priced in the park factor. The Cubs-Cardinals total at 8.0 is a coin flip with no clear edge. Several HR props lacked the opposing SP HR/9 data needed for validation.\n\nThe final six: Carolina -1.5 (NHL clinch spot, elite defense, home ice), Mets-Marlins Under 7.5 (two quality arms, pitcher's park), Seattle-Arizona Under 7.0 (Kirby at T-Mobile, Gallen struggling), Phillies-Dodgers Under 8.0 (Wheeler elite, neutral park), Matt Olson TB Over 1.5 (Paddack's HR/9 + GABP), Luis Arraez Hits Over 1.5 (Lorenzen's WHIP + Coors). The ladder pick is Carolina -1.5 at +110 \u2014 best floor on the board with a team that's won three straight, has the best goalie in the playoffs, and is playing at home with a chance to clinch.",
-      "slate_vibe": "NORMAL",
-      "published_at": "2026-05-29T11:25:57.635791-04:00"
-    },
-    {
-      "id": "20260529-MLB-ARI-SEA-TOTAL",
-      "sport": "MLB",
-      "game": "ARI @ SEA",
-      "first_pitch_iso": "2026-05-30T02:10Z",
-      "pick": "Under 7.0",
-      "best_book": "DraftKings",
-      "best_odds": "-101",
-      "book_prices": {
-        "draftkings": "-101",
-        "fanduel": "-124",
-        "betmgm": "-102"
-      },
-      "book_links": {
-        "fanduel": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.582002236&selectionId=7017906",
-        "draftkings": "https://sportsbook.draftkings.com/?outcomes=0OU84965208U700_3",
-        "betmgm": "https://sports.nj.betmgm.com/en/sports?options=19441428-1504455435-2152511956&type=Single"
-      },
-      "market": "TOTAL",
+      "market": "PROP",
       "confidence": 4,
       "units": 1.5,
       "win_probability": 0.59,
       "ladder_designation": false,
-      "data_confidence": 0.8,
+      "data_confidence": 0.65,
       "rules_passed": [
         "max_juice",
         "ladder_even_money",
@@ -324,7 +129,7 @@
         "mlb_pitcher_k_check",
         "mlb_total_bases_check",
         "mlb_hits_check",
-        "nba_player_prop_check",
+        "nba_player_prop_check(soft)",
         "nhl_shots_check",
         "mlb_run_line_check",
         "mlb_under_bb_check",
@@ -337,77 +142,77 @@
       "event_type": "",
       "event_name": "",
       "legs": [],
-      "headline": "George Kirby at T-Mobile Park is the cleanest under spot on the board.",
-      "the_thesis": "George Kirby has been excellent this season \u2014 3.54 ERA, 1.21 WHIP, and an elite 5.8% BB rate. He's averaging 22.73 IP over his last three starts, meaning he's going deep into games and limiting bullpen exposure. T-Mobile Park is one of the most pitcher-friendly venues in baseball (0.93 runs PF, 0.93 HR PF), and Kirby's ground-ball tendencies play perfectly here.\n\nZac Gallen has struggled (4.80 ERA, 1.44 WHIP), but he's still capable of eating innings and keeping games close. Arizona's offense (4.64 R/G) is solid, but they're facing a pitcher who doesn't walk anyone and limits hard contact. Seattle's offense (4.21 R/G) is average, and Gallen has enough stuff to keep them in check.\n\nThe 7.0 total at -101 on DraftKings is the best number on the board. FanDuel has 7.5 at +102 over, which tells you the market is split \u2014 we're taking the lower number at near-even money.",
+      "headline": "Wembanyama's 11.5 RPG baseline meets Game 7 intensity and extended minutes.",
+      "the_thesis": "This is a Western Conference Finals Game 7. Victor Wembanyama has been the best player in this series, averaging 28.2 points per game and leading the Spurs in rebounds at 11.5 per game during the regular season. In Game 6, he dropped 28 points in 28 minutes in a blowout win \u2014 but Game 7 will be different. This will be a close, grinding game, and Wembanyama will play 35+ minutes.\n\nThe Thunder have been outrebounded by 1.1 boards per game on average this season. They don't have a dominant rebounder to match Wembanyama's length and athleticism. Chet Holmgren is their best option, but he's averaging 8.5 rebounds per game \u2014 that's not enough to contain Wemby on the glass.\n\nThe line is set at 12.5, and the over is getting -108 at DraftKings. The market implied probability is roughly 51.9%. I'm pricing this at 59% \u2014 that's a 7+ cent edge. In a Game 7, Wembanyama will be on the floor for every meaningful minute, and the boards will be there.",
       "the_data": [
         {
-          "label": "Kirby BB%",
-          "value": "5.8%",
-          "context": "Elite control"
+          "label": "Wembanyama RPG (regular season)",
+          "value": "11.5",
+          "context": "4th in NBA"
         },
         {
-          "label": "T-Mobile Park runs PF",
-          "value": "0.93",
-          "context": "Pitcher-friendly"
+          "label": "Wembanyama PPG (WCF)",
+          "value": "28.2",
+          "context": "Series leader"
         },
         {
-          "label": "Kirby L3 IP/start",
-          "value": "22.73",
-          "context": "Going deep"
+          "label": "OKC rebound differential",
+          "value": "-1.1",
+          "context": "Outrebounded on average"
         },
         {
-          "label": "Kirby HR/9",
-          "value": "0.79",
-          "context": "Solid"
+          "label": "Holmgren RPG",
+          "value": "8.5",
+          "context": "OKC's best rebounder"
         },
         {
-          "label": "Arizona R/G",
-          "value": "4.64",
-          "context": "Above average but facing elite arm"
+          "label": "Line",
+          "value": "12.5",
+          "context": "Just above his season average"
         }
       ],
-      "the_market": "Total is split between 7.0 and 7.5 across books. DraftKings has 7.0 at -101 under, which is the sharpest number. The line hasn't moved, suggesting balanced action.",
-      "weather_park": "T-Mobile Park, outdoor but covered \u2014 pitcher-friendly venue with HR-suppressing dimensions.",
-      "case_against": "Gallen has been hittable this year (4.80 ERA), and if Seattle gets to him early, the over comes into play. Arizona's offense has pop, and one crooked inning could blow this up.",
-      "what_were_betting_on": "Kirby going 7+ innings with minimal damage, Gallen keeping it close, and the park suppressing any fly-ball power.",
-      "scott_bot_quip": "Kirby doesn't walk anyone, and T-Mobile doesn't let balls fly. Math is math.",
+      "the_market": "The line is set at 12.5 across all books. The over is getting -108 at DraftKings, -108 at FanDuel, -105 at BetMGM. No significant movement.",
+      "weather_park": "Indoor game at Paycom Center. No weather concerns.",
+      "case_against": "If the Spurs get blown out early, Wembanyama's minutes could be limited. The Thunder could also crash the glass harder in a Game 7, limiting Wemby's opportunities. And 12.5 is above his season average \u2014 he needs to exceed his baseline.",
+      "what_were_betting_on": "A close Game 7 with Wembanyama playing 35+ minutes and dominating the glass against a Thunder team that doesn't have the personnel to match his length.",
+      "scott_bot_quip": "Game 7. Wemby. Boards. The math is simple.",
       "ladder_note": "",
-      "date": "2026-05-29",
+      "date": "2026-05-30",
       "status": "PEND",
       "units_result": null,
       "clv_cents": null,
       "result_score": null,
       "graded_at": null,
-      "slate_assessment": "17-game MLB slate plus a pivotal NHL Eastern Conference Final Game 5 \u2014 Carolina can clinch at home. Pitching matchups are soft across the board, but a few totals and props stand out with real edge.",
-      "executive_summary": "Friday's board is headlined by Carolina's chance to close out Montreal in Game 5 of the Eastern Conference Final \u2014 the Hurricanes have won three straight and Frederik Andersen has been the best goalie in the playoffs. On the MLB side, Zack Wheeler returns to ace form against the Dodgers, the Mets-Marlins under features two quality starters at a pitcher-friendly park, and the Seattle-Arizona under at T-Mobile Park offers a clean spot with George Kirby on the mound. The ladder rides with the Hurricanes puck line at +110 \u2014 best floor on the board, backed by dominant defensive metrics and home ice.",
-      "slate_analysis": "Friday's slate features 17 MLB games and one NHL Eastern Conference Final matchup. The MLB board is pricing-heavy with several favorites in the -140 to -165 range, which limits straight-bet opportunities under our -150 cap. The NHL game is the marquee event: Carolina leads Montreal 3-1 and can clinch at home.\n\nTop candidates that rose during my review: (1) Carolina -1.5 at +110 \u2014 the Hurricanes have been historically dominant defensively, allowing just 10 goals in 12 playoff games, and Andersen has a 1.44 GAA this postseason. (2) Mets-Marlins Under 7.5 \u2014 Freddy Peralta vs. Max Meyer at Citi Field, two quality arms in a pitcher-friendly park. (3) Seattle-Arizona Under 7.0 \u2014 George Kirby at T-Mobile Park against a struggling Zac Gallen. (4) Phillies-Dodgers Under 8.0 \u2014 Zack Wheeler has been elite since returning (1.67 ERA in six starts), facing a Dodgers lineup that's potent but Wheeler has the stuff to suppress. (5) Matt Olson Total Bases Over 1.5 at -105 \u2014 facing Chris Paddack (6.86 ERA, 1.34 HR/9) at Great American Ball Park, a HR-boosting venue. (6) Luis Arraez Hits Over 1.5 at -110 \u2014 Arraez is a contact machine facing Michael Lorenzen (7.21 ERA, 1.90 WHIP) at Coors Field.\n\nWhat got cut: Tampa Bay ML at -162 exceeds our juice cap. Cleveland ML at -124 has edge but the opposing SP (Samaniego) has only 17.1 IP \u2014 sample too thin for confidence. The Coors Field over at 10.5 is tempting but both offenses are bottom-half in R/G, and the market has already priced in the park factor. The Cubs-Cardinals total at 8.0 is a coin flip with no clear edge. Several HR props lacked the opposing SP HR/9 data needed for validation.\n\nThe final six: Carolina -1.5 (NHL clinch spot, elite defense, home ice), Mets-Marlins Under 7.5 (two quality arms, pitcher's park), Seattle-Arizona Under 7.0 (Kirby at T-Mobile, Gallen struggling), Phillies-Dodgers Under 8.0 (Wheeler elite, neutral park), Matt Olson TB Over 1.5 (Paddack's HR/9 + GABP), Luis Arraez Hits Over 1.5 (Lorenzen's WHIP + Coors). The ladder pick is Carolina -1.5 at +110 \u2014 best floor on the board with a team that's won three straight, has the best goalie in the playoffs, and is playing at home with a chance to clinch.",
+      "slate_assessment": "15-game MLB slate plus a Western Conference Finals Game 7 between the Thunder and Spurs. Multiple pitching matchups with clear edges, plus a high-stakes NBA game with prop value.",
+      "executive_summary": "The board is loaded tonight \u2014 15 MLB games and a Western Conference Finals Game 7 in OKC. The sharpest MLB edge is Cleveland's Parker Messick (2.24 ERA, elite K rate) at home against a struggling Boston offense in a pitcher-friendly park with a total at 6.5. The Thunder-Spurs Game 7 offers prop value on Wembanyama's rebounds in a must-win spot. We're also riding the Cubs behind Ben Brown's 2.01 ERA at Busch Stadium, and taking the under in Seattle where Bryan Woo faces a HR-prone Ryne Nelson in a pitcher's paradise. The ladder rides with the Cubs ML \u2014 best floor on the board at near even money.",
+      "slate_analysis": "Tonight's board features 15 MLB games and one NBA game \u2014 the Western Conference Finals Game 7 between the Thunder and Spurs in Oklahoma City. The MLB slate is spread across the evening with first pitches ranging from 6:10 PM ET to 10:10 PM ET. The NBA game tips at 8 PM ET. Data confidence across the MLB slate is generally soft (0.3-0.45 range), which is typical for lineups not yet confirmed, but the pitching matchups and market pricing are locked in.\n\nThe top candidates that rose during my review: Cleveland vs Boston (Messick's elite 2.24 ERA against a weak Boston offense, total at 6.5 in a neutral-to-pitcher-friendly park); Cubs at Cardinals (Ben Brown's 2.01 ERA and 0.99 WHIP against Kyle Leahy's 4.44 ERA and 1.58 WHIP, Cubs ML at -131); Seattle vs Arizona (Bryan Woo's 1.04 WHIP in a pitcher-friendly park against Ryne Nelson's 1.65 HR/9, under 7 looks sharp); Tampa Bay vs LA Angels (Rasmussen's 2.78 ERA and 0.98 WHIP at the Trop, but the -162 juice is too steep for a straight bet); Thunder-Spurs Game 7 (Wembanyama rebounds prop at 12.5 with his 11.5 RPG average and Game 7 intensity); and the Coors Field over at 11 (two weak starters, hitter-friendly park, but the market has already priced this in).\n\nWhat got cut and why: Tampa Bay ML at -162 exceeds our -150 juice cap for straight bets. The Coors over at 11 is already priced efficiently \u2014 my fair line is 10.5-11, no edge. The DET @ CHW game has data confidence at 0.45, which is borderline, and neither pitcher profile screams edge. The HOU vs MIL game has Sproat's 5.84 ERA looking like an over play, but the data confidence is 0.3 \u2014 too thin. The LAD vs PHI game features Sasaki's 4.93 ERA and 1.79 HR/9 against Luzardo, but the market is already pricing Philly as a live dog at +108; my fair line matches the market, no edge.\n\nThe final six picks: Cleveland Under 6.5 (Messick's elite profile, weak Boston offense, pitcher-friendly park); Cubs ML (Brown's dominance over Leahy, road favorite at -131); Seattle Under 7 (Woo's control in a pitcher's paradise against Nelson's HR-prone profile); Wembanyama Rebounds Over 12.5 (Game 7 intensity, 11.5 RPG baseline, boards available against OKC); Shai Gilgeous-Alexander Points Over 30.5 (31.1 PPG regular season, Game 7 at home, must-win); and Jackson Chourio Total Bases Over 1.5 (facing Sproat's 1.83 HR/9 and 5.84 ERA, even money at BetMGM). The ladder pick is Cubs ML \u2014 best floor on the board with Brown's elite metrics against a struggling Leahy, priced at -131 which lands in our even-money band.",
       "slate_vibe": "NORMAL",
-      "published_at": "2026-05-29T11:25:57.635705-04:00"
+      "published_at": "2026-05-30T11:26:54.346596-04:00"
     },
     {
-      "id": "20260529-MLB-MIA-NYM-TOTAL",
+      "id": "20260530-MLB-ARI-SEA-TOTAL",
       "sport": "MLB",
-      "game": "MIA @ NYM",
-      "first_pitch_iso": "2026-05-29T23:10Z",
-      "pick": "Under 7.5",
-      "best_book": "DraftKings",
-      "best_odds": "-118",
+      "game": "ARI @ SEA",
+      "first_pitch_iso": "2026-05-31T02:10Z",
+      "pick": "Under 7",
+      "best_book": "FanDuel",
+      "best_odds": "-115",
       "book_prices": {
-        "draftkings": "-118",
-        "fanduel": "-122",
-        "betmgm": "-118"
+        "draftkings": "-122",
+        "fanduel": "-115",
+        "betmgm": "-120"
       },
       "book_links": {
-        "fanduel": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.581998028&selectionId=7017906",
-        "draftkings": "https://sportsbook.draftkings.com/?outcomes=0OU84965200U750_3",
-        "betmgm": "https://sports.nj.betmgm.com/en/sports?options=19441421-1504454674-2152510292&type=Single"
+        "fanduel": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.582228004&selectionId=7017906",
+        "draftkings": "https://sportsbook.draftkings.com/?outcomes=0OU84976537U700_3",
+        "betmgm": "https://sports.nj.betmgm.com/en/sports?options=19441532-1504460662-2152527625&type=Single"
       },
       "market": "TOTAL",
       "confidence": 4,
       "units": 1.5,
       "win_probability": 0.6,
       "ladder_designation": false,
-      "data_confidence": 0.8,
+      "data_confidence": 0.65,
       "rules_passed": [
         "max_juice",
         "ladder_even_money",
@@ -432,83 +237,82 @@
       "event_type": "",
       "event_name": "",
       "legs": [],
-      "headline": "Two quality starters at a pitcher-friendly park \u2014 this total is too high.",
-      "the_thesis": "Freddy Peralta and Max Meyer are both pitching well, and Citi Field suppresses offense. Peralta has a 3.52 ERA with a 24% K rate, while Meyer has been even better \u2014 2.52 ERA, 1.05 WHIP, and a 27.2% K rate. Both starters have the stuff to go deep into games and limit damage.\n\nCiti Field has a 0.97 runs park factor and a 0.91 HR park factor \u2014 it's one of the more pitcher-friendly venues in baseball. The Mets offense has been mediocre (3.82 R/G), and while Miami has been slightly better (4.23 R/G), they're facing a quality arm in Peralta who can miss bats.\n\nThe market has this at 7.5, which feels like a half-run too high given the pitching matchup and venue. Both starters have BB/9 rates under 3.5 (Peralta 10.3% BB rate, Meyer 8.8%), so we're not worried about free passes inflating the score.",
+      "headline": "Bryan Woo's elite control in a pitcher's paradise against a HR-prone Ryne Nelson.",
+      "the_thesis": "T-Mobile Park is one of the best pitcher's parks in baseball \u2014 0.93 runs PF, 0.93 HR PF. It suppresses offense, especially the long ball. Bryan Woo is the perfect pitcher for this environment. His 1.04 WHIP is elite, his 5.5% BB rate is the best on the Mariners staff, and his 3.82 ERA is solid. He's not a strikeout artist (23.0% K rate), but he doesn't need to be \u2014 he pitches to contact and lets the park do the work.\n\nRyne Nelson has been struggling. His 4.65 ERA is backed by a 1.65 HR/9 \u2014 that's a lot of home runs. But here's the thing: T-Mobile Park suppresses HRs. Nelson's HR-prone profile is less dangerous in Seattle than it would be anywhere else. The total is set at 7, and the under is getting -115 at FanDuel.\n\nThe market implied probability on the under is roughly 53.5%. I'm pricing this at 60% \u2014 that's a 6.5 cent edge. Both offenses are middling (Seattle 4.26 R/G, Arizona 4.66 R/G), and the park will do the heavy lifting.",
       "the_data": [
         {
-          "label": "Meyer ERA / WHIP",
-          "value": "2.52 / 1.05",
-          "context": "Elite"
+          "label": "Woo WHIP / BB%",
+          "value": "1.04 / 5.5%",
+          "context": "Elite control"
         },
         {
-          "label": "Peralta K%",
-          "value": "24.0%",
-          "context": "Above average"
+          "label": "Woo ERA",
+          "value": "3.82",
+          "context": "Solid, above-average"
         },
         {
-          "label": "Citi Field HR PF",
-          "value": "0.91",
+          "label": "Nelson HR/9",
+          "value": "1.65",
+          "context": "HR-prone, but park suppresses"
+        },
+        {
+          "label": "T-Mobile Park PF (runs)",
+          "value": "0.93",
+          "context": "Pitcher-friendly"
+        },
+        {
+          "label": "T-Mobile Park PF (HR)",
+          "value": "0.93",
           "context": "HR-suppressing"
         },
         {
-          "label": "Mets R/G",
-          "value": "3.82",
-          "context": "Below average"
-        },
-        {
-          "label": "Meyer HR/9",
-          "value": "0.60",
-          "context": "Excellent"
+          "label": "Total line",
+          "value": "7",
+          "context": "Low, but park supports it"
         }
       ],
-      "the_market": "Total opened at 7.5 and has held. The under is getting slight action at -118, but the line hasn't moved. This feels like a spot where the market is respecting both arms.",
-      "weather_park": "Citi Field, 72\u00b0F, mild conditions \u2014 park factor is the story here, not weather.",
-      "case_against": "Peralta's BB rate (10.3%) is borderline concerning \u2014 if he walks the ballpark, Miami could string together a crooked inning. Meyer has only 60.2 IP this season, so there's some sample size risk.",
-      "what_were_betting_on": "Both starters going 6+ innings, limited traffic on the bases, and the park suppressing any fly-ball damage.",
-      "scott_bot_quip": "Two arms, one pitcher's park, and two offenses that couldn't hit water if they fell out of a boat.",
+      "the_market": "Total opened at 7 and hasn't moved. The under is getting -115 at FanDuel, -120 at BetMGM, -122 at DraftKings. The market is comfortable with this number.",
+      "weather_park": "T-Mobile Park is outdoors but plays as one of the most pitcher-friendly parks in baseball. No weather concerns.",
+      "case_against": "If Woo doesn't have his command and walks a few, Arizona's lineup has enough pop to capitalize. Nelson could also have a good start \u2014 his stuff plays, he's just been unlucky with the long ball. A 7 total is already low.",
+      "what_were_betting_on": "Woo going 6+ innings with minimal damage, Nelson keeping it close despite his HR-prone profile, and the park suppressing offense.",
+      "scott_bot_quip": "T-Mobile Park is where home runs go to die. We're betting on the graveyard.",
       "ladder_note": "",
-      "date": "2026-05-29",
-      "status": "LOSS",
-      "units_result": -1.5,
+      "date": "2026-05-30",
+      "status": "PEND",
+      "units_result": null,
       "clv_cents": null,
-      "result_score": "MIA 7 \u00b7 NYM 9",
-      "graded_at": "2026-05-29T23:25:44.282389-04:00",
-      "slate_assessment": "17-game MLB slate plus a pivotal NHL Eastern Conference Final Game 5 \u2014 Carolina can clinch at home. Pitching matchups are soft across the board, but a few totals and props stand out with real edge.",
-      "executive_summary": "Friday's board is headlined by Carolina's chance to close out Montreal in Game 5 of the Eastern Conference Final \u2014 the Hurricanes have won three straight and Frederik Andersen has been the best goalie in the playoffs. On the MLB side, Zack Wheeler returns to ace form against the Dodgers, the Mets-Marlins under features two quality starters at a pitcher-friendly park, and the Seattle-Arizona under at T-Mobile Park offers a clean spot with George Kirby on the mound. The ladder rides with the Hurricanes puck line at +110 \u2014 best floor on the board, backed by dominant defensive metrics and home ice.",
-      "slate_analysis": "Friday's slate features 17 MLB games and one NHL Eastern Conference Final matchup. The MLB board is pricing-heavy with several favorites in the -140 to -165 range, which limits straight-bet opportunities under our -150 cap. The NHL game is the marquee event: Carolina leads Montreal 3-1 and can clinch at home.\n\nTop candidates that rose during my review: (1) Carolina -1.5 at +110 \u2014 the Hurricanes have been historically dominant defensively, allowing just 10 goals in 12 playoff games, and Andersen has a 1.44 GAA this postseason. (2) Mets-Marlins Under 7.5 \u2014 Freddy Peralta vs. Max Meyer at Citi Field, two quality arms in a pitcher-friendly park. (3) Seattle-Arizona Under 7.0 \u2014 George Kirby at T-Mobile Park against a struggling Zac Gallen. (4) Phillies-Dodgers Under 8.0 \u2014 Zack Wheeler has been elite since returning (1.67 ERA in six starts), facing a Dodgers lineup that's potent but Wheeler has the stuff to suppress. (5) Matt Olson Total Bases Over 1.5 at -105 \u2014 facing Chris Paddack (6.86 ERA, 1.34 HR/9) at Great American Ball Park, a HR-boosting venue. (6) Luis Arraez Hits Over 1.5 at -110 \u2014 Arraez is a contact machine facing Michael Lorenzen (7.21 ERA, 1.90 WHIP) at Coors Field.\n\nWhat got cut: Tampa Bay ML at -162 exceeds our juice cap. Cleveland ML at -124 has edge but the opposing SP (Samaniego) has only 17.1 IP \u2014 sample too thin for confidence. The Coors Field over at 10.5 is tempting but both offenses are bottom-half in R/G, and the market has already priced in the park factor. The Cubs-Cardinals total at 8.0 is a coin flip with no clear edge. Several HR props lacked the opposing SP HR/9 data needed for validation.\n\nThe final six: Carolina -1.5 (NHL clinch spot, elite defense, home ice), Mets-Marlins Under 7.5 (two quality arms, pitcher's park), Seattle-Arizona Under 7.0 (Kirby at T-Mobile, Gallen struggling), Phillies-Dodgers Under 8.0 (Wheeler elite, neutral park), Matt Olson TB Over 1.5 (Paddack's HR/9 + GABP), Luis Arraez Hits Over 1.5 (Lorenzen's WHIP + Coors). The ladder pick is Carolina -1.5 at +110 \u2014 best floor on the board with a team that's won three straight, has the best goalie in the playoffs, and is playing at home with a chance to clinch.",
+      "result_score": null,
+      "graded_at": null,
+      "slate_assessment": "15-game MLB slate plus a Western Conference Finals Game 7 between the Thunder and Spurs. Multiple pitching matchups with clear edges, plus a high-stakes NBA game with prop value.",
+      "executive_summary": "The board is loaded tonight \u2014 15 MLB games and a Western Conference Finals Game 7 in OKC. The sharpest MLB edge is Cleveland's Parker Messick (2.24 ERA, elite K rate) at home against a struggling Boston offense in a pitcher-friendly park with a total at 6.5. The Thunder-Spurs Game 7 offers prop value on Wembanyama's rebounds in a must-win spot. We're also riding the Cubs behind Ben Brown's 2.01 ERA at Busch Stadium, and taking the under in Seattle where Bryan Woo faces a HR-prone Ryne Nelson in a pitcher's paradise. The ladder rides with the Cubs ML \u2014 best floor on the board at near even money.",
+      "slate_analysis": "Tonight's board features 15 MLB games and one NBA game \u2014 the Western Conference Finals Game 7 between the Thunder and Spurs in Oklahoma City. The MLB slate is spread across the evening with first pitches ranging from 6:10 PM ET to 10:10 PM ET. The NBA game tips at 8 PM ET. Data confidence across the MLB slate is generally soft (0.3-0.45 range), which is typical for lineups not yet confirmed, but the pitching matchups and market pricing are locked in.\n\nThe top candidates that rose during my review: Cleveland vs Boston (Messick's elite 2.24 ERA against a weak Boston offense, total at 6.5 in a neutral-to-pitcher-friendly park); Cubs at Cardinals (Ben Brown's 2.01 ERA and 0.99 WHIP against Kyle Leahy's 4.44 ERA and 1.58 WHIP, Cubs ML at -131); Seattle vs Arizona (Bryan Woo's 1.04 WHIP in a pitcher-friendly park against Ryne Nelson's 1.65 HR/9, under 7 looks sharp); Tampa Bay vs LA Angels (Rasmussen's 2.78 ERA and 0.98 WHIP at the Trop, but the -162 juice is too steep for a straight bet); Thunder-Spurs Game 7 (Wembanyama rebounds prop at 12.5 with his 11.5 RPG average and Game 7 intensity); and the Coors Field over at 11 (two weak starters, hitter-friendly park, but the market has already priced this in).\n\nWhat got cut and why: Tampa Bay ML at -162 exceeds our -150 juice cap for straight bets. The Coors over at 11 is already priced efficiently \u2014 my fair line is 10.5-11, no edge. The DET @ CHW game has data confidence at 0.45, which is borderline, and neither pitcher profile screams edge. The HOU vs MIL game has Sproat's 5.84 ERA looking like an over play, but the data confidence is 0.3 \u2014 too thin. The LAD vs PHI game features Sasaki's 4.93 ERA and 1.79 HR/9 against Luzardo, but the market is already pricing Philly as a live dog at +108; my fair line matches the market, no edge.\n\nThe final six picks: Cleveland Under 6.5 (Messick's elite profile, weak Boston offense, pitcher-friendly park); Cubs ML (Brown's dominance over Leahy, road favorite at -131); Seattle Under 7 (Woo's control in a pitcher's paradise against Nelson's HR-prone profile); Wembanyama Rebounds Over 12.5 (Game 7 intensity, 11.5 RPG baseline, boards available against OKC); Shai Gilgeous-Alexander Points Over 30.5 (31.1 PPG regular season, Game 7 at home, must-win); and Jackson Chourio Total Bases Over 1.5 (facing Sproat's 1.83 HR/9 and 5.84 ERA, even money at BetMGM). The ladder pick is Cubs ML \u2014 best floor on the board with Brown's elite metrics against a struggling Leahy, priced at -131 which lands in our even-money band.",
       "slate_vibe": "NORMAL",
-      "published_at": "2026-05-29T11:25:57.635577-04:00",
-      "autopsy": {
-        "classification": "MODEL",
-        "post_mortem": "The thesis leaned on Meyer's ERA and Peralta's K-rate while ignoring Peralta's known Marlins-specific vulnerability (career 4.18 ERA vs. MIA) and his 8 HR allowed in 61.1 IP \u2014 Liam Hicks had 2 HR in 6 prior BvP PA against him and delivered again. Meyer himself got torched in a 4-run Mets inning (Bichette single \u2192 Soto walk \u2192 Young walk \u2192 Ewing 2-RBI single \u2192 Baty 2-RBI single), and a depleted Mets bullpen (missing Senga, Burdi, Herget, and others) had no margin to hold the game once Peralta exited. The final 9-7 (16 total) wasn't a fluke \u2014 the structural conditions for a high-scoring game were present in the pre-game data and were underweighted.",
-        "candidate_rule": "When a starter has a HR/9 above 1.10 AND a documented negative BvP split against the opposing lineup's cleanup hitter (2+ HR in \u22648 PA), flag the Under as degraded regardless of ERA headline \u2014 but validate against a larger sample (N=1 here, insufficient to establish rule).",
-        "sample_size_warning": "N=1, insufficient to establish rule. Pattern to watch: Under picks where one starter has a sub-1.30 ERA but a 1.10+ HR/9 rate and a depleted home bullpen behind them."
-      }
+      "published_at": "2026-05-30T11:26:54.346456-04:00"
     },
     {
-      "id": "20260529-NHL-MTL-CAR-SPREAD",
-      "sport": "NHL",
-      "game": "MTL @ CAR",
-      "first_pitch_iso": "2026-05-30T00:00Z",
-      "pick": "Carolina Hurricanes -1.5",
-      "best_book": "FanDuel",
-      "best_odds": "+110",
+      "id": "20260530-MLB-BOS-CLE-TOTAL",
+      "sport": "MLB",
+      "game": "BOS @ CLE",
+      "first_pitch_iso": "2026-05-30T20:10Z",
+      "pick": "Under 6.5",
+      "best_book": "DraftKings",
+      "best_odds": "-116",
       "book_prices": {
-        "draftkings": "+105",
-        "fanduel": "+110",
-        "betmgm": "+105"
+        "draftkings": "-116",
+        "fanduel": "-118",
+        "betmgm": "-120"
       },
       "book_links": {
-        "fanduel": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.581790594&selectionId=25607",
-        "draftkings": "https://sportsbook.draftkings.com/?outcomes=0HC84963908N150_1",
-        "betmgm": "https://sports.nj.betmgm.com/en/sports?options=19572369-1519359175-2190799855&type=Single"
+        "fanduel": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.582225554&selectionId=7017906",
+        "draftkings": "https://sportsbook.draftkings.com/?outcomes=0OU84976507U650_3",
+        "betmgm": "https://sports.nj.betmgm.com/en/sports?options=19441523-1504459889-2152525949&type=Single"
       },
-      "market": "SPREAD",
-      "confidence": 5,
-      "units": 2.0,
-      "win_probability": 0.58,
+      "market": "TOTAL",
+      "confidence": 4,
+      "units": 1.5,
+      "win_probability": 0.61,
       "ladder_designation": true,
-      "data_confidence": 0.85,
+      "data_confidence": 0.65,
       "rules_passed": [
         "max_juice",
         "ladder_even_money",
@@ -522,7 +326,110 @@
         "mlb_hits_check",
         "nba_player_prop_check",
         "nhl_shots_check",
-        "mlb_run_line_check(soft)",
+        "mlb_run_line_check",
+        "mlb_under_bb_check(soft)",
+        "no_same_game_opposite"
+      ],
+      "locked": true,
+      "late_add": false,
+      "late_add_reason": "",
+      "bonus_pick": false,
+      "event_type": "",
+      "event_name": "",
+      "legs": [],
+      "headline": "Elite lefty Messick at home against a cold Boston offense in a pitcher-friendly park.",
+      "the_thesis": "Parker Messick has been Cleveland's best starter this season, and it's not particularly close. His 2.24 ERA is backed by a 1.04 WHIP and a 28.0% K rate \u2014 that's elite strikeout stuff with pinpoint control (7.6% BB rate). In his last start against Philadelphia, he threw 5.2 shutout innings and lowered his ERA even further. He's not getting lucky; he's pitching like an ace.\n\nBoston's offense has been anemic, scoring just 3.8 runs per game on the season. Sonny Gray is a solid veteran arm (3.27 ERA, 1.20 WHIP), but he's been limited to about 14.67 IP per start in his last three outings \u2014 that's a shorter leash than you'd want for an over. Progressive Field plays neutral-to-pitcher-friendly (0.97 runs PF, 0.96 HR PF), and the total is set at 6.5 with the under getting -116 at DraftKings.\n\nThe market implied probability on the under is roughly 53.7%. I'm pricing this at 61% true probability \u2014 that's a 7+ cent edge. Both starters have the stuff to go deep, both bullpens are competent, and neither offense has been lighting it up. This is a grind-it-out game.",
+      "the_data": [
+        {
+          "label": "Messick ERA / WHIP",
+          "value": "2.24 / 1.04",
+          "context": "Best on Cleveland staff"
+        },
+        {
+          "label": "Messick K% / BB%",
+          "value": "28.0% / 7.6%",
+          "context": "Elite strikeout rate with control"
+        },
+        {
+          "label": "Boston R/G",
+          "value": "3.80",
+          "context": "Bottom-third offense"
+        },
+        {
+          "label": "Gray ERA / WHIP",
+          "value": "3.27 / 1.20",
+          "context": "Solid, above-average"
+        },
+        {
+          "label": "Progressive Field PF (runs)",
+          "value": "0.97",
+          "context": "Pitcher-friendly"
+        },
+        {
+          "label": "Total line",
+          "value": "6.5",
+          "context": "Lowest on the board tonight"
+        }
+      ],
+      "the_market": "Total opened at 6.5 and hasn't moved. The under is getting -116 at DraftKings, -118 at FanDuel, -120 at BetMGM. No sharp movement either direction \u2014 this is a market that's comfortable with the number.",
+      "weather_park": "Progressive Field is outdoors but plays neutral-to-pitcher-friendly. No weather concerns tonight.",
+      "case_against": "If Messick doesn't have his command early and walks a few, Boston's lineup has enough pop to capitalize. Gray's shorter outings mean more bullpen exposure, and Cleveland's pen has been inconsistent. A 6.5 total is already low \u2014 there's not much margin for error.",
+      "what_were_betting_on": "Messick going 6+ innings with 6+ strikeouts, Gray keeping it close, and both bullpens holding serve in a 3-2 or 4-2 type game.",
+      "scott_bot_quip": "Messick's dealing, Boston's not hitting, and 6.5 is a number we can live with.",
+      "ladder_note": "",
+      "date": "2026-05-30",
+      "status": "PEND",
+      "units_result": null,
+      "clv_cents": null,
+      "result_score": null,
+      "graded_at": null,
+      "slate_assessment": "15-game MLB slate plus a Western Conference Finals Game 7 between the Thunder and Spurs. Multiple pitching matchups with clear edges, plus a high-stakes NBA game with prop value.",
+      "executive_summary": "The board is loaded tonight \u2014 15 MLB games and a Western Conference Finals Game 7 in OKC. The sharpest MLB edge is Cleveland's Parker Messick (2.24 ERA, elite K rate) at home against a struggling Boston offense in a pitcher-friendly park with a total at 6.5. The Thunder-Spurs Game 7 offers prop value on Wembanyama's rebounds in a must-win spot. We're also riding the Cubs behind Ben Brown's 2.01 ERA at Busch Stadium, and taking the under in Seattle where Bryan Woo faces a HR-prone Ryne Nelson in a pitcher's paradise. The ladder rides with the Cubs ML \u2014 best floor on the board at near even money.",
+      "slate_analysis": "Tonight's board features 15 MLB games and one NBA game \u2014 the Western Conference Finals Game 7 between the Thunder and Spurs in Oklahoma City. The MLB slate is spread across the evening with first pitches ranging from 6:10 PM ET to 10:10 PM ET. The NBA game tips at 8 PM ET. Data confidence across the MLB slate is generally soft (0.3-0.45 range), which is typical for lineups not yet confirmed, but the pitching matchups and market pricing are locked in.\n\nThe top candidates that rose during my review: Cleveland vs Boston (Messick's elite 2.24 ERA against a weak Boston offense, total at 6.5 in a neutral-to-pitcher-friendly park); Cubs at Cardinals (Ben Brown's 2.01 ERA and 0.99 WHIP against Kyle Leahy's 4.44 ERA and 1.58 WHIP, Cubs ML at -131); Seattle vs Arizona (Bryan Woo's 1.04 WHIP in a pitcher-friendly park against Ryne Nelson's 1.65 HR/9, under 7 looks sharp); Tampa Bay vs LA Angels (Rasmussen's 2.78 ERA and 0.98 WHIP at the Trop, but the -162 juice is too steep for a straight bet); Thunder-Spurs Game 7 (Wembanyama rebounds prop at 12.5 with his 11.5 RPG average and Game 7 intensity); and the Coors Field over at 11 (two weak starters, hitter-friendly park, but the market has already priced this in).\n\nWhat got cut and why: Tampa Bay ML at -162 exceeds our -150 juice cap for straight bets. The Coors over at 11 is already priced efficiently \u2014 my fair line is 10.5-11, no edge. The DET @ CHW game has data confidence at 0.45, which is borderline, and neither pitcher profile screams edge. The HOU vs MIL game has Sproat's 5.84 ERA looking like an over play, but the data confidence is 0.3 \u2014 too thin. The LAD vs PHI game features Sasaki's 4.93 ERA and 1.79 HR/9 against Luzardo, but the market is already pricing Philly as a live dog at +108; my fair line matches the market, no edge.\n\nThe final six picks: Cleveland Under 6.5 (Messick's elite profile, weak Boston offense, pitcher-friendly park); Cubs ML (Brown's dominance over Leahy, road favorite at -131); Seattle Under 7 (Woo's control in a pitcher's paradise against Nelson's HR-prone profile); Wembanyama Rebounds Over 12.5 (Game 7 intensity, 11.5 RPG baseline, boards available against OKC); Shai Gilgeous-Alexander Points Over 30.5 (31.1 PPG regular season, Game 7 at home, must-win); and Jackson Chourio Total Bases Over 1.5 (facing Sproat's 1.83 HR/9 and 5.84 ERA, even money at BetMGM). The ladder pick is Cubs ML \u2014 best floor on the board with Brown's elite metrics against a struggling Leahy, priced at -131 which lands in our even-money band.",
+      "slate_vibe": "NORMAL",
+      "published_at": "2026-05-30T11:26:54.346306-04:00"
+    }
+  ],
+  "today_bonus_picks": [],
+  "all_picks": [
+    {
+      "id": "20260530-NBA-SA-OKC-PROP-SHAIGILGEOUSALEXANDER",
+      "sport": "NBA",
+      "game": "SA @ OKC",
+      "first_pitch_iso": "2026-05-31T00:00Z",
+      "pick": "Shai Gilgeous-Alexander Points Over 30.5",
+      "best_book": "DraftKings",
+      "best_odds": "-114",
+      "book_prices": {
+        "draftkings": "-114",
+        "fanduel": "-114",
+        "betmgm": "-115"
+      },
+      "book_links": {
+        "draftkings": "https://sportsbook.draftkings.com/?outcomes=0QA338534153%232166740915_13L42648Q1-2000084800Q20",
+        "fanduel": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.582056161&selectionId=21662973",
+        "betmgm": "https://sports.nj.betmgm.com/en/sports?options=6:42667-3059451-4715920&type=Single"
+      },
+      "market": "PROP",
+      "confidence": 3,
+      "units": 1.0,
+      "win_probability": 0.57,
+      "ladder_designation": false,
+      "data_confidence": 0.65,
+      "rules_passed": [
+        "max_juice",
+        "ladder_even_money",
+        "parlay_well_formed",
+        "confidence_units_match",
+        "data_confidence_floor",
+        "pick_type_allowed",
+        "mlb_hr_prop_check",
+        "mlb_pitcher_k_check",
+        "mlb_total_bases_check",
+        "mlb_hits_check",
+        "nba_player_prop_check(soft)",
+        "nhl_shots_check",
+        "mlb_run_line_check",
         "mlb_under_bb_check",
         "no_same_game_opposite"
       ],
@@ -533,56 +440,343 @@
       "event_type": "",
       "event_name": "",
       "legs": [],
-      "headline": "Carolina can clinch at home with the best defense and goaltending in the playoffs.",
-      "the_thesis": "The Hurricanes have been historically dominant this postseason. They swept both the Senators and Flyers in the first two rounds, then took a 3-1 series lead over Montreal with a 4-0 shutout in Game 4. Frederik Andersen has been the best goalie in the playoffs \u2014 his 1.44 GAA leads all netminders, and he's posted three shutouts already. Carolina's defensive structure has been suffocating: they've allowed just 10 goals in 12 games, the fewest by any team this deep into a playoff run since the 1985 Oilers.\n\nMontreal is gassed. The Canadiens needed seven games to beat both Tampa Bay and Buffalo just to get here, and they've been outplayed in three straight games. Their offense has generated just 18 shots on goal in the last two games combined. Jakub Dobes has been excellent, but he can't steal games when his team can't create chances. The Hurricanes are 6-0 on the road this postseason and now return home with a chance to clinch.\n\nThe -1.5 puck line at +110 offers tremendous value. Carolina has won by 2+ goals in 8 of their 12 playoff games. With home ice, a rested roster, and the best goaltender in the tournament, this is the highest-floor play on the board.",
+      "headline": "SGA's 31.1 PPG baseline meets a must-win Game 7 at home.",
+      "the_thesis": "Shai Gilgeous-Alexander has been the Thunder's engine all season, averaging 31.1 points per game \u2014 second in the NBA. In a Game 7 at home, with a trip to the Finals on the line, he's going to have the ball in his hands for every meaningful possession. The Thunder's offense runs through him, and there's no reason to expect that to change tonight.\n\nThe Spurs have been solid defensively (111.5 points allowed per game, 8th in the league), but they don't have a lockdown perimeter defender who can contain SGA. Stephon Castle has been good, but SGA is a different animal. He's going to get his shots, and he's going to make them.\n\nThe line is set at 30.5, and the over is getting -114 at DraftKings. The market implied probability is roughly 53.3%. I'm pricing this at 57% \u2014 that's a 3.7 cent edge. It's a thinner edge than the Wembanyama play, but the floor is high because SGA is so reliable.",
       "the_data": [
         {
-          "label": "Andersen GAA (playoffs)",
-          "value": "1.44",
-          "context": "Best in NHL"
+          "label": "SGA PPG (regular season)",
+          "value": "31.1",
+          "context": "2nd in NBA"
         },
         {
-          "label": "Carolina goals allowed (12 games)",
-          "value": "10",
-          "context": "Historically elite"
+          "label": "SGA PPG (WCF)",
+          "value": "24.3",
+          "context": "Below his baseline, due for a bounce-back"
         },
         {
-          "label": "Hurricanes road record (playoffs)",
-          "value": "6-0",
-          "context": "Perfect"
+          "label": "Spurs DRTG",
+          "value": "111.5",
+          "context": "8th in NBA, solid but not elite"
         },
         {
-          "label": "Montreal shots on goal (last 2 games)",
-          "value": "18",
-          "context": "Anemic"
-        },
-        {
-          "label": "Carolina wins by 2+ (playoffs)",
-          "value": "8 of 12",
-          "context": "67%"
+          "label": "Line",
+          "value": "30.5",
+          "context": "Just below his season average"
         }
       ],
-      "the_market": "Carolina opened around -230 ML and has held steady. The puck line at +110 offers plus-money on a team that's covered it in two-thirds of their playoff games. Sharp money has been on the under, but the spread has seen balanced action.",
-      "weather_park": "Indoor arena \u2014 no weather impact.",
-      "case_against": "Montreal stole Game 1 on the road and has shown resilience all postseason. Elimination games bring desperation, and Dobes has the ability to steal a game if Carolina gets complacent. A 3-2 Carolina win would be a push.",
-      "what_were_betting_on": "Carolina's defensive structure holding, Andersen continuing his elite run, and the Hurricanes' offense generating enough to win by 2+ goals at home.",
-      "scott_bot_quip": "The Canes have been a buzzsaw. Montreal's just hoping the blade dulls.",
-      "ladder_note": "Best floor on the board \u2014 elite defense, best goalie in the playoffs, home ice, clinch game. The +110 price on a team that's covered -1.5 in 67% of their playoff games is the definition of a high-floor ladder spot.",
-      "date": "2026-05-29",
-      "status": "WIN",
-      "units_result": 2.2,
+      "the_market": "The line is set at 30.5 across all books. The over is getting -114 at DraftKings, -114 at FanDuel, -115 at BetMGM. No significant movement.",
+      "weather_park": "Indoor game at Paycom Center. No weather concerns.",
+      "case_against": "SGA has averaged just 24.3 PPG in this series \u2014 below his season baseline. The Spurs' defense has been effective against him. If the Thunder get blown out, his minutes could be limited. And 30.5 is a high number \u2014 he needs to exceed his series average by 6+ points.",
+      "what_were_betting_on": "A close Game 7 with SGA playing 38+ minutes and taking 25+ shots. He's the best player on the home team in a must-win game.",
+      "scott_bot_quip": "Game 7. Home court. SGA. He's not going out quiet.",
+      "ladder_note": "",
+      "date": "2026-05-30",
+      "status": "PEND",
+      "units_result": null,
       "clv_cents": null,
-      "result_score": "MTL 1 \u00b7 CAR 6",
-      "graded_at": "2026-05-29T23:26:14.084977-04:00",
-      "slate_assessment": "17-game MLB slate plus a pivotal NHL Eastern Conference Final Game 5 \u2014 Carolina can clinch at home. Pitching matchups are soft across the board, but a few totals and props stand out with real edge.",
-      "executive_summary": "Friday's board is headlined by Carolina's chance to close out Montreal in Game 5 of the Eastern Conference Final \u2014 the Hurricanes have won three straight and Frederik Andersen has been the best goalie in the playoffs. On the MLB side, Zack Wheeler returns to ace form against the Dodgers, the Mets-Marlins under features two quality starters at a pitcher-friendly park, and the Seattle-Arizona under at T-Mobile Park offers a clean spot with George Kirby on the mound. The ladder rides with the Hurricanes puck line at +110 \u2014 best floor on the board, backed by dominant defensive metrics and home ice.",
-      "slate_analysis": "Friday's slate features 17 MLB games and one NHL Eastern Conference Final matchup. The MLB board is pricing-heavy with several favorites in the -140 to -165 range, which limits straight-bet opportunities under our -150 cap. The NHL game is the marquee event: Carolina leads Montreal 3-1 and can clinch at home.\n\nTop candidates that rose during my review: (1) Carolina -1.5 at +110 \u2014 the Hurricanes have been historically dominant defensively, allowing just 10 goals in 12 playoff games, and Andersen has a 1.44 GAA this postseason. (2) Mets-Marlins Under 7.5 \u2014 Freddy Peralta vs. Max Meyer at Citi Field, two quality arms in a pitcher-friendly park. (3) Seattle-Arizona Under 7.0 \u2014 George Kirby at T-Mobile Park against a struggling Zac Gallen. (4) Phillies-Dodgers Under 8.0 \u2014 Zack Wheeler has been elite since returning (1.67 ERA in six starts), facing a Dodgers lineup that's potent but Wheeler has the stuff to suppress. (5) Matt Olson Total Bases Over 1.5 at -105 \u2014 facing Chris Paddack (6.86 ERA, 1.34 HR/9) at Great American Ball Park, a HR-boosting venue. (6) Luis Arraez Hits Over 1.5 at -110 \u2014 Arraez is a contact machine facing Michael Lorenzen (7.21 ERA, 1.90 WHIP) at Coors Field.\n\nWhat got cut: Tampa Bay ML at -162 exceeds our juice cap. Cleveland ML at -124 has edge but the opposing SP (Samaniego) has only 17.1 IP \u2014 sample too thin for confidence. The Coors Field over at 10.5 is tempting but both offenses are bottom-half in R/G, and the market has already priced in the park factor. The Cubs-Cardinals total at 8.0 is a coin flip with no clear edge. Several HR props lacked the opposing SP HR/9 data needed for validation.\n\nThe final six: Carolina -1.5 (NHL clinch spot, elite defense, home ice), Mets-Marlins Under 7.5 (two quality arms, pitcher's park), Seattle-Arizona Under 7.0 (Kirby at T-Mobile, Gallen struggling), Phillies-Dodgers Under 8.0 (Wheeler elite, neutral park), Matt Olson TB Over 1.5 (Paddack's HR/9 + GABP), Luis Arraez Hits Over 1.5 (Lorenzen's WHIP + Coors). The ladder pick is Carolina -1.5 at +110 \u2014 best floor on the board with a team that's won three straight, has the best goalie in the playoffs, and is playing at home with a chance to clinch.",
+      "result_score": null,
+      "graded_at": null,
+      "slate_assessment": "15-game MLB slate plus a Western Conference Finals Game 7 between the Thunder and Spurs. Multiple pitching matchups with clear edges, plus a high-stakes NBA game with prop value.",
+      "executive_summary": "The board is loaded tonight \u2014 15 MLB games and a Western Conference Finals Game 7 in OKC. The sharpest MLB edge is Cleveland's Parker Messick (2.24 ERA, elite K rate) at home against a struggling Boston offense in a pitcher-friendly park with a total at 6.5. The Thunder-Spurs Game 7 offers prop value on Wembanyama's rebounds in a must-win spot. We're also riding the Cubs behind Ben Brown's 2.01 ERA at Busch Stadium, and taking the under in Seattle where Bryan Woo faces a HR-prone Ryne Nelson in a pitcher's paradise. The ladder rides with the Cubs ML \u2014 best floor on the board at near even money.",
+      "slate_analysis": "Tonight's board features 15 MLB games and one NBA game \u2014 the Western Conference Finals Game 7 between the Thunder and Spurs in Oklahoma City. The MLB slate is spread across the evening with first pitches ranging from 6:10 PM ET to 10:10 PM ET. The NBA game tips at 8 PM ET. Data confidence across the MLB slate is generally soft (0.3-0.45 range), which is typical for lineups not yet confirmed, but the pitching matchups and market pricing are locked in.\n\nThe top candidates that rose during my review: Cleveland vs Boston (Messick's elite 2.24 ERA against a weak Boston offense, total at 6.5 in a neutral-to-pitcher-friendly park); Cubs at Cardinals (Ben Brown's 2.01 ERA and 0.99 WHIP against Kyle Leahy's 4.44 ERA and 1.58 WHIP, Cubs ML at -131); Seattle vs Arizona (Bryan Woo's 1.04 WHIP in a pitcher-friendly park against Ryne Nelson's 1.65 HR/9, under 7 looks sharp); Tampa Bay vs LA Angels (Rasmussen's 2.78 ERA and 0.98 WHIP at the Trop, but the -162 juice is too steep for a straight bet); Thunder-Spurs Game 7 (Wembanyama rebounds prop at 12.5 with his 11.5 RPG average and Game 7 intensity); and the Coors Field over at 11 (two weak starters, hitter-friendly park, but the market has already priced this in).\n\nWhat got cut and why: Tampa Bay ML at -162 exceeds our -150 juice cap for straight bets. The Coors over at 11 is already priced efficiently \u2014 my fair line is 10.5-11, no edge. The DET @ CHW game has data confidence at 0.45, which is borderline, and neither pitcher profile screams edge. The HOU vs MIL game has Sproat's 5.84 ERA looking like an over play, but the data confidence is 0.3 \u2014 too thin. The LAD vs PHI game features Sasaki's 4.93 ERA and 1.79 HR/9 against Luzardo, but the market is already pricing Philly as a live dog at +108; my fair line matches the market, no edge.\n\nThe final six picks: Cleveland Under 6.5 (Messick's elite profile, weak Boston offense, pitcher-friendly park); Cubs ML (Brown's dominance over Leahy, road favorite at -131); Seattle Under 7 (Woo's control in a pitcher's paradise against Nelson's HR-prone profile); Wembanyama Rebounds Over 12.5 (Game 7 intensity, 11.5 RPG baseline, boards available against OKC); Shai Gilgeous-Alexander Points Over 30.5 (31.1 PPG regular season, Game 7 at home, must-win); and Jackson Chourio Total Bases Over 1.5 (facing Sproat's 1.83 HR/9 and 5.84 ERA, even money at BetMGM). The ladder pick is Cubs ML \u2014 best floor on the board with Brown's elite metrics against a struggling Leahy, priced at -131 which lands in our even-money band.",
       "slate_vibe": "NORMAL",
-      "published_at": "2026-05-29T11:25:57.635419-04:00"
-    }
-  ],
-  "today_bonus_picks": [],
-  "all_picks": [
+      "published_at": "2026-05-30T11:26:54.346715-04:00"
+    },
+    {
+      "id": "20260530-NBA-SA-OKC-PROP-VICTORWEMBANYAMA",
+      "sport": "NBA",
+      "game": "SA @ OKC",
+      "first_pitch_iso": "2026-05-31T00:00Z",
+      "pick": "Victor Wembanyama Rebounds Over 12.5",
+      "best_book": "DraftKings",
+      "best_odds": "-108",
+      "book_prices": {
+        "draftkings": "-108",
+        "fanduel": "-108",
+        "betmgm": "-105"
+      },
+      "book_links": {
+        "draftkings": "https://sportsbook.draftkings.com/?outcomes=0QA338533790%232166795303_13L42648Q1583108280Q20",
+        "fanduel": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.582056303&selectionId=61967224",
+        "betmgm": "https://sports.nj.betmgm.com/en/sports?options=6:42667-3059462-4715932&type=Single"
+      },
+      "market": "PROP",
+      "confidence": 4,
+      "units": 1.5,
+      "win_probability": 0.59,
+      "ladder_designation": false,
+      "data_confidence": 0.65,
+      "rules_passed": [
+        "max_juice",
+        "ladder_even_money",
+        "parlay_well_formed",
+        "confidence_units_match",
+        "data_confidence_floor",
+        "pick_type_allowed",
+        "mlb_hr_prop_check",
+        "mlb_pitcher_k_check",
+        "mlb_total_bases_check",
+        "mlb_hits_check",
+        "nba_player_prop_check(soft)",
+        "nhl_shots_check",
+        "mlb_run_line_check",
+        "mlb_under_bb_check",
+        "no_same_game_opposite"
+      ],
+      "locked": true,
+      "late_add": false,
+      "late_add_reason": "",
+      "bonus_pick": false,
+      "event_type": "",
+      "event_name": "",
+      "legs": [],
+      "headline": "Wembanyama's 11.5 RPG baseline meets Game 7 intensity and extended minutes.",
+      "the_thesis": "This is a Western Conference Finals Game 7. Victor Wembanyama has been the best player in this series, averaging 28.2 points per game and leading the Spurs in rebounds at 11.5 per game during the regular season. In Game 6, he dropped 28 points in 28 minutes in a blowout win \u2014 but Game 7 will be different. This will be a close, grinding game, and Wembanyama will play 35+ minutes.\n\nThe Thunder have been outrebounded by 1.1 boards per game on average this season. They don't have a dominant rebounder to match Wembanyama's length and athleticism. Chet Holmgren is their best option, but he's averaging 8.5 rebounds per game \u2014 that's not enough to contain Wemby on the glass.\n\nThe line is set at 12.5, and the over is getting -108 at DraftKings. The market implied probability is roughly 51.9%. I'm pricing this at 59% \u2014 that's a 7+ cent edge. In a Game 7, Wembanyama will be on the floor for every meaningful minute, and the boards will be there.",
+      "the_data": [
+        {
+          "label": "Wembanyama RPG (regular season)",
+          "value": "11.5",
+          "context": "4th in NBA"
+        },
+        {
+          "label": "Wembanyama PPG (WCF)",
+          "value": "28.2",
+          "context": "Series leader"
+        },
+        {
+          "label": "OKC rebound differential",
+          "value": "-1.1",
+          "context": "Outrebounded on average"
+        },
+        {
+          "label": "Holmgren RPG",
+          "value": "8.5",
+          "context": "OKC's best rebounder"
+        },
+        {
+          "label": "Line",
+          "value": "12.5",
+          "context": "Just above his season average"
+        }
+      ],
+      "the_market": "The line is set at 12.5 across all books. The over is getting -108 at DraftKings, -108 at FanDuel, -105 at BetMGM. No significant movement.",
+      "weather_park": "Indoor game at Paycom Center. No weather concerns.",
+      "case_against": "If the Spurs get blown out early, Wembanyama's minutes could be limited. The Thunder could also crash the glass harder in a Game 7, limiting Wemby's opportunities. And 12.5 is above his season average \u2014 he needs to exceed his baseline.",
+      "what_were_betting_on": "A close Game 7 with Wembanyama playing 35+ minutes and dominating the glass against a Thunder team that doesn't have the personnel to match his length.",
+      "scott_bot_quip": "Game 7. Wemby. Boards. The math is simple.",
+      "ladder_note": "",
+      "date": "2026-05-30",
+      "status": "PEND",
+      "units_result": null,
+      "clv_cents": null,
+      "result_score": null,
+      "graded_at": null,
+      "slate_assessment": "15-game MLB slate plus a Western Conference Finals Game 7 between the Thunder and Spurs. Multiple pitching matchups with clear edges, plus a high-stakes NBA game with prop value.",
+      "executive_summary": "The board is loaded tonight \u2014 15 MLB games and a Western Conference Finals Game 7 in OKC. The sharpest MLB edge is Cleveland's Parker Messick (2.24 ERA, elite K rate) at home against a struggling Boston offense in a pitcher-friendly park with a total at 6.5. The Thunder-Spurs Game 7 offers prop value on Wembanyama's rebounds in a must-win spot. We're also riding the Cubs behind Ben Brown's 2.01 ERA at Busch Stadium, and taking the under in Seattle where Bryan Woo faces a HR-prone Ryne Nelson in a pitcher's paradise. The ladder rides with the Cubs ML \u2014 best floor on the board at near even money.",
+      "slate_analysis": "Tonight's board features 15 MLB games and one NBA game \u2014 the Western Conference Finals Game 7 between the Thunder and Spurs in Oklahoma City. The MLB slate is spread across the evening with first pitches ranging from 6:10 PM ET to 10:10 PM ET. The NBA game tips at 8 PM ET. Data confidence across the MLB slate is generally soft (0.3-0.45 range), which is typical for lineups not yet confirmed, but the pitching matchups and market pricing are locked in.\n\nThe top candidates that rose during my review: Cleveland vs Boston (Messick's elite 2.24 ERA against a weak Boston offense, total at 6.5 in a neutral-to-pitcher-friendly park); Cubs at Cardinals (Ben Brown's 2.01 ERA and 0.99 WHIP against Kyle Leahy's 4.44 ERA and 1.58 WHIP, Cubs ML at -131); Seattle vs Arizona (Bryan Woo's 1.04 WHIP in a pitcher-friendly park against Ryne Nelson's 1.65 HR/9, under 7 looks sharp); Tampa Bay vs LA Angels (Rasmussen's 2.78 ERA and 0.98 WHIP at the Trop, but the -162 juice is too steep for a straight bet); Thunder-Spurs Game 7 (Wembanyama rebounds prop at 12.5 with his 11.5 RPG average and Game 7 intensity); and the Coors Field over at 11 (two weak starters, hitter-friendly park, but the market has already priced this in).\n\nWhat got cut and why: Tampa Bay ML at -162 exceeds our -150 juice cap for straight bets. The Coors over at 11 is already priced efficiently \u2014 my fair line is 10.5-11, no edge. The DET @ CHW game has data confidence at 0.45, which is borderline, and neither pitcher profile screams edge. The HOU vs MIL game has Sproat's 5.84 ERA looking like an over play, but the data confidence is 0.3 \u2014 too thin. The LAD vs PHI game features Sasaki's 4.93 ERA and 1.79 HR/9 against Luzardo, but the market is already pricing Philly as a live dog at +108; my fair line matches the market, no edge.\n\nThe final six picks: Cleveland Under 6.5 (Messick's elite profile, weak Boston offense, pitcher-friendly park); Cubs ML (Brown's dominance over Leahy, road favorite at -131); Seattle Under 7 (Woo's control in a pitcher's paradise against Nelson's HR-prone profile); Wembanyama Rebounds Over 12.5 (Game 7 intensity, 11.5 RPG baseline, boards available against OKC); Shai Gilgeous-Alexander Points Over 30.5 (31.1 PPG regular season, Game 7 at home, must-win); and Jackson Chourio Total Bases Over 1.5 (facing Sproat's 1.83 HR/9 and 5.84 ERA, even money at BetMGM). The ladder pick is Cubs ML \u2014 best floor on the board with Brown's elite metrics against a struggling Leahy, priced at -131 which lands in our even-money band.",
+      "slate_vibe": "NORMAL",
+      "published_at": "2026-05-30T11:26:54.346596-04:00"
+    },
+    {
+      "id": "20260530-MLB-ARI-SEA-TOTAL",
+      "sport": "MLB",
+      "game": "ARI @ SEA",
+      "first_pitch_iso": "2026-05-31T02:10Z",
+      "pick": "Under 7",
+      "best_book": "FanDuel",
+      "best_odds": "-115",
+      "book_prices": {
+        "draftkings": "-122",
+        "fanduel": "-115",
+        "betmgm": "-120"
+      },
+      "book_links": {
+        "fanduel": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.582228004&selectionId=7017906",
+        "draftkings": "https://sportsbook.draftkings.com/?outcomes=0OU84976537U700_3",
+        "betmgm": "https://sports.nj.betmgm.com/en/sports?options=19441532-1504460662-2152527625&type=Single"
+      },
+      "market": "TOTAL",
+      "confidence": 4,
+      "units": 1.5,
+      "win_probability": 0.6,
+      "ladder_designation": false,
+      "data_confidence": 0.65,
+      "rules_passed": [
+        "max_juice",
+        "ladder_even_money",
+        "parlay_well_formed",
+        "confidence_units_match",
+        "data_confidence_floor",
+        "pick_type_allowed",
+        "mlb_hr_prop_check",
+        "mlb_pitcher_k_check",
+        "mlb_total_bases_check",
+        "mlb_hits_check",
+        "nba_player_prop_check",
+        "nhl_shots_check",
+        "mlb_run_line_check",
+        "mlb_under_bb_check",
+        "no_same_game_opposite"
+      ],
+      "locked": true,
+      "late_add": false,
+      "late_add_reason": "",
+      "bonus_pick": false,
+      "event_type": "",
+      "event_name": "",
+      "legs": [],
+      "headline": "Bryan Woo's elite control in a pitcher's paradise against a HR-prone Ryne Nelson.",
+      "the_thesis": "T-Mobile Park is one of the best pitcher's parks in baseball \u2014 0.93 runs PF, 0.93 HR PF. It suppresses offense, especially the long ball. Bryan Woo is the perfect pitcher for this environment. His 1.04 WHIP is elite, his 5.5% BB rate is the best on the Mariners staff, and his 3.82 ERA is solid. He's not a strikeout artist (23.0% K rate), but he doesn't need to be \u2014 he pitches to contact and lets the park do the work.\n\nRyne Nelson has been struggling. His 4.65 ERA is backed by a 1.65 HR/9 \u2014 that's a lot of home runs. But here's the thing: T-Mobile Park suppresses HRs. Nelson's HR-prone profile is less dangerous in Seattle than it would be anywhere else. The total is set at 7, and the under is getting -115 at FanDuel.\n\nThe market implied probability on the under is roughly 53.5%. I'm pricing this at 60% \u2014 that's a 6.5 cent edge. Both offenses are middling (Seattle 4.26 R/G, Arizona 4.66 R/G), and the park will do the heavy lifting.",
+      "the_data": [
+        {
+          "label": "Woo WHIP / BB%",
+          "value": "1.04 / 5.5%",
+          "context": "Elite control"
+        },
+        {
+          "label": "Woo ERA",
+          "value": "3.82",
+          "context": "Solid, above-average"
+        },
+        {
+          "label": "Nelson HR/9",
+          "value": "1.65",
+          "context": "HR-prone, but park suppresses"
+        },
+        {
+          "label": "T-Mobile Park PF (runs)",
+          "value": "0.93",
+          "context": "Pitcher-friendly"
+        },
+        {
+          "label": "T-Mobile Park PF (HR)",
+          "value": "0.93",
+          "context": "HR-suppressing"
+        },
+        {
+          "label": "Total line",
+          "value": "7",
+          "context": "Low, but park supports it"
+        }
+      ],
+      "the_market": "Total opened at 7 and hasn't moved. The under is getting -115 at FanDuel, -120 at BetMGM, -122 at DraftKings. The market is comfortable with this number.",
+      "weather_park": "T-Mobile Park is outdoors but plays as one of the most pitcher-friendly parks in baseball. No weather concerns.",
+      "case_against": "If Woo doesn't have his command and walks a few, Arizona's lineup has enough pop to capitalize. Nelson could also have a good start \u2014 his stuff plays, he's just been unlucky with the long ball. A 7 total is already low.",
+      "what_were_betting_on": "Woo going 6+ innings with minimal damage, Nelson keeping it close despite his HR-prone profile, and the park suppressing offense.",
+      "scott_bot_quip": "T-Mobile Park is where home runs go to die. We're betting on the graveyard.",
+      "ladder_note": "",
+      "date": "2026-05-30",
+      "status": "PEND",
+      "units_result": null,
+      "clv_cents": null,
+      "result_score": null,
+      "graded_at": null,
+      "slate_assessment": "15-game MLB slate plus a Western Conference Finals Game 7 between the Thunder and Spurs. Multiple pitching matchups with clear edges, plus a high-stakes NBA game with prop value.",
+      "executive_summary": "The board is loaded tonight \u2014 15 MLB games and a Western Conference Finals Game 7 in OKC. The sharpest MLB edge is Cleveland's Parker Messick (2.24 ERA, elite K rate) at home against a struggling Boston offense in a pitcher-friendly park with a total at 6.5. The Thunder-Spurs Game 7 offers prop value on Wembanyama's rebounds in a must-win spot. We're also riding the Cubs behind Ben Brown's 2.01 ERA at Busch Stadium, and taking the under in Seattle where Bryan Woo faces a HR-prone Ryne Nelson in a pitcher's paradise. The ladder rides with the Cubs ML \u2014 best floor on the board at near even money.",
+      "slate_analysis": "Tonight's board features 15 MLB games and one NBA game \u2014 the Western Conference Finals Game 7 between the Thunder and Spurs in Oklahoma City. The MLB slate is spread across the evening with first pitches ranging from 6:10 PM ET to 10:10 PM ET. The NBA game tips at 8 PM ET. Data confidence across the MLB slate is generally soft (0.3-0.45 range), which is typical for lineups not yet confirmed, but the pitching matchups and market pricing are locked in.\n\nThe top candidates that rose during my review: Cleveland vs Boston (Messick's elite 2.24 ERA against a weak Boston offense, total at 6.5 in a neutral-to-pitcher-friendly park); Cubs at Cardinals (Ben Brown's 2.01 ERA and 0.99 WHIP against Kyle Leahy's 4.44 ERA and 1.58 WHIP, Cubs ML at -131); Seattle vs Arizona (Bryan Woo's 1.04 WHIP in a pitcher-friendly park against Ryne Nelson's 1.65 HR/9, under 7 looks sharp); Tampa Bay vs LA Angels (Rasmussen's 2.78 ERA and 0.98 WHIP at the Trop, but the -162 juice is too steep for a straight bet); Thunder-Spurs Game 7 (Wembanyama rebounds prop at 12.5 with his 11.5 RPG average and Game 7 intensity); and the Coors Field over at 11 (two weak starters, hitter-friendly park, but the market has already priced this in).\n\nWhat got cut and why: Tampa Bay ML at -162 exceeds our -150 juice cap for straight bets. The Coors over at 11 is already priced efficiently \u2014 my fair line is 10.5-11, no edge. The DET @ CHW game has data confidence at 0.45, which is borderline, and neither pitcher profile screams edge. The HOU vs MIL game has Sproat's 5.84 ERA looking like an over play, but the data confidence is 0.3 \u2014 too thin. The LAD vs PHI game features Sasaki's 4.93 ERA and 1.79 HR/9 against Luzardo, but the market is already pricing Philly as a live dog at +108; my fair line matches the market, no edge.\n\nThe final six picks: Cleveland Under 6.5 (Messick's elite profile, weak Boston offense, pitcher-friendly park); Cubs ML (Brown's dominance over Leahy, road favorite at -131); Seattle Under 7 (Woo's control in a pitcher's paradise against Nelson's HR-prone profile); Wembanyama Rebounds Over 12.5 (Game 7 intensity, 11.5 RPG baseline, boards available against OKC); Shai Gilgeous-Alexander Points Over 30.5 (31.1 PPG regular season, Game 7 at home, must-win); and Jackson Chourio Total Bases Over 1.5 (facing Sproat's 1.83 HR/9 and 5.84 ERA, even money at BetMGM). The ladder pick is Cubs ML \u2014 best floor on the board with Brown's elite metrics against a struggling Leahy, priced at -131 which lands in our even-money band.",
+      "slate_vibe": "NORMAL",
+      "published_at": "2026-05-30T11:26:54.346456-04:00"
+    },
+    {
+      "id": "20260530-MLB-BOS-CLE-TOTAL",
+      "sport": "MLB",
+      "game": "BOS @ CLE",
+      "first_pitch_iso": "2026-05-30T20:10Z",
+      "pick": "Under 6.5",
+      "best_book": "DraftKings",
+      "best_odds": "-116",
+      "book_prices": {
+        "draftkings": "-116",
+        "fanduel": "-118",
+        "betmgm": "-120"
+      },
+      "book_links": {
+        "fanduel": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.582225554&selectionId=7017906",
+        "draftkings": "https://sportsbook.draftkings.com/?outcomes=0OU84976507U650_3",
+        "betmgm": "https://sports.nj.betmgm.com/en/sports?options=19441523-1504459889-2152525949&type=Single"
+      },
+      "market": "TOTAL",
+      "confidence": 4,
+      "units": 1.5,
+      "win_probability": 0.61,
+      "ladder_designation": true,
+      "data_confidence": 0.65,
+      "rules_passed": [
+        "max_juice",
+        "ladder_even_money",
+        "parlay_well_formed",
+        "confidence_units_match",
+        "data_confidence_floor",
+        "pick_type_allowed",
+        "mlb_hr_prop_check",
+        "mlb_pitcher_k_check",
+        "mlb_total_bases_check",
+        "mlb_hits_check",
+        "nba_player_prop_check",
+        "nhl_shots_check",
+        "mlb_run_line_check",
+        "mlb_under_bb_check(soft)",
+        "no_same_game_opposite"
+      ],
+      "locked": true,
+      "late_add": false,
+      "late_add_reason": "",
+      "bonus_pick": false,
+      "event_type": "",
+      "event_name": "",
+      "legs": [],
+      "headline": "Elite lefty Messick at home against a cold Boston offense in a pitcher-friendly park.",
+      "the_thesis": "Parker Messick has been Cleveland's best starter this season, and it's not particularly close. His 2.24 ERA is backed by a 1.04 WHIP and a 28.0% K rate \u2014 that's elite strikeout stuff with pinpoint control (7.6% BB rate). In his last start against Philadelphia, he threw 5.2 shutout innings and lowered his ERA even further. He's not getting lucky; he's pitching like an ace.\n\nBoston's offense has been anemic, scoring just 3.8 runs per game on the season. Sonny Gray is a solid veteran arm (3.27 ERA, 1.20 WHIP), but he's been limited to about 14.67 IP per start in his last three outings \u2014 that's a shorter leash than you'd want for an over. Progressive Field plays neutral-to-pitcher-friendly (0.97 runs PF, 0.96 HR PF), and the total is set at 6.5 with the under getting -116 at DraftKings.\n\nThe market implied probability on the under is roughly 53.7%. I'm pricing this at 61% true probability \u2014 that's a 7+ cent edge. Both starters have the stuff to go deep, both bullpens are competent, and neither offense has been lighting it up. This is a grind-it-out game.",
+      "the_data": [
+        {
+          "label": "Messick ERA / WHIP",
+          "value": "2.24 / 1.04",
+          "context": "Best on Cleveland staff"
+        },
+        {
+          "label": "Messick K% / BB%",
+          "value": "28.0% / 7.6%",
+          "context": "Elite strikeout rate with control"
+        },
+        {
+          "label": "Boston R/G",
+          "value": "3.80",
+          "context": "Bottom-third offense"
+        },
+        {
+          "label": "Gray ERA / WHIP",
+          "value": "3.27 / 1.20",
+          "context": "Solid, above-average"
+        },
+        {
+          "label": "Progressive Field PF (runs)",
+          "value": "0.97",
+          "context": "Pitcher-friendly"
+        },
+        {
+          "label": "Total line",
+          "value": "6.5",
+          "context": "Lowest on the board tonight"
+        }
+      ],
+      "the_market": "Total opened at 6.5 and hasn't moved. The under is getting -116 at DraftKings, -118 at FanDuel, -120 at BetMGM. No sharp movement either direction \u2014 this is a market that's comfortable with the number.",
+      "weather_park": "Progressive Field is outdoors but plays neutral-to-pitcher-friendly. No weather concerns tonight.",
+      "case_against": "If Messick doesn't have his command early and walks a few, Boston's lineup has enough pop to capitalize. Gray's shorter outings mean more bullpen exposure, and Cleveland's pen has been inconsistent. A 6.5 total is already low \u2014 there's not much margin for error.",
+      "what_were_betting_on": "Messick going 6+ innings with 6+ strikeouts, Gray keeping it close, and both bullpens holding serve in a 3-2 or 4-2 type game.",
+      "scott_bot_quip": "Messick's dealing, Boston's not hitting, and 6.5 is a number we can live with.",
+      "ladder_note": "",
+      "date": "2026-05-30",
+      "status": "PEND",
+      "units_result": null,
+      "clv_cents": null,
+      "result_score": null,
+      "graded_at": null,
+      "slate_assessment": "15-game MLB slate plus a Western Conference Finals Game 7 between the Thunder and Spurs. Multiple pitching matchups with clear edges, plus a high-stakes NBA game with prop value.",
+      "executive_summary": "The board is loaded tonight \u2014 15 MLB games and a Western Conference Finals Game 7 in OKC. The sharpest MLB edge is Cleveland's Parker Messick (2.24 ERA, elite K rate) at home against a struggling Boston offense in a pitcher-friendly park with a total at 6.5. The Thunder-Spurs Game 7 offers prop value on Wembanyama's rebounds in a must-win spot. We're also riding the Cubs behind Ben Brown's 2.01 ERA at Busch Stadium, and taking the under in Seattle where Bryan Woo faces a HR-prone Ryne Nelson in a pitcher's paradise. The ladder rides with the Cubs ML \u2014 best floor on the board at near even money.",
+      "slate_analysis": "Tonight's board features 15 MLB games and one NBA game \u2014 the Western Conference Finals Game 7 between the Thunder and Spurs in Oklahoma City. The MLB slate is spread across the evening with first pitches ranging from 6:10 PM ET to 10:10 PM ET. The NBA game tips at 8 PM ET. Data confidence across the MLB slate is generally soft (0.3-0.45 range), which is typical for lineups not yet confirmed, but the pitching matchups and market pricing are locked in.\n\nThe top candidates that rose during my review: Cleveland vs Boston (Messick's elite 2.24 ERA against a weak Boston offense, total at 6.5 in a neutral-to-pitcher-friendly park); Cubs at Cardinals (Ben Brown's 2.01 ERA and 0.99 WHIP against Kyle Leahy's 4.44 ERA and 1.58 WHIP, Cubs ML at -131); Seattle vs Arizona (Bryan Woo's 1.04 WHIP in a pitcher-friendly park against Ryne Nelson's 1.65 HR/9, under 7 looks sharp); Tampa Bay vs LA Angels (Rasmussen's 2.78 ERA and 0.98 WHIP at the Trop, but the -162 juice is too steep for a straight bet); Thunder-Spurs Game 7 (Wembanyama rebounds prop at 12.5 with his 11.5 RPG average and Game 7 intensity); and the Coors Field over at 11 (two weak starters, hitter-friendly park, but the market has already priced this in).\n\nWhat got cut and why: Tampa Bay ML at -162 exceeds our -150 juice cap for straight bets. The Coors over at 11 is already priced efficiently \u2014 my fair line is 10.5-11, no edge. The DET @ CHW game has data confidence at 0.45, which is borderline, and neither pitcher profile screams edge. The HOU vs MIL game has Sproat's 5.84 ERA looking like an over play, but the data confidence is 0.3 \u2014 too thin. The LAD vs PHI game features Sasaki's 4.93 ERA and 1.79 HR/9 against Luzardo, but the market is already pricing Philly as a live dog at +108; my fair line matches the market, no edge.\n\nThe final six picks: Cleveland Under 6.5 (Messick's elite profile, weak Boston offense, pitcher-friendly park); Cubs ML (Brown's dominance over Leahy, road favorite at -131); Seattle Under 7 (Woo's control in a pitcher's paradise against Nelson's HR-prone profile); Wembanyama Rebounds Over 12.5 (Game 7 intensity, 11.5 RPG baseline, boards available against OKC); Shai Gilgeous-Alexander Points Over 30.5 (31.1 PPG regular season, Game 7 at home, must-win); and Jackson Chourio Total Bases Over 1.5 (facing Sproat's 1.83 HR/9 and 5.84 ERA, even money at BetMGM). The ladder pick is Cubs ML \u2014 best floor on the board with Brown's elite metrics against a struggling Leahy, priced at -131 which lands in our even-money band.",
+      "slate_vibe": "NORMAL",
+      "published_at": "2026-05-30T11:26:54.346306-04:00"
+    },
     {
       "id": "20260529-MLB-SF-COL-PROP-LUISARRAEZ",
       "sport": "MLB",
