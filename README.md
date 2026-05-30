@@ -69,4 +69,3 @@ cd site && python -m http.server 8000
 4. **Max 3 picks/day. Forever.** Zero is allowed.
 5. **No real money.** Paper-trade only.
 6. **Better to publish nothing than garbage.**
-test push Sat May 30 11:23:38 EDT 2026
