@@ -1,5 +1,18 @@
 [
   {
+    "id": "20260531-MLB-BOS-CLE-TOTAL",
+    "date": "2026-05-31",
+    "pick": "Under 7.0",
+    "game": "BOS @ CLE",
+    "odds": "-120",
+    "result_score": "BOS 9 \u00b7 CLE 4",
+    "classification": "MODEL",
+    "post_mortem": "The game was actually alive for the under through six innings \u2014 Bibee held a 4-3 lead and was on track to exit with the score well within range. But the thesis had a critical blind spot: Bibee entered this start having surrendered a franchise record-tying five home runs in three innings against Washington his previous outing, and the Boston Globe's pre-game notes flagged that Suarez had a bimodal pattern \u2014 either dominant or shelled, with four-plus runs allowed in four of his ten starts. The under died in the seventh when Boston sent 10 batters to the plate against three Cleveland relievers, scoring six runs to turn a 4-3 deficit into a 9-4 final. The 'both bullpens are solid' assumption was the kill shot \u2014 Cleveland's relief corps collapsed at the exact moment the game needed them most.",
+    "candidate_rule": "Before backing an under involving Bibee, require his last-start HR/9 and hard-hit rate to be within 1.0 of his season average \u2014 a single blowup start is a warning sign of mechanical issues that carry over; N=1, insufficient to establish rule.",
+    "sample_size_warning": "N=1, insufficient to establish rule \u2014 monitor Bibee under picks for pattern over next 4-6 starts.",
+    "analyzed_at": "2026-05-31T18:50:45.558027-04:00"
+  },
+  {
     "id": "20260530-MLB-BOS-CLE-TOTAL",
     "date": "2026-05-30",
     "pick": "Under 6.5",

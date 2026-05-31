@@ -86,5 +86,13 @@
     "candidate_rule": "When the named anchor starter has allowed 3+ ER in each of his prior two starts AND is projected for a rising pitch count (70+ through 4 IP in recent outings), discount under confidence by at least one tier and flag bullpen exposure as a primary risk, not a footnote \u2014 but validate across a minimum of 15\u201320 similar starter-fatigue under spots before codifying as a hard filter.",
     "sample_size_warning": "N=1, insufficient to establish rule; this is a directional signal only and requires pattern confirmation across a larger sample of 'ace in mini-slump' under bets.",
     "status": "PENDING_REVIEW"
+  },
+  {
+    "proposed_at": "2026-05-31T18:50:45.558797-04:00",
+    "source_pick_id": "20260531-MLB-BOS-CLE-TOTAL",
+    "source_loss": "Under 7.0 (BOS @ CLE)",
+    "candidate_rule": "Before backing an under involving Bibee, require his last-start HR/9 and hard-hit rate to be within 1.0 of his season average \u2014 a single blowup start is a warning sign of mechanical issues that carry over; N=1, insufficient to establish rule.",
+    "sample_size_warning": "N=1, insufficient to establish rule \u2014 monitor Bibee under picks for pattern over next 4-6 starts.",
+    "status": "PENDING_REVIEW"
   }
 ]
