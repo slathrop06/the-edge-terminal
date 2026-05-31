@@ -1,31 +1,31 @@
 {
-  "generated_at": "2026-05-31T07:26:48.975834-04:00",
+  "generated_at": "2026-05-31T13:04:31.179853-04:00",
   "today": "2026-05-31",
   "system_paused": false,
   "pause_reason": "",
   "today_picks": [
     {
-      "id": "20260531-MLB-SF-COL-TOTAL",
+      "id": "20260531-MLB-BOS-CLE-TOTAL",
       "sport": "MLB",
-      "game": "SF @ COL",
-      "first_pitch_iso": "2026-05-31T19:10Z",
-      "pick": "Over 11.0",
-      "best_book": "DraftKings",
-      "best_odds": "-108",
+      "game": "BOS @ CLE",
+      "first_pitch_iso": "2026-05-31T17:40Z",
+      "pick": "Under 7.0",
+      "best_book": "FanDuel",
+      "best_odds": "+100",
       "book_prices": {
-        "draftkings": "-108",
-        "fanduel": "-110",
-        "betmgm": "-110"
+        "draftkings": "-101",
+        "fanduel": "+100",
+        "betmgm": "+100"
       },
       "book_links": {
-        "fanduel": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.582505258&selectionId=7017905",
-        "draftkings": "https://sportsbook.draftkings.com/?outcomes=0OU84990652O1100_1",
-        "betmgm": "https://sports.nj.betmgm.com/en/sports?options=19442911-1504539625-2152738531&type=Single"
+        "fanduel": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.582501359&selectionId=7017906",
+        "draftkings": "https://sportsbook.draftkings.com/?outcomes=0OU84990629U700_3",
+        "betmgm": "https://sports.nj.betmgm.com/en/sports?options=19442257-1504493289-2152612800&type=Single"
       },
       "market": "TOTAL",
       "confidence": 3,
       "units": 1.0,
-      "win_probability": 0.58,
+      "win_probability": 0.55,
       "ladder_designation": false,
       "data_confidence": 0.75,
       "rules_passed": [
@@ -52,245 +52,45 @@
       "event_type": "",
       "event_name": "",
       "legs": [],
-      "headline": "Coors Field, two mediocre starters, and a high total that still has value.",
-      "the_thesis": "Coors Field is the most hitter-friendly park in baseball with a 1.18 runs park factor and 1.14 HR park factor. Any game at Coors starts with a baseline expectation of 10+ runs, and this matchup has two mediocre starters who could get knocked around.\n\nTanner Gordon has a 5.85 ERA and 1.68 HR/9 this season. He's been hittable, and Coors Field will only amplify his struggles. Robbie Ray has a 4.60 ERA and 2.01 HR/9 \u2014 he's also been giving up the long ball at an alarming rate. His 11.6% walk rate is concerning, as free passes at Coors often turn into runs.\n\nThe market has this at 11.0 with the over at -108 on DraftKings. My fair line is around -115, which gives us 7 cents of edge. Both offenses are below average (SF 3.67 R/G, COL 4.15 R/G), but Coors Field inflates everything. This is a classic Coors over spot.",
+      "headline": "Ranger Suarez's elite control meets two of the weakest offenses in baseball.",
+      "the_thesis": "Ranger Suarez (3.02 ERA, 1.08 WHIP) has been one of the most consistent pitchers in baseball this season. His 8.0% walk rate is solid, and he's been limiting hard contact all year. He's facing a Guardians offense that ranks near the bottom of MLB in runs per game (4.08 R/G).\n\nTanner Bibee (4.57 ERA, 1.32 WHIP) has been inconsistent, but he's facing a Red Sox offense that's even worse (3.89 R/G). Progressive Field is a neutral park (0.97 runs PF), and the weather is mild with no wind impact.\n\nThe total at 7.0 is one of the lowest on the board, but it's priced at even money, suggesting the market sees value on both sides. Two weak offenses facing competent pitching in a neutral park \u2014 this is a classic under spot.",
       "the_data": [
         {
-          "label": "Coors Field PF (runs)",
-          "value": "1.18",
-          "context": "Most hitter-friendly in MLB"
+          "label": "Suarez ERA / WHIP",
+          "value": "3.02 / 1.08",
+          "context": "Solid"
         },
         {
-          "label": "Coors Field PF (HR)",
-          "value": "1.14",
-          "context": "HR-boosting"
+          "label": "Suarez BB%",
+          "value": "8.0%",
+          "context": "Good control"
         },
         {
-          "label": "Gordon ERA (season)",
-          "value": "5.85",
-          "context": "Poor"
+          "label": "Bibee ERA / WHIP",
+          "value": "4.57 / 1.32",
+          "context": "Inconsistent"
         },
         {
-          "label": "Gordon HR/9 (season)",
-          "value": "1.68",
-          "context": "Poor, will be worse at Coors"
+          "label": "Guardians R/G",
+          "value": "4.08",
+          "context": "Bottom third"
         },
         {
-          "label": "Ray ERA (season)",
-          "value": "4.60",
-          "context": "Below average"
+          "label": "Red Sox R/G",
+          "value": "3.89",
+          "context": "Bottom third"
         },
         {
-          "label": "Ray HR/9 (season)",
-          "value": "2.01",
-          "context": "Poor, will be worse at Coors"
-        },
-        {
-          "label": "Ray BB% (season)",
-          "value": "11.6%",
-          "context": "Poor, free passes at Coors hurt"
-        }
-      ],
-      "the_market": "Total opened at 11.0 and has held. Over at -108 on DraftKings is the best price. No significant movement.",
-      "weather_park": "Coors Field is outdoor and extremely hitter-friendly (1.18 runs PF, 1.14 HR PF). Weather should be warm and dry.",
-      "case_against": "Both offenses have been mediocre this season. Gordon or Ray could have a surprisingly good game. The bullpens could come in early and shut things down.",
-      "what_were_betting_on": "Both starters getting knocked around early, the bullpens giving up runs, and Coors Field doing Coors Field things.",
-      "scott_bot_quip": "Coors Field. Two soft starters. Over 11. You know the drill.",
-      "ladder_note": "",
-      "date": "2026-05-31",
-      "status": "PEND",
-      "units_result": null,
-      "clv_cents": null,
-      "result_score": null,
-      "graded_at": null,
-      "slate_assessment": "16-game MLB-only slate with several pitching mismatches and prop opportunities. Misiorowski vs. Imai in Houston is the standout, with Coors Field and the SD/WSH game providing prop value.",
-      "executive_summary": "Sixteen MLB games today, no NBA or NHL, and the board tilts toward pitching mismatches and prop plays. Jacob Misiorowski at Houston is the cleanest side of the day \u2014 elite K-rate, sub-2 ERA, facing a struggling Imai with a 6.17 ERA and 17.5% walk rate. The Brewers ML at -190 is too short for a straight bet, but the run line at -107 lands in our range. Seattle's under 7.5 at T-Mobile Park with Bryce Miller returning against Merrill Kelly is another strong spot. On the prop side, Aaron Judge's total bases over 1.5 against a soft Jacob Lopez (5.73 ERA, 2.05 HR/9) is the sharpest play. The ladder rides with the Brewers -1.5 \u2014 best floor on the board with Misiorowski's dominance.",
-      "slate_analysis": "Today's board features 16 MLB games spread across the afternoon and evening, with no NBA or NHL action to supplement. The pricing climate is relatively soft \u2014 several favorites are priced past -150, which limits straight-bet options, but the prop markets are deep with SD/WSH, CIN/ATL, COL/SF, NYY/ATH, and LAD/PHI all carrying full prop slates.\n\nThe top candidates that rose during my review: Milwaukee at Houston (Misiorowski vs. Imai \u2014 elite SP vs. struggling rookie), Seattle vs. Arizona (Bryce Miller returning vs. Merrill Kelly at pitcher-friendly T-Mobile), the SD/WSH over 9.0 (two weak starters, Littell 2.54 HR/9 and Canning 7.54 ERA), the NYY/ATH over 10.0 (Jacob Lopez 5.73 ERA, 2.05 HR/9 vs. Yankees lineup), and Aaron Judge total bases over 1.5 against Lopez. I also looked hard at the Dodgers -1.5 (Yamamoto vs. Painter) and the Pirates ML (Ashcraft vs. Matthews).\n\nWhat got cut: The Dodgers -1.5 at -108 is tempting with Yamamoto's 3.09 ERA, but Painter's 5.40 ERA isn't disastrous enough to create 8+ cents of edge \u2014 my fair line on LAD -1.5 is around -115, so the edge is thin. The Pirates ML at -158 exceeds our -150 juice cap for straight bets. The SD/WSH over 9.0 at -115 is close, but both offenses have been inconsistent (SD 3.95 R/G, WSH 5.42 R/G) and the park is neutral \u2014 I don't have enough edge to justify it. The CLE/BOS under 7.5 at -120 looked interesting with Ranger Suarez's 3.02 ERA, but Bibee's 1.71 HR/9 and the neutral park factor at Progressive Field made me nervous about the floor.\n\nThe final six picks: Milwaukee -1.5 (Misiorowski dominance), Seattle Under 7.5 (Miller return + pitcher-friendly park), Aaron Judge TB Over 1.5 (elite hitter vs. soft SP), Fernando Tatis Jr. TB Over 1.5 (Littell's 2.54 HR/9), Yoshinobu Yamamoto Ks Under 6.5 (Phillies don't strike out much, Yamamoto's 23.8% K-rate is good but not elite), and the COL/SF Over 11.0 (Coors Field, two mediocre starters). The ladder pick is Milwaukee -1.5 \u2014 Misiorowski's 1.83 ERA, 40.3% K-rate, and 0.56 HR/9 against Imai's 6.17 ERA and 17.5% BB-rate is the clearest mismatch on the board, and the run line at -107 lands in our even-money band.",
-      "slate_vibe": "NORMAL",
-      "published_at": "2026-05-31T07:26:48.968211-04:00"
-    },
-    {
-      "id": "20260531-MLB-PHI-LAD-PROP-YOSHINOBUYAMAMOTO",
-      "sport": "MLB",
-      "game": "PHI @ LAD",
-      "first_pitch_iso": "2026-05-31T20:10Z",
-      "pick": "Yoshinobu Yamamoto Ks Under 6.5",
-      "best_book": "FanDuel",
-      "best_odds": "-142",
-      "book_prices": {
-        "draftkings": "-149",
-        "fanduel": "-142",
-        "betmgm": "-145"
-      },
-      "book_links": {
-        "fanduel": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.582586650&selectionId=67223216",
-        "draftkings": "https://sportsbook.draftkings.com/event/34223049",
-        "betmgm": "https://sports.nj.betmgm.com/en/sports/events/philadelphia-phillies-at-los-angeles-dodgers-19442914"
-      },
-      "market": "PROP",
-      "confidence": 3,
-      "units": 1.0,
-      "win_probability": 0.59,
-      "ladder_designation": false,
-      "data_confidence": 0.8,
-      "rules_passed": [
-        "max_juice",
-        "ladder_even_money",
-        "parlay_well_formed",
-        "confidence_units_match",
-        "data_confidence_floor",
-        "pick_type_allowed",
-        "mlb_hr_prop_check",
-        "mlb_pitcher_k_check(soft)",
-        "mlb_total_bases_check",
-        "mlb_hits_check",
-        "nba_player_prop_check",
-        "nhl_shots_check",
-        "mlb_run_line_check",
-        "mlb_under_bb_check",
-        "no_same_game_opposite"
-      ],
-      "locked": true,
-      "late_add": false,
-      "late_add_reason": "",
-      "bonus_pick": false,
-      "event_type": "",
-      "event_name": "",
-      "legs": [],
-      "headline": "Yamamoto's solid K-rate meets a Phillies lineup that doesn't strike out much.",
-      "the_thesis": "Yoshinobu Yamamoto has been excellent this season with a 3.09 ERA and 0.98 WHIP. His 23.8% K-rate is good but not elite \u2014 he's more of a contact manager than a pure strikeout pitcher. He averages around 5.5-6 strikeouts per start, which makes the under 6.5 line interesting.\n\nThe Phillies don't strike out much. Their team K-rate is around 22%, which is below league average. They have contact-oriented hitters like Trea Turner, Bryce Harper, and Alec Bohm who put the ball in play. This is a tough lineup for a pitcher to rack up strikeouts against.\n\nThe market has Yamamoto Ks Under 6.5 at -142 on FanDuel. My fair line is around -150, which gives us 8 cents of edge. The juice is a bit steep, but the matchup is clean.",
-      "the_data": [
-        {
-          "label": "Yamamoto ERA (season)",
-          "value": "3.09",
-          "context": "Excellent"
-        },
-        {
-          "label": "Yamamoto K% (season)",
-          "value": "23.8%",
-          "context": "Good, not elite"
-        },
-        {
-          "label": "Yamamoto IP/start (L3)",
-          "value": "21.33",
-          "context": "Deep into games"
-        },
-        {
-          "label": "PHI team K% (approx)",
-          "value": "~22%",
-          "context": "Below average, contact-oriented"
-        },
-        {
-          "label": "Yamamoto avg Ks/start",
-          "value": "~5.5-6",
-          "context": "Consistent but not high"
-        }
-      ],
-      "the_market": "Yamamoto Ks Under 6.5 at -142 on FanDuel. DraftKings at -149, BetMGM at -145. FanDuel is the best price.",
-      "weather_park": "Dodger Stadium is outdoor and neutral (0.97 runs PF). Weather should be warm and dry.",
-      "case_against": "Yamamoto could have a dominant game and strike out 8+. The Phillies could be aggressive early and swing at pitches out of the zone. Yamamoto's stuff is elite and he could overpower this lineup.",
-      "what_were_betting_on": "Yamamoto going 6+ innings with 5-6 strikeouts, the Phillies putting balls in play, and no late-inning K surge.",
-      "scott_bot_quip": "Yamamoto's good, but the Phillies don't whiff. Under.",
-      "ladder_note": "",
-      "date": "2026-05-31",
-      "status": "PEND",
-      "units_result": null,
-      "clv_cents": null,
-      "result_score": null,
-      "graded_at": null,
-      "slate_assessment": "16-game MLB-only slate with several pitching mismatches and prop opportunities. Misiorowski vs. Imai in Houston is the standout, with Coors Field and the SD/WSH game providing prop value.",
-      "executive_summary": "Sixteen MLB games today, no NBA or NHL, and the board tilts toward pitching mismatches and prop plays. Jacob Misiorowski at Houston is the cleanest side of the day \u2014 elite K-rate, sub-2 ERA, facing a struggling Imai with a 6.17 ERA and 17.5% walk rate. The Brewers ML at -190 is too short for a straight bet, but the run line at -107 lands in our range. Seattle's under 7.5 at T-Mobile Park with Bryce Miller returning against Merrill Kelly is another strong spot. On the prop side, Aaron Judge's total bases over 1.5 against a soft Jacob Lopez (5.73 ERA, 2.05 HR/9) is the sharpest play. The ladder rides with the Brewers -1.5 \u2014 best floor on the board with Misiorowski's dominance.",
-      "slate_analysis": "Today's board features 16 MLB games spread across the afternoon and evening, with no NBA or NHL action to supplement. The pricing climate is relatively soft \u2014 several favorites are priced past -150, which limits straight-bet options, but the prop markets are deep with SD/WSH, CIN/ATL, COL/SF, NYY/ATH, and LAD/PHI all carrying full prop slates.\n\nThe top candidates that rose during my review: Milwaukee at Houston (Misiorowski vs. Imai \u2014 elite SP vs. struggling rookie), Seattle vs. Arizona (Bryce Miller returning vs. Merrill Kelly at pitcher-friendly T-Mobile), the SD/WSH over 9.0 (two weak starters, Littell 2.54 HR/9 and Canning 7.54 ERA), the NYY/ATH over 10.0 (Jacob Lopez 5.73 ERA, 2.05 HR/9 vs. Yankees lineup), and Aaron Judge total bases over 1.5 against Lopez. I also looked hard at the Dodgers -1.5 (Yamamoto vs. Painter) and the Pirates ML (Ashcraft vs. Matthews).\n\nWhat got cut: The Dodgers -1.5 at -108 is tempting with Yamamoto's 3.09 ERA, but Painter's 5.40 ERA isn't disastrous enough to create 8+ cents of edge \u2014 my fair line on LAD -1.5 is around -115, so the edge is thin. The Pirates ML at -158 exceeds our -150 juice cap for straight bets. The SD/WSH over 9.0 at -115 is close, but both offenses have been inconsistent (SD 3.95 R/G, WSH 5.42 R/G) and the park is neutral \u2014 I don't have enough edge to justify it. The CLE/BOS under 7.5 at -120 looked interesting with Ranger Suarez's 3.02 ERA, but Bibee's 1.71 HR/9 and the neutral park factor at Progressive Field made me nervous about the floor.\n\nThe final six picks: Milwaukee -1.5 (Misiorowski dominance), Seattle Under 7.5 (Miller return + pitcher-friendly park), Aaron Judge TB Over 1.5 (elite hitter vs. soft SP), Fernando Tatis Jr. TB Over 1.5 (Littell's 2.54 HR/9), Yoshinobu Yamamoto Ks Under 6.5 (Phillies don't strike out much, Yamamoto's 23.8% K-rate is good but not elite), and the COL/SF Over 11.0 (Coors Field, two mediocre starters). The ladder pick is Milwaukee -1.5 \u2014 Misiorowski's 1.83 ERA, 40.3% K-rate, and 0.56 HR/9 against Imai's 6.17 ERA and 17.5% BB-rate is the clearest mismatch on the board, and the run line at -107 lands in our even-money band.",
-      "slate_vibe": "NORMAL",
-      "published_at": "2026-05-31T07:26:48.968109-04:00"
-    },
-    {
-      "id": "20260531-MLB-SD-WSH-PROP-FERNANDOTATISJR",
-      "sport": "MLB",
-      "game": "SD @ WSH",
-      "first_pitch_iso": "2026-05-31T17:35Z",
-      "pick": "Fernando Tatis Jr. TB Over 1.5",
-      "best_book": "BetMGM",
-      "best_odds": "-105",
-      "book_prices": {
-        "draftkings": "-116",
-        "fanduel": "-110",
-        "betmgm": "-105"
-      },
-      "book_links": {
-        "draftkings": "https://sportsbook.draftkings.com/?outcomes=0QA339003150%232168483415_13L84240Q1-44994196Q20",
-        "betmgm": "https://sports.nj.betmgm.com/en/sports?options=2:7794306-200118106-757309168&type=Single",
-        "fanduel": "https://sportsbook.fanduel.com/baseball/mlb/san-diego-padres-%28g-canning%29-%40-washington-nationals-%28z-littell%29-35666660"
-      },
-      "market": "PROP",
-      "confidence": 3,
-      "units": 1.0,
-      "win_probability": 0.58,
-      "ladder_designation": false,
-      "data_confidence": 0.75,
-      "rules_passed": [
-        "max_juice",
-        "ladder_even_money",
-        "parlay_well_formed",
-        "confidence_units_match",
-        "data_confidence_floor",
-        "pick_type_allowed",
-        "mlb_hr_prop_check",
-        "mlb_pitcher_k_check",
-        "mlb_total_bases_check(soft)",
-        "mlb_hits_check",
-        "nba_player_prop_check",
-        "nhl_shots_check",
-        "mlb_run_line_check",
-        "mlb_under_bb_check",
-        "no_same_game_opposite"
-      ],
-      "locked": true,
-      "late_add": false,
-      "late_add_reason": "",
-      "bonus_pick": false,
-      "event_type": "",
-      "event_name": "",
-      "legs": [],
-      "headline": "Tatis against Littell's 2.54 HR/9 is a clean total bases spot.",
-      "the_thesis": "Zack Littell has been a disaster this season. His 5.23 ERA is bad, but his 2.54 HR/9 is one of the worst marks in baseball \u2014 he's giving up home runs at an alarming rate. His 12.8% K-rate is also poor, which means hitters are making contact and putting balls in play.\n\nFernando Tatis Jr. has been solid this season with a .299 wOBA and 9.4% barrel rate. He's not having an elite year, but he's still a dangerous hitter who can go deep at any time. Nationals Park is neutral (1.01 runs PF, 1.02 HR PF), so there's no park factor concern.\n\nThe market has Tatis TB Over 1.5 at -105 on BetMGM. My fair line is around -115, which gives us 10 cents of edge. Littell's HR/9 is the key stat here \u2014 he's giving up the long ball at an unsustainable rate, and Tatis has the power to take advantage.",
-      "the_data": [
-        {
-          "label": "Littell ERA (season)",
-          "value": "5.23",
-          "context": "Poor"
-        },
-        {
-          "label": "Littell HR/9 (season)",
-          "value": "2.54",
-          "context": "Catastrophic, bottom-3 in MLB"
-        },
-        {
-          "label": "Littell K% (season)",
-          "value": "12.8%",
-          "context": "Poor, hitters making contact"
-        },
-        {
-          "label": "Tatis wOBA (2026)",
-          "value": ".299",
-          "context": "Average"
-        },
-        {
-          "label": "Tatis Barrel% (2026)",
-          "value": "9.4%",
-          "context": "Average"
-        },
-        {
-          "label": "Nationals Park PF (HR)",
-          "value": "1.02",
+          "label": "Progressive Field PF",
+          "value": "0.97 runs",
           "context": "Neutral"
         }
       ],
-      "the_market": "Tatis TB Over 1.5 at -105 on BetMGM. DraftKings at -116, FanDuel at -110. BetMGM is the clear best price.",
-      "weather_park": "Nationals Park is outdoor and neutral. Weather should be warm and dry.",
-      "case_against": "Tatis has been inconsistent this season and could go 0-for-4. Littell could have a bounce-back game. The Padres offense has been mediocre (3.95 R/G).",
-      "what_were_betting_on": "Tatis getting 4+ at-bats against Littell and recording at least one extra-base hit.",
-      "scott_bot_quip": "Littell's HR/9 is 2.54. Tatis hits dingers. Simple.",
+      "the_market": "Total opened at 7.33 and has dropped to 7.0 across most books. The under is getting even money at FanDuel and BetMGM, suggesting sharp money has moved this line down.",
+      "weather_park": "Progressive Field, 74\u00b0F, wind 6 mph R to L \u2014 minimal impact. Neutral conditions.",
+      "case_against": "Bibee has been inconsistent and could get tagged. The Red Sox have some power bats who can break out at any time. Suarez has had a few clunkers this season. Both bullpens are average, so if starters exit early, runs could pile up.",
+      "what_were_betting_on": "Suarez going 6+ innings with 2 or fewer runs, Bibee keeping the Red Sox in check for 5 innings, a 3-2 or 4-3 type game.",
+      "scott_bot_quip": "Two offenses that can't score, two pitchers who can throw strikes. Do the math.",
       "ladder_note": "",
       "date": "2026-05-31",
       "status": "PEND",
@@ -298,34 +98,234 @@
       "clv_cents": null,
       "result_score": null,
       "graded_at": null,
-      "slate_assessment": "16-game MLB-only slate with several pitching mismatches and prop opportunities. Misiorowski vs. Imai in Houston is the standout, with Coors Field and the SD/WSH game providing prop value.",
-      "executive_summary": "Sixteen MLB games today, no NBA or NHL, and the board tilts toward pitching mismatches and prop plays. Jacob Misiorowski at Houston is the cleanest side of the day \u2014 elite K-rate, sub-2 ERA, facing a struggling Imai with a 6.17 ERA and 17.5% walk rate. The Brewers ML at -190 is too short for a straight bet, but the run line at -107 lands in our range. Seattle's under 7.5 at T-Mobile Park with Bryce Miller returning against Merrill Kelly is another strong spot. On the prop side, Aaron Judge's total bases over 1.5 against a soft Jacob Lopez (5.73 ERA, 2.05 HR/9) is the sharpest play. The ladder rides with the Brewers -1.5 \u2014 best floor on the board with Misiorowski's dominance.",
-      "slate_analysis": "Today's board features 16 MLB games spread across the afternoon and evening, with no NBA or NHL action to supplement. The pricing climate is relatively soft \u2014 several favorites are priced past -150, which limits straight-bet options, but the prop markets are deep with SD/WSH, CIN/ATL, COL/SF, NYY/ATH, and LAD/PHI all carrying full prop slates.\n\nThe top candidates that rose during my review: Milwaukee at Houston (Misiorowski vs. Imai \u2014 elite SP vs. struggling rookie), Seattle vs. Arizona (Bryce Miller returning vs. Merrill Kelly at pitcher-friendly T-Mobile), the SD/WSH over 9.0 (two weak starters, Littell 2.54 HR/9 and Canning 7.54 ERA), the NYY/ATH over 10.0 (Jacob Lopez 5.73 ERA, 2.05 HR/9 vs. Yankees lineup), and Aaron Judge total bases over 1.5 against Lopez. I also looked hard at the Dodgers -1.5 (Yamamoto vs. Painter) and the Pirates ML (Ashcraft vs. Matthews).\n\nWhat got cut: The Dodgers -1.5 at -108 is tempting with Yamamoto's 3.09 ERA, but Painter's 5.40 ERA isn't disastrous enough to create 8+ cents of edge \u2014 my fair line on LAD -1.5 is around -115, so the edge is thin. The Pirates ML at -158 exceeds our -150 juice cap for straight bets. The SD/WSH over 9.0 at -115 is close, but both offenses have been inconsistent (SD 3.95 R/G, WSH 5.42 R/G) and the park is neutral \u2014 I don't have enough edge to justify it. The CLE/BOS under 7.5 at -120 looked interesting with Ranger Suarez's 3.02 ERA, but Bibee's 1.71 HR/9 and the neutral park factor at Progressive Field made me nervous about the floor.\n\nThe final six picks: Milwaukee -1.5 (Misiorowski dominance), Seattle Under 7.5 (Miller return + pitcher-friendly park), Aaron Judge TB Over 1.5 (elite hitter vs. soft SP), Fernando Tatis Jr. TB Over 1.5 (Littell's 2.54 HR/9), Yoshinobu Yamamoto Ks Under 6.5 (Phillies don't strike out much, Yamamoto's 23.8% K-rate is good but not elite), and the COL/SF Over 11.0 (Coors Field, two mediocre starters). The ladder pick is Milwaukee -1.5 \u2014 Misiorowski's 1.83 ERA, 40.3% K-rate, and 0.56 HR/9 against Imai's 6.17 ERA and 17.5% BB-rate is the clearest mismatch on the board, and the run line at -107 lands in our even-money band.",
+      "slate_assessment": "15-game MLB-only board with no NBA or NHL today. Two elite pitching matchups jump off the page \u2014 Misiorowski at Houston and Yamamoto vs Philly \u2014 plus several under-the-radar totals and a few prop angles worth exploring.",
+      "executive_summary": "Sunday's 15-game MLB slate is pitching-heavy with two aces on the mound: Jacob Misiorowski (1.83 ERA, 40.3% K rate) takes his Cy Young campaign to Houston against a struggling Astros lineup, and Yoshinobu Yamamoto hosts the Phillies at Dodger Stadium. The Brewers-Astros under at 7.5 is the sharpest total on the board \u2014 Misiorowski has allowed one run in his last 31.1 innings, and Tatsuya Imai's 17.5% BB rate means Houston's offense will be chasing. The ladder rides with the Seattle under at T-Mobile Park, where Bryce Miller returns to form against a fading Merrill Kelly. Six plays today, all backed by predictive pitching metrics and park factors.",
+      "slate_analysis": "The board today features 15 MLB games with no NBA or NHL action. The pricing climate is relatively tight \u2014 most sides are in the -110 to -150 range, with a few outliers like the Dodgers at -235 and the Brewers at -193. The totals market is where the edges live today.\n\nTop candidates that rose during my review: (1) Brewers-Astros under 7.5 \u2014 Misiorowski's dominance (1.83 ERA, 40.3% K rate, 100 Ks in 64 IP) against a struggling Astros lineup with Tatsuya Imai (6.17 ERA, 17.5% BB rate) on the mound screams low-scoring game. (2) Mariners-Diamondbacks under 7.5 \u2014 Bryce Miller (2.25 ERA, 3.2% BB rate in limited action) at pitcher-friendly T-Mobile Park with wind blowing in against Merrill Kelly (5.25 ERA). (3) Dodgers -1.5 \u2014 Yamamoto (3.09 ERA, 0.98 WHIP) vs Andrew Painter (5.40 ERA, 1.46 WHIP) at Dodger Stadium. (4) Spencer Strider Ks Under 6.5 \u2014 Strider's velocity is down and he's walking more batters; Reds have a low K% against RHP. (5) Cardinals ML vs Cubs \u2014 Jordan Wicks has a 16.62 ERA in 4.1 IP; Cardinals at home with Liberatore who's been serviceable. (6) Guardians-Red Sox under 7.0 \u2014 Ranger Suarez (3.02 ERA) vs Tanner Bibee in a neutral park with both offenses struggling.\n\nWhat got cut and why: The Pirates-Twins game had data confidence of 0.45 and Zebby Matthews has only 19 IP this season \u2014 sample too thin. The Rays-Angels game looked appealing with McClanahan, but the -200 juice exceeds our straight-bet cap. The Padres-Nationals game has two struggling pitchers (Canning 7.54 ERA, Littell 5.23 ERA) but the total at 9.0-9.5 is already priced for chaos \u2014 no edge. The Mets-Marlins game has John King's 1.93 ERA but only 23.1 IP \u2014 sample concerns. The Coors Field game (Rockies-Giants) is a stay-away; both pitchers have HR/9 above 1.5 and the park factor is 1.18.\n\nThe final six picks: Brewers-Astros Under 7.5 (Misiorowski dominance + Imai's control issues), Mariners-Diamondbacks Under 7.5 (Miller + park + weather), Dodgers -1.5 (Yamamoto vs struggling Painter), Spencer Strider Ks Under 6.5 (velocity down, Reds don't chase), Cardinals ML (Wicks is unplayable), and Guardians-Red Sox Under 7.0 (Suarez + two weak offenses). The ladder pick is the Mariners-Diamondbacks Under 7.5 \u2014 best floor on the board with Miller's elite control, T-Mobile's pitcher-friendly dimensions, and wind blowing in suppressing HR by 10%.",
       "slate_vibe": "NORMAL",
-      "published_at": "2026-05-31T07:26:48.968004-04:00"
+      "published_at": "2026-05-31T13:04:31.172438-04:00"
     },
     {
-      "id": "20260531-MLB-NYY-ATH-PROP-AARONJUDGE",
+      "id": "20260531-MLB-CHC-STL-ML",
       "sport": "MLB",
-      "game": "NYY @ ATH",
-      "first_pitch_iso": "2026-05-31T20:05Z",
-      "pick": "Aaron Judge TB Over 1.5",
-      "best_book": "DraftKings",
-      "best_odds": "-135",
+      "game": "CHC @ STL",
+      "first_pitch_iso": "2026-05-31T23:20Z",
+      "pick": "Cardinals ML",
+      "best_book": "FanDuel",
+      "best_odds": "-116",
       "book_prices": {
-        "draftkings": "-135",
-        "fanduel": "-140",
-        "betmgm": "-140"
+        "draftkings": "-118",
+        "fanduel": "-116",
+        "betmgm": "-118"
       },
       "book_links": {
-        "draftkings": "https://sportsbook.draftkings.com/?outcomes=0QA339055586%232168696579_13L84240Q1-44994196Q20",
-        "fanduel": "https://sportsbook.fanduel.com/baseball/mlb/new-york-yankees-%28w-warren%29-%40-athletics-%28j-lopez%29-35666653",
-        "betmgm": "https://sports.nj.betmgm.com/en/sports/events/new-york-yankees-at-athletics-19442912"
+        "fanduel": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.582371089&selectionId=50291",
+        "draftkings": "https://sportsbook.draftkings.com/?outcomes=0ML84990656_1",
+        "betmgm": "https://sports.nj.betmgm.com/en/sports?options=19442915-1504540009-2152739372&type=Single"
+      },
+      "market": "ML",
+      "confidence": 3,
+      "units": 1.0,
+      "win_probability": 0.56,
+      "ladder_designation": false,
+      "data_confidence": 0.7,
+      "rules_passed": [
+        "max_juice",
+        "ladder_even_money",
+        "parlay_well_formed",
+        "confidence_units_match",
+        "data_confidence_floor",
+        "pick_type_allowed",
+        "mlb_hr_prop_check",
+        "mlb_pitcher_k_check",
+        "mlb_total_bases_check",
+        "mlb_hits_check",
+        "nba_player_prop_check",
+        "nhl_shots_check",
+        "mlb_run_line_check",
+        "mlb_under_bb_check",
+        "no_same_game_opposite"
+      ],
+      "locked": true,
+      "late_add": false,
+      "late_add_reason": "",
+      "bonus_pick": false,
+      "event_type": "",
+      "event_name": "",
+      "legs": [],
+      "headline": "Jordan Wicks has a 16.62 ERA in 4.1 innings. That's not a typo.",
+      "the_thesis": "Jordan Wicks is unplayable right now. His 16.62 ERA in 4.1 innings is catastrophic \u2014 he's allowed 8 earned runs in barely over 4 innings of work. His 2.31 WHIP means he's putting runners on base constantly. The Cardinals are at home with Matthew Liberatore (4.76 ERA, 1.57 WHIP), who's been mediocre but at least functional.\n\nThis is a classic 'fade the disaster' spot. The Cubs are sending out a pitcher who can't get outs, and the Cardinals have a home crowd and a serviceable starter. The line is essentially a pick'em, which is wild given the pitching mismatch.\n\nLiberatore has been inconsistent, but he's capable of going 5 innings and keeping the game close. The Cardinals offense (4.32 R/G) should be able to tag Wicks early and often. Busch Stadium is slightly pitcher-friendly (0.97 runs PF), which helps Liberatore more than it hurts the Cardinals bats.",
+      "the_data": [
+        {
+          "label": "Wicks ERA / WHIP",
+          "value": "16.62 / 2.31",
+          "context": "Disaster"
+        },
+        {
+          "label": "Wicks IP",
+          "value": "4.1",
+          "context": "Tiny sample, all bad"
+        },
+        {
+          "label": "Liberatore ERA / WHIP",
+          "value": "4.76 / 1.57",
+          "context": "Mediocre but functional"
+        },
+        {
+          "label": "Cardinals R/G",
+          "value": "4.32",
+          "context": "League average"
+        },
+        {
+          "label": "Cubs R/G",
+          "value": "4.80",
+          "context": "Above average"
+        },
+        {
+          "label": "Busch Stadium PF",
+          "value": "0.97 runs",
+          "context": "Slight pitcher lean"
+        }
+      ],
+      "the_market": "Line opened with Cardinals as slight favorites and has held at -116 to -118. The market is essentially pricing this as a coin flip, which undervalues the pitching mismatch.",
+      "weather_park": "Busch Stadium, outdoor, HR-suppressing (0.93 HR PF). No weather concerns for night game.",
+      "case_against": "Wicks' sample is only 4.1 IP \u2014 he could figure it out tonight. The Cubs offense is better than the Cardinals offense. Liberatore has been inconsistent and could implode. The Cubs bullpen is solid if Wicks exits early.",
+      "what_were_betting_on": "Wicks getting tagged for 4+ runs in 3-4 innings, Liberatore going 5+ innings with 3 or fewer runs, the Cardinals offense capitalizing on Wicks' wildness.",
+      "scott_bot_quip": "A 16.62 ERA is not a stat. It's a cry for help.",
+      "ladder_note": "",
+      "date": "2026-05-31",
+      "status": "PEND",
+      "units_result": null,
+      "clv_cents": null,
+      "result_score": null,
+      "graded_at": null,
+      "slate_assessment": "15-game MLB-only board with no NBA or NHL today. Two elite pitching matchups jump off the page \u2014 Misiorowski at Houston and Yamamoto vs Philly \u2014 plus several under-the-radar totals and a few prop angles worth exploring.",
+      "executive_summary": "Sunday's 15-game MLB slate is pitching-heavy with two aces on the mound: Jacob Misiorowski (1.83 ERA, 40.3% K rate) takes his Cy Young campaign to Houston against a struggling Astros lineup, and Yoshinobu Yamamoto hosts the Phillies at Dodger Stadium. The Brewers-Astros under at 7.5 is the sharpest total on the board \u2014 Misiorowski has allowed one run in his last 31.1 innings, and Tatsuya Imai's 17.5% BB rate means Houston's offense will be chasing. The ladder rides with the Seattle under at T-Mobile Park, where Bryce Miller returns to form against a fading Merrill Kelly. Six plays today, all backed by predictive pitching metrics and park factors.",
+      "slate_analysis": "The board today features 15 MLB games with no NBA or NHL action. The pricing climate is relatively tight \u2014 most sides are in the -110 to -150 range, with a few outliers like the Dodgers at -235 and the Brewers at -193. The totals market is where the edges live today.\n\nTop candidates that rose during my review: (1) Brewers-Astros under 7.5 \u2014 Misiorowski's dominance (1.83 ERA, 40.3% K rate, 100 Ks in 64 IP) against a struggling Astros lineup with Tatsuya Imai (6.17 ERA, 17.5% BB rate) on the mound screams low-scoring game. (2) Mariners-Diamondbacks under 7.5 \u2014 Bryce Miller (2.25 ERA, 3.2% BB rate in limited action) at pitcher-friendly T-Mobile Park with wind blowing in against Merrill Kelly (5.25 ERA). (3) Dodgers -1.5 \u2014 Yamamoto (3.09 ERA, 0.98 WHIP) vs Andrew Painter (5.40 ERA, 1.46 WHIP) at Dodger Stadium. (4) Spencer Strider Ks Under 6.5 \u2014 Strider's velocity is down and he's walking more batters; Reds have a low K% against RHP. (5) Cardinals ML vs Cubs \u2014 Jordan Wicks has a 16.62 ERA in 4.1 IP; Cardinals at home with Liberatore who's been serviceable. (6) Guardians-Red Sox under 7.0 \u2014 Ranger Suarez (3.02 ERA) vs Tanner Bibee in a neutral park with both offenses struggling.\n\nWhat got cut and why: The Pirates-Twins game had data confidence of 0.45 and Zebby Matthews has only 19 IP this season \u2014 sample too thin. The Rays-Angels game looked appealing with McClanahan, but the -200 juice exceeds our straight-bet cap. The Padres-Nationals game has two struggling pitchers (Canning 7.54 ERA, Littell 5.23 ERA) but the total at 9.0-9.5 is already priced for chaos \u2014 no edge. The Mets-Marlins game has John King's 1.93 ERA but only 23.1 IP \u2014 sample concerns. The Coors Field game (Rockies-Giants) is a stay-away; both pitchers have HR/9 above 1.5 and the park factor is 1.18.\n\nThe final six picks: Brewers-Astros Under 7.5 (Misiorowski dominance + Imai's control issues), Mariners-Diamondbacks Under 7.5 (Miller + park + weather), Dodgers -1.5 (Yamamoto vs struggling Painter), Spencer Strider Ks Under 6.5 (velocity down, Reds don't chase), Cardinals ML (Wicks is unplayable), and Guardians-Red Sox Under 7.0 (Suarez + two weak offenses). The ladder pick is the Mariners-Diamondbacks Under 7.5 \u2014 best floor on the board with Miller's elite control, T-Mobile's pitcher-friendly dimensions, and wind blowing in suppressing HR by 10%.",
+      "slate_vibe": "NORMAL",
+      "published_at": "2026-05-31T13:04:31.172337-04:00"
+    },
+    {
+      "id": "20260531-MLB-ATL-CIN-PROP-SPENCERSTRIDER",
+      "sport": "MLB",
+      "game": "ATL @ CIN",
+      "first_pitch_iso": "2026-05-31T17:40Z",
+      "pick": "Spencer Strider Ks Under 6.5",
+      "best_book": "BetMGM",
+      "best_odds": "+110",
+      "book_prices": {
+        "draftkings": "-130",
+        "fanduel": "-136",
+        "betmgm": "+110"
+      },
+      "book_links": {
+        "fanduel": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.582584145&selectionId=45488539",
+        "draftkings": "https://sportsbook.draftkings.com/?outcomes=0QA339005088%232168651714_13L84240Q1-46364625Q20",
+        "betmgm": "https://sports.nj.betmgm.com/en/sports?options=2:7794310-200121335-757318293&type=Single"
       },
       "market": "PROP",
       "confidence": 4,
       "units": 1.5,
-      "win_probability": 0.62,
+      "win_probability": 0.58,
+      "ladder_designation": false,
+      "data_confidence": 0.75,
+      "rules_passed": [
+        "max_juice",
+        "ladder_even_money",
+        "parlay_well_formed",
+        "confidence_units_match",
+        "data_confidence_floor",
+        "pick_type_allowed",
+        "mlb_hr_prop_check",
+        "mlb_pitcher_k_check",
+        "mlb_total_bases_check",
+        "mlb_hits_check",
+        "nba_player_prop_check",
+        "nhl_shots_check",
+        "mlb_run_line_check",
+        "mlb_under_bb_check(soft)",
+        "no_same_game_opposite"
+      ],
+      "locked": true,
+      "late_add": false,
+      "late_add_reason": "",
+      "bonus_pick": false,
+      "event_type": "",
+      "event_name": "",
+      "legs": [],
+      "headline": "Strider's velocity is down, his walk rate is up, and the Reds don't chase.",
+      "the_thesis": "Spencer Strider is not the same pitcher he was in 2023. After returning from his oblique injury, his fastball velocity has dropped to 95.3 mph (down from 97.2 mph in his Cy Young season), and he's walking more batters than ever. In his first four starts of 2026, he's walked 2+ batters in every outing and his K rate has dropped significantly.\n\nThe Reds have a disciplined lineup that doesn't chase out of the zone. Strider's effectiveness has always been tied to his velocity and his ability to get hitters to expand \u2014 when they don't chase, he struggles. His changeup and curveball usage are up, but those pitches don't generate the same whiff rates as his fastball.\n\nBetMGM is offering +110 on the under, which is significant value compared to FanDuel (-136) and DraftKings (-130). This line discrepancy suggests BetMGM hasn't adjusted to Strider's diminished stuff.",
+      "the_data": [
+        {
+          "label": "Strider 2026 fastball velo",
+          "value": "95.3 mph",
+          "context": "Down from 97.2 in 2023"
+        },
+        {
+          "label": "Strider 2026 BB%",
+          "value": "14.6%",
+          "context": "Career high"
+        },
+        {
+          "label": "Strider K/9 (season)",
+          "value": "31.1%",
+          "context": "Still good but declining"
+        },
+        {
+          "label": "Strider L3 starts",
+          "value": "21 K / 7 BB in 17.2 IP",
+          "context": "Walks up"
+        },
+        {
+          "label": "Reds K% vs RHP",
+          "value": "Low",
+          "context": "Disciplined lineup"
+        },
+        {
+          "label": "Strider IP/start",
+          "value": "~5.0",
+          "context": "Limited workload"
+        }
+      ],
+      "the_market": "Line is 6.5 across all books. BetMGM has the under at +110, while FanDuel (-136) and DraftKings (-130) are juiced heavily to the over. This discrepancy is significant.",
+      "weather_park": "Great American Ball Park, 73\u00b0F, wind 3 mph in from LF \u2014 neutral conditions.",
+      "case_against": "Strider is still a talented pitcher who can rack up Ks when his stuff is working. The Reds do have some free swingers in the lineup. If Strider's velocity ticks up, he could easily hit 7+ Ks. His curveball has been effective against lefties.",
+      "what_were_betting_on": "Strider going 5 innings or fewer with 5-6 strikeouts, the Reds making contact and putting balls in play, Strider's diminished velocity limiting his swing-and-miss stuff.",
+      "scott_bot_quip": "Strider's fastball used to be a weapon. Now it's just a pitch.",
+      "ladder_note": "",
+      "date": "2026-05-31",
+      "status": "PEND",
+      "units_result": null,
+      "clv_cents": null,
+      "result_score": null,
+      "graded_at": null,
+      "slate_assessment": "15-game MLB-only board with no NBA or NHL today. Two elite pitching matchups jump off the page \u2014 Misiorowski at Houston and Yamamoto vs Philly \u2014 plus several under-the-radar totals and a few prop angles worth exploring.",
+      "executive_summary": "Sunday's 15-game MLB slate is pitching-heavy with two aces on the mound: Jacob Misiorowski (1.83 ERA, 40.3% K rate) takes his Cy Young campaign to Houston against a struggling Astros lineup, and Yoshinobu Yamamoto hosts the Phillies at Dodger Stadium. The Brewers-Astros under at 7.5 is the sharpest total on the board \u2014 Misiorowski has allowed one run in his last 31.1 innings, and Tatsuya Imai's 17.5% BB rate means Houston's offense will be chasing. The ladder rides with the Seattle under at T-Mobile Park, where Bryce Miller returns to form against a fading Merrill Kelly. Six plays today, all backed by predictive pitching metrics and park factors.",
+      "slate_analysis": "The board today features 15 MLB games with no NBA or NHL action. The pricing climate is relatively tight \u2014 most sides are in the -110 to -150 range, with a few outliers like the Dodgers at -235 and the Brewers at -193. The totals market is where the edges live today.\n\nTop candidates that rose during my review: (1) Brewers-Astros under 7.5 \u2014 Misiorowski's dominance (1.83 ERA, 40.3% K rate, 100 Ks in 64 IP) against a struggling Astros lineup with Tatsuya Imai (6.17 ERA, 17.5% BB rate) on the mound screams low-scoring game. (2) Mariners-Diamondbacks under 7.5 \u2014 Bryce Miller (2.25 ERA, 3.2% BB rate in limited action) at pitcher-friendly T-Mobile Park with wind blowing in against Merrill Kelly (5.25 ERA). (3) Dodgers -1.5 \u2014 Yamamoto (3.09 ERA, 0.98 WHIP) vs Andrew Painter (5.40 ERA, 1.46 WHIP) at Dodger Stadium. (4) Spencer Strider Ks Under 6.5 \u2014 Strider's velocity is down and he's walking more batters; Reds have a low K% against RHP. (5) Cardinals ML vs Cubs \u2014 Jordan Wicks has a 16.62 ERA in 4.1 IP; Cardinals at home with Liberatore who's been serviceable. (6) Guardians-Red Sox under 7.0 \u2014 Ranger Suarez (3.02 ERA) vs Tanner Bibee in a neutral park with both offenses struggling.\n\nWhat got cut and why: The Pirates-Twins game had data confidence of 0.45 and Zebby Matthews has only 19 IP this season \u2014 sample too thin. The Rays-Angels game looked appealing with McClanahan, but the -200 juice exceeds our straight-bet cap. The Padres-Nationals game has two struggling pitchers (Canning 7.54 ERA, Littell 5.23 ERA) but the total at 9.0-9.5 is already priced for chaos \u2014 no edge. The Mets-Marlins game has John King's 1.93 ERA but only 23.1 IP \u2014 sample concerns. The Coors Field game (Rockies-Giants) is a stay-away; both pitchers have HR/9 above 1.5 and the park factor is 1.18.\n\nThe final six picks: Brewers-Astros Under 7.5 (Misiorowski dominance + Imai's control issues), Mariners-Diamondbacks Under 7.5 (Miller + park + weather), Dodgers -1.5 (Yamamoto vs struggling Painter), Spencer Strider Ks Under 6.5 (velocity down, Reds don't chase), Cardinals ML (Wicks is unplayable), and Guardians-Red Sox Under 7.0 (Suarez + two weak offenses). The ladder pick is the Mariners-Diamondbacks Under 7.5 \u2014 best floor on the board with Miller's elite control, T-Mobile's pitcher-friendly dimensions, and wind blowing in suppressing HR by 10%.",
+      "slate_vibe": "NORMAL",
+      "published_at": "2026-05-31T13:04:31.172232-04:00"
+    },
+    {
+      "id": "20260531-MLB-PHI-LAD-SPREAD",
+      "sport": "MLB",
+      "game": "PHI @ LAD",
+      "first_pitch_iso": "2026-05-31T20:10Z",
+      "pick": "Dodgers -1.5",
+      "best_book": "FanDuel",
+      "best_odds": "-110",
+      "book_prices": {
+        "draftkings": "-110",
+        "fanduel": "-110",
+        "betmgm": "-115"
+      },
+      "book_links": {
+        "fanduel": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.582506239&selectionId=29171",
+        "draftkings": "https://sportsbook.draftkings.com/?outcomes=0HC84990654N150_1",
+        "betmgm": "https://sports.nj.betmgm.com/en/sports?options=19442914-1504539903-2152739142&type=Single"
+      },
+      "market": "SPREAD",
+      "confidence": 4,
+      "units": 1.5,
+      "win_probability": 0.58,
       "ladder_designation": false,
       "data_confidence": 0.8,
       "rules_passed": [
@@ -337,7 +337,7 @@
         "pick_type_allowed",
         "mlb_hr_prop_check",
         "mlb_pitcher_k_check",
-        "mlb_total_bases_check(soft)",
+        "mlb_total_bases_check",
         "mlb_hits_check",
         "nba_player_prop_check",
         "nhl_shots_check",
@@ -352,45 +352,45 @@
       "event_type": "",
       "event_name": "",
       "legs": [],
-      "headline": "Judge's elite power against a soft Jacob Lopez is a clean prop spot.",
-      "the_thesis": "Aaron Judge is on pace for 66 home runs this season. His 16 HR through 48 team games is absurd, and his 22.4% barrel rate is tied for fifth in baseball. He's hitting .268 with a .618 SLG, and his exit velocity (94.3 mph) and hard-hit rate (57.5%) are both elite.\n\nJacob Lopez is a disaster. His 5.73 ERA is bad, but his 2.05 HR/9 is catastrophic \u2014 that's one of the worst marks in baseball. He's also walking 13.5% of batters, which means Judge will see plenty of hittable pitches. Sutter Health Park is neutral (1.02 runs PF, 0.98 HR PF), so there's no park factor concern.\n\nThe market has Judge TB Over 1.5 at -135 on DraftKings. My fair line is around -150, which gives us 15 cents of edge. Judge has hit 2+ total bases in 60%+ of his games this season, and this is one of the softest matchups he'll see all year.",
+      "headline": "Yamamoto at home against a struggling Andrew Painter \u2014 the Dodgers should roll.",
+      "the_thesis": "Yoshinobu Yamamoto (3.09 ERA, 0.98 WHIP) has been the Dodgers' ace all season, and he's facing Andrew Painter (5.40 ERA, 1.46 WHIP) who's been hittable in his first full MLB season. The Dodgers have the best offense in baseball (5.26 R/G) and they're at home where they've been dominant.\n\nPainter's 7.3% walk rate and 1.26 HR/9 are concerning against a Dodgers lineup that features Ohtani, Betts, Freeman, and company. The Phillies offense has been below average (3.95 R/G), and they're facing a pitcher who limits hard contact and doesn't walk batters.\n\nThe run line at -110 is excellent value. The Dodgers ML is -235, which is too steep, but -1.5 at -110 gives us a much better price on a team that should win comfortably. Yamamoto has been building up his workload all season and is now capable of going 6-7 innings.",
       "the_data": [
         {
-          "label": "Judge HR (2026)",
-          "value": "16",
-          "context": "MLB-leading pace"
+          "label": "Yamamoto ERA / WHIP",
+          "value": "3.09 / 0.98",
+          "context": "Ace-level"
         },
         {
-          "label": "Judge Barrel% (2026)",
-          "value": "22.4%",
-          "context": "5th in MLB"
+          "label": "Painter ERA / WHIP",
+          "value": "5.40 / 1.46",
+          "context": "Struggling rookie"
         },
         {
-          "label": "Judge SLG (2026)",
-          "value": ".618",
-          "context": "Elite"
+          "label": "Dodgers R/G",
+          "value": "5.26",
+          "context": "Best in MLB"
         },
         {
-          "label": "Lopez ERA (season)",
-          "value": "5.73",
-          "context": "Poor"
+          "label": "Phillies R/G",
+          "value": "3.95",
+          "context": "Below average"
         },
         {
-          "label": "Lopez HR/9 (season)",
-          "value": "2.05",
-          "context": "Catastrophic, bottom-5 in MLB"
+          "label": "Dodgers home record",
+          "value": "Strong",
+          "context": "Back-to-back champs"
         },
         {
-          "label": "Lopez BB% (season)",
-          "value": "13.5%",
-          "context": "Poor, lots of free passes"
+          "label": "Painter HR/9",
+          "value": "1.26",
+          "context": "HR-prone"
         }
       ],
-      "the_market": "Judge TB Over 1.5 at -135 on DraftKings. FanDuel and BetMGM both at -140. No significant movement.",
-      "weather_park": "Sutter Health Park is outdoor and neutral (1.02 runs PF). Weather should be warm and dry.",
-      "case_against": "Judge could go 0-for-4 with 3 strikeouts \u2014 it happens. Lopez could have a breakout game. The A's bullpen could come in early if Lopez struggles and limit Judge's at-bats.",
-      "what_were_betting_on": "Judge getting 4+ at-bats against Lopez and recording at least one extra-base hit.",
-      "scott_bot_quip": "Lopez gives up 2 HR/9. Judge hits 66 HR/year. Do the math.",
+      "the_market": "Run line opened at -1.5 and is getting -110 juice at FanDuel and DraftKings. The ML is -235, so the run line offers significant value if you believe the Dodgers win by 2+.",
+      "weather_park": "Dodger Stadium, neutral park (0.97 runs PF, 0.99 HR PF). No weather concerns.",
+      "case_against": "Painter has shown flashes of brilliance and could have a breakout game. The Phillies have veteran hitters who can adjust. Yamamoto has had some inconsistent outings this season. Run lines are inherently riskier \u2014 a 1-run Dodgers win loses.",
+      "what_were_betting_on": "Yamamoto going 6+ innings with 2 or fewer runs, the Dodgers offense tagging Painter for 4+ runs, the Dodgers bullpen closing it out cleanly.",
+      "scott_bot_quip": "Painter vs Yamamoto at Dodger Stadium. This is a mismatch, not a matchup.",
       "ladder_note": "",
       "date": "2026-05-31",
       "status": "PEND",
@@ -398,11 +398,11 @@
       "clv_cents": null,
       "result_score": null,
       "graded_at": null,
-      "slate_assessment": "16-game MLB-only slate with several pitching mismatches and prop opportunities. Misiorowski vs. Imai in Houston is the standout, with Coors Field and the SD/WSH game providing prop value.",
-      "executive_summary": "Sixteen MLB games today, no NBA or NHL, and the board tilts toward pitching mismatches and prop plays. Jacob Misiorowski at Houston is the cleanest side of the day \u2014 elite K-rate, sub-2 ERA, facing a struggling Imai with a 6.17 ERA and 17.5% walk rate. The Brewers ML at -190 is too short for a straight bet, but the run line at -107 lands in our range. Seattle's under 7.5 at T-Mobile Park with Bryce Miller returning against Merrill Kelly is another strong spot. On the prop side, Aaron Judge's total bases over 1.5 against a soft Jacob Lopez (5.73 ERA, 2.05 HR/9) is the sharpest play. The ladder rides with the Brewers -1.5 \u2014 best floor on the board with Misiorowski's dominance.",
-      "slate_analysis": "Today's board features 16 MLB games spread across the afternoon and evening, with no NBA or NHL action to supplement. The pricing climate is relatively soft \u2014 several favorites are priced past -150, which limits straight-bet options, but the prop markets are deep with SD/WSH, CIN/ATL, COL/SF, NYY/ATH, and LAD/PHI all carrying full prop slates.\n\nThe top candidates that rose during my review: Milwaukee at Houston (Misiorowski vs. Imai \u2014 elite SP vs. struggling rookie), Seattle vs. Arizona (Bryce Miller returning vs. Merrill Kelly at pitcher-friendly T-Mobile), the SD/WSH over 9.0 (two weak starters, Littell 2.54 HR/9 and Canning 7.54 ERA), the NYY/ATH over 10.0 (Jacob Lopez 5.73 ERA, 2.05 HR/9 vs. Yankees lineup), and Aaron Judge total bases over 1.5 against Lopez. I also looked hard at the Dodgers -1.5 (Yamamoto vs. Painter) and the Pirates ML (Ashcraft vs. Matthews).\n\nWhat got cut: The Dodgers -1.5 at -108 is tempting with Yamamoto's 3.09 ERA, but Painter's 5.40 ERA isn't disastrous enough to create 8+ cents of edge \u2014 my fair line on LAD -1.5 is around -115, so the edge is thin. The Pirates ML at -158 exceeds our -150 juice cap for straight bets. The SD/WSH over 9.0 at -115 is close, but both offenses have been inconsistent (SD 3.95 R/G, WSH 5.42 R/G) and the park is neutral \u2014 I don't have enough edge to justify it. The CLE/BOS under 7.5 at -120 looked interesting with Ranger Suarez's 3.02 ERA, but Bibee's 1.71 HR/9 and the neutral park factor at Progressive Field made me nervous about the floor.\n\nThe final six picks: Milwaukee -1.5 (Misiorowski dominance), Seattle Under 7.5 (Miller return + pitcher-friendly park), Aaron Judge TB Over 1.5 (elite hitter vs. soft SP), Fernando Tatis Jr. TB Over 1.5 (Littell's 2.54 HR/9), Yoshinobu Yamamoto Ks Under 6.5 (Phillies don't strike out much, Yamamoto's 23.8% K-rate is good but not elite), and the COL/SF Over 11.0 (Coors Field, two mediocre starters). The ladder pick is Milwaukee -1.5 \u2014 Misiorowski's 1.83 ERA, 40.3% K-rate, and 0.56 HR/9 against Imai's 6.17 ERA and 17.5% BB-rate is the clearest mismatch on the board, and the run line at -107 lands in our even-money band.",
+      "slate_assessment": "15-game MLB-only board with no NBA or NHL today. Two elite pitching matchups jump off the page \u2014 Misiorowski at Houston and Yamamoto vs Philly \u2014 plus several under-the-radar totals and a few prop angles worth exploring.",
+      "executive_summary": "Sunday's 15-game MLB slate is pitching-heavy with two aces on the mound: Jacob Misiorowski (1.83 ERA, 40.3% K rate) takes his Cy Young campaign to Houston against a struggling Astros lineup, and Yoshinobu Yamamoto hosts the Phillies at Dodger Stadium. The Brewers-Astros under at 7.5 is the sharpest total on the board \u2014 Misiorowski has allowed one run in his last 31.1 innings, and Tatsuya Imai's 17.5% BB rate means Houston's offense will be chasing. The ladder rides with the Seattle under at T-Mobile Park, where Bryce Miller returns to form against a fading Merrill Kelly. Six plays today, all backed by predictive pitching metrics and park factors.",
+      "slate_analysis": "The board today features 15 MLB games with no NBA or NHL action. The pricing climate is relatively tight \u2014 most sides are in the -110 to -150 range, with a few outliers like the Dodgers at -235 and the Brewers at -193. The totals market is where the edges live today.\n\nTop candidates that rose during my review: (1) Brewers-Astros under 7.5 \u2014 Misiorowski's dominance (1.83 ERA, 40.3% K rate, 100 Ks in 64 IP) against a struggling Astros lineup with Tatsuya Imai (6.17 ERA, 17.5% BB rate) on the mound screams low-scoring game. (2) Mariners-Diamondbacks under 7.5 \u2014 Bryce Miller (2.25 ERA, 3.2% BB rate in limited action) at pitcher-friendly T-Mobile Park with wind blowing in against Merrill Kelly (5.25 ERA). (3) Dodgers -1.5 \u2014 Yamamoto (3.09 ERA, 0.98 WHIP) vs Andrew Painter (5.40 ERA, 1.46 WHIP) at Dodger Stadium. (4) Spencer Strider Ks Under 6.5 \u2014 Strider's velocity is down and he's walking more batters; Reds have a low K% against RHP. (5) Cardinals ML vs Cubs \u2014 Jordan Wicks has a 16.62 ERA in 4.1 IP; Cardinals at home with Liberatore who's been serviceable. (6) Guardians-Red Sox under 7.0 \u2014 Ranger Suarez (3.02 ERA) vs Tanner Bibee in a neutral park with both offenses struggling.\n\nWhat got cut and why: The Pirates-Twins game had data confidence of 0.45 and Zebby Matthews has only 19 IP this season \u2014 sample too thin. The Rays-Angels game looked appealing with McClanahan, but the -200 juice exceeds our straight-bet cap. The Padres-Nationals game has two struggling pitchers (Canning 7.54 ERA, Littell 5.23 ERA) but the total at 9.0-9.5 is already priced for chaos \u2014 no edge. The Mets-Marlins game has John King's 1.93 ERA but only 23.1 IP \u2014 sample concerns. The Coors Field game (Rockies-Giants) is a stay-away; both pitchers have HR/9 above 1.5 and the park factor is 1.18.\n\nThe final six picks: Brewers-Astros Under 7.5 (Misiorowski dominance + Imai's control issues), Mariners-Diamondbacks Under 7.5 (Miller + park + weather), Dodgers -1.5 (Yamamoto vs struggling Painter), Spencer Strider Ks Under 6.5 (velocity down, Reds don't chase), Cardinals ML (Wicks is unplayable), and Guardians-Red Sox Under 7.0 (Suarez + two weak offenses). The ladder pick is the Mariners-Diamondbacks Under 7.5 \u2014 best floor on the board with Miller's elite control, T-Mobile's pitcher-friendly dimensions, and wind blowing in suppressing HR by 10%.",
       "slate_vibe": "NORMAL",
-      "published_at": "2026-05-31T07:26:48.967889-04:00"
+      "published_at": "2026-05-31T13:04:31.172122-04:00"
     },
     {
       "id": "20260531-MLB-ARI-SEA-TOTAL",
@@ -410,12 +410,12 @@
       "game": "ARI @ SEA",
       "first_pitch_iso": "2026-05-31T20:10Z",
       "pick": "Under 7.5",
-      "best_book": "BetMGM",
-      "best_odds": "-110",
+      "best_book": "FanDuel",
+      "best_odds": "-114",
       "book_prices": {
-        "draftkings": "-116",
+        "draftkings": "-117",
         "fanduel": "-114",
-        "betmgm": "-110"
+        "betmgm": "-118"
       },
       "book_links": {
         "fanduel": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.582506982&selectionId=7017906",
@@ -426,8 +426,8 @@
       "confidence": 4,
       "units": 1.5,
       "win_probability": 0.6,
-      "ladder_designation": false,
-      "data_confidence": 0.75,
+      "ladder_designation": true,
+      "data_confidence": 0.85,
       "rules_passed": [
         "max_juice",
         "ladder_even_money",
@@ -452,50 +452,145 @@
       "event_type": "",
       "event_name": "",
       "legs": [],
-      "headline": "Bryce Miller returns at pitcher-friendly T-Mobile against a struggling Merrill Kelly.",
-      "the_thesis": "Bryce Miller is back from his oblique injury and looked sharp in his rehab starts. His 2.25 ERA in limited action this season is encouraging, and his 3.2% walk rate is elite. T-Mobile Park is one of the most pitcher-friendly venues in baseball with a 0.93 runs park factor and 0.93 HR park factor. This is a great spot for an under.\n\nMerrill Kelly has struggled this season with a 5.25 ERA and 1.42 WHIP. His 1.5 HR/9 is concerning, but T-Mobile Park should suppress that. The Diamondbacks offense has been solid (4.6 R/G), but they're facing a pitcher who dominated in the playoffs last year and is motivated to prove he's healthy.\n\nThe market has this at 7.5 with the under at -110 on BetMGM. My fair line is around -120, which gives us 10 cents of edge. Both offenses are average (SEA 4.27 R/G, ARI 4.6 R/G), and the park factor heavily favors the under.",
+      "headline": "Bryce Miller's elite control meets T-Mobile's pitcher-friendly dimensions with wind blowing in.",
+      "the_thesis": "Bryce Miller is back and looking sharp. His 2.25 ERA and 3.2% walk rate in limited action this season show the control that made him dominant in 2024. T-Mobile Park is one of the most pitcher-friendly venues in baseball (0.93 runs PF, 0.93 HR PF), and today's weather makes it even tougher on hitters \u2014 8 mph wind blowing in from left field suppresses HR by approximately 10%.\n\nMerrill Kelly (5.25 ERA, 1.42 WHIP) has been hittable, but the Mariners offense isn't exactly fearsome either (4.27 R/G). This is a classic pitcher's duel setup where both teams struggle to manufacture runs. The total opened at 7.5 and the under is getting juice across all books, suggesting sharp money agrees with the under thesis.\n\nMiller's return from injury has been methodical \u2014 the Mariners were careful with his workload, and he's now stretched out to handle 5-6 innings. His fastball velocity is back, and his command has been elite. The Diamondbacks have a solid offense (4.60 R/G), but they're facing a pitcher who doesn't walk anyone in a park that suppresses offense.",
       "the_data": [
         {
-          "label": "Miller ERA (season)",
-          "value": "2.25",
-          "context": "Elite, small sample"
+          "label": "Miller ERA / BB%",
+          "value": "2.25 / 3.2%",
+          "context": "Elite control"
         },
         {
-          "label": "Miller BB% (season)",
-          "value": "3.2%",
-          "context": "Elite, top-10 in MLB"
-        },
-        {
-          "label": "Kelly ERA (season)",
-          "value": "5.25",
-          "context": "Poor"
-        },
-        {
-          "label": "T-Mobile Park PF (runs)",
-          "value": "0.93",
+          "label": "T-Mobile Park PF (runs/HR)",
+          "value": "0.93 / 0.93",
           "context": "Pitcher-friendly"
         },
         {
-          "label": "T-Mobile Park PF (HR)",
-          "value": "0.93",
-          "context": "HR-suppressing"
+          "label": "Wind impact",
+          "value": "-10.4% HR",
+          "context": "8 mph in from LF"
         },
         {
-          "label": "SEA R/G (season)",
+          "label": "Kelly ERA / WHIP",
+          "value": "5.25 / 1.42",
+          "context": "Struggling"
+        },
+        {
+          "label": "Mariners R/G",
           "value": "4.27",
-          "context": "Average"
+          "context": "Below average"
         },
         {
-          "label": "ARI R/G (season)",
+          "label": "Diamondbacks R/G",
           "value": "4.60",
-          "context": "Average"
+          "context": "League average"
         }
       ],
-      "the_market": "Total opened at 7.5 and has held. Under at -110 on BetMGM is the best price. No significant movement.",
-      "weather_park": "T-Mobile Park is outdoor but covered, so weather is not a factor. Park is pitcher-friendly with 0.93 runs PF.",
-      "case_against": "Miller is coming off an injury and may be on a pitch count. Kelly could bounce back in a pitcher-friendly park. The Diamondbacks have some dangerous hitters who could break through.",
-      "what_were_betting_on": "Miller going 5+ innings with 5+ strikeouts, Kelly keeping the Mariners in check, and both bullpens holding late.",
-      "scott_bot_quip": "Miller's back, T-Mobile's cold, and Kelly's been cooked. Under.",
+      "the_market": "Total opened at 7.5 and has held. Under is getting -114 to -118 juice across books, indicating sharp lean toward the under. No movement despite Miller's return generating some buzz.",
+      "weather_park": "T-Mobile Park, 63\u00b0F, wind 8 mph blowing in from LF \u2014 suppresses HR by ~10%. Ideal conditions for pitching.",
+      "case_against": "Miller has only 16 IP this season \u2014 small sample. If his command isn't sharp, the Diamondbacks have the bats to capitalize. Kelly could have a bounce-back game, and Arizona's offense is better than Seattle's. The Mariners bullpen has been inconsistent.",
+      "what_were_betting_on": "Miller going 5+ innings with 1 or fewer walks, Kelly keeping the Mariners in check despite his struggles, both bullpens holding serve in a 3-2 or 4-3 type game.",
+      "scott_bot_quip": "Wind blowing in, Miller dealing, Kelly struggling. Math says under. We listen to math.",
+      "ladder_note": "Best floor on the board \u2014 elite control pitcher in a pitcher's park with weather suppressing offense. The Diamondbacks aren't a high-variance offense, and Miller doesn't beat himself with walks. This is the highest-floor play at near even money.",
+      "date": "2026-05-31",
+      "status": "PEND",
+      "units_result": null,
+      "clv_cents": null,
+      "result_score": null,
+      "graded_at": null,
+      "slate_assessment": "15-game MLB-only board with no NBA or NHL today. Two elite pitching matchups jump off the page \u2014 Misiorowski at Houston and Yamamoto vs Philly \u2014 plus several under-the-radar totals and a few prop angles worth exploring.",
+      "executive_summary": "Sunday's 15-game MLB slate is pitching-heavy with two aces on the mound: Jacob Misiorowski (1.83 ERA, 40.3% K rate) takes his Cy Young campaign to Houston against a struggling Astros lineup, and Yoshinobu Yamamoto hosts the Phillies at Dodger Stadium. The Brewers-Astros under at 7.5 is the sharpest total on the board \u2014 Misiorowski has allowed one run in his last 31.1 innings, and Tatsuya Imai's 17.5% BB rate means Houston's offense will be chasing. The ladder rides with the Seattle under at T-Mobile Park, where Bryce Miller returns to form against a fading Merrill Kelly. Six plays today, all backed by predictive pitching metrics and park factors.",
+      "slate_analysis": "The board today features 15 MLB games with no NBA or NHL action. The pricing climate is relatively tight \u2014 most sides are in the -110 to -150 range, with a few outliers like the Dodgers at -235 and the Brewers at -193. The totals market is where the edges live today.\n\nTop candidates that rose during my review: (1) Brewers-Astros under 7.5 \u2014 Misiorowski's dominance (1.83 ERA, 40.3% K rate, 100 Ks in 64 IP) against a struggling Astros lineup with Tatsuya Imai (6.17 ERA, 17.5% BB rate) on the mound screams low-scoring game. (2) Mariners-Diamondbacks under 7.5 \u2014 Bryce Miller (2.25 ERA, 3.2% BB rate in limited action) at pitcher-friendly T-Mobile Park with wind blowing in against Merrill Kelly (5.25 ERA). (3) Dodgers -1.5 \u2014 Yamamoto (3.09 ERA, 0.98 WHIP) vs Andrew Painter (5.40 ERA, 1.46 WHIP) at Dodger Stadium. (4) Spencer Strider Ks Under 6.5 \u2014 Strider's velocity is down and he's walking more batters; Reds have a low K% against RHP. (5) Cardinals ML vs Cubs \u2014 Jordan Wicks has a 16.62 ERA in 4.1 IP; Cardinals at home with Liberatore who's been serviceable. (6) Guardians-Red Sox under 7.0 \u2014 Ranger Suarez (3.02 ERA) vs Tanner Bibee in a neutral park with both offenses struggling.\n\nWhat got cut and why: The Pirates-Twins game had data confidence of 0.45 and Zebby Matthews has only 19 IP this season \u2014 sample too thin. The Rays-Angels game looked appealing with McClanahan, but the -200 juice exceeds our straight-bet cap. The Padres-Nationals game has two struggling pitchers (Canning 7.54 ERA, Littell 5.23 ERA) but the total at 9.0-9.5 is already priced for chaos \u2014 no edge. The Mets-Marlins game has John King's 1.93 ERA but only 23.1 IP \u2014 sample concerns. The Coors Field game (Rockies-Giants) is a stay-away; both pitchers have HR/9 above 1.5 and the park factor is 1.18.\n\nThe final six picks: Brewers-Astros Under 7.5 (Misiorowski dominance + Imai's control issues), Mariners-Diamondbacks Under 7.5 (Miller + park + weather), Dodgers -1.5 (Yamamoto vs struggling Painter), Spencer Strider Ks Under 6.5 (velocity down, Reds don't chase), Cardinals ML (Wicks is unplayable), and Guardians-Red Sox Under 7.0 (Suarez + two weak offenses). The ladder pick is the Mariners-Diamondbacks Under 7.5 \u2014 best floor on the board with Miller's elite control, T-Mobile's pitcher-friendly dimensions, and wind blowing in suppressing HR by 10%.",
+      "slate_vibe": "NORMAL",
+      "published_at": "2026-05-31T13:04:31.171973-04:00"
+    },
+    {
+      "id": "20260531-MLB-MIL-HOU-TOTAL",
+      "sport": "MLB",
+      "game": "MIL @ HOU",
+      "first_pitch_iso": "2026-05-31T18:10Z",
+      "pick": "Under 7.5",
+      "best_book": "BetMGM",
+      "best_odds": "-110",
+      "book_prices": {
+        "draftkings": "-111",
+        "fanduel": "-112",
+        "betmgm": "-110"
+      },
+      "book_links": {
+        "fanduel": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.582502791&selectionId=7017906",
+        "draftkings": "https://sportsbook.draftkings.com/?outcomes=0OU84990650U750_3",
+        "betmgm": "https://sports.nj.betmgm.com/en/sports?options=19442260-1504493596-2152613468&type=Single"
+      },
+      "market": "TOTAL",
+      "confidence": 5,
+      "units": 2.0,
+      "win_probability": 0.63,
+      "ladder_designation": false,
+      "data_confidence": 0.85,
+      "rules_passed": [
+        "max_juice",
+        "ladder_even_money",
+        "parlay_well_formed",
+        "confidence_units_match",
+        "data_confidence_floor",
+        "pick_type_allowed",
+        "mlb_hr_prop_check",
+        "mlb_pitcher_k_check",
+        "mlb_total_bases_check",
+        "mlb_hits_check",
+        "nba_player_prop_check",
+        "nhl_shots_check",
+        "mlb_run_line_check",
+        "mlb_under_bb_check(soft)",
+        "no_same_game_opposite"
+      ],
+      "locked": true,
+      "late_add": false,
+      "late_add_reason": "",
+      "bonus_pick": false,
+      "event_type": "",
+      "event_name": "",
+      "legs": [],
+      "headline": "Misiorowski is the best pitcher in baseball right now, and Imai can't throw strikes.",
+      "the_thesis": "Jacob Misiorowski is having a historic season. Through 11 starts, he's the first pitcher to 100 strikeouts in 2026, posting a 1.83 ERA with a 40.3% strikeout rate \u2014 that's elite, 98th percentile in baseball. His last 31.1 innings? One earned run. He's averaging nearly 100 mph on his fastball and generating whiffs at a 39% clip. The Astros offense has been struggling all season, and they're sending out Tatsuya Imai (6.17 ERA, 17.5% BB rate) who can't find the zone.\n\nThe Brewers bullpen has been solid, and Houston's pen will need to eat innings if Imai exits early. Daikin Park is a neutral environment with the roof closed, so no weather boost for offense. The total opened at 7.5 and hasn't moved despite public money typically favoring overs. Sharp money is sitting on this number.\n\nMisiorowski's dominance isn't a fluke \u2014 his Stuff+ grades are elite across all pitches, and he's been the most consistent starter in baseball since mid-April. The Astros rank in the bottom third of MLB in wRC+ this season, and they're facing a pitcher who's allowed just 11 hits in his last 31.1 innings.",
+      "the_data": [
+        {
+          "label": "Misiorowski ERA / WHIP",
+          "value": "1.83 / 0.83",
+          "context": "Best in MLB"
+        },
+        {
+          "label": "Misiorowski K rate",
+          "value": "40.3%",
+          "context": "98th percentile"
+        },
+        {
+          "label": "Misiorowski last 31.1 IP",
+          "value": "1 ER, 49 K",
+          "context": "Historic stretch"
+        },
+        {
+          "label": "Imai BB%",
+          "value": "17.5%",
+          "context": "Worst among qualified SP"
+        },
+        {
+          "label": "Imai ERA",
+          "value": "6.17",
+          "context": "23.1 IP sample"
+        },
+        {
+          "label": "Astros R/G",
+          "value": "4.52",
+          "context": "Below league average"
+        }
+      ],
+      "the_market": "Total opened at 7.5 and has held steady across all three books. The under is getting -110 to -112 juice, suggesting balanced action. No significant line movement despite Misiorowski's dominance.",
+      "weather_park": "Daikin Park with roof closed \u2014 neutral conditions, no weather impact.",
+      "case_against": "Imai's wildness could lead to walks and baserunners that score on wild pitches or passed balls. If Misiorowski has an off day (rare but possible), the Brewers pen would face a Houston lineup that can still mash when they get pitches to hit. Small sample on Imai (23.1 IP) means we're projecting based on limited data.",
+      "what_were_betting_on": "Misiorowski going 6+ innings with 8+ strikeouts, Imai walking 4+ batters and exiting by the 5th, both bullpens keeping the game close.",
+      "scott_bot_quip": "Misiorowski is pitching like a video game character. The Astros are the NPCs.",
       "ladder_note": "",
       "date": "2026-05-31",
       "status": "PEND",
@@ -503,142 +598,37 @@
       "clv_cents": null,
       "result_score": null,
       "graded_at": null,
-      "slate_assessment": "16-game MLB-only slate with several pitching mismatches and prop opportunities. Misiorowski vs. Imai in Houston is the standout, with Coors Field and the SD/WSH game providing prop value.",
-      "executive_summary": "Sixteen MLB games today, no NBA or NHL, and the board tilts toward pitching mismatches and prop plays. Jacob Misiorowski at Houston is the cleanest side of the day \u2014 elite K-rate, sub-2 ERA, facing a struggling Imai with a 6.17 ERA and 17.5% walk rate. The Brewers ML at -190 is too short for a straight bet, but the run line at -107 lands in our range. Seattle's under 7.5 at T-Mobile Park with Bryce Miller returning against Merrill Kelly is another strong spot. On the prop side, Aaron Judge's total bases over 1.5 against a soft Jacob Lopez (5.73 ERA, 2.05 HR/9) is the sharpest play. The ladder rides with the Brewers -1.5 \u2014 best floor on the board with Misiorowski's dominance.",
-      "slate_analysis": "Today's board features 16 MLB games spread across the afternoon and evening, with no NBA or NHL action to supplement. The pricing climate is relatively soft \u2014 several favorites are priced past -150, which limits straight-bet options, but the prop markets are deep with SD/WSH, CIN/ATL, COL/SF, NYY/ATH, and LAD/PHI all carrying full prop slates.\n\nThe top candidates that rose during my review: Milwaukee at Houston (Misiorowski vs. Imai \u2014 elite SP vs. struggling rookie), Seattle vs. Arizona (Bryce Miller returning vs. Merrill Kelly at pitcher-friendly T-Mobile), the SD/WSH over 9.0 (two weak starters, Littell 2.54 HR/9 and Canning 7.54 ERA), the NYY/ATH over 10.0 (Jacob Lopez 5.73 ERA, 2.05 HR/9 vs. Yankees lineup), and Aaron Judge total bases over 1.5 against Lopez. I also looked hard at the Dodgers -1.5 (Yamamoto vs. Painter) and the Pirates ML (Ashcraft vs. Matthews).\n\nWhat got cut: The Dodgers -1.5 at -108 is tempting with Yamamoto's 3.09 ERA, but Painter's 5.40 ERA isn't disastrous enough to create 8+ cents of edge \u2014 my fair line on LAD -1.5 is around -115, so the edge is thin. The Pirates ML at -158 exceeds our -150 juice cap for straight bets. The SD/WSH over 9.0 at -115 is close, but both offenses have been inconsistent (SD 3.95 R/G, WSH 5.42 R/G) and the park is neutral \u2014 I don't have enough edge to justify it. The CLE/BOS under 7.5 at -120 looked interesting with Ranger Suarez's 3.02 ERA, but Bibee's 1.71 HR/9 and the neutral park factor at Progressive Field made me nervous about the floor.\n\nThe final six picks: Milwaukee -1.5 (Misiorowski dominance), Seattle Under 7.5 (Miller return + pitcher-friendly park), Aaron Judge TB Over 1.5 (elite hitter vs. soft SP), Fernando Tatis Jr. TB Over 1.5 (Littell's 2.54 HR/9), Yoshinobu Yamamoto Ks Under 6.5 (Phillies don't strike out much, Yamamoto's 23.8% K-rate is good but not elite), and the COL/SF Over 11.0 (Coors Field, two mediocre starters). The ladder pick is Milwaukee -1.5 \u2014 Misiorowski's 1.83 ERA, 40.3% K-rate, and 0.56 HR/9 against Imai's 6.17 ERA and 17.5% BB-rate is the clearest mismatch on the board, and the run line at -107 lands in our even-money band.",
+      "slate_assessment": "15-game MLB-only board with no NBA or NHL today. Two elite pitching matchups jump off the page \u2014 Misiorowski at Houston and Yamamoto vs Philly \u2014 plus several under-the-radar totals and a few prop angles worth exploring.",
+      "executive_summary": "Sunday's 15-game MLB slate is pitching-heavy with two aces on the mound: Jacob Misiorowski (1.83 ERA, 40.3% K rate) takes his Cy Young campaign to Houston against a struggling Astros lineup, and Yoshinobu Yamamoto hosts the Phillies at Dodger Stadium. The Brewers-Astros under at 7.5 is the sharpest total on the board \u2014 Misiorowski has allowed one run in his last 31.1 innings, and Tatsuya Imai's 17.5% BB rate means Houston's offense will be chasing. The ladder rides with the Seattle under at T-Mobile Park, where Bryce Miller returns to form against a fading Merrill Kelly. Six plays today, all backed by predictive pitching metrics and park factors.",
+      "slate_analysis": "The board today features 15 MLB games with no NBA or NHL action. The pricing climate is relatively tight \u2014 most sides are in the -110 to -150 range, with a few outliers like the Dodgers at -235 and the Brewers at -193. The totals market is where the edges live today.\n\nTop candidates that rose during my review: (1) Brewers-Astros under 7.5 \u2014 Misiorowski's dominance (1.83 ERA, 40.3% K rate, 100 Ks in 64 IP) against a struggling Astros lineup with Tatsuya Imai (6.17 ERA, 17.5% BB rate) on the mound screams low-scoring game. (2) Mariners-Diamondbacks under 7.5 \u2014 Bryce Miller (2.25 ERA, 3.2% BB rate in limited action) at pitcher-friendly T-Mobile Park with wind blowing in against Merrill Kelly (5.25 ERA). (3) Dodgers -1.5 \u2014 Yamamoto (3.09 ERA, 0.98 WHIP) vs Andrew Painter (5.40 ERA, 1.46 WHIP) at Dodger Stadium. (4) Spencer Strider Ks Under 6.5 \u2014 Strider's velocity is down and he's walking more batters; Reds have a low K% against RHP. (5) Cardinals ML vs Cubs \u2014 Jordan Wicks has a 16.62 ERA in 4.1 IP; Cardinals at home with Liberatore who's been serviceable. (6) Guardians-Red Sox under 7.0 \u2014 Ranger Suarez (3.02 ERA) vs Tanner Bibee in a neutral park with both offenses struggling.\n\nWhat got cut and why: The Pirates-Twins game had data confidence of 0.45 and Zebby Matthews has only 19 IP this season \u2014 sample too thin. The Rays-Angels game looked appealing with McClanahan, but the -200 juice exceeds our straight-bet cap. The Padres-Nationals game has two struggling pitchers (Canning 7.54 ERA, Littell 5.23 ERA) but the total at 9.0-9.5 is already priced for chaos \u2014 no edge. The Mets-Marlins game has John King's 1.93 ERA but only 23.1 IP \u2014 sample concerns. The Coors Field game (Rockies-Giants) is a stay-away; both pitchers have HR/9 above 1.5 and the park factor is 1.18.\n\nThe final six picks: Brewers-Astros Under 7.5 (Misiorowski dominance + Imai's control issues), Mariners-Diamondbacks Under 7.5 (Miller + park + weather), Dodgers -1.5 (Yamamoto vs struggling Painter), Spencer Strider Ks Under 6.5 (velocity down, Reds don't chase), Cardinals ML (Wicks is unplayable), and Guardians-Red Sox Under 7.0 (Suarez + two weak offenses). The ladder pick is the Mariners-Diamondbacks Under 7.5 \u2014 best floor on the board with Miller's elite control, T-Mobile's pitcher-friendly dimensions, and wind blowing in suppressing HR by 10%.",
       "slate_vibe": "NORMAL",
-      "published_at": "2026-05-31T07:26:48.967764-04:00"
-    },
-    {
-      "id": "20260531-MLB-MIL-HOU-SPREAD",
-      "sport": "MLB",
-      "game": "MIL @ HOU",
-      "first_pitch_iso": "2026-05-31T18:10Z",
-      "pick": "Milwaukee Brewers -1.5",
-      "best_book": "DraftKings",
-      "best_odds": "-107",
-      "book_prices": {
-        "draftkings": "-107",
-        "fanduel": "-110",
-        "betmgm": "-110"
-      },
-      "book_links": {
-        "fanduel": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.582502792&selectionId=29172",
-        "draftkings": "https://sportsbook.draftkings.com/?outcomes=0HC84990650N150_3",
-        "betmgm": "https://sports.nj.betmgm.com/en/sports?options=19442260-1504493585-2152613445&type=Single"
-      },
-      "market": "SPREAD",
-      "confidence": 5,
-      "units": 2.0,
-      "win_probability": 0.63,
-      "ladder_designation": true,
-      "data_confidence": 0.75,
-      "rules_passed": [
-        "max_juice",
-        "ladder_even_money",
-        "parlay_well_formed",
-        "confidence_units_match",
-        "data_confidence_floor",
-        "pick_type_allowed",
-        "mlb_hr_prop_check",
-        "mlb_pitcher_k_check",
-        "mlb_total_bases_check",
-        "mlb_hits_check",
-        "nba_player_prop_check",
-        "nhl_shots_check",
-        "mlb_run_line_check",
-        "mlb_under_bb_check",
-        "no_same_game_opposite"
-      ],
-      "locked": true,
-      "late_add": false,
-      "late_add_reason": "",
-      "bonus_pick": false,
-      "event_type": "",
-      "event_name": "",
-      "legs": [],
-      "headline": "Misiorowski's elite stuff against a struggling Imai is the clearest mismatch on the board.",
-      "the_thesis": "Jacob Misiorowski has been the best pitcher in baseball this season, and it's not particularly close. His 1.83 ERA and 40.3% K-rate are both elite, and his 0.56 HR/9 means he's not giving up the long ball. The 24-year-old right-hander has struck out 10+ batters in multiple starts this season, and his fastball regularly touches 103 mph. He's healthy after some minor cramping issues earlier in the month.\n\nOn the other side, Tatsuya Imai has been a disaster. His 6.17 ERA is bad, but his 17.5% walk rate is catastrophic \u2014 that's nearly one walk per inning. He's also allowing 1.56 HR/9, which means he's getting hit hard when he does throw strikes. The Astros offense has been solid (4.52 R/G), but they're not going to score much against Misiorowski.\n\nThe market has this priced at -190 on the ML, which is too short for a straight bet. But the run line at -107 is a gift. My fair line on MIL -1.5 is around -120, which gives us 13 cents of edge. The Brewers have the better offense (4.84 R/G vs. 4.52 R/G), the better bullpen, and a massive pitching advantage. This is the ladder pick because it has the highest floor on the board.",
-      "the_data": [
-        {
-          "label": "Misiorowski ERA (season)",
-          "value": "1.83",
-          "context": "Best in MLB"
-        },
-        {
-          "label": "Misiorowski K% (season)",
-          "value": "40.3%",
-          "context": "Elite, top-3 in baseball"
-        },
-        {
-          "label": "Misiorowski HR/9 (season)",
-          "value": "0.56",
-          "context": "Elite, top-10 in MLB"
-        },
-        {
-          "label": "Imai ERA (season)",
-          "value": "6.17",
-          "context": "Poor, bottom-20 in MLB"
-        },
-        {
-          "label": "Imai BB% (season)",
-          "value": "17.5%",
-          "context": "Catastrophic, nearly 1 BB/IP"
-        },
-        {
-          "label": "MIL R/G (season)",
-          "value": "4.84",
-          "context": "Above average"
-        },
-        {
-          "label": "HOU R/G (season)",
-          "value": "4.52",
-          "context": "Average"
-        }
-      ],
-      "the_market": "ML opened at -190 and has held steady. Run line at -107 on DraftKings is the best price among our three books. No significant line movement.",
-      "weather_park": "Daikin Park is a new venue with unknown park factors \u2014 assumed neutral. Outdoor game, weather should be warm and dry.",
-      "case_against": "Imai could have a breakout game \u2014 he's young and has shown flashes. The Astros lineup is dangerous and could string together hits if Misiorowski has an off day. The Brewers bullpen has blown some leads recently.",
-      "what_were_betting_on": "Misiorowski going 6+ innings with 8+ strikeouts, the Brewers offense scoring 4+ runs against Imai, and the bullpen holding a multi-run lead.",
-      "scott_bot_quip": "Miz throws 103 and Imai walks the ballpark. This is the floor.",
-      "ladder_note": "Best floor on the board. Misiorowski's dominance is undeniable, Imai's walk rate is a disaster, and the run line at -107 lands in our even-money band. This is the ladder.",
-      "date": "2026-05-31",
-      "status": "PEND",
-      "units_result": null,
-      "clv_cents": null,
-      "result_score": null,
-      "graded_at": null,
-      "slate_assessment": "16-game MLB-only slate with several pitching mismatches and prop opportunities. Misiorowski vs. Imai in Houston is the standout, with Coors Field and the SD/WSH game providing prop value.",
-      "executive_summary": "Sixteen MLB games today, no NBA or NHL, and the board tilts toward pitching mismatches and prop plays. Jacob Misiorowski at Houston is the cleanest side of the day \u2014 elite K-rate, sub-2 ERA, facing a struggling Imai with a 6.17 ERA and 17.5% walk rate. The Brewers ML at -190 is too short for a straight bet, but the run line at -107 lands in our range. Seattle's under 7.5 at T-Mobile Park with Bryce Miller returning against Merrill Kelly is another strong spot. On the prop side, Aaron Judge's total bases over 1.5 against a soft Jacob Lopez (5.73 ERA, 2.05 HR/9) is the sharpest play. The ladder rides with the Brewers -1.5 \u2014 best floor on the board with Misiorowski's dominance.",
-      "slate_analysis": "Today's board features 16 MLB games spread across the afternoon and evening, with no NBA or NHL action to supplement. The pricing climate is relatively soft \u2014 several favorites are priced past -150, which limits straight-bet options, but the prop markets are deep with SD/WSH, CIN/ATL, COL/SF, NYY/ATH, and LAD/PHI all carrying full prop slates.\n\nThe top candidates that rose during my review: Milwaukee at Houston (Misiorowski vs. Imai \u2014 elite SP vs. struggling rookie), Seattle vs. Arizona (Bryce Miller returning vs. Merrill Kelly at pitcher-friendly T-Mobile), the SD/WSH over 9.0 (two weak starters, Littell 2.54 HR/9 and Canning 7.54 ERA), the NYY/ATH over 10.0 (Jacob Lopez 5.73 ERA, 2.05 HR/9 vs. Yankees lineup), and Aaron Judge total bases over 1.5 against Lopez. I also looked hard at the Dodgers -1.5 (Yamamoto vs. Painter) and the Pirates ML (Ashcraft vs. Matthews).\n\nWhat got cut: The Dodgers -1.5 at -108 is tempting with Yamamoto's 3.09 ERA, but Painter's 5.40 ERA isn't disastrous enough to create 8+ cents of edge \u2014 my fair line on LAD -1.5 is around -115, so the edge is thin. The Pirates ML at -158 exceeds our -150 juice cap for straight bets. The SD/WSH over 9.0 at -115 is close, but both offenses have been inconsistent (SD 3.95 R/G, WSH 5.42 R/G) and the park is neutral \u2014 I don't have enough edge to justify it. The CLE/BOS under 7.5 at -120 looked interesting with Ranger Suarez's 3.02 ERA, but Bibee's 1.71 HR/9 and the neutral park factor at Progressive Field made me nervous about the floor.\n\nThe final six picks: Milwaukee -1.5 (Misiorowski dominance), Seattle Under 7.5 (Miller return + pitcher-friendly park), Aaron Judge TB Over 1.5 (elite hitter vs. soft SP), Fernando Tatis Jr. TB Over 1.5 (Littell's 2.54 HR/9), Yoshinobu Yamamoto Ks Under 6.5 (Phillies don't strike out much, Yamamoto's 23.8% K-rate is good but not elite), and the COL/SF Over 11.0 (Coors Field, two mediocre starters). The ladder pick is Milwaukee -1.5 \u2014 Misiorowski's 1.83 ERA, 40.3% K-rate, and 0.56 HR/9 against Imai's 6.17 ERA and 17.5% BB-rate is the clearest mismatch on the board, and the run line at -107 lands in our even-money band.",
-      "slate_vibe": "NORMAL",
-      "published_at": "2026-05-31T07:26:48.967594-04:00"
+      "published_at": "2026-05-31T13:04:31.171836-04:00"
     }
   ],
   "today_bonus_picks": [],
   "all_picks": [
     {
-      "id": "20260531-MLB-SF-COL-TOTAL",
+      "id": "20260531-MLB-BOS-CLE-TOTAL",
       "sport": "MLB",
-      "game": "SF @ COL",
-      "first_pitch_iso": "2026-05-31T19:10Z",
-      "pick": "Over 11.0",
-      "best_book": "DraftKings",
-      "best_odds": "-108",
+      "game": "BOS @ CLE",
+      "first_pitch_iso": "2026-05-31T17:40Z",
+      "pick": "Under 7.0",
+      "best_book": "FanDuel",
+      "best_odds": "+100",
       "book_prices": {
-        "draftkings": "-108",
-        "fanduel": "-110",
-        "betmgm": "-110"
+        "draftkings": "-101",
+        "fanduel": "+100",
+        "betmgm": "+100"
       },
       "book_links": {
-        "fanduel": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.582505258&selectionId=7017905",
-        "draftkings": "https://sportsbook.draftkings.com/?outcomes=0OU84990652O1100_1",
-        "betmgm": "https://sports.nj.betmgm.com/en/sports?options=19442911-1504539625-2152738531&type=Single"
+        "fanduel": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.582501359&selectionId=7017906",
+        "draftkings": "https://sportsbook.draftkings.com/?outcomes=0OU84990629U700_3",
+        "betmgm": "https://sports.nj.betmgm.com/en/sports?options=19442257-1504493289-2152612800&type=Single"
       },
       "market": "TOTAL",
       "confidence": 3,
       "units": 1.0,
-      "win_probability": 0.58,
+      "win_probability": 0.55,
       "ladder_designation": false,
       "data_confidence": 0.75,
       "rules_passed": [
@@ -665,245 +655,45 @@
       "event_type": "",
       "event_name": "",
       "legs": [],
-      "headline": "Coors Field, two mediocre starters, and a high total that still has value.",
-      "the_thesis": "Coors Field is the most hitter-friendly park in baseball with a 1.18 runs park factor and 1.14 HR park factor. Any game at Coors starts with a baseline expectation of 10+ runs, and this matchup has two mediocre starters who could get knocked around.\n\nTanner Gordon has a 5.85 ERA and 1.68 HR/9 this season. He's been hittable, and Coors Field will only amplify his struggles. Robbie Ray has a 4.60 ERA and 2.01 HR/9 \u2014 he's also been giving up the long ball at an alarming rate. His 11.6% walk rate is concerning, as free passes at Coors often turn into runs.\n\nThe market has this at 11.0 with the over at -108 on DraftKings. My fair line is around -115, which gives us 7 cents of edge. Both offenses are below average (SF 3.67 R/G, COL 4.15 R/G), but Coors Field inflates everything. This is a classic Coors over spot.",
+      "headline": "Ranger Suarez's elite control meets two of the weakest offenses in baseball.",
+      "the_thesis": "Ranger Suarez (3.02 ERA, 1.08 WHIP) has been one of the most consistent pitchers in baseball this season. His 8.0% walk rate is solid, and he's been limiting hard contact all year. He's facing a Guardians offense that ranks near the bottom of MLB in runs per game (4.08 R/G).\n\nTanner Bibee (4.57 ERA, 1.32 WHIP) has been inconsistent, but he's facing a Red Sox offense that's even worse (3.89 R/G). Progressive Field is a neutral park (0.97 runs PF), and the weather is mild with no wind impact.\n\nThe total at 7.0 is one of the lowest on the board, but it's priced at even money, suggesting the market sees value on both sides. Two weak offenses facing competent pitching in a neutral park \u2014 this is a classic under spot.",
       "the_data": [
         {
-          "label": "Coors Field PF (runs)",
-          "value": "1.18",
-          "context": "Most hitter-friendly in MLB"
+          "label": "Suarez ERA / WHIP",
+          "value": "3.02 / 1.08",
+          "context": "Solid"
         },
         {
-          "label": "Coors Field PF (HR)",
-          "value": "1.14",
-          "context": "HR-boosting"
+          "label": "Suarez BB%",
+          "value": "8.0%",
+          "context": "Good control"
         },
         {
-          "label": "Gordon ERA (season)",
-          "value": "5.85",
-          "context": "Poor"
+          "label": "Bibee ERA / WHIP",
+          "value": "4.57 / 1.32",
+          "context": "Inconsistent"
         },
         {
-          "label": "Gordon HR/9 (season)",
-          "value": "1.68",
-          "context": "Poor, will be worse at Coors"
+          "label": "Guardians R/G",
+          "value": "4.08",
+          "context": "Bottom third"
         },
         {
-          "label": "Ray ERA (season)",
-          "value": "4.60",
-          "context": "Below average"
+          "label": "Red Sox R/G",
+          "value": "3.89",
+          "context": "Bottom third"
         },
         {
-          "label": "Ray HR/9 (season)",
-          "value": "2.01",
-          "context": "Poor, will be worse at Coors"
-        },
-        {
-          "label": "Ray BB% (season)",
-          "value": "11.6%",
-          "context": "Poor, free passes at Coors hurt"
-        }
-      ],
-      "the_market": "Total opened at 11.0 and has held. Over at -108 on DraftKings is the best price. No significant movement.",
-      "weather_park": "Coors Field is outdoor and extremely hitter-friendly (1.18 runs PF, 1.14 HR PF). Weather should be warm and dry.",
-      "case_against": "Both offenses have been mediocre this season. Gordon or Ray could have a surprisingly good game. The bullpens could come in early and shut things down.",
-      "what_were_betting_on": "Both starters getting knocked around early, the bullpens giving up runs, and Coors Field doing Coors Field things.",
-      "scott_bot_quip": "Coors Field. Two soft starters. Over 11. You know the drill.",
-      "ladder_note": "",
-      "date": "2026-05-31",
-      "status": "PEND",
-      "units_result": null,
-      "clv_cents": null,
-      "result_score": null,
-      "graded_at": null,
-      "slate_assessment": "16-game MLB-only slate with several pitching mismatches and prop opportunities. Misiorowski vs. Imai in Houston is the standout, with Coors Field and the SD/WSH game providing prop value.",
-      "executive_summary": "Sixteen MLB games today, no NBA or NHL, and the board tilts toward pitching mismatches and prop plays. Jacob Misiorowski at Houston is the cleanest side of the day \u2014 elite K-rate, sub-2 ERA, facing a struggling Imai with a 6.17 ERA and 17.5% walk rate. The Brewers ML at -190 is too short for a straight bet, but the run line at -107 lands in our range. Seattle's under 7.5 at T-Mobile Park with Bryce Miller returning against Merrill Kelly is another strong spot. On the prop side, Aaron Judge's total bases over 1.5 against a soft Jacob Lopez (5.73 ERA, 2.05 HR/9) is the sharpest play. The ladder rides with the Brewers -1.5 \u2014 best floor on the board with Misiorowski's dominance.",
-      "slate_analysis": "Today's board features 16 MLB games spread across the afternoon and evening, with no NBA or NHL action to supplement. The pricing climate is relatively soft \u2014 several favorites are priced past -150, which limits straight-bet options, but the prop markets are deep with SD/WSH, CIN/ATL, COL/SF, NYY/ATH, and LAD/PHI all carrying full prop slates.\n\nThe top candidates that rose during my review: Milwaukee at Houston (Misiorowski vs. Imai \u2014 elite SP vs. struggling rookie), Seattle vs. Arizona (Bryce Miller returning vs. Merrill Kelly at pitcher-friendly T-Mobile), the SD/WSH over 9.0 (two weak starters, Littell 2.54 HR/9 and Canning 7.54 ERA), the NYY/ATH over 10.0 (Jacob Lopez 5.73 ERA, 2.05 HR/9 vs. Yankees lineup), and Aaron Judge total bases over 1.5 against Lopez. I also looked hard at the Dodgers -1.5 (Yamamoto vs. Painter) and the Pirates ML (Ashcraft vs. Matthews).\n\nWhat got cut: The Dodgers -1.5 at -108 is tempting with Yamamoto's 3.09 ERA, but Painter's 5.40 ERA isn't disastrous enough to create 8+ cents of edge \u2014 my fair line on LAD -1.5 is around -115, so the edge is thin. The Pirates ML at -158 exceeds our -150 juice cap for straight bets. The SD/WSH over 9.0 at -115 is close, but both offenses have been inconsistent (SD 3.95 R/G, WSH 5.42 R/G) and the park is neutral \u2014 I don't have enough edge to justify it. The CLE/BOS under 7.5 at -120 looked interesting with Ranger Suarez's 3.02 ERA, but Bibee's 1.71 HR/9 and the neutral park factor at Progressive Field made me nervous about the floor.\n\nThe final six picks: Milwaukee -1.5 (Misiorowski dominance), Seattle Under 7.5 (Miller return + pitcher-friendly park), Aaron Judge TB Over 1.5 (elite hitter vs. soft SP), Fernando Tatis Jr. TB Over 1.5 (Littell's 2.54 HR/9), Yoshinobu Yamamoto Ks Under 6.5 (Phillies don't strike out much, Yamamoto's 23.8% K-rate is good but not elite), and the COL/SF Over 11.0 (Coors Field, two mediocre starters). The ladder pick is Milwaukee -1.5 \u2014 Misiorowski's 1.83 ERA, 40.3% K-rate, and 0.56 HR/9 against Imai's 6.17 ERA and 17.5% BB-rate is the clearest mismatch on the board, and the run line at -107 lands in our even-money band.",
-      "slate_vibe": "NORMAL",
-      "published_at": "2026-05-31T07:26:48.968211-04:00"
-    },
-    {
-      "id": "20260531-MLB-PHI-LAD-PROP-YOSHINOBUYAMAMOTO",
-      "sport": "MLB",
-      "game": "PHI @ LAD",
-      "first_pitch_iso": "2026-05-31T20:10Z",
-      "pick": "Yoshinobu Yamamoto Ks Under 6.5",
-      "best_book": "FanDuel",
-      "best_odds": "-142",
-      "book_prices": {
-        "draftkings": "-149",
-        "fanduel": "-142",
-        "betmgm": "-145"
-      },
-      "book_links": {
-        "fanduel": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.582586650&selectionId=67223216",
-        "draftkings": "https://sportsbook.draftkings.com/event/34223049",
-        "betmgm": "https://sports.nj.betmgm.com/en/sports/events/philadelphia-phillies-at-los-angeles-dodgers-19442914"
-      },
-      "market": "PROP",
-      "confidence": 3,
-      "units": 1.0,
-      "win_probability": 0.59,
-      "ladder_designation": false,
-      "data_confidence": 0.8,
-      "rules_passed": [
-        "max_juice",
-        "ladder_even_money",
-        "parlay_well_formed",
-        "confidence_units_match",
-        "data_confidence_floor",
-        "pick_type_allowed",
-        "mlb_hr_prop_check",
-        "mlb_pitcher_k_check(soft)",
-        "mlb_total_bases_check",
-        "mlb_hits_check",
-        "nba_player_prop_check",
-        "nhl_shots_check",
-        "mlb_run_line_check",
-        "mlb_under_bb_check",
-        "no_same_game_opposite"
-      ],
-      "locked": true,
-      "late_add": false,
-      "late_add_reason": "",
-      "bonus_pick": false,
-      "event_type": "",
-      "event_name": "",
-      "legs": [],
-      "headline": "Yamamoto's solid K-rate meets a Phillies lineup that doesn't strike out much.",
-      "the_thesis": "Yoshinobu Yamamoto has been excellent this season with a 3.09 ERA and 0.98 WHIP. His 23.8% K-rate is good but not elite \u2014 he's more of a contact manager than a pure strikeout pitcher. He averages around 5.5-6 strikeouts per start, which makes the under 6.5 line interesting.\n\nThe Phillies don't strike out much. Their team K-rate is around 22%, which is below league average. They have contact-oriented hitters like Trea Turner, Bryce Harper, and Alec Bohm who put the ball in play. This is a tough lineup for a pitcher to rack up strikeouts against.\n\nThe market has Yamamoto Ks Under 6.5 at -142 on FanDuel. My fair line is around -150, which gives us 8 cents of edge. The juice is a bit steep, but the matchup is clean.",
-      "the_data": [
-        {
-          "label": "Yamamoto ERA (season)",
-          "value": "3.09",
-          "context": "Excellent"
-        },
-        {
-          "label": "Yamamoto K% (season)",
-          "value": "23.8%",
-          "context": "Good, not elite"
-        },
-        {
-          "label": "Yamamoto IP/start (L3)",
-          "value": "21.33",
-          "context": "Deep into games"
-        },
-        {
-          "label": "PHI team K% (approx)",
-          "value": "~22%",
-          "context": "Below average, contact-oriented"
-        },
-        {
-          "label": "Yamamoto avg Ks/start",
-          "value": "~5.5-6",
-          "context": "Consistent but not high"
-        }
-      ],
-      "the_market": "Yamamoto Ks Under 6.5 at -142 on FanDuel. DraftKings at -149, BetMGM at -145. FanDuel is the best price.",
-      "weather_park": "Dodger Stadium is outdoor and neutral (0.97 runs PF). Weather should be warm and dry.",
-      "case_against": "Yamamoto could have a dominant game and strike out 8+. The Phillies could be aggressive early and swing at pitches out of the zone. Yamamoto's stuff is elite and he could overpower this lineup.",
-      "what_were_betting_on": "Yamamoto going 6+ innings with 5-6 strikeouts, the Phillies putting balls in play, and no late-inning K surge.",
-      "scott_bot_quip": "Yamamoto's good, but the Phillies don't whiff. Under.",
-      "ladder_note": "",
-      "date": "2026-05-31",
-      "status": "PEND",
-      "units_result": null,
-      "clv_cents": null,
-      "result_score": null,
-      "graded_at": null,
-      "slate_assessment": "16-game MLB-only slate with several pitching mismatches and prop opportunities. Misiorowski vs. Imai in Houston is the standout, with Coors Field and the SD/WSH game providing prop value.",
-      "executive_summary": "Sixteen MLB games today, no NBA or NHL, and the board tilts toward pitching mismatches and prop plays. Jacob Misiorowski at Houston is the cleanest side of the day \u2014 elite K-rate, sub-2 ERA, facing a struggling Imai with a 6.17 ERA and 17.5% walk rate. The Brewers ML at -190 is too short for a straight bet, but the run line at -107 lands in our range. Seattle's under 7.5 at T-Mobile Park with Bryce Miller returning against Merrill Kelly is another strong spot. On the prop side, Aaron Judge's total bases over 1.5 against a soft Jacob Lopez (5.73 ERA, 2.05 HR/9) is the sharpest play. The ladder rides with the Brewers -1.5 \u2014 best floor on the board with Misiorowski's dominance.",
-      "slate_analysis": "Today's board features 16 MLB games spread across the afternoon and evening, with no NBA or NHL action to supplement. The pricing climate is relatively soft \u2014 several favorites are priced past -150, which limits straight-bet options, but the prop markets are deep with SD/WSH, CIN/ATL, COL/SF, NYY/ATH, and LAD/PHI all carrying full prop slates.\n\nThe top candidates that rose during my review: Milwaukee at Houston (Misiorowski vs. Imai \u2014 elite SP vs. struggling rookie), Seattle vs. Arizona (Bryce Miller returning vs. Merrill Kelly at pitcher-friendly T-Mobile), the SD/WSH over 9.0 (two weak starters, Littell 2.54 HR/9 and Canning 7.54 ERA), the NYY/ATH over 10.0 (Jacob Lopez 5.73 ERA, 2.05 HR/9 vs. Yankees lineup), and Aaron Judge total bases over 1.5 against Lopez. I also looked hard at the Dodgers -1.5 (Yamamoto vs. Painter) and the Pirates ML (Ashcraft vs. Matthews).\n\nWhat got cut: The Dodgers -1.5 at -108 is tempting with Yamamoto's 3.09 ERA, but Painter's 5.40 ERA isn't disastrous enough to create 8+ cents of edge \u2014 my fair line on LAD -1.5 is around -115, so the edge is thin. The Pirates ML at -158 exceeds our -150 juice cap for straight bets. The SD/WSH over 9.0 at -115 is close, but both offenses have been inconsistent (SD 3.95 R/G, WSH 5.42 R/G) and the park is neutral \u2014 I don't have enough edge to justify it. The CLE/BOS under 7.5 at -120 looked interesting with Ranger Suarez's 3.02 ERA, but Bibee's 1.71 HR/9 and the neutral park factor at Progressive Field made me nervous about the floor.\n\nThe final six picks: Milwaukee -1.5 (Misiorowski dominance), Seattle Under 7.5 (Miller return + pitcher-friendly park), Aaron Judge TB Over 1.5 (elite hitter vs. soft SP), Fernando Tatis Jr. TB Over 1.5 (Littell's 2.54 HR/9), Yoshinobu Yamamoto Ks Under 6.5 (Phillies don't strike out much, Yamamoto's 23.8% K-rate is good but not elite), and the COL/SF Over 11.0 (Coors Field, two mediocre starters). The ladder pick is Milwaukee -1.5 \u2014 Misiorowski's 1.83 ERA, 40.3% K-rate, and 0.56 HR/9 against Imai's 6.17 ERA and 17.5% BB-rate is the clearest mismatch on the board, and the run line at -107 lands in our even-money band.",
-      "slate_vibe": "NORMAL",
-      "published_at": "2026-05-31T07:26:48.968109-04:00"
-    },
-    {
-      "id": "20260531-MLB-SD-WSH-PROP-FERNANDOTATISJR",
-      "sport": "MLB",
-      "game": "SD @ WSH",
-      "first_pitch_iso": "2026-05-31T17:35Z",
-      "pick": "Fernando Tatis Jr. TB Over 1.5",
-      "best_book": "BetMGM",
-      "best_odds": "-105",
-      "book_prices": {
-        "draftkings": "-116",
-        "fanduel": "-110",
-        "betmgm": "-105"
-      },
-      "book_links": {
-        "draftkings": "https://sportsbook.draftkings.com/?outcomes=0QA339003150%232168483415_13L84240Q1-44994196Q20",
-        "betmgm": "https://sports.nj.betmgm.com/en/sports?options=2:7794306-200118106-757309168&type=Single",
-        "fanduel": "https://sportsbook.fanduel.com/baseball/mlb/san-diego-padres-%28g-canning%29-%40-washington-nationals-%28z-littell%29-35666660"
-      },
-      "market": "PROP",
-      "confidence": 3,
-      "units": 1.0,
-      "win_probability": 0.58,
-      "ladder_designation": false,
-      "data_confidence": 0.75,
-      "rules_passed": [
-        "max_juice",
-        "ladder_even_money",
-        "parlay_well_formed",
-        "confidence_units_match",
-        "data_confidence_floor",
-        "pick_type_allowed",
-        "mlb_hr_prop_check",
-        "mlb_pitcher_k_check",
-        "mlb_total_bases_check(soft)",
-        "mlb_hits_check",
-        "nba_player_prop_check",
-        "nhl_shots_check",
-        "mlb_run_line_check",
-        "mlb_under_bb_check",
-        "no_same_game_opposite"
-      ],
-      "locked": true,
-      "late_add": false,
-      "late_add_reason": "",
-      "bonus_pick": false,
-      "event_type": "",
-      "event_name": "",
-      "legs": [],
-      "headline": "Tatis against Littell's 2.54 HR/9 is a clean total bases spot.",
-      "the_thesis": "Zack Littell has been a disaster this season. His 5.23 ERA is bad, but his 2.54 HR/9 is one of the worst marks in baseball \u2014 he's giving up home runs at an alarming rate. His 12.8% K-rate is also poor, which means hitters are making contact and putting balls in play.\n\nFernando Tatis Jr. has been solid this season with a .299 wOBA and 9.4% barrel rate. He's not having an elite year, but he's still a dangerous hitter who can go deep at any time. Nationals Park is neutral (1.01 runs PF, 1.02 HR PF), so there's no park factor concern.\n\nThe market has Tatis TB Over 1.5 at -105 on BetMGM. My fair line is around -115, which gives us 10 cents of edge. Littell's HR/9 is the key stat here \u2014 he's giving up the long ball at an unsustainable rate, and Tatis has the power to take advantage.",
-      "the_data": [
-        {
-          "label": "Littell ERA (season)",
-          "value": "5.23",
-          "context": "Poor"
-        },
-        {
-          "label": "Littell HR/9 (season)",
-          "value": "2.54",
-          "context": "Catastrophic, bottom-3 in MLB"
-        },
-        {
-          "label": "Littell K% (season)",
-          "value": "12.8%",
-          "context": "Poor, hitters making contact"
-        },
-        {
-          "label": "Tatis wOBA (2026)",
-          "value": ".299",
-          "context": "Average"
-        },
-        {
-          "label": "Tatis Barrel% (2026)",
-          "value": "9.4%",
-          "context": "Average"
-        },
-        {
-          "label": "Nationals Park PF (HR)",
-          "value": "1.02",
+          "label": "Progressive Field PF",
+          "value": "0.97 runs",
           "context": "Neutral"
         }
       ],
-      "the_market": "Tatis TB Over 1.5 at -105 on BetMGM. DraftKings at -116, FanDuel at -110. BetMGM is the clear best price.",
-      "weather_park": "Nationals Park is outdoor and neutral. Weather should be warm and dry.",
-      "case_against": "Tatis has been inconsistent this season and could go 0-for-4. Littell could have a bounce-back game. The Padres offense has been mediocre (3.95 R/G).",
-      "what_were_betting_on": "Tatis getting 4+ at-bats against Littell and recording at least one extra-base hit.",
-      "scott_bot_quip": "Littell's HR/9 is 2.54. Tatis hits dingers. Simple.",
+      "the_market": "Total opened at 7.33 and has dropped to 7.0 across most books. The under is getting even money at FanDuel and BetMGM, suggesting sharp money has moved this line down.",
+      "weather_park": "Progressive Field, 74\u00b0F, wind 6 mph R to L \u2014 minimal impact. Neutral conditions.",
+      "case_against": "Bibee has been inconsistent and could get tagged. The Red Sox have some power bats who can break out at any time. Suarez has had a few clunkers this season. Both bullpens are average, so if starters exit early, runs could pile up.",
+      "what_were_betting_on": "Suarez going 6+ innings with 2 or fewer runs, Bibee keeping the Red Sox in check for 5 innings, a 3-2 or 4-3 type game.",
+      "scott_bot_quip": "Two offenses that can't score, two pitchers who can throw strikes. Do the math.",
       "ladder_note": "",
       "date": "2026-05-31",
       "status": "PEND",
@@ -911,34 +701,234 @@
       "clv_cents": null,
       "result_score": null,
       "graded_at": null,
-      "slate_assessment": "16-game MLB-only slate with several pitching mismatches and prop opportunities. Misiorowski vs. Imai in Houston is the standout, with Coors Field and the SD/WSH game providing prop value.",
-      "executive_summary": "Sixteen MLB games today, no NBA or NHL, and the board tilts toward pitching mismatches and prop plays. Jacob Misiorowski at Houston is the cleanest side of the day \u2014 elite K-rate, sub-2 ERA, facing a struggling Imai with a 6.17 ERA and 17.5% walk rate. The Brewers ML at -190 is too short for a straight bet, but the run line at -107 lands in our range. Seattle's under 7.5 at T-Mobile Park with Bryce Miller returning against Merrill Kelly is another strong spot. On the prop side, Aaron Judge's total bases over 1.5 against a soft Jacob Lopez (5.73 ERA, 2.05 HR/9) is the sharpest play. The ladder rides with the Brewers -1.5 \u2014 best floor on the board with Misiorowski's dominance.",
-      "slate_analysis": "Today's board features 16 MLB games spread across the afternoon and evening, with no NBA or NHL action to supplement. The pricing climate is relatively soft \u2014 several favorites are priced past -150, which limits straight-bet options, but the prop markets are deep with SD/WSH, CIN/ATL, COL/SF, NYY/ATH, and LAD/PHI all carrying full prop slates.\n\nThe top candidates that rose during my review: Milwaukee at Houston (Misiorowski vs. Imai \u2014 elite SP vs. struggling rookie), Seattle vs. Arizona (Bryce Miller returning vs. Merrill Kelly at pitcher-friendly T-Mobile), the SD/WSH over 9.0 (two weak starters, Littell 2.54 HR/9 and Canning 7.54 ERA), the NYY/ATH over 10.0 (Jacob Lopez 5.73 ERA, 2.05 HR/9 vs. Yankees lineup), and Aaron Judge total bases over 1.5 against Lopez. I also looked hard at the Dodgers -1.5 (Yamamoto vs. Painter) and the Pirates ML (Ashcraft vs. Matthews).\n\nWhat got cut: The Dodgers -1.5 at -108 is tempting with Yamamoto's 3.09 ERA, but Painter's 5.40 ERA isn't disastrous enough to create 8+ cents of edge \u2014 my fair line on LAD -1.5 is around -115, so the edge is thin. The Pirates ML at -158 exceeds our -150 juice cap for straight bets. The SD/WSH over 9.0 at -115 is close, but both offenses have been inconsistent (SD 3.95 R/G, WSH 5.42 R/G) and the park is neutral \u2014 I don't have enough edge to justify it. The CLE/BOS under 7.5 at -120 looked interesting with Ranger Suarez's 3.02 ERA, but Bibee's 1.71 HR/9 and the neutral park factor at Progressive Field made me nervous about the floor.\n\nThe final six picks: Milwaukee -1.5 (Misiorowski dominance), Seattle Under 7.5 (Miller return + pitcher-friendly park), Aaron Judge TB Over 1.5 (elite hitter vs. soft SP), Fernando Tatis Jr. TB Over 1.5 (Littell's 2.54 HR/9), Yoshinobu Yamamoto Ks Under 6.5 (Phillies don't strike out much, Yamamoto's 23.8% K-rate is good but not elite), and the COL/SF Over 11.0 (Coors Field, two mediocre starters). The ladder pick is Milwaukee -1.5 \u2014 Misiorowski's 1.83 ERA, 40.3% K-rate, and 0.56 HR/9 against Imai's 6.17 ERA and 17.5% BB-rate is the clearest mismatch on the board, and the run line at -107 lands in our even-money band.",
+      "slate_assessment": "15-game MLB-only board with no NBA or NHL today. Two elite pitching matchups jump off the page \u2014 Misiorowski at Houston and Yamamoto vs Philly \u2014 plus several under-the-radar totals and a few prop angles worth exploring.",
+      "executive_summary": "Sunday's 15-game MLB slate is pitching-heavy with two aces on the mound: Jacob Misiorowski (1.83 ERA, 40.3% K rate) takes his Cy Young campaign to Houston against a struggling Astros lineup, and Yoshinobu Yamamoto hosts the Phillies at Dodger Stadium. The Brewers-Astros under at 7.5 is the sharpest total on the board \u2014 Misiorowski has allowed one run in his last 31.1 innings, and Tatsuya Imai's 17.5% BB rate means Houston's offense will be chasing. The ladder rides with the Seattle under at T-Mobile Park, where Bryce Miller returns to form against a fading Merrill Kelly. Six plays today, all backed by predictive pitching metrics and park factors.",
+      "slate_analysis": "The board today features 15 MLB games with no NBA or NHL action. The pricing climate is relatively tight \u2014 most sides are in the -110 to -150 range, with a few outliers like the Dodgers at -235 and the Brewers at -193. The totals market is where the edges live today.\n\nTop candidates that rose during my review: (1) Brewers-Astros under 7.5 \u2014 Misiorowski's dominance (1.83 ERA, 40.3% K rate, 100 Ks in 64 IP) against a struggling Astros lineup with Tatsuya Imai (6.17 ERA, 17.5% BB rate) on the mound screams low-scoring game. (2) Mariners-Diamondbacks under 7.5 \u2014 Bryce Miller (2.25 ERA, 3.2% BB rate in limited action) at pitcher-friendly T-Mobile Park with wind blowing in against Merrill Kelly (5.25 ERA). (3) Dodgers -1.5 \u2014 Yamamoto (3.09 ERA, 0.98 WHIP) vs Andrew Painter (5.40 ERA, 1.46 WHIP) at Dodger Stadium. (4) Spencer Strider Ks Under 6.5 \u2014 Strider's velocity is down and he's walking more batters; Reds have a low K% against RHP. (5) Cardinals ML vs Cubs \u2014 Jordan Wicks has a 16.62 ERA in 4.1 IP; Cardinals at home with Liberatore who's been serviceable. (6) Guardians-Red Sox under 7.0 \u2014 Ranger Suarez (3.02 ERA) vs Tanner Bibee in a neutral park with both offenses struggling.\n\nWhat got cut and why: The Pirates-Twins game had data confidence of 0.45 and Zebby Matthews has only 19 IP this season \u2014 sample too thin. The Rays-Angels game looked appealing with McClanahan, but the -200 juice exceeds our straight-bet cap. The Padres-Nationals game has two struggling pitchers (Canning 7.54 ERA, Littell 5.23 ERA) but the total at 9.0-9.5 is already priced for chaos \u2014 no edge. The Mets-Marlins game has John King's 1.93 ERA but only 23.1 IP \u2014 sample concerns. The Coors Field game (Rockies-Giants) is a stay-away; both pitchers have HR/9 above 1.5 and the park factor is 1.18.\n\nThe final six picks: Brewers-Astros Under 7.5 (Misiorowski dominance + Imai's control issues), Mariners-Diamondbacks Under 7.5 (Miller + park + weather), Dodgers -1.5 (Yamamoto vs struggling Painter), Spencer Strider Ks Under 6.5 (velocity down, Reds don't chase), Cardinals ML (Wicks is unplayable), and Guardians-Red Sox Under 7.0 (Suarez + two weak offenses). The ladder pick is the Mariners-Diamondbacks Under 7.5 \u2014 best floor on the board with Miller's elite control, T-Mobile's pitcher-friendly dimensions, and wind blowing in suppressing HR by 10%.",
       "slate_vibe": "NORMAL",
-      "published_at": "2026-05-31T07:26:48.968004-04:00"
+      "published_at": "2026-05-31T13:04:31.172438-04:00"
     },
     {
-      "id": "20260531-MLB-NYY-ATH-PROP-AARONJUDGE",
+      "id": "20260531-MLB-CHC-STL-ML",
       "sport": "MLB",
-      "game": "NYY @ ATH",
-      "first_pitch_iso": "2026-05-31T20:05Z",
-      "pick": "Aaron Judge TB Over 1.5",
-      "best_book": "DraftKings",
-      "best_odds": "-135",
+      "game": "CHC @ STL",
+      "first_pitch_iso": "2026-05-31T23:20Z",
+      "pick": "Cardinals ML",
+      "best_book": "FanDuel",
+      "best_odds": "-116",
       "book_prices": {
-        "draftkings": "-135",
-        "fanduel": "-140",
-        "betmgm": "-140"
+        "draftkings": "-118",
+        "fanduel": "-116",
+        "betmgm": "-118"
       },
       "book_links": {
-        "draftkings": "https://sportsbook.draftkings.com/?outcomes=0QA339055586%232168696579_13L84240Q1-44994196Q20",
-        "fanduel": "https://sportsbook.fanduel.com/baseball/mlb/new-york-yankees-%28w-warren%29-%40-athletics-%28j-lopez%29-35666653",
-        "betmgm": "https://sports.nj.betmgm.com/en/sports/events/new-york-yankees-at-athletics-19442912"
+        "fanduel": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.582371089&selectionId=50291",
+        "draftkings": "https://sportsbook.draftkings.com/?outcomes=0ML84990656_1",
+        "betmgm": "https://sports.nj.betmgm.com/en/sports?options=19442915-1504540009-2152739372&type=Single"
+      },
+      "market": "ML",
+      "confidence": 3,
+      "units": 1.0,
+      "win_probability": 0.56,
+      "ladder_designation": false,
+      "data_confidence": 0.7,
+      "rules_passed": [
+        "max_juice",
+        "ladder_even_money",
+        "parlay_well_formed",
+        "confidence_units_match",
+        "data_confidence_floor",
+        "pick_type_allowed",
+        "mlb_hr_prop_check",
+        "mlb_pitcher_k_check",
+        "mlb_total_bases_check",
+        "mlb_hits_check",
+        "nba_player_prop_check",
+        "nhl_shots_check",
+        "mlb_run_line_check",
+        "mlb_under_bb_check",
+        "no_same_game_opposite"
+      ],
+      "locked": true,
+      "late_add": false,
+      "late_add_reason": "",
+      "bonus_pick": false,
+      "event_type": "",
+      "event_name": "",
+      "legs": [],
+      "headline": "Jordan Wicks has a 16.62 ERA in 4.1 innings. That's not a typo.",
+      "the_thesis": "Jordan Wicks is unplayable right now. His 16.62 ERA in 4.1 innings is catastrophic \u2014 he's allowed 8 earned runs in barely over 4 innings of work. His 2.31 WHIP means he's putting runners on base constantly. The Cardinals are at home with Matthew Liberatore (4.76 ERA, 1.57 WHIP), who's been mediocre but at least functional.\n\nThis is a classic 'fade the disaster' spot. The Cubs are sending out a pitcher who can't get outs, and the Cardinals have a home crowd and a serviceable starter. The line is essentially a pick'em, which is wild given the pitching mismatch.\n\nLiberatore has been inconsistent, but he's capable of going 5 innings and keeping the game close. The Cardinals offense (4.32 R/G) should be able to tag Wicks early and often. Busch Stadium is slightly pitcher-friendly (0.97 runs PF), which helps Liberatore more than it hurts the Cardinals bats.",
+      "the_data": [
+        {
+          "label": "Wicks ERA / WHIP",
+          "value": "16.62 / 2.31",
+          "context": "Disaster"
+        },
+        {
+          "label": "Wicks IP",
+          "value": "4.1",
+          "context": "Tiny sample, all bad"
+        },
+        {
+          "label": "Liberatore ERA / WHIP",
+          "value": "4.76 / 1.57",
+          "context": "Mediocre but functional"
+        },
+        {
+          "label": "Cardinals R/G",
+          "value": "4.32",
+          "context": "League average"
+        },
+        {
+          "label": "Cubs R/G",
+          "value": "4.80",
+          "context": "Above average"
+        },
+        {
+          "label": "Busch Stadium PF",
+          "value": "0.97 runs",
+          "context": "Slight pitcher lean"
+        }
+      ],
+      "the_market": "Line opened with Cardinals as slight favorites and has held at -116 to -118. The market is essentially pricing this as a coin flip, which undervalues the pitching mismatch.",
+      "weather_park": "Busch Stadium, outdoor, HR-suppressing (0.93 HR PF). No weather concerns for night game.",
+      "case_against": "Wicks' sample is only 4.1 IP \u2014 he could figure it out tonight. The Cubs offense is better than the Cardinals offense. Liberatore has been inconsistent and could implode. The Cubs bullpen is solid if Wicks exits early.",
+      "what_were_betting_on": "Wicks getting tagged for 4+ runs in 3-4 innings, Liberatore going 5+ innings with 3 or fewer runs, the Cardinals offense capitalizing on Wicks' wildness.",
+      "scott_bot_quip": "A 16.62 ERA is not a stat. It's a cry for help.",
+      "ladder_note": "",
+      "date": "2026-05-31",
+      "status": "PEND",
+      "units_result": null,
+      "clv_cents": null,
+      "result_score": null,
+      "graded_at": null,
+      "slate_assessment": "15-game MLB-only board with no NBA or NHL today. Two elite pitching matchups jump off the page \u2014 Misiorowski at Houston and Yamamoto vs Philly \u2014 plus several under-the-radar totals and a few prop angles worth exploring.",
+      "executive_summary": "Sunday's 15-game MLB slate is pitching-heavy with two aces on the mound: Jacob Misiorowski (1.83 ERA, 40.3% K rate) takes his Cy Young campaign to Houston against a struggling Astros lineup, and Yoshinobu Yamamoto hosts the Phillies at Dodger Stadium. The Brewers-Astros under at 7.5 is the sharpest total on the board \u2014 Misiorowski has allowed one run in his last 31.1 innings, and Tatsuya Imai's 17.5% BB rate means Houston's offense will be chasing. The ladder rides with the Seattle under at T-Mobile Park, where Bryce Miller returns to form against a fading Merrill Kelly. Six plays today, all backed by predictive pitching metrics and park factors.",
+      "slate_analysis": "The board today features 15 MLB games with no NBA or NHL action. The pricing climate is relatively tight \u2014 most sides are in the -110 to -150 range, with a few outliers like the Dodgers at -235 and the Brewers at -193. The totals market is where the edges live today.\n\nTop candidates that rose during my review: (1) Brewers-Astros under 7.5 \u2014 Misiorowski's dominance (1.83 ERA, 40.3% K rate, 100 Ks in 64 IP) against a struggling Astros lineup with Tatsuya Imai (6.17 ERA, 17.5% BB rate) on the mound screams low-scoring game. (2) Mariners-Diamondbacks under 7.5 \u2014 Bryce Miller (2.25 ERA, 3.2% BB rate in limited action) at pitcher-friendly T-Mobile Park with wind blowing in against Merrill Kelly (5.25 ERA). (3) Dodgers -1.5 \u2014 Yamamoto (3.09 ERA, 0.98 WHIP) vs Andrew Painter (5.40 ERA, 1.46 WHIP) at Dodger Stadium. (4) Spencer Strider Ks Under 6.5 \u2014 Strider's velocity is down and he's walking more batters; Reds have a low K% against RHP. (5) Cardinals ML vs Cubs \u2014 Jordan Wicks has a 16.62 ERA in 4.1 IP; Cardinals at home with Liberatore who's been serviceable. (6) Guardians-Red Sox under 7.0 \u2014 Ranger Suarez (3.02 ERA) vs Tanner Bibee in a neutral park with both offenses struggling.\n\nWhat got cut and why: The Pirates-Twins game had data confidence of 0.45 and Zebby Matthews has only 19 IP this season \u2014 sample too thin. The Rays-Angels game looked appealing with McClanahan, but the -200 juice exceeds our straight-bet cap. The Padres-Nationals game has two struggling pitchers (Canning 7.54 ERA, Littell 5.23 ERA) but the total at 9.0-9.5 is already priced for chaos \u2014 no edge. The Mets-Marlins game has John King's 1.93 ERA but only 23.1 IP \u2014 sample concerns. The Coors Field game (Rockies-Giants) is a stay-away; both pitchers have HR/9 above 1.5 and the park factor is 1.18.\n\nThe final six picks: Brewers-Astros Under 7.5 (Misiorowski dominance + Imai's control issues), Mariners-Diamondbacks Under 7.5 (Miller + park + weather), Dodgers -1.5 (Yamamoto vs struggling Painter), Spencer Strider Ks Under 6.5 (velocity down, Reds don't chase), Cardinals ML (Wicks is unplayable), and Guardians-Red Sox Under 7.0 (Suarez + two weak offenses). The ladder pick is the Mariners-Diamondbacks Under 7.5 \u2014 best floor on the board with Miller's elite control, T-Mobile's pitcher-friendly dimensions, and wind blowing in suppressing HR by 10%.",
+      "slate_vibe": "NORMAL",
+      "published_at": "2026-05-31T13:04:31.172337-04:00"
+    },
+    {
+      "id": "20260531-MLB-ATL-CIN-PROP-SPENCERSTRIDER",
+      "sport": "MLB",
+      "game": "ATL @ CIN",
+      "first_pitch_iso": "2026-05-31T17:40Z",
+      "pick": "Spencer Strider Ks Under 6.5",
+      "best_book": "BetMGM",
+      "best_odds": "+110",
+      "book_prices": {
+        "draftkings": "-130",
+        "fanduel": "-136",
+        "betmgm": "+110"
+      },
+      "book_links": {
+        "fanduel": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.582584145&selectionId=45488539",
+        "draftkings": "https://sportsbook.draftkings.com/?outcomes=0QA339005088%232168651714_13L84240Q1-46364625Q20",
+        "betmgm": "https://sports.nj.betmgm.com/en/sports?options=2:7794310-200121335-757318293&type=Single"
       },
       "market": "PROP",
       "confidence": 4,
       "units": 1.5,
-      "win_probability": 0.62,
+      "win_probability": 0.58,
+      "ladder_designation": false,
+      "data_confidence": 0.75,
+      "rules_passed": [
+        "max_juice",
+        "ladder_even_money",
+        "parlay_well_formed",
+        "confidence_units_match",
+        "data_confidence_floor",
+        "pick_type_allowed",
+        "mlb_hr_prop_check",
+        "mlb_pitcher_k_check",
+        "mlb_total_bases_check",
+        "mlb_hits_check",
+        "nba_player_prop_check",
+        "nhl_shots_check",
+        "mlb_run_line_check",
+        "mlb_under_bb_check(soft)",
+        "no_same_game_opposite"
+      ],
+      "locked": true,
+      "late_add": false,
+      "late_add_reason": "",
+      "bonus_pick": false,
+      "event_type": "",
+      "event_name": "",
+      "legs": [],
+      "headline": "Strider's velocity is down, his walk rate is up, and the Reds don't chase.",
+      "the_thesis": "Spencer Strider is not the same pitcher he was in 2023. After returning from his oblique injury, his fastball velocity has dropped to 95.3 mph (down from 97.2 mph in his Cy Young season), and he's walking more batters than ever. In his first four starts of 2026, he's walked 2+ batters in every outing and his K rate has dropped significantly.\n\nThe Reds have a disciplined lineup that doesn't chase out of the zone. Strider's effectiveness has always been tied to his velocity and his ability to get hitters to expand \u2014 when they don't chase, he struggles. His changeup and curveball usage are up, but those pitches don't generate the same whiff rates as his fastball.\n\nBetMGM is offering +110 on the under, which is significant value compared to FanDuel (-136) and DraftKings (-130). This line discrepancy suggests BetMGM hasn't adjusted to Strider's diminished stuff.",
+      "the_data": [
+        {
+          "label": "Strider 2026 fastball velo",
+          "value": "95.3 mph",
+          "context": "Down from 97.2 in 2023"
+        },
+        {
+          "label": "Strider 2026 BB%",
+          "value": "14.6%",
+          "context": "Career high"
+        },
+        {
+          "label": "Strider K/9 (season)",
+          "value": "31.1%",
+          "context": "Still good but declining"
+        },
+        {
+          "label": "Strider L3 starts",
+          "value": "21 K / 7 BB in 17.2 IP",
+          "context": "Walks up"
+        },
+        {
+          "label": "Reds K% vs RHP",
+          "value": "Low",
+          "context": "Disciplined lineup"
+        },
+        {
+          "label": "Strider IP/start",
+          "value": "~5.0",
+          "context": "Limited workload"
+        }
+      ],
+      "the_market": "Line is 6.5 across all books. BetMGM has the under at +110, while FanDuel (-136) and DraftKings (-130) are juiced heavily to the over. This discrepancy is significant.",
+      "weather_park": "Great American Ball Park, 73\u00b0F, wind 3 mph in from LF \u2014 neutral conditions.",
+      "case_against": "Strider is still a talented pitcher who can rack up Ks when his stuff is working. The Reds do have some free swingers in the lineup. If Strider's velocity ticks up, he could easily hit 7+ Ks. His curveball has been effective against lefties.",
+      "what_were_betting_on": "Strider going 5 innings or fewer with 5-6 strikeouts, the Reds making contact and putting balls in play, Strider's diminished velocity limiting his swing-and-miss stuff.",
+      "scott_bot_quip": "Strider's fastball used to be a weapon. Now it's just a pitch.",
+      "ladder_note": "",
+      "date": "2026-05-31",
+      "status": "PEND",
+      "units_result": null,
+      "clv_cents": null,
+      "result_score": null,
+      "graded_at": null,
+      "slate_assessment": "15-game MLB-only board with no NBA or NHL today. Two elite pitching matchups jump off the page \u2014 Misiorowski at Houston and Yamamoto vs Philly \u2014 plus several under-the-radar totals and a few prop angles worth exploring.",
+      "executive_summary": "Sunday's 15-game MLB slate is pitching-heavy with two aces on the mound: Jacob Misiorowski (1.83 ERA, 40.3% K rate) takes his Cy Young campaign to Houston against a struggling Astros lineup, and Yoshinobu Yamamoto hosts the Phillies at Dodger Stadium. The Brewers-Astros under at 7.5 is the sharpest total on the board \u2014 Misiorowski has allowed one run in his last 31.1 innings, and Tatsuya Imai's 17.5% BB rate means Houston's offense will be chasing. The ladder rides with the Seattle under at T-Mobile Park, where Bryce Miller returns to form against a fading Merrill Kelly. Six plays today, all backed by predictive pitching metrics and park factors.",
+      "slate_analysis": "The board today features 15 MLB games with no NBA or NHL action. The pricing climate is relatively tight \u2014 most sides are in the -110 to -150 range, with a few outliers like the Dodgers at -235 and the Brewers at -193. The totals market is where the edges live today.\n\nTop candidates that rose during my review: (1) Brewers-Astros under 7.5 \u2014 Misiorowski's dominance (1.83 ERA, 40.3% K rate, 100 Ks in 64 IP) against a struggling Astros lineup with Tatsuya Imai (6.17 ERA, 17.5% BB rate) on the mound screams low-scoring game. (2) Mariners-Diamondbacks under 7.5 \u2014 Bryce Miller (2.25 ERA, 3.2% BB rate in limited action) at pitcher-friendly T-Mobile Park with wind blowing in against Merrill Kelly (5.25 ERA). (3) Dodgers -1.5 \u2014 Yamamoto (3.09 ERA, 0.98 WHIP) vs Andrew Painter (5.40 ERA, 1.46 WHIP) at Dodger Stadium. (4) Spencer Strider Ks Under 6.5 \u2014 Strider's velocity is down and he's walking more batters; Reds have a low K% against RHP. (5) Cardinals ML vs Cubs \u2014 Jordan Wicks has a 16.62 ERA in 4.1 IP; Cardinals at home with Liberatore who's been serviceable. (6) Guardians-Red Sox under 7.0 \u2014 Ranger Suarez (3.02 ERA) vs Tanner Bibee in a neutral park with both offenses struggling.\n\nWhat got cut and why: The Pirates-Twins game had data confidence of 0.45 and Zebby Matthews has only 19 IP this season \u2014 sample too thin. The Rays-Angels game looked appealing with McClanahan, but the -200 juice exceeds our straight-bet cap. The Padres-Nationals game has two struggling pitchers (Canning 7.54 ERA, Littell 5.23 ERA) but the total at 9.0-9.5 is already priced for chaos \u2014 no edge. The Mets-Marlins game has John King's 1.93 ERA but only 23.1 IP \u2014 sample concerns. The Coors Field game (Rockies-Giants) is a stay-away; both pitchers have HR/9 above 1.5 and the park factor is 1.18.\n\nThe final six picks: Brewers-Astros Under 7.5 (Misiorowski dominance + Imai's control issues), Mariners-Diamondbacks Under 7.5 (Miller + park + weather), Dodgers -1.5 (Yamamoto vs struggling Painter), Spencer Strider Ks Under 6.5 (velocity down, Reds don't chase), Cardinals ML (Wicks is unplayable), and Guardians-Red Sox Under 7.0 (Suarez + two weak offenses). The ladder pick is the Mariners-Diamondbacks Under 7.5 \u2014 best floor on the board with Miller's elite control, T-Mobile's pitcher-friendly dimensions, and wind blowing in suppressing HR by 10%.",
+      "slate_vibe": "NORMAL",
+      "published_at": "2026-05-31T13:04:31.172232-04:00"
+    },
+    {
+      "id": "20260531-MLB-PHI-LAD-SPREAD",
+      "sport": "MLB",
+      "game": "PHI @ LAD",
+      "first_pitch_iso": "2026-05-31T20:10Z",
+      "pick": "Dodgers -1.5",
+      "best_book": "FanDuel",
+      "best_odds": "-110",
+      "book_prices": {
+        "draftkings": "-110",
+        "fanduel": "-110",
+        "betmgm": "-115"
+      },
+      "book_links": {
+        "fanduel": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.582506239&selectionId=29171",
+        "draftkings": "https://sportsbook.draftkings.com/?outcomes=0HC84990654N150_1",
+        "betmgm": "https://sports.nj.betmgm.com/en/sports?options=19442914-1504539903-2152739142&type=Single"
+      },
+      "market": "SPREAD",
+      "confidence": 4,
+      "units": 1.5,
+      "win_probability": 0.58,
       "ladder_designation": false,
       "data_confidence": 0.8,
       "rules_passed": [
@@ -950,7 +940,7 @@
         "pick_type_allowed",
         "mlb_hr_prop_check",
         "mlb_pitcher_k_check",
-        "mlb_total_bases_check(soft)",
+        "mlb_total_bases_check",
         "mlb_hits_check",
         "nba_player_prop_check",
         "nhl_shots_check",
@@ -965,45 +955,45 @@
       "event_type": "",
       "event_name": "",
       "legs": [],
-      "headline": "Judge's elite power against a soft Jacob Lopez is a clean prop spot.",
-      "the_thesis": "Aaron Judge is on pace for 66 home runs this season. His 16 HR through 48 team games is absurd, and his 22.4% barrel rate is tied for fifth in baseball. He's hitting .268 with a .618 SLG, and his exit velocity (94.3 mph) and hard-hit rate (57.5%) are both elite.\n\nJacob Lopez is a disaster. His 5.73 ERA is bad, but his 2.05 HR/9 is catastrophic \u2014 that's one of the worst marks in baseball. He's also walking 13.5% of batters, which means Judge will see plenty of hittable pitches. Sutter Health Park is neutral (1.02 runs PF, 0.98 HR PF), so there's no park factor concern.\n\nThe market has Judge TB Over 1.5 at -135 on DraftKings. My fair line is around -150, which gives us 15 cents of edge. Judge has hit 2+ total bases in 60%+ of his games this season, and this is one of the softest matchups he'll see all year.",
+      "headline": "Yamamoto at home against a struggling Andrew Painter \u2014 the Dodgers should roll.",
+      "the_thesis": "Yoshinobu Yamamoto (3.09 ERA, 0.98 WHIP) has been the Dodgers' ace all season, and he's facing Andrew Painter (5.40 ERA, 1.46 WHIP) who's been hittable in his first full MLB season. The Dodgers have the best offense in baseball (5.26 R/G) and they're at home where they've been dominant.\n\nPainter's 7.3% walk rate and 1.26 HR/9 are concerning against a Dodgers lineup that features Ohtani, Betts, Freeman, and company. The Phillies offense has been below average (3.95 R/G), and they're facing a pitcher who limits hard contact and doesn't walk batters.\n\nThe run line at -110 is excellent value. The Dodgers ML is -235, which is too steep, but -1.5 at -110 gives us a much better price on a team that should win comfortably. Yamamoto has been building up his workload all season and is now capable of going 6-7 innings.",
       "the_data": [
         {
-          "label": "Judge HR (2026)",
-          "value": "16",
-          "context": "MLB-leading pace"
+          "label": "Yamamoto ERA / WHIP",
+          "value": "3.09 / 0.98",
+          "context": "Ace-level"
         },
         {
-          "label": "Judge Barrel% (2026)",
-          "value": "22.4%",
-          "context": "5th in MLB"
+          "label": "Painter ERA / WHIP",
+          "value": "5.40 / 1.46",
+          "context": "Struggling rookie"
         },
         {
-          "label": "Judge SLG (2026)",
-          "value": ".618",
-          "context": "Elite"
+          "label": "Dodgers R/G",
+          "value": "5.26",
+          "context": "Best in MLB"
         },
         {
-          "label": "Lopez ERA (season)",
-          "value": "5.73",
-          "context": "Poor"
+          "label": "Phillies R/G",
+          "value": "3.95",
+          "context": "Below average"
         },
         {
-          "label": "Lopez HR/9 (season)",
-          "value": "2.05",
-          "context": "Catastrophic, bottom-5 in MLB"
+          "label": "Dodgers home record",
+          "value": "Strong",
+          "context": "Back-to-back champs"
         },
         {
-          "label": "Lopez BB% (season)",
-          "value": "13.5%",
-          "context": "Poor, lots of free passes"
+          "label": "Painter HR/9",
+          "value": "1.26",
+          "context": "HR-prone"
         }
       ],
-      "the_market": "Judge TB Over 1.5 at -135 on DraftKings. FanDuel and BetMGM both at -140. No significant movement.",
-      "weather_park": "Sutter Health Park is outdoor and neutral (1.02 runs PF). Weather should be warm and dry.",
-      "case_against": "Judge could go 0-for-4 with 3 strikeouts \u2014 it happens. Lopez could have a breakout game. The A's bullpen could come in early if Lopez struggles and limit Judge's at-bats.",
-      "what_were_betting_on": "Judge getting 4+ at-bats against Lopez and recording at least one extra-base hit.",
-      "scott_bot_quip": "Lopez gives up 2 HR/9. Judge hits 66 HR/year. Do the math.",
+      "the_market": "Run line opened at -1.5 and is getting -110 juice at FanDuel and DraftKings. The ML is -235, so the run line offers significant value if you believe the Dodgers win by 2+.",
+      "weather_park": "Dodger Stadium, neutral park (0.97 runs PF, 0.99 HR PF). No weather concerns.",
+      "case_against": "Painter has shown flashes of brilliance and could have a breakout game. The Phillies have veteran hitters who can adjust. Yamamoto has had some inconsistent outings this season. Run lines are inherently riskier \u2014 a 1-run Dodgers win loses.",
+      "what_were_betting_on": "Yamamoto going 6+ innings with 2 or fewer runs, the Dodgers offense tagging Painter for 4+ runs, the Dodgers bullpen closing it out cleanly.",
+      "scott_bot_quip": "Painter vs Yamamoto at Dodger Stadium. This is a mismatch, not a matchup.",
       "ladder_note": "",
       "date": "2026-05-31",
       "status": "PEND",
@@ -1011,11 +1001,11 @@
       "clv_cents": null,
       "result_score": null,
       "graded_at": null,
-      "slate_assessment": "16-game MLB-only slate with several pitching mismatches and prop opportunities. Misiorowski vs. Imai in Houston is the standout, with Coors Field and the SD/WSH game providing prop value.",
-      "executive_summary": "Sixteen MLB games today, no NBA or NHL, and the board tilts toward pitching mismatches and prop plays. Jacob Misiorowski at Houston is the cleanest side of the day \u2014 elite K-rate, sub-2 ERA, facing a struggling Imai with a 6.17 ERA and 17.5% walk rate. The Brewers ML at -190 is too short for a straight bet, but the run line at -107 lands in our range. Seattle's under 7.5 at T-Mobile Park with Bryce Miller returning against Merrill Kelly is another strong spot. On the prop side, Aaron Judge's total bases over 1.5 against a soft Jacob Lopez (5.73 ERA, 2.05 HR/9) is the sharpest play. The ladder rides with the Brewers -1.5 \u2014 best floor on the board with Misiorowski's dominance.",
-      "slate_analysis": "Today's board features 16 MLB games spread across the afternoon and evening, with no NBA or NHL action to supplement. The pricing climate is relatively soft \u2014 several favorites are priced past -150, which limits straight-bet options, but the prop markets are deep with SD/WSH, CIN/ATL, COL/SF, NYY/ATH, and LAD/PHI all carrying full prop slates.\n\nThe top candidates that rose during my review: Milwaukee at Houston (Misiorowski vs. Imai \u2014 elite SP vs. struggling rookie), Seattle vs. Arizona (Bryce Miller returning vs. Merrill Kelly at pitcher-friendly T-Mobile), the SD/WSH over 9.0 (two weak starters, Littell 2.54 HR/9 and Canning 7.54 ERA), the NYY/ATH over 10.0 (Jacob Lopez 5.73 ERA, 2.05 HR/9 vs. Yankees lineup), and Aaron Judge total bases over 1.5 against Lopez. I also looked hard at the Dodgers -1.5 (Yamamoto vs. Painter) and the Pirates ML (Ashcraft vs. Matthews).\n\nWhat got cut: The Dodgers -1.5 at -108 is tempting with Yamamoto's 3.09 ERA, but Painter's 5.40 ERA isn't disastrous enough to create 8+ cents of edge \u2014 my fair line on LAD -1.5 is around -115, so the edge is thin. The Pirates ML at -158 exceeds our -150 juice cap for straight bets. The SD/WSH over 9.0 at -115 is close, but both offenses have been inconsistent (SD 3.95 R/G, WSH 5.42 R/G) and the park is neutral \u2014 I don't have enough edge to justify it. The CLE/BOS under 7.5 at -120 looked interesting with Ranger Suarez's 3.02 ERA, but Bibee's 1.71 HR/9 and the neutral park factor at Progressive Field made me nervous about the floor.\n\nThe final six picks: Milwaukee -1.5 (Misiorowski dominance), Seattle Under 7.5 (Miller return + pitcher-friendly park), Aaron Judge TB Over 1.5 (elite hitter vs. soft SP), Fernando Tatis Jr. TB Over 1.5 (Littell's 2.54 HR/9), Yoshinobu Yamamoto Ks Under 6.5 (Phillies don't strike out much, Yamamoto's 23.8% K-rate is good but not elite), and the COL/SF Over 11.0 (Coors Field, two mediocre starters). The ladder pick is Milwaukee -1.5 \u2014 Misiorowski's 1.83 ERA, 40.3% K-rate, and 0.56 HR/9 against Imai's 6.17 ERA and 17.5% BB-rate is the clearest mismatch on the board, and the run line at -107 lands in our even-money band.",
+      "slate_assessment": "15-game MLB-only board with no NBA or NHL today. Two elite pitching matchups jump off the page \u2014 Misiorowski at Houston and Yamamoto vs Philly \u2014 plus several under-the-radar totals and a few prop angles worth exploring.",
+      "executive_summary": "Sunday's 15-game MLB slate is pitching-heavy with two aces on the mound: Jacob Misiorowski (1.83 ERA, 40.3% K rate) takes his Cy Young campaign to Houston against a struggling Astros lineup, and Yoshinobu Yamamoto hosts the Phillies at Dodger Stadium. The Brewers-Astros under at 7.5 is the sharpest total on the board \u2014 Misiorowski has allowed one run in his last 31.1 innings, and Tatsuya Imai's 17.5% BB rate means Houston's offense will be chasing. The ladder rides with the Seattle under at T-Mobile Park, where Bryce Miller returns to form against a fading Merrill Kelly. Six plays today, all backed by predictive pitching metrics and park factors.",
+      "slate_analysis": "The board today features 15 MLB games with no NBA or NHL action. The pricing climate is relatively tight \u2014 most sides are in the -110 to -150 range, with a few outliers like the Dodgers at -235 and the Brewers at -193. The totals market is where the edges live today.\n\nTop candidates that rose during my review: (1) Brewers-Astros under 7.5 \u2014 Misiorowski's dominance (1.83 ERA, 40.3% K rate, 100 Ks in 64 IP) against a struggling Astros lineup with Tatsuya Imai (6.17 ERA, 17.5% BB rate) on the mound screams low-scoring game. (2) Mariners-Diamondbacks under 7.5 \u2014 Bryce Miller (2.25 ERA, 3.2% BB rate in limited action) at pitcher-friendly T-Mobile Park with wind blowing in against Merrill Kelly (5.25 ERA). (3) Dodgers -1.5 \u2014 Yamamoto (3.09 ERA, 0.98 WHIP) vs Andrew Painter (5.40 ERA, 1.46 WHIP) at Dodger Stadium. (4) Spencer Strider Ks Under 6.5 \u2014 Strider's velocity is down and he's walking more batters; Reds have a low K% against RHP. (5) Cardinals ML vs Cubs \u2014 Jordan Wicks has a 16.62 ERA in 4.1 IP; Cardinals at home with Liberatore who's been serviceable. (6) Guardians-Red Sox under 7.0 \u2014 Ranger Suarez (3.02 ERA) vs Tanner Bibee in a neutral park with both offenses struggling.\n\nWhat got cut and why: The Pirates-Twins game had data confidence of 0.45 and Zebby Matthews has only 19 IP this season \u2014 sample too thin. The Rays-Angels game looked appealing with McClanahan, but the -200 juice exceeds our straight-bet cap. The Padres-Nationals game has two struggling pitchers (Canning 7.54 ERA, Littell 5.23 ERA) but the total at 9.0-9.5 is already priced for chaos \u2014 no edge. The Mets-Marlins game has John King's 1.93 ERA but only 23.1 IP \u2014 sample concerns. The Coors Field game (Rockies-Giants) is a stay-away; both pitchers have HR/9 above 1.5 and the park factor is 1.18.\n\nThe final six picks: Brewers-Astros Under 7.5 (Misiorowski dominance + Imai's control issues), Mariners-Diamondbacks Under 7.5 (Miller + park + weather), Dodgers -1.5 (Yamamoto vs struggling Painter), Spencer Strider Ks Under 6.5 (velocity down, Reds don't chase), Cardinals ML (Wicks is unplayable), and Guardians-Red Sox Under 7.0 (Suarez + two weak offenses). The ladder pick is the Mariners-Diamondbacks Under 7.5 \u2014 best floor on the board with Miller's elite control, T-Mobile's pitcher-friendly dimensions, and wind blowing in suppressing HR by 10%.",
       "slate_vibe": "NORMAL",
-      "published_at": "2026-05-31T07:26:48.967889-04:00"
+      "published_at": "2026-05-31T13:04:31.172122-04:00"
     },
     {
       "id": "20260531-MLB-ARI-SEA-TOTAL",
@@ -1023,12 +1013,12 @@
       "game": "ARI @ SEA",
       "first_pitch_iso": "2026-05-31T20:10Z",
       "pick": "Under 7.5",
-      "best_book": "BetMGM",
-      "best_odds": "-110",
+      "best_book": "FanDuel",
+      "best_odds": "-114",
       "book_prices": {
-        "draftkings": "-116",
+        "draftkings": "-117",
         "fanduel": "-114",
-        "betmgm": "-110"
+        "betmgm": "-118"
       },
       "book_links": {
         "fanduel": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.582506982&selectionId=7017906",
@@ -1039,8 +1029,8 @@
       "confidence": 4,
       "units": 1.5,
       "win_probability": 0.6,
-      "ladder_designation": false,
-      "data_confidence": 0.75,
+      "ladder_designation": true,
+      "data_confidence": 0.85,
       "rules_passed": [
         "max_juice",
         "ladder_even_money",
@@ -1065,50 +1055,145 @@
       "event_type": "",
       "event_name": "",
       "legs": [],
-      "headline": "Bryce Miller returns at pitcher-friendly T-Mobile against a struggling Merrill Kelly.",
-      "the_thesis": "Bryce Miller is back from his oblique injury and looked sharp in his rehab starts. His 2.25 ERA in limited action this season is encouraging, and his 3.2% walk rate is elite. T-Mobile Park is one of the most pitcher-friendly venues in baseball with a 0.93 runs park factor and 0.93 HR park factor. This is a great spot for an under.\n\nMerrill Kelly has struggled this season with a 5.25 ERA and 1.42 WHIP. His 1.5 HR/9 is concerning, but T-Mobile Park should suppress that. The Diamondbacks offense has been solid (4.6 R/G), but they're facing a pitcher who dominated in the playoffs last year and is motivated to prove he's healthy.\n\nThe market has this at 7.5 with the under at -110 on BetMGM. My fair line is around -120, which gives us 10 cents of edge. Both offenses are average (SEA 4.27 R/G, ARI 4.6 R/G), and the park factor heavily favors the under.",
+      "headline": "Bryce Miller's elite control meets T-Mobile's pitcher-friendly dimensions with wind blowing in.",
+      "the_thesis": "Bryce Miller is back and looking sharp. His 2.25 ERA and 3.2% walk rate in limited action this season show the control that made him dominant in 2024. T-Mobile Park is one of the most pitcher-friendly venues in baseball (0.93 runs PF, 0.93 HR PF), and today's weather makes it even tougher on hitters \u2014 8 mph wind blowing in from left field suppresses HR by approximately 10%.\n\nMerrill Kelly (5.25 ERA, 1.42 WHIP) has been hittable, but the Mariners offense isn't exactly fearsome either (4.27 R/G). This is a classic pitcher's duel setup where both teams struggle to manufacture runs. The total opened at 7.5 and the under is getting juice across all books, suggesting sharp money agrees with the under thesis.\n\nMiller's return from injury has been methodical \u2014 the Mariners were careful with his workload, and he's now stretched out to handle 5-6 innings. His fastball velocity is back, and his command has been elite. The Diamondbacks have a solid offense (4.60 R/G), but they're facing a pitcher who doesn't walk anyone in a park that suppresses offense.",
       "the_data": [
         {
-          "label": "Miller ERA (season)",
-          "value": "2.25",
-          "context": "Elite, small sample"
+          "label": "Miller ERA / BB%",
+          "value": "2.25 / 3.2%",
+          "context": "Elite control"
         },
         {
-          "label": "Miller BB% (season)",
-          "value": "3.2%",
-          "context": "Elite, top-10 in MLB"
-        },
-        {
-          "label": "Kelly ERA (season)",
-          "value": "5.25",
-          "context": "Poor"
-        },
-        {
-          "label": "T-Mobile Park PF (runs)",
-          "value": "0.93",
+          "label": "T-Mobile Park PF (runs/HR)",
+          "value": "0.93 / 0.93",
           "context": "Pitcher-friendly"
         },
         {
-          "label": "T-Mobile Park PF (HR)",
-          "value": "0.93",
-          "context": "HR-suppressing"
+          "label": "Wind impact",
+          "value": "-10.4% HR",
+          "context": "8 mph in from LF"
         },
         {
-          "label": "SEA R/G (season)",
+          "label": "Kelly ERA / WHIP",
+          "value": "5.25 / 1.42",
+          "context": "Struggling"
+        },
+        {
+          "label": "Mariners R/G",
           "value": "4.27",
-          "context": "Average"
+          "context": "Below average"
         },
         {
-          "label": "ARI R/G (season)",
+          "label": "Diamondbacks R/G",
           "value": "4.60",
-          "context": "Average"
+          "context": "League average"
         }
       ],
-      "the_market": "Total opened at 7.5 and has held. Under at -110 on BetMGM is the best price. No significant movement.",
-      "weather_park": "T-Mobile Park is outdoor but covered, so weather is not a factor. Park is pitcher-friendly with 0.93 runs PF.",
-      "case_against": "Miller is coming off an injury and may be on a pitch count. Kelly could bounce back in a pitcher-friendly park. The Diamondbacks have some dangerous hitters who could break through.",
-      "what_were_betting_on": "Miller going 5+ innings with 5+ strikeouts, Kelly keeping the Mariners in check, and both bullpens holding late.",
-      "scott_bot_quip": "Miller's back, T-Mobile's cold, and Kelly's been cooked. Under.",
+      "the_market": "Total opened at 7.5 and has held. Under is getting -114 to -118 juice across books, indicating sharp lean toward the under. No movement despite Miller's return generating some buzz.",
+      "weather_park": "T-Mobile Park, 63\u00b0F, wind 8 mph blowing in from LF \u2014 suppresses HR by ~10%. Ideal conditions for pitching.",
+      "case_against": "Miller has only 16 IP this season \u2014 small sample. If his command isn't sharp, the Diamondbacks have the bats to capitalize. Kelly could have a bounce-back game, and Arizona's offense is better than Seattle's. The Mariners bullpen has been inconsistent.",
+      "what_were_betting_on": "Miller going 5+ innings with 1 or fewer walks, Kelly keeping the Mariners in check despite his struggles, both bullpens holding serve in a 3-2 or 4-3 type game.",
+      "scott_bot_quip": "Wind blowing in, Miller dealing, Kelly struggling. Math says under. We listen to math.",
+      "ladder_note": "Best floor on the board \u2014 elite control pitcher in a pitcher's park with weather suppressing offense. The Diamondbacks aren't a high-variance offense, and Miller doesn't beat himself with walks. This is the highest-floor play at near even money.",
+      "date": "2026-05-31",
+      "status": "PEND",
+      "units_result": null,
+      "clv_cents": null,
+      "result_score": null,
+      "graded_at": null,
+      "slate_assessment": "15-game MLB-only board with no NBA or NHL today. Two elite pitching matchups jump off the page \u2014 Misiorowski at Houston and Yamamoto vs Philly \u2014 plus several under-the-radar totals and a few prop angles worth exploring.",
+      "executive_summary": "Sunday's 15-game MLB slate is pitching-heavy with two aces on the mound: Jacob Misiorowski (1.83 ERA, 40.3% K rate) takes his Cy Young campaign to Houston against a struggling Astros lineup, and Yoshinobu Yamamoto hosts the Phillies at Dodger Stadium. The Brewers-Astros under at 7.5 is the sharpest total on the board \u2014 Misiorowski has allowed one run in his last 31.1 innings, and Tatsuya Imai's 17.5% BB rate means Houston's offense will be chasing. The ladder rides with the Seattle under at T-Mobile Park, where Bryce Miller returns to form against a fading Merrill Kelly. Six plays today, all backed by predictive pitching metrics and park factors.",
+      "slate_analysis": "The board today features 15 MLB games with no NBA or NHL action. The pricing climate is relatively tight \u2014 most sides are in the -110 to -150 range, with a few outliers like the Dodgers at -235 and the Brewers at -193. The totals market is where the edges live today.\n\nTop candidates that rose during my review: (1) Brewers-Astros under 7.5 \u2014 Misiorowski's dominance (1.83 ERA, 40.3% K rate, 100 Ks in 64 IP) against a struggling Astros lineup with Tatsuya Imai (6.17 ERA, 17.5% BB rate) on the mound screams low-scoring game. (2) Mariners-Diamondbacks under 7.5 \u2014 Bryce Miller (2.25 ERA, 3.2% BB rate in limited action) at pitcher-friendly T-Mobile Park with wind blowing in against Merrill Kelly (5.25 ERA). (3) Dodgers -1.5 \u2014 Yamamoto (3.09 ERA, 0.98 WHIP) vs Andrew Painter (5.40 ERA, 1.46 WHIP) at Dodger Stadium. (4) Spencer Strider Ks Under 6.5 \u2014 Strider's velocity is down and he's walking more batters; Reds have a low K% against RHP. (5) Cardinals ML vs Cubs \u2014 Jordan Wicks has a 16.62 ERA in 4.1 IP; Cardinals at home with Liberatore who's been serviceable. (6) Guardians-Red Sox under 7.0 \u2014 Ranger Suarez (3.02 ERA) vs Tanner Bibee in a neutral park with both offenses struggling.\n\nWhat got cut and why: The Pirates-Twins game had data confidence of 0.45 and Zebby Matthews has only 19 IP this season \u2014 sample too thin. The Rays-Angels game looked appealing with McClanahan, but the -200 juice exceeds our straight-bet cap. The Padres-Nationals game has two struggling pitchers (Canning 7.54 ERA, Littell 5.23 ERA) but the total at 9.0-9.5 is already priced for chaos \u2014 no edge. The Mets-Marlins game has John King's 1.93 ERA but only 23.1 IP \u2014 sample concerns. The Coors Field game (Rockies-Giants) is a stay-away; both pitchers have HR/9 above 1.5 and the park factor is 1.18.\n\nThe final six picks: Brewers-Astros Under 7.5 (Misiorowski dominance + Imai's control issues), Mariners-Diamondbacks Under 7.5 (Miller + park + weather), Dodgers -1.5 (Yamamoto vs struggling Painter), Spencer Strider Ks Under 6.5 (velocity down, Reds don't chase), Cardinals ML (Wicks is unplayable), and Guardians-Red Sox Under 7.0 (Suarez + two weak offenses). The ladder pick is the Mariners-Diamondbacks Under 7.5 \u2014 best floor on the board with Miller's elite control, T-Mobile's pitcher-friendly dimensions, and wind blowing in suppressing HR by 10%.",
+      "slate_vibe": "NORMAL",
+      "published_at": "2026-05-31T13:04:31.171973-04:00"
+    },
+    {
+      "id": "20260531-MLB-MIL-HOU-TOTAL",
+      "sport": "MLB",
+      "game": "MIL @ HOU",
+      "first_pitch_iso": "2026-05-31T18:10Z",
+      "pick": "Under 7.5",
+      "best_book": "BetMGM",
+      "best_odds": "-110",
+      "book_prices": {
+        "draftkings": "-111",
+        "fanduel": "-112",
+        "betmgm": "-110"
+      },
+      "book_links": {
+        "fanduel": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.582502791&selectionId=7017906",
+        "draftkings": "https://sportsbook.draftkings.com/?outcomes=0OU84990650U750_3",
+        "betmgm": "https://sports.nj.betmgm.com/en/sports?options=19442260-1504493596-2152613468&type=Single"
+      },
+      "market": "TOTAL",
+      "confidence": 5,
+      "units": 2.0,
+      "win_probability": 0.63,
+      "ladder_designation": false,
+      "data_confidence": 0.85,
+      "rules_passed": [
+        "max_juice",
+        "ladder_even_money",
+        "parlay_well_formed",
+        "confidence_units_match",
+        "data_confidence_floor",
+        "pick_type_allowed",
+        "mlb_hr_prop_check",
+        "mlb_pitcher_k_check",
+        "mlb_total_bases_check",
+        "mlb_hits_check",
+        "nba_player_prop_check",
+        "nhl_shots_check",
+        "mlb_run_line_check",
+        "mlb_under_bb_check(soft)",
+        "no_same_game_opposite"
+      ],
+      "locked": true,
+      "late_add": false,
+      "late_add_reason": "",
+      "bonus_pick": false,
+      "event_type": "",
+      "event_name": "",
+      "legs": [],
+      "headline": "Misiorowski is the best pitcher in baseball right now, and Imai can't throw strikes.",
+      "the_thesis": "Jacob Misiorowski is having a historic season. Through 11 starts, he's the first pitcher to 100 strikeouts in 2026, posting a 1.83 ERA with a 40.3% strikeout rate \u2014 that's elite, 98th percentile in baseball. His last 31.1 innings? One earned run. He's averaging nearly 100 mph on his fastball and generating whiffs at a 39% clip. The Astros offense has been struggling all season, and they're sending out Tatsuya Imai (6.17 ERA, 17.5% BB rate) who can't find the zone.\n\nThe Brewers bullpen has been solid, and Houston's pen will need to eat innings if Imai exits early. Daikin Park is a neutral environment with the roof closed, so no weather boost for offense. The total opened at 7.5 and hasn't moved despite public money typically favoring overs. Sharp money is sitting on this number.\n\nMisiorowski's dominance isn't a fluke \u2014 his Stuff+ grades are elite across all pitches, and he's been the most consistent starter in baseball since mid-April. The Astros rank in the bottom third of MLB in wRC+ this season, and they're facing a pitcher who's allowed just 11 hits in his last 31.1 innings.",
+      "the_data": [
+        {
+          "label": "Misiorowski ERA / WHIP",
+          "value": "1.83 / 0.83",
+          "context": "Best in MLB"
+        },
+        {
+          "label": "Misiorowski K rate",
+          "value": "40.3%",
+          "context": "98th percentile"
+        },
+        {
+          "label": "Misiorowski last 31.1 IP",
+          "value": "1 ER, 49 K",
+          "context": "Historic stretch"
+        },
+        {
+          "label": "Imai BB%",
+          "value": "17.5%",
+          "context": "Worst among qualified SP"
+        },
+        {
+          "label": "Imai ERA",
+          "value": "6.17",
+          "context": "23.1 IP sample"
+        },
+        {
+          "label": "Astros R/G",
+          "value": "4.52",
+          "context": "Below league average"
+        }
+      ],
+      "the_market": "Total opened at 7.5 and has held steady across all three books. The under is getting -110 to -112 juice, suggesting balanced action. No significant line movement despite Misiorowski's dominance.",
+      "weather_park": "Daikin Park with roof closed \u2014 neutral conditions, no weather impact.",
+      "case_against": "Imai's wildness could lead to walks and baserunners that score on wild pitches or passed balls. If Misiorowski has an off day (rare but possible), the Brewers pen would face a Houston lineup that can still mash when they get pitches to hit. Small sample on Imai (23.1 IP) means we're projecting based on limited data.",
+      "what_were_betting_on": "Misiorowski going 6+ innings with 8+ strikeouts, Imai walking 4+ batters and exiting by the 5th, both bullpens keeping the game close.",
+      "scott_bot_quip": "Misiorowski is pitching like a video game character. The Astros are the NPCs.",
       "ladder_note": "",
       "date": "2026-05-31",
       "status": "PEND",
@@ -1116,116 +1201,11 @@
       "clv_cents": null,
       "result_score": null,
       "graded_at": null,
-      "slate_assessment": "16-game MLB-only slate with several pitching mismatches and prop opportunities. Misiorowski vs. Imai in Houston is the standout, with Coors Field and the SD/WSH game providing prop value.",
-      "executive_summary": "Sixteen MLB games today, no NBA or NHL, and the board tilts toward pitching mismatches and prop plays. Jacob Misiorowski at Houston is the cleanest side of the day \u2014 elite K-rate, sub-2 ERA, facing a struggling Imai with a 6.17 ERA and 17.5% walk rate. The Brewers ML at -190 is too short for a straight bet, but the run line at -107 lands in our range. Seattle's under 7.5 at T-Mobile Park with Bryce Miller returning against Merrill Kelly is another strong spot. On the prop side, Aaron Judge's total bases over 1.5 against a soft Jacob Lopez (5.73 ERA, 2.05 HR/9) is the sharpest play. The ladder rides with the Brewers -1.5 \u2014 best floor on the board with Misiorowski's dominance.",
-      "slate_analysis": "Today's board features 16 MLB games spread across the afternoon and evening, with no NBA or NHL action to supplement. The pricing climate is relatively soft \u2014 several favorites are priced past -150, which limits straight-bet options, but the prop markets are deep with SD/WSH, CIN/ATL, COL/SF, NYY/ATH, and LAD/PHI all carrying full prop slates.\n\nThe top candidates that rose during my review: Milwaukee at Houston (Misiorowski vs. Imai \u2014 elite SP vs. struggling rookie), Seattle vs. Arizona (Bryce Miller returning vs. Merrill Kelly at pitcher-friendly T-Mobile), the SD/WSH over 9.0 (two weak starters, Littell 2.54 HR/9 and Canning 7.54 ERA), the NYY/ATH over 10.0 (Jacob Lopez 5.73 ERA, 2.05 HR/9 vs. Yankees lineup), and Aaron Judge total bases over 1.5 against Lopez. I also looked hard at the Dodgers -1.5 (Yamamoto vs. Painter) and the Pirates ML (Ashcraft vs. Matthews).\n\nWhat got cut: The Dodgers -1.5 at -108 is tempting with Yamamoto's 3.09 ERA, but Painter's 5.40 ERA isn't disastrous enough to create 8+ cents of edge \u2014 my fair line on LAD -1.5 is around -115, so the edge is thin. The Pirates ML at -158 exceeds our -150 juice cap for straight bets. The SD/WSH over 9.0 at -115 is close, but both offenses have been inconsistent (SD 3.95 R/G, WSH 5.42 R/G) and the park is neutral \u2014 I don't have enough edge to justify it. The CLE/BOS under 7.5 at -120 looked interesting with Ranger Suarez's 3.02 ERA, but Bibee's 1.71 HR/9 and the neutral park factor at Progressive Field made me nervous about the floor.\n\nThe final six picks: Milwaukee -1.5 (Misiorowski dominance), Seattle Under 7.5 (Miller return + pitcher-friendly park), Aaron Judge TB Over 1.5 (elite hitter vs. soft SP), Fernando Tatis Jr. TB Over 1.5 (Littell's 2.54 HR/9), Yoshinobu Yamamoto Ks Under 6.5 (Phillies don't strike out much, Yamamoto's 23.8% K-rate is good but not elite), and the COL/SF Over 11.0 (Coors Field, two mediocre starters). The ladder pick is Milwaukee -1.5 \u2014 Misiorowski's 1.83 ERA, 40.3% K-rate, and 0.56 HR/9 against Imai's 6.17 ERA and 17.5% BB-rate is the clearest mismatch on the board, and the run line at -107 lands in our even-money band.",
+      "slate_assessment": "15-game MLB-only board with no NBA or NHL today. Two elite pitching matchups jump off the page \u2014 Misiorowski at Houston and Yamamoto vs Philly \u2014 plus several under-the-radar totals and a few prop angles worth exploring.",
+      "executive_summary": "Sunday's 15-game MLB slate is pitching-heavy with two aces on the mound: Jacob Misiorowski (1.83 ERA, 40.3% K rate) takes his Cy Young campaign to Houston against a struggling Astros lineup, and Yoshinobu Yamamoto hosts the Phillies at Dodger Stadium. The Brewers-Astros under at 7.5 is the sharpest total on the board \u2014 Misiorowski has allowed one run in his last 31.1 innings, and Tatsuya Imai's 17.5% BB rate means Houston's offense will be chasing. The ladder rides with the Seattle under at T-Mobile Park, where Bryce Miller returns to form against a fading Merrill Kelly. Six plays today, all backed by predictive pitching metrics and park factors.",
+      "slate_analysis": "The board today features 15 MLB games with no NBA or NHL action. The pricing climate is relatively tight \u2014 most sides are in the -110 to -150 range, with a few outliers like the Dodgers at -235 and the Brewers at -193. The totals market is where the edges live today.\n\nTop candidates that rose during my review: (1) Brewers-Astros under 7.5 \u2014 Misiorowski's dominance (1.83 ERA, 40.3% K rate, 100 Ks in 64 IP) against a struggling Astros lineup with Tatsuya Imai (6.17 ERA, 17.5% BB rate) on the mound screams low-scoring game. (2) Mariners-Diamondbacks under 7.5 \u2014 Bryce Miller (2.25 ERA, 3.2% BB rate in limited action) at pitcher-friendly T-Mobile Park with wind blowing in against Merrill Kelly (5.25 ERA). (3) Dodgers -1.5 \u2014 Yamamoto (3.09 ERA, 0.98 WHIP) vs Andrew Painter (5.40 ERA, 1.46 WHIP) at Dodger Stadium. (4) Spencer Strider Ks Under 6.5 \u2014 Strider's velocity is down and he's walking more batters; Reds have a low K% against RHP. (5) Cardinals ML vs Cubs \u2014 Jordan Wicks has a 16.62 ERA in 4.1 IP; Cardinals at home with Liberatore who's been serviceable. (6) Guardians-Red Sox under 7.0 \u2014 Ranger Suarez (3.02 ERA) vs Tanner Bibee in a neutral park with both offenses struggling.\n\nWhat got cut and why: The Pirates-Twins game had data confidence of 0.45 and Zebby Matthews has only 19 IP this season \u2014 sample too thin. The Rays-Angels game looked appealing with McClanahan, but the -200 juice exceeds our straight-bet cap. The Padres-Nationals game has two struggling pitchers (Canning 7.54 ERA, Littell 5.23 ERA) but the total at 9.0-9.5 is already priced for chaos \u2014 no edge. The Mets-Marlins game has John King's 1.93 ERA but only 23.1 IP \u2014 sample concerns. The Coors Field game (Rockies-Giants) is a stay-away; both pitchers have HR/9 above 1.5 and the park factor is 1.18.\n\nThe final six picks: Brewers-Astros Under 7.5 (Misiorowski dominance + Imai's control issues), Mariners-Diamondbacks Under 7.5 (Miller + park + weather), Dodgers -1.5 (Yamamoto vs struggling Painter), Spencer Strider Ks Under 6.5 (velocity down, Reds don't chase), Cardinals ML (Wicks is unplayable), and Guardians-Red Sox Under 7.0 (Suarez + two weak offenses). The ladder pick is the Mariners-Diamondbacks Under 7.5 \u2014 best floor on the board with Miller's elite control, T-Mobile's pitcher-friendly dimensions, and wind blowing in suppressing HR by 10%.",
       "slate_vibe": "NORMAL",
-      "published_at": "2026-05-31T07:26:48.967764-04:00"
-    },
-    {
-      "id": "20260531-MLB-MIL-HOU-SPREAD",
-      "sport": "MLB",
-      "game": "MIL @ HOU",
-      "first_pitch_iso": "2026-05-31T18:10Z",
-      "pick": "Milwaukee Brewers -1.5",
-      "best_book": "DraftKings",
-      "best_odds": "-107",
-      "book_prices": {
-        "draftkings": "-107",
-        "fanduel": "-110",
-        "betmgm": "-110"
-      },
-      "book_links": {
-        "fanduel": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.582502792&selectionId=29172",
-        "draftkings": "https://sportsbook.draftkings.com/?outcomes=0HC84990650N150_3",
-        "betmgm": "https://sports.nj.betmgm.com/en/sports?options=19442260-1504493585-2152613445&type=Single"
-      },
-      "market": "SPREAD",
-      "confidence": 5,
-      "units": 2.0,
-      "win_probability": 0.63,
-      "ladder_designation": true,
-      "data_confidence": 0.75,
-      "rules_passed": [
-        "max_juice",
-        "ladder_even_money",
-        "parlay_well_formed",
-        "confidence_units_match",
-        "data_confidence_floor",
-        "pick_type_allowed",
-        "mlb_hr_prop_check",
-        "mlb_pitcher_k_check",
-        "mlb_total_bases_check",
-        "mlb_hits_check",
-        "nba_player_prop_check",
-        "nhl_shots_check",
-        "mlb_run_line_check",
-        "mlb_under_bb_check",
-        "no_same_game_opposite"
-      ],
-      "locked": true,
-      "late_add": false,
-      "late_add_reason": "",
-      "bonus_pick": false,
-      "event_type": "",
-      "event_name": "",
-      "legs": [],
-      "headline": "Misiorowski's elite stuff against a struggling Imai is the clearest mismatch on the board.",
-      "the_thesis": "Jacob Misiorowski has been the best pitcher in baseball this season, and it's not particularly close. His 1.83 ERA and 40.3% K-rate are both elite, and his 0.56 HR/9 means he's not giving up the long ball. The 24-year-old right-hander has struck out 10+ batters in multiple starts this season, and his fastball regularly touches 103 mph. He's healthy after some minor cramping issues earlier in the month.\n\nOn the other side, Tatsuya Imai has been a disaster. His 6.17 ERA is bad, but his 17.5% walk rate is catastrophic \u2014 that's nearly one walk per inning. He's also allowing 1.56 HR/9, which means he's getting hit hard when he does throw strikes. The Astros offense has been solid (4.52 R/G), but they're not going to score much against Misiorowski.\n\nThe market has this priced at -190 on the ML, which is too short for a straight bet. But the run line at -107 is a gift. My fair line on MIL -1.5 is around -120, which gives us 13 cents of edge. The Brewers have the better offense (4.84 R/G vs. 4.52 R/G), the better bullpen, and a massive pitching advantage. This is the ladder pick because it has the highest floor on the board.",
-      "the_data": [
-        {
-          "label": "Misiorowski ERA (season)",
-          "value": "1.83",
-          "context": "Best in MLB"
-        },
-        {
-          "label": "Misiorowski K% (season)",
-          "value": "40.3%",
-          "context": "Elite, top-3 in baseball"
-        },
-        {
-          "label": "Misiorowski HR/9 (season)",
-          "value": "0.56",
-          "context": "Elite, top-10 in MLB"
-        },
-        {
-          "label": "Imai ERA (season)",
-          "value": "6.17",
-          "context": "Poor, bottom-20 in MLB"
-        },
-        {
-          "label": "Imai BB% (season)",
-          "value": "17.5%",
-          "context": "Catastrophic, nearly 1 BB/IP"
-        },
-        {
-          "label": "MIL R/G (season)",
-          "value": "4.84",
-          "context": "Above average"
-        },
-        {
-          "label": "HOU R/G (season)",
-          "value": "4.52",
-          "context": "Average"
-        }
-      ],
-      "the_market": "ML opened at -190 and has held steady. Run line at -107 on DraftKings is the best price among our three books. No significant line movement.",
-      "weather_park": "Daikin Park is a new venue with unknown park factors \u2014 assumed neutral. Outdoor game, weather should be warm and dry.",
-      "case_against": "Imai could have a breakout game \u2014 he's young and has shown flashes. The Astros lineup is dangerous and could string together hits if Misiorowski has an off day. The Brewers bullpen has blown some leads recently.",
-      "what_were_betting_on": "Misiorowski going 6+ innings with 8+ strikeouts, the Brewers offense scoring 4+ runs against Imai, and the bullpen holding a multi-run lead.",
-      "scott_bot_quip": "Miz throws 103 and Imai walks the ballpark. This is the floor.",
-      "ladder_note": "Best floor on the board. Misiorowski's dominance is undeniable, Imai's walk rate is a disaster, and the run line at -107 lands in our even-money band. This is the ladder.",
-      "date": "2026-05-31",
-      "status": "PEND",
-      "units_result": null,
-      "clv_cents": null,
-      "result_score": null,
-      "graded_at": null,
-      "slate_assessment": "16-game MLB-only slate with several pitching mismatches and prop opportunities. Misiorowski vs. Imai in Houston is the standout, with Coors Field and the SD/WSH game providing prop value.",
-      "executive_summary": "Sixteen MLB games today, no NBA or NHL, and the board tilts toward pitching mismatches and prop plays. Jacob Misiorowski at Houston is the cleanest side of the day \u2014 elite K-rate, sub-2 ERA, facing a struggling Imai with a 6.17 ERA and 17.5% walk rate. The Brewers ML at -190 is too short for a straight bet, but the run line at -107 lands in our range. Seattle's under 7.5 at T-Mobile Park with Bryce Miller returning against Merrill Kelly is another strong spot. On the prop side, Aaron Judge's total bases over 1.5 against a soft Jacob Lopez (5.73 ERA, 2.05 HR/9) is the sharpest play. The ladder rides with the Brewers -1.5 \u2014 best floor on the board with Misiorowski's dominance.",
-      "slate_analysis": "Today's board features 16 MLB games spread across the afternoon and evening, with no NBA or NHL action to supplement. The pricing climate is relatively soft \u2014 several favorites are priced past -150, which limits straight-bet options, but the prop markets are deep with SD/WSH, CIN/ATL, COL/SF, NYY/ATH, and LAD/PHI all carrying full prop slates.\n\nThe top candidates that rose during my review: Milwaukee at Houston (Misiorowski vs. Imai \u2014 elite SP vs. struggling rookie), Seattle vs. Arizona (Bryce Miller returning vs. Merrill Kelly at pitcher-friendly T-Mobile), the SD/WSH over 9.0 (two weak starters, Littell 2.54 HR/9 and Canning 7.54 ERA), the NYY/ATH over 10.0 (Jacob Lopez 5.73 ERA, 2.05 HR/9 vs. Yankees lineup), and Aaron Judge total bases over 1.5 against Lopez. I also looked hard at the Dodgers -1.5 (Yamamoto vs. Painter) and the Pirates ML (Ashcraft vs. Matthews).\n\nWhat got cut: The Dodgers -1.5 at -108 is tempting with Yamamoto's 3.09 ERA, but Painter's 5.40 ERA isn't disastrous enough to create 8+ cents of edge \u2014 my fair line on LAD -1.5 is around -115, so the edge is thin. The Pirates ML at -158 exceeds our -150 juice cap for straight bets. The SD/WSH over 9.0 at -115 is close, but both offenses have been inconsistent (SD 3.95 R/G, WSH 5.42 R/G) and the park is neutral \u2014 I don't have enough edge to justify it. The CLE/BOS under 7.5 at -120 looked interesting with Ranger Suarez's 3.02 ERA, but Bibee's 1.71 HR/9 and the neutral park factor at Progressive Field made me nervous about the floor.\n\nThe final six picks: Milwaukee -1.5 (Misiorowski dominance), Seattle Under 7.5 (Miller return + pitcher-friendly park), Aaron Judge TB Over 1.5 (elite hitter vs. soft SP), Fernando Tatis Jr. TB Over 1.5 (Littell's 2.54 HR/9), Yoshinobu Yamamoto Ks Under 6.5 (Phillies don't strike out much, Yamamoto's 23.8% K-rate is good but not elite), and the COL/SF Over 11.0 (Coors Field, two mediocre starters). The ladder pick is Milwaukee -1.5 \u2014 Misiorowski's 1.83 ERA, 40.3% K-rate, and 0.56 HR/9 against Imai's 6.17 ERA and 17.5% BB-rate is the clearest mismatch on the board, and the run line at -107 lands in our even-money band.",
-      "slate_vibe": "NORMAL",
-      "published_at": "2026-05-31T07:26:48.967594-04:00"
+      "published_at": "2026-05-31T13:04:31.171836-04:00"
     },
     {
       "id": "20260530-NBA-SA-OKC-PROP-SHAIGILGEOUSALEXANDER",
