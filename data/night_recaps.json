@@ -92,16 +92,16 @@
   },
   "2026-05-29": {
     "date": "2026-05-29",
-    "record": "1-1-0",
-    "units_pl": 0.7,
-    "night_summary": "1-1 night, +0.70u. The ladder pick delivered in a big way \u2014 Carolina -1.5 was never in doubt, with the Canes closing out Montreal 6-1 in Game 5 of the ECF to punch their ticket to the Stanley Cup Final; a 5-goal margin made the puck line look easy. The MIA @ NYM under was a model miss, plain and simple \u2014 Peralta's documented vulnerability against Miami (career 4.18 ERA vs. MIA) and his HR rate were underweighted, Liam Hicks went deep again, and a depleted Mets bullpen had no margin once the game opened up in a 9-7 final. We got that one wrong; the structural conditions for a high-scoring game were there pre-game. Ladder sits at 4 of 10 \u2014 climbing.",
-    "generated_at": "2026-05-29T23:26:28.738967-04:00"
+    "record": "3-1-0",
+    "units_pl": 3.6414,
+    "night_summary": "3-1 night, +3.64u \u2014 the unders did their thing and Carolina put a bow on it. PHI @ LAD was the cleanest of the three: Wrobleski took a no-hitter into the sixth, the Dodgers won 4-2, and the under 8.0 never broke a sweat. ARI @ SEA was equally tidy at 1-5, well inside the 7.0. The ladder pick was the headliner \u2014 Carolina dismantled Montreal 6-1 in Game 5 of the ECF, with three first-period goals setting the tone and Frederik Andersen carrying a shutout into the third; -1.5 at +110 cashed easy. The MIA @ NYM under was a model miss \u2014 Peralta's documented vulnerability against Miami and a depleted Mets bullpen were underweighted pre-game, and the 9-7 final (16 total) wasn't a fluke. We got that one wrong. Ladder reset to 0 after the BOS @ CLE loss on the 30th \u2014 back to the bottom, climbing again.",
+    "generated_at": "2026-05-31T01:16:13.061098-04:00"
   },
   "2026-05-30": {
     "date": "2026-05-30",
-    "record": "0-1-0",
-    "units_pl": -1.5,
-    "night_summary": "0-1 night, -1.5u. One pick, one ugly one to swallow. The BOS @ CLE under 6.5 was built on a legitimate premise \u2014 Messick sitting at a 2.24 ERA against a Boston offense ranked 29th in runs scored \u2014 but Messick got torched in what the autopsy confirms was his worst start of the season, lasting just 3.2 innings and surrendering 9 hits. Sonny Gray, the arm we were hedging against, threw six innings of one-run ball. A Duran three-run homer and a three-error defensive meltdown behind Messick turned a bad start into a 9-1 blowout \u2014 the under was dead by the middle innings. This was an outlier bad start compounded by sloppy defense, not a bad read; VARIANCE classification stands. The four-game win streak we were riding into last night is gone \u2014 ladder resets to 0 of 10, back to the bottom.",
-    "generated_at": "2026-05-30T20:07:17.310331-04:00"
+    "record": "1-1-0",
+    "units_pl": -0.1957,
+    "night_summary": "1-1 night, -0.20u. The ARI @ SEA under was the easy one \u2014 Bryan Woo threw seven shutout innings, Raley and Rodr\u00edguez went deep early, and the Diamondbacks managed a single run in a clean 5-1 final; under 7 cleared without drama. The BOS @ CLE ladder pick was a different story: Messick \u2014 6-1, 2.24 ERA coming in \u2014 got lit up in what the autopsy correctly flags as his worst start of the season, while Sonny Gray gave Boston six innings of one-run ball. Duran went deep and drove in three, Wong added three more RBI, and three Cleveland errors turned a bad Messick outing into a 9-1 rout that was over by the middle innings. That's a VARIANCE loss \u2014 the read was right, the pitcher just had his outlier bad day. Ladder resets to 0 of 10 \u2014 we climb again tomorrow.",
+    "generated_at": "2026-05-31T01:16:30.534108-04:00"
   }
 }
