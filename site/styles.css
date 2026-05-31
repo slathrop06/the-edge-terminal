@@ -326,6 +326,65 @@ button {
 }
 
 /* ── Picks grid ────────────────────────────────────────────────────── */
+/* "Add all to slip" bar — sits above the picks grid when there are 2+ picks */
+.place-all-bar {
+  background: #fff;
+  border: 1px solid #e5e5e5;
+  border-radius: 10px;
+  padding: 14px 16px;
+  margin-bottom: 16px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px 14px;
+  align-items: center;
+}
+.place-all-label {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  font-size: 14px;
+  font-weight: 600;
+  color: #1a1a1a;
+  letter-spacing: 0.2px;
+}
+.place-all-btn-row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+.place-all-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  padding: 9px 16px;
+  border-radius: 8px;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  font-size: 14px;
+  font-weight: 700;
+  text-decoration: none;
+  border: none;
+  cursor: pointer;
+  color: #fff;
+  transition: filter 0.15s;
+  white-space: nowrap;
+}
+.place-all-btn:hover { filter: brightness(1.08); }
+.place-all-btn:active { filter: brightness(0.92); }
+.place-all-btn.dk   { background: #53d337; }
+.place-all-btn.fd   { background: #1d6bf3; }
+.place-all-btn.mgm  { background: #f0bc1c; color: #1a1a1a; }
+.place-all-count {
+  font-weight: 500;
+  opacity: 0.85;
+  font-size: 12px;
+}
+@media (max-width: 480px) {
+  .place-all-bar {
+    flex-direction: column;
+    align-items: stretch;
+  }
+  .place-all-btn-row { justify-content: stretch; }
+  .place-all-btn { flex: 1; justify-content: center; }
+}
+
 .picks-grid {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(340px, 1fr));

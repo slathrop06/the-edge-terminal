@@ -353,6 +353,72 @@
   }
 
   // ── Today's picks ────────────────────────────────────────────────────
+  function buildMultiBetURLs(picks) {
+    const dkOutcomes = [];
+    const fdLinks = [];
+    const mgmLinks = [];
+    for (const p of picks) {
+      const links = p.book_links || {};
+      if (links.draftkings) {
+        try {
+          const u = new URL(links.draftkings);
+          const out = u.searchParams.get('outcomes');
+          if (out) dkOutcomes.push(out);
+        } catch (e) { /* skip bad URL */ }
+      }
+      if (links.fanduel) fdLinks.push(links.fanduel);
+      if (links.betmgm) mgmLinks.push(links.betmgm);
+    }
+    return {
+      draftkingsURL: dkOutcomes.length
+        ? `https://sportsbook.draftkings.com/?outcomes=${dkOutcomes.join(',')}`
+        : null,
+      fanduelLinks: fdLinks,
+      betmgmLinks: mgmLinks,
+    };
+  }
+
+  function renderPlaceAllBets(picks) {
+    const grid = $('#picksGrid');
+    let bar = $('#placeAllBets');
+    // Remove any previous bar
+    if (bar) bar.remove();
+    if (!picks || picks.length < 2) return; // 1 pick = existing per-card link is fine
+    const urls = buildMultiBetURLs(picks);
+    bar = document.createElement('div');
+    bar.id = 'placeAllBets';
+    bar.className = 'place-all-bar';
+    const label = `<span class="place-all-label">Add ALL ${picks.length} picks to slip:</span>`;
+    let buttons = '';
+    if (urls.draftkingsURL) {
+      buttons += `<a class="place-all-btn dk" href="${urls.draftkingsURL}" target="_blank" rel="noopener" data-book="draftkings">DraftKings <span class="place-all-count">(one tap)</span></a>`;
+    }
+    if (urls.fanduelLinks.length) {
+      buttons += `<button class="place-all-btn fd" data-book="fanduel" data-links='${JSON.stringify(urls.fanduelLinks).replace(/'/g, '&apos;')}'>FanDuel <span class="place-all-count">(${urls.fanduelLinks.length} tabs)</span></button>`;
+    }
+    if (urls.betmgmLinks.length) {
+      buttons += `<button class="place-all-btn mgm" data-book="betmgm" data-links='${JSON.stringify(urls.betmgmLinks).replace(/'/g, '&apos;')}'>BetMGM <span class="place-all-count">(${urls.betmgmLinks.length} tabs)</span></button>`;
+    }
+    bar.innerHTML = label + '<div class="place-all-btn-row">' + buttons + '</div>';
+    grid.parentNode.insertBefore(bar, grid);
+    // Wire FD/MGM multi-tab buttons. DK link works as a normal href.
+    bar.querySelectorAll('button.place-all-btn').forEach((btn) => {
+      btn.addEventListener('click', (ev) => {
+        ev.preventDefault();
+        let links;
+        try { links = JSON.parse(btn.dataset.links.replace(/&apos;/g, "'")); } catch (e) { return; }
+        if (!links || !links.length) return;
+        // Open each in a new tab. Browsers usually allow the first 1-2 popups
+        // after a click; subsequent ones may be blocked — the indicator in
+        // the URL bar lets the user allow them once.
+        links.forEach((href, i) => {
+          // tiny stagger so the browser handles them as distinct popups
+          setTimeout(() => window.open(href, '_blank', 'noopener'), i * 50);
+        });
+      });
+    });
+  }
+
   function renderTodayPicks() {
     const grid = $('#picksGrid');
     const dateLabel = $('#dateLabel');
@@ -383,6 +449,9 @@
       } else {
         grid.innerHTML = `<p class="empty-state">Scott Bot took a pass today. Zero is a valid play — better to publish nothing than garbage.</p>`;
       }
+      // Hide any leftover "place all" bar from a previous render
+      const stale = document.getElementById('placeAllBets');
+      if (stale) stale.remove();
       return;
     }
     // Order: bonus picks first (rare special events), then ladder pick, then by confidence desc
@@ -395,6 +464,7 @@
       return (b.confidence || 0) - (a.confidence || 0);
     });
     grid.innerHTML = sorted.map(pickCardHTML).join('');
+    renderPlaceAllBets(sorted);
     grid.querySelectorAll('.pick-card').forEach((el) => {
       el.addEventListener('click', () => openModal(el.dataset.pickId));
     });
