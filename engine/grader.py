@@ -226,41 +226,51 @@ def _nba_player_id(name: str) -> Optional[int]:
 
 def _nba_player_game_stat(player_name: str, stat: str, date: str) -> Optional[float]:
     """Fetch NBA player stat from nba_api playergamelog. NBA seasons span two
-    years — pick the right season string ('2025-26' for an Apr 2026 game)."""
+    years — pick the right season string ('2025-26' for an Apr 2026 game).
+    Tries Playoffs season type first (May/June games are virtually always
+    playoffs), then Regular Season — PlayerGameLog defaults to Regular only,
+    which silently misses every playoff game."""
     pid = _nba_player_id(player_name)
     if not pid:
         return None
     try:
         from nba_api.stats.endpoints import playergamelog
-        # NBA season: Oct YYYY → Jun YYYY+1. Date in Jul-Sep is offseason; pick
-        # the previous season for those (rare for our active picks).
         from datetime import datetime
         d = datetime.strptime(date, "%Y-%m-%d")
         season_start = d.year if d.month >= 10 else d.year - 1
         season_str = f"{season_start}-{str(season_start + 1)[-2:]}"
-        gl = playergamelog.PlayerGameLog(player_id=pid, season=season_str).get_dict()
-        result_sets = gl.get("resultSets") or []
-        if not result_sets:
-            return None
-        headers = result_sets[0].get("headers") or []
-        rows = result_sets[0].get("rowSet") or []
-        idx = {h: i for i, h in enumerate(headers)}
-        for row in rows:
-            game_date_raw = row[idx.get("GAME_DATE", 0)]
+        # Try playoffs first for Apr-Jun games (most common), then regular,
+        # then preseason. First season type that has the date wins.
+        for season_type in ("Playoffs", "Regular Season", "Pre Season"):
             try:
-                gd = datetime.strptime(game_date_raw, "%b %d, %Y").strftime("%Y-%m-%d")
-            except (ValueError, TypeError):
+                gl = playergamelog.PlayerGameLog(
+                    player_id=pid, season=season_str,
+                    season_type_all_star=season_type,
+                ).get_dict()
+            except Exception:
                 continue
-            if gd != date:
+            result_sets = gl.get("resultSets") or []
+            if not result_sets:
                 continue
-            if stat == "points":
-                return float(row[idx["PTS"]])
-            if stat == "rebounds":
-                return float(row[idx["REB"]])
-            if stat == "assists":
-                return float(row[idx["AST"]])
-            if stat == "pra":
-                return float(row[idx["PTS"]]) + float(row[idx["REB"]]) + float(row[idx["AST"]])
+            headers = result_sets[0].get("headers") or []
+            rows = result_sets[0].get("rowSet") or []
+            idx = {h: i for i, h in enumerate(headers)}
+            for row in rows:
+                game_date_raw = row[idx.get("GAME_DATE", 0)]
+                try:
+                    gd = datetime.strptime(game_date_raw, "%b %d, %Y").strftime("%Y-%m-%d")
+                except (ValueError, TypeError):
+                    continue
+                if gd != date:
+                    continue
+                if stat == "points":
+                    return float(row[idx["PTS"]])
+                if stat == "rebounds":
+                    return float(row[idx["REB"]])
+                if stat == "assists":
+                    return float(row[idx["AST"]])
+                if stat == "pra":
+                    return float(row[idx["PTS"]]) + float(row[idx["REB"]]) + float(row[idx["AST"]])
     except Exception as e:
         logger.debug(f"NBA game stat fetch failed for {player_name}: {e}")
     return None
