@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-30T18:48:38.081588-04:00",
+  "generated_at": "2026-05-30T20:07:17.314016-04:00",
   "today": "2026-05-30",
   "system_paused": false,
   "pause_reason": "",
@@ -378,16 +378,22 @@
       "scott_bot_quip": "Messick's dealing, Boston's not hitting, and 6.5 is a number we can live with.",
       "ladder_note": "",
       "date": "2026-05-30",
-      "status": "PEND",
-      "units_result": null,
+      "status": "LOSS",
+      "units_result": -1.5,
       "clv_cents": null,
-      "result_score": null,
-      "graded_at": null,
+      "result_score": "BOS 9 \u00b7 CLE 1",
+      "graded_at": "2026-05-30T20:06:52.931338-04:00",
       "slate_assessment": "15-game MLB slate plus a Western Conference Finals Game 7 between the Thunder and Spurs. Multiple pitching matchups with clear edges, plus a high-stakes NBA game with prop value.",
       "executive_summary": "The board is loaded tonight \u2014 15 MLB games and a Western Conference Finals Game 7 in OKC. The sharpest MLB edge is Cleveland's Parker Messick (2.24 ERA, elite K rate) at home against a struggling Boston offense in a pitcher-friendly park with a total at 6.5. The Thunder-Spurs Game 7 offers prop value on Wembanyama's rebounds in a must-win spot. We're also riding the Cubs behind Ben Brown's 2.01 ERA at Busch Stadium, and taking the under in Seattle where Bryan Woo faces a HR-prone Ryne Nelson in a pitcher's paradise. The ladder rides with the Cubs ML \u2014 best floor on the board at near even money.",
       "slate_analysis": "Tonight's board features 15 MLB games and one NBA game \u2014 the Western Conference Finals Game 7 between the Thunder and Spurs in Oklahoma City. The MLB slate is spread across the evening with first pitches ranging from 6:10 PM ET to 10:10 PM ET. The NBA game tips at 8 PM ET. Data confidence across the MLB slate is generally soft (0.3-0.45 range), which is typical for lineups not yet confirmed, but the pitching matchups and market pricing are locked in.\n\nThe top candidates that rose during my review: Cleveland vs Boston (Messick's elite 2.24 ERA against a weak Boston offense, total at 6.5 in a neutral-to-pitcher-friendly park); Cubs at Cardinals (Ben Brown's 2.01 ERA and 0.99 WHIP against Kyle Leahy's 4.44 ERA and 1.58 WHIP, Cubs ML at -131); Seattle vs Arizona (Bryan Woo's 1.04 WHIP in a pitcher-friendly park against Ryne Nelson's 1.65 HR/9, under 7 looks sharp); Tampa Bay vs LA Angels (Rasmussen's 2.78 ERA and 0.98 WHIP at the Trop, but the -162 juice is too steep for a straight bet); Thunder-Spurs Game 7 (Wembanyama rebounds prop at 12.5 with his 11.5 RPG average and Game 7 intensity); and the Coors Field over at 11 (two weak starters, hitter-friendly park, but the market has already priced this in).\n\nWhat got cut and why: Tampa Bay ML at -162 exceeds our -150 juice cap for straight bets. The Coors over at 11 is already priced efficiently \u2014 my fair line is 10.5-11, no edge. The DET @ CHW game has data confidence at 0.45, which is borderline, and neither pitcher profile screams edge. The HOU vs MIL game has Sproat's 5.84 ERA looking like an over play, but the data confidence is 0.3 \u2014 too thin. The LAD vs PHI game features Sasaki's 4.93 ERA and 1.79 HR/9 against Luzardo, but the market is already pricing Philly as a live dog at +108; my fair line matches the market, no edge.\n\nThe final six picks: Cleveland Under 6.5 (Messick's elite profile, weak Boston offense, pitcher-friendly park); Cubs ML (Brown's dominance over Leahy, road favorite at -131); Seattle Under 7 (Woo's control in a pitcher's paradise against Nelson's HR-prone profile); Wembanyama Rebounds Over 12.5 (Game 7 intensity, 11.5 RPG baseline, boards available against OKC); Shai Gilgeous-Alexander Points Over 30.5 (31.1 PPG regular season, Game 7 at home, must-win); and Jackson Chourio Total Bases Over 1.5 (facing Sproat's 1.83 HR/9 and 5.84 ERA, even money at BetMGM). The ladder pick is Cubs ML \u2014 best floor on the board with Brown's elite metrics against a struggling Leahy, priced at -131 which lands in our even-money band.",
       "slate_vibe": "NORMAL",
-      "published_at": "2026-05-30T11:26:54.346306-04:00"
+      "published_at": "2026-05-30T11:26:54.346306-04:00",
+      "autopsy": {
+        "classification": "VARIANCE",
+        "post_mortem": "The thesis was sound \u2014 Messick (2.24 ERA, 1.04 WHIP) vs. a Boston offense ranked 29th in runs scored looked like a textbook under setup. But Messick got lit up in what became his worst start of the season, while Sonny Gray \u2014 the 'solid but short' arm we were worried about \u2014 turned in six innings of one-run ball. Per ESPN, 'Connor Wong and Jarren Duran drove in three runs apiece' as Boston rolled to a 9-1 final. The box score shows Messick was pulled early (only 93 pitches logged before the bullpen took over), and the Cleveland pen surrendered a cascade of runs via a Ramirez error, a Fairchild throwing error, a Rocchio error, and a Jarren Duran three-run homer that blew the game open. The under was dead by the middle innings \u2014 this wasn't a late-game collapse, it was Messick's outlier bad start (his 12th of the season, against a team he'd only faced once before and allowed 9 hits in 3.2 IP in that prior outing) combined with a multi-error defensive meltdown behind him.",
+        "candidate_rule": null,
+        "sample_size_warning": "N=1, insufficient to establish rule. Messick's one prior career start vs. BOS (3 runs, 9 hits in 3.2 IP) was a known data point in the case-against but was underweighted \u2014 worth monitoring whether his splits vs. AL East contact-heavy lineups diverge from his overall numbers, but a single-game blowout is noise."
+      }
     }
   ],
   "today_bonus_picks": [],
@@ -766,16 +772,22 @@
       "scott_bot_quip": "Messick's dealing, Boston's not hitting, and 6.5 is a number we can live with.",
       "ladder_note": "",
       "date": "2026-05-30",
-      "status": "PEND",
-      "units_result": null,
+      "status": "LOSS",
+      "units_result": -1.5,
       "clv_cents": null,
-      "result_score": null,
-      "graded_at": null,
+      "result_score": "BOS 9 \u00b7 CLE 1",
+      "graded_at": "2026-05-30T20:06:52.931338-04:00",
       "slate_assessment": "15-game MLB slate plus a Western Conference Finals Game 7 between the Thunder and Spurs. Multiple pitching matchups with clear edges, plus a high-stakes NBA game with prop value.",
       "executive_summary": "The board is loaded tonight \u2014 15 MLB games and a Western Conference Finals Game 7 in OKC. The sharpest MLB edge is Cleveland's Parker Messick (2.24 ERA, elite K rate) at home against a struggling Boston offense in a pitcher-friendly park with a total at 6.5. The Thunder-Spurs Game 7 offers prop value on Wembanyama's rebounds in a must-win spot. We're also riding the Cubs behind Ben Brown's 2.01 ERA at Busch Stadium, and taking the under in Seattle where Bryan Woo faces a HR-prone Ryne Nelson in a pitcher's paradise. The ladder rides with the Cubs ML \u2014 best floor on the board at near even money.",
       "slate_analysis": "Tonight's board features 15 MLB games and one NBA game \u2014 the Western Conference Finals Game 7 between the Thunder and Spurs in Oklahoma City. The MLB slate is spread across the evening with first pitches ranging from 6:10 PM ET to 10:10 PM ET. The NBA game tips at 8 PM ET. Data confidence across the MLB slate is generally soft (0.3-0.45 range), which is typical for lineups not yet confirmed, but the pitching matchups and market pricing are locked in.\n\nThe top candidates that rose during my review: Cleveland vs Boston (Messick's elite 2.24 ERA against a weak Boston offense, total at 6.5 in a neutral-to-pitcher-friendly park); Cubs at Cardinals (Ben Brown's 2.01 ERA and 0.99 WHIP against Kyle Leahy's 4.44 ERA and 1.58 WHIP, Cubs ML at -131); Seattle vs Arizona (Bryan Woo's 1.04 WHIP in a pitcher-friendly park against Ryne Nelson's 1.65 HR/9, under 7 looks sharp); Tampa Bay vs LA Angels (Rasmussen's 2.78 ERA and 0.98 WHIP at the Trop, but the -162 juice is too steep for a straight bet); Thunder-Spurs Game 7 (Wembanyama rebounds prop at 12.5 with his 11.5 RPG average and Game 7 intensity); and the Coors Field over at 11 (two weak starters, hitter-friendly park, but the market has already priced this in).\n\nWhat got cut and why: Tampa Bay ML at -162 exceeds our -150 juice cap for straight bets. The Coors over at 11 is already priced efficiently \u2014 my fair line is 10.5-11, no edge. The DET @ CHW game has data confidence at 0.45, which is borderline, and neither pitcher profile screams edge. The HOU vs MIL game has Sproat's 5.84 ERA looking like an over play, but the data confidence is 0.3 \u2014 too thin. The LAD vs PHI game features Sasaki's 4.93 ERA and 1.79 HR/9 against Luzardo, but the market is already pricing Philly as a live dog at +108; my fair line matches the market, no edge.\n\nThe final six picks: Cleveland Under 6.5 (Messick's elite profile, weak Boston offense, pitcher-friendly park); Cubs ML (Brown's dominance over Leahy, road favorite at -131); Seattle Under 7 (Woo's control in a pitcher's paradise against Nelson's HR-prone profile); Wembanyama Rebounds Over 12.5 (Game 7 intensity, 11.5 RPG baseline, boards available against OKC); Shai Gilgeous-Alexander Points Over 30.5 (31.1 PPG regular season, Game 7 at home, must-win); and Jackson Chourio Total Bases Over 1.5 (facing Sproat's 1.83 HR/9 and 5.84 ERA, even money at BetMGM). The ladder pick is Cubs ML \u2014 best floor on the board with Brown's elite metrics against a struggling Leahy, priced at -131 which lands in our even-money band.",
       "slate_vibe": "NORMAL",
-      "published_at": "2026-05-30T11:26:54.346306-04:00"
+      "published_at": "2026-05-30T11:26:54.346306-04:00",
+      "autopsy": {
+        "classification": "VARIANCE",
+        "post_mortem": "The thesis was sound \u2014 Messick (2.24 ERA, 1.04 WHIP) vs. a Boston offense ranked 29th in runs scored looked like a textbook under setup. But Messick got lit up in what became his worst start of the season, while Sonny Gray \u2014 the 'solid but short' arm we were worried about \u2014 turned in six innings of one-run ball. Per ESPN, 'Connor Wong and Jarren Duran drove in three runs apiece' as Boston rolled to a 9-1 final. The box score shows Messick was pulled early (only 93 pitches logged before the bullpen took over), and the Cleveland pen surrendered a cascade of runs via a Ramirez error, a Fairchild throwing error, a Rocchio error, and a Jarren Duran three-run homer that blew the game open. The under was dead by the middle innings \u2014 this wasn't a late-game collapse, it was Messick's outlier bad start (his 12th of the season, against a team he'd only faced once before and allowed 9 hits in 3.2 IP in that prior outing) combined with a multi-error defensive meltdown behind him.",
+        "candidate_rule": null,
+        "sample_size_warning": "N=1, insufficient to establish rule. Messick's one prior career start vs. BOS (3 runs, 9 hits in 3.2 IP) was a known data point in the case-against but was underweighted \u2014 worth monitoring whether his splits vs. AL East contact-heavy lineups diverge from his overall numbers, but a single-game blowout is noise."
+      }
     },
     {
       "id": "20260529-MLB-SF-COL-PROP-LUISARRAEZ",
@@ -4886,11 +4898,19 @@
     }
   ],
   "ladder": {
-    "current_streak": 4,
+    "current_streak": 0,
     "longest_streak": 4,
     "completed_climbs": 0,
     "target": 10,
     "history": [
+      {
+        "date": "2026-05-30",
+        "pick_id": "20260530-MLB-BOS-CLE-TOTAL",
+        "pick": "Under 6.5",
+        "game": "BOS @ CLE",
+        "status": "LOSS",
+        "after_streak": 0
+      },
       {
         "date": "2026-05-29",
         "pick_id": "20260529-NHL-MTL-CAR-SPREAD",
@@ -5004,13 +5024,13 @@
         "after_streak": 1
       }
     ],
-    "updated_at": "2026-05-29T23:26:14.089395-04:00"
+    "updated_at": "2026-05-30T20:06:52.934739-04:00"
   },
   "last_night_recap": {
-    "date": "2026-05-29",
-    "record": "1-1-0",
-    "units_pl": 0.7,
-    "night_summary": "1-1 night, +0.70u. The ladder pick delivered in a big way \u2014 Carolina -1.5 was never in doubt, with the Canes closing out Montreal 6-1 in Game 5 of the ECF to punch their ticket to the Stanley Cup Final; a 5-goal margin made the puck line look easy. The MIA @ NYM under was a model miss, plain and simple \u2014 Peralta's documented vulnerability against Miami (career 4.18 ERA vs. MIA) and his HR rate were underweighted, Liam Hicks went deep again, and a depleted Mets bullpen had no margin once the game opened up in a 9-7 final. We got that one wrong; the structural conditions for a high-scoring game were there pre-game. Ladder sits at 4 of 10 \u2014 climbing.",
-    "generated_at": "2026-05-29T23:26:28.738967-04:00"
+    "date": "2026-05-30",
+    "record": "0-1-0",
+    "units_pl": -1.5,
+    "night_summary": "0-1 night, -1.5u. One pick, one ugly one to swallow. The BOS @ CLE under 6.5 was built on a legitimate premise \u2014 Messick sitting at a 2.24 ERA against a Boston offense ranked 29th in runs scored \u2014 but Messick got torched in what the autopsy confirms was his worst start of the season, lasting just 3.2 innings and surrendering 9 hits. Sonny Gray, the arm we were hedging against, threw six innings of one-run ball. A Duran three-run homer and a three-error defensive meltdown behind Messick turned a bad start into a 9-1 blowout \u2014 the under was dead by the middle innings. This was an outlier bad start compounded by sloppy defense, not a bad read; VARIANCE classification stands. The four-game win streak we were riding into last night is gone \u2014 ladder resets to 0 of 10, back to the bottom.",
+    "generated_at": "2026-05-30T20:07:17.310331-04:00"
   }
 }

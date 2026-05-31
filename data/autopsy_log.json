@@ -1,5 +1,18 @@
 [
   {
+    "id": "20260530-MLB-BOS-CLE-TOTAL",
+    "date": "2026-05-30",
+    "pick": "Under 6.5",
+    "game": "BOS @ CLE",
+    "odds": "-116",
+    "result_score": "BOS 9 \u00b7 CLE 1",
+    "classification": "VARIANCE",
+    "post_mortem": "The thesis was sound \u2014 Messick (2.24 ERA, 1.04 WHIP) vs. a Boston offense ranked 29th in runs scored looked like a textbook under setup. But Messick got lit up in what became his worst start of the season, while Sonny Gray \u2014 the 'solid but short' arm we were worried about \u2014 turned in six innings of one-run ball. Per ESPN, 'Connor Wong and Jarren Duran drove in three runs apiece' as Boston rolled to a 9-1 final. The box score shows Messick was pulled early (only 93 pitches logged before the bullpen took over), and the Cleveland pen surrendered a cascade of runs via a Ramirez error, a Fairchild throwing error, a Rocchio error, and a Jarren Duran three-run homer that blew the game open. The under was dead by the middle innings \u2014 this wasn't a late-game collapse, it was Messick's outlier bad start (his 12th of the season, against a team he'd only faced once before and allowed 9 hits in 3.2 IP in that prior outing) combined with a multi-error defensive meltdown behind him.",
+    "candidate_rule": null,
+    "sample_size_warning": "N=1, insufficient to establish rule. Messick's one prior career start vs. BOS (3 runs, 9 hits in 3.2 IP) was a known data point in the case-against but was underweighted \u2014 worth monitoring whether his splits vs. AL East contact-heavy lineups diverge from his overall numbers, but a single-game blowout is noise.",
+    "analyzed_at": "2026-05-30T20:07:10.731991-04:00"
+  },
+  {
     "id": "20260529-MLB-MIA-NYM-TOTAL",
     "date": "2026-05-29",
     "pick": "Under 7.5",
