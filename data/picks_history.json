@@ -1,7 +1,486 @@
 {
   "version": 1,
-  "updated_at": "2026-06-01T08:15:35.974975-04:00",
+  "updated_at": "2026-06-01T15:57:56.184441-04:00",
   "picks": [
+    {
+      "id": "20260601-MLB-TEX-STL-TOTAL",
+      "sport": "MLB",
+      "game": "TEX @ STL",
+      "first_pitch_iso": "2026-06-01T23:45Z",
+      "pick": "Under 7.5",
+      "best_book": "FanDuel",
+      "best_odds": "-112",
+      "book_prices": {
+        "draftkings": "-123",
+        "fanduel": "-112"
+      },
+      "book_links": {
+        "fanduel": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.582946975&selectionId=7017906",
+        "draftkings": "https://sportsbook.draftkings.com/?outcomes=0OU85008911U750_3",
+        "betmgm": "https://sports.nj.betmgm.com/en/sports/baseball-23/betting/usa-9/mlb-75"
+      },
+      "market": "TOTAL",
+      "confidence": 3,
+      "units": 1.0,
+      "win_probability": 0.56,
+      "ladder_designation": false,
+      "data_confidence": 0.65,
+      "rules_passed": [
+        "max_juice",
+        "ladder_even_money",
+        "parlay_well_formed",
+        "confidence_units_match",
+        "data_confidence_floor",
+        "pick_type_allowed",
+        "mlb_hr_prop_check",
+        "mlb_pitcher_k_check",
+        "mlb_total_bases_check",
+        "mlb_hits_check",
+        "nba_player_prop_check",
+        "nhl_shots_check",
+        "mlb_run_line_check",
+        "mlb_under_bb_check",
+        "no_same_game_opposite"
+      ],
+      "locked": true,
+      "late_add": false,
+      "late_add_reason": "",
+      "bonus_pick": false,
+      "event_type": "",
+      "event_name": "",
+      "legs": [],
+      "headline": "Two HR-suppressing profiles meet at Busch Stadium with wind blowing in.",
+      "the_thesis": "Both pitchers in this game have HR-suppressing profiles. McGreevy's 1.2 HR/9 is elevated, but Busch Stadium's 0.93 HR park factor should help. deGrom's 1.98 HR/9 is alarming, but he's still elite at limiting baserunners (1.01 WHIP).\n\nBusch Stadium is one of the more pitcher-friendly parks in the NL, and the wind is blowing in from CF at 6 mph tonight. Both offenses are league average (Cardinals 4.33 R/G, Rangers 4.02 R/G), and neither has been explosive.\n\nThe total has held steady at 7.5, and the market is pricing this as a low-scoring game. I agree \u2014 both pitchers have the stuff to keep runs down, and the park and weather favor the under.",
+      "the_data": [
+        {
+          "label": "Busch Stadium HR PF",
+          "value": "0.93",
+          "context": "HR-suppressing"
+        },
+        {
+          "label": "Wind direction",
+          "value": "In from CF, 6 mph",
+          "context": "Suppresses fly balls"
+        },
+        {
+          "label": "McGreevy HR/9 (season)",
+          "value": "1.2",
+          "context": "Elevated, but park helps"
+        },
+        {
+          "label": "deGrom WHIP (season)",
+          "value": "1.01",
+          "context": "Elite, limits baserunners"
+        },
+        {
+          "label": "Cardinals R/G (season)",
+          "value": "4.33",
+          "context": "League average"
+        },
+        {
+          "label": "Rangers R/G (season)",
+          "value": "4.02",
+          "context": "Below league average"
+        }
+      ],
+      "the_market": "Total has held steady at 7.5 across both books. At -112 on FanDuel, the under has value given the park, weather, and pitching matchup.",
+      "weather_park": "Busch Stadium is HR-suppressing (PF 0.93). Wind blowing in from CF at 6 mph. Weather is clear, 82\u00b0F.",
+      "case_against": "deGrom's HR/9 is alarming, and McGreevy's xERA of 5.63 suggests regression is coming. If either pitcher gets tagged early, this could go over. Both bullpens have had some rough patches, and the game could get away late.",
+      "what_were_betting_on": "Both starters going 6+ innings with 3 or fewer earned runs combined, the bullpens holding, and Busch Stadium suppressing the long ball.",
+      "scott_bot_quip": "Wind blowing in, two pitchers who suppress HRs, and a park that hates offense. Easy under.",
+      "ladder_note": "",
+      "date": "2026-06-01",
+      "status": "PEND",
+      "units_result": null,
+      "clv_cents": null,
+      "result_score": null,
+      "graded_at": null,
+      "slate_assessment": "Nine-game MLB-only board with thin data confidence across the slate. Two pitching matchups stand out \u2014 Joe Ryan vs. a TBD White Sox arm at Target Field, and Eduardo Rodriguez vs. Emmet Sheehan in Arizona \u2014 but several games carry data_confidence below 0.6, limiting actionable plays.",
+      "executive_summary": "Thin nine-game MLB slate with no NBA or NHL tonight, but two pitching matchups jump off the page. Joe Ryan at home against a rebuilding White Sox club is the cleanest floor play on the board \u2014 Ryan hasn't allowed more than two earned runs in six straight starts, and the White Sox offense ranks near the bottom of the league. The Dodgers-Diamondbacks total at 9.0 offers value on the under given Sheehan's underlying metrics and E-Rod's regression risk. We're also finding edge in the Angels-Rockies game where Kyle Freeland has allowed six-plus runs in four of his last five starts. The ladder rides with the Twins ML \u2014 best floor, best pitcher, weakest opponent.",
+      "slate_analysis": "Tonight's board features nine MLB games, no NBA, no NHL. The pricing climate is soft \u2014 most totals sit between 7.5 and 9.5, and several moneylines are near pick'em. Data confidence is a problem: five of nine games carry confidence below 0.5, which limits the pool of actionable plays. The prop slate is thin \u2014 only two games (MIA@WSH and KC@CIN) have full prop coverage, and neither features a standout K or HR angle.\n\nThe top candidates that rose during my review: (1) Twins ML vs. White Sox \u2014 Joe Ryan hasn't allowed more than two earned runs in six straight starts, and the White Sox are starting a TBD arm (likely David Sandlin, a rookie with minimal track record). The line has moved against the Twins (from -158 to -102), which is unusual given Ryan's form, but the underlying matchup still favors Minnesota. (2) Dodgers-Diamondbacks Under 9.0 \u2014 Eduardo Rodriguez's 2.31 ERA is propped up by a 4.43 xERA, and Sheehan's 4.70 ERA masks a 3.86 xERA. Both pitchers have regression risk, but the total has climbed from 8.5 to 9.25, creating value on the under. (3) Angels ML vs. Rockies \u2014 Kyle Freeland has allowed six-plus runs in four of his last five starts, and Jos\u00e9 Soriano has been solid (2.65 ERA, 27% K rate). (4) Cardinals ML vs. Rangers \u2014 deGrom struggled in May (5.72 ERA, nine HRs allowed), and McGreevy's 2.98 ERA is backed by a 5.63 xERA, but the Cardinals have been strong at home. (5) Brewers ML vs. Giants \u2014 Milwaukee is -180 at home with Shane Drohan on the mound, but the juice exceeds our -150 cap for straight bets. (6) Mariners ML vs. Mets \u2014 Emerson Hancock has been solid (2.78 ERA, 1.01 WHIP), and T-Mobile Park suppresses runs.\n\nWhat got cut: The Brewers ML at -180 exceeds our straight-bet juice cap. The Tigers-Rays game has data_confidence of 0.4 and a TBD pitcher for Detroit. The Marlins-Nationals game has data_confidence of 0.45 and both pitchers have thin samples. The Royals-Reds game features Lyon Richardson (0.2 IP this season) and Luinder Avila (21.1 IP, mostly relief) \u2014 too much uncertainty. The Mets-Mariners game has only one book (FanDuel) with pricing, limiting our ability to shop.\n\nThe final six picks: (1) Twins ML \u2014 best floor, best pitcher, weakest opponent. (2) Dodgers-Diamondbacks Under 9.0 \u2014 regression risk on both sides, total has climbed too high. (3) Angels ML \u2014 Freeland has been a disaster, Soriano has been solid. (4) Cardinals ML \u2014 deGrom's May struggles, McGreevy's home splits, Busch Stadium suppresses HRs. (5) Mariners Under 7.5 \u2014 T-Mobile Park is pitcher-friendly, Hancock has been excellent, Warren is a reliever-turned-opener with limited innings. (6) Rangers-Cardinals Under 7.5 \u2014 both pitchers have HR-suppressing profiles, Busch Stadium wind blowing in. The ladder pick is Twins ML \u2014 Ryan's form, the White Sox's weakness, and the line movement creating value at -102.",
+      "slate_vibe": "NORMAL",
+      "published_at": "2026-06-01T15:57:56.184361-04:00"
+    },
+    {
+      "id": "20260601-MLB-NYM-SEA-TOTAL",
+      "sport": "MLB",
+      "game": "NYM @ SEA",
+      "first_pitch_iso": "2026-06-02T01:40Z",
+      "pick": "Under 7.5",
+      "best_book": "FanDuel",
+      "best_odds": "-115",
+      "book_prices": {
+        "fanduel": "-115"
+      },
+      "book_links": {
+        "fanduel": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.582948427&selectionId=7017906",
+        "draftkings": "https://sportsbook.draftkings.com/leagues/baseball/mlb",
+        "betmgm": "https://sports.nj.betmgm.com/en/sports/baseball-23/betting/usa-9/mlb-75"
+      },
+      "market": "TOTAL",
+      "confidence": 3,
+      "units": 1.0,
+      "win_probability": 0.56,
+      "ladder_designation": false,
+      "data_confidence": 0.65,
+      "rules_passed": [
+        "max_juice",
+        "ladder_even_money",
+        "parlay_well_formed",
+        "confidence_units_match",
+        "data_confidence_floor",
+        "pick_type_allowed",
+        "mlb_hr_prop_check",
+        "mlb_pitcher_k_check",
+        "mlb_total_bases_check",
+        "mlb_hits_check",
+        "nba_player_prop_check",
+        "nhl_shots_check",
+        "mlb_run_line_check",
+        "mlb_under_bb_check",
+        "no_same_game_opposite"
+      ],
+      "locked": true,
+      "late_add": false,
+      "late_add_reason": "",
+      "bonus_pick": false,
+      "event_type": "",
+      "event_name": "",
+      "legs": [],
+      "headline": "T-Mobile Park suppresses runs, Hancock has been excellent, and the Mets are starting a reliever-turned-opener.",
+      "the_thesis": "T-Mobile Park is one of the most pitcher-friendly parks in baseball. Its runs park factor of 0.93 and HR park factor of 0.93 suppress offense, and the Mariners have been built around pitching and defense for years.\n\nEmerson Hancock has been excellent in 2026 \u2014 a 2.78 ERA with a 1.01 WHIP and a 25.1% strikeout rate. He's been consistent, going 6+ innings in most of his starts, and his underlying metrics support the surface numbers.\n\nThe Mets are starting Austin Warren, a reliever-turned-opener with limited innings. His 1.40 ERA is backed by a 1.19 WHIP, but he's only thrown 19.1 innings this season. The Mets will likely need multiple relievers to cover this game, which creates variance.\n\nThe total has moved slightly from 7.33 to 7.5, but the underlying matchup still favors the under. Both offenses are league average, and the park suppresses runs.",
+      "the_data": [
+        {
+          "label": "T-Mobile Park runs PF",
+          "value": "0.93",
+          "context": "Pitcher-friendly, HR-suppressing"
+        },
+        {
+          "label": "Hancock ERA (season)",
+          "value": "2.78",
+          "context": "Excellent, top-20 in MLB"
+        },
+        {
+          "label": "Hancock WHIP (season)",
+          "value": "1.01",
+          "context": "Elite, top-15 in MLB"
+        },
+        {
+          "label": "Warren IP (season)",
+          "value": "19.1",
+          "context": "Limited sample, reliever-turned-opener"
+        },
+        {
+          "label": "Mets R/G (season)",
+          "value": "4.05",
+          "context": "League average"
+        }
+      ],
+      "the_market": "Total opened at 7.33 and has moved to 7.5. Only FanDuel has pricing on this game, which limits our ability to shop. At -115, the under has value given the park and pitching matchup.",
+      "weather_park": "T-Mobile Park is pitcher-friendly (runs PF 0.93, HR PF 0.93). Weather is clear, no concerns.",
+      "case_against": "The Mets bullpen could struggle if Warren exits early, and the Mariners offense has been inconsistent. If the Mets get to Hancock early, this could go over. Only one book has pricing, which limits our confidence in the line.",
+      "what_were_betting_on": "Hancock going 6+ innings with 2 or fewer earned runs, the Mets bullpen holding, and T-Mobile Park suppressing the offense.",
+      "scott_bot_quip": "T-Mobile Park is where offense goes to die. Tonight's no different.",
+      "ladder_note": "",
+      "date": "2026-06-01",
+      "status": "PEND",
+      "units_result": null,
+      "clv_cents": null,
+      "result_score": null,
+      "graded_at": null,
+      "slate_assessment": "Nine-game MLB-only board with thin data confidence across the slate. Two pitching matchups stand out \u2014 Joe Ryan vs. a TBD White Sox arm at Target Field, and Eduardo Rodriguez vs. Emmet Sheehan in Arizona \u2014 but several games carry data_confidence below 0.6, limiting actionable plays.",
+      "executive_summary": "Thin nine-game MLB slate with no NBA or NHL tonight, but two pitching matchups jump off the page. Joe Ryan at home against a rebuilding White Sox club is the cleanest floor play on the board \u2014 Ryan hasn't allowed more than two earned runs in six straight starts, and the White Sox offense ranks near the bottom of the league. The Dodgers-Diamondbacks total at 9.0 offers value on the under given Sheehan's underlying metrics and E-Rod's regression risk. We're also finding edge in the Angels-Rockies game where Kyle Freeland has allowed six-plus runs in four of his last five starts. The ladder rides with the Twins ML \u2014 best floor, best pitcher, weakest opponent.",
+      "slate_analysis": "Tonight's board features nine MLB games, no NBA, no NHL. The pricing climate is soft \u2014 most totals sit between 7.5 and 9.5, and several moneylines are near pick'em. Data confidence is a problem: five of nine games carry confidence below 0.5, which limits the pool of actionable plays. The prop slate is thin \u2014 only two games (MIA@WSH and KC@CIN) have full prop coverage, and neither features a standout K or HR angle.\n\nThe top candidates that rose during my review: (1) Twins ML vs. White Sox \u2014 Joe Ryan hasn't allowed more than two earned runs in six straight starts, and the White Sox are starting a TBD arm (likely David Sandlin, a rookie with minimal track record). The line has moved against the Twins (from -158 to -102), which is unusual given Ryan's form, but the underlying matchup still favors Minnesota. (2) Dodgers-Diamondbacks Under 9.0 \u2014 Eduardo Rodriguez's 2.31 ERA is propped up by a 4.43 xERA, and Sheehan's 4.70 ERA masks a 3.86 xERA. Both pitchers have regression risk, but the total has climbed from 8.5 to 9.25, creating value on the under. (3) Angels ML vs. Rockies \u2014 Kyle Freeland has allowed six-plus runs in four of his last five starts, and Jos\u00e9 Soriano has been solid (2.65 ERA, 27% K rate). (4) Cardinals ML vs. Rangers \u2014 deGrom struggled in May (5.72 ERA, nine HRs allowed), and McGreevy's 2.98 ERA is backed by a 5.63 xERA, but the Cardinals have been strong at home. (5) Brewers ML vs. Giants \u2014 Milwaukee is -180 at home with Shane Drohan on the mound, but the juice exceeds our -150 cap for straight bets. (6) Mariners ML vs. Mets \u2014 Emerson Hancock has been solid (2.78 ERA, 1.01 WHIP), and T-Mobile Park suppresses runs.\n\nWhat got cut: The Brewers ML at -180 exceeds our straight-bet juice cap. The Tigers-Rays game has data_confidence of 0.4 and a TBD pitcher for Detroit. The Marlins-Nationals game has data_confidence of 0.45 and both pitchers have thin samples. The Royals-Reds game features Lyon Richardson (0.2 IP this season) and Luinder Avila (21.1 IP, mostly relief) \u2014 too much uncertainty. The Mets-Mariners game has only one book (FanDuel) with pricing, limiting our ability to shop.\n\nThe final six picks: (1) Twins ML \u2014 best floor, best pitcher, weakest opponent. (2) Dodgers-Diamondbacks Under 9.0 \u2014 regression risk on both sides, total has climbed too high. (3) Angels ML \u2014 Freeland has been a disaster, Soriano has been solid. (4) Cardinals ML \u2014 deGrom's May struggles, McGreevy's home splits, Busch Stadium suppresses HRs. (5) Mariners Under 7.5 \u2014 T-Mobile Park is pitcher-friendly, Hancock has been excellent, Warren is a reliever-turned-opener with limited innings. (6) Rangers-Cardinals Under 7.5 \u2014 both pitchers have HR-suppressing profiles, Busch Stadium wind blowing in. The ladder pick is Twins ML \u2014 Ryan's form, the White Sox's weakness, and the line movement creating value at -102.",
+      "slate_vibe": "NORMAL",
+      "published_at": "2026-06-01T15:57:56.184251-04:00"
+    },
+    {
+      "id": "20260601-MLB-TEX-STL-ML",
+      "sport": "MLB",
+      "game": "TEX @ STL",
+      "first_pitch_iso": "2026-06-01T23:45Z",
+      "pick": "St. Louis Cardinals ML",
+      "best_book": "FanDuel",
+      "best_odds": "-104",
+      "book_prices": {
+        "draftkings": "-110",
+        "fanduel": "-104"
+      },
+      "book_links": {
+        "fanduel": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.582855462&selectionId=50291",
+        "draftkings": "https://sportsbook.draftkings.com/?outcomes=0ML85008911_1",
+        "betmgm": "https://sports.nj.betmgm.com/en/sports/baseball-23/betting/usa-9/mlb-75"
+      },
+      "market": "MONEYLINE",
+      "confidence": 3,
+      "units": 1.0,
+      "win_probability": 0.55,
+      "ladder_designation": false,
+      "data_confidence": 0.65,
+      "rules_passed": [
+        "max_juice",
+        "ladder_even_money",
+        "parlay_well_formed",
+        "confidence_units_match",
+        "data_confidence_floor",
+        "pick_type_allowed",
+        "mlb_hr_prop_check",
+        "mlb_pitcher_k_check",
+        "mlb_total_bases_check",
+        "mlb_hits_check",
+        "nba_player_prop_check",
+        "nhl_shots_check",
+        "mlb_run_line_check",
+        "mlb_under_bb_check",
+        "no_same_game_opposite"
+      ],
+      "locked": true,
+      "late_add": false,
+      "late_add_reason": "",
+      "bonus_pick": false,
+      "event_type": "",
+      "event_name": "",
+      "legs": [],
+      "headline": "deGrom struggled in May (5.72 ERA, nine HRs allowed). McGreevy has been solid at home.",
+      "the_thesis": "Jacob deGrom is still Jacob deGrom, but May was rough. He posted a 5.72 ERA with a .332 wOBA and allowed nine of his 13 home runs on the season. His HR/9 of 1.98 is alarming for a pitcher of his caliber, and Busch Stadium's HR-suppressing park factor (0.93) should help the Cardinals.\n\nMichael McGreevy has been a pleasant surprise for St. Louis. His 2.98 ERA is backed by a 1.09 WHIP and a 6.3% walk rate. His xERA of 5.63 suggests he's been lucky, but he's been effective at home and the Cardinals have been strong at Busch Stadium this season.\n\nThe line has moved toward the Cardinals (from +106 to -104), suggesting sharp money on the home side. deGrom's May struggles and McGreevy's home splits create value on St. Louis.",
+      "the_data": [
+        {
+          "label": "deGrom May ERA",
+          "value": "5.72",
+          "context": "Rough month, nine HRs allowed"
+        },
+        {
+          "label": "deGrom HR/9 (season)",
+          "value": "1.98",
+          "context": "Alarming, career-worst pace"
+        },
+        {
+          "label": "McGreevy ERA (season)",
+          "value": "2.98",
+          "context": "Solid, above-average"
+        },
+        {
+          "label": "Busch Stadium HR PF",
+          "value": "0.93",
+          "context": "HR-suppressing"
+        },
+        {
+          "label": "Cardinals ML implied prob (market)",
+          "value": "49.3%",
+          "context": "Below my fair line of 55%"
+        }
+      ],
+      "the_market": "Line opened at Cardinals +106 and has moved to -104 \u2014 a significant swing toward the home side. The market is pricing this as a coin flip, but the underlying matchup and deGrom's May struggles suggest value on St. Louis.",
+      "weather_park": "Busch Stadium is HR-suppressing (PF 0.93). Wind blowing in from CF at 6 mph. Weather is clear, 82\u00b0F.",
+      "case_against": "deGrom is still deGrom \u2014 he can dominate any lineup on any given night. McGreevy's xERA of 5.63 suggests he's been lucky, and regression could come at any time. The Rangers offense has been solid, and deGrom's strikeout rate (29.4%) is still elite.",
+      "what_were_betting_on": "McGreevy going 6+ innings with 3 or fewer earned runs, the Cardinals offense tagging deGrom for a few runs, and Busch Stadium suppressing the long ball.",
+      "scott_bot_quip": "deGrom's May was a horror movie. The Cardinals are betting on a sequel.",
+      "ladder_note": "",
+      "date": "2026-06-01",
+      "status": "PEND",
+      "units_result": null,
+      "clv_cents": null,
+      "result_score": null,
+      "graded_at": null,
+      "slate_assessment": "Nine-game MLB-only board with thin data confidence across the slate. Two pitching matchups stand out \u2014 Joe Ryan vs. a TBD White Sox arm at Target Field, and Eduardo Rodriguez vs. Emmet Sheehan in Arizona \u2014 but several games carry data_confidence below 0.6, limiting actionable plays.",
+      "executive_summary": "Thin nine-game MLB slate with no NBA or NHL tonight, but two pitching matchups jump off the page. Joe Ryan at home against a rebuilding White Sox club is the cleanest floor play on the board \u2014 Ryan hasn't allowed more than two earned runs in six straight starts, and the White Sox offense ranks near the bottom of the league. The Dodgers-Diamondbacks total at 9.0 offers value on the under given Sheehan's underlying metrics and E-Rod's regression risk. We're also finding edge in the Angels-Rockies game where Kyle Freeland has allowed six-plus runs in four of his last five starts. The ladder rides with the Twins ML \u2014 best floor, best pitcher, weakest opponent.",
+      "slate_analysis": "Tonight's board features nine MLB games, no NBA, no NHL. The pricing climate is soft \u2014 most totals sit between 7.5 and 9.5, and several moneylines are near pick'em. Data confidence is a problem: five of nine games carry confidence below 0.5, which limits the pool of actionable plays. The prop slate is thin \u2014 only two games (MIA@WSH and KC@CIN) have full prop coverage, and neither features a standout K or HR angle.\n\nThe top candidates that rose during my review: (1) Twins ML vs. White Sox \u2014 Joe Ryan hasn't allowed more than two earned runs in six straight starts, and the White Sox are starting a TBD arm (likely David Sandlin, a rookie with minimal track record). The line has moved against the Twins (from -158 to -102), which is unusual given Ryan's form, but the underlying matchup still favors Minnesota. (2) Dodgers-Diamondbacks Under 9.0 \u2014 Eduardo Rodriguez's 2.31 ERA is propped up by a 4.43 xERA, and Sheehan's 4.70 ERA masks a 3.86 xERA. Both pitchers have regression risk, but the total has climbed from 8.5 to 9.25, creating value on the under. (3) Angels ML vs. Rockies \u2014 Kyle Freeland has allowed six-plus runs in four of his last five starts, and Jos\u00e9 Soriano has been solid (2.65 ERA, 27% K rate). (4) Cardinals ML vs. Rangers \u2014 deGrom struggled in May (5.72 ERA, nine HRs allowed), and McGreevy's 2.98 ERA is backed by a 5.63 xERA, but the Cardinals have been strong at home. (5) Brewers ML vs. Giants \u2014 Milwaukee is -180 at home with Shane Drohan on the mound, but the juice exceeds our -150 cap for straight bets. (6) Mariners ML vs. Mets \u2014 Emerson Hancock has been solid (2.78 ERA, 1.01 WHIP), and T-Mobile Park suppresses runs.\n\nWhat got cut: The Brewers ML at -180 exceeds our straight-bet juice cap. The Tigers-Rays game has data_confidence of 0.4 and a TBD pitcher for Detroit. The Marlins-Nationals game has data_confidence of 0.45 and both pitchers have thin samples. The Royals-Reds game features Lyon Richardson (0.2 IP this season) and Luinder Avila (21.1 IP, mostly relief) \u2014 too much uncertainty. The Mets-Mariners game has only one book (FanDuel) with pricing, limiting our ability to shop.\n\nThe final six picks: (1) Twins ML \u2014 best floor, best pitcher, weakest opponent. (2) Dodgers-Diamondbacks Under 9.0 \u2014 regression risk on both sides, total has climbed too high. (3) Angels ML \u2014 Freeland has been a disaster, Soriano has been solid. (4) Cardinals ML \u2014 deGrom's May struggles, McGreevy's home splits, Busch Stadium suppresses HRs. (5) Mariners Under 7.5 \u2014 T-Mobile Park is pitcher-friendly, Hancock has been excellent, Warren is a reliever-turned-opener with limited innings. (6) Rangers-Cardinals Under 7.5 \u2014 both pitchers have HR-suppressing profiles, Busch Stadium wind blowing in. The ladder pick is Twins ML \u2014 Ryan's form, the White Sox's weakness, and the line movement creating value at -102.",
+      "slate_vibe": "NORMAL",
+      "published_at": "2026-06-01T15:57:56.184120-04:00"
+    },
+    {
+      "id": "20260601-MLB-LAD-ARI-TOTAL",
+      "sport": "MLB",
+      "game": "LAD @ ARI",
+      "first_pitch_iso": "2026-06-02T01:40Z",
+      "pick": "Under 9.0",
+      "best_book": "DraftKings",
+      "best_odds": "+100",
+      "book_prices": {
+        "draftkings": "+100",
+        "fanduel": "-122"
+      },
+      "book_links": {
+        "fanduel": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.582948412&selectionId=7017906",
+        "draftkings": "https://sportsbook.draftkings.com/?outcomes=0OU85008915U900_3",
+        "betmgm": "https://sports.nj.betmgm.com/en/sports/baseball-23/betting/usa-9/mlb-75"
+      },
+      "market": "TOTAL",
+      "confidence": 4,
+      "units": 1.5,
+      "win_probability": 0.58,
+      "ladder_designation": false,
+      "data_confidence": 0.65,
+      "rules_passed": [
+        "max_juice",
+        "ladder_even_money",
+        "parlay_well_formed",
+        "confidence_units_match",
+        "data_confidence_floor",
+        "pick_type_allowed",
+        "mlb_hr_prop_check",
+        "mlb_pitcher_k_check",
+        "mlb_total_bases_check",
+        "mlb_hits_check",
+        "nba_player_prop_check",
+        "nhl_shots_check",
+        "mlb_run_line_check",
+        "mlb_under_bb_check",
+        "no_same_game_opposite"
+      ],
+      "locked": true,
+      "late_add": false,
+      "late_add_reason": "",
+      "bonus_pick": false,
+      "event_type": "",
+      "event_name": "",
+      "legs": [],
+      "headline": "E-Rod's 2.31 ERA is propped up by a 4.43 xERA \u2014 regression is coming, but so is the under.",
+      "the_thesis": "Eduardo Rodriguez has been one of the best stories in baseball this season \u2014 a 5-1 record with a 2.31 ERA after two disastrous seasons in Arizona. But the underlying numbers tell a different story. His xERA sits at 4.43, a full two runs higher than his surface ERA, suggesting he's been significantly overperforming his peripherals. His chase rate is 38th percentile, his strikeout rate is 18% (23rd percentile), and his whiff rate is below average. The ERA is real but fragile.\n\nEmmet Sheehan, on the other side, tells the opposite story. His 4.70 ERA looks alarming, but his xERA of 3.86 shows he's been somewhat unlucky. He's struggled on the road (6.52 ERA), but he's facing an Arizona offense that has dropped three straight and struggles to make consistent contact outside the zone.\n\nThe total has climbed from 8.5 at open to 9.25 now, creating value on the under. Both pitchers have regression risk, but the market has overcorrected. Chase Field is neutral (runs PF 1.01), and neither offense is elite. I'm betting on both pitchers to be better than their worst-case scenarios.",
+      "the_data": [
+        {
+          "label": "E-Rod ERA / xERA",
+          "value": "2.31 / 4.43",
+          "context": "Massive overperformance, regression likely"
+        },
+        {
+          "label": "E-Rod K% (season)",
+          "value": "18%",
+          "context": "23rd percentile, below average"
+        },
+        {
+          "label": "Sheehan ERA / xERA",
+          "value": "4.70 / 3.86",
+          "context": "Unlucky, better than surface"
+        },
+        {
+          "label": "Total movement",
+          "value": "8.5 \u2192 9.25",
+          "context": "0.75 runs of movement, value on under"
+        },
+        {
+          "label": "Chase Field runs PF",
+          "value": "1.01",
+          "context": "Neutral"
+        }
+      ],
+      "the_market": "Total opened at 8.5 and has climbed to 9.25 across two books. The market is pricing in a shootout, but the underlying metrics suggest both pitchers are closer to league average than their surface numbers indicate. At +100 on DraftKings, the under has value.",
+      "weather_park": "Chase Field is a dome \u2014 no weather concerns. Park is neutral (runs PF 1.01, HR PF 1.07).",
+      "case_against": "The Dodgers offense is elite (5.32 R/G), and they've won eight of their last ten. If E-Rod's regression happens tonight, this could get ugly fast. Sheehan has also struggled on the road, and the Diamondbacks have been scoring runs at home. The total movement suggests sharp money on the over.",
+      "what_were_betting_on": "Both pitchers to be closer to their xERA than their surface ERA, the total to stay under 9.0, and the bullpens to hold.",
+      "scott_bot_quip": "E-Rod's ERA is a mirage. The desert sun is about to burn it off.",
+      "ladder_note": "",
+      "date": "2026-06-01",
+      "status": "PEND",
+      "units_result": null,
+      "clv_cents": null,
+      "result_score": null,
+      "graded_at": null,
+      "slate_assessment": "Nine-game MLB-only board with thin data confidence across the slate. Two pitching matchups stand out \u2014 Joe Ryan vs. a TBD White Sox arm at Target Field, and Eduardo Rodriguez vs. Emmet Sheehan in Arizona \u2014 but several games carry data_confidence below 0.6, limiting actionable plays.",
+      "executive_summary": "Thin nine-game MLB slate with no NBA or NHL tonight, but two pitching matchups jump off the page. Joe Ryan at home against a rebuilding White Sox club is the cleanest floor play on the board \u2014 Ryan hasn't allowed more than two earned runs in six straight starts, and the White Sox offense ranks near the bottom of the league. The Dodgers-Diamondbacks total at 9.0 offers value on the under given Sheehan's underlying metrics and E-Rod's regression risk. We're also finding edge in the Angels-Rockies game where Kyle Freeland has allowed six-plus runs in four of his last five starts. The ladder rides with the Twins ML \u2014 best floor, best pitcher, weakest opponent.",
+      "slate_analysis": "Tonight's board features nine MLB games, no NBA, no NHL. The pricing climate is soft \u2014 most totals sit between 7.5 and 9.5, and several moneylines are near pick'em. Data confidence is a problem: five of nine games carry confidence below 0.5, which limits the pool of actionable plays. The prop slate is thin \u2014 only two games (MIA@WSH and KC@CIN) have full prop coverage, and neither features a standout K or HR angle.\n\nThe top candidates that rose during my review: (1) Twins ML vs. White Sox \u2014 Joe Ryan hasn't allowed more than two earned runs in six straight starts, and the White Sox are starting a TBD arm (likely David Sandlin, a rookie with minimal track record). The line has moved against the Twins (from -158 to -102), which is unusual given Ryan's form, but the underlying matchup still favors Minnesota. (2) Dodgers-Diamondbacks Under 9.0 \u2014 Eduardo Rodriguez's 2.31 ERA is propped up by a 4.43 xERA, and Sheehan's 4.70 ERA masks a 3.86 xERA. Both pitchers have regression risk, but the total has climbed from 8.5 to 9.25, creating value on the under. (3) Angels ML vs. Rockies \u2014 Kyle Freeland has allowed six-plus runs in four of his last five starts, and Jos\u00e9 Soriano has been solid (2.65 ERA, 27% K rate). (4) Cardinals ML vs. Rangers \u2014 deGrom struggled in May (5.72 ERA, nine HRs allowed), and McGreevy's 2.98 ERA is backed by a 5.63 xERA, but the Cardinals have been strong at home. (5) Brewers ML vs. Giants \u2014 Milwaukee is -180 at home with Shane Drohan on the mound, but the juice exceeds our -150 cap for straight bets. (6) Mariners ML vs. Mets \u2014 Emerson Hancock has been solid (2.78 ERA, 1.01 WHIP), and T-Mobile Park suppresses runs.\n\nWhat got cut: The Brewers ML at -180 exceeds our straight-bet juice cap. The Tigers-Rays game has data_confidence of 0.4 and a TBD pitcher for Detroit. The Marlins-Nationals game has data_confidence of 0.45 and both pitchers have thin samples. The Royals-Reds game features Lyon Richardson (0.2 IP this season) and Luinder Avila (21.1 IP, mostly relief) \u2014 too much uncertainty. The Mets-Mariners game has only one book (FanDuel) with pricing, limiting our ability to shop.\n\nThe final six picks: (1) Twins ML \u2014 best floor, best pitcher, weakest opponent. (2) Dodgers-Diamondbacks Under 9.0 \u2014 regression risk on both sides, total has climbed too high. (3) Angels ML \u2014 Freeland has been a disaster, Soriano has been solid. (4) Cardinals ML \u2014 deGrom's May struggles, McGreevy's home splits, Busch Stadium suppresses HRs. (5) Mariners Under 7.5 \u2014 T-Mobile Park is pitcher-friendly, Hancock has been excellent, Warren is a reliever-turned-opener with limited innings. (6) Rangers-Cardinals Under 7.5 \u2014 both pitchers have HR-suppressing profiles, Busch Stadium wind blowing in. The ladder pick is Twins ML \u2014 Ryan's form, the White Sox's weakness, and the line movement creating value at -102.",
+      "slate_vibe": "NORMAL",
+      "published_at": "2026-06-01T15:57:56.183996-04:00"
+    },
+    {
+      "id": "20260601-MLB-CHW-MIN-ML",
+      "sport": "MLB",
+      "game": "CHW @ MIN",
+      "first_pitch_iso": "2026-06-01T23:40Z",
+      "pick": "Minnesota Twins ML",
+      "best_book": "FanDuel",
+      "best_odds": "-102",
+      "book_prices": {
+        "draftkings": "-102",
+        "fanduel": "-102"
+      },
+      "book_links": {
+        "fanduel": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.582855457&selectionId=29160",
+        "draftkings": "https://sportsbook.draftkings.com/?outcomes=0ML85008910_1",
+        "betmgm": "https://sports.nj.betmgm.com/en/sports/baseball-23/betting/usa-9/mlb-75"
+      },
+      "market": "MONEYLINE",
+      "confidence": 4,
+      "units": 1.5,
+      "win_probability": 0.58,
+      "ladder_designation": true,
+      "data_confidence": 0.65,
+      "rules_passed": [
+        "max_juice",
+        "ladder_even_money",
+        "parlay_well_formed",
+        "confidence_units_match",
+        "data_confidence_floor",
+        "pick_type_allowed",
+        "mlb_hr_prop_check",
+        "mlb_pitcher_k_check",
+        "mlb_total_bases_check",
+        "mlb_hits_check",
+        "nba_player_prop_check",
+        "nhl_shots_check",
+        "mlb_run_line_check",
+        "mlb_under_bb_check",
+        "no_same_game_opposite"
+      ],
+      "locked": true,
+      "late_add": false,
+      "late_add_reason": "",
+      "bonus_pick": false,
+      "event_type": "",
+      "event_name": "",
+      "legs": [],
+      "headline": "Joe Ryan's six-start dominance streak meets a rebuilding White Sox club with a TBD arm.",
+      "the_thesis": "Joe Ryan has been one of the most consistent starters in baseball over the past month. He hasn't allowed more than two earned runs in six straight starts, posting a 2.94 ERA with a 0.93 WHIP and a 27.5% strikeout rate. His command has been elite \u2014 a 5.5% walk rate is top-tier \u2014 and his underlying metrics (FIP, xERA) support the surface numbers. This is a pitcher who's pitching to his talent level, not running hot.\n\nThe White Sox, meanwhile, are in full rebuild mode. Their Opening Day rotation featured Shane Smith, Sean Burke, Anthony Kay, Davis Martin, and Erick Fedde \u2014 none of whom would crack a contender's top three. Tonight's starter is TBD, likely David Sandlin, a rookie who made his MLB debut last week and allowed one run in one hit with four strikeouts against the Twins. That's a tiny sample, and the Twins lineup has seen him once already. The White Sox offense ranks near the bottom of the league in most categories, and they're on the road against a pitcher who's been dominant.\n\nThe line has moved against the Twins \u2014 from -158 at open to -102 now \u2014 which is unusual given Ryan's form. That movement suggests sharp money on the White Sox, but I'm not buying it. The underlying matchup still favors Minnesota, and the line movement has created value on the home side.",
+      "the_data": [
+        {
+          "label": "Joe Ryan ERA (season)",
+          "value": "2.94",
+          "context": "Elite, top-15 in MLB"
+        },
+        {
+          "label": "Joe Ryan WHIP (season)",
+          "value": "0.93",
+          "context": "Elite, top-10 in MLB"
+        },
+        {
+          "label": "Joe Ryan K% (season)",
+          "value": "27.5%",
+          "context": "Above-average, 75th percentile"
+        },
+        {
+          "label": "Joe Ryan BB% (season)",
+          "value": "5.5%",
+          "context": "Elite command, top-10 in MLB"
+        },
+        {
+          "label": "White Sox R/G (season)",
+          "value": "4.66",
+          "context": "League average"
+        },
+        {
+          "label": "Twins ML implied prob (market)",
+          "value": "48.5%",
+          "context": "Below my fair line of 58%"
+        }
+      ],
+      "the_market": "Line opened at Twins -158 and has moved all the way to -102 \u2014 a 10-cent swing toward the White Sox. That's unusual given Ryan's form, but it's created value on the home side. The market is pricing this as a coin flip, but the underlying matchup says otherwise.",
+      "weather_park": "Target Field is neutral (runs PF 0.98, HR PF 0.97). Weather is clear, no wind concerns.",
+      "case_against": "The line movement is real \u2014 sharp money has come in on the White Sox, and there may be information I don't have (injury, lineup change, etc.). If Ryan exits early or the White Sox starter outperforms expectations, this could bust. The Twins have also been inconsistent this season (15-20 record), and their bullpen has had some rough patches.",
+      "what_were_betting_on": "Joe Ryan going 6+ innings with 2 or fewer earned runs, the Twins offense providing enough support against a TBD arm, and the bullpen closing it out.",
+      "scott_bot_quip": "The sharps moved this line 10 cents. I'm betting they're wrong.",
+      "ladder_note": "Best floor on the board \u2014 elite pitcher, weak opponent, value created by line movement. This is the play you want for a ladder challenge.",
+      "date": "2026-06-01",
+      "status": "PEND",
+      "units_result": null,
+      "clv_cents": null,
+      "result_score": null,
+      "graded_at": null,
+      "slate_assessment": "Nine-game MLB-only board with thin data confidence across the slate. Two pitching matchups stand out \u2014 Joe Ryan vs. a TBD White Sox arm at Target Field, and Eduardo Rodriguez vs. Emmet Sheehan in Arizona \u2014 but several games carry data_confidence below 0.6, limiting actionable plays.",
+      "executive_summary": "Thin nine-game MLB slate with no NBA or NHL tonight, but two pitching matchups jump off the page. Joe Ryan at home against a rebuilding White Sox club is the cleanest floor play on the board \u2014 Ryan hasn't allowed more than two earned runs in six straight starts, and the White Sox offense ranks near the bottom of the league. The Dodgers-Diamondbacks total at 9.0 offers value on the under given Sheehan's underlying metrics and E-Rod's regression risk. We're also finding edge in the Angels-Rockies game where Kyle Freeland has allowed six-plus runs in four of his last five starts. The ladder rides with the Twins ML \u2014 best floor, best pitcher, weakest opponent.",
+      "slate_analysis": "Tonight's board features nine MLB games, no NBA, no NHL. The pricing climate is soft \u2014 most totals sit between 7.5 and 9.5, and several moneylines are near pick'em. Data confidence is a problem: five of nine games carry confidence below 0.5, which limits the pool of actionable plays. The prop slate is thin \u2014 only two games (MIA@WSH and KC@CIN) have full prop coverage, and neither features a standout K or HR angle.\n\nThe top candidates that rose during my review: (1) Twins ML vs. White Sox \u2014 Joe Ryan hasn't allowed more than two earned runs in six straight starts, and the White Sox are starting a TBD arm (likely David Sandlin, a rookie with minimal track record). The line has moved against the Twins (from -158 to -102), which is unusual given Ryan's form, but the underlying matchup still favors Minnesota. (2) Dodgers-Diamondbacks Under 9.0 \u2014 Eduardo Rodriguez's 2.31 ERA is propped up by a 4.43 xERA, and Sheehan's 4.70 ERA masks a 3.86 xERA. Both pitchers have regression risk, but the total has climbed from 8.5 to 9.25, creating value on the under. (3) Angels ML vs. Rockies \u2014 Kyle Freeland has allowed six-plus runs in four of his last five starts, and Jos\u00e9 Soriano has been solid (2.65 ERA, 27% K rate). (4) Cardinals ML vs. Rangers \u2014 deGrom struggled in May (5.72 ERA, nine HRs allowed), and McGreevy's 2.98 ERA is backed by a 5.63 xERA, but the Cardinals have been strong at home. (5) Brewers ML vs. Giants \u2014 Milwaukee is -180 at home with Shane Drohan on the mound, but the juice exceeds our -150 cap for straight bets. (6) Mariners ML vs. Mets \u2014 Emerson Hancock has been solid (2.78 ERA, 1.01 WHIP), and T-Mobile Park suppresses runs.\n\nWhat got cut: The Brewers ML at -180 exceeds our straight-bet juice cap. The Tigers-Rays game has data_confidence of 0.4 and a TBD pitcher for Detroit. The Marlins-Nationals game has data_confidence of 0.45 and both pitchers have thin samples. The Royals-Reds game features Lyon Richardson (0.2 IP this season) and Luinder Avila (21.1 IP, mostly relief) \u2014 too much uncertainty. The Mets-Mariners game has only one book (FanDuel) with pricing, limiting our ability to shop.\n\nThe final six picks: (1) Twins ML \u2014 best floor, best pitcher, weakest opponent. (2) Dodgers-Diamondbacks Under 9.0 \u2014 regression risk on both sides, total has climbed too high. (3) Angels ML \u2014 Freeland has been a disaster, Soriano has been solid. (4) Cardinals ML \u2014 deGrom's May struggles, McGreevy's home splits, Busch Stadium suppresses HRs. (5) Mariners Under 7.5 \u2014 T-Mobile Park is pitcher-friendly, Hancock has been excellent, Warren is a reliever-turned-opener with limited innings. (6) Rangers-Cardinals Under 7.5 \u2014 both pitchers have HR-suppressing profiles, Busch Stadium wind blowing in. The ladder pick is Twins ML \u2014 Ryan's form, the White Sox's weakness, and the line movement creating value at -102.",
+      "slate_vibe": "NORMAL",
+      "published_at": "2026-06-01T15:57:56.183789-04:00"
+    },
     {
       "id": "20260531-MLB-NYY-ATH-PROP-AARONJUDGE",
       "sport": "MLB",
