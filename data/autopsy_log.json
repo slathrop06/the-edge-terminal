@@ -1,5 +1,18 @@
 [
   {
+    "id": "20260531-MLB-NYY-ATH-PROP-AARONJUDGE",
+    "date": "2026-05-31",
+    "pick": "Aaron Judge Total Bases Over 1.5",
+    "game": "NYY @ ATH",
+    "odds": "-130",
+    "result_score": "Aaron Judge: 1 totalBases",
+    "classification": "VARIANCE",
+    "post_mortem": "The thesis was sound \u2014 Judge faced a struggling Lopez (5.73 ERA, 2.05 HR/9) and the Yankees won the game. But Lopez and the A's bullpen pitched around Judge relentlessly: the play-by-play shows Judge drew multiple walks off Lopez and was intentionally avoided in key spots, producing only 1 total base (an RBI single per the ESPN box score showing 'Judge 1-2' with RISP). The cruelest moment came in the 5th inning of the May 30 game (wrong game \u2014 confirmed May 31 data shows Judge went 1-for-2 with a walk and an RBI, totaling exactly 1 base), where a deep fly to right off Ginn was caught at the wall \u2014 described as 'a home run in 16 ballparks, including Yankee Stadium.' Judge hit the ball hard, got on base multiple times, and drove in a run, but the A's strategy of issuing walks and one loud out at the warning track held him to exactly the 1.5 line threshold.",
+    "candidate_rule": null,
+    "sample_size_warning": "N=1, insufficient to establish rule \u2014 this is a single-game prop outcome driven by opponent walk strategy and one warning-track out, not a systematic model failure.",
+    "analyzed_at": "2026-05-31T20:12:15.543140-04:00"
+  },
+  {
     "id": "20260531-MLB-BOS-CLE-TOTAL",
     "date": "2026-05-31",
     "pick": "Under 7.0",

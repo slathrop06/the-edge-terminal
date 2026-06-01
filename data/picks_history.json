@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated_at": "2026-05-31T18:50:45.759639-04:00",
+  "updated_at": "2026-05-31T20:12:15.548048-04:00",
   "picks": [
     {
       "id": "20260531-MLB-NYY-ATH-PROP-AARONJUDGE",
@@ -86,16 +86,22 @@
       "scott_bot_quip": "Lopez gives up homers like he's allergic to keeping the ball in the park. Judge will feast.",
       "ladder_note": "",
       "date": "2026-05-31",
-      "status": "PEND",
-      "units_result": null,
+      "status": "LOSS",
+      "units_result": -1.0,
       "clv_cents": null,
-      "result_score": null,
-      "graded_at": null,
+      "result_score": "Aaron Judge: 1 totalBases",
+      "graded_at": "2026-05-31T20:11:53.027322-04:00",
       "slate_assessment": "15-game MLB-only slate with several compelling pitching matchups. Misiorowski vs. Imai in Houston stands out as the clearest edge, while Seattle's pitcher-friendly park and weather create a strong under spot. Multiple prop opportunities emerge from the high-total games.",
       "executive_summary": "The board today is all about pitching mismatches and park factors. Jacob Misiorowski brings elite stuff (40.3% K rate, 1.83 ERA) into Houston against a struggling Tatsuya Imai, and the Brewers -1.5 at -111 offers real value. Seattle's T-Mobile Park with 8 mph wind blowing in creates a textbook under spot against Arizona. The prop slate delivers too \u2014 Spencer Strider's K line at 6.5 against a Cincinnati lineup that strikes out at a high clip is the sharpest player prop on the board. Six plays today, all backed by predictive metrics and market support. The ladder rides with the Brewers run line \u2014 best floor, elite SP, soft opponent.",
       "slate_analysis": "Today's board features 15 MLB games with no NBA or NHL action. The pricing climate is relatively balanced, with several games sitting near pick'em territory and a handful of heavy favorites (Dodgers -235, Brewers -193, Rays -200). The total market shows some movement \u2014 SD/WSH climbed from 9.0 to 9.5 since open, suggesting public money on the over in a game featuring two struggling starters.\n\nThe top candidates that earned hard looks: Milwaukee at Houston stands out immediately \u2014 Misiorowski's 40.3% K rate and 1.83 ERA against Imai's 6.17 ERA and 17.5% BB rate is a massive mismatch. Seattle vs. Arizona at T-Mobile Park with wind blowing in 8 mph suppressing HR by 10% creates a clean under spot with Bryce Miller (2.25 ERA, 3.2% BB rate) on the mound. The Dodgers-Phillies game features Yamamoto (3.09 ERA, 0.98 WHIP) against Painter (5.40 ERA), but the -235 juice prices out the ML. Spencer Strider's K prop at 6.5 against Cincinnati jumped out \u2014 he's struck out 21 over his last 17.2 IP and faces a Reds lineup that whiffs. The Cleveland-Boston under at 7.0 with Ranger Suarez (3.02 ERA) on the mound against a weak Cleveland offense (4.08 R/G) also warranted consideration.\n\nWhat got cut: Tampa Bay ML at -200 exceeds our juice cap for straight bets. The Dodgers ML at -235 is similarly priced out. The MIN/PIT game has data confidence at 0.45 with Zebby Matthews having only 19 IP on the season \u2014 sample too thin. The STL/CHC game features Jordan Wicks with a 16.62 ERA in 4.1 IP \u2014 that's not a sample, that's noise. The COL/SF game at Coors with an 11.0 total is pure variance territory.\n\nThe final six picks survived because they each clear the 8-cent edge threshold with supporting metrics. Misiorowski vs. Imai is the clearest mismatch on the board. The Seattle under combines elite SP, pitcher-friendly park, and weather suppression. Strider's K over leverages his recent form against a strikeout-prone lineup. The Cleveland under pairs two quality arms with weak offenses. The Nationals ML offers value against a struggling Canning. And Aaron Judge's TB prop capitalizes on a weak opposing SP. The ladder designation goes to Brewers -1.5 at -111 \u2014 it's the highest-floor play with the clearest edge, priced right in the even-money band.",
       "slate_vibe": "NORMAL",
-      "published_at": "2026-05-31T13:28:34.330841-04:00"
+      "published_at": "2026-05-31T13:28:34.330841-04:00",
+      "autopsy": {
+        "classification": "VARIANCE",
+        "post_mortem": "The thesis was sound \u2014 Judge faced a struggling Lopez (5.73 ERA, 2.05 HR/9) and the Yankees won the game. But Lopez and the A's bullpen pitched around Judge relentlessly: the play-by-play shows Judge drew multiple walks off Lopez and was intentionally avoided in key spots, producing only 1 total base (an RBI single per the ESPN box score showing 'Judge 1-2' with RISP). The cruelest moment came in the 5th inning of the May 30 game (wrong game \u2014 confirmed May 31 data shows Judge went 1-for-2 with a walk and an RBI, totaling exactly 1 base), where a deep fly to right off Ginn was caught at the wall \u2014 described as 'a home run in 16 ballparks, including Yankee Stadium.' Judge hit the ball hard, got on base multiple times, and drove in a run, but the A's strategy of issuing walks and one loud out at the warning track held him to exactly the 1.5 line threshold.",
+        "candidate_rule": null,
+        "sample_size_warning": "N=1, insufficient to establish rule \u2014 this is a single-game prop outcome driven by opponent walk strategy and one warning-track out, not a systematic model failure."
+      }
     },
     {
       "id": "20260531-MLB-SD-WSH-ML",
@@ -477,11 +483,11 @@
       "scott_bot_quip": "Wind blowing in, park plays small, Miller dealing. This is an under written in the stars.",
       "ladder_note": "",
       "date": "2026-05-31",
-      "status": "PEND",
-      "units_result": null,
+      "status": "WIN",
+      "units_result": 1.3158,
       "clv_cents": null,
-      "result_score": null,
-      "graded_at": null,
+      "result_score": "ARI 2 \u00b7 SEA 3",
+      "graded_at": "2026-05-31T20:12:15.544079-04:00",
       "slate_assessment": "15-game MLB-only slate with several compelling pitching matchups. Misiorowski vs. Imai in Houston stands out as the clearest edge, while Seattle's pitcher-friendly park and weather create a strong under spot. Multiple prop opportunities emerge from the high-total games.",
       "executive_summary": "The board today is all about pitching mismatches and park factors. Jacob Misiorowski brings elite stuff (40.3% K rate, 1.83 ERA) into Houston against a struggling Tatsuya Imai, and the Brewers -1.5 at -111 offers real value. Seattle's T-Mobile Park with 8 mph wind blowing in creates a textbook under spot against Arizona. The prop slate delivers too \u2014 Spencer Strider's K line at 6.5 against a Cincinnati lineup that strikes out at a high clip is the sharpest player prop on the board. Six plays today, all backed by predictive metrics and market support. The ladder rides with the Brewers run line \u2014 best floor, elite SP, soft opponent.",
       "slate_analysis": "Today's board features 15 MLB games with no NBA or NHL action. The pricing climate is relatively balanced, with several games sitting near pick'em territory and a handful of heavy favorites (Dodgers -235, Brewers -193, Rays -200). The total market shows some movement \u2014 SD/WSH climbed from 9.0 to 9.5 since open, suggesting public money on the over in a game featuring two struggling starters.\n\nThe top candidates that earned hard looks: Milwaukee at Houston stands out immediately \u2014 Misiorowski's 40.3% K rate and 1.83 ERA against Imai's 6.17 ERA and 17.5% BB rate is a massive mismatch. Seattle vs. Arizona at T-Mobile Park with wind blowing in 8 mph suppressing HR by 10% creates a clean under spot with Bryce Miller (2.25 ERA, 3.2% BB rate) on the mound. The Dodgers-Phillies game features Yamamoto (3.09 ERA, 0.98 WHIP) against Painter (5.40 ERA), but the -235 juice prices out the ML. Spencer Strider's K prop at 6.5 against Cincinnati jumped out \u2014 he's struck out 21 over his last 17.2 IP and faces a Reds lineup that whiffs. The Cleveland-Boston under at 7.0 with Ranger Suarez (3.02 ERA) on the mound against a weak Cleveland offense (4.08 R/G) also warranted consideration.\n\nWhat got cut: Tampa Bay ML at -200 exceeds our juice cap for straight bets. The Dodgers ML at -235 is similarly priced out. The MIN/PIT game has data confidence at 0.45 with Zebby Matthews having only 19 IP on the season \u2014 sample too thin. The STL/CHC game features Jordan Wicks with a 16.62 ERA in 4.1 IP \u2014 that's not a sample, that's noise. The COL/SF game at Coors with an 11.0 total is pure variance territory.\n\nThe final six picks survived because they each clear the 8-cent edge threshold with supporting metrics. Misiorowski vs. Imai is the clearest mismatch on the board. The Seattle under combines elite SP, pitcher-friendly park, and weather suppression. Strider's K over leverages his recent form against a strikeout-prone lineup. The Cleveland under pairs two quality arms with weak offenses. The Nationals ML offers value against a struggling Canning. And Aaron Judge's TB prop capitalizes on a weak opposing SP. The ladder designation goes to Brewers -1.5 at -111 \u2014 it's the highest-floor play with the clearest edge, priced right in the even-money band.",
