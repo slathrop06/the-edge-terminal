@@ -1,9 +1,17 @@
 {
-  "current_streak": 1,
+  "current_streak": 2,
   "longest_streak": 4,
   "completed_climbs": 0,
   "target": 10,
   "history": [
+    {
+      "date": "2026-06-01",
+      "pick_id": "20260601-MLB-CHW-MIN-ML",
+      "pick": "Minnesota Twins ML",
+      "game": "CHW @ MIN",
+      "status": "WIN",
+      "after_streak": 2
+    },
     {
       "date": "2026-05-31",
       "pick_id": "20260531-MLB-MIL-HOU-SPREAD",
@@ -133,5 +141,5 @@
       "after_streak": 1
     }
   ],
-  "updated_at": "2026-05-31T18:50:45.759083-04:00"
+  "updated_at": "2026-06-02T04:02:44.563302-04:00"
 }

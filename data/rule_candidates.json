@@ -94,5 +94,13 @@
     "candidate_rule": "Before backing an under involving Bibee, require his last-start HR/9 and hard-hit rate to be within 1.0 of his season average \u2014 a single blowup start is a warning sign of mechanical issues that carry over; N=1, insufficient to establish rule.",
     "sample_size_warning": "N=1, insufficient to establish rule \u2014 monitor Bibee under picks for pattern over next 4-6 starts.",
     "status": "PENDING_REVIEW"
+  },
+  {
+    "proposed_at": "2026-06-02T04:02:44.555346-04:00",
+    "source_pick_id": "20260601-MLB-TEX-STL-ML",
+    "source_loss": "St. Louis Cardinals ML (TEX @ STL)",
+    "candidate_rule": "When a starter's trailing-month ERA diverges significantly from their season ERA AND their last-10-start ERA is trending down, weight the recent trend over the monthly split before fading them \u2014 but validate this rule across a minimum of 20+ comparable 'ERA-rebound' starts before treating it as a systematic edge.",
+    "sample_size_warning": "N=1, insufficient to establish rule; this is a single-game observation and could easily be noise.",
+    "status": "PENDING_REVIEW"
   }
 ]

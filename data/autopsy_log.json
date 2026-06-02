@@ -1,5 +1,18 @@
 [
   {
+    "id": "20260601-MLB-TEX-STL-ML",
+    "date": "2026-06-01",
+    "pick": "St. Louis Cardinals ML",
+    "game": "TEX @ STL",
+    "odds": "-104",
+    "result_score": "TEX 2 \u00b7 STL 1",
+    "classification": "MODEL",
+    "post_mortem": "The thesis was built on deGrom's May struggles (5.72 ERA), but the pick ignored a critical counter-signal hiding in plain sight: deGrom entered this start with a 3.77 season ERA, a 10.56 K/9, and a .205 opponent batting average over his last 10 outings \u2014 he was trending sharply in the right direction, not still mired in May. On the night, he was vintage deGrom: five shutout innings, 4 hits, 1 walk, 8 strikeouts, earning his 100th career win. The Cardinals had runners on in the 2nd inning but deGrom struck out Walker and Torres to escape, then held them scoreless through 5. McGreevy, meanwhile, gave up the two decisive runs in the 4th (Nimmo scored on a Duran double) and 5th (Jansen walked, stole second, scored on a Pederson single), and the Cardinals' lone run \u2014 a Masyn Winn solo homer off reliever Peyton Gray in the 6th \u2014 was too little, too late. The bullpen held the 2-1 lead and Latz closed it in the 9th. The model leaned on a stale May ERA snapshot while deGrom's recent form and elite strikeout profile \u2014 the exact 'case against' acknowledged in the pick \u2014 was the actual signal.",
+    "candidate_rule": "When a starter's trailing-month ERA diverges significantly from their season ERA AND their last-10-start ERA is trending down, weight the recent trend over the monthly split before fading them \u2014 but validate this rule across a minimum of 20+ comparable 'ERA-rebound' starts before treating it as a systematic edge.",
+    "sample_size_warning": "N=1, insufficient to establish rule; this is a single-game observation and could easily be noise.",
+    "analyzed_at": "2026-06-02T04:02:44.554480-04:00"
+  },
+  {
     "id": "20260531-MLB-NYY-ATH-PROP-AARONJUDGE",
     "date": "2026-05-31",
     "pick": "Aaron Judge Total Bases Over 1.5",
