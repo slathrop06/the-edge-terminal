@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated_at": "2026-06-02T14:41:25.966806-04:00",
+  "updated_at": "2026-06-03T04:27:09.613149-04:00",
   "picks": [
     {
       "id": "20260602-NHL-VGK-CAR-PROP-JACKEICHEL",
@@ -176,16 +176,22 @@
       "scott_bot_quip": "Lauer's been a pi\u00f1ata. Marte's got the bat.",
       "ladder_note": "",
       "date": "2026-06-02",
-      "status": "PEND",
-      "units_result": null,
+      "status": "LOSS",
+      "units_result": -1.0,
       "clv_cents": null,
-      "result_score": null,
-      "graded_at": null,
+      "result_score": "Ketel Marte: 0 totalBases",
+      "graded_at": "2026-06-03T04:25:26.802250-04:00",
       "slate_assessment": "Sixteen-game MLB board plus Game 1 of the Stanley Cup Final. Two elite SP matchups (Harrison vs SF, Martin vs MIN) anchor the slate, with several totals and props offering clear edges.",
       "executive_summary": "The board tonight is headlined by two breakout aces: Kyle Harrison (1.57 ERA) hosts San Francisco in Milwaukee, and Davis Martin (2.00 ERA) faces Minnesota at Target Field. Both games feature dominant pitching against middling offenses in neutral-to-pitcher-friendly parks, making the unders the sharpest plays on the slate. The Stanley Cup Final opener in Carolina adds a low-scoring hockey angle. The ladder rides with the Brewers-Giants Under 7.5 \u2014 Harrison's floor is elite, the Giants offense is anemic, and the market hasn't moved off the number.",
       "slate_analysis": "Tonight's board features 16 MLB games and Game 1 of the Stanley Cup Final between Carolina and Vegas. The pricing climate is soft \u2014 most totals sit near consensus, and only a handful of moneylines offer juice better than -130. The data confidence flags are low across the board (0.4-0.45 on most games), which limits conviction on sides, but the pitching matchups in Milwaukee and Minnesota stand out.\n\nThe top candidates that rose during my review: (1) Brewers-Giants Under 7.5 \u2014 Kyle Harrison's 1.57 ERA and 29.6% K rate against a Giants offense averaging 3.9 R/G is the cleanest pitching edge on the board. (2) White Sox ML at Minnesota \u2014 Davis Martin's 2.00 ERA and breakout season against a Twins lineup that just lost to him last week. (3) Carolina Hurricanes ML in Game 1 \u2014 the Canes are 12-1 in the playoffs, have home ice, and face a Vegas team that's been grinding through tougher matchups. (4) Yankees-Guardians Under 7.5 \u2014 Cam Schlittler's 1.50 ERA and 0.85 WHIP against a Cleveland offense that struggles vs RHP. (5) Braves-Blue Jays Under 7.5 \u2014 Bryce Elder (2.50 ERA) vs Kevin Gausman (3.13 ERA) in a neutral park. (6) Bobby Witt Jr. Total Bases Over 1.5 \u2014 Witt is the best hitter in the Royals lineup facing Andrew Abbott, who has a 1.30 HR/9 and 10% BB rate.\n\nWhat got cut: The Yankees-Guardians Under looked sharp, but the data confidence is 0.4 and lineups aren't confirmed \u2014 I can't trust it enough to include. The Braves-Blue Jays Under has two solid SPs, but the data confidence is also 0.4 and the market is already priced efficiently at 7.5. The Phillies-Padres game has Aaron Nola struggling (5.72 ERA) and Randy V\u00e1squez pitching well, but the park is HR-boosting and the data confidence is low. The Cardinals-Rangers game is a true pick'em with no edge. The Diamondbacks-Dodgers game has Eric Lauer regressing (6.69 L3 ERA) but the total is already at 9.5 and the market knows it.\n\nThe final six picks: (1) Brewers-Giants Under 7.5 \u2014 Harrison's dominance, SF's weak offense, indoor park. (2) White Sox ML at Minnesota \u2014 Martin's breakout, Prielipp's struggles, value at -120. (3) Carolina Hurricanes ML \u2014 12-1 playoff run, home ice, elite defense. (4) Bobby Witt Jr. Total Bases Over 1.5 \u2014 best hitter vs mediocre SP, HR-boosting park. (5) Ketel Marte Total Bases Over 1.5 \u2014 Lauer's regression, Chase Field HR factor, Marte's elite bat. (6) Jack Eichel SOG Over 2.5 \u2014 Eichel averaging 3.5 SOG/G in playoffs, Carolina allows shots, even money price. The ladder pick is the Brewers-Giants Under 7.5 \u2014 Harrison's floor is the highest on the board, the Giants can't score, and the market hasn't moved.",
       "slate_vibe": "NORMAL",
-      "published_at": "2026-06-02T14:41:25.966672-04:00"
+      "published_at": "2026-06-02T14:41:25.966672-04:00",
+      "autopsy": {
+        "classification": "MODEL",
+        "post_mortem": "The thesis was inverted: the pick targeted Marte feasting on a hittable Lauer, but Marte bats for Arizona \u2014 he faced Michael Soroka (7-2, 3.25 ERA), not Lauer. Soroka faced 25 batters and held Arizona's lineup in check; the CBS box score shows Marte's only recorded action against Lauer was a groundout to the pitcher, and his lone RBI contribution was a sacrifice fly (0 TB). The model correctly identified Lauer as hittable but failed to account for which side of the ball Marte plays on \u2014 the Dodgers' lineup faced Lauer, not the Diamondbacks'.",
+        "candidate_rule": "Before submitting any player prop, validate that the targeted hitter faces the identified weak pitcher \u2014 not the opposing starter; a directional mismatch (hitter vs. wrong pitcher) is a disqualifying error that should void the pick pre-submission. (N=1, insufficient to establish rule.)",
+        "sample_size_warning": "N=1, insufficient to establish rule \u2014 but this is a process/logic error, not a sample size question. The mismatch should be caught at pick-generation time regardless of sample."
+      }
     },
     {
       "id": "20260602-MLB-KC-CIN-PROP-BOBBYWITTJR",
@@ -271,16 +277,22 @@
       "scott_bot_quip": "Witt vs. a lefty in Cincinnati. Do the math.",
       "ladder_note": "",
       "date": "2026-06-02",
-      "status": "PEND",
-      "units_result": null,
+      "status": "LOSS",
+      "units_result": -1.0,
       "clv_cents": null,
-      "result_score": null,
-      "graded_at": null,
+      "result_score": "Bobby Witt Jr.: 0 totalBases",
+      "graded_at": "2026-06-03T04:25:50.276621-04:00",
       "slate_assessment": "Sixteen-game MLB board plus Game 1 of the Stanley Cup Final. Two elite SP matchups (Harrison vs SF, Martin vs MIN) anchor the slate, with several totals and props offering clear edges.",
       "executive_summary": "The board tonight is headlined by two breakout aces: Kyle Harrison (1.57 ERA) hosts San Francisco in Milwaukee, and Davis Martin (2.00 ERA) faces Minnesota at Target Field. Both games feature dominant pitching against middling offenses in neutral-to-pitcher-friendly parks, making the unders the sharpest plays on the slate. The Stanley Cup Final opener in Carolina adds a low-scoring hockey angle. The ladder rides with the Brewers-Giants Under 7.5 \u2014 Harrison's floor is elite, the Giants offense is anemic, and the market hasn't moved off the number.",
       "slate_analysis": "Tonight's board features 16 MLB games and Game 1 of the Stanley Cup Final between Carolina and Vegas. The pricing climate is soft \u2014 most totals sit near consensus, and only a handful of moneylines offer juice better than -130. The data confidence flags are low across the board (0.4-0.45 on most games), which limits conviction on sides, but the pitching matchups in Milwaukee and Minnesota stand out.\n\nThe top candidates that rose during my review: (1) Brewers-Giants Under 7.5 \u2014 Kyle Harrison's 1.57 ERA and 29.6% K rate against a Giants offense averaging 3.9 R/G is the cleanest pitching edge on the board. (2) White Sox ML at Minnesota \u2014 Davis Martin's 2.00 ERA and breakout season against a Twins lineup that just lost to him last week. (3) Carolina Hurricanes ML in Game 1 \u2014 the Canes are 12-1 in the playoffs, have home ice, and face a Vegas team that's been grinding through tougher matchups. (4) Yankees-Guardians Under 7.5 \u2014 Cam Schlittler's 1.50 ERA and 0.85 WHIP against a Cleveland offense that struggles vs RHP. (5) Braves-Blue Jays Under 7.5 \u2014 Bryce Elder (2.50 ERA) vs Kevin Gausman (3.13 ERA) in a neutral park. (6) Bobby Witt Jr. Total Bases Over 1.5 \u2014 Witt is the best hitter in the Royals lineup facing Andrew Abbott, who has a 1.30 HR/9 and 10% BB rate.\n\nWhat got cut: The Yankees-Guardians Under looked sharp, but the data confidence is 0.4 and lineups aren't confirmed \u2014 I can't trust it enough to include. The Braves-Blue Jays Under has two solid SPs, but the data confidence is also 0.4 and the market is already priced efficiently at 7.5. The Phillies-Padres game has Aaron Nola struggling (5.72 ERA) and Randy V\u00e1squez pitching well, but the park is HR-boosting and the data confidence is low. The Cardinals-Rangers game is a true pick'em with no edge. The Diamondbacks-Dodgers game has Eric Lauer regressing (6.69 L3 ERA) but the total is already at 9.5 and the market knows it.\n\nThe final six picks: (1) Brewers-Giants Under 7.5 \u2014 Harrison's dominance, SF's weak offense, indoor park. (2) White Sox ML at Minnesota \u2014 Martin's breakout, Prielipp's struggles, value at -120. (3) Carolina Hurricanes ML \u2014 12-1 playoff run, home ice, elite defense. (4) Bobby Witt Jr. Total Bases Over 1.5 \u2014 best hitter vs mediocre SP, HR-boosting park. (5) Ketel Marte Total Bases Over 1.5 \u2014 Lauer's regression, Chase Field HR factor, Marte's elite bat. (6) Jack Eichel SOG Over 2.5 \u2014 Eichel averaging 3.5 SOG/G in playoffs, Carolina allows shots, even money price. The ladder pick is the Brewers-Giants Under 7.5 \u2014 Harrison's floor is the highest on the board, the Giants can't score, and the market hasn't moved.",
       "slate_vibe": "NORMAL",
-      "published_at": "2026-06-02T14:41:25.966578-04:00"
+      "published_at": "2026-06-02T14:41:25.966578-04:00",
+      "autopsy": {
+        "classification": "MODEL",
+        "post_mortem": "Abbott was not the command-challenged lefty the thesis described \u2014 he had posted a 1.85 ERA over his last six starts entering this game, with tightened control, and he rolled through KC's lineup in a 10-inning, 4-3 Reds win. Witt went 0-for on the night and was stranded twice with runners in scoring position and 2 outs, suggesting weak contact or punchouts rather than hard-luck outs. The pick leaned on Abbott's season-aggregate HR/9 (1.30) and BB% (10%) without adequately discounting his recent hot stretch \u2014 a classic recency-blind model error.",
+        "candidate_rule": "When a starting pitcher's ERA over his last 6 starts is more than 2 runs below his season ERA, flag the pick and re-evaluate using recent-form metrics rather than season aggregates before publishing \u2014 but apply only after N\u226510 similar cases to confirm the pattern holds.",
+        "sample_size_warning": "N=1, insufficient to establish rule \u2014 this is a directional flag only."
+      }
     },
     {
       "id": "20260602-NHL-VGK-CAR-ML",
@@ -371,16 +383,22 @@
       "scott_bot_quip": "The Canes are 12-1 and haven't lost at home. Vegas is walking into a buzzsaw.",
       "ladder_note": "",
       "date": "2026-06-02",
-      "status": "PEND",
-      "units_result": null,
+      "status": "LOSS",
+      "units_result": -1.5,
       "clv_cents": null,
-      "result_score": null,
-      "graded_at": null,
+      "result_score": "VGK 5 \u00b7 CAR 4",
+      "graded_at": "2026-06-03T04:26:18.106158-04:00",
       "slate_assessment": "Sixteen-game MLB board plus Game 1 of the Stanley Cup Final. Two elite SP matchups (Harrison vs SF, Martin vs MIN) anchor the slate, with several totals and props offering clear edges.",
       "executive_summary": "The board tonight is headlined by two breakout aces: Kyle Harrison (1.57 ERA) hosts San Francisco in Milwaukee, and Davis Martin (2.00 ERA) faces Minnesota at Target Field. Both games feature dominant pitching against middling offenses in neutral-to-pitcher-friendly parks, making the unders the sharpest plays on the slate. The Stanley Cup Final opener in Carolina adds a low-scoring hockey angle. The ladder rides with the Brewers-Giants Under 7.5 \u2014 Harrison's floor is elite, the Giants offense is anemic, and the market hasn't moved off the number.",
       "slate_analysis": "Tonight's board features 16 MLB games and Game 1 of the Stanley Cup Final between Carolina and Vegas. The pricing climate is soft \u2014 most totals sit near consensus, and only a handful of moneylines offer juice better than -130. The data confidence flags are low across the board (0.4-0.45 on most games), which limits conviction on sides, but the pitching matchups in Milwaukee and Minnesota stand out.\n\nThe top candidates that rose during my review: (1) Brewers-Giants Under 7.5 \u2014 Kyle Harrison's 1.57 ERA and 29.6% K rate against a Giants offense averaging 3.9 R/G is the cleanest pitching edge on the board. (2) White Sox ML at Minnesota \u2014 Davis Martin's 2.00 ERA and breakout season against a Twins lineup that just lost to him last week. (3) Carolina Hurricanes ML in Game 1 \u2014 the Canes are 12-1 in the playoffs, have home ice, and face a Vegas team that's been grinding through tougher matchups. (4) Yankees-Guardians Under 7.5 \u2014 Cam Schlittler's 1.50 ERA and 0.85 WHIP against a Cleveland offense that struggles vs RHP. (5) Braves-Blue Jays Under 7.5 \u2014 Bryce Elder (2.50 ERA) vs Kevin Gausman (3.13 ERA) in a neutral park. (6) Bobby Witt Jr. Total Bases Over 1.5 \u2014 Witt is the best hitter in the Royals lineup facing Andrew Abbott, who has a 1.30 HR/9 and 10% BB rate.\n\nWhat got cut: The Yankees-Guardians Under looked sharp, but the data confidence is 0.4 and lineups aren't confirmed \u2014 I can't trust it enough to include. The Braves-Blue Jays Under has two solid SPs, but the data confidence is also 0.4 and the market is already priced efficiently at 7.5. The Phillies-Padres game has Aaron Nola struggling (5.72 ERA) and Randy V\u00e1squez pitching well, but the park is HR-boosting and the data confidence is low. The Cardinals-Rangers game is a true pick'em with no edge. The Diamondbacks-Dodgers game has Eric Lauer regressing (6.69 L3 ERA) but the total is already at 9.5 and the market knows it.\n\nThe final six picks: (1) Brewers-Giants Under 7.5 \u2014 Harrison's dominance, SF's weak offense, indoor park. (2) White Sox ML at Minnesota \u2014 Martin's breakout, Prielipp's struggles, value at -120. (3) Carolina Hurricanes ML \u2014 12-1 playoff run, home ice, elite defense. (4) Bobby Witt Jr. Total Bases Over 1.5 \u2014 best hitter vs mediocre SP, HR-boosting park. (5) Ketel Marte Total Bases Over 1.5 \u2014 Lauer's regression, Chase Field HR factor, Marte's elite bat. (6) Jack Eichel SOG Over 2.5 \u2014 Eichel averaging 3.5 SOG/G in playoffs, Carolina allows shots, even money price. The ladder pick is the Brewers-Giants Under 7.5 \u2014 Harrison's floor is the highest on the board, the Giants can't score, and the market hasn't moved.",
       "slate_vibe": "NORMAL",
-      "published_at": "2026-06-02T14:41:25.966501-04:00"
+      "published_at": "2026-06-02T14:41:25.966501-04:00",
+      "autopsy": {
+        "classification": "VARIANCE",
+        "post_mortem": "The thesis held for exactly 12 minutes. Carolina jumped out 2-0 on Ehlers goals at 0:25 and 12:08 of the first \u2014 the pick was alive and the defensive structure looked intact. Then Vegas did something road teams had never done in Cup Final Game 1 history: they erased a multi-goal deficit (0-55 all-time entering tonight) and won 5-4. The game was tied 4-4 with 8:41 left in the third after Gostisbehere's tying goal, meaning Carolina had a legitimate chance to win regulation. The killing blow was Hertl's slot goal at 16:36 of the third off a Sissons feed \u2014 a single shot in a game that was dead-even for 55+ minutes. Andersen allowed 5 goals on just 23 shots, a .783 SV% that was a complete outlier against his .944 playoff mark; Carolina's top line of Aho/Jarvis/Svechnikov went pointless and was outscored 1-0 at 5v5. This was not a bad pick \u2014 it was a correctly reasoned pick that ran into a historically improbable Vegas comeback, a cold night from the Conn Smythe frontrunner, and one late goal that could have gone either way.",
+        "candidate_rule": null,
+        "sample_size_warning": "N=1, insufficient to establish rule. Carolina's defensive structure and Andersen's save percentage remain elite indicators \u2014 one outlier game does not invalidate the thesis."
+      }
     },
     {
       "id": "20260602-MLB-CHW-MIN-ML",
@@ -471,16 +489,22 @@
       "scott_bot_quip": "Martin's been unhittable. The Twins already know.",
       "ladder_note": "",
       "date": "2026-06-02",
-      "status": "PEND",
-      "units_result": null,
+      "status": "LOSS",
+      "units_result": -1.5,
       "clv_cents": null,
-      "result_score": null,
-      "graded_at": null,
+      "result_score": "CHW 4 \u00b7 MIN 6",
+      "graded_at": "2026-06-03T04:26:32.941362-04:00",
       "slate_assessment": "Sixteen-game MLB board plus Game 1 of the Stanley Cup Final. Two elite SP matchups (Harrison vs SF, Martin vs MIN) anchor the slate, with several totals and props offering clear edges.",
       "executive_summary": "The board tonight is headlined by two breakout aces: Kyle Harrison (1.57 ERA) hosts San Francisco in Milwaukee, and Davis Martin (2.00 ERA) faces Minnesota at Target Field. Both games feature dominant pitching against middling offenses in neutral-to-pitcher-friendly parks, making the unders the sharpest plays on the slate. The Stanley Cup Final opener in Carolina adds a low-scoring hockey angle. The ladder rides with the Brewers-Giants Under 7.5 \u2014 Harrison's floor is elite, the Giants offense is anemic, and the market hasn't moved off the number.",
       "slate_analysis": "Tonight's board features 16 MLB games and Game 1 of the Stanley Cup Final between Carolina and Vegas. The pricing climate is soft \u2014 most totals sit near consensus, and only a handful of moneylines offer juice better than -130. The data confidence flags are low across the board (0.4-0.45 on most games), which limits conviction on sides, but the pitching matchups in Milwaukee and Minnesota stand out.\n\nThe top candidates that rose during my review: (1) Brewers-Giants Under 7.5 \u2014 Kyle Harrison's 1.57 ERA and 29.6% K rate against a Giants offense averaging 3.9 R/G is the cleanest pitching edge on the board. (2) White Sox ML at Minnesota \u2014 Davis Martin's 2.00 ERA and breakout season against a Twins lineup that just lost to him last week. (3) Carolina Hurricanes ML in Game 1 \u2014 the Canes are 12-1 in the playoffs, have home ice, and face a Vegas team that's been grinding through tougher matchups. (4) Yankees-Guardians Under 7.5 \u2014 Cam Schlittler's 1.50 ERA and 0.85 WHIP against a Cleveland offense that struggles vs RHP. (5) Braves-Blue Jays Under 7.5 \u2014 Bryce Elder (2.50 ERA) vs Kevin Gausman (3.13 ERA) in a neutral park. (6) Bobby Witt Jr. Total Bases Over 1.5 \u2014 Witt is the best hitter in the Royals lineup facing Andrew Abbott, who has a 1.30 HR/9 and 10% BB rate.\n\nWhat got cut: The Yankees-Guardians Under looked sharp, but the data confidence is 0.4 and lineups aren't confirmed \u2014 I can't trust it enough to include. The Braves-Blue Jays Under has two solid SPs, but the data confidence is also 0.4 and the market is already priced efficiently at 7.5. The Phillies-Padres game has Aaron Nola struggling (5.72 ERA) and Randy V\u00e1squez pitching well, but the park is HR-boosting and the data confidence is low. The Cardinals-Rangers game is a true pick'em with no edge. The Diamondbacks-Dodgers game has Eric Lauer regressing (6.69 L3 ERA) but the total is already at 9.5 and the market knows it.\n\nThe final six picks: (1) Brewers-Giants Under 7.5 \u2014 Harrison's dominance, SF's weak offense, indoor park. (2) White Sox ML at Minnesota \u2014 Martin's breakout, Prielipp's struggles, value at -120. (3) Carolina Hurricanes ML \u2014 12-1 playoff run, home ice, elite defense. (4) Bobby Witt Jr. Total Bases Over 1.5 \u2014 best hitter vs mediocre SP, HR-boosting park. (5) Ketel Marte Total Bases Over 1.5 \u2014 Lauer's regression, Chase Field HR factor, Marte's elite bat. (6) Jack Eichel SOG Over 2.5 \u2014 Eichel averaging 3.5 SOG/G in playoffs, Carolina allows shots, even money price. The ladder pick is the Brewers-Giants Under 7.5 \u2014 Harrison's floor is the highest on the board, the Giants can't score, and the market hasn't moved.",
       "slate_vibe": "NORMAL",
-      "published_at": "2026-06-02T14:41:25.966408-04:00"
+      "published_at": "2026-06-02T14:41:25.966408-04:00",
+      "autopsy": {
+        "classification": "MODEL",
+        "post_mortem": "The thesis was built on Martin's season-long dominance, but two critical factors were underweighted: (1) Martin's career ERA against Minnesota entering this start was 5.29 in seven games \u2014 a specific, documented vulnerability that the pick glossed over in favor of his one dominant outing five days prior; (2) the 'short turnaround repeat matchup' risk cut both ways \u2014 Prielipp, who got shelled in that prior start, went a career-high six innings and struck out seven, while the Twins' bottom-of-the-order hitters torched Martin for a season-high 10 hits and 6 runs in 4\u2154 innings, blowing up the 'floor of 6 innings of 2-run ball' assumption entirely. The White Sox took a 3-0 lead in the third on Acu\u00f1a's aggressive baserunning and a Vargas two-run single, but Minnesota answered with a four-run fourth inning \u2014 Martin walked two batters in the fifth and allowed another run before being pulled. The Twins bullpen then struck out the side in the seventh with the tying run at second, slamming the door. The pick leaned on recency bias (one great start vs. MIN) while ignoring Martin's documented career struggles against this specific opponent.",
+        "candidate_rule": "Before backing a starter as a repeat-matchup favorite within 7 days, cross-check career splits against that opponent \u2014 if career ERA vs. that team is 1.5+ runs above season ERA, flag as a MODEL risk and require a line of -110 or better to proceed; N=1, insufficient to establish rule.",
+        "sample_size_warning": "N=1, insufficient to establish rule \u2014 this is a pattern to watch, not a validated filter."
+      }
     },
     {
       "id": "20260602-MLB-SF-MIL-TOTAL",
@@ -571,16 +595,22 @@
       "scott_bot_quip": "Harrison's been untouchable. The Giants brought a knife to a gunfight.",
       "ladder_note": "Best floor on the board. Harrison's last three starts: 18 IP, 0 ER. The Giants can't score. The market hasn't moved. This is the ladder.",
       "date": "2026-06-02",
-      "status": "PEND",
-      "units_result": null,
+      "status": "LOSS",
+      "units_result": -2.0,
       "clv_cents": null,
-      "result_score": null,
-      "graded_at": null,
+      "result_score": "SF 3 \u00b7 MIL 8",
+      "graded_at": "2026-06-03T04:26:50.173798-04:00",
       "slate_assessment": "Sixteen-game MLB board plus Game 1 of the Stanley Cup Final. Two elite SP matchups (Harrison vs SF, Martin vs MIN) anchor the slate, with several totals and props offering clear edges.",
       "executive_summary": "The board tonight is headlined by two breakout aces: Kyle Harrison (1.57 ERA) hosts San Francisco in Milwaukee, and Davis Martin (2.00 ERA) faces Minnesota at Target Field. Both games feature dominant pitching against middling offenses in neutral-to-pitcher-friendly parks, making the unders the sharpest plays on the slate. The Stanley Cup Final opener in Carolina adds a low-scoring hockey angle. The ladder rides with the Brewers-Giants Under 7.5 \u2014 Harrison's floor is elite, the Giants offense is anemic, and the market hasn't moved off the number.",
       "slate_analysis": "Tonight's board features 16 MLB games and Game 1 of the Stanley Cup Final between Carolina and Vegas. The pricing climate is soft \u2014 most totals sit near consensus, and only a handful of moneylines offer juice better than -130. The data confidence flags are low across the board (0.4-0.45 on most games), which limits conviction on sides, but the pitching matchups in Milwaukee and Minnesota stand out.\n\nThe top candidates that rose during my review: (1) Brewers-Giants Under 7.5 \u2014 Kyle Harrison's 1.57 ERA and 29.6% K rate against a Giants offense averaging 3.9 R/G is the cleanest pitching edge on the board. (2) White Sox ML at Minnesota \u2014 Davis Martin's 2.00 ERA and breakout season against a Twins lineup that just lost to him last week. (3) Carolina Hurricanes ML in Game 1 \u2014 the Canes are 12-1 in the playoffs, have home ice, and face a Vegas team that's been grinding through tougher matchups. (4) Yankees-Guardians Under 7.5 \u2014 Cam Schlittler's 1.50 ERA and 0.85 WHIP against a Cleveland offense that struggles vs RHP. (5) Braves-Blue Jays Under 7.5 \u2014 Bryce Elder (2.50 ERA) vs Kevin Gausman (3.13 ERA) in a neutral park. (6) Bobby Witt Jr. Total Bases Over 1.5 \u2014 Witt is the best hitter in the Royals lineup facing Andrew Abbott, who has a 1.30 HR/9 and 10% BB rate.\n\nWhat got cut: The Yankees-Guardians Under looked sharp, but the data confidence is 0.4 and lineups aren't confirmed \u2014 I can't trust it enough to include. The Braves-Blue Jays Under has two solid SPs, but the data confidence is also 0.4 and the market is already priced efficiently at 7.5. The Phillies-Padres game has Aaron Nola struggling (5.72 ERA) and Randy V\u00e1squez pitching well, but the park is HR-boosting and the data confidence is low. The Cardinals-Rangers game is a true pick'em with no edge. The Diamondbacks-Dodgers game has Eric Lauer regressing (6.69 L3 ERA) but the total is already at 9.5 and the market knows it.\n\nThe final six picks: (1) Brewers-Giants Under 7.5 \u2014 Harrison's dominance, SF's weak offense, indoor park. (2) White Sox ML at Minnesota \u2014 Martin's breakout, Prielipp's struggles, value at -120. (3) Carolina Hurricanes ML \u2014 12-1 playoff run, home ice, elite defense. (4) Bobby Witt Jr. Total Bases Over 1.5 \u2014 best hitter vs mediocre SP, HR-boosting park. (5) Ketel Marte Total Bases Over 1.5 \u2014 Lauer's regression, Chase Field HR factor, Marte's elite bat. (6) Jack Eichel SOG Over 2.5 \u2014 Eichel averaging 3.5 SOG/G in playoffs, Carolina allows shots, even money price. The ladder pick is the Brewers-Giants Under 7.5 \u2014 Harrison's floor is the highest on the board, the Giants can't score, and the market hasn't moved.",
       "slate_vibe": "NORMAL",
-      "published_at": "2026-06-02T14:41:25.966280-04:00"
+      "published_at": "2026-06-02T14:41:25.966280-04:00",
+      "autopsy": {
+        "classification": "MODEL",
+        "post_mortem": "The thesis was built entirely on Harrison suppressing the Giants \u2014 and he did exactly that, striking out 12 over 5.2 innings and allowing just 1 run. The model failure was on the other half of the equation: McDonald. The pick treated McDonald's 4.34 ERA as a manageable risk, but the Brewers jumped on him immediately \u2014 Jake Bauers hit a 3-run homer in the first inning after Yelich and Chourio walked, and Milwaukee built a 4-0 lead before the Giants could respond. The Giants briefly made it 4-3 in the eighth on pinch-hit RBI singles, but the Brewers then blew it open with a 4-run bottom of the eighth against Tristan Beck \u2014 Yelich, Chourio, and Turang all drove in runs \u2014 pushing the final to 8-3. The under was never really alive: Milwaukee's home run-scoring rate (5.42 R/G at home) and McDonald's contact-heavy profile were a combustible combination that the model underweighted in favor of fixating on Harrison's floor.",
+        "candidate_rule": "When the under thesis depends on a single elite starter suppressing one side, require the opposing starter's FIP to be within 1.0 of the total-implied run expectation per team \u2014 if the gap is wider, the under is structurally one-sided and the total is more likely to be driven by the weaker arm; flag as MODEL RISK before publishing. (N=1, insufficient to establish rule \u2014 monitor for pattern across similar 'ace carries the under' setups.)",
+        "sample_size_warning": "N=1, insufficient to establish rule."
+      }
     },
     {
       "id": "20260601-MLB-TEX-STL-TOTAL",

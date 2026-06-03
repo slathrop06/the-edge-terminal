@@ -102,5 +102,37 @@
     "candidate_rule": "When a starter's trailing-month ERA diverges significantly from their season ERA AND their last-10-start ERA is trending down, weight the recent trend over the monthly split before fading them \u2014 but validate this rule across a minimum of 20+ comparable 'ERA-rebound' starts before treating it as a systematic edge.",
     "sample_size_warning": "N=1, insufficient to establish rule; this is a single-game observation and could easily be noise.",
     "status": "PENDING_REVIEW"
+  },
+  {
+    "proposed_at": "2026-06-03T04:25:50.175141-04:00",
+    "source_pick_id": "20260602-MLB-LAD-ARI-PROP-KETELMARTE",
+    "source_loss": "Ketel Marte Total Bases Over 1.5 (LAD @ ARI)",
+    "candidate_rule": "Before submitting any player prop, validate that the targeted hitter faces the identified weak pitcher \u2014 not the opposing starter; a directional mismatch (hitter vs. wrong pitcher) is a disqualifying error that should void the pick pre-submission. (N=1, insufficient to establish rule.)",
+    "sample_size_warning": "N=1, insufficient to establish rule \u2014 but this is a process/logic error, not a sample size question. The mismatch should be caught at pick-generation time regardless of sample.",
+    "status": "PENDING_REVIEW"
+  },
+  {
+    "proposed_at": "2026-06-03T04:26:18.105689-04:00",
+    "source_pick_id": "20260602-MLB-KC-CIN-PROP-BOBBYWITTJR",
+    "source_loss": "Bobby Witt Jr. Total Bases Over 1.5 (KC @ CIN)",
+    "candidate_rule": "When a starting pitcher's ERA over his last 6 starts is more than 2 runs below his season ERA, flag the pick and re-evaluate using recent-form metrics rather than season aggregates before publishing \u2014 but apply only after N\u226510 similar cases to confirm the pattern holds.",
+    "sample_size_warning": "N=1, insufficient to establish rule \u2014 this is a directional flag only.",
+    "status": "PENDING_REVIEW"
+  },
+  {
+    "proposed_at": "2026-06-03T04:26:50.173127-04:00",
+    "source_pick_id": "20260602-MLB-CHW-MIN-ML",
+    "source_loss": "White Sox ML (CHW @ MIN)",
+    "candidate_rule": "Before backing a starter as a repeat-matchup favorite within 7 days, cross-check career splits against that opponent \u2014 if career ERA vs. that team is 1.5+ runs above season ERA, flag as a MODEL risk and require a line of -110 or better to proceed; N=1, insufficient to establish rule.",
+    "sample_size_warning": "N=1, insufficient to establish rule \u2014 this is a pattern to watch, not a validated filter.",
+    "status": "PENDING_REVIEW"
+  },
+  {
+    "proposed_at": "2026-06-03T04:27:09.612581-04:00",
+    "source_pick_id": "20260602-MLB-SF-MIL-TOTAL",
+    "source_loss": "Under 7.5 (SF @ MIL)",
+    "candidate_rule": "When the under thesis depends on a single elite starter suppressing one side, require the opposing starter's FIP to be within 1.0 of the total-implied run expectation per team \u2014 if the gap is wider, the under is structurally one-sided and the total is more likely to be driven by the weaker arm; flag as MODEL RISK before publishing. (N=1, insufficient to establish rule \u2014 monitor for pattern across similar 'ace carries the under' setups.)",
+    "sample_size_warning": "N=1, insufficient to establish rule.",
+    "status": "PENDING_REVIEW"
   }
 ]

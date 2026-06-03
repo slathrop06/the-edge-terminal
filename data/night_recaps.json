@@ -117,5 +117,12 @@
     "units_pl": 3.7331,
     "night_summary": "4-1 night, +3.73u \u2014 one of the cleaner cards we've put together. Both TEX @ STL unders cashed easy at 2-1, the LAD @ ARI under was never in doubt at 1-4, and the Twins ladder pick covered comfortably at 9-6 after a Tristan Gray grand slam in the 4th blew it open. The one loss stings because we got it wrong \u2014 the STL ML was built on deGrom's rough May (5.72 ERA), but his recent form was the actual signal: he was vintage deGrom on the night, five shutout innings, eight strikeouts, and his 100th career win. The model leaned on a stale monthly split and ignored the trend. That's on us, not variance. Ladder is at 2 of 10 \u2014 climbing.",
     "generated_at": "2026-06-02T04:03:03.813162-04:00"
+  },
+  "2026-06-02": {
+    "date": "2026-06-02",
+    "record": "0-5-0",
+    "units_pl": -7.0,
+    "night_summary": "0-5 night, -7.0u \u2014 a rough one, and we owe you the honest breakdown. The ladder pick, SF @ MIL Under 7.5, was the headliner and it wasn't close: Harrison was brilliant \u2014 12 strikeouts over 5.2 innings, 1 run allowed \u2014 but McDonald got shelled early and the Brewers rolled to an 8-3 final; we fixated on Harrison's floor and ignored the other half of the equation entirely, a model error. The Hurricanes ML was the one pick that deserves a different conversation: Carolina jumped out 2-0 on a pair of Ehlers goals, held a lead deep into the third, and only lost when Hertl beat Andersen with 3:24 left off a Sissons feed to make it 5-4 \u2014 a historically improbable road comeback in a game that was dead-even for 55+ minutes; variance got us, not a bad read. The two player props (Marte, Witt) and the White Sox ML were model errors \u2014 wrong-pitcher mismatch, recency-blind pitcher evaluation, and ignoring career splits against a specific opponent, respectively \u2014 and we'll be tightening those filters. Ladder resets to 0 of 10; we rebuild tomorrow.",
+    "generated_at": "2026-06-03T04:27:25.198758-04:00"
   }
 }
