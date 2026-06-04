@@ -142,5 +142,13 @@
     "candidate_rule": "Do not use a team's same-round home-game scoring averages as a baseline for a new series \u2014 opponent defensive quality resets; require at least one data point from the new matchup or a head-to-head regular season pace proxy before projecting totals above the market line. (N=1, insufficient to establish rule.)",
     "sample_size_warning": "N=1, insufficient to establish rule \u2014 one game where both stars shot poorly and a bench went cold is noise, not a pattern.",
     "status": "PENDING_REVIEW"
+  },
+  {
+    "proposed_at": "2026-06-04T04:23:40.822930-04:00",
+    "source_pick_id": "20260603-NBA-NY-SA-PROP-VICTORWEMBANYAMA",
+    "source_loss": "Victor Wembanyama Points Over 26.5 (NY @ SA)",
+    "candidate_rule": "When a player's series-specific sample (WCF, N=7) diverges materially from their full playoff sample (N=17), weight the larger sample more heavily in the points projection \u2014 especially when the opponent's defensive scheme is structurally different from the prior series opponent; validate this rule at N\u226510 before applying as a hard filter.",
+    "sample_size_warning": "N=1, insufficient to establish rule \u2014 this is a single-game observation and could reflect Finals debut variance as much as a systematic modeling error.",
+    "status": "PENDING_REVIEW"
   }
 ]

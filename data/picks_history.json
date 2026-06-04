@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated_at": "2026-06-04T03:59:42.708566-04:00",
+  "updated_at": "2026-06-04T04:23:41.073626-04:00",
   "picks": [
     {
       "id": "20260603-NBA-NY-SA-SPREAD",
@@ -184,16 +184,22 @@
       "scott_bot_quip": "Wemby is 7'4\" and the Knicks are bringing a step ladder. Over.",
       "ladder_note": "",
       "date": "2026-06-03",
-      "status": "PEND",
-      "units_result": null,
+      "status": "LOSS",
+      "units_result": -1.5,
       "clv_cents": null,
-      "result_score": null,
-      "graded_at": null,
+      "result_score": "Victor Wembanyama: 26 points",
+      "graded_at": "2026-06-04T04:23:24.180216-04:00",
       "slate_assessment": "MLB-heavy Wednesday with 13 games plus NBA Finals Game 1 \u2014 Cristopher S\u00e1nchez chasing history at home, Chase Burns back from illness, and Wembanyama vs. Brunson tips off in San Antonio.",
       "executive_summary": "The board today is anchored by two elite pitching matchups and the NBA Finals opener. Cristopher S\u00e1nchez brings a 44\u2154 scoreless-inning streak into Citizens Bank Park against Walker Buehler and the Padres \u2014 the under at 8.5 is the sharpest play on the slate. Chase Burns returns from illness to face a weak Royals lineup at Great American Ball Park, and his K prop deserves a hard look. In San Antonio, the Spurs host the Knicks in Game 1 with Victor Wembanyama healthy and the total sitting at 217.5 after the Spurs averaged 226 combined points per game in their three WCF home games. The ladder rides with the Phillies Under \u2014 S\u00e1nchez is pitching at a historic level, and the market hasn't caught up.",
       "slate_analysis": "Today's board features 13 MLB games and one NBA Finals matchup. The MLB slate is spread across all three time zones with first pitches from 3:40 PM ET through 9:40 PM PT. The NBA Finals Game 1 tips at 8:30 PM ET in San Antonio. Pricing is relatively tight across the board \u2014 most MLB moneylines sit between -150 and +150, with only the Phillies (-200) and Dodgers (-142) as clear favorites.\n\nThe top candidates that rose during my review: (1) Phillies Under 8.5 \u2014 S\u00e1nchez is on a historic scoreless streak and faces a struggling Buehler; (2) Reds ML vs. Royals \u2014 Chase Burns (1.96 ERA, 28.9 K%) returns from illness against a bottom-tier KC lineup; (3) Spurs-Knicks Over 217.5 \u2014 the Spurs averaged 226 combined points in their three WCF home games, and both teams have the offensive firepower to push this over; (4) Dodgers-Diamondbacks Under 9.5 \u2014 Ohtani on the mound with a 0.82 ERA, but the total has already moved from 8.8 to 9.5; (5) Chase Burns Ks Over 5.5 \u2014 his 28.9 K% against a KC team that strikes out at a high clip; (6) Victor Wembanyama Points Over 26.5 \u2014 he averaged 27.3 PPG in the WCF and faces a Knicks defense that will struggle to contain him.\n\nWhat got cut: The Mets-Mariners game has data confidence at 0.45 and lineups aren't confirmed \u2014 too thin. The Yankees-Guardians game has Gerrit Cole on a pitch count (only 12.2 IP this season) and the total moved from 7.5 to 8.5 \u2014 no edge. The Dodgers-Diamondbacks Under looked appealing with Ohtani pitching, but the total already moved a full run and Gallen's 5.16 ERA creates variance. The Braves-Blue Jays game has two mediocre starters (Holmes 3.95 ERA, Corbin 3.65 ERA) and data confidence at 0.4 \u2014 pass. The Pirates-Astros game has only one book reporting and data confidence at 0.3 \u2014 too thin.\n\nThe final six picks: Phillies Under 8.5 (S\u00e1nchez historic streak, Buehler struggling), Reds ML (Burns elite, Royals weak), Spurs-Knicks Over 217.5 (WCF home scoring trends), Chase Burns Ks Over 5.5 (elite K rate vs. high-K offense), Victor Wembanyama Points Over 26.5 (WCF form, Knicks matchup), and Knicks +4.5 (11-game win streak, rest advantage). The ladder pick is the Phillies Under \u2014 S\u00e1nchez is the best pitcher in baseball right now, and the market hasn't fully adjusted to his dominance.",
       "slate_vibe": "HOT",
-      "published_at": "2026-06-03T14:45:05.640742-04:00"
+      "published_at": "2026-06-03T14:45:05.640742-04:00",
+      "autopsy": {
+        "classification": "MODEL",
+        "post_mortem": "Wembanyama finished with exactly 26 points \u2014 one short of the 26.5 line \u2014 but the story isn't bad luck at the margin. He shot 6-of-21 from the field (2-of-9 from three) with six turnovers, and the Knicks successfully kept him away from the rim: only 5 of his 21 attempts came at the basket, forcing him into the perimeter jumpers the thesis assumed would be available in the paint. The model leaned on his WCF PPG average (27.3) while underweighting his full 17-game playoff PPG (23.2) and ignored the specific defensive wrinkle \u2014 the Knicks didn't leave the paint open as predicted; they funneled him to the perimeter and let him shoot over traffic. He self-described the performance as 'bad,' and the 12-of-13 free throw line production (the only thing that got him to 26) masked a genuinely poor shooting night.",
+        "candidate_rule": "When a player's series-specific sample (WCF, N=7) diverges materially from their full playoff sample (N=17), weight the larger sample more heavily in the points projection \u2014 especially when the opponent's defensive scheme is structurally different from the prior series opponent; validate this rule at N\u226510 before applying as a hard filter.",
+        "sample_size_warning": "N=1, insufficient to establish rule \u2014 this is a single-game observation and could reflect Finals debut variance as much as a systematic modeling error."
+      }
     },
     {
       "id": "20260603-MLB-KC-CIN-PROP-CHASEBURNS",

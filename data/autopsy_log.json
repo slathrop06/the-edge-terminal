@@ -1,5 +1,18 @@
 [
   {
+    "id": "20260603-NBA-NY-SA-PROP-VICTORWEMBANYAMA",
+    "date": "2026-06-03",
+    "pick": "Victor Wembanyama Points Over 26.5",
+    "game": "NY @ SA",
+    "odds": "-118",
+    "result_score": "Victor Wembanyama: 26 points",
+    "classification": "MODEL",
+    "post_mortem": "Wembanyama finished with exactly 26 points \u2014 one short of the 26.5 line \u2014 but the story isn't bad luck at the margin. He shot 6-of-21 from the field (2-of-9 from three) with six turnovers, and the Knicks successfully kept him away from the rim: only 5 of his 21 attempts came at the basket, forcing him into the perimeter jumpers the thesis assumed would be available in the paint. The model leaned on his WCF PPG average (27.3) while underweighting his full 17-game playoff PPG (23.2) and ignored the specific defensive wrinkle \u2014 the Knicks didn't leave the paint open as predicted; they funneled him to the perimeter and let him shoot over traffic. He self-described the performance as 'bad,' and the 12-of-13 free throw line production (the only thing that got him to 26) masked a genuinely poor shooting night.",
+    "candidate_rule": "When a player's series-specific sample (WCF, N=7) diverges materially from their full playoff sample (N=17), weight the larger sample more heavily in the points projection \u2014 especially when the opponent's defensive scheme is structurally different from the prior series opponent; validate this rule at N\u226510 before applying as a hard filter.",
+    "sample_size_warning": "N=1, insufficient to establish rule \u2014 this is a single-game observation and could reflect Finals debut variance as much as a systematic modeling error.",
+    "analyzed_at": "2026-06-04T04:23:40.822042-04:00"
+  },
+  {
     "id": "20260603-NBA-NY-SA-TOTAL",
     "date": "2026-06-03",
     "pick": "Over 217.5",
