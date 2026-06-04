@@ -1,493 +1,9 @@
 {
-  "generated_at": "2026-06-03T19:01:01.382172-04:00",
-  "today": "2026-06-03",
+  "generated_at": "2026-06-04T03:59:56.497672-04:00",
+  "today": "2026-06-04",
   "system_paused": false,
   "pause_reason": "",
-  "today_picks": [
-    {
-      "id": "20260603-NBA-NY-SA-SPREAD",
-      "sport": "NBA",
-      "game": "NY @ SA",
-      "first_pitch_iso": "2026-06-04T00:30Z",
-      "pick": "New York Knicks +4.5",
-      "best_book": "FanDuel",
-      "best_odds": "-106",
-      "book_prices": {
-        "fanduel": "-106",
-        "betmgm": "-110"
-      },
-      "book_links": {
-        "fanduel": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.581233339&selectionId=237482",
-        "betmgm": "https://sports.nj.betmgm.com/en/sports?options=19611090-1525988704-2207875194&type=Single",
-        "draftkings": "https://sportsbook.draftkings.com/leagues/basketball/nba"
-      },
-      "market": "SPREAD",
-      "confidence": 3,
-      "units": 1.0,
-      "win_probability": 0.57,
-      "ladder_designation": false,
-      "data_confidence": 0.68,
-      "rules_passed": [
-        "max_juice",
-        "ladder_even_money",
-        "parlay_well_formed",
-        "confidence_units_match",
-        "data_confidence_floor",
-        "pick_type_allowed",
-        "mlb_hr_prop_check",
-        "mlb_pitcher_k_check",
-        "mlb_total_bases_check",
-        "mlb_hits_check",
-        "nba_player_prop_check",
-        "nhl_shots_check",
-        "mlb_run_line_check",
-        "mlb_under_bb_check",
-        "no_same_game_opposite"
-      ],
-      "locked": true,
-      "late_add": false,
-      "late_add_reason": "",
-      "bonus_pick": false,
-      "event_type": "",
-      "event_name": "",
-      "legs": [],
-      "headline": "The Knicks are on an 11-game winning streak and have a significant rest advantage \u2014 they won't go quietly in Game 1.",
-      "the_thesis": "The New York Knicks enter the Finals on an 11-game winning streak, including sweeps of the 76ers and Cavaliers. They've been idle since May 25, giving them a significant rest advantage over the Spurs, who just finished a grueling seven-game series against the Thunder on May 30. Jalen Brunson is averaging 26.9 PPG in the playoffs, and the Knicks shot 40% from three during their run \u2014 the best mark in the NBA.\n\nThe Spurs are rightfully favored at home, but 4.5 points is a lot to lay against a team that beat San Antonio in the NBA Cup final (124-113) and has won 8 of the last 12 meetings. The Knicks' defensive structure \u2014 built around protecting the three-point line \u2014 should force the Spurs into contested mid-range shots, which is where Wembanyama thrives but where role players struggle.\n\nMitchell Robinson is expected to play after hand surgery, which helps New York's rebounding and rim protection. The line is set at +4.5 at -106 on FanDuel. I have the Knicks at 57% to cover, giving us a 5+ cent edge.",
-      "the_data": [
-        {
-          "label": "Knicks win streak",
-          "value": "11 games",
-          "context": "Record-tying"
-        },
-        {
-          "label": "Knicks rest advantage",
-          "value": "9 days",
-          "context": "Idle since May 25"
-        },
-        {
-          "label": "Spurs rest",
-          "value": "4 days",
-          "context": "WCF ended May 30"
-        },
-        {
-          "label": "Knicks playoff 3P%",
-          "value": "40%",
-          "context": "Best in NBA"
-        },
-        {
-          "label": "H2H (season)",
-          "value": "Knicks 2-1",
-          "context": "Including NBA Cup final"
-        },
-        {
-          "label": "Robinson status",
-          "value": "Expected to play",
-          "context": "Hand surgery recovery"
-        }
-      ],
-      "the_market": "Line opened at +4.5 and has held steady. FanDuel at -106 is the best price. No significant movement, suggesting balanced action.",
-      "weather_park": "Indoor game at Frost Bank Center. No weather impact.",
-      "case_against": "The Spurs are at home in the Finals for the first time since 2014, and the crowd will be electric. Wembanyama is a matchup nightmare, and the Knicks' interior defense may struggle. De'Aaron Fox is managing an ankle sprain but is expected to play his normal minutes.",
-      "what_were_betting_on": "The Knicks' rest advantage translating to sharper execution, Brunson and Towns combining for 45+ points, and the Knicks' three-point shooting keeping them within striking distance.",
-      "scott_bot_quip": "The Knicks haven't lost in a month. The boys aren't betting against that kind of momentum.",
-      "ladder_note": "",
-      "date": "2026-06-03",
-      "status": "PEND",
-      "units_result": null,
-      "clv_cents": null,
-      "result_score": null,
-      "graded_at": null,
-      "slate_assessment": "MLB-heavy Wednesday with 13 games plus NBA Finals Game 1 \u2014 Cristopher S\u00e1nchez chasing history at home, Chase Burns back from illness, and Wembanyama vs. Brunson tips off in San Antonio.",
-      "executive_summary": "The board today is anchored by two elite pitching matchups and the NBA Finals opener. Cristopher S\u00e1nchez brings a 44\u2154 scoreless-inning streak into Citizens Bank Park against Walker Buehler and the Padres \u2014 the under at 8.5 is the sharpest play on the slate. Chase Burns returns from illness to face a weak Royals lineup at Great American Ball Park, and his K prop deserves a hard look. In San Antonio, the Spurs host the Knicks in Game 1 with Victor Wembanyama healthy and the total sitting at 217.5 after the Spurs averaged 226 combined points per game in their three WCF home games. The ladder rides with the Phillies Under \u2014 S\u00e1nchez is pitching at a historic level, and the market hasn't caught up.",
-      "slate_analysis": "Today's board features 13 MLB games and one NBA Finals matchup. The MLB slate is spread across all three time zones with first pitches from 3:40 PM ET through 9:40 PM PT. The NBA Finals Game 1 tips at 8:30 PM ET in San Antonio. Pricing is relatively tight across the board \u2014 most MLB moneylines sit between -150 and +150, with only the Phillies (-200) and Dodgers (-142) as clear favorites.\n\nThe top candidates that rose during my review: (1) Phillies Under 8.5 \u2014 S\u00e1nchez is on a historic scoreless streak and faces a struggling Buehler; (2) Reds ML vs. Royals \u2014 Chase Burns (1.96 ERA, 28.9 K%) returns from illness against a bottom-tier KC lineup; (3) Spurs-Knicks Over 217.5 \u2014 the Spurs averaged 226 combined points in their three WCF home games, and both teams have the offensive firepower to push this over; (4) Dodgers-Diamondbacks Under 9.5 \u2014 Ohtani on the mound with a 0.82 ERA, but the total has already moved from 8.8 to 9.5; (5) Chase Burns Ks Over 5.5 \u2014 his 28.9 K% against a KC team that strikes out at a high clip; (6) Victor Wembanyama Points Over 26.5 \u2014 he averaged 27.3 PPG in the WCF and faces a Knicks defense that will struggle to contain him.\n\nWhat got cut: The Mets-Mariners game has data confidence at 0.45 and lineups aren't confirmed \u2014 too thin. The Yankees-Guardians game has Gerrit Cole on a pitch count (only 12.2 IP this season) and the total moved from 7.5 to 8.5 \u2014 no edge. The Dodgers-Diamondbacks Under looked appealing with Ohtani pitching, but the total already moved a full run and Gallen's 5.16 ERA creates variance. The Braves-Blue Jays game has two mediocre starters (Holmes 3.95 ERA, Corbin 3.65 ERA) and data confidence at 0.4 \u2014 pass. The Pirates-Astros game has only one book reporting and data confidence at 0.3 \u2014 too thin.\n\nThe final six picks: Phillies Under 8.5 (S\u00e1nchez historic streak, Buehler struggling), Reds ML (Burns elite, Royals weak), Spurs-Knicks Over 217.5 (WCF home scoring trends), Chase Burns Ks Over 5.5 (elite K rate vs. high-K offense), Victor Wembanyama Points Over 26.5 (WCF form, Knicks matchup), and Knicks +4.5 (11-game win streak, rest advantage). The ladder pick is the Phillies Under \u2014 S\u00e1nchez is the best pitcher in baseball right now, and the market hasn't fully adjusted to his dominance.",
-      "slate_vibe": "HOT",
-      "published_at": "2026-06-03T14:45:05.640825-04:00"
-    },
-    {
-      "id": "20260603-NBA-NY-SA-PROP-VICTORWEMBANYAMA",
-      "sport": "NBA",
-      "game": "NY @ SA",
-      "first_pitch_iso": "2026-06-04T00:30Z",
-      "pick": "Victor Wembanyama Points Over 26.5",
-      "best_book": "FanDuel",
-      "best_odds": "-118",
-      "book_prices": {
-        "fanduel": "-118",
-        "betmgm": "-105"
-      },
-      "book_links": {
-        "fanduel": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.581781665&selectionId=61967224",
-        "betmgm": "https://sports.nj.betmgm.com/en/sports?options=6:42843-3065273-4723081&type=Single",
-        "draftkings": "https://sportsbook.draftkings.com/leagues/basketball/nba"
-      },
-      "market": "PROP",
-      "confidence": 4,
-      "units": 1.5,
-      "win_probability": 0.61,
-      "ladder_designation": false,
-      "data_confidence": 0.68,
-      "rules_passed": [
-        "max_juice",
-        "ladder_even_money",
-        "parlay_well_formed",
-        "confidence_units_match",
-        "data_confidence_floor",
-        "pick_type_allowed",
-        "mlb_hr_prop_check",
-        "mlb_pitcher_k_check",
-        "mlb_total_bases_check",
-        "mlb_hits_check",
-        "nba_player_prop_check(soft)",
-        "nhl_shots_check",
-        "mlb_run_line_check",
-        "mlb_under_bb_check",
-        "no_same_game_opposite"
-      ],
-      "locked": true,
-      "late_add": false,
-      "late_add_reason": "",
-      "bonus_pick": false,
-      "event_type": "",
-      "event_name": "",
-      "legs": [],
-      "headline": "Wembanyama averaged 27.3 PPG in the WCF \u2014 the Knicks don't have anyone who can guard him.",
-      "the_thesis": "Victor Wembanyama is the reigning Defensive Player of the Year and the Western Conference Finals MVP. He averaged 27.3 PPG, 10.9 RPG, and 3.1 APG across the seven WCF games against the Thunder, and he's healthy heading into Game 1. The Knicks' defensive structure is built around protecting the three-point line, which leaves his post-up and mid-range game available early.\n\nKarl-Anthony Towns and Mitchell Robinson will take turns guarding Wembanyama, but neither has the length or mobility to truly contest his shots. The Knicks' strategy will likely involve physical play and double-teams, but Wembanyama has shown he can score through contact and find open teammates when doubled.\n\nThe line is set at 26.5 points at -118 on FanDuel. His WCF average of 27.3 PPG suggests this is a coin flip at worst. I have him at 61% to hit 27+ points, giving us a 5+ cent edge.",
-      "the_data": [
-        {
-          "label": "Wembanyama WCF PPG",
-          "value": "27.3",
-          "context": "WCF MVP"
-        },
-        {
-          "label": "Wembanyama playoff PPG",
-          "value": "23.2",
-          "context": "17 games"
-        },
-        {
-          "label": "Wembanyama playoff RPG",
-          "value": "10.8",
-          "context": "Dominant"
-        },
-        {
-          "label": "Knicks defensive strategy",
-          "value": "Perimeter-focused",
-          "context": "Leaves paint open"
-        },
-        {
-          "label": "Robinson status",
-          "value": "Expected to play",
-          "context": "Hand surgery recovery"
-        }
-      ],
-      "the_market": "Line is set at 26.5 points at -118 on FanDuel, -105 at BetMGM. FanDuel has the better price for the over. No significant movement since open.",
-      "weather_park": "Indoor game at Frost Bank Center. No weather impact.",
-      "case_against": "The Knicks could throw multiple bodies at Wembanyama and force his teammates to beat them. If the Spurs' role players get hot, Wembanyama's usage could dip. Game 1 rust is also a factor.",
-      "what_were_betting_on": "Wembanyama getting 20+ FGA, the Knicks' interior defense struggling to contain him, and the Spurs running their offense through their franchise player in a Finals home game.",
-      "scott_bot_quip": "Wemby is 7'4\" and the Knicks are bringing a step ladder. Over.",
-      "ladder_note": "",
-      "date": "2026-06-03",
-      "status": "PEND",
-      "units_result": null,
-      "clv_cents": null,
-      "result_score": null,
-      "graded_at": null,
-      "slate_assessment": "MLB-heavy Wednesday with 13 games plus NBA Finals Game 1 \u2014 Cristopher S\u00e1nchez chasing history at home, Chase Burns back from illness, and Wembanyama vs. Brunson tips off in San Antonio.",
-      "executive_summary": "The board today is anchored by two elite pitching matchups and the NBA Finals opener. Cristopher S\u00e1nchez brings a 44\u2154 scoreless-inning streak into Citizens Bank Park against Walker Buehler and the Padres \u2014 the under at 8.5 is the sharpest play on the slate. Chase Burns returns from illness to face a weak Royals lineup at Great American Ball Park, and his K prop deserves a hard look. In San Antonio, the Spurs host the Knicks in Game 1 with Victor Wembanyama healthy and the total sitting at 217.5 after the Spurs averaged 226 combined points per game in their three WCF home games. The ladder rides with the Phillies Under \u2014 S\u00e1nchez is pitching at a historic level, and the market hasn't caught up.",
-      "slate_analysis": "Today's board features 13 MLB games and one NBA Finals matchup. The MLB slate is spread across all three time zones with first pitches from 3:40 PM ET through 9:40 PM PT. The NBA Finals Game 1 tips at 8:30 PM ET in San Antonio. Pricing is relatively tight across the board \u2014 most MLB moneylines sit between -150 and +150, with only the Phillies (-200) and Dodgers (-142) as clear favorites.\n\nThe top candidates that rose during my review: (1) Phillies Under 8.5 \u2014 S\u00e1nchez is on a historic scoreless streak and faces a struggling Buehler; (2) Reds ML vs. Royals \u2014 Chase Burns (1.96 ERA, 28.9 K%) returns from illness against a bottom-tier KC lineup; (3) Spurs-Knicks Over 217.5 \u2014 the Spurs averaged 226 combined points in their three WCF home games, and both teams have the offensive firepower to push this over; (4) Dodgers-Diamondbacks Under 9.5 \u2014 Ohtani on the mound with a 0.82 ERA, but the total has already moved from 8.8 to 9.5; (5) Chase Burns Ks Over 5.5 \u2014 his 28.9 K% against a KC team that strikes out at a high clip; (6) Victor Wembanyama Points Over 26.5 \u2014 he averaged 27.3 PPG in the WCF and faces a Knicks defense that will struggle to contain him.\n\nWhat got cut: The Mets-Mariners game has data confidence at 0.45 and lineups aren't confirmed \u2014 too thin. The Yankees-Guardians game has Gerrit Cole on a pitch count (only 12.2 IP this season) and the total moved from 7.5 to 8.5 \u2014 no edge. The Dodgers-Diamondbacks Under looked appealing with Ohtani pitching, but the total already moved a full run and Gallen's 5.16 ERA creates variance. The Braves-Blue Jays game has two mediocre starters (Holmes 3.95 ERA, Corbin 3.65 ERA) and data confidence at 0.4 \u2014 pass. The Pirates-Astros game has only one book reporting and data confidence at 0.3 \u2014 too thin.\n\nThe final six picks: Phillies Under 8.5 (S\u00e1nchez historic streak, Buehler struggling), Reds ML (Burns elite, Royals weak), Spurs-Knicks Over 217.5 (WCF home scoring trends), Chase Burns Ks Over 5.5 (elite K rate vs. high-K offense), Victor Wembanyama Points Over 26.5 (WCF form, Knicks matchup), and Knicks +4.5 (11-game win streak, rest advantage). The ladder pick is the Phillies Under \u2014 S\u00e1nchez is the best pitcher in baseball right now, and the market hasn't fully adjusted to his dominance.",
-      "slate_vibe": "HOT",
-      "published_at": "2026-06-03T14:45:05.640742-04:00"
-    },
-    {
-      "id": "20260603-MLB-KC-CIN-PROP-CHASEBURNS",
-      "sport": "MLB",
-      "game": "KC @ CIN",
-      "first_pitch_iso": "2026-06-03T23:10Z",
-      "pick": "Chase Burns Ks Over 5.5",
-      "best_book": "DraftKings",
-      "best_odds": "-107",
-      "book_prices": {
-        "draftkings": "-107"
-      },
-      "book_links": {
-        "draftkings": "https://sportsbook.draftkings.com/event/34233211",
-        "betmgm": "https://sports.nj.betmgm.com/en/sports/events/kansas-city-royals-at-cincinnati-reds-19641735",
-        "fanduel": "https://sportsbook.fanduel.com/baseball/mlb/kansas-city-royals-%28s-kolek%29-%40-cincinnati-reds-%28c-burns%29-35676904"
-      },
-      "market": "PROP",
-      "confidence": 4,
-      "units": 1.5,
-      "win_probability": 0.63,
-      "ladder_designation": false,
-      "data_confidence": 0.7,
-      "rules_passed": [
-        "max_juice",
-        "ladder_even_money",
-        "parlay_well_formed",
-        "confidence_units_match",
-        "data_confidence_floor",
-        "pick_type_allowed",
-        "mlb_hr_prop_check",
-        "mlb_pitcher_k_check",
-        "mlb_total_bases_check",
-        "mlb_hits_check",
-        "nba_player_prop_check",
-        "nhl_shots_check",
-        "mlb_run_line_check",
-        "mlb_under_bb_check",
-        "no_same_game_opposite"
-      ],
-      "locked": true,
-      "late_add": false,
-      "late_add_reason": "",
-      "bonus_pick": false,
-      "event_type": "",
-      "event_name": "",
-      "legs": [],
-      "headline": "Burns has a 28.9 K% and averages 10+ Ks per 9 IP \u2014 the Royals strike out at a high clip.",
-      "the_thesis": "Chase Burns is a strikeout machine. His 28.9 K% ranks among the league's elite, and he's averaging 10.1 K/9 this season. His fastball averages 98.1 mph with elite induced vertical break, and his slider generates a 56% whiff rate. In his last three starts, he's averaged 7+ Ks per outing.\n\nThe Royals are a high-strikeout team \u2014 their offense ranks in the bottom third of MLB in contact rate. Stephen Kolek's soft-tossing approach won't help them adjust to Burns' velocity. The line is set at 5.5 Ks at -107 on DraftKings, which implies ~51.7% probability. I have Burns at 63% to hit 6+ Ks, giving us an 11+ cent edge.\n\nBurns was scratched Monday due to illness, but he's confirmed to pitch Wednesday. If he's at full strength, 6+ Ks is a near-certainty against this lineup.",
-      "the_data": [
-        {
-          "label": "Burns K% (season)",
-          "value": "28.9%",
-          "context": "Elite, top-10 in MLB"
-        },
-        {
-          "label": "Burns K/9 (season)",
-          "value": "10.1",
-          "context": "Elite"
-        },
-        {
-          "label": "Burns slider whiff%",
-          "value": "56%",
-          "context": "Devastating"
-        },
-        {
-          "label": "Royals K% (season)",
-          "value": "High",
-          "context": "Bottom-third in contact rate"
-        },
-        {
-          "label": "Burns L3 avg Ks",
-          "value": "7+",
-          "context": "Consistent"
-        }
-      ],
-      "the_market": "Line is set at 5.5 Ks at -107 on DraftKings. No movement since open. The market is undervaluing Burns' strikeout upside against a weak-contact team.",
-      "weather_park": "Great American Ball Park, 79\u00b0F, wind in from left field. No impact on strikeouts.",
-      "case_against": "Burns was scratched Monday due to illness \u2014 if he's not 100%, his velocity could dip and his K rate could suffer. The Royals could also shorten at-bats and put balls in play early in counts.",
-      "what_were_betting_on": "Burns going 6+ IP with 7+ Ks, the Royals swinging and missing at his slider, and Burns' fastball velocity staying at 98+ mph.",
-      "scott_bot_quip": "Burns throws gas and the Royals swing at air. Math checks out.",
-      "ladder_note": "",
-      "date": "2026-06-03",
-      "status": "PEND",
-      "units_result": null,
-      "clv_cents": null,
-      "result_score": null,
-      "graded_at": null,
-      "slate_assessment": "MLB-heavy Wednesday with 13 games plus NBA Finals Game 1 \u2014 Cristopher S\u00e1nchez chasing history at home, Chase Burns back from illness, and Wembanyama vs. Brunson tips off in San Antonio.",
-      "executive_summary": "The board today is anchored by two elite pitching matchups and the NBA Finals opener. Cristopher S\u00e1nchez brings a 44\u2154 scoreless-inning streak into Citizens Bank Park against Walker Buehler and the Padres \u2014 the under at 8.5 is the sharpest play on the slate. Chase Burns returns from illness to face a weak Royals lineup at Great American Ball Park, and his K prop deserves a hard look. In San Antonio, the Spurs host the Knicks in Game 1 with Victor Wembanyama healthy and the total sitting at 217.5 after the Spurs averaged 226 combined points per game in their three WCF home games. The ladder rides with the Phillies Under \u2014 S\u00e1nchez is pitching at a historic level, and the market hasn't caught up.",
-      "slate_analysis": "Today's board features 13 MLB games and one NBA Finals matchup. The MLB slate is spread across all three time zones with first pitches from 3:40 PM ET through 9:40 PM PT. The NBA Finals Game 1 tips at 8:30 PM ET in San Antonio. Pricing is relatively tight across the board \u2014 most MLB moneylines sit between -150 and +150, with only the Phillies (-200) and Dodgers (-142) as clear favorites.\n\nThe top candidates that rose during my review: (1) Phillies Under 8.5 \u2014 S\u00e1nchez is on a historic scoreless streak and faces a struggling Buehler; (2) Reds ML vs. Royals \u2014 Chase Burns (1.96 ERA, 28.9 K%) returns from illness against a bottom-tier KC lineup; (3) Spurs-Knicks Over 217.5 \u2014 the Spurs averaged 226 combined points in their three WCF home games, and both teams have the offensive firepower to push this over; (4) Dodgers-Diamondbacks Under 9.5 \u2014 Ohtani on the mound with a 0.82 ERA, but the total has already moved from 8.8 to 9.5; (5) Chase Burns Ks Over 5.5 \u2014 his 28.9 K% against a KC team that strikes out at a high clip; (6) Victor Wembanyama Points Over 26.5 \u2014 he averaged 27.3 PPG in the WCF and faces a Knicks defense that will struggle to contain him.\n\nWhat got cut: The Mets-Mariners game has data confidence at 0.45 and lineups aren't confirmed \u2014 too thin. The Yankees-Guardians game has Gerrit Cole on a pitch count (only 12.2 IP this season) and the total moved from 7.5 to 8.5 \u2014 no edge. The Dodgers-Diamondbacks Under looked appealing with Ohtani pitching, but the total already moved a full run and Gallen's 5.16 ERA creates variance. The Braves-Blue Jays game has two mediocre starters (Holmes 3.95 ERA, Corbin 3.65 ERA) and data confidence at 0.4 \u2014 pass. The Pirates-Astros game has only one book reporting and data confidence at 0.3 \u2014 too thin.\n\nThe final six picks: Phillies Under 8.5 (S\u00e1nchez historic streak, Buehler struggling), Reds ML (Burns elite, Royals weak), Spurs-Knicks Over 217.5 (WCF home scoring trends), Chase Burns Ks Over 5.5 (elite K rate vs. high-K offense), Victor Wembanyama Points Over 26.5 (WCF form, Knicks matchup), and Knicks +4.5 (11-game win streak, rest advantage). The ladder pick is the Phillies Under \u2014 S\u00e1nchez is the best pitcher in baseball right now, and the market hasn't fully adjusted to his dominance.",
-      "slate_vibe": "HOT",
-      "published_at": "2026-06-03T14:45:05.640663-04:00"
-    },
-    {
-      "id": "20260603-NBA-NY-SA-TOTAL",
-      "sport": "NBA",
-      "game": "NY @ SA",
-      "first_pitch_iso": "2026-06-04T00:30Z",
-      "pick": "Over 217.5",
-      "best_book": "FanDuel",
-      "best_odds": "-108",
-      "book_prices": {
-        "fanduel": "-108",
-        "betmgm": "-110"
-      },
-      "book_links": {
-        "fanduel": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.581234585&selectionId=7017823",
-        "betmgm": "https://sports.nj.betmgm.com/en/sports?options=19611090-1525988715-2207875216&type=Single",
-        "draftkings": "https://sportsbook.draftkings.com/leagues/basketball/nba"
-      },
-      "market": "TOTAL",
-      "confidence": 4,
-      "units": 1.5,
-      "win_probability": 0.62,
-      "ladder_designation": false,
-      "data_confidence": 0.7,
-      "rules_passed": [
-        "max_juice",
-        "ladder_even_money",
-        "parlay_well_formed",
-        "confidence_units_match",
-        "data_confidence_floor",
-        "pick_type_allowed",
-        "mlb_hr_prop_check",
-        "mlb_pitcher_k_check",
-        "mlb_total_bases_check",
-        "mlb_hits_check",
-        "nba_player_prop_check",
-        "nhl_shots_check",
-        "mlb_run_line_check",
-        "mlb_under_bb_check",
-        "no_same_game_opposite"
-      ],
-      "locked": true,
-      "late_add": false,
-      "late_add_reason": "",
-      "bonus_pick": false,
-      "event_type": "",
-      "event_name": "",
-      "legs": [],
-      "headline": "The Spurs averaged 226 combined points per game in their three WCF home games \u2014 Game 1 of the Finals should follow suit.",
-      "the_thesis": "The San Antonio Spurs just finished a seven-game Western Conference Finals against the Thunder, and their three home games averaged 226.4 combined points \u2014 all three went over the total. Victor Wembanyama averaged 27.3 PPG, 10.9 RPG, and 3.1 APG in the WCF, and he's healthy heading into Game 1. The Knicks, meanwhile, are on an 11-game winning streak and have been idle since May 25, giving them a significant rest advantage.\n\nThe Knicks shot 40% from three during their playoff run \u2014 the best mark in the NBA \u2014 while holding opponents to 30.5%. Jalen Brunson is averaging 26.9 PPG in the playoffs, and Karl-Anthony Towns provides an inside-outside presence that should generate efficient offense. Mitchell Robinson is expected to play after hand surgery, which helps New York's rebounding and rim protection.\n\nThe total opened at 217.5 and hasn't moved. The Spurs' WCF home games suggest this number is too low. Both teams have the offensive firepower to push this over, and Game 1 of the Finals typically features some rust and adjustment \u2014 but also high-stakes intensity that drives scoring.",
-      "the_data": [
-        {
-          "label": "Spurs WCF home combined PPG",
-          "value": "226.4",
-          "context": "All 3 went over"
-        },
-        {
-          "label": "Wembanyama WCF PPG",
-          "value": "27.3",
-          "context": "Dominant"
-        },
-        {
-          "label": "Knicks playoff 3P%",
-          "value": "40%",
-          "context": "Best in NBA"
-        },
-        {
-          "label": "Brunson playoff PPG",
-          "value": "26.9",
-          "context": "Elite"
-        },
-        {
-          "label": "Knicks win streak",
-          "value": "11 games",
-          "context": "Record-tying"
-        },
-        {
-          "label": "Robinson status",
-          "value": "Expected to play",
-          "context": "Hand surgery recovery"
-        }
-      ],
-      "the_market": "Total opened at 217.5 and has held steady across both books. FanDuel at -108 is the best price. No significant movement, suggesting balanced action.",
-      "weather_park": "Indoor game at Frost Bank Center. No weather impact.",
-      "case_against": "The Knicks' rest advantage could lead to a slower pace as they work off rust. De'Aaron Fox is managing an ankle sprain and may be less aggressive. Game 1 of the Finals can be tight and defensive as teams feel each other out.",
-      "what_were_betting_on": "Both teams scoring 108+ points, Wembanyama and Brunson combining for 50+ points, and the pace staying above 95 possessions.",
-      "scott_bot_quip": "Wemby and Brunson in the Finals. The boys are watching history \u2014 might as well bet on it.",
-      "ladder_note": "",
-      "date": "2026-06-03",
-      "status": "PEND",
-      "units_result": null,
-      "clv_cents": null,
-      "result_score": null,
-      "graded_at": null,
-      "slate_assessment": "MLB-heavy Wednesday with 13 games plus NBA Finals Game 1 \u2014 Cristopher S\u00e1nchez chasing history at home, Chase Burns back from illness, and Wembanyama vs. Brunson tips off in San Antonio.",
-      "executive_summary": "The board today is anchored by two elite pitching matchups and the NBA Finals opener. Cristopher S\u00e1nchez brings a 44\u2154 scoreless-inning streak into Citizens Bank Park against Walker Buehler and the Padres \u2014 the under at 8.5 is the sharpest play on the slate. Chase Burns returns from illness to face a weak Royals lineup at Great American Ball Park, and his K prop deserves a hard look. In San Antonio, the Spurs host the Knicks in Game 1 with Victor Wembanyama healthy and the total sitting at 217.5 after the Spurs averaged 226 combined points per game in their three WCF home games. The ladder rides with the Phillies Under \u2014 S\u00e1nchez is pitching at a historic level, and the market hasn't caught up.",
-      "slate_analysis": "Today's board features 13 MLB games and one NBA Finals matchup. The MLB slate is spread across all three time zones with first pitches from 3:40 PM ET through 9:40 PM PT. The NBA Finals Game 1 tips at 8:30 PM ET in San Antonio. Pricing is relatively tight across the board \u2014 most MLB moneylines sit between -150 and +150, with only the Phillies (-200) and Dodgers (-142) as clear favorites.\n\nThe top candidates that rose during my review: (1) Phillies Under 8.5 \u2014 S\u00e1nchez is on a historic scoreless streak and faces a struggling Buehler; (2) Reds ML vs. Royals \u2014 Chase Burns (1.96 ERA, 28.9 K%) returns from illness against a bottom-tier KC lineup; (3) Spurs-Knicks Over 217.5 \u2014 the Spurs averaged 226 combined points in their three WCF home games, and both teams have the offensive firepower to push this over; (4) Dodgers-Diamondbacks Under 9.5 \u2014 Ohtani on the mound with a 0.82 ERA, but the total has already moved from 8.8 to 9.5; (5) Chase Burns Ks Over 5.5 \u2014 his 28.9 K% against a KC team that strikes out at a high clip; (6) Victor Wembanyama Points Over 26.5 \u2014 he averaged 27.3 PPG in the WCF and faces a Knicks defense that will struggle to contain him.\n\nWhat got cut: The Mets-Mariners game has data confidence at 0.45 and lineups aren't confirmed \u2014 too thin. The Yankees-Guardians game has Gerrit Cole on a pitch count (only 12.2 IP this season) and the total moved from 7.5 to 8.5 \u2014 no edge. The Dodgers-Diamondbacks Under looked appealing with Ohtani pitching, but the total already moved a full run and Gallen's 5.16 ERA creates variance. The Braves-Blue Jays game has two mediocre starters (Holmes 3.95 ERA, Corbin 3.65 ERA) and data confidence at 0.4 \u2014 pass. The Pirates-Astros game has only one book reporting and data confidence at 0.3 \u2014 too thin.\n\nThe final six picks: Phillies Under 8.5 (S\u00e1nchez historic streak, Buehler struggling), Reds ML (Burns elite, Royals weak), Spurs-Knicks Over 217.5 (WCF home scoring trends), Chase Burns Ks Over 5.5 (elite K rate vs. high-K offense), Victor Wembanyama Points Over 26.5 (WCF form, Knicks matchup), and Knicks +4.5 (11-game win streak, rest advantage). The ladder pick is the Phillies Under \u2014 S\u00e1nchez is the best pitcher in baseball right now, and the market hasn't fully adjusted to his dominance.",
-      "slate_vibe": "HOT",
-      "published_at": "2026-06-03T14:45:05.640569-04:00"
-    },
-    {
-      "id": "20260603-MLB-SD-PHI-TOTAL",
-      "sport": "MLB",
-      "game": "SD @ PHI",
-      "first_pitch_iso": "2026-06-03T22:40Z",
-      "pick": "Under 8.5",
-      "best_book": "FanDuel",
-      "best_odds": "-124",
-      "book_prices": {
-        "fanduel": "-124"
-      },
-      "book_links": {
-        "fanduel": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.583337340&selectionId=7017906",
-        "draftkings": "https://sportsbook.draftkings.com/leagues/baseball/mlb",
-        "betmgm": "https://sports.nj.betmgm.com/en/sports/baseball-23/betting/usa-9/mlb-75"
-      },
-      "market": "TOTAL",
-      "confidence": 5,
-      "units": 2.0,
-      "win_probability": 0.64,
-      "ladder_designation": true,
-      "data_confidence": 0.75,
-      "rules_passed": [
-        "max_juice",
-        "ladder_even_money",
-        "parlay_well_formed",
-        "confidence_units_match",
-        "data_confidence_floor",
-        "pick_type_allowed",
-        "mlb_hr_prop_check",
-        "mlb_pitcher_k_check",
-        "mlb_total_bases_check",
-        "mlb_hits_check",
-        "nba_player_prop_check",
-        "nhl_shots_check",
-        "mlb_run_line_check",
-        "mlb_under_bb_check",
-        "no_same_game_opposite"
-      ],
-      "locked": true,
-      "late_add": false,
-      "late_add_reason": "",
-      "bonus_pick": false,
-      "event_type": "",
-      "event_name": "",
-      "legs": [],
-      "headline": "Cristopher S\u00e1nchez is chasing Orel Hershiser's record with 44\u2154 scoreless innings \u2014 the best pitcher in baseball faces a struggling Walker Buehler.",
-      "the_thesis": "Cristopher S\u00e1nchez enters Wednesday's start riding a scoreless streak of 44\u2154 innings \u2014 the seventh-longest in MLB history and a new Phillies franchise record, surpassing Grover Cleveland Alexander's 115-year-old mark. He's the first pitcher since Orel Hershiser in 1988 to go an entire calendar month without allowing a run (minimum 30 IP). His 1.47 ERA leads all qualified starters, and his 29.4 K% is elite. With a scoreless first inning, he'll pass Carl Hubbell for the longest scoreless streak ever by a left-handed pitcher.\n\nWalker Buehler, meanwhile, has been mediocre at best \u2014 a 4.88 ERA with a 1.32 WHIP and only 17 IP per start over his last three outings. The Padres offense has been league-average at 3.88 R/G, but they're facing a pitcher who hasn't allowed a run in over a month. Citizens Bank Park is HR-friendly (1.10 PF), but S\u00e1nchez's 0.34 HR/9 suggests he's not giving up the long ball regardless of venue.\n\nThe total opened at 7.5 and has moved to 8.5, but that movement is driven by the park factor and Buehler's struggles \u2014 not by any expectation that S\u00e1nchez will suddenly become hittable. The market is pricing in regression that hasn't materialized. This is the highest-floor play on the board.",
-      "the_data": [
-        {
-          "label": "S\u00e1nchez scoreless streak",
-          "value": "44\u2154 IP",
-          "context": "7th-longest in MLB history"
-        },
-        {
-          "label": "S\u00e1nchez ERA (season)",
-          "value": "1.47",
-          "context": "MLB-best among qualified SP"
-        },
-        {
-          "label": "S\u00e1nchez K% (season)",
-          "value": "29.4%",
-          "context": "Elite, top-10 in MLB"
-        },
-        {
-          "label": "Buehler ERA (season)",
-          "value": "4.88",
-          "context": "Below-average"
-        },
-        {
-          "label": "Buehler IP/start (L3)",
-          "value": "17.07",
-          "context": "Short outings"
-        },
-        {
-          "label": "Citizens Bank Park HR PF",
-          "value": "1.10",
-          "context": "HR-boosting, but S\u00e1nchez HR/9 is 0.34"
-        }
-      ],
-      "the_market": "Total opened at 7.5 and has moved to 8.5 across the board. Only FanDuel is reporting, so book count is thin, but the movement suggests public money on the over. The under at -124 still offers value given S\u00e1nchez's dominance.",
-      "weather_park": "Citizens Bank Park is HR-friendly (1.10 PF), but S\u00e1nchez's 0.34 HR/9 neutralizes the park effect. Weather is a non-factor for this indoor-adjacent venue.",
-      "case_against": "Buehler's struggles could lead to a short outing and early bullpen exposure. If the Phillies pen gives up runs in the 5th-7th innings, the over comes into play. The total has already moved a full run, suggesting sharp money may have already taken the under.",
-      "what_were_betting_on": "S\u00e1nchez continuing his historic run with 6+ scoreless innings, Buehler lasting 5 IP with 2-3 ER, and both bullpens holding serve.",
-      "scott_bot_quip": "S\u00e1nchez is pitching like he's got a grudge against the concept of earned runs. The boys ride with history.",
-      "ladder_note": "Best floor on the board \u2014 S\u00e1nchez is the best pitcher in baseball right now, and the market hasn't fully adjusted. Even if Buehler implodes, S\u00e1nchez's side of the ledger stays clean.",
-      "date": "2026-06-03",
-      "status": "PEND",
-      "units_result": null,
-      "clv_cents": null,
-      "result_score": null,
-      "graded_at": null,
-      "slate_assessment": "MLB-heavy Wednesday with 13 games plus NBA Finals Game 1 \u2014 Cristopher S\u00e1nchez chasing history at home, Chase Burns back from illness, and Wembanyama vs. Brunson tips off in San Antonio.",
-      "executive_summary": "The board today is anchored by two elite pitching matchups and the NBA Finals opener. Cristopher S\u00e1nchez brings a 44\u2154 scoreless-inning streak into Citizens Bank Park against Walker Buehler and the Padres \u2014 the under at 8.5 is the sharpest play on the slate. Chase Burns returns from illness to face a weak Royals lineup at Great American Ball Park, and his K prop deserves a hard look. In San Antonio, the Spurs host the Knicks in Game 1 with Victor Wembanyama healthy and the total sitting at 217.5 after the Spurs averaged 226 combined points per game in their three WCF home games. The ladder rides with the Phillies Under \u2014 S\u00e1nchez is pitching at a historic level, and the market hasn't caught up.",
-      "slate_analysis": "Today's board features 13 MLB games and one NBA Finals matchup. The MLB slate is spread across all three time zones with first pitches from 3:40 PM ET through 9:40 PM PT. The NBA Finals Game 1 tips at 8:30 PM ET in San Antonio. Pricing is relatively tight across the board \u2014 most MLB moneylines sit between -150 and +150, with only the Phillies (-200) and Dodgers (-142) as clear favorites.\n\nThe top candidates that rose during my review: (1) Phillies Under 8.5 \u2014 S\u00e1nchez is on a historic scoreless streak and faces a struggling Buehler; (2) Reds ML vs. Royals \u2014 Chase Burns (1.96 ERA, 28.9 K%) returns from illness against a bottom-tier KC lineup; (3) Spurs-Knicks Over 217.5 \u2014 the Spurs averaged 226 combined points in their three WCF home games, and both teams have the offensive firepower to push this over; (4) Dodgers-Diamondbacks Under 9.5 \u2014 Ohtani on the mound with a 0.82 ERA, but the total has already moved from 8.8 to 9.5; (5) Chase Burns Ks Over 5.5 \u2014 his 28.9 K% against a KC team that strikes out at a high clip; (6) Victor Wembanyama Points Over 26.5 \u2014 he averaged 27.3 PPG in the WCF and faces a Knicks defense that will struggle to contain him.\n\nWhat got cut: The Mets-Mariners game has data confidence at 0.45 and lineups aren't confirmed \u2014 too thin. The Yankees-Guardians game has Gerrit Cole on a pitch count (only 12.2 IP this season) and the total moved from 7.5 to 8.5 \u2014 no edge. The Dodgers-Diamondbacks Under looked appealing with Ohtani pitching, but the total already moved a full run and Gallen's 5.16 ERA creates variance. The Braves-Blue Jays game has two mediocre starters (Holmes 3.95 ERA, Corbin 3.65 ERA) and data confidence at 0.4 \u2014 pass. The Pirates-Astros game has only one book reporting and data confidence at 0.3 \u2014 too thin.\n\nThe final six picks: Phillies Under 8.5 (S\u00e1nchez historic streak, Buehler struggling), Reds ML (Burns elite, Royals weak), Spurs-Knicks Over 217.5 (WCF home scoring trends), Chase Burns Ks Over 5.5 (elite K rate vs. high-K offense), Victor Wembanyama Points Over 26.5 (WCF form, Knicks matchup), and Knicks +4.5 (11-game win streak, rest advantage). The ladder pick is the Phillies Under \u2014 S\u00e1nchez is the best pitcher in baseball right now, and the market hasn't fully adjusted to his dominance.",
-      "slate_vibe": "HOT",
-      "published_at": "2026-06-03T14:45:05.640435-04:00"
-    }
-  ],
+  "today_picks": [],
   "today_bonus_picks": [],
   "all_picks": [
     {
@@ -578,11 +94,11 @@
       "scott_bot_quip": "The Knicks haven't lost in a month. The boys aren't betting against that kind of momentum.",
       "ladder_note": "",
       "date": "2026-06-03",
-      "status": "PEND",
-      "units_result": null,
+      "status": "WIN",
+      "units_result": 0.9434,
       "clv_cents": null,
-      "result_score": null,
-      "graded_at": null,
+      "result_score": "NY 105 \u00b7 SA 95",
+      "graded_at": "2026-06-04T03:57:49.883794-04:00",
       "slate_assessment": "MLB-heavy Wednesday with 13 games plus NBA Finals Game 1 \u2014 Cristopher S\u00e1nchez chasing history at home, Chase Burns back from illness, and Wembanyama vs. Brunson tips off in San Antonio.",
       "executive_summary": "The board today is anchored by two elite pitching matchups and the NBA Finals opener. Cristopher S\u00e1nchez brings a 44\u2154 scoreless-inning streak into Citizens Bank Park against Walker Buehler and the Padres \u2014 the under at 8.5 is the sharpest play on the slate. Chase Burns returns from illness to face a weak Royals lineup at Great American Ball Park, and his K prop deserves a hard look. In San Antonio, the Spurs host the Knicks in Game 1 with Victor Wembanyama healthy and the total sitting at 217.5 after the Spurs averaged 226 combined points per game in their three WCF home games. The ladder rides with the Phillies Under \u2014 S\u00e1nchez is pitching at a historic level, and the market hasn't caught up.",
       "slate_analysis": "Today's board features 13 MLB games and one NBA Finals matchup. The MLB slate is spread across all three time zones with first pitches from 3:40 PM ET through 9:40 PM PT. The NBA Finals Game 1 tips at 8:30 PM ET in San Antonio. Pricing is relatively tight across the board \u2014 most MLB moneylines sit between -150 and +150, with only the Phillies (-200) and Dodgers (-142) as clear favorites.\n\nThe top candidates that rose during my review: (1) Phillies Under 8.5 \u2014 S\u00e1nchez is on a historic scoreless streak and faces a struggling Buehler; (2) Reds ML vs. Royals \u2014 Chase Burns (1.96 ERA, 28.9 K%) returns from illness against a bottom-tier KC lineup; (3) Spurs-Knicks Over 217.5 \u2014 the Spurs averaged 226 combined points in their three WCF home games, and both teams have the offensive firepower to push this over; (4) Dodgers-Diamondbacks Under 9.5 \u2014 Ohtani on the mound with a 0.82 ERA, but the total has already moved from 8.8 to 9.5; (5) Chase Burns Ks Over 5.5 \u2014 his 28.9 K% against a KC team that strikes out at a high clip; (6) Victor Wembanyama Points Over 26.5 \u2014 he averaged 27.3 PPG in the WCF and faces a Knicks defense that will struggle to contain him.\n\nWhat got cut: The Mets-Mariners game has data confidence at 0.45 and lineups aren't confirmed \u2014 too thin. The Yankees-Guardians game has Gerrit Cole on a pitch count (only 12.2 IP this season) and the total moved from 7.5 to 8.5 \u2014 no edge. The Dodgers-Diamondbacks Under looked appealing with Ohtani pitching, but the total already moved a full run and Gallen's 5.16 ERA creates variance. The Braves-Blue Jays game has two mediocre starters (Holmes 3.95 ERA, Corbin 3.65 ERA) and data confidence at 0.4 \u2014 pass. The Pirates-Astros game has only one book reporting and data confidence at 0.3 \u2014 too thin.\n\nThe final six picks: Phillies Under 8.5 (S\u00e1nchez historic streak, Buehler struggling), Reds ML (Burns elite, Royals weak), Spurs-Knicks Over 217.5 (WCF home scoring trends), Chase Burns Ks Over 5.5 (elite K rate vs. high-K offense), Victor Wembanyama Points Over 26.5 (WCF form, Knicks matchup), and Knicks +4.5 (11-game win streak, rest advantage). The ladder pick is the Phillies Under \u2014 S\u00e1nchez is the best pitcher in baseball right now, and the market hasn't fully adjusted to his dominance.",
@@ -765,11 +281,11 @@
       "scott_bot_quip": "Burns throws gas and the Royals swing at air. Math checks out.",
       "ladder_note": "",
       "date": "2026-06-03",
-      "status": "PEND",
-      "units_result": null,
+      "status": "WIN",
+      "units_result": 1.4019,
       "clv_cents": null,
-      "result_score": null,
-      "graded_at": null,
+      "result_score": "Chase Burns: 9 strikeOuts",
+      "graded_at": "2026-06-04T03:59:21.119493-04:00",
       "slate_assessment": "MLB-heavy Wednesday with 13 games plus NBA Finals Game 1 \u2014 Cristopher S\u00e1nchez chasing history at home, Chase Burns back from illness, and Wembanyama vs. Brunson tips off in San Antonio.",
       "executive_summary": "The board today is anchored by two elite pitching matchups and the NBA Finals opener. Cristopher S\u00e1nchez brings a 44\u2154 scoreless-inning streak into Citizens Bank Park against Walker Buehler and the Padres \u2014 the under at 8.5 is the sharpest play on the slate. Chase Burns returns from illness to face a weak Royals lineup at Great American Ball Park, and his K prop deserves a hard look. In San Antonio, the Spurs host the Knicks in Game 1 with Victor Wembanyama healthy and the total sitting at 217.5 after the Spurs averaged 226 combined points per game in their three WCF home games. The ladder rides with the Phillies Under \u2014 S\u00e1nchez is pitching at a historic level, and the market hasn't caught up.",
       "slate_analysis": "Today's board features 13 MLB games and one NBA Finals matchup. The MLB slate is spread across all three time zones with first pitches from 3:40 PM ET through 9:40 PM PT. The NBA Finals Game 1 tips at 8:30 PM ET in San Antonio. Pricing is relatively tight across the board \u2014 most MLB moneylines sit between -150 and +150, with only the Phillies (-200) and Dodgers (-142) as clear favorites.\n\nThe top candidates that rose during my review: (1) Phillies Under 8.5 \u2014 S\u00e1nchez is on a historic scoreless streak and faces a struggling Buehler; (2) Reds ML vs. Royals \u2014 Chase Burns (1.96 ERA, 28.9 K%) returns from illness against a bottom-tier KC lineup; (3) Spurs-Knicks Over 217.5 \u2014 the Spurs averaged 226 combined points in their three WCF home games, and both teams have the offensive firepower to push this over; (4) Dodgers-Diamondbacks Under 9.5 \u2014 Ohtani on the mound with a 0.82 ERA, but the total has already moved from 8.8 to 9.5; (5) Chase Burns Ks Over 5.5 \u2014 his 28.9 K% against a KC team that strikes out at a high clip; (6) Victor Wembanyama Points Over 26.5 \u2014 he averaged 27.3 PPG in the WCF and faces a Knicks defense that will struggle to contain him.\n\nWhat got cut: The Mets-Mariners game has data confidence at 0.45 and lineups aren't confirmed \u2014 too thin. The Yankees-Guardians game has Gerrit Cole on a pitch count (only 12.2 IP this season) and the total moved from 7.5 to 8.5 \u2014 no edge. The Dodgers-Diamondbacks Under looked appealing with Ohtani pitching, but the total already moved a full run and Gallen's 5.16 ERA creates variance. The Braves-Blue Jays game has two mediocre starters (Holmes 3.95 ERA, Corbin 3.65 ERA) and data confidence at 0.4 \u2014 pass. The Pirates-Astros game has only one book reporting and data confidence at 0.3 \u2014 too thin.\n\nThe final six picks: Phillies Under 8.5 (S\u00e1nchez historic streak, Buehler struggling), Reds ML (Burns elite, Royals weak), Spurs-Knicks Over 217.5 (WCF home scoring trends), Chase Burns Ks Over 5.5 (elite K rate vs. high-K offense), Victor Wembanyama Points Over 26.5 (WCF form, Knicks matchup), and Knicks +4.5 (11-game win streak, rest advantage). The ladder pick is the Phillies Under \u2014 S\u00e1nchez is the best pitcher in baseball right now, and the market hasn't fully adjusted to his dominance.",
@@ -864,16 +380,22 @@
       "scott_bot_quip": "Wemby and Brunson in the Finals. The boys are watching history \u2014 might as well bet on it.",
       "ladder_note": "",
       "date": "2026-06-03",
-      "status": "PEND",
-      "units_result": null,
+      "status": "LOSS",
+      "units_result": -1.5,
       "clv_cents": null,
-      "result_score": null,
-      "graded_at": null,
+      "result_score": "NY 105 \u00b7 SA 95",
+      "graded_at": "2026-06-04T03:59:21.124807-04:00",
       "slate_assessment": "MLB-heavy Wednesday with 13 games plus NBA Finals Game 1 \u2014 Cristopher S\u00e1nchez chasing history at home, Chase Burns back from illness, and Wembanyama vs. Brunson tips off in San Antonio.",
       "executive_summary": "The board today is anchored by two elite pitching matchups and the NBA Finals opener. Cristopher S\u00e1nchez brings a 44\u2154 scoreless-inning streak into Citizens Bank Park against Walker Buehler and the Padres \u2014 the under at 8.5 is the sharpest play on the slate. Chase Burns returns from illness to face a weak Royals lineup at Great American Ball Park, and his K prop deserves a hard look. In San Antonio, the Spurs host the Knicks in Game 1 with Victor Wembanyama healthy and the total sitting at 217.5 after the Spurs averaged 226 combined points per game in their three WCF home games. The ladder rides with the Phillies Under \u2014 S\u00e1nchez is pitching at a historic level, and the market hasn't caught up.",
       "slate_analysis": "Today's board features 13 MLB games and one NBA Finals matchup. The MLB slate is spread across all three time zones with first pitches from 3:40 PM ET through 9:40 PM PT. The NBA Finals Game 1 tips at 8:30 PM ET in San Antonio. Pricing is relatively tight across the board \u2014 most MLB moneylines sit between -150 and +150, with only the Phillies (-200) and Dodgers (-142) as clear favorites.\n\nThe top candidates that rose during my review: (1) Phillies Under 8.5 \u2014 S\u00e1nchez is on a historic scoreless streak and faces a struggling Buehler; (2) Reds ML vs. Royals \u2014 Chase Burns (1.96 ERA, 28.9 K%) returns from illness against a bottom-tier KC lineup; (3) Spurs-Knicks Over 217.5 \u2014 the Spurs averaged 226 combined points in their three WCF home games, and both teams have the offensive firepower to push this over; (4) Dodgers-Diamondbacks Under 9.5 \u2014 Ohtani on the mound with a 0.82 ERA, but the total has already moved from 8.8 to 9.5; (5) Chase Burns Ks Over 5.5 \u2014 his 28.9 K% against a KC team that strikes out at a high clip; (6) Victor Wembanyama Points Over 26.5 \u2014 he averaged 27.3 PPG in the WCF and faces a Knicks defense that will struggle to contain him.\n\nWhat got cut: The Mets-Mariners game has data confidence at 0.45 and lineups aren't confirmed \u2014 too thin. The Yankees-Guardians game has Gerrit Cole on a pitch count (only 12.2 IP this season) and the total moved from 7.5 to 8.5 \u2014 no edge. The Dodgers-Diamondbacks Under looked appealing with Ohtani pitching, but the total already moved a full run and Gallen's 5.16 ERA creates variance. The Braves-Blue Jays game has two mediocre starters (Holmes 3.95 ERA, Corbin 3.65 ERA) and data confidence at 0.4 \u2014 pass. The Pirates-Astros game has only one book reporting and data confidence at 0.3 \u2014 too thin.\n\nThe final six picks: Phillies Under 8.5 (S\u00e1nchez historic streak, Buehler struggling), Reds ML (Burns elite, Royals weak), Spurs-Knicks Over 217.5 (WCF home scoring trends), Chase Burns Ks Over 5.5 (elite K rate vs. high-K offense), Victor Wembanyama Points Over 26.5 (WCF form, Knicks matchup), and Knicks +4.5 (11-game win streak, rest advantage). The ladder pick is the Phillies Under \u2014 S\u00e1nchez is the best pitcher in baseball right now, and the market hasn't fully adjusted to his dominance.",
       "slate_vibe": "HOT",
-      "published_at": "2026-06-03T14:45:05.640569-04:00"
+      "published_at": "2026-06-03T14:45:05.640569-04:00",
+      "autopsy": {
+        "classification": "MODEL",
+        "post_mortem": "Final was 105-95 (200 combined), missing the Over 217.5 by 17.5. Both primary scorers were ice-cold \u2014 Wembanyama shot 3-of-13 and Brunson shot 7-of-22 through three quarters \u2014 and the Spurs bench outside of Dylan Harper combined for just 4 points. The thesis extrapolated Spurs WCF home-game pace (226.4 PPG) directly onto a Finals Game 1, ignoring that opponent quality, defensive intensity, and game-script all reset in a new series. The 'case against' even flagged a potential defensive feel-out game, but the model still leaned into the over.",
+        "candidate_rule": "Do not use a team's same-round home-game scoring averages as a baseline for a new series \u2014 opponent defensive quality resets; require at least one data point from the new matchup or a head-to-head regular season pace proxy before projecting totals above the market line. (N=1, insufficient to establish rule.)",
+        "sample_size_warning": "N=1, insufficient to establish rule \u2014 one game where both stars shot poorly and a bench went cold is noise, not a pattern."
+      }
     },
     {
       "id": "20260603-MLB-SD-PHI-TOTAL",
@@ -962,11 +484,11 @@
       "scott_bot_quip": "S\u00e1nchez is pitching like he's got a grudge against the concept of earned runs. The boys ride with history.",
       "ladder_note": "Best floor on the board \u2014 S\u00e1nchez is the best pitcher in baseball right now, and the market hasn't fully adjusted. Even if Buehler implodes, S\u00e1nchez's side of the ledger stays clean.",
       "date": "2026-06-03",
-      "status": "PEND",
-      "units_result": null,
+      "status": "WIN",
+      "units_result": 1.6129,
       "clv_cents": null,
-      "result_score": null,
-      "graded_at": null,
+      "result_score": "SD 2 \u00b7 PHI 3",
+      "graded_at": "2026-06-04T03:59:42.362709-04:00",
       "slate_assessment": "MLB-heavy Wednesday with 13 games plus NBA Finals Game 1 \u2014 Cristopher S\u00e1nchez chasing history at home, Chase Burns back from illness, and Wembanyama vs. Brunson tips off in San Antonio.",
       "executive_summary": "The board today is anchored by two elite pitching matchups and the NBA Finals opener. Cristopher S\u00e1nchez brings a 44\u2154 scoreless-inning streak into Citizens Bank Park against Walker Buehler and the Padres \u2014 the under at 8.5 is the sharpest play on the slate. Chase Burns returns from illness to face a weak Royals lineup at Great American Ball Park, and his K prop deserves a hard look. In San Antonio, the Spurs host the Knicks in Game 1 with Victor Wembanyama healthy and the total sitting at 217.5 after the Spurs averaged 226 combined points per game in their three WCF home games. The ladder rides with the Phillies Under \u2014 S\u00e1nchez is pitching at a historic level, and the market hasn't caught up.",
       "slate_analysis": "Today's board features 13 MLB games and one NBA Finals matchup. The MLB slate is spread across all three time zones with first pitches from 3:40 PM ET through 9:40 PM PT. The NBA Finals Game 1 tips at 8:30 PM ET in San Antonio. Pricing is relatively tight across the board \u2014 most MLB moneylines sit between -150 and +150, with only the Phillies (-200) and Dodgers (-142) as clear favorites.\n\nThe top candidates that rose during my review: (1) Phillies Under 8.5 \u2014 S\u00e1nchez is on a historic scoreless streak and faces a struggling Buehler; (2) Reds ML vs. Royals \u2014 Chase Burns (1.96 ERA, 28.9 K%) returns from illness against a bottom-tier KC lineup; (3) Spurs-Knicks Over 217.5 \u2014 the Spurs averaged 226 combined points in their three WCF home games, and both teams have the offensive firepower to push this over; (4) Dodgers-Diamondbacks Under 9.5 \u2014 Ohtani on the mound with a 0.82 ERA, but the total has already moved from 8.8 to 9.5; (5) Chase Burns Ks Over 5.5 \u2014 his 28.9 K% against a KC team that strikes out at a high clip; (6) Victor Wembanyama Points Over 26.5 \u2014 he averaged 27.3 PPG in the WCF and faces a Knicks defense that will struggle to contain him.\n\nWhat got cut: The Mets-Mariners game has data confidence at 0.45 and lineups aren't confirmed \u2014 too thin. The Yankees-Guardians game has Gerrit Cole on a pitch count (only 12.2 IP this season) and the total moved from 7.5 to 8.5 \u2014 no edge. The Dodgers-Diamondbacks Under looked appealing with Ohtani pitching, but the total already moved a full run and Gallen's 5.16 ERA creates variance. The Braves-Blue Jays game has two mediocre starters (Holmes 3.95 ERA, Corbin 3.65 ERA) and data confidence at 0.4 \u2014 pass. The Pirates-Astros game has only one book reporting and data confidence at 0.3 \u2014 too thin.\n\nThe final six picks: Phillies Under 8.5 (S\u00e1nchez historic streak, Buehler struggling), Reds ML (Burns elite, Royals weak), Spurs-Knicks Over 217.5 (WCF home scoring trends), Chase Burns Ks Over 5.5 (elite K rate vs. high-K offense), Victor Wembanyama Points Over 26.5 (WCF form, Knicks matchup), and Knicks +4.5 (11-game win streak, rest advantage). The ladder pick is the Phillies Under \u2014 S\u00e1nchez is the best pitcher in baseball right now, and the market hasn't fully adjusted to his dominance.",
@@ -7160,11 +6682,19 @@
     }
   ],
   "ladder": {
-    "current_streak": 0,
+    "current_streak": 1,
     "longest_streak": 4,
     "completed_climbs": 0,
     "target": 10,
     "history": [
+      {
+        "date": "2026-06-03",
+        "pick_id": "20260603-MLB-SD-PHI-TOTAL",
+        "pick": "Under 8.5",
+        "game": "SD @ PHI",
+        "status": "WIN",
+        "after_streak": 1
+      },
       {
         "date": "2026-06-02",
         "pick_id": "20260602-MLB-SF-MIL-TOTAL",
@@ -7310,13 +6840,13 @@
         "after_streak": 1
       }
     ],
-    "updated_at": "2026-06-03T04:26:50.178440-04:00"
+    "updated_at": "2026-06-04T03:59:42.367451-04:00"
   },
   "last_night_recap": {
-    "date": "2026-06-02",
-    "record": "0-5-0",
-    "units_pl": -7.0,
-    "night_summary": "0-5 night, -7.0u \u2014 a rough one, and we owe you the honest breakdown. The ladder pick, SF @ MIL Under 7.5, was the headliner and it wasn't close: Harrison was brilliant \u2014 12 strikeouts over 5.2 innings, 1 run allowed \u2014 but McDonald got shelled early and the Brewers rolled to an 8-3 final; we fixated on Harrison's floor and ignored the other half of the equation entirely, a model error. The Hurricanes ML was the one pick that deserves a different conversation: Carolina jumped out 2-0 on a pair of Ehlers goals, held a lead deep into the third, and only lost when Hertl beat Andersen with 3:24 left off a Sissons feed to make it 5-4 \u2014 a historically improbable road comeback in a game that was dead-even for 55+ minutes; variance got us, not a bad read. The two player props (Marte, Witt) and the White Sox ML were model errors \u2014 wrong-pitcher mismatch, recency-blind pitcher evaluation, and ignoring career splits against a specific opponent, respectively \u2014 and we'll be tightening those filters. Ladder resets to 0 of 10; we rebuild tomorrow.",
-    "generated_at": "2026-06-03T04:27:25.198758-04:00"
+    "date": "2026-06-03",
+    "record": "3-1-0",
+    "units_pl": 2.4582,
+    "night_summary": "3-1 night, +2.46u \u2014 a strong card with one self-inflicted wound. The headliner was Chase Burns, who came back from an illness scratch earlier in the series and delivered 9 Ks against Kansas City, cruising well past the 5.5 strikeout prop for a clean 1.5u win. The SD @ PHI under (our ladder pick) was equally tidy \u2014 Padres and Phillies combined for just 5 total runs in a 3-2 final, no drama required. Knicks +4.5 cashed comfortably as Brunson dropped 13 fourth-quarter points to close out a 105-95 Game 1 win, covering by 14. The loss was the over 217.5 on that same game \u2014 Wembanyama shot 6-of-21 and the Spurs bench went cold, and we got that one wrong by leaning on WCF home-game pace without accounting for how a new series resets defensive intensity. Ladder is at 1 of 10 \u2014 back on the board, climbing.",
+    "generated_at": "2026-06-04T03:59:56.493642-04:00"
   }
 }

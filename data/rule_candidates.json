@@ -134,5 +134,13 @@
     "candidate_rule": "When the under thesis depends on a single elite starter suppressing one side, require the opposing starter's FIP to be within 1.0 of the total-implied run expectation per team \u2014 if the gap is wider, the under is structurally one-sided and the total is more likely to be driven by the weaker arm; flag as MODEL RISK before publishing. (N=1, insufficient to establish rule \u2014 monitor for pattern across similar 'ace carries the under' setups.)",
     "sample_size_warning": "N=1, insufficient to establish rule.",
     "status": "PENDING_REVIEW"
+  },
+  {
+    "proposed_at": "2026-06-04T03:59:42.362187-04:00",
+    "source_pick_id": "20260603-NBA-NY-SA-TOTAL",
+    "source_loss": "Over 217.5 (NY @ SA)",
+    "candidate_rule": "Do not use a team's same-round home-game scoring averages as a baseline for a new series \u2014 opponent defensive quality resets; require at least one data point from the new matchup or a head-to-head regular season pace proxy before projecting totals above the market line. (N=1, insufficient to establish rule.)",
+    "sample_size_warning": "N=1, insufficient to establish rule \u2014 one game where both stars shot poorly and a bench went cold is noise, not a pattern.",
+    "status": "PENDING_REVIEW"
   }
 ]

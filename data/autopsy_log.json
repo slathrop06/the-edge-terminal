@@ -1,5 +1,18 @@
 [
   {
+    "id": "20260603-NBA-NY-SA-TOTAL",
+    "date": "2026-06-03",
+    "pick": "Over 217.5",
+    "game": "NY @ SA",
+    "odds": "-108",
+    "result_score": "NY 105 \u00b7 SA 95",
+    "classification": "MODEL",
+    "post_mortem": "Final was 105-95 (200 combined), missing the Over 217.5 by 17.5. Both primary scorers were ice-cold \u2014 Wembanyama shot 3-of-13 and Brunson shot 7-of-22 through three quarters \u2014 and the Spurs bench outside of Dylan Harper combined for just 4 points. The thesis extrapolated Spurs WCF home-game pace (226.4 PPG) directly onto a Finals Game 1, ignoring that opponent quality, defensive intensity, and game-script all reset in a new series. The 'case against' even flagged a potential defensive feel-out game, but the model still leaned into the over.",
+    "candidate_rule": "Do not use a team's same-round home-game scoring averages as a baseline for a new series \u2014 opponent defensive quality resets; require at least one data point from the new matchup or a head-to-head regular season pace proxy before projecting totals above the market line. (N=1, insufficient to establish rule.)",
+    "sample_size_warning": "N=1, insufficient to establish rule \u2014 one game where both stars shot poorly and a bench went cold is noise, not a pattern.",
+    "analyzed_at": "2026-06-04T03:59:42.361270-04:00"
+  },
+  {
     "id": "20260602-MLB-SF-MIL-TOTAL",
     "date": "2026-06-02",
     "pick": "Under 7.5",
