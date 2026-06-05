@@ -1,5 +1,31 @@
 [
   {
+    "id": "20260604-MLB-TOR-ATL-TOTAL",
+    "date": "2026-06-04",
+    "pick": "Under 7.5",
+    "game": "TOR @ ATL",
+    "odds": "-107",
+    "result_score": "TOR 7 \u00b7 ATL 2",
+    "classification": "DATA",
+    "post_mortem": "The entire under thesis rested on Simeon Woods Richardson (7.74 ERA) starting for Toronto \u2014 but the Blue Jays actually sent Mason Fluharty (3-0, 3.97 ERA, 1.37 WHIP), a legitimate MLB arm, to the mound. The pick was made before Toronto officially announced their starter, and the 'replacement-level arm' data point that justified fading Toronto's run contribution never materialized. With Fluharty holding and Toronto winning 7-2, the over hit by nearly three runs \u2014 not because Sale imploded, but because the opposing pitcher mismatch the model priced in simply didn't exist on game day.",
+    "candidate_rule": "Do not finalize a total bet when the opposing starter is unannounced or listed as TBD; require official lineup confirmation before locking the pick, especially when the starter identity is the primary driver of the thesis \u2014 N=1, insufficient to establish rule.",
+    "sample_size_warning": "N=1, insufficient to establish rule \u2014 but the failure mode (betting a total against an unconfirmed starter) is structurally repeatable and worth flagging as a process check.",
+    "analyzed_at": "2026-06-05T03:16:02.185455-04:00"
+  },
+  {
+    "id": "20260604-MLB-ATH-CHC-TOTAL",
+    "date": "2026-06-04",
+    "pick": "Under 10.5",
+    "game": "ATH @ CHC",
+    "odds": "-118",
+    "result_score": "ATH 6 \u00b7 CHC 7",
+    "classification": "DATA",
+    "post_mortem": "The wind data was wrong in the most damaging way possible: pre-game forecasts cited 13 mph blowing IN from left-center, but multiple pre-game sources noted the wind was actually blowing OUT \u2014 PrizePicks flagged 'wind blowing straight out at around 11 mph' giving a 34% HR boost per Ballpark Pal, and Bleed Cubbie Blue noted pregame 'the wind will be howling out to left.' The entire thesis rested on wind suppressing Imanaga's fly-ball/HR problem; instead, the park played as a hitter's environment. The result was four home runs on the night \u2014 back-to-back shots from Soderstrom and Heim off Imanaga in the 7th to make it 6-1, plus Langeliers' solo HR in the 4th and a Crow-Armstrong HR off Ginn \u2014 and the Cubs' 9th-inning walk-off rally (Happ RBI double, Ballesteros infield single, Swanson game-tying single, PCA walk-off RBI single) pushed the final to 7-6, one run over the 10.5 total.",
+    "candidate_rule": "Before posting any Wrigley under that leans on wind-in suppression, cross-check at least two real-time wind sources (e.g., Ballpark Pal + Weather.com game-time reading) within 2 hours of first pitch, and void the pick if any source shows wind blowing out \u2014 N=1, insufficient to establish rule, but the directional error here was the entire load-bearing assumption.",
+    "sample_size_warning": "N=1, insufficient to establish rule. One wind-data miss does not confirm a systematic sourcing failure, but the magnitude of the directional error (in vs. out) warrants an immediate pre-game wind verification step in the checklist.",
+    "analyzed_at": "2026-06-05T03:15:38.952730-04:00"
+  },
+  {
     "id": "20260603-NBA-NY-SA-PROP-VICTORWEMBANYAMA",
     "date": "2026-06-03",
     "pick": "Victor Wembanyama Points Over 26.5",

@@ -150,5 +150,21 @@
     "candidate_rule": "When a player's series-specific sample (WCF, N=7) diverges materially from their full playoff sample (N=17), weight the larger sample more heavily in the points projection \u2014 especially when the opponent's defensive scheme is structurally different from the prior series opponent; validate this rule at N\u226510 before applying as a hard filter.",
     "sample_size_warning": "N=1, insufficient to establish rule \u2014 this is a single-game observation and could reflect Finals debut variance as much as a systematic modeling error.",
     "status": "PENDING_REVIEW"
+  },
+  {
+    "proposed_at": "2026-06-05T03:15:38.953571-04:00",
+    "source_pick_id": "20260604-MLB-ATH-CHC-TOTAL",
+    "source_loss": "Under 10.5 (ATH @ CHC)",
+    "candidate_rule": "Before posting any Wrigley under that leans on wind-in suppression, cross-check at least two real-time wind sources (e.g., Ballpark Pal + Weather.com game-time reading) within 2 hours of first pitch, and void the pick if any source shows wind blowing out \u2014 N=1, insufficient to establish rule, but the directional error here was the entire load-bearing assumption.",
+    "sample_size_warning": "N=1, insufficient to establish rule. One wind-data miss does not confirm a systematic sourcing failure, but the magnitude of the directional error (in vs. out) warrants an immediate pre-game wind verification step in the checklist.",
+    "status": "PENDING_REVIEW"
+  },
+  {
+    "proposed_at": "2026-06-05T03:16:02.186250-04:00",
+    "source_pick_id": "20260604-MLB-TOR-ATL-TOTAL",
+    "source_loss": "Under 7.5 (TOR @ ATL)",
+    "candidate_rule": "Do not finalize a total bet when the opposing starter is unannounced or listed as TBD; require official lineup confirmation before locking the pick, especially when the starter identity is the primary driver of the thesis \u2014 N=1, insufficient to establish rule.",
+    "sample_size_warning": "N=1, insufficient to establish rule \u2014 but the failure mode (betting a total against an unconfirmed starter) is structurally repeatable and worth flagging as a process check.",
+    "status": "PENDING_REVIEW"
   }
 ]

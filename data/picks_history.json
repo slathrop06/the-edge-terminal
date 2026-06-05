@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated_at": "2026-06-04T13:48:15.802875-04:00",
+  "updated_at": "2026-06-05T03:16:02.587971-04:00",
   "picks": [
     {
       "id": "20260604-MLB-SF-MIL-PROP-JACKSONCHOURIO",
@@ -86,11 +86,11 @@
       "scott_bot_quip": "Houser gives up bombs. Chourio hits bombs. The ladder rides.",
       "ladder_note": "Best floor on the board at even money. Chourio just needs one XBH or two singles against a pitcher with a 1.44 HR/9. The matchup is clean, the price is right, and the variance is low.",
       "date": "2026-06-04",
-      "status": "PEND",
-      "units_result": null,
+      "status": "WIN",
+      "units_result": 0.9524,
       "clv_cents": null,
-      "result_score": null,
-      "graded_at": null,
+      "result_score": "Jackson Chourio: 9 totalBases",
+      "graded_at": "2026-06-05T03:15:12.948617-04:00",
       "slate_assessment": "Seven-game MLB slate plus Stanley Cup Final Game 2 tonight. Chris Sale dominates the board at home vs. Toronto, the Hurricanes need a bounce-back in a high-scoring series, and Wrigley's wind blowing in creates a pitcher-friendly environment for the Cubs-A's total.",
       "executive_summary": "Chris Sale on the mound at Truist Park is the anchor of tonight's board \u2014 the reigning Cy Young winner has allowed more than two earned runs just once in 11 starts this year, and Toronto is sending a recently acquired arm with a 7.74 ERA. The ATL-TOR Under 7.5 is the sharpest total on the slate, and Sale's strikeout prop offers a clean over. At Wrigley, 13 mph wind blowing in suppresses the Cubs-A's total despite two HR-prone starters. The ladder rides with the Hurricanes ML at home in Game 2 of the Stanley Cup Final \u2014 Carolina went 12-1 in the first three rounds and won't drop two straight at Lenovo Center.",
       "slate_analysis": "Tonight's board features seven MLB games plus Game 2 of the Stanley Cup Final between Carolina and Vegas. The MLB slate is headlined by Chris Sale at home against a Toronto team that just acquired Simeon Woods Richardson from Minnesota \u2014 a pitcher with a 7.74 ERA in 12 appearances this year. That matchup screams under, and Sale's K prop is in play. The Cubs-A's game at Wrigley drew my attention because Imanaga's HR/9 (1.67) and J.T. Ginn's walk rate (10.8 BB%) create chaos potential, but the weather report shows 13 mph wind blowing in from left-center, which suppresses fly balls and tilts the game toward the under despite the high posted total of 10.5.\n\nI looked hard at the Brewers-Giants game, but the data confidence is only 0.4 and Coleman Crow has just 14.1 IP on the season \u2014 too thin a sample to trust. The Pirates-Astros game is a coin flip with Jared Jones's 10.38 ERA in 4.1 IP making it nearly impossible to model. The Dodgers-Diamondbacks game has Wrobleski's low K rate (16.0%) limiting prop value, and Nelson's 2.07 HR/9 makes the over tempting but the market already reflects that at 9.0.\n\nThe Stanley Cup Final is the most interesting non-MLB play. Game 1 was a 5-4 shootout, but Carolina went 12-1 in the first three rounds and their top line (Aho-Svechnikov-Jarvis) was held pointless in Game 1 \u2014 regression is coming. Vegas stole home ice, but the Hurricanes won't drop two straight at Lenovo Center. The ML at +140 offers value against a team that just played a high-event game two days ago.\n\nThe final six picks: ATL-TOR Under 7.5 (Sale dominance + weak Toronto SP), Chris Sale Ks Over 7.5 (30.2 K%, Toronto's lineup is strikeout-prone), Cubs-A's Under 10.5 (wind in at Wrigley, both SPs have control issues that extend ABs but suppress power), Hurricanes ML (bounce-back spot, home ice, elite playoff run), Jackson Chourio Total Bases Over 1.5 (Houser's 1.44 HR/9 + Chourio's power profile), and Shea Langeliers Total Bases Over 1.5 (Imanaga's 1.67 HR/9 + Langeliers' power). The ladder pick is Carolina ML \u2014 best floor on the board given their playoff dominance and home-ice advantage.",
@@ -276,16 +276,22 @@
       "scott_bot_quip": "The market sees two HR-prone arms. The wind sees dinner.",
       "ladder_note": "",
       "date": "2026-06-04",
-      "status": "PEND",
-      "units_result": null,
+      "status": "LOSS",
+      "units_result": -1.5,
       "clv_cents": null,
-      "result_score": null,
-      "graded_at": null,
+      "result_score": "ATH 6 \u00b7 CHC 7",
+      "graded_at": "2026-06-05T03:15:13.277496-04:00",
       "slate_assessment": "Seven-game MLB slate plus Stanley Cup Final Game 2 tonight. Chris Sale dominates the board at home vs. Toronto, the Hurricanes need a bounce-back in a high-scoring series, and Wrigley's wind blowing in creates a pitcher-friendly environment for the Cubs-A's total.",
       "executive_summary": "Chris Sale on the mound at Truist Park is the anchor of tonight's board \u2014 the reigning Cy Young winner has allowed more than two earned runs just once in 11 starts this year, and Toronto is sending a recently acquired arm with a 7.74 ERA. The ATL-TOR Under 7.5 is the sharpest total on the slate, and Sale's strikeout prop offers a clean over. At Wrigley, 13 mph wind blowing in suppresses the Cubs-A's total despite two HR-prone starters. The ladder rides with the Hurricanes ML at home in Game 2 of the Stanley Cup Final \u2014 Carolina went 12-1 in the first three rounds and won't drop two straight at Lenovo Center.",
       "slate_analysis": "Tonight's board features seven MLB games plus Game 2 of the Stanley Cup Final between Carolina and Vegas. The MLB slate is headlined by Chris Sale at home against a Toronto team that just acquired Simeon Woods Richardson from Minnesota \u2014 a pitcher with a 7.74 ERA in 12 appearances this year. That matchup screams under, and Sale's K prop is in play. The Cubs-A's game at Wrigley drew my attention because Imanaga's HR/9 (1.67) and J.T. Ginn's walk rate (10.8 BB%) create chaos potential, but the weather report shows 13 mph wind blowing in from left-center, which suppresses fly balls and tilts the game toward the under despite the high posted total of 10.5.\n\nI looked hard at the Brewers-Giants game, but the data confidence is only 0.4 and Coleman Crow has just 14.1 IP on the season \u2014 too thin a sample to trust. The Pirates-Astros game is a coin flip with Jared Jones's 10.38 ERA in 4.1 IP making it nearly impossible to model. The Dodgers-Diamondbacks game has Wrobleski's low K rate (16.0%) limiting prop value, and Nelson's 2.07 HR/9 makes the over tempting but the market already reflects that at 9.0.\n\nThe Stanley Cup Final is the most interesting non-MLB play. Game 1 was a 5-4 shootout, but Carolina went 12-1 in the first three rounds and their top line (Aho-Svechnikov-Jarvis) was held pointless in Game 1 \u2014 regression is coming. Vegas stole home ice, but the Hurricanes won't drop two straight at Lenovo Center. The ML at +140 offers value against a team that just played a high-event game two days ago.\n\nThe final six picks: ATL-TOR Under 7.5 (Sale dominance + weak Toronto SP), Chris Sale Ks Over 7.5 (30.2 K%, Toronto's lineup is strikeout-prone), Cubs-A's Under 10.5 (wind in at Wrigley, both SPs have control issues that extend ABs but suppress power), Hurricanes ML (bounce-back spot, home ice, elite playoff run), Jackson Chourio Total Bases Over 1.5 (Houser's 1.44 HR/9 + Chourio's power profile), and Shea Langeliers Total Bases Over 1.5 (Imanaga's 1.67 HR/9 + Langeliers' power). The ladder pick is Carolina ML \u2014 best floor on the board given their playoff dominance and home-ice advantage.",
       "slate_vibe": "NORMAL",
-      "published_at": "2026-06-04T13:48:15.802579-04:00"
+      "published_at": "2026-06-04T13:48:15.802579-04:00",
+      "autopsy": {
+        "classification": "DATA",
+        "post_mortem": "The wind data was wrong in the most damaging way possible: pre-game forecasts cited 13 mph blowing IN from left-center, but multiple pre-game sources noted the wind was actually blowing OUT \u2014 PrizePicks flagged 'wind blowing straight out at around 11 mph' giving a 34% HR boost per Ballpark Pal, and Bleed Cubbie Blue noted pregame 'the wind will be howling out to left.' The entire thesis rested on wind suppressing Imanaga's fly-ball/HR problem; instead, the park played as a hitter's environment. The result was four home runs on the night \u2014 back-to-back shots from Soderstrom and Heim off Imanaga in the 7th to make it 6-1, plus Langeliers' solo HR in the 4th and a Crow-Armstrong HR off Ginn \u2014 and the Cubs' 9th-inning walk-off rally (Happ RBI double, Ballesteros infield single, Swanson game-tying single, PCA walk-off RBI single) pushed the final to 7-6, one run over the 10.5 total.",
+        "candidate_rule": "Before posting any Wrigley under that leans on wind-in suppression, cross-check at least two real-time wind sources (e.g., Ballpark Pal + Weather.com game-time reading) within 2 hours of first pitch, and void the pick if any source shows wind blowing out \u2014 N=1, insufficient to establish rule, but the directional error here was the entire load-bearing assumption.",
+        "sample_size_warning": "N=1, insufficient to establish rule. One wind-data miss does not confirm a systematic sourcing failure, but the magnitude of the directional error (in vs. out) warrants an immediate pre-game wind verification step in the checklist."
+      }
     },
     {
       "id": "20260604-MLB-TOR-ATL-TOTAL",
@@ -376,16 +382,22 @@
       "scott_bot_quip": "Sale on the mound, a 7.74 ERA arm on the other side. The math does itself.",
       "ladder_note": "",
       "date": "2026-06-04",
-      "status": "PEND",
-      "units_result": null,
+      "status": "LOSS",
+      "units_result": -2.0,
       "clv_cents": null,
-      "result_score": null,
-      "graded_at": null,
+      "result_score": "TOR 7 \u00b7 ATL 2",
+      "graded_at": "2026-06-05T03:15:38.954102-04:00",
       "slate_assessment": "Seven-game MLB slate plus Stanley Cup Final Game 2 tonight. Chris Sale dominates the board at home vs. Toronto, the Hurricanes need a bounce-back in a high-scoring series, and Wrigley's wind blowing in creates a pitcher-friendly environment for the Cubs-A's total.",
       "executive_summary": "Chris Sale on the mound at Truist Park is the anchor of tonight's board \u2014 the reigning Cy Young winner has allowed more than two earned runs just once in 11 starts this year, and Toronto is sending a recently acquired arm with a 7.74 ERA. The ATL-TOR Under 7.5 is the sharpest total on the slate, and Sale's strikeout prop offers a clean over. At Wrigley, 13 mph wind blowing in suppresses the Cubs-A's total despite two HR-prone starters. The ladder rides with the Hurricanes ML at home in Game 2 of the Stanley Cup Final \u2014 Carolina went 12-1 in the first three rounds and won't drop two straight at Lenovo Center.",
       "slate_analysis": "Tonight's board features seven MLB games plus Game 2 of the Stanley Cup Final between Carolina and Vegas. The MLB slate is headlined by Chris Sale at home against a Toronto team that just acquired Simeon Woods Richardson from Minnesota \u2014 a pitcher with a 7.74 ERA in 12 appearances this year. That matchup screams under, and Sale's K prop is in play. The Cubs-A's game at Wrigley drew my attention because Imanaga's HR/9 (1.67) and J.T. Ginn's walk rate (10.8 BB%) create chaos potential, but the weather report shows 13 mph wind blowing in from left-center, which suppresses fly balls and tilts the game toward the under despite the high posted total of 10.5.\n\nI looked hard at the Brewers-Giants game, but the data confidence is only 0.4 and Coleman Crow has just 14.1 IP on the season \u2014 too thin a sample to trust. The Pirates-Astros game is a coin flip with Jared Jones's 10.38 ERA in 4.1 IP making it nearly impossible to model. The Dodgers-Diamondbacks game has Wrobleski's low K rate (16.0%) limiting prop value, and Nelson's 2.07 HR/9 makes the over tempting but the market already reflects that at 9.0.\n\nThe Stanley Cup Final is the most interesting non-MLB play. Game 1 was a 5-4 shootout, but Carolina went 12-1 in the first three rounds and their top line (Aho-Svechnikov-Jarvis) was held pointless in Game 1 \u2014 regression is coming. Vegas stole home ice, but the Hurricanes won't drop two straight at Lenovo Center. The ML at +140 offers value against a team that just played a high-event game two days ago.\n\nThe final six picks: ATL-TOR Under 7.5 (Sale dominance + weak Toronto SP), Chris Sale Ks Over 7.5 (30.2 K%, Toronto's lineup is strikeout-prone), Cubs-A's Under 10.5 (wind in at Wrigley, both SPs have control issues that extend ABs but suppress power), Hurricanes ML (bounce-back spot, home ice, elite playoff run), Jackson Chourio Total Bases Over 1.5 (Houser's 1.44 HR/9 + Chourio's power profile), and Shea Langeliers Total Bases Over 1.5 (Imanaga's 1.67 HR/9 + Langeliers' power). The ladder pick is Carolina ML \u2014 best floor on the board given their playoff dominance and home-ice advantage.",
       "slate_vibe": "NORMAL",
-      "published_at": "2026-06-04T13:48:15.802435-04:00"
+      "published_at": "2026-06-04T13:48:15.802435-04:00",
+      "autopsy": {
+        "classification": "DATA",
+        "post_mortem": "The entire under thesis rested on Simeon Woods Richardson (7.74 ERA) starting for Toronto \u2014 but the Blue Jays actually sent Mason Fluharty (3-0, 3.97 ERA, 1.37 WHIP), a legitimate MLB arm, to the mound. The pick was made before Toronto officially announced their starter, and the 'replacement-level arm' data point that justified fading Toronto's run contribution never materialized. With Fluharty holding and Toronto winning 7-2, the over hit by nearly three runs \u2014 not because Sale imploded, but because the opposing pitcher mismatch the model priced in simply didn't exist on game day.",
+        "candidate_rule": "Do not finalize a total bet when the opposing starter is unannounced or listed as TBD; require official lineup confirmation before locking the pick, especially when the starter identity is the primary driver of the thesis \u2014 N=1, insufficient to establish rule.",
+        "sample_size_warning": "N=1, insufficient to establish rule \u2014 but the failure mode (betting a total against an unconfirmed starter) is structurally repeatable and worth flagging as a process check."
+      }
     },
     {
       "id": "20260603-NBA-NY-SA-SPREAD",

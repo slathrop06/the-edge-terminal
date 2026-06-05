@@ -1,9 +1,17 @@
 {
-  "current_streak": 1,
+  "current_streak": 2,
   "longest_streak": 4,
   "completed_climbs": 0,
   "target": 10,
   "history": [
+    {
+      "date": "2026-06-04",
+      "pick_id": "20260604-MLB-SF-MIL-PROP-JACKSONCHOURIO",
+      "pick": "Jackson Chourio TBs Over 1.5",
+      "game": "SF @ MIL",
+      "status": "WIN",
+      "after_streak": 2
+    },
     {
       "date": "2026-06-03",
       "pick_id": "20260603-MLB-SD-PHI-TOTAL",
@@ -157,5 +165,5 @@
       "after_streak": 1
     }
   ],
-  "updated_at": "2026-06-04T03:59:42.367451-04:00"
+  "updated_at": "2026-06-05T03:15:12.953323-04:00"
 }

@@ -131,5 +131,12 @@
     "units_pl": 0.4563,
     "night_summary": "3-2 night, +0.46u. The headliner was NBA Finals Game 1: the Knicks +4.5 cashed cleanly as New York erased a 14-point second-half deficit and closed on an 11-0 run \u2014 Brunson's 13 fourth-quarter points sealed a 105-95 win. The SD @ PHI under (2-0, ladder pick) was never in doubt. Chase Burns, back after an illness scratch Monday, delivered 9 Ks against KC to blow past the 5.5 line with ease. The two losses were both model errors on the same game: the over 217.5 missed by 17.5 as both offenses went cold in a defensive Finals opener, and Wembanyama's points prop fell one short at exactly 26 \u2014 he shot 6-of-21 and the Knicks funneled him to the perimeter all night; the model leaned on his WCF sample and got the defensive scheme wrong. Ladder is at 1 of 10 \u2014 back on the board, climbing.",
     "generated_at": "2026-06-04T04:23:54.897382-04:00"
+  },
+  "2026-06-04": {
+    "date": "2026-06-04",
+    "record": "1-2-0",
+    "units_pl": -2.55,
+    "night_summary": "1-2 night, -2.55u \u2014 the prop carried, the totals didn't. Chourio was the story: nine total bases against the Giants, capped by a go-ahead RBI double in the 8th to push Milwaukee to a 7-3 lead, and the ladder pick cashes cleanly at -105. The other two were DATA losses, not variance \u2014 we got them wrong. The ATH @ CHC under (ATH 6 \u00b7 CHC 7) died on four home runs including back-to-back shots off Imanaga in the 7th, and the wind was blowing out all night, not in \u2014 the entire suppression thesis was built on bad pre-game wind data. The TOR @ ATL under (TOR 7 \u00b7 ATL 2) was worse: the pick was priced around Simeon Woods Richardson's 7.74 ERA, but Mason Fluharty actually took the ball and held Atlanta in check; the starter mismatch we were fading never existed. Two process flags logged. Ladder sits at 2 of 10 \u2014 still climbing.",
+    "generated_at": "2026-06-05T03:16:21.444622-04:00"
   }
 }
