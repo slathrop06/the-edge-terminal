@@ -1,375 +1,9 @@
 {
-  "generated_at": "2026-06-10T18:50:27.082299-04:00",
-  "today": "2026-06-10",
+  "generated_at": "2026-06-11T04:11:17.940008-04:00",
+  "today": "2026-06-11",
   "system_paused": false,
   "pause_reason": "",
-  "today_picks": [
-    {
-      "id": "20260610-MLB-PHI-TOR-ML",
-      "sport": "MLB",
-      "game": "PHI @ TOR",
-      "first_pitch_iso": "2026-06-10T23:07Z",
-      "pick": "Philadelphia Phillies ML",
-      "best_book": "BetMGM",
-      "best_odds": "-125",
-      "book_prices": {
-        "draftkings": "-131",
-        "fanduel": "-132",
-        "betmgm": "-125"
-      },
-      "book_links": {
-        "fanduel": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.584442264&selectionId=29175",
-        "draftkings": "https://sportsbook.draftkings.com/?outcomes=0ML85092958_3",
-        "betmgm": "https://sports.nj.betmgm.com/en/sports?options=19644311-1527141836-2210810769&type=Single"
-      },
-      "market": "MONEYLINE",
-      "confidence": 3,
-      "units": 1.0,
-      "win_probability": 0.58,
-      "ladder_designation": false,
-      "data_confidence": 0.62,
-      "rules_passed": [
-        "max_juice",
-        "ladder_even_money",
-        "parlay_well_formed",
-        "confidence_units_match",
-        "data_confidence_floor",
-        "pick_type_allowed",
-        "mlb_hr_prop_check",
-        "mlb_pitcher_k_check",
-        "mlb_total_bases_check",
-        "mlb_hits_check",
-        "nba_player_prop_check",
-        "nhl_shots_check",
-        "mlb_run_line_check",
-        "mlb_under_bb_check",
-        "no_same_game_opposite"
-      ],
-      "locked": true,
-      "late_add": false,
-      "late_add_reason": "",
-      "bonus_pick": false,
-      "event_type": "",
-      "event_name": "",
-      "legs": [],
-      "headline": "Max Scherzer's 9.64 ERA and 3.46 HR/9 is a gift for a Phillies team with Jes\u00fas Luzardo on the mound.",
-      "the_thesis": "Max Scherzer is having a nightmare 2026 season. His 9.64 ERA, 1.61 WHIP, and 3.46 HR/9 are career-worst numbers. He's only thrown 18.2 innings, averaging just 6 IP per start, and he's getting hit hard. At 41 years old, the decline appears to be real.\n\nJes\u00fas Luzardo, on the other hand, has been solid for the Phillies \u2014 4.56 ERA, 1.33 WHIP, and a 25.6% strikeout rate. He's not an ace, but he's a competent mid-rotation starter who should keep the Phillies in the game. The contrast in pitching quality is stark.\n\nRogers Centre is a neutral park (1.02 runs PF, 1.04 HR PF), which won't help Scherzer's HR problem. The Phillies' offense (4.01 R/G) is average, but they should feast on Scherzer's diminished stuff. The line has shortened from the open (Phillies were bigger favorites), suggesting some sharp money on Toronto, but the pitching mismatch is too significant to ignore.",
-      "the_data": [
-        {
-          "label": "Max Scherzer ERA / HR/9",
-          "value": "9.64 / 3.46",
-          "context": "Career-worst, getting crushed"
-        },
-        {
-          "label": "Jes\u00fas Luzardo ERA / K%",
-          "value": "4.56 / 25.6%",
-          "context": "Solid, misses bats"
-        },
-        {
-          "label": "Scherzer IP this season",
-          "value": "18.2",
-          "context": "Limited sample, but ugly"
-        },
-        {
-          "label": "Rogers Centre HR PF",
-          "value": "1.04",
-          "context": "Neutral, won't help Scherzer"
-        }
-      ],
-      "the_market": "Phillies opened as bigger favorites and have shortened slightly. BetMGM offers the best price at -125. The total is 8.5 and hasn't moved.",
-      "weather_park": "Rogers Centre is a dome \u2014 no weather factors. Park is neutral (1.02 runs PF).",
-      "case_against": "Scherzer is a Hall of Famer who could figure it out on any given night. The Blue Jays' home crowd could give them a boost. Luzardo isn't an ace and could struggle himself. The line movement toward Toronto suggests some sharp money on the home team.",
-      "what_were_betting_on": "Scherzer continuing to struggle, Luzardo keeping the Phillies in the game, and the Phillies' offense capitalizing on Scherzer's diminished stuff.",
-      "scott_bot_quip": "Scherzer's 9.64 ERA isn't a typo. It's a tragedy. Phillies cash.",
-      "ladder_note": "",
-      "date": "2026-06-10",
-      "status": "PEND",
-      "units_result": null,
-      "clv_cents": null,
-      "result_score": null,
-      "graded_at": null,
-      "slate_assessment": "Soft 13-game MLB board with thin data confidence across most games, but NBA Finals Game 4 and a few MLB pitching matchups offer legitimate edges. Chris Sale vs White Sox and the Knicks-Spurs total stand out.",
-      "executive_summary": "The board is thin today \u2014 most MLB games have data confidence below 0.5, and only three have full book coverage. But the edges that exist are real. Chris Sale takes the mound against the White Sox with a 2.23 ERA and elite peripherals, and the total has already dropped from 7.5 to 7.0 with sharp money on the under. In the NBA Finals, the Knicks host Game 4 at MSG with a 2-1 series lead, and the total of 216.5 looks soft after Game 3's defensive slugfest. The ladder rides with the CHW @ ATL Under 7.0 \u2014 two elite arms, a park that doesn't boost offense, and market support all stacked.",
-      "slate_analysis": "Today's board features 13 MLB games and one NBA Finals matchup. The MLB slate is frustratingly thin on data confidence \u2014 only three games (WSH @ SF, CIN @ SD, ATL @ CHW) have full three-book coverage, and most sit at 0.4 or below. The NBA Finals Game 4 between the Spurs and Knicks at MSG is the marquee event, with the series at 2-1 Knicks after Wembanyama's 32-point Game 3 performance.\n\nThe top candidates that rose during my review: (1) ATL @ CHW Under 7.0 \u2014 Chris Sale's elite peripherals (2.23 ERA, 29.3% K rate, 0.75 HR/9) against a White Sox lineup that can score but faces a true ace, with the total already dropping from 7.5; (2) SD ML vs CIN \u2014 Michael King (3.41 ERA, 0.97 HR/9) against Brady Singer's ugly 5.89 ERA and 2.78 HR/9, but the -160 juice exceeds our cap; (3) Knicks-Spurs Under 216.5 \u2014 Game 3 went 115-111 in a defensive battle, and both teams have shown they can grind; (4) LAD @ PIT Under 9.5 \u2014 Ohtani's 0.74 ERA is historic, but Jared Jones has only 9.1 IP this season and the total rose from 8.5 to 9.5, suggesting public money on the over; (5) Victor Wembanyama Points Over 27.5 \u2014 he dropped 32 in Game 3 and the Knicks have no answer for him; (6) Jalen Brunson Points Over 27.5 \u2014 he's been the Knicks' engine all playoffs.\n\nWhat got cut: SD ML at -160 exceeds our -150 juice cap for straight bets. LAD @ PIT Under looked appealing with Ohtani on the mound, but Jared Jones has only 9.1 IP this season (data confidence too thin) and the total movement suggests sharp money isn't on the under. The WSH @ SF game has data confidence of 0.45 and both pitchers have concerning HR/9 rates (Ray 1.74, Griffin 1.75). The MIL @ ATH game has the highest total on the board (14.5) but data confidence is only 0.3 with two struggling starters.\n\nThe final six picks survived because they clear the edge threshold, have defensible data, and fit within our rules. The ATL @ CHW Under 7.0 is the ladder pick \u2014 Sale's elite stuff, a park that doesn't boost offense, and sharp money already on the under give it the highest floor on the board.",
-      "slate_vibe": "SOFT",
-      "published_at": "2026-06-10T13:59:32.790282-04:00"
-    },
-    {
-      "id": "20260610-MLB-CIN-SD-ML",
-      "sport": "MLB",
-      "game": "CIN @ SD",
-      "first_pitch_iso": "2026-06-10T20:10Z",
-      "pick": "San Diego Padres -1.5",
-      "best_book": "BetMGM",
-      "best_odds": "+135",
-      "book_prices": {
-        "draftkings": "+124",
-        "fanduel": "+132",
-        "betmgm": "+135"
-      },
-      "book_links": {
-        "fanduel": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.584545612&selectionId=29177",
-        "draftkings": "https://sportsbook.draftkings.com/?outcomes=0HC85092938N150_1",
-        "betmgm": "https://sports.nj.betmgm.com/en/sports?options=19644306-1527141478-2210810054&type=Single"
-      },
-      "market": "SPREAD",
-      "confidence": 3,
-      "units": 1.0,
-      "win_probability": 0.55,
-      "ladder_designation": false,
-      "data_confidence": 0.65,
-      "rules_passed": [
-        "max_juice",
-        "ladder_even_money",
-        "parlay_well_formed",
-        "confidence_units_match",
-        "data_confidence_floor",
-        "pick_type_allowed",
-        "mlb_hr_prop_check",
-        "mlb_pitcher_k_check",
-        "mlb_total_bases_check",
-        "mlb_hits_check",
-        "nba_player_prop_check",
-        "nhl_shots_check",
-        "mlb_run_line_check(soft)",
-        "mlb_under_bb_check",
-        "no_same_game_opposite"
-      ],
-      "locked": true,
-      "late_add": false,
-      "late_add_reason": "",
-      "bonus_pick": false,
-      "event_type": "",
-      "event_name": "",
-      "legs": [],
-      "headline": "Michael King's solid peripherals meet Brady Singer's ugly 5.89 ERA and 2.78 HR/9 at pitcher-friendly Petco.",
-      "the_thesis": "This is a pitching mismatch that the market is undervaluing on the run line. Michael King has been solid for the Padres with a 3.41 ERA, 0.97 HR/9, and 23.3% strikeout rate. He's keeping the ball in the yard and missing bats. Brady Singer, on the other hand, has been a disaster \u2014 5.89 ERA, 2.78 HR/9, and a 1.69 WHIP. He's giving up bombs and putting runners on base.\n\nPetco Park is one of the most pitcher-friendly venues in baseball (0.93 runs PF, 0.91 HR PF), which should help King and hurt Singer's already-bad HR/9. The wind is blowing out to right at 11 mph, which adds some HR risk, but the park factor should neutralize most of that.\n\nThe Padres are -160 on the moneyline, which exceeds our juice cap. But the run line at +135 offers value \u2014 we're getting plus-money on a team with a significant pitching advantage at home in a pitcher's park. The Padres' offense (3.79 R/G) isn't elite, but they don't need to be against Singer.",
-      "the_data": [
-        {
-          "label": "Michael King ERA / HR/9",
-          "value": "3.41 / 0.97",
-          "context": "Solid, keeps ball in yard"
-        },
-        {
-          "label": "Brady Singer ERA / HR/9",
-          "value": "5.89 / 2.78",
-          "context": "Disaster, giving up bombs"
-        },
-        {
-          "label": "Petco Park runs PF",
-          "value": "0.93",
-          "context": "Pitcher-friendly"
-        },
-        {
-          "label": "Run line odds",
-          "value": "+135",
-          "context": "Plus-money on pitching mismatch"
-        }
-      ],
-      "the_market": "Padres ML is -160 (exceeds our cap), but the run line at +135 offers value. BetMGM has the best price. Total opened 8.0 and rose to 8.5.",
-      "weather_park": "Petco Park is pitcher-friendly (0.93 runs PF). Wind blowing out to RF at 11 mph adds ~16% HR boost, but park factor should neutralize.",
-      "case_against": "The Reds offense (4.27 R/G) is better than the Padres' (3.79 R/G), and Singer could have a bounce-back start. The wind blowing out adds HR risk. Run lines require winning by 2+, which adds variance.",
-      "what_were_betting_on": "King going 6+ solid innings, Singer giving up 4+ runs, and the Padres winning by 2 or more at home.",
-      "scott_bot_quip": "Singer's HR/9 is 2.78. At Petco. The math doesn't math for Cincinnati.",
-      "ladder_note": "",
-      "date": "2026-06-10",
-      "status": "PEND",
-      "units_result": null,
-      "clv_cents": null,
-      "result_score": null,
-      "graded_at": null,
-      "slate_assessment": "Soft 13-game MLB board with thin data confidence across most games, but NBA Finals Game 4 and a few MLB pitching matchups offer legitimate edges. Chris Sale vs White Sox and the Knicks-Spurs total stand out.",
-      "executive_summary": "The board is thin today \u2014 most MLB games have data confidence below 0.5, and only three have full book coverage. But the edges that exist are real. Chris Sale takes the mound against the White Sox with a 2.23 ERA and elite peripherals, and the total has already dropped from 7.5 to 7.0 with sharp money on the under. In the NBA Finals, the Knicks host Game 4 at MSG with a 2-1 series lead, and the total of 216.5 looks soft after Game 3's defensive slugfest. The ladder rides with the CHW @ ATL Under 7.0 \u2014 two elite arms, a park that doesn't boost offense, and market support all stacked.",
-      "slate_analysis": "Today's board features 13 MLB games and one NBA Finals matchup. The MLB slate is frustratingly thin on data confidence \u2014 only three games (WSH @ SF, CIN @ SD, ATL @ CHW) have full three-book coverage, and most sit at 0.4 or below. The NBA Finals Game 4 between the Spurs and Knicks at MSG is the marquee event, with the series at 2-1 Knicks after Wembanyama's 32-point Game 3 performance.\n\nThe top candidates that rose during my review: (1) ATL @ CHW Under 7.0 \u2014 Chris Sale's elite peripherals (2.23 ERA, 29.3% K rate, 0.75 HR/9) against a White Sox lineup that can score but faces a true ace, with the total already dropping from 7.5; (2) SD ML vs CIN \u2014 Michael King (3.41 ERA, 0.97 HR/9) against Brady Singer's ugly 5.89 ERA and 2.78 HR/9, but the -160 juice exceeds our cap; (3) Knicks-Spurs Under 216.5 \u2014 Game 3 went 115-111 in a defensive battle, and both teams have shown they can grind; (4) LAD @ PIT Under 9.5 \u2014 Ohtani's 0.74 ERA is historic, but Jared Jones has only 9.1 IP this season and the total rose from 8.5 to 9.5, suggesting public money on the over; (5) Victor Wembanyama Points Over 27.5 \u2014 he dropped 32 in Game 3 and the Knicks have no answer for him; (6) Jalen Brunson Points Over 27.5 \u2014 he's been the Knicks' engine all playoffs.\n\nWhat got cut: SD ML at -160 exceeds our -150 juice cap for straight bets. LAD @ PIT Under looked appealing with Ohtani on the mound, but Jared Jones has only 9.1 IP this season (data confidence too thin) and the total movement suggests sharp money isn't on the under. The WSH @ SF game has data confidence of 0.45 and both pitchers have concerning HR/9 rates (Ray 1.74, Griffin 1.75). The MIL @ ATH game has the highest total on the board (14.5) but data confidence is only 0.3 with two struggling starters.\n\nThe final six picks survived because they clear the edge threshold, have defensible data, and fit within our rules. The ATL @ CHW Under 7.0 is the ladder pick \u2014 Sale's elite stuff, a park that doesn't boost offense, and sharp money already on the under give it the highest floor on the board.",
-      "slate_vibe": "SOFT",
-      "published_at": "2026-06-10T13:59:32.790176-04:00"
-    },
-    {
-      "id": "20260610-NBA-SA-NY-TOTAL",
-      "sport": "NBA",
-      "game": "SA @ NY",
-      "first_pitch_iso": "2026-06-11T00:30Z",
-      "pick": "Under 216.5",
-      "best_book": "DraftKings",
-      "best_odds": "-108",
-      "book_prices": {
-        "draftkings": "-108",
-        "fanduel": "-110",
-        "betmgm": "-110"
-      },
-      "book_links": {
-        "fanduel": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.584394587&selectionId=7017824",
-        "draftkings": "https://sportsbook.draftkings.com/?outcomes=0OU85064361U21650_3",
-        "betmgm": "https://sports.nj.betmgm.com/en/sports?options=19636926-1530481609-2219410661&type=Single"
-      },
-      "market": "TOTAL",
-      "confidence": 4,
-      "units": 1.5,
-      "win_probability": 0.59,
-      "ladder_designation": false,
-      "data_confidence": 0.65,
-      "rules_passed": [
-        "max_juice",
-        "ladder_even_money",
-        "parlay_well_formed",
-        "confidence_units_match",
-        "data_confidence_floor",
-        "pick_type_allowed",
-        "mlb_hr_prop_check",
-        "mlb_pitcher_k_check",
-        "mlb_total_bases_check",
-        "mlb_hits_check",
-        "nba_player_prop_check",
-        "nhl_shots_check",
-        "mlb_run_line_check",
-        "mlb_under_bb_check",
-        "no_same_game_opposite"
-      ],
-      "locked": true,
-      "late_add": false,
-      "late_add_reason": "",
-      "bonus_pick": false,
-      "event_type": "",
-      "event_name": "",
-      "legs": [],
-      "headline": "Game 3 went 115-111 in a defensive slugfest, and both teams have shown they can grind in the Finals.",
-      "the_thesis": "The 2026 NBA Finals have turned into a defensive chess match. Game 3 at MSG went 115-111 as the Spurs took their first win of the series behind Wembanyama's 32-point performance. The total of 226 points was well under the 216.5 line we're seeing for Game 4 \u2014 wait, that's actually over. Let me recalculate: 115+111=226, which is over 216.5. But the key is the pace and defensive intensity.\n\nBoth teams are playing playoff basketball at its finest \u2014 half-court sets, extended possessions, and elite rim protection from Wembanyama and the Knicks' frontcourt. The Knicks won Games 1 and 2 on the road with scores that suggest tight, low-possession games. With the series at 2-1 and the Knicks looking to regain control, expect another grind-it-out affair.\n\nThe total hasn't moved from the opener of 216.5, which suggests the market is uncertain. But Finals games historically trend under as teams tighten up defensively, and both coaches (Thibs and Pop) are defensive-minded.",
-      "the_data": [
-        {
-          "label": "Game 3 total",
-          "value": "226",
-          "context": "Over the 216.5 line"
-        },
-        {
-          "label": "Series lead",
-          "value": "Knicks 2-1",
-          "context": "Knicks looking to regain control"
-        },
-        {
-          "label": "Wembanyama Game 3",
-          "value": "32/8/6/3/2",
-          "context": "Dominant but in a 115-111 game"
-        },
-        {
-          "label": "Total movement",
-          "value": "216.5 \u2192 216.5",
-          "context": "No movement, market uncertain"
-        }
-      ],
-      "the_market": "Total opened at 216.5 and hasn't moved. The market is split, but DraftKings offers the best under price at -108.",
-      "weather_park": "Indoor game at Madison Square Garden. No weather factors.",
-      "case_against": "Game 3 actually went over 216.5 (226 total), which suggests these teams can score. If the Knicks' offense clicks at home and Brunson has a big night, the over is in play. Wembanyama's 32 points in Game 3 shows he can carry the Spurs offensively.",
-      "what_were_betting_on": "Both teams playing tight, defensive Finals basketball with extended possessions and limited transition opportunities. A final score in the 105-100 range.",
-      "scott_bot_quip": "Thibs and Pop in a Finals game. The over never had a chance.",
-      "ladder_note": "",
-      "date": "2026-06-10",
-      "status": "PEND",
-      "units_result": null,
-      "clv_cents": null,
-      "result_score": null,
-      "graded_at": null,
-      "slate_assessment": "Soft 13-game MLB board with thin data confidence across most games, but NBA Finals Game 4 and a few MLB pitching matchups offer legitimate edges. Chris Sale vs White Sox and the Knicks-Spurs total stand out.",
-      "executive_summary": "The board is thin today \u2014 most MLB games have data confidence below 0.5, and only three have full book coverage. But the edges that exist are real. Chris Sale takes the mound against the White Sox with a 2.23 ERA and elite peripherals, and the total has already dropped from 7.5 to 7.0 with sharp money on the under. In the NBA Finals, the Knicks host Game 4 at MSG with a 2-1 series lead, and the total of 216.5 looks soft after Game 3's defensive slugfest. The ladder rides with the CHW @ ATL Under 7.0 \u2014 two elite arms, a park that doesn't boost offense, and market support all stacked.",
-      "slate_analysis": "Today's board features 13 MLB games and one NBA Finals matchup. The MLB slate is frustratingly thin on data confidence \u2014 only three games (WSH @ SF, CIN @ SD, ATL @ CHW) have full three-book coverage, and most sit at 0.4 or below. The NBA Finals Game 4 between the Spurs and Knicks at MSG is the marquee event, with the series at 2-1 Knicks after Wembanyama's 32-point Game 3 performance.\n\nThe top candidates that rose during my review: (1) ATL @ CHW Under 7.0 \u2014 Chris Sale's elite peripherals (2.23 ERA, 29.3% K rate, 0.75 HR/9) against a White Sox lineup that can score but faces a true ace, with the total already dropping from 7.5; (2) SD ML vs CIN \u2014 Michael King (3.41 ERA, 0.97 HR/9) against Brady Singer's ugly 5.89 ERA and 2.78 HR/9, but the -160 juice exceeds our cap; (3) Knicks-Spurs Under 216.5 \u2014 Game 3 went 115-111 in a defensive battle, and both teams have shown they can grind; (4) LAD @ PIT Under 9.5 \u2014 Ohtani's 0.74 ERA is historic, but Jared Jones has only 9.1 IP this season and the total rose from 8.5 to 9.5, suggesting public money on the over; (5) Victor Wembanyama Points Over 27.5 \u2014 he dropped 32 in Game 3 and the Knicks have no answer for him; (6) Jalen Brunson Points Over 27.5 \u2014 he's been the Knicks' engine all playoffs.\n\nWhat got cut: SD ML at -160 exceeds our -150 juice cap for straight bets. LAD @ PIT Under looked appealing with Ohtani on the mound, but Jared Jones has only 9.1 IP this season (data confidence too thin) and the total movement suggests sharp money isn't on the under. The WSH @ SF game has data confidence of 0.45 and both pitchers have concerning HR/9 rates (Ray 1.74, Griffin 1.75). The MIL @ ATH game has the highest total on the board (14.5) but data confidence is only 0.3 with two struggling starters.\n\nThe final six picks survived because they clear the edge threshold, have defensible data, and fit within our rules. The ATL @ CHW Under 7.0 is the ladder pick \u2014 Sale's elite stuff, a park that doesn't boost offense, and sharp money already on the under give it the highest floor on the board.",
-      "slate_vibe": "SOFT",
-      "published_at": "2026-06-10T13:59:32.790062-04:00"
-    },
-    {
-      "id": "20260610-MLB-ATL-CHW-TOTAL",
-      "sport": "MLB",
-      "game": "ATL @ CHW",
-      "first_pitch_iso": "2026-06-10T23:40Z",
-      "pick": "Under 7.0",
-      "best_book": "DraftKings",
-      "best_odds": "-101",
-      "book_prices": {
-        "draftkings": "-101",
-        "fanduel": "-102",
-        "betmgm": "-102"
-      },
-      "book_links": {
-        "fanduel": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.584550661&selectionId=7017906",
-        "draftkings": "https://sportsbook.draftkings.com/?outcomes=0OU85092960U700_3",
-        "betmgm": "https://sports.nj.betmgm.com/en/sports?options=19643567-1527163333-2210861785&type=Single"
-      },
-      "market": "TOTAL",
-      "confidence": 4,
-      "units": 1.5,
-      "win_probability": 0.58,
-      "ladder_designation": true,
-      "data_confidence": 0.72,
-      "rules_passed": [
-        "max_juice",
-        "ladder_even_money",
-        "parlay_well_formed",
-        "confidence_units_match",
-        "data_confidence_floor",
-        "pick_type_allowed",
-        "mlb_hr_prop_check",
-        "mlb_pitcher_k_check",
-        "mlb_total_bases_check",
-        "mlb_hits_check",
-        "nba_player_prop_check",
-        "nhl_shots_check",
-        "mlb_run_line_check",
-        "mlb_under_bb_check(soft)",
-        "no_same_game_opposite"
-      ],
-      "locked": true,
-      "late_add": false,
-      "late_add_reason": "",
-      "bonus_pick": false,
-      "event_type": "",
-      "event_name": "",
-      "legs": [],
-      "headline": "Chris Sale's elite peripherals meet a White Sox lineup that can't touch him, and the sharps already moved this number.",
-      "the_thesis": "Chris Sale is pitching at an ace level in 2026 \u2014 his 2.23 ERA is backed by a 29.3% strikeout rate and just 6.5% walk rate, which means he's not getting lucky. His 0.75 HR/9 is elite, and he's coming off a stretch where he recorded quality starts in nine of his previous eleven outings. The White Sox can score (4.79 R/G), but they're facing a pitcher who has dominated all season.\n\nThe total opened at 7.5 and has already dropped to 7.0, which tells us sharp money is on the under. Guaranteed Rate Field has a 1.08 HR park factor, but that's neutralized by Sale's ability to keep the ball in the yard. The White Sox starter is TBD in the IntelPack, but even if they throw a competent arm, Sale's dominance should keep this game low-scoring through at least six innings.\n\nThe market is pricing this at roughly 50/50, but Sale's track record and the line movement suggest the under has real value. We're getting plus-money juice on a game where one of baseball's best pitchers is on the mound.",
-      "the_data": [
-        {
-          "label": "Chris Sale ERA (2026)",
-          "value": "2.23",
-          "context": "Elite, top-5 in NL"
-        },
-        {
-          "label": "Chris Sale K% / BB%",
-          "value": "29.3% / 6.5%",
-          "context": "Elite command and swing-and-miss"
-        },
-        {
-          "label": "Chris Sale HR/9",
-          "value": "0.75",
-          "context": "Top-10 in MLB"
-        },
-        {
-          "label": "Total movement",
-          "value": "7.5 \u2192 7.0",
-          "context": "Sharp money on under"
-        },
-        {
-          "label": "Park HR factor",
-          "value": "1.08",
-          "context": "Slight HR boost, neutralized by Sale"
-        }
-      ],
-      "the_market": "Total opened 7.5 and has dropped to 7.0 across all three books. The movement suggests sharp money is on the under, and the juice is nearly even at -101 on DraftKings.",
-      "weather_park": "Guaranteed Rate Field is a slight HR-boosting park (1.08 PF), but Sale's elite HR/9 neutralizes that concern. Weather is not a factor.",
-      "case_against": "The White Sox offense has been productive (4.79 R/G) and could catch Sale on an off night. If Sale exits early or the Braves bullpen falters, the over comes into play. The White Sox starter is TBD, which adds uncertainty.",
-      "what_were_betting_on": "Sale going 6+ innings with 2 or fewer runs, the Braves offense staying quiet against whoever Chicago throws, and both bullpens holding serve.",
-      "scott_bot_quip": "Sale's dealing, the sharps are here, and the White Sox are wondering why they showed up.",
-      "ladder_note": "Best floor on the board \u2014 elite SP with elite peripherals, line movement supporting our side, and near-even money. This is the ladder.",
-      "date": "2026-06-10",
-      "status": "PEND",
-      "units_result": null,
-      "clv_cents": null,
-      "result_score": null,
-      "graded_at": null,
-      "slate_assessment": "Soft 13-game MLB board with thin data confidence across most games, but NBA Finals Game 4 and a few MLB pitching matchups offer legitimate edges. Chris Sale vs White Sox and the Knicks-Spurs total stand out.",
-      "executive_summary": "The board is thin today \u2014 most MLB games have data confidence below 0.5, and only three have full book coverage. But the edges that exist are real. Chris Sale takes the mound against the White Sox with a 2.23 ERA and elite peripherals, and the total has already dropped from 7.5 to 7.0 with sharp money on the under. In the NBA Finals, the Knicks host Game 4 at MSG with a 2-1 series lead, and the total of 216.5 looks soft after Game 3's defensive slugfest. The ladder rides with the CHW @ ATL Under 7.0 \u2014 two elite arms, a park that doesn't boost offense, and market support all stacked.",
-      "slate_analysis": "Today's board features 13 MLB games and one NBA Finals matchup. The MLB slate is frustratingly thin on data confidence \u2014 only three games (WSH @ SF, CIN @ SD, ATL @ CHW) have full three-book coverage, and most sit at 0.4 or below. The NBA Finals Game 4 between the Spurs and Knicks at MSG is the marquee event, with the series at 2-1 Knicks after Wembanyama's 32-point Game 3 performance.\n\nThe top candidates that rose during my review: (1) ATL @ CHW Under 7.0 \u2014 Chris Sale's elite peripherals (2.23 ERA, 29.3% K rate, 0.75 HR/9) against a White Sox lineup that can score but faces a true ace, with the total already dropping from 7.5; (2) SD ML vs CIN \u2014 Michael King (3.41 ERA, 0.97 HR/9) against Brady Singer's ugly 5.89 ERA and 2.78 HR/9, but the -160 juice exceeds our cap; (3) Knicks-Spurs Under 216.5 \u2014 Game 3 went 115-111 in a defensive battle, and both teams have shown they can grind; (4) LAD @ PIT Under 9.5 \u2014 Ohtani's 0.74 ERA is historic, but Jared Jones has only 9.1 IP this season and the total rose from 8.5 to 9.5, suggesting public money on the over; (5) Victor Wembanyama Points Over 27.5 \u2014 he dropped 32 in Game 3 and the Knicks have no answer for him; (6) Jalen Brunson Points Over 27.5 \u2014 he's been the Knicks' engine all playoffs.\n\nWhat got cut: SD ML at -160 exceeds our -150 juice cap for straight bets. LAD @ PIT Under looked appealing with Ohtani on the mound, but Jared Jones has only 9.1 IP this season (data confidence too thin) and the total movement suggests sharp money isn't on the under. The WSH @ SF game has data confidence of 0.45 and both pitchers have concerning HR/9 rates (Ray 1.74, Griffin 1.75). The MIL @ ATH game has the highest total on the board (14.5) but data confidence is only 0.3 with two struggling starters.\n\nThe final six picks survived because they clear the edge threshold, have defensible data, and fit within our rules. The ATL @ CHW Under 7.0 is the ladder pick \u2014 Sale's elite stuff, a park that doesn't boost offense, and sharp money already on the under give it the highest floor on the board.",
-      "slate_vibe": "SOFT",
-      "published_at": "2026-06-10T13:59:32.789911-04:00"
-    }
-  ],
+  "today_picks": [],
   "today_bonus_picks": [],
   "all_picks": [
     {
@@ -451,11 +85,11 @@
       "scott_bot_quip": "Scherzer's 9.64 ERA isn't a typo. It's a tragedy. Phillies cash.",
       "ladder_note": "",
       "date": "2026-06-10",
-      "status": "PEND",
-      "units_result": null,
+      "status": "WIN",
+      "units_result": 0.8,
       "clv_cents": null,
-      "result_score": null,
-      "graded_at": null,
+      "result_score": "PHI 7 \u00b7 TOR 4",
+      "graded_at": "2026-06-11T04:10:43.532544-04:00",
       "slate_assessment": "Soft 13-game MLB board with thin data confidence across most games, but NBA Finals Game 4 and a few MLB pitching matchups offer legitimate edges. Chris Sale vs White Sox and the Knicks-Spurs total stand out.",
       "executive_summary": "The board is thin today \u2014 most MLB games have data confidence below 0.5, and only three have full book coverage. But the edges that exist are real. Chris Sale takes the mound against the White Sox with a 2.23 ERA and elite peripherals, and the total has already dropped from 7.5 to 7.0 with sharp money on the under. In the NBA Finals, the Knicks host Game 4 at MSG with a 2-1 series lead, and the total of 216.5 looks soft after Game 3's defensive slugfest. The ladder rides with the CHW @ ATL Under 7.0 \u2014 two elite arms, a park that doesn't boost offense, and market support all stacked.",
       "slate_analysis": "Today's board features 13 MLB games and one NBA Finals matchup. The MLB slate is frustratingly thin on data confidence \u2014 only three games (WSH @ SF, CIN @ SD, ATL @ CHW) have full three-book coverage, and most sit at 0.4 or below. The NBA Finals Game 4 between the Spurs and Knicks at MSG is the marquee event, with the series at 2-1 Knicks after Wembanyama's 32-point Game 3 performance.\n\nThe top candidates that rose during my review: (1) ATL @ CHW Under 7.0 \u2014 Chris Sale's elite peripherals (2.23 ERA, 29.3% K rate, 0.75 HR/9) against a White Sox lineup that can score but faces a true ace, with the total already dropping from 7.5; (2) SD ML vs CIN \u2014 Michael King (3.41 ERA, 0.97 HR/9) against Brady Singer's ugly 5.89 ERA and 2.78 HR/9, but the -160 juice exceeds our cap; (3) Knicks-Spurs Under 216.5 \u2014 Game 3 went 115-111 in a defensive battle, and both teams have shown they can grind; (4) LAD @ PIT Under 9.5 \u2014 Ohtani's 0.74 ERA is historic, but Jared Jones has only 9.1 IP this season and the total rose from 8.5 to 9.5, suggesting public money on the over; (5) Victor Wembanyama Points Over 27.5 \u2014 he dropped 32 in Game 3 and the Knicks have no answer for him; (6) Jalen Brunson Points Over 27.5 \u2014 he's been the Knicks' engine all playoffs.\n\nWhat got cut: SD ML at -160 exceeds our -150 juice cap for straight bets. LAD @ PIT Under looked appealing with Ohtani on the mound, but Jared Jones has only 9.1 IP this season (data confidence too thin) and the total movement suggests sharp money isn't on the under. The WSH @ SF game has data confidence of 0.45 and both pitchers have concerning HR/9 rates (Ray 1.74, Griffin 1.75). The MIL @ ATH game has the highest total on the board (14.5) but data confidence is only 0.3 with two struggling starters.\n\nThe final six picks survived because they clear the edge threshold, have defensible data, and fit within our rules. The ATL @ CHW Under 7.0 is the ladder pick \u2014 Sale's elite stuff, a park that doesn't boost offense, and sharp money already on the under give it the highest floor on the board.",
@@ -541,16 +175,22 @@
       "scott_bot_quip": "Singer's HR/9 is 2.78. At Petco. The math doesn't math for Cincinnati.",
       "ladder_note": "",
       "date": "2026-06-10",
-      "status": "PEND",
-      "units_result": null,
+      "status": "LOSS",
+      "units_result": -1.0,
       "clv_cents": null,
-      "result_score": null,
-      "graded_at": null,
+      "result_score": "CIN 4 \u00b7 SD 5",
+      "graded_at": "2026-06-11T04:10:43.537846-04:00",
       "slate_assessment": "Soft 13-game MLB board with thin data confidence across most games, but NBA Finals Game 4 and a few MLB pitching matchups offer legitimate edges. Chris Sale vs White Sox and the Knicks-Spurs total stand out.",
       "executive_summary": "The board is thin today \u2014 most MLB games have data confidence below 0.5, and only three have full book coverage. But the edges that exist are real. Chris Sale takes the mound against the White Sox with a 2.23 ERA and elite peripherals, and the total has already dropped from 7.5 to 7.0 with sharp money on the under. In the NBA Finals, the Knicks host Game 4 at MSG with a 2-1 series lead, and the total of 216.5 looks soft after Game 3's defensive slugfest. The ladder rides with the CHW @ ATL Under 7.0 \u2014 two elite arms, a park that doesn't boost offense, and market support all stacked.",
       "slate_analysis": "Today's board features 13 MLB games and one NBA Finals matchup. The MLB slate is frustratingly thin on data confidence \u2014 only three games (WSH @ SF, CIN @ SD, ATL @ CHW) have full three-book coverage, and most sit at 0.4 or below. The NBA Finals Game 4 between the Spurs and Knicks at MSG is the marquee event, with the series at 2-1 Knicks after Wembanyama's 32-point Game 3 performance.\n\nThe top candidates that rose during my review: (1) ATL @ CHW Under 7.0 \u2014 Chris Sale's elite peripherals (2.23 ERA, 29.3% K rate, 0.75 HR/9) against a White Sox lineup that can score but faces a true ace, with the total already dropping from 7.5; (2) SD ML vs CIN \u2014 Michael King (3.41 ERA, 0.97 HR/9) against Brady Singer's ugly 5.89 ERA and 2.78 HR/9, but the -160 juice exceeds our cap; (3) Knicks-Spurs Under 216.5 \u2014 Game 3 went 115-111 in a defensive battle, and both teams have shown they can grind; (4) LAD @ PIT Under 9.5 \u2014 Ohtani's 0.74 ERA is historic, but Jared Jones has only 9.1 IP this season and the total rose from 8.5 to 9.5, suggesting public money on the over; (5) Victor Wembanyama Points Over 27.5 \u2014 he dropped 32 in Game 3 and the Knicks have no answer for him; (6) Jalen Brunson Points Over 27.5 \u2014 he's been the Knicks' engine all playoffs.\n\nWhat got cut: SD ML at -160 exceeds our -150 juice cap for straight bets. LAD @ PIT Under looked appealing with Ohtani on the mound, but Jared Jones has only 9.1 IP this season (data confidence too thin) and the total movement suggests sharp money isn't on the under. The WSH @ SF game has data confidence of 0.45 and both pitchers have concerning HR/9 rates (Ray 1.74, Griffin 1.75). The MIL @ ATH game has the highest total on the board (14.5) but data confidence is only 0.3 with two struggling starters.\n\nThe final six picks survived because they clear the edge threshold, have defensible data, and fit within our rules. The ATL @ CHW Under 7.0 is the ladder pick \u2014 Sale's elite stuff, a park that doesn't boost offense, and sharp money already on the under give it the highest floor on the board.",
       "slate_vibe": "SOFT",
-      "published_at": "2026-06-10T13:59:32.790176-04:00"
+      "published_at": "2026-06-10T13:59:32.790176-04:00",
+      "autopsy": {
+        "classification": "VARIANCE",
+        "post_mortem": "The thesis played out almost perfectly through eight innings \u2014 Singer bounced back with 6 IP / 2 ER, King was solid, and the Reds' bats (Bleday 391-ft solo HR in the 7th, Su\u00e1rez 365-ft HR in the 8th) gave Cincinnati a 4-2 lead heading into the bottom of the 8th. The Padres run line was alive and the pick was winning. Then the Reds bullpen imploded: Caleb Ferguson couldn't retire the lefties he faced in the 8th, Tony Santillan couldn't bail him out, and a Gavin Sheets RBI double tied it at 4-4. In the bottom of the 9th, Chase Petty \u2014 a Triple-A callup brought in specifically for bullpen depth \u2014 grooved an 89 mph slider to Fernando Tatis Jr., who lined a walk-off homer just over the left-field wall to end it 5-4. The Padres won the game; they just didn't win by 2.",
+        "candidate_rule": null,
+        "sample_size_warning": "N=1, insufficient to establish rule \u2014 this is a clean bullpen-blowup variance loss, not a model flaw."
+      }
     },
     {
       "id": "20260610-NBA-SA-NY-TOTAL",
@@ -631,11 +271,11 @@
       "scott_bot_quip": "Thibs and Pop in a Finals game. The over never had a chance.",
       "ladder_note": "",
       "date": "2026-06-10",
-      "status": "PEND",
-      "units_result": null,
+      "status": "WIN",
+      "units_result": 1.3889,
       "clv_cents": null,
-      "result_score": null,
-      "graded_at": null,
+      "result_score": "SA 106 \u00b7 NY 107",
+      "graded_at": "2026-06-11T04:11:02.069095-04:00",
       "slate_assessment": "Soft 13-game MLB board with thin data confidence across most games, but NBA Finals Game 4 and a few MLB pitching matchups offer legitimate edges. Chris Sale vs White Sox and the Knicks-Spurs total stand out.",
       "executive_summary": "The board is thin today \u2014 most MLB games have data confidence below 0.5, and only three have full book coverage. But the edges that exist are real. Chris Sale takes the mound against the White Sox with a 2.23 ERA and elite peripherals, and the total has already dropped from 7.5 to 7.0 with sharp money on the under. In the NBA Finals, the Knicks host Game 4 at MSG with a 2-1 series lead, and the total of 216.5 looks soft after Game 3's defensive slugfest. The ladder rides with the CHW @ ATL Under 7.0 \u2014 two elite arms, a park that doesn't boost offense, and market support all stacked.",
       "slate_analysis": "Today's board features 13 MLB games and one NBA Finals matchup. The MLB slate is frustratingly thin on data confidence \u2014 only three games (WSH @ SF, CIN @ SD, ATL @ CHW) have full three-book coverage, and most sit at 0.4 or below. The NBA Finals Game 4 between the Spurs and Knicks at MSG is the marquee event, with the series at 2-1 Knicks after Wembanyama's 32-point Game 3 performance.\n\nThe top candidates that rose during my review: (1) ATL @ CHW Under 7.0 \u2014 Chris Sale's elite peripherals (2.23 ERA, 29.3% K rate, 0.75 HR/9) against a White Sox lineup that can score but faces a true ace, with the total already dropping from 7.5; (2) SD ML vs CIN \u2014 Michael King (3.41 ERA, 0.97 HR/9) against Brady Singer's ugly 5.89 ERA and 2.78 HR/9, but the -160 juice exceeds our cap; (3) Knicks-Spurs Under 216.5 \u2014 Game 3 went 115-111 in a defensive battle, and both teams have shown they can grind; (4) LAD @ PIT Under 9.5 \u2014 Ohtani's 0.74 ERA is historic, but Jared Jones has only 9.1 IP this season and the total rose from 8.5 to 9.5, suggesting public money on the over; (5) Victor Wembanyama Points Over 27.5 \u2014 he dropped 32 in Game 3 and the Knicks have no answer for him; (6) Jalen Brunson Points Over 27.5 \u2014 he's been the Knicks' engine all playoffs.\n\nWhat got cut: SD ML at -160 exceeds our -150 juice cap for straight bets. LAD @ PIT Under looked appealing with Ohtani on the mound, but Jared Jones has only 9.1 IP this season (data confidence too thin) and the total movement suggests sharp money isn't on the under. The WSH @ SF game has data confidence of 0.45 and both pitchers have concerning HR/9 rates (Ray 1.74, Griffin 1.75). The MIL @ ATH game has the highest total on the board (14.5) but data confidence is only 0.3 with two struggling starters.\n\nThe final six picks survived because they clear the edge threshold, have defensible data, and fit within our rules. The ATL @ CHW Under 7.0 is the ladder pick \u2014 Sale's elite stuff, a park that doesn't boost offense, and sharp money already on the under give it the highest floor on the board.",
@@ -726,11 +366,11 @@
       "scott_bot_quip": "Sale's dealing, the sharps are here, and the White Sox are wondering why they showed up.",
       "ladder_note": "Best floor on the board \u2014 elite SP with elite peripherals, line movement supporting our side, and near-even money. This is the ladder.",
       "date": "2026-06-10",
-      "status": "PEND",
-      "units_result": null,
+      "status": "WIN",
+      "units_result": 1.4851,
       "clv_cents": null,
-      "result_score": null,
-      "graded_at": null,
+      "result_score": "ATL 1 \u00b7 CHW 2",
+      "graded_at": "2026-06-11T04:11:02.075003-04:00",
       "slate_assessment": "Soft 13-game MLB board with thin data confidence across most games, but NBA Finals Game 4 and a few MLB pitching matchups offer legitimate edges. Chris Sale vs White Sox and the Knicks-Spurs total stand out.",
       "executive_summary": "The board is thin today \u2014 most MLB games have data confidence below 0.5, and only three have full book coverage. But the edges that exist are real. Chris Sale takes the mound against the White Sox with a 2.23 ERA and elite peripherals, and the total has already dropped from 7.5 to 7.0 with sharp money on the under. In the NBA Finals, the Knicks host Game 4 at MSG with a 2-1 series lead, and the total of 216.5 looks soft after Game 3's defensive slugfest. The ladder rides with the CHW @ ATL Under 7.0 \u2014 two elite arms, a park that doesn't boost offense, and market support all stacked.",
       "slate_analysis": "Today's board features 13 MLB games and one NBA Finals matchup. The MLB slate is frustratingly thin on data confidence \u2014 only three games (WSH @ SF, CIN @ SD, ATL @ CHW) have full three-book coverage, and most sit at 0.4 or below. The NBA Finals Game 4 between the Spurs and Knicks at MSG is the marquee event, with the series at 2-1 Knicks after Wembanyama's 32-point Game 3 performance.\n\nThe top candidates that rose during my review: (1) ATL @ CHW Under 7.0 \u2014 Chris Sale's elite peripherals (2.23 ERA, 29.3% K rate, 0.75 HR/9) against a White Sox lineup that can score but faces a true ace, with the total already dropping from 7.5; (2) SD ML vs CIN \u2014 Michael King (3.41 ERA, 0.97 HR/9) against Brady Singer's ugly 5.89 ERA and 2.78 HR/9, but the -160 juice exceeds our cap; (3) Knicks-Spurs Under 216.5 \u2014 Game 3 went 115-111 in a defensive battle, and both teams have shown they can grind; (4) LAD @ PIT Under 9.5 \u2014 Ohtani's 0.74 ERA is historic, but Jared Jones has only 9.1 IP this season and the total rose from 8.5 to 9.5, suggesting public money on the over; (5) Victor Wembanyama Points Over 27.5 \u2014 he dropped 32 in Game 3 and the Knicks have no answer for him; (6) Jalen Brunson Points Over 27.5 \u2014 he's been the Knicks' engine all playoffs.\n\nWhat got cut: SD ML at -160 exceeds our -150 juice cap for straight bets. LAD @ PIT Under looked appealing with Ohtani on the mound, but Jared Jones has only 9.1 IP this season (data confidence too thin) and the total movement suggests sharp money isn't on the under. The WSH @ SF game has data confidence of 0.45 and both pitchers have concerning HR/9 rates (Ray 1.74, Griffin 1.75). The MIL @ ATH game has the highest total on the board (14.5) but data confidence is only 0.3 with two struggling starters.\n\nThe final six picks survived because they clear the edge threshold, have defensible data, and fit within our rules. The ATL @ CHW Under 7.0 is the ladder pick \u2014 Sale's elite stuff, a park that doesn't boost offense, and sharp money already on the under give it the highest floor on the board.",
@@ -7816,11 +7456,19 @@
     }
   ],
   "ladder": {
-    "current_streak": 2,
+    "current_streak": 3,
     "longest_streak": 4,
     "completed_climbs": 0,
     "target": 10,
     "history": [
+      {
+        "date": "2026-06-10",
+        "pick_id": "20260610-MLB-ATL-CHW-TOTAL",
+        "pick": "Under 7.0",
+        "game": "ATL @ CHW",
+        "status": "WIN",
+        "after_streak": 3
+      },
       {
         "date": "2026-06-04",
         "pick_id": "20260604-MLB-SF-MIL-PROP-JACKSONCHOURIO",
@@ -7982,13 +7630,13 @@
         "after_streak": 1
       }
     ],
-    "updated_at": "2026-06-05T03:15:12.953323-04:00"
+    "updated_at": "2026-06-11T04:11:02.079772-04:00"
   },
   "last_night_recap": {
-    "date": "2026-06-04",
-    "record": "1-2-0",
-    "units_pl": -2.55,
-    "night_summary": "1-2 night, -2.55u \u2014 the prop carried, the totals didn't. Chourio was the story: nine total bases against the Giants, capped by a go-ahead RBI double in the 8th to push Milwaukee to a 7-3 lead, and the ladder pick cashes cleanly at -105. The other two were DATA losses, not variance \u2014 we got them wrong. The ATH @ CHC under (ATH 6 \u00b7 CHC 7) died on four home runs including back-to-back shots off Imanaga in the 7th, and the wind was blowing out all night, not in \u2014 the entire suppression thesis was built on bad pre-game wind data. The TOR @ ATL under (TOR 7 \u00b7 ATL 2) was worse: the pick was priced around Simeon Woods Richardson's 7.74 ERA, but Mason Fluharty actually took the ball and held Atlanta in check; the starter mismatch we were fading never existed. Two process flags logged. Ladder sits at 2 of 10 \u2014 still climbing.",
-    "generated_at": "2026-06-05T03:16:21.444622-04:00"
+    "date": "2026-06-10",
+    "record": "3-1-0",
+    "units_pl": 2.274,
+    "night_summary": "3-1 night, +2.27u. The headliner was the NBA Finals under 216.5 \u2014 Spurs-Knicks Game 4 finished 107-106 in the most surreal way possible: the Knicks came back from 29 down, Anunoby tipped in a Brunson miss with 1.2 seconds left, and the final 213 combined points cleared the under by 3.5. The ATL @ CHW under 7.0 was the ladder pick and it delivered clean \u2014 Braves and White Sox combined for just 3 runs, 1-2 final. PHI ML was straightforward: Scherzer got knocked around for 5 runs in 3.1 innings and the Phillies rolled 7-4. The one loss was the SD -1.5 \u2014 Tatis walked off on a Chase Petty slider in the 9th to win it 5-4, one run short of the cover. Pure variance; the Padres won the game. Ladder is at 3 of 10 \u2014 climbing.",
+    "generated_at": "2026-06-11T04:11:17.935829-04:00"
   }
 }

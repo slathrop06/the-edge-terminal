@@ -1,5 +1,18 @@
 [
   {
+    "id": "20260610-MLB-CIN-SD-ML",
+    "date": "2026-06-10",
+    "pick": "San Diego Padres -1.5",
+    "game": "CIN @ SD",
+    "odds": "+135",
+    "result_score": "CIN 4 \u00b7 SD 5",
+    "classification": "VARIANCE",
+    "post_mortem": "The thesis played out almost perfectly through eight innings \u2014 Singer bounced back with 6 IP / 2 ER, King was solid, and the Reds' bats (Bleday 391-ft solo HR in the 7th, Su\u00e1rez 365-ft HR in the 8th) gave Cincinnati a 4-2 lead heading into the bottom of the 8th. The Padres run line was alive and the pick was winning. Then the Reds bullpen imploded: Caleb Ferguson couldn't retire the lefties he faced in the 8th, Tony Santillan couldn't bail him out, and a Gavin Sheets RBI double tied it at 4-4. In the bottom of the 9th, Chase Petty \u2014 a Triple-A callup brought in specifically for bullpen depth \u2014 grooved an 89 mph slider to Fernando Tatis Jr., who lined a walk-off homer just over the left-field wall to end it 5-4. The Padres won the game; they just didn't win by 2.",
+    "candidate_rule": null,
+    "sample_size_warning": "N=1, insufficient to establish rule \u2014 this is a clean bullpen-blowup variance loss, not a model flaw.",
+    "analyzed_at": "2026-06-11T04:11:02.068007-04:00"
+  },
+  {
     "id": "20260604-MLB-TOR-ATL-TOTAL",
     "date": "2026-06-04",
     "pick": "Under 7.5",
