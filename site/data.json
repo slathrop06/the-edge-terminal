@@ -1,11 +1,552 @@
 {
-  "generated_at": "2026-06-11T07:06:58.279649-04:00",
+  "generated_at": "2026-06-11T14:13:40.531621-04:00",
   "today": "2026-06-11",
   "system_paused": false,
   "pause_reason": "",
-  "today_picks": [],
+  "today_picks": [
+    {
+      "id": "20260611-NHL-VGK-CAR-PROP-JACKEICHEL",
+      "sport": "NHL",
+      "game": "VGK @ CAR",
+      "first_pitch_iso": "2026-06-12T00:00Z",
+      "pick": "Jack Eichel SOG Over 2.5",
+      "best_book": "FanDuel",
+      "best_odds": "+104",
+      "book_prices": {
+        "draftkings": "-125",
+        "fanduel": "+104",
+        "betmgm": "-115"
+      },
+      "book_links": {
+        "fanduel": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.584644555&selectionId=55802391",
+        "draftkings": "https://sportsbook.draftkings.com/?outcomes=0QA341572379%232177603631_13L42133Q11842131994Q20",
+        "betmgm": "https://sports.nj.betmgm.com/en/sports?options=19636979-1531039426-2220875106&type=Single"
+      },
+      "market": "PROP",
+      "confidence": 3,
+      "units": 1.0,
+      "win_probability": 0.55,
+      "ladder_designation": false,
+      "data_confidence": 0.6,
+      "rules_passed": [
+        "max_juice",
+        "ladder_even_money",
+        "parlay_well_formed",
+        "confidence_units_match",
+        "data_confidence_floor",
+        "pick_type_allowed",
+        "mlb_hr_prop_check",
+        "mlb_pitcher_k_check",
+        "mlb_total_bases_check",
+        "mlb_hits_check",
+        "nba_player_prop_check",
+        "nhl_shots_check(soft)",
+        "mlb_run_line_check",
+        "mlb_under_bb_check",
+        "no_same_game_opposite"
+      ],
+      "locked": true,
+      "late_add": false,
+      "late_add_reason": "",
+      "bonus_pick": false,
+      "event_type": "",
+      "event_name": "",
+      "legs": [],
+      "headline": "Eichel has been Vegas's engine \u2014 plus money on a shooter in a 33-goal series is value.",
+      "the_thesis": "Jack Eichel has been Vegas's best player in this playoff run. He set the franchise record for playoff points (26 entering the Final) and has been the engine of the Golden Knights' offense. He's averaging 3.4 SOG per game in the playoffs and has the green light to shoot from anywhere.\n\nThe FanDuel line at +104 is the best available \u2014 DraftKings has this at -125, which is a massive discrepancy. At plus money, this is a value play. Eichel's volume has been consistent, and the high-scoring nature of this series (33 goals in 4 games) means shots are converting.\n\nBussi has been solid but not spectacular \u2014 he allowed 3 goals on 21 shots in Game 4. Eichel will get his chances.",
+      "the_data": [
+        {
+          "label": "Eichel playoff SOG/G",
+          "value": "3.4",
+          "context": "High volume"
+        },
+        {
+          "label": "Eichel playoff points",
+          "value": "26+",
+          "context": "Franchise record"
+        },
+        {
+          "label": "FanDuel vs DraftKings line",
+          "value": "+104 vs -125",
+          "context": "Massive discrepancy"
+        },
+        {
+          "label": "Series total goals",
+          "value": "33",
+          "context": "High-scoring"
+        }
+      ],
+      "the_market": "FanDuel has this at +104, DraftKings at -125. That's a 20+ cent discrepancy \u2014 take the plus money.",
+      "weather_park": "Indoor \u2014 Lenovo Center.",
+      "case_against": "Carolina's defense has been sharper in front of Bussi. If they collapse on Eichel, the shots might not be there. Vegas has also been outscored 8-2 in third periods this series.",
+      "what_were_betting_on": "Eichel's volume, the plus money at FanDuel, and the high-scoring nature of this series.",
+      "scott_bot_quip": "Plus money on Eichel in a 33-goal series. The books are giving this one away.",
+      "ladder_note": "",
+      "date": "2026-06-11",
+      "status": "PEND",
+      "units_result": null,
+      "clv_cents": null,
+      "result_score": null,
+      "graded_at": null,
+      "slate_assessment": "Thin 4-game MLB slate plus Stanley Cup Final Game 5 \u2014 data confidence is low across the board, but the NHL game and a few pitching matchups offer workable edges.",
+      "executive_summary": "Four MLB games and a pivotal Stanley Cup Final Game 5 make up today's board. The Hurricanes host Vegas in a 2-2 series with Brandon Bussi likely getting the start after his Game 4 win \u2014 Carolina at home as a -155 favorite is the sharpest play on the slate. In MLB, the SEA/BAL under 8.5 stands out with Bryan Woo's elite command (4.6% BB rate) facing a Baltimore lineup that's struggled recently, while the PIT/LAD under 9.5 benefits from PNC Park's pitcher-friendly dimensions and Wrobleski's unsustainable luck metrics. The ladder rides with the Hurricanes \u2014 best floor, home ice, and a goalie who's won 31 games this year.",
+      "slate_analysis": "Today's board is modest: four MLB games and one NHL Stanley Cup Final matchup. The MLB slate features Coors Field (CHC/COL), PNC Park (LAD/PIT), Camden Yards (SEA/BAL), and Rate Field (ATL/CHW). Data confidence is below 0.5 on every MLB game \u2014 lineups aren't confirmed, and the White Sox don't even have a listed starter. The NHL game carries 0.35 confidence but the situational edge is clear.\n\nThe candidates that rose: (1) Carolina ML in Game 5 \u2014 home ice, Bussi riding a hot hand after his 31-6-2 regular season and Game 4 win, series tied 2-2, and Vegas has allowed 4+ goals in every game of this Final. (2) SEA/BAL Under 8.5 \u2014 Woo's 4.6% BB rate is elite, Bradish has a 0.62 HR/9 suppression profile, and Camden Yards plays as a pitcher's park (0.93 HR PF). (3) LAD/PIT Under 9.5 \u2014 Wrobleski's 2.62 ERA is propped up by a .243 BABIP and 4% HR/FB rate that screams regression, but PNC Park (0.91 HR PF) and Pittsburgh's 27% K rate vs LHP give the under a floor. (4) CHC/COL Over 11 at Coors \u2014 both pitchers have HR/9 issues (Feltner 1.41, Cabrera 1.73), but wind blowing in suppresses HR impact by 13%, and data confidence is only 0.45. (5) ATL/CHW \u2014 no White Sox starter listed, so this is a pass. (6) Bryan Woo K props \u2014 his recent 5-start stretch shows a 33% K rate vs RHH, but the line is 6.5 with heavy juice on the under.\n\nWhat got cut: The Coors over looked tempting, but the wind-in weather signal and 0.45 data confidence pushed it below the bar. ATL/CHW has no listed home starter \u2014 can't handicap a TBD. The Dodgers ML at -174 exceeds our -150 juice cap for straight bets. Woo's K over 6.5 at +125 is intriguing, but Baltimore's lineup K% isn't high enough to justify the number. The Cubs -1.5 at -104 is close, but Cabrera's 1.73 HR/9 and Coors' chaos make it too volatile.\n\nThe final six: Carolina ML (ladder), SEA/BAL Under 8.5, LAD/PIT Under 9.5, Andrei Svechnikov SOG Over 2.5, Seth Jarvis SOG Over 2.5, and Jack Eichel SOG Over 2.5. The NHL props lean into the high-scoring nature of this series \u2014 33 goals through four games, the most through four Cup Final games since 1981. The ladder pick is Carolina ML: Bussi has been Carolina's workhorse all year, the Hurricanes haven't lost back-to-back games since mid-January, and home ice in a 2-2 series is the highest-floor spot on the board.",
+      "slate_vibe": "SOFT",
+      "published_at": "2026-06-11T14:13:40.520180-04:00"
+    },
+    {
+      "id": "20260611-NHL-VGK-CAR-PROP-SETHJARVIS",
+      "sport": "NHL",
+      "game": "VGK @ CAR",
+      "first_pitch_iso": "2026-06-12T00:00Z",
+      "pick": "Seth Jarvis SOG Over 2.5",
+      "best_book": "FanDuel",
+      "best_odds": "-114",
+      "book_prices": {
+        "draftkings": "-110",
+        "fanduel": "-114",
+        "betmgm": "-115"
+      },
+      "book_links": {
+        "fanduel": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.584644566&selectionId=61764766",
+        "draftkings": "https://sportsbook.draftkings.com/?outcomes=0QA341572418%232177603724_13L42133Q11842131994Q20",
+        "betmgm": "https://sports.nj.betmgm.com/en/sports?options=19636979-1531039533-2220875321&type=Single"
+      },
+      "market": "PROP",
+      "confidence": 3,
+      "units": 1.0,
+      "win_probability": 0.57,
+      "ladder_designation": false,
+      "data_confidence": 0.6,
+      "rules_passed": [
+        "max_juice",
+        "ladder_even_money",
+        "parlay_well_formed",
+        "confidence_units_match",
+        "data_confidence_floor",
+        "pick_type_allowed",
+        "mlb_hr_prop_check",
+        "mlb_pitcher_k_check",
+        "mlb_total_bases_check",
+        "mlb_hits_check",
+        "nba_player_prop_check",
+        "nhl_shots_check(soft)",
+        "mlb_run_line_check",
+        "mlb_under_bb_check",
+        "no_same_game_opposite"
+      ],
+      "locked": true,
+      "late_add": false,
+      "late_add_reason": "",
+      "bonus_pick": false,
+      "event_type": "",
+      "event_name": "",
+      "legs": [],
+      "headline": "Jarvis has been one of Carolina's most active shooters \u2014 33 goals in 4 games means volume plays.",
+      "the_thesis": "Seth Jarvis has been one of Carolina's most consistent offensive threats in this playoff run. He's averaging 3.1 SOG per game and has the green light on the power play. With the Hurricanes' PP clicking (two goals in the first period of Game 4), Jarvis should see plenty of opportunities.\n\nThe same logic applies here as with Svechnikov: 33 goals in four games means shots are converting at an elevated rate. Carter Hart's .877 save percentage in the series means every shot has value. Jarvis's line at 2.5 is reasonable given his usage.\n\nThe -114 juice at FanDuel is slightly worse than DraftKings' -110, but FanDuel's line is the same. Take the best price available.",
+      "the_data": [
+        {
+          "label": "Jarvis playoff SOG/G",
+          "value": "3.1",
+          "context": "Active shooter"
+        },
+        {
+          "label": "CAR PP goals (Game 4)",
+          "value": "2",
+          "context": "PP clicking"
+        },
+        {
+          "label": "Hart SV% (Cup Final)",
+          "value": ".877",
+          "context": "Leaky"
+        },
+        {
+          "label": "Series total goals",
+          "value": "33",
+          "context": "High-scoring"
+        }
+      ],
+      "the_market": "Line is 2.5 across all books. DraftKings has the best juice at -110 for the over.",
+      "weather_park": "Indoor \u2014 Lenovo Center.",
+      "case_against": "Jarvis could see reduced ice time if the game gets out of hand either way. If Carolina builds a big lead, Brind'Amour might rest his top guys.",
+      "what_were_betting_on": "Jarvis's PP usage, Hart's struggles, and the high-scoring nature of this series.",
+      "scott_bot_quip": "Jarvis shoots, Hart weeps. Simple math.",
+      "ladder_note": "",
+      "date": "2026-06-11",
+      "status": "PEND",
+      "units_result": null,
+      "clv_cents": null,
+      "result_score": null,
+      "graded_at": null,
+      "slate_assessment": "Thin 4-game MLB slate plus Stanley Cup Final Game 5 \u2014 data confidence is low across the board, but the NHL game and a few pitching matchups offer workable edges.",
+      "executive_summary": "Four MLB games and a pivotal Stanley Cup Final Game 5 make up today's board. The Hurricanes host Vegas in a 2-2 series with Brandon Bussi likely getting the start after his Game 4 win \u2014 Carolina at home as a -155 favorite is the sharpest play on the slate. In MLB, the SEA/BAL under 8.5 stands out with Bryan Woo's elite command (4.6% BB rate) facing a Baltimore lineup that's struggled recently, while the PIT/LAD under 9.5 benefits from PNC Park's pitcher-friendly dimensions and Wrobleski's unsustainable luck metrics. The ladder rides with the Hurricanes \u2014 best floor, home ice, and a goalie who's won 31 games this year.",
+      "slate_analysis": "Today's board is modest: four MLB games and one NHL Stanley Cup Final matchup. The MLB slate features Coors Field (CHC/COL), PNC Park (LAD/PIT), Camden Yards (SEA/BAL), and Rate Field (ATL/CHW). Data confidence is below 0.5 on every MLB game \u2014 lineups aren't confirmed, and the White Sox don't even have a listed starter. The NHL game carries 0.35 confidence but the situational edge is clear.\n\nThe candidates that rose: (1) Carolina ML in Game 5 \u2014 home ice, Bussi riding a hot hand after his 31-6-2 regular season and Game 4 win, series tied 2-2, and Vegas has allowed 4+ goals in every game of this Final. (2) SEA/BAL Under 8.5 \u2014 Woo's 4.6% BB rate is elite, Bradish has a 0.62 HR/9 suppression profile, and Camden Yards plays as a pitcher's park (0.93 HR PF). (3) LAD/PIT Under 9.5 \u2014 Wrobleski's 2.62 ERA is propped up by a .243 BABIP and 4% HR/FB rate that screams regression, but PNC Park (0.91 HR PF) and Pittsburgh's 27% K rate vs LHP give the under a floor. (4) CHC/COL Over 11 at Coors \u2014 both pitchers have HR/9 issues (Feltner 1.41, Cabrera 1.73), but wind blowing in suppresses HR impact by 13%, and data confidence is only 0.45. (5) ATL/CHW \u2014 no White Sox starter listed, so this is a pass. (6) Bryan Woo K props \u2014 his recent 5-start stretch shows a 33% K rate vs RHH, but the line is 6.5 with heavy juice on the under.\n\nWhat got cut: The Coors over looked tempting, but the wind-in weather signal and 0.45 data confidence pushed it below the bar. ATL/CHW has no listed home starter \u2014 can't handicap a TBD. The Dodgers ML at -174 exceeds our -150 juice cap for straight bets. Woo's K over 6.5 at +125 is intriguing, but Baltimore's lineup K% isn't high enough to justify the number. The Cubs -1.5 at -104 is close, but Cabrera's 1.73 HR/9 and Coors' chaos make it too volatile.\n\nThe final six: Carolina ML (ladder), SEA/BAL Under 8.5, LAD/PIT Under 9.5, Andrei Svechnikov SOG Over 2.5, Seth Jarvis SOG Over 2.5, and Jack Eichel SOG Over 2.5. The NHL props lean into the high-scoring nature of this series \u2014 33 goals through four games, the most through four Cup Final games since 1981. The ladder pick is Carolina ML: Bussi has been Carolina's workhorse all year, the Hurricanes haven't lost back-to-back games since mid-January, and home ice in a 2-2 series is the highest-floor spot on the board.",
+      "slate_vibe": "SOFT",
+      "published_at": "2026-06-11T14:13:40.520059-04:00"
+    },
+    {
+      "id": "20260611-NHL-VGK-CAR-PROP-ANDREISVECHNIKOV",
+      "sport": "NHL",
+      "game": "VGK @ CAR",
+      "first_pitch_iso": "2026-06-12T00:00Z",
+      "pick": "Andrei Svechnikov SOG Over 2.5",
+      "best_book": "FanDuel",
+      "best_odds": "-110",
+      "book_prices": {
+        "draftkings": "-115",
+        "fanduel": "-110",
+        "betmgm": "-115"
+      },
+      "book_links": {
+        "fanduel": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.584644562&selectionId=62204206",
+        "draftkings": "https://sportsbook.draftkings.com/?outcomes=0QA341572366%232177603603_13L42133Q11842131994Q20",
+        "betmgm": "https://sports.nj.betmgm.com/en/sports?options=19636979-1531039524-2220875303&type=Single"
+      },
+      "market": "PROP",
+      "confidence": 3,
+      "units": 1.0,
+      "win_probability": 0.58,
+      "ladder_designation": true,
+      "data_confidence": 0.6,
+      "rules_passed": [
+        "max_juice",
+        "ladder_even_money",
+        "parlay_well_formed",
+        "confidence_units_match",
+        "data_confidence_floor",
+        "pick_type_allowed",
+        "mlb_hr_prop_check",
+        "mlb_pitcher_k_check",
+        "mlb_total_bases_check",
+        "mlb_hits_check",
+        "nba_player_prop_check",
+        "nhl_shots_check(soft)",
+        "mlb_run_line_check",
+        "mlb_under_bb_check",
+        "no_same_game_opposite"
+      ],
+      "locked": true,
+      "late_add": false,
+      "late_add_reason": "",
+      "bonus_pick": false,
+      "event_type": "",
+      "event_name": "",
+      "legs": [],
+      "headline": "Svechnikov has been quiet on the scoresheet but active on the shot clock \u2014 33 goals through 4 games means volume is king.",
+      "the_thesis": "This Stanley Cup Final has produced 33 goals through four games \u2014 the most since 1981. Both goalies have been shaky (Hart .877 SV%, Bussi/Andersen combined .860), which means shots are turning into goals at an elevated rate. In this environment, shot volume is the play.\n\nAndrei Svechnikov has been quiet on the scoresheet in the Final, but he's been active on the shot clock. He's averaging 3.2 SOG per game in the playoffs and has the green light to shoot from anywhere. With Sebastian Aho going cold, Svechnikov has been taking on more offensive responsibility.\n\nCarter Hart has allowed 4+ goals in every game of this series. He's not stopping pucks, which means every shot has value. Svechnikov's line at 2.5 is reasonable, and the -110 juice at FanDuel is the best available.",
+      "the_data": [
+        {
+          "label": "Series total goals (4 games)",
+          "value": "33",
+          "context": "Most since 1981"
+        },
+        {
+          "label": "Hart SV% (Cup Final)",
+          "value": ".877",
+          "context": "Leaky"
+        },
+        {
+          "label": "Svechnikov playoff SOG/G",
+          "value": "3.2",
+          "context": "Active shooter"
+        },
+        {
+          "label": "Aho goals (Cup Final)",
+          "value": "0",
+          "context": "Cold, Svech picking up slack"
+        }
+      ],
+      "the_market": "Line is 2.5 across all books. FanDuel has the best juice at -110 for the over.",
+      "weather_park": "Indoor \u2014 Lenovo Center.",
+      "case_against": "Svechnikov has been quiet on the scoresheet, which could mean he's being defended more tightly. If Vegas collapses on him, the shots might not be there.",
+      "what_were_betting_on": "Svechnikov's volume continuing, Hart's struggles continuing, and the high-scoring nature of this series persisting.",
+      "scott_bot_quip": "Thirty-three goals in four games. Shoot the puck, Svech.",
+      "ladder_note": "",
+      "date": "2026-06-11",
+      "status": "PEND",
+      "units_result": null,
+      "clv_cents": null,
+      "result_score": null,
+      "graded_at": null,
+      "slate_assessment": "Thin 4-game MLB slate plus Stanley Cup Final Game 5 \u2014 data confidence is low across the board, but the NHL game and a few pitching matchups offer workable edges.",
+      "executive_summary": "Four MLB games and a pivotal Stanley Cup Final Game 5 make up today's board. The Hurricanes host Vegas in a 2-2 series with Brandon Bussi likely getting the start after his Game 4 win \u2014 Carolina at home as a -155 favorite is the sharpest play on the slate. In MLB, the SEA/BAL under 8.5 stands out with Bryan Woo's elite command (4.6% BB rate) facing a Baltimore lineup that's struggled recently, while the PIT/LAD under 9.5 benefits from PNC Park's pitcher-friendly dimensions and Wrobleski's unsustainable luck metrics. The ladder rides with the Hurricanes \u2014 best floor, home ice, and a goalie who's won 31 games this year.",
+      "slate_analysis": "Today's board is modest: four MLB games and one NHL Stanley Cup Final matchup. The MLB slate features Coors Field (CHC/COL), PNC Park (LAD/PIT), Camden Yards (SEA/BAL), and Rate Field (ATL/CHW). Data confidence is below 0.5 on every MLB game \u2014 lineups aren't confirmed, and the White Sox don't even have a listed starter. The NHL game carries 0.35 confidence but the situational edge is clear.\n\nThe candidates that rose: (1) Carolina ML in Game 5 \u2014 home ice, Bussi riding a hot hand after his 31-6-2 regular season and Game 4 win, series tied 2-2, and Vegas has allowed 4+ goals in every game of this Final. (2) SEA/BAL Under 8.5 \u2014 Woo's 4.6% BB rate is elite, Bradish has a 0.62 HR/9 suppression profile, and Camden Yards plays as a pitcher's park (0.93 HR PF). (3) LAD/PIT Under 9.5 \u2014 Wrobleski's 2.62 ERA is propped up by a .243 BABIP and 4% HR/FB rate that screams regression, but PNC Park (0.91 HR PF) and Pittsburgh's 27% K rate vs LHP give the under a floor. (4) CHC/COL Over 11 at Coors \u2014 both pitchers have HR/9 issues (Feltner 1.41, Cabrera 1.73), but wind blowing in suppresses HR impact by 13%, and data confidence is only 0.45. (5) ATL/CHW \u2014 no White Sox starter listed, so this is a pass. (6) Bryan Woo K props \u2014 his recent 5-start stretch shows a 33% K rate vs RHH, but the line is 6.5 with heavy juice on the under.\n\nWhat got cut: The Coors over looked tempting, but the wind-in weather signal and 0.45 data confidence pushed it below the bar. ATL/CHW has no listed home starter \u2014 can't handicap a TBD. The Dodgers ML at -174 exceeds our -150 juice cap for straight bets. Woo's K over 6.5 at +125 is intriguing, but Baltimore's lineup K% isn't high enough to justify the number. The Cubs -1.5 at -104 is close, but Cabrera's 1.73 HR/9 and Coors' chaos make it too volatile.\n\nThe final six: Carolina ML (ladder), SEA/BAL Under 8.5, LAD/PIT Under 9.5, Andrei Svechnikov SOG Over 2.5, Seth Jarvis SOG Over 2.5, and Jack Eichel SOG Over 2.5. The NHL props lean into the high-scoring nature of this series \u2014 33 goals through four games, the most through four Cup Final games since 1981. The ladder pick is Carolina ML: Bussi has been Carolina's workhorse all year, the Hurricanes haven't lost back-to-back games since mid-January, and home ice in a 2-2 series is the highest-floor spot on the board.",
+      "slate_vibe": "SOFT",
+      "published_at": "2026-06-11T14:13:40.519838-04:00"
+    }
+  ],
   "today_bonus_picks": [],
   "all_picks": [
+    {
+      "id": "20260611-NHL-VGK-CAR-PROP-JACKEICHEL",
+      "sport": "NHL",
+      "game": "VGK @ CAR",
+      "first_pitch_iso": "2026-06-12T00:00Z",
+      "pick": "Jack Eichel SOG Over 2.5",
+      "best_book": "FanDuel",
+      "best_odds": "+104",
+      "book_prices": {
+        "draftkings": "-125",
+        "fanduel": "+104",
+        "betmgm": "-115"
+      },
+      "book_links": {
+        "fanduel": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.584644555&selectionId=55802391",
+        "draftkings": "https://sportsbook.draftkings.com/?outcomes=0QA341572379%232177603631_13L42133Q11842131994Q20",
+        "betmgm": "https://sports.nj.betmgm.com/en/sports?options=19636979-1531039426-2220875106&type=Single"
+      },
+      "market": "PROP",
+      "confidence": 3,
+      "units": 1.0,
+      "win_probability": 0.55,
+      "ladder_designation": false,
+      "data_confidence": 0.6,
+      "rules_passed": [
+        "max_juice",
+        "ladder_even_money",
+        "parlay_well_formed",
+        "confidence_units_match",
+        "data_confidence_floor",
+        "pick_type_allowed",
+        "mlb_hr_prop_check",
+        "mlb_pitcher_k_check",
+        "mlb_total_bases_check",
+        "mlb_hits_check",
+        "nba_player_prop_check",
+        "nhl_shots_check(soft)",
+        "mlb_run_line_check",
+        "mlb_under_bb_check",
+        "no_same_game_opposite"
+      ],
+      "locked": true,
+      "late_add": false,
+      "late_add_reason": "",
+      "bonus_pick": false,
+      "event_type": "",
+      "event_name": "",
+      "legs": [],
+      "headline": "Eichel has been Vegas's engine \u2014 plus money on a shooter in a 33-goal series is value.",
+      "the_thesis": "Jack Eichel has been Vegas's best player in this playoff run. He set the franchise record for playoff points (26 entering the Final) and has been the engine of the Golden Knights' offense. He's averaging 3.4 SOG per game in the playoffs and has the green light to shoot from anywhere.\n\nThe FanDuel line at +104 is the best available \u2014 DraftKings has this at -125, which is a massive discrepancy. At plus money, this is a value play. Eichel's volume has been consistent, and the high-scoring nature of this series (33 goals in 4 games) means shots are converting.\n\nBussi has been solid but not spectacular \u2014 he allowed 3 goals on 21 shots in Game 4. Eichel will get his chances.",
+      "the_data": [
+        {
+          "label": "Eichel playoff SOG/G",
+          "value": "3.4",
+          "context": "High volume"
+        },
+        {
+          "label": "Eichel playoff points",
+          "value": "26+",
+          "context": "Franchise record"
+        },
+        {
+          "label": "FanDuel vs DraftKings line",
+          "value": "+104 vs -125",
+          "context": "Massive discrepancy"
+        },
+        {
+          "label": "Series total goals",
+          "value": "33",
+          "context": "High-scoring"
+        }
+      ],
+      "the_market": "FanDuel has this at +104, DraftKings at -125. That's a 20+ cent discrepancy \u2014 take the plus money.",
+      "weather_park": "Indoor \u2014 Lenovo Center.",
+      "case_against": "Carolina's defense has been sharper in front of Bussi. If they collapse on Eichel, the shots might not be there. Vegas has also been outscored 8-2 in third periods this series.",
+      "what_were_betting_on": "Eichel's volume, the plus money at FanDuel, and the high-scoring nature of this series.",
+      "scott_bot_quip": "Plus money on Eichel in a 33-goal series. The books are giving this one away.",
+      "ladder_note": "",
+      "date": "2026-06-11",
+      "status": "PEND",
+      "units_result": null,
+      "clv_cents": null,
+      "result_score": null,
+      "graded_at": null,
+      "slate_assessment": "Thin 4-game MLB slate plus Stanley Cup Final Game 5 \u2014 data confidence is low across the board, but the NHL game and a few pitching matchups offer workable edges.",
+      "executive_summary": "Four MLB games and a pivotal Stanley Cup Final Game 5 make up today's board. The Hurricanes host Vegas in a 2-2 series with Brandon Bussi likely getting the start after his Game 4 win \u2014 Carolina at home as a -155 favorite is the sharpest play on the slate. In MLB, the SEA/BAL under 8.5 stands out with Bryan Woo's elite command (4.6% BB rate) facing a Baltimore lineup that's struggled recently, while the PIT/LAD under 9.5 benefits from PNC Park's pitcher-friendly dimensions and Wrobleski's unsustainable luck metrics. The ladder rides with the Hurricanes \u2014 best floor, home ice, and a goalie who's won 31 games this year.",
+      "slate_analysis": "Today's board is modest: four MLB games and one NHL Stanley Cup Final matchup. The MLB slate features Coors Field (CHC/COL), PNC Park (LAD/PIT), Camden Yards (SEA/BAL), and Rate Field (ATL/CHW). Data confidence is below 0.5 on every MLB game \u2014 lineups aren't confirmed, and the White Sox don't even have a listed starter. The NHL game carries 0.35 confidence but the situational edge is clear.\n\nThe candidates that rose: (1) Carolina ML in Game 5 \u2014 home ice, Bussi riding a hot hand after his 31-6-2 regular season and Game 4 win, series tied 2-2, and Vegas has allowed 4+ goals in every game of this Final. (2) SEA/BAL Under 8.5 \u2014 Woo's 4.6% BB rate is elite, Bradish has a 0.62 HR/9 suppression profile, and Camden Yards plays as a pitcher's park (0.93 HR PF). (3) LAD/PIT Under 9.5 \u2014 Wrobleski's 2.62 ERA is propped up by a .243 BABIP and 4% HR/FB rate that screams regression, but PNC Park (0.91 HR PF) and Pittsburgh's 27% K rate vs LHP give the under a floor. (4) CHC/COL Over 11 at Coors \u2014 both pitchers have HR/9 issues (Feltner 1.41, Cabrera 1.73), but wind blowing in suppresses HR impact by 13%, and data confidence is only 0.45. (5) ATL/CHW \u2014 no White Sox starter listed, so this is a pass. (6) Bryan Woo K props \u2014 his recent 5-start stretch shows a 33% K rate vs RHH, but the line is 6.5 with heavy juice on the under.\n\nWhat got cut: The Coors over looked tempting, but the wind-in weather signal and 0.45 data confidence pushed it below the bar. ATL/CHW has no listed home starter \u2014 can't handicap a TBD. The Dodgers ML at -174 exceeds our -150 juice cap for straight bets. Woo's K over 6.5 at +125 is intriguing, but Baltimore's lineup K% isn't high enough to justify the number. The Cubs -1.5 at -104 is close, but Cabrera's 1.73 HR/9 and Coors' chaos make it too volatile.\n\nThe final six: Carolina ML (ladder), SEA/BAL Under 8.5, LAD/PIT Under 9.5, Andrei Svechnikov SOG Over 2.5, Seth Jarvis SOG Over 2.5, and Jack Eichel SOG Over 2.5. The NHL props lean into the high-scoring nature of this series \u2014 33 goals through four games, the most through four Cup Final games since 1981. The ladder pick is Carolina ML: Bussi has been Carolina's workhorse all year, the Hurricanes haven't lost back-to-back games since mid-January, and home ice in a 2-2 series is the highest-floor spot on the board.",
+      "slate_vibe": "SOFT",
+      "published_at": "2026-06-11T14:13:40.520180-04:00"
+    },
+    {
+      "id": "20260611-NHL-VGK-CAR-PROP-SETHJARVIS",
+      "sport": "NHL",
+      "game": "VGK @ CAR",
+      "first_pitch_iso": "2026-06-12T00:00Z",
+      "pick": "Seth Jarvis SOG Over 2.5",
+      "best_book": "FanDuel",
+      "best_odds": "-114",
+      "book_prices": {
+        "draftkings": "-110",
+        "fanduel": "-114",
+        "betmgm": "-115"
+      },
+      "book_links": {
+        "fanduel": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.584644566&selectionId=61764766",
+        "draftkings": "https://sportsbook.draftkings.com/?outcomes=0QA341572418%232177603724_13L42133Q11842131994Q20",
+        "betmgm": "https://sports.nj.betmgm.com/en/sports?options=19636979-1531039533-2220875321&type=Single"
+      },
+      "market": "PROP",
+      "confidence": 3,
+      "units": 1.0,
+      "win_probability": 0.57,
+      "ladder_designation": false,
+      "data_confidence": 0.6,
+      "rules_passed": [
+        "max_juice",
+        "ladder_even_money",
+        "parlay_well_formed",
+        "confidence_units_match",
+        "data_confidence_floor",
+        "pick_type_allowed",
+        "mlb_hr_prop_check",
+        "mlb_pitcher_k_check",
+        "mlb_total_bases_check",
+        "mlb_hits_check",
+        "nba_player_prop_check",
+        "nhl_shots_check(soft)",
+        "mlb_run_line_check",
+        "mlb_under_bb_check",
+        "no_same_game_opposite"
+      ],
+      "locked": true,
+      "late_add": false,
+      "late_add_reason": "",
+      "bonus_pick": false,
+      "event_type": "",
+      "event_name": "",
+      "legs": [],
+      "headline": "Jarvis has been one of Carolina's most active shooters \u2014 33 goals in 4 games means volume plays.",
+      "the_thesis": "Seth Jarvis has been one of Carolina's most consistent offensive threats in this playoff run. He's averaging 3.1 SOG per game and has the green light on the power play. With the Hurricanes' PP clicking (two goals in the first period of Game 4), Jarvis should see plenty of opportunities.\n\nThe same logic applies here as with Svechnikov: 33 goals in four games means shots are converting at an elevated rate. Carter Hart's .877 save percentage in the series means every shot has value. Jarvis's line at 2.5 is reasonable given his usage.\n\nThe -114 juice at FanDuel is slightly worse than DraftKings' -110, but FanDuel's line is the same. Take the best price available.",
+      "the_data": [
+        {
+          "label": "Jarvis playoff SOG/G",
+          "value": "3.1",
+          "context": "Active shooter"
+        },
+        {
+          "label": "CAR PP goals (Game 4)",
+          "value": "2",
+          "context": "PP clicking"
+        },
+        {
+          "label": "Hart SV% (Cup Final)",
+          "value": ".877",
+          "context": "Leaky"
+        },
+        {
+          "label": "Series total goals",
+          "value": "33",
+          "context": "High-scoring"
+        }
+      ],
+      "the_market": "Line is 2.5 across all books. DraftKings has the best juice at -110 for the over.",
+      "weather_park": "Indoor \u2014 Lenovo Center.",
+      "case_against": "Jarvis could see reduced ice time if the game gets out of hand either way. If Carolina builds a big lead, Brind'Amour might rest his top guys.",
+      "what_were_betting_on": "Jarvis's PP usage, Hart's struggles, and the high-scoring nature of this series.",
+      "scott_bot_quip": "Jarvis shoots, Hart weeps. Simple math.",
+      "ladder_note": "",
+      "date": "2026-06-11",
+      "status": "PEND",
+      "units_result": null,
+      "clv_cents": null,
+      "result_score": null,
+      "graded_at": null,
+      "slate_assessment": "Thin 4-game MLB slate plus Stanley Cup Final Game 5 \u2014 data confidence is low across the board, but the NHL game and a few pitching matchups offer workable edges.",
+      "executive_summary": "Four MLB games and a pivotal Stanley Cup Final Game 5 make up today's board. The Hurricanes host Vegas in a 2-2 series with Brandon Bussi likely getting the start after his Game 4 win \u2014 Carolina at home as a -155 favorite is the sharpest play on the slate. In MLB, the SEA/BAL under 8.5 stands out with Bryan Woo's elite command (4.6% BB rate) facing a Baltimore lineup that's struggled recently, while the PIT/LAD under 9.5 benefits from PNC Park's pitcher-friendly dimensions and Wrobleski's unsustainable luck metrics. The ladder rides with the Hurricanes \u2014 best floor, home ice, and a goalie who's won 31 games this year.",
+      "slate_analysis": "Today's board is modest: four MLB games and one NHL Stanley Cup Final matchup. The MLB slate features Coors Field (CHC/COL), PNC Park (LAD/PIT), Camden Yards (SEA/BAL), and Rate Field (ATL/CHW). Data confidence is below 0.5 on every MLB game \u2014 lineups aren't confirmed, and the White Sox don't even have a listed starter. The NHL game carries 0.35 confidence but the situational edge is clear.\n\nThe candidates that rose: (1) Carolina ML in Game 5 \u2014 home ice, Bussi riding a hot hand after his 31-6-2 regular season and Game 4 win, series tied 2-2, and Vegas has allowed 4+ goals in every game of this Final. (2) SEA/BAL Under 8.5 \u2014 Woo's 4.6% BB rate is elite, Bradish has a 0.62 HR/9 suppression profile, and Camden Yards plays as a pitcher's park (0.93 HR PF). (3) LAD/PIT Under 9.5 \u2014 Wrobleski's 2.62 ERA is propped up by a .243 BABIP and 4% HR/FB rate that screams regression, but PNC Park (0.91 HR PF) and Pittsburgh's 27% K rate vs LHP give the under a floor. (4) CHC/COL Over 11 at Coors \u2014 both pitchers have HR/9 issues (Feltner 1.41, Cabrera 1.73), but wind blowing in suppresses HR impact by 13%, and data confidence is only 0.45. (5) ATL/CHW \u2014 no White Sox starter listed, so this is a pass. (6) Bryan Woo K props \u2014 his recent 5-start stretch shows a 33% K rate vs RHH, but the line is 6.5 with heavy juice on the under.\n\nWhat got cut: The Coors over looked tempting, but the wind-in weather signal and 0.45 data confidence pushed it below the bar. ATL/CHW has no listed home starter \u2014 can't handicap a TBD. The Dodgers ML at -174 exceeds our -150 juice cap for straight bets. Woo's K over 6.5 at +125 is intriguing, but Baltimore's lineup K% isn't high enough to justify the number. The Cubs -1.5 at -104 is close, but Cabrera's 1.73 HR/9 and Coors' chaos make it too volatile.\n\nThe final six: Carolina ML (ladder), SEA/BAL Under 8.5, LAD/PIT Under 9.5, Andrei Svechnikov SOG Over 2.5, Seth Jarvis SOG Over 2.5, and Jack Eichel SOG Over 2.5. The NHL props lean into the high-scoring nature of this series \u2014 33 goals through four games, the most through four Cup Final games since 1981. The ladder pick is Carolina ML: Bussi has been Carolina's workhorse all year, the Hurricanes haven't lost back-to-back games since mid-January, and home ice in a 2-2 series is the highest-floor spot on the board.",
+      "slate_vibe": "SOFT",
+      "published_at": "2026-06-11T14:13:40.520059-04:00"
+    },
+    {
+      "id": "20260611-NHL-VGK-CAR-PROP-ANDREISVECHNIKOV",
+      "sport": "NHL",
+      "game": "VGK @ CAR",
+      "first_pitch_iso": "2026-06-12T00:00Z",
+      "pick": "Andrei Svechnikov SOG Over 2.5",
+      "best_book": "FanDuel",
+      "best_odds": "-110",
+      "book_prices": {
+        "draftkings": "-115",
+        "fanduel": "-110",
+        "betmgm": "-115"
+      },
+      "book_links": {
+        "fanduel": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.584644562&selectionId=62204206",
+        "draftkings": "https://sportsbook.draftkings.com/?outcomes=0QA341572366%232177603603_13L42133Q11842131994Q20",
+        "betmgm": "https://sports.nj.betmgm.com/en/sports?options=19636979-1531039524-2220875303&type=Single"
+      },
+      "market": "PROP",
+      "confidence": 3,
+      "units": 1.0,
+      "win_probability": 0.58,
+      "ladder_designation": true,
+      "data_confidence": 0.6,
+      "rules_passed": [
+        "max_juice",
+        "ladder_even_money",
+        "parlay_well_formed",
+        "confidence_units_match",
+        "data_confidence_floor",
+        "pick_type_allowed",
+        "mlb_hr_prop_check",
+        "mlb_pitcher_k_check",
+        "mlb_total_bases_check",
+        "mlb_hits_check",
+        "nba_player_prop_check",
+        "nhl_shots_check(soft)",
+        "mlb_run_line_check",
+        "mlb_under_bb_check",
+        "no_same_game_opposite"
+      ],
+      "locked": true,
+      "late_add": false,
+      "late_add_reason": "",
+      "bonus_pick": false,
+      "event_type": "",
+      "event_name": "",
+      "legs": [],
+      "headline": "Svechnikov has been quiet on the scoresheet but active on the shot clock \u2014 33 goals through 4 games means volume is king.",
+      "the_thesis": "This Stanley Cup Final has produced 33 goals through four games \u2014 the most since 1981. Both goalies have been shaky (Hart .877 SV%, Bussi/Andersen combined .860), which means shots are turning into goals at an elevated rate. In this environment, shot volume is the play.\n\nAndrei Svechnikov has been quiet on the scoresheet in the Final, but he's been active on the shot clock. He's averaging 3.2 SOG per game in the playoffs and has the green light to shoot from anywhere. With Sebastian Aho going cold, Svechnikov has been taking on more offensive responsibility.\n\nCarter Hart has allowed 4+ goals in every game of this series. He's not stopping pucks, which means every shot has value. Svechnikov's line at 2.5 is reasonable, and the -110 juice at FanDuel is the best available.",
+      "the_data": [
+        {
+          "label": "Series total goals (4 games)",
+          "value": "33",
+          "context": "Most since 1981"
+        },
+        {
+          "label": "Hart SV% (Cup Final)",
+          "value": ".877",
+          "context": "Leaky"
+        },
+        {
+          "label": "Svechnikov playoff SOG/G",
+          "value": "3.2",
+          "context": "Active shooter"
+        },
+        {
+          "label": "Aho goals (Cup Final)",
+          "value": "0",
+          "context": "Cold, Svech picking up slack"
+        }
+      ],
+      "the_market": "Line is 2.5 across all books. FanDuel has the best juice at -110 for the over.",
+      "weather_park": "Indoor \u2014 Lenovo Center.",
+      "case_against": "Svechnikov has been quiet on the scoresheet, which could mean he's being defended more tightly. If Vegas collapses on him, the shots might not be there.",
+      "what_were_betting_on": "Svechnikov's volume continuing, Hart's struggles continuing, and the high-scoring nature of this series persisting.",
+      "scott_bot_quip": "Thirty-three goals in four games. Shoot the puck, Svech.",
+      "ladder_note": "",
+      "date": "2026-06-11",
+      "status": "PEND",
+      "units_result": null,
+      "clv_cents": null,
+      "result_score": null,
+      "graded_at": null,
+      "slate_assessment": "Thin 4-game MLB slate plus Stanley Cup Final Game 5 \u2014 data confidence is low across the board, but the NHL game and a few pitching matchups offer workable edges.",
+      "executive_summary": "Four MLB games and a pivotal Stanley Cup Final Game 5 make up today's board. The Hurricanes host Vegas in a 2-2 series with Brandon Bussi likely getting the start after his Game 4 win \u2014 Carolina at home as a -155 favorite is the sharpest play on the slate. In MLB, the SEA/BAL under 8.5 stands out with Bryan Woo's elite command (4.6% BB rate) facing a Baltimore lineup that's struggled recently, while the PIT/LAD under 9.5 benefits from PNC Park's pitcher-friendly dimensions and Wrobleski's unsustainable luck metrics. The ladder rides with the Hurricanes \u2014 best floor, home ice, and a goalie who's won 31 games this year.",
+      "slate_analysis": "Today's board is modest: four MLB games and one NHL Stanley Cup Final matchup. The MLB slate features Coors Field (CHC/COL), PNC Park (LAD/PIT), Camden Yards (SEA/BAL), and Rate Field (ATL/CHW). Data confidence is below 0.5 on every MLB game \u2014 lineups aren't confirmed, and the White Sox don't even have a listed starter. The NHL game carries 0.35 confidence but the situational edge is clear.\n\nThe candidates that rose: (1) Carolina ML in Game 5 \u2014 home ice, Bussi riding a hot hand after his 31-6-2 regular season and Game 4 win, series tied 2-2, and Vegas has allowed 4+ goals in every game of this Final. (2) SEA/BAL Under 8.5 \u2014 Woo's 4.6% BB rate is elite, Bradish has a 0.62 HR/9 suppression profile, and Camden Yards plays as a pitcher's park (0.93 HR PF). (3) LAD/PIT Under 9.5 \u2014 Wrobleski's 2.62 ERA is propped up by a .243 BABIP and 4% HR/FB rate that screams regression, but PNC Park (0.91 HR PF) and Pittsburgh's 27% K rate vs LHP give the under a floor. (4) CHC/COL Over 11 at Coors \u2014 both pitchers have HR/9 issues (Feltner 1.41, Cabrera 1.73), but wind blowing in suppresses HR impact by 13%, and data confidence is only 0.45. (5) ATL/CHW \u2014 no White Sox starter listed, so this is a pass. (6) Bryan Woo K props \u2014 his recent 5-start stretch shows a 33% K rate vs RHH, but the line is 6.5 with heavy juice on the under.\n\nWhat got cut: The Coors over looked tempting, but the wind-in weather signal and 0.45 data confidence pushed it below the bar. ATL/CHW has no listed home starter \u2014 can't handicap a TBD. The Dodgers ML at -174 exceeds our -150 juice cap for straight bets. Woo's K over 6.5 at +125 is intriguing, but Baltimore's lineup K% isn't high enough to justify the number. The Cubs -1.5 at -104 is close, but Cabrera's 1.73 HR/9 and Coors' chaos make it too volatile.\n\nThe final six: Carolina ML (ladder), SEA/BAL Under 8.5, LAD/PIT Under 9.5, Andrei Svechnikov SOG Over 2.5, Seth Jarvis SOG Over 2.5, and Jack Eichel SOG Over 2.5. The NHL props lean into the high-scoring nature of this series \u2014 33 goals through four games, the most through four Cup Final games since 1981. The ladder pick is Carolina ML: Bussi has been Carolina's workhorse all year, the Hurricanes haven't lost back-to-back games since mid-January, and home ice in a 2-2 series is the highest-floor spot on the board.",
+      "slate_vibe": "SOFT",
+      "published_at": "2026-06-11T14:13:40.519838-04:00"
+    },
     {
       "id": "20260610-MLB-PHI-TOR-ML",
       "sport": "MLB",
