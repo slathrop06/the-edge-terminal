@@ -1,7 +1,487 @@
 {
   "version": 1,
-  "updated_at": "2026-06-13T05:41:55.623406-04:00",
+  "updated_at": "2026-06-13T12:15:57.931283-04:00",
   "picks": [
+    {
+      "id": "20260613-MLB-HOU-KC-ML",
+      "sport": "MLB",
+      "game": "HOU @ KC",
+      "first_pitch_iso": "2026-06-13T23:10Z",
+      "pick": "Royals ML",
+      "best_book": "FanDuel",
+      "best_odds": "-126",
+      "book_prices": {
+        "draftkings": "-126",
+        "fanduel": "-126",
+        "betmgm": "-130"
+      },
+      "book_links": {
+        "fanduel": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.585119581&selectionId=29179",
+        "draftkings": "https://sportsbook.draftkings.com/?outcomes=0ML85130298_1",
+        "betmgm": "https://sports.nj.betmgm.com/en/sports?options=19684740-1531420795-2221902624&type=Single"
+      },
+      "market": "ML",
+      "confidence": 3,
+      "units": 1.0,
+      "win_probability": 0.58,
+      "ladder_designation": false,
+      "data_confidence": 0.65,
+      "rules_passed": [
+        "max_juice",
+        "ladder_even_money",
+        "parlay_well_formed",
+        "confidence_units_match",
+        "data_confidence_floor",
+        "pick_type_allowed",
+        "mlb_hr_prop_check",
+        "mlb_pitcher_k_check",
+        "mlb_total_bases_check",
+        "mlb_hits_check",
+        "nba_player_prop_check",
+        "nhl_shots_check",
+        "mlb_run_line_check",
+        "mlb_under_bb_check",
+        "no_same_game_opposite"
+      ],
+      "locked": true,
+      "late_add": false,
+      "late_add_reason": "",
+      "bonus_pick": false,
+      "event_type": "",
+      "event_name": "",
+      "legs": [],
+      "headline": "Noah Cameron's solid home splits against Mike Burrows' disaster season.",
+      "the_thesis": "Noah Cameron has been quietly effective for the Royals this season\u20143.84 ERA, 1.19 WHIP, and a 22.9% strikeout rate. He's not an ace, but he's a solid mid-rotation arm who keeps his team in games. At home, he's been even better, and Kauffman Stadium's HR-suppressing park factor (0.92) plays to his strengths.\n\nMike Burrows, on the other hand, has been a disaster. His 5.77 ERA and 2.09 HR/9 are among the worst in baseball for qualified starters. He's walking 8.6% of batters and giving up hard contact. The Astros' offense has been solid this year, but Burrows has been a liability.\n\nThe Royals are -126 favorites, and I'm projecting them at 58% to win. The de-vigged implied probability is around 53%\u2014that's a 5-cent edge, which clears the bar at confidence 3.",
+      "the_data": [
+        {
+          "label": "Cameron ERA (season)",
+          "value": "3.84",
+          "context": "Solid, above average"
+        },
+        {
+          "label": "Cameron WHIP",
+          "value": "1.19",
+          "context": "Good command"
+        },
+        {
+          "label": "Burrows ERA (season)",
+          "value": "5.77",
+          "context": "Struggling badly"
+        },
+        {
+          "label": "Burrows HR/9",
+          "value": "2.09",
+          "context": "Giving up bombs"
+        },
+        {
+          "label": "Kauffman PF (HR)",
+          "value": "0.92",
+          "context": "Suppresses HR"
+        }
+      ],
+      "the_market": "Royals opened as -126 favorites and have held steady. FanDuel and DraftKings both at -126, BetMGM at -130. No significant movement\u2014the market agrees the Royals are the better team tonight.",
+      "weather_park": "Kauffman Stadium is outdoors, weather is mild. Park factor of 0.92 for HR helps Cameron, hurts Burrows.",
+      "case_against": "The Astros have a deep lineup that can break out at any time. Yordan Alvarez, Jose Altuve, and Jeremy Pena are all capable of carrying the offense. If Burrows gets through the first few innings unscathed, the Astros could take control late.",
+      "what_were_betting_on": "Cameron keeping the Astros in check, Burrows continuing to struggle, and the Royals' home-field advantage carrying them to a win.",
+      "scott_bot_quip": "Burrows has a 2.09 HR/9. The Royals play in a park that suppresses HR. Sometimes the math is just obvious.",
+      "ladder_note": "",
+      "date": "2026-06-13",
+      "status": "PEND",
+      "units_result": null,
+      "clv_cents": null,
+      "result_score": null,
+      "graded_at": null,
+      "slate_assessment": "MLB-heavy Saturday with 15 games, plus a pivotal NBA Finals Game 5 (Knicks-Spurs). Tarik Skubal returns from elbow surgery for Detroit, and the Knicks look to clinch their first title since 1973 on the road in San Antonio.",
+      "executive_summary": "Tarik Skubal makes his return from elbow surgery tonight in Cleveland, and the market hasn't fully adjusted to his abbreviated workload\u2014the under 7.5 at Progressive Field is the sharpest play on the board. The NBA Finals Game 5 features the Spurs as 5.5-point home favorites in a must-win spot after blowing a 29-point lead in Game 4, but the Knicks have covered eight straight road games and have the momentum. We're also targeting a Wembanyama points over in a game where San Antonio needs their franchise player to carry them, plus a pitcher K under in Kansas City where Mike Burrows' low strikeout rate meets a contact-heavy Royals lineup. The ladder rides with the Tigers-Guardians under\u2014two soft offenses, a pitcher-friendly park, and a returning ace on a pitch count.",
+      "slate_analysis": "Today's board features 15 MLB games and one NBA Finals contest\u2014Game 5 between the Knicks and Spurs in San Antonio. The MLB slate is spread across the afternoon and evening, with totals ranging from 7.5 to 14.5 (the Athletics-Rockies game in Las Vegas). The NBA game is the marquee event: the Knicks lead 3-1 after mounting the largest halftime comeback in NBA Finals history in Game 4, and they're looking to clinch their first championship since 1973.\n\nThe top candidates that rose during my review: (1) Tigers at Guardians under 7.5\u2014Tarik Skubal returns from elbow surgery, Progressive Field suppresses runs, and Cleveland's offense ranks near the bottom of MLB in wRC+. (2) Spurs -5.5 in Game 5\u2014San Antonio is 32-8 at home this season and has led every Finals game by double digits at some point, but the Knicks' road covering streak and momentum after the historic comeback make this a pass on the spread. (3) Victor Wembanyama points over 27.5\u2014in a must-win elimination game, the Spurs will lean heavily on their franchise player. (4) Mike Burrows Ks under 4.5 in Kansas City\u2014Burrows has an 18.4% K rate and faces a Royals lineup that doesn't strike out. (5) Cubs at Giants under 7.5\u2014Ben Brown's 1.74 ERA and Oracle Park's pitcher-friendly environment make this appealing, but the total has already been bet down and the edge is thin. (6) Dodgers -1.5 at White Sox\u2014Yamamoto is elite, but the juice at -120 eats into the edge.\n\nWhat got cut and why: The Cubs-Giants under looked sharp on paper, but the total opened at 8 and has already been bet down to 7.5 at FanDuel, leaving minimal edge against the de-vigged line. The Dodgers run line at -120 passes the juice test, but my fair price on LAD -1.5 is around 52%, and the market is pricing it at 54.5%\u2014not enough gap. The Spurs spread is tempting given their home dominance, but the Knicks have covered eight straight road games and just pulled off a historic comeback; the emotional hangover for San Antonio is real, and I can't get to 8 cents of edge on the spread. The Athletics-Rockies game has a 14.5 total and no reliable park factors for Las Vegas Ballpark\u2014too much uncertainty.\n\nThe final six picks: (1) Tigers at Guardians Under 7.5\u2014Skubal's return, soft offenses, pitcher-friendly park. (2) Victor Wembanyama Points Over 27.5\u2014elimination game, Spurs need him to carry. (3) Mike Burrows Ks Under 4.5\u2014low K rate, contact-heavy opponent. (4) Knicks +5.5\u2014road covering streak, momentum, Spurs' emotional hangover. (5) Corbin Carroll Total Bases Over 1.5\u2014facing Rhett Lowder's 12.6% BB rate and 17% K rate at hitter-friendly GABP. (6) Royals ML vs Astros\u2014Noah Cameron's solid 3.84 ERA at home against Mike Burrows' 5.77 ERA and 2.09 HR/9. The ladder pick is the Tigers-Guardians under\u2014best floor on the board with Skubal's elite stuff, Cleveland's weak offense, and a neutral-to-pitcher-friendly park.",
+      "slate_vibe": "NORMAL",
+      "published_at": "2026-06-13T12:15:57.931227-04:00"
+    },
+    {
+      "id": "20260613-MLB-ARI-CIN-PROP-CORBINCARROLL",
+      "sport": "MLB",
+      "game": "ARI @ CIN",
+      "first_pitch_iso": "2026-06-13T20:10Z",
+      "pick": "Corbin Carroll Total Bases Over 1.5",
+      "best_book": "DraftKings",
+      "best_odds": "-115",
+      "book_prices": {
+        "draftkings": "-115",
+        "fanduel": "-115",
+        "betmgm": "-115"
+      },
+      "book_links": {
+        "draftkings": "https://sportsbook.draftkings.com/?outcomes=0QA342423990%232180526466_13L84240Q1-44994196Q20",
+        "betmgm": "https://sports.nj.betmgm.com/en/sports?options=2:7802565-200559781-759520644&type=Single",
+        "fanduel": "https://sportsbook.fanduel.com/baseball/mlb/arizona-diamondbacks-%28m-soroka%29-%40-cincinnati-reds-%28r-lowder%29-35711153"
+      },
+      "market": "PROP",
+      "confidence": 3,
+      "units": 1.0,
+      "win_probability": 0.58,
+      "ladder_designation": false,
+      "data_confidence": 0.68,
+      "rules_passed": [
+        "max_juice",
+        "ladder_even_money",
+        "parlay_well_formed",
+        "confidence_units_match",
+        "data_confidence_floor",
+        "pick_type_allowed",
+        "mlb_hr_prop_check",
+        "mlb_pitcher_k_check",
+        "mlb_total_bases_check(soft)",
+        "mlb_hits_check",
+        "nba_player_prop_check",
+        "nhl_shots_check",
+        "mlb_run_line_check",
+        "mlb_under_bb_check(soft)",
+        "no_same_game_opposite"
+      ],
+      "locked": true,
+      "late_add": false,
+      "late_add_reason": "",
+      "bonus_pick": false,
+      "event_type": "",
+      "event_name": "",
+      "legs": [],
+      "headline": "Carroll faces a wild pitcher at the most hitter-friendly park in baseball.",
+      "the_thesis": "Corbin Carroll is one of the most dynamic hitters in baseball, and tonight he faces Rhett Lowder at Great American Ball Park\u2014the most hitter-friendly environment in MLB with a 1.18 HR park factor and 1.06 runs factor. Lowder has a 5.01 ERA, a 12.6% walk rate, and a 17% strikeout rate. He's wild and hittable.\n\nCarroll has been locked in lately, and he thrives against pitchers who can't locate. Lowder's high walk rate means he'll be behind in counts, and Carroll is elite at punishing mistakes. The line is set at 1.5 total bases, and I'm projecting Carroll for 2+ total bases in this spot.\n\nThe de-vigged implied probability on the over is around 52%, and I have it at 58%\u2014that's a 6-cent edge, which clears the bar at confidence 3.",
+      "the_data": [
+        {
+          "label": "Lowder ERA (season)",
+          "value": "5.01",
+          "context": "Struggling"
+        },
+        {
+          "label": "Lowder BB%",
+          "value": "12.6%",
+          "context": "Very high, hittable"
+        },
+        {
+          "label": "Lowder K%",
+          "value": "17.0%",
+          "context": "Low, doesn't miss bats"
+        },
+        {
+          "label": "GABP HR PF",
+          "value": "1.18",
+          "context": "Most HR-friendly park in MLB"
+        },
+        {
+          "label": "Carroll lineup spot",
+          "value": "Leadoff",
+          "context": "Maximum plate appearances"
+        }
+      ],
+      "the_market": "Line is 1.5 across all three books at -115. No movement, no edge in the line itself\u2014the edge is in the matchup.",
+      "weather_park": "Great American Ball Park, 81\u00b0F, wind 4 mph left to right. Neutral wind impact, but the park factor does the heavy lifting\u2014this is a launching pad.",
+      "case_against": "Lowder has a 0.44 HR/9, which is actually elite. If he's locating tonight, Carroll could be held in check. Also, Carroll has been streaky at times, and one bad game could sink this prop.",
+      "what_were_betting_on": "Carroll getting multiple plate appearances against a wild pitcher at a hitter-friendly park, and capitalizing on at least one mistake for an extra-base hit.",
+      "scott_bot_quip": "Lowder walks everyone. Carroll punishes everyone. Great American Ball Park does the rest.",
+      "ladder_note": "",
+      "date": "2026-06-13",
+      "status": "PEND",
+      "units_result": null,
+      "clv_cents": null,
+      "result_score": null,
+      "graded_at": null,
+      "slate_assessment": "MLB-heavy Saturday with 15 games, plus a pivotal NBA Finals Game 5 (Knicks-Spurs). Tarik Skubal returns from elbow surgery for Detroit, and the Knicks look to clinch their first title since 1973 on the road in San Antonio.",
+      "executive_summary": "Tarik Skubal makes his return from elbow surgery tonight in Cleveland, and the market hasn't fully adjusted to his abbreviated workload\u2014the under 7.5 at Progressive Field is the sharpest play on the board. The NBA Finals Game 5 features the Spurs as 5.5-point home favorites in a must-win spot after blowing a 29-point lead in Game 4, but the Knicks have covered eight straight road games and have the momentum. We're also targeting a Wembanyama points over in a game where San Antonio needs their franchise player to carry them, plus a pitcher K under in Kansas City where Mike Burrows' low strikeout rate meets a contact-heavy Royals lineup. The ladder rides with the Tigers-Guardians under\u2014two soft offenses, a pitcher-friendly park, and a returning ace on a pitch count.",
+      "slate_analysis": "Today's board features 15 MLB games and one NBA Finals contest\u2014Game 5 between the Knicks and Spurs in San Antonio. The MLB slate is spread across the afternoon and evening, with totals ranging from 7.5 to 14.5 (the Athletics-Rockies game in Las Vegas). The NBA game is the marquee event: the Knicks lead 3-1 after mounting the largest halftime comeback in NBA Finals history in Game 4, and they're looking to clinch their first championship since 1973.\n\nThe top candidates that rose during my review: (1) Tigers at Guardians under 7.5\u2014Tarik Skubal returns from elbow surgery, Progressive Field suppresses runs, and Cleveland's offense ranks near the bottom of MLB in wRC+. (2) Spurs -5.5 in Game 5\u2014San Antonio is 32-8 at home this season and has led every Finals game by double digits at some point, but the Knicks' road covering streak and momentum after the historic comeback make this a pass on the spread. (3) Victor Wembanyama points over 27.5\u2014in a must-win elimination game, the Spurs will lean heavily on their franchise player. (4) Mike Burrows Ks under 4.5 in Kansas City\u2014Burrows has an 18.4% K rate and faces a Royals lineup that doesn't strike out. (5) Cubs at Giants under 7.5\u2014Ben Brown's 1.74 ERA and Oracle Park's pitcher-friendly environment make this appealing, but the total has already been bet down and the edge is thin. (6) Dodgers -1.5 at White Sox\u2014Yamamoto is elite, but the juice at -120 eats into the edge.\n\nWhat got cut and why: The Cubs-Giants under looked sharp on paper, but the total opened at 8 and has already been bet down to 7.5 at FanDuel, leaving minimal edge against the de-vigged line. The Dodgers run line at -120 passes the juice test, but my fair price on LAD -1.5 is around 52%, and the market is pricing it at 54.5%\u2014not enough gap. The Spurs spread is tempting given their home dominance, but the Knicks have covered eight straight road games and just pulled off a historic comeback; the emotional hangover for San Antonio is real, and I can't get to 8 cents of edge on the spread. The Athletics-Rockies game has a 14.5 total and no reliable park factors for Las Vegas Ballpark\u2014too much uncertainty.\n\nThe final six picks: (1) Tigers at Guardians Under 7.5\u2014Skubal's return, soft offenses, pitcher-friendly park. (2) Victor Wembanyama Points Over 27.5\u2014elimination game, Spurs need him to carry. (3) Mike Burrows Ks Under 4.5\u2014low K rate, contact-heavy opponent. (4) Knicks +5.5\u2014road covering streak, momentum, Spurs' emotional hangover. (5) Corbin Carroll Total Bases Over 1.5\u2014facing Rhett Lowder's 12.6% BB rate and 17% K rate at hitter-friendly GABP. (6) Royals ML vs Astros\u2014Noah Cameron's solid 3.84 ERA at home against Mike Burrows' 5.77 ERA and 2.09 HR/9. The ladder pick is the Tigers-Guardians under\u2014best floor on the board with Skubal's elite stuff, Cleveland's weak offense, and a neutral-to-pitcher-friendly park.",
+      "slate_vibe": "NORMAL",
+      "published_at": "2026-06-13T12:15:57.931153-04:00"
+    },
+    {
+      "id": "20260613-NBA-NY-SA-SPREAD",
+      "sport": "NBA",
+      "game": "NY @ SA",
+      "first_pitch_iso": "2026-06-14T00:30Z",
+      "pick": "Knicks +5.5",
+      "best_book": "BetMGM",
+      "best_odds": "-110",
+      "book_prices": {
+        "draftkings": "-112",
+        "fanduel": "-112",
+        "betmgm": "-110"
+      },
+      "book_links": {
+        "fanduel": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.583042244&selectionId=237482",
+        "draftkings": "https://sportsbook.draftkings.com/?outcomes=0HC85099375P550_3",
+        "betmgm": "https://sports.nj.betmgm.com/en/sports?options=19636927-1531600417-2222343261&type=Single"
+      },
+      "market": "SPREAD",
+      "confidence": 4,
+      "units": 1.5,
+      "win_probability": 0.58,
+      "ladder_designation": false,
+      "data_confidence": 0.7,
+      "rules_passed": [
+        "max_juice",
+        "ladder_even_money",
+        "parlay_well_formed",
+        "confidence_units_match",
+        "data_confidence_floor",
+        "pick_type_allowed",
+        "mlb_hr_prop_check",
+        "mlb_pitcher_k_check",
+        "mlb_total_bases_check",
+        "mlb_hits_check",
+        "nba_player_prop_check",
+        "nhl_shots_check",
+        "mlb_run_line_check",
+        "mlb_under_bb_check",
+        "no_same_game_opposite"
+      ],
+      "locked": true,
+      "late_add": false,
+      "late_add_reason": "",
+      "bonus_pick": false,
+      "event_type": "",
+      "event_name": "",
+      "legs": [],
+      "headline": "The Knicks have covered eight straight road games and just pulled off the greatest comeback in Finals history.",
+      "the_thesis": "The Spurs blew a 29-point lead in Game 4\u2014the largest blown lead in NBA Finals history. That kind of collapse leaves a mark, especially on a young team. San Antonio has led every game in this series by double digits at some point, but they've also lost three of four. The Knicks have shown remarkable resilience, and Jalen Brunson has been playing through knee and ankle issues since Game 1.\n\nNew York has covered eight consecutive road games in the playoffs. They've won in San Antonio twice already this month. The Spurs are 32-8 at home this season, but they haven't faced a team with the Knicks' combination of experience, toughness, and star power.\n\nThe line is 5.5, and I'm projecting this as a 3-4 point game either way. The de-vigged implied probability on the Knicks +5.5 is around 50%, and I have them at 58%\u2014that's 8 cents of edge on a spot where the public is overreacting to the Spurs' home dominance.",
+      "the_data": [
+        {
+          "label": "Knicks road cover streak",
+          "value": "8 games",
+          "context": "Elite road performance"
+        },
+        {
+          "label": "Series score",
+          "value": "Knicks lead 3-1",
+          "context": "One win from title"
+        },
+        {
+          "label": "Spurs home record",
+          "value": "32-8",
+          "context": "Elite, but 0-2 in Finals at home"
+        },
+        {
+          "label": "Game 4 margin",
+          "value": "Knicks won by 1",
+          "context": "Every game has been close"
+        },
+        {
+          "label": "Brunson status",
+          "value": "Playing through injuries",
+          "context": "Tough as nails"
+        }
+      ],
+      "the_market": "Line opened at 5.5 and has held steady. BetMGM offers the best price on the Knicks at -110, with DraftKings and FanDuel at -112. No significant movement\u2014the market is split on whether the Spurs can respond.",
+      "weather_park": "Indoor arena, no weather impact.",
+      "case_against": "The Spurs have led every game by double digits. If they come out with desperation energy and build another big lead, the Knicks may not have another historic comeback in them. Wembanyama is capable of taking over a game, and the Spurs' home crowd will be electric.",
+      "what_were_betting_on": "The Knicks' road covering streak continuing, the Spurs' emotional hangover from Game 4, and a close game that comes down to the final minutes\u2014as every game in this series has.",
+      "scott_bot_quip": "The Spurs blew a 29-point lead. The Knicks are one win from a title. Momentum is real.",
+      "ladder_note": "",
+      "date": "2026-06-13",
+      "status": "PEND",
+      "units_result": null,
+      "clv_cents": null,
+      "result_score": null,
+      "graded_at": null,
+      "slate_assessment": "MLB-heavy Saturday with 15 games, plus a pivotal NBA Finals Game 5 (Knicks-Spurs). Tarik Skubal returns from elbow surgery for Detroit, and the Knicks look to clinch their first title since 1973 on the road in San Antonio.",
+      "executive_summary": "Tarik Skubal makes his return from elbow surgery tonight in Cleveland, and the market hasn't fully adjusted to his abbreviated workload\u2014the under 7.5 at Progressive Field is the sharpest play on the board. The NBA Finals Game 5 features the Spurs as 5.5-point home favorites in a must-win spot after blowing a 29-point lead in Game 4, but the Knicks have covered eight straight road games and have the momentum. We're also targeting a Wembanyama points over in a game where San Antonio needs their franchise player to carry them, plus a pitcher K under in Kansas City where Mike Burrows' low strikeout rate meets a contact-heavy Royals lineup. The ladder rides with the Tigers-Guardians under\u2014two soft offenses, a pitcher-friendly park, and a returning ace on a pitch count.",
+      "slate_analysis": "Today's board features 15 MLB games and one NBA Finals contest\u2014Game 5 between the Knicks and Spurs in San Antonio. The MLB slate is spread across the afternoon and evening, with totals ranging from 7.5 to 14.5 (the Athletics-Rockies game in Las Vegas). The NBA game is the marquee event: the Knicks lead 3-1 after mounting the largest halftime comeback in NBA Finals history in Game 4, and they're looking to clinch their first championship since 1973.\n\nThe top candidates that rose during my review: (1) Tigers at Guardians under 7.5\u2014Tarik Skubal returns from elbow surgery, Progressive Field suppresses runs, and Cleveland's offense ranks near the bottom of MLB in wRC+. (2) Spurs -5.5 in Game 5\u2014San Antonio is 32-8 at home this season and has led every Finals game by double digits at some point, but the Knicks' road covering streak and momentum after the historic comeback make this a pass on the spread. (3) Victor Wembanyama points over 27.5\u2014in a must-win elimination game, the Spurs will lean heavily on their franchise player. (4) Mike Burrows Ks under 4.5 in Kansas City\u2014Burrows has an 18.4% K rate and faces a Royals lineup that doesn't strike out. (5) Cubs at Giants under 7.5\u2014Ben Brown's 1.74 ERA and Oracle Park's pitcher-friendly environment make this appealing, but the total has already been bet down and the edge is thin. (6) Dodgers -1.5 at White Sox\u2014Yamamoto is elite, but the juice at -120 eats into the edge.\n\nWhat got cut and why: The Cubs-Giants under looked sharp on paper, but the total opened at 8 and has already been bet down to 7.5 at FanDuel, leaving minimal edge against the de-vigged line. The Dodgers run line at -120 passes the juice test, but my fair price on LAD -1.5 is around 52%, and the market is pricing it at 54.5%\u2014not enough gap. The Spurs spread is tempting given their home dominance, but the Knicks have covered eight straight road games and just pulled off a historic comeback; the emotional hangover for San Antonio is real, and I can't get to 8 cents of edge on the spread. The Athletics-Rockies game has a 14.5 total and no reliable park factors for Las Vegas Ballpark\u2014too much uncertainty.\n\nThe final six picks: (1) Tigers at Guardians Under 7.5\u2014Skubal's return, soft offenses, pitcher-friendly park. (2) Victor Wembanyama Points Over 27.5\u2014elimination game, Spurs need him to carry. (3) Mike Burrows Ks Under 4.5\u2014low K rate, contact-heavy opponent. (4) Knicks +5.5\u2014road covering streak, momentum, Spurs' emotional hangover. (5) Corbin Carroll Total Bases Over 1.5\u2014facing Rhett Lowder's 12.6% BB rate and 17% K rate at hitter-friendly GABP. (6) Royals ML vs Astros\u2014Noah Cameron's solid 3.84 ERA at home against Mike Burrows' 5.77 ERA and 2.09 HR/9. The ladder pick is the Tigers-Guardians under\u2014best floor on the board with Skubal's elite stuff, Cleveland's weak offense, and a neutral-to-pitcher-friendly park.",
+      "slate_vibe": "NORMAL",
+      "published_at": "2026-06-13T12:15:57.931070-04:00"
+    },
+    {
+      "id": "20260613-NBA-NY-SA-PROP-VICTORWEMBANYAMA",
+      "sport": "NBA",
+      "game": "NY @ SA",
+      "first_pitch_iso": "2026-06-14T00:30Z",
+      "pick": "Victor Wembanyama Points Over 27.5",
+      "best_book": "BetMGM",
+      "best_odds": "-118",
+      "book_prices": {
+        "draftkings": "-109",
+        "fanduel": "-102",
+        "betmgm": "-118"
+      },
+      "book_links": {
+        "fanduel": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.584832238&selectionId=61967224",
+        "betmgm": "https://sports.nj.betmgm.com/en/sports?options=6:42839-3092066-4757356&type=Single",
+        "draftkings": "https://sportsbook.draftkings.com/event/34261633"
+      },
+      "market": "PROP",
+      "confidence": 4,
+      "units": 1.5,
+      "win_probability": 0.6,
+      "ladder_designation": false,
+      "data_confidence": 0.7,
+      "rules_passed": [
+        "max_juice",
+        "ladder_even_money",
+        "parlay_well_formed",
+        "confidence_units_match",
+        "data_confidence_floor",
+        "pick_type_allowed",
+        "mlb_hr_prop_check",
+        "mlb_pitcher_k_check",
+        "mlb_total_bases_check",
+        "mlb_hits_check",
+        "nba_player_prop_check(soft)",
+        "nhl_shots_check",
+        "mlb_run_line_check",
+        "mlb_under_bb_check",
+        "no_same_game_opposite"
+      ],
+      "locked": true,
+      "late_add": false,
+      "late_add_reason": "",
+      "bonus_pick": false,
+      "event_type": "",
+      "event_name": "",
+      "legs": [],
+      "headline": "Elimination game for the Spurs\u2014Wembanyama will have the ball in his hands all night.",
+      "the_thesis": "The Spurs are facing elimination after blowing a 29-point lead in Game 4. In must-win situations, teams lean on their best players, and Victor Wembanyama is the best player on the floor. The 22-year-old has averaged 25 points per game this season and has been even more aggressive in the playoffs.\n\nWith Luke Kornet questionable due to illness, Wembanyama may have to play extended minutes without his primary backup. The Knicks will throw bodies at him, but they don't have anyone who can truly guard him one-on-one. Karl-Anthony Towns will try, but Wembanyama's length and skill set are unmatched.\n\nThe line is set at 27.5, and I'm projecting Wembanyama for 29-31 points in a game where the Spurs need him to carry them. The de-vigged implied probability on the over is around 52%, and I have him at 60%\u2014that's 8 cents of edge.",
+      "the_data": [
+        {
+          "label": "Wembanyama PPG (season)",
+          "value": "25.0",
+          "context": "MVP finalist, DPOY winner"
+        },
+        {
+          "label": "Wembanyama PPG (Finals)",
+          "value": "27.3",
+          "context": "Elevated in big moments"
+        },
+        {
+          "label": "Spurs home record",
+          "value": "32-8",
+          "context": "Elite at Frost Bank Center"
+        },
+        {
+          "label": "Kornet status",
+          "value": "Questionable (illness)",
+          "context": "Wemby may play extended minutes"
+        },
+        {
+          "label": "Game context",
+          "value": "Elimination game",
+          "context": "Must-win for San Antonio"
+        }
+      ],
+      "the_market": "Line opened at 27.5 and has held steady. FanDuel has the over at -102, DraftKings at -109, BetMGM at -118. The juice discrepancy suggests some sharp money on the over at FanDuel, but we're taking the BetMGM line for consistency with the boys' books.",
+      "weather_park": "Indoor arena, no weather impact.",
+      "case_against": "The Knicks have shown they can make runs and force the Spurs into bad possessions. If San Antonio falls behind early and the game gets out of hand, Wembanyama could see reduced minutes in garbage time. Also, the Knicks' defensive scheme has been effective at limiting his efficiency even when he scores.",
+      "what_were_betting_on": "Wembanyama taking 20+ shots in an elimination game, the Spurs keeping it competitive, and the franchise player delivering when his team needs him most.",
+      "scott_bot_quip": "The Spurs are facing elimination. Wemby's not going to let them go quietly.",
+      "ladder_note": "",
+      "date": "2026-06-13",
+      "status": "PEND",
+      "units_result": null,
+      "clv_cents": null,
+      "result_score": null,
+      "graded_at": null,
+      "slate_assessment": "MLB-heavy Saturday with 15 games, plus a pivotal NBA Finals Game 5 (Knicks-Spurs). Tarik Skubal returns from elbow surgery for Detroit, and the Knicks look to clinch their first title since 1973 on the road in San Antonio.",
+      "executive_summary": "Tarik Skubal makes his return from elbow surgery tonight in Cleveland, and the market hasn't fully adjusted to his abbreviated workload\u2014the under 7.5 at Progressive Field is the sharpest play on the board. The NBA Finals Game 5 features the Spurs as 5.5-point home favorites in a must-win spot after blowing a 29-point lead in Game 4, but the Knicks have covered eight straight road games and have the momentum. We're also targeting a Wembanyama points over in a game where San Antonio needs their franchise player to carry them, plus a pitcher K under in Kansas City where Mike Burrows' low strikeout rate meets a contact-heavy Royals lineup. The ladder rides with the Tigers-Guardians under\u2014two soft offenses, a pitcher-friendly park, and a returning ace on a pitch count.",
+      "slate_analysis": "Today's board features 15 MLB games and one NBA Finals contest\u2014Game 5 between the Knicks and Spurs in San Antonio. The MLB slate is spread across the afternoon and evening, with totals ranging from 7.5 to 14.5 (the Athletics-Rockies game in Las Vegas). The NBA game is the marquee event: the Knicks lead 3-1 after mounting the largest halftime comeback in NBA Finals history in Game 4, and they're looking to clinch their first championship since 1973.\n\nThe top candidates that rose during my review: (1) Tigers at Guardians under 7.5\u2014Tarik Skubal returns from elbow surgery, Progressive Field suppresses runs, and Cleveland's offense ranks near the bottom of MLB in wRC+. (2) Spurs -5.5 in Game 5\u2014San Antonio is 32-8 at home this season and has led every Finals game by double digits at some point, but the Knicks' road covering streak and momentum after the historic comeback make this a pass on the spread. (3) Victor Wembanyama points over 27.5\u2014in a must-win elimination game, the Spurs will lean heavily on their franchise player. (4) Mike Burrows Ks under 4.5 in Kansas City\u2014Burrows has an 18.4% K rate and faces a Royals lineup that doesn't strike out. (5) Cubs at Giants under 7.5\u2014Ben Brown's 1.74 ERA and Oracle Park's pitcher-friendly environment make this appealing, but the total has already been bet down and the edge is thin. (6) Dodgers -1.5 at White Sox\u2014Yamamoto is elite, but the juice at -120 eats into the edge.\n\nWhat got cut and why: The Cubs-Giants under looked sharp on paper, but the total opened at 8 and has already been bet down to 7.5 at FanDuel, leaving minimal edge against the de-vigged line. The Dodgers run line at -120 passes the juice test, but my fair price on LAD -1.5 is around 52%, and the market is pricing it at 54.5%\u2014not enough gap. The Spurs spread is tempting given their home dominance, but the Knicks have covered eight straight road games and just pulled off a historic comeback; the emotional hangover for San Antonio is real, and I can't get to 8 cents of edge on the spread. The Athletics-Rockies game has a 14.5 total and no reliable park factors for Las Vegas Ballpark\u2014too much uncertainty.\n\nThe final six picks: (1) Tigers at Guardians Under 7.5\u2014Skubal's return, soft offenses, pitcher-friendly park. (2) Victor Wembanyama Points Over 27.5\u2014elimination game, Spurs need him to carry. (3) Mike Burrows Ks Under 4.5\u2014low K rate, contact-heavy opponent. (4) Knicks +5.5\u2014road covering streak, momentum, Spurs' emotional hangover. (5) Corbin Carroll Total Bases Over 1.5\u2014facing Rhett Lowder's 12.6% BB rate and 17% K rate at hitter-friendly GABP. (6) Royals ML vs Astros\u2014Noah Cameron's solid 3.84 ERA at home against Mike Burrows' 5.77 ERA and 2.09 HR/9. The ladder pick is the Tigers-Guardians under\u2014best floor on the board with Skubal's elite stuff, Cleveland's weak offense, and a neutral-to-pitcher-friendly park.",
+      "slate_vibe": "NORMAL",
+      "published_at": "2026-06-13T12:15:57.930972-04:00"
+    },
+    {
+      "id": "20260613-MLB-DET-CLE-TOTAL",
+      "sport": "MLB",
+      "game": "DET @ CLE",
+      "first_pitch_iso": "2026-06-13T20:10Z",
+      "pick": "Under 7.5",
+      "best_book": "FanDuel",
+      "best_odds": "-102",
+      "book_prices": {
+        "draftkings": "-103",
+        "fanduel": "-102",
+        "betmgm": "-118"
+      },
+      "book_links": {
+        "fanduel": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.585233906&selectionId=7017906",
+        "draftkings": "https://sportsbook.draftkings.com/?outcomes=0OU85130296U750_3",
+        "betmgm": "https://sports.nj.betmgm.com/en/sports?options=19684519-1532579834-2224907428&type=Single"
+      },
+      "market": "TOTAL",
+      "confidence": 5,
+      "units": 2.0,
+      "win_probability": 0.61,
+      "ladder_designation": true,
+      "data_confidence": 0.75,
+      "rules_passed": [
+        "max_juice",
+        "ladder_even_money",
+        "parlay_well_formed",
+        "confidence_units_match",
+        "data_confidence_floor",
+        "pick_type_allowed",
+        "mlb_hr_prop_check",
+        "mlb_pitcher_k_check",
+        "mlb_total_bases_check",
+        "mlb_hits_check",
+        "nba_player_prop_check",
+        "nhl_shots_check",
+        "mlb_run_line_check",
+        "mlb_under_bb_check(soft)",
+        "no_same_game_opposite"
+      ],
+      "locked": true,
+      "late_add": false,
+      "late_add_reason": "",
+      "bonus_pick": false,
+      "event_type": "",
+      "event_name": "",
+      "legs": [],
+      "headline": "Skubal returns from elbow surgery to face a Cleveland offense that can't hit, in a pitcher-friendly park.",
+      "the_thesis": "Tarik Skubal makes his first start since April 29 after undergoing a minimally invasive procedure to remove loose bodies from his elbow. The two-time Cy Young winner looked sharp in his rehab start\u2014six strikeouts, two hits allowed, 44 strikes on 54 pitches against High-A Dayton. He's not going to throw 100 pitches tonight, but he doesn't need to. Cleveland's offense ranks near the bottom of MLB, and Progressive Field suppresses runs with a 0.97 park factor.\n\nThe Guardians counter with Joey Cantillo, who has a 4.57 ERA and 1.51 WHIP but has been serviceable enough to keep games close. Detroit's offense isn't much better\u2014they're averaging just 4.10 runs per game. This is a classic low-scoring affair between two teams that struggle to generate offense, with a returning ace on a pitch count and a neutral-to-pitcher-friendly environment.\n\nThe market has this total at 7.5 across most books, with FanDuel offering the under at -102. My fair price on the under is around 61%, and the de-vigged market implied probability is roughly 51%\u2014that's a 10-cent edge, the largest on the board today.",
+      "the_data": [
+        {
+          "label": "Skubal ERA (season)",
+          "value": "2.70",
+          "context": "Elite, two-time Cy Young winner"
+        },
+        {
+          "label": "Skubal WHIP (season)",
+          "value": "0.95",
+          "context": "Top-5 in MLB"
+        },
+        {
+          "label": "Cleveland R/G",
+          "value": "4.03",
+          "context": "Bottom-third in MLB"
+        },
+        {
+          "label": "Detroit R/G",
+          "value": "4.10",
+          "context": "Below average"
+        },
+        {
+          "label": "Progressive Field PF (runs)",
+          "value": "0.97",
+          "context": "Slightly pitcher-friendly"
+        },
+        {
+          "label": "Cantillo BB%",
+          "value": "12.4%",
+          "context": "High, but not disqualifying for under"
+        }
+      ],
+      "the_market": "Total opened at 7.5 and has held steady across all three books. FanDuel offers the best under price at -102, with DraftKings at -103 and BetMGM at -118 on a higher 8.0 line. No significant line movement\u2014the market is split.",
+      "weather_park": "Progressive Field is outdoors but weather is mild tonight. Park factor of 0.97 for runs and 0.96 for HR\u2014net neutral to slightly pitcher-friendly.",
+      "case_against": "Skubal is on a pitch count in his first start back from surgery. If he exits after 4-5 innings, the Tigers' bullpen\u2014which has been shaky\u2014could give up runs late. Cantillo's 12.4% walk rate could also lead to traffic on the bases that eventually scores.",
+      "what_were_betting_on": "Skubal going 5+ innings of low-scoring ball, Cleveland's weak offense staying quiet, and both bullpens holding serve in a game that stays under 8 total runs.",
+      "scott_bot_quip": "The two-time Cy Young winner is back, and Cleveland's offense is still on vacation.",
+      "ladder_note": "Best floor on the board\u2014elite returning pitcher, two soft offenses, pitcher-friendly park, and the market hasn't fully adjusted to Skubal's abbreviated workload. This is the highest-confidence play at near even money.",
+      "date": "2026-06-13",
+      "status": "PEND",
+      "units_result": null,
+      "clv_cents": null,
+      "result_score": null,
+      "graded_at": null,
+      "slate_assessment": "MLB-heavy Saturday with 15 games, plus a pivotal NBA Finals Game 5 (Knicks-Spurs). Tarik Skubal returns from elbow surgery for Detroit, and the Knicks look to clinch their first title since 1973 on the road in San Antonio.",
+      "executive_summary": "Tarik Skubal makes his return from elbow surgery tonight in Cleveland, and the market hasn't fully adjusted to his abbreviated workload\u2014the under 7.5 at Progressive Field is the sharpest play on the board. The NBA Finals Game 5 features the Spurs as 5.5-point home favorites in a must-win spot after blowing a 29-point lead in Game 4, but the Knicks have covered eight straight road games and have the momentum. We're also targeting a Wembanyama points over in a game where San Antonio needs their franchise player to carry them, plus a pitcher K under in Kansas City where Mike Burrows' low strikeout rate meets a contact-heavy Royals lineup. The ladder rides with the Tigers-Guardians under\u2014two soft offenses, a pitcher-friendly park, and a returning ace on a pitch count.",
+      "slate_analysis": "Today's board features 15 MLB games and one NBA Finals contest\u2014Game 5 between the Knicks and Spurs in San Antonio. The MLB slate is spread across the afternoon and evening, with totals ranging from 7.5 to 14.5 (the Athletics-Rockies game in Las Vegas). The NBA game is the marquee event: the Knicks lead 3-1 after mounting the largest halftime comeback in NBA Finals history in Game 4, and they're looking to clinch their first championship since 1973.\n\nThe top candidates that rose during my review: (1) Tigers at Guardians under 7.5\u2014Tarik Skubal returns from elbow surgery, Progressive Field suppresses runs, and Cleveland's offense ranks near the bottom of MLB in wRC+. (2) Spurs -5.5 in Game 5\u2014San Antonio is 32-8 at home this season and has led every Finals game by double digits at some point, but the Knicks' road covering streak and momentum after the historic comeback make this a pass on the spread. (3) Victor Wembanyama points over 27.5\u2014in a must-win elimination game, the Spurs will lean heavily on their franchise player. (4) Mike Burrows Ks under 4.5 in Kansas City\u2014Burrows has an 18.4% K rate and faces a Royals lineup that doesn't strike out. (5) Cubs at Giants under 7.5\u2014Ben Brown's 1.74 ERA and Oracle Park's pitcher-friendly environment make this appealing, but the total has already been bet down and the edge is thin. (6) Dodgers -1.5 at White Sox\u2014Yamamoto is elite, but the juice at -120 eats into the edge.\n\nWhat got cut and why: The Cubs-Giants under looked sharp on paper, but the total opened at 8 and has already been bet down to 7.5 at FanDuel, leaving minimal edge against the de-vigged line. The Dodgers run line at -120 passes the juice test, but my fair price on LAD -1.5 is around 52%, and the market is pricing it at 54.5%\u2014not enough gap. The Spurs spread is tempting given their home dominance, but the Knicks have covered eight straight road games and just pulled off a historic comeback; the emotional hangover for San Antonio is real, and I can't get to 8 cents of edge on the spread. The Athletics-Rockies game has a 14.5 total and no reliable park factors for Las Vegas Ballpark\u2014too much uncertainty.\n\nThe final six picks: (1) Tigers at Guardians Under 7.5\u2014Skubal's return, soft offenses, pitcher-friendly park. (2) Victor Wembanyama Points Over 27.5\u2014elimination game, Spurs need him to carry. (3) Mike Burrows Ks Under 4.5\u2014low K rate, contact-heavy opponent. (4) Knicks +5.5\u2014road covering streak, momentum, Spurs' emotional hangover. (5) Corbin Carroll Total Bases Over 1.5\u2014facing Rhett Lowder's 12.6% BB rate and 17% K rate at hitter-friendly GABP. (6) Royals ML vs Astros\u2014Noah Cameron's solid 3.84 ERA at home against Mike Burrows' 5.77 ERA and 2.09 HR/9. The ladder pick is the Tigers-Guardians under\u2014best floor on the board with Skubal's elite stuff, Cleveland's weak offense, and a neutral-to-pitcher-friendly park.",
+      "slate_vibe": "NORMAL",
+      "published_at": "2026-06-13T12:15:57.930817-04:00"
+    },
     {
       "id": "20260612-MLB-STL-MIN-PROP-JOERYAN",
       "sport": "MLB",
