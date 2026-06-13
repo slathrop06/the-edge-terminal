@@ -1,9 +1,17 @@
 {
-  "current_streak": 4,
-  "longest_streak": 4,
+  "current_streak": 5,
+  "longest_streak": 5,
   "completed_climbs": 0,
   "target": 10,
   "history": [
+    {
+      "date": "2026-06-13",
+      "pick_id": "20260613-MLB-DET-CLE-TOTAL",
+      "pick": "Under 7.5",
+      "game": "DET @ CLE",
+      "status": "WIN",
+      "after_streak": 5
+    },
     {
       "date": "2026-06-12",
       "pick_id": "20260612-MLB-PHI-MIL-SPREAD",
@@ -181,5 +189,5 @@
       "after_streak": 1
     }
   ],
-  "updated_at": "2026-06-13T03:04:16.017346-04:00"
+  "updated_at": "2026-06-13T18:54:44.921956-04:00"
 }
