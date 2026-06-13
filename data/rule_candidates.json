@@ -166,5 +166,13 @@
     "candidate_rule": "Do not finalize a total bet when the opposing starter is unannounced or listed as TBD; require official lineup confirmation before locking the pick, especially when the starter identity is the primary driver of the thesis \u2014 N=1, insufficient to establish rule.",
     "sample_size_warning": "N=1, insufficient to establish rule \u2014 but the failure mode (betting a total against an unconfirmed starter) is structurally repeatable and worth flagging as a process check.",
     "status": "PENDING_REVIEW"
+  },
+  {
+    "proposed_at": "2026-06-13T03:03:49.242002-04:00",
+    "source_pick_id": "20260612-MLB-LAD-CHW-TOTAL",
+    "source_loss": "Under 9.0 (LAD @ CHW)",
+    "candidate_rule": "Before capping an Under on a Sasaki start, require his last-7-days command metrics (BB/9, Strike%) to confirm the Angels outing wasn't an outlier \u2014 one elite start does not establish a trend; N=1 on the Ohtani-scratch-deflates-Dodgers-offense pattern, also insufficient to formalize.",
+    "sample_size_warning": "N=1 loss, insufficient to establish a rule. Single-start regression is inherent pitcher variance, but the structural error \u2014 projecting forward from one career-best outing without confirming command stability \u2014 is a repeatable model mistake worth tracking.",
+    "status": "PENDING_REVIEW"
   }
 ]

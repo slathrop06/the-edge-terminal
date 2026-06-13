@@ -145,5 +145,12 @@
     "units_pl": 2.274,
     "night_summary": "3-1 night, +2.27u. The headliner was the NBA Finals under 216.5 \u2014 Spurs-Knicks Game 4 finished 107-106 in the most surreal way possible: the Knicks came back from 29 down, Anunoby tipped in a Brunson miss with 1.2 seconds left, and the final 213 combined points cleared the under by 3.5. The ATL @ CHW under 7.0 was the ladder pick and it delivered clean \u2014 Braves and White Sox combined for just 3 runs, 1-2 final. PHI ML was straightforward: Scherzer got knocked around for 5 runs in 3.1 innings and the Phillies rolled 7-4. The one loss was the SD -1.5 \u2014 Tatis walked off on a Chase Petty slider in the 9th to win it 5-4, one run short of the cover. Pure variance; the Padres won the game. Ladder is at 3 of 10 \u2014 climbing.",
     "generated_at": "2026-06-11T04:11:17.935829-04:00"
+  },
+  "2026-06-12": {
+    "date": "2026-06-12",
+    "record": "4-2-0",
+    "units_pl": 2.63,
+    "night_summary": "4-2 night, +2.63u \u2014 and the story of the night wasn't even close. Misiorowski was otherworldly: 15 strikeouts, one hit, 95 pitches, complete-game shutout, MIL 6 PHI 0. The over 6.5 Ks cleared by nine. Joe Ryan added 8 Ks to cash the over 5.5, and the Twins ML held up in a wild 9-8 win over St. Louis. The MIL -1.5 ladder pick was never in doubt. The two losses stung differently \u2014 Sasaki's command collapsed in a 7-run 5th (we got that one wrong, model leaned too hard on one elite start), and Strider's velocity cratered from 95 to 88 mph before he exited with arm soreness, torching the ATL @ NYM under before the 5th inning; that was variance, not a bad read. Ladder sits at 4 of 10 \u2014 climbing.",
+    "generated_at": "2026-06-13T03:04:38.138550-04:00"
   }
 }

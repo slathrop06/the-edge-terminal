@@ -1,9 +1,17 @@
 {
-  "current_streak": 3,
+  "current_streak": 4,
   "longest_streak": 4,
   "completed_climbs": 0,
   "target": 10,
   "history": [
+    {
+      "date": "2026-06-12",
+      "pick_id": "20260612-MLB-PHI-MIL-SPREAD",
+      "pick": "Milwaukee Brewers -1.5",
+      "game": "PHI @ MIL",
+      "status": "WIN",
+      "after_streak": 4
+    },
     {
       "date": "2026-06-10",
       "pick_id": "20260610-MLB-ATL-CHW-TOTAL",
@@ -173,5 +181,5 @@
       "after_streak": 1
     }
   ],
-  "updated_at": "2026-06-11T04:11:02.079772-04:00"
+  "updated_at": "2026-06-13T03:04:16.017346-04:00"
 }

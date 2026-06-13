@@ -1,5 +1,31 @@
 [
   {
+    "id": "20260612-MLB-ATL-NYM-TOTAL",
+    "date": "2026-06-12",
+    "pick": "Under 8.0",
+    "game": "ATL @ NYM",
+    "odds": "-105",
+    "result_score": "ATL 5 \u00b7 NYM 7",
+    "classification": "VARIANCE",
+    "post_mortem": "The under was torched by a mid-game injury that nobody could model. Strider's velocity cratered inning-by-inning \u2014 from 95.7 mph in the 1st to 88.7 mph in the 4th \u2014 and before he exited with right arm soreness, he'd already surrendered a season-high 7 runs on 6 hits in 3-plus innings, including back-to-back solo HRs to Bichette and Soto in the 1st and a Bichette grand slam in the 2nd. The game was 7-2 before the 5th inning even started; the under was dead on arrival the moment Strider's elbow gave out, not because the thesis was wrong.",
+    "candidate_rule": null,
+    "sample_size_warning": "N=1, insufficient to establish rule. The injury was unforeseeable mid-game; Strider entered the start healthy and had posted a 4.00 ERA across 7 prior outings. No pre-game signal flagged this.",
+    "analyzed_at": "2026-06-13T03:04:16.007463-04:00"
+  },
+  {
+    "id": "20260612-MLB-LAD-CHW-TOTAL",
+    "date": "2026-06-12",
+    "pick": "Under 9.0",
+    "game": "LAD @ CHW",
+    "odds": "-114",
+    "result_score": "LAD 2 \u00b7 CHW 8",
+    "classification": "MODEL",
+    "post_mortem": "The thesis leaned entirely on Sasaki replicating his Angels masterpiece, but he reverted to his early-season self: 91 pitches, only 53 strikes, and a catastrophic 5th inning in which Chicago sent 11 batters to the plate and scored 7 runs \u2014 including a tiebreaking Vargas RBI double and a bases-loaded walk on 4 pitches to Braden Montgomery. Sasaki finished 4.1 IP, 7 R, 7 H, 3 BB, and was pulled before recording the 5th-inning out. A compounding DATA wrinkle: Shohei Ohtani was scratched pre-game with knee inflammation, quietly gutting the Dodgers' most dangerous bat from the lineup the model assumed would be active.",
+    "candidate_rule": "Before capping an Under on a Sasaki start, require his last-7-days command metrics (BB/9, Strike%) to confirm the Angels outing wasn't an outlier \u2014 one elite start does not establish a trend; N=1 on the Ohtani-scratch-deflates-Dodgers-offense pattern, also insufficient to formalize.",
+    "sample_size_warning": "N=1 loss, insufficient to establish a rule. Single-start regression is inherent pitcher variance, but the structural error \u2014 projecting forward from one career-best outing without confirming command stability \u2014 is a repeatable model mistake worth tracking.",
+    "analyzed_at": "2026-06-13T03:03:49.241280-04:00"
+  },
+  {
     "id": "20260610-MLB-CIN-SD-ML",
     "date": "2026-06-10",
     "pick": "San Diego Padres -1.5",

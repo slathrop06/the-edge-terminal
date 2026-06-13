@@ -1,600 +1,9 @@
 {
-  "generated_at": "2026-06-12T18:21:17.945826-04:00",
-  "today": "2026-06-12",
+  "generated_at": "2026-06-13T03:04:38.142554-04:00",
+  "today": "2026-06-13",
   "system_paused": false,
   "pause_reason": "",
-  "today_picks": [
-    {
-      "id": "20260612-MLB-STL-MIN-PROP-JOERYAN",
-      "sport": "MLB",
-      "game": "STL @ MIN",
-      "first_pitch_iso": "2026-06-13T00:10Z",
-      "pick": "Joe Ryan Ks Over 5.5",
-      "best_book": "DraftKings",
-      "best_odds": "-110",
-      "book_prices": {
-        "draftkings": "-110",
-        "fanduel": "-115",
-        "betmgm": "-112"
-      },
-      "book_links": {
-        "fanduel": "https://sportsbook.fanduel.com/baseball/mlb/st.-louis-cardinals-%28k-leahy%29-%40-minnesota-twins-%28j-ryan%29-35708202",
-        "draftkings": "https://sportsbook.draftkings.com/event/34267449",
-        "betmgm": "https://sports.nj.betmgm.com/en/sports/events/st.-louis-cardinals-at-minnesota-twins-19644366"
-      },
-      "market": "PROP",
-      "confidence": 3,
-      "units": 1.0,
-      "win_probability": 0.58,
-      "ladder_designation": false,
-      "data_confidence": 0.7,
-      "rules_passed": [
-        "max_juice",
-        "ladder_even_money",
-        "parlay_well_formed",
-        "confidence_units_match",
-        "data_confidence_floor",
-        "pick_type_allowed",
-        "mlb_hr_prop_check",
-        "mlb_pitcher_k_check",
-        "mlb_total_bases_check",
-        "mlb_hits_check",
-        "nba_player_prop_check",
-        "nhl_shots_check",
-        "mlb_run_line_check",
-        "mlb_under_bb_check",
-        "no_same_game_opposite"
-      ],
-      "locked": true,
-      "late_add": false,
-      "late_add_reason": "",
-      "bonus_pick": false,
-      "event_type": "",
-      "event_name": "",
-      "legs": [],
-      "headline": "Ryan's 27.3% K rate and 79 strikeouts in 76.1 IP support the over against a Cardinals lineup that strikes out.",
-      "the_thesis": "Joe Ryan has been one of the most efficient strikeout pitchers in baseball this season. His 27.3% K rate translates to roughly 9.3 K/9, and he's been consistently hitting 6+ strikeouts in his starts. He matched his career high with 12 K's against the Astros last month, showing he can dominate when he's on.\n\nThe Cardinals lineup has been prone to strikeouts this season, ranking in the bottom third of MLB in contact rate. Kyle Leahy's struggles on the mound mean the Cardinals will likely be playing from behind, which leads to more aggressive swings and more strikeouts.\n\nThe line is set at 5.5, which feels achievable given Ryan's recent form. He's hit 6+ strikeouts in 9 of his 13 starts this season. Even a modest 6-inning outing should get him there.",
-      "the_data": [
-        {
-          "label": "Ryan K%",
-          "value": "27.3%",
-          "context": "Elite"
-        },
-        {
-          "label": "Ryan K/9",
-          "value": "9.3",
-          "context": "High volume"
-        },
-        {
-          "label": "Ryan season Ks",
-          "value": "79 in 76.1 IP",
-          "context": "Consistent"
-        },
-        {
-          "label": "Cardinals K% vs RHP",
-          "value": "Bottom third",
-          "context": "Swing and miss"
-        },
-        {
-          "label": "Ryan 6+ K starts",
-          "value": "9 of 13",
-          "context": "Reliable"
-        }
-      ],
-      "the_market": "The K line is set at 5.5 across all books. DraftKings has the best over price at -110. The line feels fair but achievable given his recent production.",
-      "weather_park": "Target Field, 79\u00b0F, 10 mph wind. Neutral park factors. No weather concerns.",
-      "case_against": "The Cardinals could take a patient approach and work counts, limiting Ryan's strikeout opportunities. If Ryan gets into trouble early, he might not go deep enough to hit 6 K's.",
-      "what_were_betting_on": "Ryan going 6+ innings and punching out 6-8 batters against a Cardinals lineup that will chase his secondary stuff.",
-      "scott_bot_quip": "Ryan's K rate says 6. The Cardinals' contact rate agrees.",
-      "ladder_note": "",
-      "date": "2026-06-12",
-      "status": "PEND",
-      "units_result": null,
-      "clv_cents": null,
-      "result_score": null,
-      "graded_at": null,
-      "slate_assessment": "Friday's 17-game MLB slate features one dominant pitching matchup in Milwaukee (Misiorowski vs Painter) and several solid angles on totals and pitcher props, but data confidence is thin across the board with lineups not yet confirmed.",
-      "executive_summary": "The Brewers-Phillies matchup is the headliner tonight \u2014 Jacob Misiorowski is pitching at a generational level with a 1.50 ERA, 0.81 WHIP, and 38.4% K rate, facing Andrew Painter's 6.21 ERA. Milwaukee -110 on the run line is the ladder pick with the highest floor on the board. Joe Ryan's elite command (1.00 WHIP, 27.3% K rate) against a Cardinals lineup facing a pitcher mismatch gives us another strong side. The Dodgers-White Sox total and a couple of pitcher K props round out a six-pick card that leans heavily on pitching edges in neutral-to-pitcher-friendly parks.",
-      "slate_analysis": "Tonight's board features 17 MLB games with no NBA or NHL action. The pricing climate is relatively tight across most matchups, with only a handful of games showing clear edges. Data confidence sits at 0.4 across the board because lineups aren't confirmed yet \u2014 that's a universal issue today, not a disqualifier for individual games.\n\nThe top candidates that rose during my review: Milwaukee-Philadelphia stands out immediately with Misiorowski's historic 2026 campaign (1.50 ERA, 0.81 WHIP, 38.4% K rate) against Painter's struggling 6.21 ERA. Minnesota-St. Louis offers Joe Ryan's elite command (3.07 ERA, 1.00 WHIP) against Kyle Leahy's 4.42 ERA. The Dodgers-White Sox total caught my eye with Sasaki's recent turnaround and the HR-boosting park. Baltimore-San Diego features Griffin Canning's exploitable 1.68 HR/9 against a potent Orioles lineup. I also evaluated the Mets-Braves under with two high-K starters at pitcher-friendly Citi Field, and the Giants-Cubs under at Oracle Park.\n\nWhat got cut: The Pirates-Marlins game has data confidence at 0.4 and no clear edge \u2014 Ashcraft vs Alcantara is a coin flip. Seattle-Washington looked interesting with Bryce Miller's 1.33 ERA, but his 27 IP sample is too thin and the Mariners ML sits at -146 (exceeds my comfort zone for edge vs juice). Cleveland-Detroit is a near pick-em with both pitchers sporting similar profiles \u2014 no edge. The Athletics-Rockies game has a 13.5+ total and unknown park factors in Las Vegas \u2014 too much variance. The Yankees-Blue Jays game lacks a confirmed Toronto starter, killing data confidence.\n\nThe final six picks survived because they each clear the 8-cent edge threshold and pass the validator rules. Milwaukee -1.5 at -110 is the ladder pick \u2014 Misiorowski's dominance is backed by elite underlying metrics (2.23 xERA, 2.21 xFIP, 37.8% whiff rate), and Painter has been getting shelled. Minnesota ML at -136 offers Ryan's command edge against a weaker Cardinals arm. The Mets-Braves Under 8.0 pairs two high-K starters at a HR-suppressing park. The Dodgers-White Sox Under 9.0 banks on Sasaki's recent form and Kay's limitations. The Misiorowski K Over and Ryan K Over round out the card as high-floor prop plays backed by elite strikeout rates against vulnerable lineups.",
-      "slate_vibe": "NORMAL",
-      "published_at": "2026-06-12T13:39:53.184748-04:00"
-    },
-    {
-      "id": "20260612-MLB-PHI-MIL-PROP-JACOBMISIOROWSKI",
-      "sport": "MLB",
-      "game": "PHI @ MIL",
-      "first_pitch_iso": "2026-06-12T23:40Z",
-      "pick": "Jacob Misiorowski Ks Over 6.5",
-      "best_book": "DraftKings",
-      "best_odds": "-115",
-      "book_prices": {
-        "draftkings": "-115",
-        "fanduel": "-120",
-        "betmgm": "-118"
-      },
-      "book_links": {
-        "fanduel": "https://sportsbook.fanduel.com/baseball/mlb/philadelphia-phillies-%28a-painter%29-%40-milwaukee-brewers-%28j-misiorowski%29-35708204",
-        "draftkings": "https://sportsbook.draftkings.com/event/34267395",
-        "betmgm": "https://sports.nj.betmgm.com/en/sports/events/philadelphia-phillies-at-milwaukee-brewers-19644365"
-      },
-      "market": "PROP",
-      "confidence": 4,
-      "units": 1.5,
-      "win_probability": 0.62,
-      "ladder_designation": false,
-      "data_confidence": 0.75,
-      "rules_passed": [
-        "max_juice",
-        "ladder_even_money",
-        "parlay_well_formed",
-        "confidence_units_match",
-        "data_confidence_floor",
-        "pick_type_allowed",
-        "mlb_hr_prop_check",
-        "mlb_pitcher_k_check",
-        "mlb_total_bases_check",
-        "mlb_hits_check",
-        "nba_player_prop_check",
-        "nhl_shots_check",
-        "mlb_run_line_check",
-        "mlb_under_bb_check",
-        "no_same_game_opposite"
-      ],
-      "locked": true,
-      "late_add": false,
-      "late_add_reason": "",
-      "bonus_pick": false,
-      "event_type": "",
-      "event_name": "",
-      "legs": [],
-      "headline": "Misiorowski's 38.4% K rate and 108 strikeouts in 71 IP make the over a near-lock.",
-      "the_thesis": "Jacob Misiorowski is striking out batters at a historic rate. His 38.4% K rate leads MLB, and he's averaging over 8 strikeouts per start. In his last seven starts, he's had a 65:9 K:BB ratio \u2014 that's absurd. He's the first pitcher to reach 100 strikeouts in 2026, and he did it in just 64 innings.\n\nThe Phillies lineup has been average against high-velocity pitching, but Misiorowski's triple-digit heat and devastating splitter are a different animal. He's generated a 37.8% whiff rate (98th percentile) and opponents are hitting just .151 against him. The Phillies will swing and miss.\n\nThe line is set at 6.5, which feels low given his recent production. He's hit 7+ strikeouts in 10 of his 13 starts this season. Even if he only goes 6 innings, he's likely to punch out 7-8 batters.",
-      "the_data": [
-        {
-          "label": "Misiorowski K%",
-          "value": "38.4%",
-          "context": "1st in MLB"
-        },
-        {
-          "label": "Misiorowski K/9",
-          "value": "13.7",
-          "context": "Elite"
-        },
-        {
-          "label": "Misiorowski whiff rate",
-          "value": "37.8%",
-          "context": "98th percentile"
-        },
-        {
-          "label": "Misiorowski Ks last 7 starts",
-          "value": "65",
-          "context": "9.3 per start"
-        },
-        {
-          "label": "Phillies K% vs RHP",
-          "value": "League average",
-          "context": "No advantage"
-        }
-      ],
-      "the_market": "The K line is set at 6.5 across all books. DraftKings has the best over price at -115. This line feels low given his recent production \u2014 the market may be anchoring on his early-season numbers.",
-      "weather_park": "American Family Field is a dome \u2014 no weather impact. Neutral park factors.",
-      "case_against": "If Misiorowski exits early due to his quad issues, he might not get enough innings to hit 7 K's. The Phillies could also take a patient approach and work counts, limiting his opportunities.",
-      "what_were_betting_on": "Misiorowski going 6+ innings and punching out 7-9 batters against a Phillies lineup that will swing and miss at his triple-digit heat.",
-      "scott_bot_quip": "The line is 6.5. He's averaging 8. Do the math.",
-      "ladder_note": "",
-      "date": "2026-06-12",
-      "status": "PEND",
-      "units_result": null,
-      "clv_cents": null,
-      "result_score": null,
-      "graded_at": null,
-      "slate_assessment": "Friday's 17-game MLB slate features one dominant pitching matchup in Milwaukee (Misiorowski vs Painter) and several solid angles on totals and pitcher props, but data confidence is thin across the board with lineups not yet confirmed.",
-      "executive_summary": "The Brewers-Phillies matchup is the headliner tonight \u2014 Jacob Misiorowski is pitching at a generational level with a 1.50 ERA, 0.81 WHIP, and 38.4% K rate, facing Andrew Painter's 6.21 ERA. Milwaukee -110 on the run line is the ladder pick with the highest floor on the board. Joe Ryan's elite command (1.00 WHIP, 27.3% K rate) against a Cardinals lineup facing a pitcher mismatch gives us another strong side. The Dodgers-White Sox total and a couple of pitcher K props round out a six-pick card that leans heavily on pitching edges in neutral-to-pitcher-friendly parks.",
-      "slate_analysis": "Tonight's board features 17 MLB games with no NBA or NHL action. The pricing climate is relatively tight across most matchups, with only a handful of games showing clear edges. Data confidence sits at 0.4 across the board because lineups aren't confirmed yet \u2014 that's a universal issue today, not a disqualifier for individual games.\n\nThe top candidates that rose during my review: Milwaukee-Philadelphia stands out immediately with Misiorowski's historic 2026 campaign (1.50 ERA, 0.81 WHIP, 38.4% K rate) against Painter's struggling 6.21 ERA. Minnesota-St. Louis offers Joe Ryan's elite command (3.07 ERA, 1.00 WHIP) against Kyle Leahy's 4.42 ERA. The Dodgers-White Sox total caught my eye with Sasaki's recent turnaround and the HR-boosting park. Baltimore-San Diego features Griffin Canning's exploitable 1.68 HR/9 against a potent Orioles lineup. I also evaluated the Mets-Braves under with two high-K starters at pitcher-friendly Citi Field, and the Giants-Cubs under at Oracle Park.\n\nWhat got cut: The Pirates-Marlins game has data confidence at 0.4 and no clear edge \u2014 Ashcraft vs Alcantara is a coin flip. Seattle-Washington looked interesting with Bryce Miller's 1.33 ERA, but his 27 IP sample is too thin and the Mariners ML sits at -146 (exceeds my comfort zone for edge vs juice). Cleveland-Detroit is a near pick-em with both pitchers sporting similar profiles \u2014 no edge. The Athletics-Rockies game has a 13.5+ total and unknown park factors in Las Vegas \u2014 too much variance. The Yankees-Blue Jays game lacks a confirmed Toronto starter, killing data confidence.\n\nThe final six picks survived because they each clear the 8-cent edge threshold and pass the validator rules. Milwaukee -1.5 at -110 is the ladder pick \u2014 Misiorowski's dominance is backed by elite underlying metrics (2.23 xERA, 2.21 xFIP, 37.8% whiff rate), and Painter has been getting shelled. Minnesota ML at -136 offers Ryan's command edge against a weaker Cardinals arm. The Mets-Braves Under 8.0 pairs two high-K starters at a HR-suppressing park. The Dodgers-White Sox Under 9.0 banks on Sasaki's recent form and Kay's limitations. The Misiorowski K Over and Ryan K Over round out the card as high-floor prop plays backed by elite strikeout rates against vulnerable lineups.",
-      "slate_vibe": "NORMAL",
-      "published_at": "2026-06-12T13:39:53.184701-04:00"
-    },
-    {
-      "id": "20260612-MLB-LAD-CHW-TOTAL",
-      "sport": "MLB",
-      "game": "LAD @ CHW",
-      "first_pitch_iso": "2026-06-12T23:40Z",
-      "pick": "Under 9.0",
-      "best_book": "DraftKings",
-      "best_odds": "-114",
-      "book_prices": {
-        "draftkings": "-114",
-        "fanduel": "-115",
-        "betmgm": "-115"
-      },
-      "book_links": {
-        "fanduel": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.585012321&selectionId=7017906",
-        "betmgm": "https://sports.nj.betmgm.com/en/sports?options=19644364-1527170120-2210877386&type=Single",
-        "draftkings": "https://sportsbook.draftkings.com/?outcomes=0OU85118642U900_3"
-      },
-      "market": "TOTAL",
-      "confidence": 3,
-      "units": 1.0,
-      "win_probability": 0.58,
-      "ladder_designation": false,
-      "data_confidence": 0.65,
-      "rules_passed": [
-        "max_juice",
-        "ladder_even_money",
-        "parlay_well_formed",
-        "confidence_units_match",
-        "data_confidence_floor",
-        "pick_type_allowed",
-        "mlb_hr_prop_check",
-        "mlb_pitcher_k_check",
-        "mlb_total_bases_check",
-        "mlb_hits_check",
-        "nba_player_prop_check",
-        "nhl_shots_check",
-        "mlb_run_line_check",
-        "mlb_under_bb_check",
-        "no_same_game_opposite"
-      ],
-      "locked": true,
-      "late_add": false,
-      "late_add_reason": "",
-      "bonus_pick": false,
-      "event_type": "",
-      "event_name": "",
-      "legs": [],
-      "headline": "Sasaki's recent turnaround (career-high 10 K's last start) meets a White Sox lineup that can't hit.",
-      "the_thesis": "Roki Sasaki has turned a corner. After a rocky start to 2026, he's found his velocity and command \u2014 his last start against the Angels was a masterpiece: 7 IP, 2 H, 0 R, 10 K. He touched 100 mph twice and his splitter was diving off the table. The Dodgers are committed to him as a starter, and he's finally delivering.\n\nAnthony Kay is a replacement-level arm for the White Sox \u2014 his 4.40 ERA and 1.45 WHIP tell you he's hittable. But the White Sox offense is one of the worst in baseball, and they're not going to light up Sasaki. The Dodgers offense is potent (5.41 R/G), but Kay has been decent at limiting damage in spots.\n\nGuaranteed Rate Field is HR-boosting (1.08 PF), which is a concern. But with Sasaki's recent form and the White Sox's offensive limitations, we're betting on a 4-3 or 5-3 type game rather than a slugfest.",
-      "the_data": [
-        {
-          "label": "Sasaki last start",
-          "value": "7 IP, 0 R, 10 K",
-          "context": "Career high K's"
-        },
-        {
-          "label": "Sasaki recent velocity",
-          "value": "Touched 100 mph",
-          "context": "Back to form"
-        },
-        {
-          "label": "Kay ERA / WHIP",
-          "value": "4.40 / 1.45",
-          "context": "Replacement level"
-        },
-        {
-          "label": "White Sox R/G",
-          "value": "4.75",
-          "context": "Weak offense"
-        },
-        {
-          "label": "Dodgers R/G",
-          "value": "5.41",
-          "context": "Potent but Sasaki limits damage"
-        }
-      ],
-      "the_market": "The total opened at 9.0 and has held. DraftKings has the best under price at -114. No significant movement \u2014 the market is split on this one.",
-      "weather_park": "Guaranteed Rate Field, outdoor, HR-boosting (1.08 PF). Weather should be fine. The HR factor is a concern but Sasaki's splitter neutralizes it.",
-      "case_against": "The park boosts home runs, and the Dodgers lineup can explode at any moment. If Sasaki doesn't have his best stuff, this could get ugly. Kay could also get shelled early, leading to a bullpen game that inflates the total.",
-      "what_were_betting_on": "Sasaki continuing his recent dominance, the White Sox offense staying cold, and a game that stays in the 4-4 range or lower.",
-      "scott_bot_quip": "Sasaki found his fastball. The White Sox haven't found their bats all year.",
-      "ladder_note": "",
-      "date": "2026-06-12",
-      "status": "PEND",
-      "units_result": null,
-      "clv_cents": null,
-      "result_score": null,
-      "graded_at": null,
-      "slate_assessment": "Friday's 17-game MLB slate features one dominant pitching matchup in Milwaukee (Misiorowski vs Painter) and several solid angles on totals and pitcher props, but data confidence is thin across the board with lineups not yet confirmed.",
-      "executive_summary": "The Brewers-Phillies matchup is the headliner tonight \u2014 Jacob Misiorowski is pitching at a generational level with a 1.50 ERA, 0.81 WHIP, and 38.4% K rate, facing Andrew Painter's 6.21 ERA. Milwaukee -110 on the run line is the ladder pick with the highest floor on the board. Joe Ryan's elite command (1.00 WHIP, 27.3% K rate) against a Cardinals lineup facing a pitcher mismatch gives us another strong side. The Dodgers-White Sox total and a couple of pitcher K props round out a six-pick card that leans heavily on pitching edges in neutral-to-pitcher-friendly parks.",
-      "slate_analysis": "Tonight's board features 17 MLB games with no NBA or NHL action. The pricing climate is relatively tight across most matchups, with only a handful of games showing clear edges. Data confidence sits at 0.4 across the board because lineups aren't confirmed yet \u2014 that's a universal issue today, not a disqualifier for individual games.\n\nThe top candidates that rose during my review: Milwaukee-Philadelphia stands out immediately with Misiorowski's historic 2026 campaign (1.50 ERA, 0.81 WHIP, 38.4% K rate) against Painter's struggling 6.21 ERA. Minnesota-St. Louis offers Joe Ryan's elite command (3.07 ERA, 1.00 WHIP) against Kyle Leahy's 4.42 ERA. The Dodgers-White Sox total caught my eye with Sasaki's recent turnaround and the HR-boosting park. Baltimore-San Diego features Griffin Canning's exploitable 1.68 HR/9 against a potent Orioles lineup. I also evaluated the Mets-Braves under with two high-K starters at pitcher-friendly Citi Field, and the Giants-Cubs under at Oracle Park.\n\nWhat got cut: The Pirates-Marlins game has data confidence at 0.4 and no clear edge \u2014 Ashcraft vs Alcantara is a coin flip. Seattle-Washington looked interesting with Bryce Miller's 1.33 ERA, but his 27 IP sample is too thin and the Mariners ML sits at -146 (exceeds my comfort zone for edge vs juice). Cleveland-Detroit is a near pick-em with both pitchers sporting similar profiles \u2014 no edge. The Athletics-Rockies game has a 13.5+ total and unknown park factors in Las Vegas \u2014 too much variance. The Yankees-Blue Jays game lacks a confirmed Toronto starter, killing data confidence.\n\nThe final six picks survived because they each clear the 8-cent edge threshold and pass the validator rules. Milwaukee -1.5 at -110 is the ladder pick \u2014 Misiorowski's dominance is backed by elite underlying metrics (2.23 xERA, 2.21 xFIP, 37.8% whiff rate), and Painter has been getting shelled. Minnesota ML at -136 offers Ryan's command edge against a weaker Cardinals arm. The Mets-Braves Under 8.0 pairs two high-K starters at a HR-suppressing park. The Dodgers-White Sox Under 9.0 banks on Sasaki's recent form and Kay's limitations. The Misiorowski K Over and Ryan K Over round out the card as high-floor prop plays backed by elite strikeout rates against vulnerable lineups.",
-      "slate_vibe": "NORMAL",
-      "published_at": "2026-06-12T13:39:53.184654-04:00"
-    },
-    {
-      "id": "20260612-MLB-ATL-NYM-TOTAL",
-      "sport": "MLB",
-      "game": "ATL @ NYM",
-      "first_pitch_iso": "2026-06-12T23:15Z",
-      "pick": "Under 8.0",
-      "best_book": "DraftKings",
-      "best_odds": "-105",
-      "book_prices": {
-        "draftkings": "-105",
-        "fanduel": "-105",
-        "betmgm": "-105"
-      },
-      "book_links": {
-        "draftkings": "https://sportsbook.draftkings.com/?outcomes=0OU85118640U800_3",
-        "betmgm": "https://sports.nj.betmgm.com/en/sports?options=19643565-1527043184-2210575040&type=Single",
-        "fanduel": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.585011681&selectionId=7017906"
-      },
-      "market": "TOTAL",
-      "confidence": 4,
-      "units": 1.5,
-      "win_probability": 0.6,
-      "ladder_designation": false,
-      "data_confidence": 0.7,
-      "rules_passed": [
-        "max_juice",
-        "ladder_even_money",
-        "parlay_well_formed",
-        "confidence_units_match",
-        "data_confidence_floor",
-        "pick_type_allowed",
-        "mlb_hr_prop_check",
-        "mlb_pitcher_k_check",
-        "mlb_total_bases_check",
-        "mlb_hits_check",
-        "nba_player_prop_check",
-        "nhl_shots_check",
-        "mlb_run_line_check",
-        "mlb_under_bb_check",
-        "no_same_game_opposite"
-      ],
-      "locked": true,
-      "late_add": false,
-      "late_add_reason": "",
-      "bonus_pick": false,
-      "event_type": "",
-      "event_name": "",
-      "legs": [],
-      "headline": "Two high-K starters (McLean 27.4%, Strider 29.1%) at HR-suppressing Citi Field.",
-      "the_thesis": "This is a classic pitchers' duel setup at one of baseball's most pitcher-friendly parks. Nolan McLean has been excellent for the Mets \u2014 his 3.98 ERA is backed by a 27.4% K rate and 1.11 WHIP. He's been efficient and keeps the ball in the park (1.0 HR/9). Spencer Strider, despite his 4.00 ERA, still has elite stuff \u2014 his 29.1% K rate shows he's still missing bats, even if the walks (12.8% BB rate) have been an issue.\n\nCiti Field is the key here. The park suppresses home runs (0.91 HR PF) and runs (0.97 runs PF). Both offenses have been modest \u2014 the Mets at 4.0 R/G and the Braves at 5.15 R/G. But the Braves' offense has been inflated by some blowout wins; against quality pitching, they've struggled.\n\nThe 8.0 total is low, but both starters have the stuff to keep this game in the 3-4 run range for each team. We need 7 or fewer combined runs to cash, and that's very achievable with two strikeout artists at a pitcher-friendly park.",
-      "the_data": [
-        {
-          "label": "McLean K% / WHIP",
-          "value": "27.4% / 1.11",
-          "context": "Solid starter"
-        },
-        {
-          "label": "Strider K%",
-          "value": "29.1%",
-          "context": "Elite strikeout rate"
-        },
-        {
-          "label": "Citi Field HR PF",
-          "value": "0.91",
-          "context": "HR-suppressing"
-        },
-        {
-          "label": "Citi Field runs PF",
-          "value": "0.97",
-          "context": "Pitcher-friendly"
-        },
-        {
-          "label": "Mets R/G",
-          "value": "4.0",
-          "context": "Below average"
-        },
-        {
-          "label": "Braves R/G",
-          "value": "5.15",
-          "context": "Inflated by blowouts"
-        }
-      ],
-      "the_market": "The total opened at 8.0 and has held. All three books have it at -105/-105 \u2014 no movement, no sharp action either way. The market sees this as a coin flip, but the park and pitching favor the under.",
-      "weather_park": "Citi Field, outdoor, HR-suppressing (0.91 PF). Weather should be fine for a night game in New York.",
-      "case_against": "Strider's 12.8% walk rate is concerning \u2014 free baserunners can turn into runs. If either bullpen gets exposed, this could sail over. The Braves offense is legitimately dangerous when they're clicking.",
-      "what_were_betting_on": "Both starters going 5+ innings with limited damage, the park suppressing any fly balls that get hit, and a low-scoring affair in the 3-4 range for each team.",
-      "scott_bot_quip": "Two K artists at a graveyard for fly balls. We'll take the under.",
-      "ladder_note": "",
-      "date": "2026-06-12",
-      "status": "PEND",
-      "units_result": null,
-      "clv_cents": null,
-      "result_score": null,
-      "graded_at": null,
-      "slate_assessment": "Friday's 17-game MLB slate features one dominant pitching matchup in Milwaukee (Misiorowski vs Painter) and several solid angles on totals and pitcher props, but data confidence is thin across the board with lineups not yet confirmed.",
-      "executive_summary": "The Brewers-Phillies matchup is the headliner tonight \u2014 Jacob Misiorowski is pitching at a generational level with a 1.50 ERA, 0.81 WHIP, and 38.4% K rate, facing Andrew Painter's 6.21 ERA. Milwaukee -110 on the run line is the ladder pick with the highest floor on the board. Joe Ryan's elite command (1.00 WHIP, 27.3% K rate) against a Cardinals lineup facing a pitcher mismatch gives us another strong side. The Dodgers-White Sox total and a couple of pitcher K props round out a six-pick card that leans heavily on pitching edges in neutral-to-pitcher-friendly parks.",
-      "slate_analysis": "Tonight's board features 17 MLB games with no NBA or NHL action. The pricing climate is relatively tight across most matchups, with only a handful of games showing clear edges. Data confidence sits at 0.4 across the board because lineups aren't confirmed yet \u2014 that's a universal issue today, not a disqualifier for individual games.\n\nThe top candidates that rose during my review: Milwaukee-Philadelphia stands out immediately with Misiorowski's historic 2026 campaign (1.50 ERA, 0.81 WHIP, 38.4% K rate) against Painter's struggling 6.21 ERA. Minnesota-St. Louis offers Joe Ryan's elite command (3.07 ERA, 1.00 WHIP) against Kyle Leahy's 4.42 ERA. The Dodgers-White Sox total caught my eye with Sasaki's recent turnaround and the HR-boosting park. Baltimore-San Diego features Griffin Canning's exploitable 1.68 HR/9 against a potent Orioles lineup. I also evaluated the Mets-Braves under with two high-K starters at pitcher-friendly Citi Field, and the Giants-Cubs under at Oracle Park.\n\nWhat got cut: The Pirates-Marlins game has data confidence at 0.4 and no clear edge \u2014 Ashcraft vs Alcantara is a coin flip. Seattle-Washington looked interesting with Bryce Miller's 1.33 ERA, but his 27 IP sample is too thin and the Mariners ML sits at -146 (exceeds my comfort zone for edge vs juice). Cleveland-Detroit is a near pick-em with both pitchers sporting similar profiles \u2014 no edge. The Athletics-Rockies game has a 13.5+ total and unknown park factors in Las Vegas \u2014 too much variance. The Yankees-Blue Jays game lacks a confirmed Toronto starter, killing data confidence.\n\nThe final six picks survived because they each clear the 8-cent edge threshold and pass the validator rules. Milwaukee -1.5 at -110 is the ladder pick \u2014 Misiorowski's dominance is backed by elite underlying metrics (2.23 xERA, 2.21 xFIP, 37.8% whiff rate), and Painter has been getting shelled. Minnesota ML at -136 offers Ryan's command edge against a weaker Cardinals arm. The Mets-Braves Under 8.0 pairs two high-K starters at a HR-suppressing park. The Dodgers-White Sox Under 9.0 banks on Sasaki's recent form and Kay's limitations. The Misiorowski K Over and Ryan K Over round out the card as high-floor prop plays backed by elite strikeout rates against vulnerable lineups.",
-      "slate_vibe": "NORMAL",
-      "published_at": "2026-06-12T13:39:53.184609-04:00"
-    },
-    {
-      "id": "20260612-MLB-STL-MIN-ML",
-      "sport": "MLB",
-      "game": "STL @ MIN",
-      "first_pitch_iso": "2026-06-13T00:10Z",
-      "pick": "Minnesota Twins ML",
-      "best_book": "FanDuel",
-      "best_odds": "-136",
-      "book_prices": {
-        "draftkings": "-137",
-        "fanduel": "-136",
-        "betmgm": "-140"
-      },
-      "book_links": {
-        "fanduel": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.584889131&selectionId=29160",
-        "draftkings": "https://sportsbook.draftkings.com/?outcomes=0ML85118757_1",
-        "betmgm": "https://sports.nj.betmgm.com/en/sports?options=19644366-1527170247-2210877640&type=Single"
-      },
-      "market": "ML",
-      "confidence": 4,
-      "units": 1.5,
-      "win_probability": 0.61,
-      "ladder_designation": false,
-      "data_confidence": 0.7,
-      "rules_passed": [
-        "max_juice",
-        "ladder_even_money",
-        "parlay_well_formed",
-        "confidence_units_match",
-        "data_confidence_floor",
-        "pick_type_allowed",
-        "mlb_hr_prop_check",
-        "mlb_pitcher_k_check",
-        "mlb_total_bases_check",
-        "mlb_hits_check",
-        "nba_player_prop_check",
-        "nhl_shots_check",
-        "mlb_run_line_check",
-        "mlb_under_bb_check",
-        "no_same_game_opposite"
-      ],
-      "locked": true,
-      "late_add": false,
-      "late_add_reason": "",
-      "bonus_pick": false,
-      "event_type": "",
-      "event_name": "",
-      "legs": [],
-      "headline": "Joe Ryan's elite command (1.00 WHIP, 27.3% K rate) faces Kyle Leahy's walk-prone 4.42 ERA.",
-      "the_thesis": "Joe Ryan has been one of the most consistent starters in baseball this season. His 3.07 ERA is backed by a 1.00 WHIP and 27.3% K rate \u2014 he's not walking anyone (5.2% BB rate) and he's missing bats. His 0.83 HR/9 shows he's keeping the ball in the park, and his 76.1 IP gives us a reliable sample. Ryan matched his career high with 12 strikeouts against the Astros last month and has been a model of efficiency.\n\nKyle Leahy, on the other hand, is a walk machine. His 8.9% BB rate and 1.58 WHIP tell you he's constantly in trouble. His 4.42 ERA understates the damage because he's been bailed out by his defense at times. The Cardinals offense has been league-average (4.52 R/G), but they're facing a pitcher who simply doesn't give free passes.\n\nTarget Field is a neutral park (0.98 runs PF), and the weather looks fine \u2014 79\u00b0F with 10 mph wind. The Twins at home with their ace on the mound is a spot we want to be in.",
-      "the_data": [
-        {
-          "label": "Ryan ERA / WHIP",
-          "value": "3.07 / 1.00",
-          "context": "Elite command"
-        },
-        {
-          "label": "Ryan K% / BB%",
-          "value": "27.3% / 5.2%",
-          "context": "Excellent ratio"
-        },
-        {
-          "label": "Ryan HR/9",
-          "value": "0.83",
-          "context": "Keeps ball in park"
-        },
-        {
-          "label": "Leahy ERA / WHIP",
-          "value": "4.42 / 1.58",
-          "context": "Walk-prone"
-        },
-        {
-          "label": "Leahy BB%",
-          "value": "8.9%",
-          "context": "Free passes"
-        },
-        {
-          "label": "Twins R/G",
-          "value": "4.54",
-          "context": "Solid offense"
-        }
-      ],
-      "the_market": "Minnesota opened around -135 and has held steady. The -136 at FanDuel is the best price among our three books. No significant line movement \u2014 the market agrees this is a Twins spot.",
-      "weather_park": "Target Field, 79\u00b0F, 10 mph wind, 44% chance of precipitation earlier in the day but clear by game time. Neutral park factors.",
-      "case_against": "The Cardinals have been scrappy and Leahy could settle in for a quality start. Ryan's HR/9 has been good but he's given up some hard contact lately. If the Twins offense goes cold, this becomes a one-run game.",
-      "what_were_betting_on": "Ryan going 6+ innings with minimal damage, the Twins offense capitalizing on Leahy's walks, and Minnesota's bullpen holding a lead.",
-      "scott_bot_quip": "Ryan doesn't walk people. Leahy does. Math is math.",
-      "ladder_note": "",
-      "date": "2026-06-12",
-      "status": "PEND",
-      "units_result": null,
-      "clv_cents": null,
-      "result_score": null,
-      "graded_at": null,
-      "slate_assessment": "Friday's 17-game MLB slate features one dominant pitching matchup in Milwaukee (Misiorowski vs Painter) and several solid angles on totals and pitcher props, but data confidence is thin across the board with lineups not yet confirmed.",
-      "executive_summary": "The Brewers-Phillies matchup is the headliner tonight \u2014 Jacob Misiorowski is pitching at a generational level with a 1.50 ERA, 0.81 WHIP, and 38.4% K rate, facing Andrew Painter's 6.21 ERA. Milwaukee -110 on the run line is the ladder pick with the highest floor on the board. Joe Ryan's elite command (1.00 WHIP, 27.3% K rate) against a Cardinals lineup facing a pitcher mismatch gives us another strong side. The Dodgers-White Sox total and a couple of pitcher K props round out a six-pick card that leans heavily on pitching edges in neutral-to-pitcher-friendly parks.",
-      "slate_analysis": "Tonight's board features 17 MLB games with no NBA or NHL action. The pricing climate is relatively tight across most matchups, with only a handful of games showing clear edges. Data confidence sits at 0.4 across the board because lineups aren't confirmed yet \u2014 that's a universal issue today, not a disqualifier for individual games.\n\nThe top candidates that rose during my review: Milwaukee-Philadelphia stands out immediately with Misiorowski's historic 2026 campaign (1.50 ERA, 0.81 WHIP, 38.4% K rate) against Painter's struggling 6.21 ERA. Minnesota-St. Louis offers Joe Ryan's elite command (3.07 ERA, 1.00 WHIP) against Kyle Leahy's 4.42 ERA. The Dodgers-White Sox total caught my eye with Sasaki's recent turnaround and the HR-boosting park. Baltimore-San Diego features Griffin Canning's exploitable 1.68 HR/9 against a potent Orioles lineup. I also evaluated the Mets-Braves under with two high-K starters at pitcher-friendly Citi Field, and the Giants-Cubs under at Oracle Park.\n\nWhat got cut: The Pirates-Marlins game has data confidence at 0.4 and no clear edge \u2014 Ashcraft vs Alcantara is a coin flip. Seattle-Washington looked interesting with Bryce Miller's 1.33 ERA, but his 27 IP sample is too thin and the Mariners ML sits at -146 (exceeds my comfort zone for edge vs juice). Cleveland-Detroit is a near pick-em with both pitchers sporting similar profiles \u2014 no edge. The Athletics-Rockies game has a 13.5+ total and unknown park factors in Las Vegas \u2014 too much variance. The Yankees-Blue Jays game lacks a confirmed Toronto starter, killing data confidence.\n\nThe final six picks survived because they each clear the 8-cent edge threshold and pass the validator rules. Milwaukee -1.5 at -110 is the ladder pick \u2014 Misiorowski's dominance is backed by elite underlying metrics (2.23 xERA, 2.21 xFIP, 37.8% whiff rate), and Painter has been getting shelled. Minnesota ML at -136 offers Ryan's command edge against a weaker Cardinals arm. The Mets-Braves Under 8.0 pairs two high-K starters at a HR-suppressing park. The Dodgers-White Sox Under 9.0 banks on Sasaki's recent form and Kay's limitations. The Misiorowski K Over and Ryan K Over round out the card as high-floor prop plays backed by elite strikeout rates against vulnerable lineups.",
-      "slate_vibe": "NORMAL",
-      "published_at": "2026-06-12T13:39:53.184561-04:00"
-    },
-    {
-      "id": "20260612-MLB-PHI-MIL-SPREAD",
-      "sport": "MLB",
-      "game": "PHI @ MIL",
-      "first_pitch_iso": "2026-06-12T23:40Z",
-      "pick": "Milwaukee Brewers -1.5",
-      "best_book": "FanDuel",
-      "best_odds": "-110",
-      "book_prices": {
-        "draftkings": "-117",
-        "fanduel": "-110",
-        "betmgm": "-118"
-      },
-      "book_links": {
-        "fanduel": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.585012964&selectionId=29172",
-        "draftkings": "https://sportsbook.draftkings.com/?outcomes=0HC85118643N150_1",
-        "betmgm": "https://sports.nj.betmgm.com/en/sports?options=19644365-1527170179-2210877504&type=Single"
-      },
-      "market": "SPREAD",
-      "confidence": 5,
-      "units": 2.0,
-      "win_probability": 0.64,
-      "ladder_designation": true,
-      "data_confidence": 0.75,
-      "rules_passed": [
-        "max_juice",
-        "ladder_even_money",
-        "parlay_well_formed",
-        "confidence_units_match",
-        "data_confidence_floor",
-        "pick_type_allowed",
-        "mlb_hr_prop_check",
-        "mlb_pitcher_k_check",
-        "mlb_total_bases_check",
-        "mlb_hits_check",
-        "nba_player_prop_check",
-        "nhl_shots_check",
-        "mlb_run_line_check",
-        "mlb_under_bb_check",
-        "no_same_game_opposite"
-      ],
-      "locked": true,
-      "late_add": false,
-      "late_add_reason": "",
-      "bonus_pick": false,
-      "event_type": "",
-      "event_name": "",
-      "legs": [],
-      "headline": "Misiorowski is pitching at a generational level \u2014 1.50 ERA, 0.81 WHIP, 38.4% K rate \u2014 against Painter's 6.21 ERA.",
-      "the_thesis": "Jacob Misiorowski isn't just good right now \u2014 he's historically dominant. His 1.50 ERA leads MLB, but the underlying metrics are even more impressive: a 2.23 xERA, 2.21 xFIP, and 0.81 WHIP that all rank first in baseball. He's thrown six shutouts in his last seven starts and hasn't allowed more than three runs in any start this season. His 37.8% whiff rate sits in the 98th percentile, and he's generating swings and misses at a rate that makes opposing lineups look helpless.\n\nAndrew Painter, meanwhile, has been getting shelled. His 6.21 ERA and 1.57 WHIP tell the story of a pitcher who can't locate and can't miss bats. His 1.71 HR/9 is particularly concerning against a Brewers lineup that ranks among the league's best in runs per game (5.33). The Phillies offense has been mediocre (4.06 R/G), and they're walking into a buzzsaw.\n\nThe run line at -110 is the play because Misiorowski's dominance creates separation. When you're facing a pitcher who's allowed just one run in his last seven starts combined, you don't need to sweat a one-run margin. The Brewers bullpen has been solid, and the Phillies have no answer for Misiorowski's triple-digit heat.",
-      "the_data": [
-        {
-          "label": "Misiorowski ERA / xERA",
-          "value": "1.50 / 2.23",
-          "context": "1st in MLB in both"
-        },
-        {
-          "label": "Misiorowski WHIP",
-          "value": "0.81",
-          "context": "1st in MLB"
-        },
-        {
-          "label": "Misiorowski K%",
-          "value": "38.4%",
-          "context": "98th percentile"
-        },
-        {
-          "label": "Misiorowski whiff rate",
-          "value": "37.8%",
-          "context": "98th percentile"
-        },
-        {
-          "label": "Painter ERA / WHIP",
-          "value": "6.21 / 1.57",
-          "context": "Getting shelled"
-        },
-        {
-          "label": "Brewers R/G",
-          "value": "5.33",
-          "context": "Top-tier offense"
-        },
-        {
-          "label": "Phillies R/G",
-          "value": "4.06",
-          "context": "Below average"
-        }
-      ],
-      "the_market": "Milwaukee opened as heavy favorites and the run line has held steady at -1.5. The -110 juice at FanDuel is the best available \u2014 DraftKings and BetMGM are both at -117/-118. Sharp money has been on Milwaukee all week.",
-      "weather_park": "American Family Field is a dome \u2014 weather is irrelevant. Park factors are neutral (1.00 runs, 1.06 HR).",
-      "case_against": "Misiorowski has dealt with quad cramps in two of his last three starts. If he exits early, the Brewers bullpen would need to hold a lead against a Phillies lineup that can get hot. Painter could also find his stuff for one night \u2014 he has the raw talent, just not the consistency.",
-      "what_were_betting_on": "Misiorowski going 6+ dominant innings, the Brewers offense tagging Painter early, and Milwaukee's bullpen closing it out with a multi-run cushion.",
-      "scott_bot_quip": "Painter brought a brush to a flamethrower fight.",
-      "ladder_note": "This is the ladder pick because Misiorowski's floor is the highest on the board. He's allowed one run in his last 42+ innings. Even if the Brewers offense has a quiet night, Misiorowski can carry this game himself. The -110 juice on the run line lands us in the even-money band for the ladder challenge.",
-      "date": "2026-06-12",
-      "status": "PEND",
-      "units_result": null,
-      "clv_cents": null,
-      "result_score": null,
-      "graded_at": null,
-      "slate_assessment": "Friday's 17-game MLB slate features one dominant pitching matchup in Milwaukee (Misiorowski vs Painter) and several solid angles on totals and pitcher props, but data confidence is thin across the board with lineups not yet confirmed.",
-      "executive_summary": "The Brewers-Phillies matchup is the headliner tonight \u2014 Jacob Misiorowski is pitching at a generational level with a 1.50 ERA, 0.81 WHIP, and 38.4% K rate, facing Andrew Painter's 6.21 ERA. Milwaukee -110 on the run line is the ladder pick with the highest floor on the board. Joe Ryan's elite command (1.00 WHIP, 27.3% K rate) against a Cardinals lineup facing a pitcher mismatch gives us another strong side. The Dodgers-White Sox total and a couple of pitcher K props round out a six-pick card that leans heavily on pitching edges in neutral-to-pitcher-friendly parks.",
-      "slate_analysis": "Tonight's board features 17 MLB games with no NBA or NHL action. The pricing climate is relatively tight across most matchups, with only a handful of games showing clear edges. Data confidence sits at 0.4 across the board because lineups aren't confirmed yet \u2014 that's a universal issue today, not a disqualifier for individual games.\n\nThe top candidates that rose during my review: Milwaukee-Philadelphia stands out immediately with Misiorowski's historic 2026 campaign (1.50 ERA, 0.81 WHIP, 38.4% K rate) against Painter's struggling 6.21 ERA. Minnesota-St. Louis offers Joe Ryan's elite command (3.07 ERA, 1.00 WHIP) against Kyle Leahy's 4.42 ERA. The Dodgers-White Sox total caught my eye with Sasaki's recent turnaround and the HR-boosting park. Baltimore-San Diego features Griffin Canning's exploitable 1.68 HR/9 against a potent Orioles lineup. I also evaluated the Mets-Braves under with two high-K starters at pitcher-friendly Citi Field, and the Giants-Cubs under at Oracle Park.\n\nWhat got cut: The Pirates-Marlins game has data confidence at 0.4 and no clear edge \u2014 Ashcraft vs Alcantara is a coin flip. Seattle-Washington looked interesting with Bryce Miller's 1.33 ERA, but his 27 IP sample is too thin and the Mariners ML sits at -146 (exceeds my comfort zone for edge vs juice). Cleveland-Detroit is a near pick-em with both pitchers sporting similar profiles \u2014 no edge. The Athletics-Rockies game has a 13.5+ total and unknown park factors in Las Vegas \u2014 too much variance. The Yankees-Blue Jays game lacks a confirmed Toronto starter, killing data confidence.\n\nThe final six picks survived because they each clear the 8-cent edge threshold and pass the validator rules. Milwaukee -1.5 at -110 is the ladder pick \u2014 Misiorowski's dominance is backed by elite underlying metrics (2.23 xERA, 2.21 xFIP, 37.8% whiff rate), and Painter has been getting shelled. Minnesota ML at -136 offers Ryan's command edge against a weaker Cardinals arm. The Mets-Braves Under 8.0 pairs two high-K starters at a HR-suppressing park. The Dodgers-White Sox Under 9.0 banks on Sasaki's recent form and Kay's limitations. The Misiorowski K Over and Ryan K Over round out the card as high-floor prop plays backed by elite strikeout rates against vulnerable lineups.",
-      "slate_vibe": "NORMAL",
-      "published_at": "2026-06-12T13:39:53.184470-04:00"
-    }
-  ],
+  "today_picks": [],
   "today_bonus_picks": [],
   "all_picks": [
     {
@@ -681,11 +90,11 @@
       "scott_bot_quip": "Ryan's K rate says 6. The Cardinals' contact rate agrees.",
       "ladder_note": "",
       "date": "2026-06-12",
-      "status": "PEND",
-      "units_result": null,
+      "status": "WIN",
+      "units_result": 0.9091,
       "clv_cents": null,
-      "result_score": null,
-      "graded_at": null,
+      "result_score": "Joe Ryan: 8 strikeOuts",
+      "graded_at": "2026-06-13T03:03:27.953251-04:00",
       "slate_assessment": "Friday's 17-game MLB slate features one dominant pitching matchup in Milwaukee (Misiorowski vs Painter) and several solid angles on totals and pitcher props, but data confidence is thin across the board with lineups not yet confirmed.",
       "executive_summary": "The Brewers-Phillies matchup is the headliner tonight \u2014 Jacob Misiorowski is pitching at a generational level with a 1.50 ERA, 0.81 WHIP, and 38.4% K rate, facing Andrew Painter's 6.21 ERA. Milwaukee -110 on the run line is the ladder pick with the highest floor on the board. Joe Ryan's elite command (1.00 WHIP, 27.3% K rate) against a Cardinals lineup facing a pitcher mismatch gives us another strong side. The Dodgers-White Sox total and a couple of pitcher K props round out a six-pick card that leans heavily on pitching edges in neutral-to-pitcher-friendly parks.",
       "slate_analysis": "Tonight's board features 17 MLB games with no NBA or NHL action. The pricing climate is relatively tight across most matchups, with only a handful of games showing clear edges. Data confidence sits at 0.4 across the board because lineups aren't confirmed yet \u2014 that's a universal issue today, not a disqualifier for individual games.\n\nThe top candidates that rose during my review: Milwaukee-Philadelphia stands out immediately with Misiorowski's historic 2026 campaign (1.50 ERA, 0.81 WHIP, 38.4% K rate) against Painter's struggling 6.21 ERA. Minnesota-St. Louis offers Joe Ryan's elite command (3.07 ERA, 1.00 WHIP) against Kyle Leahy's 4.42 ERA. The Dodgers-White Sox total caught my eye with Sasaki's recent turnaround and the HR-boosting park. Baltimore-San Diego features Griffin Canning's exploitable 1.68 HR/9 against a potent Orioles lineup. I also evaluated the Mets-Braves under with two high-K starters at pitcher-friendly Citi Field, and the Giants-Cubs under at Oracle Park.\n\nWhat got cut: The Pirates-Marlins game has data confidence at 0.4 and no clear edge \u2014 Ashcraft vs Alcantara is a coin flip. Seattle-Washington looked interesting with Bryce Miller's 1.33 ERA, but his 27 IP sample is too thin and the Mariners ML sits at -146 (exceeds my comfort zone for edge vs juice). Cleveland-Detroit is a near pick-em with both pitchers sporting similar profiles \u2014 no edge. The Athletics-Rockies game has a 13.5+ total and unknown park factors in Las Vegas \u2014 too much variance. The Yankees-Blue Jays game lacks a confirmed Toronto starter, killing data confidence.\n\nThe final six picks survived because they each clear the 8-cent edge threshold and pass the validator rules. Milwaukee -1.5 at -110 is the ladder pick \u2014 Misiorowski's dominance is backed by elite underlying metrics (2.23 xERA, 2.21 xFIP, 37.8% whiff rate), and Painter has been getting shelled. Minnesota ML at -136 offers Ryan's command edge against a weaker Cardinals arm. The Mets-Braves Under 8.0 pairs two high-K starters at a HR-suppressing park. The Dodgers-White Sox Under 9.0 banks on Sasaki's recent form and Kay's limitations. The Misiorowski K Over and Ryan K Over round out the card as high-floor prop plays backed by elite strikeout rates against vulnerable lineups.",
@@ -776,11 +185,11 @@
       "scott_bot_quip": "The line is 6.5. He's averaging 8. Do the math.",
       "ladder_note": "",
       "date": "2026-06-12",
-      "status": "PEND",
-      "units_result": null,
+      "status": "WIN",
+      "units_result": 1.3043,
       "clv_cents": null,
-      "result_score": null,
-      "graded_at": null,
+      "result_score": "Jacob Misiorowski: 15 strikeOuts",
+      "graded_at": "2026-06-13T03:03:28.052079-04:00",
       "slate_assessment": "Friday's 17-game MLB slate features one dominant pitching matchup in Milwaukee (Misiorowski vs Painter) and several solid angles on totals and pitcher props, but data confidence is thin across the board with lineups not yet confirmed.",
       "executive_summary": "The Brewers-Phillies matchup is the headliner tonight \u2014 Jacob Misiorowski is pitching at a generational level with a 1.50 ERA, 0.81 WHIP, and 38.4% K rate, facing Andrew Painter's 6.21 ERA. Milwaukee -110 on the run line is the ladder pick with the highest floor on the board. Joe Ryan's elite command (1.00 WHIP, 27.3% K rate) against a Cardinals lineup facing a pitcher mismatch gives us another strong side. The Dodgers-White Sox total and a couple of pitcher K props round out a six-pick card that leans heavily on pitching edges in neutral-to-pitcher-friendly parks.",
       "slate_analysis": "Tonight's board features 17 MLB games with no NBA or NHL action. The pricing climate is relatively tight across most matchups, with only a handful of games showing clear edges. Data confidence sits at 0.4 across the board because lineups aren't confirmed yet \u2014 that's a universal issue today, not a disqualifier for individual games.\n\nThe top candidates that rose during my review: Milwaukee-Philadelphia stands out immediately with Misiorowski's historic 2026 campaign (1.50 ERA, 0.81 WHIP, 38.4% K rate) against Painter's struggling 6.21 ERA. Minnesota-St. Louis offers Joe Ryan's elite command (3.07 ERA, 1.00 WHIP) against Kyle Leahy's 4.42 ERA. The Dodgers-White Sox total caught my eye with Sasaki's recent turnaround and the HR-boosting park. Baltimore-San Diego features Griffin Canning's exploitable 1.68 HR/9 against a potent Orioles lineup. I also evaluated the Mets-Braves under with two high-K starters at pitcher-friendly Citi Field, and the Giants-Cubs under at Oracle Park.\n\nWhat got cut: The Pirates-Marlins game has data confidence at 0.4 and no clear edge \u2014 Ashcraft vs Alcantara is a coin flip. Seattle-Washington looked interesting with Bryce Miller's 1.33 ERA, but his 27 IP sample is too thin and the Mariners ML sits at -146 (exceeds my comfort zone for edge vs juice). Cleveland-Detroit is a near pick-em with both pitchers sporting similar profiles \u2014 no edge. The Athletics-Rockies game has a 13.5+ total and unknown park factors in Las Vegas \u2014 too much variance. The Yankees-Blue Jays game lacks a confirmed Toronto starter, killing data confidence.\n\nThe final six picks survived because they each clear the 8-cent edge threshold and pass the validator rules. Milwaukee -1.5 at -110 is the ladder pick \u2014 Misiorowski's dominance is backed by elite underlying metrics (2.23 xERA, 2.21 xFIP, 37.8% whiff rate), and Painter has been getting shelled. Minnesota ML at -136 offers Ryan's command edge against a weaker Cardinals arm. The Mets-Braves Under 8.0 pairs two high-K starters at a HR-suppressing park. The Dodgers-White Sox Under 9.0 banks on Sasaki's recent form and Kay's limitations. The Misiorowski K Over and Ryan K Over round out the card as high-floor prop plays backed by elite strikeout rates against vulnerable lineups.",
@@ -871,16 +280,22 @@
       "scott_bot_quip": "Sasaki found his fastball. The White Sox haven't found their bats all year.",
       "ladder_note": "",
       "date": "2026-06-12",
-      "status": "PEND",
-      "units_result": null,
+      "status": "LOSS",
+      "units_result": -1.0,
       "clv_cents": null,
-      "result_score": null,
-      "graded_at": null,
+      "result_score": "LAD 2 \u00b7 CHW 8",
+      "graded_at": "2026-06-13T03:03:28.056265-04:00",
       "slate_assessment": "Friday's 17-game MLB slate features one dominant pitching matchup in Milwaukee (Misiorowski vs Painter) and several solid angles on totals and pitcher props, but data confidence is thin across the board with lineups not yet confirmed.",
       "executive_summary": "The Brewers-Phillies matchup is the headliner tonight \u2014 Jacob Misiorowski is pitching at a generational level with a 1.50 ERA, 0.81 WHIP, and 38.4% K rate, facing Andrew Painter's 6.21 ERA. Milwaukee -110 on the run line is the ladder pick with the highest floor on the board. Joe Ryan's elite command (1.00 WHIP, 27.3% K rate) against a Cardinals lineup facing a pitcher mismatch gives us another strong side. The Dodgers-White Sox total and a couple of pitcher K props round out a six-pick card that leans heavily on pitching edges in neutral-to-pitcher-friendly parks.",
       "slate_analysis": "Tonight's board features 17 MLB games with no NBA or NHL action. The pricing climate is relatively tight across most matchups, with only a handful of games showing clear edges. Data confidence sits at 0.4 across the board because lineups aren't confirmed yet \u2014 that's a universal issue today, not a disqualifier for individual games.\n\nThe top candidates that rose during my review: Milwaukee-Philadelphia stands out immediately with Misiorowski's historic 2026 campaign (1.50 ERA, 0.81 WHIP, 38.4% K rate) against Painter's struggling 6.21 ERA. Minnesota-St. Louis offers Joe Ryan's elite command (3.07 ERA, 1.00 WHIP) against Kyle Leahy's 4.42 ERA. The Dodgers-White Sox total caught my eye with Sasaki's recent turnaround and the HR-boosting park. Baltimore-San Diego features Griffin Canning's exploitable 1.68 HR/9 against a potent Orioles lineup. I also evaluated the Mets-Braves under with two high-K starters at pitcher-friendly Citi Field, and the Giants-Cubs under at Oracle Park.\n\nWhat got cut: The Pirates-Marlins game has data confidence at 0.4 and no clear edge \u2014 Ashcraft vs Alcantara is a coin flip. Seattle-Washington looked interesting with Bryce Miller's 1.33 ERA, but his 27 IP sample is too thin and the Mariners ML sits at -146 (exceeds my comfort zone for edge vs juice). Cleveland-Detroit is a near pick-em with both pitchers sporting similar profiles \u2014 no edge. The Athletics-Rockies game has a 13.5+ total and unknown park factors in Las Vegas \u2014 too much variance. The Yankees-Blue Jays game lacks a confirmed Toronto starter, killing data confidence.\n\nThe final six picks survived because they each clear the 8-cent edge threshold and pass the validator rules. Milwaukee -1.5 at -110 is the ladder pick \u2014 Misiorowski's dominance is backed by elite underlying metrics (2.23 xERA, 2.21 xFIP, 37.8% whiff rate), and Painter has been getting shelled. Minnesota ML at -136 offers Ryan's command edge against a weaker Cardinals arm. The Mets-Braves Under 8.0 pairs two high-K starters at a HR-suppressing park. The Dodgers-White Sox Under 9.0 banks on Sasaki's recent form and Kay's limitations. The Misiorowski K Over and Ryan K Over round out the card as high-floor prop plays backed by elite strikeout rates against vulnerable lineups.",
       "slate_vibe": "NORMAL",
-      "published_at": "2026-06-12T13:39:53.184654-04:00"
+      "published_at": "2026-06-12T13:39:53.184654-04:00",
+      "autopsy": {
+        "classification": "MODEL",
+        "post_mortem": "The thesis leaned entirely on Sasaki replicating his Angels masterpiece, but he reverted to his early-season self: 91 pitches, only 53 strikes, and a catastrophic 5th inning in which Chicago sent 11 batters to the plate and scored 7 runs \u2014 including a tiebreaking Vargas RBI double and a bases-loaded walk on 4 pitches to Braden Montgomery. Sasaki finished 4.1 IP, 7 R, 7 H, 3 BB, and was pulled before recording the 5th-inning out. A compounding DATA wrinkle: Shohei Ohtani was scratched pre-game with knee inflammation, quietly gutting the Dodgers' most dangerous bat from the lineup the model assumed would be active.",
+        "candidate_rule": "Before capping an Under on a Sasaki start, require his last-7-days command metrics (BB/9, Strike%) to confirm the Angels outing wasn't an outlier \u2014 one elite start does not establish a trend; N=1 on the Ohtani-scratch-deflates-Dodgers-offense pattern, also insufficient to formalize.",
+        "sample_size_warning": "N=1 loss, insufficient to establish a rule. Single-start regression is inherent pitcher variance, but the structural error \u2014 projecting forward from one career-best outing without confirming command stability \u2014 is a repeatable model mistake worth tracking."
+      }
     },
     {
       "id": "20260612-MLB-ATL-NYM-TOTAL",
@@ -971,16 +386,22 @@
       "scott_bot_quip": "Two K artists at a graveyard for fly balls. We'll take the under.",
       "ladder_note": "",
       "date": "2026-06-12",
-      "status": "PEND",
-      "units_result": null,
+      "status": "LOSS",
+      "units_result": -1.5,
       "clv_cents": null,
-      "result_score": null,
-      "graded_at": null,
+      "result_score": "ATL 5 \u00b7 NYM 7",
+      "graded_at": "2026-06-13T03:03:49.242473-04:00",
       "slate_assessment": "Friday's 17-game MLB slate features one dominant pitching matchup in Milwaukee (Misiorowski vs Painter) and several solid angles on totals and pitcher props, but data confidence is thin across the board with lineups not yet confirmed.",
       "executive_summary": "The Brewers-Phillies matchup is the headliner tonight \u2014 Jacob Misiorowski is pitching at a generational level with a 1.50 ERA, 0.81 WHIP, and 38.4% K rate, facing Andrew Painter's 6.21 ERA. Milwaukee -110 on the run line is the ladder pick with the highest floor on the board. Joe Ryan's elite command (1.00 WHIP, 27.3% K rate) against a Cardinals lineup facing a pitcher mismatch gives us another strong side. The Dodgers-White Sox total and a couple of pitcher K props round out a six-pick card that leans heavily on pitching edges in neutral-to-pitcher-friendly parks.",
       "slate_analysis": "Tonight's board features 17 MLB games with no NBA or NHL action. The pricing climate is relatively tight across most matchups, with only a handful of games showing clear edges. Data confidence sits at 0.4 across the board because lineups aren't confirmed yet \u2014 that's a universal issue today, not a disqualifier for individual games.\n\nThe top candidates that rose during my review: Milwaukee-Philadelphia stands out immediately with Misiorowski's historic 2026 campaign (1.50 ERA, 0.81 WHIP, 38.4% K rate) against Painter's struggling 6.21 ERA. Minnesota-St. Louis offers Joe Ryan's elite command (3.07 ERA, 1.00 WHIP) against Kyle Leahy's 4.42 ERA. The Dodgers-White Sox total caught my eye with Sasaki's recent turnaround and the HR-boosting park. Baltimore-San Diego features Griffin Canning's exploitable 1.68 HR/9 against a potent Orioles lineup. I also evaluated the Mets-Braves under with two high-K starters at pitcher-friendly Citi Field, and the Giants-Cubs under at Oracle Park.\n\nWhat got cut: The Pirates-Marlins game has data confidence at 0.4 and no clear edge \u2014 Ashcraft vs Alcantara is a coin flip. Seattle-Washington looked interesting with Bryce Miller's 1.33 ERA, but his 27 IP sample is too thin and the Mariners ML sits at -146 (exceeds my comfort zone for edge vs juice). Cleveland-Detroit is a near pick-em with both pitchers sporting similar profiles \u2014 no edge. The Athletics-Rockies game has a 13.5+ total and unknown park factors in Las Vegas \u2014 too much variance. The Yankees-Blue Jays game lacks a confirmed Toronto starter, killing data confidence.\n\nThe final six picks survived because they each clear the 8-cent edge threshold and pass the validator rules. Milwaukee -1.5 at -110 is the ladder pick \u2014 Misiorowski's dominance is backed by elite underlying metrics (2.23 xERA, 2.21 xFIP, 37.8% whiff rate), and Painter has been getting shelled. Minnesota ML at -136 offers Ryan's command edge against a weaker Cardinals arm. The Mets-Braves Under 8.0 pairs two high-K starters at a HR-suppressing park. The Dodgers-White Sox Under 9.0 banks on Sasaki's recent form and Kay's limitations. The Misiorowski K Over and Ryan K Over round out the card as high-floor prop plays backed by elite strikeout rates against vulnerable lineups.",
       "slate_vibe": "NORMAL",
-      "published_at": "2026-06-12T13:39:53.184609-04:00"
+      "published_at": "2026-06-12T13:39:53.184609-04:00",
+      "autopsy": {
+        "classification": "VARIANCE",
+        "post_mortem": "The under was torched by a mid-game injury that nobody could model. Strider's velocity cratered inning-by-inning \u2014 from 95.7 mph in the 1st to 88.7 mph in the 4th \u2014 and before he exited with right arm soreness, he'd already surrendered a season-high 7 runs on 6 hits in 3-plus innings, including back-to-back solo HRs to Bichette and Soto in the 1st and a Bichette grand slam in the 2nd. The game was 7-2 before the 5th inning even started; the under was dead on arrival the moment Strider's elbow gave out, not because the thesis was wrong.",
+        "candidate_rule": null,
+        "sample_size_warning": "N=1, insufficient to establish rule. The injury was unforeseeable mid-game; Strider entered the start healthy and had posted a 4.00 ERA across 7 prior outings. No pre-game signal flagged this."
+      }
     },
     {
       "id": "20260612-MLB-STL-MIN-ML",
@@ -1071,11 +492,11 @@
       "scott_bot_quip": "Ryan doesn't walk people. Leahy does. Math is math.",
       "ladder_note": "",
       "date": "2026-06-12",
-      "status": "PEND",
-      "units_result": null,
+      "status": "WIN",
+      "units_result": 1.1029,
       "clv_cents": null,
-      "result_score": null,
-      "graded_at": null,
+      "result_score": "STL 8 \u00b7 MIN 9",
+      "graded_at": "2026-06-13T03:04:16.008151-04:00",
       "slate_assessment": "Friday's 17-game MLB slate features one dominant pitching matchup in Milwaukee (Misiorowski vs Painter) and several solid angles on totals and pitcher props, but data confidence is thin across the board with lineups not yet confirmed.",
       "executive_summary": "The Brewers-Phillies matchup is the headliner tonight \u2014 Jacob Misiorowski is pitching at a generational level with a 1.50 ERA, 0.81 WHIP, and 38.4% K rate, facing Andrew Painter's 6.21 ERA. Milwaukee -110 on the run line is the ladder pick with the highest floor on the board. Joe Ryan's elite command (1.00 WHIP, 27.3% K rate) against a Cardinals lineup facing a pitcher mismatch gives us another strong side. The Dodgers-White Sox total and a couple of pitcher K props round out a six-pick card that leans heavily on pitching edges in neutral-to-pitcher-friendly parks.",
       "slate_analysis": "Tonight's board features 17 MLB games with no NBA or NHL action. The pricing climate is relatively tight across most matchups, with only a handful of games showing clear edges. Data confidence sits at 0.4 across the board because lineups aren't confirmed yet \u2014 that's a universal issue today, not a disqualifier for individual games.\n\nThe top candidates that rose during my review: Milwaukee-Philadelphia stands out immediately with Misiorowski's historic 2026 campaign (1.50 ERA, 0.81 WHIP, 38.4% K rate) against Painter's struggling 6.21 ERA. Minnesota-St. Louis offers Joe Ryan's elite command (3.07 ERA, 1.00 WHIP) against Kyle Leahy's 4.42 ERA. The Dodgers-White Sox total caught my eye with Sasaki's recent turnaround and the HR-boosting park. Baltimore-San Diego features Griffin Canning's exploitable 1.68 HR/9 against a potent Orioles lineup. I also evaluated the Mets-Braves under with two high-K starters at pitcher-friendly Citi Field, and the Giants-Cubs under at Oracle Park.\n\nWhat got cut: The Pirates-Marlins game has data confidence at 0.4 and no clear edge \u2014 Ashcraft vs Alcantara is a coin flip. Seattle-Washington looked interesting with Bryce Miller's 1.33 ERA, but his 27 IP sample is too thin and the Mariners ML sits at -146 (exceeds my comfort zone for edge vs juice). Cleveland-Detroit is a near pick-em with both pitchers sporting similar profiles \u2014 no edge. The Athletics-Rockies game has a 13.5+ total and unknown park factors in Las Vegas \u2014 too much variance. The Yankees-Blue Jays game lacks a confirmed Toronto starter, killing data confidence.\n\nThe final six picks survived because they each clear the 8-cent edge threshold and pass the validator rules. Milwaukee -1.5 at -110 is the ladder pick \u2014 Misiorowski's dominance is backed by elite underlying metrics (2.23 xERA, 2.21 xFIP, 37.8% whiff rate), and Painter has been getting shelled. Minnesota ML at -136 offers Ryan's command edge against a weaker Cardinals arm. The Mets-Braves Under 8.0 pairs two high-K starters at a HR-suppressing park. The Dodgers-White Sox Under 9.0 banks on Sasaki's recent form and Kay's limitations. The Misiorowski K Over and Ryan K Over round out the card as high-floor prop plays backed by elite strikeout rates against vulnerable lineups.",
@@ -1176,11 +597,11 @@
       "scott_bot_quip": "Painter brought a brush to a flamethrower fight.",
       "ladder_note": "This is the ladder pick because Misiorowski's floor is the highest on the board. He's allowed one run in his last 42+ innings. Even if the Brewers offense has a quiet night, Misiorowski can carry this game himself. The -110 juice on the run line lands us in the even-money band for the ladder challenge.",
       "date": "2026-06-12",
-      "status": "PEND",
-      "units_result": null,
+      "status": "WIN",
+      "units_result": 1.8182,
       "clv_cents": null,
-      "result_score": null,
-      "graded_at": null,
+      "result_score": "PHI 0 \u00b7 MIL 6",
+      "graded_at": "2026-06-13T03:04:16.013422-04:00",
       "slate_assessment": "Friday's 17-game MLB slate features one dominant pitching matchup in Milwaukee (Misiorowski vs Painter) and several solid angles on totals and pitcher props, but data confidence is thin across the board with lineups not yet confirmed.",
       "executive_summary": "The Brewers-Phillies matchup is the headliner tonight \u2014 Jacob Misiorowski is pitching at a generational level with a 1.50 ERA, 0.81 WHIP, and 38.4% K rate, facing Andrew Painter's 6.21 ERA. Milwaukee -110 on the run line is the ladder pick with the highest floor on the board. Joe Ryan's elite command (1.00 WHIP, 27.3% K rate) against a Cardinals lineup facing a pitcher mismatch gives us another strong side. The Dodgers-White Sox total and a couple of pitcher K props round out a six-pick card that leans heavily on pitching edges in neutral-to-pitcher-friendly parks.",
       "slate_analysis": "Tonight's board features 17 MLB games with no NBA or NHL action. The pricing climate is relatively tight across most matchups, with only a handful of games showing clear edges. Data confidence sits at 0.4 across the board because lineups aren't confirmed yet \u2014 that's a universal issue today, not a disqualifier for individual games.\n\nThe top candidates that rose during my review: Milwaukee-Philadelphia stands out immediately with Misiorowski's historic 2026 campaign (1.50 ERA, 0.81 WHIP, 38.4% K rate) against Painter's struggling 6.21 ERA. Minnesota-St. Louis offers Joe Ryan's elite command (3.07 ERA, 1.00 WHIP) against Kyle Leahy's 4.42 ERA. The Dodgers-White Sox total caught my eye with Sasaki's recent turnaround and the HR-boosting park. Baltimore-San Diego features Griffin Canning's exploitable 1.68 HR/9 against a potent Orioles lineup. I also evaluated the Mets-Braves under with two high-K starters at pitcher-friendly Citi Field, and the Giants-Cubs under at Oracle Park.\n\nWhat got cut: The Pirates-Marlins game has data confidence at 0.4 and no clear edge \u2014 Ashcraft vs Alcantara is a coin flip. Seattle-Washington looked interesting with Bryce Miller's 1.33 ERA, but his 27 IP sample is too thin and the Mariners ML sits at -146 (exceeds my comfort zone for edge vs juice). Cleveland-Detroit is a near pick-em with both pitchers sporting similar profiles \u2014 no edge. The Athletics-Rockies game has a 13.5+ total and unknown park factors in Las Vegas \u2014 too much variance. The Yankees-Blue Jays game lacks a confirmed Toronto starter, killing data confidence.\n\nThe final six picks survived because they each clear the 8-cent edge threshold and pass the validator rules. Milwaukee -1.5 at -110 is the ladder pick \u2014 Misiorowski's dominance is backed by elite underlying metrics (2.23 xERA, 2.21 xFIP, 37.8% whiff rate), and Painter has been getting shelled. Minnesota ML at -136 offers Ryan's command edge against a weaker Cardinals arm. The Mets-Braves Under 8.0 pairs two high-K starters at a HR-suppressing park. The Dodgers-White Sox Under 9.0 banks on Sasaki's recent form and Kay's limitations. The Misiorowski K Over and Ryan K Over round out the card as high-floor prop plays backed by elite strikeout rates against vulnerable lineups.",
@@ -8907,11 +8328,19 @@
     }
   ],
   "ladder": {
-    "current_streak": 3,
+    "current_streak": 4,
     "longest_streak": 4,
     "completed_climbs": 0,
     "target": 10,
     "history": [
+      {
+        "date": "2026-06-12",
+        "pick_id": "20260612-MLB-PHI-MIL-SPREAD",
+        "pick": "Milwaukee Brewers -1.5",
+        "game": "PHI @ MIL",
+        "status": "WIN",
+        "after_streak": 4
+      },
       {
         "date": "2026-06-10",
         "pick_id": "20260610-MLB-ATL-CHW-TOTAL",
@@ -9081,13 +8510,13 @@
         "after_streak": 1
       }
     ],
-    "updated_at": "2026-06-11T04:11:02.079772-04:00"
+    "updated_at": "2026-06-13T03:04:16.017346-04:00"
   },
   "last_night_recap": {
-    "date": "2026-06-10",
-    "record": "3-1-0",
-    "units_pl": 2.274,
-    "night_summary": "3-1 night, +2.27u. The headliner was the NBA Finals under 216.5 \u2014 Spurs-Knicks Game 4 finished 107-106 in the most surreal way possible: the Knicks came back from 29 down, Anunoby tipped in a Brunson miss with 1.2 seconds left, and the final 213 combined points cleared the under by 3.5. The ATL @ CHW under 7.0 was the ladder pick and it delivered clean \u2014 Braves and White Sox combined for just 3 runs, 1-2 final. PHI ML was straightforward: Scherzer got knocked around for 5 runs in 3.1 innings and the Phillies rolled 7-4. The one loss was the SD -1.5 \u2014 Tatis walked off on a Chase Petty slider in the 9th to win it 5-4, one run short of the cover. Pure variance; the Padres won the game. Ladder is at 3 of 10 \u2014 climbing.",
-    "generated_at": "2026-06-11T04:11:17.935829-04:00"
+    "date": "2026-06-12",
+    "record": "4-2-0",
+    "units_pl": 2.63,
+    "night_summary": "4-2 night, +2.63u \u2014 and the story of the night wasn't even close. Misiorowski was otherworldly: 15 strikeouts, one hit, 95 pitches, complete-game shutout, MIL 6 PHI 0. The over 6.5 Ks cleared by nine. Joe Ryan added 8 Ks to cash the over 5.5, and the Twins ML held up in a wild 9-8 win over St. Louis. The MIL -1.5 ladder pick was never in doubt. The two losses stung differently \u2014 Sasaki's command collapsed in a 7-run 5th (we got that one wrong, model leaned too hard on one elite start), and Strider's velocity cratered from 95 to 88 mph before he exited with arm soreness, torching the ATL @ NYM under before the 5th inning; that was variance, not a bad read. Ladder sits at 4 of 10 \u2014 climbing.",
+    "generated_at": "2026-06-13T03:04:38.138550-04:00"
   }
 }
