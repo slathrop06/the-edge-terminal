@@ -1,5 +1,18 @@
 [
   {
+    "id": "20260613-NBA-NY-SA-PROP-VICTORWEMBANYAMA",
+    "date": "2026-06-13",
+    "pick": "Victor Wembanyama Points Over 27.5",
+    "game": "NY @ SA",
+    "odds": "-118",
+    "result_score": "Victor Wembanyama: 19 points",
+    "classification": "VARIANCE",
+    "post_mortem": "The thesis was structurally sound \u2014 elimination game, Wembanyama averaging 27.8 PPG through four Finals games, the Spurs leaning on their star. And for three quarters, the game script cooperated: San Antonio led wire-to-wire, building a 16-point second-quarter advantage while Wembanyama was dominant defensively (5 blocks, 14 rebounds). The killer was Jalen Brunson's 45-point eruption \u2014 the most by any Knick in Finals history \u2014 which powered a 17-4 fourth-quarter run that erased an 83-81 Spurs lead with under five minutes left. As the game tightened into a late-game survival mode, Wembanyama 'fizzled out late,' finishing 19 points on 17 shots (-3 plus/minus) while the Spurs' offense collectively collapsed down the stretch. This wasn't a bad read on Wembanyama \u2014 it was one historically great individual performance by Brunson stealing the game from a Spurs team that controlled it for 43 minutes.",
+    "candidate_rule": null,
+    "sample_size_warning": "N=1, insufficient to establish rule \u2014 Brunson 45-point closeout games are extreme outliers, not a repeatable defensive pattern to model against.",
+    "analyzed_at": "2026-06-14T18:59:50.228585-04:00"
+  },
+  {
     "id": "20260613-MLB-HOU-KC-ML",
     "date": "2026-06-13",
     "pick": "Royals ML",
