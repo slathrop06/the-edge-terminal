@@ -174,5 +174,13 @@
     "candidate_rule": "Before capping an Under on a Sasaki start, require his last-7-days command metrics (BB/9, Strike%) to confirm the Angels outing wasn't an outlier \u2014 one elite start does not establish a trend; N=1 on the Ohtani-scratch-deflates-Dodgers-offense pattern, also insufficient to formalize.",
     "sample_size_warning": "N=1 loss, insufficient to establish a rule. Single-start regression is inherent pitcher variance, but the structural error \u2014 projecting forward from one career-best outing without confirming command stability \u2014 is a repeatable model mistake worth tracking.",
     "status": "PENDING_REVIEW"
+  },
+  {
+    "proposed_at": "2026-06-14T01:29:45.349696-04:00",
+    "source_pick_id": "20260613-MLB-HOU-KC-ML",
+    "source_loss": "Royals ML (HOU @ KC)",
+    "candidate_rule": "Before fading a starter on ERA alone, check road/home splits for the last 4-5 starts \u2014 if the road ERA diverges from season ERA by 2+ runs, the season number is not the operative number for this game; N=1, insufficient to establish rule.",
+    "sample_size_warning": "N=1, insufficient to establish rule \u2014 but the split-blindness pattern is worth flagging as a recurring model vulnerability to monitor.",
+    "status": "PENDING_REVIEW"
   }
 ]

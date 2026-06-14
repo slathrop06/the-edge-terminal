@@ -1,5 +1,18 @@
 [
   {
+    "id": "20260613-MLB-HOU-KC-ML",
+    "date": "2026-06-13",
+    "pick": "Royals ML",
+    "game": "HOU @ KC",
+    "odds": "-126",
+    "result_score": "HOU 8 \u00b7 KC 7",
+    "classification": "MODEL",
+    "post_mortem": "The thesis leaned hard on Burrows' ugly 5.77 season ERA, but missed a critical split: Burrows carried a 3.12 ERA with three quality starts in his last four road outings \u2014 this was a road start, and he delivered again, holding KC to 7 runs across 24 batters on 92 pitches. Meanwhile, Cameron was pulled early (only 20 batters faced, 86 pitches) and the Astros' power \u2014 Walker, Meyers, and Matthews all homered \u2014 did the damage. The model also ignored KC's 13-of-last-18 home losing streak, which undercut the home-field advantage assumption entirely.",
+    "candidate_rule": "Before fading a starter on ERA alone, check road/home splits for the last 4-5 starts \u2014 if the road ERA diverges from season ERA by 2+ runs, the season number is not the operative number for this game; N=1, insufficient to establish rule.",
+    "sample_size_warning": "N=1, insufficient to establish rule \u2014 but the split-blindness pattern is worth flagging as a recurring model vulnerability to monitor.",
+    "analyzed_at": "2026-06-14T01:29:45.348775-04:00"
+  },
+  {
     "id": "20260612-MLB-ATL-NYM-TOTAL",
     "date": "2026-06-12",
     "pick": "Under 8.0",
