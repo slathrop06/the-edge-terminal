@@ -1,5 +1,31 @@
 [
   {
+    "id": "20260615-MLB-DET-HOU-TOTAL",
+    "date": "2026-06-15",
+    "pick": "Under 8.0",
+    "game": "DET @ HOU",
+    "odds": "-118",
+    "result_score": "DET 9 \u00b7 HOU 3",
+    "classification": "DATA",
+    "post_mortem": "The entire thesis was built around Troy Melton starting \u2014 his 2.81 ERA, 1.01 WHIP, and ability to pitch to contact were the primary run-suppression argument. Melton was scratched with back tightness before first pitch, and Drew Anderson opened a bullpen game in his place, lasting just 2.2 innings. With the pitching anchor gone, Colt Keith went off for three home runs and six RBI, and Detroit rolled to a 9-3 final \u2014 a 12-run total that obliterated the Under 8.0. The pick was dead the moment Melton's scratch was announced; the model never got a fair test.",
+    "candidate_rule": "Flag any total pick where the named starting pitcher accounts for >50% of the run-suppression thesis \u2014 require a re-evaluation trigger if that SP is scratched within 3 hours of first pitch before locking the bet; N=1, insufficient to establish rule.",
+    "sample_size_warning": "N=1, insufficient to establish rule \u2014 but the failure mode (SP scratch invalidating a total pick) is a known, recurring risk worth monitoring across the full season sample.",
+    "analyzed_at": "2026-06-16T04:52:43.660238-04:00"
+  },
+  {
+    "id": "20260615-MLB-COL-CHC-TOTAL",
+    "date": "2026-06-15",
+    "pick": "Over 9.5",
+    "game": "COL @ CHC",
+    "odds": "-124",
+    "result_score": "COL 4 \u00b7 CHC 5",
+    "classification": "MODEL",
+    "post_mortem": "Both starters replicated their June 10 form almost exactly: Lorenzen held the Cubs to 1 run over 5 innings (same as his Coors outing), and Imanaga allowed 1 run over 5\u2154 innings. The wind blowing out did produce a 434-foot Crow-Armstrong leadoff homer in the first, but that was the extent of the weather dividend \u2014 the Cubs went 0-for-9 with RISP through 8 innings, and the game finished 5-4 with just 9 total runs. The thesis leaned entirely on Lorenzen's season-long ERA (7.54) without accounting for the critical DATA point hiding in plain sight: his June 10 start against these same Cubs \u2014 1 ER, 7 K, 5 IP \u2014 was a direct preview of what he'd do in the rematch, and the market had already priced that in.",
+    "candidate_rule": "Before betting an Over on a pitching rematch scheduled within 7 days of the first meeting, check the starter's most recent line against that specific opponent \u2014 if it diverges sharply from season ERA, weight the recent matchup line more heavily than the season number; N=1, insufficient to establish rule.",
+    "sample_size_warning": "N=1, insufficient to establish rule \u2014 one rematch spot does not confirm a pattern.",
+    "analyzed_at": "2026-06-16T04:52:20.084288-04:00"
+  },
+  {
     "id": "20260613-NBA-NY-SA-PROP-VICTORWEMBANYAMA",
     "date": "2026-06-13",
     "pick": "Victor Wembanyama Points Over 27.5",

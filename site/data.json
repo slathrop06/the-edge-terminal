@@ -1,485 +1,9 @@
 {
-  "generated_at": "2026-06-15T19:00:07.344561-04:00",
-  "today": "2026-06-15",
+  "generated_at": "2026-06-16T04:53:03.792067-04:00",
+  "today": "2026-06-16",
   "system_paused": false,
   "pause_reason": "",
-  "today_picks": [
-    {
-      "id": "20260615-MLB-NYM-CIN-ML",
-      "sport": "MLB",
-      "game": "NYM @ CIN",
-      "first_pitch_iso": "2026-06-15T23:10Z",
-      "pick": "Cincinnati Reds ML",
-      "best_book": "FanDuel",
-      "best_odds": "-142",
-      "book_prices": {
-        "fanduel": "-142",
-        "draftkings": "-143",
-        "betmgm": "-145"
-      },
-      "book_links": {
-        "fanduel": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.585605303&selectionId=29167",
-        "draftkings": "https://sportsbook.draftkings.com/?outcomes=0ML85153495_1",
-        "betmgm": "https://sports.nj.betmgm.com/en/sports?options=19684634-1531416539-2221891439&type=Single"
-      },
-      "market": "ML",
-      "confidence": 4,
-      "units": 1.5,
-      "win_probability": 0.61,
-      "ladder_designation": true,
-      "data_confidence": 0.75,
-      "rules_passed": [
-        "max_juice",
-        "ladder_even_money",
-        "parlay_well_formed",
-        "confidence_units_match",
-        "data_confidence_floor",
-        "pick_type_allowed",
-        "mlb_hr_prop_check",
-        "mlb_pitcher_k_check",
-        "mlb_total_bases_check",
-        "mlb_hits_check",
-        "nba_player_prop_check",
-        "nhl_shots_check",
-        "mlb_run_line_check",
-        "mlb_under_bb_check",
-        "no_same_game_opposite"
-      ],
-      "locked": true,
-      "late_add": false,
-      "late_add_reason": "",
-      "bonus_pick": false,
-      "event_type": "",
-      "event_name": "",
-      "legs": [],
-      "headline": "Chase Burns at home against a flyball pitcher in a HR-friendly park.",
-      "the_thesis": "This is the cleanest spot on the board. Chase Burns (2.14 ERA, 0.99 WHIP, 29.6% K rate) at home against Tobias Myers (4.05 ERA, 1.63 HR/9) in Great American Ball Park \u2014 the most HR-friendly park in baseball (1.18 HR factor). The Reds don't need to be great offensively; they just need to tag Myers for a couple of bombs, and Burns will do the rest.\n\nMyers' 1.63 HR/9 is a red flag in any park, but in Cincinnati it's a death sentence. The Reds' offense (4.19 R/G) is league average, but they have power bats that can exploit Myers' flyball tendencies. Burns has been dominant at home, and the Mets' offense (4.06 R/G) isn't built to score against elite pitching.\n\nAt -142, we're paying fair juice for a matchup that heavily favors the home team. This is the only game with three-book coverage, which gives us confidence in the data.",
-      "the_data": [
-        {
-          "label": "Burns ERA / WHIP",
-          "value": "2.14 / 0.99",
-          "context": "Ace-level production"
-        },
-        {
-          "label": "Burns K%",
-          "value": "29.6%",
-          "context": "Elite"
-        },
-        {
-          "label": "Myers HR/9",
-          "value": "1.63",
-          "context": "Flyball pitcher in HR park"
-        },
-        {
-          "label": "GABP HR factor",
-          "value": "1.18",
-          "context": "Most HR-friendly in MLB"
-        },
-        {
-          "label": "CIN R/G",
-          "value": "4.19",
-          "context": "League average, but power bats"
-        }
-      ],
-      "the_market": "Reds ML at -142 (FD), -143 (DK), -145 (MGM). Three-book coverage gives confidence. No significant line movement \u2014 market is comfortable with Cincinnati as the favorite.",
-      "weather_park": "Great American Ball Park, 73\u00b0F, light wind out to LF. HR-friendly conditions favor the home team's power bats.",
-      "case_against": "Burns could have an off night \u2014 even aces get tagged sometimes. Myers could pitch to contact and avoid the big inning. The Mets have some pop in their lineup (Juan Soto, Bo Bichette) that could surprise.",
-      "what_were_betting_on": "Burns dominating, Reds tagging Myers for 2-3 HRs, and a comfortable home win.",
-      "scott_bot_quip": "Burns at home, Myers in a bandbox. This is why we do this.",
-      "ladder_note": "",
-      "date": "2026-06-15",
-      "status": "PEND",
-      "units_result": null,
-      "clv_cents": null,
-      "result_score": null,
-      "graded_at": null,
-      "slate_assessment": "MLB-only Monday with 10 games, no NBA or NHL action after both championship series concluded over the weekend. Thin data confidence across the board (most games at 0.40-0.45), but several pitching matchups and one strong K prop stand out.",
-      "executive_summary": "The boys get a quiet 10-game MLB Monday after the Knicks and Hurricanes hoisted their trophies this weekend. Chase Burns at home in Cincinnati against a soft Mets lineup is the cleanest spot on the board \u2014 his 29.6% K rate against a Tobias Myers-led Mets offense screams K prop value. The total in Houston dropped a full run from open on sharp money, and Wheeler's return to the Phillies rotation against a rookie Marlins arm offers run-line value at plus money. Six plays today, all grounded in pitching edges and line movement. The ladder rides with Burns Ks Under 7.5 \u2014 best floor, best price, best matchup.",
-      "slate_analysis": "Ten MLB games tonight, no NBA or NHL after both Finals wrapped this weekend. The Knicks took the Larry O'Brien in five, the Hurricanes hoisted the Cup in six \u2014 so the boys are MLB-only until football returns. Data confidence is frustratingly thin across the board: only CIN-NYM has three-book coverage, and most games are sitting at 0.40-0.45 confidence scores. That said, the pitching matchups are readable, and the line movement tells a story.\n\nThe candidates that rose: Chase Burns at home vs the Mets jumped off the page immediately \u2014 2.14 ERA, 29.6% K rate, and a K prop line of 7.5 that feels soft given his recent form. The Houston-Detroit total dropped a full run from 9.0 to 8.0 since open, which is sharp money screaming under. Wheeler's return to the Phillies rotation against a rookie Marlins arm (Ryan Gusto, 9.0 IP on the season) offers run-line value at +128. The Cubs-Rockies game has weather boosting HR by 15% and Lorenzen on the mound for Colorado \u2014 that's an over lean. The Dodgers-Rays total dropped from 9.5 to 8.5 with Lauer regressing hard (6.69 L3 ERA) \u2014 under consideration there too. The Reds ML at -142 against Myers (1.63 HR/9) in a HR-friendly park also got a hard look.\n\nWhat got cut: The Phillies ML at -174 exceeds our -150 juice cap for straight bets, so we pivoted to the run line at +128. The Cubs ML at -190 is also too juiced. The STL-SD game is a pure coin flip with no edge \u2014 both MLs near pick'em, no line movement, no weather factor. The ARI-LAA game has Ure\u00f1a's 13.6% BB rate creating chaos that's hard to model. The ATH-PIT game has a 10.5 total that's already baked in the offensive environment \u2014 no edge either way. The WSH-KC game has Mitch Spence on the mound with a 23.8% BB rate and 13.5 ERA in 4.0 IP \u2014 that's a stay-away, not a play.\n\nThe final six: Burns K Under 7.5 is the ladder pick \u2014 best floor, clean matchup, plus-money price. Houston-Detroit Under 8.0 rides the sharp money and a full-run drop. Phillies -1.5 at +128 backs Wheeler's return against a rookie. Cubs-Rockies Over 9.5 leans into weather and Lorenzen's struggles. Dodgers-Rays Under 8.5 follows the line movement and Lauer's regression. Reds ML at -142 backs Burns at home in a HR-friendly park against a flyball-prone Myers. Six plays, all grounded in pitching edges, line movement, or weather.",
-      "slate_vibe": "NORMAL",
-      "published_at": "2026-06-15T15:32:35.330080-04:00"
-    },
-    {
-      "id": "20260615-MLB-TB-LAD-TOTAL",
-      "sport": "MLB",
-      "game": "TB @ LAD",
-      "first_pitch_iso": "2026-06-16T02:00Z",
-      "pick": "Under 8.5",
-      "best_book": "FanDuel",
-      "best_odds": "-124",
-      "book_prices": {
-        "fanduel": "-124",
-        "betmgm": "N/A",
-        "draftkings": "N/A"
-      },
-      "book_links": {
-        "fanduel": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.585893934&selectionId=7017906",
-        "draftkings": "https://sportsbook.draftkings.com/leagues/baseball/mlb",
-        "betmgm": "https://sports.nj.betmgm.com/en/sports/baseball-23/betting/usa-9/mlb-75"
-      },
-      "market": "TOTAL",
-      "confidence": 3,
-      "units": 1.0,
-      "win_probability": 0.56,
-      "ladder_designation": false,
-      "data_confidence": 0.6,
-      "rules_passed": [
-        "max_juice",
-        "ladder_even_money",
-        "parlay_well_formed",
-        "confidence_units_match",
-        "data_confidence_floor",
-        "pick_type_allowed",
-        "mlb_hr_prop_check",
-        "mlb_pitcher_k_check",
-        "mlb_total_bases_check",
-        "mlb_hits_check",
-        "nba_player_prop_check",
-        "nhl_shots_check",
-        "mlb_run_line_check",
-        "mlb_under_bb_check",
-        "no_same_game_opposite"
-      ],
-      "locked": true,
-      "late_add": false,
-      "late_add_reason": "",
-      "bonus_pick": false,
-      "event_type": "",
-      "event_name": "",
-      "legs": [],
-      "headline": "Full-run drop from open, Nick Martinez has been elite, and Dodger Stadium suppresses runs.",
-      "the_thesis": "This total dropped from 9.5 to 8.5 since open \u2014 a full run of sharp action on the under. Nick Martinez for Tampa has been outstanding \u2014 2.43 ERA, 1.16 WHIP, and a 0.70 HR/9 that plays well in pitcher-friendly Dodger Stadium (0.97 run factor, 0.99 HR factor).\n\nEric Lauer for the Dodgers has been struggling \u2014 5.47 ERA, 2.59 HR/9, and a regressing trend (6.69 L3 ERA). But the Rays offense isn't built to exploit that \u2014 they're averaging 4.53 R/G, which is league average. The Dodgers' 5.36 R/G is elite, but Martinez has the stuff to limit damage.\n\nThe line movement is the key signal here. A full-run drop means sharps see something \u2014 likely that Martinez will dominate and the Dodgers' bats will be cold. At -124, we're paying a small premium to follow the money.",
-      "the_data": [
-        {
-          "label": "Total movement",
-          "value": "9.5 \u2192 8.5",
-          "context": "Full-run drop, sharp money"
-        },
-        {
-          "label": "Martinez ERA / HR/9",
-          "value": "2.43 / 0.70",
-          "context": "Elite, limits damage"
-        },
-        {
-          "label": "Lauer L3 ERA",
-          "value": "6.69",
-          "context": "Regressing hard"
-        },
-        {
-          "label": "Dodger Stadium PF",
-          "value": "0.97 runs / 0.99 HR",
-          "context": "Pitcher-friendly"
-        },
-        {
-          "label": "LAD R/G",
-          "value": "5.36",
-          "context": "Elite offense, but Martinez can handle"
-        }
-      ],
-      "the_market": "Opened at 9.5, now at 8.5. Full-run drop on sharp money. Dodgers ML also lengthened 5.2pp since open, suggesting sharps are fading the home team.",
-      "weather_park": "Dodger Stadium, outdoor but typically calm conditions. Park suppresses runs slightly.",
-      "case_against": "The Dodgers offense is elite and could tag Martinez if he's off. Lauer's struggles could lead to a crooked inning early. If the Dodgers get a lead, they could pile on against the Rays pen.",
-      "what_were_betting_on": "Martinez going 6+ innings, Dodgers bats staying cold, and the sharp money being right.",
-      "scott_bot_quip": "Martinez is dealing. The sharps already know.",
-      "ladder_note": "",
-      "date": "2026-06-15",
-      "status": "PEND",
-      "units_result": null,
-      "clv_cents": null,
-      "result_score": null,
-      "graded_at": null,
-      "slate_assessment": "MLB-only Monday with 10 games, no NBA or NHL action after both championship series concluded over the weekend. Thin data confidence across the board (most games at 0.40-0.45), but several pitching matchups and one strong K prop stand out.",
-      "executive_summary": "The boys get a quiet 10-game MLB Monday after the Knicks and Hurricanes hoisted their trophies this weekend. Chase Burns at home in Cincinnati against a soft Mets lineup is the cleanest spot on the board \u2014 his 29.6% K rate against a Tobias Myers-led Mets offense screams K prop value. The total in Houston dropped a full run from open on sharp money, and Wheeler's return to the Phillies rotation against a rookie Marlins arm offers run-line value at plus money. Six plays today, all grounded in pitching edges and line movement. The ladder rides with Burns Ks Under 7.5 \u2014 best floor, best price, best matchup.",
-      "slate_analysis": "Ten MLB games tonight, no NBA or NHL after both Finals wrapped this weekend. The Knicks took the Larry O'Brien in five, the Hurricanes hoisted the Cup in six \u2014 so the boys are MLB-only until football returns. Data confidence is frustratingly thin across the board: only CIN-NYM has three-book coverage, and most games are sitting at 0.40-0.45 confidence scores. That said, the pitching matchups are readable, and the line movement tells a story.\n\nThe candidates that rose: Chase Burns at home vs the Mets jumped off the page immediately \u2014 2.14 ERA, 29.6% K rate, and a K prop line of 7.5 that feels soft given his recent form. The Houston-Detroit total dropped a full run from 9.0 to 8.0 since open, which is sharp money screaming under. Wheeler's return to the Phillies rotation against a rookie Marlins arm (Ryan Gusto, 9.0 IP on the season) offers run-line value at +128. The Cubs-Rockies game has weather boosting HR by 15% and Lorenzen on the mound for Colorado \u2014 that's an over lean. The Dodgers-Rays total dropped from 9.5 to 8.5 with Lauer regressing hard (6.69 L3 ERA) \u2014 under consideration there too. The Reds ML at -142 against Myers (1.63 HR/9) in a HR-friendly park also got a hard look.\n\nWhat got cut: The Phillies ML at -174 exceeds our -150 juice cap for straight bets, so we pivoted to the run line at +128. The Cubs ML at -190 is also too juiced. The STL-SD game is a pure coin flip with no edge \u2014 both MLs near pick'em, no line movement, no weather factor. The ARI-LAA game has Ure\u00f1a's 13.6% BB rate creating chaos that's hard to model. The ATH-PIT game has a 10.5 total that's already baked in the offensive environment \u2014 no edge either way. The WSH-KC game has Mitch Spence on the mound with a 23.8% BB rate and 13.5 ERA in 4.0 IP \u2014 that's a stay-away, not a play.\n\nThe final six: Burns K Under 7.5 is the ladder pick \u2014 best floor, clean matchup, plus-money price. Houston-Detroit Under 8.0 rides the sharp money and a full-run drop. Phillies -1.5 at +128 backs Wheeler's return against a rookie. Cubs-Rockies Over 9.5 leans into weather and Lorenzen's struggles. Dodgers-Rays Under 8.5 follows the line movement and Lauer's regression. Reds ML at -142 backs Burns at home in a HR-friendly park against a flyball-prone Myers. Six plays, all grounded in pitching edges, line movement, or weather.",
-      "slate_vibe": "NORMAL",
-      "published_at": "2026-06-15T15:32:35.329977-04:00"
-    },
-    {
-      "id": "20260615-MLB-COL-CHC-TOTAL",
-      "sport": "MLB",
-      "game": "COL @ CHC",
-      "first_pitch_iso": "2026-06-16T00:05Z",
-      "pick": "Over 9.5",
-      "best_book": "FanDuel",
-      "best_odds": "-124",
-      "book_prices": {
-        "fanduel": "-124",
-        "betmgm": "N/A",
-        "draftkings": "N/A"
-      },
-      "book_links": {
-        "fanduel": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.585881090&selectionId=7017905",
-        "draftkings": "https://sportsbook.draftkings.com/leagues/baseball/mlb",
-        "betmgm": "https://sports.nj.betmgm.com/en/sports/baseball-23/betting/usa-9/mlb-75"
-      },
-      "market": "TOTAL",
-      "confidence": 3,
-      "units": 1.0,
-      "win_probability": 0.57,
-      "ladder_designation": false,
-      "data_confidence": 0.6,
-      "rules_passed": [
-        "max_juice",
-        "ladder_even_money",
-        "parlay_well_formed",
-        "confidence_units_match",
-        "data_confidence_floor",
-        "pick_type_allowed",
-        "mlb_hr_prop_check",
-        "mlb_pitcher_k_check",
-        "mlb_total_bases_check",
-        "mlb_hits_check",
-        "nba_player_prop_check",
-        "nhl_shots_check",
-        "mlb_run_line_check",
-        "mlb_under_bb_check",
-        "no_same_game_opposite"
-      ],
-      "locked": true,
-      "late_add": false,
-      "late_add_reason": "",
-      "bonus_pick": false,
-      "event_type": "",
-      "event_name": "",
-      "legs": [],
-      "headline": "Wind blowing out at Wrigley, Lorenzen on the mound \u2014 this one's going over.",
-      "the_thesis": "Michael Lorenzen has been a disaster this season \u2014 7.54 ERA, 1.90 WHIP, and a 1.52 HR/9 that's about to get worse with 10 mph wind blowing out to center at Wrigley. The weather signal in the IntelPack shows a 15% HR boost, which is significant in a park that's already neutral-to-hitter-friendly.\n\nShota Imanaga for the Cubs has a 4.44 ERA and a concerning 1.89 HR/9 \u2014 he's been giving up the long ball too. Both offenses are averaging 4.57 R/G, which is above league average. This is a recipe for a slugfest.\n\nThe total hasn't moved from 9.5, which suggests the market is comfortable with this number. But the weather boost isn't fully priced in \u2014 15% HR impact is real, and both pitchers are flyball-prone. At -124, we're paying a small premium for a spot that should clear 10 runs more often than not.",
-      "the_data": [
-        {
-          "label": "Lorenzen ERA / WHIP",
-          "value": "7.54 / 1.90",
-          "context": "Disaster"
-        },
-        {
-          "label": "Lorenzen HR/9",
-          "value": "1.52",
-          "context": "Flyball pitcher in wind"
-        },
-        {
-          "label": "Imanaga HR/9",
-          "value": "1.89",
-          "context": "Also giving up bombs"
-        },
-        {
-          "label": "Weather HR boost",
-          "value": "+15%",
-          "context": "Wind 10 mph out to CF"
-        },
-        {
-          "label": "Both teams R/G",
-          "value": "4.57",
-          "context": "Above average offenses"
-        }
-      ],
-      "the_market": "Total opened at 9.5 and hasn't moved. Market is comfortable, but weather boost may not be fully priced in.",
-      "weather_park": "Wrigley Field, 71\u00b0F, wind 10 mph blowing out to CF. IntelPack shows +15% HR impact \u2014 significant.",
-      "case_against": "Imanaga could settle in and limit damage. The Cubs bullpen is solid and could shut down the Rockies late. If Lorenzen gets pulled early, the Rockies pen might hold. Weather can be fickle \u2014 wind could die down.",
-      "what_were_betting_on": "Lorenzen getting tagged early, Imanaga giving up a few bombs, and the wind carrying balls out of Wrigley.",
-      "scott_bot_quip": "Wind's blowing out, Lorenzen's on the mound. Do the math.",
-      "ladder_note": "",
-      "date": "2026-06-15",
-      "status": "PEND",
-      "units_result": null,
-      "clv_cents": null,
-      "result_score": null,
-      "graded_at": null,
-      "slate_assessment": "MLB-only Monday with 10 games, no NBA or NHL action after both championship series concluded over the weekend. Thin data confidence across the board (most games at 0.40-0.45), but several pitching matchups and one strong K prop stand out.",
-      "executive_summary": "The boys get a quiet 10-game MLB Monday after the Knicks and Hurricanes hoisted their trophies this weekend. Chase Burns at home in Cincinnati against a soft Mets lineup is the cleanest spot on the board \u2014 his 29.6% K rate against a Tobias Myers-led Mets offense screams K prop value. The total in Houston dropped a full run from open on sharp money, and Wheeler's return to the Phillies rotation against a rookie Marlins arm offers run-line value at plus money. Six plays today, all grounded in pitching edges and line movement. The ladder rides with Burns Ks Under 7.5 \u2014 best floor, best price, best matchup.",
-      "slate_analysis": "Ten MLB games tonight, no NBA or NHL after both Finals wrapped this weekend. The Knicks took the Larry O'Brien in five, the Hurricanes hoisted the Cup in six \u2014 so the boys are MLB-only until football returns. Data confidence is frustratingly thin across the board: only CIN-NYM has three-book coverage, and most games are sitting at 0.40-0.45 confidence scores. That said, the pitching matchups are readable, and the line movement tells a story.\n\nThe candidates that rose: Chase Burns at home vs the Mets jumped off the page immediately \u2014 2.14 ERA, 29.6% K rate, and a K prop line of 7.5 that feels soft given his recent form. The Houston-Detroit total dropped a full run from 9.0 to 8.0 since open, which is sharp money screaming under. Wheeler's return to the Phillies rotation against a rookie Marlins arm (Ryan Gusto, 9.0 IP on the season) offers run-line value at +128. The Cubs-Rockies game has weather boosting HR by 15% and Lorenzen on the mound for Colorado \u2014 that's an over lean. The Dodgers-Rays total dropped from 9.5 to 8.5 with Lauer regressing hard (6.69 L3 ERA) \u2014 under consideration there too. The Reds ML at -142 against Myers (1.63 HR/9) in a HR-friendly park also got a hard look.\n\nWhat got cut: The Phillies ML at -174 exceeds our -150 juice cap for straight bets, so we pivoted to the run line at +128. The Cubs ML at -190 is also too juiced. The STL-SD game is a pure coin flip with no edge \u2014 both MLs near pick'em, no line movement, no weather factor. The ARI-LAA game has Ure\u00f1a's 13.6% BB rate creating chaos that's hard to model. The ATH-PIT game has a 10.5 total that's already baked in the offensive environment \u2014 no edge either way. The WSH-KC game has Mitch Spence on the mound with a 23.8% BB rate and 13.5 ERA in 4.0 IP \u2014 that's a stay-away, not a play.\n\nThe final six: Burns K Under 7.5 is the ladder pick \u2014 best floor, clean matchup, plus-money price. Houston-Detroit Under 8.0 rides the sharp money and a full-run drop. Phillies -1.5 at +128 backs Wheeler's return against a rookie. Cubs-Rockies Over 9.5 leans into weather and Lorenzen's struggles. Dodgers-Rays Under 8.5 follows the line movement and Lauer's regression. Reds ML at -142 backs Burns at home in a HR-friendly park against a flyball-prone Myers. Six plays, all grounded in pitching edges, line movement, or weather.",
-      "slate_vibe": "NORMAL",
-      "published_at": "2026-06-15T15:32:35.329859-04:00"
-    },
-    {
-      "id": "20260615-MLB-MIA-PHI-SPREAD",
-      "sport": "MLB",
-      "game": "MIA @ PHI",
-      "first_pitch_iso": "2026-06-15T22:40Z",
-      "pick": "Philadelphia Phillies -1.5",
-      "best_book": "FanDuel",
-      "best_odds": "+128",
-      "book_prices": {
-        "fanduel": "+128",
-        "betmgm": "N/A",
-        "draftkings": "N/A"
-      },
-      "book_links": {
-        "fanduel": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.585876940&selectionId=29175",
-        "draftkings": "https://sportsbook.draftkings.com/leagues/baseball/mlb",
-        "betmgm": "https://sports.nj.betmgm.com/en/sports/baseball-23/betting/usa-9/mlb-75"
-      },
-      "market": "SPREAD",
-      "confidence": 4,
-      "units": 1.5,
-      "win_probability": 0.58,
-      "ladder_designation": false,
-      "data_confidence": 0.7,
-      "rules_passed": [
-        "max_juice",
-        "ladder_even_money",
-        "parlay_well_formed",
-        "confidence_units_match",
-        "data_confidence_floor",
-        "pick_type_allowed",
-        "mlb_hr_prop_check",
-        "mlb_pitcher_k_check",
-        "mlb_total_bases_check",
-        "mlb_hits_check",
-        "nba_player_prop_check",
-        "nhl_shots_check",
-        "mlb_run_line_check",
-        "mlb_under_bb_check",
-        "no_same_game_opposite"
-      ],
-      "locked": true,
-      "late_add": false,
-      "late_add_reason": "",
-      "bonus_pick": false,
-      "event_type": "",
-      "event_name": "",
-      "legs": [],
-      "headline": "Wheeler's back, and he's facing a rookie with 9 IP on the season.",
-      "the_thesis": "Zack Wheeler returned from thoracic outlet surgery and has been dominant \u2014 2.22 ERA, 0.85 WHIP, 24.9% K rate through 56.2 IP. He's pitching at home against Ryan Gusto, a Marlins rookie with exactly 9.0 innings of MLB experience and a 6.00 ERA. This is a mismatch on paper, and the run line at +128 offers value because the Phillies ML at -174 exceeds our juice cap.\n\nThe Phillies offense isn't elite (4.01 R/G), but they don't need to be against Gusto. Wheeler will keep Miami's offense (4.31 R/G) in check, and the Phillies bullpen should close it out. Citizens Bank Park has a 1.10 HR park factor, which favors the home team's power bats.\n\nThe total rose from 8.0 to 8.5 since open, which suggests the market expects some offense \u2014 but that's likely coming from the Phillies side against the rookie. At +128, we're getting plus money on a team that should win by 2+ runs more often than the line implies.",
-      "the_data": [
-        {
-          "label": "Wheeler ERA / WHIP",
-          "value": "2.22 / 0.85",
-          "context": "Elite since return"
-        },
-        {
-          "label": "Wheeler K%",
-          "value": "24.9%",
-          "context": "Above average"
-        },
-        {
-          "label": "Gusto ERA / IP",
-          "value": "6.00 / 9.0",
-          "context": "Rookie, tiny sample"
-        },
-        {
-          "label": "PHI R/G",
-          "value": "4.01",
-          "context": "League average"
-        },
-        {
-          "label": "Park HR factor",
-          "value": "1.10",
-          "context": "HR-boosting"
-        }
-      ],
-      "the_market": "Phillies ML at -174 (too juiced), run line at +128. Total rose from 8.0 to 8.5 since open. Market expects offense, likely from Phillies side.",
-      "weather_park": "Citizens Bank Park, 78\u00b0F, wind 7 mph out to CF. HR-friendly conditions favor the home team.",
-      "case_against": "Wheeler is still building up after surgery \u2014 his L3 IP/start is 18.73, which means he may not go deep. If he exits after 5 innings, the Phillies bullpen has to hold a lead. Gusto could also surprise \u2014 small samples cut both ways.",
-      "what_were_betting_on": "Wheeler dominating for 5-6 innings, Phillies offense tagging the rookie early, and a 2+ run win.",
-      "scott_bot_quip": "Wheeler's back. The rookie's not ready. Math is math.",
-      "ladder_note": "",
-      "date": "2026-06-15",
-      "status": "PEND",
-      "units_result": null,
-      "clv_cents": null,
-      "result_score": null,
-      "graded_at": null,
-      "slate_assessment": "MLB-only Monday with 10 games, no NBA or NHL action after both championship series concluded over the weekend. Thin data confidence across the board (most games at 0.40-0.45), but several pitching matchups and one strong K prop stand out.",
-      "executive_summary": "The boys get a quiet 10-game MLB Monday after the Knicks and Hurricanes hoisted their trophies this weekend. Chase Burns at home in Cincinnati against a soft Mets lineup is the cleanest spot on the board \u2014 his 29.6% K rate against a Tobias Myers-led Mets offense screams K prop value. The total in Houston dropped a full run from open on sharp money, and Wheeler's return to the Phillies rotation against a rookie Marlins arm offers run-line value at plus money. Six plays today, all grounded in pitching edges and line movement. The ladder rides with Burns Ks Under 7.5 \u2014 best floor, best price, best matchup.",
-      "slate_analysis": "Ten MLB games tonight, no NBA or NHL after both Finals wrapped this weekend. The Knicks took the Larry O'Brien in five, the Hurricanes hoisted the Cup in six \u2014 so the boys are MLB-only until football returns. Data confidence is frustratingly thin across the board: only CIN-NYM has three-book coverage, and most games are sitting at 0.40-0.45 confidence scores. That said, the pitching matchups are readable, and the line movement tells a story.\n\nThe candidates that rose: Chase Burns at home vs the Mets jumped off the page immediately \u2014 2.14 ERA, 29.6% K rate, and a K prop line of 7.5 that feels soft given his recent form. The Houston-Detroit total dropped a full run from 9.0 to 8.0 since open, which is sharp money screaming under. Wheeler's return to the Phillies rotation against a rookie Marlins arm (Ryan Gusto, 9.0 IP on the season) offers run-line value at +128. The Cubs-Rockies game has weather boosting HR by 15% and Lorenzen on the mound for Colorado \u2014 that's an over lean. The Dodgers-Rays total dropped from 9.5 to 8.5 with Lauer regressing hard (6.69 L3 ERA) \u2014 under consideration there too. The Reds ML at -142 against Myers (1.63 HR/9) in a HR-friendly park also got a hard look.\n\nWhat got cut: The Phillies ML at -174 exceeds our -150 juice cap for straight bets, so we pivoted to the run line at +128. The Cubs ML at -190 is also too juiced. The STL-SD game is a pure coin flip with no edge \u2014 both MLs near pick'em, no line movement, no weather factor. The ARI-LAA game has Ure\u00f1a's 13.6% BB rate creating chaos that's hard to model. The ATH-PIT game has a 10.5 total that's already baked in the offensive environment \u2014 no edge either way. The WSH-KC game has Mitch Spence on the mound with a 23.8% BB rate and 13.5 ERA in 4.0 IP \u2014 that's a stay-away, not a play.\n\nThe final six: Burns K Under 7.5 is the ladder pick \u2014 best floor, clean matchup, plus-money price. Houston-Detroit Under 8.0 rides the sharp money and a full-run drop. Phillies -1.5 at +128 backs Wheeler's return against a rookie. Cubs-Rockies Over 9.5 leans into weather and Lorenzen's struggles. Dodgers-Rays Under 8.5 follows the line movement and Lauer's regression. Reds ML at -142 backs Burns at home in a HR-friendly park against a flyball-prone Myers. Six plays, all grounded in pitching edges, line movement, or weather.",
-      "slate_vibe": "NORMAL",
-      "published_at": "2026-06-15T15:32:35.329717-04:00"
-    },
-    {
-      "id": "20260615-MLB-DET-HOU-TOTAL",
-      "sport": "MLB",
-      "game": "DET @ HOU",
-      "first_pitch_iso": "2026-06-16T00:10Z",
-      "pick": "Under 8.0",
-      "best_book": "FanDuel",
-      "best_odds": "-118",
-      "book_prices": {
-        "fanduel": "-118",
-        "betmgm": "N/A",
-        "draftkings": "N/A"
-      },
-      "book_links": {
-        "fanduel": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.585881994&selectionId=7017906",
-        "draftkings": "https://sportsbook.draftkings.com/leagues/baseball/mlb",
-        "betmgm": "https://sports.nj.betmgm.com/en/sports/baseball-23/betting/usa-9/mlb-75"
-      },
-      "market": "TOTAL",
-      "confidence": 4,
-      "units": 1.5,
-      "win_probability": 0.59,
-      "ladder_designation": false,
-      "data_confidence": 0.65,
-      "rules_passed": [
-        "max_juice",
-        "ladder_even_money",
-        "parlay_well_formed",
-        "confidence_units_match",
-        "data_confidence_floor",
-        "pick_type_allowed",
-        "mlb_hr_prop_check",
-        "mlb_pitcher_k_check",
-        "mlb_total_bases_check",
-        "mlb_hits_check",
-        "nba_player_prop_check",
-        "nhl_shots_check",
-        "mlb_run_line_check",
-        "mlb_under_bb_check(soft)",
-        "no_same_game_opposite"
-      ],
-      "locked": true,
-      "late_add": false,
-      "late_add_reason": "",
-      "bonus_pick": false,
-      "event_type": "",
-      "event_name": "",
-      "legs": [],
-      "headline": "Full-run drop from open, sharp money screaming under in Houston.",
-      "the_thesis": "This total opened at 9.0 and has dropped a full run to 8.0 \u2014 that's not public money, that's sharp action. The market is telling us something: both offenses are suppressed tonight. Troy Melton for Detroit has been quietly effective \u2014 2.81 ERA, 1.01 WHIP, and a 13.7% K rate that suggests he's pitching to contact and getting outs. Kai-Wei Teng for Houston has a 3.71 ERA but a concerning 11.2% BB rate that could create traffic.\n\nThe key here is the line movement. A full-run drop in a game with two mid-tier starters means the sharps see something in the matchup \u2014 likely that both offenses are cold or that the bullpens are fresh. Detroit's offense has been inconsistent (4.06 R/G), and Houston's 4.56 R/G is inflated by a few blowouts. Daikin Park is assumed neutral, so no park factor to worry about.\n\nAt -118, we're getting a fair price on a total that's already been hammered down by sharp money. The market has done the work for us.",
-      "the_data": [
-        {
-          "label": "Total movement",
-          "value": "9.0 \u2192 8.0",
-          "context": "Full-run drop, sharp money"
-        },
-        {
-          "label": "Melton ERA / WHIP",
-          "value": "2.81 / 1.01",
-          "context": "Solid in small sample"
-        },
-        {
-          "label": "Teng BB%",
-          "value": "11.2%",
-          "context": "Walks are a concern, but limits damage"
-        },
-        {
-          "label": "DET R/G",
-          "value": "4.06",
-          "context": "Below average offense"
-        },
-        {
-          "label": "HOU R/G",
-          "value": "4.56",
-          "context": "Slightly above average"
-        }
-      ],
-      "the_market": "Opened at 9.0, now at 8.0 across all books. That's a full-run drop \u2014 significant sharp action on the under. Houston ML also shortened 4.5pp since open, suggesting sharps like the home team in a low-scoring game.",
-      "weather_park": "Daikin Park is a retractable-roof stadium, assumed neutral. No weather impact.",
-      "case_against": "Teng's 11.2% BB rate could load the bases and lead to crooked innings. If either bullpen falters, this could sail over. The small sample on Melton (25.2 IP) is a concern \u2014 we don't really know what he is yet.",
-      "what_were_betting_on": "Both starters going 5+ innings, bullpens holding, and the sharp money being right about this matchup.",
-      "scott_bot_quip": "The sharps moved this a full run. We're not smarter than them.",
-      "ladder_note": "",
-      "date": "2026-06-15",
-      "status": "PEND",
-      "units_result": null,
-      "clv_cents": null,
-      "result_score": null,
-      "graded_at": null,
-      "slate_assessment": "MLB-only Monday with 10 games, no NBA or NHL action after both championship series concluded over the weekend. Thin data confidence across the board (most games at 0.40-0.45), but several pitching matchups and one strong K prop stand out.",
-      "executive_summary": "The boys get a quiet 10-game MLB Monday after the Knicks and Hurricanes hoisted their trophies this weekend. Chase Burns at home in Cincinnati against a soft Mets lineup is the cleanest spot on the board \u2014 his 29.6% K rate against a Tobias Myers-led Mets offense screams K prop value. The total in Houston dropped a full run from open on sharp money, and Wheeler's return to the Phillies rotation against a rookie Marlins arm offers run-line value at plus money. Six plays today, all grounded in pitching edges and line movement. The ladder rides with Burns Ks Under 7.5 \u2014 best floor, best price, best matchup.",
-      "slate_analysis": "Ten MLB games tonight, no NBA or NHL after both Finals wrapped this weekend. The Knicks took the Larry O'Brien in five, the Hurricanes hoisted the Cup in six \u2014 so the boys are MLB-only until football returns. Data confidence is frustratingly thin across the board: only CIN-NYM has three-book coverage, and most games are sitting at 0.40-0.45 confidence scores. That said, the pitching matchups are readable, and the line movement tells a story.\n\nThe candidates that rose: Chase Burns at home vs the Mets jumped off the page immediately \u2014 2.14 ERA, 29.6% K rate, and a K prop line of 7.5 that feels soft given his recent form. The Houston-Detroit total dropped a full run from 9.0 to 8.0 since open, which is sharp money screaming under. Wheeler's return to the Phillies rotation against a rookie Marlins arm (Ryan Gusto, 9.0 IP on the season) offers run-line value at +128. The Cubs-Rockies game has weather boosting HR by 15% and Lorenzen on the mound for Colorado \u2014 that's an over lean. The Dodgers-Rays total dropped from 9.5 to 8.5 with Lauer regressing hard (6.69 L3 ERA) \u2014 under consideration there too. The Reds ML at -142 against Myers (1.63 HR/9) in a HR-friendly park also got a hard look.\n\nWhat got cut: The Phillies ML at -174 exceeds our -150 juice cap for straight bets, so we pivoted to the run line at +128. The Cubs ML at -190 is also too juiced. The STL-SD game is a pure coin flip with no edge \u2014 both MLs near pick'em, no line movement, no weather factor. The ARI-LAA game has Ure\u00f1a's 13.6% BB rate creating chaos that's hard to model. The ATH-PIT game has a 10.5 total that's already baked in the offensive environment \u2014 no edge either way. The WSH-KC game has Mitch Spence on the mound with a 23.8% BB rate and 13.5 ERA in 4.0 IP \u2014 that's a stay-away, not a play.\n\nThe final six: Burns K Under 7.5 is the ladder pick \u2014 best floor, clean matchup, plus-money price. Houston-Detroit Under 8.0 rides the sharp money and a full-run drop. Phillies -1.5 at +128 backs Wheeler's return against a rookie. Cubs-Rockies Over 9.5 leans into weather and Lorenzen's struggles. Dodgers-Rays Under 8.5 follows the line movement and Lauer's regression. Reds ML at -142 backs Burns at home in a HR-friendly park against a flyball-prone Myers. Six plays, all grounded in pitching edges, line movement, or weather.",
-      "slate_vibe": "NORMAL",
-      "published_at": "2026-06-15T15:32:35.329540-04:00"
-    }
-  ],
+  "today_picks": [],
   "today_bonus_picks": [],
   "all_picks": [
     {
@@ -566,11 +90,11 @@
       "scott_bot_quip": "Burns at home, Myers in a bandbox. This is why we do this.",
       "ladder_note": "",
       "date": "2026-06-15",
-      "status": "PEND",
-      "units_result": null,
+      "status": "WIN",
+      "units_result": 1.0563,
       "clv_cents": null,
-      "result_score": null,
-      "graded_at": null,
+      "result_score": "NYM 0 \u00b7 CIN 12",
+      "graded_at": "2026-06-16T04:51:59.221277-04:00",
       "slate_assessment": "MLB-only Monday with 10 games, no NBA or NHL action after both championship series concluded over the weekend. Thin data confidence across the board (most games at 0.40-0.45), but several pitching matchups and one strong K prop stand out.",
       "executive_summary": "The boys get a quiet 10-game MLB Monday after the Knicks and Hurricanes hoisted their trophies this weekend. Chase Burns at home in Cincinnati against a soft Mets lineup is the cleanest spot on the board \u2014 his 29.6% K rate against a Tobias Myers-led Mets offense screams K prop value. The total in Houston dropped a full run from open on sharp money, and Wheeler's return to the Phillies rotation against a rookie Marlins arm offers run-line value at plus money. Six plays today, all grounded in pitching edges and line movement. The ladder rides with Burns Ks Under 7.5 \u2014 best floor, best price, best matchup.",
       "slate_analysis": "Ten MLB games tonight, no NBA or NHL after both Finals wrapped this weekend. The Knicks took the Larry O'Brien in five, the Hurricanes hoisted the Cup in six \u2014 so the boys are MLB-only until football returns. Data confidence is frustratingly thin across the board: only CIN-NYM has three-book coverage, and most games are sitting at 0.40-0.45 confidence scores. That said, the pitching matchups are readable, and the line movement tells a story.\n\nThe candidates that rose: Chase Burns at home vs the Mets jumped off the page immediately \u2014 2.14 ERA, 29.6% K rate, and a K prop line of 7.5 that feels soft given his recent form. The Houston-Detroit total dropped a full run from 9.0 to 8.0 since open, which is sharp money screaming under. Wheeler's return to the Phillies rotation against a rookie Marlins arm (Ryan Gusto, 9.0 IP on the season) offers run-line value at +128. The Cubs-Rockies game has weather boosting HR by 15% and Lorenzen on the mound for Colorado \u2014 that's an over lean. The Dodgers-Rays total dropped from 9.5 to 8.5 with Lauer regressing hard (6.69 L3 ERA) \u2014 under consideration there too. The Reds ML at -142 against Myers (1.63 HR/9) in a HR-friendly park also got a hard look.\n\nWhat got cut: The Phillies ML at -174 exceeds our -150 juice cap for straight bets, so we pivoted to the run line at +128. The Cubs ML at -190 is also too juiced. The STL-SD game is a pure coin flip with no edge \u2014 both MLs near pick'em, no line movement, no weather factor. The ARI-LAA game has Ure\u00f1a's 13.6% BB rate creating chaos that's hard to model. The ATH-PIT game has a 10.5 total that's already baked in the offensive environment \u2014 no edge either way. The WSH-KC game has Mitch Spence on the mound with a 23.8% BB rate and 13.5 ERA in 4.0 IP \u2014 that's a stay-away, not a play.\n\nThe final six: Burns K Under 7.5 is the ladder pick \u2014 best floor, clean matchup, plus-money price. Houston-Detroit Under 8.0 rides the sharp money and a full-run drop. Phillies -1.5 at +128 backs Wheeler's return against a rookie. Cubs-Rockies Over 9.5 leans into weather and Lorenzen's struggles. Dodgers-Rays Under 8.5 follows the line movement and Lauer's regression. Reds ML at -142 backs Burns at home in a HR-friendly park against a flyball-prone Myers. Six plays, all grounded in pitching edges, line movement, or weather.",
@@ -661,11 +185,11 @@
       "scott_bot_quip": "Martinez is dealing. The sharps already know.",
       "ladder_note": "",
       "date": "2026-06-15",
-      "status": "PEND",
-      "units_result": null,
+      "status": "WIN",
+      "units_result": 0.8065,
       "clv_cents": null,
-      "result_score": null,
-      "graded_at": null,
+      "result_score": "TB 3 \u00b7 LAD 4",
+      "graded_at": "2026-06-16T04:51:59.228701-04:00",
       "slate_assessment": "MLB-only Monday with 10 games, no NBA or NHL action after both championship series concluded over the weekend. Thin data confidence across the board (most games at 0.40-0.45), but several pitching matchups and one strong K prop stand out.",
       "executive_summary": "The boys get a quiet 10-game MLB Monday after the Knicks and Hurricanes hoisted their trophies this weekend. Chase Burns at home in Cincinnati against a soft Mets lineup is the cleanest spot on the board \u2014 his 29.6% K rate against a Tobias Myers-led Mets offense screams K prop value. The total in Houston dropped a full run from open on sharp money, and Wheeler's return to the Phillies rotation against a rookie Marlins arm offers run-line value at plus money. Six plays today, all grounded in pitching edges and line movement. The ladder rides with Burns Ks Under 7.5 \u2014 best floor, best price, best matchup.",
       "slate_analysis": "Ten MLB games tonight, no NBA or NHL after both Finals wrapped this weekend. The Knicks took the Larry O'Brien in five, the Hurricanes hoisted the Cup in six \u2014 so the boys are MLB-only until football returns. Data confidence is frustratingly thin across the board: only CIN-NYM has three-book coverage, and most games are sitting at 0.40-0.45 confidence scores. That said, the pitching matchups are readable, and the line movement tells a story.\n\nThe candidates that rose: Chase Burns at home vs the Mets jumped off the page immediately \u2014 2.14 ERA, 29.6% K rate, and a K prop line of 7.5 that feels soft given his recent form. The Houston-Detroit total dropped a full run from 9.0 to 8.0 since open, which is sharp money screaming under. Wheeler's return to the Phillies rotation against a rookie Marlins arm (Ryan Gusto, 9.0 IP on the season) offers run-line value at +128. The Cubs-Rockies game has weather boosting HR by 15% and Lorenzen on the mound for Colorado \u2014 that's an over lean. The Dodgers-Rays total dropped from 9.5 to 8.5 with Lauer regressing hard (6.69 L3 ERA) \u2014 under consideration there too. The Reds ML at -142 against Myers (1.63 HR/9) in a HR-friendly park also got a hard look.\n\nWhat got cut: The Phillies ML at -174 exceeds our -150 juice cap for straight bets, so we pivoted to the run line at +128. The Cubs ML at -190 is also too juiced. The STL-SD game is a pure coin flip with no edge \u2014 both MLs near pick'em, no line movement, no weather factor. The ARI-LAA game has Ure\u00f1a's 13.6% BB rate creating chaos that's hard to model. The ATH-PIT game has a 10.5 total that's already baked in the offensive environment \u2014 no edge either way. The WSH-KC game has Mitch Spence on the mound with a 23.8% BB rate and 13.5 ERA in 4.0 IP \u2014 that's a stay-away, not a play.\n\nThe final six: Burns K Under 7.5 is the ladder pick \u2014 best floor, clean matchup, plus-money price. Houston-Detroit Under 8.0 rides the sharp money and a full-run drop. Phillies -1.5 at +128 backs Wheeler's return against a rookie. Cubs-Rockies Over 9.5 leans into weather and Lorenzen's struggles. Dodgers-Rays Under 8.5 follows the line movement and Lauer's regression. Reds ML at -142 backs Burns at home in a HR-friendly park against a flyball-prone Myers. Six plays, all grounded in pitching edges, line movement, or weather.",
@@ -756,16 +280,22 @@
       "scott_bot_quip": "Wind's blowing out, Lorenzen's on the mound. Do the math.",
       "ladder_note": "",
       "date": "2026-06-15",
-      "status": "PEND",
-      "units_result": null,
+      "status": "LOSS",
+      "units_result": -1.0,
       "clv_cents": null,
-      "result_score": null,
-      "graded_at": null,
+      "result_score": "COL 4 \u00b7 CHC 5",
+      "graded_at": "2026-06-16T04:51:59.234552-04:00",
       "slate_assessment": "MLB-only Monday with 10 games, no NBA or NHL action after both championship series concluded over the weekend. Thin data confidence across the board (most games at 0.40-0.45), but several pitching matchups and one strong K prop stand out.",
       "executive_summary": "The boys get a quiet 10-game MLB Monday after the Knicks and Hurricanes hoisted their trophies this weekend. Chase Burns at home in Cincinnati against a soft Mets lineup is the cleanest spot on the board \u2014 his 29.6% K rate against a Tobias Myers-led Mets offense screams K prop value. The total in Houston dropped a full run from open on sharp money, and Wheeler's return to the Phillies rotation against a rookie Marlins arm offers run-line value at plus money. Six plays today, all grounded in pitching edges and line movement. The ladder rides with Burns Ks Under 7.5 \u2014 best floor, best price, best matchup.",
       "slate_analysis": "Ten MLB games tonight, no NBA or NHL after both Finals wrapped this weekend. The Knicks took the Larry O'Brien in five, the Hurricanes hoisted the Cup in six \u2014 so the boys are MLB-only until football returns. Data confidence is frustratingly thin across the board: only CIN-NYM has three-book coverage, and most games are sitting at 0.40-0.45 confidence scores. That said, the pitching matchups are readable, and the line movement tells a story.\n\nThe candidates that rose: Chase Burns at home vs the Mets jumped off the page immediately \u2014 2.14 ERA, 29.6% K rate, and a K prop line of 7.5 that feels soft given his recent form. The Houston-Detroit total dropped a full run from 9.0 to 8.0 since open, which is sharp money screaming under. Wheeler's return to the Phillies rotation against a rookie Marlins arm (Ryan Gusto, 9.0 IP on the season) offers run-line value at +128. The Cubs-Rockies game has weather boosting HR by 15% and Lorenzen on the mound for Colorado \u2014 that's an over lean. The Dodgers-Rays total dropped from 9.5 to 8.5 with Lauer regressing hard (6.69 L3 ERA) \u2014 under consideration there too. The Reds ML at -142 against Myers (1.63 HR/9) in a HR-friendly park also got a hard look.\n\nWhat got cut: The Phillies ML at -174 exceeds our -150 juice cap for straight bets, so we pivoted to the run line at +128. The Cubs ML at -190 is also too juiced. The STL-SD game is a pure coin flip with no edge \u2014 both MLs near pick'em, no line movement, no weather factor. The ARI-LAA game has Ure\u00f1a's 13.6% BB rate creating chaos that's hard to model. The ATH-PIT game has a 10.5 total that's already baked in the offensive environment \u2014 no edge either way. The WSH-KC game has Mitch Spence on the mound with a 23.8% BB rate and 13.5 ERA in 4.0 IP \u2014 that's a stay-away, not a play.\n\nThe final six: Burns K Under 7.5 is the ladder pick \u2014 best floor, clean matchup, plus-money price. Houston-Detroit Under 8.0 rides the sharp money and a full-run drop. Phillies -1.5 at +128 backs Wheeler's return against a rookie. Cubs-Rockies Over 9.5 leans into weather and Lorenzen's struggles. Dodgers-Rays Under 8.5 follows the line movement and Lauer's regression. Reds ML at -142 backs Burns at home in a HR-friendly park against a flyball-prone Myers. Six plays, all grounded in pitching edges, line movement, or weather.",
       "slate_vibe": "NORMAL",
-      "published_at": "2026-06-15T15:32:35.329859-04:00"
+      "published_at": "2026-06-15T15:32:35.329859-04:00",
+      "autopsy": {
+        "classification": "MODEL",
+        "post_mortem": "Both starters replicated their June 10 form almost exactly: Lorenzen held the Cubs to 1 run over 5 innings (same as his Coors outing), and Imanaga allowed 1 run over 5\u2154 innings. The wind blowing out did produce a 434-foot Crow-Armstrong leadoff homer in the first, but that was the extent of the weather dividend \u2014 the Cubs went 0-for-9 with RISP through 8 innings, and the game finished 5-4 with just 9 total runs. The thesis leaned entirely on Lorenzen's season-long ERA (7.54) without accounting for the critical DATA point hiding in plain sight: his June 10 start against these same Cubs \u2014 1 ER, 7 K, 5 IP \u2014 was a direct preview of what he'd do in the rematch, and the market had already priced that in.",
+        "candidate_rule": "Before betting an Over on a pitching rematch scheduled within 7 days of the first meeting, check the starter's most recent line against that specific opponent \u2014 if it diverges sharply from season ERA, weight the recent matchup line more heavily than the season number; N=1, insufficient to establish rule.",
+        "sample_size_warning": "N=1, insufficient to establish rule \u2014 one rematch spot does not confirm a pattern."
+      }
     },
     {
       "id": "20260615-MLB-MIA-PHI-SPREAD",
@@ -851,11 +381,11 @@
       "scott_bot_quip": "Wheeler's back. The rookie's not ready. Math is math.",
       "ladder_note": "",
       "date": "2026-06-15",
-      "status": "PEND",
-      "units_result": null,
+      "status": "WIN",
+      "units_result": 1.92,
       "clv_cents": null,
-      "result_score": null,
-      "graded_at": null,
+      "result_score": "MIA 0 \u00b7 PHI 7",
+      "graded_at": "2026-06-16T04:52:20.086002-04:00",
       "slate_assessment": "MLB-only Monday with 10 games, no NBA or NHL action after both championship series concluded over the weekend. Thin data confidence across the board (most games at 0.40-0.45), but several pitching matchups and one strong K prop stand out.",
       "executive_summary": "The boys get a quiet 10-game MLB Monday after the Knicks and Hurricanes hoisted their trophies this weekend. Chase Burns at home in Cincinnati against a soft Mets lineup is the cleanest spot on the board \u2014 his 29.6% K rate against a Tobias Myers-led Mets offense screams K prop value. The total in Houston dropped a full run from open on sharp money, and Wheeler's return to the Phillies rotation against a rookie Marlins arm offers run-line value at plus money. Six plays today, all grounded in pitching edges and line movement. The ladder rides with Burns Ks Under 7.5 \u2014 best floor, best price, best matchup.",
       "slate_analysis": "Ten MLB games tonight, no NBA or NHL after both Finals wrapped this weekend. The Knicks took the Larry O'Brien in five, the Hurricanes hoisted the Cup in six \u2014 so the boys are MLB-only until football returns. Data confidence is frustratingly thin across the board: only CIN-NYM has three-book coverage, and most games are sitting at 0.40-0.45 confidence scores. That said, the pitching matchups are readable, and the line movement tells a story.\n\nThe candidates that rose: Chase Burns at home vs the Mets jumped off the page immediately \u2014 2.14 ERA, 29.6% K rate, and a K prop line of 7.5 that feels soft given his recent form. The Houston-Detroit total dropped a full run from 9.0 to 8.0 since open, which is sharp money screaming under. Wheeler's return to the Phillies rotation against a rookie Marlins arm (Ryan Gusto, 9.0 IP on the season) offers run-line value at +128. The Cubs-Rockies game has weather boosting HR by 15% and Lorenzen on the mound for Colorado \u2014 that's an over lean. The Dodgers-Rays total dropped from 9.5 to 8.5 with Lauer regressing hard (6.69 L3 ERA) \u2014 under consideration there too. The Reds ML at -142 against Myers (1.63 HR/9) in a HR-friendly park also got a hard look.\n\nWhat got cut: The Phillies ML at -174 exceeds our -150 juice cap for straight bets, so we pivoted to the run line at +128. The Cubs ML at -190 is also too juiced. The STL-SD game is a pure coin flip with no edge \u2014 both MLs near pick'em, no line movement, no weather factor. The ARI-LAA game has Ure\u00f1a's 13.6% BB rate creating chaos that's hard to model. The ATH-PIT game has a 10.5 total that's already baked in the offensive environment \u2014 no edge either way. The WSH-KC game has Mitch Spence on the mound with a 23.8% BB rate and 13.5 ERA in 4.0 IP \u2014 that's a stay-away, not a play.\n\nThe final six: Burns K Under 7.5 is the ladder pick \u2014 best floor, clean matchup, plus-money price. Houston-Detroit Under 8.0 rides the sharp money and a full-run drop. Phillies -1.5 at +128 backs Wheeler's return against a rookie. Cubs-Rockies Over 9.5 leans into weather and Lorenzen's struggles. Dodgers-Rays Under 8.5 follows the line movement and Lauer's regression. Reds ML at -142 backs Burns at home in a HR-friendly park against a flyball-prone Myers. Six plays, all grounded in pitching edges, line movement, or weather.",
@@ -946,16 +476,22 @@
       "scott_bot_quip": "The sharps moved this a full run. We're not smarter than them.",
       "ladder_note": "",
       "date": "2026-06-15",
-      "status": "PEND",
-      "units_result": null,
+      "status": "LOSS",
+      "units_result": -1.5,
       "clv_cents": null,
-      "result_score": null,
-      "graded_at": null,
+      "result_score": "DET 9 \u00b7 HOU 3",
+      "graded_at": "2026-06-16T04:52:20.093033-04:00",
       "slate_assessment": "MLB-only Monday with 10 games, no NBA or NHL action after both championship series concluded over the weekend. Thin data confidence across the board (most games at 0.40-0.45), but several pitching matchups and one strong K prop stand out.",
       "executive_summary": "The boys get a quiet 10-game MLB Monday after the Knicks and Hurricanes hoisted their trophies this weekend. Chase Burns at home in Cincinnati against a soft Mets lineup is the cleanest spot on the board \u2014 his 29.6% K rate against a Tobias Myers-led Mets offense screams K prop value. The total in Houston dropped a full run from open on sharp money, and Wheeler's return to the Phillies rotation against a rookie Marlins arm offers run-line value at plus money. Six plays today, all grounded in pitching edges and line movement. The ladder rides with Burns Ks Under 7.5 \u2014 best floor, best price, best matchup.",
       "slate_analysis": "Ten MLB games tonight, no NBA or NHL after both Finals wrapped this weekend. The Knicks took the Larry O'Brien in five, the Hurricanes hoisted the Cup in six \u2014 so the boys are MLB-only until football returns. Data confidence is frustratingly thin across the board: only CIN-NYM has three-book coverage, and most games are sitting at 0.40-0.45 confidence scores. That said, the pitching matchups are readable, and the line movement tells a story.\n\nThe candidates that rose: Chase Burns at home vs the Mets jumped off the page immediately \u2014 2.14 ERA, 29.6% K rate, and a K prop line of 7.5 that feels soft given his recent form. The Houston-Detroit total dropped a full run from 9.0 to 8.0 since open, which is sharp money screaming under. Wheeler's return to the Phillies rotation against a rookie Marlins arm (Ryan Gusto, 9.0 IP on the season) offers run-line value at +128. The Cubs-Rockies game has weather boosting HR by 15% and Lorenzen on the mound for Colorado \u2014 that's an over lean. The Dodgers-Rays total dropped from 9.5 to 8.5 with Lauer regressing hard (6.69 L3 ERA) \u2014 under consideration there too. The Reds ML at -142 against Myers (1.63 HR/9) in a HR-friendly park also got a hard look.\n\nWhat got cut: The Phillies ML at -174 exceeds our -150 juice cap for straight bets, so we pivoted to the run line at +128. The Cubs ML at -190 is also too juiced. The STL-SD game is a pure coin flip with no edge \u2014 both MLs near pick'em, no line movement, no weather factor. The ARI-LAA game has Ure\u00f1a's 13.6% BB rate creating chaos that's hard to model. The ATH-PIT game has a 10.5 total that's already baked in the offensive environment \u2014 no edge either way. The WSH-KC game has Mitch Spence on the mound with a 23.8% BB rate and 13.5 ERA in 4.0 IP \u2014 that's a stay-away, not a play.\n\nThe final six: Burns K Under 7.5 is the ladder pick \u2014 best floor, clean matchup, plus-money price. Houston-Detroit Under 8.0 rides the sharp money and a full-run drop. Phillies -1.5 at +128 backs Wheeler's return against a rookie. Cubs-Rockies Over 9.5 leans into weather and Lorenzen's struggles. Dodgers-Rays Under 8.5 follows the line movement and Lauer's regression. Reds ML at -142 backs Burns at home in a HR-friendly park against a flyball-prone Myers. Six plays, all grounded in pitching edges, line movement, or weather.",
       "slate_vibe": "NORMAL",
-      "published_at": "2026-06-15T15:32:35.329540-04:00"
+      "published_at": "2026-06-15T15:32:35.329540-04:00",
+      "autopsy": {
+        "classification": "DATA",
+        "post_mortem": "The entire thesis was built around Troy Melton starting \u2014 his 2.81 ERA, 1.01 WHIP, and ability to pitch to contact were the primary run-suppression argument. Melton was scratched with back tightness before first pitch, and Drew Anderson opened a bullpen game in his place, lasting just 2.2 innings. With the pitching anchor gone, Colt Keith went off for three home runs and six RBI, and Detroit rolled to a 9-3 final \u2014 a 12-run total that obliterated the Under 8.0. The pick was dead the moment Melton's scratch was announced; the model never got a fair test.",
+        "candidate_rule": "Flag any total pick where the named starting pitcher accounts for >50% of the run-suppression thesis \u2014 require a re-evaluation trigger if that SP is scratched within 3 hours of first pitch before locking the bet; N=1, insufficient to establish rule.",
+        "sample_size_warning": "N=1, insufficient to establish rule \u2014 but the failure mode (SP scratch invalidating a total pick) is a known, recurring risk worth monitoring across the full season sample."
+      }
     },
     {
       "id": "20260614-MLB-DET-CLE-PROP-CASEYMIZE",
@@ -10166,11 +9702,19 @@
     }
   ],
   "ladder": {
-    "current_streak": 6,
-    "longest_streak": 6,
+    "current_streak": 7,
+    "longest_streak": 7,
     "completed_climbs": 0,
     "target": 10,
     "history": [
+      {
+        "date": "2026-06-15",
+        "pick_id": "20260615-MLB-NYM-CIN-ML",
+        "pick": "Cincinnati Reds ML",
+        "game": "NYM @ CIN",
+        "status": "WIN",
+        "after_streak": 7
+      },
       {
         "date": "2026-06-14",
         "pick_id": "20260614-MLB-PHI-MIL-TOTAL",
@@ -10364,13 +9908,13 @@
         "after_streak": 1
       }
     ],
-    "updated_at": "2026-06-14T18:59:28.257610-04:00"
+    "updated_at": "2026-06-16T04:51:59.227955-04:00"
   },
   "last_night_recap": {
-    "date": "2026-06-14",
-    "record": "3-0-0",
-    "units_pl": 4.4804,
-    "night_summary": "3-0 night, +4.48u \u2014 as clean as it gets. The HOU @ KC under (8.5) was never in doubt; KC blanked Houston 4-0 and the Astros offense was a ghost all game. DET @ CLE was the gem of the card: Casey Mize and Gavin Williams combined for a 0-0 shutout, the under 7 cashing without a single run scored. The ladder pick, PHI @ MIL under 6.5, did its job quietly \u2014 Kyle Harrison and Cristopher Sanchez kept it tidy, Milwaukee won 4-0, and the Phillies bats that erupted for 17 hits the night before went completely cold. Six straight on the ladder now, four to go.",
-    "generated_at": "2026-06-14T19:00:37.211048-04:00"
+    "date": "2026-06-15",
+    "record": "3-2-0",
+    "units_pl": 1.2828,
+    "night_summary": "3-2 night, +1.28u \u2014 solid ledger but two losses that need explaining. The ladder pick was the headliner: CIN rolled NYM 12-0 behind Chase Burns (7-1, 2.14 ERA) against a Mets lineup that trotted out a freshly recalled starter, and the PHI -1.5 at +128 added a clean 7-0 cover for 1.92u \u2014 two picks that did exactly what they were supposed to. The TB @ LAD under cashed quietly at 7 total, no drama. The COL @ CHC over was a model miss \u2014 we leaned on Lorenzen's 7.54 ERA and ignored that he'd already beaten these Cubs 1-for-5 runs in their June 10 rematch; the market had it right, we got that one wrong. The DET @ HOU under was dead before first pitch: Melton was scratched with back tightness, Drew Anderson opened a bullpen game in his place, and Colt Keith \u2014 who had one homer all season entering the night \u2014 went off for three home runs and six RBI in a 9-3 Detroit romp; DATA loss, the model never got a fair test. Ladder is at 7 of 10 \u2014 three rungs to go.",
+    "generated_at": "2026-06-16T04:53:03.785536-04:00"
   }
 }

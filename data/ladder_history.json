@@ -1,9 +1,17 @@
 {
-  "current_streak": 6,
-  "longest_streak": 6,
+  "current_streak": 7,
+  "longest_streak": 7,
   "completed_climbs": 0,
   "target": 10,
   "history": [
+    {
+      "date": "2026-06-15",
+      "pick_id": "20260615-MLB-NYM-CIN-ML",
+      "pick": "Cincinnati Reds ML",
+      "game": "NYM @ CIN",
+      "status": "WIN",
+      "after_streak": 7
+    },
     {
       "date": "2026-06-14",
       "pick_id": "20260614-MLB-PHI-MIL-TOTAL",
@@ -197,5 +205,5 @@
       "after_streak": 1
     }
   ],
-  "updated_at": "2026-06-14T18:59:28.257610-04:00"
+  "updated_at": "2026-06-16T04:51:59.227955-04:00"
 }

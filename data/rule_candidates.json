@@ -182,5 +182,21 @@
     "candidate_rule": "Before fading a starter on ERA alone, check road/home splits for the last 4-5 starts \u2014 if the road ERA diverges from season ERA by 2+ runs, the season number is not the operative number for this game; N=1, insufficient to establish rule.",
     "sample_size_warning": "N=1, insufficient to establish rule \u2014 but the split-blindness pattern is worth flagging as a recurring model vulnerability to monitor.",
     "status": "PENDING_REVIEW"
+  },
+  {
+    "proposed_at": "2026-06-16T04:52:20.085259-04:00",
+    "source_pick_id": "20260615-MLB-COL-CHC-TOTAL",
+    "source_loss": "Over 9.5 (COL @ CHC)",
+    "candidate_rule": "Before betting an Over on a pitching rematch scheduled within 7 days of the first meeting, check the starter's most recent line against that specific opponent \u2014 if it diverges sharply from season ERA, weight the recent matchup line more heavily than the season number; N=1, insufficient to establish rule.",
+    "sample_size_warning": "N=1, insufficient to establish rule \u2014 one rematch spot does not confirm a pattern.",
+    "status": "PENDING_REVIEW"
+  },
+  {
+    "proposed_at": "2026-06-16T04:52:43.661120-04:00",
+    "source_pick_id": "20260615-MLB-DET-HOU-TOTAL",
+    "source_loss": "Under 8.0 (DET @ HOU)",
+    "candidate_rule": "Flag any total pick where the named starting pitcher accounts for >50% of the run-suppression thesis \u2014 require a re-evaluation trigger if that SP is scratched within 3 hours of first pitch before locking the bet; N=1, insufficient to establish rule.",
+    "sample_size_warning": "N=1, insufficient to establish rule \u2014 but the failure mode (SP scratch invalidating a total pick) is a known, recurring risk worth monitoring across the full season sample.",
+    "status": "PENDING_REVIEW"
   }
 ]
