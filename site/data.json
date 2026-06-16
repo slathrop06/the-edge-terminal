@@ -1,11 +1,1200 @@
 {
-  "generated_at": "2026-06-16T07:39:42.302910-04:00",
+  "generated_at": "2026-06-16T14:57:16.966216-04:00",
   "today": "2026-06-16",
   "system_paused": false,
   "pause_reason": "",
-  "today_picks": [],
+  "today_picks": [
+    {
+      "id": "20260616-MLB-MIN-TEX-ML",
+      "sport": "MLB",
+      "game": "MIN @ TEX",
+      "first_pitch_iso": "2026-06-17T00:05Z",
+      "pick": "Texas Rangers ML",
+      "best_book": "DraftKings",
+      "best_odds": "-132",
+      "book_prices": {
+        "draftkings": "-132",
+        "fanduel": "-134",
+        "betmgm": "-135"
+      },
+      "book_links": {
+        "fanduel": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.585812891&selectionId=29163",
+        "draftkings": "https://sportsbook.draftkings.com/?outcomes=0ML85162390_1",
+        "betmgm": "https://sports.nj.betmgm.com/en/sports?options=19704842-1533684995-2227743570&type=Single"
+      },
+      "market": "ML",
+      "confidence": 3,
+      "units": 1.0,
+      "win_probability": 0.58,
+      "ladder_designation": false,
+      "data_confidence": 0.6,
+      "rules_passed": [
+        "max_juice",
+        "ladder_even_money",
+        "parlay_well_formed",
+        "confidence_units_match",
+        "data_confidence_floor",
+        "pick_type_allowed",
+        "mlb_hr_prop_check",
+        "mlb_pitcher_k_check",
+        "mlb_total_bases_check",
+        "mlb_hits_check",
+        "nba_player_prop_check",
+        "nhl_shots_check",
+        "mlb_run_line_check",
+        "mlb_under_bb_check",
+        "no_same_game_opposite"
+      ],
+      "locked": true,
+      "late_add": false,
+      "late_add_reason": "",
+      "bonus_pick": false,
+      "event_type": "",
+      "event_name": "",
+      "legs": [],
+      "headline": "Kumar Rocker at home against a struggling Zebby Matthews \u2014 the Rangers are the better team in a coin-flip spot.",
+      "the_thesis": "Kumar Rocker has been solid for Texas \u2014 3.56 ERA, 1.34 WHIP, and a 0.83 HR/9 that plays well at Globe Life Field. His 18.4% K rate is pedestrian, but he limits hard contact and keeps the ball in the park. Against a Twins lineup averaging 4.62 R/G, he should be able to work deep into the game.\n\nZebby Matthews for Minnesota has struggled \u2014 5.20 ERA, 1.18 WHIP, and a 1.99 HR/9 that's concerning at Globe Life Field (1.05 HR PF). His 20.0% K rate is decent, but the elevated HR rate suggests he's hittable. The Rangers' offense at 3.99 R/G is below average, but they should be able to capitalize on Matthews' mistakes.\n\nThe market has this as a pick'em with Texas as slight favorites (-132 at DraftKings). The Rangers are at home, have the better starter, and should be able to grind out a win. This is a value play on the home team in a coin-flip spot.",
+      "the_data": [
+        {
+          "label": "Rocker ERA / HR9",
+          "value": "3.56 / 0.83",
+          "context": "Solid, limits damage"
+        },
+        {
+          "label": "Matthews ERA / HR9",
+          "value": "5.20 / 1.99",
+          "context": "Struggling, HR-prone"
+        },
+        {
+          "label": "Globe Life HR PF",
+          "value": "1.05",
+          "context": "Slightly HR-boosting"
+        },
+        {
+          "label": "MIN R/G",
+          "value": "4.62",
+          "context": "Average"
+        },
+        {
+          "label": "TEX R/G",
+          "value": "3.99",
+          "context": "Below average"
+        },
+        {
+          "label": "Matthews IP/start",
+          "value": "12.03",
+          "context": "Short outings"
+        }
+      ],
+      "the_market": "Rangers ML at -132 on DraftKings, -134 on FanDuel, -135 on BetMGM. The line hasn't moved since open, suggesting the market is comfortable with Texas as slight favorites. We're getting the best price at DraftKings.",
+      "weather_park": "Globe Life Field is a dome \u2014 no weather concerns. The park plays slightly HR-friendly (1.05 PF), which favors the Rangers given Matthews' elevated HR rate.",
+      "case_against": "The Rangers' offense has been below average (3.99 R/G), and if Rocker doesn't have his best stuff, the Twins could capitalize. Matthews' small sample (36.1 IP) means his numbers could stabilize. The Twins have been better on the road this season.",
+      "what_were_betting_on": "Rocker outpitching Matthews, the Rangers' home-field advantage, and Matthews' HR-prone tendencies catching up to him.",
+      "scott_bot_quip": "Matthews has been serving meatballs. Rocker's been keeping them in the park. Math is math.",
+      "ladder_note": "",
+      "date": "2026-06-16",
+      "status": "PEND",
+      "units_result": null,
+      "clv_cents": null,
+      "result_score": null,
+      "graded_at": null,
+      "slate_assessment": "Thin 15-game MLB-only slate with widespread data confidence issues (most games at 0.4-0.45), but several pitching matchups and totals present clear edges \u2014 Cease vs. Tolle in Boston, Gilbert at T-Mobile Park, and the Dodgers-Rays under all stand out.",
+      "executive_summary": "The board is MLB-only today with 15 games, but data confidence is soft across most matchups \u2014 only three games have multi-book pricing. The sharpest edges live in the pitching: Dylan Cease brings elite strikeout upside against a soft Red Sox lineup at Fenway, Logan Gilbert gets the pitcher-friendly T-Mobile Park against Baltimore, and the Dodgers-Rays under benefits from two quality starters and a total that's already dropped from 8.2 to 7.5. Gerrit Cole's workload-managed return against the White Sox at Yankee Stadium offers plus-money value on the under. The ladder rides with the Dodgers-Rays under \u2014 two aces, neutral park, market already moving our way.",
+      "slate_analysis": "Today's board features 15 MLB games with no NBA or NHL action. The pricing climate is challenging \u2014 only three games (BOS/TOR, STL/SD, TEX/MIN) have odds from all three of our books, while the rest are FanDuel-only, which limits line shopping and raises data confidence concerns. Most games sit at 0.4-0.45 data confidence, below our 0.6 threshold for high-conviction plays, so we're working with a narrower set of actionable spots.\n\nThe top candidates that earned hard looks: (1) TOR @ BOS under 7.5 \u2014 Cease's elite K rate (36.8%) against a Boston lineup that's been middling offensively, plus Tolle's strong 2.70 ERA and 0.51 HR/9; (2) BAL @ SEA under 7.5 \u2014 Gilbert at T-Mobile Park (0.93 runs PF) against a Baltimore team on the road, with the market already pricing this as a pitcher's duel; (3) TB @ LAD under 7.5 \u2014 Wrobleski and Rasmussen are both sub-3.00 ERA starters, the total dropped from 8.2 to 7.5, and Dodger Stadium plays neutral; (4) CHW @ NYY under 8.5 \u2014 Cole's workload-managed return against a White Sox team that's been inconsistent, with the total rising from 7.8 to 8.5 creating value on the under; (5) CIN @ NYM over 9.0 \u2014 both starters have struggled (Singer 5.61 ERA, Senga 9.00 ERA) at a hitter-friendly park, but the total dropped from 9.8 to 9.0; (6) SD @ STL under 8.0 \u2014 Busch Stadium suppresses HRs (0.93 PF), both starters are solid, and the line hasn't moved.\n\nWhat got cut: The MIA @ PHI game has only 0.4 data confidence and single-book pricing \u2014 too thin. The WSH @ KC total at 10.0 rose sharply from 8.67, suggesting the market sees something we don't, and both pitchers have elevated BB/9 (Griffin 6.5%, Wacha 7.6%) which makes unders risky. The CIN @ NYM over looked appealing given the pitching struggles, but Senga's 13.4% BB rate and Singer's 2.51 HR/9 create too much variance \u2014 this is a coin-flip game, not an edge. The ATL @ SF game has soft data confidence (0.4) and the Braves ML at -138 doesn't clear our juice threshold for the edge we'd need. The ARI @ LAA game saw massive line movement (total up from 8.5 to 9.5, home ML shortened 9.2pp) suggesting late information we don't have \u2014 pass.\n\nThe final six picks survive because they combine strong pitching metrics, favorable park factors, and market support. The TOR @ BOS under gets Cease's elite K upside against a lineup that doesn't mash. The BAL @ SEA under leverages Gilbert's home dominance at T-Mobile Park. The TB @ LAD under is the cleanest spot on the board \u2014 two quality starters, neutral park, line movement in our direction. The CHW @ NYY under catches Cole in a workload-managed spot against a beatable lineup. The SD @ STL under benefits from Busch Stadium's HR suppression and two solid mid-rotation arms. The ladder pick is the Dodgers-Rays under \u2014 highest floor, best market support, two starters who've been excellent.",
+      "slate_vibe": "SOFT",
+      "published_at": "2026-06-16T14:57:16.953279-04:00"
+    },
+    {
+      "id": "20260616-MLB-SD-STL-TOTAL",
+      "sport": "MLB",
+      "game": "SD @ STL",
+      "first_pitch_iso": "2026-06-16T23:45Z",
+      "pick": "Under 8.0",
+      "best_book": "FanDuel",
+      "best_odds": "-110",
+      "book_prices": {
+        "draftkings": "-110",
+        "fanduel": "-110",
+        "betmgm": "-110"
+      },
+      "book_links": {
+        "fanduel": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.585880353&selectionId=7017906",
+        "draftkings": "https://sportsbook.draftkings.com/?outcomes=0OU85162388U800_3",
+        "betmgm": "https://sports.nj.betmgm.com/en/sports?options=19704840-1533684823-2227743190&type=Single"
+      },
+      "market": "TOTAL",
+      "confidence": 3,
+      "units": 1.0,
+      "win_probability": 0.56,
+      "ladder_designation": false,
+      "data_confidence": 0.62,
+      "rules_passed": [
+        "max_juice",
+        "ladder_even_money",
+        "parlay_well_formed",
+        "confidence_units_match",
+        "data_confidence_floor",
+        "pick_type_allowed",
+        "mlb_hr_prop_check",
+        "mlb_pitcher_k_check",
+        "mlb_total_bases_check",
+        "mlb_hits_check",
+        "nba_player_prop_check",
+        "nhl_shots_check",
+        "mlb_run_line_check",
+        "mlb_under_bb_check",
+        "no_same_game_opposite"
+      ],
+      "locked": true,
+      "late_add": false,
+      "late_add_reason": "",
+      "bonus_pick": false,
+      "event_type": "",
+      "event_name": "",
+      "legs": [],
+      "headline": "Busch Stadium suppresses HRs, both starters are solid, and the total hasn't moved off 8.0.",
+      "the_thesis": "Busch Stadium is one of the better pitcher's parks in baseball \u2014 0.97 runs PF and 0.93 HR PF. That HR suppression matters when you have two mid-rotation arms who can limit damage. Andre Pallante has been solid for St. Louis \u2014 3.88 ERA, 1.26 WHIP, and a 1.17 HR/9 that should play down in this park.\n\nMichael King for San Diego has been better \u2014 3.46 ERA, 1.15 WHIP, and a 22.1% K rate. His 9.8% BB rate is elevated, but his ability to miss bats compensates. Against a Cardinals lineup averaging 4.60 R/G, he should be able to work deep into the game.\n\nThe total opened at 8.0 and hasn't moved, suggesting the market is comfortable with this number. Both offenses are below average \u2014 San Diego at 3.83 R/G and St. Louis at 4.60 R/G \u2014 and the park should suppress any power. This is a grind-it-out game.",
+      "the_data": [
+        {
+          "label": "Busch Stadium HR PF",
+          "value": "0.93",
+          "context": "Suppresses power"
+        },
+        {
+          "label": "Busch Stadium Runs PF",
+          "value": "0.97",
+          "context": "Pitcher-friendly"
+        },
+        {
+          "label": "King ERA / K%",
+          "value": "3.46 / 22.1%",
+          "context": "Solid, misses bats"
+        },
+        {
+          "label": "Pallante ERA",
+          "value": "3.88",
+          "context": "Reliable"
+        },
+        {
+          "label": "SD R/G",
+          "value": "3.83",
+          "context": "Below average"
+        },
+        {
+          "label": "STL R/G",
+          "value": "4.60",
+          "context": "Average"
+        }
+      ],
+      "the_market": "Total opened at 8.0 and sits there across all three books at -110. No movement suggests the market is comfortable with this number. We have three-book pricing, which gives us confidence in the line.",
+      "weather_park": "Busch Stadium's 0.93 HR PF is the key \u2014 this park suppresses power, which benefits both pitchers.",
+      "case_against": "King's 9.8% BB rate could lead to traffic on the bases. Pallante's 1.17 HR/9 is elevated, and if he hangs one, the Padres could capitalize. Both bullpens have been worked recently.",
+      "what_were_betting_on": "Both starters going 6+ innings, the park suppressing any power, and both offenses staying quiet in a 4-3 or 3-2 game.",
+      "scott_bot_quip": "Busch Stadium: where fly balls die and unders thrive.",
+      "ladder_note": "",
+      "date": "2026-06-16",
+      "status": "PEND",
+      "units_result": null,
+      "clv_cents": null,
+      "result_score": null,
+      "graded_at": null,
+      "slate_assessment": "Thin 15-game MLB-only slate with widespread data confidence issues (most games at 0.4-0.45), but several pitching matchups and totals present clear edges \u2014 Cease vs. Tolle in Boston, Gilbert at T-Mobile Park, and the Dodgers-Rays under all stand out.",
+      "executive_summary": "The board is MLB-only today with 15 games, but data confidence is soft across most matchups \u2014 only three games have multi-book pricing. The sharpest edges live in the pitching: Dylan Cease brings elite strikeout upside against a soft Red Sox lineup at Fenway, Logan Gilbert gets the pitcher-friendly T-Mobile Park against Baltimore, and the Dodgers-Rays under benefits from two quality starters and a total that's already dropped from 8.2 to 7.5. Gerrit Cole's workload-managed return against the White Sox at Yankee Stadium offers plus-money value on the under. The ladder rides with the Dodgers-Rays under \u2014 two aces, neutral park, market already moving our way.",
+      "slate_analysis": "Today's board features 15 MLB games with no NBA or NHL action. The pricing climate is challenging \u2014 only three games (BOS/TOR, STL/SD, TEX/MIN) have odds from all three of our books, while the rest are FanDuel-only, which limits line shopping and raises data confidence concerns. Most games sit at 0.4-0.45 data confidence, below our 0.6 threshold for high-conviction plays, so we're working with a narrower set of actionable spots.\n\nThe top candidates that earned hard looks: (1) TOR @ BOS under 7.5 \u2014 Cease's elite K rate (36.8%) against a Boston lineup that's been middling offensively, plus Tolle's strong 2.70 ERA and 0.51 HR/9; (2) BAL @ SEA under 7.5 \u2014 Gilbert at T-Mobile Park (0.93 runs PF) against a Baltimore team on the road, with the market already pricing this as a pitcher's duel; (3) TB @ LAD under 7.5 \u2014 Wrobleski and Rasmussen are both sub-3.00 ERA starters, the total dropped from 8.2 to 7.5, and Dodger Stadium plays neutral; (4) CHW @ NYY under 8.5 \u2014 Cole's workload-managed return against a White Sox team that's been inconsistent, with the total rising from 7.8 to 8.5 creating value on the under; (5) CIN @ NYM over 9.0 \u2014 both starters have struggled (Singer 5.61 ERA, Senga 9.00 ERA) at a hitter-friendly park, but the total dropped from 9.8 to 9.0; (6) SD @ STL under 8.0 \u2014 Busch Stadium suppresses HRs (0.93 PF), both starters are solid, and the line hasn't moved.\n\nWhat got cut: The MIA @ PHI game has only 0.4 data confidence and single-book pricing \u2014 too thin. The WSH @ KC total at 10.0 rose sharply from 8.67, suggesting the market sees something we don't, and both pitchers have elevated BB/9 (Griffin 6.5%, Wacha 7.6%) which makes unders risky. The CIN @ NYM over looked appealing given the pitching struggles, but Senga's 13.4% BB rate and Singer's 2.51 HR/9 create too much variance \u2014 this is a coin-flip game, not an edge. The ATL @ SF game has soft data confidence (0.4) and the Braves ML at -138 doesn't clear our juice threshold for the edge we'd need. The ARI @ LAA game saw massive line movement (total up from 8.5 to 9.5, home ML shortened 9.2pp) suggesting late information we don't have \u2014 pass.\n\nThe final six picks survive because they combine strong pitching metrics, favorable park factors, and market support. The TOR @ BOS under gets Cease's elite K upside against a lineup that doesn't mash. The BAL @ SEA under leverages Gilbert's home dominance at T-Mobile Park. The TB @ LAD under is the cleanest spot on the board \u2014 two quality starters, neutral park, line movement in our direction. The CHW @ NYY under catches Cole in a workload-managed spot against a beatable lineup. The SD @ STL under benefits from Busch Stadium's HR suppression and two solid mid-rotation arms. The ladder pick is the Dodgers-Rays under \u2014 highest floor, best market support, two starters who've been excellent.",
+      "slate_vibe": "SOFT",
+      "published_at": "2026-06-16T14:57:16.953191-04:00"
+    },
+    {
+      "id": "20260616-MLB-CHW-NYY-TOTAL",
+      "sport": "MLB",
+      "game": "CHW @ NYY",
+      "first_pitch_iso": "2026-06-16T23:05Z",
+      "pick": "Under 8.5",
+      "best_book": "FanDuel",
+      "best_odds": "-122",
+      "book_prices": {
+        "fanduel": "-122"
+      },
+      "book_links": {
+        "fanduel": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.586107775&selectionId=7017906",
+        "draftkings": "https://sportsbook.draftkings.com/leagues/baseball/mlb",
+        "betmgm": "https://sports.nj.betmgm.com/en/sports/baseball-23/betting/usa-9/mlb-75"
+      },
+      "market": "TOTAL",
+      "confidence": 3,
+      "units": 1.0,
+      "win_probability": 0.57,
+      "ladder_designation": false,
+      "data_confidence": 0.6,
+      "rules_passed": [
+        "max_juice",
+        "ladder_even_money",
+        "parlay_well_formed",
+        "confidence_units_match",
+        "data_confidence_floor",
+        "pick_type_allowed",
+        "mlb_hr_prop_check",
+        "mlb_pitcher_k_check",
+        "mlb_total_bases_check",
+        "mlb_hits_check",
+        "nba_player_prop_check",
+        "nhl_shots_check",
+        "mlb_run_line_check",
+        "mlb_under_bb_check",
+        "no_same_game_opposite"
+      ],
+      "locked": true,
+      "late_add": false,
+      "late_add_reason": "",
+      "bonus_pick": false,
+      "event_type": "",
+      "event_name": "",
+      "legs": [],
+      "headline": "Gerrit Cole's workload-managed return against a White Sox team that's been inconsistent \u2014 the total rose too far.",
+      "the_thesis": "Gerrit Cole has been excellent in his return from Tommy John surgery \u2014 2.45 ERA, 1.05 WHIP, and 18:6 K:BB across 22 innings. The Yankees are managing his workload, but he's been efficient when he's on the mound. Against a White Sox lineup averaging 4.76 R/G, he should be able to work 5-6 quality innings before handing it to the bullpen.\n\nDavis Martin for Chicago has been surprisingly good \u2014 2.41 ERA, 1.10 WHIP, and a 25.2% K rate. His 0.35 HR/9 is elite, which matters at Yankee Stadium (1.14 HR PF). The total rose from 7.8 to 8.5 since open, suggesting public money on the over, but the pitching matchup doesn't support that move.\n\nThe concern is Yankee Stadium's HR-boosting factor (1.14), but both pitchers have been excellent at limiting the long ball. Cole's 1.23 HR/9 is elevated, but that's a small sample (22 IP) and his underlying metrics are strong. Martin's 0.35 HR/9 should help neutralize the park.",
+      "the_data": [
+        {
+          "label": "Cole ERA / WHIP",
+          "value": "2.45 / 1.05",
+          "context": "Excellent in return"
+        },
+        {
+          "label": "Cole K:BB",
+          "value": "18:6",
+          "context": "Strong command"
+        },
+        {
+          "label": "Martin ERA / HR9",
+          "value": "2.41 / 0.35",
+          "context": "Elite HR suppression"
+        },
+        {
+          "label": "Total movement",
+          "value": "7.8 \u2192 8.5",
+          "context": "Public money on over"
+        },
+        {
+          "label": "Yankee Stadium HR PF",
+          "value": "1.14",
+          "context": "HR-boosting"
+        },
+        {
+          "label": "CHW R/G",
+          "value": "4.76",
+          "context": "Average"
+        }
+      ],
+      "the_market": "Total opened at 7.8 and rose to 8.5 \u2014 public money on the over. We're getting -122 on the under at FanDuel, which is playable juice. The Yankees' ML shortened 3.9pp, suggesting sharp money on NY, but the total movement is the key signal here.",
+      "weather_park": "Yankee Stadium is HR-friendly (1.14 PF), but both pitchers have been excellent at limiting the long ball. Weather is clear with no wind concerns.",
+      "case_against": "Yankee Stadium's HR factor (1.14) is the highest on the board today. Cole's workload is being managed, so he may exit after 5 innings. If the game goes to the bullpens early, both teams have been inconsistent in relief.",
+      "what_were_betting_on": "Cole's efficiency keeping him in the game, Martin's HR suppression neutralizing Yankee Stadium, and both offenses staying quiet in a 4-3 or 5-4 game.",
+      "scott_bot_quip": "Cole's back, the public's on the over, and Martin's been a ghost. Classic fade spot.",
+      "ladder_note": "",
+      "date": "2026-06-16",
+      "status": "PEND",
+      "units_result": null,
+      "clv_cents": null,
+      "result_score": null,
+      "graded_at": null,
+      "slate_assessment": "Thin 15-game MLB-only slate with widespread data confidence issues (most games at 0.4-0.45), but several pitching matchups and totals present clear edges \u2014 Cease vs. Tolle in Boston, Gilbert at T-Mobile Park, and the Dodgers-Rays under all stand out.",
+      "executive_summary": "The board is MLB-only today with 15 games, but data confidence is soft across most matchups \u2014 only three games have multi-book pricing. The sharpest edges live in the pitching: Dylan Cease brings elite strikeout upside against a soft Red Sox lineup at Fenway, Logan Gilbert gets the pitcher-friendly T-Mobile Park against Baltimore, and the Dodgers-Rays under benefits from two quality starters and a total that's already dropped from 8.2 to 7.5. Gerrit Cole's workload-managed return against the White Sox at Yankee Stadium offers plus-money value on the under. The ladder rides with the Dodgers-Rays under \u2014 two aces, neutral park, market already moving our way.",
+      "slate_analysis": "Today's board features 15 MLB games with no NBA or NHL action. The pricing climate is challenging \u2014 only three games (BOS/TOR, STL/SD, TEX/MIN) have odds from all three of our books, while the rest are FanDuel-only, which limits line shopping and raises data confidence concerns. Most games sit at 0.4-0.45 data confidence, below our 0.6 threshold for high-conviction plays, so we're working with a narrower set of actionable spots.\n\nThe top candidates that earned hard looks: (1) TOR @ BOS under 7.5 \u2014 Cease's elite K rate (36.8%) against a Boston lineup that's been middling offensively, plus Tolle's strong 2.70 ERA and 0.51 HR/9; (2) BAL @ SEA under 7.5 \u2014 Gilbert at T-Mobile Park (0.93 runs PF) against a Baltimore team on the road, with the market already pricing this as a pitcher's duel; (3) TB @ LAD under 7.5 \u2014 Wrobleski and Rasmussen are both sub-3.00 ERA starters, the total dropped from 8.2 to 7.5, and Dodger Stadium plays neutral; (4) CHW @ NYY under 8.5 \u2014 Cole's workload-managed return against a White Sox team that's been inconsistent, with the total rising from 7.8 to 8.5 creating value on the under; (5) CIN @ NYM over 9.0 \u2014 both starters have struggled (Singer 5.61 ERA, Senga 9.00 ERA) at a hitter-friendly park, but the total dropped from 9.8 to 9.0; (6) SD @ STL under 8.0 \u2014 Busch Stadium suppresses HRs (0.93 PF), both starters are solid, and the line hasn't moved.\n\nWhat got cut: The MIA @ PHI game has only 0.4 data confidence and single-book pricing \u2014 too thin. The WSH @ KC total at 10.0 rose sharply from 8.67, suggesting the market sees something we don't, and both pitchers have elevated BB/9 (Griffin 6.5%, Wacha 7.6%) which makes unders risky. The CIN @ NYM over looked appealing given the pitching struggles, but Senga's 13.4% BB rate and Singer's 2.51 HR/9 create too much variance \u2014 this is a coin-flip game, not an edge. The ATL @ SF game has soft data confidence (0.4) and the Braves ML at -138 doesn't clear our juice threshold for the edge we'd need. The ARI @ LAA game saw massive line movement (total up from 8.5 to 9.5, home ML shortened 9.2pp) suggesting late information we don't have \u2014 pass.\n\nThe final six picks survive because they combine strong pitching metrics, favorable park factors, and market support. The TOR @ BOS under gets Cease's elite K upside against a lineup that doesn't mash. The BAL @ SEA under leverages Gilbert's home dominance at T-Mobile Park. The TB @ LAD under is the cleanest spot on the board \u2014 two quality starters, neutral park, line movement in our direction. The CHW @ NYY under catches Cole in a workload-managed spot against a beatable lineup. The SD @ STL under benefits from Busch Stadium's HR suppression and two solid mid-rotation arms. The ladder pick is the Dodgers-Rays under \u2014 highest floor, best market support, two starters who've been excellent.",
+      "slate_vibe": "SOFT",
+      "published_at": "2026-06-16T14:57:16.953126-04:00"
+    },
+    {
+      "id": "20260616-MLB-TB-LAD-TOTAL",
+      "sport": "MLB",
+      "game": "TB @ LAD",
+      "first_pitch_iso": "2026-06-17T02:10Z",
+      "pick": "Under 7.5",
+      "best_book": "FanDuel",
+      "best_odds": "+102",
+      "book_prices": {
+        "fanduel": "+102"
+      },
+      "book_links": {
+        "fanduel": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.586105573&selectionId=7017906",
+        "draftkings": "https://sportsbook.draftkings.com/leagues/baseball/mlb",
+        "betmgm": "https://sports.nj.betmgm.com/en/sports/baseball-23/betting/usa-9/mlb-75"
+      },
+      "market": "TOTAL",
+      "confidence": 4,
+      "units": 1.5,
+      "win_probability": 0.59,
+      "ladder_designation": true,
+      "data_confidence": 0.62,
+      "rules_passed": [
+        "max_juice",
+        "ladder_even_money",
+        "parlay_well_formed",
+        "confidence_units_match",
+        "data_confidence_floor",
+        "pick_type_allowed",
+        "mlb_hr_prop_check",
+        "mlb_pitcher_k_check",
+        "mlb_total_bases_check",
+        "mlb_hits_check",
+        "nba_player_prop_check",
+        "nhl_shots_check",
+        "mlb_run_line_check",
+        "mlb_under_bb_check(soft)",
+        "no_same_game_opposite"
+      ],
+      "locked": true,
+      "late_add": false,
+      "late_add_reason": "",
+      "bonus_pick": false,
+      "event_type": "",
+      "event_name": "",
+      "legs": [],
+      "headline": "Two sub-3.00 ERA starters, a total that's dropped from 8.2 to 7.5, and plus-money on the under. This is the ladder.",
+      "the_thesis": "Justin Wrobleski has been one of the best stories in baseball \u2014 2.95 ERA, 1.05 WHIP, and a minuscule 0.74 HR/9 across 73.1 innings. He's not a strikeout pitcher (15.3% K rate), but he limits hard contact and keeps the ball in the park. Against a Tampa Bay lineup averaging 4.51 R/G, he should be able to work deep.\n\nDrew Rasmussen on the other side has been even better \u2014 2.71 ERA, 0.88 WHIP, and a 27.3% K rate. His 4.6% BB rate is elite, meaning he doesn't beat himself. The Dodgers offense is potent (5.34 R/G), but Rasmussen has the stuff to neutralize them. Dodger Stadium plays neutral (0.97 runs PF, 0.99 HR PF), so there's no park boost for either side.\n\nThe market has already moved this total from 8.2 to 7.5, and we're getting plus-money on the under. That's rare for a total that's already dropped \u2014 it suggests the market still thinks this number is too high. The Dodgers' ML shortened 7.2pp since open, indicating sharp money on LA, but the total movement is the key signal here.",
+      "the_data": [
+        {
+          "label": "Wrobleski ERA / WHIP",
+          "value": "2.95 / 1.05",
+          "context": "Excellent, limits damage"
+        },
+        {
+          "label": "Wrobleski HR/9",
+          "value": "0.74",
+          "context": "Elite, keeps ball in park"
+        },
+        {
+          "label": "Rasmussen ERA / WHIP",
+          "value": "2.71 / 0.88",
+          "context": "Dominant"
+        },
+        {
+          "label": "Rasmussen K% / BB%",
+          "value": "27.3% / 4.6%",
+          "context": "Elite command"
+        },
+        {
+          "label": "Total movement",
+          "value": "8.2 \u2192 7.5",
+          "context": "Sharp money on under"
+        },
+        {
+          "label": "Dodger Stadium Runs PF",
+          "value": "0.97",
+          "context": "Neutral"
+        }
+      ],
+      "the_market": "Total opened at 8.2 and has dropped to 7.5 \u2014 a significant move. We're getting +102 on the under at FanDuel, which is plus-money on a total that's already moved in our direction. The Dodgers' ML shortened 7.2pp, but the total movement is the dominant signal.",
+      "weather_park": "Dodger Stadium at night plays neutral \u2014 0.97 runs PF, 0.99 HR PF. No weather concerns.",
+      "case_against": "The Dodgers' offense is elite (5.34 R/G) and can break out at any time. Wrobleski's low K rate (15.3%) means he needs weak contact, and the Dodgers don't give you that. If Rasmussen doesn't have his best stuff, LA could put up a crooked number early.",
+      "what_were_betting_on": "Both starters going 6+ innings, Rasmussen's elite command keeping the Dodgers off balance, and Wrobleski's ground-ball approach limiting damage.",
+      "scott_bot_quip": "Two aces, plus-money, and the sharps already moved it. Sometimes the market just hands you a gift.",
+      "ladder_note": "Best floor on the board \u2014 two sub-3.00 ERA starters, neutral park, and plus-money on a total that's already dropped. The market is telling us this is a pitcher's duel, and we're getting paid to agree.",
+      "date": "2026-06-16",
+      "status": "PEND",
+      "units_result": null,
+      "clv_cents": null,
+      "result_score": null,
+      "graded_at": null,
+      "slate_assessment": "Thin 15-game MLB-only slate with widespread data confidence issues (most games at 0.4-0.45), but several pitching matchups and totals present clear edges \u2014 Cease vs. Tolle in Boston, Gilbert at T-Mobile Park, and the Dodgers-Rays under all stand out.",
+      "executive_summary": "The board is MLB-only today with 15 games, but data confidence is soft across most matchups \u2014 only three games have multi-book pricing. The sharpest edges live in the pitching: Dylan Cease brings elite strikeout upside against a soft Red Sox lineup at Fenway, Logan Gilbert gets the pitcher-friendly T-Mobile Park against Baltimore, and the Dodgers-Rays under benefits from two quality starters and a total that's already dropped from 8.2 to 7.5. Gerrit Cole's workload-managed return against the White Sox at Yankee Stadium offers plus-money value on the under. The ladder rides with the Dodgers-Rays under \u2014 two aces, neutral park, market already moving our way.",
+      "slate_analysis": "Today's board features 15 MLB games with no NBA or NHL action. The pricing climate is challenging \u2014 only three games (BOS/TOR, STL/SD, TEX/MIN) have odds from all three of our books, while the rest are FanDuel-only, which limits line shopping and raises data confidence concerns. Most games sit at 0.4-0.45 data confidence, below our 0.6 threshold for high-conviction plays, so we're working with a narrower set of actionable spots.\n\nThe top candidates that earned hard looks: (1) TOR @ BOS under 7.5 \u2014 Cease's elite K rate (36.8%) against a Boston lineup that's been middling offensively, plus Tolle's strong 2.70 ERA and 0.51 HR/9; (2) BAL @ SEA under 7.5 \u2014 Gilbert at T-Mobile Park (0.93 runs PF) against a Baltimore team on the road, with the market already pricing this as a pitcher's duel; (3) TB @ LAD under 7.5 \u2014 Wrobleski and Rasmussen are both sub-3.00 ERA starters, the total dropped from 8.2 to 7.5, and Dodger Stadium plays neutral; (4) CHW @ NYY under 8.5 \u2014 Cole's workload-managed return against a White Sox team that's been inconsistent, with the total rising from 7.8 to 8.5 creating value on the under; (5) CIN @ NYM over 9.0 \u2014 both starters have struggled (Singer 5.61 ERA, Senga 9.00 ERA) at a hitter-friendly park, but the total dropped from 9.8 to 9.0; (6) SD @ STL under 8.0 \u2014 Busch Stadium suppresses HRs (0.93 PF), both starters are solid, and the line hasn't moved.\n\nWhat got cut: The MIA @ PHI game has only 0.4 data confidence and single-book pricing \u2014 too thin. The WSH @ KC total at 10.0 rose sharply from 8.67, suggesting the market sees something we don't, and both pitchers have elevated BB/9 (Griffin 6.5%, Wacha 7.6%) which makes unders risky. The CIN @ NYM over looked appealing given the pitching struggles, but Senga's 13.4% BB rate and Singer's 2.51 HR/9 create too much variance \u2014 this is a coin-flip game, not an edge. The ATL @ SF game has soft data confidence (0.4) and the Braves ML at -138 doesn't clear our juice threshold for the edge we'd need. The ARI @ LAA game saw massive line movement (total up from 8.5 to 9.5, home ML shortened 9.2pp) suggesting late information we don't have \u2014 pass.\n\nThe final six picks survive because they combine strong pitching metrics, favorable park factors, and market support. The TOR @ BOS under gets Cease's elite K upside against a lineup that doesn't mash. The BAL @ SEA under leverages Gilbert's home dominance at T-Mobile Park. The TB @ LAD under is the cleanest spot on the board \u2014 two quality starters, neutral park, line movement in our direction. The CHW @ NYY under catches Cole in a workload-managed spot against a beatable lineup. The SD @ STL under benefits from Busch Stadium's HR suppression and two solid mid-rotation arms. The ladder pick is the Dodgers-Rays under \u2014 highest floor, best market support, two starters who've been excellent.",
+      "slate_vibe": "SOFT",
+      "published_at": "2026-06-16T14:57:16.953074-04:00"
+    },
+    {
+      "id": "20260616-MLB-BAL-SEA-TOTAL",
+      "sport": "MLB",
+      "game": "BAL @ SEA",
+      "first_pitch_iso": "2026-06-17T01:40Z",
+      "pick": "Under 7.5",
+      "best_book": "FanDuel",
+      "best_odds": "-104",
+      "book_prices": {
+        "fanduel": "-104"
+      },
+      "book_links": {
+        "fanduel": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.586126272&selectionId=7017906",
+        "draftkings": "https://sportsbook.draftkings.com/leagues/baseball/mlb",
+        "betmgm": "https://sports.nj.betmgm.com/en/sports/baseball-23/betting/usa-9/mlb-75"
+      },
+      "market": "TOTAL",
+      "confidence": 3,
+      "units": 1.0,
+      "win_probability": 0.56,
+      "ladder_designation": false,
+      "data_confidence": 0.6,
+      "rules_passed": [
+        "max_juice",
+        "ladder_even_money",
+        "parlay_well_formed",
+        "confidence_units_match",
+        "data_confidence_floor",
+        "pick_type_allowed",
+        "mlb_hr_prop_check",
+        "mlb_pitcher_k_check",
+        "mlb_total_bases_check",
+        "mlb_hits_check",
+        "nba_player_prop_check",
+        "nhl_shots_check",
+        "mlb_run_line_check",
+        "mlb_under_bb_check",
+        "no_same_game_opposite"
+      ],
+      "locked": true,
+      "late_add": false,
+      "late_add_reason": "",
+      "bonus_pick": false,
+      "event_type": "",
+      "event_name": "",
+      "legs": [],
+      "headline": "Logan Gilbert at T-Mobile Park is a cheat code \u2014 the most pitcher-friendly venue in baseball.",
+      "the_thesis": "T-Mobile Park is the best pitcher's park in baseball with a 0.93 runs factor and 0.93 HR factor. Logan Gilbert has been excellent at home, and his 3.62 ERA and 25.5% K rate make him a reliable arm in this spot. The Mariners' signal flags this as a pitcher-friendly park play, and the market agrees \u2014 the total sits at 7.5 with the under getting slight juice.\n\nBrandon Young for Baltimore has been solid with a 3.04 ERA and 1.24 WHIP, though his 17.6% K rate is pedestrian. The key is that both offenses are middling \u2014 Seattle at 4.26 R/G and Baltimore at 4.70 R/G \u2014 and the park will suppress any power. Gilbert's home splits have historically been elite, and this is exactly the spot where he thrives.\n\nThe concern is single-book pricing (FanDuel only), which limits our data confidence. But the park factor is so dominant here that it overrides some of that uncertainty. T-Mobile Park has been a graveyard for offense all season.",
+      "the_data": [
+        {
+          "label": "T-Mobile Park Runs PF",
+          "value": "0.93",
+          "context": "Most pitcher-friendly in MLB"
+        },
+        {
+          "label": "T-Mobile Park HR PF",
+          "value": "0.93",
+          "context": "Suppresses power"
+        },
+        {
+          "label": "Gilbert ERA / K%",
+          "value": "3.62 / 25.5%",
+          "context": "Solid, misses bats"
+        },
+        {
+          "label": "Young ERA",
+          "value": "3.04",
+          "context": "Quietly effective"
+        },
+        {
+          "label": "SEA R/G",
+          "value": "4.26",
+          "context": "Below average"
+        },
+        {
+          "label": "BAL R/G",
+          "value": "4.70",
+          "context": "Average"
+        }
+      ],
+      "the_market": "Total at 7.5 with the under at -104 on FanDuel. Single-book pricing limits confidence, but the park factor is the dominant variable here. The Mariners' home ML lengthened 3.6pp since open, suggesting some sharp money on Baltimore, but the total hasn't moved.",
+      "weather_park": "T-Mobile Park is the story \u2014 0.93 runs PF makes this the best pitcher's park in baseball. Weather is irrelevant for the retractable roof.",
+      "case_against": "Single-book pricing (FanDuel only) limits our ability to confirm market consensus. Young's 17.6% K rate means he'll need weak contact rather than whiffs. If Gilbert doesn't go deep, Seattle's bullpen has been inconsistent on the road.",
+      "what_were_betting_on": "Gilbert dominating at home, the park suppressing any power, and both offenses staying quiet in a 4-3 or 3-2 game.",
+      "scott_bot_quip": "T-Mobile Park: where fly balls go to die and overs go to lose.",
+      "ladder_note": "",
+      "date": "2026-06-16",
+      "status": "PEND",
+      "units_result": null,
+      "clv_cents": null,
+      "result_score": null,
+      "graded_at": null,
+      "slate_assessment": "Thin 15-game MLB-only slate with widespread data confidence issues (most games at 0.4-0.45), but several pitching matchups and totals present clear edges \u2014 Cease vs. Tolle in Boston, Gilbert at T-Mobile Park, and the Dodgers-Rays under all stand out.",
+      "executive_summary": "The board is MLB-only today with 15 games, but data confidence is soft across most matchups \u2014 only three games have multi-book pricing. The sharpest edges live in the pitching: Dylan Cease brings elite strikeout upside against a soft Red Sox lineup at Fenway, Logan Gilbert gets the pitcher-friendly T-Mobile Park against Baltimore, and the Dodgers-Rays under benefits from two quality starters and a total that's already dropped from 8.2 to 7.5. Gerrit Cole's workload-managed return against the White Sox at Yankee Stadium offers plus-money value on the under. The ladder rides with the Dodgers-Rays under \u2014 two aces, neutral park, market already moving our way.",
+      "slate_analysis": "Today's board features 15 MLB games with no NBA or NHL action. The pricing climate is challenging \u2014 only three games (BOS/TOR, STL/SD, TEX/MIN) have odds from all three of our books, while the rest are FanDuel-only, which limits line shopping and raises data confidence concerns. Most games sit at 0.4-0.45 data confidence, below our 0.6 threshold for high-conviction plays, so we're working with a narrower set of actionable spots.\n\nThe top candidates that earned hard looks: (1) TOR @ BOS under 7.5 \u2014 Cease's elite K rate (36.8%) against a Boston lineup that's been middling offensively, plus Tolle's strong 2.70 ERA and 0.51 HR/9; (2) BAL @ SEA under 7.5 \u2014 Gilbert at T-Mobile Park (0.93 runs PF) against a Baltimore team on the road, with the market already pricing this as a pitcher's duel; (3) TB @ LAD under 7.5 \u2014 Wrobleski and Rasmussen are both sub-3.00 ERA starters, the total dropped from 8.2 to 7.5, and Dodger Stadium plays neutral; (4) CHW @ NYY under 8.5 \u2014 Cole's workload-managed return against a White Sox team that's been inconsistent, with the total rising from 7.8 to 8.5 creating value on the under; (5) CIN @ NYM over 9.0 \u2014 both starters have struggled (Singer 5.61 ERA, Senga 9.00 ERA) at a hitter-friendly park, but the total dropped from 9.8 to 9.0; (6) SD @ STL under 8.0 \u2014 Busch Stadium suppresses HRs (0.93 PF), both starters are solid, and the line hasn't moved.\n\nWhat got cut: The MIA @ PHI game has only 0.4 data confidence and single-book pricing \u2014 too thin. The WSH @ KC total at 10.0 rose sharply from 8.67, suggesting the market sees something we don't, and both pitchers have elevated BB/9 (Griffin 6.5%, Wacha 7.6%) which makes unders risky. The CIN @ NYM over looked appealing given the pitching struggles, but Senga's 13.4% BB rate and Singer's 2.51 HR/9 create too much variance \u2014 this is a coin-flip game, not an edge. The ATL @ SF game has soft data confidence (0.4) and the Braves ML at -138 doesn't clear our juice threshold for the edge we'd need. The ARI @ LAA game saw massive line movement (total up from 8.5 to 9.5, home ML shortened 9.2pp) suggesting late information we don't have \u2014 pass.\n\nThe final six picks survive because they combine strong pitching metrics, favorable park factors, and market support. The TOR @ BOS under gets Cease's elite K upside against a lineup that doesn't mash. The BAL @ SEA under leverages Gilbert's home dominance at T-Mobile Park. The TB @ LAD under is the cleanest spot on the board \u2014 two quality starters, neutral park, line movement in our direction. The CHW @ NYY under catches Cole in a workload-managed spot against a beatable lineup. The SD @ STL under benefits from Busch Stadium's HR suppression and two solid mid-rotation arms. The ladder pick is the Dodgers-Rays under \u2014 highest floor, best market support, two starters who've been excellent.",
+      "slate_vibe": "SOFT",
+      "published_at": "2026-06-16T14:57:16.953013-04:00"
+    },
+    {
+      "id": "20260616-MLB-TOR-BOS-TOTAL",
+      "sport": "MLB",
+      "game": "TOR @ BOS",
+      "first_pitch_iso": "2026-06-16T22:45Z",
+      "pick": "Under 7.5",
+      "best_book": "BetMGM",
+      "best_odds": "-105",
+      "book_prices": {
+        "draftkings": "-107",
+        "fanduel": "-106",
+        "betmgm": "-105"
+      },
+      "book_links": {
+        "draftkings": "https://sportsbook.draftkings.com/?outcomes=0OU85162382U750_3",
+        "betmgm": "https://sports.nj.betmgm.com/en/sports?options=19704835-1533684322-2227742095&type=Single",
+        "fanduel": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.585878147&selectionId=7017906"
+      },
+      "market": "TOTAL",
+      "confidence": 4,
+      "units": 1.5,
+      "win_probability": 0.58,
+      "ladder_designation": false,
+      "data_confidence": 0.65,
+      "rules_passed": [
+        "max_juice",
+        "ladder_even_money",
+        "parlay_well_formed",
+        "confidence_units_match",
+        "data_confidence_floor",
+        "pick_type_allowed",
+        "mlb_hr_prop_check",
+        "mlb_pitcher_k_check",
+        "mlb_total_bases_check",
+        "mlb_hits_check",
+        "nba_player_prop_check",
+        "nhl_shots_check",
+        "mlb_run_line_check",
+        "mlb_under_bb_check",
+        "no_same_game_opposite"
+      ],
+      "locked": true,
+      "late_add": false,
+      "late_add_reason": "",
+      "bonus_pick": false,
+      "event_type": "",
+      "event_name": "",
+      "legs": [],
+      "headline": "Two quality starters at Fenway, Cease's elite K rate meets a Boston lineup that's been average offensively.",
+      "the_thesis": "Dylan Cease returned from his hamstring injury with 11 strikeouts and has been dominant when healthy \u2014 his 36.8% K rate is elite, and his 2.91 ERA understates how good he's been. The Red Sox offense has been middling at 4.03 runs per game, and while Fenway plays slightly hitter-friendly (1.05 runs PF), the HR factor is actually suppressed at 0.96. Cease's ability to miss bats should keep Boston's contact-dependent lineup in check.\n\nOn the other side, Payton Tolle has been a revelation for Boston \u2014 2.70 ERA, 1.05 WHIP, and a minuscule 0.51 HR/9 that suggests he's keeping the ball on the ground. His 25.1% K rate is solid, and against a Toronto lineup averaging just 4.07 runs per game, he should be able to work deep into the game. The total opened at 7.5 and hasn't moved, suggesting the market agrees this is a pitcher's duel.\n\nThe key here is both starters' ability to limit damage. Cease's BB/9 is elevated (9.6%), but his strikeout rate compensates. Tolle's control is excellent (6.5% BB rate), and he's been limiting hard contact. With both bullpens rested and the game at Fenway where the HR factor is neutral, this has the makings of a 3-2 or 4-3 final.",
+      "the_data": [
+        {
+          "label": "Cease K%",
+          "value": "36.8%",
+          "context": "Elite, top-5 in MLB"
+        },
+        {
+          "label": "Cease ERA / L3 ERA",
+          "value": "2.91 / 2.91",
+          "context": "Consistent excellence"
+        },
+        {
+          "label": "Tolle ERA / HR9",
+          "value": "2.70 / 0.51",
+          "context": "Ground-ball pitcher limiting damage"
+        },
+        {
+          "label": "BOS R/G",
+          "value": "4.03",
+          "context": "League average"
+        },
+        {
+          "label": "TOR R/G",
+          "value": "4.07",
+          "context": "League average"
+        },
+        {
+          "label": "Fenway HR PF",
+          "value": "0.96",
+          "context": "Slightly suppresses HRs"
+        }
+      ],
+      "the_market": "Total opened at 7.5 and sits there across all three books. The line hasn't moved despite Cease's return from injury, suggesting the market is comfortable with this number. We're getting the best price at BetMGM (-105).",
+      "weather_park": "Fenway at 77\u00b0F with 3 mph wind out to RF \u2014 minimal impact. The park's 0.96 HR factor slightly favors pitchers.",
+      "case_against": "Cease's elevated walk rate (9.6%) could lead to traffic on the bases, and if he loses command early, the Red Sox could capitalize. Tolle's sample size (53.1 IP) is small enough that regression is possible. If either starter exits early, both bullpens have been worked recently.",
+      "what_were_betting_on": "Both starters going 6+ innings, Cease's strikeouts keeping Boston off the board, and Tolle's ground-ball approach limiting Toronto's power.",
+      "scott_bot_quip": "Cease came back throwing gas. Tolle's been a ghost. Seven and a half feels generous.",
+      "ladder_note": "",
+      "date": "2026-06-16",
+      "status": "PEND",
+      "units_result": null,
+      "clv_cents": null,
+      "result_score": null,
+      "graded_at": null,
+      "slate_assessment": "Thin 15-game MLB-only slate with widespread data confidence issues (most games at 0.4-0.45), but several pitching matchups and totals present clear edges \u2014 Cease vs. Tolle in Boston, Gilbert at T-Mobile Park, and the Dodgers-Rays under all stand out.",
+      "executive_summary": "The board is MLB-only today with 15 games, but data confidence is soft across most matchups \u2014 only three games have multi-book pricing. The sharpest edges live in the pitching: Dylan Cease brings elite strikeout upside against a soft Red Sox lineup at Fenway, Logan Gilbert gets the pitcher-friendly T-Mobile Park against Baltimore, and the Dodgers-Rays under benefits from two quality starters and a total that's already dropped from 8.2 to 7.5. Gerrit Cole's workload-managed return against the White Sox at Yankee Stadium offers plus-money value on the under. The ladder rides with the Dodgers-Rays under \u2014 two aces, neutral park, market already moving our way.",
+      "slate_analysis": "Today's board features 15 MLB games with no NBA or NHL action. The pricing climate is challenging \u2014 only three games (BOS/TOR, STL/SD, TEX/MIN) have odds from all three of our books, while the rest are FanDuel-only, which limits line shopping and raises data confidence concerns. Most games sit at 0.4-0.45 data confidence, below our 0.6 threshold for high-conviction plays, so we're working with a narrower set of actionable spots.\n\nThe top candidates that earned hard looks: (1) TOR @ BOS under 7.5 \u2014 Cease's elite K rate (36.8%) against a Boston lineup that's been middling offensively, plus Tolle's strong 2.70 ERA and 0.51 HR/9; (2) BAL @ SEA under 7.5 \u2014 Gilbert at T-Mobile Park (0.93 runs PF) against a Baltimore team on the road, with the market already pricing this as a pitcher's duel; (3) TB @ LAD under 7.5 \u2014 Wrobleski and Rasmussen are both sub-3.00 ERA starters, the total dropped from 8.2 to 7.5, and Dodger Stadium plays neutral; (4) CHW @ NYY under 8.5 \u2014 Cole's workload-managed return against a White Sox team that's been inconsistent, with the total rising from 7.8 to 8.5 creating value on the under; (5) CIN @ NYM over 9.0 \u2014 both starters have struggled (Singer 5.61 ERA, Senga 9.00 ERA) at a hitter-friendly park, but the total dropped from 9.8 to 9.0; (6) SD @ STL under 8.0 \u2014 Busch Stadium suppresses HRs (0.93 PF), both starters are solid, and the line hasn't moved.\n\nWhat got cut: The MIA @ PHI game has only 0.4 data confidence and single-book pricing \u2014 too thin. The WSH @ KC total at 10.0 rose sharply from 8.67, suggesting the market sees something we don't, and both pitchers have elevated BB/9 (Griffin 6.5%, Wacha 7.6%) which makes unders risky. The CIN @ NYM over looked appealing given the pitching struggles, but Senga's 13.4% BB rate and Singer's 2.51 HR/9 create too much variance \u2014 this is a coin-flip game, not an edge. The ATL @ SF game has soft data confidence (0.4) and the Braves ML at -138 doesn't clear our juice threshold for the edge we'd need. The ARI @ LAA game saw massive line movement (total up from 8.5 to 9.5, home ML shortened 9.2pp) suggesting late information we don't have \u2014 pass.\n\nThe final six picks survive because they combine strong pitching metrics, favorable park factors, and market support. The TOR @ BOS under gets Cease's elite K upside against a lineup that doesn't mash. The BAL @ SEA under leverages Gilbert's home dominance at T-Mobile Park. The TB @ LAD under is the cleanest spot on the board \u2014 two quality starters, neutral park, line movement in our direction. The CHW @ NYY under catches Cole in a workload-managed spot against a beatable lineup. The SD @ STL under benefits from Busch Stadium's HR suppression and two solid mid-rotation arms. The ladder pick is the Dodgers-Rays under \u2014 highest floor, best market support, two starters who've been excellent.",
+      "slate_vibe": "SOFT",
+      "published_at": "2026-06-16T14:57:16.952882-04:00"
+    }
+  ],
   "today_bonus_picks": [],
   "all_picks": [
+    {
+      "id": "20260616-MLB-MIN-TEX-ML",
+      "sport": "MLB",
+      "game": "MIN @ TEX",
+      "first_pitch_iso": "2026-06-17T00:05Z",
+      "pick": "Texas Rangers ML",
+      "best_book": "DraftKings",
+      "best_odds": "-132",
+      "book_prices": {
+        "draftkings": "-132",
+        "fanduel": "-134",
+        "betmgm": "-135"
+      },
+      "book_links": {
+        "fanduel": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.585812891&selectionId=29163",
+        "draftkings": "https://sportsbook.draftkings.com/?outcomes=0ML85162390_1",
+        "betmgm": "https://sports.nj.betmgm.com/en/sports?options=19704842-1533684995-2227743570&type=Single"
+      },
+      "market": "ML",
+      "confidence": 3,
+      "units": 1.0,
+      "win_probability": 0.58,
+      "ladder_designation": false,
+      "data_confidence": 0.6,
+      "rules_passed": [
+        "max_juice",
+        "ladder_even_money",
+        "parlay_well_formed",
+        "confidence_units_match",
+        "data_confidence_floor",
+        "pick_type_allowed",
+        "mlb_hr_prop_check",
+        "mlb_pitcher_k_check",
+        "mlb_total_bases_check",
+        "mlb_hits_check",
+        "nba_player_prop_check",
+        "nhl_shots_check",
+        "mlb_run_line_check",
+        "mlb_under_bb_check",
+        "no_same_game_opposite"
+      ],
+      "locked": true,
+      "late_add": false,
+      "late_add_reason": "",
+      "bonus_pick": false,
+      "event_type": "",
+      "event_name": "",
+      "legs": [],
+      "headline": "Kumar Rocker at home against a struggling Zebby Matthews \u2014 the Rangers are the better team in a coin-flip spot.",
+      "the_thesis": "Kumar Rocker has been solid for Texas \u2014 3.56 ERA, 1.34 WHIP, and a 0.83 HR/9 that plays well at Globe Life Field. His 18.4% K rate is pedestrian, but he limits hard contact and keeps the ball in the park. Against a Twins lineup averaging 4.62 R/G, he should be able to work deep into the game.\n\nZebby Matthews for Minnesota has struggled \u2014 5.20 ERA, 1.18 WHIP, and a 1.99 HR/9 that's concerning at Globe Life Field (1.05 HR PF). His 20.0% K rate is decent, but the elevated HR rate suggests he's hittable. The Rangers' offense at 3.99 R/G is below average, but they should be able to capitalize on Matthews' mistakes.\n\nThe market has this as a pick'em with Texas as slight favorites (-132 at DraftKings). The Rangers are at home, have the better starter, and should be able to grind out a win. This is a value play on the home team in a coin-flip spot.",
+      "the_data": [
+        {
+          "label": "Rocker ERA / HR9",
+          "value": "3.56 / 0.83",
+          "context": "Solid, limits damage"
+        },
+        {
+          "label": "Matthews ERA / HR9",
+          "value": "5.20 / 1.99",
+          "context": "Struggling, HR-prone"
+        },
+        {
+          "label": "Globe Life HR PF",
+          "value": "1.05",
+          "context": "Slightly HR-boosting"
+        },
+        {
+          "label": "MIN R/G",
+          "value": "4.62",
+          "context": "Average"
+        },
+        {
+          "label": "TEX R/G",
+          "value": "3.99",
+          "context": "Below average"
+        },
+        {
+          "label": "Matthews IP/start",
+          "value": "12.03",
+          "context": "Short outings"
+        }
+      ],
+      "the_market": "Rangers ML at -132 on DraftKings, -134 on FanDuel, -135 on BetMGM. The line hasn't moved since open, suggesting the market is comfortable with Texas as slight favorites. We're getting the best price at DraftKings.",
+      "weather_park": "Globe Life Field is a dome \u2014 no weather concerns. The park plays slightly HR-friendly (1.05 PF), which favors the Rangers given Matthews' elevated HR rate.",
+      "case_against": "The Rangers' offense has been below average (3.99 R/G), and if Rocker doesn't have his best stuff, the Twins could capitalize. Matthews' small sample (36.1 IP) means his numbers could stabilize. The Twins have been better on the road this season.",
+      "what_were_betting_on": "Rocker outpitching Matthews, the Rangers' home-field advantage, and Matthews' HR-prone tendencies catching up to him.",
+      "scott_bot_quip": "Matthews has been serving meatballs. Rocker's been keeping them in the park. Math is math.",
+      "ladder_note": "",
+      "date": "2026-06-16",
+      "status": "PEND",
+      "units_result": null,
+      "clv_cents": null,
+      "result_score": null,
+      "graded_at": null,
+      "slate_assessment": "Thin 15-game MLB-only slate with widespread data confidence issues (most games at 0.4-0.45), but several pitching matchups and totals present clear edges \u2014 Cease vs. Tolle in Boston, Gilbert at T-Mobile Park, and the Dodgers-Rays under all stand out.",
+      "executive_summary": "The board is MLB-only today with 15 games, but data confidence is soft across most matchups \u2014 only three games have multi-book pricing. The sharpest edges live in the pitching: Dylan Cease brings elite strikeout upside against a soft Red Sox lineup at Fenway, Logan Gilbert gets the pitcher-friendly T-Mobile Park against Baltimore, and the Dodgers-Rays under benefits from two quality starters and a total that's already dropped from 8.2 to 7.5. Gerrit Cole's workload-managed return against the White Sox at Yankee Stadium offers plus-money value on the under. The ladder rides with the Dodgers-Rays under \u2014 two aces, neutral park, market already moving our way.",
+      "slate_analysis": "Today's board features 15 MLB games with no NBA or NHL action. The pricing climate is challenging \u2014 only three games (BOS/TOR, STL/SD, TEX/MIN) have odds from all three of our books, while the rest are FanDuel-only, which limits line shopping and raises data confidence concerns. Most games sit at 0.4-0.45 data confidence, below our 0.6 threshold for high-conviction plays, so we're working with a narrower set of actionable spots.\n\nThe top candidates that earned hard looks: (1) TOR @ BOS under 7.5 \u2014 Cease's elite K rate (36.8%) against a Boston lineup that's been middling offensively, plus Tolle's strong 2.70 ERA and 0.51 HR/9; (2) BAL @ SEA under 7.5 \u2014 Gilbert at T-Mobile Park (0.93 runs PF) against a Baltimore team on the road, with the market already pricing this as a pitcher's duel; (3) TB @ LAD under 7.5 \u2014 Wrobleski and Rasmussen are both sub-3.00 ERA starters, the total dropped from 8.2 to 7.5, and Dodger Stadium plays neutral; (4) CHW @ NYY under 8.5 \u2014 Cole's workload-managed return against a White Sox team that's been inconsistent, with the total rising from 7.8 to 8.5 creating value on the under; (5) CIN @ NYM over 9.0 \u2014 both starters have struggled (Singer 5.61 ERA, Senga 9.00 ERA) at a hitter-friendly park, but the total dropped from 9.8 to 9.0; (6) SD @ STL under 8.0 \u2014 Busch Stadium suppresses HRs (0.93 PF), both starters are solid, and the line hasn't moved.\n\nWhat got cut: The MIA @ PHI game has only 0.4 data confidence and single-book pricing \u2014 too thin. The WSH @ KC total at 10.0 rose sharply from 8.67, suggesting the market sees something we don't, and both pitchers have elevated BB/9 (Griffin 6.5%, Wacha 7.6%) which makes unders risky. The CIN @ NYM over looked appealing given the pitching struggles, but Senga's 13.4% BB rate and Singer's 2.51 HR/9 create too much variance \u2014 this is a coin-flip game, not an edge. The ATL @ SF game has soft data confidence (0.4) and the Braves ML at -138 doesn't clear our juice threshold for the edge we'd need. The ARI @ LAA game saw massive line movement (total up from 8.5 to 9.5, home ML shortened 9.2pp) suggesting late information we don't have \u2014 pass.\n\nThe final six picks survive because they combine strong pitching metrics, favorable park factors, and market support. The TOR @ BOS under gets Cease's elite K upside against a lineup that doesn't mash. The BAL @ SEA under leverages Gilbert's home dominance at T-Mobile Park. The TB @ LAD under is the cleanest spot on the board \u2014 two quality starters, neutral park, line movement in our direction. The CHW @ NYY under catches Cole in a workload-managed spot against a beatable lineup. The SD @ STL under benefits from Busch Stadium's HR suppression and two solid mid-rotation arms. The ladder pick is the Dodgers-Rays under \u2014 highest floor, best market support, two starters who've been excellent.",
+      "slate_vibe": "SOFT",
+      "published_at": "2026-06-16T14:57:16.953279-04:00"
+    },
+    {
+      "id": "20260616-MLB-SD-STL-TOTAL",
+      "sport": "MLB",
+      "game": "SD @ STL",
+      "first_pitch_iso": "2026-06-16T23:45Z",
+      "pick": "Under 8.0",
+      "best_book": "FanDuel",
+      "best_odds": "-110",
+      "book_prices": {
+        "draftkings": "-110",
+        "fanduel": "-110",
+        "betmgm": "-110"
+      },
+      "book_links": {
+        "fanduel": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.585880353&selectionId=7017906",
+        "draftkings": "https://sportsbook.draftkings.com/?outcomes=0OU85162388U800_3",
+        "betmgm": "https://sports.nj.betmgm.com/en/sports?options=19704840-1533684823-2227743190&type=Single"
+      },
+      "market": "TOTAL",
+      "confidence": 3,
+      "units": 1.0,
+      "win_probability": 0.56,
+      "ladder_designation": false,
+      "data_confidence": 0.62,
+      "rules_passed": [
+        "max_juice",
+        "ladder_even_money",
+        "parlay_well_formed",
+        "confidence_units_match",
+        "data_confidence_floor",
+        "pick_type_allowed",
+        "mlb_hr_prop_check",
+        "mlb_pitcher_k_check",
+        "mlb_total_bases_check",
+        "mlb_hits_check",
+        "nba_player_prop_check",
+        "nhl_shots_check",
+        "mlb_run_line_check",
+        "mlb_under_bb_check",
+        "no_same_game_opposite"
+      ],
+      "locked": true,
+      "late_add": false,
+      "late_add_reason": "",
+      "bonus_pick": false,
+      "event_type": "",
+      "event_name": "",
+      "legs": [],
+      "headline": "Busch Stadium suppresses HRs, both starters are solid, and the total hasn't moved off 8.0.",
+      "the_thesis": "Busch Stadium is one of the better pitcher's parks in baseball \u2014 0.97 runs PF and 0.93 HR PF. That HR suppression matters when you have two mid-rotation arms who can limit damage. Andre Pallante has been solid for St. Louis \u2014 3.88 ERA, 1.26 WHIP, and a 1.17 HR/9 that should play down in this park.\n\nMichael King for San Diego has been better \u2014 3.46 ERA, 1.15 WHIP, and a 22.1% K rate. His 9.8% BB rate is elevated, but his ability to miss bats compensates. Against a Cardinals lineup averaging 4.60 R/G, he should be able to work deep into the game.\n\nThe total opened at 8.0 and hasn't moved, suggesting the market is comfortable with this number. Both offenses are below average \u2014 San Diego at 3.83 R/G and St. Louis at 4.60 R/G \u2014 and the park should suppress any power. This is a grind-it-out game.",
+      "the_data": [
+        {
+          "label": "Busch Stadium HR PF",
+          "value": "0.93",
+          "context": "Suppresses power"
+        },
+        {
+          "label": "Busch Stadium Runs PF",
+          "value": "0.97",
+          "context": "Pitcher-friendly"
+        },
+        {
+          "label": "King ERA / K%",
+          "value": "3.46 / 22.1%",
+          "context": "Solid, misses bats"
+        },
+        {
+          "label": "Pallante ERA",
+          "value": "3.88",
+          "context": "Reliable"
+        },
+        {
+          "label": "SD R/G",
+          "value": "3.83",
+          "context": "Below average"
+        },
+        {
+          "label": "STL R/G",
+          "value": "4.60",
+          "context": "Average"
+        }
+      ],
+      "the_market": "Total opened at 8.0 and sits there across all three books at -110. No movement suggests the market is comfortable with this number. We have three-book pricing, which gives us confidence in the line.",
+      "weather_park": "Busch Stadium's 0.93 HR PF is the key \u2014 this park suppresses power, which benefits both pitchers.",
+      "case_against": "King's 9.8% BB rate could lead to traffic on the bases. Pallante's 1.17 HR/9 is elevated, and if he hangs one, the Padres could capitalize. Both bullpens have been worked recently.",
+      "what_were_betting_on": "Both starters going 6+ innings, the park suppressing any power, and both offenses staying quiet in a 4-3 or 3-2 game.",
+      "scott_bot_quip": "Busch Stadium: where fly balls die and unders thrive.",
+      "ladder_note": "",
+      "date": "2026-06-16",
+      "status": "PEND",
+      "units_result": null,
+      "clv_cents": null,
+      "result_score": null,
+      "graded_at": null,
+      "slate_assessment": "Thin 15-game MLB-only slate with widespread data confidence issues (most games at 0.4-0.45), but several pitching matchups and totals present clear edges \u2014 Cease vs. Tolle in Boston, Gilbert at T-Mobile Park, and the Dodgers-Rays under all stand out.",
+      "executive_summary": "The board is MLB-only today with 15 games, but data confidence is soft across most matchups \u2014 only three games have multi-book pricing. The sharpest edges live in the pitching: Dylan Cease brings elite strikeout upside against a soft Red Sox lineup at Fenway, Logan Gilbert gets the pitcher-friendly T-Mobile Park against Baltimore, and the Dodgers-Rays under benefits from two quality starters and a total that's already dropped from 8.2 to 7.5. Gerrit Cole's workload-managed return against the White Sox at Yankee Stadium offers plus-money value on the under. The ladder rides with the Dodgers-Rays under \u2014 two aces, neutral park, market already moving our way.",
+      "slate_analysis": "Today's board features 15 MLB games with no NBA or NHL action. The pricing climate is challenging \u2014 only three games (BOS/TOR, STL/SD, TEX/MIN) have odds from all three of our books, while the rest are FanDuel-only, which limits line shopping and raises data confidence concerns. Most games sit at 0.4-0.45 data confidence, below our 0.6 threshold for high-conviction plays, so we're working with a narrower set of actionable spots.\n\nThe top candidates that earned hard looks: (1) TOR @ BOS under 7.5 \u2014 Cease's elite K rate (36.8%) against a Boston lineup that's been middling offensively, plus Tolle's strong 2.70 ERA and 0.51 HR/9; (2) BAL @ SEA under 7.5 \u2014 Gilbert at T-Mobile Park (0.93 runs PF) against a Baltimore team on the road, with the market already pricing this as a pitcher's duel; (3) TB @ LAD under 7.5 \u2014 Wrobleski and Rasmussen are both sub-3.00 ERA starters, the total dropped from 8.2 to 7.5, and Dodger Stadium plays neutral; (4) CHW @ NYY under 8.5 \u2014 Cole's workload-managed return against a White Sox team that's been inconsistent, with the total rising from 7.8 to 8.5 creating value on the under; (5) CIN @ NYM over 9.0 \u2014 both starters have struggled (Singer 5.61 ERA, Senga 9.00 ERA) at a hitter-friendly park, but the total dropped from 9.8 to 9.0; (6) SD @ STL under 8.0 \u2014 Busch Stadium suppresses HRs (0.93 PF), both starters are solid, and the line hasn't moved.\n\nWhat got cut: The MIA @ PHI game has only 0.4 data confidence and single-book pricing \u2014 too thin. The WSH @ KC total at 10.0 rose sharply from 8.67, suggesting the market sees something we don't, and both pitchers have elevated BB/9 (Griffin 6.5%, Wacha 7.6%) which makes unders risky. The CIN @ NYM over looked appealing given the pitching struggles, but Senga's 13.4% BB rate and Singer's 2.51 HR/9 create too much variance \u2014 this is a coin-flip game, not an edge. The ATL @ SF game has soft data confidence (0.4) and the Braves ML at -138 doesn't clear our juice threshold for the edge we'd need. The ARI @ LAA game saw massive line movement (total up from 8.5 to 9.5, home ML shortened 9.2pp) suggesting late information we don't have \u2014 pass.\n\nThe final six picks survive because they combine strong pitching metrics, favorable park factors, and market support. The TOR @ BOS under gets Cease's elite K upside against a lineup that doesn't mash. The BAL @ SEA under leverages Gilbert's home dominance at T-Mobile Park. The TB @ LAD under is the cleanest spot on the board \u2014 two quality starters, neutral park, line movement in our direction. The CHW @ NYY under catches Cole in a workload-managed spot against a beatable lineup. The SD @ STL under benefits from Busch Stadium's HR suppression and two solid mid-rotation arms. The ladder pick is the Dodgers-Rays under \u2014 highest floor, best market support, two starters who've been excellent.",
+      "slate_vibe": "SOFT",
+      "published_at": "2026-06-16T14:57:16.953191-04:00"
+    },
+    {
+      "id": "20260616-MLB-CHW-NYY-TOTAL",
+      "sport": "MLB",
+      "game": "CHW @ NYY",
+      "first_pitch_iso": "2026-06-16T23:05Z",
+      "pick": "Under 8.5",
+      "best_book": "FanDuel",
+      "best_odds": "-122",
+      "book_prices": {
+        "fanduel": "-122"
+      },
+      "book_links": {
+        "fanduel": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.586107775&selectionId=7017906",
+        "draftkings": "https://sportsbook.draftkings.com/leagues/baseball/mlb",
+        "betmgm": "https://sports.nj.betmgm.com/en/sports/baseball-23/betting/usa-9/mlb-75"
+      },
+      "market": "TOTAL",
+      "confidence": 3,
+      "units": 1.0,
+      "win_probability": 0.57,
+      "ladder_designation": false,
+      "data_confidence": 0.6,
+      "rules_passed": [
+        "max_juice",
+        "ladder_even_money",
+        "parlay_well_formed",
+        "confidence_units_match",
+        "data_confidence_floor",
+        "pick_type_allowed",
+        "mlb_hr_prop_check",
+        "mlb_pitcher_k_check",
+        "mlb_total_bases_check",
+        "mlb_hits_check",
+        "nba_player_prop_check",
+        "nhl_shots_check",
+        "mlb_run_line_check",
+        "mlb_under_bb_check",
+        "no_same_game_opposite"
+      ],
+      "locked": true,
+      "late_add": false,
+      "late_add_reason": "",
+      "bonus_pick": false,
+      "event_type": "",
+      "event_name": "",
+      "legs": [],
+      "headline": "Gerrit Cole's workload-managed return against a White Sox team that's been inconsistent \u2014 the total rose too far.",
+      "the_thesis": "Gerrit Cole has been excellent in his return from Tommy John surgery \u2014 2.45 ERA, 1.05 WHIP, and 18:6 K:BB across 22 innings. The Yankees are managing his workload, but he's been efficient when he's on the mound. Against a White Sox lineup averaging 4.76 R/G, he should be able to work 5-6 quality innings before handing it to the bullpen.\n\nDavis Martin for Chicago has been surprisingly good \u2014 2.41 ERA, 1.10 WHIP, and a 25.2% K rate. His 0.35 HR/9 is elite, which matters at Yankee Stadium (1.14 HR PF). The total rose from 7.8 to 8.5 since open, suggesting public money on the over, but the pitching matchup doesn't support that move.\n\nThe concern is Yankee Stadium's HR-boosting factor (1.14), but both pitchers have been excellent at limiting the long ball. Cole's 1.23 HR/9 is elevated, but that's a small sample (22 IP) and his underlying metrics are strong. Martin's 0.35 HR/9 should help neutralize the park.",
+      "the_data": [
+        {
+          "label": "Cole ERA / WHIP",
+          "value": "2.45 / 1.05",
+          "context": "Excellent in return"
+        },
+        {
+          "label": "Cole K:BB",
+          "value": "18:6",
+          "context": "Strong command"
+        },
+        {
+          "label": "Martin ERA / HR9",
+          "value": "2.41 / 0.35",
+          "context": "Elite HR suppression"
+        },
+        {
+          "label": "Total movement",
+          "value": "7.8 \u2192 8.5",
+          "context": "Public money on over"
+        },
+        {
+          "label": "Yankee Stadium HR PF",
+          "value": "1.14",
+          "context": "HR-boosting"
+        },
+        {
+          "label": "CHW R/G",
+          "value": "4.76",
+          "context": "Average"
+        }
+      ],
+      "the_market": "Total opened at 7.8 and rose to 8.5 \u2014 public money on the over. We're getting -122 on the under at FanDuel, which is playable juice. The Yankees' ML shortened 3.9pp, suggesting sharp money on NY, but the total movement is the key signal here.",
+      "weather_park": "Yankee Stadium is HR-friendly (1.14 PF), but both pitchers have been excellent at limiting the long ball. Weather is clear with no wind concerns.",
+      "case_against": "Yankee Stadium's HR factor (1.14) is the highest on the board today. Cole's workload is being managed, so he may exit after 5 innings. If the game goes to the bullpens early, both teams have been inconsistent in relief.",
+      "what_were_betting_on": "Cole's efficiency keeping him in the game, Martin's HR suppression neutralizing Yankee Stadium, and both offenses staying quiet in a 4-3 or 5-4 game.",
+      "scott_bot_quip": "Cole's back, the public's on the over, and Martin's been a ghost. Classic fade spot.",
+      "ladder_note": "",
+      "date": "2026-06-16",
+      "status": "PEND",
+      "units_result": null,
+      "clv_cents": null,
+      "result_score": null,
+      "graded_at": null,
+      "slate_assessment": "Thin 15-game MLB-only slate with widespread data confidence issues (most games at 0.4-0.45), but several pitching matchups and totals present clear edges \u2014 Cease vs. Tolle in Boston, Gilbert at T-Mobile Park, and the Dodgers-Rays under all stand out.",
+      "executive_summary": "The board is MLB-only today with 15 games, but data confidence is soft across most matchups \u2014 only three games have multi-book pricing. The sharpest edges live in the pitching: Dylan Cease brings elite strikeout upside against a soft Red Sox lineup at Fenway, Logan Gilbert gets the pitcher-friendly T-Mobile Park against Baltimore, and the Dodgers-Rays under benefits from two quality starters and a total that's already dropped from 8.2 to 7.5. Gerrit Cole's workload-managed return against the White Sox at Yankee Stadium offers plus-money value on the under. The ladder rides with the Dodgers-Rays under \u2014 two aces, neutral park, market already moving our way.",
+      "slate_analysis": "Today's board features 15 MLB games with no NBA or NHL action. The pricing climate is challenging \u2014 only three games (BOS/TOR, STL/SD, TEX/MIN) have odds from all three of our books, while the rest are FanDuel-only, which limits line shopping and raises data confidence concerns. Most games sit at 0.4-0.45 data confidence, below our 0.6 threshold for high-conviction plays, so we're working with a narrower set of actionable spots.\n\nThe top candidates that earned hard looks: (1) TOR @ BOS under 7.5 \u2014 Cease's elite K rate (36.8%) against a Boston lineup that's been middling offensively, plus Tolle's strong 2.70 ERA and 0.51 HR/9; (2) BAL @ SEA under 7.5 \u2014 Gilbert at T-Mobile Park (0.93 runs PF) against a Baltimore team on the road, with the market already pricing this as a pitcher's duel; (3) TB @ LAD under 7.5 \u2014 Wrobleski and Rasmussen are both sub-3.00 ERA starters, the total dropped from 8.2 to 7.5, and Dodger Stadium plays neutral; (4) CHW @ NYY under 8.5 \u2014 Cole's workload-managed return against a White Sox team that's been inconsistent, with the total rising from 7.8 to 8.5 creating value on the under; (5) CIN @ NYM over 9.0 \u2014 both starters have struggled (Singer 5.61 ERA, Senga 9.00 ERA) at a hitter-friendly park, but the total dropped from 9.8 to 9.0; (6) SD @ STL under 8.0 \u2014 Busch Stadium suppresses HRs (0.93 PF), both starters are solid, and the line hasn't moved.\n\nWhat got cut: The MIA @ PHI game has only 0.4 data confidence and single-book pricing \u2014 too thin. The WSH @ KC total at 10.0 rose sharply from 8.67, suggesting the market sees something we don't, and both pitchers have elevated BB/9 (Griffin 6.5%, Wacha 7.6%) which makes unders risky. The CIN @ NYM over looked appealing given the pitching struggles, but Senga's 13.4% BB rate and Singer's 2.51 HR/9 create too much variance \u2014 this is a coin-flip game, not an edge. The ATL @ SF game has soft data confidence (0.4) and the Braves ML at -138 doesn't clear our juice threshold for the edge we'd need. The ARI @ LAA game saw massive line movement (total up from 8.5 to 9.5, home ML shortened 9.2pp) suggesting late information we don't have \u2014 pass.\n\nThe final six picks survive because they combine strong pitching metrics, favorable park factors, and market support. The TOR @ BOS under gets Cease's elite K upside against a lineup that doesn't mash. The BAL @ SEA under leverages Gilbert's home dominance at T-Mobile Park. The TB @ LAD under is the cleanest spot on the board \u2014 two quality starters, neutral park, line movement in our direction. The CHW @ NYY under catches Cole in a workload-managed spot against a beatable lineup. The SD @ STL under benefits from Busch Stadium's HR suppression and two solid mid-rotation arms. The ladder pick is the Dodgers-Rays under \u2014 highest floor, best market support, two starters who've been excellent.",
+      "slate_vibe": "SOFT",
+      "published_at": "2026-06-16T14:57:16.953126-04:00"
+    },
+    {
+      "id": "20260616-MLB-TB-LAD-TOTAL",
+      "sport": "MLB",
+      "game": "TB @ LAD",
+      "first_pitch_iso": "2026-06-17T02:10Z",
+      "pick": "Under 7.5",
+      "best_book": "FanDuel",
+      "best_odds": "+102",
+      "book_prices": {
+        "fanduel": "+102"
+      },
+      "book_links": {
+        "fanduel": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.586105573&selectionId=7017906",
+        "draftkings": "https://sportsbook.draftkings.com/leagues/baseball/mlb",
+        "betmgm": "https://sports.nj.betmgm.com/en/sports/baseball-23/betting/usa-9/mlb-75"
+      },
+      "market": "TOTAL",
+      "confidence": 4,
+      "units": 1.5,
+      "win_probability": 0.59,
+      "ladder_designation": true,
+      "data_confidence": 0.62,
+      "rules_passed": [
+        "max_juice",
+        "ladder_even_money",
+        "parlay_well_formed",
+        "confidence_units_match",
+        "data_confidence_floor",
+        "pick_type_allowed",
+        "mlb_hr_prop_check",
+        "mlb_pitcher_k_check",
+        "mlb_total_bases_check",
+        "mlb_hits_check",
+        "nba_player_prop_check",
+        "nhl_shots_check",
+        "mlb_run_line_check",
+        "mlb_under_bb_check(soft)",
+        "no_same_game_opposite"
+      ],
+      "locked": true,
+      "late_add": false,
+      "late_add_reason": "",
+      "bonus_pick": false,
+      "event_type": "",
+      "event_name": "",
+      "legs": [],
+      "headline": "Two sub-3.00 ERA starters, a total that's dropped from 8.2 to 7.5, and plus-money on the under. This is the ladder.",
+      "the_thesis": "Justin Wrobleski has been one of the best stories in baseball \u2014 2.95 ERA, 1.05 WHIP, and a minuscule 0.74 HR/9 across 73.1 innings. He's not a strikeout pitcher (15.3% K rate), but he limits hard contact and keeps the ball in the park. Against a Tampa Bay lineup averaging 4.51 R/G, he should be able to work deep.\n\nDrew Rasmussen on the other side has been even better \u2014 2.71 ERA, 0.88 WHIP, and a 27.3% K rate. His 4.6% BB rate is elite, meaning he doesn't beat himself. The Dodgers offense is potent (5.34 R/G), but Rasmussen has the stuff to neutralize them. Dodger Stadium plays neutral (0.97 runs PF, 0.99 HR PF), so there's no park boost for either side.\n\nThe market has already moved this total from 8.2 to 7.5, and we're getting plus-money on the under. That's rare for a total that's already dropped \u2014 it suggests the market still thinks this number is too high. The Dodgers' ML shortened 7.2pp since open, indicating sharp money on LA, but the total movement is the key signal here.",
+      "the_data": [
+        {
+          "label": "Wrobleski ERA / WHIP",
+          "value": "2.95 / 1.05",
+          "context": "Excellent, limits damage"
+        },
+        {
+          "label": "Wrobleski HR/9",
+          "value": "0.74",
+          "context": "Elite, keeps ball in park"
+        },
+        {
+          "label": "Rasmussen ERA / WHIP",
+          "value": "2.71 / 0.88",
+          "context": "Dominant"
+        },
+        {
+          "label": "Rasmussen K% / BB%",
+          "value": "27.3% / 4.6%",
+          "context": "Elite command"
+        },
+        {
+          "label": "Total movement",
+          "value": "8.2 \u2192 7.5",
+          "context": "Sharp money on under"
+        },
+        {
+          "label": "Dodger Stadium Runs PF",
+          "value": "0.97",
+          "context": "Neutral"
+        }
+      ],
+      "the_market": "Total opened at 8.2 and has dropped to 7.5 \u2014 a significant move. We're getting +102 on the under at FanDuel, which is plus-money on a total that's already moved in our direction. The Dodgers' ML shortened 7.2pp, but the total movement is the dominant signal.",
+      "weather_park": "Dodger Stadium at night plays neutral \u2014 0.97 runs PF, 0.99 HR PF. No weather concerns.",
+      "case_against": "The Dodgers' offense is elite (5.34 R/G) and can break out at any time. Wrobleski's low K rate (15.3%) means he needs weak contact, and the Dodgers don't give you that. If Rasmussen doesn't have his best stuff, LA could put up a crooked number early.",
+      "what_were_betting_on": "Both starters going 6+ innings, Rasmussen's elite command keeping the Dodgers off balance, and Wrobleski's ground-ball approach limiting damage.",
+      "scott_bot_quip": "Two aces, plus-money, and the sharps already moved it. Sometimes the market just hands you a gift.",
+      "ladder_note": "Best floor on the board \u2014 two sub-3.00 ERA starters, neutral park, and plus-money on a total that's already dropped. The market is telling us this is a pitcher's duel, and we're getting paid to agree.",
+      "date": "2026-06-16",
+      "status": "PEND",
+      "units_result": null,
+      "clv_cents": null,
+      "result_score": null,
+      "graded_at": null,
+      "slate_assessment": "Thin 15-game MLB-only slate with widespread data confidence issues (most games at 0.4-0.45), but several pitching matchups and totals present clear edges \u2014 Cease vs. Tolle in Boston, Gilbert at T-Mobile Park, and the Dodgers-Rays under all stand out.",
+      "executive_summary": "The board is MLB-only today with 15 games, but data confidence is soft across most matchups \u2014 only three games have multi-book pricing. The sharpest edges live in the pitching: Dylan Cease brings elite strikeout upside against a soft Red Sox lineup at Fenway, Logan Gilbert gets the pitcher-friendly T-Mobile Park against Baltimore, and the Dodgers-Rays under benefits from two quality starters and a total that's already dropped from 8.2 to 7.5. Gerrit Cole's workload-managed return against the White Sox at Yankee Stadium offers plus-money value on the under. The ladder rides with the Dodgers-Rays under \u2014 two aces, neutral park, market already moving our way.",
+      "slate_analysis": "Today's board features 15 MLB games with no NBA or NHL action. The pricing climate is challenging \u2014 only three games (BOS/TOR, STL/SD, TEX/MIN) have odds from all three of our books, while the rest are FanDuel-only, which limits line shopping and raises data confidence concerns. Most games sit at 0.4-0.45 data confidence, below our 0.6 threshold for high-conviction plays, so we're working with a narrower set of actionable spots.\n\nThe top candidates that earned hard looks: (1) TOR @ BOS under 7.5 \u2014 Cease's elite K rate (36.8%) against a Boston lineup that's been middling offensively, plus Tolle's strong 2.70 ERA and 0.51 HR/9; (2) BAL @ SEA under 7.5 \u2014 Gilbert at T-Mobile Park (0.93 runs PF) against a Baltimore team on the road, with the market already pricing this as a pitcher's duel; (3) TB @ LAD under 7.5 \u2014 Wrobleski and Rasmussen are both sub-3.00 ERA starters, the total dropped from 8.2 to 7.5, and Dodger Stadium plays neutral; (4) CHW @ NYY under 8.5 \u2014 Cole's workload-managed return against a White Sox team that's been inconsistent, with the total rising from 7.8 to 8.5 creating value on the under; (5) CIN @ NYM over 9.0 \u2014 both starters have struggled (Singer 5.61 ERA, Senga 9.00 ERA) at a hitter-friendly park, but the total dropped from 9.8 to 9.0; (6) SD @ STL under 8.0 \u2014 Busch Stadium suppresses HRs (0.93 PF), both starters are solid, and the line hasn't moved.\n\nWhat got cut: The MIA @ PHI game has only 0.4 data confidence and single-book pricing \u2014 too thin. The WSH @ KC total at 10.0 rose sharply from 8.67, suggesting the market sees something we don't, and both pitchers have elevated BB/9 (Griffin 6.5%, Wacha 7.6%) which makes unders risky. The CIN @ NYM over looked appealing given the pitching struggles, but Senga's 13.4% BB rate and Singer's 2.51 HR/9 create too much variance \u2014 this is a coin-flip game, not an edge. The ATL @ SF game has soft data confidence (0.4) and the Braves ML at -138 doesn't clear our juice threshold for the edge we'd need. The ARI @ LAA game saw massive line movement (total up from 8.5 to 9.5, home ML shortened 9.2pp) suggesting late information we don't have \u2014 pass.\n\nThe final six picks survive because they combine strong pitching metrics, favorable park factors, and market support. The TOR @ BOS under gets Cease's elite K upside against a lineup that doesn't mash. The BAL @ SEA under leverages Gilbert's home dominance at T-Mobile Park. The TB @ LAD under is the cleanest spot on the board \u2014 two quality starters, neutral park, line movement in our direction. The CHW @ NYY under catches Cole in a workload-managed spot against a beatable lineup. The SD @ STL under benefits from Busch Stadium's HR suppression and two solid mid-rotation arms. The ladder pick is the Dodgers-Rays under \u2014 highest floor, best market support, two starters who've been excellent.",
+      "slate_vibe": "SOFT",
+      "published_at": "2026-06-16T14:57:16.953074-04:00"
+    },
+    {
+      "id": "20260616-MLB-BAL-SEA-TOTAL",
+      "sport": "MLB",
+      "game": "BAL @ SEA",
+      "first_pitch_iso": "2026-06-17T01:40Z",
+      "pick": "Under 7.5",
+      "best_book": "FanDuel",
+      "best_odds": "-104",
+      "book_prices": {
+        "fanduel": "-104"
+      },
+      "book_links": {
+        "fanduel": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.586126272&selectionId=7017906",
+        "draftkings": "https://sportsbook.draftkings.com/leagues/baseball/mlb",
+        "betmgm": "https://sports.nj.betmgm.com/en/sports/baseball-23/betting/usa-9/mlb-75"
+      },
+      "market": "TOTAL",
+      "confidence": 3,
+      "units": 1.0,
+      "win_probability": 0.56,
+      "ladder_designation": false,
+      "data_confidence": 0.6,
+      "rules_passed": [
+        "max_juice",
+        "ladder_even_money",
+        "parlay_well_formed",
+        "confidence_units_match",
+        "data_confidence_floor",
+        "pick_type_allowed",
+        "mlb_hr_prop_check",
+        "mlb_pitcher_k_check",
+        "mlb_total_bases_check",
+        "mlb_hits_check",
+        "nba_player_prop_check",
+        "nhl_shots_check",
+        "mlb_run_line_check",
+        "mlb_under_bb_check",
+        "no_same_game_opposite"
+      ],
+      "locked": true,
+      "late_add": false,
+      "late_add_reason": "",
+      "bonus_pick": false,
+      "event_type": "",
+      "event_name": "",
+      "legs": [],
+      "headline": "Logan Gilbert at T-Mobile Park is a cheat code \u2014 the most pitcher-friendly venue in baseball.",
+      "the_thesis": "T-Mobile Park is the best pitcher's park in baseball with a 0.93 runs factor and 0.93 HR factor. Logan Gilbert has been excellent at home, and his 3.62 ERA and 25.5% K rate make him a reliable arm in this spot. The Mariners' signal flags this as a pitcher-friendly park play, and the market agrees \u2014 the total sits at 7.5 with the under getting slight juice.\n\nBrandon Young for Baltimore has been solid with a 3.04 ERA and 1.24 WHIP, though his 17.6% K rate is pedestrian. The key is that both offenses are middling \u2014 Seattle at 4.26 R/G and Baltimore at 4.70 R/G \u2014 and the park will suppress any power. Gilbert's home splits have historically been elite, and this is exactly the spot where he thrives.\n\nThe concern is single-book pricing (FanDuel only), which limits our data confidence. But the park factor is so dominant here that it overrides some of that uncertainty. T-Mobile Park has been a graveyard for offense all season.",
+      "the_data": [
+        {
+          "label": "T-Mobile Park Runs PF",
+          "value": "0.93",
+          "context": "Most pitcher-friendly in MLB"
+        },
+        {
+          "label": "T-Mobile Park HR PF",
+          "value": "0.93",
+          "context": "Suppresses power"
+        },
+        {
+          "label": "Gilbert ERA / K%",
+          "value": "3.62 / 25.5%",
+          "context": "Solid, misses bats"
+        },
+        {
+          "label": "Young ERA",
+          "value": "3.04",
+          "context": "Quietly effective"
+        },
+        {
+          "label": "SEA R/G",
+          "value": "4.26",
+          "context": "Below average"
+        },
+        {
+          "label": "BAL R/G",
+          "value": "4.70",
+          "context": "Average"
+        }
+      ],
+      "the_market": "Total at 7.5 with the under at -104 on FanDuel. Single-book pricing limits confidence, but the park factor is the dominant variable here. The Mariners' home ML lengthened 3.6pp since open, suggesting some sharp money on Baltimore, but the total hasn't moved.",
+      "weather_park": "T-Mobile Park is the story \u2014 0.93 runs PF makes this the best pitcher's park in baseball. Weather is irrelevant for the retractable roof.",
+      "case_against": "Single-book pricing (FanDuel only) limits our ability to confirm market consensus. Young's 17.6% K rate means he'll need weak contact rather than whiffs. If Gilbert doesn't go deep, Seattle's bullpen has been inconsistent on the road.",
+      "what_were_betting_on": "Gilbert dominating at home, the park suppressing any power, and both offenses staying quiet in a 4-3 or 3-2 game.",
+      "scott_bot_quip": "T-Mobile Park: where fly balls go to die and overs go to lose.",
+      "ladder_note": "",
+      "date": "2026-06-16",
+      "status": "PEND",
+      "units_result": null,
+      "clv_cents": null,
+      "result_score": null,
+      "graded_at": null,
+      "slate_assessment": "Thin 15-game MLB-only slate with widespread data confidence issues (most games at 0.4-0.45), but several pitching matchups and totals present clear edges \u2014 Cease vs. Tolle in Boston, Gilbert at T-Mobile Park, and the Dodgers-Rays under all stand out.",
+      "executive_summary": "The board is MLB-only today with 15 games, but data confidence is soft across most matchups \u2014 only three games have multi-book pricing. The sharpest edges live in the pitching: Dylan Cease brings elite strikeout upside against a soft Red Sox lineup at Fenway, Logan Gilbert gets the pitcher-friendly T-Mobile Park against Baltimore, and the Dodgers-Rays under benefits from two quality starters and a total that's already dropped from 8.2 to 7.5. Gerrit Cole's workload-managed return against the White Sox at Yankee Stadium offers plus-money value on the under. The ladder rides with the Dodgers-Rays under \u2014 two aces, neutral park, market already moving our way.",
+      "slate_analysis": "Today's board features 15 MLB games with no NBA or NHL action. The pricing climate is challenging \u2014 only three games (BOS/TOR, STL/SD, TEX/MIN) have odds from all three of our books, while the rest are FanDuel-only, which limits line shopping and raises data confidence concerns. Most games sit at 0.4-0.45 data confidence, below our 0.6 threshold for high-conviction plays, so we're working with a narrower set of actionable spots.\n\nThe top candidates that earned hard looks: (1) TOR @ BOS under 7.5 \u2014 Cease's elite K rate (36.8%) against a Boston lineup that's been middling offensively, plus Tolle's strong 2.70 ERA and 0.51 HR/9; (2) BAL @ SEA under 7.5 \u2014 Gilbert at T-Mobile Park (0.93 runs PF) against a Baltimore team on the road, with the market already pricing this as a pitcher's duel; (3) TB @ LAD under 7.5 \u2014 Wrobleski and Rasmussen are both sub-3.00 ERA starters, the total dropped from 8.2 to 7.5, and Dodger Stadium plays neutral; (4) CHW @ NYY under 8.5 \u2014 Cole's workload-managed return against a White Sox team that's been inconsistent, with the total rising from 7.8 to 8.5 creating value on the under; (5) CIN @ NYM over 9.0 \u2014 both starters have struggled (Singer 5.61 ERA, Senga 9.00 ERA) at a hitter-friendly park, but the total dropped from 9.8 to 9.0; (6) SD @ STL under 8.0 \u2014 Busch Stadium suppresses HRs (0.93 PF), both starters are solid, and the line hasn't moved.\n\nWhat got cut: The MIA @ PHI game has only 0.4 data confidence and single-book pricing \u2014 too thin. The WSH @ KC total at 10.0 rose sharply from 8.67, suggesting the market sees something we don't, and both pitchers have elevated BB/9 (Griffin 6.5%, Wacha 7.6%) which makes unders risky. The CIN @ NYM over looked appealing given the pitching struggles, but Senga's 13.4% BB rate and Singer's 2.51 HR/9 create too much variance \u2014 this is a coin-flip game, not an edge. The ATL @ SF game has soft data confidence (0.4) and the Braves ML at -138 doesn't clear our juice threshold for the edge we'd need. The ARI @ LAA game saw massive line movement (total up from 8.5 to 9.5, home ML shortened 9.2pp) suggesting late information we don't have \u2014 pass.\n\nThe final six picks survive because they combine strong pitching metrics, favorable park factors, and market support. The TOR @ BOS under gets Cease's elite K upside against a lineup that doesn't mash. The BAL @ SEA under leverages Gilbert's home dominance at T-Mobile Park. The TB @ LAD under is the cleanest spot on the board \u2014 two quality starters, neutral park, line movement in our direction. The CHW @ NYY under catches Cole in a workload-managed spot against a beatable lineup. The SD @ STL under benefits from Busch Stadium's HR suppression and two solid mid-rotation arms. The ladder pick is the Dodgers-Rays under \u2014 highest floor, best market support, two starters who've been excellent.",
+      "slate_vibe": "SOFT",
+      "published_at": "2026-06-16T14:57:16.953013-04:00"
+    },
+    {
+      "id": "20260616-MLB-TOR-BOS-TOTAL",
+      "sport": "MLB",
+      "game": "TOR @ BOS",
+      "first_pitch_iso": "2026-06-16T22:45Z",
+      "pick": "Under 7.5",
+      "best_book": "BetMGM",
+      "best_odds": "-105",
+      "book_prices": {
+        "draftkings": "-107",
+        "fanduel": "-106",
+        "betmgm": "-105"
+      },
+      "book_links": {
+        "draftkings": "https://sportsbook.draftkings.com/?outcomes=0OU85162382U750_3",
+        "betmgm": "https://sports.nj.betmgm.com/en/sports?options=19704835-1533684322-2227742095&type=Single",
+        "fanduel": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.585878147&selectionId=7017906"
+      },
+      "market": "TOTAL",
+      "confidence": 4,
+      "units": 1.5,
+      "win_probability": 0.58,
+      "ladder_designation": false,
+      "data_confidence": 0.65,
+      "rules_passed": [
+        "max_juice",
+        "ladder_even_money",
+        "parlay_well_formed",
+        "confidence_units_match",
+        "data_confidence_floor",
+        "pick_type_allowed",
+        "mlb_hr_prop_check",
+        "mlb_pitcher_k_check",
+        "mlb_total_bases_check",
+        "mlb_hits_check",
+        "nba_player_prop_check",
+        "nhl_shots_check",
+        "mlb_run_line_check",
+        "mlb_under_bb_check",
+        "no_same_game_opposite"
+      ],
+      "locked": true,
+      "late_add": false,
+      "late_add_reason": "",
+      "bonus_pick": false,
+      "event_type": "",
+      "event_name": "",
+      "legs": [],
+      "headline": "Two quality starters at Fenway, Cease's elite K rate meets a Boston lineup that's been average offensively.",
+      "the_thesis": "Dylan Cease returned from his hamstring injury with 11 strikeouts and has been dominant when healthy \u2014 his 36.8% K rate is elite, and his 2.91 ERA understates how good he's been. The Red Sox offense has been middling at 4.03 runs per game, and while Fenway plays slightly hitter-friendly (1.05 runs PF), the HR factor is actually suppressed at 0.96. Cease's ability to miss bats should keep Boston's contact-dependent lineup in check.\n\nOn the other side, Payton Tolle has been a revelation for Boston \u2014 2.70 ERA, 1.05 WHIP, and a minuscule 0.51 HR/9 that suggests he's keeping the ball on the ground. His 25.1% K rate is solid, and against a Toronto lineup averaging just 4.07 runs per game, he should be able to work deep into the game. The total opened at 7.5 and hasn't moved, suggesting the market agrees this is a pitcher's duel.\n\nThe key here is both starters' ability to limit damage. Cease's BB/9 is elevated (9.6%), but his strikeout rate compensates. Tolle's control is excellent (6.5% BB rate), and he's been limiting hard contact. With both bullpens rested and the game at Fenway where the HR factor is neutral, this has the makings of a 3-2 or 4-3 final.",
+      "the_data": [
+        {
+          "label": "Cease K%",
+          "value": "36.8%",
+          "context": "Elite, top-5 in MLB"
+        },
+        {
+          "label": "Cease ERA / L3 ERA",
+          "value": "2.91 / 2.91",
+          "context": "Consistent excellence"
+        },
+        {
+          "label": "Tolle ERA / HR9",
+          "value": "2.70 / 0.51",
+          "context": "Ground-ball pitcher limiting damage"
+        },
+        {
+          "label": "BOS R/G",
+          "value": "4.03",
+          "context": "League average"
+        },
+        {
+          "label": "TOR R/G",
+          "value": "4.07",
+          "context": "League average"
+        },
+        {
+          "label": "Fenway HR PF",
+          "value": "0.96",
+          "context": "Slightly suppresses HRs"
+        }
+      ],
+      "the_market": "Total opened at 7.5 and sits there across all three books. The line hasn't moved despite Cease's return from injury, suggesting the market is comfortable with this number. We're getting the best price at BetMGM (-105).",
+      "weather_park": "Fenway at 77\u00b0F with 3 mph wind out to RF \u2014 minimal impact. The park's 0.96 HR factor slightly favors pitchers.",
+      "case_against": "Cease's elevated walk rate (9.6%) could lead to traffic on the bases, and if he loses command early, the Red Sox could capitalize. Tolle's sample size (53.1 IP) is small enough that regression is possible. If either starter exits early, both bullpens have been worked recently.",
+      "what_were_betting_on": "Both starters going 6+ innings, Cease's strikeouts keeping Boston off the board, and Tolle's ground-ball approach limiting Toronto's power.",
+      "scott_bot_quip": "Cease came back throwing gas. Tolle's been a ghost. Seven and a half feels generous.",
+      "ladder_note": "",
+      "date": "2026-06-16",
+      "status": "PEND",
+      "units_result": null,
+      "clv_cents": null,
+      "result_score": null,
+      "graded_at": null,
+      "slate_assessment": "Thin 15-game MLB-only slate with widespread data confidence issues (most games at 0.4-0.45), but several pitching matchups and totals present clear edges \u2014 Cease vs. Tolle in Boston, Gilbert at T-Mobile Park, and the Dodgers-Rays under all stand out.",
+      "executive_summary": "The board is MLB-only today with 15 games, but data confidence is soft across most matchups \u2014 only three games have multi-book pricing. The sharpest edges live in the pitching: Dylan Cease brings elite strikeout upside against a soft Red Sox lineup at Fenway, Logan Gilbert gets the pitcher-friendly T-Mobile Park against Baltimore, and the Dodgers-Rays under benefits from two quality starters and a total that's already dropped from 8.2 to 7.5. Gerrit Cole's workload-managed return against the White Sox at Yankee Stadium offers plus-money value on the under. The ladder rides with the Dodgers-Rays under \u2014 two aces, neutral park, market already moving our way.",
+      "slate_analysis": "Today's board features 15 MLB games with no NBA or NHL action. The pricing climate is challenging \u2014 only three games (BOS/TOR, STL/SD, TEX/MIN) have odds from all three of our books, while the rest are FanDuel-only, which limits line shopping and raises data confidence concerns. Most games sit at 0.4-0.45 data confidence, below our 0.6 threshold for high-conviction plays, so we're working with a narrower set of actionable spots.\n\nThe top candidates that earned hard looks: (1) TOR @ BOS under 7.5 \u2014 Cease's elite K rate (36.8%) against a Boston lineup that's been middling offensively, plus Tolle's strong 2.70 ERA and 0.51 HR/9; (2) BAL @ SEA under 7.5 \u2014 Gilbert at T-Mobile Park (0.93 runs PF) against a Baltimore team on the road, with the market already pricing this as a pitcher's duel; (3) TB @ LAD under 7.5 \u2014 Wrobleski and Rasmussen are both sub-3.00 ERA starters, the total dropped from 8.2 to 7.5, and Dodger Stadium plays neutral; (4) CHW @ NYY under 8.5 \u2014 Cole's workload-managed return against a White Sox team that's been inconsistent, with the total rising from 7.8 to 8.5 creating value on the under; (5) CIN @ NYM over 9.0 \u2014 both starters have struggled (Singer 5.61 ERA, Senga 9.00 ERA) at a hitter-friendly park, but the total dropped from 9.8 to 9.0; (6) SD @ STL under 8.0 \u2014 Busch Stadium suppresses HRs (0.93 PF), both starters are solid, and the line hasn't moved.\n\nWhat got cut: The MIA @ PHI game has only 0.4 data confidence and single-book pricing \u2014 too thin. The WSH @ KC total at 10.0 rose sharply from 8.67, suggesting the market sees something we don't, and both pitchers have elevated BB/9 (Griffin 6.5%, Wacha 7.6%) which makes unders risky. The CIN @ NYM over looked appealing given the pitching struggles, but Senga's 13.4% BB rate and Singer's 2.51 HR/9 create too much variance \u2014 this is a coin-flip game, not an edge. The ATL @ SF game has soft data confidence (0.4) and the Braves ML at -138 doesn't clear our juice threshold for the edge we'd need. The ARI @ LAA game saw massive line movement (total up from 8.5 to 9.5, home ML shortened 9.2pp) suggesting late information we don't have \u2014 pass.\n\nThe final six picks survive because they combine strong pitching metrics, favorable park factors, and market support. The TOR @ BOS under gets Cease's elite K upside against a lineup that doesn't mash. The BAL @ SEA under leverages Gilbert's home dominance at T-Mobile Park. The TB @ LAD under is the cleanest spot on the board \u2014 two quality starters, neutral park, line movement in our direction. The CHW @ NYY under catches Cole in a workload-managed spot against a beatable lineup. The SD @ STL under benefits from Busch Stadium's HR suppression and two solid mid-rotation arms. The ladder pick is the Dodgers-Rays under \u2014 highest floor, best market support, two starters who've been excellent.",
+      "slate_vibe": "SOFT",
+      "published_at": "2026-06-16T14:57:16.952882-04:00"
+    },
     {
       "id": "20260615-MLB-NYM-CIN-ML",
       "sport": "MLB",
