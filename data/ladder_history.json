@@ -1,9 +1,17 @@
 {
-  "current_streak": 7,
-  "longest_streak": 7,
+  "current_streak": 8,
+  "longest_streak": 8,
   "completed_climbs": 0,
   "target": 10,
   "history": [
+    {
+      "date": "2026-06-16",
+      "pick_id": "20260616-MLB-TB-LAD-TOTAL",
+      "pick": "Under 7.5",
+      "game": "TB @ LAD",
+      "status": "WIN",
+      "after_streak": 8
+    },
     {
       "date": "2026-06-15",
       "pick_id": "20260615-MLB-NYM-CIN-ML",
@@ -205,5 +213,5 @@
       "after_streak": 1
     }
   ],
-  "updated_at": "2026-06-16T04:51:59.227955-04:00"
+  "updated_at": "2026-06-17T04:33:59.034307-04:00"
 }

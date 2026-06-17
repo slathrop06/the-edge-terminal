@@ -1,5 +1,31 @@
 [
   {
+    "id": "20260616-MLB-CHW-NYY-TOTAL",
+    "date": "2026-06-16",
+    "pick": "Under 8.5",
+    "game": "CHW @ NYY",
+    "odds": "-122",
+    "result_score": "CHW 2 \u00b7 NYY 12",
+    "classification": "VARIANCE",
+    "post_mortem": "Under 8.5 lost CHW 2 \u00b7 NYY 12. Autopsy unavailable.",
+    "candidate_rule": null,
+    "sample_size_warning": "N/A \u2014 stub",
+    "analyzed_at": "2026-06-17T04:33:59.025450-04:00"
+  },
+  {
+    "id": "20260616-MLB-MIN-TEX-ML",
+    "date": "2026-06-16",
+    "pick": "Texas Rangers ML",
+    "game": "MIN @ TEX",
+    "odds": "-132",
+    "result_score": "MIN 12 \u00b7 TEX 2",
+    "classification": "VARIANCE",
+    "post_mortem": "Texas Rangers ML lost MIN 12 \u00b7 TEX 2. Autopsy unavailable.",
+    "candidate_rule": null,
+    "sample_size_warning": "N/A \u2014 stub",
+    "analyzed_at": "2026-06-17T04:33:58.887306-04:00"
+  },
+  {
     "id": "20260615-MLB-DET-HOU-TOTAL",
     "date": "2026-06-15",
     "pick": "Under 8.0",
