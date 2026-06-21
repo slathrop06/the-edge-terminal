@@ -1,7 +1,626 @@
 {
   "version": 1,
-  "updated_at": "2026-06-21T06:08:52.660995-04:00",
+  "updated_at": "2026-06-21T12:47:12.671917-04:00",
   "picks": [
+    {
+      "id": "20260621-MLB-MIL-ATL-PROP-JACKSONCHOURIO",
+      "sport": "MLB",
+      "game": "MIL @ ATL",
+      "first_pitch_iso": "2026-06-21T17:35Z",
+      "pick": "Jackson Chourio TB Over 1.5",
+      "best_book": "DraftKings",
+      "best_odds": "-102",
+      "book_prices": {
+        "draftkings": "-102",
+        "betmgm": "-125"
+      },
+      "book_links": {
+        "draftkings": "https://sportsbook.draftkings.com/?outcomes=0QA344743623%232188627994_13L84240Q1-44994196Q20",
+        "betmgm": "https://sports.nj.betmgm.com/en/sports?options=2:7807902-200809190-760894798&type=Single",
+        "fanduel": "https://sportsbook.fanduel.com/baseball/mlb/milwaukee-brewers-%28r-gasser%29-%40-atlanta-braves-%28b-elder%29-35740684"
+      },
+      "market": "PROP",
+      "confidence": 3,
+      "units": 1.0,
+      "win_probability": 0.56,
+      "ladder_designation": false,
+      "data_confidence": 0.7,
+      "rules_passed": [
+        "max_juice",
+        "ladder_even_money",
+        "parlay_well_formed",
+        "confidence_units_match",
+        "data_confidence_floor",
+        "pick_type_allowed",
+        "mlb_hr_prop_check",
+        "mlb_pitcher_k_check",
+        "mlb_total_bases_check(soft)",
+        "mlb_hits_check",
+        "nba_player_prop_check",
+        "nhl_shots_check",
+        "mlb_run_line_check",
+        "mlb_under_bb_check",
+        "no_same_game_opposite"
+      ],
+      "locked": true,
+      "late_add": false,
+      "late_add_reason": "",
+      "bonus_pick": false,
+      "event_type": "",
+      "event_name": "",
+      "legs": [],
+      "headline": "Chourio's XBH upside against a hittable Elder at a neutral park.",
+      "the_thesis": "Jackson Chourio has been one of the most exciting young hitters in baseball, and today he faces Bryce Elder \u2014 a pitcher with a 0.92 HR/9 and a 19.9% K rate that suggests he doesn't miss many bats. Elder's 3.15 ERA is solid, but his underlying metrics (1.14 WHIP, league-average K rate) suggest he's hittable.\n\nChourio bats in the heart of the Brewers lineup and has the power to drive balls into the gaps. Truist Park is neutral (1.02 runs PF, 1.04 HR PF), and the weather is hot (85\u00b0F) with mild wind \u2014 conditions that favor hitters. The total bases over 1.5 at -102 on DraftKings offers value.\n\nThe prop data requirements are met: Elder's HR/9 (0.92) is below the 1.2 threshold, the park is neutral, and Chourio bats in the top half of the lineup. My fair price is around 56%, giving us a modest edge at -102.",
+      "the_data": [
+        {
+          "label": "Elder HR/9 (season)",
+          "value": "0.92",
+          "context": "Below threshold, hittable"
+        },
+        {
+          "label": "Elder K% (season)",
+          "value": "19.9%",
+          "context": "League average, doesn't miss bats"
+        },
+        {
+          "label": "Elder ERA / WHIP (season)",
+          "value": "3.15 / 1.14",
+          "context": "Solid but hittable"
+        },
+        {
+          "label": "Truist Park runs PF",
+          "value": "1.02",
+          "context": "Neutral"
+        },
+        {
+          "label": "Truist Park HR PF",
+          "value": "1.04",
+          "context": "Slight HR boost"
+        },
+        {
+          "label": "Weather",
+          "value": "85\u00b0F, mild wind",
+          "context": "Hot air carries"
+        }
+      ],
+      "the_market": "Line sits at 1.5 with over at -102 on DraftKings. BetMGM has the under at -125, suggesting some disagreement. The market sees this as close to a coin flip.",
+      "weather_park": "Truist Park 85\u00b0F, wind 6mph R-to-L \u2014 hot air carries. Neutral park factor with slight HR boost.",
+      "case_against": "Elder has been solid this season and could limit Chourio to soft contact. If Chourio goes 0-for-4 or 1-for-4 with a single, this loses. Elder's groundball tendencies could also suppress XBH.",
+      "what_were_betting_on": "Chourio getting at least one XBH (double, triple, or HR) or going 2-for-4 with singles. His power profile and Elder's hittability support the over.",
+      "scott_bot_quip": "Chourio vs. a guy who doesn't miss bats. The kid's due for some damage.",
+      "ladder_note": "",
+      "date": "2026-06-21",
+      "status": "PEND",
+      "units_result": null,
+      "clv_cents": null,
+      "result_score": null,
+      "graded_at": null,
+      "slate_assessment": "Sunday MLB-only slate with 16 games. Two elite SP matchups jump off the page \u2014 Wheeler vs. Mets and Gilbert vs. Red Sox at T-Mobile \u2014 plus Chase Burns bringing Cy Young-caliber stuff to Yankee Stadium. Prop markets offer clean K under angles and a few total bases plays worth a look.",
+      "executive_summary": "Sixteen-game MLB Sunday with no NBA or NHL action, but the pitching matchups deliver. Zack Wheeler faces his former team in a revenge spot at Citizens Bank Park, carrying a 2.01 ERA and elite command since returning from shoulder surgery. Chase Burns brings a 29.8% K rate and sub-1.05 WHIP to Yankee Stadium against a shaky Elmer Rodr\u00edguez. The lowest total on the board sits in Seattle at 6.5, where Logan Gilbert and Payton Tolle duel in a pitcher's paradise. The ladder rides with Wheeler \u2014 best floor on the board, elite SP vs. struggling offense, and the market hasn't moved off the number.",
+      "slate_analysis": "The board today features 16 MLB games with no NBA or NHL to supplement. Pricing is tight across most matchups, with only a handful of games showing clear edges. The overall climate is cautious \u2014 lots of coin-flip moneylines and totals sitting near consensus.\n\nTop candidates that rose during my review: (1) PHI vs. NYM \u2014 Wheeler vs. Peterson is a massive SP mismatch, with Wheeler's 2.01 ERA and 0.85 WHIP facing a struggling Peterson (5.91 ERA, 1.63 WHIP). The Phillies ML at -184 is too short for a straight bet, but the under 8.0/8.5 has legs. (2) SEA vs. BOS \u2014 Gilbert (3.43 ERA, 1.03 WHIP) vs. Tolle (2.93 ERA, 1.06 WHIP) at T-Mobile Park (0.93 runs PF) with a 6.5 total is the lowest on the board. Both offenses rank bottom-third in R/G. (3) CIN @ NYY \u2014 Burns (2.01 ERA, 29.8% K rate) vs. Rodr\u00edguez (4.15 ERA, 14.1% BB rate) is a massive talent gap. Burns ML at -102 is near even money with a clear edge. (4) SF @ MIA \u2014 Webb (3.46 ERA, 0.48 HR/9) at loanDepot Park (0.94 runs PF) against a weak Marlins lineup. The under 8.5 has park support. (5) Dylan Cease K prop \u2014 Cease's 36.3% K rate against a Cubs lineup that strikes out at a league-average clip. The over 6.5 Ks at -108 is intriguing but the Cubs' K% doesn't scream edge. (6) Coors Field PIT @ COL \u2014 Two weak SPs (Lorenzen 7.13 ERA, Jones 6.23 ERA) at Coors with an 11.5 total. The over has park support but wind blowing in suppresses HR impact.\n\nWhat got cut and why: The Dodgers ML at -225 exceeds our straight-bet cap. The Tigers-White Sox game has data confidence below 0.6 and both SPs lack the sample size for conviction. The Astros-Guardians game features two mediocre SPs with no clear edge \u2014 my fair price matches the market. The Rangers-Padres game has Texas at -162, too short, and Peralta's 11.8% BB rate makes the under risky. The Cubs-Blue Jays game lacks market data in the IntelPack. The Athletics-Angels game has Perkins (6.15 ERA) vs. Detmers (3.68 ERA) but data confidence is only 0.4.\n\nThe final six picks: Burns ML offers the clearest edge \u2014 elite SP at near even money against a replacement-level starter. Wheeler under 8.0 combines the best SP on the board with a struggling Mets offense in a revenge spot. Gilbert under 6.5 is the lowest total on the board with two quality SPs at a pitcher's park. Webb under 8.5 stacks elite groundball pitcher with a pitcher-friendly dome. The Coors over 11.5 is a calculated play on two weak SPs at altitude despite wind suppression. Finally, the Jackson Chourio TB over 1.5 at -102 offers value against Elder's 0.92 HR/9 in a neutral park. Burns ML is the ladder pick \u2014 best floor with elite SP talent at even money.",
+      "slate_vibe": "NORMAL",
+      "published_at": "2026-06-21T12:47:12.671860-04:00"
+    },
+    {
+      "id": "20260621-MLB-PIT-COL-TOTAL",
+      "sport": "MLB",
+      "game": "PIT @ COL",
+      "first_pitch_iso": "2026-06-21T19:10Z",
+      "pick": "Over 11.5",
+      "best_book": "BetMGM",
+      "best_odds": "-105",
+      "book_prices": {
+        "draftkings": "-107",
+        "fanduel": "-106",
+        "betmgm": "-105"
+      },
+      "book_links": {
+        "fanduel": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.587038255&selectionId=7017905",
+        "draftkings": "https://sportsbook.draftkings.com/?outcomes=0OU85222451O1150_1",
+        "betmgm": "https://sports.nj.betmgm.com/en/sports?options=19714726-1534724472-2230481035&type=Single"
+      },
+      "market": "TOTAL",
+      "confidence": 3,
+      "units": 1.0,
+      "win_probability": 0.57,
+      "ladder_designation": false,
+      "data_confidence": 0.7,
+      "rules_passed": [
+        "max_juice",
+        "ladder_even_money",
+        "parlay_well_formed",
+        "confidence_units_match",
+        "data_confidence_floor",
+        "pick_type_allowed",
+        "mlb_hr_prop_check",
+        "mlb_pitcher_k_check",
+        "mlb_total_bases_check",
+        "mlb_hits_check",
+        "nba_player_prop_check",
+        "nhl_shots_check",
+        "mlb_run_line_check",
+        "mlb_under_bb_check",
+        "no_same_game_opposite"
+      ],
+      "locked": true,
+      "late_add": false,
+      "late_add_reason": "",
+      "bonus_pick": false,
+      "event_type": "",
+      "event_name": "",
+      "legs": [],
+      "headline": "Two weak SPs at Coors Field \u2014 the altitude does the heavy lifting.",
+      "the_thesis": "Coors Field is the great equalizer, and today we have two struggling starters on the mound. Michael Lorenzen (7.13 ERA, 1.85 WHIP) has been a disaster, and Jared Jones (6.23 ERA, 1.62 WHIP) isn't much better. Both pitchers have HR/9 rates above 1.5, which is terrifying at altitude.\n\nThe park factor at Coors is 1.18 for runs and 1.14 for HR \u2014 it's the most hitter-friendly environment in baseball. The wind is blowing in from left field at 10 mph, which suppresses HR impact by about 9%, but the altitude still carries balls. Both offenses are capable \u2014 Pittsburgh at 4.97 R/G and Colorado at 4.55 R/G.\n\nThe total sits at 11.5 with the over at -105 on BetMGM. My fair price is around 57%, giving us a modest edge. This is a calculated play on two weak arms at altitude. The wind suppression is a concern, but the SP quality (or lack thereof) should overcome it.",
+      "the_data": [
+        {
+          "label": "Lorenzen ERA / WHIP (season)",
+          "value": "7.13 / 1.85",
+          "context": "Struggling badly"
+        },
+        {
+          "label": "Lorenzen HR/9 (season)",
+          "value": "1.54",
+          "context": "HR-prone, dangerous at Coors"
+        },
+        {
+          "label": "Jones ERA / WHIP (season)",
+          "value": "6.23 / 1.62",
+          "context": "Struggling, limited sample"
+        },
+        {
+          "label": "Jones HR/9 (season)",
+          "value": "2.11",
+          "context": "Extremely HR-prone"
+        },
+        {
+          "label": "Coors Field runs PF",
+          "value": "1.18",
+          "context": "Most hitter-friendly park"
+        },
+        {
+          "label": "PIT R/G (season)",
+          "value": "4.97",
+          "context": "Above average"
+        },
+        {
+          "label": "COL R/G (season)",
+          "value": "4.55",
+          "context": "League average"
+        }
+      ],
+      "the_market": "Total opened at 11.5 and has held. The market respects Coors but the wind blowing in has kept the number from climbing higher. Sharp money hasn't moved this.",
+      "weather_park": "Coors Field 89\u00b0F, wind 10mph blowing in from LF \u2014 HR impact -9%. Hot air carries, but wind suppresses. Net effect is still hitter-friendly due to altitude.",
+      "case_against": "The wind blowing in at 10 mph is a real concern \u2014 it suppresses HR by about 9%. If both pitchers somehow find their command, this could stay under. Jones also has only 17.1 IP this season, so the sample is tiny.",
+      "what_were_betting_on": "Both starters getting knocked around early, bullpens getting involved by the 4th or 5th inning, and the altitude pushing this into the 13-15 run range.",
+      "scott_bot_quip": "Two guys with 6+ ERAs at Coors. The altitude doesn't care about your feelings.",
+      "ladder_note": "",
+      "date": "2026-06-21",
+      "status": "PEND",
+      "units_result": null,
+      "clv_cents": null,
+      "result_score": null,
+      "graded_at": null,
+      "slate_assessment": "Sunday MLB-only slate with 16 games. Two elite SP matchups jump off the page \u2014 Wheeler vs. Mets and Gilbert vs. Red Sox at T-Mobile \u2014 plus Chase Burns bringing Cy Young-caliber stuff to Yankee Stadium. Prop markets offer clean K under angles and a few total bases plays worth a look.",
+      "executive_summary": "Sixteen-game MLB Sunday with no NBA or NHL action, but the pitching matchups deliver. Zack Wheeler faces his former team in a revenge spot at Citizens Bank Park, carrying a 2.01 ERA and elite command since returning from shoulder surgery. Chase Burns brings a 29.8% K rate and sub-1.05 WHIP to Yankee Stadium against a shaky Elmer Rodr\u00edguez. The lowest total on the board sits in Seattle at 6.5, where Logan Gilbert and Payton Tolle duel in a pitcher's paradise. The ladder rides with Wheeler \u2014 best floor on the board, elite SP vs. struggling offense, and the market hasn't moved off the number.",
+      "slate_analysis": "The board today features 16 MLB games with no NBA or NHL to supplement. Pricing is tight across most matchups, with only a handful of games showing clear edges. The overall climate is cautious \u2014 lots of coin-flip moneylines and totals sitting near consensus.\n\nTop candidates that rose during my review: (1) PHI vs. NYM \u2014 Wheeler vs. Peterson is a massive SP mismatch, with Wheeler's 2.01 ERA and 0.85 WHIP facing a struggling Peterson (5.91 ERA, 1.63 WHIP). The Phillies ML at -184 is too short for a straight bet, but the under 8.0/8.5 has legs. (2) SEA vs. BOS \u2014 Gilbert (3.43 ERA, 1.03 WHIP) vs. Tolle (2.93 ERA, 1.06 WHIP) at T-Mobile Park (0.93 runs PF) with a 6.5 total is the lowest on the board. Both offenses rank bottom-third in R/G. (3) CIN @ NYY \u2014 Burns (2.01 ERA, 29.8% K rate) vs. Rodr\u00edguez (4.15 ERA, 14.1% BB rate) is a massive talent gap. Burns ML at -102 is near even money with a clear edge. (4) SF @ MIA \u2014 Webb (3.46 ERA, 0.48 HR/9) at loanDepot Park (0.94 runs PF) against a weak Marlins lineup. The under 8.5 has park support. (5) Dylan Cease K prop \u2014 Cease's 36.3% K rate against a Cubs lineup that strikes out at a league-average clip. The over 6.5 Ks at -108 is intriguing but the Cubs' K% doesn't scream edge. (6) Coors Field PIT @ COL \u2014 Two weak SPs (Lorenzen 7.13 ERA, Jones 6.23 ERA) at Coors with an 11.5 total. The over has park support but wind blowing in suppresses HR impact.\n\nWhat got cut and why: The Dodgers ML at -225 exceeds our straight-bet cap. The Tigers-White Sox game has data confidence below 0.6 and both SPs lack the sample size for conviction. The Astros-Guardians game features two mediocre SPs with no clear edge \u2014 my fair price matches the market. The Rangers-Padres game has Texas at -162, too short, and Peralta's 11.8% BB rate makes the under risky. The Cubs-Blue Jays game lacks market data in the IntelPack. The Athletics-Angels game has Perkins (6.15 ERA) vs. Detmers (3.68 ERA) but data confidence is only 0.4.\n\nThe final six picks: Burns ML offers the clearest edge \u2014 elite SP at near even money against a replacement-level starter. Wheeler under 8.0 combines the best SP on the board with a struggling Mets offense in a revenge spot. Gilbert under 6.5 is the lowest total on the board with two quality SPs at a pitcher's park. Webb under 8.5 stacks elite groundball pitcher with a pitcher-friendly dome. The Coors over 11.5 is a calculated play on two weak SPs at altitude despite wind suppression. Finally, the Jackson Chourio TB over 1.5 at -102 offers value against Elder's 0.92 HR/9 in a neutral park. Burns ML is the ladder pick \u2014 best floor with elite SP talent at even money.",
+      "slate_vibe": "NORMAL",
+      "published_at": "2026-06-21T12:47:12.671786-04:00"
+    },
+    {
+      "id": "20260621-MLB-SF-MIA-TOTAL",
+      "sport": "MLB",
+      "game": "SF @ MIA",
+      "first_pitch_iso": "2026-06-21T17:40Z",
+      "pick": "Under 8.5",
+      "best_book": "DraftKings",
+      "best_odds": "-115",
+      "book_prices": {
+        "draftkings": "-115",
+        "fanduel": "-120",
+        "betmgm": "-120"
+      },
+      "book_links": {
+        "fanduel": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.587035991&selectionId=7017906",
+        "draftkings": "https://sportsbook.draftkings.com/?outcomes=0OU85222445U850_3",
+        "betmgm": "https://sports.nj.betmgm.com/en/sports?options=19712766-1534484405-2229815363&type=Single"
+      },
+      "market": "TOTAL",
+      "confidence": 3,
+      "units": 1.0,
+      "win_probability": 0.57,
+      "ladder_designation": false,
+      "data_confidence": 0.7,
+      "rules_passed": [
+        "max_juice",
+        "ladder_even_money",
+        "parlay_well_formed",
+        "confidence_units_match",
+        "data_confidence_floor",
+        "pick_type_allowed",
+        "mlb_hr_prop_check",
+        "mlb_pitcher_k_check",
+        "mlb_total_bases_check",
+        "mlb_hits_check",
+        "nba_player_prop_check",
+        "nhl_shots_check",
+        "mlb_run_line_check",
+        "mlb_under_bb_check",
+        "no_same_game_opposite"
+      ],
+      "locked": true,
+      "late_add": false,
+      "late_add_reason": "",
+      "bonus_pick": false,
+      "event_type": "",
+      "event_name": "",
+      "legs": [],
+      "headline": "Logan Webb at a pitcher-friendly dome against a weak Marlins lineup.",
+      "the_thesis": "Logan Webb has been one of the most consistent pitchers in baseball, and today he gets a favorable matchup at loanDepot Park. The dome has a 0.94 runs park factor and 0.86 HR park factor \u2014 it suppresses offense significantly. Webb's 0.48 HR/9 is elite, and he's a groundball machine who thrives in pitcher-friendly environments.\n\nRyan Gusto is a disaster for the Marlins \u2014 7.24 ERA, 1.76 WHIP, and only 13.2 IP on the season. He's averaging just 4.4 IP per start, which means the Marlins bullpen will be heavily involved. But the Giants offense (4.16 R/G) isn't explosive enough to blow this game open.\n\nThe total sits at 8.5 with the under at -115 on DraftKings. My fair price is around 57%, giving us a modest edge. Webb's BB/9 is under 3.5, so we pass the under validation check. This is a lower-confidence play, but the park and Webb's profile support the under.",
+      "the_data": [
+        {
+          "label": "Webb ERA / WHIP (season)",
+          "value": "3.46 / 1.15",
+          "context": "Consistent, above average"
+        },
+        {
+          "label": "Webb HR/9 (season)",
+          "value": "0.48",
+          "context": "Elite, top-5 in MLB"
+        },
+        {
+          "label": "loanDepot Park runs PF",
+          "value": "0.94",
+          "context": "Pitcher-friendly dome"
+        },
+        {
+          "label": "loanDepot Park HR PF",
+          "value": "0.86",
+          "context": "HR-suppressing"
+        },
+        {
+          "label": "Gusto ERA / WHIP (season)",
+          "value": "7.24 / 1.76",
+          "context": "Struggling badly"
+        },
+        {
+          "label": "SF R/G (season)",
+          "value": "4.16",
+          "context": "Below average"
+        },
+        {
+          "label": "MIA R/G (season)",
+          "value": "4.34",
+          "context": "Below average"
+        }
+      ],
+      "the_market": "Total opened at 8.5 and has held. The market respects Webb but hasn't fully adjusted for the park factor. BetMGM has the over at even money, suggesting some disagreement.",
+      "weather_park": "loanDepot Park indoor dome, pitcher-friendly (0.94 runs PF, 0.86 HR PF). Perfect conditions for Webb's groundball approach.",
+      "case_against": "Gusto is so bad that the Giants could blow this game open early. If Webb doesn't have his best stuff, the Marlins lineup has enough contact ability to push runs across. The Marlins bullpen is also shaky, which could lead to late-inning runs.",
+      "what_were_betting_on": "Webb going 7+ innings with 2 or fewer runs, the Giants scratching across 3-4 runs against Gusto, and the game staying in the 6-8 run range.",
+      "scott_bot_quip": "Webb at a pitcher's park against a guy with a 7+ ERA. The math does itself.",
+      "ladder_note": "",
+      "date": "2026-06-21",
+      "status": "PEND",
+      "units_result": null,
+      "clv_cents": null,
+      "result_score": null,
+      "graded_at": null,
+      "slate_assessment": "Sunday MLB-only slate with 16 games. Two elite SP matchups jump off the page \u2014 Wheeler vs. Mets and Gilbert vs. Red Sox at T-Mobile \u2014 plus Chase Burns bringing Cy Young-caliber stuff to Yankee Stadium. Prop markets offer clean K under angles and a few total bases plays worth a look.",
+      "executive_summary": "Sixteen-game MLB Sunday with no NBA or NHL action, but the pitching matchups deliver. Zack Wheeler faces his former team in a revenge spot at Citizens Bank Park, carrying a 2.01 ERA and elite command since returning from shoulder surgery. Chase Burns brings a 29.8% K rate and sub-1.05 WHIP to Yankee Stadium against a shaky Elmer Rodr\u00edguez. The lowest total on the board sits in Seattle at 6.5, where Logan Gilbert and Payton Tolle duel in a pitcher's paradise. The ladder rides with Wheeler \u2014 best floor on the board, elite SP vs. struggling offense, and the market hasn't moved off the number.",
+      "slate_analysis": "The board today features 16 MLB games with no NBA or NHL to supplement. Pricing is tight across most matchups, with only a handful of games showing clear edges. The overall climate is cautious \u2014 lots of coin-flip moneylines and totals sitting near consensus.\n\nTop candidates that rose during my review: (1) PHI vs. NYM \u2014 Wheeler vs. Peterson is a massive SP mismatch, with Wheeler's 2.01 ERA and 0.85 WHIP facing a struggling Peterson (5.91 ERA, 1.63 WHIP). The Phillies ML at -184 is too short for a straight bet, but the under 8.0/8.5 has legs. (2) SEA vs. BOS \u2014 Gilbert (3.43 ERA, 1.03 WHIP) vs. Tolle (2.93 ERA, 1.06 WHIP) at T-Mobile Park (0.93 runs PF) with a 6.5 total is the lowest on the board. Both offenses rank bottom-third in R/G. (3) CIN @ NYY \u2014 Burns (2.01 ERA, 29.8% K rate) vs. Rodr\u00edguez (4.15 ERA, 14.1% BB rate) is a massive talent gap. Burns ML at -102 is near even money with a clear edge. (4) SF @ MIA \u2014 Webb (3.46 ERA, 0.48 HR/9) at loanDepot Park (0.94 runs PF) against a weak Marlins lineup. The under 8.5 has park support. (5) Dylan Cease K prop \u2014 Cease's 36.3% K rate against a Cubs lineup that strikes out at a league-average clip. The over 6.5 Ks at -108 is intriguing but the Cubs' K% doesn't scream edge. (6) Coors Field PIT @ COL \u2014 Two weak SPs (Lorenzen 7.13 ERA, Jones 6.23 ERA) at Coors with an 11.5 total. The over has park support but wind blowing in suppresses HR impact.\n\nWhat got cut and why: The Dodgers ML at -225 exceeds our straight-bet cap. The Tigers-White Sox game has data confidence below 0.6 and both SPs lack the sample size for conviction. The Astros-Guardians game features two mediocre SPs with no clear edge \u2014 my fair price matches the market. The Rangers-Padres game has Texas at -162, too short, and Peralta's 11.8% BB rate makes the under risky. The Cubs-Blue Jays game lacks market data in the IntelPack. The Athletics-Angels game has Perkins (6.15 ERA) vs. Detmers (3.68 ERA) but data confidence is only 0.4.\n\nThe final six picks: Burns ML offers the clearest edge \u2014 elite SP at near even money against a replacement-level starter. Wheeler under 8.0 combines the best SP on the board with a struggling Mets offense in a revenge spot. Gilbert under 6.5 is the lowest total on the board with two quality SPs at a pitcher's park. Webb under 8.5 stacks elite groundball pitcher with a pitcher-friendly dome. The Coors over 11.5 is a calculated play on two weak SPs at altitude despite wind suppression. Finally, the Jackson Chourio TB over 1.5 at -102 offers value against Elder's 0.92 HR/9 in a neutral park. Burns ML is the ladder pick \u2014 best floor with elite SP talent at even money.",
+      "slate_vibe": "NORMAL",
+      "published_at": "2026-06-21T12:47:12.671695-04:00"
+    },
+    {
+      "id": "20260621-MLB-BOS-SEA-TOTAL",
+      "sport": "MLB",
+      "game": "BOS @ SEA",
+      "first_pitch_iso": "2026-06-21T20:10Z",
+      "pick": "Under 6.5",
+      "best_book": "FanDuel",
+      "best_odds": "-105",
+      "book_prices": {
+        "draftkings": "-105",
+        "fanduel": "-105",
+        "betmgm": "-105"
+      },
+      "book_links": {
+        "fanduel": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.587040288&selectionId=7017906",
+        "draftkings": "https://sportsbook.draftkings.com/?outcomes=0OU85222455U650_3",
+        "betmgm": "https://sports.nj.betmgm.com/en/sports?options=19712420-1534435095-2229684526&type=Single"
+      },
+      "market": "TOTAL",
+      "confidence": 4,
+      "units": 1.5,
+      "win_probability": 0.6,
+      "ladder_designation": false,
+      "data_confidence": 0.75,
+      "rules_passed": [
+        "max_juice",
+        "ladder_even_money",
+        "parlay_well_formed",
+        "confidence_units_match",
+        "data_confidence_floor",
+        "pick_type_allowed",
+        "mlb_hr_prop_check",
+        "mlb_pitcher_k_check",
+        "mlb_total_bases_check",
+        "mlb_hits_check",
+        "nba_player_prop_check",
+        "nhl_shots_check",
+        "mlb_run_line_check",
+        "mlb_under_bb_check",
+        "no_same_game_opposite"
+      ],
+      "locked": true,
+      "late_add": false,
+      "late_add_reason": "",
+      "bonus_pick": false,
+      "event_type": "",
+      "event_name": "",
+      "legs": [],
+      "headline": "Lowest total on the board \u2014 two quality SPs at the best pitcher's park in baseball.",
+      "the_thesis": "This is the lowest total on the entire MLB slate, and for good reason. T-Mobile Park is the best pitcher's park in baseball with a 0.93 runs park factor and 0.93 HR park factor. Both offenses are anemic \u2014 Seattle at 4.14 R/G and Boston at 3.96 R/G, both bottom-third in the league.\n\nLogan Gilbert has been excellent this season with a 3.43 ERA, 1.03 WHIP, and 26.6% strikeout rate. He's a groundball pitcher who thrives at T-Mobile. Payton Tolle has been a revelation for the Red Sox with a 2.93 ERA and 1.06 WHIP, striking out 25.4% of batters faced. Both pitchers have BB/9 well under 3.5, so we pass the under validation check.\n\nThe market has this at 6.5 across all three books at -105/-114. My fair price on the under is around 60%, giving us 8+ cents of edge. This is a classic pitcher's duel setup \u2014 two quality arms, weak offenses, elite pitcher's park.",
+      "the_data": [
+        {
+          "label": "Gilbert ERA / WHIP (season)",
+          "value": "3.43 / 1.03",
+          "context": "Above average, thrives at home"
+        },
+        {
+          "label": "Gilbert K% (season)",
+          "value": "26.6%",
+          "context": "Elite swing-and-miss"
+        },
+        {
+          "label": "Tolle ERA / WHIP (season)",
+          "value": "2.93 / 1.06",
+          "context": "Breakout season"
+        },
+        {
+          "label": "T-Mobile Park runs PF",
+          "value": "0.93",
+          "context": "Best pitcher's park in MLB"
+        },
+        {
+          "label": "SEA R/G (season)",
+          "value": "4.14",
+          "context": "Bottom third"
+        },
+        {
+          "label": "BOS R/G (season)",
+          "value": "3.96",
+          "context": "Bottom third"
+        }
+      ],
+      "the_market": "Total opened at 6.5 and has held across all books. This is the lowest total on the board, and the market respects both pitchers. No movement suggests sharp money agrees with the number.",
+      "weather_park": "T-Mobile Park outdoor, pitcher-friendly (0.93 runs PF, 0.93 HR PF). Perfect conditions for an under.",
+      "case_against": "Both offenses could wake up on any given day. Gilbert has been homer-prone at times (1.36 HR/9), and if he hangs a few, the Red Sox could push this over. Tolle is also relatively unproven with only 58.1 IP this season.",
+      "what_were_betting_on": "Both starters going 6+ innings, combined run total staying in the 4-6 range, and the park suppressing any late-inning rallies.",
+      "scott_bot_quip": "The lowest total on the board at the best pitcher's park. Sometimes the market gets it right.",
+      "ladder_note": "",
+      "date": "2026-06-21",
+      "status": "PEND",
+      "units_result": null,
+      "clv_cents": null,
+      "result_score": null,
+      "graded_at": null,
+      "slate_assessment": "Sunday MLB-only slate with 16 games. Two elite SP matchups jump off the page \u2014 Wheeler vs. Mets and Gilbert vs. Red Sox at T-Mobile \u2014 plus Chase Burns bringing Cy Young-caliber stuff to Yankee Stadium. Prop markets offer clean K under angles and a few total bases plays worth a look.",
+      "executive_summary": "Sixteen-game MLB Sunday with no NBA or NHL action, but the pitching matchups deliver. Zack Wheeler faces his former team in a revenge spot at Citizens Bank Park, carrying a 2.01 ERA and elite command since returning from shoulder surgery. Chase Burns brings a 29.8% K rate and sub-1.05 WHIP to Yankee Stadium against a shaky Elmer Rodr\u00edguez. The lowest total on the board sits in Seattle at 6.5, where Logan Gilbert and Payton Tolle duel in a pitcher's paradise. The ladder rides with Wheeler \u2014 best floor on the board, elite SP vs. struggling offense, and the market hasn't moved off the number.",
+      "slate_analysis": "The board today features 16 MLB games with no NBA or NHL to supplement. Pricing is tight across most matchups, with only a handful of games showing clear edges. The overall climate is cautious \u2014 lots of coin-flip moneylines and totals sitting near consensus.\n\nTop candidates that rose during my review: (1) PHI vs. NYM \u2014 Wheeler vs. Peterson is a massive SP mismatch, with Wheeler's 2.01 ERA and 0.85 WHIP facing a struggling Peterson (5.91 ERA, 1.63 WHIP). The Phillies ML at -184 is too short for a straight bet, but the under 8.0/8.5 has legs. (2) SEA vs. BOS \u2014 Gilbert (3.43 ERA, 1.03 WHIP) vs. Tolle (2.93 ERA, 1.06 WHIP) at T-Mobile Park (0.93 runs PF) with a 6.5 total is the lowest on the board. Both offenses rank bottom-third in R/G. (3) CIN @ NYY \u2014 Burns (2.01 ERA, 29.8% K rate) vs. Rodr\u00edguez (4.15 ERA, 14.1% BB rate) is a massive talent gap. Burns ML at -102 is near even money with a clear edge. (4) SF @ MIA \u2014 Webb (3.46 ERA, 0.48 HR/9) at loanDepot Park (0.94 runs PF) against a weak Marlins lineup. The under 8.5 has park support. (5) Dylan Cease K prop \u2014 Cease's 36.3% K rate against a Cubs lineup that strikes out at a league-average clip. The over 6.5 Ks at -108 is intriguing but the Cubs' K% doesn't scream edge. (6) Coors Field PIT @ COL \u2014 Two weak SPs (Lorenzen 7.13 ERA, Jones 6.23 ERA) at Coors with an 11.5 total. The over has park support but wind blowing in suppresses HR impact.\n\nWhat got cut and why: The Dodgers ML at -225 exceeds our straight-bet cap. The Tigers-White Sox game has data confidence below 0.6 and both SPs lack the sample size for conviction. The Astros-Guardians game features two mediocre SPs with no clear edge \u2014 my fair price matches the market. The Rangers-Padres game has Texas at -162, too short, and Peralta's 11.8% BB rate makes the under risky. The Cubs-Blue Jays game lacks market data in the IntelPack. The Athletics-Angels game has Perkins (6.15 ERA) vs. Detmers (3.68 ERA) but data confidence is only 0.4.\n\nThe final six picks: Burns ML offers the clearest edge \u2014 elite SP at near even money against a replacement-level starter. Wheeler under 8.0 combines the best SP on the board with a struggling Mets offense in a revenge spot. Gilbert under 6.5 is the lowest total on the board with two quality SPs at a pitcher's park. Webb under 8.5 stacks elite groundball pitcher with a pitcher-friendly dome. The Coors over 11.5 is a calculated play on two weak SPs at altitude despite wind suppression. Finally, the Jackson Chourio TB over 1.5 at -102 offers value against Elder's 0.92 HR/9 in a neutral park. Burns ML is the ladder pick \u2014 best floor with elite SP talent at even money.",
+      "slate_vibe": "NORMAL",
+      "published_at": "2026-06-21T12:47:12.671600-04:00"
+    },
+    {
+      "id": "20260621-MLB-NYM-PHI-TOTAL",
+      "sport": "MLB",
+      "game": "NYM @ PHI",
+      "first_pitch_iso": "2026-06-21T23:20Z",
+      "pick": "Under 8.0",
+      "best_book": "BetMGM",
+      "best_odds": "-105",
+      "book_prices": {
+        "draftkings": "-107",
+        "fanduel": "-124",
+        "betmgm": "-105"
+      },
+      "book_links": {
+        "fanduel": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.587040379&selectionId=7017906",
+        "betmgm": "https://sports.nj.betmgm.com/en/sports?options=19712421-1534435213-2229684780&type=Single",
+        "draftkings": "https://sportsbook.draftkings.com/?outcomes=0OU85222456U800_3"
+      },
+      "market": "TOTAL",
+      "confidence": 5,
+      "units": 2.0,
+      "win_probability": 0.64,
+      "ladder_designation": false,
+      "data_confidence": 0.8,
+      "rules_passed": [
+        "max_juice",
+        "ladder_even_money",
+        "parlay_well_formed",
+        "confidence_units_match",
+        "data_confidence_floor",
+        "pick_type_allowed",
+        "mlb_hr_prop_check",
+        "mlb_pitcher_k_check",
+        "mlb_total_bases_check",
+        "mlb_hits_check",
+        "nba_player_prop_check",
+        "nhl_shots_check",
+        "mlb_run_line_check",
+        "mlb_under_bb_check",
+        "no_same_game_opposite"
+      ],
+      "locked": true,
+      "late_add": false,
+      "late_add_reason": "",
+      "bonus_pick": false,
+      "event_type": "",
+      "event_name": "",
+      "legs": [],
+      "headline": "Zack Wheeler revenge game against his former team \u2014 elite SP vs. struggling offense.",
+      "the_thesis": "Zack Wheeler has been phenomenal since returning from shoulder surgery. His 2.01 ERA, 0.85 WHIP, and 62:15 K:BB ratio over 62.2 innings are elite numbers. He's registered eight quality starts in his first 10 outings this season, giving up two runs or fewer eight times. This is a revenge spot against his former team, and Wheeler historically elevates in big moments.\n\nDavid Peterson has been a disaster for the Mets \u2014 5.91 ERA, 1.63 WHIP, and a 9.4% walk rate that puts runners on base constantly. But here's the key: Peterson's 0.70 HR/9 suggests he's been lucky on balls in play. The Phillies offense (4.25 R/G) isn't elite, but they should scratch across a few runs. The question is whether the Mets can score against Wheeler, and the answer is probably not.\n\nThe total opened at 8.0-8.5 across books and hasn't moved. My fair price on the under is around 64%, which gives us 9+ cents of edge at -105. Wheeler's BB/9 is well under 3.5, so we pass the under validation check. Citizens Bank Park does boost HR (1.10 PF), but Wheeler's elite command limits damage.",
+      "the_data": [
+        {
+          "label": "Wheeler ERA / WHIP (season)",
+          "value": "2.01 / 0.85",
+          "context": "Elite, Cy Young-caliber"
+        },
+        {
+          "label": "Wheeler K:BB (season)",
+          "value": "62:15",
+          "context": "4.1 K/BB ratio, elite command"
+        },
+        {
+          "label": "Wheeler QS rate (2026)",
+          "value": "8 of 10 starts",
+          "context": "Consistent excellence"
+        },
+        {
+          "label": "Peterson ERA / WHIP (season)",
+          "value": "5.91 / 1.63",
+          "context": "Struggling badly"
+        },
+        {
+          "label": "Peterson BB% (season)",
+          "value": "9.4%",
+          "context": "Too many free passes"
+        },
+        {
+          "label": "PHI R/G (season)",
+          "value": "4.25",
+          "context": "Below average"
+        },
+        {
+          "label": "NYM R/G (season)",
+          "value": "4.07",
+          "context": "Bottom third"
+        }
+      ],
+      "the_market": "Total opened at 8.0-8.5 and has held. BetMGM has the best price on under 8.0 at -105. The market respects Wheeler but hasn't fully adjusted for the SP mismatch.",
+      "weather_park": "Citizens Bank Park outdoor, HR-boosting (1.10 PF). Wheeler's command limits damage despite the park factor.",
+      "case_against": "Citizens Bank Park is HR-friendly and Peterson could get lucky with a few solo shots. If Wheeler doesn't have his best stuff, the Mets lineup has enough pop to push this over. The Phillies bullpen has also been shaky at times.",
+      "what_were_betting_on": "Wheeler going 7+ innings with 2 or fewer runs, the Mets struggling to generate offense, and a low-scoring affair in the 5-7 run range.",
+      "scott_bot_quip": "Wheeler vs. his old team. The Mets are about to remember why they let him walk.",
+      "ladder_note": "",
+      "date": "2026-06-21",
+      "status": "PEND",
+      "units_result": null,
+      "clv_cents": null,
+      "result_score": null,
+      "graded_at": null,
+      "slate_assessment": "Sunday MLB-only slate with 16 games. Two elite SP matchups jump off the page \u2014 Wheeler vs. Mets and Gilbert vs. Red Sox at T-Mobile \u2014 plus Chase Burns bringing Cy Young-caliber stuff to Yankee Stadium. Prop markets offer clean K under angles and a few total bases plays worth a look.",
+      "executive_summary": "Sixteen-game MLB Sunday with no NBA or NHL action, but the pitching matchups deliver. Zack Wheeler faces his former team in a revenge spot at Citizens Bank Park, carrying a 2.01 ERA and elite command since returning from shoulder surgery. Chase Burns brings a 29.8% K rate and sub-1.05 WHIP to Yankee Stadium against a shaky Elmer Rodr\u00edguez. The lowest total on the board sits in Seattle at 6.5, where Logan Gilbert and Payton Tolle duel in a pitcher's paradise. The ladder rides with Wheeler \u2014 best floor on the board, elite SP vs. struggling offense, and the market hasn't moved off the number.",
+      "slate_analysis": "The board today features 16 MLB games with no NBA or NHL to supplement. Pricing is tight across most matchups, with only a handful of games showing clear edges. The overall climate is cautious \u2014 lots of coin-flip moneylines and totals sitting near consensus.\n\nTop candidates that rose during my review: (1) PHI vs. NYM \u2014 Wheeler vs. Peterson is a massive SP mismatch, with Wheeler's 2.01 ERA and 0.85 WHIP facing a struggling Peterson (5.91 ERA, 1.63 WHIP). The Phillies ML at -184 is too short for a straight bet, but the under 8.0/8.5 has legs. (2) SEA vs. BOS \u2014 Gilbert (3.43 ERA, 1.03 WHIP) vs. Tolle (2.93 ERA, 1.06 WHIP) at T-Mobile Park (0.93 runs PF) with a 6.5 total is the lowest on the board. Both offenses rank bottom-third in R/G. (3) CIN @ NYY \u2014 Burns (2.01 ERA, 29.8% K rate) vs. Rodr\u00edguez (4.15 ERA, 14.1% BB rate) is a massive talent gap. Burns ML at -102 is near even money with a clear edge. (4) SF @ MIA \u2014 Webb (3.46 ERA, 0.48 HR/9) at loanDepot Park (0.94 runs PF) against a weak Marlins lineup. The under 8.5 has park support. (5) Dylan Cease K prop \u2014 Cease's 36.3% K rate against a Cubs lineup that strikes out at a league-average clip. The over 6.5 Ks at -108 is intriguing but the Cubs' K% doesn't scream edge. (6) Coors Field PIT @ COL \u2014 Two weak SPs (Lorenzen 7.13 ERA, Jones 6.23 ERA) at Coors with an 11.5 total. The over has park support but wind blowing in suppresses HR impact.\n\nWhat got cut and why: The Dodgers ML at -225 exceeds our straight-bet cap. The Tigers-White Sox game has data confidence below 0.6 and both SPs lack the sample size for conviction. The Astros-Guardians game features two mediocre SPs with no clear edge \u2014 my fair price matches the market. The Rangers-Padres game has Texas at -162, too short, and Peralta's 11.8% BB rate makes the under risky. The Cubs-Blue Jays game lacks market data in the IntelPack. The Athletics-Angels game has Perkins (6.15 ERA) vs. Detmers (3.68 ERA) but data confidence is only 0.4.\n\nThe final six picks: Burns ML offers the clearest edge \u2014 elite SP at near even money against a replacement-level starter. Wheeler under 8.0 combines the best SP on the board with a struggling Mets offense in a revenge spot. Gilbert under 6.5 is the lowest total on the board with two quality SPs at a pitcher's park. Webb under 8.5 stacks elite groundball pitcher with a pitcher-friendly dome. The Coors over 11.5 is a calculated play on two weak SPs at altitude despite wind suppression. Finally, the Jackson Chourio TB over 1.5 at -102 offers value against Elder's 0.92 HR/9 in a neutral park. Burns ML is the ladder pick \u2014 best floor with elite SP talent at even money.",
+      "slate_vibe": "NORMAL",
+      "published_at": "2026-06-21T12:47:12.671509-04:00"
+    },
+    {
+      "id": "20260621-MLB-CIN-NYY-ML",
+      "sport": "MLB",
+      "game": "CIN @ NYY",
+      "first_pitch_iso": "2026-06-21T17:35Z",
+      "pick": "Cincinnati Reds ML",
+      "best_book": "DraftKings",
+      "best_odds": "-102",
+      "book_prices": {
+        "draftkings": "-102",
+        "fanduel": "-104",
+        "betmgm": "-102"
+      },
+      "book_links": {
+        "fanduel": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.586934587&selectionId=29167",
+        "draftkings": "https://sportsbook.draftkings.com/?outcomes=0ML85222443_3",
+        "betmgm": "https://sports.nj.betmgm.com/en/sports?options=19712762-1534483773-2229813810&type=Single"
+      },
+      "market": "ML",
+      "confidence": 4,
+      "units": 1.5,
+      "win_probability": 0.58,
+      "ladder_designation": true,
+      "data_confidence": 0.75,
+      "rules_passed": [
+        "max_juice",
+        "ladder_even_money",
+        "parlay_well_formed",
+        "confidence_units_match",
+        "data_confidence_floor",
+        "pick_type_allowed",
+        "mlb_hr_prop_check",
+        "mlb_pitcher_k_check",
+        "mlb_total_bases_check",
+        "mlb_hits_check",
+        "nba_player_prop_check",
+        "nhl_shots_check",
+        "mlb_run_line_check",
+        "mlb_under_bb_check",
+        "no_same_game_opposite"
+      ],
+      "locked": true,
+      "late_add": false,
+      "late_add_reason": "",
+      "bonus_pick": false,
+      "event_type": "",
+      "event_name": "",
+      "legs": [],
+      "headline": "Chase Burns brings Cy Young stuff to Yankee Stadium against a replacement-level starter.",
+      "the_thesis": "This is a talent mismatch disguised as a coin flip. Chase Burns has been one of the best pitchers in baseball this season \u2014 his 2.01 ERA and 1.02 WHIP rank among the elite, and his 29.8% strikeout rate means he's missing bats at an ace-level clip. The 23-year-old has held opponents to two runs or fewer in 13 of his 14 starts this year. He's facing a Yankees lineup that's potent (5.17 R/G), but Burns has the stuff to neutralize anyone.\n\nOn the other side, Elmer Rodr\u00edguez is a replacement-level arm with a 4.15 ERA, 1.85 WHIP, and a terrifying 14.1% walk rate. He's averaging just 4.33 IP per start in his last three outings \u2014 that's a bullpen game waiting to happen. The Yankees will be leaning on their pen early, and while their offense can carry them, Burns has the ceiling to dominate.\n\nThe market has this as a pick'em, but my fair price puts the Reds around 58% to win. That's 8+ cents of edge at -102. The wind blowing out to right field (12% HR boost) is a concern, but Burns' 1.01 HR/9 suggests he can survive it. This is the ladder pick \u2014 elite SP at even money is the highest-floor play on the board.",
+      "the_data": [
+        {
+          "label": "Burns ERA / WHIP (season)",
+          "value": "2.01 / 1.02",
+          "context": "Elite, top-5 in MLB"
+        },
+        {
+          "label": "Burns K% (season)",
+          "value": "29.8%",
+          "context": "Ace-level swing-and-miss"
+        },
+        {
+          "label": "Rodr\u00edguez ERA / WHIP (season)",
+          "value": "4.15 / 1.85",
+          "context": "Replacement-level"
+        },
+        {
+          "label": "Rodr\u00edguez BB% (season)",
+          "value": "14.1%",
+          "context": "Dangerously high, 4th-worst in MLB"
+        },
+        {
+          "label": "Rodr\u00edguez L3 IP/start",
+          "value": "4.33",
+          "context": "Short outings, bullpen game risk"
+        },
+        {
+          "label": "NYY R/G (season)",
+          "value": "5.17",
+          "context": "Top-10 offense"
+        },
+        {
+          "label": "CIN R/G (season)",
+          "value": "4.28",
+          "context": "League average"
+        }
+      ],
+      "the_market": "Line opened as a pick'em and has held steady. The market sees this as a coin flip, but the SP mismatch suggests the Reds should be closer to -120. Sharp money hasn't moved this number, which is surprising given Burns' dominance.",
+      "weather_park": "Yankee Stadium 81\u00b0F, wind 8mph blowing out to RF \u2014 HR impact +12%. Park factor 1.14 for HR. Burns' 1.01 HR/9 is manageable but this is the risk factor.",
+      "case_against": "The Yankees offense is elite and Yankee Stadium with wind out is a launching pad. If Burns doesn't have his best command, the Yankees can ambush him early. Rodr\u00edguez could also steal a few innings if he locates, and the Yankees pen is solid. Burns is also on a workload watch as a young arm.",
+      "what_were_betting_on": "Burns going 6+ innings with 7+ strikeouts, limiting damage despite the HR-friendly conditions, and the Reds offense scratching across enough runs against a wild Rodr\u00edguez.",
+      "scott_bot_quip": "The market thinks this is a coin flip. The market is wrong.",
+      "ladder_note": "Best floor on the board \u2014 elite SP at even money. Burns has been dominant all season and faces a replacement-level arm. This is the highest-floor play for the ladder challenge.",
+      "date": "2026-06-21",
+      "status": "PEND",
+      "units_result": null,
+      "clv_cents": null,
+      "result_score": null,
+      "graded_at": null,
+      "slate_assessment": "Sunday MLB-only slate with 16 games. Two elite SP matchups jump off the page \u2014 Wheeler vs. Mets and Gilbert vs. Red Sox at T-Mobile \u2014 plus Chase Burns bringing Cy Young-caliber stuff to Yankee Stadium. Prop markets offer clean K under angles and a few total bases plays worth a look.",
+      "executive_summary": "Sixteen-game MLB Sunday with no NBA or NHL action, but the pitching matchups deliver. Zack Wheeler faces his former team in a revenge spot at Citizens Bank Park, carrying a 2.01 ERA and elite command since returning from shoulder surgery. Chase Burns brings a 29.8% K rate and sub-1.05 WHIP to Yankee Stadium against a shaky Elmer Rodr\u00edguez. The lowest total on the board sits in Seattle at 6.5, where Logan Gilbert and Payton Tolle duel in a pitcher's paradise. The ladder rides with Wheeler \u2014 best floor on the board, elite SP vs. struggling offense, and the market hasn't moved off the number.",
+      "slate_analysis": "The board today features 16 MLB games with no NBA or NHL to supplement. Pricing is tight across most matchups, with only a handful of games showing clear edges. The overall climate is cautious \u2014 lots of coin-flip moneylines and totals sitting near consensus.\n\nTop candidates that rose during my review: (1) PHI vs. NYM \u2014 Wheeler vs. Peterson is a massive SP mismatch, with Wheeler's 2.01 ERA and 0.85 WHIP facing a struggling Peterson (5.91 ERA, 1.63 WHIP). The Phillies ML at -184 is too short for a straight bet, but the under 8.0/8.5 has legs. (2) SEA vs. BOS \u2014 Gilbert (3.43 ERA, 1.03 WHIP) vs. Tolle (2.93 ERA, 1.06 WHIP) at T-Mobile Park (0.93 runs PF) with a 6.5 total is the lowest on the board. Both offenses rank bottom-third in R/G. (3) CIN @ NYY \u2014 Burns (2.01 ERA, 29.8% K rate) vs. Rodr\u00edguez (4.15 ERA, 14.1% BB rate) is a massive talent gap. Burns ML at -102 is near even money with a clear edge. (4) SF @ MIA \u2014 Webb (3.46 ERA, 0.48 HR/9) at loanDepot Park (0.94 runs PF) against a weak Marlins lineup. The under 8.5 has park support. (5) Dylan Cease K prop \u2014 Cease's 36.3% K rate against a Cubs lineup that strikes out at a league-average clip. The over 6.5 Ks at -108 is intriguing but the Cubs' K% doesn't scream edge. (6) Coors Field PIT @ COL \u2014 Two weak SPs (Lorenzen 7.13 ERA, Jones 6.23 ERA) at Coors with an 11.5 total. The over has park support but wind blowing in suppresses HR impact.\n\nWhat got cut and why: The Dodgers ML at -225 exceeds our straight-bet cap. The Tigers-White Sox game has data confidence below 0.6 and both SPs lack the sample size for conviction. The Astros-Guardians game features two mediocre SPs with no clear edge \u2014 my fair price matches the market. The Rangers-Padres game has Texas at -162, too short, and Peralta's 11.8% BB rate makes the under risky. The Cubs-Blue Jays game lacks market data in the IntelPack. The Athletics-Angels game has Perkins (6.15 ERA) vs. Detmers (3.68 ERA) but data confidence is only 0.4.\n\nThe final six picks: Burns ML offers the clearest edge \u2014 elite SP at near even money against a replacement-level starter. Wheeler under 8.0 combines the best SP on the board with a struggling Mets offense in a revenge spot. Gilbert under 6.5 is the lowest total on the board with two quality SPs at a pitcher's park. Webb under 8.5 stacks elite groundball pitcher with a pitcher-friendly dome. The Coors over 11.5 is a calculated play on two weak SPs at altitude despite wind suppression. Finally, the Jackson Chourio TB over 1.5 at -102 offers value against Elder's 0.92 HR/9 in a neutral park. Burns ML is the ladder pick \u2014 best floor with elite SP talent at even money.",
+      "slate_vibe": "NORMAL",
+      "published_at": "2026-06-21T12:47:12.671381-04:00"
+    },
     {
       "id": "20260620-MLB-CLE-HOU-TOTAL",
       "sport": "MLB",
