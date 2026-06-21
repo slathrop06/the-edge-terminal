@@ -1,5 +1,18 @@
 [
   {
+    "id": "20260621-MLB-MIL-ATL-PROP-JACKSONCHOURIO",
+    "date": "2026-06-21",
+    "pick": "Jackson Chourio TB Over 1.5",
+    "game": "MIL @ ATL",
+    "odds": "-102",
+    "result_score": "Jackson Chourio: 1 totalBases",
+    "classification": "VARIANCE",
+    "post_mortem": "The thesis was vindicated at the team level \u2014 Elder surrendered 12 hits and 8 runs in 6 innings, and the Brewers sent 11 batters to the plate in a massive 2nd inning. Chourio was right in the middle of it, but his personal contribution was an infield single to shortstop in the 2nd (his only total base) and a pop-out to first in the 4th. He scored a run and the lineup feasted, but he never squared one up for the XBH the prop needed.",
+    "candidate_rule": null,
+    "sample_size_warning": "N=1, insufficient to establish rule \u2014 this is a clean VARIANCE loss on a well-reasoned prop in a game where the underlying thesis (Elder hittable, Brewers offense active) fully played out.",
+    "analyzed_at": "2026-06-21T19:01:15.719000-04:00"
+  },
+  {
     "id": "20260620-MLB-NYM-PHI-TOTAL",
     "date": "2026-06-20",
     "pick": "Under 7.5",
