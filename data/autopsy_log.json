@@ -1,5 +1,44 @@
 [
   {
+    "id": "20260620-MLB-NYM-PHI-TOTAL",
+    "date": "2026-06-20",
+    "pick": "Under 7.5",
+    "game": "NYM @ PHI",
+    "odds": "-107",
+    "result_score": "NYM 3 \u00b7 PHI 15",
+    "classification": "MODEL",
+    "post_mortem": "The thesis was built entirely on S\u00e1nchez holding the line \u2014 and he did (1 ER in 6 IP, ERA dropped to 1.80). The model failed by underweighting the catastrophic downside on the Peralta side: Peralta allowed 10 hits and a career-worst 10 earned runs in just 2\u2154 innings, with the Phillies scoring in each of the first three frames \u2014 Harper solo HR in the 1st, two more runs in the 2nd, then a 5-run 3rd capped by a 456-foot Schwarber bomb. The under was dead before the 4th inning. Schwarber then went 4-for-5 with 3 HRs and 6 RBI, and Harper hit for the cycle. The pick correctly identified S\u00e1nchez as elite but treated Peralta's 9.2% walk rate and 3.90 ERA as 'inefficient but manageable' \u2014 it ignored that Peralta's career-worst blowup risk against a power lineup at CBP was a live scenario, not a tail risk. A 10-run, sub-3-inning implosion is not a freak event for a pitcher with Peralta's profile in a hitter-friendly park.",
+    "candidate_rule": "When the under anchor is the *away* starter (not the home ace), require the away SP's ERA at the specific road park to be under 4.50 AND his HR/9 to be under 1.20 before counting him as an under-suppressor \u2014 N=1, insufficient to establish rule.",
+    "sample_size_warning": "N=1, insufficient to establish rule \u2014 one Peralta blowup does not define a pattern, but the structural flaw (building an under around a pitcher with known control issues in a power park) is worth flagging for review.",
+    "analyzed_at": "2026-06-21T01:59:18.787719-04:00"
+  },
+  {
+    "id": "20260620-MLB-BAL-LAD-SPREAD",
+    "date": "2026-06-20",
+    "pick": "Dodgers -1.5",
+    "game": "BAL @ LAD",
+    "odds": "-110",
+    "result_score": "BAL 3 \u00b7 LAD 2",
+    "classification": "MODEL",
+    "post_mortem": "The thesis was built entirely on Yamamoto being untouchable \u2014 but the model ignored a critical historical signal hiding in plain sight: Rogers carries a 3.48 ERA in two career starts against the Dodgers specifically, a massive gap from his season-wide 5.86 ERA. On the night, Rogers was a different pitcher entirely, allowing only one hit (Edman's two-out single in the fifth), walking two, and striking out six over seven scoreless innings while the Dodgers went 0-for-3 with runners in scoring position. Meanwhile, Yamamoto was uncharacteristically hittable \u2014 Baltimore collected six hits and drew two walks against him, scoring three runs in six innings, with the fourth-inning two-run frame aided by a deflection that inflated his final line. The pick lost not on a fluke but because the model over-indexed on season ERA and a hot streak while ignoring Rogers' Dodger-specific splits and the Orioles' demonstrated ability to make contact against elite arms.",
+    "candidate_rule": "Before backing a run-line favorite on starter ERA mismatch, check the opposing starter's splits against that specific team \u2014 if career ERA vs. opponent diverges 2+ runs from season ERA, discount the mismatch thesis proportionally; N=1 against this specific Rogers/LAD pattern, insufficient to establish rule.",
+    "sample_size_warning": "N=1, insufficient to establish rule \u2014 one game where Rogers outperformed his season line is noise, not a pattern.",
+    "analyzed_at": "2026-06-21T01:59:02.308501-04:00"
+  },
+  {
+    "id": "20260620-MLB-CLE-HOU-TOTAL",
+    "date": "2026-06-20",
+    "pick": "Under 8.5",
+    "game": "CLE @ HOU",
+    "odds": "-114",
+    "result_score": "CLE 8 \u00b7 HOU 1",
+    "classification": "MODEL",
+    "post_mortem": "Arrighetti was the problem, not Cantillo. Per the ESPN box score, Travis Bazzana hit TWO home runs off Arrighetti \u2014 a solo shot in the 1st inning and a 3-run blast in the 5th \u2014 while Kyle Manzardo added a 2-run homer in the 3rd, accounting for all 8 Cleveland runs. Cantillo, the pitcher the thesis flagged as the weak link, posted a Game Score of 71 and held Houston to 1 run. The thesis had the risk vector exactly backwards: it leaned on Arrighetti's season ERA (2.57) while ignoring that he had already yielded 3+ runs in three straight starts entering this game, a documented regression streak that was publicly available pre-game.",
+    "candidate_rule": "Before backing an Under anchored to a specific starter's ERA, check rolling 3-start ERA \u2014 if a pitcher has allowed 3+ ER in each of his last 3 outings, discount the season ERA and flag as 'ERA mirage'; do not use season ERA as the primary anchor without recency adjustment. (N=1, insufficient to establish rule \u2014 monitor for pattern.)",
+    "sample_size_warning": "N=1, insufficient to establish rule. One start does not confirm ERA regression as a systematic blind spot, but the pre-game data showing three consecutive 3+ ER outings was available and unused.",
+    "analyzed_at": "2026-06-21T01:58:39.207260-04:00"
+  },
+  {
     "id": "20260616-MLB-CHW-NYY-TOTAL",
     "date": "2026-06-16",
     "pick": "Under 8.5",

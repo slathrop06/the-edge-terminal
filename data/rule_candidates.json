@@ -198,5 +198,29 @@
     "candidate_rule": "Flag any total pick where the named starting pitcher accounts for >50% of the run-suppression thesis \u2014 require a re-evaluation trigger if that SP is scratched within 3 hours of first pitch before locking the bet; N=1, insufficient to establish rule.",
     "sample_size_warning": "N=1, insufficient to establish rule \u2014 but the failure mode (SP scratch invalidating a total pick) is a known, recurring risk worth monitoring across the full season sample.",
     "status": "PENDING_REVIEW"
+  },
+  {
+    "proposed_at": "2026-06-21T01:58:39.208260-04:00",
+    "source_pick_id": "20260620-MLB-CLE-HOU-TOTAL",
+    "source_loss": "Under 8.5 (CLE @ HOU)",
+    "candidate_rule": "Before backing an Under anchored to a specific starter's ERA, check rolling 3-start ERA \u2014 if a pitcher has allowed 3+ ER in each of his last 3 outings, discount the season ERA and flag as 'ERA mirage'; do not use season ERA as the primary anchor without recency adjustment. (N=1, insufficient to establish rule \u2014 monitor for pattern.)",
+    "sample_size_warning": "N=1, insufficient to establish rule. One start does not confirm ERA regression as a systematic blind spot, but the pre-game data showing three consecutive 3+ ER outings was available and unused.",
+    "status": "PENDING_REVIEW"
+  },
+  {
+    "proposed_at": "2026-06-21T01:59:02.309414-04:00",
+    "source_pick_id": "20260620-MLB-BAL-LAD-SPREAD",
+    "source_loss": "Dodgers -1.5 (BAL @ LAD)",
+    "candidate_rule": "Before backing a run-line favorite on starter ERA mismatch, check the opposing starter's splits against that specific team \u2014 if career ERA vs. opponent diverges 2+ runs from season ERA, discount the mismatch thesis proportionally; N=1 against this specific Rogers/LAD pattern, insufficient to establish rule.",
+    "sample_size_warning": "N=1, insufficient to establish rule \u2014 one game where Rogers outperformed his season line is noise, not a pattern.",
+    "status": "PENDING_REVIEW"
+  },
+  {
+    "proposed_at": "2026-06-21T01:59:18.788651-04:00",
+    "source_pick_id": "20260620-MLB-NYM-PHI-TOTAL",
+    "source_loss": "Under 7.5 (NYM @ PHI)",
+    "candidate_rule": "When the under anchor is the *away* starter (not the home ace), require the away SP's ERA at the specific road park to be under 4.50 AND his HR/9 to be under 1.20 before counting him as an under-suppressor \u2014 N=1, insufficient to establish rule.",
+    "sample_size_warning": "N=1, insufficient to establish rule \u2014 one Peralta blowup does not define a pattern, but the structural flaw (building an under around a pitcher with known control issues in a power park) is worth flagging for review.",
+    "status": "PENDING_REVIEW"
   }
 ]

@@ -1,610 +1,9 @@
 {
-  "generated_at": "2026-06-20T20:15:40.465219-04:00",
-  "today": "2026-06-20",
+  "generated_at": "2026-06-21T01:59:33.705916-04:00",
+  "today": "2026-06-21",
   "system_paused": false,
   "pause_reason": "",
-  "today_picks": [
-    {
-      "id": "20260620-MLB-CLE-HOU-TOTAL",
-      "sport": "MLB",
-      "game": "CLE @ HOU",
-      "first_pitch_iso": "2026-06-20T23:15Z",
-      "pick": "Under 8.5",
-      "best_book": "DraftKings",
-      "best_odds": "-114",
-      "book_prices": {
-        "draftkings": "-114",
-        "fanduel": "-120",
-        "betmgm": "-118"
-      },
-      "book_links": {
-        "fanduel": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.586821023&selectionId=7017906",
-        "draftkings": "https://sportsbook.draftkings.com/?outcomes=0OU85211121U850_3",
-        "betmgm": "https://sports.nj.betmgm.com/en/sports?options=19712462-1534441341-2229700043&type=Single"
-      },
-      "market": "TOTAL",
-      "confidence": 3,
-      "units": 1.0,
-      "win_probability": 0.56,
-      "ladder_designation": false,
-      "data_confidence": 0.75,
-      "rules_passed": [
-        "max_juice",
-        "ladder_even_money",
-        "parlay_well_formed",
-        "confidence_units_match",
-        "data_confidence_floor",
-        "pick_type_allowed",
-        "mlb_hr_prop_check",
-        "mlb_pitcher_k_check",
-        "mlb_total_bases_check",
-        "mlb_hits_check",
-        "nba_player_prop_check",
-        "nhl_shots_check",
-        "mlb_run_line_check",
-        "mlb_under_bb_check",
-        "no_same_game_opposite"
-      ],
-      "locked": true,
-      "late_add": false,
-      "late_add_reason": "",
-      "bonus_pick": false,
-      "event_type": "",
-      "event_name": "",
-      "legs": [],
-      "headline": "Arrighetti's 2.57 ERA against a cold Cleveland offense \u2014 8.5 is too high.",
-      "the_thesis": "Spencer Arrighetti has been excellent for the Astros \u2014 2.57 ERA, 0.43 HR/9, and he's been limiting damage despite an 11.9% walk rate. Joey Cantillo has struggled for Cleveland (4.38 ERA, 1.38 HR/9), but the Guardians' offense has been cold (3.96 R/G).\n\nThe 8.5 total feels inflated given Arrighetti's dominance at home. Daikin Park is assumed neutral (no park factor data), but the Astros have been solid at home. The -114 juice at DraftKings implies 53.3% probability; I have this at 56%.\n\nThis is a lower-confidence play because Cantillo's struggles could lead to a crooked inning, but Arrighetti's ability to limit damage gives the under a floor. The Guardians' cold bats are the key \u2014 they're not going to light up Arrighetti.",
-      "the_data": [
-        {
-          "label": "Arrighetti ERA (season)",
-          "value": "2.57",
-          "context": "Excellent"
-        },
-        {
-          "label": "Arrighetti HR/9",
-          "value": "0.43",
-          "context": "Elite HR suppression"
-        },
-        {
-          "label": "Cantillo ERA (season)",
-          "value": "4.38",
-          "context": "Struggling"
-        },
-        {
-          "label": "CLE R/G",
-          "value": "3.96",
-          "context": "Below average, cold"
-        },
-        {
-          "label": "HOU R/G",
-          "value": "4.58",
-          "context": "Above average"
-        },
-        {
-          "label": "Total",
-          "value": "8.5",
-          "context": "Feels high given pitching"
-        }
-      ],
-      "the_market": "Total opened 8.5 and sits there. DraftKings offers -114 on the under. Market is split.",
-      "weather_park": "Daikin Park is assumed neutral. No weather concerns for this indoor-ish venue.",
-      "case_against": "Cantillo's 1.38 HR/9 and 11.5% BB rate could lead to a big inning for the Astros. If Houston gets to Cantillo early, the over is live. Arrighetti's walk rate (11.9%) creates traffic that could turn into runs.",
-      "what_were_betting_on": "Arrighetti going 6+ innings with 2-3 runs, Cleveland's cold bats staying cold, and the game staying under 8.5.",
-      "scott_bot_quip": "Cleveland's bats are colder than a Houston winter. Wait, Houston doesn't have winter. Exactly.",
-      "ladder_note": "",
-      "date": "2026-06-20",
-      "status": "PEND",
-      "units_result": null,
-      "clv_cents": null,
-      "result_score": null,
-      "graded_at": null,
-      "slate_assessment": "Fifteen-game MLB slate with several elite pitching matchups \u2014 Sale vs Harrison in Atlanta, S\u00e1nchez vs Peralta in Philly, Yamamoto vs Rogers in LA \u2014 plus Skenes at Coors. Prop markets thin but K unders and total bases overs offer edges.",
-      "executive_summary": "The board today is pitching-heavy with three elite arms taking the mound: Cristopher S\u00e1nchez (1.82 ERA) hosts the Mets, Yamamoto (2.52 ERA, 45 consecutive batters retired recently) faces a struggling Trevor Rogers, and Chris Sale draws Kyle Harrison in a low-total spot. The Phillies-Mets under at 7.5 is the cleanest play on the board \u2014 S\u00e1nchez has been the best pitcher in baseball this month, and Peralta's walk rate creates outs, not runs. That's the ladder pick. Paul Skenes at Coors is the wildcard \u2014 elite arm, but Coors is Coors. Six plays today, all grounded in pitching edges.",
-      "slate_analysis": "Today's board features 15 MLB games with no NBA or NHL action. The pricing climate is relatively tight \u2014 most favorites sit between -130 and -200, with only the Dodgers (-235) and Pirates (-210) priced as heavy chalk. The total market is interesting: several games sit at 7.0-8.0, suggesting books expect pitching to dominate.\n\nThe top candidates that earned a hard look: (1) Phillies-Mets Under 7.5 \u2014 S\u00e1nchez has been the best pitcher in baseball with a 1.82 ERA and elite command, facing a Mets offense that's been league-average at best. Peralta walks too many batters but doesn't give up hard contact. (2) Dodgers-Orioles Under 8.0 \u2014 Yamamoto is on a historic run, Trevor Rogers has a 5.86 ERA, but the Dodgers offense is elite and Rogers could get shelled. (3) Braves-Brewers Under 7.0 \u2014 Sale vs Harrison is two elite lefties, both with sub-2.50 ERAs. (4) Pirates -1.5 at Coors \u2014 Skenes is dominant but Coors inflates everything. (5) Marlins ML vs Giants \u2014 Max Meyer (2.75 ERA) at pitcher-friendly loanDepot park against a rookie. (6) Paul Skenes Ks Over 6.5 \u2014 elite K rate against a Rockies lineup that strikes out.\n\nWhat got cut: The Dodgers-Orioles Under looked appealing with Yamamoto, but Trevor Rogers' 5.86 ERA and 1.45 WHIP against the Dodgers' 5.29 R/G offense creates too much variance \u2014 if Rogers gets knocked around early, the over is live. The Pirates -1.5 run line at Coors was tempting with Skenes, but Coors' 1.18 runs park factor and Sugano's ability to keep games close made the -136 juice unappealing for a road favorite. The Marlins ML at -138 was close but data confidence at 0.4 was below threshold.\n\nThe final six picks survived because they combine elite pitching with favorable park/weather contexts and market edges. The Phillies-Mets Under is the ladder pick \u2014 S\u00e1nchez's dominance, the 7.5 total, and -107 juice at DraftKings creates the highest-floor play on the board. The Braves-Brewers Under at 7.0 is the second-strongest total play with two elite lefties. Yamamoto's dominance makes the Dodgers -1.5 playable despite the chalk. Skenes Ks Over 6.5 is the sharpest prop \u2014 he's averaging 7.5 K/start and the Rockies strike out. The Tigers ML against the White Sox offers value at -118 with Melton's solid numbers. The Astros-Guardians Under rounds out the card with Arrighetti's 2.57 ERA against a Cleveland offense that's been cold.",
-      "slate_vibe": "NORMAL",
-      "published_at": "2026-06-20T12:18:59.080177-04:00"
-    },
-    {
-      "id": "20260620-MLB-CHW-DET-ML",
-      "sport": "MLB",
-      "game": "CHW @ DET",
-      "first_pitch_iso": "2026-06-20T17:10Z",
-      "pick": "Tigers ML",
-      "best_book": "FanDuel",
-      "best_odds": "-118",
-      "book_prices": {
-        "draftkings": "-130",
-        "fanduel": "-118",
-        "betmgm": "-130"
-      },
-      "book_links": {
-        "fanduel": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.586715695&selectionId=29159",
-        "draftkings": "https://sportsbook.draftkings.com/?outcomes=0ML85211061_1",
-        "betmgm": "https://sports.nj.betmgm.com/en/sports?options=19707213-1533893044-2228266821&type=Single"
-      },
-      "market": "ML",
-      "confidence": 3,
-      "units": 1.0,
-      "win_probability": 0.57,
-      "ladder_designation": false,
-      "data_confidence": 0.72,
-      "rules_passed": [
-        "max_juice",
-        "ladder_even_money",
-        "parlay_well_formed",
-        "confidence_units_match",
-        "data_confidence_floor",
-        "pick_type_allowed",
-        "mlb_hr_prop_check",
-        "mlb_pitcher_k_check",
-        "mlb_total_bases_check",
-        "mlb_hits_check",
-        "nba_player_prop_check",
-        "nhl_shots_check",
-        "mlb_run_line_check",
-        "mlb_under_bb_check",
-        "no_same_game_opposite"
-      ],
-      "locked": true,
-      "late_add": false,
-      "late_add_reason": "",
-      "bonus_pick": false,
-      "event_type": "",
-      "event_name": "",
-      "legs": [],
-      "headline": "Tigers at home with Melton (2.81 ERA) against Newcomb \u2014 value at -118.",
-      "the_thesis": "Troy Melton has been solid for the Tigers \u2014 2.81 ERA, 1.01 WHIP, and he's been going deep into games (8.4 IP/start in his last 3). Sean Newcomb has been good for the White Sox (2.76 ERA), but his 6.5% BB rate and limited sample (42.1 IP) suggest some regression is coming.\n\nThe Tigers are at home at Comerica Park, which is neutral (0.96 runs PF). The weather shows wind blowing out to left at 13 mph, which boosts HR potential by ~19%, but both pitchers have been limiting damage. The market has the Tigers at -118 (FanDuel), implying 54.1% probability. I have them at 57% \u2014 a 3-cent edge.\n\nThis is a lower-confidence play because the data confidence is only 0.72 (lineups not fully confirmed), but the value at -118 is too good to pass up. The Tigers are the better team at home.",
-      "the_data": [
-        {
-          "label": "Melton ERA (season)",
-          "value": "2.81",
-          "context": "Solid, above average"
-        },
-        {
-          "label": "Melton WHIP",
-          "value": "1.01",
-          "context": "Limiting baserunners"
-        },
-        {
-          "label": "Newcomb ERA (season)",
-          "value": "2.76",
-          "context": "Good but small sample"
-        },
-        {
-          "label": "Newcomb IP",
-          "value": "42.1",
-          "context": "Limited innings"
-        },
-        {
-          "label": "Comerica PF",
-          "value": "0.96",
-          "context": "Neutral"
-        },
-        {
-          "label": "Wind impact",
-          "value": "+19% HR",
-          "context": "Blowing out to LF"
-        }
-      ],
-      "the_market": "Tigers opened -118 at FanDuel, -130 elsewhere. FanDuel offers the best price. Line hasn't moved significantly.",
-      "weather_park": "Comerica Park is neutral (0.96 runs PF), but wind blowing out to LF at 13 mph boosts HR potential by ~19%. Both pitchers have been limiting damage, so this is a wash.",
-      "case_against": "Newcomb has been excellent this year \u2014 if he continues his form, the White Sox can win. The Tigers' offense (4.07 R/G) is below average, and they may not score enough to cover a Melton hiccup. Data confidence is lower than ideal.",
-      "what_were_betting_on": "Melton going 6+ innings with 2-3 runs, the Tigers' home advantage, and Newcomb's small sample regressing slightly.",
-      "scott_bot_quip": "The Tigers at home, the White Sox on the road. Some things never change.",
-      "ladder_note": "",
-      "date": "2026-06-20",
-      "status": "WIN",
-      "units_result": 0.8475,
-      "clv_cents": null,
-      "result_score": "CHW 1 \u00b7 DET 4",
-      "graded_at": "2026-06-20T18:58:14.558084-04:00",
-      "slate_assessment": "Fifteen-game MLB slate with several elite pitching matchups \u2014 Sale vs Harrison in Atlanta, S\u00e1nchez vs Peralta in Philly, Yamamoto vs Rogers in LA \u2014 plus Skenes at Coors. Prop markets thin but K unders and total bases overs offer edges.",
-      "executive_summary": "The board today is pitching-heavy with three elite arms taking the mound: Cristopher S\u00e1nchez (1.82 ERA) hosts the Mets, Yamamoto (2.52 ERA, 45 consecutive batters retired recently) faces a struggling Trevor Rogers, and Chris Sale draws Kyle Harrison in a low-total spot. The Phillies-Mets under at 7.5 is the cleanest play on the board \u2014 S\u00e1nchez has been the best pitcher in baseball this month, and Peralta's walk rate creates outs, not runs. That's the ladder pick. Paul Skenes at Coors is the wildcard \u2014 elite arm, but Coors is Coors. Six plays today, all grounded in pitching edges.",
-      "slate_analysis": "Today's board features 15 MLB games with no NBA or NHL action. The pricing climate is relatively tight \u2014 most favorites sit between -130 and -200, with only the Dodgers (-235) and Pirates (-210) priced as heavy chalk. The total market is interesting: several games sit at 7.0-8.0, suggesting books expect pitching to dominate.\n\nThe top candidates that earned a hard look: (1) Phillies-Mets Under 7.5 \u2014 S\u00e1nchez has been the best pitcher in baseball with a 1.82 ERA and elite command, facing a Mets offense that's been league-average at best. Peralta walks too many batters but doesn't give up hard contact. (2) Dodgers-Orioles Under 8.0 \u2014 Yamamoto is on a historic run, Trevor Rogers has a 5.86 ERA, but the Dodgers offense is elite and Rogers could get shelled. (3) Braves-Brewers Under 7.0 \u2014 Sale vs Harrison is two elite lefties, both with sub-2.50 ERAs. (4) Pirates -1.5 at Coors \u2014 Skenes is dominant but Coors inflates everything. (5) Marlins ML vs Giants \u2014 Max Meyer (2.75 ERA) at pitcher-friendly loanDepot park against a rookie. (6) Paul Skenes Ks Over 6.5 \u2014 elite K rate against a Rockies lineup that strikes out.\n\nWhat got cut: The Dodgers-Orioles Under looked appealing with Yamamoto, but Trevor Rogers' 5.86 ERA and 1.45 WHIP against the Dodgers' 5.29 R/G offense creates too much variance \u2014 if Rogers gets knocked around early, the over is live. The Pirates -1.5 run line at Coors was tempting with Skenes, but Coors' 1.18 runs park factor and Sugano's ability to keep games close made the -136 juice unappealing for a road favorite. The Marlins ML at -138 was close but data confidence at 0.4 was below threshold.\n\nThe final six picks survived because they combine elite pitching with favorable park/weather contexts and market edges. The Phillies-Mets Under is the ladder pick \u2014 S\u00e1nchez's dominance, the 7.5 total, and -107 juice at DraftKings creates the highest-floor play on the board. The Braves-Brewers Under at 7.0 is the second-strongest total play with two elite lefties. Yamamoto's dominance makes the Dodgers -1.5 playable despite the chalk. Skenes Ks Over 6.5 is the sharpest prop \u2014 he's averaging 7.5 K/start and the Rockies strike out. The Tigers ML against the White Sox offers value at -118 with Melton's solid numbers. The Astros-Guardians Under rounds out the card with Arrighetti's 2.57 ERA against a Cleveland offense that's been cold.",
-      "slate_vibe": "NORMAL",
-      "published_at": "2026-06-20T12:18:59.080093-04:00"
-    },
-    {
-      "id": "20260620-MLB-PIT-COL-PROP-PAULSKENES",
-      "sport": "MLB",
-      "game": "PIT @ COL",
-      "first_pitch_iso": "2026-06-21T01:10Z",
-      "pick": "Paul Skenes Ks Over 6.5",
-      "best_book": "DraftKings",
-      "best_odds": "-121",
-      "book_prices": {
-        "draftkings": "-121",
-        "fanduel": "-125",
-        "betmgm": "-120"
-      },
-      "book_links": {
-        "fanduel": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.586845932&selectionId=69213747",
-        "draftkings": "https://sportsbook.draftkings.com/?outcomes=0QA344479064%232187733362_13L84240Q1504748706Q20",
-        "betmgm": "https://sports.nj.betmgm.com/en/sports?options=2:7807050-200772586-760645991&type=Single"
-      },
-      "market": "PROP",
-      "confidence": 4,
-      "units": 1.5,
-      "win_probability": 0.61,
-      "ladder_designation": false,
-      "data_confidence": 0.8,
-      "rules_passed": [
-        "max_juice",
-        "ladder_even_money",
-        "parlay_well_formed",
-        "confidence_units_match",
-        "data_confidence_floor",
-        "pick_type_allowed",
-        "mlb_hr_prop_check",
-        "mlb_pitcher_k_check(soft)",
-        "mlb_total_bases_check",
-        "mlb_hits_check",
-        "nba_player_prop_check",
-        "nhl_shots_check",
-        "mlb_run_line_check",
-        "mlb_under_bb_check",
-        "no_same_game_opposite"
-      ],
-      "locked": true,
-      "late_add": false,
-      "late_add_reason": "",
-      "bonus_pick": false,
-      "event_type": "",
-      "event_name": "",
-      "legs": [],
-      "headline": "Skenes' 30.4% K rate meets a Rockies lineup that strikes out \u2014 6.5 is too low.",
-      "the_thesis": "Paul Skenes is the best strikeout pitcher in baseball. His 30.4% K rate leads the majors, and he's averaging 7.5 K/start this season. The Rockies strike out at a league-average rate, but at Coors Field, hitters tend to swing more aggressively, which plays into Skenes' power arsenal.\n\nSkenes has gone over 6.5 Ks in 10 of his 15 starts this season. The line at -121 implies roughly 54.8% probability; I have this at 61%. The 6-cent edge is solid for a prop market that's typically efficient.\n\nThe concern with Coors is always the altitude \u2014 pitchers' breaking balls don't bite as much, and fastballs don't have the same life. But Skenes' stuff is so elite that he can still miss bats. His previous start at Coors (Aug 2025) saw him strike out 6 in 5 innings despite allowing 4 runs.",
-      "the_data": [
-        {
-          "label": "Skenes K% (season)",
-          "value": "30.4%",
-          "context": "Best in MLB"
-        },
-        {
-          "label": "Skenes K/start avg",
-          "value": "7.5",
-          "context": "Consistently over 6.5"
-        },
-        {
-          "label": "Skenes ERA (season)",
-          "value": "2.85",
-          "context": "Elite despite no run support"
-        },
-        {
-          "label": "COL K% (team)",
-          "value": "~23%",
-          "context": "League average"
-        },
-        {
-          "label": "Coors Field PF",
-          "value": "1.18 runs",
-          "context": "Inflates everything"
-        }
-      ],
-      "the_market": "Line opened 6.5 and sits there. DraftKings offers -121 on the over. Market respects Skenes but isn't overreacting to Coors.",
-      "weather_park": "Coors Field inflates everything (1.18 runs PF, 1.14 HR PF). But Skenes' stuff plays anywhere.",
-      "case_against": "Coors Field is a nightmare for pitchers. If Skenes gets hit early and has a short outing, he won't have enough innings to rack up Ks. The Rockies could also put the ball in play more than usual, limiting K opportunities.",
-      "what_were_betting_on": "Skenes going 6+ innings and striking out 7+ batters. His stuff is too good to be held under 7 Ks.",
-      "scott_bot_quip": "Skenes at Coors is like bringing a flamethrower to a pillow fight. The Rockies are the pillows.",
-      "ladder_note": "",
-      "date": "2026-06-20",
-      "status": "PEND",
-      "units_result": null,
-      "clv_cents": null,
-      "result_score": null,
-      "graded_at": null,
-      "slate_assessment": "Fifteen-game MLB slate with several elite pitching matchups \u2014 Sale vs Harrison in Atlanta, S\u00e1nchez vs Peralta in Philly, Yamamoto vs Rogers in LA \u2014 plus Skenes at Coors. Prop markets thin but K unders and total bases overs offer edges.",
-      "executive_summary": "The board today is pitching-heavy with three elite arms taking the mound: Cristopher S\u00e1nchez (1.82 ERA) hosts the Mets, Yamamoto (2.52 ERA, 45 consecutive batters retired recently) faces a struggling Trevor Rogers, and Chris Sale draws Kyle Harrison in a low-total spot. The Phillies-Mets under at 7.5 is the cleanest play on the board \u2014 S\u00e1nchez has been the best pitcher in baseball this month, and Peralta's walk rate creates outs, not runs. That's the ladder pick. Paul Skenes at Coors is the wildcard \u2014 elite arm, but Coors is Coors. Six plays today, all grounded in pitching edges.",
-      "slate_analysis": "Today's board features 15 MLB games with no NBA or NHL action. The pricing climate is relatively tight \u2014 most favorites sit between -130 and -200, with only the Dodgers (-235) and Pirates (-210) priced as heavy chalk. The total market is interesting: several games sit at 7.0-8.0, suggesting books expect pitching to dominate.\n\nThe top candidates that earned a hard look: (1) Phillies-Mets Under 7.5 \u2014 S\u00e1nchez has been the best pitcher in baseball with a 1.82 ERA and elite command, facing a Mets offense that's been league-average at best. Peralta walks too many batters but doesn't give up hard contact. (2) Dodgers-Orioles Under 8.0 \u2014 Yamamoto is on a historic run, Trevor Rogers has a 5.86 ERA, but the Dodgers offense is elite and Rogers could get shelled. (3) Braves-Brewers Under 7.0 \u2014 Sale vs Harrison is two elite lefties, both with sub-2.50 ERAs. (4) Pirates -1.5 at Coors \u2014 Skenes is dominant but Coors inflates everything. (5) Marlins ML vs Giants \u2014 Max Meyer (2.75 ERA) at pitcher-friendly loanDepot park against a rookie. (6) Paul Skenes Ks Over 6.5 \u2014 elite K rate against a Rockies lineup that strikes out.\n\nWhat got cut: The Dodgers-Orioles Under looked appealing with Yamamoto, but Trevor Rogers' 5.86 ERA and 1.45 WHIP against the Dodgers' 5.29 R/G offense creates too much variance \u2014 if Rogers gets knocked around early, the over is live. The Pirates -1.5 run line at Coors was tempting with Skenes, but Coors' 1.18 runs park factor and Sugano's ability to keep games close made the -136 juice unappealing for a road favorite. The Marlins ML at -138 was close but data confidence at 0.4 was below threshold.\n\nThe final six picks survived because they combine elite pitching with favorable park/weather contexts and market edges. The Phillies-Mets Under is the ladder pick \u2014 S\u00e1nchez's dominance, the 7.5 total, and -107 juice at DraftKings creates the highest-floor play on the board. The Braves-Brewers Under at 7.0 is the second-strongest total play with two elite lefties. Yamamoto's dominance makes the Dodgers -1.5 playable despite the chalk. Skenes Ks Over 6.5 is the sharpest prop \u2014 he's averaging 7.5 K/start and the Rockies strike out. The Tigers ML against the White Sox offers value at -118 with Melton's solid numbers. The Astros-Guardians Under rounds out the card with Arrighetti's 2.57 ERA against a Cleveland offense that's been cold.",
-      "slate_vibe": "NORMAL",
-      "published_at": "2026-06-20T12:18:59.079999-04:00"
-    },
-    {
-      "id": "20260620-MLB-BAL-LAD-SPREAD",
-      "sport": "MLB",
-      "game": "BAL @ LAD",
-      "first_pitch_iso": "2026-06-21T02:10Z",
-      "pick": "Dodgers -1.5",
-      "best_book": "FanDuel",
-      "best_odds": "-110",
-      "book_prices": {
-        "draftkings": "-114",
-        "fanduel": "-110",
-        "betmgm": "-115"
-      },
-      "book_links": {
-        "fanduel": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.586821744&selectionId=29171",
-        "draftkings": "https://sportsbook.draftkings.com/?outcomes=0HC85211142N150_1",
-        "betmgm": "https://sports.nj.betmgm.com/en/sports?options=19712466-1534441764-2229700995&type=Single"
-      },
-      "market": "SPREAD",
-      "confidence": 4,
-      "units": 1.5,
-      "win_probability": 0.58,
-      "ladder_designation": false,
-      "data_confidence": 0.85,
-      "rules_passed": [
-        "max_juice",
-        "ladder_even_money",
-        "parlay_well_formed",
-        "confidence_units_match",
-        "data_confidence_floor",
-        "pick_type_allowed",
-        "mlb_hr_prop_check",
-        "mlb_pitcher_k_check",
-        "mlb_total_bases_check",
-        "mlb_hits_check",
-        "nba_player_prop_check",
-        "nhl_shots_check",
-        "mlb_run_line_check",
-        "mlb_under_bb_check",
-        "no_same_game_opposite"
-      ],
-      "locked": true,
-      "late_add": false,
-      "late_add_reason": "",
-      "bonus_pick": false,
-      "event_type": "",
-      "event_name": "",
-      "legs": [],
-      "headline": "Yamamoto is on a historic run \u2014 45 consecutive batters retired \u2014 against Trevor Rogers' 5.86 ERA.",
-      "the_thesis": "Yoshinobu Yamamoto has been untouchable. He recently retired 45 consecutive batters across two starts, one shy of the MLB record. His 2.52 ERA and 0.84 WHIP are elite, and he's been completing 8+ innings regularly. The Dodgers are the best team in baseball, and they're at home.\n\nTrevor Rogers is having a nightmare season \u2014 5.86 ERA, 1.45 WHIP, 1.23 HR/9. The Orioles are a good team (4.60 R/G), but Rogers is not the guy you want on the mound against the Dodgers' 5.29 R/G offense. The mismatch is stark.\n\nThe -1.5 run line at -110 (FanDuel) implies roughly 52.4% probability. I have the Dodgers covering at 58% \u2014 that's a 5.6-cent edge. The Dodgers have been dominant at home, and Yamamoto gives them a floor that Rogers simply can't match.",
-      "the_data": [
-        {
-          "label": "Yamamoto ERA (season)",
-          "value": "2.52",
-          "context": "Elite, near no-hitter recently"
-        },
-        {
-          "label": "Yamamoto WHIP",
-          "value": "0.84",
-          "context": "Best in MLB"
-        },
-        {
-          "label": "Rogers ERA (season)",
-          "value": "5.86",
-          "context": "Struggling badly"
-        },
-        {
-          "label": "Rogers HR/9",
-          "value": "1.23",
-          "context": "Giving up bombs"
-        },
-        {
-          "label": "LAD R/G",
-          "value": "5.29",
-          "context": "Best in NL"
-        },
-        {
-          "label": "Dodger Stadium PF",
-          "value": "0.97",
-          "context": "Neutral"
-        }
-      ],
-      "the_market": "Dodgers opened -235 ML, -1.5 at -110. Line hasn't moved significantly. Market respects Yamamoto but isn't overreacting to Rogers' struggles.",
-      "weather_park": "Dodger Stadium is neutral (0.97 runs PF). Night game, no weather concerns.",
-      "case_against": "The Orioles are a good team and could get to Rogers early, putting pressure on the Dodgers to score. If Yamamoto has an off night (rare but possible), the Orioles have the bats to compete. The -235 ML suggests the market already prices in Yamamoto's dominance.",
-      "what_were_betting_on": "Yamamoto going 7+ innings with 1-2 runs, the Dodgers offense tagging Rogers for 4+, and the Dodgers winning by 2+.",
-      "scott_bot_quip": "Yamamoto's been retiring batters like they owe him money. Rogers is about to find out what that feels like.",
-      "ladder_note": "",
-      "date": "2026-06-20",
-      "status": "PEND",
-      "units_result": null,
-      "clv_cents": null,
-      "result_score": null,
-      "graded_at": null,
-      "slate_assessment": "Fifteen-game MLB slate with several elite pitching matchups \u2014 Sale vs Harrison in Atlanta, S\u00e1nchez vs Peralta in Philly, Yamamoto vs Rogers in LA \u2014 plus Skenes at Coors. Prop markets thin but K unders and total bases overs offer edges.",
-      "executive_summary": "The board today is pitching-heavy with three elite arms taking the mound: Cristopher S\u00e1nchez (1.82 ERA) hosts the Mets, Yamamoto (2.52 ERA, 45 consecutive batters retired recently) faces a struggling Trevor Rogers, and Chris Sale draws Kyle Harrison in a low-total spot. The Phillies-Mets under at 7.5 is the cleanest play on the board \u2014 S\u00e1nchez has been the best pitcher in baseball this month, and Peralta's walk rate creates outs, not runs. That's the ladder pick. Paul Skenes at Coors is the wildcard \u2014 elite arm, but Coors is Coors. Six plays today, all grounded in pitching edges.",
-      "slate_analysis": "Today's board features 15 MLB games with no NBA or NHL action. The pricing climate is relatively tight \u2014 most favorites sit between -130 and -200, with only the Dodgers (-235) and Pirates (-210) priced as heavy chalk. The total market is interesting: several games sit at 7.0-8.0, suggesting books expect pitching to dominate.\n\nThe top candidates that earned a hard look: (1) Phillies-Mets Under 7.5 \u2014 S\u00e1nchez has been the best pitcher in baseball with a 1.82 ERA and elite command, facing a Mets offense that's been league-average at best. Peralta walks too many batters but doesn't give up hard contact. (2) Dodgers-Orioles Under 8.0 \u2014 Yamamoto is on a historic run, Trevor Rogers has a 5.86 ERA, but the Dodgers offense is elite and Rogers could get shelled. (3) Braves-Brewers Under 7.0 \u2014 Sale vs Harrison is two elite lefties, both with sub-2.50 ERAs. (4) Pirates -1.5 at Coors \u2014 Skenes is dominant but Coors inflates everything. (5) Marlins ML vs Giants \u2014 Max Meyer (2.75 ERA) at pitcher-friendly loanDepot park against a rookie. (6) Paul Skenes Ks Over 6.5 \u2014 elite K rate against a Rockies lineup that strikes out.\n\nWhat got cut: The Dodgers-Orioles Under looked appealing with Yamamoto, but Trevor Rogers' 5.86 ERA and 1.45 WHIP against the Dodgers' 5.29 R/G offense creates too much variance \u2014 if Rogers gets knocked around early, the over is live. The Pirates -1.5 run line at Coors was tempting with Skenes, but Coors' 1.18 runs park factor and Sugano's ability to keep games close made the -136 juice unappealing for a road favorite. The Marlins ML at -138 was close but data confidence at 0.4 was below threshold.\n\nThe final six picks survived because they combine elite pitching with favorable park/weather contexts and market edges. The Phillies-Mets Under is the ladder pick \u2014 S\u00e1nchez's dominance, the 7.5 total, and -107 juice at DraftKings creates the highest-floor play on the board. The Braves-Brewers Under at 7.0 is the second-strongest total play with two elite lefties. Yamamoto's dominance makes the Dodgers -1.5 playable despite the chalk. Skenes Ks Over 6.5 is the sharpest prop \u2014 he's averaging 7.5 K/start and the Rockies strike out. The Tigers ML against the White Sox offers value at -118 with Melton's solid numbers. The Astros-Guardians Under rounds out the card with Arrighetti's 2.57 ERA against a Cleveland offense that's been cold.",
-      "slate_vibe": "NORMAL",
-      "published_at": "2026-06-20T12:18:59.079909-04:00"
-    },
-    {
-      "id": "20260620-MLB-MIL-ATL-TOTAL",
-      "sport": "MLB",
-      "game": "MIL @ ATL",
-      "first_pitch_iso": "2026-06-20T20:10Z",
-      "pick": "Under 7.0",
-      "best_book": "FanDuel",
-      "best_odds": "-102",
-      "book_prices": {
-        "draftkings": "-105",
-        "fanduel": "-102",
-        "betmgm": "-105"
-      },
-      "book_links": {
-        "fanduel": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.586820912&selectionId=7017906",
-        "draftkings": "https://sportsbook.draftkings.com/?outcomes=0OU85211109U700_3",
-        "betmgm": "https://sports.nj.betmgm.com/en/sports?options=19712461-1534441229-2229699801&type=Single"
-      },
-      "market": "TOTAL",
-      "confidence": 4,
-      "units": 1.5,
-      "win_probability": 0.59,
-      "ladder_designation": false,
-      "data_confidence": 0.82,
-      "rules_passed": [
-        "max_juice",
-        "ladder_even_money",
-        "parlay_well_formed",
-        "confidence_units_match",
-        "data_confidence_floor",
-        "pick_type_allowed",
-        "mlb_hr_prop_check",
-        "mlb_pitcher_k_check",
-        "mlb_total_bases_check",
-        "mlb_hits_check",
-        "nba_player_prop_check",
-        "nhl_shots_check",
-        "mlb_run_line_check",
-        "mlb_under_bb_check",
-        "no_same_game_opposite"
-      ],
-      "locked": true,
-      "late_add": false,
-      "late_add_reason": "",
-      "bonus_pick": false,
-      "event_type": "",
-      "event_name": "",
-      "legs": [],
-      "headline": "Two elite lefties \u2014 Sale (2.30 ERA) vs Harrison (2.47 ERA) \u2014 in a 7.0 total that should stay low.",
-      "the_thesis": "Chris Sale is back and dealing. After missing time last year with a rib injury, he's posted a 2.30 ERA through 78.1 innings with a 28.8% K rate. Kyle Harrison has been equally impressive for Milwaukee \u2014 2.47 ERA, 30.0% K rate, and a 0.97 HR/9. This is two aces going head-to-head.\n\nThe 7.0 total is the lowest on the board today, and for good reason. Both pitchers limit walks (Sale 6.3% BB%, Harrison 6.7% BB%), which means fewer baserunners and fewer crooked innings. Truist Park is neutral (1.02 runs PF), so there's no park boost to worry about.\n\nThe Brewers score 5.27 R/G and the Braves 4.99 R/G \u2014 both above average \u2014 but those numbers come against average pitching. Against two elite lefties, expect both lineups to struggle. The -102 juice at FanDuel implies 50.5% probability; I have this at 59%.",
-      "the_data": [
-        {
-          "label": "Sale ERA (season)",
-          "value": "2.30",
-          "context": "Elite, Cy Young-caliber"
-        },
-        {
-          "label": "Sale K%",
-          "value": "28.8%",
-          "context": "Still missing bats at 37"
-        },
-        {
-          "label": "Harrison ERA (season)",
-          "value": "2.47",
-          "context": "Breakout season"
-        },
-        {
-          "label": "Harrison K%",
-          "value": "30.0%",
-          "context": "Elite strikeout rate"
-        },
-        {
-          "label": "Truist Park PF",
-          "value": "1.02",
-          "context": "Neutral"
-        },
-        {
-          "label": "Total",
-          "value": "7.0",
-          "context": "Lowest on the board"
-        }
-      ],
-      "the_market": "Total opened 7.0 and hasn't moved. FanDuel offers -102 on the under, the best price. Market respects both arms.",
-      "weather_park": "Truist Park is neutral (1.02 runs PF, 1.04 HR PF). Weather is a non-factor \u2014 75\u00b0F, light wind.",
-      "case_against": "Both offenses are above average. If either starter has a short outing or gets into trouble early, the bullpens could give up runs. Sale's injury history is always a concern \u2014 if he's not sharp, the Brewers can hit.",
-      "what_were_betting_on": "Both starters going 6+ innings with 2 or fewer runs each. A classic pitchers' duel.",
-      "scott_bot_quip": "Two lefties, one low total, zero margin for error. Just how we like it.",
-      "ladder_note": "",
-      "date": "2026-06-20",
-      "status": "PUSH",
-      "units_result": 0.0,
-      "clv_cents": null,
-      "result_score": "MIL 3 \u00b7 ATL 4",
-      "graded_at": "2026-06-20T18:58:14.565475-04:00",
-      "slate_assessment": "Fifteen-game MLB slate with several elite pitching matchups \u2014 Sale vs Harrison in Atlanta, S\u00e1nchez vs Peralta in Philly, Yamamoto vs Rogers in LA \u2014 plus Skenes at Coors. Prop markets thin but K unders and total bases overs offer edges.",
-      "executive_summary": "The board today is pitching-heavy with three elite arms taking the mound: Cristopher S\u00e1nchez (1.82 ERA) hosts the Mets, Yamamoto (2.52 ERA, 45 consecutive batters retired recently) faces a struggling Trevor Rogers, and Chris Sale draws Kyle Harrison in a low-total spot. The Phillies-Mets under at 7.5 is the cleanest play on the board \u2014 S\u00e1nchez has been the best pitcher in baseball this month, and Peralta's walk rate creates outs, not runs. That's the ladder pick. Paul Skenes at Coors is the wildcard \u2014 elite arm, but Coors is Coors. Six plays today, all grounded in pitching edges.",
-      "slate_analysis": "Today's board features 15 MLB games with no NBA or NHL action. The pricing climate is relatively tight \u2014 most favorites sit between -130 and -200, with only the Dodgers (-235) and Pirates (-210) priced as heavy chalk. The total market is interesting: several games sit at 7.0-8.0, suggesting books expect pitching to dominate.\n\nThe top candidates that earned a hard look: (1) Phillies-Mets Under 7.5 \u2014 S\u00e1nchez has been the best pitcher in baseball with a 1.82 ERA and elite command, facing a Mets offense that's been league-average at best. Peralta walks too many batters but doesn't give up hard contact. (2) Dodgers-Orioles Under 8.0 \u2014 Yamamoto is on a historic run, Trevor Rogers has a 5.86 ERA, but the Dodgers offense is elite and Rogers could get shelled. (3) Braves-Brewers Under 7.0 \u2014 Sale vs Harrison is two elite lefties, both with sub-2.50 ERAs. (4) Pirates -1.5 at Coors \u2014 Skenes is dominant but Coors inflates everything. (5) Marlins ML vs Giants \u2014 Max Meyer (2.75 ERA) at pitcher-friendly loanDepot park against a rookie. (6) Paul Skenes Ks Over 6.5 \u2014 elite K rate against a Rockies lineup that strikes out.\n\nWhat got cut: The Dodgers-Orioles Under looked appealing with Yamamoto, but Trevor Rogers' 5.86 ERA and 1.45 WHIP against the Dodgers' 5.29 R/G offense creates too much variance \u2014 if Rogers gets knocked around early, the over is live. The Pirates -1.5 run line at Coors was tempting with Skenes, but Coors' 1.18 runs park factor and Sugano's ability to keep games close made the -136 juice unappealing for a road favorite. The Marlins ML at -138 was close but data confidence at 0.4 was below threshold.\n\nThe final six picks survived because they combine elite pitching with favorable park/weather contexts and market edges. The Phillies-Mets Under is the ladder pick \u2014 S\u00e1nchez's dominance, the 7.5 total, and -107 juice at DraftKings creates the highest-floor play on the board. The Braves-Brewers Under at 7.0 is the second-strongest total play with two elite lefties. Yamamoto's dominance makes the Dodgers -1.5 playable despite the chalk. Skenes Ks Over 6.5 is the sharpest prop \u2014 he's averaging 7.5 K/start and the Rockies strike out. The Tigers ML against the White Sox offers value at -118 with Melton's solid numbers. The Astros-Guardians Under rounds out the card with Arrighetti's 2.57 ERA against a Cleveland offense that's been cold.",
-      "slate_vibe": "NORMAL",
-      "published_at": "2026-06-20T12:18:59.079819-04:00"
-    },
-    {
-      "id": "20260620-MLB-NYM-PHI-TOTAL",
-      "sport": "MLB",
-      "game": "NYM @ PHI",
-      "first_pitch_iso": "2026-06-20T23:15Z",
-      "pick": "Under 7.5",
-      "best_book": "DraftKings",
-      "best_odds": "-107",
-      "book_prices": {
-        "draftkings": "-107",
-        "fanduel": "-108",
-        "betmgm": "-110"
-      },
-      "book_links": {
-        "fanduel": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.586821174&selectionId=7017906",
-        "draftkings": "https://sportsbook.draftkings.com/?outcomes=0OU85211122U750_3",
-        "betmgm": "https://sports.nj.betmgm.com/en/sports?options=19712463-1534441441-2229700261&type=Single"
-      },
-      "market": "TOTAL",
-      "confidence": 5,
-      "units": 2.0,
-      "win_probability": 0.62,
-      "ladder_designation": true,
-      "data_confidence": 0.85,
-      "rules_passed": [
-        "max_juice",
-        "ladder_even_money",
-        "parlay_well_formed",
-        "confidence_units_match",
-        "data_confidence_floor",
-        "pick_type_allowed",
-        "mlb_hr_prop_check",
-        "mlb_pitcher_k_check",
-        "mlb_total_bases_check",
-        "mlb_hits_check",
-        "nba_player_prop_check",
-        "nhl_shots_check",
-        "mlb_run_line_check",
-        "mlb_under_bb_check",
-        "no_same_game_opposite"
-      ],
-      "locked": true,
-      "late_add": false,
-      "late_add_reason": "",
-      "bonus_pick": false,
-      "event_type": "",
-      "event_name": "",
-      "legs": [],
-      "headline": "S\u00e1nchez has been the best pitcher in baseball \u2014 1.82 ERA, elite command, facing a Mets offense that can't solve lefties.",
-      "the_thesis": "Cristopher S\u00e1nchez is having a Cy Young-caliber season. His 1.82 ERA leads the National League, and his 4.8% walk rate is elite \u2014 he doesn't give free passes. The Mets counter with Freddy Peralta, who has a 3.90 ERA and a 9.2% walk rate. Peralta's control issues create traffic, but his 1.08 HR/9 means he's not getting crushed \u2014 he's just inefficient.\n\nThe key here is that both offenses are league-average at best. The Phillies are scoring 4.11 R/G, the Mets 4.08 R/G. Neither lineup is going to light up quality pitching. S\u00e1nchez has been untouchable \u2014 reports indicate he had a 50\u2154 scoreless innings streak earlier this season. Citizens Bank Park does boost homers (1.10 HR park factor), but S\u00e1nchez's 0.55 HR/9 suggests he's not giving up the long ball.\n\nThe market opened at 7.5 and hasn't moved. The -107 juice at DraftKings implies roughly 51.7% probability on the under. I have this at 62% \u2014 that's a 10-cent edge, the largest on the board today.",
-      "the_data": [
-        {
-          "label": "S\u00e1nchez ERA (season)",
-          "value": "1.82",
-          "context": "Best in NL, Cy Young pace"
-        },
-        {
-          "label": "S\u00e1nchez BB%",
-          "value": "4.8%",
-          "context": "Elite command, top-10 in MLB"
-        },
-        {
-          "label": "S\u00e1nchez HR/9",
-          "value": "0.55",
-          "context": "Suppresses power despite CBP"
-        },
-        {
-          "label": "Peralta BB%",
-          "value": "9.2%",
-          "context": "Creates traffic but limits damage"
-        },
-        {
-          "label": "PHI R/G",
-          "value": "4.11",
-          "context": "League average"
-        },
-        {
-          "label": "NYM R/G",
-          "value": "4.08",
-          "context": "League average"
-        },
-        {
-          "label": "CBP HR PF",
-          "value": "1.10",
-          "context": "Boosts HR but S\u00e1nchez neutralizes"
-        }
-      ],
-      "the_market": "Total opened 7.5 and sits there across all three books. DraftKings offers the best under price at -107. No significant line movement \u2014 market is split.",
-      "weather_park": "Citizens Bank Park is HR-friendly (1.10 PF), but S\u00e1nchez's 0.55 HR/9 neutralizes the park effect. Weather is a non-factor.",
-      "case_against": "If Peralta's walks turn into runs early, the Phillies could chase him and get into a soft Mets bullpen. S\u00e1nchez has been so dominant that regression is possible \u2014 no one stays this good forever. A 3-run first inning changes everything.",
-      "what_were_betting_on": "S\u00e1nchez going 7+ innings with 2 or fewer runs, Peralta scattering walks but limiting damage, both bullpens holding late.",
-      "scott_bot_quip": "S\u00e1nchez is pitching like he's got a cheat code. The Mets are about to find out it's not a glitch.",
-      "ladder_note": "Highest-floor play on the board. S\u00e1nchez's dominance is real, the total is low, and the juice is favorable. This is the ladder.",
-      "date": "2026-06-20",
-      "status": "PEND",
-      "units_result": null,
-      "clv_cents": null,
-      "result_score": null,
-      "graded_at": null,
-      "slate_assessment": "Fifteen-game MLB slate with several elite pitching matchups \u2014 Sale vs Harrison in Atlanta, S\u00e1nchez vs Peralta in Philly, Yamamoto vs Rogers in LA \u2014 plus Skenes at Coors. Prop markets thin but K unders and total bases overs offer edges.",
-      "executive_summary": "The board today is pitching-heavy with three elite arms taking the mound: Cristopher S\u00e1nchez (1.82 ERA) hosts the Mets, Yamamoto (2.52 ERA, 45 consecutive batters retired recently) faces a struggling Trevor Rogers, and Chris Sale draws Kyle Harrison in a low-total spot. The Phillies-Mets under at 7.5 is the cleanest play on the board \u2014 S\u00e1nchez has been the best pitcher in baseball this month, and Peralta's walk rate creates outs, not runs. That's the ladder pick. Paul Skenes at Coors is the wildcard \u2014 elite arm, but Coors is Coors. Six plays today, all grounded in pitching edges.",
-      "slate_analysis": "Today's board features 15 MLB games with no NBA or NHL action. The pricing climate is relatively tight \u2014 most favorites sit between -130 and -200, with only the Dodgers (-235) and Pirates (-210) priced as heavy chalk. The total market is interesting: several games sit at 7.0-8.0, suggesting books expect pitching to dominate.\n\nThe top candidates that earned a hard look: (1) Phillies-Mets Under 7.5 \u2014 S\u00e1nchez has been the best pitcher in baseball with a 1.82 ERA and elite command, facing a Mets offense that's been league-average at best. Peralta walks too many batters but doesn't give up hard contact. (2) Dodgers-Orioles Under 8.0 \u2014 Yamamoto is on a historic run, Trevor Rogers has a 5.86 ERA, but the Dodgers offense is elite and Rogers could get shelled. (3) Braves-Brewers Under 7.0 \u2014 Sale vs Harrison is two elite lefties, both with sub-2.50 ERAs. (4) Pirates -1.5 at Coors \u2014 Skenes is dominant but Coors inflates everything. (5) Marlins ML vs Giants \u2014 Max Meyer (2.75 ERA) at pitcher-friendly loanDepot park against a rookie. (6) Paul Skenes Ks Over 6.5 \u2014 elite K rate against a Rockies lineup that strikes out.\n\nWhat got cut: The Dodgers-Orioles Under looked appealing with Yamamoto, but Trevor Rogers' 5.86 ERA and 1.45 WHIP against the Dodgers' 5.29 R/G offense creates too much variance \u2014 if Rogers gets knocked around early, the over is live. The Pirates -1.5 run line at Coors was tempting with Skenes, but Coors' 1.18 runs park factor and Sugano's ability to keep games close made the -136 juice unappealing for a road favorite. The Marlins ML at -138 was close but data confidence at 0.4 was below threshold.\n\nThe final six picks survived because they combine elite pitching with favorable park/weather contexts and market edges. The Phillies-Mets Under is the ladder pick \u2014 S\u00e1nchez's dominance, the 7.5 total, and -107 juice at DraftKings creates the highest-floor play on the board. The Braves-Brewers Under at 7.0 is the second-strongest total play with two elite lefties. Yamamoto's dominance makes the Dodgers -1.5 playable despite the chalk. Skenes Ks Over 6.5 is the sharpest prop \u2014 he's averaging 7.5 K/start and the Rockies strike out. The Tigers ML against the White Sox offers value at -118 with Melton's solid numbers. The Astros-Guardians Under rounds out the card with Arrighetti's 2.57 ERA against a Cleveland offense that's been cold.",
-      "slate_vibe": "NORMAL",
-      "published_at": "2026-06-20T12:18:59.079700-04:00"
-    }
-  ],
+  "today_picks": [],
   "today_bonus_picks": [],
   "all_picks": [
     {
@@ -696,16 +95,22 @@
       "scott_bot_quip": "Cleveland's bats are colder than a Houston winter. Wait, Houston doesn't have winter. Exactly.",
       "ladder_note": "",
       "date": "2026-06-20",
-      "status": "PEND",
-      "units_result": null,
+      "status": "LOSS",
+      "units_result": -1.0,
       "clv_cents": null,
-      "result_score": null,
-      "graded_at": null,
+      "result_score": "CLE 8 \u00b7 HOU 1",
+      "graded_at": "2026-06-21T01:58:22.790978-04:00",
       "slate_assessment": "Fifteen-game MLB slate with several elite pitching matchups \u2014 Sale vs Harrison in Atlanta, S\u00e1nchez vs Peralta in Philly, Yamamoto vs Rogers in LA \u2014 plus Skenes at Coors. Prop markets thin but K unders and total bases overs offer edges.",
       "executive_summary": "The board today is pitching-heavy with three elite arms taking the mound: Cristopher S\u00e1nchez (1.82 ERA) hosts the Mets, Yamamoto (2.52 ERA, 45 consecutive batters retired recently) faces a struggling Trevor Rogers, and Chris Sale draws Kyle Harrison in a low-total spot. The Phillies-Mets under at 7.5 is the cleanest play on the board \u2014 S\u00e1nchez has been the best pitcher in baseball this month, and Peralta's walk rate creates outs, not runs. That's the ladder pick. Paul Skenes at Coors is the wildcard \u2014 elite arm, but Coors is Coors. Six plays today, all grounded in pitching edges.",
       "slate_analysis": "Today's board features 15 MLB games with no NBA or NHL action. The pricing climate is relatively tight \u2014 most favorites sit between -130 and -200, with only the Dodgers (-235) and Pirates (-210) priced as heavy chalk. The total market is interesting: several games sit at 7.0-8.0, suggesting books expect pitching to dominate.\n\nThe top candidates that earned a hard look: (1) Phillies-Mets Under 7.5 \u2014 S\u00e1nchez has been the best pitcher in baseball with a 1.82 ERA and elite command, facing a Mets offense that's been league-average at best. Peralta walks too many batters but doesn't give up hard contact. (2) Dodgers-Orioles Under 8.0 \u2014 Yamamoto is on a historic run, Trevor Rogers has a 5.86 ERA, but the Dodgers offense is elite and Rogers could get shelled. (3) Braves-Brewers Under 7.0 \u2014 Sale vs Harrison is two elite lefties, both with sub-2.50 ERAs. (4) Pirates -1.5 at Coors \u2014 Skenes is dominant but Coors inflates everything. (5) Marlins ML vs Giants \u2014 Max Meyer (2.75 ERA) at pitcher-friendly loanDepot park against a rookie. (6) Paul Skenes Ks Over 6.5 \u2014 elite K rate against a Rockies lineup that strikes out.\n\nWhat got cut: The Dodgers-Orioles Under looked appealing with Yamamoto, but Trevor Rogers' 5.86 ERA and 1.45 WHIP against the Dodgers' 5.29 R/G offense creates too much variance \u2014 if Rogers gets knocked around early, the over is live. The Pirates -1.5 run line at Coors was tempting with Skenes, but Coors' 1.18 runs park factor and Sugano's ability to keep games close made the -136 juice unappealing for a road favorite. The Marlins ML at -138 was close but data confidence at 0.4 was below threshold.\n\nThe final six picks survived because they combine elite pitching with favorable park/weather contexts and market edges. The Phillies-Mets Under is the ladder pick \u2014 S\u00e1nchez's dominance, the 7.5 total, and -107 juice at DraftKings creates the highest-floor play on the board. The Braves-Brewers Under at 7.0 is the second-strongest total play with two elite lefties. Yamamoto's dominance makes the Dodgers -1.5 playable despite the chalk. Skenes Ks Over 6.5 is the sharpest prop \u2014 he's averaging 7.5 K/start and the Rockies strike out. The Tigers ML against the White Sox offers value at -118 with Melton's solid numbers. The Astros-Guardians Under rounds out the card with Arrighetti's 2.57 ERA against a Cleveland offense that's been cold.",
       "slate_vibe": "NORMAL",
-      "published_at": "2026-06-20T12:18:59.080177-04:00"
+      "published_at": "2026-06-20T12:18:59.080177-04:00",
+      "autopsy": {
+        "classification": "MODEL",
+        "post_mortem": "Arrighetti was the problem, not Cantillo. Per the ESPN box score, Travis Bazzana hit TWO home runs off Arrighetti \u2014 a solo shot in the 1st inning and a 3-run blast in the 5th \u2014 while Kyle Manzardo added a 2-run homer in the 3rd, accounting for all 8 Cleveland runs. Cantillo, the pitcher the thesis flagged as the weak link, posted a Game Score of 71 and held Houston to 1 run. The thesis had the risk vector exactly backwards: it leaned on Arrighetti's season ERA (2.57) while ignoring that he had already yielded 3+ runs in three straight starts entering this game, a documented regression streak that was publicly available pre-game.",
+        "candidate_rule": "Before backing an Under anchored to a specific starter's ERA, check rolling 3-start ERA \u2014 if a pitcher has allowed 3+ ER in each of his last 3 outings, discount the season ERA and flag as 'ERA mirage'; do not use season ERA as the primary anchor without recency adjustment. (N=1, insufficient to establish rule \u2014 monitor for pattern.)",
+        "sample_size_warning": "N=1, insufficient to establish rule. One start does not confirm ERA regression as a systematic blind spot, but the pre-game data showing three consecutive 3+ ER outings was available and unused."
+      }
     },
     {
       "id": "20260620-MLB-CHW-DET-ML",
@@ -891,11 +296,11 @@
       "scott_bot_quip": "Skenes at Coors is like bringing a flamethrower to a pillow fight. The Rockies are the pillows.",
       "ladder_note": "",
       "date": "2026-06-20",
-      "status": "PEND",
-      "units_result": null,
+      "status": "WIN",
+      "units_result": 1.2397,
       "clv_cents": null,
-      "result_score": null,
-      "graded_at": null,
+      "result_score": "Paul Skenes: 8 strikeOuts",
+      "graded_at": "2026-06-21T01:58:39.305858-04:00",
       "slate_assessment": "Fifteen-game MLB slate with several elite pitching matchups \u2014 Sale vs Harrison in Atlanta, S\u00e1nchez vs Peralta in Philly, Yamamoto vs Rogers in LA \u2014 plus Skenes at Coors. Prop markets thin but K unders and total bases overs offer edges.",
       "executive_summary": "The board today is pitching-heavy with three elite arms taking the mound: Cristopher S\u00e1nchez (1.82 ERA) hosts the Mets, Yamamoto (2.52 ERA, 45 consecutive batters retired recently) faces a struggling Trevor Rogers, and Chris Sale draws Kyle Harrison in a low-total spot. The Phillies-Mets under at 7.5 is the cleanest play on the board \u2014 S\u00e1nchez has been the best pitcher in baseball this month, and Peralta's walk rate creates outs, not runs. That's the ladder pick. Paul Skenes at Coors is the wildcard \u2014 elite arm, but Coors is Coors. Six plays today, all grounded in pitching edges.",
       "slate_analysis": "Today's board features 15 MLB games with no NBA or NHL action. The pricing climate is relatively tight \u2014 most favorites sit between -130 and -200, with only the Dodgers (-235) and Pirates (-210) priced as heavy chalk. The total market is interesting: several games sit at 7.0-8.0, suggesting books expect pitching to dominate.\n\nThe top candidates that earned a hard look: (1) Phillies-Mets Under 7.5 \u2014 S\u00e1nchez has been the best pitcher in baseball with a 1.82 ERA and elite command, facing a Mets offense that's been league-average at best. Peralta walks too many batters but doesn't give up hard contact. (2) Dodgers-Orioles Under 8.0 \u2014 Yamamoto is on a historic run, Trevor Rogers has a 5.86 ERA, but the Dodgers offense is elite and Rogers could get shelled. (3) Braves-Brewers Under 7.0 \u2014 Sale vs Harrison is two elite lefties, both with sub-2.50 ERAs. (4) Pirates -1.5 at Coors \u2014 Skenes is dominant but Coors inflates everything. (5) Marlins ML vs Giants \u2014 Max Meyer (2.75 ERA) at pitcher-friendly loanDepot park against a rookie. (6) Paul Skenes Ks Over 6.5 \u2014 elite K rate against a Rockies lineup that strikes out.\n\nWhat got cut: The Dodgers-Orioles Under looked appealing with Yamamoto, but Trevor Rogers' 5.86 ERA and 1.45 WHIP against the Dodgers' 5.29 R/G offense creates too much variance \u2014 if Rogers gets knocked around early, the over is live. The Pirates -1.5 run line at Coors was tempting with Skenes, but Coors' 1.18 runs park factor and Sugano's ability to keep games close made the -136 juice unappealing for a road favorite. The Marlins ML at -138 was close but data confidence at 0.4 was below threshold.\n\nThe final six picks survived because they combine elite pitching with favorable park/weather contexts and market edges. The Phillies-Mets Under is the ladder pick \u2014 S\u00e1nchez's dominance, the 7.5 total, and -107 juice at DraftKings creates the highest-floor play on the board. The Braves-Brewers Under at 7.0 is the second-strongest total play with two elite lefties. Yamamoto's dominance makes the Dodgers -1.5 playable despite the chalk. Skenes Ks Over 6.5 is the sharpest prop \u2014 he's averaging 7.5 K/start and the Rockies strike out. The Tigers ML against the White Sox offers value at -118 with Melton's solid numbers. The Astros-Guardians Under rounds out the card with Arrighetti's 2.57 ERA against a Cleveland offense that's been cold.",
@@ -991,16 +396,22 @@
       "scott_bot_quip": "Yamamoto's been retiring batters like they owe him money. Rogers is about to find out what that feels like.",
       "ladder_note": "",
       "date": "2026-06-20",
-      "status": "PEND",
-      "units_result": null,
+      "status": "LOSS",
+      "units_result": -1.5,
       "clv_cents": null,
-      "result_score": null,
-      "graded_at": null,
+      "result_score": "BAL 3 \u00b7 LAD 2",
+      "graded_at": "2026-06-21T01:58:39.314078-04:00",
       "slate_assessment": "Fifteen-game MLB slate with several elite pitching matchups \u2014 Sale vs Harrison in Atlanta, S\u00e1nchez vs Peralta in Philly, Yamamoto vs Rogers in LA \u2014 plus Skenes at Coors. Prop markets thin but K unders and total bases overs offer edges.",
       "executive_summary": "The board today is pitching-heavy with three elite arms taking the mound: Cristopher S\u00e1nchez (1.82 ERA) hosts the Mets, Yamamoto (2.52 ERA, 45 consecutive batters retired recently) faces a struggling Trevor Rogers, and Chris Sale draws Kyle Harrison in a low-total spot. The Phillies-Mets under at 7.5 is the cleanest play on the board \u2014 S\u00e1nchez has been the best pitcher in baseball this month, and Peralta's walk rate creates outs, not runs. That's the ladder pick. Paul Skenes at Coors is the wildcard \u2014 elite arm, but Coors is Coors. Six plays today, all grounded in pitching edges.",
       "slate_analysis": "Today's board features 15 MLB games with no NBA or NHL action. The pricing climate is relatively tight \u2014 most favorites sit between -130 and -200, with only the Dodgers (-235) and Pirates (-210) priced as heavy chalk. The total market is interesting: several games sit at 7.0-8.0, suggesting books expect pitching to dominate.\n\nThe top candidates that earned a hard look: (1) Phillies-Mets Under 7.5 \u2014 S\u00e1nchez has been the best pitcher in baseball with a 1.82 ERA and elite command, facing a Mets offense that's been league-average at best. Peralta walks too many batters but doesn't give up hard contact. (2) Dodgers-Orioles Under 8.0 \u2014 Yamamoto is on a historic run, Trevor Rogers has a 5.86 ERA, but the Dodgers offense is elite and Rogers could get shelled. (3) Braves-Brewers Under 7.0 \u2014 Sale vs Harrison is two elite lefties, both with sub-2.50 ERAs. (4) Pirates -1.5 at Coors \u2014 Skenes is dominant but Coors inflates everything. (5) Marlins ML vs Giants \u2014 Max Meyer (2.75 ERA) at pitcher-friendly loanDepot park against a rookie. (6) Paul Skenes Ks Over 6.5 \u2014 elite K rate against a Rockies lineup that strikes out.\n\nWhat got cut: The Dodgers-Orioles Under looked appealing with Yamamoto, but Trevor Rogers' 5.86 ERA and 1.45 WHIP against the Dodgers' 5.29 R/G offense creates too much variance \u2014 if Rogers gets knocked around early, the over is live. The Pirates -1.5 run line at Coors was tempting with Skenes, but Coors' 1.18 runs park factor and Sugano's ability to keep games close made the -136 juice unappealing for a road favorite. The Marlins ML at -138 was close but data confidence at 0.4 was below threshold.\n\nThe final six picks survived because they combine elite pitching with favorable park/weather contexts and market edges. The Phillies-Mets Under is the ladder pick \u2014 S\u00e1nchez's dominance, the 7.5 total, and -107 juice at DraftKings creates the highest-floor play on the board. The Braves-Brewers Under at 7.0 is the second-strongest total play with two elite lefties. Yamamoto's dominance makes the Dodgers -1.5 playable despite the chalk. Skenes Ks Over 6.5 is the sharpest prop \u2014 he's averaging 7.5 K/start and the Rockies strike out. The Tigers ML against the White Sox offers value at -118 with Melton's solid numbers. The Astros-Guardians Under rounds out the card with Arrighetti's 2.57 ERA against a Cleveland offense that's been cold.",
       "slate_vibe": "NORMAL",
-      "published_at": "2026-06-20T12:18:59.079909-04:00"
+      "published_at": "2026-06-20T12:18:59.079909-04:00",
+      "autopsy": {
+        "classification": "MODEL",
+        "post_mortem": "The thesis was built entirely on Yamamoto being untouchable \u2014 but the model ignored a critical historical signal hiding in plain sight: Rogers carries a 3.48 ERA in two career starts against the Dodgers specifically, a massive gap from his season-wide 5.86 ERA. On the night, Rogers was a different pitcher entirely, allowing only one hit (Edman's two-out single in the fifth), walking two, and striking out six over seven scoreless innings while the Dodgers went 0-for-3 with runners in scoring position. Meanwhile, Yamamoto was uncharacteristically hittable \u2014 Baltimore collected six hits and drew two walks against him, scoring three runs in six innings, with the fourth-inning two-run frame aided by a deflection that inflated his final line. The pick lost not on a fluke but because the model over-indexed on season ERA and a hot streak while ignoring Rogers' Dodger-specific splits and the Orioles' demonstrated ability to make contact against elite arms.",
+        "candidate_rule": "Before backing a run-line favorite on starter ERA mismatch, check the opposing starter's splits against that specific team \u2014 if career ERA vs. opponent diverges 2+ runs from season ERA, discount the mismatch thesis proportionally; N=1 against this specific Rogers/LAD pattern, insufficient to establish rule.",
+        "sample_size_warning": "N=1, insufficient to establish rule \u2014 one game where Rogers outperformed his season line is noise, not a pattern."
+      }
     },
     {
       "id": "20260620-MLB-MIL-ATL-TOTAL",
@@ -1196,16 +607,22 @@
       "scott_bot_quip": "S\u00e1nchez is pitching like he's got a cheat code. The Mets are about to find out it's not a glitch.",
       "ladder_note": "Highest-floor play on the board. S\u00e1nchez's dominance is real, the total is low, and the juice is favorable. This is the ladder.",
       "date": "2026-06-20",
-      "status": "PEND",
-      "units_result": null,
+      "status": "LOSS",
+      "units_result": -2.0,
       "clv_cents": null,
-      "result_score": null,
-      "graded_at": null,
+      "result_score": "NYM 3 \u00b7 PHI 15",
+      "graded_at": "2026-06-21T01:59:02.309915-04:00",
       "slate_assessment": "Fifteen-game MLB slate with several elite pitching matchups \u2014 Sale vs Harrison in Atlanta, S\u00e1nchez vs Peralta in Philly, Yamamoto vs Rogers in LA \u2014 plus Skenes at Coors. Prop markets thin but K unders and total bases overs offer edges.",
       "executive_summary": "The board today is pitching-heavy with three elite arms taking the mound: Cristopher S\u00e1nchez (1.82 ERA) hosts the Mets, Yamamoto (2.52 ERA, 45 consecutive batters retired recently) faces a struggling Trevor Rogers, and Chris Sale draws Kyle Harrison in a low-total spot. The Phillies-Mets under at 7.5 is the cleanest play on the board \u2014 S\u00e1nchez has been the best pitcher in baseball this month, and Peralta's walk rate creates outs, not runs. That's the ladder pick. Paul Skenes at Coors is the wildcard \u2014 elite arm, but Coors is Coors. Six plays today, all grounded in pitching edges.",
       "slate_analysis": "Today's board features 15 MLB games with no NBA or NHL action. The pricing climate is relatively tight \u2014 most favorites sit between -130 and -200, with only the Dodgers (-235) and Pirates (-210) priced as heavy chalk. The total market is interesting: several games sit at 7.0-8.0, suggesting books expect pitching to dominate.\n\nThe top candidates that earned a hard look: (1) Phillies-Mets Under 7.5 \u2014 S\u00e1nchez has been the best pitcher in baseball with a 1.82 ERA and elite command, facing a Mets offense that's been league-average at best. Peralta walks too many batters but doesn't give up hard contact. (2) Dodgers-Orioles Under 8.0 \u2014 Yamamoto is on a historic run, Trevor Rogers has a 5.86 ERA, but the Dodgers offense is elite and Rogers could get shelled. (3) Braves-Brewers Under 7.0 \u2014 Sale vs Harrison is two elite lefties, both with sub-2.50 ERAs. (4) Pirates -1.5 at Coors \u2014 Skenes is dominant but Coors inflates everything. (5) Marlins ML vs Giants \u2014 Max Meyer (2.75 ERA) at pitcher-friendly loanDepot park against a rookie. (6) Paul Skenes Ks Over 6.5 \u2014 elite K rate against a Rockies lineup that strikes out.\n\nWhat got cut: The Dodgers-Orioles Under looked appealing with Yamamoto, but Trevor Rogers' 5.86 ERA and 1.45 WHIP against the Dodgers' 5.29 R/G offense creates too much variance \u2014 if Rogers gets knocked around early, the over is live. The Pirates -1.5 run line at Coors was tempting with Skenes, but Coors' 1.18 runs park factor and Sugano's ability to keep games close made the -136 juice unappealing for a road favorite. The Marlins ML at -138 was close but data confidence at 0.4 was below threshold.\n\nThe final six picks survived because they combine elite pitching with favorable park/weather contexts and market edges. The Phillies-Mets Under is the ladder pick \u2014 S\u00e1nchez's dominance, the 7.5 total, and -107 juice at DraftKings creates the highest-floor play on the board. The Braves-Brewers Under at 7.0 is the second-strongest total play with two elite lefties. Yamamoto's dominance makes the Dodgers -1.5 playable despite the chalk. Skenes Ks Over 6.5 is the sharpest prop \u2014 he's averaging 7.5 K/start and the Rockies strike out. The Tigers ML against the White Sox offers value at -118 with Melton's solid numbers. The Astros-Guardians Under rounds out the card with Arrighetti's 2.57 ERA against a Cleveland offense that's been cold.",
       "slate_vibe": "NORMAL",
-      "published_at": "2026-06-20T12:18:59.079700-04:00"
+      "published_at": "2026-06-20T12:18:59.079700-04:00",
+      "autopsy": {
+        "classification": "MODEL",
+        "post_mortem": "The thesis was built entirely on S\u00e1nchez holding the line \u2014 and he did (1 ER in 6 IP, ERA dropped to 1.80). The model failed by underweighting the catastrophic downside on the Peralta side: Peralta allowed 10 hits and a career-worst 10 earned runs in just 2\u2154 innings, with the Phillies scoring in each of the first three frames \u2014 Harper solo HR in the 1st, two more runs in the 2nd, then a 5-run 3rd capped by a 456-foot Schwarber bomb. The under was dead before the 4th inning. Schwarber then went 4-for-5 with 3 HRs and 6 RBI, and Harper hit for the cycle. The pick correctly identified S\u00e1nchez as elite but treated Peralta's 9.2% walk rate and 3.90 ERA as 'inefficient but manageable' \u2014 it ignored that Peralta's career-worst blowup risk against a power lineup at CBP was a live scenario, not a tail risk. A 10-run, sub-3-inning implosion is not a freak event for a pitcher with Peralta's profile in a hitter-friendly park.",
+        "candidate_rule": "When the under anchor is the *away* starter (not the home ace), require the away SP's ERA at the specific road park to be under 4.50 AND his HR/9 to be under 1.20 before counting him as an under-suppressor \u2014 N=1, insufficient to establish rule.",
+        "sample_size_warning": "N=1, insufficient to establish rule \u2014 one Peralta blowup does not define a pattern, but the structural flaw (building an under around a pitcher with known control issues in a power park) is worth flagging for review."
+      }
     },
     {
       "id": "20260616-MLB-MIN-TEX-ML",
@@ -11509,11 +10926,19 @@
     }
   ],
   "ladder": {
-    "current_streak": 8,
+    "current_streak": 0,
     "longest_streak": 8,
     "completed_climbs": 0,
     "target": 10,
     "history": [
+      {
+        "date": "2026-06-20",
+        "pick_id": "20260620-MLB-NYM-PHI-TOTAL",
+        "pick": "Under 7.5",
+        "game": "NYM @ PHI",
+        "status": "LOSS",
+        "after_streak": 0
+      },
       {
         "date": "2026-06-16",
         "pick_id": "20260616-MLB-TB-LAD-TOTAL",
@@ -11723,13 +11148,13 @@
         "after_streak": 1
       }
     ],
-    "updated_at": "2026-06-17T04:33:59.034307-04:00"
+    "updated_at": "2026-06-21T01:59:02.318028-04:00"
   },
   "last_night_recap": {
     "date": "2026-06-20",
-    "record": "1-0-1",
-    "units_pl": 0.8475,
-    "night_summary": "1-0-1 night, +0.85u. Detroit handled business against the White Sox \u2014 4-1 final, Tigers ML cashed clean at -118 with Chicago managing just a single run. The MIL @ ATL under 7.0 ended in a push at exactly 7 (Brewers 3, Braves 4), which is the universe's way of saying 'not tonight, not never.' Stakes back, no harm done. The ladder didn't move tonight \u2014 neither pick was a ladder entry \u2014 but the streak sits at 8 of 10, still the longest run we've had. Two more to close it out.",
-    "generated_at": "2026-06-20T18:58:43.713164-04:00"
+    "record": "2-3-1",
+    "units_pl": -2.4128,
+    "night_summary": "2-3-1 night, -2.41u \u2014 rough one. The ladder pick was the headline loss: Freddy Peralta imploded for 10 earned runs on 10 hits in just 2\u2154 innings while Schwarber hit three homers and Harper hit for the cycle in a 15-3 Phillies rout, torching the NYM @ PHI under 7.5 before the fourth inning even started \u2014 model error, we underweighted a catastrophic Peralta blowup at CBP against a power lineup. The CLE @ HOU under 8.5 was the same story: the thesis leaned on Arrighetti's season ERA while ignoring his three-start regression streak; rookie Bazzana hit a leadoff homer on the first pitch and a three-run shot in the fifth to put it away at 8-1. Tigers ML (4-1) and Skenes Ks over 6.5 (8 Ks) both cashed cleanly, and MIL @ ATL pushed at 7. The ladder resets to 0 after reaching 8 \u2014 painful spot to fall, but we climb again from scratch.",
+    "generated_at": "2026-06-21T01:59:33.699563-04:00"
   }
 }
