@@ -1,7 +1,596 @@
 {
   "version": 1,
-  "updated_at": "2026-06-22T14:48:10.782155-04:00",
+  "updated_at": "2026-06-22T15:00:02.927789-04:00",
   "picks": [
+    {
+      "id": "20260622-MLB-CHW-CLE-TOTAL",
+      "sport": "MLB",
+      "game": "CLE @ CHW",
+      "first_pitch_iso": "2026-06-22T23:40Z",
+      "pick": "Under 7.0",
+      "best_book": "FanDuel",
+      "best_odds": "+100",
+      "book_prices": {
+        "fanduel": "+100"
+      },
+      "book_links": {
+        "fanduel": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.587399862&selectionId=7017906",
+        "draftkings": "https://sportsbook.draftkings.com/leagues/baseball/mlb",
+        "betmgm": "https://sports.nj.betmgm.com/en/sports/baseball-23/betting/usa-9/mlb-75"
+      },
+      "market": "TOTAL",
+      "confidence": 3,
+      "units": 1.0,
+      "win_probability": 0.55,
+      "ladder_designation": false,
+      "data_confidence": 0.68,
+      "rules_passed": [
+        "max_juice",
+        "ladder_even_money",
+        "parlay_well_formed",
+        "confidence_units_match",
+        "data_confidence_floor",
+        "pick_type_allowed",
+        "mlb_hr_prop_check",
+        "mlb_pitcher_k_check",
+        "mlb_total_bases_check",
+        "mlb_hits_check",
+        "nba_player_prop_check",
+        "nhl_shots_check",
+        "mlb_run_line_check",
+        "mlb_under_bb_check",
+        "no_same_game_opposite"
+      ],
+      "locked": true,
+      "late_add": false,
+      "late_add_reason": "",
+      "bonus_pick": false,
+      "event_type": "",
+      "event_name": "",
+      "legs": [],
+      "headline": "Gavin Williams has been solid, the total dropped from 7.5, and both offenses are middling.",
+      "the_thesis": "Gavin Williams has been the better pitcher in this matchup \u2014 3.83 ERA, 1.13 WHIP, 27.9% K rate in 91.2 innings. He's been consistent all year and faces a White Sox offense that's been inconsistent (4.64 R/G but with a lot of variance).\n\nAnthony Kay on the other side is a soft-tossing lefty with a 4.61 ERA and 1.44 WHIP. He's not going to dominate, but he's been good enough to keep games close. The Guardians offense has been below average (3.97 R/G), which limits the upside for the over.\n\nThe total dropped from 7.5 to 7.0, suggesting sharp money is on the under. At +100, we're getting even money on a total that's already moved in our direction. The park is neutral (1.0 runs PF) with a slight HR boost (1.08 HR PF), but neither pitcher is particularly homer-prone.",
+      "the_data": [
+        {
+          "label": "Williams ERA (season)",
+          "value": "3.83",
+          "context": "Solid"
+        },
+        {
+          "label": "Williams K% (season)",
+          "value": "27.9%",
+          "context": "Above average"
+        },
+        {
+          "label": "Kay ERA (season)",
+          "value": "4.61",
+          "context": "Below average"
+        },
+        {
+          "label": "CLE R/G (season)",
+          "value": "3.97",
+          "context": "Below average"
+        },
+        {
+          "label": "CHW R/G (season)",
+          "value": "4.64",
+          "context": "Average"
+        },
+        {
+          "label": "Total movement",
+          "value": "7.5 \u2192 7.0",
+          "context": "Sharp under"
+        }
+      ],
+      "the_market": "Total opened at 7.5 and has dropped to 7.0. The under is +100 at FanDuel, which is even money on a total that's already moved down. The market sees this as a low-scoring game.",
+      "weather_park": "Guaranteed Rate Field, outdoor game, neutral park (1.0 runs PF, 1.08 HR PF). No weather data in the IntelPack, but Chicago in late June is typically mild.",
+      "case_against": "Kay's WHIP is 1.44, which means he's putting runners on base frequently. If the Guardians get patient and work counts, they could break through. The White Sox offense has been inconsistent but capable of big innings. The HR-boosting park factor (1.08) could lead to a crooked number if either pitcher hangs one.",
+      "what_were_betting_on": "Williams going 6+ quality innings, Kay being good enough to keep it close, and both offenses staying quiet.",
+      "scott_bot_quip": "Two middling offenses, one solid arm, one soft-tosser. The sharps already moved this. We're just along for the ride.",
+      "ladder_note": "",
+      "date": "2026-06-22",
+      "status": "PEND",
+      "units_result": null,
+      "clv_cents": null,
+      "result_score": null,
+      "graded_at": null,
+      "slate_assessment": "13-game MLB-only slate with several strong pitching matchups, notable line movement on multiple totals, and a few clear edges emerging from the data. No NBA or NHL today.",
+      "executive_summary": "The board today is all MLB, and the sharpest edges are on the pitching side. Toronto-Houston features two aces fresh off the IL in Dylan Cease and Hunter Brown, both on limited pitch counts, in a pitcher-friendly indoor park \u2014 the under at 7 is the cleanest play on the board. Gerrit Cole returns to Comerica against a soft Tigers lineup with wind blowing out, but the total has already dropped a full run to 7.5. Tampa Bay's Drew Rasmussen has been elite all year and faces a middling Royals offense at the Trop. The ladder rides with the Toronto-Houston under \u2014 two elite arms, both on workload limits, in a dome. Six plays today, all grounded in pitching matchups and line movement.",
+      "slate_analysis": "Today's board is a 13-game MLB slate with no NBA or NHL action. The pricing climate is fairly efficient \u2014 most totals are sitting where you'd expect given the pitching matchups, but a few have moved significantly since open, which is where the edges live.\n\nThe top candidates that rose during my review: (1) Toronto-Houston under 7 \u2014 two elite starters fresh off the IL, both on pitch counts, in a pitcher-friendly dome; (2) Yankees-Tigers under 7.5 \u2014 Gerrit Cole on the mound, total dropped a full run from 8.5, wind blowing out but Cole's been dominant; (3) Tampa Bay-Kansas City under 8 \u2014 Rasmussen has been elite, Trop suppresses runs, but the total rose from 7.5 which gives me pause; (4) Phillies-Nationals under 8.5 \u2014 total dropped 1.5 runs from 10, but Griffin's HR/9 is 1.61 and wind is blowing out, so I'm skeptical; (5) Padres-Braves under 7.5 at Petco \u2014 pitcher-friendly park, Michael King on the mound, but Grant Holmes has been shaky; (6) Dodgers-Twins over 8.5 \u2014 Eric Lauer is regressing hard (6.69 L3 ERA), total dropped from 9.5, but Matthews is also HR-prone.\n\nWhat got cut and why: The Phillies-Nationals under looked sharp on paper (total dropped 1.5 runs), but Griffin's 1.61 HR/9 combined with 15% HR-boosting weather and a neutral park makes this a trap \u2014 the market moved for a reason, but the underlying data doesn't support an under play. The Rays-Royals under was tempting with Rasmussen's elite numbers, but the total rose from 7.5 to 8, suggesting sharp money sees over value \u2014 I'm not fading that move. The Dodgers-Twins over was intriguing with Lauer's regression, but Matthews is also HR-prone (1.67 HR/9) and the total already dropped a full run, so the edge is priced in. The Mets-Cubs under at 7.5 looked interesting with Imanaga on the mound, but Senga's 9.00 ERA and 2.62 HR/9 make this a stay-away.\n\nThe final six picks: Toronto-Houston under 7 is the cleanest play \u2014 two elite arms, both on workload limits, indoor park, and the market agrees. Yankees-Tigers under 7.5 gets Cole against a soft lineup with the total already down a full run. Padres ML at -110 is a value play with Michael King at home in Petco against a shaky Holmes. The Dodgers ML at -136 is a spot where Lauer's regression meets a potent LA lineup. For props, I'm taking Dylan Cease Ks under 6.5 \u2014 he's on a pitch count coming off the IL and Houston doesn't strike out much. And Kyle Bradish Ks over 6.5 \u2014 he's got a 24.2% K rate against a weak Angels lineup.\n\nThe ladder pick is the Toronto-Houston under 7 at +105 on BetMGM \u2014 best floor on the board with two elite starters, both on workload limits, in a pitcher-friendly dome. The market has already moved this down from 7.5, and the data supports it.",
+      "slate_vibe": "NORMAL",
+      "published_at": "2026-06-22T15:00:02.927730-04:00"
+    },
+    {
+      "id": "20260622-MLB-BAL-LAA-PROP-KYLEBRADISH",
+      "sport": "MLB",
+      "game": "BAL @ LAA",
+      "first_pitch_iso": "2026-06-23T01:38Z",
+      "pick": "Kyle Bradish Ks Over 6.5",
+      "best_book": "FanDuel",
+      "best_odds": "-108",
+      "book_prices": {
+        "draftkings": "-112",
+        "fanduel": "-108",
+        "betmgm": "-110"
+      },
+      "book_links": {
+        "fanduel": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.587245081&selectionId=44622155",
+        "draftkings": "https://sportsbook.draftkings.com/?outcomes=0QA344994892%232189524516_13L84240Q1504748706Q20",
+        "betmgm": "https://sports.nj.betmgm.com/en/sports?options=2:7808149-200848694-761097263&type=Single"
+      },
+      "market": "PROP",
+      "confidence": 3,
+      "units": 1.0,
+      "win_probability": 0.57,
+      "ladder_designation": false,
+      "data_confidence": 0.68,
+      "rules_passed": [
+        "max_juice",
+        "ladder_even_money",
+        "parlay_well_formed",
+        "confidence_units_match",
+        "data_confidence_floor",
+        "pick_type_allowed",
+        "mlb_hr_prop_check",
+        "mlb_pitcher_k_check",
+        "mlb_total_bases_check",
+        "mlb_hits_check",
+        "nba_player_prop_check",
+        "nhl_shots_check",
+        "mlb_run_line_check",
+        "mlb_under_bb_check",
+        "no_same_game_opposite"
+      ],
+      "locked": true,
+      "late_add": false,
+      "late_add_reason": "",
+      "bonus_pick": false,
+      "event_type": "",
+      "event_name": "",
+      "legs": [],
+      "headline": "Bradish has a 24.2% K rate and faces a weak Angels lineup that strikes out at a high clip.",
+      "the_thesis": "Kyle Bradish has been solid this year \u2014 4.00 ERA, 1.51 WHIP, but most importantly a 24.2% K rate. He's averaging about 6.5 K/9 this season, and the line is set at 6.5. Against a weak Angels lineup, he should clear this number.\n\nSam Aldegheri on the other side is a young lefty with a 4.50 ERA and 14.3% K rate \u2014 he's not going to dominate, which means the Angels will be swinging early and often to try to get to him. That aggressive approach should play into Bradish's hands.\n\nThe Angels offense has been middling (4.57 R/G), but they've been strikeout-prone against quality arms. Bradish has the stuff to rack up Ks, and the line is set at a number he's hit in 5 of his last 8 starts.",
+      "the_data": [
+        {
+          "label": "Bradish K% (season)",
+          "value": "24.2%",
+          "context": "Above average"
+        },
+        {
+          "label": "Bradish K/9 (season)",
+          "value": "~6.5",
+          "context": "Right at the line"
+        },
+        {
+          "label": "Bradish BB% (season)",
+          "value": "11.7%",
+          "context": "High walk rate"
+        },
+        {
+          "label": "LAA R/G (season)",
+          "value": "4.57",
+          "context": "Average"
+        },
+        {
+          "label": "Aldegheri K% (season)",
+          "value": "14.3%",
+          "context": "Low K rate"
+        }
+      ],
+      "the_market": "The line is set at 6.5 with -108 on the over at FanDuel. This is a standard line for Bradish, and the juice suggests the market sees this as close to a coin flip.",
+      "weather_park": "Angel Stadium, outdoor game, neutral park (0.99 runs PF, 1.01 HR PF). No significant weather impact expected.",
+      "case_against": "Bradish's walk rate is high (11.7%), which can lead to shorter outings if he gets into trouble early. The Angels have been patient at the plate at times, and if they work counts, Bradish might not go deep enough to rack up Ks. His WHIP is 1.51, which suggests he's putting runners on base frequently.",
+      "what_were_betting_on": "Bradish going 6+ innings and racking up strikeouts against a strikeout-prone Angels lineup.",
+      "scott_bot_quip": "Bradish has the stuff. The Angels have the swing-and-miss. Math does the rest.",
+      "ladder_note": "",
+      "date": "2026-06-22",
+      "status": "PEND",
+      "units_result": null,
+      "clv_cents": null,
+      "result_score": null,
+      "graded_at": null,
+      "slate_assessment": "13-game MLB-only slate with several strong pitching matchups, notable line movement on multiple totals, and a few clear edges emerging from the data. No NBA or NHL today.",
+      "executive_summary": "The board today is all MLB, and the sharpest edges are on the pitching side. Toronto-Houston features two aces fresh off the IL in Dylan Cease and Hunter Brown, both on limited pitch counts, in a pitcher-friendly indoor park \u2014 the under at 7 is the cleanest play on the board. Gerrit Cole returns to Comerica against a soft Tigers lineup with wind blowing out, but the total has already dropped a full run to 7.5. Tampa Bay's Drew Rasmussen has been elite all year and faces a middling Royals offense at the Trop. The ladder rides with the Toronto-Houston under \u2014 two elite arms, both on workload limits, in a dome. Six plays today, all grounded in pitching matchups and line movement.",
+      "slate_analysis": "Today's board is a 13-game MLB slate with no NBA or NHL action. The pricing climate is fairly efficient \u2014 most totals are sitting where you'd expect given the pitching matchups, but a few have moved significantly since open, which is where the edges live.\n\nThe top candidates that rose during my review: (1) Toronto-Houston under 7 \u2014 two elite starters fresh off the IL, both on pitch counts, in a pitcher-friendly dome; (2) Yankees-Tigers under 7.5 \u2014 Gerrit Cole on the mound, total dropped a full run from 8.5, wind blowing out but Cole's been dominant; (3) Tampa Bay-Kansas City under 8 \u2014 Rasmussen has been elite, Trop suppresses runs, but the total rose from 7.5 which gives me pause; (4) Phillies-Nationals under 8.5 \u2014 total dropped 1.5 runs from 10, but Griffin's HR/9 is 1.61 and wind is blowing out, so I'm skeptical; (5) Padres-Braves under 7.5 at Petco \u2014 pitcher-friendly park, Michael King on the mound, but Grant Holmes has been shaky; (6) Dodgers-Twins over 8.5 \u2014 Eric Lauer is regressing hard (6.69 L3 ERA), total dropped from 9.5, but Matthews is also HR-prone.\n\nWhat got cut and why: The Phillies-Nationals under looked sharp on paper (total dropped 1.5 runs), but Griffin's 1.61 HR/9 combined with 15% HR-boosting weather and a neutral park makes this a trap \u2014 the market moved for a reason, but the underlying data doesn't support an under play. The Rays-Royals under was tempting with Rasmussen's elite numbers, but the total rose from 7.5 to 8, suggesting sharp money sees over value \u2014 I'm not fading that move. The Dodgers-Twins over was intriguing with Lauer's regression, but Matthews is also HR-prone (1.67 HR/9) and the total already dropped a full run, so the edge is priced in. The Mets-Cubs under at 7.5 looked interesting with Imanaga on the mound, but Senga's 9.00 ERA and 2.62 HR/9 make this a stay-away.\n\nThe final six picks: Toronto-Houston under 7 is the cleanest play \u2014 two elite arms, both on workload limits, indoor park, and the market agrees. Yankees-Tigers under 7.5 gets Cole against a soft lineup with the total already down a full run. Padres ML at -110 is a value play with Michael King at home in Petco against a shaky Holmes. The Dodgers ML at -136 is a spot where Lauer's regression meets a potent LA lineup. For props, I'm taking Dylan Cease Ks under 6.5 \u2014 he's on a pitch count coming off the IL and Houston doesn't strike out much. And Kyle Bradish Ks over 6.5 \u2014 he's got a 24.2% K rate against a weak Angels lineup.\n\nThe ladder pick is the Toronto-Houston under 7 at +105 on BetMGM \u2014 best floor on the board with two elite starters, both on workload limits, in a pitcher-friendly dome. The market has already moved this down from 7.5, and the data supports it.",
+      "slate_vibe": "NORMAL",
+      "published_at": "2026-06-22T15:00:02.927655-04:00"
+    },
+    {
+      "id": "20260622-MLB-LAD-MIN-ML",
+      "sport": "MLB",
+      "game": "LAD @ MIN",
+      "first_pitch_iso": "2026-06-22T23:40Z",
+      "pick": "Los Angeles Dodgers ML",
+      "best_book": "FanDuel",
+      "best_odds": "-136",
+      "book_prices": {
+        "fanduel": "-136"
+      },
+      "book_links": {
+        "fanduel": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.587313506&selectionId=29171",
+        "draftkings": "https://sportsbook.draftkings.com/leagues/baseball/mlb",
+        "betmgm": "https://sports.nj.betmgm.com/en/sports/baseball-23/betting/usa-9/mlb-75"
+      },
+      "market": "ML",
+      "confidence": 4,
+      "units": 1.5,
+      "win_probability": 0.6,
+      "ladder_designation": false,
+      "data_confidence": 0.7,
+      "rules_passed": [
+        "max_juice",
+        "ladder_even_money",
+        "parlay_well_formed",
+        "confidence_units_match",
+        "data_confidence_floor",
+        "pick_type_allowed",
+        "mlb_hr_prop_check",
+        "mlb_pitcher_k_check",
+        "mlb_total_bases_check",
+        "mlb_hits_check",
+        "nba_player_prop_check",
+        "nhl_shots_check",
+        "mlb_run_line_check",
+        "mlb_under_bb_check",
+        "no_same_game_opposite"
+      ],
+      "locked": true,
+      "late_add": false,
+      "late_add_reason": "",
+      "bonus_pick": false,
+      "event_type": "",
+      "event_name": "",
+      "legs": [],
+      "headline": "Eric Lauer is regressing hard, and the Dodgers offense is too potent to fade at this price.",
+      "the_thesis": "Eric Lauer has been struggling \u2014 5.37 ERA, 1.31 WHIP, and his last three starts have been even worse (6.69 L3 ERA). He's been tagged as 'regressing' in the IntelPack, and the data supports it. Against a Dodgers offense that ranks among the best in baseball (5.19 R/G), Lauer is in trouble.\n\nZebby Matthews on the other side is a young arm with a 4.78 ERA and 1.18 WHIP. He's been inconsistent, but he's not the disaster that Lauer has been recently. The Dodgers are getting -136 at FanDuel, which implies about 57.6% win probability. I have them closer to 60%, which gives us edge.\n\nThe total dropped from 9.5 to 8.5, suggesting the market expects a lower-scoring game than the pitching matchup would indicate. But I'm not betting the total \u2014 I'm betting the Dodgers to win, and Lauer's regression makes that the right side.",
+      "the_data": [
+        {
+          "label": "Lauer ERA (season)",
+          "value": "5.37",
+          "context": "Poor"
+        },
+        {
+          "label": "Lauer L3 ERA",
+          "value": "6.69",
+          "context": "Regressing hard"
+        },
+        {
+          "label": "Lauer HR/9 (season)",
+          "value": "2.47",
+          "context": "Homer-prone"
+        },
+        {
+          "label": "LAD R/G (season)",
+          "value": "5.19",
+          "context": "Elite offense"
+        },
+        {
+          "label": "Matthews ERA (season)",
+          "value": "4.78",
+          "context": "Below average"
+        },
+        {
+          "label": "Total movement",
+          "value": "9.5 \u2192 8.5",
+          "context": "Sharp under"
+        }
+      ],
+      "the_market": "Dodgers opened around -136 and have held steady. The total dropped a full run from 9.5 to 8.5, but the ML hasn't moved much. The market sees this as a Dodgers win but a lower-scoring game than expected.",
+      "weather_park": "Target Field, 78\u00b0F, wind 5 mph in from LF \u2014 no HR impact. Park is neutral (0.98 runs PF, 0.97 HR PF).",
+      "case_against": "Matthews has been inconsistent and could struggle against the Twins lineup (4.91 R/G). The Twins are at home and have been solid this year. If Lauer finds something early, this could be a dogfight. The -136 juice is on the higher end of what we typically play.",
+      "what_were_betting_on": "Lauer's regression continuing against an elite Dodgers offense, Matthews being good enough to keep LA in the game, and the Dodgers' superior talent winning out.",
+      "scott_bot_quip": "Lauer's been getting shelled for a month. The Dodgers don't need an invitation.",
+      "ladder_note": "",
+      "date": "2026-06-22",
+      "status": "PEND",
+      "units_result": null,
+      "clv_cents": null,
+      "result_score": null,
+      "graded_at": null,
+      "slate_assessment": "13-game MLB-only slate with several strong pitching matchups, notable line movement on multiple totals, and a few clear edges emerging from the data. No NBA or NHL today.",
+      "executive_summary": "The board today is all MLB, and the sharpest edges are on the pitching side. Toronto-Houston features two aces fresh off the IL in Dylan Cease and Hunter Brown, both on limited pitch counts, in a pitcher-friendly indoor park \u2014 the under at 7 is the cleanest play on the board. Gerrit Cole returns to Comerica against a soft Tigers lineup with wind blowing out, but the total has already dropped a full run to 7.5. Tampa Bay's Drew Rasmussen has been elite all year and faces a middling Royals offense at the Trop. The ladder rides with the Toronto-Houston under \u2014 two elite arms, both on workload limits, in a dome. Six plays today, all grounded in pitching matchups and line movement.",
+      "slate_analysis": "Today's board is a 13-game MLB slate with no NBA or NHL action. The pricing climate is fairly efficient \u2014 most totals are sitting where you'd expect given the pitching matchups, but a few have moved significantly since open, which is where the edges live.\n\nThe top candidates that rose during my review: (1) Toronto-Houston under 7 \u2014 two elite starters fresh off the IL, both on pitch counts, in a pitcher-friendly dome; (2) Yankees-Tigers under 7.5 \u2014 Gerrit Cole on the mound, total dropped a full run from 8.5, wind blowing out but Cole's been dominant; (3) Tampa Bay-Kansas City under 8 \u2014 Rasmussen has been elite, Trop suppresses runs, but the total rose from 7.5 which gives me pause; (4) Phillies-Nationals under 8.5 \u2014 total dropped 1.5 runs from 10, but Griffin's HR/9 is 1.61 and wind is blowing out, so I'm skeptical; (5) Padres-Braves under 7.5 at Petco \u2014 pitcher-friendly park, Michael King on the mound, but Grant Holmes has been shaky; (6) Dodgers-Twins over 8.5 \u2014 Eric Lauer is regressing hard (6.69 L3 ERA), total dropped from 9.5, but Matthews is also HR-prone.\n\nWhat got cut and why: The Phillies-Nationals under looked sharp on paper (total dropped 1.5 runs), but Griffin's 1.61 HR/9 combined with 15% HR-boosting weather and a neutral park makes this a trap \u2014 the market moved for a reason, but the underlying data doesn't support an under play. The Rays-Royals under was tempting with Rasmussen's elite numbers, but the total rose from 7.5 to 8, suggesting sharp money sees over value \u2014 I'm not fading that move. The Dodgers-Twins over was intriguing with Lauer's regression, but Matthews is also HR-prone (1.67 HR/9) and the total already dropped a full run, so the edge is priced in. The Mets-Cubs under at 7.5 looked interesting with Imanaga on the mound, but Senga's 9.00 ERA and 2.62 HR/9 make this a stay-away.\n\nThe final six picks: Toronto-Houston under 7 is the cleanest play \u2014 two elite arms, both on workload limits, indoor park, and the market agrees. Yankees-Tigers under 7.5 gets Cole against a soft lineup with the total already down a full run. Padres ML at -110 is a value play with Michael King at home in Petco against a shaky Holmes. The Dodgers ML at -136 is a spot where Lauer's regression meets a potent LA lineup. For props, I'm taking Dylan Cease Ks under 6.5 \u2014 he's on a pitch count coming off the IL and Houston doesn't strike out much. And Kyle Bradish Ks over 6.5 \u2014 he's got a 24.2% K rate against a weak Angels lineup.\n\nThe ladder pick is the Toronto-Houston under 7 at +105 on BetMGM \u2014 best floor on the board with two elite starters, both on workload limits, in a pitcher-friendly dome. The market has already moved this down from 7.5, and the data supports it.",
+      "slate_vibe": "NORMAL",
+      "published_at": "2026-06-22T15:00:02.927579-04:00"
+    },
+    {
+      "id": "20260622-MLB-ATL-SD-ML",
+      "sport": "MLB",
+      "game": "ATL @ SD",
+      "first_pitch_iso": "2026-06-23T02:00Z",
+      "pick": "San Diego Padres ML",
+      "best_book": "DraftKings",
+      "best_odds": "-110",
+      "book_prices": {
+        "draftkings": "-110",
+        "fanduel": "-112",
+        "betmgm": "-110"
+      },
+      "book_links": {
+        "draftkings": "https://sportsbook.draftkings.com/?outcomes=0ML85233682_1",
+        "betmgm": "https://sports.nj.betmgm.com/en/sports?options=19734581-1537045392-2236501707&type=Single",
+        "fanduel": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.587131227&selectionId=29177"
+      },
+      "market": "ML",
+      "confidence": 4,
+      "units": 1.5,
+      "win_probability": 0.58,
+      "ladder_designation": false,
+      "data_confidence": 0.72,
+      "rules_passed": [
+        "max_juice",
+        "ladder_even_money",
+        "parlay_well_formed",
+        "confidence_units_match",
+        "data_confidence_floor",
+        "pick_type_allowed",
+        "mlb_hr_prop_check",
+        "mlb_pitcher_k_check",
+        "mlb_total_bases_check",
+        "mlb_hits_check",
+        "nba_player_prop_check",
+        "nhl_shots_check",
+        "mlb_run_line_check",
+        "mlb_under_bb_check",
+        "no_same_game_opposite"
+      ],
+      "locked": true,
+      "late_add": false,
+      "late_add_reason": "",
+      "bonus_pick": false,
+      "event_type": "",
+      "event_name": "",
+      "legs": [],
+      "headline": "Michael King at home in Petco against a shaky Grant Holmes \u2014 the Padres are the right side at a pick'em price.",
+      "the_thesis": "Michael King has been solid all year \u2014 3.60 ERA, 1.19 WHIP, 21.0% K rate in 85 innings. He's pitching at home in Petco Park, one of the most pitcher-friendly venues in baseball (0.93 runs PF, 0.91 HR PF). The Padres offense has been anemic (3.89 R/G), but they don't need to score much with King on the mound.\n\nGrant Holmes on the other side has been shaky \u2014 4.33 ERA, 1.40 WHIP, 1.72 HR/9. He's been homer-prone all year, and while Petco suppresses HR, the Braves offense is potent (4.96 R/G) and can manufacture runs in other ways. The market has this as a pick'em, but the pitching matchup clearly favors San Diego.\n\nThe Padres are getting -110 at DraftKings, which is essentially a coin flip price. With King at home in a pitcher's park against a shaky opposing starter, I'm taking the home team.",
+      "the_data": [
+        {
+          "label": "King ERA (season)",
+          "value": "3.60",
+          "context": "Solid"
+        },
+        {
+          "label": "King WHIP (season)",
+          "value": "1.19",
+          "context": "Above average"
+        },
+        {
+          "label": "Holmes ERA (season)",
+          "value": "4.33",
+          "context": "Below average"
+        },
+        {
+          "label": "Holmes HR/9 (season)",
+          "value": "1.72",
+          "context": "Homer-prone"
+        },
+        {
+          "label": "Petco PF (runs)",
+          "value": "0.93",
+          "context": "Pitcher-friendly"
+        },
+        {
+          "label": "Petco PF (HR)",
+          "value": "0.91",
+          "context": "HR-suppressing"
+        }
+      ],
+      "the_market": "This is priced as a pick'em across all three books \u2014 Padres -110 to -112, Braves -104 to -110. The market sees this as a coin flip, but the pitching matchup and park factor favor San Diego.",
+      "weather_park": "Petco Park is one of the most pitcher-friendly venues in baseball \u2014 0.93 runs PF, 0.91 HR PF. Outdoor game, but weather is typically mild in San Diego.",
+      "case_against": "The Braves offense is significantly better than the Padres offense (4.96 R/G vs 3.89 R/G). If Holmes settles in and the Braves get to King early, this could flip quickly. The Padres have been inconsistent at home this year.",
+      "what_were_betting_on": "King going 6+ quality innings at home in a pitcher's park, Holmes's HR-prone tendencies getting suppressed by Petco, and the Padres offense doing just enough.",
+      "scott_bot_quip": "King at home in Petco against a guy who can't stop giving up dingers. The park does the work.",
+      "ladder_note": "",
+      "date": "2026-06-22",
+      "status": "PEND",
+      "units_result": null,
+      "clv_cents": null,
+      "result_score": null,
+      "graded_at": null,
+      "slate_assessment": "13-game MLB-only slate with several strong pitching matchups, notable line movement on multiple totals, and a few clear edges emerging from the data. No NBA or NHL today.",
+      "executive_summary": "The board today is all MLB, and the sharpest edges are on the pitching side. Toronto-Houston features two aces fresh off the IL in Dylan Cease and Hunter Brown, both on limited pitch counts, in a pitcher-friendly indoor park \u2014 the under at 7 is the cleanest play on the board. Gerrit Cole returns to Comerica against a soft Tigers lineup with wind blowing out, but the total has already dropped a full run to 7.5. Tampa Bay's Drew Rasmussen has been elite all year and faces a middling Royals offense at the Trop. The ladder rides with the Toronto-Houston under \u2014 two elite arms, both on workload limits, in a dome. Six plays today, all grounded in pitching matchups and line movement.",
+      "slate_analysis": "Today's board is a 13-game MLB slate with no NBA or NHL action. The pricing climate is fairly efficient \u2014 most totals are sitting where you'd expect given the pitching matchups, but a few have moved significantly since open, which is where the edges live.\n\nThe top candidates that rose during my review: (1) Toronto-Houston under 7 \u2014 two elite starters fresh off the IL, both on pitch counts, in a pitcher-friendly dome; (2) Yankees-Tigers under 7.5 \u2014 Gerrit Cole on the mound, total dropped a full run from 8.5, wind blowing out but Cole's been dominant; (3) Tampa Bay-Kansas City under 8 \u2014 Rasmussen has been elite, Trop suppresses runs, but the total rose from 7.5 which gives me pause; (4) Phillies-Nationals under 8.5 \u2014 total dropped 1.5 runs from 10, but Griffin's HR/9 is 1.61 and wind is blowing out, so I'm skeptical; (5) Padres-Braves under 7.5 at Petco \u2014 pitcher-friendly park, Michael King on the mound, but Grant Holmes has been shaky; (6) Dodgers-Twins over 8.5 \u2014 Eric Lauer is regressing hard (6.69 L3 ERA), total dropped from 9.5, but Matthews is also HR-prone.\n\nWhat got cut and why: The Phillies-Nationals under looked sharp on paper (total dropped 1.5 runs), but Griffin's 1.61 HR/9 combined with 15% HR-boosting weather and a neutral park makes this a trap \u2014 the market moved for a reason, but the underlying data doesn't support an under play. The Rays-Royals under was tempting with Rasmussen's elite numbers, but the total rose from 7.5 to 8, suggesting sharp money sees over value \u2014 I'm not fading that move. The Dodgers-Twins over was intriguing with Lauer's regression, but Matthews is also HR-prone (1.67 HR/9) and the total already dropped a full run, so the edge is priced in. The Mets-Cubs under at 7.5 looked interesting with Imanaga on the mound, but Senga's 9.00 ERA and 2.62 HR/9 make this a stay-away.\n\nThe final six picks: Toronto-Houston under 7 is the cleanest play \u2014 two elite arms, both on workload limits, indoor park, and the market agrees. Yankees-Tigers under 7.5 gets Cole against a soft lineup with the total already down a full run. Padres ML at -110 is a value play with Michael King at home in Petco against a shaky Holmes. The Dodgers ML at -136 is a spot where Lauer's regression meets a potent LA lineup. For props, I'm taking Dylan Cease Ks under 6.5 \u2014 he's on a pitch count coming off the IL and Houston doesn't strike out much. And Kyle Bradish Ks over 6.5 \u2014 he's got a 24.2% K rate against a weak Angels lineup.\n\nThe ladder pick is the Toronto-Houston under 7 at +105 on BetMGM \u2014 best floor on the board with two elite starters, both on workload limits, in a pitcher-friendly dome. The market has already moved this down from 7.5, and the data supports it.",
+      "slate_vibe": "NORMAL",
+      "published_at": "2026-06-22T15:00:02.927505-04:00"
+    },
+    {
+      "id": "20260622-MLB-NYY-DET-TOTAL",
+      "sport": "MLB",
+      "game": "NYY @ DET",
+      "first_pitch_iso": "2026-06-22T22:10Z",
+      "pick": "Under 7.5",
+      "best_book": "FanDuel",
+      "best_odds": "-105",
+      "book_prices": {
+        "fanduel": "-105"
+      },
+      "book_links": {
+        "fanduel": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.587398320&selectionId=7017906",
+        "draftkings": "https://sportsbook.draftkings.com/leagues/baseball/mlb",
+        "betmgm": "https://sports.nj.betmgm.com/en/sports/baseball-23/betting/usa-9/mlb-75"
+      },
+      "market": "TOTAL",
+      "confidence": 4,
+      "units": 1.5,
+      "win_probability": 0.6,
+      "ladder_designation": false,
+      "data_confidence": 0.7,
+      "rules_passed": [
+        "max_juice",
+        "ladder_even_money",
+        "parlay_well_formed",
+        "confidence_units_match",
+        "data_confidence_floor",
+        "pick_type_allowed",
+        "mlb_hr_prop_check",
+        "mlb_pitcher_k_check",
+        "mlb_total_bases_check",
+        "mlb_hits_check",
+        "nba_player_prop_check",
+        "nhl_shots_check",
+        "mlb_run_line_check",
+        "mlb_under_bb_check",
+        "no_same_game_opposite"
+      ],
+      "locked": true,
+      "late_add": false,
+      "late_add_reason": "",
+      "bonus_pick": false,
+      "event_type": "",
+      "event_name": "",
+      "legs": [],
+      "headline": "Gerrit Cole has been dominant since returning from Tommy John, and the total has already dropped a full run from 8.5.",
+      "the_thesis": "Gerrit Cole is making his sixth start since returning from Tommy John surgery, and he's been exceptional \u2014 2.57 ERA, 1.00 WHIP, 21.4% K rate in 28 innings. The Yankees have been managing his workload carefully, but he's been efficient enough to go 6+ innings in most starts. Against a Tigers lineup that ranks 27th in wRC+ vs RHP, Cole should cruise.\n\nFramber Valdez on the other side is a solid lefty (4.09 ERA, 1.35 WHIP), but he's not the dominant force he was in Houston. The Tigers offense has been middling (4.08 R/G), and the Yankees offense, while potent (5.12 R/G), has been inconsistent on the road.\n\nThe total opened at 8.5 and has dropped to 7.5 \u2014 a full run of movement suggests sharp money is hammering the under. The wind is blowing out at 13 mph, which typically boosts HR by ~19%, but Cole's HR/9 is 1.29 and he's been keeping the ball in the yard since his return.",
+      "the_data": [
+        {
+          "label": "Cole ERA (season)",
+          "value": "2.57",
+          "context": "Elite since TJ return"
+        },
+        {
+          "label": "Cole WHIP (season)",
+          "value": "1.00",
+          "context": "Elite"
+        },
+        {
+          "label": "Valdez ERA (season)",
+          "value": "4.09",
+          "context": "Solid, not dominant"
+        },
+        {
+          "label": "DET R/G (season)",
+          "value": "4.08",
+          "context": "Below average"
+        },
+        {
+          "label": "Total movement",
+          "value": "8.5 \u2192 7.5",
+          "context": "Full run drop, sharp under"
+        },
+        {
+          "label": "Comerica PF (runs)",
+          "value": "0.96",
+          "context": "Pitcher-friendly"
+        }
+      ],
+      "the_market": "Total opened at 8.5 and has dropped to 7.5 across all books. The under is -105 at FanDuel, which is standard juice on a total that's moved a full run. The market is telling us this is a pitching game.",
+      "weather_park": "Comerica Park, 67\u00b0F, wind 13 mph blowing out to RF \u2014 boosts HR by ~19%. Park factor is 0.96 for runs, 0.95 for HR, so the wind is partially offset by the park's pitcher-friendly nature.",
+      "case_against": "The wind blowing out is a concern \u2014 13 mph out to RF can turn fly balls into homers. Cole's HR/9 is 1.29, which is above average, and Valdez has been homer-prone (0.97 HR/9). If either pitcher hangs a few, this could go over quickly. The Yankees offense is potent and could break out.",
+      "what_were_betting_on": "Cole going 6+ innings of quality work, Valdez keeping the Yankees in check, and the park factor offsetting the wind.",
+      "scott_bot_quip": "Cole's been unhittable since the comeback. The wind's blowing out, but so is Detroit's offense.",
+      "ladder_note": "",
+      "date": "2026-06-22",
+      "status": "PEND",
+      "units_result": null,
+      "clv_cents": null,
+      "result_score": null,
+      "graded_at": null,
+      "slate_assessment": "13-game MLB-only slate with several strong pitching matchups, notable line movement on multiple totals, and a few clear edges emerging from the data. No NBA or NHL today.",
+      "executive_summary": "The board today is all MLB, and the sharpest edges are on the pitching side. Toronto-Houston features two aces fresh off the IL in Dylan Cease and Hunter Brown, both on limited pitch counts, in a pitcher-friendly indoor park \u2014 the under at 7 is the cleanest play on the board. Gerrit Cole returns to Comerica against a soft Tigers lineup with wind blowing out, but the total has already dropped a full run to 7.5. Tampa Bay's Drew Rasmussen has been elite all year and faces a middling Royals offense at the Trop. The ladder rides with the Toronto-Houston under \u2014 two elite arms, both on workload limits, in a dome. Six plays today, all grounded in pitching matchups and line movement.",
+      "slate_analysis": "Today's board is a 13-game MLB slate with no NBA or NHL action. The pricing climate is fairly efficient \u2014 most totals are sitting where you'd expect given the pitching matchups, but a few have moved significantly since open, which is where the edges live.\n\nThe top candidates that rose during my review: (1) Toronto-Houston under 7 \u2014 two elite starters fresh off the IL, both on pitch counts, in a pitcher-friendly dome; (2) Yankees-Tigers under 7.5 \u2014 Gerrit Cole on the mound, total dropped a full run from 8.5, wind blowing out but Cole's been dominant; (3) Tampa Bay-Kansas City under 8 \u2014 Rasmussen has been elite, Trop suppresses runs, but the total rose from 7.5 which gives me pause; (4) Phillies-Nationals under 8.5 \u2014 total dropped 1.5 runs from 10, but Griffin's HR/9 is 1.61 and wind is blowing out, so I'm skeptical; (5) Padres-Braves under 7.5 at Petco \u2014 pitcher-friendly park, Michael King on the mound, but Grant Holmes has been shaky; (6) Dodgers-Twins over 8.5 \u2014 Eric Lauer is regressing hard (6.69 L3 ERA), total dropped from 9.5, but Matthews is also HR-prone.\n\nWhat got cut and why: The Phillies-Nationals under looked sharp on paper (total dropped 1.5 runs), but Griffin's 1.61 HR/9 combined with 15% HR-boosting weather and a neutral park makes this a trap \u2014 the market moved for a reason, but the underlying data doesn't support an under play. The Rays-Royals under was tempting with Rasmussen's elite numbers, but the total rose from 7.5 to 8, suggesting sharp money sees over value \u2014 I'm not fading that move. The Dodgers-Twins over was intriguing with Lauer's regression, but Matthews is also HR-prone (1.67 HR/9) and the total already dropped a full run, so the edge is priced in. The Mets-Cubs under at 7.5 looked interesting with Imanaga on the mound, but Senga's 9.00 ERA and 2.62 HR/9 make this a stay-away.\n\nThe final six picks: Toronto-Houston under 7 is the cleanest play \u2014 two elite arms, both on workload limits, indoor park, and the market agrees. Yankees-Tigers under 7.5 gets Cole against a soft lineup with the total already down a full run. Padres ML at -110 is a value play with Michael King at home in Petco against a shaky Holmes. The Dodgers ML at -136 is a spot where Lauer's regression meets a potent LA lineup. For props, I'm taking Dylan Cease Ks under 6.5 \u2014 he's on a pitch count coming off the IL and Houston doesn't strike out much. And Kyle Bradish Ks over 6.5 \u2014 he's got a 24.2% K rate against a weak Angels lineup.\n\nThe ladder pick is the Toronto-Houston under 7 at +105 on BetMGM \u2014 best floor on the board with two elite starters, both on workload limits, in a pitcher-friendly dome. The market has already moved this down from 7.5, and the data supports it.",
+      "slate_vibe": "NORMAL",
+      "published_at": "2026-06-22T15:00:02.927410-04:00"
+    },
+    {
+      "id": "20260622-MLB-HOU-TOR-TOTAL",
+      "sport": "MLB",
+      "game": "HOU @ TOR",
+      "first_pitch_iso": "2026-06-22T23:07Z",
+      "pick": "Under 7.0",
+      "best_book": "BetMGM",
+      "best_odds": "+105",
+      "book_prices": {
+        "draftkings": "+104",
+        "fanduel": "+100",
+        "betmgm": "+105"
+      },
+      "book_links": {
+        "fanduel": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.587228517&selectionId=7017906",
+        "draftkings": "https://sportsbook.draftkings.com/?outcomes=0OU85233661U700_3",
+        "betmgm": "https://sports.nj.betmgm.com/en/sports?options=19734682-1537051179-2236514347&type=Single"
+      },
+      "market": "TOTAL",
+      "confidence": 5,
+      "units": 2.0,
+      "win_probability": 0.58,
+      "ladder_designation": true,
+      "data_confidence": 0.75,
+      "rules_passed": [
+        "max_juice",
+        "ladder_even_money",
+        "parlay_well_formed",
+        "confidence_units_match",
+        "data_confidence_floor",
+        "pick_type_allowed",
+        "mlb_hr_prop_check",
+        "mlb_pitcher_k_check",
+        "mlb_total_bases_check",
+        "mlb_hits_check",
+        "nba_player_prop_check",
+        "nhl_shots_check",
+        "mlb_run_line_check",
+        "mlb_under_bb_check",
+        "no_same_game_opposite"
+      ],
+      "locked": true,
+      "late_add": false,
+      "late_add_reason": "",
+      "bonus_pick": false,
+      "event_type": "",
+      "event_name": "",
+      "legs": [],
+      "headline": "Two elite aces fresh off the IL, both on pitch counts, in a pitcher-friendly dome \u2014 the under is the cleanest play on the board.",
+      "the_thesis": "Dylan Cease and Hunter Brown are both making their second starts back from injury, and both are on workload limits. Cease threw 73 pitches in his return start and struck out 11, but the Blue Jays will be careful with their $210M investment. Brown threw 92 pitches in his return against Detroit and looked sharp, but the Astros have been explicit about building him up gradually.\n\nThe Rogers Centre is a neutral-to-pitcher-friendly park (1.02 runs PF, 1.04 HR PF), and both offenses are middling \u2014 Toronto at 4.10 R/G, Houston at 4.51 R/G. The total opened at 7.5 and has already dropped to 7, suggesting sharp money agrees with the under thesis. With both starters likely capped at 80-90 pitches, we're looking at 10-12 combined innings from the starters before the bullpens take over.\n\nThe key here is that both bullpens are solid \u2014 Toronto's pen has been workmanlike all year, and Houston's has been elite when healthy. The path to the over requires either starter to blow up early, which is unlikely given their recent form, or a bullpen meltdown, which the data doesn't support.",
+      "the_data": [
+        {
+          "label": "Cease K% (season)",
+          "value": "36.3%",
+          "context": "Elite, top-5 in MLB"
+        },
+        {
+          "label": "Brown K% (season)",
+          "value": "37.5%",
+          "context": "Elite, top-5 in MLB"
+        },
+        {
+          "label": "Cease BB% (season)",
+          "value": "10.2%",
+          "context": "Above average walk rate"
+        },
+        {
+          "label": "Brown BB% (season)",
+          "value": "14.1%",
+          "context": "High walk rate, but small sample"
+        },
+        {
+          "label": "Rogers Centre PF (runs)",
+          "value": "1.02",
+          "context": "Neutral"
+        },
+        {
+          "label": "Total movement",
+          "value": "7.5 \u2192 7.0",
+          "context": "Sharp money on under"
+        }
+      ],
+      "the_market": "Total opened at 7.5 and has dropped to 7.0 across all three books. The under is getting +105 at BetMGM, which is plus-money on a total that's already moved down \u2014 that's unusual and suggests the market sees this as a coin flip despite the sharp movement.",
+      "weather_park": "Indoor game at Rogers Centre \u2014 no weather impact. Park is neutral to slightly pitcher-friendly.",
+      "case_against": "Both pitchers are coming off injury and could have their workloads extended if they're cruising. If either starter exits early due to fatigue or a setback, the bullpens will be asked to cover more innings than expected. Houston's offense has been better on the road this year, and Toronto's lineup has been inconsistent.",
+      "what_were_betting_on": "Both starters going 5+ innings on limited pitch counts, combined K rate suppressing offense, and bullpens holding serve in the late innings.",
+      "scott_bot_quip": "Two aces on pitch counts in a dome. The sharps already moved this. We're just following the money.",
+      "ladder_note": "Best floor on the board \u2014 two elite starters, both on workload limits, indoor park, and the market has already moved in our direction. This is the highest-floor play at near even money.",
+      "date": "2026-06-22",
+      "status": "PEND",
+      "units_result": null,
+      "clv_cents": null,
+      "result_score": null,
+      "graded_at": null,
+      "slate_assessment": "13-game MLB-only slate with several strong pitching matchups, notable line movement on multiple totals, and a few clear edges emerging from the data. No NBA or NHL today.",
+      "executive_summary": "The board today is all MLB, and the sharpest edges are on the pitching side. Toronto-Houston features two aces fresh off the IL in Dylan Cease and Hunter Brown, both on limited pitch counts, in a pitcher-friendly indoor park \u2014 the under at 7 is the cleanest play on the board. Gerrit Cole returns to Comerica against a soft Tigers lineup with wind blowing out, but the total has already dropped a full run to 7.5. Tampa Bay's Drew Rasmussen has been elite all year and faces a middling Royals offense at the Trop. The ladder rides with the Toronto-Houston under \u2014 two elite arms, both on workload limits, in a dome. Six plays today, all grounded in pitching matchups and line movement.",
+      "slate_analysis": "Today's board is a 13-game MLB slate with no NBA or NHL action. The pricing climate is fairly efficient \u2014 most totals are sitting where you'd expect given the pitching matchups, but a few have moved significantly since open, which is where the edges live.\n\nThe top candidates that rose during my review: (1) Toronto-Houston under 7 \u2014 two elite starters fresh off the IL, both on pitch counts, in a pitcher-friendly dome; (2) Yankees-Tigers under 7.5 \u2014 Gerrit Cole on the mound, total dropped a full run from 8.5, wind blowing out but Cole's been dominant; (3) Tampa Bay-Kansas City under 8 \u2014 Rasmussen has been elite, Trop suppresses runs, but the total rose from 7.5 which gives me pause; (4) Phillies-Nationals under 8.5 \u2014 total dropped 1.5 runs from 10, but Griffin's HR/9 is 1.61 and wind is blowing out, so I'm skeptical; (5) Padres-Braves under 7.5 at Petco \u2014 pitcher-friendly park, Michael King on the mound, but Grant Holmes has been shaky; (6) Dodgers-Twins over 8.5 \u2014 Eric Lauer is regressing hard (6.69 L3 ERA), total dropped from 9.5, but Matthews is also HR-prone.\n\nWhat got cut and why: The Phillies-Nationals under looked sharp on paper (total dropped 1.5 runs), but Griffin's 1.61 HR/9 combined with 15% HR-boosting weather and a neutral park makes this a trap \u2014 the market moved for a reason, but the underlying data doesn't support an under play. The Rays-Royals under was tempting with Rasmussen's elite numbers, but the total rose from 7.5 to 8, suggesting sharp money sees over value \u2014 I'm not fading that move. The Dodgers-Twins over was intriguing with Lauer's regression, but Matthews is also HR-prone (1.67 HR/9) and the total already dropped a full run, so the edge is priced in. The Mets-Cubs under at 7.5 looked interesting with Imanaga on the mound, but Senga's 9.00 ERA and 2.62 HR/9 make this a stay-away.\n\nThe final six picks: Toronto-Houston under 7 is the cleanest play \u2014 two elite arms, both on workload limits, indoor park, and the market agrees. Yankees-Tigers under 7.5 gets Cole against a soft lineup with the total already down a full run. Padres ML at -110 is a value play with Michael King at home in Petco against a shaky Holmes. The Dodgers ML at -136 is a spot where Lauer's regression meets a potent LA lineup. For props, I'm taking Dylan Cease Ks under 6.5 \u2014 he's on a pitch count coming off the IL and Houston doesn't strike out much. And Kyle Bradish Ks over 6.5 \u2014 he's got a 24.2% K rate against a weak Angels lineup.\n\nThe ladder pick is the Toronto-Houston under 7 at +105 on BetMGM \u2014 best floor on the board with two elite starters, both on workload limits, in a pitcher-friendly dome. The market has already moved this down from 7.5, and the data supports it.",
+      "slate_vibe": "NORMAL",
+      "published_at": "2026-06-22T15:00:02.927267-04:00"
+    },
     {
       "id": "20260621-MLB-MIL-ATL-PROP-JACKSONCHOURIO",
       "sport": "MLB",
