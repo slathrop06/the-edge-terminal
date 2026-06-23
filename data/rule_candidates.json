@@ -222,5 +222,21 @@
     "candidate_rule": "When the under anchor is the *away* starter (not the home ace), require the away SP's ERA at the specific road park to be under 4.50 AND his HR/9 to be under 1.20 before counting him as an under-suppressor \u2014 N=1, insufficient to establish rule.",
     "sample_size_warning": "N=1, insufficient to establish rule \u2014 one Peralta blowup does not define a pattern, but the structural flaw (building an under around a pitcher with known control issues in a power park) is worth flagging for review.",
     "status": "PENDING_REVIEW"
+  },
+  {
+    "proposed_at": "2026-06-23T02:57:14.336012-04:00",
+    "source_pick_id": "20260622-MLB-CHW-CLE-TOTAL",
+    "source_loss": "Under 7.0 (CLE @ CHW)",
+    "candidate_rule": "Flag any under pick where the primary pitcher anchor has allowed 4+ ER in 2 of their last 3 starts \u2014 season ERA is a lagging stat and recent form should override it as the primary thesis driver; validate with N\u226520 before hardening.",
+    "sample_size_warning": "N=1, insufficient to establish rule \u2014 this is a directional signal only, not a validated pattern.",
+    "status": "PENDING_REVIEW"
+  },
+  {
+    "proposed_at": "2026-06-23T02:57:30.552940-04:00",
+    "source_pick_id": "20260622-MLB-NYY-DET-TOTAL",
+    "source_loss": "Under 7.5 (NYY @ DET)",
+    "candidate_rule": "Before backing an Under anchored on a specific starter's ERA, cross-check his last 2 starts for hit/contact quality (xwOBAcon, hard-hit rate) \u2014 a sub-3.00 ERA can mask a pitcher who is trending toward regression; require at least 2 consecutive starts with <7 hits allowed before treating ERA as predictive. (N=1, insufficient to establish rule.)",
+    "sample_size_warning": "N=1, insufficient to establish rule \u2014 one Cole implosion does not confirm a pattern, but worth flagging that TJ-return workload management may create start-to-start variance that season ERA obscures.",
+    "status": "PENDING_REVIEW"
   }
 ]

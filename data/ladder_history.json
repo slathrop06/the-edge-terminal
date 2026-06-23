@@ -1,9 +1,17 @@
 {
-  "current_streak": 1,
+  "current_streak": 2,
   "longest_streak": 8,
   "completed_climbs": 0,
   "target": 10,
   "history": [
+    {
+      "date": "2026-06-22",
+      "pick_id": "20260622-MLB-HOU-TOR-TOTAL",
+      "pick": "Under 7.0",
+      "game": "HOU @ TOR",
+      "status": "WIN",
+      "after_streak": 2
+    },
     {
       "date": "2026-06-21",
       "pick_id": "20260621-MLB-CIN-NYY-ML",
@@ -229,5 +237,5 @@
       "after_streak": 1
     }
   ],
-  "updated_at": "2026-06-21T19:01:15.749045-04:00"
+  "updated_at": "2026-06-23T02:57:30.561868-04:00"
 }

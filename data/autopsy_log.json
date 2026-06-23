@@ -1,5 +1,31 @@
 [
   {
+    "id": "20260622-MLB-NYY-DET-TOTAL",
+    "date": "2026-06-22",
+    "pick": "Under 7.5",
+    "game": "NYY @ DET",
+    "odds": "-105",
+    "result_score": "NYY 3 \u00b7 DET 5",
+    "classification": "MODEL",
+    "post_mortem": "The entire thesis rested on Cole being the Cole of his last five starts \u2014 but he was never sharp, surrendering 5 runs on 9 hits in just 4.1 innings. Detroit put up 3 in the 3rd (McKinstry triple, RBI singles by Torkelson and Keith), added McGonigle's RBI double in the 4th, and Greene's 422-foot homer in the 5th to make it 5-1 before the 6th inning. The under was dead by the 5th. This wasn't bad luck \u2014 the model over-indexed on Cole's season ERA (2.57) without accounting for the fact that he was pitching without Aaron Judge in the lineup to provide run support, on a Tigers team riding a 4-game win streak with real offensive momentum. Valdez, meanwhile, was the dominant pitcher the model assigned to Cole, going 6 innings of 1-run ball with 8 Ks. The pick was built on the wrong pitcher being the anchor.",
+    "candidate_rule": "Before backing an Under anchored on a specific starter's ERA, cross-check his last 2 starts for hit/contact quality (xwOBAcon, hard-hit rate) \u2014 a sub-3.00 ERA can mask a pitcher who is trending toward regression; require at least 2 consecutive starts with <7 hits allowed before treating ERA as predictive. (N=1, insufficient to establish rule.)",
+    "sample_size_warning": "N=1, insufficient to establish rule \u2014 one Cole implosion does not confirm a pattern, but worth flagging that TJ-return workload management may create start-to-start variance that season ERA obscures.",
+    "analyzed_at": "2026-06-23T02:57:30.551935-04:00"
+  },
+  {
+    "id": "20260622-MLB-CHW-CLE-TOTAL",
+    "date": "2026-06-22",
+    "pick": "Under 7.0",
+    "game": "CLE @ CHW",
+    "odds": "+100",
+    "result_score": "CLE 5 \u00b7 CHW 6",
+    "classification": "MODEL",
+    "post_mortem": "The entire thesis rested on Gavin Williams being the anchor \u2014 but he was already in a documented June meltdown before this game was even picked. Williams had surrendered 7 ER in 5 innings to Milwaukee just days earlier, and his manager said he 'wasn't himself.' On June 22, he did it again: 7 runs, 7 hits in 5 innings (both season highs), with the White Sox scoring 3 early to go up 3-0. The Guardians clawed back to tie it, but a Tim Herrin homer to Randal Grichuk broke it open late, and CHW won 6-5. The model leaned on a 3.83 ERA that was a lagging season stat \u2014 Williams had a 4.65 ERA over his last 10 starts and had given up 6 HR in his last 3 June outings. The under was dead on arrival because the pick's anchor was already broken.",
+    "candidate_rule": "Flag any under pick where the primary pitcher anchor has allowed 4+ ER in 2 of their last 3 starts \u2014 season ERA is a lagging stat and recent form should override it as the primary thesis driver; validate with N\u226520 before hardening.",
+    "sample_size_warning": "N=1, insufficient to establish rule \u2014 this is a directional signal only, not a validated pattern.",
+    "analyzed_at": "2026-06-23T02:57:14.334928-04:00"
+  },
+  {
     "id": "20260621-MLB-MIL-ATL-PROP-JACKSONCHOURIO",
     "date": "2026-06-21",
     "pick": "Jackson Chourio TB Over 1.5",
