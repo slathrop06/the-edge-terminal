@@ -1,7 +1,482 @@
 {
   "version": 1,
-  "updated_at": "2026-06-23T06:08:53.908699-04:00",
+  "updated_at": "2026-06-23T13:19:24.268540-04:00",
   "picks": [
+    {
+      "id": "20260623-MLB-MIL-CIN-PROP-JACKSONCHOURIO",
+      "sport": "MLB",
+      "game": "MIL @ CIN",
+      "first_pitch_iso": "2026-06-23T23:10Z",
+      "pick": "Jackson Chourio TBs Over 1.5",
+      "best_book": "BetMGM",
+      "best_odds": "-120",
+      "book_prices": {
+        "draftkings": "-110",
+        "fanduel": "N/A",
+        "betmgm": "-120"
+      },
+      "book_links": {
+        "draftkings": "https://sportsbook.draftkings.com/?outcomes=0QA345234917%232190353264_13L84240Q1-44994196Q20",
+        "betmgm": "https://sports.nj.betmgm.com/en/sports?options=2:7808429-200869033-761192219&type=Single",
+        "fanduel": "https://sportsbook.fanduel.com/baseball/mlb/milwaukee-brewers-%28b-sproat%29-%40-cincinnati-reds-%28n-lodolo%29-35747152"
+      },
+      "market": "PROP",
+      "confidence": 3,
+      "units": 1.0,
+      "win_probability": 0.57,
+      "ladder_designation": false,
+      "data_confidence": 0.76,
+      "rules_passed": [
+        "max_juice",
+        "ladder_even_money",
+        "parlay_well_formed",
+        "confidence_units_match",
+        "data_confidence_floor",
+        "pick_type_allowed",
+        "mlb_hr_prop_check",
+        "mlb_pitcher_k_check",
+        "mlb_total_bases_check(soft)",
+        "mlb_hits_check",
+        "nba_player_prop_check",
+        "nhl_shots_check",
+        "mlb_run_line_check",
+        "mlb_under_bb_check",
+        "no_same_game_opposite"
+      ],
+      "locked": true,
+      "late_add": false,
+      "late_add_reason": "",
+      "bonus_pick": false,
+      "event_type": "",
+      "event_name": "",
+      "legs": [],
+      "headline": "Chourio vs. a struggling Lodolo at hitter-friendly GABP \u2014 the XBH upside is real.",
+      "the_thesis": "Jackson Chourio has been one of the Brewers' most exciting young players, and tonight he faces a favorable matchup against Nick Lodolo at Great American Ball Park. Lodolo has struggled mightily with a 6.12 ERA, 1.59 WHIP, and a troubling 1.71 HR/9. He's leaving pitches over the plate, and Chourio has the bat speed to punish mistakes.\n\nGreat American Ball Park is one of the most hitter-friendly environments in baseball with a 1.06 runs factor and 1.18 HR factor. The park's dimensions favor right-handed power hitters, and Chourio has shown the ability to drive the ball to all fields. His total bases line at 1.5 requires just a double or two singles \u2014 a low bar against a struggling lefty in a bandbox.\n\nThe weather is perfect: 80 degrees, calm north winds at 5-8 mph, no precipitation. The conditions favor offense, and Chourio is in a prime spot to take advantage.",
+      "the_data": [
+        {
+          "label": "Lodolo ERA (season)",
+          "value": "6.12",
+          "context": "Struggling badly"
+        },
+        {
+          "label": "Lodolo HR/9 (season)",
+          "value": "1.71",
+          "context": "Elevated, concerning"
+        },
+        {
+          "label": "GABP PF (HR)",
+          "value": "1.18",
+          "context": "HR-boosting"
+        },
+        {
+          "label": "Chourio TB line",
+          "value": "1.5",
+          "context": "Low bar \u2014 double or 2 singles"
+        },
+        {
+          "label": "Weather",
+          "value": "80\u00b0F, calm winds",
+          "context": "Perfect hitting conditions"
+        }
+      ],
+      "the_market": "Line set at 1.5 with the over at -120 at BetMGM. DraftKings offers -110. The market respects Chourio's upside but the juice is reasonable for a favorable matchup.",
+      "weather_park": "Great American Ball Park at 80\u00b0F with calm north winds (5-8 mph). The park's 1.18 HR factor and perfect weather create an ideal hitting environment.",
+      "case_against": "Lodolo could have a bounce-back start \u2014 his stuff is better than his results suggest. Chourio could also go 0-for-4 against any pitcher on any given night. The -120 juice requires a 54.5% hit rate to break even.",
+      "what_were_betting_on": "Chourio's bat speed punishing Lodolo's mistakes in a hitter-friendly park with perfect weather.",
+      "scott_bot_quip": "Lodolo's HR/9 is 1.71 at GABP. Chourio just needs a double. The math is on our side.",
+      "ladder_note": "",
+      "date": "2026-06-23",
+      "status": "PEND",
+      "units_result": null,
+      "clv_cents": null,
+      "result_score": null,
+      "graded_at": null,
+      "slate_assessment": "15-game MLB slate with no NBA or NHL action. Two elite pitching matchups stand out: Mize vs. Rod\u00f3n in Detroit and Messick vs. Burke in Chicago. Weather concerns at Target Field (90% precip) and Citi Field (70%) create risk. Multiple under-friendly spots in pitcher-friendly parks.",
+      "executive_summary": "Tuesday's 15-game MLB board is pitching-heavy with two matchups that jump off the page. Casey Mize, fresh off the IL and sporting a 2.58 ERA, hosts the Yankees at Comerica Park in perfect 77-degree weather with light winds \u2014 a classic under spot against Carlos Rod\u00f3n's walk-prone profile. In Chicago, Cleveland's Parker Messick (2.70 ERA, ROY candidate) faces a White Sox lineup that's been quietly productive but vulnerable to elite lefties. The prop slate offers value on Messick's strikeout under given Chicago's contact-oriented approach. The ladder rides with the Tigers-Yankees Under 7.5 at FanDuel \u2014 two quality arms, a pitcher-friendly park, and the market hasn't moved off the number.",
+      "slate_analysis": "The board features 15 MLB games spread across the afternoon and evening windows, with no NBA or NHL to supplement. The pricing climate is tight \u2014 most totals sit between 8 and 9, and the moneylines are clustered near pick'em territory in several spots. Weather is the wildcard: Target Field faces a 90% precipitation chance that could postpone Dodgers-Twins entirely, and Citi Field's 70% storm risk threatens Cubs-Mets. The indoor games (Toronto, Tampa, Miami) and clear-weather outdoor spots (Detroit, Pittsburgh, Cincinnati, Chicago South Side, St. Louis, West Coast) are the safer plays.\n\nThe top candidates that earned hard looks: (1) Tigers-Yankees Under 7.5 at Comerica \u2014 Mize's 2.58 ERA and 0.52 HR/9 against Rod\u00f3n's 27.2% K rate but 13.2% BB rate creates a low-scoring profile in a pitcher-friendly park with perfect weather. (2) Guardians-White Sox Under 7.0 \u2014 Messick's 2.70 ERA and 1.10 WHIP against Burke's solid 3.89 ERA in a neutral park. (3) Phillies -1.5 at Washington \u2014 Luzardo's 26.6% K rate against Littell's 2.54 HR/9 is a mismatch, but the -104 juice on the run line is borderline. (4) Parker Messick Ks Under 6.5 \u2014 the White Sox have a contact-heavy approach and Messick's 26.4% K rate doesn't scream blowout strikeout upside. (5) Rays ML vs. Royals \u2014 McClanahan's 3.33 ERA against Avila's 5.50 ERA and 13.9% BB rate is a clear edge, but -188 juice exceeds our straight-bet cap. (6) Giants ML vs. Athletics \u2014 Robbie Ray vs. Aaron Civale at Oracle Park favors the home side, but -134 is playable.\n\nWhat got cut: Rays ML was the most painful pass \u2014 McClanahan is clearly the better arm, but -188 juice violates the max-juice rule. Phillies -1.5 at -104 is close but the 59% precipitation chance at Nationals Park adds variance we don't need. Dodgers-Twins is a weather postponement risk at 90% precip \u2014 can't touch it. Cubs-Mets has two shaky starters (Senga's 9.00 ERA, Cabrera's 5.21 ERA) but the 70% storm risk at Citi Field makes it untouchable. The Coors game (Red Sox at Rockies) has storm potential rising through the evening and Sean Sullivan's 10.29 ERA makes the under impossible to trust.\n\nThe final six picks: Tigers-Yankees Under 7.5 (ladder pick \u2014 best floor, two quality arms, perfect weather, pitcher-friendly park), Guardians-White Sox Under 7.0 (Messick is elite, Burke is solid, low-scoring environment), Giants ML (Ray vs. Civale at Oracle Park is a clear pitching edge), Phillies ML (Luzardo vs. Littell is a mismatch, weather risk is front-loaded), Parker Messick Ks Under 6.5 (White Sox contact approach limits K upside), and Jackson Chourio Total Bases Over 1.5 (facing a struggling Lodolo at hitter-friendly GABP). The ladder rides with the Tigers-Yankees Under \u2014 it's the highest-floor play on the board with two quality starters, a pitcher-friendly park, and perfect weather conditions.",
+      "slate_vibe": "NORMAL",
+      "published_at": "2026-06-23T13:19:24.268455-04:00"
+    },
+    {
+      "id": "20260623-MLB-CLE-CHW-PROP-PARKERMESSICK",
+      "sport": "MLB",
+      "game": "CLE @ CHW",
+      "first_pitch_iso": "2026-06-23T23:40Z",
+      "pick": "Parker Messick Ks Under 6.5",
+      "best_book": "FanDuel",
+      "best_odds": "-104",
+      "book_prices": {
+        "draftkings": "-105",
+        "fanduel": "-104",
+        "betmgm": "-105"
+      },
+      "book_links": {
+        "fanduel": "https://sportsbook.fanduel.com/baseball/mlb/cleveland-guardians-%28p-messick%29-%40-chicago-white-sox-%28s-burke%29-35747157",
+        "draftkings": "https://sportsbook.draftkings.com/event/34307999",
+        "betmgm": "https://sports.nj.betmgm.com/en/sports/events/cleveland-guardians-at-chicago-white-sox-19734621"
+      },
+      "market": "PROP",
+      "confidence": 3,
+      "units": 1.0,
+      "win_probability": 0.58,
+      "ladder_designation": false,
+      "data_confidence": 0.8,
+      "rules_passed": [
+        "max_juice",
+        "ladder_even_money",
+        "parlay_well_formed",
+        "confidence_units_match",
+        "data_confidence_floor",
+        "pick_type_allowed",
+        "mlb_hr_prop_check",
+        "mlb_pitcher_k_check(soft)",
+        "mlb_total_bases_check",
+        "mlb_hits_check",
+        "nba_player_prop_check",
+        "nhl_shots_check",
+        "mlb_run_line_check",
+        "mlb_under_bb_check",
+        "no_same_game_opposite"
+      ],
+      "locked": true,
+      "late_add": false,
+      "late_add_reason": "",
+      "bonus_pick": false,
+      "event_type": "",
+      "event_name": "",
+      "legs": [],
+      "headline": "Messick's K rate is elite, but the White Sox make contact \u2014 the under has value.",
+      "the_thesis": "Parker Messick has been dominant this season with a 26.4% K rate and 91 strikeouts through his first full year. But the White Sox present a different challenge than most opponents. Chicago's offense has been contact-oriented, putting balls in play rather than swinging through pitches. Their 24.0% K rate against lefties is below league average, suggesting they can make contact against southpaws.\n\nMessick's K/9 rate (approximately 9.5) suggests he averages around 6 strikeouts per start in a typical 6-inning outing. But against a contact-heavy lineup, that number could dip. The White Sox have the bats to put pressure on Messick without necessarily striking out \u2014 they'll foul off pitches, work counts, and put balls in play.\n\nThe line at 6.5 is set at the high end of Messick's range. We're betting on the White Sox's contact approach limiting his strikeout upside to 6 or fewer.",
+      "the_data": [
+        {
+          "label": "Messick K% (season)",
+          "value": "26.4%",
+          "context": "Elite"
+        },
+        {
+          "label": "Messick K/9 (approx)",
+          "value": "9.5",
+          "context": "~6 Ks per 6 IP"
+        },
+        {
+          "label": "CHW K% vs LHP",
+          "value": "24.0%",
+          "context": "Below league average"
+        },
+        {
+          "label": "CHW approach",
+          "value": "Contact-oriented",
+          "context": "Put balls in play"
+        }
+      ],
+      "the_market": "Line set at 6.5 with the under at -104 across all three books. The market respects Messick's K rate but the juice is nearly even, suggesting uncertainty about the number.",
+      "weather_park": "Guaranteed Rate Field at 69\u00b0F. Weather is not a factor for strikeouts.",
+      "case_against": "Messick has been dominant all season and could simply overpower the White Sox. His 26.4% K rate is elite, and he's shown the ability to rack up strikeouts against any lineup. The White Sox could also swing and miss more than usual if Messick is on.",
+      "what_were_betting_on": "The White Sox's contact-oriented approach limiting Messick's strikeout upside to 6 or fewer.",
+      "scott_bot_quip": "Messick is elite. The White Sox are stubborn. Something has to give \u2014 we're betting on contact.",
+      "ladder_note": "",
+      "date": "2026-06-23",
+      "status": "PEND",
+      "units_result": null,
+      "clv_cents": null,
+      "result_score": null,
+      "graded_at": null,
+      "slate_assessment": "15-game MLB slate with no NBA or NHL action. Two elite pitching matchups stand out: Mize vs. Rod\u00f3n in Detroit and Messick vs. Burke in Chicago. Weather concerns at Target Field (90% precip) and Citi Field (70%) create risk. Multiple under-friendly spots in pitcher-friendly parks.",
+      "executive_summary": "Tuesday's 15-game MLB board is pitching-heavy with two matchups that jump off the page. Casey Mize, fresh off the IL and sporting a 2.58 ERA, hosts the Yankees at Comerica Park in perfect 77-degree weather with light winds \u2014 a classic under spot against Carlos Rod\u00f3n's walk-prone profile. In Chicago, Cleveland's Parker Messick (2.70 ERA, ROY candidate) faces a White Sox lineup that's been quietly productive but vulnerable to elite lefties. The prop slate offers value on Messick's strikeout under given Chicago's contact-oriented approach. The ladder rides with the Tigers-Yankees Under 7.5 at FanDuel \u2014 two quality arms, a pitcher-friendly park, and the market hasn't moved off the number.",
+      "slate_analysis": "The board features 15 MLB games spread across the afternoon and evening windows, with no NBA or NHL to supplement. The pricing climate is tight \u2014 most totals sit between 8 and 9, and the moneylines are clustered near pick'em territory in several spots. Weather is the wildcard: Target Field faces a 90% precipitation chance that could postpone Dodgers-Twins entirely, and Citi Field's 70% storm risk threatens Cubs-Mets. The indoor games (Toronto, Tampa, Miami) and clear-weather outdoor spots (Detroit, Pittsburgh, Cincinnati, Chicago South Side, St. Louis, West Coast) are the safer plays.\n\nThe top candidates that earned hard looks: (1) Tigers-Yankees Under 7.5 at Comerica \u2014 Mize's 2.58 ERA and 0.52 HR/9 against Rod\u00f3n's 27.2% K rate but 13.2% BB rate creates a low-scoring profile in a pitcher-friendly park with perfect weather. (2) Guardians-White Sox Under 7.0 \u2014 Messick's 2.70 ERA and 1.10 WHIP against Burke's solid 3.89 ERA in a neutral park. (3) Phillies -1.5 at Washington \u2014 Luzardo's 26.6% K rate against Littell's 2.54 HR/9 is a mismatch, but the -104 juice on the run line is borderline. (4) Parker Messick Ks Under 6.5 \u2014 the White Sox have a contact-heavy approach and Messick's 26.4% K rate doesn't scream blowout strikeout upside. (5) Rays ML vs. Royals \u2014 McClanahan's 3.33 ERA against Avila's 5.50 ERA and 13.9% BB rate is a clear edge, but -188 juice exceeds our straight-bet cap. (6) Giants ML vs. Athletics \u2014 Robbie Ray vs. Aaron Civale at Oracle Park favors the home side, but -134 is playable.\n\nWhat got cut: Rays ML was the most painful pass \u2014 McClanahan is clearly the better arm, but -188 juice violates the max-juice rule. Phillies -1.5 at -104 is close but the 59% precipitation chance at Nationals Park adds variance we don't need. Dodgers-Twins is a weather postponement risk at 90% precip \u2014 can't touch it. Cubs-Mets has two shaky starters (Senga's 9.00 ERA, Cabrera's 5.21 ERA) but the 70% storm risk at Citi Field makes it untouchable. The Coors game (Red Sox at Rockies) has storm potential rising through the evening and Sean Sullivan's 10.29 ERA makes the under impossible to trust.\n\nThe final six picks: Tigers-Yankees Under 7.5 (ladder pick \u2014 best floor, two quality arms, perfect weather, pitcher-friendly park), Guardians-White Sox Under 7.0 (Messick is elite, Burke is solid, low-scoring environment), Giants ML (Ray vs. Civale at Oracle Park is a clear pitching edge), Phillies ML (Luzardo vs. Littell is a mismatch, weather risk is front-loaded), Parker Messick Ks Under 6.5 (White Sox contact approach limits K upside), and Jackson Chourio Total Bases Over 1.5 (facing a struggling Lodolo at hitter-friendly GABP). The ladder rides with the Tigers-Yankees Under \u2014 it's the highest-floor play on the board with two quality starters, a pitcher-friendly park, and perfect weather conditions.",
+      "slate_vibe": "NORMAL",
+      "published_at": "2026-06-23T13:19:24.268359-04:00"
+    },
+    {
+      "id": "20260623-MLB-ATH-SF-ML",
+      "sport": "MLB",
+      "game": "ATH @ SF",
+      "first_pitch_iso": "2026-06-24T01:45Z",
+      "pick": "Giants ML",
+      "best_book": "FanDuel",
+      "best_odds": "-134",
+      "book_prices": {
+        "draftkings": "-142",
+        "fanduel": "-134",
+        "betmgm": "-145"
+      },
+      "book_links": {
+        "fanduel": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.587313498&selectionId=29178",
+        "draftkings": "https://sportsbook.draftkings.com/?outcomes=0ML85242391_1",
+        "betmgm": "https://sports.nj.betmgm.com/en/sports?options=19734626-1537048162-2236507608&type=Single"
+      },
+      "market": "ML",
+      "confidence": 4,
+      "units": 1.5,
+      "win_probability": 0.6,
+      "ladder_designation": false,
+      "data_confidence": 0.78,
+      "rules_passed": [
+        "max_juice",
+        "ladder_even_money",
+        "parlay_well_formed",
+        "confidence_units_match",
+        "data_confidence_floor",
+        "pick_type_allowed",
+        "mlb_hr_prop_check",
+        "mlb_pitcher_k_check",
+        "mlb_total_bases_check",
+        "mlb_hits_check",
+        "nba_player_prop_check",
+        "nhl_shots_check",
+        "mlb_run_line_check",
+        "mlb_under_bb_check",
+        "no_same_game_opposite"
+      ],
+      "locked": true,
+      "late_add": false,
+      "late_add_reason": "",
+      "bonus_pick": false,
+      "event_type": "",
+      "event_name": "",
+      "legs": [],
+      "headline": "Robbie Ray vs. Aaron Civale at Oracle Park \u2014 the pitching edge is clear.",
+      "the_thesis": "Robbie Ray has been solid if not spectacular for the Giants with a 4.07 ERA and 22.0% K rate. His 11.3% BB rate is elevated, but he's been effective at limiting damage. Aaron Civale, on the other hand, has struggled with a 4.91 ERA, 1.59 WHIP, and a troubling 1.86 HR/9. The Athletics' offense has been productive (4.67 R/G), but they're facing a pitcher who can miss bats in a park that suppresses home runs.\n\nOracle Park is one of the most pitcher-friendly environments in baseball with a 0.93 runs park factor and 0.85 HR factor. The Giants' offense has been inconsistent (4.12 R/G), but they have the lineup to take advantage of Civale's struggles. Luis Arraez, Matt Chapman, and Rafael Devers provide a solid core that can manufacture runs without relying on the long ball.\n\nThe market has the Giants as -134 favorites at FanDuel, which implies about a 57% win probability. Our model sees them closer to 60%, giving us a small but meaningful edge.",
+      "the_data": [
+        {
+          "label": "Ray ERA (season)",
+          "value": "4.07",
+          "context": "Solid, not elite"
+        },
+        {
+          "label": "Civale ERA (season)",
+          "value": "4.91",
+          "context": "Struggling"
+        },
+        {
+          "label": "Civale HR/9 (season)",
+          "value": "1.86",
+          "context": "Elevated, concerning"
+        },
+        {
+          "label": "Oracle Park PF (HR)",
+          "value": "0.85",
+          "context": "HR-suppressing"
+        },
+        {
+          "label": "SF R/G (season)",
+          "value": "4.12",
+          "context": "Middle-of-the-pack"
+        }
+      ],
+      "the_market": "Giants opened as -134 favorites at FanDuel and have held. The market respects the pitching edge and the park factors. DraftKings and BetMGM are both at -142/-145, making FanDuel the clear best price.",
+      "weather_park": "Oracle Park is pitcher-friendly with a 0.93 runs factor and 0.85 HR factor. Weather is mild with no precipitation concerns.",
+      "case_against": "Ray's 11.3% BB rate could lead to trouble if he can't find the zone early. The Athletics have been productive offensively and could take advantage of any mistakes. The Giants' offense has been inconsistent.",
+      "what_were_betting_on": "Ray outpitching Civale, the Giants' lineup taking advantage of Civale's HR-prone profile, and Oracle Park suppressing any Athletics rallies.",
+      "scott_bot_quip": "Civale's HR/9 is 1.86. Oracle Park's HR factor is 0.85. Math is undefeated.",
+      "ladder_note": "",
+      "date": "2026-06-23",
+      "status": "PEND",
+      "units_result": null,
+      "clv_cents": null,
+      "result_score": null,
+      "graded_at": null,
+      "slate_assessment": "15-game MLB slate with no NBA or NHL action. Two elite pitching matchups stand out: Mize vs. Rod\u00f3n in Detroit and Messick vs. Burke in Chicago. Weather concerns at Target Field (90% precip) and Citi Field (70%) create risk. Multiple under-friendly spots in pitcher-friendly parks.",
+      "executive_summary": "Tuesday's 15-game MLB board is pitching-heavy with two matchups that jump off the page. Casey Mize, fresh off the IL and sporting a 2.58 ERA, hosts the Yankees at Comerica Park in perfect 77-degree weather with light winds \u2014 a classic under spot against Carlos Rod\u00f3n's walk-prone profile. In Chicago, Cleveland's Parker Messick (2.70 ERA, ROY candidate) faces a White Sox lineup that's been quietly productive but vulnerable to elite lefties. The prop slate offers value on Messick's strikeout under given Chicago's contact-oriented approach. The ladder rides with the Tigers-Yankees Under 7.5 at FanDuel \u2014 two quality arms, a pitcher-friendly park, and the market hasn't moved off the number.",
+      "slate_analysis": "The board features 15 MLB games spread across the afternoon and evening windows, with no NBA or NHL to supplement. The pricing climate is tight \u2014 most totals sit between 8 and 9, and the moneylines are clustered near pick'em territory in several spots. Weather is the wildcard: Target Field faces a 90% precipitation chance that could postpone Dodgers-Twins entirely, and Citi Field's 70% storm risk threatens Cubs-Mets. The indoor games (Toronto, Tampa, Miami) and clear-weather outdoor spots (Detroit, Pittsburgh, Cincinnati, Chicago South Side, St. Louis, West Coast) are the safer plays.\n\nThe top candidates that earned hard looks: (1) Tigers-Yankees Under 7.5 at Comerica \u2014 Mize's 2.58 ERA and 0.52 HR/9 against Rod\u00f3n's 27.2% K rate but 13.2% BB rate creates a low-scoring profile in a pitcher-friendly park with perfect weather. (2) Guardians-White Sox Under 7.0 \u2014 Messick's 2.70 ERA and 1.10 WHIP against Burke's solid 3.89 ERA in a neutral park. (3) Phillies -1.5 at Washington \u2014 Luzardo's 26.6% K rate against Littell's 2.54 HR/9 is a mismatch, but the -104 juice on the run line is borderline. (4) Parker Messick Ks Under 6.5 \u2014 the White Sox have a contact-heavy approach and Messick's 26.4% K rate doesn't scream blowout strikeout upside. (5) Rays ML vs. Royals \u2014 McClanahan's 3.33 ERA against Avila's 5.50 ERA and 13.9% BB rate is a clear edge, but -188 juice exceeds our straight-bet cap. (6) Giants ML vs. Athletics \u2014 Robbie Ray vs. Aaron Civale at Oracle Park favors the home side, but -134 is playable.\n\nWhat got cut: Rays ML was the most painful pass \u2014 McClanahan is clearly the better arm, but -188 juice violates the max-juice rule. Phillies -1.5 at -104 is close but the 59% precipitation chance at Nationals Park adds variance we don't need. Dodgers-Twins is a weather postponement risk at 90% precip \u2014 can't touch it. Cubs-Mets has two shaky starters (Senga's 9.00 ERA, Cabrera's 5.21 ERA) but the 70% storm risk at Citi Field makes it untouchable. The Coors game (Red Sox at Rockies) has storm potential rising through the evening and Sean Sullivan's 10.29 ERA makes the under impossible to trust.\n\nThe final six picks: Tigers-Yankees Under 7.5 (ladder pick \u2014 best floor, two quality arms, perfect weather, pitcher-friendly park), Guardians-White Sox Under 7.0 (Messick is elite, Burke is solid, low-scoring environment), Giants ML (Ray vs. Civale at Oracle Park is a clear pitching edge), Phillies ML (Luzardo vs. Littell is a mismatch, weather risk is front-loaded), Parker Messick Ks Under 6.5 (White Sox contact approach limits K upside), and Jackson Chourio Total Bases Over 1.5 (facing a struggling Lodolo at hitter-friendly GABP). The ladder rides with the Tigers-Yankees Under \u2014 it's the highest-floor play on the board with two quality starters, a pitcher-friendly park, and perfect weather conditions.",
+      "slate_vibe": "NORMAL",
+      "published_at": "2026-06-23T13:19:24.268250-04:00"
+    },
+    {
+      "id": "20260623-MLB-CLE-CHW-TOTAL",
+      "sport": "MLB",
+      "game": "CLE @ CHW",
+      "first_pitch_iso": "2026-06-23T23:40Z",
+      "pick": "Under 7.0",
+      "best_book": "FanDuel",
+      "best_odds": "-104",
+      "book_prices": {
+        "draftkings": "-105",
+        "fanduel": "-104",
+        "betmgm": "-105"
+      },
+      "book_links": {
+        "fanduel": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.587399862&selectionId=7017906",
+        "draftkings": "https://sportsbook.draftkings.com/?outcomes=0OU85242320U700_3",
+        "betmgm": "https://sports.nj.betmgm.com/en/sports?options=19734621-1537047684-2236506562&type=Single"
+      },
+      "market": "TOTAL",
+      "confidence": 4,
+      "units": 1.5,
+      "win_probability": 0.59,
+      "ladder_designation": false,
+      "data_confidence": 0.82,
+      "rules_passed": [
+        "max_juice",
+        "ladder_even_money",
+        "parlay_well_formed",
+        "confidence_units_match",
+        "data_confidence_floor",
+        "pick_type_allowed",
+        "mlb_hr_prop_check",
+        "mlb_pitcher_k_check",
+        "mlb_total_bases_check",
+        "mlb_hits_check",
+        "nba_player_prop_check",
+        "nhl_shots_check",
+        "mlb_run_line_check",
+        "mlb_under_bb_check",
+        "no_same_game_opposite"
+      ],
+      "locked": true,
+      "late_add": false,
+      "late_add_reason": "",
+      "bonus_pick": false,
+      "event_type": "",
+      "event_name": "",
+      "legs": [],
+      "headline": "ROY candidate Messick faces a solid Burke in a low-scoring environment \u2014 the number is right.",
+      "the_thesis": "Parker Messick has been one of the best stories in baseball this season. The Guardians' lefty is a legitimate Rookie of the Year candidate with a 2.70 ERA, 1.10 WHIP, and 91 strikeouts through his first full season. He came within three outs of a no-hitter against the Orioles in April and has allowed four or more runs just twice all year. His 26.4% K rate and 8.1% BB rate show a pitcher who can miss bats and limit free passes.\n\nSean Burke has been quietly effective for the White Sox with a 3.89 ERA and 24.0% K rate. He's not elite, but he's competent \u2014 and competent is enough when you're facing a Cleveland offense that ranks middle-of-the-pack in runs per game (3.99). The White Sox have been surprisingly productive offensively (4.66 R/G), but they're facing a pitcher who's been dominant against everyone.\n\nGuaranteed Rate Field is one of the cooler environments on the slate at 69 degrees with a steady 10 mph north wind. The park's HR-boosting factor (1.08) is a concern, but Messick's 0.84 HR/9 suggests he can neutralize that. The total at 7.0 is the lowest on the board, and the market is comfortable with it.",
+      "the_data": [
+        {
+          "label": "Messick ERA (season)",
+          "value": "2.70",
+          "context": "Elite, ROY candidate"
+        },
+        {
+          "label": "Messick WHIP (season)",
+          "value": "1.10",
+          "context": "Above-average"
+        },
+        {
+          "label": "Burke ERA (season)",
+          "value": "3.89",
+          "context": "Solid, not elite"
+        },
+        {
+          "label": "CLE R/G (season)",
+          "value": "3.99",
+          "context": "Middle-of-the-pack"
+        },
+        {
+          "label": "Weather",
+          "value": "69\u00b0F, 10 mph N wind",
+          "context": "Cool, suppresses offense"
+        }
+      ],
+      "the_market": "Total opened at 7.0 and has held. FanDuel offers the best under price at -104. The low total reflects the market's respect for both starters, particularly Messick's dominance.",
+      "weather_park": "Guaranteed Rate Field at 69\u00b0F with a steady 10 mph north wind. The cooler temperature suppresses offense despite the park's HR-boosting factor.",
+      "case_against": "The White Sox have been surprisingly productive offensively, and Burke's 1.11 HR/9 could lead to a crooked inning if he hangs one. Messick is still a rookie and could have an off night. The park's HR factor is a concern.",
+      "what_were_betting_on": "Messick continuing his dominant season, Burke keeping the Guardians' offense in check, and the cool weather suppressing any late-game rallies.",
+      "scott_bot_quip": "Messick almost threw a no-hitter in April. The White Sox are not the Orioles, but they're not far off.",
+      "ladder_note": "",
+      "date": "2026-06-23",
+      "status": "PEND",
+      "units_result": null,
+      "clv_cents": null,
+      "result_score": null,
+      "graded_at": null,
+      "slate_assessment": "15-game MLB slate with no NBA or NHL action. Two elite pitching matchups stand out: Mize vs. Rod\u00f3n in Detroit and Messick vs. Burke in Chicago. Weather concerns at Target Field (90% precip) and Citi Field (70%) create risk. Multiple under-friendly spots in pitcher-friendly parks.",
+      "executive_summary": "Tuesday's 15-game MLB board is pitching-heavy with two matchups that jump off the page. Casey Mize, fresh off the IL and sporting a 2.58 ERA, hosts the Yankees at Comerica Park in perfect 77-degree weather with light winds \u2014 a classic under spot against Carlos Rod\u00f3n's walk-prone profile. In Chicago, Cleveland's Parker Messick (2.70 ERA, ROY candidate) faces a White Sox lineup that's been quietly productive but vulnerable to elite lefties. The prop slate offers value on Messick's strikeout under given Chicago's contact-oriented approach. The ladder rides with the Tigers-Yankees Under 7.5 at FanDuel \u2014 two quality arms, a pitcher-friendly park, and the market hasn't moved off the number.",
+      "slate_analysis": "The board features 15 MLB games spread across the afternoon and evening windows, with no NBA or NHL to supplement. The pricing climate is tight \u2014 most totals sit between 8 and 9, and the moneylines are clustered near pick'em territory in several spots. Weather is the wildcard: Target Field faces a 90% precipitation chance that could postpone Dodgers-Twins entirely, and Citi Field's 70% storm risk threatens Cubs-Mets. The indoor games (Toronto, Tampa, Miami) and clear-weather outdoor spots (Detroit, Pittsburgh, Cincinnati, Chicago South Side, St. Louis, West Coast) are the safer plays.\n\nThe top candidates that earned hard looks: (1) Tigers-Yankees Under 7.5 at Comerica \u2014 Mize's 2.58 ERA and 0.52 HR/9 against Rod\u00f3n's 27.2% K rate but 13.2% BB rate creates a low-scoring profile in a pitcher-friendly park with perfect weather. (2) Guardians-White Sox Under 7.0 \u2014 Messick's 2.70 ERA and 1.10 WHIP against Burke's solid 3.89 ERA in a neutral park. (3) Phillies -1.5 at Washington \u2014 Luzardo's 26.6% K rate against Littell's 2.54 HR/9 is a mismatch, but the -104 juice on the run line is borderline. (4) Parker Messick Ks Under 6.5 \u2014 the White Sox have a contact-heavy approach and Messick's 26.4% K rate doesn't scream blowout strikeout upside. (5) Rays ML vs. Royals \u2014 McClanahan's 3.33 ERA against Avila's 5.50 ERA and 13.9% BB rate is a clear edge, but -188 juice exceeds our straight-bet cap. (6) Giants ML vs. Athletics \u2014 Robbie Ray vs. Aaron Civale at Oracle Park favors the home side, but -134 is playable.\n\nWhat got cut: Rays ML was the most painful pass \u2014 McClanahan is clearly the better arm, but -188 juice violates the max-juice rule. Phillies -1.5 at -104 is close but the 59% precipitation chance at Nationals Park adds variance we don't need. Dodgers-Twins is a weather postponement risk at 90% precip \u2014 can't touch it. Cubs-Mets has two shaky starters (Senga's 9.00 ERA, Cabrera's 5.21 ERA) but the 70% storm risk at Citi Field makes it untouchable. The Coors game (Red Sox at Rockies) has storm potential rising through the evening and Sean Sullivan's 10.29 ERA makes the under impossible to trust.\n\nThe final six picks: Tigers-Yankees Under 7.5 (ladder pick \u2014 best floor, two quality arms, perfect weather, pitcher-friendly park), Guardians-White Sox Under 7.0 (Messick is elite, Burke is solid, low-scoring environment), Giants ML (Ray vs. Civale at Oracle Park is a clear pitching edge), Phillies ML (Luzardo vs. Littell is a mismatch, weather risk is front-loaded), Parker Messick Ks Under 6.5 (White Sox contact approach limits K upside), and Jackson Chourio Total Bases Over 1.5 (facing a struggling Lodolo at hitter-friendly GABP). The ladder rides with the Tigers-Yankees Under \u2014 it's the highest-floor play on the board with two quality starters, a pitcher-friendly park, and perfect weather conditions.",
+      "slate_vibe": "NORMAL",
+      "published_at": "2026-06-23T13:19:24.268174-04:00"
+    },
+    {
+      "id": "20260623-MLB-NYY-DET-TOTAL",
+      "sport": "MLB",
+      "game": "NYY @ DET",
+      "first_pitch_iso": "2026-06-23T22:40Z",
+      "pick": "Under 7.5",
+      "best_book": "FanDuel",
+      "best_odds": "+102",
+      "book_prices": {
+        "draftkings": "-114",
+        "fanduel": "+102",
+        "betmgm": "-115"
+      },
+      "book_links": {
+        "fanduel": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.587398320&selectionId=7017906",
+        "draftkings": "https://sportsbook.draftkings.com/?outcomes=0OU85242205U800_3",
+        "betmgm": "https://sports.nj.betmgm.com/en/sports?options=19735077-1537061226-2236545355&type=Single"
+      },
+      "market": "TOTAL",
+      "confidence": 5,
+      "units": 2.0,
+      "win_probability": 0.61,
+      "ladder_designation": true,
+      "data_confidence": 0.85,
+      "rules_passed": [
+        "max_juice",
+        "ladder_even_money",
+        "parlay_well_formed",
+        "confidence_units_match",
+        "data_confidence_floor",
+        "pick_type_allowed",
+        "mlb_hr_prop_check",
+        "mlb_pitcher_k_check",
+        "mlb_total_bases_check",
+        "mlb_hits_check",
+        "nba_player_prop_check",
+        "nhl_shots_check",
+        "mlb_run_line_check",
+        "mlb_under_bb_check",
+        "no_same_game_opposite"
+      ],
+      "locked": true,
+      "late_add": false,
+      "late_add_reason": "",
+      "bonus_pick": false,
+      "event_type": "",
+      "event_name": "",
+      "legs": [],
+      "headline": "Two quality arms in a pitcher-friendly park with perfect weather \u2014 the floor is the ceiling.",
+      "the_thesis": "Casey Mize has been Detroit's best story this season. After returning from his second IL stint for a right adductor strain, the 29-year-old has settled back into form with a 2.58 ERA and an elite 0.52 HR/9 \u2014 that's top-10 in baseball and exactly what you want at Comerica Park, where the deep center field dimensions suppress fly balls. His 25.2% K rate and 6.3% BB rate show a pitcher in full command of the zone.\n\nCarlos Rod\u00f3n brings swing-and-miss stuff (27.2% K rate) but also a troubling 13.2% BB rate that keeps his pitch counts elevated and limits his ability to go deep into games. His 3.50 ERA is solid but not dominant, and the Yankees' offense has been inconsistent on the road. The key here is that both pitchers have the stuff to keep runs off the board, but neither is likely to go 7+ innings \u2014 which means we're betting on quality innings from both starters and clean handoffs to the bullpens.\n\nThe weather is perfect: 77 degrees, light north winds at 6-8 mph, zero precipitation probability. Comerica's park factors (0.96 runs, 0.95 HR) already suppress scoring, and the conditions tonight only reinforce that. The market opened at 7.5 and hasn't moved despite the public's tendency to lean overs. That's a tell \u2014 the sharps are comfortable with this number.",
+      "the_data": [
+        {
+          "label": "Mize ERA (season)",
+          "value": "2.58",
+          "context": "Elite, top-15 in MLB"
+        },
+        {
+          "label": "Mize HR/9 (season)",
+          "value": "0.52",
+          "context": "Top-10 in baseball"
+        },
+        {
+          "label": "Rod\u00f3n BB% (season)",
+          "value": "13.2%",
+          "context": "Elevated, limits deep outings"
+        },
+        {
+          "label": "Comerica Park PF (runs)",
+          "value": "0.96",
+          "context": "Pitcher-friendly"
+        },
+        {
+          "label": "Weather",
+          "value": "77\u00b0F, 6-8 mph N wind",
+          "context": "Perfect conditions"
+        },
+        {
+          "label": "Total movement",
+          "value": "Opened 7.5, held",
+          "context": "Sharp money comfortable"
+        }
+      ],
+      "the_market": "Total opened at 7.5 and has held across all three books. FanDuel offers the best under price at +102, while DraftKings and BetMGM are both at -114/-115. The lack of movement despite public over tendencies suggests sharp money is comfortable with the under.",
+      "weather_park": "Comerica Park at 77\u00b0F with light north winds (6-8 mph) and zero precipitation probability. Park factors (0.96 runs, 0.95 HR) already suppress scoring; tonight's conditions reinforce that.",
+      "case_against": "Rod\u00f3n's walk rate could lead to an early exit, exposing the Yankees' bullpen to a Tigers lineup that's been quietly productive at home. If Mize's adductor flares up again and he exits early, the Tigers' pen has been inconsistent. The under also requires both bullpens to hold, which is never guaranteed.",
+      "what_were_betting_on": "Both starters going 5+ innings with limited damage, clean bullpen handoffs, and the park/weather combination suppressing any late-game rallies.",
+      "scott_bot_quip": "Two quality arms, a pitcher's park, and perfect weather. The sharps are already here. We don't have to be heroes.",
+      "ladder_note": "Best floor on the board. Two quality starters, pitcher-friendly park, perfect weather, and the market hasn't moved off 7.5. This is the kind of spot where you trust the process.",
+      "date": "2026-06-23",
+      "status": "PEND",
+      "units_result": null,
+      "clv_cents": null,
+      "result_score": null,
+      "graded_at": null,
+      "slate_assessment": "15-game MLB slate with no NBA or NHL action. Two elite pitching matchups stand out: Mize vs. Rod\u00f3n in Detroit and Messick vs. Burke in Chicago. Weather concerns at Target Field (90% precip) and Citi Field (70%) create risk. Multiple under-friendly spots in pitcher-friendly parks.",
+      "executive_summary": "Tuesday's 15-game MLB board is pitching-heavy with two matchups that jump off the page. Casey Mize, fresh off the IL and sporting a 2.58 ERA, hosts the Yankees at Comerica Park in perfect 77-degree weather with light winds \u2014 a classic under spot against Carlos Rod\u00f3n's walk-prone profile. In Chicago, Cleveland's Parker Messick (2.70 ERA, ROY candidate) faces a White Sox lineup that's been quietly productive but vulnerable to elite lefties. The prop slate offers value on Messick's strikeout under given Chicago's contact-oriented approach. The ladder rides with the Tigers-Yankees Under 7.5 at FanDuel \u2014 two quality arms, a pitcher-friendly park, and the market hasn't moved off the number.",
+      "slate_analysis": "The board features 15 MLB games spread across the afternoon and evening windows, with no NBA or NHL to supplement. The pricing climate is tight \u2014 most totals sit between 8 and 9, and the moneylines are clustered near pick'em territory in several spots. Weather is the wildcard: Target Field faces a 90% precipitation chance that could postpone Dodgers-Twins entirely, and Citi Field's 70% storm risk threatens Cubs-Mets. The indoor games (Toronto, Tampa, Miami) and clear-weather outdoor spots (Detroit, Pittsburgh, Cincinnati, Chicago South Side, St. Louis, West Coast) are the safer plays.\n\nThe top candidates that earned hard looks: (1) Tigers-Yankees Under 7.5 at Comerica \u2014 Mize's 2.58 ERA and 0.52 HR/9 against Rod\u00f3n's 27.2% K rate but 13.2% BB rate creates a low-scoring profile in a pitcher-friendly park with perfect weather. (2) Guardians-White Sox Under 7.0 \u2014 Messick's 2.70 ERA and 1.10 WHIP against Burke's solid 3.89 ERA in a neutral park. (3) Phillies -1.5 at Washington \u2014 Luzardo's 26.6% K rate against Littell's 2.54 HR/9 is a mismatch, but the -104 juice on the run line is borderline. (4) Parker Messick Ks Under 6.5 \u2014 the White Sox have a contact-heavy approach and Messick's 26.4% K rate doesn't scream blowout strikeout upside. (5) Rays ML vs. Royals \u2014 McClanahan's 3.33 ERA against Avila's 5.50 ERA and 13.9% BB rate is a clear edge, but -188 juice exceeds our straight-bet cap. (6) Giants ML vs. Athletics \u2014 Robbie Ray vs. Aaron Civale at Oracle Park favors the home side, but -134 is playable.\n\nWhat got cut: Rays ML was the most painful pass \u2014 McClanahan is clearly the better arm, but -188 juice violates the max-juice rule. Phillies -1.5 at -104 is close but the 59% precipitation chance at Nationals Park adds variance we don't need. Dodgers-Twins is a weather postponement risk at 90% precip \u2014 can't touch it. Cubs-Mets has two shaky starters (Senga's 9.00 ERA, Cabrera's 5.21 ERA) but the 70% storm risk at Citi Field makes it untouchable. The Coors game (Red Sox at Rockies) has storm potential rising through the evening and Sean Sullivan's 10.29 ERA makes the under impossible to trust.\n\nThe final six picks: Tigers-Yankees Under 7.5 (ladder pick \u2014 best floor, two quality arms, perfect weather, pitcher-friendly park), Guardians-White Sox Under 7.0 (Messick is elite, Burke is solid, low-scoring environment), Giants ML (Ray vs. Civale at Oracle Park is a clear pitching edge), Phillies ML (Luzardo vs. Littell is a mismatch, weather risk is front-loaded), Parker Messick Ks Under 6.5 (White Sox contact approach limits K upside), and Jackson Chourio Total Bases Over 1.5 (facing a struggling Lodolo at hitter-friendly GABP). The ladder rides with the Tigers-Yankees Under \u2014 it's the highest-floor play on the board with two quality starters, a pitcher-friendly park, and perfect weather conditions.",
+      "slate_vibe": "NORMAL",
+      "published_at": "2026-06-23T13:19:24.268082-04:00"
+    },
     {
       "id": "20260622-MLB-CHW-CLE-TOTAL",
       "sport": "MLB",
