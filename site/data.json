@@ -1,11 +1,1012 @@
 {
-  "generated_at": "2026-06-24T05:55:01.022080-04:00",
+  "generated_at": "2026-06-24T13:06:18.786938-04:00",
   "today": "2026-06-24",
   "system_paused": false,
   "pause_reason": "",
-  "today_picks": [],
+  "today_picks": [
+    {
+      "id": "20260624-MLB-BAL-LAA-ML",
+      "sport": "MLB",
+      "game": "BAL @ LAA",
+      "first_pitch_iso": "2026-06-24T20:07Z",
+      "pick": "Los Angeles Angels ML",
+      "best_book": "FanDuel",
+      "best_odds": "-122",
+      "book_prices": {
+        "draftkings": "-126",
+        "fanduel": "-122",
+        "betmgm": "-130"
+      },
+      "book_links": {
+        "fanduel": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.587513631&selectionId=1093236",
+        "draftkings": "https://sportsbook.draftkings.com/?outcomes=0ML85252527_1",
+        "betmgm": "https://sports.nj.betmgm.com/en/sports?options=19739309-1537496739-2237653875&type=Single"
+      },
+      "market": "ML",
+      "confidence": 3,
+      "units": 1.0,
+      "win_probability": 0.57,
+      "ladder_designation": false,
+      "data_confidence": 0.65,
+      "rules_passed": [
+        "max_juice",
+        "ladder_even_money",
+        "parlay_well_formed",
+        "confidence_units_match",
+        "data_confidence_floor",
+        "pick_type_allowed",
+        "mlb_hr_prop_check",
+        "mlb_pitcher_k_check",
+        "mlb_total_bases_check",
+        "mlb_hits_check",
+        "nba_player_prop_check",
+        "nhl_shots_check",
+        "mlb_run_line_check",
+        "mlb_under_bb_check",
+        "no_same_game_opposite"
+      ],
+      "locked": true,
+      "late_add": false,
+      "late_add_reason": "",
+      "bonus_pick": false,
+      "event_type": "",
+      "event_name": "",
+      "legs": [],
+      "headline": "Soriano's 3.03 ERA vs Gibson's disaster \u2014 Angels at home.",
+      "the_thesis": "Jos\u00e9 Soriano has been one of the better stories in the Angels rotation this year. His 3.03 ERA is backed by a 25.5% K rate and a 0.98 HR/9 \u2014 he's missing bats and keeping the ball in the park. His 1.27 WHIP is slightly elevated due to a 12.0% walk rate, but he's been effective despite the free passes.\n\nTrey Gibson is a disaster waiting to happen. His 5.81 ERA is backed by a 1.71 WHIP and a 13.9% walk rate \u2014 he's putting runners on base constantly. His 16.4% K rate means he's not missing bats, and his 1.38 HR/9 means the damage comes in bunches. In just 26.1 innings, he's been a liability.\n\nThe Angels are -122 favorites at home, which feels about right given the pitching disparity. Angel Stadium is neutral (0.99 runs PF), so neither team gets a park boost. The Orioles offense (4.64 R/G) is solid, but Gibson's inability to throw strikes will put runners on base for Soriano to strand.",
+      "the_data": [
+        {
+          "label": "Soriano ERA / K%",
+          "value": "3.03 / 25.5%",
+          "context": "Quality, misses bats"
+        },
+        {
+          "label": "Gibson ERA / WHIP",
+          "value": "5.81 / 1.71",
+          "context": "Disaster, bottom-10 in MLB"
+        },
+        {
+          "label": "Gibson BB%",
+          "value": "13.9%",
+          "context": "Unplayable"
+        },
+        {
+          "label": "Angel Stadium PF",
+          "value": "0.99",
+          "context": "Neutral"
+        },
+        {
+          "label": "Orioles R/G",
+          "value": "4.64",
+          "context": "Above-average"
+        },
+        {
+          "label": "Angels implied win %",
+          "value": "53.0%",
+          "context": "Market price"
+        }
+      ],
+      "the_market": "Angels opened as -122 favorites and the line has held. FanDuel offers the best price. The market is pricing LA at roughly 53% implied, which feels low given Gibson's profile.",
+      "weather_park": "Angel Stadium is neutral for runs (0.99 PF) and HRs (1.01 PF). No weather concerns.",
+      "case_against": "Soriano's 12.0% walk rate is concerning \u2014 he's putting runners on base too. The Orioles have a deep lineup that can capitalize on mistakes. Gibson has only 26.1 IP this season, so the sample is small and he could turn in a decent outing.",
+      "what_were_betting_on": "Soriano going 5+ innings with 3 or fewer runs, Gibson walking himself into trouble, and the Angels offense capitalizing on free passes.",
+      "scott_bot_quip": "Gibson's walk rate is a cry for help. Soriano just needs to be average to win this.",
+      "ladder_note": "",
+      "date": "2026-06-24",
+      "status": "PEND",
+      "units_result": null,
+      "clv_cents": null,
+      "result_score": null,
+      "graded_at": null,
+      "slate_assessment": "Sixteen-game MLB slate with no NBA or NHL action. Two elite pitching matchups stand out \u2014 Ohtani vs Ryan in Minnesota and Skubal vs Weathers in Detroit \u2014 plus several exploitable prop markets at Coors Field and in the high-total games.",
+      "executive_summary": "The board today is all MLB, and the two marquee pitching matchups are where the edge lives. Ohtani at Target Field against Joe Ryan is a clash of aces with the total sitting at 8.0 \u2014 both starters have sub-3.00 ERAs and elite command, and the park suppresses runs. In Detroit, Skubal returns from his elbow procedure looking sharp, facing a Yankees lineup that's potent but travels to a pitcher-friendly Comerica. The Coors Field game screams over with Kyle Freeland's 7.36 ERA hosting Ranger Suarez, but the real play is the total bases prop slate against Freeland's 1.91 HR/9. The ladder rides with the Twins-Dodgers under \u2014 two elite arms, neutral park, lowest total on the board.",
+      "slate_analysis": "Today's board features sixteen MLB games spread across the afternoon and evening, with first pitches ranging from 1:10 PM ET to 9:45 PM ET. No NBA or NHL games are in scope, so we're working exclusively with baseball sides, totals, and props. The pricing climate is relatively tight \u2014 most moneylines sit between -150 and +150, with only a handful of games showing significant separation between favorites and dogs.\n\nThe top candidates that earned hard looks: (1) Twins-Dodgers under 8.0 \u2014 Ohtani's 1.47 ERA and 0.88 WHIP against Ryan's 2.99 ERA and 1.00 WHIP at a neutral Target Field is the cleanest pitching matchup on the board; (2) Tigers ML vs Yankees \u2014 Skubal back from his NanoScope procedure, 3.02 ERA and elite 3.8% BB rate, facing Weathers who has a 1.8 HR/9; (3) Red Sox-Rockies over 10.5 \u2014 Freeland's 7.36 ERA and 1.91 HR/9 at Coors against Suarez is a run-scoring environment; (4) Pirates-Mariners under 7.5 \u2014 Ashcraft (3.18 ERA, 0.80 HR/9) vs Woo (3.94 ERA, 0.91 HR/9) at HR-suppressing PNC Park; (5) Coors total bases props \u2014 Freeland's HR/9 makes XBH props attractive; (6) Angels ML vs Orioles \u2014 Soriano's 3.03 ERA vs Gibson's 5.81 ERA and 1.71 WHIP.\n\nWhat got cut: The Cubs-Mets game (data_confidence 0.4, lineups not confirmed for Game 1 of doubleheader). The White Sox-Guardians game has both teams near pick'em pricing but neither SP profile creates separation \u2014 Fedde's 15.6% K rate is too low to trust, and Bibee's 1.62 HR/9 at a HR-boosting park creates variance. The Brewers-Reds game has Drohan vs Lowder, but Lowder's 12.1% BB rate and the HR-boosting GABP make the under untenable and the over already priced in. The Padres-Braves game has incomplete SP data for JP Sears. The Cardinals-Diamondbacks game has no data for Mitch Bratt.\n\nThe final six picks: (1) Twins-Dodgers Under 8.0 \u2014 the ladder pick, two elite arms, lowest total on the board, neutral park; (2) Tigers ML \u2014 Skubal's return against a beatable Weathers; (3) Red Sox -1.5 at Coors \u2014 Suarez's 2.93 ERA and 0.47 HR/9 against Freeland's disaster profile; (4) Pirates-Mariners Under 7.5 \u2014 two quality arms at PNC Park; (5) Angels ML \u2014 Soriano's elite profile vs Gibson's 5.81 ERA; (6) Ceddanne Rafaela Total Bases Over 1.5 at Coors \u2014 Freeland's 1.91 HR/9 and the Coors environment make XBH likely for a hitter in the top of the order.",
+      "slate_vibe": "NORMAL",
+      "published_at": "2026-06-24T13:06:18.769776-04:00"
+    },
+    {
+      "id": "20260624-MLB-SEA-PIT-TOTAL",
+      "sport": "MLB",
+      "game": "SEA @ PIT",
+      "first_pitch_iso": "2026-06-24T22:40Z",
+      "pick": "Under 7.5",
+      "best_book": "FanDuel",
+      "best_odds": "+102",
+      "book_prices": {
+        "draftkings": "-113",
+        "fanduel": "+102",
+        "betmgm": "-115"
+      },
+      "book_links": {
+        "fanduel": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.587618083&selectionId=7017906",
+        "draftkings": "https://sportsbook.draftkings.com/?outcomes=0OU85252549U800_3",
+        "betmgm": "https://sports.nj.betmgm.com/en/sports?options=19739310-1537496867-2237654152&type=Single"
+      },
+      "market": "TOTAL",
+      "confidence": 4,
+      "units": 1.5,
+      "win_probability": 0.58,
+      "ladder_designation": false,
+      "data_confidence": 0.7,
+      "rules_passed": [
+        "max_juice",
+        "ladder_even_money",
+        "parlay_well_formed",
+        "confidence_units_match",
+        "data_confidence_floor",
+        "pick_type_allowed",
+        "mlb_hr_prop_check",
+        "mlb_pitcher_k_check",
+        "mlb_total_bases_check",
+        "mlb_hits_check",
+        "nba_player_prop_check",
+        "nhl_shots_check",
+        "mlb_run_line_check",
+        "mlb_under_bb_check",
+        "no_same_game_opposite"
+      ],
+      "locked": true,
+      "late_add": false,
+      "late_add_reason": "",
+      "bonus_pick": false,
+      "event_type": "",
+      "event_name": "",
+      "legs": [],
+      "headline": "Two quality arms at HR-suppressing PNC Park \u2014 the under is plus money.",
+      "the_thesis": "Braxton Ashcraft has emerged as one of the better young arms in baseball. His 3.18 ERA is backed by a 0.80 HR/9 and a 1.10 WHIP \u2014 he's not giving up free passes (6.0% BB rate) and he's not giving up home runs. At PNC Park, which already suppresses HRs (0.91 PF), Ashcraft's profile becomes even more valuable.\n\nBryan Woo counters with a 3.94 ERA and an elite 4.5% walk rate \u2014 the best command in the Mariners rotation. His 0.91 HR/9 is solid, and his 1.00 WHIP suggests he's keeping baserunners to a minimum. The Mariners offense (4.11 R/G) is below-average, which helps the under case.\n\nThe total is 7.5-8.0 across books, with FanDuel offering the under at +102 on 7.5. That's plus money on a game featuring two quality starters at a pitcher-friendly park. The Pirates score 4.97 R/G at home, but that's inflated by some blowouts \u2014 their median game is closer to 4 runs.",
+      "the_data": [
+        {
+          "label": "Ashcraft ERA / HR/9",
+          "value": "3.18 / 0.80",
+          "context": "Quality, HR-suppressing"
+        },
+        {
+          "label": "Ashcraft BB%",
+          "value": "6.0%",
+          "context": "Above-average command"
+        },
+        {
+          "label": "Woo ERA / BB%",
+          "value": "3.94 / 4.5%",
+          "context": "Elite command"
+        },
+        {
+          "label": "PNC Park HR PF",
+          "value": "0.91",
+          "context": "HR-suppressing"
+        },
+        {
+          "label": "Mariners R/G",
+          "value": "4.11",
+          "context": "Below-average"
+        },
+        {
+          "label": "Under price",
+          "value": "+102",
+          "context": "Plus money at FanDuel"
+        }
+      ],
+      "the_market": "Total opened at 7.5-8.0 and has held steady. FanDuel is offering the under 7.5 at +102, while DraftKings and BetMGM have moved to 8.0. The plus money at FanDuel is the play.",
+      "weather_park": "PNC Park is pitcher-friendly (0.95 runs PF, 0.91 HR PF). No weather concerns for this evening game.",
+      "case_against": "The Pirates offense has been hot lately (4.97 R/G), and they're at home where they hit better. Woo has been inconsistent \u2014 his 3.94 ERA is fine but not elite. If either starter exits early, both bullpens have had their struggles.",
+      "what_were_betting_on": "Both starters going 6+ innings, combined K rate suppressing contact, and the HR-suppressing park keeping balls in the yard.",
+      "scott_bot_quip": "Two arms that don't walk guys, a park that eats fly balls, and we're getting plus money. The market is asleep.",
+      "ladder_note": "",
+      "date": "2026-06-24",
+      "status": "PEND",
+      "units_result": null,
+      "clv_cents": null,
+      "result_score": null,
+      "graded_at": null,
+      "slate_assessment": "Sixteen-game MLB slate with no NBA or NHL action. Two elite pitching matchups stand out \u2014 Ohtani vs Ryan in Minnesota and Skubal vs Weathers in Detroit \u2014 plus several exploitable prop markets at Coors Field and in the high-total games.",
+      "executive_summary": "The board today is all MLB, and the two marquee pitching matchups are where the edge lives. Ohtani at Target Field against Joe Ryan is a clash of aces with the total sitting at 8.0 \u2014 both starters have sub-3.00 ERAs and elite command, and the park suppresses runs. In Detroit, Skubal returns from his elbow procedure looking sharp, facing a Yankees lineup that's potent but travels to a pitcher-friendly Comerica. The Coors Field game screams over with Kyle Freeland's 7.36 ERA hosting Ranger Suarez, but the real play is the total bases prop slate against Freeland's 1.91 HR/9. The ladder rides with the Twins-Dodgers under \u2014 two elite arms, neutral park, lowest total on the board.",
+      "slate_analysis": "Today's board features sixteen MLB games spread across the afternoon and evening, with first pitches ranging from 1:10 PM ET to 9:45 PM ET. No NBA or NHL games are in scope, so we're working exclusively with baseball sides, totals, and props. The pricing climate is relatively tight \u2014 most moneylines sit between -150 and +150, with only a handful of games showing significant separation between favorites and dogs.\n\nThe top candidates that earned hard looks: (1) Twins-Dodgers under 8.0 \u2014 Ohtani's 1.47 ERA and 0.88 WHIP against Ryan's 2.99 ERA and 1.00 WHIP at a neutral Target Field is the cleanest pitching matchup on the board; (2) Tigers ML vs Yankees \u2014 Skubal back from his NanoScope procedure, 3.02 ERA and elite 3.8% BB rate, facing Weathers who has a 1.8 HR/9; (3) Red Sox-Rockies over 10.5 \u2014 Freeland's 7.36 ERA and 1.91 HR/9 at Coors against Suarez is a run-scoring environment; (4) Pirates-Mariners under 7.5 \u2014 Ashcraft (3.18 ERA, 0.80 HR/9) vs Woo (3.94 ERA, 0.91 HR/9) at HR-suppressing PNC Park; (5) Coors total bases props \u2014 Freeland's HR/9 makes XBH props attractive; (6) Angels ML vs Orioles \u2014 Soriano's 3.03 ERA vs Gibson's 5.81 ERA and 1.71 WHIP.\n\nWhat got cut: The Cubs-Mets game (data_confidence 0.4, lineups not confirmed for Game 1 of doubleheader). The White Sox-Guardians game has both teams near pick'em pricing but neither SP profile creates separation \u2014 Fedde's 15.6% K rate is too low to trust, and Bibee's 1.62 HR/9 at a HR-boosting park creates variance. The Brewers-Reds game has Drohan vs Lowder, but Lowder's 12.1% BB rate and the HR-boosting GABP make the under untenable and the over already priced in. The Padres-Braves game has incomplete SP data for JP Sears. The Cardinals-Diamondbacks game has no data for Mitch Bratt.\n\nThe final six picks: (1) Twins-Dodgers Under 8.0 \u2014 the ladder pick, two elite arms, lowest total on the board, neutral park; (2) Tigers ML \u2014 Skubal's return against a beatable Weathers; (3) Red Sox -1.5 at Coors \u2014 Suarez's 2.93 ERA and 0.47 HR/9 against Freeland's disaster profile; (4) Pirates-Mariners Under 7.5 \u2014 two quality arms at PNC Park; (5) Angels ML \u2014 Soriano's elite profile vs Gibson's 5.81 ERA; (6) Ceddanne Rafaela Total Bases Over 1.5 at Coors \u2014 Freeland's 1.91 HR/9 and the Coors environment make XBH likely for a hitter in the top of the order.",
+      "slate_vibe": "NORMAL",
+      "published_at": "2026-06-24T13:06:18.769670-04:00"
+    },
+    {
+      "id": "20260624-MLB-BOS-COL-SPREAD",
+      "sport": "MLB",
+      "game": "BOS @ COL",
+      "first_pitch_iso": "2026-06-24T19:10Z",
+      "pick": "Boston Red Sox -1.5",
+      "best_book": "FanDuel",
+      "best_odds": "-110",
+      "book_prices": {
+        "draftkings": "-115",
+        "fanduel": "-110",
+        "betmgm": "-118"
+      },
+      "book_links": {
+        "fanduel": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.587615646&selectionId=29158",
+        "draftkings": "https://sportsbook.draftkings.com/?outcomes=0HC85252417N150_3",
+        "betmgm": "https://sports.nj.betmgm.com/en/sports?options=19739308-1537496633-2237653644&type=Single"
+      },
+      "market": "SPREAD",
+      "confidence": 4,
+      "units": 1.5,
+      "win_probability": 0.58,
+      "ladder_designation": false,
+      "data_confidence": 0.7,
+      "rules_passed": [
+        "max_juice",
+        "ladder_even_money",
+        "parlay_well_formed",
+        "confidence_units_match",
+        "data_confidence_floor",
+        "pick_type_allowed",
+        "mlb_hr_prop_check",
+        "mlb_pitcher_k_check",
+        "mlb_total_bases_check",
+        "mlb_hits_check",
+        "nba_player_prop_check",
+        "nhl_shots_check",
+        "mlb_run_line_check",
+        "mlb_under_bb_check",
+        "no_same_game_opposite"
+      ],
+      "locked": true,
+      "late_add": false,
+      "late_add_reason": "",
+      "bonus_pick": false,
+      "event_type": "",
+      "event_name": "",
+      "legs": [],
+      "headline": "Suarez's elite HR suppression meets Freeland's disaster profile at Coors.",
+      "the_thesis": "Kyle Freeland has been a disaster in 2026. His 7.36 ERA is backed by a 1.91 HR/9 \u2014 at Coors Field, where the ball already carries, that's a recipe for crooked numbers. His 1.58 WHIP means baserunners are constant, and his 18.7% K rate means he's not missing bats. The Rockies are essentially punting this start.\n\nRanger Suarez, now with Boston after signing a 5-year, $130M deal, has been excellent. His 2.93 ERA and 0.47 HR/9 are elite \u2014 he's allowed just 4 home runs in 76.2 innings. At Coors, where fly balls become souvenirs, Suarez's ground-ball tendencies and HR suppression become even more valuable. His 1.12 WHIP and 24.2% K rate suggest he can navigate the altitude.\n\nThe Red Sox are -164 on the moneyline, which is too juicy for a straight bet. But the run line at -110 offers value \u2014 Boston should win this game by multiple runs given the pitching disparity. Coors inflates totals, but it also inflates margins when one team has a significant pitching advantage.",
+      "the_data": [
+        {
+          "label": "Freeland ERA / HR/9",
+          "value": "7.36 / 1.91",
+          "context": "Disaster, bottom-5 in MLB"
+        },
+        {
+          "label": "Suarez ERA / HR/9",
+          "value": "2.93 / 0.47",
+          "context": "Elite HR suppression"
+        },
+        {
+          "label": "Coors Field HR PF",
+          "value": "1.14",
+          "context": "HR-boosting"
+        },
+        {
+          "label": "Suarez WHIP",
+          "value": "1.12",
+          "context": "Above-average"
+        },
+        {
+          "label": "Red Sox R/G",
+          "value": "3.91",
+          "context": "Below-average but improving"
+        },
+        {
+          "label": "Run line price",
+          "value": "-110",
+          "context": "Value vs -164 ML"
+        }
+      ],
+      "the_market": "Red Sox opened as -164 favorites and the line has held. The run line at -110 on FanDuel offers better value than the moneyline. Total is 10.5-11.0 across books, reflecting the Coors environment.",
+      "weather_park": "Coors Field is the most hitter-friendly park in baseball (1.18 runs PF, 1.14 HR PF). Temperature is 83\u00b0F with light wind \u2014 standard Coors conditions that favor offense.",
+      "case_against": "Coors Field is unpredictable. Even bad pitchers can have good days at altitude, and even good pitchers can get shelled. Suarez has never pitched at Coors in his career, so there's some unknown about how he'll handle the environment. The Rockies offense (4.51 R/G) can put up runs at home.",
+      "what_were_betting_on": "Suarez going 5+ innings with 3 or fewer runs, Freeland getting knocked around early, and the Red Sox offense capitalizing on Coors conditions.",
+      "scott_bot_quip": "Freeland's HR/9 at Coors is a war crime. Suarez doesn't give up homers. This isn't complicated.",
+      "ladder_note": "",
+      "date": "2026-06-24",
+      "status": "PEND",
+      "units_result": null,
+      "clv_cents": null,
+      "result_score": null,
+      "graded_at": null,
+      "slate_assessment": "Sixteen-game MLB slate with no NBA or NHL action. Two elite pitching matchups stand out \u2014 Ohtani vs Ryan in Minnesota and Skubal vs Weathers in Detroit \u2014 plus several exploitable prop markets at Coors Field and in the high-total games.",
+      "executive_summary": "The board today is all MLB, and the two marquee pitching matchups are where the edge lives. Ohtani at Target Field against Joe Ryan is a clash of aces with the total sitting at 8.0 \u2014 both starters have sub-3.00 ERAs and elite command, and the park suppresses runs. In Detroit, Skubal returns from his elbow procedure looking sharp, facing a Yankees lineup that's potent but travels to a pitcher-friendly Comerica. The Coors Field game screams over with Kyle Freeland's 7.36 ERA hosting Ranger Suarez, but the real play is the total bases prop slate against Freeland's 1.91 HR/9. The ladder rides with the Twins-Dodgers under \u2014 two elite arms, neutral park, lowest total on the board.",
+      "slate_analysis": "Today's board features sixteen MLB games spread across the afternoon and evening, with first pitches ranging from 1:10 PM ET to 9:45 PM ET. No NBA or NHL games are in scope, so we're working exclusively with baseball sides, totals, and props. The pricing climate is relatively tight \u2014 most moneylines sit between -150 and +150, with only a handful of games showing significant separation between favorites and dogs.\n\nThe top candidates that earned hard looks: (1) Twins-Dodgers under 8.0 \u2014 Ohtani's 1.47 ERA and 0.88 WHIP against Ryan's 2.99 ERA and 1.00 WHIP at a neutral Target Field is the cleanest pitching matchup on the board; (2) Tigers ML vs Yankees \u2014 Skubal back from his NanoScope procedure, 3.02 ERA and elite 3.8% BB rate, facing Weathers who has a 1.8 HR/9; (3) Red Sox-Rockies over 10.5 \u2014 Freeland's 7.36 ERA and 1.91 HR/9 at Coors against Suarez is a run-scoring environment; (4) Pirates-Mariners under 7.5 \u2014 Ashcraft (3.18 ERA, 0.80 HR/9) vs Woo (3.94 ERA, 0.91 HR/9) at HR-suppressing PNC Park; (5) Coors total bases props \u2014 Freeland's HR/9 makes XBH props attractive; (6) Angels ML vs Orioles \u2014 Soriano's 3.03 ERA vs Gibson's 5.81 ERA and 1.71 WHIP.\n\nWhat got cut: The Cubs-Mets game (data_confidence 0.4, lineups not confirmed for Game 1 of doubleheader). The White Sox-Guardians game has both teams near pick'em pricing but neither SP profile creates separation \u2014 Fedde's 15.6% K rate is too low to trust, and Bibee's 1.62 HR/9 at a HR-boosting park creates variance. The Brewers-Reds game has Drohan vs Lowder, but Lowder's 12.1% BB rate and the HR-boosting GABP make the under untenable and the over already priced in. The Padres-Braves game has incomplete SP data for JP Sears. The Cardinals-Diamondbacks game has no data for Mitch Bratt.\n\nThe final six picks: (1) Twins-Dodgers Under 8.0 \u2014 the ladder pick, two elite arms, lowest total on the board, neutral park; (2) Tigers ML \u2014 Skubal's return against a beatable Weathers; (3) Red Sox -1.5 at Coors \u2014 Suarez's 2.93 ERA and 0.47 HR/9 against Freeland's disaster profile; (4) Pirates-Mariners Under 7.5 \u2014 two quality arms at PNC Park; (5) Angels ML \u2014 Soriano's elite profile vs Gibson's 5.81 ERA; (6) Ceddanne Rafaela Total Bases Over 1.5 at Coors \u2014 Freeland's 1.91 HR/9 and the Coors environment make XBH likely for a hitter in the top of the order.",
+      "slate_vibe": "NORMAL",
+      "published_at": "2026-06-24T13:06:18.769559-04:00"
+    },
+    {
+      "id": "20260624-MLB-NYY-DET-ML",
+      "sport": "MLB",
+      "game": "NYY @ DET",
+      "first_pitch_iso": "2026-06-24T22:40Z",
+      "pick": "Detroit Tigers ML",
+      "best_book": "DraftKings",
+      "best_odds": "-132",
+      "book_prices": {
+        "draftkings": "-132",
+        "fanduel": "-134",
+        "betmgm": "-135"
+      },
+      "book_links": {
+        "fanduel": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.587513616&selectionId=29159",
+        "draftkings": "https://sportsbook.draftkings.com/?outcomes=0ML85252535_1",
+        "betmgm": "https://sports.nj.betmgm.com/en/sports?options=19739809-1537521453-2237717758&type=Single"
+      },
+      "market": "ML",
+      "confidence": 4,
+      "units": 1.5,
+      "win_probability": 0.6,
+      "ladder_designation": false,
+      "data_confidence": 0.7,
+      "rules_passed": [
+        "max_juice",
+        "ladder_even_money",
+        "parlay_well_formed",
+        "confidence_units_match",
+        "data_confidence_floor",
+        "pick_type_allowed",
+        "mlb_hr_prop_check",
+        "mlb_pitcher_k_check",
+        "mlb_total_bases_check",
+        "mlb_hits_check",
+        "nba_player_prop_check",
+        "nhl_shots_check",
+        "mlb_run_line_check",
+        "mlb_under_bb_check",
+        "no_same_game_opposite"
+      ],
+      "locked": true,
+      "late_add": false,
+      "late_add_reason": "",
+      "bonus_pick": false,
+      "event_type": "",
+      "event_name": "",
+      "legs": [],
+      "headline": "Skubal back and dealing, Weathers gives up too many homers \u2014 Tigers at home.",
+      "the_thesis": "Tarik Skubal's return from his NanoScope elbow procedure has been nothing short of remarkable. The two-time Cy Young winner underwent surgery on May 6 and was back on a major league mound by June 13 \u2014 far ahead of the typical 2-3 month timeline. In his starts since returning, he's looked like himself: a 3.02 ERA, 1.02 WHIP, and an absurd 3.8% walk rate that ranks among the best in baseball. His 26.9% K rate means he's still missing bats.\n\nRyan Weathers has been serviceable for the Yankees but his 1.8 HR/9 is a glaring weakness. Comerica Park suppresses home runs (0.95 HR PF), which helps, but Weathers has allowed fly balls to leave the yard at an alarming rate all season. His 4.13 ERA is fine, but the underlying metrics suggest he's been lucky \u2014 that HR/9 will regress in the wrong direction eventually.\n\nThe Tigers offense isn't explosive (4.08 R/G), but they don't need to be with Skubal on the mound. The Yankees score 5.08 R/G, but Skubal's elite command means they won't get free passes. Detroit at home with their ace is the right side.",
+      "the_data": [
+        {
+          "label": "Skubal ERA / WHIP (2026)",
+          "value": "3.02 / 1.02",
+          "context": "Elite, Cy Young caliber"
+        },
+        {
+          "label": "Skubal BB%",
+          "value": "3.8%",
+          "context": "Best in MLB"
+        },
+        {
+          "label": "Weathers HR/9",
+          "value": "1.8",
+          "context": "Problematic, top-third worst"
+        },
+        {
+          "label": "Comerica Park HR PF",
+          "value": "0.95",
+          "context": "Suppresses HRs"
+        },
+        {
+          "label": "Yankees R/G",
+          "value": "5.08",
+          "context": "Above-average"
+        },
+        {
+          "label": "Tigers implied win %",
+          "value": "55.1%",
+          "context": "Market price"
+        }
+      ],
+      "the_market": "Tigers opened as -132 favorites and the line has held steady. DraftKings offers the best price at -132. The market is pricing Detroit at roughly 55% implied, which feels about right given the pitching matchup, but I have them closer to 60%.",
+      "weather_park": "Comerica Park is neutral for runs (0.96 PF) and slightly suppresses HRs (0.95 PF). No weather concerns for this evening game.",
+      "case_against": "The Yankees lineup is dangerous, and Skubal is still building back up after his procedure. If he's on a soft pitch count (80-85 pitches), the Tigers bullpen would need to cover 3+ innings against a potent offense. Detroit's offense has also been inconsistent, ranking in the bottom third of the league.",
+      "what_were_betting_on": "Skubal going 6+ innings with 2 or fewer runs, Weathers giving up at least one HR, and the Tigers bullpen holding a lead.",
+      "scott_bot_quip": "The Cy Young winner is back, the park eats fly balls, and Weathers can't stop serving them up. Math is math.",
+      "ladder_note": "",
+      "date": "2026-06-24",
+      "status": "PEND",
+      "units_result": null,
+      "clv_cents": null,
+      "result_score": null,
+      "graded_at": null,
+      "slate_assessment": "Sixteen-game MLB slate with no NBA or NHL action. Two elite pitching matchups stand out \u2014 Ohtani vs Ryan in Minnesota and Skubal vs Weathers in Detroit \u2014 plus several exploitable prop markets at Coors Field and in the high-total games.",
+      "executive_summary": "The board today is all MLB, and the two marquee pitching matchups are where the edge lives. Ohtani at Target Field against Joe Ryan is a clash of aces with the total sitting at 8.0 \u2014 both starters have sub-3.00 ERAs and elite command, and the park suppresses runs. In Detroit, Skubal returns from his elbow procedure looking sharp, facing a Yankees lineup that's potent but travels to a pitcher-friendly Comerica. The Coors Field game screams over with Kyle Freeland's 7.36 ERA hosting Ranger Suarez, but the real play is the total bases prop slate against Freeland's 1.91 HR/9. The ladder rides with the Twins-Dodgers under \u2014 two elite arms, neutral park, lowest total on the board.",
+      "slate_analysis": "Today's board features sixteen MLB games spread across the afternoon and evening, with first pitches ranging from 1:10 PM ET to 9:45 PM ET. No NBA or NHL games are in scope, so we're working exclusively with baseball sides, totals, and props. The pricing climate is relatively tight \u2014 most moneylines sit between -150 and +150, with only a handful of games showing significant separation between favorites and dogs.\n\nThe top candidates that earned hard looks: (1) Twins-Dodgers under 8.0 \u2014 Ohtani's 1.47 ERA and 0.88 WHIP against Ryan's 2.99 ERA and 1.00 WHIP at a neutral Target Field is the cleanest pitching matchup on the board; (2) Tigers ML vs Yankees \u2014 Skubal back from his NanoScope procedure, 3.02 ERA and elite 3.8% BB rate, facing Weathers who has a 1.8 HR/9; (3) Red Sox-Rockies over 10.5 \u2014 Freeland's 7.36 ERA and 1.91 HR/9 at Coors against Suarez is a run-scoring environment; (4) Pirates-Mariners under 7.5 \u2014 Ashcraft (3.18 ERA, 0.80 HR/9) vs Woo (3.94 ERA, 0.91 HR/9) at HR-suppressing PNC Park; (5) Coors total bases props \u2014 Freeland's HR/9 makes XBH props attractive; (6) Angels ML vs Orioles \u2014 Soriano's 3.03 ERA vs Gibson's 5.81 ERA and 1.71 WHIP.\n\nWhat got cut: The Cubs-Mets game (data_confidence 0.4, lineups not confirmed for Game 1 of doubleheader). The White Sox-Guardians game has both teams near pick'em pricing but neither SP profile creates separation \u2014 Fedde's 15.6% K rate is too low to trust, and Bibee's 1.62 HR/9 at a HR-boosting park creates variance. The Brewers-Reds game has Drohan vs Lowder, but Lowder's 12.1% BB rate and the HR-boosting GABP make the under untenable and the over already priced in. The Padres-Braves game has incomplete SP data for JP Sears. The Cardinals-Diamondbacks game has no data for Mitch Bratt.\n\nThe final six picks: (1) Twins-Dodgers Under 8.0 \u2014 the ladder pick, two elite arms, lowest total on the board, neutral park; (2) Tigers ML \u2014 Skubal's return against a beatable Weathers; (3) Red Sox -1.5 at Coors \u2014 Suarez's 2.93 ERA and 0.47 HR/9 against Freeland's disaster profile; (4) Pirates-Mariners Under 7.5 \u2014 two quality arms at PNC Park; (5) Angels ML \u2014 Soriano's elite profile vs Gibson's 5.81 ERA; (6) Ceddanne Rafaela Total Bases Over 1.5 at Coors \u2014 Freeland's 1.91 HR/9 and the Coors environment make XBH likely for a hitter in the top of the order.",
+      "slate_vibe": "NORMAL",
+      "published_at": "2026-06-24T13:06:18.769444-04:00"
+    },
+    {
+      "id": "20260624-MLB-LAD-MIN-TOTAL",
+      "sport": "MLB",
+      "game": "LAD @ MIN",
+      "first_pitch_iso": "2026-06-24T23:40Z",
+      "pick": "Under 8.0",
+      "best_book": "FanDuel",
+      "best_odds": "-105",
+      "book_prices": {
+        "draftkings": "-105",
+        "fanduel": "-105",
+        "betmgm": "-110"
+      },
+      "book_links": {
+        "fanduel": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.587620119&selectionId=7017906",
+        "draftkings": "https://sportsbook.draftkings.com/?outcomes=0OU85252578U800_3",
+        "betmgm": "https://sports.nj.betmgm.com/en/sports?options=19739318-1537497732-2237656001&type=Single"
+      },
+      "market": "TOTAL",
+      "confidence": 5,
+      "units": 2.0,
+      "win_probability": 0.62,
+      "ladder_designation": true,
+      "data_confidence": 0.75,
+      "rules_passed": [
+        "max_juice",
+        "ladder_even_money",
+        "parlay_well_formed",
+        "confidence_units_match",
+        "data_confidence_floor",
+        "pick_type_allowed",
+        "mlb_hr_prop_check",
+        "mlb_pitcher_k_check",
+        "mlb_total_bases_check",
+        "mlb_hits_check",
+        "nba_player_prop_check",
+        "nhl_shots_check",
+        "mlb_run_line_check",
+        "mlb_under_bb_check(soft)",
+        "no_same_game_opposite"
+      ],
+      "locked": true,
+      "late_add": false,
+      "late_add_reason": "",
+      "bonus_pick": false,
+      "event_type": "",
+      "event_name": "",
+      "legs": [],
+      "headline": "Two aces, lowest total on the board, neutral park \u2014 this is the floor play.",
+      "the_thesis": "Shohei Ohtani has been otherworldly on the mound in 2026. His 1.47 ERA through 73.2 innings is backed by a 0.88 WHIP and a minuscule 0.37 HR/9 \u2014 that's elite run prevention by any measure. He's striking out 27% of batters while walking just 7.6%, which means he's not putting runners on base and he's not giving up free passes. When Ohtani is on, he dominates, and the Dodgers have been riding him as a true ace.\n\nJoe Ryan counters with his own strong profile \u2014 a 2.99 ERA, 1.00 WHIP, and a 28.1% K rate against just 5.1% walks. Ryan was scratched from his last start due to illness but earned a win against the Rangers on June 19, so he's healthy and in rhythm. Target Field plays neutral (0.98 runs PF, 0.97 HR PF), which means neither offense gets a boost from the environment.\n\nThe market has this at 8.0, the lowest total on the entire board. That's appropriate given the pitching matchup, but the de-vigged implied probability sits around 52-53% for the under. I have this closer to 62% \u2014 both starters have the command and stuff to go 6+ innings with minimal damage, and neither bullpen is a liability. The Twins offense has been solid (4.84 R/G) but faces a pitcher who's allowed just 3 HR all season. The Dodgers score 5.24 R/G but Ryan's elite walk rate means they won't get free baserunners.",
+      "the_data": [
+        {
+          "label": "Ohtani ERA / WHIP (2026)",
+          "value": "1.47 / 0.88",
+          "context": "Elite, top-3 in MLB"
+        },
+        {
+          "label": "Ohtani HR/9",
+          "value": "0.37",
+          "context": "Best in baseball"
+        },
+        {
+          "label": "Ryan ERA / WHIP (2026)",
+          "value": "2.99 / 1.00",
+          "context": "Above-average, stable"
+        },
+        {
+          "label": "Ryan K% / BB%",
+          "value": "28.1% / 5.1%",
+          "context": "Elite command"
+        },
+        {
+          "label": "Target Field PF (runs)",
+          "value": "0.98",
+          "context": "Neutral"
+        },
+        {
+          "label": "Total line",
+          "value": "8.0",
+          "context": "Lowest on board"
+        }
+      ],
+      "the_market": "Total opened at 8.0 and hasn't moved across all three books. The under is -105 at FanDuel and DraftKings, -110 at BetMGM. No significant line movement suggests sharp money hasn't piled on either side yet, but the number is appropriately low given the arms involved.",
+      "weather_park": "Target Field is neutral for runs (0.98 PF) and slightly suppresses HRs (0.97 PF). Weather is not a factor for this evening game.",
+      "case_against": "The Dodgers offense is legitimately dangerous \u2014 5.24 R/G is second-best in baseball. If Ryan doesn't have his best stuff coming off illness, LA could put up a crooked number early. Ohtani has also been managed carefully this year, so a short outing (5 IP) would expose the Twins bullpen to the Dodgers' deep lineup.",
+      "what_were_betting_on": "Both starters going 6+ innings with 2 or fewer runs allowed, combined K rate suppressing contact, and neither bullpen imploding in the late innings.",
+      "scott_bot_quip": "Two aces, one total, zero drama. The sharps haven't moved this number because there's nowhere for it to go.",
+      "ladder_note": "Best floor on the board \u2014 two elite SPs with sub-3.00 ERAs, neutral park, lowest total available. This is the highest-confidence play at near even money.",
+      "date": "2026-06-24",
+      "status": "PEND",
+      "units_result": null,
+      "clv_cents": null,
+      "result_score": null,
+      "graded_at": null,
+      "slate_assessment": "Sixteen-game MLB slate with no NBA or NHL action. Two elite pitching matchups stand out \u2014 Ohtani vs Ryan in Minnesota and Skubal vs Weathers in Detroit \u2014 plus several exploitable prop markets at Coors Field and in the high-total games.",
+      "executive_summary": "The board today is all MLB, and the two marquee pitching matchups are where the edge lives. Ohtani at Target Field against Joe Ryan is a clash of aces with the total sitting at 8.0 \u2014 both starters have sub-3.00 ERAs and elite command, and the park suppresses runs. In Detroit, Skubal returns from his elbow procedure looking sharp, facing a Yankees lineup that's potent but travels to a pitcher-friendly Comerica. The Coors Field game screams over with Kyle Freeland's 7.36 ERA hosting Ranger Suarez, but the real play is the total bases prop slate against Freeland's 1.91 HR/9. The ladder rides with the Twins-Dodgers under \u2014 two elite arms, neutral park, lowest total on the board.",
+      "slate_analysis": "Today's board features sixteen MLB games spread across the afternoon and evening, with first pitches ranging from 1:10 PM ET to 9:45 PM ET. No NBA or NHL games are in scope, so we're working exclusively with baseball sides, totals, and props. The pricing climate is relatively tight \u2014 most moneylines sit between -150 and +150, with only a handful of games showing significant separation between favorites and dogs.\n\nThe top candidates that earned hard looks: (1) Twins-Dodgers under 8.0 \u2014 Ohtani's 1.47 ERA and 0.88 WHIP against Ryan's 2.99 ERA and 1.00 WHIP at a neutral Target Field is the cleanest pitching matchup on the board; (2) Tigers ML vs Yankees \u2014 Skubal back from his NanoScope procedure, 3.02 ERA and elite 3.8% BB rate, facing Weathers who has a 1.8 HR/9; (3) Red Sox-Rockies over 10.5 \u2014 Freeland's 7.36 ERA and 1.91 HR/9 at Coors against Suarez is a run-scoring environment; (4) Pirates-Mariners under 7.5 \u2014 Ashcraft (3.18 ERA, 0.80 HR/9) vs Woo (3.94 ERA, 0.91 HR/9) at HR-suppressing PNC Park; (5) Coors total bases props \u2014 Freeland's HR/9 makes XBH props attractive; (6) Angels ML vs Orioles \u2014 Soriano's 3.03 ERA vs Gibson's 5.81 ERA and 1.71 WHIP.\n\nWhat got cut: The Cubs-Mets game (data_confidence 0.4, lineups not confirmed for Game 1 of doubleheader). The White Sox-Guardians game has both teams near pick'em pricing but neither SP profile creates separation \u2014 Fedde's 15.6% K rate is too low to trust, and Bibee's 1.62 HR/9 at a HR-boosting park creates variance. The Brewers-Reds game has Drohan vs Lowder, but Lowder's 12.1% BB rate and the HR-boosting GABP make the under untenable and the over already priced in. The Padres-Braves game has incomplete SP data for JP Sears. The Cardinals-Diamondbacks game has no data for Mitch Bratt.\n\nThe final six picks: (1) Twins-Dodgers Under 8.0 \u2014 the ladder pick, two elite arms, lowest total on the board, neutral park; (2) Tigers ML \u2014 Skubal's return against a beatable Weathers; (3) Red Sox -1.5 at Coors \u2014 Suarez's 2.93 ERA and 0.47 HR/9 against Freeland's disaster profile; (4) Pirates-Mariners Under 7.5 \u2014 two quality arms at PNC Park; (5) Angels ML \u2014 Soriano's elite profile vs Gibson's 5.81 ERA; (6) Ceddanne Rafaela Total Bases Over 1.5 at Coors \u2014 Freeland's 1.91 HR/9 and the Coors environment make XBH likely for a hitter in the top of the order.",
+      "slate_vibe": "NORMAL",
+      "published_at": "2026-06-24T13:06:18.769294-04:00"
+    }
+  ],
   "today_bonus_picks": [],
   "all_picks": [
+    {
+      "id": "20260624-MLB-BAL-LAA-ML",
+      "sport": "MLB",
+      "game": "BAL @ LAA",
+      "first_pitch_iso": "2026-06-24T20:07Z",
+      "pick": "Los Angeles Angels ML",
+      "best_book": "FanDuel",
+      "best_odds": "-122",
+      "book_prices": {
+        "draftkings": "-126",
+        "fanduel": "-122",
+        "betmgm": "-130"
+      },
+      "book_links": {
+        "fanduel": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.587513631&selectionId=1093236",
+        "draftkings": "https://sportsbook.draftkings.com/?outcomes=0ML85252527_1",
+        "betmgm": "https://sports.nj.betmgm.com/en/sports?options=19739309-1537496739-2237653875&type=Single"
+      },
+      "market": "ML",
+      "confidence": 3,
+      "units": 1.0,
+      "win_probability": 0.57,
+      "ladder_designation": false,
+      "data_confidence": 0.65,
+      "rules_passed": [
+        "max_juice",
+        "ladder_even_money",
+        "parlay_well_formed",
+        "confidence_units_match",
+        "data_confidence_floor",
+        "pick_type_allowed",
+        "mlb_hr_prop_check",
+        "mlb_pitcher_k_check",
+        "mlb_total_bases_check",
+        "mlb_hits_check",
+        "nba_player_prop_check",
+        "nhl_shots_check",
+        "mlb_run_line_check",
+        "mlb_under_bb_check",
+        "no_same_game_opposite"
+      ],
+      "locked": true,
+      "late_add": false,
+      "late_add_reason": "",
+      "bonus_pick": false,
+      "event_type": "",
+      "event_name": "",
+      "legs": [],
+      "headline": "Soriano's 3.03 ERA vs Gibson's disaster \u2014 Angels at home.",
+      "the_thesis": "Jos\u00e9 Soriano has been one of the better stories in the Angels rotation this year. His 3.03 ERA is backed by a 25.5% K rate and a 0.98 HR/9 \u2014 he's missing bats and keeping the ball in the park. His 1.27 WHIP is slightly elevated due to a 12.0% walk rate, but he's been effective despite the free passes.\n\nTrey Gibson is a disaster waiting to happen. His 5.81 ERA is backed by a 1.71 WHIP and a 13.9% walk rate \u2014 he's putting runners on base constantly. His 16.4% K rate means he's not missing bats, and his 1.38 HR/9 means the damage comes in bunches. In just 26.1 innings, he's been a liability.\n\nThe Angels are -122 favorites at home, which feels about right given the pitching disparity. Angel Stadium is neutral (0.99 runs PF), so neither team gets a park boost. The Orioles offense (4.64 R/G) is solid, but Gibson's inability to throw strikes will put runners on base for Soriano to strand.",
+      "the_data": [
+        {
+          "label": "Soriano ERA / K%",
+          "value": "3.03 / 25.5%",
+          "context": "Quality, misses bats"
+        },
+        {
+          "label": "Gibson ERA / WHIP",
+          "value": "5.81 / 1.71",
+          "context": "Disaster, bottom-10 in MLB"
+        },
+        {
+          "label": "Gibson BB%",
+          "value": "13.9%",
+          "context": "Unplayable"
+        },
+        {
+          "label": "Angel Stadium PF",
+          "value": "0.99",
+          "context": "Neutral"
+        },
+        {
+          "label": "Orioles R/G",
+          "value": "4.64",
+          "context": "Above-average"
+        },
+        {
+          "label": "Angels implied win %",
+          "value": "53.0%",
+          "context": "Market price"
+        }
+      ],
+      "the_market": "Angels opened as -122 favorites and the line has held. FanDuel offers the best price. The market is pricing LA at roughly 53% implied, which feels low given Gibson's profile.",
+      "weather_park": "Angel Stadium is neutral for runs (0.99 PF) and HRs (1.01 PF). No weather concerns.",
+      "case_against": "Soriano's 12.0% walk rate is concerning \u2014 he's putting runners on base too. The Orioles have a deep lineup that can capitalize on mistakes. Gibson has only 26.1 IP this season, so the sample is small and he could turn in a decent outing.",
+      "what_were_betting_on": "Soriano going 5+ innings with 3 or fewer runs, Gibson walking himself into trouble, and the Angels offense capitalizing on free passes.",
+      "scott_bot_quip": "Gibson's walk rate is a cry for help. Soriano just needs to be average to win this.",
+      "ladder_note": "",
+      "date": "2026-06-24",
+      "status": "PEND",
+      "units_result": null,
+      "clv_cents": null,
+      "result_score": null,
+      "graded_at": null,
+      "slate_assessment": "Sixteen-game MLB slate with no NBA or NHL action. Two elite pitching matchups stand out \u2014 Ohtani vs Ryan in Minnesota and Skubal vs Weathers in Detroit \u2014 plus several exploitable prop markets at Coors Field and in the high-total games.",
+      "executive_summary": "The board today is all MLB, and the two marquee pitching matchups are where the edge lives. Ohtani at Target Field against Joe Ryan is a clash of aces with the total sitting at 8.0 \u2014 both starters have sub-3.00 ERAs and elite command, and the park suppresses runs. In Detroit, Skubal returns from his elbow procedure looking sharp, facing a Yankees lineup that's potent but travels to a pitcher-friendly Comerica. The Coors Field game screams over with Kyle Freeland's 7.36 ERA hosting Ranger Suarez, but the real play is the total bases prop slate against Freeland's 1.91 HR/9. The ladder rides with the Twins-Dodgers under \u2014 two elite arms, neutral park, lowest total on the board.",
+      "slate_analysis": "Today's board features sixteen MLB games spread across the afternoon and evening, with first pitches ranging from 1:10 PM ET to 9:45 PM ET. No NBA or NHL games are in scope, so we're working exclusively with baseball sides, totals, and props. The pricing climate is relatively tight \u2014 most moneylines sit between -150 and +150, with only a handful of games showing significant separation between favorites and dogs.\n\nThe top candidates that earned hard looks: (1) Twins-Dodgers under 8.0 \u2014 Ohtani's 1.47 ERA and 0.88 WHIP against Ryan's 2.99 ERA and 1.00 WHIP at a neutral Target Field is the cleanest pitching matchup on the board; (2) Tigers ML vs Yankees \u2014 Skubal back from his NanoScope procedure, 3.02 ERA and elite 3.8% BB rate, facing Weathers who has a 1.8 HR/9; (3) Red Sox-Rockies over 10.5 \u2014 Freeland's 7.36 ERA and 1.91 HR/9 at Coors against Suarez is a run-scoring environment; (4) Pirates-Mariners under 7.5 \u2014 Ashcraft (3.18 ERA, 0.80 HR/9) vs Woo (3.94 ERA, 0.91 HR/9) at HR-suppressing PNC Park; (5) Coors total bases props \u2014 Freeland's HR/9 makes XBH props attractive; (6) Angels ML vs Orioles \u2014 Soriano's 3.03 ERA vs Gibson's 5.81 ERA and 1.71 WHIP.\n\nWhat got cut: The Cubs-Mets game (data_confidence 0.4, lineups not confirmed for Game 1 of doubleheader). The White Sox-Guardians game has both teams near pick'em pricing but neither SP profile creates separation \u2014 Fedde's 15.6% K rate is too low to trust, and Bibee's 1.62 HR/9 at a HR-boosting park creates variance. The Brewers-Reds game has Drohan vs Lowder, but Lowder's 12.1% BB rate and the HR-boosting GABP make the under untenable and the over already priced in. The Padres-Braves game has incomplete SP data for JP Sears. The Cardinals-Diamondbacks game has no data for Mitch Bratt.\n\nThe final six picks: (1) Twins-Dodgers Under 8.0 \u2014 the ladder pick, two elite arms, lowest total on the board, neutral park; (2) Tigers ML \u2014 Skubal's return against a beatable Weathers; (3) Red Sox -1.5 at Coors \u2014 Suarez's 2.93 ERA and 0.47 HR/9 against Freeland's disaster profile; (4) Pirates-Mariners Under 7.5 \u2014 two quality arms at PNC Park; (5) Angels ML \u2014 Soriano's elite profile vs Gibson's 5.81 ERA; (6) Ceddanne Rafaela Total Bases Over 1.5 at Coors \u2014 Freeland's 1.91 HR/9 and the Coors environment make XBH likely for a hitter in the top of the order.",
+      "slate_vibe": "NORMAL",
+      "published_at": "2026-06-24T13:06:18.769776-04:00"
+    },
+    {
+      "id": "20260624-MLB-SEA-PIT-TOTAL",
+      "sport": "MLB",
+      "game": "SEA @ PIT",
+      "first_pitch_iso": "2026-06-24T22:40Z",
+      "pick": "Under 7.5",
+      "best_book": "FanDuel",
+      "best_odds": "+102",
+      "book_prices": {
+        "draftkings": "-113",
+        "fanduel": "+102",
+        "betmgm": "-115"
+      },
+      "book_links": {
+        "fanduel": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.587618083&selectionId=7017906",
+        "draftkings": "https://sportsbook.draftkings.com/?outcomes=0OU85252549U800_3",
+        "betmgm": "https://sports.nj.betmgm.com/en/sports?options=19739310-1537496867-2237654152&type=Single"
+      },
+      "market": "TOTAL",
+      "confidence": 4,
+      "units": 1.5,
+      "win_probability": 0.58,
+      "ladder_designation": false,
+      "data_confidence": 0.7,
+      "rules_passed": [
+        "max_juice",
+        "ladder_even_money",
+        "parlay_well_formed",
+        "confidence_units_match",
+        "data_confidence_floor",
+        "pick_type_allowed",
+        "mlb_hr_prop_check",
+        "mlb_pitcher_k_check",
+        "mlb_total_bases_check",
+        "mlb_hits_check",
+        "nba_player_prop_check",
+        "nhl_shots_check",
+        "mlb_run_line_check",
+        "mlb_under_bb_check",
+        "no_same_game_opposite"
+      ],
+      "locked": true,
+      "late_add": false,
+      "late_add_reason": "",
+      "bonus_pick": false,
+      "event_type": "",
+      "event_name": "",
+      "legs": [],
+      "headline": "Two quality arms at HR-suppressing PNC Park \u2014 the under is plus money.",
+      "the_thesis": "Braxton Ashcraft has emerged as one of the better young arms in baseball. His 3.18 ERA is backed by a 0.80 HR/9 and a 1.10 WHIP \u2014 he's not giving up free passes (6.0% BB rate) and he's not giving up home runs. At PNC Park, which already suppresses HRs (0.91 PF), Ashcraft's profile becomes even more valuable.\n\nBryan Woo counters with a 3.94 ERA and an elite 4.5% walk rate \u2014 the best command in the Mariners rotation. His 0.91 HR/9 is solid, and his 1.00 WHIP suggests he's keeping baserunners to a minimum. The Mariners offense (4.11 R/G) is below-average, which helps the under case.\n\nThe total is 7.5-8.0 across books, with FanDuel offering the under at +102 on 7.5. That's plus money on a game featuring two quality starters at a pitcher-friendly park. The Pirates score 4.97 R/G at home, but that's inflated by some blowouts \u2014 their median game is closer to 4 runs.",
+      "the_data": [
+        {
+          "label": "Ashcraft ERA / HR/9",
+          "value": "3.18 / 0.80",
+          "context": "Quality, HR-suppressing"
+        },
+        {
+          "label": "Ashcraft BB%",
+          "value": "6.0%",
+          "context": "Above-average command"
+        },
+        {
+          "label": "Woo ERA / BB%",
+          "value": "3.94 / 4.5%",
+          "context": "Elite command"
+        },
+        {
+          "label": "PNC Park HR PF",
+          "value": "0.91",
+          "context": "HR-suppressing"
+        },
+        {
+          "label": "Mariners R/G",
+          "value": "4.11",
+          "context": "Below-average"
+        },
+        {
+          "label": "Under price",
+          "value": "+102",
+          "context": "Plus money at FanDuel"
+        }
+      ],
+      "the_market": "Total opened at 7.5-8.0 and has held steady. FanDuel is offering the under 7.5 at +102, while DraftKings and BetMGM have moved to 8.0. The plus money at FanDuel is the play.",
+      "weather_park": "PNC Park is pitcher-friendly (0.95 runs PF, 0.91 HR PF). No weather concerns for this evening game.",
+      "case_against": "The Pirates offense has been hot lately (4.97 R/G), and they're at home where they hit better. Woo has been inconsistent \u2014 his 3.94 ERA is fine but not elite. If either starter exits early, both bullpens have had their struggles.",
+      "what_were_betting_on": "Both starters going 6+ innings, combined K rate suppressing contact, and the HR-suppressing park keeping balls in the yard.",
+      "scott_bot_quip": "Two arms that don't walk guys, a park that eats fly balls, and we're getting plus money. The market is asleep.",
+      "ladder_note": "",
+      "date": "2026-06-24",
+      "status": "PEND",
+      "units_result": null,
+      "clv_cents": null,
+      "result_score": null,
+      "graded_at": null,
+      "slate_assessment": "Sixteen-game MLB slate with no NBA or NHL action. Two elite pitching matchups stand out \u2014 Ohtani vs Ryan in Minnesota and Skubal vs Weathers in Detroit \u2014 plus several exploitable prop markets at Coors Field and in the high-total games.",
+      "executive_summary": "The board today is all MLB, and the two marquee pitching matchups are where the edge lives. Ohtani at Target Field against Joe Ryan is a clash of aces with the total sitting at 8.0 \u2014 both starters have sub-3.00 ERAs and elite command, and the park suppresses runs. In Detroit, Skubal returns from his elbow procedure looking sharp, facing a Yankees lineup that's potent but travels to a pitcher-friendly Comerica. The Coors Field game screams over with Kyle Freeland's 7.36 ERA hosting Ranger Suarez, but the real play is the total bases prop slate against Freeland's 1.91 HR/9. The ladder rides with the Twins-Dodgers under \u2014 two elite arms, neutral park, lowest total on the board.",
+      "slate_analysis": "Today's board features sixteen MLB games spread across the afternoon and evening, with first pitches ranging from 1:10 PM ET to 9:45 PM ET. No NBA or NHL games are in scope, so we're working exclusively with baseball sides, totals, and props. The pricing climate is relatively tight \u2014 most moneylines sit between -150 and +150, with only a handful of games showing significant separation between favorites and dogs.\n\nThe top candidates that earned hard looks: (1) Twins-Dodgers under 8.0 \u2014 Ohtani's 1.47 ERA and 0.88 WHIP against Ryan's 2.99 ERA and 1.00 WHIP at a neutral Target Field is the cleanest pitching matchup on the board; (2) Tigers ML vs Yankees \u2014 Skubal back from his NanoScope procedure, 3.02 ERA and elite 3.8% BB rate, facing Weathers who has a 1.8 HR/9; (3) Red Sox-Rockies over 10.5 \u2014 Freeland's 7.36 ERA and 1.91 HR/9 at Coors against Suarez is a run-scoring environment; (4) Pirates-Mariners under 7.5 \u2014 Ashcraft (3.18 ERA, 0.80 HR/9) vs Woo (3.94 ERA, 0.91 HR/9) at HR-suppressing PNC Park; (5) Coors total bases props \u2014 Freeland's HR/9 makes XBH props attractive; (6) Angels ML vs Orioles \u2014 Soriano's 3.03 ERA vs Gibson's 5.81 ERA and 1.71 WHIP.\n\nWhat got cut: The Cubs-Mets game (data_confidence 0.4, lineups not confirmed for Game 1 of doubleheader). The White Sox-Guardians game has both teams near pick'em pricing but neither SP profile creates separation \u2014 Fedde's 15.6% K rate is too low to trust, and Bibee's 1.62 HR/9 at a HR-boosting park creates variance. The Brewers-Reds game has Drohan vs Lowder, but Lowder's 12.1% BB rate and the HR-boosting GABP make the under untenable and the over already priced in. The Padres-Braves game has incomplete SP data for JP Sears. The Cardinals-Diamondbacks game has no data for Mitch Bratt.\n\nThe final six picks: (1) Twins-Dodgers Under 8.0 \u2014 the ladder pick, two elite arms, lowest total on the board, neutral park; (2) Tigers ML \u2014 Skubal's return against a beatable Weathers; (3) Red Sox -1.5 at Coors \u2014 Suarez's 2.93 ERA and 0.47 HR/9 against Freeland's disaster profile; (4) Pirates-Mariners Under 7.5 \u2014 two quality arms at PNC Park; (5) Angels ML \u2014 Soriano's elite profile vs Gibson's 5.81 ERA; (6) Ceddanne Rafaela Total Bases Over 1.5 at Coors \u2014 Freeland's 1.91 HR/9 and the Coors environment make XBH likely for a hitter in the top of the order.",
+      "slate_vibe": "NORMAL",
+      "published_at": "2026-06-24T13:06:18.769670-04:00"
+    },
+    {
+      "id": "20260624-MLB-BOS-COL-SPREAD",
+      "sport": "MLB",
+      "game": "BOS @ COL",
+      "first_pitch_iso": "2026-06-24T19:10Z",
+      "pick": "Boston Red Sox -1.5",
+      "best_book": "FanDuel",
+      "best_odds": "-110",
+      "book_prices": {
+        "draftkings": "-115",
+        "fanduel": "-110",
+        "betmgm": "-118"
+      },
+      "book_links": {
+        "fanduel": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.587615646&selectionId=29158",
+        "draftkings": "https://sportsbook.draftkings.com/?outcomes=0HC85252417N150_3",
+        "betmgm": "https://sports.nj.betmgm.com/en/sports?options=19739308-1537496633-2237653644&type=Single"
+      },
+      "market": "SPREAD",
+      "confidence": 4,
+      "units": 1.5,
+      "win_probability": 0.58,
+      "ladder_designation": false,
+      "data_confidence": 0.7,
+      "rules_passed": [
+        "max_juice",
+        "ladder_even_money",
+        "parlay_well_formed",
+        "confidence_units_match",
+        "data_confidence_floor",
+        "pick_type_allowed",
+        "mlb_hr_prop_check",
+        "mlb_pitcher_k_check",
+        "mlb_total_bases_check",
+        "mlb_hits_check",
+        "nba_player_prop_check",
+        "nhl_shots_check",
+        "mlb_run_line_check",
+        "mlb_under_bb_check",
+        "no_same_game_opposite"
+      ],
+      "locked": true,
+      "late_add": false,
+      "late_add_reason": "",
+      "bonus_pick": false,
+      "event_type": "",
+      "event_name": "",
+      "legs": [],
+      "headline": "Suarez's elite HR suppression meets Freeland's disaster profile at Coors.",
+      "the_thesis": "Kyle Freeland has been a disaster in 2026. His 7.36 ERA is backed by a 1.91 HR/9 \u2014 at Coors Field, where the ball already carries, that's a recipe for crooked numbers. His 1.58 WHIP means baserunners are constant, and his 18.7% K rate means he's not missing bats. The Rockies are essentially punting this start.\n\nRanger Suarez, now with Boston after signing a 5-year, $130M deal, has been excellent. His 2.93 ERA and 0.47 HR/9 are elite \u2014 he's allowed just 4 home runs in 76.2 innings. At Coors, where fly balls become souvenirs, Suarez's ground-ball tendencies and HR suppression become even more valuable. His 1.12 WHIP and 24.2% K rate suggest he can navigate the altitude.\n\nThe Red Sox are -164 on the moneyline, which is too juicy for a straight bet. But the run line at -110 offers value \u2014 Boston should win this game by multiple runs given the pitching disparity. Coors inflates totals, but it also inflates margins when one team has a significant pitching advantage.",
+      "the_data": [
+        {
+          "label": "Freeland ERA / HR/9",
+          "value": "7.36 / 1.91",
+          "context": "Disaster, bottom-5 in MLB"
+        },
+        {
+          "label": "Suarez ERA / HR/9",
+          "value": "2.93 / 0.47",
+          "context": "Elite HR suppression"
+        },
+        {
+          "label": "Coors Field HR PF",
+          "value": "1.14",
+          "context": "HR-boosting"
+        },
+        {
+          "label": "Suarez WHIP",
+          "value": "1.12",
+          "context": "Above-average"
+        },
+        {
+          "label": "Red Sox R/G",
+          "value": "3.91",
+          "context": "Below-average but improving"
+        },
+        {
+          "label": "Run line price",
+          "value": "-110",
+          "context": "Value vs -164 ML"
+        }
+      ],
+      "the_market": "Red Sox opened as -164 favorites and the line has held. The run line at -110 on FanDuel offers better value than the moneyline. Total is 10.5-11.0 across books, reflecting the Coors environment.",
+      "weather_park": "Coors Field is the most hitter-friendly park in baseball (1.18 runs PF, 1.14 HR PF). Temperature is 83\u00b0F with light wind \u2014 standard Coors conditions that favor offense.",
+      "case_against": "Coors Field is unpredictable. Even bad pitchers can have good days at altitude, and even good pitchers can get shelled. Suarez has never pitched at Coors in his career, so there's some unknown about how he'll handle the environment. The Rockies offense (4.51 R/G) can put up runs at home.",
+      "what_were_betting_on": "Suarez going 5+ innings with 3 or fewer runs, Freeland getting knocked around early, and the Red Sox offense capitalizing on Coors conditions.",
+      "scott_bot_quip": "Freeland's HR/9 at Coors is a war crime. Suarez doesn't give up homers. This isn't complicated.",
+      "ladder_note": "",
+      "date": "2026-06-24",
+      "status": "PEND",
+      "units_result": null,
+      "clv_cents": null,
+      "result_score": null,
+      "graded_at": null,
+      "slate_assessment": "Sixteen-game MLB slate with no NBA or NHL action. Two elite pitching matchups stand out \u2014 Ohtani vs Ryan in Minnesota and Skubal vs Weathers in Detroit \u2014 plus several exploitable prop markets at Coors Field and in the high-total games.",
+      "executive_summary": "The board today is all MLB, and the two marquee pitching matchups are where the edge lives. Ohtani at Target Field against Joe Ryan is a clash of aces with the total sitting at 8.0 \u2014 both starters have sub-3.00 ERAs and elite command, and the park suppresses runs. In Detroit, Skubal returns from his elbow procedure looking sharp, facing a Yankees lineup that's potent but travels to a pitcher-friendly Comerica. The Coors Field game screams over with Kyle Freeland's 7.36 ERA hosting Ranger Suarez, but the real play is the total bases prop slate against Freeland's 1.91 HR/9. The ladder rides with the Twins-Dodgers under \u2014 two elite arms, neutral park, lowest total on the board.",
+      "slate_analysis": "Today's board features sixteen MLB games spread across the afternoon and evening, with first pitches ranging from 1:10 PM ET to 9:45 PM ET. No NBA or NHL games are in scope, so we're working exclusively with baseball sides, totals, and props. The pricing climate is relatively tight \u2014 most moneylines sit between -150 and +150, with only a handful of games showing significant separation between favorites and dogs.\n\nThe top candidates that earned hard looks: (1) Twins-Dodgers under 8.0 \u2014 Ohtani's 1.47 ERA and 0.88 WHIP against Ryan's 2.99 ERA and 1.00 WHIP at a neutral Target Field is the cleanest pitching matchup on the board; (2) Tigers ML vs Yankees \u2014 Skubal back from his NanoScope procedure, 3.02 ERA and elite 3.8% BB rate, facing Weathers who has a 1.8 HR/9; (3) Red Sox-Rockies over 10.5 \u2014 Freeland's 7.36 ERA and 1.91 HR/9 at Coors against Suarez is a run-scoring environment; (4) Pirates-Mariners under 7.5 \u2014 Ashcraft (3.18 ERA, 0.80 HR/9) vs Woo (3.94 ERA, 0.91 HR/9) at HR-suppressing PNC Park; (5) Coors total bases props \u2014 Freeland's HR/9 makes XBH props attractive; (6) Angels ML vs Orioles \u2014 Soriano's 3.03 ERA vs Gibson's 5.81 ERA and 1.71 WHIP.\n\nWhat got cut: The Cubs-Mets game (data_confidence 0.4, lineups not confirmed for Game 1 of doubleheader). The White Sox-Guardians game has both teams near pick'em pricing but neither SP profile creates separation \u2014 Fedde's 15.6% K rate is too low to trust, and Bibee's 1.62 HR/9 at a HR-boosting park creates variance. The Brewers-Reds game has Drohan vs Lowder, but Lowder's 12.1% BB rate and the HR-boosting GABP make the under untenable and the over already priced in. The Padres-Braves game has incomplete SP data for JP Sears. The Cardinals-Diamondbacks game has no data for Mitch Bratt.\n\nThe final six picks: (1) Twins-Dodgers Under 8.0 \u2014 the ladder pick, two elite arms, lowest total on the board, neutral park; (2) Tigers ML \u2014 Skubal's return against a beatable Weathers; (3) Red Sox -1.5 at Coors \u2014 Suarez's 2.93 ERA and 0.47 HR/9 against Freeland's disaster profile; (4) Pirates-Mariners Under 7.5 \u2014 two quality arms at PNC Park; (5) Angels ML \u2014 Soriano's elite profile vs Gibson's 5.81 ERA; (6) Ceddanne Rafaela Total Bases Over 1.5 at Coors \u2014 Freeland's 1.91 HR/9 and the Coors environment make XBH likely for a hitter in the top of the order.",
+      "slate_vibe": "NORMAL",
+      "published_at": "2026-06-24T13:06:18.769559-04:00"
+    },
+    {
+      "id": "20260624-MLB-NYY-DET-ML",
+      "sport": "MLB",
+      "game": "NYY @ DET",
+      "first_pitch_iso": "2026-06-24T22:40Z",
+      "pick": "Detroit Tigers ML",
+      "best_book": "DraftKings",
+      "best_odds": "-132",
+      "book_prices": {
+        "draftkings": "-132",
+        "fanduel": "-134",
+        "betmgm": "-135"
+      },
+      "book_links": {
+        "fanduel": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.587513616&selectionId=29159",
+        "draftkings": "https://sportsbook.draftkings.com/?outcomes=0ML85252535_1",
+        "betmgm": "https://sports.nj.betmgm.com/en/sports?options=19739809-1537521453-2237717758&type=Single"
+      },
+      "market": "ML",
+      "confidence": 4,
+      "units": 1.5,
+      "win_probability": 0.6,
+      "ladder_designation": false,
+      "data_confidence": 0.7,
+      "rules_passed": [
+        "max_juice",
+        "ladder_even_money",
+        "parlay_well_formed",
+        "confidence_units_match",
+        "data_confidence_floor",
+        "pick_type_allowed",
+        "mlb_hr_prop_check",
+        "mlb_pitcher_k_check",
+        "mlb_total_bases_check",
+        "mlb_hits_check",
+        "nba_player_prop_check",
+        "nhl_shots_check",
+        "mlb_run_line_check",
+        "mlb_under_bb_check",
+        "no_same_game_opposite"
+      ],
+      "locked": true,
+      "late_add": false,
+      "late_add_reason": "",
+      "bonus_pick": false,
+      "event_type": "",
+      "event_name": "",
+      "legs": [],
+      "headline": "Skubal back and dealing, Weathers gives up too many homers \u2014 Tigers at home.",
+      "the_thesis": "Tarik Skubal's return from his NanoScope elbow procedure has been nothing short of remarkable. The two-time Cy Young winner underwent surgery on May 6 and was back on a major league mound by June 13 \u2014 far ahead of the typical 2-3 month timeline. In his starts since returning, he's looked like himself: a 3.02 ERA, 1.02 WHIP, and an absurd 3.8% walk rate that ranks among the best in baseball. His 26.9% K rate means he's still missing bats.\n\nRyan Weathers has been serviceable for the Yankees but his 1.8 HR/9 is a glaring weakness. Comerica Park suppresses home runs (0.95 HR PF), which helps, but Weathers has allowed fly balls to leave the yard at an alarming rate all season. His 4.13 ERA is fine, but the underlying metrics suggest he's been lucky \u2014 that HR/9 will regress in the wrong direction eventually.\n\nThe Tigers offense isn't explosive (4.08 R/G), but they don't need to be with Skubal on the mound. The Yankees score 5.08 R/G, but Skubal's elite command means they won't get free passes. Detroit at home with their ace is the right side.",
+      "the_data": [
+        {
+          "label": "Skubal ERA / WHIP (2026)",
+          "value": "3.02 / 1.02",
+          "context": "Elite, Cy Young caliber"
+        },
+        {
+          "label": "Skubal BB%",
+          "value": "3.8%",
+          "context": "Best in MLB"
+        },
+        {
+          "label": "Weathers HR/9",
+          "value": "1.8",
+          "context": "Problematic, top-third worst"
+        },
+        {
+          "label": "Comerica Park HR PF",
+          "value": "0.95",
+          "context": "Suppresses HRs"
+        },
+        {
+          "label": "Yankees R/G",
+          "value": "5.08",
+          "context": "Above-average"
+        },
+        {
+          "label": "Tigers implied win %",
+          "value": "55.1%",
+          "context": "Market price"
+        }
+      ],
+      "the_market": "Tigers opened as -132 favorites and the line has held steady. DraftKings offers the best price at -132. The market is pricing Detroit at roughly 55% implied, which feels about right given the pitching matchup, but I have them closer to 60%.",
+      "weather_park": "Comerica Park is neutral for runs (0.96 PF) and slightly suppresses HRs (0.95 PF). No weather concerns for this evening game.",
+      "case_against": "The Yankees lineup is dangerous, and Skubal is still building back up after his procedure. If he's on a soft pitch count (80-85 pitches), the Tigers bullpen would need to cover 3+ innings against a potent offense. Detroit's offense has also been inconsistent, ranking in the bottom third of the league.",
+      "what_were_betting_on": "Skubal going 6+ innings with 2 or fewer runs, Weathers giving up at least one HR, and the Tigers bullpen holding a lead.",
+      "scott_bot_quip": "The Cy Young winner is back, the park eats fly balls, and Weathers can't stop serving them up. Math is math.",
+      "ladder_note": "",
+      "date": "2026-06-24",
+      "status": "PEND",
+      "units_result": null,
+      "clv_cents": null,
+      "result_score": null,
+      "graded_at": null,
+      "slate_assessment": "Sixteen-game MLB slate with no NBA or NHL action. Two elite pitching matchups stand out \u2014 Ohtani vs Ryan in Minnesota and Skubal vs Weathers in Detroit \u2014 plus several exploitable prop markets at Coors Field and in the high-total games.",
+      "executive_summary": "The board today is all MLB, and the two marquee pitching matchups are where the edge lives. Ohtani at Target Field against Joe Ryan is a clash of aces with the total sitting at 8.0 \u2014 both starters have sub-3.00 ERAs and elite command, and the park suppresses runs. In Detroit, Skubal returns from his elbow procedure looking sharp, facing a Yankees lineup that's potent but travels to a pitcher-friendly Comerica. The Coors Field game screams over with Kyle Freeland's 7.36 ERA hosting Ranger Suarez, but the real play is the total bases prop slate against Freeland's 1.91 HR/9. The ladder rides with the Twins-Dodgers under \u2014 two elite arms, neutral park, lowest total on the board.",
+      "slate_analysis": "Today's board features sixteen MLB games spread across the afternoon and evening, with first pitches ranging from 1:10 PM ET to 9:45 PM ET. No NBA or NHL games are in scope, so we're working exclusively with baseball sides, totals, and props. The pricing climate is relatively tight \u2014 most moneylines sit between -150 and +150, with only a handful of games showing significant separation between favorites and dogs.\n\nThe top candidates that earned hard looks: (1) Twins-Dodgers under 8.0 \u2014 Ohtani's 1.47 ERA and 0.88 WHIP against Ryan's 2.99 ERA and 1.00 WHIP at a neutral Target Field is the cleanest pitching matchup on the board; (2) Tigers ML vs Yankees \u2014 Skubal back from his NanoScope procedure, 3.02 ERA and elite 3.8% BB rate, facing Weathers who has a 1.8 HR/9; (3) Red Sox-Rockies over 10.5 \u2014 Freeland's 7.36 ERA and 1.91 HR/9 at Coors against Suarez is a run-scoring environment; (4) Pirates-Mariners under 7.5 \u2014 Ashcraft (3.18 ERA, 0.80 HR/9) vs Woo (3.94 ERA, 0.91 HR/9) at HR-suppressing PNC Park; (5) Coors total bases props \u2014 Freeland's HR/9 makes XBH props attractive; (6) Angels ML vs Orioles \u2014 Soriano's 3.03 ERA vs Gibson's 5.81 ERA and 1.71 WHIP.\n\nWhat got cut: The Cubs-Mets game (data_confidence 0.4, lineups not confirmed for Game 1 of doubleheader). The White Sox-Guardians game has both teams near pick'em pricing but neither SP profile creates separation \u2014 Fedde's 15.6% K rate is too low to trust, and Bibee's 1.62 HR/9 at a HR-boosting park creates variance. The Brewers-Reds game has Drohan vs Lowder, but Lowder's 12.1% BB rate and the HR-boosting GABP make the under untenable and the over already priced in. The Padres-Braves game has incomplete SP data for JP Sears. The Cardinals-Diamondbacks game has no data for Mitch Bratt.\n\nThe final six picks: (1) Twins-Dodgers Under 8.0 \u2014 the ladder pick, two elite arms, lowest total on the board, neutral park; (2) Tigers ML \u2014 Skubal's return against a beatable Weathers; (3) Red Sox -1.5 at Coors \u2014 Suarez's 2.93 ERA and 0.47 HR/9 against Freeland's disaster profile; (4) Pirates-Mariners Under 7.5 \u2014 two quality arms at PNC Park; (5) Angels ML \u2014 Soriano's elite profile vs Gibson's 5.81 ERA; (6) Ceddanne Rafaela Total Bases Over 1.5 at Coors \u2014 Freeland's 1.91 HR/9 and the Coors environment make XBH likely for a hitter in the top of the order.",
+      "slate_vibe": "NORMAL",
+      "published_at": "2026-06-24T13:06:18.769444-04:00"
+    },
+    {
+      "id": "20260624-MLB-LAD-MIN-TOTAL",
+      "sport": "MLB",
+      "game": "LAD @ MIN",
+      "first_pitch_iso": "2026-06-24T23:40Z",
+      "pick": "Under 8.0",
+      "best_book": "FanDuel",
+      "best_odds": "-105",
+      "book_prices": {
+        "draftkings": "-105",
+        "fanduel": "-105",
+        "betmgm": "-110"
+      },
+      "book_links": {
+        "fanduel": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.587620119&selectionId=7017906",
+        "draftkings": "https://sportsbook.draftkings.com/?outcomes=0OU85252578U800_3",
+        "betmgm": "https://sports.nj.betmgm.com/en/sports?options=19739318-1537497732-2237656001&type=Single"
+      },
+      "market": "TOTAL",
+      "confidence": 5,
+      "units": 2.0,
+      "win_probability": 0.62,
+      "ladder_designation": true,
+      "data_confidence": 0.75,
+      "rules_passed": [
+        "max_juice",
+        "ladder_even_money",
+        "parlay_well_formed",
+        "confidence_units_match",
+        "data_confidence_floor",
+        "pick_type_allowed",
+        "mlb_hr_prop_check",
+        "mlb_pitcher_k_check",
+        "mlb_total_bases_check",
+        "mlb_hits_check",
+        "nba_player_prop_check",
+        "nhl_shots_check",
+        "mlb_run_line_check",
+        "mlb_under_bb_check(soft)",
+        "no_same_game_opposite"
+      ],
+      "locked": true,
+      "late_add": false,
+      "late_add_reason": "",
+      "bonus_pick": false,
+      "event_type": "",
+      "event_name": "",
+      "legs": [],
+      "headline": "Two aces, lowest total on the board, neutral park \u2014 this is the floor play.",
+      "the_thesis": "Shohei Ohtani has been otherworldly on the mound in 2026. His 1.47 ERA through 73.2 innings is backed by a 0.88 WHIP and a minuscule 0.37 HR/9 \u2014 that's elite run prevention by any measure. He's striking out 27% of batters while walking just 7.6%, which means he's not putting runners on base and he's not giving up free passes. When Ohtani is on, he dominates, and the Dodgers have been riding him as a true ace.\n\nJoe Ryan counters with his own strong profile \u2014 a 2.99 ERA, 1.00 WHIP, and a 28.1% K rate against just 5.1% walks. Ryan was scratched from his last start due to illness but earned a win against the Rangers on June 19, so he's healthy and in rhythm. Target Field plays neutral (0.98 runs PF, 0.97 HR PF), which means neither offense gets a boost from the environment.\n\nThe market has this at 8.0, the lowest total on the entire board. That's appropriate given the pitching matchup, but the de-vigged implied probability sits around 52-53% for the under. I have this closer to 62% \u2014 both starters have the command and stuff to go 6+ innings with minimal damage, and neither bullpen is a liability. The Twins offense has been solid (4.84 R/G) but faces a pitcher who's allowed just 3 HR all season. The Dodgers score 5.24 R/G but Ryan's elite walk rate means they won't get free baserunners.",
+      "the_data": [
+        {
+          "label": "Ohtani ERA / WHIP (2026)",
+          "value": "1.47 / 0.88",
+          "context": "Elite, top-3 in MLB"
+        },
+        {
+          "label": "Ohtani HR/9",
+          "value": "0.37",
+          "context": "Best in baseball"
+        },
+        {
+          "label": "Ryan ERA / WHIP (2026)",
+          "value": "2.99 / 1.00",
+          "context": "Above-average, stable"
+        },
+        {
+          "label": "Ryan K% / BB%",
+          "value": "28.1% / 5.1%",
+          "context": "Elite command"
+        },
+        {
+          "label": "Target Field PF (runs)",
+          "value": "0.98",
+          "context": "Neutral"
+        },
+        {
+          "label": "Total line",
+          "value": "8.0",
+          "context": "Lowest on board"
+        }
+      ],
+      "the_market": "Total opened at 8.0 and hasn't moved across all three books. The under is -105 at FanDuel and DraftKings, -110 at BetMGM. No significant line movement suggests sharp money hasn't piled on either side yet, but the number is appropriately low given the arms involved.",
+      "weather_park": "Target Field is neutral for runs (0.98 PF) and slightly suppresses HRs (0.97 PF). Weather is not a factor for this evening game.",
+      "case_against": "The Dodgers offense is legitimately dangerous \u2014 5.24 R/G is second-best in baseball. If Ryan doesn't have his best stuff coming off illness, LA could put up a crooked number early. Ohtani has also been managed carefully this year, so a short outing (5 IP) would expose the Twins bullpen to the Dodgers' deep lineup.",
+      "what_were_betting_on": "Both starters going 6+ innings with 2 or fewer runs allowed, combined K rate suppressing contact, and neither bullpen imploding in the late innings.",
+      "scott_bot_quip": "Two aces, one total, zero drama. The sharps haven't moved this number because there's nowhere for it to go.",
+      "ladder_note": "Best floor on the board \u2014 two elite SPs with sub-3.00 ERAs, neutral park, lowest total available. This is the highest-confidence play at near even money.",
+      "date": "2026-06-24",
+      "status": "PEND",
+      "units_result": null,
+      "clv_cents": null,
+      "result_score": null,
+      "graded_at": null,
+      "slate_assessment": "Sixteen-game MLB slate with no NBA or NHL action. Two elite pitching matchups stand out \u2014 Ohtani vs Ryan in Minnesota and Skubal vs Weathers in Detroit \u2014 plus several exploitable prop markets at Coors Field and in the high-total games.",
+      "executive_summary": "The board today is all MLB, and the two marquee pitching matchups are where the edge lives. Ohtani at Target Field against Joe Ryan is a clash of aces with the total sitting at 8.0 \u2014 both starters have sub-3.00 ERAs and elite command, and the park suppresses runs. In Detroit, Skubal returns from his elbow procedure looking sharp, facing a Yankees lineup that's potent but travels to a pitcher-friendly Comerica. The Coors Field game screams over with Kyle Freeland's 7.36 ERA hosting Ranger Suarez, but the real play is the total bases prop slate against Freeland's 1.91 HR/9. The ladder rides with the Twins-Dodgers under \u2014 two elite arms, neutral park, lowest total on the board.",
+      "slate_analysis": "Today's board features sixteen MLB games spread across the afternoon and evening, with first pitches ranging from 1:10 PM ET to 9:45 PM ET. No NBA or NHL games are in scope, so we're working exclusively with baseball sides, totals, and props. The pricing climate is relatively tight \u2014 most moneylines sit between -150 and +150, with only a handful of games showing significant separation between favorites and dogs.\n\nThe top candidates that earned hard looks: (1) Twins-Dodgers under 8.0 \u2014 Ohtani's 1.47 ERA and 0.88 WHIP against Ryan's 2.99 ERA and 1.00 WHIP at a neutral Target Field is the cleanest pitching matchup on the board; (2) Tigers ML vs Yankees \u2014 Skubal back from his NanoScope procedure, 3.02 ERA and elite 3.8% BB rate, facing Weathers who has a 1.8 HR/9; (3) Red Sox-Rockies over 10.5 \u2014 Freeland's 7.36 ERA and 1.91 HR/9 at Coors against Suarez is a run-scoring environment; (4) Pirates-Mariners under 7.5 \u2014 Ashcraft (3.18 ERA, 0.80 HR/9) vs Woo (3.94 ERA, 0.91 HR/9) at HR-suppressing PNC Park; (5) Coors total bases props \u2014 Freeland's HR/9 makes XBH props attractive; (6) Angels ML vs Orioles \u2014 Soriano's 3.03 ERA vs Gibson's 5.81 ERA and 1.71 WHIP.\n\nWhat got cut: The Cubs-Mets game (data_confidence 0.4, lineups not confirmed for Game 1 of doubleheader). The White Sox-Guardians game has both teams near pick'em pricing but neither SP profile creates separation \u2014 Fedde's 15.6% K rate is too low to trust, and Bibee's 1.62 HR/9 at a HR-boosting park creates variance. The Brewers-Reds game has Drohan vs Lowder, but Lowder's 12.1% BB rate and the HR-boosting GABP make the under untenable and the over already priced in. The Padres-Braves game has incomplete SP data for JP Sears. The Cardinals-Diamondbacks game has no data for Mitch Bratt.\n\nThe final six picks: (1) Twins-Dodgers Under 8.0 \u2014 the ladder pick, two elite arms, lowest total on the board, neutral park; (2) Tigers ML \u2014 Skubal's return against a beatable Weathers; (3) Red Sox -1.5 at Coors \u2014 Suarez's 2.93 ERA and 0.47 HR/9 against Freeland's disaster profile; (4) Pirates-Mariners Under 7.5 \u2014 two quality arms at PNC Park; (5) Angels ML \u2014 Soriano's elite profile vs Gibson's 5.81 ERA; (6) Ceddanne Rafaela Total Bases Over 1.5 at Coors \u2014 Freeland's 1.91 HR/9 and the Coors environment make XBH likely for a hitter in the top of the order.",
+      "slate_vibe": "NORMAL",
+      "published_at": "2026-06-24T13:06:18.769294-04:00"
+    },
     {
       "id": "20260623-MLB-MIL-CIN-PROP-JACKSONCHOURIO",
       "sport": "MLB",
