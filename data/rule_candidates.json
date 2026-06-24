@@ -238,5 +238,13 @@
     "candidate_rule": "Before backing an Under anchored on a specific starter's ERA, cross-check his last 2 starts for hit/contact quality (xwOBAcon, hard-hit rate) \u2014 a sub-3.00 ERA can mask a pitcher who is trending toward regression; require at least 2 consecutive starts with <7 hits allowed before treating ERA as predictive. (N=1, insufficient to establish rule.)",
     "sample_size_warning": "N=1, insufficient to establish rule \u2014 one Cole implosion does not confirm a pattern, but worth flagging that TJ-return workload management may create start-to-start variance that season ERA obscures.",
     "status": "PENDING_REVIEW"
+  },
+  {
+    "proposed_at": "2026-06-24T02:55:05.496285-04:00",
+    "source_pick_id": "20260623-MLB-CLE-CHW-PROP-PARKERMESSICK",
+    "source_loss": "Parker Messick Ks Under 6.5 (CLE @ CHW)",
+    "candidate_rule": "When a starter's K/9 implies ~6 Ks per 6 IP, model the over/under on innings pitched as a second variable \u2014 a pitcher going 7+ IP inflates K totals beyond the line regardless of opponent K-rate; flag any under bet where the starter has a recent history of deep outings (N=1 here, insufficient to establish rule).",
+    "sample_size_warning": "N=1, insufficient to establish rule \u2014 one dominant outing does not invalidate the contact-suppression thesis, but the innings-pitched multiplier effect is worth tracking across future Messick starts.",
+    "status": "PENDING_REVIEW"
   }
 ]

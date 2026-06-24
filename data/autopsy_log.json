@@ -1,5 +1,31 @@
 [
   {
+    "id": "20260623-MLB-CLE-CHW-PROP-PARKERMESSICK",
+    "date": "2026-06-23",
+    "pick": "Parker Messick Ks Under 6.5",
+    "game": "CLE @ CHW",
+    "odds": "-104",
+    "result_score": "Parker Messick: 10 strikeOuts",
+    "classification": "MODEL",
+    "post_mortem": "Messick didn't cooperate with the contact-heavy narrative at all \u2014 he was simply dominant. Per CBS Sports, he struck out a career-high 10 batters across 7 2/3 innings, allowing just 3 hits and 2 runs on 95 pitches. The White Sox's supposed contact approach was irrelevant: Messick was working deep into the game at full efficiency, and the strikeout total blew past the 6.5 line with room to spare. The thesis that CHW's 24% K-rate vs. LHP would suppress his output was the wrong lever \u2014 it underweighted how dominant Messick's stuff is when he's locked in, and the 7.2/3 IP workload gave him far more opportunities than a typical 6-inning projection assumed.",
+    "candidate_rule": "When a starter's K/9 implies ~6 Ks per 6 IP, model the over/under on innings pitched as a second variable \u2014 a pitcher going 7+ IP inflates K totals beyond the line regardless of opponent K-rate; flag any under bet where the starter has a recent history of deep outings (N=1 here, insufficient to establish rule).",
+    "sample_size_warning": "N=1, insufficient to establish rule \u2014 one dominant outing does not invalidate the contact-suppression thesis, but the innings-pitched multiplier effect is worth tracking across future Messick starts.",
+    "analyzed_at": "2026-06-24T02:55:05.495216-04:00"
+  },
+  {
+    "id": "20260623-MLB-MIL-CIN-PROP-JACKSONCHOURIO",
+    "date": "2026-06-23",
+    "pick": "Jackson Chourio TBs Over 1.5",
+    "game": "MIL @ CIN",
+    "odds": "-120",
+    "result_score": "Jackson Chourio: 1 totalBases",
+    "classification": "VARIANCE",
+    "post_mortem": "Lodolo was actually sharp \u2014 he held the Brewers hitless through three innings before Chourio's hard comebacker struck him on the pitching hand to begin the fourth, forcing Lodolo out after four innings with a left wrist contusion. That infield single was Chourio's only base of the night; he struck out twice on sweepers (once in the sixth chasing one way outside, once in the ninth watching a 3-2 sweeper catch the zone) and finished with exactly 1 TB. The thesis was sound \u2014 struggling lefty, hitter-friendly park \u2014 but Lodolo had his best stuff of the month, Chourio's only hit was a fluke comebacker, and the sweeper neutralized him all night.",
+    "candidate_rule": null,
+    "sample_size_warning": "N=1, insufficient to establish rule \u2014 this is a clean VARIANCE loss driven by Lodolo's uncharacteristic sharpness and Chourio's vulnerability to the sweeper on this specific night.",
+    "analyzed_at": "2026-06-24T02:54:48.883576-04:00"
+  },
+  {
     "id": "20260622-MLB-NYY-DET-TOTAL",
     "date": "2026-06-22",
     "pick": "Under 7.5",

@@ -1,9 +1,17 @@
 {
-  "current_streak": 2,
+  "current_streak": 3,
   "longest_streak": 8,
   "completed_climbs": 0,
   "target": 10,
   "history": [
+    {
+      "date": "2026-06-23",
+      "pick_id": "20260623-MLB-NYY-DET-TOTAL",
+      "pick": "Under 7.5",
+      "game": "NYY @ DET",
+      "status": "WIN",
+      "after_streak": 3
+    },
     {
       "date": "2026-06-22",
       "pick_id": "20260622-MLB-HOU-TOR-TOTAL",
@@ -237,5 +245,5 @@
       "after_streak": 1
     }
   ],
-  "updated_at": "2026-06-23T02:57:30.561868-04:00"
+  "updated_at": "2026-06-24T02:55:05.521012-04:00"
 }
