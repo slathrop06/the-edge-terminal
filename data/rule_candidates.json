@@ -246,5 +246,21 @@
     "candidate_rule": "When a starter's K/9 implies ~6 Ks per 6 IP, model the over/under on innings pitched as a second variable \u2014 a pitcher going 7+ IP inflates K totals beyond the line regardless of opponent K-rate; flag any under bet where the starter has a recent history of deep outings (N=1 here, insufficient to establish rule).",
     "sample_size_warning": "N=1, insufficient to establish rule \u2014 one dominant outing does not invalidate the contact-suppression thesis, but the innings-pitched multiplier effect is worth tracking across future Messick starts.",
     "status": "PENDING_REVIEW"
+  },
+  {
+    "proposed_at": "2026-06-25T02:54:14.133065-04:00",
+    "source_pick_id": "20260624-MLB-SEA-PIT-TOTAL",
+    "source_loss": "Under 7.5 (SEA @ PIT)",
+    "candidate_rule": "Before backing an under that hinges on a specific starter's ERA, cross-check his last 4-6 starts for variance in runs allowed \u2014 if the standard deviation is high (e.g., alternating shutdowns and blowups), discount the ERA and widen the projected run range accordingly; N=1 loss, insufficient to establish rule.",
+    "sample_size_warning": "N=1, insufficient to establish rule \u2014 one Woo blowup does not confirm a systemic model gap, but the volatility signal was visible in the pre-game data and was not weighted.",
+    "status": "PENDING_REVIEW"
+  },
+  {
+    "proposed_at": "2026-06-25T02:54:47.833154-04:00",
+    "source_pick_id": "20260624-MLB-NYY-DET-ML",
+    "source_loss": "Detroit Tigers ML (NYY @ DET)",
+    "candidate_rule": "When a returning-from-injury starter's last 2+ starts show a FIP 1.5+ runs above his season ERA, regress projected performance toward the recent sample, not the season line \u2014 do not back him as a heavy favorite until he posts at least 3 post-IL starts with sub-4.00 FIP. (N=1, insufficient to establish rule.)",
+    "sample_size_warning": "N=1, insufficient to establish rule \u2014 one start does not confirm a pattern, but the pre-game data signal (4.35 ERA, 5.42 FIP in post-IL starts) was available and underweighted.",
+    "status": "PENDING_REVIEW"
   }
 ]

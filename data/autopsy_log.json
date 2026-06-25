@@ -1,5 +1,44 @@
 [
   {
+    "id": "20260624-MLB-NYY-DET-ML",
+    "date": "2026-06-24",
+    "pick": "Detroit Tigers ML",
+    "game": "NYY @ DET",
+    "odds": "-132",
+    "result_score": "NYY 4 \u00b7 DET 2",
+    "classification": "MODEL",
+    "post_mortem": "The thesis leaned on Skubal's season-long ERA (3.02) without adequately discounting that he was still rounding back into form post-surgery \u2014 Bless You Boys noted he carried a 4.35 ERA and 5.42 FIP across his first two post-IL starts, with three home runs already allowed in that stretch. Tonight made it worse: Goldschmidt took him deep in the 1st inning on a 3-1 fastball, then again in the 3rd, and Dom\u00ednguez hit a go-ahead two-run shot in the 6th \u2014 Skubal tied a career high with three home runs allowed, his most since 2021. The 'case against' explicitly flagged a soft pitch count and bullpen exposure, but the deeper flaw was treating the season ERA as representative of a pitcher who was clearly not yet himself. Weathers, meanwhile, held Detroit to two runs on six hits over six innings \u2014 the thesis that his HR/9 would hurt him at Comerica never materialized.",
+    "candidate_rule": "When a returning-from-injury starter's last 2+ starts show a FIP 1.5+ runs above his season ERA, regress projected performance toward the recent sample, not the season line \u2014 do not back him as a heavy favorite until he posts at least 3 post-IL starts with sub-4.00 FIP. (N=1, insufficient to establish rule.)",
+    "sample_size_warning": "N=1, insufficient to establish rule \u2014 one start does not confirm a pattern, but the pre-game data signal (4.35 ERA, 5.42 FIP in post-IL starts) was available and underweighted.",
+    "analyzed_at": "2026-06-25T02:54:47.832054-04:00"
+  },
+  {
+    "id": "20260624-MLB-BOS-COL-SPREAD",
+    "date": "2026-06-24",
+    "pick": "Boston Red Sox -1.5",
+    "game": "BOS @ COL",
+    "odds": "-110",
+    "result_score": "BOS 6 \u00b7 COL 8",
+    "classification": "VARIANCE",
+    "post_mortem": "The thesis executed almost perfectly through six innings \u2014 Suarez was dominant (9 K, 1 walk, 13 swing-and-misses, retired the final 7 batters in order) and Boston led 6-3 heading to the seventh. The game unraveled entirely in the Boston bullpen: Marcelo Mayer fumbled a routine grounder with two outs in the seventh, keeping the inning alive, and three consecutive RBI singles off Tyron Guerrero and Danny Coulombe tied it at 6-6. Then in the eighth, with runners on first and third off Justin Slaten (0-4), Tyler Freeman dropped a walk-off bunt single to plate the go-ahead run, and Colorado added an insurance run to seal the 8-6 win. A mid-game injury to 3B Caleb Durbin (left pinkie subluxation sliding into first) also forced a defensive reshuffle that contributed to the Seigler throwing error that let Colorado back in during the third.",
+    "candidate_rule": null,
+    "sample_size_warning": "N=1, insufficient to establish rule \u2014 this was a clean bullpen/error collapse after the starting pitching thesis fully validated; no model adjustment warranted.",
+    "analyzed_at": "2026-06-25T02:54:31.674974-04:00"
+  },
+  {
+    "id": "20260624-MLB-SEA-PIT-TOTAL",
+    "date": "2026-06-24",
+    "pick": "Under 7.5",
+    "game": "SEA @ PIT",
+    "odds": "+102",
+    "result_score": "SEA 1 \u00b7 PIT 11",
+    "classification": "MODEL",
+    "post_mortem": "The thesis was built around two quality starters neutralizing offenses \u2014 but it was Bryan Woo who collapsed, not Ashcraft. Pittsburgh sent nine men to the plate in a five-run fourth inning against Woo, going ahead 5-1 on Endy Rodr\u00edguez's two-run double, a Tyler Callihan triple, and back-to-back RBI singles; a four-run seventh pushed it to 9-1 before garbage-time bullpen runs finished the 11-1 final. Woo had shown a pattern of extreme volatility entering this start \u2014 two scoreless seven-inning gems sandwiched around two outings where he allowed 12 runs over 11.1 combined innings \u2014 and the pick leaned on his 3.94 ERA and elite walk rate without adequately weighting his ceiling/floor spread. The under was dead by the fourth inning; this was not a late-game collapse or a freak event.",
+    "candidate_rule": "Before backing an under that hinges on a specific starter's ERA, cross-check his last 4-6 starts for variance in runs allowed \u2014 if the standard deviation is high (e.g., alternating shutdowns and blowups), discount the ERA and widen the projected run range accordingly; N=1 loss, insufficient to establish rule.",
+    "sample_size_warning": "N=1, insufficient to establish rule \u2014 one Woo blowup does not confirm a systemic model gap, but the volatility signal was visible in the pre-game data and was not weighted.",
+    "analyzed_at": "2026-06-25T02:54:14.131918-04:00"
+  },
+  {
     "id": "20260623-MLB-CLE-CHW-PROP-PARKERMESSICK",
     "date": "2026-06-23",
     "pick": "Parker Messick Ks Under 6.5",

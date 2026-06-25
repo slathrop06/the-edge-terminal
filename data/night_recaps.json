@@ -201,5 +201,12 @@
     "units_pl": 1.6017,
     "night_summary": "3-2 night, +1.60u. The headliner was the Giants ML \u2014 Robbie Ray was locked in, holding the A's to two hits and an unearned run across eight innings, and Rafael Devers' RBI single in the seventh put it away at 3-1. The CLE/CHW under (2-1 final) and the NYY/DET ladder under (4-3) both cashed cleanly. The losses stung differently: Messick was a MODEL miss \u2014 he went 7.2/3 innings and struck out a career-high 10, and we got that one wrong by underweighting how deep he'd go. The Chourio TB under was pure variance \u2014 Lodolo had his best stuff of the month, Chourio's only hit was a fluke comebacker off Lodolo's pitching hand, and the sweeper neutralized him all night; the read was sound. Ladder sits at 3 of 10 \u2014 climbing.",
     "generated_at": "2026-06-24T02:55:21.970325-04:00"
+  },
+  "2026-06-24": {
+    "date": "2026-06-24",
+    "record": "2-3-0",
+    "units_pl": -1.7755,
+    "night_summary": "2-3 night, -1.78u \u2014 rough one, but the ladder pick did its job. The LAD @ MIN under (2.0u) was the cleanest win of the night: Ohtani gutted through a shaky second inning and the Dodgers swept Minnesota 4-3, with seven combined runs staying comfortably under 8.0; ladder moves to 4 of 10. The Angels ML was a nice bonus \u2014 LAA walked off Baltimore 7-6 to cover at -122. The losses hurt. Bryan Woo got shelled in Pittsburgh \u2014 a five-run fourth and a four-run seventh turned a 1-1 game into an 11-1 blowout; we got that one wrong, the volatility signal was in the data and we didn't weight it. The BOS -1.5 was pure variance \u2014 Suarez was dominant through six with Boston up 6-3, then the bullpen imploded on back-to-back errors and three straight RBI singles to tie it, and Tyler Freeman's bunt single in the eighth sealed an 8-6 Colorado win; the read was right, the pen wasn't. The DET ML was a model miss \u2014 Goldschmidt took Skubal deep twice (1st and 3rd innings) and Dom\u00ednguez added a go-ahead two-run shot in the sixth, with Skubal tying a career high by surrendering three home runs in a 4-2 Yankees win; we leaned on the season ERA and ignored the post-IL warning signs. Ladder sits at 4 of 10 \u2014 climbing.",
+    "generated_at": "2026-06-25T02:55:05.775947-04:00"
   }
 }

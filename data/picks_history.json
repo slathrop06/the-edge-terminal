@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated_at": "2026-06-24T13:06:18.769887-04:00",
+  "updated_at": "2026-06-25T02:54:49.703682-04:00",
   "picks": [
     {
       "id": "20260624-MLB-BAL-LAA-ML",
@@ -91,11 +91,11 @@
       "scott_bot_quip": "Gibson's walk rate is a cry for help. Soriano just needs to be average to win this.",
       "ladder_note": "",
       "date": "2026-06-24",
-      "status": "PEND",
-      "units_result": null,
+      "status": "WIN",
+      "units_result": 0.8197,
       "clv_cents": null,
-      "result_score": null,
-      "graded_at": null,
+      "result_score": "BAL 6 \u00b7 LAA 7",
+      "graded_at": "2026-06-25T02:53:54.628333-04:00",
       "slate_assessment": "Sixteen-game MLB slate with no NBA or NHL action. Two elite pitching matchups stand out \u2014 Ohtani vs Ryan in Minnesota and Skubal vs Weathers in Detroit \u2014 plus several exploitable prop markets at Coors Field and in the high-total games.",
       "executive_summary": "The board today is all MLB, and the two marquee pitching matchups are where the edge lives. Ohtani at Target Field against Joe Ryan is a clash of aces with the total sitting at 8.0 \u2014 both starters have sub-3.00 ERAs and elite command, and the park suppresses runs. In Detroit, Skubal returns from his elbow procedure looking sharp, facing a Yankees lineup that's potent but travels to a pitcher-friendly Comerica. The Coors Field game screams over with Kyle Freeland's 7.36 ERA hosting Ranger Suarez, but the real play is the total bases prop slate against Freeland's 1.91 HR/9. The ladder rides with the Twins-Dodgers under \u2014 two elite arms, neutral park, lowest total on the board.",
       "slate_analysis": "Today's board features sixteen MLB games spread across the afternoon and evening, with first pitches ranging from 1:10 PM ET to 9:45 PM ET. No NBA or NHL games are in scope, so we're working exclusively with baseball sides, totals, and props. The pricing climate is relatively tight \u2014 most moneylines sit between -150 and +150, with only a handful of games showing significant separation between favorites and dogs.\n\nThe top candidates that earned hard looks: (1) Twins-Dodgers under 8.0 \u2014 Ohtani's 1.47 ERA and 0.88 WHIP against Ryan's 2.99 ERA and 1.00 WHIP at a neutral Target Field is the cleanest pitching matchup on the board; (2) Tigers ML vs Yankees \u2014 Skubal back from his NanoScope procedure, 3.02 ERA and elite 3.8% BB rate, facing Weathers who has a 1.8 HR/9; (3) Red Sox-Rockies over 10.5 \u2014 Freeland's 7.36 ERA and 1.91 HR/9 at Coors against Suarez is a run-scoring environment; (4) Pirates-Mariners under 7.5 \u2014 Ashcraft (3.18 ERA, 0.80 HR/9) vs Woo (3.94 ERA, 0.91 HR/9) at HR-suppressing PNC Park; (5) Coors total bases props \u2014 Freeland's HR/9 makes XBH props attractive; (6) Angels ML vs Orioles \u2014 Soriano's 3.03 ERA vs Gibson's 5.81 ERA and 1.71 WHIP.\n\nWhat got cut: The Cubs-Mets game (data_confidence 0.4, lineups not confirmed for Game 1 of doubleheader). The White Sox-Guardians game has both teams near pick'em pricing but neither SP profile creates separation \u2014 Fedde's 15.6% K rate is too low to trust, and Bibee's 1.62 HR/9 at a HR-boosting park creates variance. The Brewers-Reds game has Drohan vs Lowder, but Lowder's 12.1% BB rate and the HR-boosting GABP make the under untenable and the over already priced in. The Padres-Braves game has incomplete SP data for JP Sears. The Cardinals-Diamondbacks game has no data for Mitch Bratt.\n\nThe final six picks: (1) Twins-Dodgers Under 8.0 \u2014 the ladder pick, two elite arms, lowest total on the board, neutral park; (2) Tigers ML \u2014 Skubal's return against a beatable Weathers; (3) Red Sox -1.5 at Coors \u2014 Suarez's 2.93 ERA and 0.47 HR/9 against Freeland's disaster profile; (4) Pirates-Mariners Under 7.5 \u2014 two quality arms at PNC Park; (5) Angels ML \u2014 Soriano's elite profile vs Gibson's 5.81 ERA; (6) Ceddanne Rafaela Total Bases Over 1.5 at Coors \u2014 Freeland's 1.91 HR/9 and the Coors environment make XBH likely for a hitter in the top of the order.",
@@ -191,16 +191,22 @@
       "scott_bot_quip": "Two arms that don't walk guys, a park that eats fly balls, and we're getting plus money. The market is asleep.",
       "ladder_note": "",
       "date": "2026-06-24",
-      "status": "PEND",
-      "units_result": null,
+      "status": "LOSS",
+      "units_result": -1.5,
       "clv_cents": null,
-      "result_score": null,
-      "graded_at": null,
+      "result_score": "SEA 1 \u00b7 PIT 11",
+      "graded_at": "2026-06-25T02:53:54.637215-04:00",
       "slate_assessment": "Sixteen-game MLB slate with no NBA or NHL action. Two elite pitching matchups stand out \u2014 Ohtani vs Ryan in Minnesota and Skubal vs Weathers in Detroit \u2014 plus several exploitable prop markets at Coors Field and in the high-total games.",
       "executive_summary": "The board today is all MLB, and the two marquee pitching matchups are where the edge lives. Ohtani at Target Field against Joe Ryan is a clash of aces with the total sitting at 8.0 \u2014 both starters have sub-3.00 ERAs and elite command, and the park suppresses runs. In Detroit, Skubal returns from his elbow procedure looking sharp, facing a Yankees lineup that's potent but travels to a pitcher-friendly Comerica. The Coors Field game screams over with Kyle Freeland's 7.36 ERA hosting Ranger Suarez, but the real play is the total bases prop slate against Freeland's 1.91 HR/9. The ladder rides with the Twins-Dodgers under \u2014 two elite arms, neutral park, lowest total on the board.",
       "slate_analysis": "Today's board features sixteen MLB games spread across the afternoon and evening, with first pitches ranging from 1:10 PM ET to 9:45 PM ET. No NBA or NHL games are in scope, so we're working exclusively with baseball sides, totals, and props. The pricing climate is relatively tight \u2014 most moneylines sit between -150 and +150, with only a handful of games showing significant separation between favorites and dogs.\n\nThe top candidates that earned hard looks: (1) Twins-Dodgers under 8.0 \u2014 Ohtani's 1.47 ERA and 0.88 WHIP against Ryan's 2.99 ERA and 1.00 WHIP at a neutral Target Field is the cleanest pitching matchup on the board; (2) Tigers ML vs Yankees \u2014 Skubal back from his NanoScope procedure, 3.02 ERA and elite 3.8% BB rate, facing Weathers who has a 1.8 HR/9; (3) Red Sox-Rockies over 10.5 \u2014 Freeland's 7.36 ERA and 1.91 HR/9 at Coors against Suarez is a run-scoring environment; (4) Pirates-Mariners under 7.5 \u2014 Ashcraft (3.18 ERA, 0.80 HR/9) vs Woo (3.94 ERA, 0.91 HR/9) at HR-suppressing PNC Park; (5) Coors total bases props \u2014 Freeland's HR/9 makes XBH props attractive; (6) Angels ML vs Orioles \u2014 Soriano's 3.03 ERA vs Gibson's 5.81 ERA and 1.71 WHIP.\n\nWhat got cut: The Cubs-Mets game (data_confidence 0.4, lineups not confirmed for Game 1 of doubleheader). The White Sox-Guardians game has both teams near pick'em pricing but neither SP profile creates separation \u2014 Fedde's 15.6% K rate is too low to trust, and Bibee's 1.62 HR/9 at a HR-boosting park creates variance. The Brewers-Reds game has Drohan vs Lowder, but Lowder's 12.1% BB rate and the HR-boosting GABP make the under untenable and the over already priced in. The Padres-Braves game has incomplete SP data for JP Sears. The Cardinals-Diamondbacks game has no data for Mitch Bratt.\n\nThe final six picks: (1) Twins-Dodgers Under 8.0 \u2014 the ladder pick, two elite arms, lowest total on the board, neutral park; (2) Tigers ML \u2014 Skubal's return against a beatable Weathers; (3) Red Sox -1.5 at Coors \u2014 Suarez's 2.93 ERA and 0.47 HR/9 against Freeland's disaster profile; (4) Pirates-Mariners Under 7.5 \u2014 two quality arms at PNC Park; (5) Angels ML \u2014 Soriano's elite profile vs Gibson's 5.81 ERA; (6) Ceddanne Rafaela Total Bases Over 1.5 at Coors \u2014 Freeland's 1.91 HR/9 and the Coors environment make XBH likely for a hitter in the top of the order.",
       "slate_vibe": "NORMAL",
-      "published_at": "2026-06-24T13:06:18.769670-04:00"
+      "published_at": "2026-06-24T13:06:18.769670-04:00",
+      "autopsy": {
+        "classification": "MODEL",
+        "post_mortem": "The thesis was built around two quality starters neutralizing offenses \u2014 but it was Bryan Woo who collapsed, not Ashcraft. Pittsburgh sent nine men to the plate in a five-run fourth inning against Woo, going ahead 5-1 on Endy Rodr\u00edguez's two-run double, a Tyler Callihan triple, and back-to-back RBI singles; a four-run seventh pushed it to 9-1 before garbage-time bullpen runs finished the 11-1 final. Woo had shown a pattern of extreme volatility entering this start \u2014 two scoreless seven-inning gems sandwiched around two outings where he allowed 12 runs over 11.1 combined innings \u2014 and the pick leaned on his 3.94 ERA and elite walk rate without adequately weighting his ceiling/floor spread. The under was dead by the fourth inning; this was not a late-game collapse or a freak event.",
+        "candidate_rule": "Before backing an under that hinges on a specific starter's ERA, cross-check his last 4-6 starts for variance in runs allowed \u2014 if the standard deviation is high (e.g., alternating shutdowns and blowups), discount the ERA and widen the projected run range accordingly; N=1 loss, insufficient to establish rule.",
+        "sample_size_warning": "N=1, insufficient to establish rule \u2014 one Woo blowup does not confirm a systemic model gap, but the volatility signal was visible in the pre-game data and was not weighted."
+      }
     },
     {
       "id": "20260624-MLB-BOS-COL-SPREAD",
@@ -291,16 +297,22 @@
       "scott_bot_quip": "Freeland's HR/9 at Coors is a war crime. Suarez doesn't give up homers. This isn't complicated.",
       "ladder_note": "",
       "date": "2026-06-24",
-      "status": "PEND",
-      "units_result": null,
+      "status": "LOSS",
+      "units_result": -1.5,
       "clv_cents": null,
-      "result_score": null,
-      "graded_at": null,
+      "result_score": "BOS 6 \u00b7 COL 8",
+      "graded_at": "2026-06-25T02:54:14.133770-04:00",
       "slate_assessment": "Sixteen-game MLB slate with no NBA or NHL action. Two elite pitching matchups stand out \u2014 Ohtani vs Ryan in Minnesota and Skubal vs Weathers in Detroit \u2014 plus several exploitable prop markets at Coors Field and in the high-total games.",
       "executive_summary": "The board today is all MLB, and the two marquee pitching matchups are where the edge lives. Ohtani at Target Field against Joe Ryan is a clash of aces with the total sitting at 8.0 \u2014 both starters have sub-3.00 ERAs and elite command, and the park suppresses runs. In Detroit, Skubal returns from his elbow procedure looking sharp, facing a Yankees lineup that's potent but travels to a pitcher-friendly Comerica. The Coors Field game screams over with Kyle Freeland's 7.36 ERA hosting Ranger Suarez, but the real play is the total bases prop slate against Freeland's 1.91 HR/9. The ladder rides with the Twins-Dodgers under \u2014 two elite arms, neutral park, lowest total on the board.",
       "slate_analysis": "Today's board features sixteen MLB games spread across the afternoon and evening, with first pitches ranging from 1:10 PM ET to 9:45 PM ET. No NBA or NHL games are in scope, so we're working exclusively with baseball sides, totals, and props. The pricing climate is relatively tight \u2014 most moneylines sit between -150 and +150, with only a handful of games showing significant separation between favorites and dogs.\n\nThe top candidates that earned hard looks: (1) Twins-Dodgers under 8.0 \u2014 Ohtani's 1.47 ERA and 0.88 WHIP against Ryan's 2.99 ERA and 1.00 WHIP at a neutral Target Field is the cleanest pitching matchup on the board; (2) Tigers ML vs Yankees \u2014 Skubal back from his NanoScope procedure, 3.02 ERA and elite 3.8% BB rate, facing Weathers who has a 1.8 HR/9; (3) Red Sox-Rockies over 10.5 \u2014 Freeland's 7.36 ERA and 1.91 HR/9 at Coors against Suarez is a run-scoring environment; (4) Pirates-Mariners under 7.5 \u2014 Ashcraft (3.18 ERA, 0.80 HR/9) vs Woo (3.94 ERA, 0.91 HR/9) at HR-suppressing PNC Park; (5) Coors total bases props \u2014 Freeland's HR/9 makes XBH props attractive; (6) Angels ML vs Orioles \u2014 Soriano's 3.03 ERA vs Gibson's 5.81 ERA and 1.71 WHIP.\n\nWhat got cut: The Cubs-Mets game (data_confidence 0.4, lineups not confirmed for Game 1 of doubleheader). The White Sox-Guardians game has both teams near pick'em pricing but neither SP profile creates separation \u2014 Fedde's 15.6% K rate is too low to trust, and Bibee's 1.62 HR/9 at a HR-boosting park creates variance. The Brewers-Reds game has Drohan vs Lowder, but Lowder's 12.1% BB rate and the HR-boosting GABP make the under untenable and the over already priced in. The Padres-Braves game has incomplete SP data for JP Sears. The Cardinals-Diamondbacks game has no data for Mitch Bratt.\n\nThe final six picks: (1) Twins-Dodgers Under 8.0 \u2014 the ladder pick, two elite arms, lowest total on the board, neutral park; (2) Tigers ML \u2014 Skubal's return against a beatable Weathers; (3) Red Sox -1.5 at Coors \u2014 Suarez's 2.93 ERA and 0.47 HR/9 against Freeland's disaster profile; (4) Pirates-Mariners Under 7.5 \u2014 two quality arms at PNC Park; (5) Angels ML \u2014 Soriano's elite profile vs Gibson's 5.81 ERA; (6) Ceddanne Rafaela Total Bases Over 1.5 at Coors \u2014 Freeland's 1.91 HR/9 and the Coors environment make XBH likely for a hitter in the top of the order.",
       "slate_vibe": "NORMAL",
-      "published_at": "2026-06-24T13:06:18.769559-04:00"
+      "published_at": "2026-06-24T13:06:18.769559-04:00",
+      "autopsy": {
+        "classification": "VARIANCE",
+        "post_mortem": "The thesis executed almost perfectly through six innings \u2014 Suarez was dominant (9 K, 1 walk, 13 swing-and-misses, retired the final 7 batters in order) and Boston led 6-3 heading to the seventh. The game unraveled entirely in the Boston bullpen: Marcelo Mayer fumbled a routine grounder with two outs in the seventh, keeping the inning alive, and three consecutive RBI singles off Tyron Guerrero and Danny Coulombe tied it at 6-6. Then in the eighth, with runners on first and third off Justin Slaten (0-4), Tyler Freeman dropped a walk-off bunt single to plate the go-ahead run, and Colorado added an insurance run to seal the 8-6 win. A mid-game injury to 3B Caleb Durbin (left pinkie subluxation sliding into first) also forced a defensive reshuffle that contributed to the Seigler throwing error that let Colorado back in during the third.",
+        "candidate_rule": null,
+        "sample_size_warning": "N=1, insufficient to establish rule \u2014 this was a clean bullpen/error collapse after the starting pitching thesis fully validated; no model adjustment warranted."
+      }
     },
     {
       "id": "20260624-MLB-NYY-DET-ML",
@@ -391,16 +403,22 @@
       "scott_bot_quip": "The Cy Young winner is back, the park eats fly balls, and Weathers can't stop serving them up. Math is math.",
       "ladder_note": "",
       "date": "2026-06-24",
-      "status": "PEND",
-      "units_result": null,
+      "status": "LOSS",
+      "units_result": -1.5,
       "clv_cents": null,
-      "result_score": null,
-      "graded_at": null,
+      "result_score": "NYY 4 \u00b7 DET 2",
+      "graded_at": "2026-06-25T02:54:31.676013-04:00",
       "slate_assessment": "Sixteen-game MLB slate with no NBA or NHL action. Two elite pitching matchups stand out \u2014 Ohtani vs Ryan in Minnesota and Skubal vs Weathers in Detroit \u2014 plus several exploitable prop markets at Coors Field and in the high-total games.",
       "executive_summary": "The board today is all MLB, and the two marquee pitching matchups are where the edge lives. Ohtani at Target Field against Joe Ryan is a clash of aces with the total sitting at 8.0 \u2014 both starters have sub-3.00 ERAs and elite command, and the park suppresses runs. In Detroit, Skubal returns from his elbow procedure looking sharp, facing a Yankees lineup that's potent but travels to a pitcher-friendly Comerica. The Coors Field game screams over with Kyle Freeland's 7.36 ERA hosting Ranger Suarez, but the real play is the total bases prop slate against Freeland's 1.91 HR/9. The ladder rides with the Twins-Dodgers under \u2014 two elite arms, neutral park, lowest total on the board.",
       "slate_analysis": "Today's board features sixteen MLB games spread across the afternoon and evening, with first pitches ranging from 1:10 PM ET to 9:45 PM ET. No NBA or NHL games are in scope, so we're working exclusively with baseball sides, totals, and props. The pricing climate is relatively tight \u2014 most moneylines sit between -150 and +150, with only a handful of games showing significant separation between favorites and dogs.\n\nThe top candidates that earned hard looks: (1) Twins-Dodgers under 8.0 \u2014 Ohtani's 1.47 ERA and 0.88 WHIP against Ryan's 2.99 ERA and 1.00 WHIP at a neutral Target Field is the cleanest pitching matchup on the board; (2) Tigers ML vs Yankees \u2014 Skubal back from his NanoScope procedure, 3.02 ERA and elite 3.8% BB rate, facing Weathers who has a 1.8 HR/9; (3) Red Sox-Rockies over 10.5 \u2014 Freeland's 7.36 ERA and 1.91 HR/9 at Coors against Suarez is a run-scoring environment; (4) Pirates-Mariners under 7.5 \u2014 Ashcraft (3.18 ERA, 0.80 HR/9) vs Woo (3.94 ERA, 0.91 HR/9) at HR-suppressing PNC Park; (5) Coors total bases props \u2014 Freeland's HR/9 makes XBH props attractive; (6) Angels ML vs Orioles \u2014 Soriano's 3.03 ERA vs Gibson's 5.81 ERA and 1.71 WHIP.\n\nWhat got cut: The Cubs-Mets game (data_confidence 0.4, lineups not confirmed for Game 1 of doubleheader). The White Sox-Guardians game has both teams near pick'em pricing but neither SP profile creates separation \u2014 Fedde's 15.6% K rate is too low to trust, and Bibee's 1.62 HR/9 at a HR-boosting park creates variance. The Brewers-Reds game has Drohan vs Lowder, but Lowder's 12.1% BB rate and the HR-boosting GABP make the under untenable and the over already priced in. The Padres-Braves game has incomplete SP data for JP Sears. The Cardinals-Diamondbacks game has no data for Mitch Bratt.\n\nThe final six picks: (1) Twins-Dodgers Under 8.0 \u2014 the ladder pick, two elite arms, lowest total on the board, neutral park; (2) Tigers ML \u2014 Skubal's return against a beatable Weathers; (3) Red Sox -1.5 at Coors \u2014 Suarez's 2.93 ERA and 0.47 HR/9 against Freeland's disaster profile; (4) Pirates-Mariners Under 7.5 \u2014 two quality arms at PNC Park; (5) Angels ML \u2014 Soriano's elite profile vs Gibson's 5.81 ERA; (6) Ceddanne Rafaela Total Bases Over 1.5 at Coors \u2014 Freeland's 1.91 HR/9 and the Coors environment make XBH likely for a hitter in the top of the order.",
       "slate_vibe": "NORMAL",
-      "published_at": "2026-06-24T13:06:18.769444-04:00"
+      "published_at": "2026-06-24T13:06:18.769444-04:00",
+      "autopsy": {
+        "classification": "MODEL",
+        "post_mortem": "The thesis leaned on Skubal's season-long ERA (3.02) without adequately discounting that he was still rounding back into form post-surgery \u2014 Bless You Boys noted he carried a 4.35 ERA and 5.42 FIP across his first two post-IL starts, with three home runs already allowed in that stretch. Tonight made it worse: Goldschmidt took him deep in the 1st inning on a 3-1 fastball, then again in the 3rd, and Dom\u00ednguez hit a go-ahead two-run shot in the 6th \u2014 Skubal tied a career high with three home runs allowed, his most since 2021. The 'case against' explicitly flagged a soft pitch count and bullpen exposure, but the deeper flaw was treating the season ERA as representative of a pitcher who was clearly not yet himself. Weathers, meanwhile, held Detroit to two runs on six hits over six innings \u2014 the thesis that his HR/9 would hurt him at Comerica never materialized.",
+        "candidate_rule": "When a returning-from-injury starter's last 2+ starts show a FIP 1.5+ runs above his season ERA, regress projected performance toward the recent sample, not the season line \u2014 do not back him as a heavy favorite until he posts at least 3 post-IL starts with sub-4.00 FIP. (N=1, insufficient to establish rule.)",
+        "sample_size_warning": "N=1, insufficient to establish rule \u2014 one start does not confirm a pattern, but the pre-game data signal (4.35 ERA, 5.42 FIP in post-IL starts) was available and underweighted."
+      }
     },
     {
       "id": "20260624-MLB-LAD-MIN-TOTAL",
@@ -491,11 +509,11 @@
       "scott_bot_quip": "Two aces, one total, zero drama. The sharps haven't moved this number because there's nowhere for it to go.",
       "ladder_note": "Best floor on the board \u2014 two elite SPs with sub-3.00 ERAs, neutral park, lowest total available. This is the highest-confidence play at near even money.",
       "date": "2026-06-24",
-      "status": "PEND",
-      "units_result": null,
+      "status": "WIN",
+      "units_result": 1.9048,
       "clv_cents": null,
-      "result_score": null,
-      "graded_at": null,
+      "result_score": "LAD 4 \u00b7 MIN 3",
+      "graded_at": "2026-06-25T02:54:47.833711-04:00",
       "slate_assessment": "Sixteen-game MLB slate with no NBA or NHL action. Two elite pitching matchups stand out \u2014 Ohtani vs Ryan in Minnesota and Skubal vs Weathers in Detroit \u2014 plus several exploitable prop markets at Coors Field and in the high-total games.",
       "executive_summary": "The board today is all MLB, and the two marquee pitching matchups are where the edge lives. Ohtani at Target Field against Joe Ryan is a clash of aces with the total sitting at 8.0 \u2014 both starters have sub-3.00 ERAs and elite command, and the park suppresses runs. In Detroit, Skubal returns from his elbow procedure looking sharp, facing a Yankees lineup that's potent but travels to a pitcher-friendly Comerica. The Coors Field game screams over with Kyle Freeland's 7.36 ERA hosting Ranger Suarez, but the real play is the total bases prop slate against Freeland's 1.91 HR/9. The ladder rides with the Twins-Dodgers under \u2014 two elite arms, neutral park, lowest total on the board.",
       "slate_analysis": "Today's board features sixteen MLB games spread across the afternoon and evening, with first pitches ranging from 1:10 PM ET to 9:45 PM ET. No NBA or NHL games are in scope, so we're working exclusively with baseball sides, totals, and props. The pricing climate is relatively tight \u2014 most moneylines sit between -150 and +150, with only a handful of games showing significant separation between favorites and dogs.\n\nThe top candidates that earned hard looks: (1) Twins-Dodgers under 8.0 \u2014 Ohtani's 1.47 ERA and 0.88 WHIP against Ryan's 2.99 ERA and 1.00 WHIP at a neutral Target Field is the cleanest pitching matchup on the board; (2) Tigers ML vs Yankees \u2014 Skubal back from his NanoScope procedure, 3.02 ERA and elite 3.8% BB rate, facing Weathers who has a 1.8 HR/9; (3) Red Sox-Rockies over 10.5 \u2014 Freeland's 7.36 ERA and 1.91 HR/9 at Coors against Suarez is a run-scoring environment; (4) Pirates-Mariners under 7.5 \u2014 Ashcraft (3.18 ERA, 0.80 HR/9) vs Woo (3.94 ERA, 0.91 HR/9) at HR-suppressing PNC Park; (5) Coors total bases props \u2014 Freeland's HR/9 makes XBH props attractive; (6) Angels ML vs Orioles \u2014 Soriano's 3.03 ERA vs Gibson's 5.81 ERA and 1.71 WHIP.\n\nWhat got cut: The Cubs-Mets game (data_confidence 0.4, lineups not confirmed for Game 1 of doubleheader). The White Sox-Guardians game has both teams near pick'em pricing but neither SP profile creates separation \u2014 Fedde's 15.6% K rate is too low to trust, and Bibee's 1.62 HR/9 at a HR-boosting park creates variance. The Brewers-Reds game has Drohan vs Lowder, but Lowder's 12.1% BB rate and the HR-boosting GABP make the under untenable and the over already priced in. The Padres-Braves game has incomplete SP data for JP Sears. The Cardinals-Diamondbacks game has no data for Mitch Bratt.\n\nThe final six picks: (1) Twins-Dodgers Under 8.0 \u2014 the ladder pick, two elite arms, lowest total on the board, neutral park; (2) Tigers ML \u2014 Skubal's return against a beatable Weathers; (3) Red Sox -1.5 at Coors \u2014 Suarez's 2.93 ERA and 0.47 HR/9 against Freeland's disaster profile; (4) Pirates-Mariners Under 7.5 \u2014 two quality arms at PNC Park; (5) Angels ML \u2014 Soriano's elite profile vs Gibson's 5.81 ERA; (6) Ceddanne Rafaela Total Bases Over 1.5 at Coors \u2014 Freeland's 1.91 HR/9 and the Coors environment make XBH likely for a hitter in the top of the order.",
