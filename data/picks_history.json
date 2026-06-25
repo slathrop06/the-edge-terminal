@@ -1,7 +1,487 @@
 {
   "version": 1,
-  "updated_at": "2026-06-25T05:49:58.323564-04:00",
+  "updated_at": "2026-06-25T13:14:06.438070-04:00",
   "picks": [
+    {
+      "id": "20260625-MLB-CHC-NYM-TOTAL",
+      "sport": "MLB",
+      "game": "CHC @ NYM",
+      "first_pitch_iso": "2026-06-25T23:10Z",
+      "pick": "Under 8.5",
+      "best_book": "DraftKings",
+      "best_odds": "-105",
+      "book_prices": {
+        "draftkings": "-105",
+        "fanduel": "-108",
+        "betmgm": "-105"
+      },
+      "book_links": {
+        "fanduel": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.587870252&selectionId=7017906",
+        "draftkings": "https://sportsbook.draftkings.com/?outcomes=0OU85266570U850_3",
+        "betmgm": "https://sports.nj.betmgm.com/en/sports?options=19740078-1537528932-2237740800&type=Single"
+      },
+      "market": "TOTAL",
+      "confidence": 3,
+      "units": 1.0,
+      "win_probability": 0.55,
+      "ladder_designation": false,
+      "data_confidence": 0.65,
+      "rules_passed": [
+        "max_juice",
+        "ladder_even_money",
+        "parlay_well_formed",
+        "confidence_units_match",
+        "data_confidence_floor",
+        "pick_type_allowed",
+        "mlb_hr_prop_check",
+        "mlb_pitcher_k_check",
+        "mlb_total_bases_check",
+        "mlb_hits_check",
+        "nba_player_prop_check",
+        "nhl_shots_check",
+        "mlb_run_line_check",
+        "mlb_under_bb_check",
+        "no_same_game_opposite"
+      ],
+      "locked": true,
+      "late_add": false,
+      "late_add_reason": "",
+      "bonus_pick": false,
+      "event_type": "",
+      "event_name": "",
+      "legs": [],
+      "headline": "Citi Field suppresses homers, and neither offense has been consistent \u2014 the under has value.",
+      "the_thesis": "Citi Field is one of the most pitcher-friendly parks in baseball for homers (0.91 PF). Both offenses have been inconsistent this season \u2014 the Mets are averaging 4.06 R/G and the Cubs 4.94 R/G, but neither has been explosive lately.\n\nFreddy Peralta has struggled (4.83 ERA, 1.39 WHIP), but his 22.1 K% is still solid. Matthew Boyd has been worse (6.0 ERA), but his 31.0 K% is elite \u2014 he's missing bats even when he's getting hit. Both pitchers have the ability to string together a few good innings.\n\nThe total is set at 8.5, and the under is priced at -105 on DraftKings. That's a reasonable price for a game at a pitcher-friendly park with two inconsistent offenses.",
+      "the_data": [
+        {
+          "label": "Citi Field HR PF",
+          "value": "0.91",
+          "context": "HR-suppressing"
+        },
+        {
+          "label": "Peralta ERA (2026)",
+          "value": "4.83",
+          "context": "Struggling but K's are solid"
+        },
+        {
+          "label": "Boyd K%",
+          "value": "31.0%",
+          "context": "Elite strikeout rate"
+        },
+        {
+          "label": "Mets R/G",
+          "value": "4.06",
+          "context": "Below average"
+        },
+        {
+          "label": "Cubs R/G",
+          "value": "4.94",
+          "context": "Average"
+        }
+      ],
+      "the_market": "Total opened at 8.5 and has held steady. DraftKings and BetMGM both have the under at -105. No significant line movement.",
+      "weather_park": "Citi Field is HR-suppressing (0.91 PF). Outdoor game, but no significant weather concerns.",
+      "case_against": "Both pitchers have been inconsistent. If either one gets knocked around early, the bullpens will be tested \u2014 and both bullpens have had their struggles. The Cubs' offense can explode on any given night.",
+      "what_were_betting_on": "Both starters going 5+ innings, Citi Field suppressing the long ball, and neither offense having a breakout game.",
+      "scott_bot_quip": "Two mediocre starters at a pitcher's park. The under isn't sexy, but it's right.",
+      "ladder_note": "",
+      "date": "2026-06-25",
+      "status": "PEND",
+      "units_result": null,
+      "clv_cents": null,
+      "result_score": null,
+      "graded_at": null,
+      "slate_assessment": "Eight-game MLB-only slate with one dominant pitching matchup (Schlittler vs. Boston) and several prop angles. No NBA or NHL action today.",
+      "executive_summary": "Cam Schlittler is the story tonight \u2014 the Yankees' breakout ace takes a 1.71 ERA into Fenway against a depleted Red Sox lineup missing multiple infielders. The under at 8 is the cleanest play on the board, and Schlittler's K prop offers value against a Boston offense that's been striking out at an elevated clip. Cristopher S\u00e1nchez facing the MLB's highest-scoring offense in Washington creates a fascinating total, but the Nats' firepower makes the under too risky. The ladder rides with the Yankees-Red Sox Under 8 \u2014 two elite arms, a banged-up Boston lineup, and sharp money already on the low side.",
+      "slate_analysis": "The board today is eight MLB games, no NBA or NHL playoff action. It's a mid-week slate with several pitching mismatches but limited data confidence across the pack \u2014 five of eight games came in below 0.5 on data confidence, which narrows the playable pool. The pricing climate is soft: most totals sit at 8-9, and the moneylines are clustered around pick'em territory except for the Phillies-Nationals and Yankees-Red Sox games where we see clear favorites.\n\nThe candidates that rose to the top: Yankees at Red Sox jumped off the page immediately \u2014 Cam Schlittler is pitching at a Cy Young level (1.71 ERA, 0.89 WHIP, 29.5 K%) and Boston's lineup is decimated by injuries (Story, Kiner-Falefa, Mayer all banged up or on IL). The under at 8 is the sharpest play on the board. Phillies at Nationals drew attention because Cristopher S\u00e1nchez (1.80 ERA, 28.5 K%) is elite, but Washington leads MLB in runs scored and their .331 xwOBA is fourth-best in baseball \u2014 that's a dangerous spot for an under. Cardinals-Diamondbacks looked interesting with McGreevy's 3.35 ERA against a struggling Gallen (6.10 ERA), but the data confidence was too low and the juice on STL ML pushed past -130. Giants-Athletics had a pitcher-friendly park signal but Jeffrey Springs' 2.3 HR/9 and the wind blowing out 8 mph muddied the picture. Mets-Cubs was a true coin flip at -108/-108 with neither pitcher inspiring confidence.\n\nWhat got cut: The Phillies-Nationals under was tempting given S\u00e1nchez's dominance, but Washington's offense is legitimately elite \u2014 they lead MLB in runs scored and their underlying metrics support it. I can't back an under against the best-scoring team in baseball even with an ace on the mound. The Cardinals ML at -132 was close but the data confidence was 0.4 and Gallen, despite his struggles, has the pedigree to steal a game. The Giants-Athletics total was too murky with conflicting signals (pitcher-friendly park vs. wind out). The Tigers-Astros game had both pitchers with tiny sample sizes (Melton 31.2 IP, Imai 41 IP) and data confidence of 0.4.\n\nThe final six: Yankees-Red Sox Under 8 is the ladder pick \u2014 Schlittler is elite, Boston's lineup is depleted, and the total is priced at even money. Schlittler Ks Over 6.5 is a prop play that leverages his 29.5 K% against a Boston offense that's been striking out. S\u00e1nchez Ks Over 6.5 is a value play \u2014 he's averaging 7+ Ks per start and Cavalli's 23.5 K% suggests the Nats will swing and miss. The Cardinals ML at -132 gets in as a value play on McGreevy's solid season against a struggling Gallen. The Giants ML at -130 is a home favorite with the better pitcher in a pitcher-friendly park. The Mets-Cubs Under 8.5 rounds out the card \u2014 Citi Field suppresses homers and both offenses have been inconsistent.",
+      "slate_vibe": "NORMAL",
+      "published_at": "2026-06-25T13:14:06.437989-04:00"
+    },
+    {
+      "id": "20260625-MLB-ATH-SF-ML",
+      "sport": "MLB",
+      "game": "ATH @ SF",
+      "first_pitch_iso": "2026-06-25T19:45Z",
+      "pick": "San Francisco Giants ML",
+      "best_book": "FanDuel",
+      "best_odds": "-130",
+      "book_prices": {
+        "draftkings": "-136",
+        "fanduel": "-130",
+        "betmgm": "-135"
+      },
+      "book_links": {
+        "fanduel": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.587803998&selectionId=29178",
+        "draftkings": "https://sportsbook.draftkings.com/?outcomes=0ML85266476_1",
+        "betmgm": "https://sports.nj.betmgm.com/en/sports?options=19739543-1537507664-2237681266&type=Single"
+      },
+      "market": "ML",
+      "confidence": 3,
+      "units": 1.0,
+      "win_probability": 0.57,
+      "ladder_designation": false,
+      "data_confidence": 0.65,
+      "rules_passed": [
+        "max_juice",
+        "ladder_even_money",
+        "parlay_well_formed",
+        "confidence_units_match",
+        "data_confidence_floor",
+        "pick_type_allowed",
+        "mlb_hr_prop_check",
+        "mlb_pitcher_k_check",
+        "mlb_total_bases_check",
+        "mlb_hits_check",
+        "nba_player_prop_check",
+        "nhl_shots_check",
+        "mlb_run_line_check",
+        "mlb_under_bb_check",
+        "no_same_game_opposite"
+      ],
+      "locked": true,
+      "late_add": false,
+      "late_add_reason": "",
+      "bonus_pick": false,
+      "event_type": "",
+      "event_name": "",
+      "legs": [],
+      "headline": "Roupp's solid season at pitcher-friendly Oracle Park against a struggling Springs.",
+      "the_thesis": "Landen Roupp has been a reliable arm for the Giants this season. His 4.15 ERA is league-average, but his 0.56 HR/9 is elite \u2014 and that matters at Oracle Park, which suppresses homers (0.85 PF). His 26.3 K% is solid, and he's been durable (80.1 IP).\n\nJeffrey Springs has struggled mightily. His 5.55 ERA and 2.3 HR/9 are both concerning, especially on the road against a Giants lineup that can do damage. The wind is blowing out 8 mph, which boosts HR probability by ~12% \u2014 that's bad news for a pitcher who's already giving up too many homers.\n\nThe Giants are at home, they have the better pitcher, and they're playing in a park that suppresses runs. The A's are a rebuilding team with a weak lineup.",
+      "the_data": [
+        {
+          "label": "Roupp HR/9 (2026)",
+          "value": "0.56",
+          "context": "Elite, top-10 in MLB"
+        },
+        {
+          "label": "Roupp K%",
+          "value": "26.3%",
+          "context": "Solid"
+        },
+        {
+          "label": "Springs ERA (2026)",
+          "value": "5.55",
+          "context": "Struggling"
+        },
+        {
+          "label": "Springs HR/9",
+          "value": "2.3",
+          "context": "Alarming"
+        },
+        {
+          "label": "Oracle Park HR PF",
+          "value": "0.85",
+          "context": "HR-suppressing"
+        }
+      ],
+      "the_market": "Giants opened as -130 favorites and have held steady. FanDuel has the best price at -130. No significant line movement.",
+      "weather_park": "Oracle Park is pitcher-friendly (0.93 runs PF, 0.85 HR PF). Wind blowing out 8 mph boosts HR ~12%, but the park effect still favors pitchers.",
+      "case_against": "The wind blowing out could help Springs' opponents \u2014 but it also helps the A's against Roupp. If Springs finds his command, the A's could steal one. The data confidence is lower than I'd like (0.45 in the pack).",
+      "what_were_betting_on": "Roupp going 6+ innings at home, the Giants' offense doing enough against a struggling Springs, and Oracle Park suppressing the A's limited power.",
+      "scott_bot_quip": "Springs is giving up homers like he's running a charity. Oracle Park is not the place to fix that.",
+      "ladder_note": "",
+      "date": "2026-06-25",
+      "status": "PEND",
+      "units_result": null,
+      "clv_cents": null,
+      "result_score": null,
+      "graded_at": null,
+      "slate_assessment": "Eight-game MLB-only slate with one dominant pitching matchup (Schlittler vs. Boston) and several prop angles. No NBA or NHL action today.",
+      "executive_summary": "Cam Schlittler is the story tonight \u2014 the Yankees' breakout ace takes a 1.71 ERA into Fenway against a depleted Red Sox lineup missing multiple infielders. The under at 8 is the cleanest play on the board, and Schlittler's K prop offers value against a Boston offense that's been striking out at an elevated clip. Cristopher S\u00e1nchez facing the MLB's highest-scoring offense in Washington creates a fascinating total, but the Nats' firepower makes the under too risky. The ladder rides with the Yankees-Red Sox Under 8 \u2014 two elite arms, a banged-up Boston lineup, and sharp money already on the low side.",
+      "slate_analysis": "The board today is eight MLB games, no NBA or NHL playoff action. It's a mid-week slate with several pitching mismatches but limited data confidence across the pack \u2014 five of eight games came in below 0.5 on data confidence, which narrows the playable pool. The pricing climate is soft: most totals sit at 8-9, and the moneylines are clustered around pick'em territory except for the Phillies-Nationals and Yankees-Red Sox games where we see clear favorites.\n\nThe candidates that rose to the top: Yankees at Red Sox jumped off the page immediately \u2014 Cam Schlittler is pitching at a Cy Young level (1.71 ERA, 0.89 WHIP, 29.5 K%) and Boston's lineup is decimated by injuries (Story, Kiner-Falefa, Mayer all banged up or on IL). The under at 8 is the sharpest play on the board. Phillies at Nationals drew attention because Cristopher S\u00e1nchez (1.80 ERA, 28.5 K%) is elite, but Washington leads MLB in runs scored and their .331 xwOBA is fourth-best in baseball \u2014 that's a dangerous spot for an under. Cardinals-Diamondbacks looked interesting with McGreevy's 3.35 ERA against a struggling Gallen (6.10 ERA), but the data confidence was too low and the juice on STL ML pushed past -130. Giants-Athletics had a pitcher-friendly park signal but Jeffrey Springs' 2.3 HR/9 and the wind blowing out 8 mph muddied the picture. Mets-Cubs was a true coin flip at -108/-108 with neither pitcher inspiring confidence.\n\nWhat got cut: The Phillies-Nationals under was tempting given S\u00e1nchez's dominance, but Washington's offense is legitimately elite \u2014 they lead MLB in runs scored and their underlying metrics support it. I can't back an under against the best-scoring team in baseball even with an ace on the mound. The Cardinals ML at -132 was close but the data confidence was 0.4 and Gallen, despite his struggles, has the pedigree to steal a game. The Giants-Athletics total was too murky with conflicting signals (pitcher-friendly park vs. wind out). The Tigers-Astros game had both pitchers with tiny sample sizes (Melton 31.2 IP, Imai 41 IP) and data confidence of 0.4.\n\nThe final six: Yankees-Red Sox Under 8 is the ladder pick \u2014 Schlittler is elite, Boston's lineup is depleted, and the total is priced at even money. Schlittler Ks Over 6.5 is a prop play that leverages his 29.5 K% against a Boston offense that's been striking out. S\u00e1nchez Ks Over 6.5 is a value play \u2014 he's averaging 7+ Ks per start and Cavalli's 23.5 K% suggests the Nats will swing and miss. The Cardinals ML at -132 gets in as a value play on McGreevy's solid season against a struggling Gallen. The Giants ML at -130 is a home favorite with the better pitcher in a pitcher-friendly park. The Mets-Cubs Under 8.5 rounds out the card \u2014 Citi Field suppresses homers and both offenses have been inconsistent.",
+      "slate_vibe": "NORMAL",
+      "published_at": "2026-06-25T13:14:06.437889-04:00"
+    },
+    {
+      "id": "20260625-MLB-ARI-STL-ML",
+      "sport": "MLB",
+      "game": "ARI @ STL",
+      "first_pitch_iso": "2026-06-25T23:45Z",
+      "pick": "St. Louis Cardinals ML",
+      "best_book": "FanDuel",
+      "best_odds": "-132",
+      "book_prices": {
+        "draftkings": "-136",
+        "fanduel": "-132",
+        "betmgm": "-135"
+      },
+      "book_links": {
+        "fanduel": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.587803975&selectionId=50291",
+        "draftkings": "https://sportsbook.draftkings.com/?outcomes=0ML85266571_1",
+        "betmgm": "https://sports.nj.betmgm.com/en/sports?options=19740082-1537529102-2237741336&type=Single"
+      },
+      "market": "ML",
+      "confidence": 3,
+      "units": 1.0,
+      "win_probability": 0.58,
+      "ladder_designation": false,
+      "data_confidence": 0.65,
+      "rules_passed": [
+        "max_juice",
+        "ladder_even_money",
+        "parlay_well_formed",
+        "confidence_units_match",
+        "data_confidence_floor",
+        "pick_type_allowed",
+        "mlb_hr_prop_check",
+        "mlb_pitcher_k_check",
+        "mlb_total_bases_check",
+        "mlb_hits_check",
+        "nba_player_prop_check",
+        "nhl_shots_check",
+        "mlb_run_line_check",
+        "mlb_under_bb_check",
+        "no_same_game_opposite"
+      ],
+      "locked": true,
+      "late_add": false,
+      "late_add_reason": "",
+      "bonus_pick": false,
+      "event_type": "",
+      "event_name": "",
+      "legs": [],
+      "headline": "McGreevy's solid season against a struggling Gallen \u2014 home favorite at a reasonable price.",
+      "the_thesis": "Michael McGreevy has been quietly solid for the Cardinals this season. His 3.35 ERA and 1.15 WHIP are both above-average marks, and he's been durable (83.1 IP). His 15.9 K% is low, but he limits walks (6.0 BB%) and keeps the ball in the park (1.3 HR/9 at a HR-suppressing Busch Stadium).\n\nZac Gallen, on the other hand, has been a disaster. His 6.10 ERA is the worst of his career, and his 1.63 WHIP suggests the underlying numbers are just as bad as the surface stats. His 14.3 K% is a career-low, and his 1.48 HR/9 is a career-high. The Diamondbacks' ace has lost his ace status.\n\nBusch Stadium suppresses homers (0.93 PF), which helps McGreevy's profile and hurts Gallen's. The Cardinals' offense (4.60 R/G) is better than Arizona's (4.33 R/G), and they're at home.",
+      "the_data": [
+        {
+          "label": "McGreevy ERA (2026)",
+          "value": "3.35",
+          "context": "Solid, above-average"
+        },
+        {
+          "label": "McGreevy WHIP",
+          "value": "1.15",
+          "context": "Good control"
+        },
+        {
+          "label": "Gallen ERA (2026)",
+          "value": "6.10",
+          "context": "Career-worst"
+        },
+        {
+          "label": "Gallen WHIP",
+          "value": "1.63",
+          "context": "Career-worst"
+        },
+        {
+          "label": "Busch Stadium HR PF",
+          "value": "0.93",
+          "context": "HR-suppressing"
+        }
+      ],
+      "the_market": "Cardinals opened as -130 favorites and have held steady. FanDuel has the best price at -132. No significant line movement.",
+      "weather_park": "Busch Stadium is HR-suppressing (0.93 PF), which benefits McGreevy's groundball-heavy approach.",
+      "case_against": "Gallen has the pedigree to steal a game. If he finds his command, the Diamondbacks' lineup (Marte, Carroll, Perdomo) can do damage. McGreevy's low K% means he's relying on contact management \u2014 one bad inning can sink him.",
+      "what_were_betting_on": "McGreevy going 6+ innings with 2-3 runs allowed, the Cardinals' offense doing enough against a struggling Gallen, and the home-field advantage mattering.",
+      "scott_bot_quip": "Gallen's having a nightmare season. McGreevy's having a quiet good one. Sometimes the boring play is the right play.",
+      "ladder_note": "",
+      "date": "2026-06-25",
+      "status": "PEND",
+      "units_result": null,
+      "clv_cents": null,
+      "result_score": null,
+      "graded_at": null,
+      "slate_assessment": "Eight-game MLB-only slate with one dominant pitching matchup (Schlittler vs. Boston) and several prop angles. No NBA or NHL action today.",
+      "executive_summary": "Cam Schlittler is the story tonight \u2014 the Yankees' breakout ace takes a 1.71 ERA into Fenway against a depleted Red Sox lineup missing multiple infielders. The under at 8 is the cleanest play on the board, and Schlittler's K prop offers value against a Boston offense that's been striking out at an elevated clip. Cristopher S\u00e1nchez facing the MLB's highest-scoring offense in Washington creates a fascinating total, but the Nats' firepower makes the under too risky. The ladder rides with the Yankees-Red Sox Under 8 \u2014 two elite arms, a banged-up Boston lineup, and sharp money already on the low side.",
+      "slate_analysis": "The board today is eight MLB games, no NBA or NHL playoff action. It's a mid-week slate with several pitching mismatches but limited data confidence across the pack \u2014 five of eight games came in below 0.5 on data confidence, which narrows the playable pool. The pricing climate is soft: most totals sit at 8-9, and the moneylines are clustered around pick'em territory except for the Phillies-Nationals and Yankees-Red Sox games where we see clear favorites.\n\nThe candidates that rose to the top: Yankees at Red Sox jumped off the page immediately \u2014 Cam Schlittler is pitching at a Cy Young level (1.71 ERA, 0.89 WHIP, 29.5 K%) and Boston's lineup is decimated by injuries (Story, Kiner-Falefa, Mayer all banged up or on IL). The under at 8 is the sharpest play on the board. Phillies at Nationals drew attention because Cristopher S\u00e1nchez (1.80 ERA, 28.5 K%) is elite, but Washington leads MLB in runs scored and their .331 xwOBA is fourth-best in baseball \u2014 that's a dangerous spot for an under. Cardinals-Diamondbacks looked interesting with McGreevy's 3.35 ERA against a struggling Gallen (6.10 ERA), but the data confidence was too low and the juice on STL ML pushed past -130. Giants-Athletics had a pitcher-friendly park signal but Jeffrey Springs' 2.3 HR/9 and the wind blowing out 8 mph muddied the picture. Mets-Cubs was a true coin flip at -108/-108 with neither pitcher inspiring confidence.\n\nWhat got cut: The Phillies-Nationals under was tempting given S\u00e1nchez's dominance, but Washington's offense is legitimately elite \u2014 they lead MLB in runs scored and their underlying metrics support it. I can't back an under against the best-scoring team in baseball even with an ace on the mound. The Cardinals ML at -132 was close but the data confidence was 0.4 and Gallen, despite his struggles, has the pedigree to steal a game. The Giants-Athletics total was too murky with conflicting signals (pitcher-friendly park vs. wind out). The Tigers-Astros game had both pitchers with tiny sample sizes (Melton 31.2 IP, Imai 41 IP) and data confidence of 0.4.\n\nThe final six: Yankees-Red Sox Under 8 is the ladder pick \u2014 Schlittler is elite, Boston's lineup is depleted, and the total is priced at even money. Schlittler Ks Over 6.5 is a prop play that leverages his 29.5 K% against a Boston offense that's been striking out. S\u00e1nchez Ks Over 6.5 is a value play \u2014 he's averaging 7+ Ks per start and Cavalli's 23.5 K% suggests the Nats will swing and miss. The Cardinals ML at -132 gets in as a value play on McGreevy's solid season against a struggling Gallen. The Giants ML at -130 is a home favorite with the better pitcher in a pitcher-friendly park. The Mets-Cubs Under 8.5 rounds out the card \u2014 Citi Field suppresses homers and both offenses have been inconsistent.",
+      "slate_vibe": "NORMAL",
+      "published_at": "2026-06-25T13:14:06.437781-04:00"
+    },
+    {
+      "id": "20260625-MLB-PHI-WSH-PROP-CRISTOPHERSANCHEZ",
+      "sport": "MLB",
+      "game": "PHI @ WSH",
+      "first_pitch_iso": "2026-06-25T22:45Z",
+      "pick": "Cristopher S\u00e1nchez Ks Over 6.5",
+      "best_book": "DraftKings",
+      "best_odds": "+112",
+      "book_prices": {
+        "draftkings": "+112",
+        "fanduel": "-115",
+        "betmgm": "-135"
+      },
+      "book_links": {
+        "fanduel": "https://sportsbook.fanduel.com/baseball/mlb/philadelphia-phillies-%28c-sanchez%29-%40-washington-nationals-%28c-cavalli%29-35755398",
+        "draftkings": "https://sportsbook.draftkings.com/event/34316187",
+        "betmgm": "https://sports.nj.betmgm.com/en/sports/events/philadelphia-phillies-at-washington-nationals-19739546"
+      },
+      "market": "PROP",
+      "confidence": 4,
+      "units": 1.5,
+      "win_probability": 0.57,
+      "ladder_designation": false,
+      "data_confidence": 0.72,
+      "rules_passed": [
+        "max_juice",
+        "ladder_even_money",
+        "parlay_well_formed",
+        "confidence_units_match",
+        "data_confidence_floor",
+        "pick_type_allowed",
+        "mlb_hr_prop_check",
+        "mlb_pitcher_k_check(soft)",
+        "mlb_total_bases_check",
+        "mlb_hits_check",
+        "nba_player_prop_check",
+        "nhl_shots_check",
+        "mlb_run_line_check",
+        "mlb_under_bb_check",
+        "no_same_game_opposite"
+      ],
+      "locked": true,
+      "late_add": false,
+      "late_add_reason": "",
+      "bonus_pick": false,
+      "event_type": "",
+      "event_name": "",
+      "legs": [],
+      "headline": "S\u00e1nchez's 28.5 K% and 7+ Ks per start make this plus-money line a value play.",
+      "the_thesis": "Cristopher S\u00e1nchez is having a historic season. His 1.80 ERA ranks second in the NL, and his 28.5 K% is elite. He's averaging over 7 strikeouts per start and has logged a quality start in 9 of his last 10 outings. The line is set at 6.5, and DraftKings is offering +112 on the over.\n\nThe Nationals have the highest-scoring offense in baseball, but they also swing aggressively. Cade Cavalli, their starter, has a 23.5 K% \u2014 meaning the Nats' lineup is accustomed to striking out. S\u00e1nchez's changeup is one of the best pitches in baseball, and he's been generating whiffs at an elite rate all season.\n\nS\u00e1nchez has a 2.27 ERA in eight career starts against Washington. He knows this lineup, and he's been dominant against them historically.",
+      "the_data": [
+        {
+          "label": "S\u00e1nchez K% (2026)",
+          "value": "28.5%",
+          "context": "Elite, top-10 in MLB"
+        },
+        {
+          "label": "S\u00e1nchez ERA (2026)",
+          "value": "1.80",
+          "context": "2nd in NL, Cy Young candidate"
+        },
+        {
+          "label": "S\u00e1nchez avg Ks/start",
+          "value": "7.1",
+          "context": "Consistently clears 6.5"
+        },
+        {
+          "label": "S\u00e1nchez vs WSH (career)",
+          "value": "2.27 ERA",
+          "context": "8 starts, dominant"
+        },
+        {
+          "label": "WSH lineup K%",
+          "value": "Aggressive",
+          "context": "Swing-happy offense"
+        }
+      ],
+      "the_market": "DraftKings has the over at +112, FanDuel at -115, BetMGM at -135. The DK price is the clear value \u2014 plus money on a Cy Young candidate.",
+      "weather_park": "Nationals Park is neutral (1.01 runs PF). No weather concerns for K props.",
+      "case_against": "Washington's offense is elite. If they jump on S\u00e1nchez early and he has a short outing, the K total caps. His last start against the Brewers was his worst of the year (3 Ks in 5.2 IP).",
+      "what_were_betting_on": "S\u00e1nchez pitching 6+ innings and maintaining his 28.5 K% against an aggressive Washington lineup.",
+      "scott_bot_quip": "The Nats can hit. They can also strike out. S\u00e1nchez will make sure they do both.",
+      "ladder_note": "",
+      "date": "2026-06-25",
+      "status": "PEND",
+      "units_result": null,
+      "clv_cents": null,
+      "result_score": null,
+      "graded_at": null,
+      "slate_assessment": "Eight-game MLB-only slate with one dominant pitching matchup (Schlittler vs. Boston) and several prop angles. No NBA or NHL action today.",
+      "executive_summary": "Cam Schlittler is the story tonight \u2014 the Yankees' breakout ace takes a 1.71 ERA into Fenway against a depleted Red Sox lineup missing multiple infielders. The under at 8 is the cleanest play on the board, and Schlittler's K prop offers value against a Boston offense that's been striking out at an elevated clip. Cristopher S\u00e1nchez facing the MLB's highest-scoring offense in Washington creates a fascinating total, but the Nats' firepower makes the under too risky. The ladder rides with the Yankees-Red Sox Under 8 \u2014 two elite arms, a banged-up Boston lineup, and sharp money already on the low side.",
+      "slate_analysis": "The board today is eight MLB games, no NBA or NHL playoff action. It's a mid-week slate with several pitching mismatches but limited data confidence across the pack \u2014 five of eight games came in below 0.5 on data confidence, which narrows the playable pool. The pricing climate is soft: most totals sit at 8-9, and the moneylines are clustered around pick'em territory except for the Phillies-Nationals and Yankees-Red Sox games where we see clear favorites.\n\nThe candidates that rose to the top: Yankees at Red Sox jumped off the page immediately \u2014 Cam Schlittler is pitching at a Cy Young level (1.71 ERA, 0.89 WHIP, 29.5 K%) and Boston's lineup is decimated by injuries (Story, Kiner-Falefa, Mayer all banged up or on IL). The under at 8 is the sharpest play on the board. Phillies at Nationals drew attention because Cristopher S\u00e1nchez (1.80 ERA, 28.5 K%) is elite, but Washington leads MLB in runs scored and their .331 xwOBA is fourth-best in baseball \u2014 that's a dangerous spot for an under. Cardinals-Diamondbacks looked interesting with McGreevy's 3.35 ERA against a struggling Gallen (6.10 ERA), but the data confidence was too low and the juice on STL ML pushed past -130. Giants-Athletics had a pitcher-friendly park signal but Jeffrey Springs' 2.3 HR/9 and the wind blowing out 8 mph muddied the picture. Mets-Cubs was a true coin flip at -108/-108 with neither pitcher inspiring confidence.\n\nWhat got cut: The Phillies-Nationals under was tempting given S\u00e1nchez's dominance, but Washington's offense is legitimately elite \u2014 they lead MLB in runs scored and their underlying metrics support it. I can't back an under against the best-scoring team in baseball even with an ace on the mound. The Cardinals ML at -132 was close but the data confidence was 0.4 and Gallen, despite his struggles, has the pedigree to steal a game. The Giants-Athletics total was too murky with conflicting signals (pitcher-friendly park vs. wind out). The Tigers-Astros game had both pitchers with tiny sample sizes (Melton 31.2 IP, Imai 41 IP) and data confidence of 0.4.\n\nThe final six: Yankees-Red Sox Under 8 is the ladder pick \u2014 Schlittler is elite, Boston's lineup is depleted, and the total is priced at even money. Schlittler Ks Over 6.5 is a prop play that leverages his 29.5 K% against a Boston offense that's been striking out. S\u00e1nchez Ks Over 6.5 is a value play \u2014 he's averaging 7+ Ks per start and Cavalli's 23.5 K% suggests the Nats will swing and miss. The Cardinals ML at -132 gets in as a value play on McGreevy's solid season against a struggling Gallen. The Giants ML at -130 is a home favorite with the better pitcher in a pitcher-friendly park. The Mets-Cubs Under 8.5 rounds out the card \u2014 Citi Field suppresses homers and both offenses have been inconsistent.",
+      "slate_vibe": "NORMAL",
+      "published_at": "2026-06-25T13:14:06.437661-04:00"
+    },
+    {
+      "id": "20260625-MLB-NYY-BOS-TOTAL",
+      "sport": "MLB",
+      "game": "NYY @ BOS",
+      "first_pitch_iso": "2026-06-25T23:10Z",
+      "pick": "Under 8",
+      "best_book": "DraftKings",
+      "best_odds": "-108",
+      "book_prices": {
+        "draftkings": "-108",
+        "fanduel": "-122",
+        "betmgm": "-110"
+      },
+      "book_links": {
+        "fanduel": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.587869836&selectionId=7017906",
+        "draftkings": "https://sportsbook.draftkings.com/?outcomes=0OU85266497U800_3",
+        "betmgm": "https://sports.nj.betmgm.com/en/sports?options=19740079-1537529008-2237740956&type=Single"
+      },
+      "market": "TOTAL",
+      "confidence": 5,
+      "units": 2.0,
+      "win_probability": 0.62,
+      "ladder_designation": true,
+      "data_confidence": 0.75,
+      "rules_passed": [
+        "max_juice",
+        "ladder_even_money",
+        "parlay_well_formed",
+        "confidence_units_match",
+        "data_confidence_floor",
+        "pick_type_allowed",
+        "mlb_hr_prop_check",
+        "mlb_pitcher_k_check",
+        "mlb_total_bases_check",
+        "mlb_hits_check",
+        "nba_player_prop_check",
+        "nhl_shots_check",
+        "mlb_run_line_check",
+        "mlb_under_bb_check",
+        "no_same_game_opposite"
+      ],
+      "locked": true,
+      "late_add": false,
+      "late_add_reason": "",
+      "bonus_pick": false,
+      "event_type": "",
+      "event_name": "",
+      "legs": [],
+      "headline": "Schlittler's elite season meets a depleted Boston lineup \u2014 the under is the sharpest play on the board.",
+      "the_thesis": "Cam Schlittler has emerged as the best pitcher in the American League. His 1.71 ERA is the lowest by a Yankees starter through 16 starts since Whitey Ford in 1964. His 0.89 WHIP ranks fourth in baseball, and his 29.5 K% means he's missing bats at an elite rate. He's coming off a 13-strikeout, zero-walk performance against the Reds \u2014 the kind of dominance that makes totals like this one feel like free money.\n\nBoston's lineup is a shell of itself. Trevor Story is on the 60-day IL with a sports hernia. Isiah Kiner-Falefa hit the IL last week with forearm inflammation. Marcelo Mayer was scratched Tuesday with a sore foot and has been walking with a limp. The Red Sox are trotting out a patchwork infield against one of the best pitchers in baseball. Connelly Early is a solid arm (3.64 ERA, 22.5 K%) but his 1.55 HR/9 is a concern at Fenway \u2014 except Schlittler's ability to suppress runs on the other side makes this a one-sided pitching matchup.\n\nThe market agrees. The total opened at 8.5 on FanDuel and has been bet down to 8 across the board. Sharp money is on the under. Fenway's park factor for runs is 1.05 (slightly hitter-friendly), but that's offset by Schlittler's ability to generate weak contact \u2014 opponents are hitting .194 against him with an 87.9 mph average exit velocity.",
+      "the_data": [
+        {
+          "label": "Schlittler ERA (2026)",
+          "value": "1.71",
+          "context": "2nd in MLB, lowest by NYY starter since Ford '64"
+        },
+        {
+          "label": "Schlittler WHIP",
+          "value": "0.89",
+          "context": "4th in MLB"
+        },
+        {
+          "label": "Schlittler K%",
+          "value": "29.5%",
+          "context": "Elite, 6th in MLB"
+        },
+        {
+          "label": "BOS injuries",
+          "value": "Story/IKF/Mayer",
+          "context": "All out or limited"
+        },
+        {
+          "label": "Total movement",
+          "value": "8.5 \u2192 8",
+          "context": "Sharp money on under"
+        },
+        {
+          "label": "Fenway PF (runs)",
+          "value": "1.05",
+          "context": "Slightly hitter-friendly, offset by SP quality"
+        }
+      ],
+      "the_market": "Total opened at 8.5 on FanDuel and has been bet down to 8 across all three books. DraftKings has the best price at -108. Sharp money is clearly on the under \u2014 the line movement tells the story.",
+      "weather_park": "Fenway Park is slightly hitter-friendly (1.05 runs PF), but Schlittler's elite contact suppression neutralizes the park effect.",
+      "case_against": "Fenway is still Fenway. Early's 1.55 HR/9 could bite him if the Yankees' power bats (Dom\u00ednguez, Bellinger) catch one. If Schlittler has an off night \u2014 his first in months \u2014 this total could sail over.",
+      "what_were_betting_on": "Schlittler going 6+ innings with 7+ Ks, Boston's depleted lineup managing 2-3 runs max, and the Yankees' offense doing just enough against Early without exploding.",
+      "scott_bot_quip": "Boston's lineup looks like a MASH unit. Schlittler looks like a Cy Young. The math isn't hard.",
+      "ladder_note": "Best floor on the board. Elite SP, depleted opposing lineup, sharp money support, even-money pricing. This is the ladder lock.",
+      "date": "2026-06-25",
+      "status": "PEND",
+      "units_result": null,
+      "clv_cents": null,
+      "result_score": null,
+      "graded_at": null,
+      "slate_assessment": "Eight-game MLB-only slate with one dominant pitching matchup (Schlittler vs. Boston) and several prop angles. No NBA or NHL action today.",
+      "executive_summary": "Cam Schlittler is the story tonight \u2014 the Yankees' breakout ace takes a 1.71 ERA into Fenway against a depleted Red Sox lineup missing multiple infielders. The under at 8 is the cleanest play on the board, and Schlittler's K prop offers value against a Boston offense that's been striking out at an elevated clip. Cristopher S\u00e1nchez facing the MLB's highest-scoring offense in Washington creates a fascinating total, but the Nats' firepower makes the under too risky. The ladder rides with the Yankees-Red Sox Under 8 \u2014 two elite arms, a banged-up Boston lineup, and sharp money already on the low side.",
+      "slate_analysis": "The board today is eight MLB games, no NBA or NHL playoff action. It's a mid-week slate with several pitching mismatches but limited data confidence across the pack \u2014 five of eight games came in below 0.5 on data confidence, which narrows the playable pool. The pricing climate is soft: most totals sit at 8-9, and the moneylines are clustered around pick'em territory except for the Phillies-Nationals and Yankees-Red Sox games where we see clear favorites.\n\nThe candidates that rose to the top: Yankees at Red Sox jumped off the page immediately \u2014 Cam Schlittler is pitching at a Cy Young level (1.71 ERA, 0.89 WHIP, 29.5 K%) and Boston's lineup is decimated by injuries (Story, Kiner-Falefa, Mayer all banged up or on IL). The under at 8 is the sharpest play on the board. Phillies at Nationals drew attention because Cristopher S\u00e1nchez (1.80 ERA, 28.5 K%) is elite, but Washington leads MLB in runs scored and their .331 xwOBA is fourth-best in baseball \u2014 that's a dangerous spot for an under. Cardinals-Diamondbacks looked interesting with McGreevy's 3.35 ERA against a struggling Gallen (6.10 ERA), but the data confidence was too low and the juice on STL ML pushed past -130. Giants-Athletics had a pitcher-friendly park signal but Jeffrey Springs' 2.3 HR/9 and the wind blowing out 8 mph muddied the picture. Mets-Cubs was a true coin flip at -108/-108 with neither pitcher inspiring confidence.\n\nWhat got cut: The Phillies-Nationals under was tempting given S\u00e1nchez's dominance, but Washington's offense is legitimately elite \u2014 they lead MLB in runs scored and their underlying metrics support it. I can't back an under against the best-scoring team in baseball even with an ace on the mound. The Cardinals ML at -132 was close but the data confidence was 0.4 and Gallen, despite his struggles, has the pedigree to steal a game. The Giants-Athletics total was too murky with conflicting signals (pitcher-friendly park vs. wind out). The Tigers-Astros game had both pitchers with tiny sample sizes (Melton 31.2 IP, Imai 41 IP) and data confidence of 0.4.\n\nThe final six: Yankees-Red Sox Under 8 is the ladder pick \u2014 Schlittler is elite, Boston's lineup is depleted, and the total is priced at even money. Schlittler Ks Over 6.5 is a prop play that leverages his 29.5 K% against a Boston offense that's been striking out. S\u00e1nchez Ks Over 6.5 is a value play \u2014 he's averaging 7+ Ks per start and Cavalli's 23.5 K% suggests the Nats will swing and miss. The Cardinals ML at -132 gets in as a value play on McGreevy's solid season against a struggling Gallen. The Giants ML at -130 is a home favorite with the better pitcher in a pitcher-friendly park. The Mets-Cubs Under 8.5 rounds out the card \u2014 Citi Field suppresses homers and both offenses have been inconsistent.",
+      "slate_vibe": "NORMAL",
+      "published_at": "2026-06-25T13:14:06.437485-04:00"
+    },
     {
       "id": "20260624-MLB-BAL-LAA-ML",
       "sport": "MLB",
