@@ -1,7 +1,591 @@
 {
   "version": 1,
-  "updated_at": "2026-06-26T13:02:35.815321-04:00",
+  "updated_at": "2026-06-26T13:19:50.695419-04:00",
   "picks": [
+    {
+      "id": "20260626-MLB-COL-MIN-PROP-BYRONBUXTON",
+      "sport": "MLB",
+      "game": "COL @ MIN",
+      "first_pitch_iso": "2026-06-27T00:10Z",
+      "pick": "Byron Buxton Total Bases Over 1.5",
+      "best_book": "BetMGM",
+      "best_odds": "-135",
+      "book_prices": {
+        "draftkings": "+102",
+        "betmgm": "-135"
+      },
+      "book_links": {
+        "draftkings": "https://sportsbook.draftkings.com/?outcomes=0QA346303965%232194041558_13L84240Q1-44994196Q20",
+        "betmgm": "https://sports.nj.betmgm.com/en/sports?options=2:7809930-200946732-761633503&type=Single",
+        "fanduel": "https://sportsbook.fanduel.com/baseball/mlb/colorado-rockies-%28t-sugano%29-%40-minnesota-twins-%28t-bradley%29-35758544"
+      },
+      "market": "PROP",
+      "confidence": 3,
+      "units": 1.0,
+      "win_probability": 0.6,
+      "ladder_designation": false,
+      "data_confidence": 0.75,
+      "rules_passed": [
+        "max_juice",
+        "ladder_even_money",
+        "parlay_well_formed",
+        "confidence_units_match",
+        "data_confidence_floor",
+        "pick_type_allowed",
+        "mlb_hr_prop_check",
+        "mlb_pitcher_k_check",
+        "mlb_total_bases_check(soft)",
+        "mlb_hits_check",
+        "nba_player_prop_check",
+        "nhl_shots_check",
+        "mlb_run_line_check",
+        "mlb_under_bb_check",
+        "no_same_game_opposite"
+      ],
+      "locked": true,
+      "late_add": false,
+      "late_add_reason": "",
+      "bonus_pick": false,
+      "event_type": "",
+      "event_name": "",
+      "legs": [],
+      "headline": "Buxton's power against a soft-tossing righty with a 1.59 HR/9\u2014this is a smash spot.",
+      "the_thesis": "Byron Buxton is one of the most dangerous power hitters in baseball when healthy, and he's facing a perfect matchup tonight. Tomoyuki Sugano has a 4.31 ERA, 13.7% K rate, and 1.59 HR/9\u2014he doesn't miss bats and gives up hard contact. Buxton thrives against pitchers who can't put him away.\n\nTarget Field is neutral (0.98 runs PF, 0.97 HR PF), so there's no park factor working against us. Buxton has been hitting the ball hard all season, and he's due for a multi-base game. The over 1.5 total bases at -135 is the play.\n\nI have Buxton at 60% to go over 1.5 total bases, which implies fair odds of -150. We're getting 15 cents of value on this prop.",
+      "the_data": [
+        {
+          "label": "Sugano K% (season)",
+          "value": "13.7%",
+          "context": "Low\u2014doesn't miss bats"
+        },
+        {
+          "label": "Sugano HR/9 (season)",
+          "value": "1.59",
+          "context": "HR-prone"
+        },
+        {
+          "label": "Buxton TB line",
+          "value": "1.5",
+          "context": "Over at -135"
+        },
+        {
+          "label": "Target Field HR PF",
+          "value": "0.97",
+          "context": "Neutral"
+        }
+      ],
+      "the_market": "Buxton's total bases line is 1.5 with the over at -135 (BetMGM). DraftKings has it at +102, which is a significant discrepancy\u2014we're taking the BetMGM price because it's still value.",
+      "weather_park": "Target Field is outdoor\u201474\u00b0F, light wind. Park factor is neutral.",
+      "case_against": "Buxton is injury-prone and could be pulled early if the game gets out of hand. Sugano has been better at limiting extra-base hits than his HR/9 suggests. Buxton could also go 0-for-4 with 3 strikeouts\u2014he's volatile.",
+      "what_were_betting_on": "Buxton getting at least one extra-base hit (double, triple, or HR) against a pitcher who gives up hard contact. A single and a double would also cash this.",
+      "scott_bot_quip": "Sugano's K rate is lower than my fantasy team's batting average.",
+      "ladder_note": "",
+      "date": "2026-06-26",
+      "status": "PEND",
+      "units_result": null,
+      "clv_cents": null,
+      "result_score": null,
+      "graded_at": null,
+      "slate_assessment": "17-game MLB slate with no NBA or NHL action. Two elite pitching matchups anchor the board: Misiorowski vs Cubs in Milwaukee and Skenes vs Reds in Pittsburgh. Prop markets thin but K unders and total bases overs offer edges.",
+      "executive_summary": "Friday's 17-game MLB slate is headlined by two of the best arms in baseball: Jacob Misiorowski (1.45 ERA, 39.1% K rate) faces the Cubs in Milwaukee, and Paul Skenes (2.86 ERA, 30.6% K rate) hosts the Reds at pitcher-friendly PNC Park. Both games scream under, but Misiorowski's juice is too steep for a straight play\u2014we're pairing the Brewers run line with the under for the ladder. The sharpest single-game edge is Tampa Bay hosting a struggling Zac Gallen at the Trop. Six plays today, all grounded in pitching dominance and park factors.",
+      "slate_analysis": "The board features 17 MLB games across a full Friday night slate, with no NBA or NHL in session. Pricing is relatively tight across the board\u2014only Milwaukee (-235) and Minnesota (-174) are priced as heavy favorites, and most totals sit between 7.5 and 9.0. The prop markets are thin today, with no HR props available and limited K lines, but the K unders and total bases overs offer some edges.\n\nThe top candidates that rose during my review: (1) Milwaukee vs Cubs\u2014Misiorowski is the best pitcher in baseball right now with a 1.45 ERA and 39.1% K rate, facing a Cubs lineup that's been middling against righties. The under 7.0 and Brewers run line both look sharp. (2) Pittsburgh vs Cincinnati\u2014Skenes (2.86 ERA, 30.6% K rate) at PNC Park against Andrew Abbott (3.83 ERA, 10.7% BB rate) is a classic ace-vs-soft-matchup spot. The under 7.5 is the play. (3) Tampa Bay vs Arizona\u2014Nick Martinez (2.73 ERA) hosts a struggling Zac Gallen (6.10 ERA, 1.48 HR/9) at the Trop. The Rays ML at -137 is the cleanest side. (4) Cleveland vs Seattle\u2014Cantillo vs Castillo is a battle of two mediocre arms, but the under 7.5 at even money has value given both offenses rank bottom-10 in runs per game. (5) San Diego vs LA Dodgers\u2014Petco Park (0.93 runs PF) with Buehler vs Sasaki (1.72 HR/9) screams under 7.5. (6) Byron Buxton total bases over 1.5 at -135 against a soft Sugano (13.7% K rate, 1.59 HR/9).\n\nWhat got cut: Boston vs Yankees\u2014both starters are solid but Fenway's hitter-friendly park (1.05 runs PF) and the 9.0 total make this a coin flip. No edge. Baltimore vs Washington\u2014Trevor Rogers (5.30 ERA) is a liability, and Andrew Alvarez has only 32.1 IP this season\u2014sample too thin, data confidence below threshold. Detroit vs Houston\u2014Arrighetti's 10.9% BB rate is a red flag for any under, and the over 9.0 is already priced in. White Sox vs Royals\u2014both starters are making their first or second start of the season (Sandlin is a debut), data confidence is too low. Mets vs Phillies\u2014Wheeler is elite but the Mets have no announced starter, so I can't build a fair price.\n\nThe final six picks: (1) Brewers -1.5 at -109 (DraftKings)\u2014Misiorowski is unhittable and the Cubs are starting Colin Rea (4.99 ERA). (2) Pirates Under 7.5 at -105 (BetMGM)\u2014Skenes at PNC Park against a weak Reds lineup. (3) Rays ML at -137 (DraftKings)\u2014Martinez is pitching like an ace and Gallen is imploding. (4) Guardians/Mariners Under 7.5 at +100 (FanDuel)\u2014two soft offenses, neutral park, both starters have been decent. (5) Padres/Dodgers Under 7.5 at -105 (FanDuel)\u2014Petco suppresses runs and both starters have been shaky but the park will bail them out. (6) Byron Buxton Total Bases Over 1.5 at -135 (BetMGM)\u2014Sugano's 13.7% K rate and 1.59 HR/9 make this a smash spot for Buxton's power. The ladder pick is the Brewers -1.5\u2014Misiorowski's dominance gives this the highest floor on the board.",
+      "slate_vibe": "NORMAL",
+      "published_at": "2026-06-26T13:19:50.695331-04:00"
+    },
+    {
+      "id": "20260626-MLB-LAD-SD-TOTAL",
+      "sport": "MLB",
+      "game": "LAD @ SD",
+      "first_pitch_iso": "2026-06-27T01:45Z",
+      "pick": "Under 7.5",
+      "best_book": "FanDuel",
+      "best_odds": "-105",
+      "book_prices": {
+        "draftkings": "-109",
+        "fanduel": "-105",
+        "betmgm": "-110"
+      },
+      "book_links": {
+        "fanduel": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.588119442&selectionId=7017906",
+        "draftkings": "https://sportsbook.draftkings.com/?outcomes=0OU85279169U750_3",
+        "betmgm": "https://sports.nj.betmgm.com/en/sports?options=19741409-1537680569-2238107692&type=Single"
+      },
+      "market": "TOTAL",
+      "confidence": 3,
+      "units": 1.0,
+      "win_probability": 0.58,
+      "ladder_designation": false,
+      "data_confidence": 0.78,
+      "rules_passed": [
+        "max_juice",
+        "ladder_even_money",
+        "parlay_well_formed",
+        "confidence_units_match",
+        "data_confidence_floor",
+        "pick_type_allowed",
+        "mlb_hr_prop_check",
+        "mlb_pitcher_k_check",
+        "mlb_total_bases_check",
+        "mlb_hits_check",
+        "nba_player_prop_check",
+        "nhl_shots_check",
+        "mlb_run_line_check",
+        "mlb_under_bb_check",
+        "no_same_game_opposite"
+      ],
+      "locked": true,
+      "late_add": false,
+      "late_add_reason": "",
+      "bonus_pick": false,
+      "event_type": "",
+      "event_name": "",
+      "legs": [],
+      "headline": "Petco Park is where offense goes to die\u2014even with two shaky starters, the park will bail us out.",
+      "the_thesis": "Petco Park is one of the most pitcher-friendly parks in baseball with a 0.93 runs PF and 0.91 HR PF. It suppresses offense across the board, and even mediocre pitchers look good there. Walker Buehler (3.96 ERA, 0.62 HR/9) has been solid, and Roki Sasaki (4.76 ERA, 1.72 HR/9) has struggled but should benefit from the park.\n\nThe Padres offense has been weak (3.91 R/G), and while the Dodgers are better (5.22 R/G), they're facing a pitcher who's been better at home. The under 7.5 at -105 is the play. I have this game at 6.8 runs, which gives us about 8 cents of edge on the under.\n\nThe park is the edge here. Even if both starters struggle, the bullpens should keep this game low-scoring.",
+      "the_data": [
+        {
+          "label": "Petco Park runs PF",
+          "value": "0.93",
+          "context": "Pitcher-friendly"
+        },
+        {
+          "label": "Petco Park HR PF",
+          "value": "0.91",
+          "context": "HR-suppressing"
+        },
+        {
+          "label": "Buehler ERA (season)",
+          "value": "3.96",
+          "context": "Average"
+        },
+        {
+          "label": "Buehler HR/9 (season)",
+          "value": "0.62",
+          "context": "Excellent"
+        },
+        {
+          "label": "Sasaki HR/9 (season)",
+          "value": "1.72",
+          "context": "HR-prone, but park helps"
+        },
+        {
+          "label": "Padres R/G (season)",
+          "value": "3.91",
+          "context": "Bottom-10 in MLB"
+        }
+      ],
+      "the_market": "Total opened at 7.5 and has held. No movement, which suggests the market is comfortable with this number.",
+      "weather_park": "Petco Park is outdoor\u201468\u00b0F, light wind. Park factor is the story: 0.93 runs, 0.91 HR.",
+      "case_against": "Sasaki's 1.72 HR/9 is concerning, and the Dodgers have some dangerous hitters who could take him deep. If Buehler doesn't go deep into the game, the Padres bullpen could be tested.",
+      "what_were_betting_on": "Petco Park suppressing offense, both starters going 5+ innings, and a low-scoring 4-3 or 3-2 type game.",
+      "scott_bot_quip": "Petco Park: where fly balls go to die in the marine layer.",
+      "ladder_note": "",
+      "date": "2026-06-26",
+      "status": "PEND",
+      "units_result": null,
+      "clv_cents": null,
+      "result_score": null,
+      "graded_at": null,
+      "slate_assessment": "17-game MLB slate with no NBA or NHL action. Two elite pitching matchups anchor the board: Misiorowski vs Cubs in Milwaukee and Skenes vs Reds in Pittsburgh. Prop markets thin but K unders and total bases overs offer edges.",
+      "executive_summary": "Friday's 17-game MLB slate is headlined by two of the best arms in baseball: Jacob Misiorowski (1.45 ERA, 39.1% K rate) faces the Cubs in Milwaukee, and Paul Skenes (2.86 ERA, 30.6% K rate) hosts the Reds at pitcher-friendly PNC Park. Both games scream under, but Misiorowski's juice is too steep for a straight play\u2014we're pairing the Brewers run line with the under for the ladder. The sharpest single-game edge is Tampa Bay hosting a struggling Zac Gallen at the Trop. Six plays today, all grounded in pitching dominance and park factors.",
+      "slate_analysis": "The board features 17 MLB games across a full Friday night slate, with no NBA or NHL in session. Pricing is relatively tight across the board\u2014only Milwaukee (-235) and Minnesota (-174) are priced as heavy favorites, and most totals sit between 7.5 and 9.0. The prop markets are thin today, with no HR props available and limited K lines, but the K unders and total bases overs offer some edges.\n\nThe top candidates that rose during my review: (1) Milwaukee vs Cubs\u2014Misiorowski is the best pitcher in baseball right now with a 1.45 ERA and 39.1% K rate, facing a Cubs lineup that's been middling against righties. The under 7.0 and Brewers run line both look sharp. (2) Pittsburgh vs Cincinnati\u2014Skenes (2.86 ERA, 30.6% K rate) at PNC Park against Andrew Abbott (3.83 ERA, 10.7% BB rate) is a classic ace-vs-soft-matchup spot. The under 7.5 is the play. (3) Tampa Bay vs Arizona\u2014Nick Martinez (2.73 ERA) hosts a struggling Zac Gallen (6.10 ERA, 1.48 HR/9) at the Trop. The Rays ML at -137 is the cleanest side. (4) Cleveland vs Seattle\u2014Cantillo vs Castillo is a battle of two mediocre arms, but the under 7.5 at even money has value given both offenses rank bottom-10 in runs per game. (5) San Diego vs LA Dodgers\u2014Petco Park (0.93 runs PF) with Buehler vs Sasaki (1.72 HR/9) screams under 7.5. (6) Byron Buxton total bases over 1.5 at -135 against a soft Sugano (13.7% K rate, 1.59 HR/9).\n\nWhat got cut: Boston vs Yankees\u2014both starters are solid but Fenway's hitter-friendly park (1.05 runs PF) and the 9.0 total make this a coin flip. No edge. Baltimore vs Washington\u2014Trevor Rogers (5.30 ERA) is a liability, and Andrew Alvarez has only 32.1 IP this season\u2014sample too thin, data confidence below threshold. Detroit vs Houston\u2014Arrighetti's 10.9% BB rate is a red flag for any under, and the over 9.0 is already priced in. White Sox vs Royals\u2014both starters are making their first or second start of the season (Sandlin is a debut), data confidence is too low. Mets vs Phillies\u2014Wheeler is elite but the Mets have no announced starter, so I can't build a fair price.\n\nThe final six picks: (1) Brewers -1.5 at -109 (DraftKings)\u2014Misiorowski is unhittable and the Cubs are starting Colin Rea (4.99 ERA). (2) Pirates Under 7.5 at -105 (BetMGM)\u2014Skenes at PNC Park against a weak Reds lineup. (3) Rays ML at -137 (DraftKings)\u2014Martinez is pitching like an ace and Gallen is imploding. (4) Guardians/Mariners Under 7.5 at +100 (FanDuel)\u2014two soft offenses, neutral park, both starters have been decent. (5) Padres/Dodgers Under 7.5 at -105 (FanDuel)\u2014Petco suppresses runs and both starters have been shaky but the park will bail them out. (6) Byron Buxton Total Bases Over 1.5 at -135 (BetMGM)\u2014Sugano's 13.7% K rate and 1.59 HR/9 make this a smash spot for Buxton's power. The ladder pick is the Brewers -1.5\u2014Misiorowski's dominance gives this the highest floor on the board.",
+      "slate_vibe": "NORMAL",
+      "published_at": "2026-06-26T13:19:50.695224-04:00"
+    },
+    {
+      "id": "20260626-MLB-SEA-CLE-TOTAL",
+      "sport": "MLB",
+      "game": "SEA @ CLE",
+      "first_pitch_iso": "2026-06-26T23:10Z",
+      "pick": "Under 7.5",
+      "best_book": "FanDuel",
+      "best_odds": "+100",
+      "book_prices": {
+        "draftkings": "-104",
+        "fanduel": "+100",
+        "betmgm": "-102"
+      },
+      "book_links": {
+        "fanduel": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.588117184&selectionId=7017906",
+        "draftkings": "https://sportsbook.draftkings.com/?outcomes=0OU85279137U750_3",
+        "betmgm": "https://sports.nj.betmgm.com/en/sports?options=19741356-1537675273-2238093971&type=Single"
+      },
+      "market": "TOTAL",
+      "confidence": 3,
+      "units": 1.0,
+      "win_probability": 0.58,
+      "ladder_designation": false,
+      "data_confidence": 0.78,
+      "rules_passed": [
+        "max_juice",
+        "ladder_even_money",
+        "parlay_well_formed",
+        "confidence_units_match",
+        "data_confidence_floor",
+        "pick_type_allowed",
+        "mlb_hr_prop_check",
+        "mlb_pitcher_k_check",
+        "mlb_total_bases_check",
+        "mlb_hits_check",
+        "nba_player_prop_check",
+        "nhl_shots_check",
+        "mlb_run_line_check",
+        "mlb_under_bb_check",
+        "no_same_game_opposite"
+      ],
+      "locked": true,
+      "late_add": false,
+      "late_add_reason": "",
+      "bonus_pick": false,
+      "event_type": "",
+      "event_name": "",
+      "legs": [],
+      "headline": "Two soft offenses, a neutral park, and plus-money on the under\u2014this is a grind-it-out game.",
+      "the_thesis": "This is a classic under spot. Both offenses rank in the bottom third of MLB in runs per game\u2014Cleveland at 3.95 R/G and Seattle at 4.04 R/G. Neither team has the firepower to put up crooked numbers consistently, and both starters have been decent enough to keep games close.\n\nJoey Cantillo (4.05 ERA, 22.4% K rate) has been solid for Cleveland, though his 10.9% BB rate is a concern. Luis Castillo (5.22 ERA, 21.8% K rate) has struggled but has the stuff to get through a weak Guardians lineup. Progressive Field is neutral (0.97 runs PF, 0.96 HR PF), so there's no park factor edge either way.\n\nThe under 7.5 at +100 is the play. I have this game at 6.9 runs, which gives us about 8 cents of edge on the under. Plus-money on an under is rare\u2014we're taking it.",
+      "the_data": [
+        {
+          "label": "Guardians R/G (season)",
+          "value": "3.95",
+          "context": "Bottom-10 in MLB"
+        },
+        {
+          "label": "Mariners R/G (season)",
+          "value": "4.04",
+          "context": "Bottom-10 in MLB"
+        },
+        {
+          "label": "Cantillo ERA (season)",
+          "value": "4.05",
+          "context": "Average"
+        },
+        {
+          "label": "Castillo ERA (season)",
+          "value": "5.22",
+          "context": "Below average"
+        },
+        {
+          "label": "Progressive Field runs PF",
+          "value": "0.97",
+          "context": "Neutral"
+        }
+      ],
+      "the_market": "Total opened at 7.5 and has held. The under is getting plus-money at FanDuel, which suggests the public is on the over. We're fading the public here.",
+      "weather_park": "Progressive Field is outdoor\u201472\u00b0F, light wind. Park factor is neutral.",
+      "case_against": "Cantillo's 10.9% BB rate could lead to traffic on the bases, and if either bullpen falters, this game could get away from us. Both teams have been inconsistent, so there's variance risk.",
+      "what_were_betting_on": "Both starters going 5+ innings, both offenses struggling to string together hits, and a low-scoring 4-3 or 3-2 type game.",
+      "scott_bot_quip": "Two offenses that couldn't score at a little league game.",
+      "ladder_note": "",
+      "date": "2026-06-26",
+      "status": "PEND",
+      "units_result": null,
+      "clv_cents": null,
+      "result_score": null,
+      "graded_at": null,
+      "slate_assessment": "17-game MLB slate with no NBA or NHL action. Two elite pitching matchups anchor the board: Misiorowski vs Cubs in Milwaukee and Skenes vs Reds in Pittsburgh. Prop markets thin but K unders and total bases overs offer edges.",
+      "executive_summary": "Friday's 17-game MLB slate is headlined by two of the best arms in baseball: Jacob Misiorowski (1.45 ERA, 39.1% K rate) faces the Cubs in Milwaukee, and Paul Skenes (2.86 ERA, 30.6% K rate) hosts the Reds at pitcher-friendly PNC Park. Both games scream under, but Misiorowski's juice is too steep for a straight play\u2014we're pairing the Brewers run line with the under for the ladder. The sharpest single-game edge is Tampa Bay hosting a struggling Zac Gallen at the Trop. Six plays today, all grounded in pitching dominance and park factors.",
+      "slate_analysis": "The board features 17 MLB games across a full Friday night slate, with no NBA or NHL in session. Pricing is relatively tight across the board\u2014only Milwaukee (-235) and Minnesota (-174) are priced as heavy favorites, and most totals sit between 7.5 and 9.0. The prop markets are thin today, with no HR props available and limited K lines, but the K unders and total bases overs offer some edges.\n\nThe top candidates that rose during my review: (1) Milwaukee vs Cubs\u2014Misiorowski is the best pitcher in baseball right now with a 1.45 ERA and 39.1% K rate, facing a Cubs lineup that's been middling against righties. The under 7.0 and Brewers run line both look sharp. (2) Pittsburgh vs Cincinnati\u2014Skenes (2.86 ERA, 30.6% K rate) at PNC Park against Andrew Abbott (3.83 ERA, 10.7% BB rate) is a classic ace-vs-soft-matchup spot. The under 7.5 is the play. (3) Tampa Bay vs Arizona\u2014Nick Martinez (2.73 ERA) hosts a struggling Zac Gallen (6.10 ERA, 1.48 HR/9) at the Trop. The Rays ML at -137 is the cleanest side. (4) Cleveland vs Seattle\u2014Cantillo vs Castillo is a battle of two mediocre arms, but the under 7.5 at even money has value given both offenses rank bottom-10 in runs per game. (5) San Diego vs LA Dodgers\u2014Petco Park (0.93 runs PF) with Buehler vs Sasaki (1.72 HR/9) screams under 7.5. (6) Byron Buxton total bases over 1.5 at -135 against a soft Sugano (13.7% K rate, 1.59 HR/9).\n\nWhat got cut: Boston vs Yankees\u2014both starters are solid but Fenway's hitter-friendly park (1.05 runs PF) and the 9.0 total make this a coin flip. No edge. Baltimore vs Washington\u2014Trevor Rogers (5.30 ERA) is a liability, and Andrew Alvarez has only 32.1 IP this season\u2014sample too thin, data confidence below threshold. Detroit vs Houston\u2014Arrighetti's 10.9% BB rate is a red flag for any under, and the over 9.0 is already priced in. White Sox vs Royals\u2014both starters are making their first or second start of the season (Sandlin is a debut), data confidence is too low. Mets vs Phillies\u2014Wheeler is elite but the Mets have no announced starter, so I can't build a fair price.\n\nThe final six picks: (1) Brewers -1.5 at -109 (DraftKings)\u2014Misiorowski is unhittable and the Cubs are starting Colin Rea (4.99 ERA). (2) Pirates Under 7.5 at -105 (BetMGM)\u2014Skenes at PNC Park against a weak Reds lineup. (3) Rays ML at -137 (DraftKings)\u2014Martinez is pitching like an ace and Gallen is imploding. (4) Guardians/Mariners Under 7.5 at +100 (FanDuel)\u2014two soft offenses, neutral park, both starters have been decent. (5) Padres/Dodgers Under 7.5 at -105 (FanDuel)\u2014Petco suppresses runs and both starters have been shaky but the park will bail them out. (6) Byron Buxton Total Bases Over 1.5 at -135 (BetMGM)\u2014Sugano's 13.7% K rate and 1.59 HR/9 make this a smash spot for Buxton's power. The ladder pick is the Brewers -1.5\u2014Misiorowski's dominance gives this the highest floor on the board.",
+      "slate_vibe": "NORMAL",
+      "published_at": "2026-06-26T13:19:50.695126-04:00"
+    },
+    {
+      "id": "20260626-MLB-ARI-TB-ML",
+      "sport": "MLB",
+      "game": "ARI @ TB",
+      "first_pitch_iso": "2026-06-26T23:10Z",
+      "pick": "Rays ML",
+      "best_book": "DraftKings",
+      "best_odds": "-137",
+      "book_prices": {
+        "draftkings": "-137",
+        "fanduel": "-138",
+        "betmgm": "-140"
+      },
+      "book_links": {
+        "fanduel": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.588013061&selectionId=29162",
+        "draftkings": "https://sportsbook.draftkings.com/?outcomes=0ML85279139_1",
+        "betmgm": "https://sports.nj.betmgm.com/en/sports?options=19741357-1537675356-2238094155&type=Single"
+      },
+      "market": "ML",
+      "confidence": 4,
+      "units": 1.5,
+      "win_probability": 0.63,
+      "ladder_designation": false,
+      "data_confidence": 0.8,
+      "rules_passed": [
+        "max_juice",
+        "ladder_even_money",
+        "parlay_well_formed",
+        "confidence_units_match",
+        "data_confidence_floor",
+        "pick_type_allowed",
+        "mlb_hr_prop_check",
+        "mlb_pitcher_k_check",
+        "mlb_total_bases_check",
+        "mlb_hits_check",
+        "nba_player_prop_check",
+        "nhl_shots_check",
+        "mlb_run_line_check",
+        "mlb_under_bb_check",
+        "no_same_game_opposite"
+      ],
+      "locked": true,
+      "late_add": false,
+      "late_add_reason": "",
+      "bonus_pick": false,
+      "event_type": "",
+      "event_name": "",
+      "legs": [],
+      "headline": "Nick Martinez is pitching like an ace while Zac Gallen is imploding\u2014the Trop does the rest.",
+      "the_thesis": "Nick Martinez has been one of the best stories in baseball this year. His 2.73 ERA, 1.16 WHIP, and 0.81 HR/9 are all career-bests, and he's been especially good at home at Tropicana Field. The Trop is a pitcher's paradise with a 0.95 runs PF and 0.92 HR PF\u2014it suppresses offense and rewards pitchers who can keep the ball in the park.\n\nZac Gallen, on the other hand, is having a nightmare season. His 6.10 ERA, 1.63 WHIP, and 1.48 HR/9 are all career-worsts. He's been giving up hard contact and hasn't been able to locate his secondary stuff. The Diamondbacks offense is decent (4.33 R/G), but they're facing a pitcher who's been unhittable at home.\n\nThe Rays at -137 is the play. I have them at 63% to win, which implies fair odds of -170. We're getting 33 cents of value on the moneyline.",
+      "the_data": [
+        {
+          "label": "Martinez ERA (season)",
+          "value": "2.73",
+          "context": "Elite"
+        },
+        {
+          "label": "Martinez HR/9 (season)",
+          "value": "0.81",
+          "context": "Excellent"
+        },
+        {
+          "label": "Gallen ERA (season)",
+          "value": "6.10",
+          "context": "Poor"
+        },
+        {
+          "label": "Gallen HR/9 (season)",
+          "value": "1.48",
+          "context": "HR-prone"
+        },
+        {
+          "label": "Tropicana Field runs PF",
+          "value": "0.95",
+          "context": "Pitcher-friendly"
+        },
+        {
+          "label": "Tropicana Field HR PF",
+          "value": "0.92",
+          "context": "HR-suppressing"
+        }
+      ],
+      "the_market": "Rays opened -137 and have held steady. The total opened at 8.5 and has held as well. No sharp movement either way.",
+      "weather_park": "Tropicana Field is a dome\u2014no weather concerns. Park factor is the edge: 0.95 runs, 0.92 HR.",
+      "case_against": "Gallen is a talented pitcher who could turn it around at any time. The Diamondbacks have some dangerous hitters (Corbin Carroll, Ketel Marte) who could get to Martinez if he's not sharp. The Rays offense has been inconsistent.",
+      "what_were_betting_on": "Martinez going 6+ innings with 5 or fewer hits allowed, the Rays offense scratching across 3-4 runs against a struggling Gallen, and the Trop doing its thing.",
+      "scott_bot_quip": "Gallen's ERA is higher than the Trop's attendance.",
+      "ladder_note": "",
+      "date": "2026-06-26",
+      "status": "PEND",
+      "units_result": null,
+      "clv_cents": null,
+      "result_score": null,
+      "graded_at": null,
+      "slate_assessment": "17-game MLB slate with no NBA or NHL action. Two elite pitching matchups anchor the board: Misiorowski vs Cubs in Milwaukee and Skenes vs Reds in Pittsburgh. Prop markets thin but K unders and total bases overs offer edges.",
+      "executive_summary": "Friday's 17-game MLB slate is headlined by two of the best arms in baseball: Jacob Misiorowski (1.45 ERA, 39.1% K rate) faces the Cubs in Milwaukee, and Paul Skenes (2.86 ERA, 30.6% K rate) hosts the Reds at pitcher-friendly PNC Park. Both games scream under, but Misiorowski's juice is too steep for a straight play\u2014we're pairing the Brewers run line with the under for the ladder. The sharpest single-game edge is Tampa Bay hosting a struggling Zac Gallen at the Trop. Six plays today, all grounded in pitching dominance and park factors.",
+      "slate_analysis": "The board features 17 MLB games across a full Friday night slate, with no NBA or NHL in session. Pricing is relatively tight across the board\u2014only Milwaukee (-235) and Minnesota (-174) are priced as heavy favorites, and most totals sit between 7.5 and 9.0. The prop markets are thin today, with no HR props available and limited K lines, but the K unders and total bases overs offer some edges.\n\nThe top candidates that rose during my review: (1) Milwaukee vs Cubs\u2014Misiorowski is the best pitcher in baseball right now with a 1.45 ERA and 39.1% K rate, facing a Cubs lineup that's been middling against righties. The under 7.0 and Brewers run line both look sharp. (2) Pittsburgh vs Cincinnati\u2014Skenes (2.86 ERA, 30.6% K rate) at PNC Park against Andrew Abbott (3.83 ERA, 10.7% BB rate) is a classic ace-vs-soft-matchup spot. The under 7.5 is the play. (3) Tampa Bay vs Arizona\u2014Nick Martinez (2.73 ERA) hosts a struggling Zac Gallen (6.10 ERA, 1.48 HR/9) at the Trop. The Rays ML at -137 is the cleanest side. (4) Cleveland vs Seattle\u2014Cantillo vs Castillo is a battle of two mediocre arms, but the under 7.5 at even money has value given both offenses rank bottom-10 in runs per game. (5) San Diego vs LA Dodgers\u2014Petco Park (0.93 runs PF) with Buehler vs Sasaki (1.72 HR/9) screams under 7.5. (6) Byron Buxton total bases over 1.5 at -135 against a soft Sugano (13.7% K rate, 1.59 HR/9).\n\nWhat got cut: Boston vs Yankees\u2014both starters are solid but Fenway's hitter-friendly park (1.05 runs PF) and the 9.0 total make this a coin flip. No edge. Baltimore vs Washington\u2014Trevor Rogers (5.30 ERA) is a liability, and Andrew Alvarez has only 32.1 IP this season\u2014sample too thin, data confidence below threshold. Detroit vs Houston\u2014Arrighetti's 10.9% BB rate is a red flag for any under, and the over 9.0 is already priced in. White Sox vs Royals\u2014both starters are making their first or second start of the season (Sandlin is a debut), data confidence is too low. Mets vs Phillies\u2014Wheeler is elite but the Mets have no announced starter, so I can't build a fair price.\n\nThe final six picks: (1) Brewers -1.5 at -109 (DraftKings)\u2014Misiorowski is unhittable and the Cubs are starting Colin Rea (4.99 ERA). (2) Pirates Under 7.5 at -105 (BetMGM)\u2014Skenes at PNC Park against a weak Reds lineup. (3) Rays ML at -137 (DraftKings)\u2014Martinez is pitching like an ace and Gallen is imploding. (4) Guardians/Mariners Under 7.5 at +100 (FanDuel)\u2014two soft offenses, neutral park, both starters have been decent. (5) Padres/Dodgers Under 7.5 at -105 (FanDuel)\u2014Petco suppresses runs and both starters have been shaky but the park will bail them out. (6) Byron Buxton Total Bases Over 1.5 at -135 (BetMGM)\u2014Sugano's 13.7% K rate and 1.59 HR/9 make this a smash spot for Buxton's power. The ladder pick is the Brewers -1.5\u2014Misiorowski's dominance gives this the highest floor on the board.",
+      "slate_vibe": "NORMAL",
+      "published_at": "2026-06-26T13:19:50.695023-04:00"
+    },
+    {
+      "id": "20260626-MLB-CIN-PIT-TOTAL",
+      "sport": "MLB",
+      "game": "CIN @ PIT",
+      "first_pitch_iso": "2026-06-26T22:40Z",
+      "pick": "Under 7.5",
+      "best_book": "BetMGM",
+      "best_odds": "-105",
+      "book_prices": {
+        "draftkings": "-108",
+        "fanduel": "-108",
+        "betmgm": "-105"
+      },
+      "book_links": {
+        "fanduel": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.588114567&selectionId=7017906",
+        "draftkings": "https://sportsbook.draftkings.com/?outcomes=0OU85279133U750_3",
+        "betmgm": "https://sports.nj.betmgm.com/en/sports?options=19741353-1537674968-2238093307&type=Single"
+      },
+      "market": "TOTAL",
+      "confidence": 4,
+      "units": 1.5,
+      "win_probability": 0.62,
+      "ladder_designation": false,
+      "data_confidence": 0.82,
+      "rules_passed": [
+        "max_juice",
+        "ladder_even_money",
+        "parlay_well_formed",
+        "confidence_units_match",
+        "data_confidence_floor",
+        "pick_type_allowed",
+        "mlb_hr_prop_check",
+        "mlb_pitcher_k_check",
+        "mlb_total_bases_check",
+        "mlb_hits_check",
+        "nba_player_prop_check",
+        "nhl_shots_check",
+        "mlb_run_line_check",
+        "mlb_under_bb_check",
+        "no_same_game_opposite"
+      ],
+      "locked": true,
+      "late_add": false,
+      "late_add_reason": "",
+      "bonus_pick": false,
+      "event_type": "",
+      "event_name": "",
+      "legs": [],
+      "headline": "Reigning Cy Young winner at a pitcher-friendly park against a soft Reds lineup.",
+      "the_thesis": "Paul Skenes is the reigning NL Cy Young winner and has rounded into form after a rough Opening Day. His 2.86 ERA, 0.93 WHIP, and 30.6% K rate are all elite, and he's been dominant at PNC Park (2.79 ERA at home). The Reds are starting Andrew Abbott, who has a 3.83 ERA but a concerning 10.7% BB rate\u2014that's a red flag for any over, but it also means he's not going deep into games.\n\nPNC Park is one of the best pitcher's parks in baseball with a 0.95 runs PF and 0.91 HR PF. The Reds offense has been mediocre (4.19 R/G), and they're facing the best pitcher they'll see all week. The Pirates offense isn't great either (5.05 R/G), but they don't need to be\u2014Skenes will carry this game.\n\nThe under 7.5 at -105 is the cleanest play. I have this game at 6.8 runs, which gives us about 10 cents of edge on the under.",
+      "the_data": [
+        {
+          "label": "Skenes ERA (season)",
+          "value": "2.86",
+          "context": "Elite"
+        },
+        {
+          "label": "Skenes K% (season)",
+          "value": "30.6%",
+          "context": "Top-10 in MLB"
+        },
+        {
+          "label": "Skenes WHIP (season)",
+          "value": "0.93",
+          "context": "Elite"
+        },
+        {
+          "label": "PNC Park runs PF",
+          "value": "0.95",
+          "context": "Pitcher-friendly"
+        },
+        {
+          "label": "PNC Park HR PF",
+          "value": "0.91",
+          "context": "HR-suppressing"
+        },
+        {
+          "label": "Reds R/G (season)",
+          "value": "4.19",
+          "context": "Below average"
+        }
+      ],
+      "the_market": "Total opened at 7.5 and has held. No movement, which suggests the market is comfortable with this number. We're getting the best price at BetMGM (-105).",
+      "weather_park": "PNC Park is outdoor but weather is favorable\u201472\u00b0F, light wind. Park factor is the story here: 0.95 runs, 0.91 HR.",
+      "case_against": "Abbott's 10.7% BB rate could lead to traffic on the bases, and if Skenes has an off night, the Reds could scratch across some runs. The Pirates bullpen has been inconsistent, so if Skenes exits early, the under could be in jeopardy.",
+      "what_were_betting_on": "Skenes going 7+ innings with 8+ strikeouts, Abbott keeping the Pirates offense in check for 5 innings, and both bullpens holding serve late.",
+      "scott_bot_quip": "Skenes at PNC Park is where offense goes to die.",
+      "ladder_note": "",
+      "date": "2026-06-26",
+      "status": "PEND",
+      "units_result": null,
+      "clv_cents": null,
+      "result_score": null,
+      "graded_at": null,
+      "slate_assessment": "17-game MLB slate with no NBA or NHL action. Two elite pitching matchups anchor the board: Misiorowski vs Cubs in Milwaukee and Skenes vs Reds in Pittsburgh. Prop markets thin but K unders and total bases overs offer edges.",
+      "executive_summary": "Friday's 17-game MLB slate is headlined by two of the best arms in baseball: Jacob Misiorowski (1.45 ERA, 39.1% K rate) faces the Cubs in Milwaukee, and Paul Skenes (2.86 ERA, 30.6% K rate) hosts the Reds at pitcher-friendly PNC Park. Both games scream under, but Misiorowski's juice is too steep for a straight play\u2014we're pairing the Brewers run line with the under for the ladder. The sharpest single-game edge is Tampa Bay hosting a struggling Zac Gallen at the Trop. Six plays today, all grounded in pitching dominance and park factors.",
+      "slate_analysis": "The board features 17 MLB games across a full Friday night slate, with no NBA or NHL in session. Pricing is relatively tight across the board\u2014only Milwaukee (-235) and Minnesota (-174) are priced as heavy favorites, and most totals sit between 7.5 and 9.0. The prop markets are thin today, with no HR props available and limited K lines, but the K unders and total bases overs offer some edges.\n\nThe top candidates that rose during my review: (1) Milwaukee vs Cubs\u2014Misiorowski is the best pitcher in baseball right now with a 1.45 ERA and 39.1% K rate, facing a Cubs lineup that's been middling against righties. The under 7.0 and Brewers run line both look sharp. (2) Pittsburgh vs Cincinnati\u2014Skenes (2.86 ERA, 30.6% K rate) at PNC Park against Andrew Abbott (3.83 ERA, 10.7% BB rate) is a classic ace-vs-soft-matchup spot. The under 7.5 is the play. (3) Tampa Bay vs Arizona\u2014Nick Martinez (2.73 ERA) hosts a struggling Zac Gallen (6.10 ERA, 1.48 HR/9) at the Trop. The Rays ML at -137 is the cleanest side. (4) Cleveland vs Seattle\u2014Cantillo vs Castillo is a battle of two mediocre arms, but the under 7.5 at even money has value given both offenses rank bottom-10 in runs per game. (5) San Diego vs LA Dodgers\u2014Petco Park (0.93 runs PF) with Buehler vs Sasaki (1.72 HR/9) screams under 7.5. (6) Byron Buxton total bases over 1.5 at -135 against a soft Sugano (13.7% K rate, 1.59 HR/9).\n\nWhat got cut: Boston vs Yankees\u2014both starters are solid but Fenway's hitter-friendly park (1.05 runs PF) and the 9.0 total make this a coin flip. No edge. Baltimore vs Washington\u2014Trevor Rogers (5.30 ERA) is a liability, and Andrew Alvarez has only 32.1 IP this season\u2014sample too thin, data confidence below threshold. Detroit vs Houston\u2014Arrighetti's 10.9% BB rate is a red flag for any under, and the over 9.0 is already priced in. White Sox vs Royals\u2014both starters are making their first or second start of the season (Sandlin is a debut), data confidence is too low. Mets vs Phillies\u2014Wheeler is elite but the Mets have no announced starter, so I can't build a fair price.\n\nThe final six picks: (1) Brewers -1.5 at -109 (DraftKings)\u2014Misiorowski is unhittable and the Cubs are starting Colin Rea (4.99 ERA). (2) Pirates Under 7.5 at -105 (BetMGM)\u2014Skenes at PNC Park against a weak Reds lineup. (3) Rays ML at -137 (DraftKings)\u2014Martinez is pitching like an ace and Gallen is imploding. (4) Guardians/Mariners Under 7.5 at +100 (FanDuel)\u2014two soft offenses, neutral park, both starters have been decent. (5) Padres/Dodgers Under 7.5 at -105 (FanDuel)\u2014Petco suppresses runs and both starters have been shaky but the park will bail them out. (6) Byron Buxton Total Bases Over 1.5 at -135 (BetMGM)\u2014Sugano's 13.7% K rate and 1.59 HR/9 make this a smash spot for Buxton's power. The ladder pick is the Brewers -1.5\u2014Misiorowski's dominance gives this the highest floor on the board.",
+      "slate_vibe": "NORMAL",
+      "published_at": "2026-06-26T13:19:50.694897-04:00"
+    },
+    {
+      "id": "20260626-MLB-CHC-MIL-SPREAD",
+      "sport": "MLB",
+      "game": "CHC @ MIL",
+      "first_pitch_iso": "2026-06-26T23:45Z",
+      "pick": "Brewers -1.5",
+      "best_book": "DraftKings",
+      "best_odds": "-109",
+      "book_prices": {
+        "draftkings": "-109",
+        "fanduel": "-110",
+        "betmgm": "-110"
+      },
+      "book_links": {
+        "fanduel": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.588117893&selectionId=29172",
+        "betmgm": "https://sports.nj.betmgm.com/en/sports?options=19741405-1537680101-2238106609&type=Single",
+        "draftkings": "https://sportsbook.draftkings.com/?outcomes=0HC85279141N150_1"
+      },
+      "market": "SPREAD",
+      "confidence": 5,
+      "units": 2.0,
+      "win_probability": 0.68,
+      "ladder_designation": true,
+      "data_confidence": 0.85,
+      "rules_passed": [
+        "max_juice",
+        "ladder_even_money",
+        "parlay_well_formed",
+        "confidence_units_match",
+        "data_confidence_floor",
+        "pick_type_allowed",
+        "mlb_hr_prop_check",
+        "mlb_pitcher_k_check",
+        "mlb_total_bases_check",
+        "mlb_hits_check",
+        "nba_player_prop_check",
+        "nhl_shots_check",
+        "mlb_run_line_check",
+        "mlb_under_bb_check",
+        "no_same_game_opposite"
+      ],
+      "locked": true,
+      "late_add": false,
+      "late_add_reason": "",
+      "bonus_pick": false,
+      "event_type": "",
+      "event_name": "",
+      "legs": [],
+      "headline": "The best pitcher in baseball at home against a middling Cubs lineup\u2014this is the floor play.",
+      "the_thesis": "Jacob Misiorowski is having a historic season. His 1.45 ERA leads MLB, his 39.1% K rate is elite, and his 0.75 WHIP is absurd. He's thrown shutout innings in six of his last seven starts and just set a career-high with 14 strikeouts against the Phillies. The Cubs are starting Colin Rea, who has a 4.99 ERA, 1.37 HR/9, and an 8.1% BB rate\u2014he's hittable and prone to the long ball.\n\nThe Brewers offense has been solid at home (5.22 R/G), and American Family Field is neutral for runs but slightly HR-boosting (1.06 PF). The Cubs have been inconsistent on the road, and their lineup doesn't have the firepower to keep up with Milwaukee's bats when Misiorowski is dealing. The run line at -109 is the sweet spot\u2014we're getting plus-money value on a team that should win by 2+ runs more often than the market implies.\n\nThe market has Milwaukee at -235 on the moneyline, which implies about 70% win probability. I have them closer to 75% to win outright and 68% to cover -1.5. That's 8+ cents of edge on the run line, which is where we want to be.",
+      "the_data": [
+        {
+          "label": "Misiorowski ERA (season)",
+          "value": "1.45",
+          "context": "MLB-best"
+        },
+        {
+          "label": "Misiorowski K% (season)",
+          "value": "39.1%",
+          "context": "Elite, 98th percentile"
+        },
+        {
+          "label": "Misiorowski WHIP (season)",
+          "value": "0.75",
+          "context": "MLB-best"
+        },
+        {
+          "label": "Rea ERA (season)",
+          "value": "4.99",
+          "context": "Below average"
+        },
+        {
+          "label": "Rea HR/9 (season)",
+          "value": "1.37",
+          "context": "HR-prone"
+        },
+        {
+          "label": "Brewers R/G (home)",
+          "value": "5.22",
+          "context": "Top-10 in MLB"
+        }
+      ],
+      "the_market": "Brewers opened -235 and have held steady. The run line at -109 is where the value lives\u2014public is hammering the ML but the run line hasn't moved.",
+      "weather_park": "American Family Field is a dome\u2014no weather concerns. Park factor is neutral for runs (1.0) but slightly HR-boosting (1.06).",
+      "case_against": "Misiorowski is due for regression at some point\u2014no one sustains a sub-2.00 ERA forever. If he has an off night and the Cubs get to him early, the Brewers bullpen will be tested. Rea has also been better on the road (3.81 ERA) than at home.",
+      "what_were_betting_on": "Misiorowski going 7+ innings with 10+ strikeouts, the Brewers offense providing 4+ runs of support, and the Cubs failing to generate any sustained offense against elite stuff.",
+      "scott_bot_quip": "Misiorowski is throwing 104 mph and the Cubs are bringing a knife to a gunfight.",
+      "ladder_note": "This is the ladder pick because Misiorowski's dominance creates the highest floor on the board. Even if the Brewers offense sputters, he's likely to keep the Cubs under 2 runs. The -109 price lands us right in the even-money band for the ladder challenge.",
+      "date": "2026-06-26",
+      "status": "PEND",
+      "units_result": null,
+      "clv_cents": null,
+      "result_score": null,
+      "graded_at": null,
+      "slate_assessment": "17-game MLB slate with no NBA or NHL action. Two elite pitching matchups anchor the board: Misiorowski vs Cubs in Milwaukee and Skenes vs Reds in Pittsburgh. Prop markets thin but K unders and total bases overs offer edges.",
+      "executive_summary": "Friday's 17-game MLB slate is headlined by two of the best arms in baseball: Jacob Misiorowski (1.45 ERA, 39.1% K rate) faces the Cubs in Milwaukee, and Paul Skenes (2.86 ERA, 30.6% K rate) hosts the Reds at pitcher-friendly PNC Park. Both games scream under, but Misiorowski's juice is too steep for a straight play\u2014we're pairing the Brewers run line with the under for the ladder. The sharpest single-game edge is Tampa Bay hosting a struggling Zac Gallen at the Trop. Six plays today, all grounded in pitching dominance and park factors.",
+      "slate_analysis": "The board features 17 MLB games across a full Friday night slate, with no NBA or NHL in session. Pricing is relatively tight across the board\u2014only Milwaukee (-235) and Minnesota (-174) are priced as heavy favorites, and most totals sit between 7.5 and 9.0. The prop markets are thin today, with no HR props available and limited K lines, but the K unders and total bases overs offer some edges.\n\nThe top candidates that rose during my review: (1) Milwaukee vs Cubs\u2014Misiorowski is the best pitcher in baseball right now with a 1.45 ERA and 39.1% K rate, facing a Cubs lineup that's been middling against righties. The under 7.0 and Brewers run line both look sharp. (2) Pittsburgh vs Cincinnati\u2014Skenes (2.86 ERA, 30.6% K rate) at PNC Park against Andrew Abbott (3.83 ERA, 10.7% BB rate) is a classic ace-vs-soft-matchup spot. The under 7.5 is the play. (3) Tampa Bay vs Arizona\u2014Nick Martinez (2.73 ERA) hosts a struggling Zac Gallen (6.10 ERA, 1.48 HR/9) at the Trop. The Rays ML at -137 is the cleanest side. (4) Cleveland vs Seattle\u2014Cantillo vs Castillo is a battle of two mediocre arms, but the under 7.5 at even money has value given both offenses rank bottom-10 in runs per game. (5) San Diego vs LA Dodgers\u2014Petco Park (0.93 runs PF) with Buehler vs Sasaki (1.72 HR/9) screams under 7.5. (6) Byron Buxton total bases over 1.5 at -135 against a soft Sugano (13.7% K rate, 1.59 HR/9).\n\nWhat got cut: Boston vs Yankees\u2014both starters are solid but Fenway's hitter-friendly park (1.05 runs PF) and the 9.0 total make this a coin flip. No edge. Baltimore vs Washington\u2014Trevor Rogers (5.30 ERA) is a liability, and Andrew Alvarez has only 32.1 IP this season\u2014sample too thin, data confidence below threshold. Detroit vs Houston\u2014Arrighetti's 10.9% BB rate is a red flag for any under, and the over 9.0 is already priced in. White Sox vs Royals\u2014both starters are making their first or second start of the season (Sandlin is a debut), data confidence is too low. Mets vs Phillies\u2014Wheeler is elite but the Mets have no announced starter, so I can't build a fair price.\n\nThe final six picks: (1) Brewers -1.5 at -109 (DraftKings)\u2014Misiorowski is unhittable and the Cubs are starting Colin Rea (4.99 ERA). (2) Pirates Under 7.5 at -105 (BetMGM)\u2014Skenes at PNC Park against a weak Reds lineup. (3) Rays ML at -137 (DraftKings)\u2014Martinez is pitching like an ace and Gallen is imploding. (4) Guardians/Mariners Under 7.5 at +100 (FanDuel)\u2014two soft offenses, neutral park, both starters have been decent. (5) Padres/Dodgers Under 7.5 at -105 (FanDuel)\u2014Petco suppresses runs and both starters have been shaky but the park will bail them out. (6) Byron Buxton Total Bases Over 1.5 at -135 (BetMGM)\u2014Sugano's 13.7% K rate and 1.59 HR/9 make this a smash spot for Buxton's power. The ladder pick is the Brewers -1.5\u2014Misiorowski's dominance gives this the highest floor on the board.",
+      "slate_vibe": "NORMAL",
+      "published_at": "2026-06-26T13:19:50.694705-04:00"
+    },
     {
       "id": "20260625-MLB-CHC-NYM-TOTAL",
       "sport": "MLB",
