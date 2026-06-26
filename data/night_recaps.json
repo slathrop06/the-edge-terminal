@@ -208,5 +208,12 @@
     "units_pl": -1.7755,
     "night_summary": "2-3 night, -1.78u \u2014 rough one, but the ladder pick did its job. The LAD @ MIN under (2.0u) was the cleanest win of the night: Ohtani gutted through a shaky second inning and the Dodgers swept Minnesota 4-3, with seven combined runs staying comfortably under 8.0; ladder moves to 4 of 10. The Angels ML was a nice bonus \u2014 LAA walked off Baltimore 7-6 to cover at -122. The losses hurt. Bryan Woo got shelled in Pittsburgh \u2014 a five-run fourth and a four-run seventh turned a 1-1 game into an 11-1 blowout; we got that one wrong, the volatility signal was in the data and we didn't weight it. The BOS -1.5 was pure variance \u2014 Suarez was dominant through six with Boston up 6-3, then the bullpen imploded on back-to-back errors and three straight RBI singles to tie it, and Tyler Freeman's bunt single in the eighth sealed an 8-6 Colorado win; the read was right, the pen wasn't. The DET ML was a model miss \u2014 Goldschmidt took Skubal deep twice (1st and 3rd innings) and Dom\u00ednguez added a go-ahead two-run shot in the sixth, with Skubal tying a career high by surrendering three home runs in a 4-2 Yankees win; we leaned on the season ERA and ignored the post-IL warning signs. Ladder sits at 4 of 10 \u2014 climbing.",
     "generated_at": "2026-06-25T02:55:05.775947-04:00"
+  },
+  "2026-06-25": {
+    "date": "2026-06-25",
+    "record": "1-2-1",
+    "units_pl": -3.55,
+    "night_summary": "1-2-1 night, -3.55u \u2014 rough one. The CHC @ NYM under was the lone bright spot, holding at 4-3 through a tense extra-inning finish; Cubs won it in the 10th but the total stayed well clear. The ladder pick, NYY @ BOS under 8, was the gut punch: Schlittler was dominant \u2014 nine strikeouts, zero earned runs in five innings \u2014 but the Yankees committed a season-high four errors and all six Boston runs were unearned, with Caleb Durbin's two-run shot off the Green Monster in the fifth being the backbreaker. Pure defensive variance; the model had nothing wrong. The Giants ML was the same story \u2014 a 6-2 lead through six turned into a 9-6 loss on a three-inning bullpen implosion, and S\u00e1nchez's K prop died at exactly 6 after a brutal first inning buried his pitch count and cut his outing short. Cardinals ML pushed on a Busch Stadium rainout. Ladder resets to 0 of 10 \u2014 back to the bottom, start climbing again.",
+    "generated_at": "2026-06-26T03:01:30.821487-04:00"
   }
 }
