@@ -1,5 +1,31 @@
 [
   {
+    "id": "20260626-MLB-CIN-PIT-TOTAL",
+    "date": "2026-06-26",
+    "pick": "Under 7.5",
+    "game": "CIN @ PIT",
+    "odds": "-105",
+    "result_score": "CIN 6 \u00b7 PIT 4",
+    "classification": "MODEL",
+    "post_mortem": "The under was dead by the end of the 2nd inning. Skenes \u2014 who entered 5-0 with a 0.53 ERA lifetime vs. Cincinnati \u2014 imploded in the second, surrendering four runs on RBI singles to Steer and Stephenson plus sacrifice flies from Dunn and De La Cruz, burning 38 pitches in that one frame alone and forcing an early exit after just five innings. The game was tied 4-4 when he left, but pinch-hitter Noelvi Marte broke it open with a 405-foot two-run homer off Mason Montgomery in the 8th, pushing the final to 6-4. The thesis leaned entirely on Skenes being Skenes, but ignored a critical red flag hiding in plain sight: he had posted a 4.03 ERA over his prior seven starts (0-5 record) and had already shown a pattern of second-inning blow-ups in his three 'bad' starts this season. The model treated his season ERA (2.86) as representative of his current form when his recent-start ERA told a very different story.",
+    "candidate_rule": "When a starter's rolling 7-start ERA (4.03) diverges from his season ERA (2.86) by more than 1.00 run, discount the season-long number and re-price the total using the recent-form ERA \u2014 N=1 loss on this specific pattern, insufficient to establish a rule.",
+    "sample_size_warning": "N=1, insufficient to establish rule. One Skenes blow-up game does not confirm a regression pattern; watching for recurrence over next 5 starts before formalizing.",
+    "analyzed_at": "2026-06-27T02:34:41.480725-04:00"
+  },
+  {
+    "id": "20260626-MLB-LAD-SD-TOTAL",
+    "date": "2026-06-26",
+    "pick": "Under 7.5",
+    "game": "LAD @ SD",
+    "odds": "-105",
+    "result_score": "LAD 1 \u00b7 SD 7",
+    "classification": "MODEL",
+    "post_mortem": "The thesis leaned on Petco Park suppressing offense, but the park was never the problem \u2014 the model missed a critical asymmetry in the pitching matchup. Sasaki walked five batters in four innings, surrendering a Ty France three-run homer in the 2nd after walking the first two hitters he faced, putting the Padres up 3-1 before the game was two innings old. The under was effectively dead by the 8th, when Dodgers reliever Jonathan Hern\u00e1ndez allowed four runs on a single, two walks, another single, a double, and a final single to make it 7-1 \u2014 a total that had nothing to do with park factors and everything to do with Sasaki's well-documented road command issues (6.19 ERA on the road in 2026) being ignored in the model.",
+    "candidate_rule": "When a starter has a road ERA 2+ runs higher than his home ERA AND a WHIP above 1.25, treat him as a liability for unders regardless of park factors \u2014 but validate against a larger sample before hardcoding (N=1 here).",
+    "sample_size_warning": "N=1, insufficient to establish rule. The Sasaki road/home split is a real and trackable signal, but one game is noise \u2014 flag for review after 3+ similar setups.",
+    "analyzed_at": "2026-06-27T02:34:22.728190-04:00"
+  },
+  {
     "id": "20260625-MLB-NYY-BOS-TOTAL",
     "date": "2026-06-25",
     "pick": "Under 8",

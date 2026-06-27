@@ -262,5 +262,21 @@
     "candidate_rule": "When a returning-from-injury starter's last 2+ starts show a FIP 1.5+ runs above his season ERA, regress projected performance toward the recent sample, not the season line \u2014 do not back him as a heavy favorite until he posts at least 3 post-IL starts with sub-4.00 FIP. (N=1, insufficient to establish rule.)",
     "sample_size_warning": "N=1, insufficient to establish rule \u2014 one start does not confirm a pattern, but the pre-game data signal (4.35 ERA, 5.42 FIP in post-IL starts) was available and underweighted.",
     "status": "PENDING_REVIEW"
+  },
+  {
+    "proposed_at": "2026-06-27T02:34:22.729431-04:00",
+    "source_pick_id": "20260626-MLB-LAD-SD-TOTAL",
+    "source_loss": "Under 7.5 (LAD @ SD)",
+    "candidate_rule": "When a starter has a road ERA 2+ runs higher than his home ERA AND a WHIP above 1.25, treat him as a liability for unders regardless of park factors \u2014 but validate against a larger sample before hardcoding (N=1 here).",
+    "sample_size_warning": "N=1, insufficient to establish rule. The Sasaki road/home split is a real and trackable signal, but one game is noise \u2014 flag for review after 3+ similar setups.",
+    "status": "PENDING_REVIEW"
+  },
+  {
+    "proposed_at": "2026-06-27T02:34:41.481876-04:00",
+    "source_pick_id": "20260626-MLB-CIN-PIT-TOTAL",
+    "source_loss": "Under 7.5 (CIN @ PIT)",
+    "candidate_rule": "When a starter's rolling 7-start ERA (4.03) diverges from his season ERA (2.86) by more than 1.00 run, discount the season-long number and re-price the total using the recent-form ERA \u2014 N=1 loss on this specific pattern, insufficient to establish a rule.",
+    "sample_size_warning": "N=1, insufficient to establish rule. One Skenes blow-up game does not confirm a regression pattern; watching for recurrence over next 5 starts before formalizing.",
+    "status": "PENDING_REVIEW"
   }
 ]
