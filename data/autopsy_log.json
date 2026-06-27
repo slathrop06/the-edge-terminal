@@ -1,5 +1,18 @@
 [
   {
+    "id": "20260627-MLB-HOU-DET-TOTAL",
+    "date": "2026-06-27",
+    "pick": "Under 8.5",
+    "game": "HOU @ DET",
+    "odds": "-105",
+    "result_score": "HOU 8 \u00b7 DET 6",
+    "classification": "MODEL",
+    "post_mortem": "The wind-suppression thesis was built around preventing home runs, but the game blew up on contact hits, not power. Teng loaded the bases in the 3rd via a walk, an Altuve error, and an HBP, then hung a curveball that Kerry Carpenter crushed for a grand slam to put Detroit up 4-3. Valdez's own line was a disaster \u2014 6 IP, 8 H, 4 ER \u2014 as the Astros peppered him with singles and doubles rather than homers, and the Detroit bullpen then surrendered the lead late, finishing 8-6. The model correctly identified HR suppression but failed to account for the fact that both pitchers' elevated walk rates (flagged in the 'case against') would create traffic that contact-heavy offenses could exploit without needing the long ball at all.",
+    "candidate_rule": "When both starters carry BB rates above 8.5%, discount wind-based HR suppression signals by at least 50% on totals, because base-on-balls traffic enables run-scoring without home runs \u2014 but N=1, insufficient to establish rule.",
+    "sample_size_warning": "N=1, insufficient to establish rule. The walk-rate vulnerability was explicitly noted in the 'case against' and was the actual mechanism of failure; watching for pattern before codifying.",
+    "analyzed_at": "2026-06-27T18:55:18.105278-04:00"
+  },
+  {
     "id": "20260626-MLB-CIN-PIT-TOTAL",
     "date": "2026-06-26",
     "pick": "Under 7.5",

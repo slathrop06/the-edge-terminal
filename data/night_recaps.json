@@ -222,5 +222,12 @@
     "units_pl": 2.1706,
     "night_summary": "4-2 night, +2.17u. The headliner was Buxton going off for 4 total bases against Colorado, cashing the over 1.5 with room to spare. The Rays ML (6-1 final) and the SEA @ CLE under (3-1) were both clean wins; Milwaukee covered -1.5 at 6-2 to keep the ladder moving. The two losses were both MODEL \u2014 we got them wrong, not unlucky. Sasaki walked five in four innings at Petco, gave up a three-run shot in the 2nd, and the Dodgers bullpen added four more in the 8th to make it 7-1; the model leaned on park factors and ignored his 6.19 road ERA. Skenes imploded in the 2nd inning against Cincinnati \u2014 four runs on 38 pitches, and Noelvi Marte's two-run shot in the 8th sealed a 6-4 final; the model trusted his season ERA and missed the four-plus ERA he'd posted over his last seven starts. Ladder is at 1 of 10 \u2014 back on the board, climbing.",
     "generated_at": "2026-06-27T02:34:53.548555-04:00"
+  },
+  "2026-06-27": {
+    "date": "2026-06-27",
+    "record": "1-1-0",
+    "units_pl": -0.6803,
+    "night_summary": "1-1 night, -0.68u. The White Sox ML cashed the clean way \u2014 CHW 2, KC 1, a tight one that never felt in doubt enough to be comfortable but got there. The HOU @ DET under 8.5 is the one that stings, and we got that one wrong \u2014 not a variance loss, a model miss. The wind-suppression thesis held on home runs (neither team went deep to blow it up), but Valdez walked the ballpark and Teng hung a curveball to Kerry Carpenter with the bases loaded in the 3rd, who crushed a grand slam to put Detroit up 4-3 early; the contact-heavy damage piled up from there and the final sat at 14 combined. The walk-rate risk was flagged in the case against and it was the actual mechanism of failure \u2014 we'll watch for the pattern before codifying a rule. Ladder sits at 2 of 10 \u2014 still climbing.",
+    "generated_at": "2026-06-27T18:55:36.021602-04:00"
   }
 }

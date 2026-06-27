@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated_at": "2026-06-27T12:06:30.588990-04:00",
+  "updated_at": "2026-06-27T18:55:20.481842-04:00",
   "picks": [
     {
       "id": "20260627-MLB-COL-MIN-PROP-BYRONBUXTON",
@@ -181,11 +181,11 @@
       "scott_bot_quip": "Davis Martin at home against the Royals. Sometimes the boring play is the right play.",
       "ladder_note": "",
       "date": "2026-06-27",
-      "status": "PEND",
-      "units_result": null,
+      "status": "WIN",
+      "units_result": 0.8197,
       "clv_cents": null,
-      "result_score": null,
-      "graded_at": null,
+      "result_score": "KC 1 \u00b7 CHW 2",
+      "graded_at": "2026-06-27T18:55:04.051094-04:00",
       "slate_assessment": "MLB-only Saturday slate with 16 games. No NBA or NHL today. Pitching matchups drive the board \u2014 Yamamoto vs Petco, Harrison vs Cubs, Cease vs Rangers, Webb vs Braves all stand out. Prop markets thin but K unders and total bases overs present opportunities.",
       "executive_summary": "Sixteen-game MLB Saturday with no playoff basketball or hockey to distract us. The board's best edges cluster around elite pitching in suppressed environments: Yamamoto at Petco against a weak Padres lineup, Kyle Harrison at home against a struggling Cubs offense, and Logan Webb at Oracle Park against Atlanta. The under at Detroit also pops with wind blowing in and Framber Valdez on the mound. The ladder rides with the Giants-Braves Under 7.5 at BetMGM \u2014 Webb and Elder in the most pitcher-friendly park in baseball, both offenses middling, and the market hasn't moved off 7.5. Six plays today, all grounded in pitching and park factors.",
       "slate_analysis": "Saturday's board features 16 MLB games across both leagues, no NBA or NHL action to supplement. The pricing climate is relatively soft \u2014 most favorites sit between -130 and -165, with a handful of coin-flip games (BAL/WSH, LAA/ATH, CHW/KC) offering near-even-money opportunities. The prop slate is limited to K props, total bases, and hits across the higher-total games, with no HR props available in the IntelPack.\n\nThe top candidates that rose during my review: (1) Dodgers-Padres Under 8.0 with Yamamoto on the mound at Petco, the most pitcher-friendly park in baseball; (2) Giants-Braves Under 7.5/8.0 with Webb returning to form at Oracle Park against Bryce Elder; (3) Brewers ML vs Cubs with Kyle Harrison's elite K rate against David Peterson's 6.09 ERA; (4) Tigers-Astros Under 8.5 with wind blowing in at Comerica and Framber Valdez's ground-ball tendencies; (5) Blue Jays ML vs Rangers with Dylan Cease's 36.2% K rate against Cal Quantrill; (6) Byron Buxton Total Bases Over 1.5 against Michael Lorenzen's 7.11 ERA.\n\nWhat got cut: The Blue Jays ML at -184 exceeds my comfort zone for straight-bet juice \u2014 I'd need to see more edge to lay that much. The Dodgers ML at -200 is too chalky despite Yamamoto's dominance. The Reds ML against Pittsburgh looked interesting with Chase Burns on the mound, but the Pirates' 5.04 R/G and Burns' 1.06 HR/9 create variance I don't love at -118. The Yankees-Red Sox game has data_confidence of 0.45 \u2014 too thin to trust. The Twins-Rockies game features two shaky starters (Paredes with 12.8% K rate, Lorenzen with 7.11 ERA) and a 9.5 total that's already priced in the chaos.\n\nThe final six picks survived because they combine elite pitching, favorable park factors, and market inefficiency. The Dodgers-Padres Under gets Yamamoto at Petco with a 0.93 runs park factor. The Giants-Braves Under pairs Webb's return with Oracle Park's 0.85 HR factor. The Brewers ML backs Harrison's 30% K rate against Peterson's bloated 6.09 ERA. The Tigers-Astros Under stacks Valdez's ground-ball profile with wind blowing in at Comerica. The Buxton TB Over exploits Lorenzen's 1.54 HR/9 and 7.11 ERA. The White Sox ML at -122 backs Davis Martin's 3.18 ERA against Wacha in a near-even-money spot. The ladder pick is the Giants-Braves Under \u2014 Webb and Elder in the most pitcher-friendly park in baseball, both offenses middling, and the market hasn't moved off 7.5.",
@@ -281,16 +281,22 @@
       "scott_bot_quip": "Wind blowing in at Comerica. Valdez's sinker is about to have a field day.",
       "ladder_note": "",
       "date": "2026-06-27",
-      "status": "PEND",
-      "units_result": null,
+      "status": "LOSS",
+      "units_result": -1.5,
       "clv_cents": null,
-      "result_score": null,
-      "graded_at": null,
+      "result_score": "HOU 8 \u00b7 DET 6",
+      "graded_at": "2026-06-27T18:55:04.059774-04:00",
       "slate_assessment": "MLB-only Saturday slate with 16 games. No NBA or NHL today. Pitching matchups drive the board \u2014 Yamamoto vs Petco, Harrison vs Cubs, Cease vs Rangers, Webb vs Braves all stand out. Prop markets thin but K unders and total bases overs present opportunities.",
       "executive_summary": "Sixteen-game MLB Saturday with no playoff basketball or hockey to distract us. The board's best edges cluster around elite pitching in suppressed environments: Yamamoto at Petco against a weak Padres lineup, Kyle Harrison at home against a struggling Cubs offense, and Logan Webb at Oracle Park against Atlanta. The under at Detroit also pops with wind blowing in and Framber Valdez on the mound. The ladder rides with the Giants-Braves Under 7.5 at BetMGM \u2014 Webb and Elder in the most pitcher-friendly park in baseball, both offenses middling, and the market hasn't moved off 7.5. Six plays today, all grounded in pitching and park factors.",
       "slate_analysis": "Saturday's board features 16 MLB games across both leagues, no NBA or NHL action to supplement. The pricing climate is relatively soft \u2014 most favorites sit between -130 and -165, with a handful of coin-flip games (BAL/WSH, LAA/ATH, CHW/KC) offering near-even-money opportunities. The prop slate is limited to K props, total bases, and hits across the higher-total games, with no HR props available in the IntelPack.\n\nThe top candidates that rose during my review: (1) Dodgers-Padres Under 8.0 with Yamamoto on the mound at Petco, the most pitcher-friendly park in baseball; (2) Giants-Braves Under 7.5/8.0 with Webb returning to form at Oracle Park against Bryce Elder; (3) Brewers ML vs Cubs with Kyle Harrison's elite K rate against David Peterson's 6.09 ERA; (4) Tigers-Astros Under 8.5 with wind blowing in at Comerica and Framber Valdez's ground-ball tendencies; (5) Blue Jays ML vs Rangers with Dylan Cease's 36.2% K rate against Cal Quantrill; (6) Byron Buxton Total Bases Over 1.5 against Michael Lorenzen's 7.11 ERA.\n\nWhat got cut: The Blue Jays ML at -184 exceeds my comfort zone for straight-bet juice \u2014 I'd need to see more edge to lay that much. The Dodgers ML at -200 is too chalky despite Yamamoto's dominance. The Reds ML against Pittsburgh looked interesting with Chase Burns on the mound, but the Pirates' 5.04 R/G and Burns' 1.06 HR/9 create variance I don't love at -118. The Yankees-Red Sox game has data_confidence of 0.45 \u2014 too thin to trust. The Twins-Rockies game features two shaky starters (Paredes with 12.8% K rate, Lorenzen with 7.11 ERA) and a 9.5 total that's already priced in the chaos.\n\nThe final six picks survived because they combine elite pitching, favorable park factors, and market inefficiency. The Dodgers-Padres Under gets Yamamoto at Petco with a 0.93 runs park factor. The Giants-Braves Under pairs Webb's return with Oracle Park's 0.85 HR factor. The Brewers ML backs Harrison's 30% K rate against Peterson's bloated 6.09 ERA. The Tigers-Astros Under stacks Valdez's ground-ball profile with wind blowing in at Comerica. The Buxton TB Over exploits Lorenzen's 1.54 HR/9 and 7.11 ERA. The White Sox ML at -122 backs Davis Martin's 3.18 ERA against Wacha in a near-even-money spot. The ladder pick is the Giants-Braves Under \u2014 Webb and Elder in the most pitcher-friendly park in baseball, both offenses middling, and the market hasn't moved off 7.5.",
       "slate_vibe": "NORMAL",
-      "published_at": "2026-06-27T12:06:30.588706-04:00"
+      "published_at": "2026-06-27T12:06:30.588706-04:00",
+      "autopsy": {
+        "classification": "MODEL",
+        "post_mortem": "The wind-suppression thesis was built around preventing home runs, but the game blew up on contact hits, not power. Teng loaded the bases in the 3rd via a walk, an Altuve error, and an HBP, then hung a curveball that Kerry Carpenter crushed for a grand slam to put Detroit up 4-3. Valdez's own line was a disaster \u2014 6 IP, 8 H, 4 ER \u2014 as the Astros peppered him with singles and doubles rather than homers, and the Detroit bullpen then surrendered the lead late, finishing 8-6. The model correctly identified HR suppression but failed to account for the fact that both pitchers' elevated walk rates (flagged in the 'case against') would create traffic that contact-heavy offenses could exploit without needing the long ball at all.",
+        "candidate_rule": "When both starters carry BB rates above 8.5%, discount wind-based HR suppression signals by at least 50% on totals, because base-on-balls traffic enables run-scoring without home runs \u2014 but N=1, insufficient to establish rule.",
+        "sample_size_warning": "N=1, insufficient to establish rule. The walk-rate vulnerability was explicitly noted in the 'case against' and was the actual mechanism of failure; watching for pattern before codifying."
+      }
     },
     {
       "id": "20260627-MLB-ATL-SF-TOTAL",

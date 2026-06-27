@@ -278,5 +278,13 @@
     "candidate_rule": "When a starter's rolling 7-start ERA (4.03) diverges from his season ERA (2.86) by more than 1.00 run, discount the season-long number and re-price the total using the recent-form ERA \u2014 N=1 loss on this specific pattern, insufficient to establish a rule.",
     "sample_size_warning": "N=1, insufficient to establish rule. One Skenes blow-up game does not confirm a regression pattern; watching for recurrence over next 5 starts before formalizing.",
     "status": "PENDING_REVIEW"
+  },
+  {
+    "proposed_at": "2026-06-27T18:55:18.106450-04:00",
+    "source_pick_id": "20260627-MLB-HOU-DET-TOTAL",
+    "source_loss": "Under 8.5 (HOU @ DET)",
+    "candidate_rule": "When both starters carry BB rates above 8.5%, discount wind-based HR suppression signals by at least 50% on totals, because base-on-balls traffic enables run-scoring without home runs \u2014 but N=1, insufficient to establish rule.",
+    "sample_size_warning": "N=1, insufficient to establish rule. The walk-rate vulnerability was explicitly noted in the 'case against' and was the actual mechanism of failure; watching for pattern before codifying.",
+    "status": "PENDING_REVIEW"
   }
 ]
