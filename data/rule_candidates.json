@@ -286,5 +286,13 @@
     "candidate_rule": "When both starters carry BB rates above 8.5%, discount wind-based HR suppression signals by at least 50% on totals, because base-on-balls traffic enables run-scoring without home runs \u2014 but N=1, insufficient to establish rule.",
     "sample_size_warning": "N=1, insufficient to establish rule. The walk-rate vulnerability was explicitly noted in the 'case against' and was the actual mechanism of failure; watching for pattern before codifying.",
     "status": "PENDING_REVIEW"
+  },
+  {
+    "proposed_at": "2026-06-28T01:15:22.190563-04:00",
+    "source_pick_id": "20260627-MLB-LAD-SD-TOTAL",
+    "source_loss": "Under 8.0 (LAD @ SD)",
+    "candidate_rule": "When a starting pitcher's rolling 5-start ERA exceeds 6.50 and his WHIP exceeds 1.90, exclude him from under/low-total constructions regardless of season-long ERA \u2014 the regression to mean has already arrived; N=1 here, insufficient to establish rule.",
+    "sample_size_warning": "N=1, insufficient to establish rule \u2014 one V\u00e1squez implosion does not confirm the pattern, but the split between his season ERA (4.17) and rolling ERA (6.91) was a red flag that was available pre-game and was not weighted in the model.",
+    "status": "PENDING_REVIEW"
   }
 ]

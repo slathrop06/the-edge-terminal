@@ -1,5 +1,31 @@
 [
   {
+    "id": "20260627-MLB-LAD-SD-TOTAL",
+    "date": "2026-06-27",
+    "pick": "Under 8.0",
+    "game": "LAD @ SD",
+    "odds": "-110",
+    "result_score": "LAD 15 \u00b7 SD 3",
+    "classification": "MODEL",
+    "post_mortem": "The under was never really alive. The thesis correctly identified Yamamoto's dominance \u2014 he was efficient through 6 innings, facing only 24 batters and allowing just 1 run (a Gavin Sheets solo HR in the 5th). But the pick was built on a false premise about the other half of the equation: V\u00e1squez's ERA of 4.17 masked a catastrophic recent split \u2014 a 6.91 ERA over his last five starts with a 1.94 WHIP and batters hitting .345 against him. The model used his season-long ERA as a 'serviceable' anchor when the rolling data screamed implosion risk. That implosion arrived in the 6th: V\u00e1squez recorded only one out before being pulled, a Will Wagner fielding error opened the floodgates, and Mookie Betts capped a 9-run inning with a 3-run homer. The Dodgers added 4 more in the 8th (Tucker and Rushing each homered) to reach 15. The under was dead by the middle of the 6th inning at 10+ runs. There was also a DATA wrinkle: the Padres announced a Kyle Hart opener the day of the game, meaning V\u00e1squez faced the Dodgers lineup cold in innings 2\u20135 rather than from the jump \u2014 but Hart's 2-inning stint actually held the score to 1-0, so the opener didn't cause the blowup. The core failure was treating V\u00e1squez's season ERA as representative when his last-month ERA was nearly 7.00.",
+    "candidate_rule": "When a starting pitcher's rolling 5-start ERA exceeds 6.50 and his WHIP exceeds 1.90, exclude him from under/low-total constructions regardless of season-long ERA \u2014 the regression to mean has already arrived; N=1 here, insufficient to establish rule.",
+    "sample_size_warning": "N=1, insufficient to establish rule \u2014 one V\u00e1squez implosion does not confirm the pattern, but the split between his season ERA (4.17) and rolling ERA (6.91) was a red flag that was available pre-game and was not weighted in the model.",
+    "analyzed_at": "2026-06-28T01:15:22.189349-04:00"
+  },
+  {
+    "id": "20260627-MLB-COL-MIN-PROP-BYRONBUXTON",
+    "date": "2026-06-27",
+    "pick": "Byron Buxton Total Bases Over 1.5",
+    "game": "COL @ MIN",
+    "odds": "-130",
+    "result_score": "Byron Buxton: 0 totalBases",
+    "classification": "VARIANCE",
+    "post_mortem": "Lorenzen actually held up his end of the bargain \u2014 he mixed speeds and kept the Twins off solid contact all night, per Twins Daily: 'he effectively mixed speeds and kept the Minnesota bats away from solid contact.' Buxton's only plate appearance against Lorenzen in the first inning ended with him getting hit by a pitch (HBP), earning a base but zero total bases. In his later at-bat against the Rockies bullpen, he popped up a hanging sweeper to end a rally. Colorado won 8-5 behind Hunter Goodman's 3-homer, 5-RBI night \u2014 the Twins lost the game, but the prop died specifically because Lorenzen, despite his 7.11 ERA, was sharp on this particular night and Buxton's two plate appearances produced an HBP and a popup. The matchup thesis was sound; Lorenzen simply had one of his better outings on the wrong day.",
+    "candidate_rule": null,
+    "sample_size_warning": "N=1, insufficient to establish rule. A pitcher with a 7.11 ERA will occasionally have a good start \u2014 this is the definition of variance, not a model flaw.",
+    "analyzed_at": "2026-06-28T01:14:55.288205-04:00"
+  },
+  {
     "id": "20260627-MLB-HOU-DET-TOTAL",
     "date": "2026-06-27",
     "pick": "Under 8.5",
