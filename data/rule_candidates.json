@@ -294,5 +294,21 @@
     "candidate_rule": "When a starting pitcher's rolling 5-start ERA exceeds 6.50 and his WHIP exceeds 1.90, exclude him from under/low-total constructions regardless of season-long ERA \u2014 the regression to mean has already arrived; N=1 here, insufficient to establish rule.",
     "sample_size_warning": "N=1, insufficient to establish rule \u2014 one V\u00e1squez implosion does not confirm the pattern, but the split between his season ERA (4.17) and rolling ERA (6.91) was a red flag that was available pre-game and was not weighted in the model.",
     "status": "PENDING_REVIEW"
+  },
+  {
+    "proposed_at": "2026-06-28T18:54:56.246721-04:00",
+    "source_pick_id": "20260628-MLB-WSH-BAL-PROP-GUNNARHENDERSON",
+    "source_loss": "Gunnar Henderson TB Over 1.5 (WSH @ BAL)",
+    "candidate_rule": "Before targeting a player prop on an 'elite hitter,' validate current-season K% and two-strike performance \u2014 if a hitter's strikeout rate has spiked more than 5 percentage points above career norms, discount the TB Over projection by at least one tier regardless of opposing pitcher profile. (N=1, insufficient to establish rule.)",
+    "sample_size_warning": "N=1, insufficient to establish rule \u2014 one loss does not confirm the pattern, but the underlying data mismatch (career reputation vs. 2026 regression) is worth flagging as a model blind spot to monitor.",
+    "status": "PENDING_REVIEW"
+  },
+  {
+    "proposed_at": "2026-06-28T18:55:20.969575-04:00",
+    "source_pick_id": "20260628-MLB-HOU-DET-TOTAL",
+    "source_loss": "Under 8.0 (HOU @ DET)",
+    "candidate_rule": "When either starter is returning from the IL with fewer than 2 healthy starts logged, apply a minimum +0.75 run adjustment to the projected total per IL-returning arm \u2014 and flag the game for total-side caution regardless of ERA optics; N=1, insufficient to establish rule.",
+    "sample_size_warning": "N=1, insufficient to establish rule \u2014 but the pattern of IL-return starts inflating totals is worth tracking across the next 10 comparable matchups before codifying.",
+    "status": "PENDING_REVIEW"
   }
 ]
