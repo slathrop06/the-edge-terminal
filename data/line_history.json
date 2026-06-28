@@ -36583,5 +36583,260 @@
       "under_price": -115,
       "under_line": 8.5
     }
+  ],
+  "MLB-401815943": [
+    {
+      "snap_iso": "2026-06-28T12:09:13.808741-04:00",
+      "total": 9.0,
+      "home_spread": -1.5,
+      "home_ml_implied": 0.6412990790111488,
+      "home_ml_price": -196,
+      "away_ml_price": 170,
+      "home_spread_price": 105,
+      "away_spread_price": -120,
+      "home_spread_line": -1.5,
+      "over_price": -110,
+      "over_line": 9.0,
+      "under_price": -108,
+      "under_line": 9.0
+    }
+  ],
+  "MLB-401815937": [
+    {
+      "snap_iso": "2026-06-28T12:09:13.811648-04:00",
+      "total": 9.0,
+      "home_spread": -1.5,
+      "home_ml_implied": 0.5540988604748657,
+      "home_ml_price": -134,
+      "away_ml_price": 117,
+      "home_spread_price": 152,
+      "away_spread_price": -180,
+      "home_spread_line": -1.5,
+      "over_price": -111,
+      "over_line": 9.0,
+      "under_price": -104,
+      "under_line": 9.0
+    }
+  ],
+  "MLB-401815942": [
+    {
+      "snap_iso": "2026-06-28T12:09:13.814393-04:00",
+      "total": 8.666666666666666,
+      "home_spread": -1.5,
+      "home_ml_implied": 0.5393395841826336,
+      "home_ml_price": -126,
+      "away_ml_price": 110,
+      "home_spread_price": 162,
+      "away_spread_price": -190,
+      "home_spread_line": -1.5,
+      "over_price": -103,
+      "over_line": 9.0,
+      "under_price": 100,
+      "under_line": 8.5
+    }
+  ],
+  "MLB-401815936": [
+    {
+      "snap_iso": "2026-06-28T12:09:13.817100-04:00",
+      "total": 7.5,
+      "home_spread": -1.5,
+      "home_ml_implied": 0.6386477179027017,
+      "home_ml_price": -198,
+      "away_ml_price": 166,
+      "home_spread_price": 113,
+      "away_spread_price": -130,
+      "home_spread_line": -1.5,
+      "over_price": -115,
+      "over_line": 7.5,
+      "under_price": -102,
+      "under_line": 7.5
+    }
+  ],
+  "MLB-401815941": [
+    {
+      "snap_iso": "2026-06-28T12:09:13.819757-04:00",
+      "total": 7.5,
+      "home_spread": 1.5,
+      "home_ml_implied": 0.515396797466127,
+      "home_ml_price": -116,
+      "away_ml_price": -102,
+      "home_spread_price": -204,
+      "away_spread_price": 172,
+      "home_spread_line": 1.5,
+      "over_price": -102,
+      "over_line": 7.5,
+      "under_price": -114,
+      "under_line": 7.5
+    }
+  ],
+  "MLB-401815938": [
+    {
+      "snap_iso": "2026-06-28T12:09:13.822468-04:00",
+      "total": 8.166666666666666,
+      "home_spread": 1.5,
+      "home_ml_implied": 0.4733218588640275,
+      "home_ml_price": 104,
+      "away_ml_price": -120,
+      "home_spread_price": -167,
+      "away_spread_price": 140,
+      "home_spread_line": 1.5,
+      "over_price": 102,
+      "over_line": 8.5,
+      "under_price": -105,
+      "under_line": 8.0
+    }
+  ],
+  "MLB-401815940": [
+    {
+      "snap_iso": "2026-06-28T12:09:13.825123-04:00",
+      "total": 8.5,
+      "home_spread": 1.5,
+      "home_ml_implied": 0.41117892707998716,
+      "home_ml_price": 135,
+      "away_ml_price": -156,
+      "home_spread_price": -128,
+      "away_spread_price": 110,
+      "home_spread_line": 1.5,
+      "over_price": -102,
+      "over_line": 8.5,
+      "under_price": -118,
+      "under_line": 8.5
+    }
+  ],
+  "MLB-401815945": [
+    {
+      "snap_iso": "2026-06-28T12:09:13.827760-04:00",
+      "total": 9.0,
+      "home_spread": -1.5,
+      "home_ml_implied": 0.6015214635029886,
+      "home_ml_price": -164,
+      "away_ml_price": 143,
+      "home_spread_price": 126,
+      "away_spread_price": -144,
+      "home_spread_line": -1.5,
+      "over_price": -105,
+      "over_line": 9.0,
+      "under_price": -110,
+      "under_line": 9.0
+    }
+  ],
+  "MLB-401815944": [
+    {
+      "snap_iso": "2026-06-28T12:09:13.830436-04:00",
+      "total": 8.166666666666666,
+      "home_spread": -1.5,
+      "home_ml_implied": 0.5996387718242023,
+      "home_ml_price": -166,
+      "away_ml_price": 140,
+      "home_spread_price": 126,
+      "away_spread_price": -149,
+      "home_spread_line": -1.5,
+      "over_price": 100,
+      "over_line": 8.5,
+      "under_price": -101,
+      "under_line": 8.0
+    }
+  ],
+  "MLB-401815946": [
+    {
+      "snap_iso": "2026-06-28T12:09:13.833139-04:00",
+      "total": 8.5,
+      "home_spread": -1.5,
+      "home_ml_implied": 0.5594387471770761,
+      "home_ml_price": -138,
+      "away_ml_price": 119,
+      "home_spread_price": 147,
+      "away_spread_price": -176,
+      "home_spread_line": -1.5,
+      "over_price": -110,
+      "over_line": 8.5,
+      "under_price": -108,
+      "under_line": 8.5
+    }
+  ],
+  "MLB-401815947": [
+    {
+      "snap_iso": "2026-06-28T12:09:13.835794-04:00",
+      "total": 9.0,
+      "home_spread": -1.5,
+      "home_ml_implied": 0.5360824742268041,
+      "home_ml_price": -125,
+      "away_ml_price": 108,
+      "home_spread_price": 164,
+      "away_spread_price": -190,
+      "home_spread_line": -1.5,
+      "over_price": -115,
+      "over_line": 9.0,
+      "under_price": -102,
+      "under_line": 9.0
+    }
+  ],
+  "MLB-401815948": [
+    {
+      "snap_iso": "2026-06-28T12:09:13.838445-04:00",
+      "total": 9.5,
+      "home_spread": 1.5,
+      "home_ml_implied": 0.4776930493470067,
+      "home_ml_price": 102,
+      "away_ml_price": -118,
+      "home_spread_price": -155,
+      "away_spread_price": 130,
+      "home_spread_line": 1.5,
+      "over_price": -115,
+      "over_line": 9.5,
+      "under_price": 100,
+      "under_line": 9.5
+    }
+  ],
+  "MLB-401815949": [
+    {
+      "snap_iso": "2026-06-28T12:09:13.841165-04:00",
+      "total": 7.5,
+      "home_spread": 1.5,
+      "home_ml_implied": 0.4034723071280108,
+      "home_ml_price": 138,
+      "away_ml_price": -164,
+      "home_spread_price": -126,
+      "away_spread_price": 105,
+      "home_spread_line": 1.5,
+      "over_price": -102,
+      "over_line": 7.5,
+      "under_price": -114,
+      "under_line": 7.5
+    }
+  ],
+  "MLB-401815950": [
+    {
+      "snap_iso": "2026-06-28T12:09:13.843819-04:00",
+      "total": 8.0,
+      "home_spread": 1.5,
+      "home_ml_implied": 0.43650793650793646,
+      "home_ml_price": 120,
+      "away_ml_price": -142,
+      "home_spread_price": -142,
+      "away_spread_price": 120,
+      "home_spread_line": 1.5,
+      "over_price": -105,
+      "over_line": 8.0,
+      "under_price": -110,
+      "under_line": 8.0
+    }
+  ],
+  "MLB-401815939": [
+    {
+      "snap_iso": "2026-06-28T12:09:13.846464-04:00",
+      "total": 8.0,
+      "home_spread": 1.5,
+      "home_ml_implied": 0.5143932683790965,
+      "home_ml_price": -115,
+      "away_ml_price": -102,
+      "home_spread_price": -192,
+      "away_spread_price": 165,
+      "home_spread_line": 1.5,
+      "over_price": -105,
+      "over_line": 8.0,
+      "under_price": -112,
+      "under_line": 8.0
+    }
   ]
 }
