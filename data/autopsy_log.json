@@ -1,5 +1,18 @@
 [
   {
+    "id": "20260628-MLB-NYY-BOS-TOTAL",
+    "date": "2026-06-28",
+    "pick": "Under 8.0",
+    "game": "NYY @ BOS",
+    "odds": "-105",
+    "result_score": "NYY 4 \u00b7 BOS 5",
+    "classification": "VARIANCE",
+    "post_mortem": "The under was alive and thriving through nine innings \u2014 Sonny Gray was dominant, taking a no-hit bid into the 8th inning (7.1 IP, 1 H, 9 K), and Rod\u00f3n went 5 IP with the game sitting at a combined 4 runs through regulation. The under died in extras: Chapman blew a save in the 9th when Abreu's throwing error allowed the tying run, the Yankees then scored twice in the 10th on another Abreu error, and Boston rallied for three in the bottom of the 10th \u2014 capped by Jarren Duran's walk-off single \u2014 to push the final to 5-4 in 10 innings. Through nine innings this was a clean under; the 9th-inning blown save and a two-error extra-inning sequence by a two-time Gold Glover are the specific culprits.",
+    "candidate_rule": null,
+    "sample_size_warning": "N=1, insufficient to establish rule \u2014 this is a textbook extras/blown-save variance event, not a systemic modeling failure.",
+    "analyzed_at": "2026-06-29T01:27:56.367082-04:00"
+  },
+  {
     "id": "20260628-MLB-SEA-CLE-TOTAL",
     "date": "2026-06-28",
     "pick": "Under 7.5",

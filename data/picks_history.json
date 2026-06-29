@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated_at": "2026-06-28T20:14:53.414937-04:00",
+  "updated_at": "2026-06-29T01:27:58.119803-04:00",
   "picks": [
     {
       "id": "20260628-MLB-WSH-BAL-PROP-GUNNARHENDERSON",
@@ -297,16 +297,22 @@
       "scott_bot_quip": "Rivalry game, two aces, Fenway under the lights. Sometimes the best bet is the boring one.",
       "ladder_note": "",
       "date": "2026-06-28",
-      "status": "PEND",
-      "units_result": null,
+      "status": "LOSS",
+      "units_result": -1.0,
       "clv_cents": null,
-      "result_score": null,
-      "graded_at": null,
+      "result_score": "NYY 4 \u00b7 BOS 5",
+      "graded_at": "2026-06-29T01:27:37.124017-04:00",
       "slate_assessment": "Sunday MLB-only slate with 15 games. Several data confidence issues flagged, but Drew Rasmussen vs Arizona at Tropicana Field stands out as the cleanest edge on the board \u2014 elite SP in a pitcher-friendly dome against a struggling offense.",
       "executive_summary": "Fifteen-game MLB Sunday slate with no NBA or NHL action. The cleanest play jumps off the page immediately: Drew Rasmussen at home in the Trop against Arizona's Merrill Kelly. Rasmussen has been dominant in June \u2014 1.00 ERA, 34:3 K:BB over his last four starts \u2014 and Tropicana Field's pitcher-friendly environment plus Kelly's 2.52 HR/9 creates a clear under angle. The Cleveland-Seattle matchup offers another quality pitching duel at a depressed 7.5 total. Hunter Brown's return gives Houston a live arm against Detroit in a weather-suppressed Comerica Park spot. The ladder rides with the Rays Under 7.5 \u2014 Rasmussen's floor is as high as anyone's on this board.",
       "slate_analysis": "Sunday's board features 15 MLB games with no NBA or NHL in play. The pricing climate is relatively soft \u2014 several totals sit at 9.0 or above, and the moneyline favorites are mostly in the -130 to -170 range. Data confidence is a concern on multiple games: CIN-PIT, BAL-WSH, TOR-TEX, TB-ARI, MIL-CHC, and SF-ATL all show confidence below 0.5, which limits the candidate pool. The ATL-SF game shows Chris Sale starting, but web search confirms Sale has been on the 60-day IL since late June 2025 with a fractured rib \u2014 that game's data is unreliable and I'm passing entirely.\n\nThe top candidates that earned a hard look: (1) TB-ARI Under 7.5 \u2014 Rasmussen has been elite in June with a 1.00 ERA and 0.59 WHIP over 27 innings, facing Kelly who has a 5.71 ERA and 2.52 HR/9 but in a pitcher-friendly dome that suppresses HR. (2) CLE-SEA Under 7.5 \u2014 Gavin Williams (3.82 ERA, 28.5 K%) vs Emerson Hancock (3.60 ERA, 1.02 WHIP) is a quality pitching matchup at a low total. (3) DET-HOU Under 8.0 \u2014 Hunter Brown's return (1.40 ERA in limited 2026 action) against Flaherty at Comerica with wind blowing in 9 mph suppressing HR by ~12%. (4) BOS-NYY Under 8.0 \u2014 Sonny Gray (2.95 ERA) vs Carlos Rod\u00f3n at Fenway, two quality arms in a rivalry game. (5) MIN-COL Under 9.0 \u2014 15 mph wind blowing in at Target Field suppresses HR by ~18%, both pitchers mediocre but weather is a significant factor. (6) Gunnar Henderson TB Over 1.5 \u2014 facing Zack Littell (2.52 HR/9, 14.0 K%) at Camden Yards.\n\nWhat got cut: The ATL-SF game was eliminated entirely due to the Sale data error \u2014 can't trust any of that game's intel. BAL-WSH moneyline looked appealing (Bradish vs Littell) but -196 juice exceeds our -150 cap for straight bets. MIL-CHC had Woodruff returning but only 36 IP this season and data confidence at 0.4 \u2014 sample too thin. STL-MIA looked like a coin flip with no clear edge. LAA-ATH had two mediocre pitchers and no directional signal. SD-LAD had King vs Sheehan but Dodgers offense is too potent to trust an under, and Padres ML at +120 doesn't clear my edge threshold against LA's lineup.\n\nThe final six picks: TB Under 7.5 (Rasmussen dominance + Trop + weak ARI offense), CLE-SEA Under 7.5 (two quality arms, low total, wind in), DET-HOU Under 8.0 (Brown's return + weather suppression), BOS-NYY Under 8.0 (Gray vs Rod\u00f3n, two quality arms), MIN-COL Under 9.0 (extreme wind suppression), and Gunnar Henderson TB Over 1.5 (elite hitter vs HR-prone pitcher). The ladder pick is TB Under 7.5 \u2014 Rasmussen's floor is the highest on the board, the Trop suppresses offense, and Kelly has been hittable but the total is already low enough that we're not asking for a shutout.",
       "slate_vibe": "NORMAL",
-      "published_at": "2026-06-28T12:11:42.952868-04:00"
+      "published_at": "2026-06-28T12:11:42.952868-04:00",
+      "autopsy": {
+        "classification": "VARIANCE",
+        "post_mortem": "The under was alive and thriving through nine innings \u2014 Sonny Gray was dominant, taking a no-hit bid into the 8th inning (7.1 IP, 1 H, 9 K), and Rod\u00f3n went 5 IP with the game sitting at a combined 4 runs through regulation. The under died in extras: Chapman blew a save in the 9th when Abreu's throwing error allowed the tying run, the Yankees then scored twice in the 10th on another Abreu error, and Boston rallied for three in the bottom of the 10th \u2014 capped by Jarren Duran's walk-off single \u2014 to push the final to 5-4 in 10 innings. Through nine innings this was a clean under; the 9th-inning blown save and a two-error extra-inning sequence by a two-time Gold Glover are the specific culprits.",
+        "candidate_rule": null,
+        "sample_size_warning": "N=1, insufficient to establish rule \u2014 this is a textbook extras/blown-save variance event, not a systemic modeling failure."
+      }
     },
     {
       "id": "20260628-MLB-HOU-DET-TOTAL",
