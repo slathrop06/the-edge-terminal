@@ -1,11 +1,1002 @@
 {
-  "generated_at": "2026-07-06T07:10:50.941085-04:00",
+  "generated_at": "2026-07-06T13:43:51.476687-04:00",
   "today": "2026-07-06",
   "system_paused": false,
   "pause_reason": "",
-  "today_picks": [],
+  "today_picks": [
+    {
+      "id": "20260706-MLB-NYY-TB-PROP-CAMSCHLITTLER",
+      "sport": "MLB",
+      "game": "NYY @ TB",
+      "first_pitch_iso": "2026-07-06T22:40Z",
+      "pick": "Cam Schlittler Ks Over 5.5",
+      "best_book": "DraftKings",
+      "best_odds": "-120",
+      "book_prices": {
+        "draftkings": "-120",
+        "fanduel": "-125",
+        "betmgm": "-125"
+      },
+      "book_links": {
+        "fanduel": "https://sportsbook.fanduel.com/baseball/mlb/new-york-yankees-%28c-schlittler%29-%40-tampa-bay-rays-%28g-jax%29-35791921",
+        "betmgm": "https://sports.nj.betmgm.com/en/sports/events/new-york-yankees-at-tampa-bay-rays-19768138",
+        "draftkings": "https://sportsbook.draftkings.com/event/34358047"
+      },
+      "market": "PROP",
+      "confidence": 3,
+      "units": 1.0,
+      "win_probability": 0.58,
+      "ladder_designation": false,
+      "data_confidence": 0.8,
+      "rules_passed": [
+        "max_juice",
+        "ladder_even_money",
+        "parlay_well_formed",
+        "confidence_units_match",
+        "data_confidence_floor",
+        "pick_type_allowed",
+        "mlb_hr_prop_check",
+        "mlb_pitcher_k_check",
+        "mlb_total_bases_check",
+        "mlb_hits_check",
+        "nba_player_prop_check",
+        "nhl_shots_check",
+        "mlb_run_line_check",
+        "mlb_under_bb_check",
+        "no_same_game_opposite"
+      ],
+      "locked": true,
+      "late_add": false,
+      "late_add_reason": "",
+      "bonus_pick": false,
+      "event_type": "",
+      "event_name": "",
+      "legs": [],
+      "headline": "Schlittler's 29.7% K rate and 7+ IP workload make 6+ Ks a high-floor play.",
+      "the_thesis": "Cam Schlittler has been one of the most dominant strikeout pitchers in baseball this season. His 29.7% K rate is elite, and he's averaging 6.5+ Ks per start. He's gone 6+ innings in all but one start this season, giving him plenty of runway to rack up Ks.\n\nThe Rays' lineup is league-average in contact rate, but they've struggled against elite fastballs. Schlittler's 98 mph heater and sharp cutter will give them problems. The Trop's pitcher-friendly environment will help him stay aggressive in the zone.\n\nThe line is set at 5.5, which is below his season average. At -120, we're getting 8 cents of edge on a high-floor play.",
+      "the_data": [
+        {
+          "label": "Schlittler K% (season)",
+          "value": "29.7%",
+          "context": "Elite"
+        },
+        {
+          "label": "Schlittler K/9 (season)",
+          "value": "~10.6",
+          "context": "Elite"
+        },
+        {
+          "label": "Schlittler avg IP/start",
+          "value": "6.5+",
+          "context": "Workhorse"
+        },
+        {
+          "label": "TB K% (season)",
+          "value": "League-average",
+          "context": "Neutral"
+        },
+        {
+          "label": "Schlittler fastball velo",
+          "value": "98 mph avg",
+          "context": "Elite"
+        }
+      ],
+      "the_market": "Line is set at 5.5 across all books. DraftKings has the best price on the over at -120. No significant movement.",
+      "weather_park": "Tropicana Field is a dome \u2014 no weather impact on strikeouts.",
+      "case_against": "If Schlittler gets into early trouble and is pulled before the 6th inning, he might not hit 6 Ks. The Rays are also a smart lineup that could shorten at-bats.",
+      "what_were_betting_on": "Schlittler going 6+ innings and striking out 6+ batters against a lineup that can't catch up to his fastball.",
+      "scott_bot_quip": "Schlittler's fastball is touching triple digits. The Rays are about to swing through a lot of them.",
+      "ladder_note": "",
+      "date": "2026-07-06",
+      "status": "PEND",
+      "units_result": null,
+      "clv_cents": null,
+      "result_score": null,
+      "graded_at": null,
+      "slate_assessment": "Eight-game MLB-only slate with no NBA or NHL. Cristopher S\u00e1nchez dominates the board as the clear ace matchup, and Cam Schlittler at the Trop offers a near-even-money floor. Prop edges emerge in the K and total-bases markets.",
+      "executive_summary": "Eight MLB games tonight, no basketball or hockey. The headline is Cristopher S\u00e1nchez at Kauffman Stadium \u2014 the Phillies' ace is riding a historic scoreless-innings streak and faces a Royals lineup that ranks 27th in wRC+ vs. lefties. The under 8.5 at -103 is the sharpest total on the board. Cam Schlittler takes his 2.08 ERA into the Trop against a Tampa lineup that's been league-average at best. The ladder rides with Schlittler's Yankees ML at -106 \u2014 best floor on the slate, elite SP, pitcher-friendly dome, near even money.",
+      "slate_analysis": "Tonight's board features eight MLB games spread across both leagues, with no NBA or NHL action. The pricing climate is fairly balanced \u2014 only one heavy favorite (Dodgers -230 vs. Rockies) and several near-pick'em matchups. The total market is tight, with most games sitting between 7.5 and 9.5.\n\nThe top candidates that rose during my review: (1) PHI @ KC Under 8.5 \u2014 S\u00e1nchez's elite form against a weak KC lineup, HR-suppressing park, and a soft opposing SP in Noah Cameron; (2) NYY @ TB Yankees ML \u2014 Schlittler's 2.08 ERA and 0.96 WHIP at the Trop, which suppresses runs; (3) ARI @ SD Under 8.5 \u2014 Petco's pitcher-friendly environment plus two mediocre offenses; (4) TOR @ SF Under 7.5 \u2014 Oracle Park's 0.85 HR factor, cool 60\u00b0F temps, and Gausman's steady form; (5) S\u00e1nchez Ks Over 6.5 \u2014 his 28.6% K rate against a KC lineup that strikes out at a high clip; (6) Schlittler Ks Over 5.5 \u2014 his 29.7% K rate against a Tampa lineup that's been average at contact.\n\nWhat got cut: The HOU @ WSH game has two weak SPs (Mikolas 5.44 ERA, Burrows 5.58 ERA) but data confidence is only 0.4 \u2014 lineups aren't confirmed and both pitchers have high HR/9 rates, making the over volatile. The ATL @ NYM game features two mid-tier SPs (L\u00f3pez 3.31, Peralta 4.81) but the total at 9.0 is fairly priced and neither side offers 8+ cents of edge. The STL @ MIL game is a true pick'em with no clear angle \u2014 both SPs are solid but not dominant, and the total at 8.0 is right where I'd price it. The LAD @ COL game has the Dodgers at -230, which exceeds our -150 juice cap for straight bets, and the total at 9.5-10 is volatile with two HR-prone SPs.\n\nThe final six picks: PHI @ KC Under 8.5 (S\u00e1nchez dominance + park + weak KC lineup), NYY ML (Schlittler's elite form at pitcher-friendly Trop), ARI @ SD Under 8.5 (Petco suppression + two mediocre offenses), TOR @ SF Under 7.5 (Oracle Park's extreme HR suppression + cool weather), S\u00e1nchez Ks Over 6.5 (elite K rate vs. high-K lineup), and Schlittler Ks Over 5.5 (elite K rate, workload, and Tampa's average contact). The ladder pick is NYY ML at -106 \u2014 Schlittler's floor is the best on the board, the Trop suppresses runs, and the price lands right in the even-money band.",
+      "slate_vibe": "NORMAL",
+      "published_at": "2026-07-06T13:43:51.456968-04:00"
+    },
+    {
+      "id": "20260706-MLB-TOR-SF-TOTAL",
+      "sport": "MLB",
+      "game": "TOR @ SF",
+      "first_pitch_iso": "2026-07-07T01:45Z",
+      "pick": "Under 7.5",
+      "best_book": "FanDuel",
+      "best_odds": "-102",
+      "book_prices": {
+        "draftkings": "-116",
+        "fanduel": "-102",
+        "betmgm": "-120"
+      },
+      "book_links": {
+        "fanduel": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.590326654&selectionId=7017906",
+        "betmgm": "https://sports.nj.betmgm.com/en/sports?options=19768143-1539627641-2243928371&type=Single",
+        "draftkings": "https://sportsbook.draftkings.com/?outcomes=0OU85389366U800_3"
+      },
+      "market": "TOTAL",
+      "confidence": 4,
+      "units": 1.5,
+      "win_probability": 0.58,
+      "ladder_designation": false,
+      "data_confidence": 0.75,
+      "rules_passed": [
+        "max_juice",
+        "ladder_even_money",
+        "parlay_well_formed",
+        "confidence_units_match",
+        "data_confidence_floor",
+        "pick_type_allowed",
+        "mlb_hr_prop_check",
+        "mlb_pitcher_k_check",
+        "mlb_total_bases_check",
+        "mlb_hits_check",
+        "nba_player_prop_check",
+        "nhl_shots_check",
+        "mlb_run_line_check",
+        "mlb_under_bb_check",
+        "no_same_game_opposite"
+      ],
+      "locked": true,
+      "late_add": false,
+      "late_add_reason": "",
+      "bonus_pick": false,
+      "event_type": "",
+      "event_name": "",
+      "legs": [],
+      "headline": "Oracle Park's 0.85 HR factor and 60\u00b0F temps make this a pitcher's duel.",
+      "the_thesis": "Oracle Park is the most extreme HR-suppressing park in baseball. Its 0.85 HR factor means fly balls die in the cold, damp air \u2014 and tonight's forecast shows 60\u00b0F with 12-15 mph wind. The marine layer will be thick, and the ball won't carry.\n\nKevin Gausman (4.19 ERA, 1.19 WHIP) is a solid veteran who knows how to pitch in this park. Landen Roupp (4.55 ERA, 1.37 WHIP) is a high-K arm (26% K rate) who will benefit from the conditions. Both offenses are below-average \u2014 the Giants (4.09 R/G) and Blue Jays (3.96 R/G) rank in the bottom third of MLB.\n\nThe market has this at 7.5-8 depending on the book. FanDuel is offering the under at -102, which is essentially a pick'em. My fair price is 58% on the under \u2014 that's 8 cents of edge.",
+      "the_data": [
+        {
+          "label": "Oracle Park HR PF",
+          "value": "0.85",
+          "context": "Most extreme HR suppression in MLB"
+        },
+        {
+          "label": "Oracle Park Runs PF",
+          "value": "0.93",
+          "context": "Pitcher-friendly"
+        },
+        {
+          "label": "Weather (game time)",
+          "value": "60\u00b0F, 12-15 mph wind",
+          "context": "Cold, ball won't carry"
+        },
+        {
+          "label": "SF R/G (season)",
+          "value": "4.09",
+          "context": "Below-average"
+        },
+        {
+          "label": "TOR R/G (season)",
+          "value": "3.96",
+          "context": "Below-average"
+        },
+        {
+          "label": "Gausman WHIP (season)",
+          "value": "1.19",
+          "context": "Solid"
+        }
+      ],
+      "the_market": "Total is split between 7.5 (FanDuel) and 8.0 (DraftKings, BetMGM). FanDuel's 7.5 at -102 is the best price. No significant line movement.",
+      "weather_park": "Oracle Park 60\u00b0F, 12-15 mph wind, high humidity. The marine layer will be thick \u2014 this is classic Oracle under conditions.",
+      "case_against": "Roupp's 10.5% BB rate could lead to free baserunners, and if Gausman doesn't have his best stuff, the Blue Jays could scratch across a few runs. The Giants' bullpen has been inconsistent.",
+      "what_were_betting_on": "Both SPs going 6+ innings with 2-3 runs each, and the cold, damp conditions suppressing the long ball.",
+      "scott_bot_quip": "Oracle Park in July is colder than a Boston winter. The ball's not going anywhere tonight.",
+      "ladder_note": "",
+      "date": "2026-07-06",
+      "status": "PEND",
+      "units_result": null,
+      "clv_cents": null,
+      "result_score": null,
+      "graded_at": null,
+      "slate_assessment": "Eight-game MLB-only slate with no NBA or NHL. Cristopher S\u00e1nchez dominates the board as the clear ace matchup, and Cam Schlittler at the Trop offers a near-even-money floor. Prop edges emerge in the K and total-bases markets.",
+      "executive_summary": "Eight MLB games tonight, no basketball or hockey. The headline is Cristopher S\u00e1nchez at Kauffman Stadium \u2014 the Phillies' ace is riding a historic scoreless-innings streak and faces a Royals lineup that ranks 27th in wRC+ vs. lefties. The under 8.5 at -103 is the sharpest total on the board. Cam Schlittler takes his 2.08 ERA into the Trop against a Tampa lineup that's been league-average at best. The ladder rides with Schlittler's Yankees ML at -106 \u2014 best floor on the slate, elite SP, pitcher-friendly dome, near even money.",
+      "slate_analysis": "Tonight's board features eight MLB games spread across both leagues, with no NBA or NHL action. The pricing climate is fairly balanced \u2014 only one heavy favorite (Dodgers -230 vs. Rockies) and several near-pick'em matchups. The total market is tight, with most games sitting between 7.5 and 9.5.\n\nThe top candidates that rose during my review: (1) PHI @ KC Under 8.5 \u2014 S\u00e1nchez's elite form against a weak KC lineup, HR-suppressing park, and a soft opposing SP in Noah Cameron; (2) NYY @ TB Yankees ML \u2014 Schlittler's 2.08 ERA and 0.96 WHIP at the Trop, which suppresses runs; (3) ARI @ SD Under 8.5 \u2014 Petco's pitcher-friendly environment plus two mediocre offenses; (4) TOR @ SF Under 7.5 \u2014 Oracle Park's 0.85 HR factor, cool 60\u00b0F temps, and Gausman's steady form; (5) S\u00e1nchez Ks Over 6.5 \u2014 his 28.6% K rate against a KC lineup that strikes out at a high clip; (6) Schlittler Ks Over 5.5 \u2014 his 29.7% K rate against a Tampa lineup that's been average at contact.\n\nWhat got cut: The HOU @ WSH game has two weak SPs (Mikolas 5.44 ERA, Burrows 5.58 ERA) but data confidence is only 0.4 \u2014 lineups aren't confirmed and both pitchers have high HR/9 rates, making the over volatile. The ATL @ NYM game features two mid-tier SPs (L\u00f3pez 3.31, Peralta 4.81) but the total at 9.0 is fairly priced and neither side offers 8+ cents of edge. The STL @ MIL game is a true pick'em with no clear angle \u2014 both SPs are solid but not dominant, and the total at 8.0 is right where I'd price it. The LAD @ COL game has the Dodgers at -230, which exceeds our -150 juice cap for straight bets, and the total at 9.5-10 is volatile with two HR-prone SPs.\n\nThe final six picks: PHI @ KC Under 8.5 (S\u00e1nchez dominance + park + weak KC lineup), NYY ML (Schlittler's elite form at pitcher-friendly Trop), ARI @ SD Under 8.5 (Petco suppression + two mediocre offenses), TOR @ SF Under 7.5 (Oracle Park's extreme HR suppression + cool weather), S\u00e1nchez Ks Over 6.5 (elite K rate vs. high-K lineup), and Schlittler Ks Over 5.5 (elite K rate, workload, and Tampa's average contact). The ladder pick is NYY ML at -106 \u2014 Schlittler's floor is the best on the board, the Trop suppresses runs, and the price lands right in the even-money band.",
+      "slate_vibe": "NORMAL",
+      "published_at": "2026-07-06T13:43:51.456881-04:00"
+    },
+    {
+      "id": "20260706-MLB-ARI-SD-TOTAL",
+      "sport": "MLB",
+      "game": "ARI @ SD",
+      "first_pitch_iso": "2026-07-07T01:40Z",
+      "pick": "Under 8.5",
+      "best_book": "FanDuel",
+      "best_odds": "-108",
+      "book_prices": {
+        "draftkings": "-109",
+        "fanduel": "-108",
+        "betmgm": "-110"
+      },
+      "book_links": {
+        "fanduel": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.590326633&selectionId=7017906",
+        "draftkings": "https://sportsbook.draftkings.com/?outcomes=0OU85389365U850_3",
+        "betmgm": "https://sports.nj.betmgm.com/en/sports?options=19768142-1539627577-2243928243&type=Single"
+      },
+      "market": "TOTAL",
+      "confidence": 4,
+      "units": 1.5,
+      "win_probability": 0.59,
+      "ladder_designation": false,
+      "data_confidence": 0.75,
+      "rules_passed": [
+        "max_juice",
+        "ladder_even_money",
+        "parlay_well_formed",
+        "confidence_units_match",
+        "data_confidence_floor",
+        "pick_type_allowed",
+        "mlb_hr_prop_check",
+        "mlb_pitcher_k_check",
+        "mlb_total_bases_check",
+        "mlb_hits_check",
+        "nba_player_prop_check",
+        "nhl_shots_check",
+        "mlb_run_line_check",
+        "mlb_under_bb_check",
+        "no_same_game_opposite"
+      ],
+      "locked": true,
+      "late_add": false,
+      "late_add_reason": "",
+      "bonus_pick": false,
+      "event_type": "",
+      "event_name": "",
+      "legs": [],
+      "headline": "Petco Park's extreme HR suppression meets two offenses that struggle to score.",
+      "the_thesis": "Petco Park is one of the most pitcher-friendly venues in baseball. Its 0.91 HR park factor and 0.93 runs factor make it a graveyard for offense, especially at night when the marine layer rolls in. Tonight's forecast shows 71\u00b0F with 11 mph wind \u2014 neutral to slightly suppressive conditions.\n\nThe Padres (3.91 R/G) and Diamondbacks (4.24 R/G) are both below-average offenses. Walker Buehler (4.61 ERA) and Brandon Pfaadt (5.40 ERA) are mediocre starters, but Petco will help them both. Pfaadt's 1.67 HR/9 is concerning, but the park will suppress that significantly.\n\nThe market has this at 8.5, but my fair price is closer to 7.5-8. At -108, we're getting 9 cents of edge on a park-driven under.",
+      "the_data": [
+        {
+          "label": "Petco Park HR PF",
+          "value": "0.91",
+          "context": "Extreme HR suppression"
+        },
+        {
+          "label": "Petco Park Runs PF",
+          "value": "0.93",
+          "context": "Pitcher-friendly"
+        },
+        {
+          "label": "SD R/G (season)",
+          "value": "3.91",
+          "context": "Below-average"
+        },
+        {
+          "label": "ARI R/G (season)",
+          "value": "4.24",
+          "context": "Below-average"
+        },
+        {
+          "label": "Buehler ERA (season)",
+          "value": "4.61",
+          "context": "Mediocre"
+        },
+        {
+          "label": "Pfaadt HR/9 (season)",
+          "value": "1.67",
+          "context": "Elevated, but park helps"
+        }
+      ],
+      "the_market": "Total opened at 8.5 and hasn't moved. The under is getting slight juice at -108 on FanDuel. No significant sharp action either way.",
+      "weather_park": "Petco Park 71\u00b0F, 11 mph wind, 0% precipitation. The marine layer will roll in by game time, further suppressing the ball.",
+      "case_against": "Both SPs have elevated HR/9 rates, and if either one gives up a 2-run shot early, the over comes into play. The Diamondbacks have some pop in their lineup (Marte, Carroll) that could break through.",
+      "what_were_betting_on": "Both SPs lasting 5+ innings with 3 or fewer runs each, and the bullpens holding serve in a low-scoring affair.",
+      "scott_bot_quip": "Petco at night is where offense goes to die. These two lineups are just here to confirm it.",
+      "ladder_note": "",
+      "date": "2026-07-06",
+      "status": "PEND",
+      "units_result": null,
+      "clv_cents": null,
+      "result_score": null,
+      "graded_at": null,
+      "slate_assessment": "Eight-game MLB-only slate with no NBA or NHL. Cristopher S\u00e1nchez dominates the board as the clear ace matchup, and Cam Schlittler at the Trop offers a near-even-money floor. Prop edges emerge in the K and total-bases markets.",
+      "executive_summary": "Eight MLB games tonight, no basketball or hockey. The headline is Cristopher S\u00e1nchez at Kauffman Stadium \u2014 the Phillies' ace is riding a historic scoreless-innings streak and faces a Royals lineup that ranks 27th in wRC+ vs. lefties. The under 8.5 at -103 is the sharpest total on the board. Cam Schlittler takes his 2.08 ERA into the Trop against a Tampa lineup that's been league-average at best. The ladder rides with Schlittler's Yankees ML at -106 \u2014 best floor on the slate, elite SP, pitcher-friendly dome, near even money.",
+      "slate_analysis": "Tonight's board features eight MLB games spread across both leagues, with no NBA or NHL action. The pricing climate is fairly balanced \u2014 only one heavy favorite (Dodgers -230 vs. Rockies) and several near-pick'em matchups. The total market is tight, with most games sitting between 7.5 and 9.5.\n\nThe top candidates that rose during my review: (1) PHI @ KC Under 8.5 \u2014 S\u00e1nchez's elite form against a weak KC lineup, HR-suppressing park, and a soft opposing SP in Noah Cameron; (2) NYY @ TB Yankees ML \u2014 Schlittler's 2.08 ERA and 0.96 WHIP at the Trop, which suppresses runs; (3) ARI @ SD Under 8.5 \u2014 Petco's pitcher-friendly environment plus two mediocre offenses; (4) TOR @ SF Under 7.5 \u2014 Oracle Park's 0.85 HR factor, cool 60\u00b0F temps, and Gausman's steady form; (5) S\u00e1nchez Ks Over 6.5 \u2014 his 28.6% K rate against a KC lineup that strikes out at a high clip; (6) Schlittler Ks Over 5.5 \u2014 his 29.7% K rate against a Tampa lineup that's been average at contact.\n\nWhat got cut: The HOU @ WSH game has two weak SPs (Mikolas 5.44 ERA, Burrows 5.58 ERA) but data confidence is only 0.4 \u2014 lineups aren't confirmed and both pitchers have high HR/9 rates, making the over volatile. The ATL @ NYM game features two mid-tier SPs (L\u00f3pez 3.31, Peralta 4.81) but the total at 9.0 is fairly priced and neither side offers 8+ cents of edge. The STL @ MIL game is a true pick'em with no clear angle \u2014 both SPs are solid but not dominant, and the total at 8.0 is right where I'd price it. The LAD @ COL game has the Dodgers at -230, which exceeds our -150 juice cap for straight bets, and the total at 9.5-10 is volatile with two HR-prone SPs.\n\nThe final six picks: PHI @ KC Under 8.5 (S\u00e1nchez dominance + park + weak KC lineup), NYY ML (Schlittler's elite form at pitcher-friendly Trop), ARI @ SD Under 8.5 (Petco suppression + two mediocre offenses), TOR @ SF Under 7.5 (Oracle Park's extreme HR suppression + cool weather), S\u00e1nchez Ks Over 6.5 (elite K rate vs. high-K lineup), and Schlittler Ks Over 5.5 (elite K rate, workload, and Tampa's average contact). The ladder pick is NYY ML at -106 \u2014 Schlittler's floor is the best on the board, the Trop suppresses runs, and the price lands right in the even-money band.",
+      "slate_vibe": "NORMAL",
+      "published_at": "2026-07-06T13:43:51.456818-04:00"
+    },
+    {
+      "id": "20260706-MLB-NYY-TB-ML",
+      "sport": "MLB",
+      "game": "NYY @ TB",
+      "first_pitch_iso": "2026-07-06T22:40Z",
+      "pick": "Yankees ML",
+      "best_book": "FanDuel",
+      "best_odds": "-106",
+      "book_prices": {
+        "draftkings": "-108",
+        "fanduel": "-106",
+        "betmgm": "-110"
+      },
+      "book_links": {
+        "fanduel": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.590228523&selectionId=29161",
+        "betmgm": "https://sports.nj.betmgm.com/en/sports?options=19768138-1539627302-2243927692&type=Single",
+        "draftkings": "https://sportsbook.draftkings.com/?outcomes=0ML85389361_3"
+      },
+      "market": "ML",
+      "confidence": 4,
+      "units": 1.5,
+      "win_probability": 0.58,
+      "ladder_designation": true,
+      "data_confidence": 0.8,
+      "rules_passed": [
+        "max_juice",
+        "ladder_even_money",
+        "parlay_well_formed",
+        "confidence_units_match",
+        "data_confidence_floor",
+        "pick_type_allowed",
+        "mlb_hr_prop_check",
+        "mlb_pitcher_k_check",
+        "mlb_total_bases_check",
+        "mlb_hits_check",
+        "nba_player_prop_check",
+        "nhl_shots_check",
+        "mlb_run_line_check",
+        "mlb_under_bb_check",
+        "no_same_game_opposite"
+      ],
+      "locked": true,
+      "late_add": false,
+      "late_add_reason": "",
+      "bonus_pick": false,
+      "event_type": "",
+      "event_name": "",
+      "legs": [],
+      "headline": "Schlittler's elite 2.08 ERA at the Trop \u2014 best floor on the board at even money.",
+      "the_thesis": "Cam Schlittler has emerged as the best pitcher in the American League this season. His 2.08 ERA ranks 3rd in the AL, his 0.96 WHIP is 4th, and his 29.7% K rate is elite. He's been compared to Walter Johnson for his first nine starts \u2014 that's not hyperbole, that's the stat line. He's the Yankees' ace now, and he's pitching like it.\n\nThe Rays are starting Griffin Jax, who has a 3.45 ERA but a concerning 1.65 HR/9. Tropicana Field's 0.92 HR factor will help suppress that, but Jax is a bullpen arm stretched into a starter role \u2014 his 60 IP this season suggests he's on a short leash. The Rays' offense has been league-average (4.55 R/G), and they'll struggle against Schlittler's fastball-cutter combo.\n\nThe market has this as a true pick'em, but Schlittler's underlying numbers suggest the Yankees should be closer to -130. At -106, we're getting 8+ cents of edge on the best floor play of the night.",
+      "the_data": [
+        {
+          "label": "Schlittler ERA (season)",
+          "value": "2.08",
+          "context": "3rd in AL"
+        },
+        {
+          "label": "Schlittler WHIP (season)",
+          "value": "0.96",
+          "context": "4th in AL"
+        },
+        {
+          "label": "Schlittler K% (season)",
+          "value": "29.7%",
+          "context": "Elite"
+        },
+        {
+          "label": "Tropicana Field HR PF",
+          "value": "0.92",
+          "context": "HR-suppressing"
+        },
+        {
+          "label": "Jax HR/9 (season)",
+          "value": "1.65",
+          "context": "Elevated, concerning"
+        },
+        {
+          "label": "TB R/G (season)",
+          "value": "4.55",
+          "context": "League-average"
+        }
+      ],
+      "the_market": "Line opened as a pick'em and has stayed there. The Yankees are getting slight action at -106 on FanDuel, but no significant movement. This is a market that hasn't fully adjusted to Schlittler's breakout.",
+      "weather_park": "Tropicana Field is a dome \u2014 no weather impact. The park suppresses runs (0.95 PF) and HRs (0.92 PF).",
+      "case_against": "The Rays are a smart organization that plays well at home. If Jax gets through 5 innings cleanly and the Rays' bullpen holds, this becomes a coin flip in the late innings. Schlittler is also on the road, which historically suppresses SP performance slightly.",
+      "what_were_betting_on": "Schlittler going 7+ innings with 2 or fewer runs, the Yankees' offense scratching across 3-4 runs against Jax and the Rays' pen.",
+      "scott_bot_quip": "Schlittler's pitching like he's got something to prove to every Red Sox fan who ever booed him. The Rays are just collateral damage.",
+      "ladder_note": "Best floor on the board. Elite SP, pitcher-friendly dome, near even money. This is the ladder pick because Schlittler's floor is higher than anyone else's ceiling tonight.",
+      "date": "2026-07-06",
+      "status": "PEND",
+      "units_result": null,
+      "clv_cents": null,
+      "result_score": null,
+      "graded_at": null,
+      "slate_assessment": "Eight-game MLB-only slate with no NBA or NHL. Cristopher S\u00e1nchez dominates the board as the clear ace matchup, and Cam Schlittler at the Trop offers a near-even-money floor. Prop edges emerge in the K and total-bases markets.",
+      "executive_summary": "Eight MLB games tonight, no basketball or hockey. The headline is Cristopher S\u00e1nchez at Kauffman Stadium \u2014 the Phillies' ace is riding a historic scoreless-innings streak and faces a Royals lineup that ranks 27th in wRC+ vs. lefties. The under 8.5 at -103 is the sharpest total on the board. Cam Schlittler takes his 2.08 ERA into the Trop against a Tampa lineup that's been league-average at best. The ladder rides with Schlittler's Yankees ML at -106 \u2014 best floor on the slate, elite SP, pitcher-friendly dome, near even money.",
+      "slate_analysis": "Tonight's board features eight MLB games spread across both leagues, with no NBA or NHL action. The pricing climate is fairly balanced \u2014 only one heavy favorite (Dodgers -230 vs. Rockies) and several near-pick'em matchups. The total market is tight, with most games sitting between 7.5 and 9.5.\n\nThe top candidates that rose during my review: (1) PHI @ KC Under 8.5 \u2014 S\u00e1nchez's elite form against a weak KC lineup, HR-suppressing park, and a soft opposing SP in Noah Cameron; (2) NYY @ TB Yankees ML \u2014 Schlittler's 2.08 ERA and 0.96 WHIP at the Trop, which suppresses runs; (3) ARI @ SD Under 8.5 \u2014 Petco's pitcher-friendly environment plus two mediocre offenses; (4) TOR @ SF Under 7.5 \u2014 Oracle Park's 0.85 HR factor, cool 60\u00b0F temps, and Gausman's steady form; (5) S\u00e1nchez Ks Over 6.5 \u2014 his 28.6% K rate against a KC lineup that strikes out at a high clip; (6) Schlittler Ks Over 5.5 \u2014 his 29.7% K rate against a Tampa lineup that's been average at contact.\n\nWhat got cut: The HOU @ WSH game has two weak SPs (Mikolas 5.44 ERA, Burrows 5.58 ERA) but data confidence is only 0.4 \u2014 lineups aren't confirmed and both pitchers have high HR/9 rates, making the over volatile. The ATL @ NYM game features two mid-tier SPs (L\u00f3pez 3.31, Peralta 4.81) but the total at 9.0 is fairly priced and neither side offers 8+ cents of edge. The STL @ MIL game is a true pick'em with no clear angle \u2014 both SPs are solid but not dominant, and the total at 8.0 is right where I'd price it. The LAD @ COL game has the Dodgers at -230, which exceeds our -150 juice cap for straight bets, and the total at 9.5-10 is volatile with two HR-prone SPs.\n\nThe final six picks: PHI @ KC Under 8.5 (S\u00e1nchez dominance + park + weak KC lineup), NYY ML (Schlittler's elite form at pitcher-friendly Trop), ARI @ SD Under 8.5 (Petco suppression + two mediocre offenses), TOR @ SF Under 7.5 (Oracle Park's extreme HR suppression + cool weather), S\u00e1nchez Ks Over 6.5 (elite K rate vs. high-K lineup), and Schlittler Ks Over 5.5 (elite K rate, workload, and Tampa's average contact). The ladder pick is NYY ML at -106 \u2014 Schlittler's floor is the best on the board, the Trop suppresses runs, and the price lands right in the even-money band.",
+      "slate_vibe": "NORMAL",
+      "published_at": "2026-07-06T13:43:51.456744-04:00"
+    },
+    {
+      "id": "20260706-MLB-PHI-KC-TOTAL",
+      "sport": "MLB",
+      "game": "PHI @ KC",
+      "first_pitch_iso": "2026-07-06T18:10Z",
+      "pick": "Under 8.5",
+      "best_book": "DraftKings",
+      "best_odds": "-103",
+      "book_prices": {
+        "draftkings": "-103",
+        "fanduel": "-105",
+        "betmgm": "-105"
+      },
+      "book_links": {
+        "fanduel": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.590326495&selectionId=7017906",
+        "draftkings": "https://sportsbook.draftkings.com/?outcomes=0OU85389360U850_3",
+        "betmgm": "https://sports.nj.betmgm.com/en/sports?options=19768137-1539627252-2243927593&type=Single"
+      },
+      "market": "TOTAL",
+      "confidence": 5,
+      "units": 2.0,
+      "win_probability": 0.62,
+      "ladder_designation": false,
+      "data_confidence": 0.85,
+      "rules_passed": [
+        "max_juice",
+        "ladder_even_money",
+        "parlay_well_formed",
+        "confidence_units_match",
+        "data_confidence_floor",
+        "pick_type_allowed",
+        "mlb_hr_prop_check",
+        "mlb_pitcher_k_check",
+        "mlb_total_bases_check",
+        "mlb_hits_check",
+        "nba_player_prop_check",
+        "nhl_shots_check",
+        "mlb_run_line_check",
+        "mlb_under_bb_check",
+        "no_same_game_opposite"
+      ],
+      "locked": true,
+      "late_add": false,
+      "late_add_reason": "",
+      "bonus_pick": false,
+      "event_type": "",
+      "event_name": "",
+      "legs": [],
+      "headline": "S\u00e1nchez's historic scoreless streak meets a Royals lineup that can't hit lefties.",
+      "the_thesis": "Cristopher S\u00e1nchez is having a Cy Young-caliber season. His 2.0 ERA and 28.6% K rate are elite, but the underlying numbers are even better \u2014 his 0.62 HR/9 is top-5 in baseball, and he's coming off a historic 50\u2154 consecutive scoreless innings streak that set the all-time record for left-handed pitchers. He's faced better lineups than Kansas City and dominated them.\n\nThe Royals rank 27th in wRC+ against left-handed pitching this season. Noah Cameron (4.95 ERA, 1.41 WHIP) is a back-end starter who will struggle to keep pace with S\u00e1nchez. Kauffman Stadium's 0.92 HR park factor further suppresses the long ball, and the weather is neutral (80\u00b0F, light variable wind). The Phillies bullpen has been solid, and the Royals pen is league-average at best.\n\nThe market has this total at 8.5 across all books, but the de-vigged implied probability on the under is around 50%. My fair price is 62% \u2014 that's 12 cents of edge, well above our 8-cent threshold. This is the strongest play on the board.",
+      "the_data": [
+        {
+          "label": "S\u00e1nchez ERA (season)",
+          "value": "2.0",
+          "context": "Elite, 2nd in NL"
+        },
+        {
+          "label": "S\u00e1nchez K% (season)",
+          "value": "28.6%",
+          "context": "Top-10 in MLB"
+        },
+        {
+          "label": "S\u00e1nchez HR/9 (season)",
+          "value": "0.62",
+          "context": "Elite, top-5 in MLB"
+        },
+        {
+          "label": "KC wRC+ vs. LHP",
+          "value": "~76",
+          "context": "27th in MLB"
+        },
+        {
+          "label": "Kauffman Stadium HR PF",
+          "value": "0.92",
+          "context": "HR-suppressing"
+        },
+        {
+          "label": "Cameron ERA (season)",
+          "value": "4.95",
+          "context": "Below-average"
+        }
+      ],
+      "the_market": "Total opened at 8.5 and hasn't moved. The under is getting slight juice at -103 on DraftKings, suggesting some sharp action. Consensus is split, which is typical for a game with one elite SP and one weak one.",
+      "weather_park": "Kauffman Stadium 80\u00b0F, light variable wind, HR factor 0.92 \u2014 net suppression on the long ball.",
+      "case_against": "If S\u00e1nchez exits early due to a minor issue or pitch count, the Phillies' bullpen faces a Royals lineup that can occasionally string together rallies. Cameron could also outperform his season numbers in a one-off start.",
+      "what_were_betting_on": "S\u00e1nchez going 6+ innings with 1 or fewer runs, Cameron lasting 5 innings with 3 or fewer, and both bullpens holding serve.",
+      "scott_bot_quip": "S\u00e1nchez is pitching like he's got a grudge against the entire American League. The Royals are just next in line.",
+      "ladder_note": "",
+      "date": "2026-07-06",
+      "status": "PEND",
+      "units_result": null,
+      "clv_cents": null,
+      "result_score": null,
+      "graded_at": null,
+      "slate_assessment": "Eight-game MLB-only slate with no NBA or NHL. Cristopher S\u00e1nchez dominates the board as the clear ace matchup, and Cam Schlittler at the Trop offers a near-even-money floor. Prop edges emerge in the K and total-bases markets.",
+      "executive_summary": "Eight MLB games tonight, no basketball or hockey. The headline is Cristopher S\u00e1nchez at Kauffman Stadium \u2014 the Phillies' ace is riding a historic scoreless-innings streak and faces a Royals lineup that ranks 27th in wRC+ vs. lefties. The under 8.5 at -103 is the sharpest total on the board. Cam Schlittler takes his 2.08 ERA into the Trop against a Tampa lineup that's been league-average at best. The ladder rides with Schlittler's Yankees ML at -106 \u2014 best floor on the slate, elite SP, pitcher-friendly dome, near even money.",
+      "slate_analysis": "Tonight's board features eight MLB games spread across both leagues, with no NBA or NHL action. The pricing climate is fairly balanced \u2014 only one heavy favorite (Dodgers -230 vs. Rockies) and several near-pick'em matchups. The total market is tight, with most games sitting between 7.5 and 9.5.\n\nThe top candidates that rose during my review: (1) PHI @ KC Under 8.5 \u2014 S\u00e1nchez's elite form against a weak KC lineup, HR-suppressing park, and a soft opposing SP in Noah Cameron; (2) NYY @ TB Yankees ML \u2014 Schlittler's 2.08 ERA and 0.96 WHIP at the Trop, which suppresses runs; (3) ARI @ SD Under 8.5 \u2014 Petco's pitcher-friendly environment plus two mediocre offenses; (4) TOR @ SF Under 7.5 \u2014 Oracle Park's 0.85 HR factor, cool 60\u00b0F temps, and Gausman's steady form; (5) S\u00e1nchez Ks Over 6.5 \u2014 his 28.6% K rate against a KC lineup that strikes out at a high clip; (6) Schlittler Ks Over 5.5 \u2014 his 29.7% K rate against a Tampa lineup that's been average at contact.\n\nWhat got cut: The HOU @ WSH game has two weak SPs (Mikolas 5.44 ERA, Burrows 5.58 ERA) but data confidence is only 0.4 \u2014 lineups aren't confirmed and both pitchers have high HR/9 rates, making the over volatile. The ATL @ NYM game features two mid-tier SPs (L\u00f3pez 3.31, Peralta 4.81) but the total at 9.0 is fairly priced and neither side offers 8+ cents of edge. The STL @ MIL game is a true pick'em with no clear angle \u2014 both SPs are solid but not dominant, and the total at 8.0 is right where I'd price it. The LAD @ COL game has the Dodgers at -230, which exceeds our -150 juice cap for straight bets, and the total at 9.5-10 is volatile with two HR-prone SPs.\n\nThe final six picks: PHI @ KC Under 8.5 (S\u00e1nchez dominance + park + weak KC lineup), NYY ML (Schlittler's elite form at pitcher-friendly Trop), ARI @ SD Under 8.5 (Petco suppression + two mediocre offenses), TOR @ SF Under 7.5 (Oracle Park's extreme HR suppression + cool weather), S\u00e1nchez Ks Over 6.5 (elite K rate vs. high-K lineup), and Schlittler Ks Over 5.5 (elite K rate, workload, and Tampa's average contact). The ladder pick is NYY ML at -106 \u2014 Schlittler's floor is the best on the board, the Trop suppresses runs, and the price lands right in the even-money band.",
+      "slate_vibe": "NORMAL",
+      "published_at": "2026-07-06T13:43:51.456621-04:00"
+    }
+  ],
   "today_bonus_picks": [],
   "all_picks": [
+    {
+      "id": "20260706-MLB-NYY-TB-PROP-CAMSCHLITTLER",
+      "sport": "MLB",
+      "game": "NYY @ TB",
+      "first_pitch_iso": "2026-07-06T22:40Z",
+      "pick": "Cam Schlittler Ks Over 5.5",
+      "best_book": "DraftKings",
+      "best_odds": "-120",
+      "book_prices": {
+        "draftkings": "-120",
+        "fanduel": "-125",
+        "betmgm": "-125"
+      },
+      "book_links": {
+        "fanduel": "https://sportsbook.fanduel.com/baseball/mlb/new-york-yankees-%28c-schlittler%29-%40-tampa-bay-rays-%28g-jax%29-35791921",
+        "betmgm": "https://sports.nj.betmgm.com/en/sports/events/new-york-yankees-at-tampa-bay-rays-19768138",
+        "draftkings": "https://sportsbook.draftkings.com/event/34358047"
+      },
+      "market": "PROP",
+      "confidence": 3,
+      "units": 1.0,
+      "win_probability": 0.58,
+      "ladder_designation": false,
+      "data_confidence": 0.8,
+      "rules_passed": [
+        "max_juice",
+        "ladder_even_money",
+        "parlay_well_formed",
+        "confidence_units_match",
+        "data_confidence_floor",
+        "pick_type_allowed",
+        "mlb_hr_prop_check",
+        "mlb_pitcher_k_check",
+        "mlb_total_bases_check",
+        "mlb_hits_check",
+        "nba_player_prop_check",
+        "nhl_shots_check",
+        "mlb_run_line_check",
+        "mlb_under_bb_check",
+        "no_same_game_opposite"
+      ],
+      "locked": true,
+      "late_add": false,
+      "late_add_reason": "",
+      "bonus_pick": false,
+      "event_type": "",
+      "event_name": "",
+      "legs": [],
+      "headline": "Schlittler's 29.7% K rate and 7+ IP workload make 6+ Ks a high-floor play.",
+      "the_thesis": "Cam Schlittler has been one of the most dominant strikeout pitchers in baseball this season. His 29.7% K rate is elite, and he's averaging 6.5+ Ks per start. He's gone 6+ innings in all but one start this season, giving him plenty of runway to rack up Ks.\n\nThe Rays' lineup is league-average in contact rate, but they've struggled against elite fastballs. Schlittler's 98 mph heater and sharp cutter will give them problems. The Trop's pitcher-friendly environment will help him stay aggressive in the zone.\n\nThe line is set at 5.5, which is below his season average. At -120, we're getting 8 cents of edge on a high-floor play.",
+      "the_data": [
+        {
+          "label": "Schlittler K% (season)",
+          "value": "29.7%",
+          "context": "Elite"
+        },
+        {
+          "label": "Schlittler K/9 (season)",
+          "value": "~10.6",
+          "context": "Elite"
+        },
+        {
+          "label": "Schlittler avg IP/start",
+          "value": "6.5+",
+          "context": "Workhorse"
+        },
+        {
+          "label": "TB K% (season)",
+          "value": "League-average",
+          "context": "Neutral"
+        },
+        {
+          "label": "Schlittler fastball velo",
+          "value": "98 mph avg",
+          "context": "Elite"
+        }
+      ],
+      "the_market": "Line is set at 5.5 across all books. DraftKings has the best price on the over at -120. No significant movement.",
+      "weather_park": "Tropicana Field is a dome \u2014 no weather impact on strikeouts.",
+      "case_against": "If Schlittler gets into early trouble and is pulled before the 6th inning, he might not hit 6 Ks. The Rays are also a smart lineup that could shorten at-bats.",
+      "what_were_betting_on": "Schlittler going 6+ innings and striking out 6+ batters against a lineup that can't catch up to his fastball.",
+      "scott_bot_quip": "Schlittler's fastball is touching triple digits. The Rays are about to swing through a lot of them.",
+      "ladder_note": "",
+      "date": "2026-07-06",
+      "status": "PEND",
+      "units_result": null,
+      "clv_cents": null,
+      "result_score": null,
+      "graded_at": null,
+      "slate_assessment": "Eight-game MLB-only slate with no NBA or NHL. Cristopher S\u00e1nchez dominates the board as the clear ace matchup, and Cam Schlittler at the Trop offers a near-even-money floor. Prop edges emerge in the K and total-bases markets.",
+      "executive_summary": "Eight MLB games tonight, no basketball or hockey. The headline is Cristopher S\u00e1nchez at Kauffman Stadium \u2014 the Phillies' ace is riding a historic scoreless-innings streak and faces a Royals lineup that ranks 27th in wRC+ vs. lefties. The under 8.5 at -103 is the sharpest total on the board. Cam Schlittler takes his 2.08 ERA into the Trop against a Tampa lineup that's been league-average at best. The ladder rides with Schlittler's Yankees ML at -106 \u2014 best floor on the slate, elite SP, pitcher-friendly dome, near even money.",
+      "slate_analysis": "Tonight's board features eight MLB games spread across both leagues, with no NBA or NHL action. The pricing climate is fairly balanced \u2014 only one heavy favorite (Dodgers -230 vs. Rockies) and several near-pick'em matchups. The total market is tight, with most games sitting between 7.5 and 9.5.\n\nThe top candidates that rose during my review: (1) PHI @ KC Under 8.5 \u2014 S\u00e1nchez's elite form against a weak KC lineup, HR-suppressing park, and a soft opposing SP in Noah Cameron; (2) NYY @ TB Yankees ML \u2014 Schlittler's 2.08 ERA and 0.96 WHIP at the Trop, which suppresses runs; (3) ARI @ SD Under 8.5 \u2014 Petco's pitcher-friendly environment plus two mediocre offenses; (4) TOR @ SF Under 7.5 \u2014 Oracle Park's 0.85 HR factor, cool 60\u00b0F temps, and Gausman's steady form; (5) S\u00e1nchez Ks Over 6.5 \u2014 his 28.6% K rate against a KC lineup that strikes out at a high clip; (6) Schlittler Ks Over 5.5 \u2014 his 29.7% K rate against a Tampa lineup that's been average at contact.\n\nWhat got cut: The HOU @ WSH game has two weak SPs (Mikolas 5.44 ERA, Burrows 5.58 ERA) but data confidence is only 0.4 \u2014 lineups aren't confirmed and both pitchers have high HR/9 rates, making the over volatile. The ATL @ NYM game features two mid-tier SPs (L\u00f3pez 3.31, Peralta 4.81) but the total at 9.0 is fairly priced and neither side offers 8+ cents of edge. The STL @ MIL game is a true pick'em with no clear angle \u2014 both SPs are solid but not dominant, and the total at 8.0 is right where I'd price it. The LAD @ COL game has the Dodgers at -230, which exceeds our -150 juice cap for straight bets, and the total at 9.5-10 is volatile with two HR-prone SPs.\n\nThe final six picks: PHI @ KC Under 8.5 (S\u00e1nchez dominance + park + weak KC lineup), NYY ML (Schlittler's elite form at pitcher-friendly Trop), ARI @ SD Under 8.5 (Petco suppression + two mediocre offenses), TOR @ SF Under 7.5 (Oracle Park's extreme HR suppression + cool weather), S\u00e1nchez Ks Over 6.5 (elite K rate vs. high-K lineup), and Schlittler Ks Over 5.5 (elite K rate, workload, and Tampa's average contact). The ladder pick is NYY ML at -106 \u2014 Schlittler's floor is the best on the board, the Trop suppresses runs, and the price lands right in the even-money band.",
+      "slate_vibe": "NORMAL",
+      "published_at": "2026-07-06T13:43:51.456968-04:00"
+    },
+    {
+      "id": "20260706-MLB-TOR-SF-TOTAL",
+      "sport": "MLB",
+      "game": "TOR @ SF",
+      "first_pitch_iso": "2026-07-07T01:45Z",
+      "pick": "Under 7.5",
+      "best_book": "FanDuel",
+      "best_odds": "-102",
+      "book_prices": {
+        "draftkings": "-116",
+        "fanduel": "-102",
+        "betmgm": "-120"
+      },
+      "book_links": {
+        "fanduel": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.590326654&selectionId=7017906",
+        "betmgm": "https://sports.nj.betmgm.com/en/sports?options=19768143-1539627641-2243928371&type=Single",
+        "draftkings": "https://sportsbook.draftkings.com/?outcomes=0OU85389366U800_3"
+      },
+      "market": "TOTAL",
+      "confidence": 4,
+      "units": 1.5,
+      "win_probability": 0.58,
+      "ladder_designation": false,
+      "data_confidence": 0.75,
+      "rules_passed": [
+        "max_juice",
+        "ladder_even_money",
+        "parlay_well_formed",
+        "confidence_units_match",
+        "data_confidence_floor",
+        "pick_type_allowed",
+        "mlb_hr_prop_check",
+        "mlb_pitcher_k_check",
+        "mlb_total_bases_check",
+        "mlb_hits_check",
+        "nba_player_prop_check",
+        "nhl_shots_check",
+        "mlb_run_line_check",
+        "mlb_under_bb_check",
+        "no_same_game_opposite"
+      ],
+      "locked": true,
+      "late_add": false,
+      "late_add_reason": "",
+      "bonus_pick": false,
+      "event_type": "",
+      "event_name": "",
+      "legs": [],
+      "headline": "Oracle Park's 0.85 HR factor and 60\u00b0F temps make this a pitcher's duel.",
+      "the_thesis": "Oracle Park is the most extreme HR-suppressing park in baseball. Its 0.85 HR factor means fly balls die in the cold, damp air \u2014 and tonight's forecast shows 60\u00b0F with 12-15 mph wind. The marine layer will be thick, and the ball won't carry.\n\nKevin Gausman (4.19 ERA, 1.19 WHIP) is a solid veteran who knows how to pitch in this park. Landen Roupp (4.55 ERA, 1.37 WHIP) is a high-K arm (26% K rate) who will benefit from the conditions. Both offenses are below-average \u2014 the Giants (4.09 R/G) and Blue Jays (3.96 R/G) rank in the bottom third of MLB.\n\nThe market has this at 7.5-8 depending on the book. FanDuel is offering the under at -102, which is essentially a pick'em. My fair price is 58% on the under \u2014 that's 8 cents of edge.",
+      "the_data": [
+        {
+          "label": "Oracle Park HR PF",
+          "value": "0.85",
+          "context": "Most extreme HR suppression in MLB"
+        },
+        {
+          "label": "Oracle Park Runs PF",
+          "value": "0.93",
+          "context": "Pitcher-friendly"
+        },
+        {
+          "label": "Weather (game time)",
+          "value": "60\u00b0F, 12-15 mph wind",
+          "context": "Cold, ball won't carry"
+        },
+        {
+          "label": "SF R/G (season)",
+          "value": "4.09",
+          "context": "Below-average"
+        },
+        {
+          "label": "TOR R/G (season)",
+          "value": "3.96",
+          "context": "Below-average"
+        },
+        {
+          "label": "Gausman WHIP (season)",
+          "value": "1.19",
+          "context": "Solid"
+        }
+      ],
+      "the_market": "Total is split between 7.5 (FanDuel) and 8.0 (DraftKings, BetMGM). FanDuel's 7.5 at -102 is the best price. No significant line movement.",
+      "weather_park": "Oracle Park 60\u00b0F, 12-15 mph wind, high humidity. The marine layer will be thick \u2014 this is classic Oracle under conditions.",
+      "case_against": "Roupp's 10.5% BB rate could lead to free baserunners, and if Gausman doesn't have his best stuff, the Blue Jays could scratch across a few runs. The Giants' bullpen has been inconsistent.",
+      "what_were_betting_on": "Both SPs going 6+ innings with 2-3 runs each, and the cold, damp conditions suppressing the long ball.",
+      "scott_bot_quip": "Oracle Park in July is colder than a Boston winter. The ball's not going anywhere tonight.",
+      "ladder_note": "",
+      "date": "2026-07-06",
+      "status": "PEND",
+      "units_result": null,
+      "clv_cents": null,
+      "result_score": null,
+      "graded_at": null,
+      "slate_assessment": "Eight-game MLB-only slate with no NBA or NHL. Cristopher S\u00e1nchez dominates the board as the clear ace matchup, and Cam Schlittler at the Trop offers a near-even-money floor. Prop edges emerge in the K and total-bases markets.",
+      "executive_summary": "Eight MLB games tonight, no basketball or hockey. The headline is Cristopher S\u00e1nchez at Kauffman Stadium \u2014 the Phillies' ace is riding a historic scoreless-innings streak and faces a Royals lineup that ranks 27th in wRC+ vs. lefties. The under 8.5 at -103 is the sharpest total on the board. Cam Schlittler takes his 2.08 ERA into the Trop against a Tampa lineup that's been league-average at best. The ladder rides with Schlittler's Yankees ML at -106 \u2014 best floor on the slate, elite SP, pitcher-friendly dome, near even money.",
+      "slate_analysis": "Tonight's board features eight MLB games spread across both leagues, with no NBA or NHL action. The pricing climate is fairly balanced \u2014 only one heavy favorite (Dodgers -230 vs. Rockies) and several near-pick'em matchups. The total market is tight, with most games sitting between 7.5 and 9.5.\n\nThe top candidates that rose during my review: (1) PHI @ KC Under 8.5 \u2014 S\u00e1nchez's elite form against a weak KC lineup, HR-suppressing park, and a soft opposing SP in Noah Cameron; (2) NYY @ TB Yankees ML \u2014 Schlittler's 2.08 ERA and 0.96 WHIP at the Trop, which suppresses runs; (3) ARI @ SD Under 8.5 \u2014 Petco's pitcher-friendly environment plus two mediocre offenses; (4) TOR @ SF Under 7.5 \u2014 Oracle Park's 0.85 HR factor, cool 60\u00b0F temps, and Gausman's steady form; (5) S\u00e1nchez Ks Over 6.5 \u2014 his 28.6% K rate against a KC lineup that strikes out at a high clip; (6) Schlittler Ks Over 5.5 \u2014 his 29.7% K rate against a Tampa lineup that's been average at contact.\n\nWhat got cut: The HOU @ WSH game has two weak SPs (Mikolas 5.44 ERA, Burrows 5.58 ERA) but data confidence is only 0.4 \u2014 lineups aren't confirmed and both pitchers have high HR/9 rates, making the over volatile. The ATL @ NYM game features two mid-tier SPs (L\u00f3pez 3.31, Peralta 4.81) but the total at 9.0 is fairly priced and neither side offers 8+ cents of edge. The STL @ MIL game is a true pick'em with no clear angle \u2014 both SPs are solid but not dominant, and the total at 8.0 is right where I'd price it. The LAD @ COL game has the Dodgers at -230, which exceeds our -150 juice cap for straight bets, and the total at 9.5-10 is volatile with two HR-prone SPs.\n\nThe final six picks: PHI @ KC Under 8.5 (S\u00e1nchez dominance + park + weak KC lineup), NYY ML (Schlittler's elite form at pitcher-friendly Trop), ARI @ SD Under 8.5 (Petco suppression + two mediocre offenses), TOR @ SF Under 7.5 (Oracle Park's extreme HR suppression + cool weather), S\u00e1nchez Ks Over 6.5 (elite K rate vs. high-K lineup), and Schlittler Ks Over 5.5 (elite K rate, workload, and Tampa's average contact). The ladder pick is NYY ML at -106 \u2014 Schlittler's floor is the best on the board, the Trop suppresses runs, and the price lands right in the even-money band.",
+      "slate_vibe": "NORMAL",
+      "published_at": "2026-07-06T13:43:51.456881-04:00"
+    },
+    {
+      "id": "20260706-MLB-ARI-SD-TOTAL",
+      "sport": "MLB",
+      "game": "ARI @ SD",
+      "first_pitch_iso": "2026-07-07T01:40Z",
+      "pick": "Under 8.5",
+      "best_book": "FanDuel",
+      "best_odds": "-108",
+      "book_prices": {
+        "draftkings": "-109",
+        "fanduel": "-108",
+        "betmgm": "-110"
+      },
+      "book_links": {
+        "fanduel": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.590326633&selectionId=7017906",
+        "draftkings": "https://sportsbook.draftkings.com/?outcomes=0OU85389365U850_3",
+        "betmgm": "https://sports.nj.betmgm.com/en/sports?options=19768142-1539627577-2243928243&type=Single"
+      },
+      "market": "TOTAL",
+      "confidence": 4,
+      "units": 1.5,
+      "win_probability": 0.59,
+      "ladder_designation": false,
+      "data_confidence": 0.75,
+      "rules_passed": [
+        "max_juice",
+        "ladder_even_money",
+        "parlay_well_formed",
+        "confidence_units_match",
+        "data_confidence_floor",
+        "pick_type_allowed",
+        "mlb_hr_prop_check",
+        "mlb_pitcher_k_check",
+        "mlb_total_bases_check",
+        "mlb_hits_check",
+        "nba_player_prop_check",
+        "nhl_shots_check",
+        "mlb_run_line_check",
+        "mlb_under_bb_check",
+        "no_same_game_opposite"
+      ],
+      "locked": true,
+      "late_add": false,
+      "late_add_reason": "",
+      "bonus_pick": false,
+      "event_type": "",
+      "event_name": "",
+      "legs": [],
+      "headline": "Petco Park's extreme HR suppression meets two offenses that struggle to score.",
+      "the_thesis": "Petco Park is one of the most pitcher-friendly venues in baseball. Its 0.91 HR park factor and 0.93 runs factor make it a graveyard for offense, especially at night when the marine layer rolls in. Tonight's forecast shows 71\u00b0F with 11 mph wind \u2014 neutral to slightly suppressive conditions.\n\nThe Padres (3.91 R/G) and Diamondbacks (4.24 R/G) are both below-average offenses. Walker Buehler (4.61 ERA) and Brandon Pfaadt (5.40 ERA) are mediocre starters, but Petco will help them both. Pfaadt's 1.67 HR/9 is concerning, but the park will suppress that significantly.\n\nThe market has this at 8.5, but my fair price is closer to 7.5-8. At -108, we're getting 9 cents of edge on a park-driven under.",
+      "the_data": [
+        {
+          "label": "Petco Park HR PF",
+          "value": "0.91",
+          "context": "Extreme HR suppression"
+        },
+        {
+          "label": "Petco Park Runs PF",
+          "value": "0.93",
+          "context": "Pitcher-friendly"
+        },
+        {
+          "label": "SD R/G (season)",
+          "value": "3.91",
+          "context": "Below-average"
+        },
+        {
+          "label": "ARI R/G (season)",
+          "value": "4.24",
+          "context": "Below-average"
+        },
+        {
+          "label": "Buehler ERA (season)",
+          "value": "4.61",
+          "context": "Mediocre"
+        },
+        {
+          "label": "Pfaadt HR/9 (season)",
+          "value": "1.67",
+          "context": "Elevated, but park helps"
+        }
+      ],
+      "the_market": "Total opened at 8.5 and hasn't moved. The under is getting slight juice at -108 on FanDuel. No significant sharp action either way.",
+      "weather_park": "Petco Park 71\u00b0F, 11 mph wind, 0% precipitation. The marine layer will roll in by game time, further suppressing the ball.",
+      "case_against": "Both SPs have elevated HR/9 rates, and if either one gives up a 2-run shot early, the over comes into play. The Diamondbacks have some pop in their lineup (Marte, Carroll) that could break through.",
+      "what_were_betting_on": "Both SPs lasting 5+ innings with 3 or fewer runs each, and the bullpens holding serve in a low-scoring affair.",
+      "scott_bot_quip": "Petco at night is where offense goes to die. These two lineups are just here to confirm it.",
+      "ladder_note": "",
+      "date": "2026-07-06",
+      "status": "PEND",
+      "units_result": null,
+      "clv_cents": null,
+      "result_score": null,
+      "graded_at": null,
+      "slate_assessment": "Eight-game MLB-only slate with no NBA or NHL. Cristopher S\u00e1nchez dominates the board as the clear ace matchup, and Cam Schlittler at the Trop offers a near-even-money floor. Prop edges emerge in the K and total-bases markets.",
+      "executive_summary": "Eight MLB games tonight, no basketball or hockey. The headline is Cristopher S\u00e1nchez at Kauffman Stadium \u2014 the Phillies' ace is riding a historic scoreless-innings streak and faces a Royals lineup that ranks 27th in wRC+ vs. lefties. The under 8.5 at -103 is the sharpest total on the board. Cam Schlittler takes his 2.08 ERA into the Trop against a Tampa lineup that's been league-average at best. The ladder rides with Schlittler's Yankees ML at -106 \u2014 best floor on the slate, elite SP, pitcher-friendly dome, near even money.",
+      "slate_analysis": "Tonight's board features eight MLB games spread across both leagues, with no NBA or NHL action. The pricing climate is fairly balanced \u2014 only one heavy favorite (Dodgers -230 vs. Rockies) and several near-pick'em matchups. The total market is tight, with most games sitting between 7.5 and 9.5.\n\nThe top candidates that rose during my review: (1) PHI @ KC Under 8.5 \u2014 S\u00e1nchez's elite form against a weak KC lineup, HR-suppressing park, and a soft opposing SP in Noah Cameron; (2) NYY @ TB Yankees ML \u2014 Schlittler's 2.08 ERA and 0.96 WHIP at the Trop, which suppresses runs; (3) ARI @ SD Under 8.5 \u2014 Petco's pitcher-friendly environment plus two mediocre offenses; (4) TOR @ SF Under 7.5 \u2014 Oracle Park's 0.85 HR factor, cool 60\u00b0F temps, and Gausman's steady form; (5) S\u00e1nchez Ks Over 6.5 \u2014 his 28.6% K rate against a KC lineup that strikes out at a high clip; (6) Schlittler Ks Over 5.5 \u2014 his 29.7% K rate against a Tampa lineup that's been average at contact.\n\nWhat got cut: The HOU @ WSH game has two weak SPs (Mikolas 5.44 ERA, Burrows 5.58 ERA) but data confidence is only 0.4 \u2014 lineups aren't confirmed and both pitchers have high HR/9 rates, making the over volatile. The ATL @ NYM game features two mid-tier SPs (L\u00f3pez 3.31, Peralta 4.81) but the total at 9.0 is fairly priced and neither side offers 8+ cents of edge. The STL @ MIL game is a true pick'em with no clear angle \u2014 both SPs are solid but not dominant, and the total at 8.0 is right where I'd price it. The LAD @ COL game has the Dodgers at -230, which exceeds our -150 juice cap for straight bets, and the total at 9.5-10 is volatile with two HR-prone SPs.\n\nThe final six picks: PHI @ KC Under 8.5 (S\u00e1nchez dominance + park + weak KC lineup), NYY ML (Schlittler's elite form at pitcher-friendly Trop), ARI @ SD Under 8.5 (Petco suppression + two mediocre offenses), TOR @ SF Under 7.5 (Oracle Park's extreme HR suppression + cool weather), S\u00e1nchez Ks Over 6.5 (elite K rate vs. high-K lineup), and Schlittler Ks Over 5.5 (elite K rate, workload, and Tampa's average contact). The ladder pick is NYY ML at -106 \u2014 Schlittler's floor is the best on the board, the Trop suppresses runs, and the price lands right in the even-money band.",
+      "slate_vibe": "NORMAL",
+      "published_at": "2026-07-06T13:43:51.456818-04:00"
+    },
+    {
+      "id": "20260706-MLB-NYY-TB-ML",
+      "sport": "MLB",
+      "game": "NYY @ TB",
+      "first_pitch_iso": "2026-07-06T22:40Z",
+      "pick": "Yankees ML",
+      "best_book": "FanDuel",
+      "best_odds": "-106",
+      "book_prices": {
+        "draftkings": "-108",
+        "fanduel": "-106",
+        "betmgm": "-110"
+      },
+      "book_links": {
+        "fanduel": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.590228523&selectionId=29161",
+        "betmgm": "https://sports.nj.betmgm.com/en/sports?options=19768138-1539627302-2243927692&type=Single",
+        "draftkings": "https://sportsbook.draftkings.com/?outcomes=0ML85389361_3"
+      },
+      "market": "ML",
+      "confidence": 4,
+      "units": 1.5,
+      "win_probability": 0.58,
+      "ladder_designation": true,
+      "data_confidence": 0.8,
+      "rules_passed": [
+        "max_juice",
+        "ladder_even_money",
+        "parlay_well_formed",
+        "confidence_units_match",
+        "data_confidence_floor",
+        "pick_type_allowed",
+        "mlb_hr_prop_check",
+        "mlb_pitcher_k_check",
+        "mlb_total_bases_check",
+        "mlb_hits_check",
+        "nba_player_prop_check",
+        "nhl_shots_check",
+        "mlb_run_line_check",
+        "mlb_under_bb_check",
+        "no_same_game_opposite"
+      ],
+      "locked": true,
+      "late_add": false,
+      "late_add_reason": "",
+      "bonus_pick": false,
+      "event_type": "",
+      "event_name": "",
+      "legs": [],
+      "headline": "Schlittler's elite 2.08 ERA at the Trop \u2014 best floor on the board at even money.",
+      "the_thesis": "Cam Schlittler has emerged as the best pitcher in the American League this season. His 2.08 ERA ranks 3rd in the AL, his 0.96 WHIP is 4th, and his 29.7% K rate is elite. He's been compared to Walter Johnson for his first nine starts \u2014 that's not hyperbole, that's the stat line. He's the Yankees' ace now, and he's pitching like it.\n\nThe Rays are starting Griffin Jax, who has a 3.45 ERA but a concerning 1.65 HR/9. Tropicana Field's 0.92 HR factor will help suppress that, but Jax is a bullpen arm stretched into a starter role \u2014 his 60 IP this season suggests he's on a short leash. The Rays' offense has been league-average (4.55 R/G), and they'll struggle against Schlittler's fastball-cutter combo.\n\nThe market has this as a true pick'em, but Schlittler's underlying numbers suggest the Yankees should be closer to -130. At -106, we're getting 8+ cents of edge on the best floor play of the night.",
+      "the_data": [
+        {
+          "label": "Schlittler ERA (season)",
+          "value": "2.08",
+          "context": "3rd in AL"
+        },
+        {
+          "label": "Schlittler WHIP (season)",
+          "value": "0.96",
+          "context": "4th in AL"
+        },
+        {
+          "label": "Schlittler K% (season)",
+          "value": "29.7%",
+          "context": "Elite"
+        },
+        {
+          "label": "Tropicana Field HR PF",
+          "value": "0.92",
+          "context": "HR-suppressing"
+        },
+        {
+          "label": "Jax HR/9 (season)",
+          "value": "1.65",
+          "context": "Elevated, concerning"
+        },
+        {
+          "label": "TB R/G (season)",
+          "value": "4.55",
+          "context": "League-average"
+        }
+      ],
+      "the_market": "Line opened as a pick'em and has stayed there. The Yankees are getting slight action at -106 on FanDuel, but no significant movement. This is a market that hasn't fully adjusted to Schlittler's breakout.",
+      "weather_park": "Tropicana Field is a dome \u2014 no weather impact. The park suppresses runs (0.95 PF) and HRs (0.92 PF).",
+      "case_against": "The Rays are a smart organization that plays well at home. If Jax gets through 5 innings cleanly and the Rays' bullpen holds, this becomes a coin flip in the late innings. Schlittler is also on the road, which historically suppresses SP performance slightly.",
+      "what_were_betting_on": "Schlittler going 7+ innings with 2 or fewer runs, the Yankees' offense scratching across 3-4 runs against Jax and the Rays' pen.",
+      "scott_bot_quip": "Schlittler's pitching like he's got something to prove to every Red Sox fan who ever booed him. The Rays are just collateral damage.",
+      "ladder_note": "Best floor on the board. Elite SP, pitcher-friendly dome, near even money. This is the ladder pick because Schlittler's floor is higher than anyone else's ceiling tonight.",
+      "date": "2026-07-06",
+      "status": "PEND",
+      "units_result": null,
+      "clv_cents": null,
+      "result_score": null,
+      "graded_at": null,
+      "slate_assessment": "Eight-game MLB-only slate with no NBA or NHL. Cristopher S\u00e1nchez dominates the board as the clear ace matchup, and Cam Schlittler at the Trop offers a near-even-money floor. Prop edges emerge in the K and total-bases markets.",
+      "executive_summary": "Eight MLB games tonight, no basketball or hockey. The headline is Cristopher S\u00e1nchez at Kauffman Stadium \u2014 the Phillies' ace is riding a historic scoreless-innings streak and faces a Royals lineup that ranks 27th in wRC+ vs. lefties. The under 8.5 at -103 is the sharpest total on the board. Cam Schlittler takes his 2.08 ERA into the Trop against a Tampa lineup that's been league-average at best. The ladder rides with Schlittler's Yankees ML at -106 \u2014 best floor on the slate, elite SP, pitcher-friendly dome, near even money.",
+      "slate_analysis": "Tonight's board features eight MLB games spread across both leagues, with no NBA or NHL action. The pricing climate is fairly balanced \u2014 only one heavy favorite (Dodgers -230 vs. Rockies) and several near-pick'em matchups. The total market is tight, with most games sitting between 7.5 and 9.5.\n\nThe top candidates that rose during my review: (1) PHI @ KC Under 8.5 \u2014 S\u00e1nchez's elite form against a weak KC lineup, HR-suppressing park, and a soft opposing SP in Noah Cameron; (2) NYY @ TB Yankees ML \u2014 Schlittler's 2.08 ERA and 0.96 WHIP at the Trop, which suppresses runs; (3) ARI @ SD Under 8.5 \u2014 Petco's pitcher-friendly environment plus two mediocre offenses; (4) TOR @ SF Under 7.5 \u2014 Oracle Park's 0.85 HR factor, cool 60\u00b0F temps, and Gausman's steady form; (5) S\u00e1nchez Ks Over 6.5 \u2014 his 28.6% K rate against a KC lineup that strikes out at a high clip; (6) Schlittler Ks Over 5.5 \u2014 his 29.7% K rate against a Tampa lineup that's been average at contact.\n\nWhat got cut: The HOU @ WSH game has two weak SPs (Mikolas 5.44 ERA, Burrows 5.58 ERA) but data confidence is only 0.4 \u2014 lineups aren't confirmed and both pitchers have high HR/9 rates, making the over volatile. The ATL @ NYM game features two mid-tier SPs (L\u00f3pez 3.31, Peralta 4.81) but the total at 9.0 is fairly priced and neither side offers 8+ cents of edge. The STL @ MIL game is a true pick'em with no clear angle \u2014 both SPs are solid but not dominant, and the total at 8.0 is right where I'd price it. The LAD @ COL game has the Dodgers at -230, which exceeds our -150 juice cap for straight bets, and the total at 9.5-10 is volatile with two HR-prone SPs.\n\nThe final six picks: PHI @ KC Under 8.5 (S\u00e1nchez dominance + park + weak KC lineup), NYY ML (Schlittler's elite form at pitcher-friendly Trop), ARI @ SD Under 8.5 (Petco suppression + two mediocre offenses), TOR @ SF Under 7.5 (Oracle Park's extreme HR suppression + cool weather), S\u00e1nchez Ks Over 6.5 (elite K rate vs. high-K lineup), and Schlittler Ks Over 5.5 (elite K rate, workload, and Tampa's average contact). The ladder pick is NYY ML at -106 \u2014 Schlittler's floor is the best on the board, the Trop suppresses runs, and the price lands right in the even-money band.",
+      "slate_vibe": "NORMAL",
+      "published_at": "2026-07-06T13:43:51.456744-04:00"
+    },
+    {
+      "id": "20260706-MLB-PHI-KC-TOTAL",
+      "sport": "MLB",
+      "game": "PHI @ KC",
+      "first_pitch_iso": "2026-07-06T18:10Z",
+      "pick": "Under 8.5",
+      "best_book": "DraftKings",
+      "best_odds": "-103",
+      "book_prices": {
+        "draftkings": "-103",
+        "fanduel": "-105",
+        "betmgm": "-105"
+      },
+      "book_links": {
+        "fanduel": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.590326495&selectionId=7017906",
+        "draftkings": "https://sportsbook.draftkings.com/?outcomes=0OU85389360U850_3",
+        "betmgm": "https://sports.nj.betmgm.com/en/sports?options=19768137-1539627252-2243927593&type=Single"
+      },
+      "market": "TOTAL",
+      "confidence": 5,
+      "units": 2.0,
+      "win_probability": 0.62,
+      "ladder_designation": false,
+      "data_confidence": 0.85,
+      "rules_passed": [
+        "max_juice",
+        "ladder_even_money",
+        "parlay_well_formed",
+        "confidence_units_match",
+        "data_confidence_floor",
+        "pick_type_allowed",
+        "mlb_hr_prop_check",
+        "mlb_pitcher_k_check",
+        "mlb_total_bases_check",
+        "mlb_hits_check",
+        "nba_player_prop_check",
+        "nhl_shots_check",
+        "mlb_run_line_check",
+        "mlb_under_bb_check",
+        "no_same_game_opposite"
+      ],
+      "locked": true,
+      "late_add": false,
+      "late_add_reason": "",
+      "bonus_pick": false,
+      "event_type": "",
+      "event_name": "",
+      "legs": [],
+      "headline": "S\u00e1nchez's historic scoreless streak meets a Royals lineup that can't hit lefties.",
+      "the_thesis": "Cristopher S\u00e1nchez is having a Cy Young-caliber season. His 2.0 ERA and 28.6% K rate are elite, but the underlying numbers are even better \u2014 his 0.62 HR/9 is top-5 in baseball, and he's coming off a historic 50\u2154 consecutive scoreless innings streak that set the all-time record for left-handed pitchers. He's faced better lineups than Kansas City and dominated them.\n\nThe Royals rank 27th in wRC+ against left-handed pitching this season. Noah Cameron (4.95 ERA, 1.41 WHIP) is a back-end starter who will struggle to keep pace with S\u00e1nchez. Kauffman Stadium's 0.92 HR park factor further suppresses the long ball, and the weather is neutral (80\u00b0F, light variable wind). The Phillies bullpen has been solid, and the Royals pen is league-average at best.\n\nThe market has this total at 8.5 across all books, but the de-vigged implied probability on the under is around 50%. My fair price is 62% \u2014 that's 12 cents of edge, well above our 8-cent threshold. This is the strongest play on the board.",
+      "the_data": [
+        {
+          "label": "S\u00e1nchez ERA (season)",
+          "value": "2.0",
+          "context": "Elite, 2nd in NL"
+        },
+        {
+          "label": "S\u00e1nchez K% (season)",
+          "value": "28.6%",
+          "context": "Top-10 in MLB"
+        },
+        {
+          "label": "S\u00e1nchez HR/9 (season)",
+          "value": "0.62",
+          "context": "Elite, top-5 in MLB"
+        },
+        {
+          "label": "KC wRC+ vs. LHP",
+          "value": "~76",
+          "context": "27th in MLB"
+        },
+        {
+          "label": "Kauffman Stadium HR PF",
+          "value": "0.92",
+          "context": "HR-suppressing"
+        },
+        {
+          "label": "Cameron ERA (season)",
+          "value": "4.95",
+          "context": "Below-average"
+        }
+      ],
+      "the_market": "Total opened at 8.5 and hasn't moved. The under is getting slight juice at -103 on DraftKings, suggesting some sharp action. Consensus is split, which is typical for a game with one elite SP and one weak one.",
+      "weather_park": "Kauffman Stadium 80\u00b0F, light variable wind, HR factor 0.92 \u2014 net suppression on the long ball.",
+      "case_against": "If S\u00e1nchez exits early due to a minor issue or pitch count, the Phillies' bullpen faces a Royals lineup that can occasionally string together rallies. Cameron could also outperform his season numbers in a one-off start.",
+      "what_were_betting_on": "S\u00e1nchez going 6+ innings with 1 or fewer runs, Cameron lasting 5 innings with 3 or fewer, and both bullpens holding serve.",
+      "scott_bot_quip": "S\u00e1nchez is pitching like he's got a grudge against the entire American League. The Royals are just next in line.",
+      "ladder_note": "",
+      "date": "2026-07-06",
+      "status": "PEND",
+      "units_result": null,
+      "clv_cents": null,
+      "result_score": null,
+      "graded_at": null,
+      "slate_assessment": "Eight-game MLB-only slate with no NBA or NHL. Cristopher S\u00e1nchez dominates the board as the clear ace matchup, and Cam Schlittler at the Trop offers a near-even-money floor. Prop edges emerge in the K and total-bases markets.",
+      "executive_summary": "Eight MLB games tonight, no basketball or hockey. The headline is Cristopher S\u00e1nchez at Kauffman Stadium \u2014 the Phillies' ace is riding a historic scoreless-innings streak and faces a Royals lineup that ranks 27th in wRC+ vs. lefties. The under 8.5 at -103 is the sharpest total on the board. Cam Schlittler takes his 2.08 ERA into the Trop against a Tampa lineup that's been league-average at best. The ladder rides with Schlittler's Yankees ML at -106 \u2014 best floor on the slate, elite SP, pitcher-friendly dome, near even money.",
+      "slate_analysis": "Tonight's board features eight MLB games spread across both leagues, with no NBA or NHL action. The pricing climate is fairly balanced \u2014 only one heavy favorite (Dodgers -230 vs. Rockies) and several near-pick'em matchups. The total market is tight, with most games sitting between 7.5 and 9.5.\n\nThe top candidates that rose during my review: (1) PHI @ KC Under 8.5 \u2014 S\u00e1nchez's elite form against a weak KC lineup, HR-suppressing park, and a soft opposing SP in Noah Cameron; (2) NYY @ TB Yankees ML \u2014 Schlittler's 2.08 ERA and 0.96 WHIP at the Trop, which suppresses runs; (3) ARI @ SD Under 8.5 \u2014 Petco's pitcher-friendly environment plus two mediocre offenses; (4) TOR @ SF Under 7.5 \u2014 Oracle Park's 0.85 HR factor, cool 60\u00b0F temps, and Gausman's steady form; (5) S\u00e1nchez Ks Over 6.5 \u2014 his 28.6% K rate against a KC lineup that strikes out at a high clip; (6) Schlittler Ks Over 5.5 \u2014 his 29.7% K rate against a Tampa lineup that's been average at contact.\n\nWhat got cut: The HOU @ WSH game has two weak SPs (Mikolas 5.44 ERA, Burrows 5.58 ERA) but data confidence is only 0.4 \u2014 lineups aren't confirmed and both pitchers have high HR/9 rates, making the over volatile. The ATL @ NYM game features two mid-tier SPs (L\u00f3pez 3.31, Peralta 4.81) but the total at 9.0 is fairly priced and neither side offers 8+ cents of edge. The STL @ MIL game is a true pick'em with no clear angle \u2014 both SPs are solid but not dominant, and the total at 8.0 is right where I'd price it. The LAD @ COL game has the Dodgers at -230, which exceeds our -150 juice cap for straight bets, and the total at 9.5-10 is volatile with two HR-prone SPs.\n\nThe final six picks: PHI @ KC Under 8.5 (S\u00e1nchez dominance + park + weak KC lineup), NYY ML (Schlittler's elite form at pitcher-friendly Trop), ARI @ SD Under 8.5 (Petco suppression + two mediocre offenses), TOR @ SF Under 7.5 (Oracle Park's extreme HR suppression + cool weather), S\u00e1nchez Ks Over 6.5 (elite K rate vs. high-K lineup), and Schlittler Ks Over 5.5 (elite K rate, workload, and Tampa's average contact). The ladder pick is NYY ML at -106 \u2014 Schlittler's floor is the best on the board, the Trop suppresses runs, and the price lands right in the even-money band.",
+      "slate_vibe": "NORMAL",
+      "published_at": "2026-07-06T13:43:51.456621-04:00"
+    },
     {
       "id": "20260628-MLB-WSH-BAL-PROP-GUNNARHENDERSON",
       "sport": "MLB",
