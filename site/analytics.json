@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-05T20:13:41.460868-04:00",
+  "generated_at": "2026-07-06T01:07:43.578756-04:00",
   "scopes": {
     "daily": {
       "overall": {
@@ -25,130 +25,25 @@
     },
     "weekly": {
       "overall": {
-        "record": "2-4-0",
-        "wins": 2,
-        "losses": 4,
+        "record": "0-0-0",
+        "wins": 0,
+        "losses": 0,
         "pushes": 0,
         "pending": 0,
-        "total_picks": 6,
-        "settled_picks": 6,
-        "units_pl": -2.13,
-        "roi_pct": -26.63,
-        "win_rate_pct": 33.33,
+        "total_picks": 0,
+        "settled_picks": 0,
+        "units_pl": 0,
+        "roi_pct": 0.0,
+        "win_rate_pct": 0.0,
         "avg_clv_cents": 0.0,
-        "longest_w_streak": 1,
-        "longest_l_streak": 2,
-        "biggest_win_units": 1.961,
-        "biggest_loss_units": -1.5
+        "longest_w_streak": 0,
+        "longest_l_streak": 0,
+        "biggest_win_units": 0,
+        "biggest_loss_units": 0
       },
-      "by_sport": {
-        "MLB": {
-          "record": "2-4-0",
-          "wins": 2,
-          "losses": 4,
-          "pushes": 0,
-          "pending": 0,
-          "total_picks": 6,
-          "settled_picks": 6,
-          "units_pl": -2.13,
-          "roi_pct": -26.63,
-          "win_rate_pct": 33.33,
-          "avg_clv_cents": 0.0,
-          "longest_w_streak": 1,
-          "longest_l_streak": 2,
-          "biggest_win_units": 1.961,
-          "biggest_loss_units": -1.5
-        }
-      },
-      "by_confidence": {
-        "3": {
-          "record": "1-2-0",
-          "wins": 1,
-          "losses": 2,
-          "pushes": 0,
-          "pending": 0,
-          "total_picks": 3,
-          "settled_picks": 3,
-          "units_pl": -1.091,
-          "roi_pct": -36.36,
-          "win_rate_pct": 33.33,
-          "avg_clv_cents": 0.0,
-          "longest_w_streak": 1,
-          "longest_l_streak": 1,
-          "biggest_win_units": 0.909,
-          "biggest_loss_units": -1.0
-        },
-        "4": {
-          "record": "0-2-0",
-          "wins": 0,
-          "losses": 2,
-          "pushes": 0,
-          "pending": 0,
-          "total_picks": 2,
-          "settled_picks": 2,
-          "units_pl": -3.0,
-          "roi_pct": -100.0,
-          "win_rate_pct": 0.0,
-          "avg_clv_cents": 0.0,
-          "longest_w_streak": 0,
-          "longest_l_streak": 2,
-          "biggest_win_units": 0,
-          "biggest_loss_units": -1.5
-        },
-        "5": {
-          "record": "1-0-0",
-          "wins": 1,
-          "losses": 0,
-          "pushes": 0,
-          "pending": 0,
-          "total_picks": 1,
-          "settled_picks": 1,
-          "units_pl": 1.961,
-          "roi_pct": 98.04,
-          "win_rate_pct": 100.0,
-          "avg_clv_cents": 0.0,
-          "longest_w_streak": 1,
-          "longest_l_streak": 0,
-          "biggest_win_units": 1.961,
-          "biggest_loss_units": 0
-        }
-      },
-      "by_pick_type": {
-        "PROP": {
-          "record": "0-1-0",
-          "wins": 0,
-          "losses": 1,
-          "pushes": 0,
-          "pending": 0,
-          "total_picks": 1,
-          "settled_picks": 1,
-          "units_pl": -1.0,
-          "roi_pct": -100.0,
-          "win_rate_pct": 0.0,
-          "avg_clv_cents": 0.0,
-          "longest_w_streak": 0,
-          "longest_l_streak": 1,
-          "biggest_win_units": 0,
-          "biggest_loss_units": -1.0
-        },
-        "TOTAL": {
-          "record": "2-3-0",
-          "wins": 2,
-          "losses": 3,
-          "pushes": 0,
-          "pending": 0,
-          "total_picks": 5,
-          "settled_picks": 5,
-          "units_pl": -1.13,
-          "roi_pct": -16.14,
-          "win_rate_pct": 40.0,
-          "avg_clv_cents": 0.0,
-          "longest_w_streak": 1,
-          "longest_l_streak": 2,
-          "biggest_win_units": 1.961,
-          "biggest_loss_units": -1.5
-        }
-      }
+      "by_sport": {},
+      "by_confidence": {},
+      "by_pick_type": {}
     },
     "monthly": {
       "overall": {
