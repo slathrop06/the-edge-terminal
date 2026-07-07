@@ -1,9 +1,17 @@
 {
-  "current_streak": 3,
+  "current_streak": 4,
   "longest_streak": 8,
   "completed_climbs": 0,
   "target": 10,
   "history": [
+    {
+      "date": "2026-07-06",
+      "pick_id": "20260706-MLB-NYY-TB-ML",
+      "pick": "Yankees ML",
+      "game": "NYY @ TB",
+      "status": "WIN",
+      "after_streak": 4
+    },
     {
       "date": "2026-06-28",
       "pick_id": "20260628-MLB-ARI-TB-TOTAL",
@@ -285,5 +293,5 @@
       "after_streak": 1
     }
   ],
-  "updated_at": "2026-06-28T18:55:36.170967-04:00"
+  "updated_at": "2026-07-07T02:53:10.371992-04:00"
 }
