@@ -318,5 +318,21 @@
     "candidate_rule": "When anchoring an under on a specific starter, weight the last-6-start ERA and velocity trend equally with the season ERA \u2014 if a starter's rolling ERA exceeds his season ERA by 2+ runs AND velocity is down, downgrade the under confidence by at least 1 tier regardless of park factors. (N=1, insufficient to establish rule.)",
     "sample_size_warning": "N=1, insufficient to establish rule \u2014 single-game loss, watching for pattern of under picks relying on season-ERA averages that mask deteriorating recent form.",
     "status": "PENDING_REVIEW"
+  },
+  {
+    "proposed_at": "2026-07-08T02:04:32.275195-04:00",
+    "source_pick_id": "20260707-MLB-ATH-DET-PROP-TARIKSKUBAL",
+    "source_loss": "Tarik Skubal Ks Under 6.5 (ATH @ DET)",
+    "candidate_rule": "When a pitcher's SwStr% is elite (>15%), do not fade their K prop solely on pitch-count concerns \u2014 model expected Ks per batter faced, not just expected innings, and require the opposing lineup's contact rate to be bottom-5 (not merely bottom-10) before treating it as a meaningful suppressor; N=1, insufficient to establish rule.",
+    "sample_size_warning": "N=1, insufficient to establish rule \u2014 one start where Skubal ran hot on whiff rate inside a short outing. Need to see whether pitch-count-limited starts consistently produce high K/IP before adjusting the model.",
+    "status": "PENDING_REVIEW"
+  },
+  {
+    "proposed_at": "2026-07-08T02:05:15.247026-04:00",
+    "source_pick_id": "20260707-MLB-LAA-TEX-TOTAL",
+    "source_loss": "Under 7.0 (LAA @ TEX)",
+    "candidate_rule": "Before backing a pitcher-driven under, cross-check the starter's career splits vs. the specific opponent \u2014 if ERA vs. that team exceeds 4.50 in 4+ starts, downgrade confidence by at least one tier regardless of season-level home/away splits; N=1, insufficient to establish rule.",
+    "sample_size_warning": "N=1, insufficient to establish rule \u2014 one loss does not confirm the pattern, but the data gap (season home ERA vs. career opponent ERA) is a structural blind spot worth monitoring.",
+    "status": "PENDING_REVIEW"
   }
 ]

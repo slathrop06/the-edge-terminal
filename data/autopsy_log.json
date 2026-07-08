@@ -1,5 +1,44 @@
 [
   {
+    "id": "20260707-MLB-LAA-TEX-TOTAL",
+    "date": "2026-07-07",
+    "pick": "Under 7.0",
+    "game": "LAA @ TEX",
+    "odds": "-105",
+    "result_score": "LAA 3 \u00b7 TEX 8",
+    "classification": "MODEL",
+    "post_mortem": "The thesis was built on a flawed deGrom data point: his season ERA entering the game was 3.48 \u2014 not the 1.28 home ERA cited in the pick \u2014 and his career line vs. the Angels was a damning 5.22 ERA in six starts, including a 9-6 blowup on May 22. The game played out exactly along those fault lines: deGrom surrendered two runs in the first on a Soler double and a Lowe single, and the under was already under pressure at 2-0 before Texas even batted. The Angels led 3-2 through six, but Sam Bachman imploded in the eighth \u2014 Duran and Foscue RBI singles followed by Osuna's three-run homer made it a five-run inning and an 8-3 final, busting the Under 7.0 by four runs.",
+    "candidate_rule": "Before backing a pitcher-driven under, cross-check the starter's career splits vs. the specific opponent \u2014 if ERA vs. that team exceeds 4.50 in 4+ starts, downgrade confidence by at least one tier regardless of season-level home/away splits; N=1, insufficient to establish rule.",
+    "sample_size_warning": "N=1, insufficient to establish rule \u2014 one loss does not confirm the pattern, but the data gap (season home ERA vs. career opponent ERA) is a structural blind spot worth monitoring.",
+    "analyzed_at": "2026-07-08T02:05:15.245650-04:00"
+  },
+  {
+    "id": "20260707-MLB-SEA-MIA-TOTAL",
+    "date": "2026-07-07",
+    "pick": "Under 8.0",
+    "game": "SEA @ MIA",
+    "odds": "-114",
+    "result_score": "SEA 5 \u00b7 MIA 6",
+    "classification": "VARIANCE",
+    "post_mortem": "The under was very much alive through seven innings \u2014 Miami built a 4-0 lead and Meyer/the Marlins bullpen were controlling the game. Then Seattle's eighth inning detonated: Cal Raleigh doubled in a run, Josh Naylor choppered through the right side to score Arozarena, and Naylor later scored on a wild pitch by Calvin Faucher to put Seattle up 5-4. Miami pinch-hitter Heriberto Hern\u00e1ndez then answered with a 422-foot solo shot to tie it at 5-5, and the game finished 6-5 \u2014 one run over the total, decided entirely by a three-run Mariners eighth and a late Marlins homer. The thesis (Meyer + park + weak Seattle offense) was sound; the loss was manufactured in a single chaotic inning by a wild pitch and a pinch-hit bomb.",
+    "candidate_rule": null,
+    "sample_size_warning": "N=1, insufficient to establish rule \u2014 this was a clean VARIANCE loss driven by a three-run eighth inning and a wild pitch, not a systematic model or data failure.",
+    "analyzed_at": "2026-07-08T02:04:51.561866-04:00"
+  },
+  {
+    "id": "20260707-MLB-ATH-DET-PROP-TARIKSKUBAL",
+    "date": "2026-07-07",
+    "pick": "Tarik Skubal Ks Under 6.5",
+    "game": "ATH @ DET",
+    "odds": "-140",
+    "result_score": "Tarik Skubal: 9 strikeOuts",
+    "classification": "MODEL",
+    "post_mortem": "The pitch-count ceiling thesis collapsed because Skubal's elite stuff overwhelmed the A's even within a constrained outing. He struck out the side in the first inning and finished with 9 Ks on just 96 pitches across 5 innings \u2014 getting 22 swings-and-misses on 52 swings. The A's 'contact-oriented' profile was real on paper, but Skubal's 98-99 mph heaters late in the outing exposed the flaw in the model: a limited pitch count doesn't cap strikeouts if the pitcher is generating whiffs at an elite rate per batter faced. The thesis conflated 'fewer innings = fewer Ks' with 'fewer Ks per inning,' and those are not the same thing.",
+    "candidate_rule": "When a pitcher's SwStr% is elite (>15%), do not fade their K prop solely on pitch-count concerns \u2014 model expected Ks per batter faced, not just expected innings, and require the opposing lineup's contact rate to be bottom-5 (not merely bottom-10) before treating it as a meaningful suppressor; N=1, insufficient to establish rule.",
+    "sample_size_warning": "N=1, insufficient to establish rule \u2014 one start where Skubal ran hot on whiff rate inside a short outing. Need to see whether pitch-count-limited starts consistently produce high K/IP before adjusting the model.",
+    "analyzed_at": "2026-07-08T02:04:32.273801-04:00"
+  },
+  {
     "id": "20260706-MLB-PHI-KC-TOTAL",
     "date": "2026-07-06",
     "pick": "Under 8.5",

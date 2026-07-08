@@ -1,580 +1,9 @@
 {
-  "generated_at": "2026-07-07T18:07:45.731178-04:00",
-  "today": "2026-07-07",
+  "generated_at": "2026-07-08T02:05:32.861224-04:00",
+  "today": "2026-07-08",
   "system_paused": false,
   "pause_reason": "",
-  "today_picks": [
-    {
-      "id": "20260707-MLB-ATH-DET-PROP-TARIKSKUBAL",
-      "sport": "MLB",
-      "game": "ATH @ DET",
-      "first_pitch_iso": "2026-07-07T22:40Z",
-      "pick": "Tarik Skubal Ks Under 6.5",
-      "best_book": "FanDuel",
-      "best_odds": "-140",
-      "book_prices": {
-        "draftkings": "N/A",
-        "fanduel": "-140",
-        "betmgm": "N/A"
-      },
-      "book_links": {
-        "fanduel": "https://sportsbook.fanduel.com/baseball/mlb/athletics-%28j-ginn%29-%40-detroit-tigers-%28t-skubal%29-35794956",
-        "draftkings": "https://sportsbook.draftkings.com/event/34361819",
-        "betmgm": "https://sports.nj.betmgm.com/en/sports/events/athletics-at-detroit-tigers-19768147"
-      },
-      "market": "PROP",
-      "confidence": 3,
-      "units": 1.0,
-      "win_probability": 0.6,
-      "ladder_designation": false,
-      "data_confidence": 0.7,
-      "rules_passed": [
-        "max_juice",
-        "ladder_even_money",
-        "parlay_well_formed",
-        "confidence_units_match",
-        "data_confidence_floor",
-        "pick_type_allowed",
-        "mlb_hr_prop_check",
-        "mlb_pitcher_k_check(soft)",
-        "mlb_total_bases_check",
-        "mlb_hits_check",
-        "nba_player_prop_check",
-        "nhl_shots_check",
-        "mlb_run_line_check",
-        "mlb_under_bb_check",
-        "no_same_game_opposite"
-      ],
-      "locked": true,
-      "late_add": false,
-      "late_add_reason": "",
-      "bonus_pick": false,
-      "event_type": "",
-      "event_name": "",
-      "legs": [],
-      "headline": "Skubal's still building back pitch count, and the A's don't strike out.",
-      "the_thesis": "Tarik Skubal is elite, but he's still ramping up from elbow surgery. In his first two starts back, he threw 80 and 85 pitches respectively \u2014 not enough to rack up 7+ strikeouts against a lineup that doesn't chase. The A's rank bottom-10 in strikeout rate against left-handed pitching.\n\nSkubal's K% is elite (29.5%), but the A's put the ball in play. They don't swing and miss at the rate needed to push Skubal into the 7+ K range on a limited pitch count. His last three starts have produced 4, 8, and 6 strikeouts \u2014 inconsistent.\n\nThe under 6.5 at -140 implies 58.3% probability. I have Skubal staying under at 60% \u2014 modest edge, but the A's contact profile and Skubal's pitch count make this a clean under.",
-      "the_data": [
-        {
-          "label": "Skubal K% (season)",
-          "value": "29.5%",
-          "context": "Elite, but A's don't chase"
-        },
-        {
-          "label": "Skubal pitch count (L2)",
-          "value": "80, 85",
-          "context": "Still building back"
-        },
-        {
-          "label": "A's K% vs LHP",
-          "value": "~20%",
-          "context": "Bottom-10, contact-oriented"
-        },
-        {
-          "label": "Skubal Ks (L3)",
-          "value": "4, 8, 6",
-          "context": "Inconsistent, averaging 6"
-        },
-        {
-          "label": "Skubal IP/start (post-surgery)",
-          "value": "5.3",
-          "context": "Limited, fewer K opportunities"
-        }
-      ],
-      "the_market": "Line is 6.5 at FanDuel. No line available at DK or MGM in the IntelPack. FanDuel is the only option.",
-      "weather_park": "Comerica Park is neutral for strikeouts. No weather concerns.",
-      "case_against": "Skubal could extend his pitch count if he's cruising. The A's lineup is weak enough that he could dominate and push into the 7-8 K range. If he goes 6+ innings, the under becomes a sweat.",
-      "what_were_betting_on": "Skubal staying around 85-90 pitches, the A's putting balls in play, and a 5-6 K outing.",
-      "scott_bot_quip": "The A's don't strike out. They just make weak contact and call it a strategy.",
-      "ladder_note": "",
-      "date": "2026-07-07",
-      "status": "PEND",
-      "units_result": null,
-      "clv_cents": null,
-      "result_score": null,
-      "graded_at": null,
-      "slate_assessment": "17-game MLB slate with no NBA or NHL action. Pitching matchups drive the board \u2014 Skubal vs. A's, Wheeler vs. Reds, deGrom vs. Angels, and Skenes vs. Braves all stand out. Prop markets thin but playable in high-total games.",
-      "executive_summary": "Tarik Skubal back from elbow surgery and dealing again headlines a 17-game MLB board with no basketball or hockey to distract us. The Tigers-A's matchup at Comerica features the two-time Cy Young winner against an overmatched Oakland lineup, and the under at 8 is the cleanest spot on the slate. Zack Wheeler's post-TOS dominance continues in Cincinnati, where the Phillies -1.5 run line offers value against a struggling Andrew Abbott. The ladder rides with Wheeler and the Phillies \u2014 elite pitcher, hitter-friendly park working in his favor, and a Reds offense that can't touch elite right-handers. Six plays today, all grounded in pitching edges.",
-      "slate_analysis": "The board features 17 MLB games spread across the afternoon and evening, with no NBA or NHL to supplement. Pricing is tight across most matchups \u2014 only LAD-COL shows significant separation, and that one's too juiced to touch on the side. The totals market offers more texture, with several games sitting at 8 or below where pitching edges can translate.\n\nTop candidates that earned a hard look: Detroit-Oakland (Skubal vs. Ginn, under 8), Philadelphia-Cincinnati (Wheeler vs. Abbott, Phillies -1.5), Pittsburgh-Atlanta (Skenes vs. Waldrep, Pirates ML), Texas-LAA (deGrom vs. Soriano, under 7), Miami-Seattle (Meyer at home, under 8), and the Dodgers-Rockies total (Wrobleski vs. Lorenzen, under 9.5). I also scanned the K props for Wheeler, Skubal, and deGrom, plus total bases props in the higher-total games.\n\nWhat got cut: The Dodgers-Rockies under looked appealing with Wrobleski's 2.80 ERA, but Lorenzen's 6.91 ERA and 1.81 WHIP create too much variance \u2014 the Dodgers could hang 8 runs by themselves. The Pirates-Braves side was tempting with Skenes at home against a rookie, but Skenes' recent struggles (0-6 in last 9 starts, velocity down, spin rate declining) and Waldrep's tiny sample (7.1 IP) made the data confidence too low. The Mets-Royals game lacks a confirmed home starter, killing that angle. The MIL-STL doubleheader Game 1 had data confidence at 0.4 with thin pitcher profiles. The SF-TOR under looked clean but Spencer Miles' 54 IP sample is borderline.\n\nThe final six: Detroit Under 8 (Skubal's elite K% and walk rate against a weak A's lineup), Phillies -1.5 (Wheeler's dominance post-surgery against Abbott's control issues), Texas Under 7 (deGrom's home splits are elite, Soriano walks too many), Miami Under 8 (Meyer's 2.53 ERA in a pitcher's park against Seattle's anemic offense), Wheeler Ks Over 7.5 (Reds K% is exploitable, Wheeler averaging 6.2 K/start), and Skubal Ks Under 6.5 (A's don't strike out, Skubal still building back pitch count). The ladder pick is Phillies -1.5 \u2014 Wheeler's floor is the highest on the board, the Reds can't hit elite RHP, and the run line lands at -108 in the even-money band.",
-      "slate_vibe": "NORMAL",
-      "published_at": "2026-07-07T13:15:43.518120-04:00"
-    },
-    {
-      "id": "20260707-MLB-PHI-CIN-PROP-ZACKWHEELER",
-      "sport": "MLB",
-      "game": "PHI @ CIN",
-      "first_pitch_iso": "2026-07-07T23:10Z",
-      "pick": "Zack Wheeler Ks Over 7.5",
-      "best_book": "BetMGM",
-      "best_odds": "+120",
-      "book_prices": {
-        "draftkings": "-134",
-        "fanduel": "N/A",
-        "betmgm": "+120"
-      },
-      "book_links": {
-        "draftkings": "https://sportsbook.draftkings.com/?outcomes=0QA349296105%232204980678_13L84240Q1860273293Q20",
-        "fanduel": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.590644776&selectionId=23915161",
-        "betmgm": "https://sports.nj.betmgm.com/en/sports?options=2:7824929-201327580-763646992&type=Single"
-      },
-      "market": "PROP",
-      "confidence": 3,
-      "units": 1.0,
-      "win_probability": 0.52,
-      "ladder_designation": false,
-      "data_confidence": 0.75,
-      "rules_passed": [
-        "max_juice",
-        "ladder_even_money",
-        "parlay_well_formed",
-        "confidence_units_match",
-        "data_confidence_floor",
-        "pick_type_allowed",
-        "mlb_hr_prop_check",
-        "mlb_pitcher_k_check",
-        "mlb_total_bases_check",
-        "mlb_hits_check",
-        "nba_player_prop_check",
-        "nhl_shots_check",
-        "mlb_run_line_check",
-        "mlb_under_bb_check",
-        "no_same_game_opposite"
-      ],
-      "locked": true,
-      "late_add": false,
-      "late_add_reason": "",
-      "bonus_pick": false,
-      "event_type": "",
-      "event_name": "",
-      "legs": [],
-      "headline": "Wheeler's K rate exploits a Reds lineup that strikes out at an above-average clip.",
-      "the_thesis": "Zack Wheeler has a 27.3% K rate this season and has struck out 9 batters in two of his last three starts. The Reds rank in the top half of MLB in strikeout rate against right-handed pitching, and their lineup features several free swingers who chase Wheeler's slider.\n\nWheeler's K/9 since returning from surgery is 8.9, and he's averaging 6.2 K per start. But against weaker lineups, he's consistently pushed into the 7-9 range. The Reds' lineup construction \u2014 heavy on young hitters who expand the zone \u2014 plays directly into Wheeler's strengths.\n\nThe over 7.5 at +120 implies 45.5% probability. I have Wheeler hitting 8+ strikeouts at 52% \u2014 that's 6.5 cents of edge on plus money.",
-      "the_data": [
-        {
-          "label": "Wheeler K% (2026)",
-          "value": "27.3%",
-          "context": "Elite, top-15 in MLB"
-        },
-        {
-          "label": "Wheeler K/9 (post-surgery)",
-          "value": "8.9",
-          "context": "Strong, trending up"
-        },
-        {
-          "label": "Reds K% vs RHP",
-          "value": "~24%",
-          "context": "Above average, exploitable"
-        },
-        {
-          "label": "Wheeler recent Ks",
-          "value": "9, 5, 9 (L3)",
-          "context": "Two 9-K games in last three"
-        },
-        {
-          "label": "Wheeler IP/start",
-          "value": "6.2",
-          "context": "Goes deep, more K opportunities"
-        }
-      ],
-      "the_market": "Line is 7.5 across books. BetMGM offers +120 on the over while DraftKings has it at -134 \u2014 significant line discrepancy. BetMGM is the clear best price.",
-      "weather_park": "GABP is hitter-friendly but that doesn't suppress strikeouts. Wheeler's stuff plays anywhere.",
-      "case_against": "Wheeler could be on a soft pitch count if the Phillies build a big lead early. The Reds could also shorten at-bats and put balls in play to limit K opportunities. If Wheeler exits after 5 innings, 8 Ks becomes a stretch.",
-      "what_were_betting_on": "Wheeler going 6+ innings, the Reds chasing his slider, and at least two multi-K innings.",
-      "scott_bot_quip": "The Reds are about to learn what TOS stands for: Tons Of Strikeouts.",
-      "ladder_note": "",
-      "date": "2026-07-07",
-      "status": "PEND",
-      "units_result": null,
-      "clv_cents": null,
-      "result_score": null,
-      "graded_at": null,
-      "slate_assessment": "17-game MLB slate with no NBA or NHL action. Pitching matchups drive the board \u2014 Skubal vs. A's, Wheeler vs. Reds, deGrom vs. Angels, and Skenes vs. Braves all stand out. Prop markets thin but playable in high-total games.",
-      "executive_summary": "Tarik Skubal back from elbow surgery and dealing again headlines a 17-game MLB board with no basketball or hockey to distract us. The Tigers-A's matchup at Comerica features the two-time Cy Young winner against an overmatched Oakland lineup, and the under at 8 is the cleanest spot on the slate. Zack Wheeler's post-TOS dominance continues in Cincinnati, where the Phillies -1.5 run line offers value against a struggling Andrew Abbott. The ladder rides with Wheeler and the Phillies \u2014 elite pitcher, hitter-friendly park working in his favor, and a Reds offense that can't touch elite right-handers. Six plays today, all grounded in pitching edges.",
-      "slate_analysis": "The board features 17 MLB games spread across the afternoon and evening, with no NBA or NHL to supplement. Pricing is tight across most matchups \u2014 only LAD-COL shows significant separation, and that one's too juiced to touch on the side. The totals market offers more texture, with several games sitting at 8 or below where pitching edges can translate.\n\nTop candidates that earned a hard look: Detroit-Oakland (Skubal vs. Ginn, under 8), Philadelphia-Cincinnati (Wheeler vs. Abbott, Phillies -1.5), Pittsburgh-Atlanta (Skenes vs. Waldrep, Pirates ML), Texas-LAA (deGrom vs. Soriano, under 7), Miami-Seattle (Meyer at home, under 8), and the Dodgers-Rockies total (Wrobleski vs. Lorenzen, under 9.5). I also scanned the K props for Wheeler, Skubal, and deGrom, plus total bases props in the higher-total games.\n\nWhat got cut: The Dodgers-Rockies under looked appealing with Wrobleski's 2.80 ERA, but Lorenzen's 6.91 ERA and 1.81 WHIP create too much variance \u2014 the Dodgers could hang 8 runs by themselves. The Pirates-Braves side was tempting with Skenes at home against a rookie, but Skenes' recent struggles (0-6 in last 9 starts, velocity down, spin rate declining) and Waldrep's tiny sample (7.1 IP) made the data confidence too low. The Mets-Royals game lacks a confirmed home starter, killing that angle. The MIL-STL doubleheader Game 1 had data confidence at 0.4 with thin pitcher profiles. The SF-TOR under looked clean but Spencer Miles' 54 IP sample is borderline.\n\nThe final six: Detroit Under 8 (Skubal's elite K% and walk rate against a weak A's lineup), Phillies -1.5 (Wheeler's dominance post-surgery against Abbott's control issues), Texas Under 7 (deGrom's home splits are elite, Soriano walks too many), Miami Under 8 (Meyer's 2.53 ERA in a pitcher's park against Seattle's anemic offense), Wheeler Ks Over 7.5 (Reds K% is exploitable, Wheeler averaging 6.2 K/start), and Skubal Ks Under 6.5 (A's don't strike out, Skubal still building back pitch count). The ladder pick is Phillies -1.5 \u2014 Wheeler's floor is the highest on the board, the Reds can't hit elite RHP, and the run line lands at -108 in the even-money band.",
-      "slate_vibe": "NORMAL",
-      "published_at": "2026-07-07T13:15:43.517984-04:00"
-    },
-    {
-      "id": "20260707-MLB-SEA-MIA-TOTAL",
-      "sport": "MLB",
-      "game": "SEA @ MIA",
-      "first_pitch_iso": "2026-07-07T22:40Z",
-      "pick": "Under 8.0",
-      "best_book": "DraftKings",
-      "best_odds": "-114",
-      "book_prices": {
-        "draftkings": "-114",
-        "fanduel": "-115",
-        "betmgm": "-115"
-      },
-      "book_links": {
-        "fanduel": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.590483327&selectionId=7017906",
-        "draftkings": "https://sportsbook.draftkings.com/?outcomes=0OU85398690U800_3",
-        "betmgm": "https://sports.nj.betmgm.com/en/sports?options=19768149-1539628033-2243929155&type=Single"
-      },
-      "market": "TOTAL",
-      "confidence": 3,
-      "units": 1.0,
-      "win_probability": 0.56,
-      "ladder_designation": false,
-      "data_confidence": 0.68,
-      "rules_passed": [
-        "max_juice",
-        "ladder_even_money",
-        "parlay_well_formed",
-        "confidence_units_match",
-        "data_confidence_floor",
-        "pick_type_allowed",
-        "mlb_hr_prop_check",
-        "mlb_pitcher_k_check",
-        "mlb_total_bases_check",
-        "mlb_hits_check",
-        "nba_player_prop_check",
-        "nhl_shots_check",
-        "mlb_run_line_check",
-        "mlb_under_bb_check",
-        "no_same_game_opposite"
-      ],
-      "locked": true,
-      "late_add": false,
-      "late_add_reason": "",
-      "bonus_pick": false,
-      "event_type": "",
-      "event_name": "",
-      "legs": [],
-      "headline": "Max Meyer's breakout season continues at pitcher-friendly loanDepot park against Seattle's anemic offense.",
-      "the_thesis": "Max Meyer has been one of baseball's best stories in 2026 \u2014 a 2.53 ERA with a 0.87 HR/9 through 103 innings. He's thriving at loanDepot park, which suppresses runs (0.94 PF) and home runs (0.86 PF) better than almost any venue in baseball. The Marlins' home park is where offense goes to die.\n\nSeattle's offense ranks bottom-5 in runs per game (4.09) and has struggled all season to generate consistent production. The Mariners don't have a confirmed starter in the IntelPack, but even a bullpen game favors the under in this environment.\n\nThe under 8 at -114 implies 53.3% probability. I have this at 56% \u2014 modest edge, but the park and Meyer's profile make this a clean spot.",
-      "the_data": [
-        {
-          "label": "Meyer ERA (season)",
-          "value": "2.53",
-          "context": "Breakout year, elite"
-        },
-        {
-          "label": "Meyer HR/9",
-          "value": "0.87",
-          "context": "Keeps ball in park"
-        },
-        {
-          "label": "loanDepot park PF (runs)",
-          "value": "0.94",
-          "context": "Pitcher-friendly"
-        },
-        {
-          "label": "loanDepot park PF (HR)",
-          "value": "0.86",
-          "context": "HR-suppressing"
-        },
-        {
-          "label": "Mariners R/G",
-          "value": "4.09",
-          "context": "Bottom-5 in MLB"
-        }
-      ],
-      "the_market": "Total opened at 8.0 and has held. The signal flagged this as a pitcher-friendly park play. No sharp movement either way.",
-      "weather_park": "loanDepot park is a dome \u2014 no weather impact. The park is one of the most pitcher-friendly in baseball.",
-      "case_against": "Seattle's starter is TBD, which adds variance. If the Mariners go with a bullpen game and it goes sideways, the Marlins could pile on. Meyer's WHIP (1.11) suggests he allows baserunners \u2014 if they start coming around, the over is in play.",
-      "what_were_betting_on": "Meyer going 6+ innings with 2 or fewer runs, Seattle's offense staying cold, and the park suppressing any late-game rallies.",
-      "scott_bot_quip": "loanDepot park: where fly balls go to refinance.",
-      "ladder_note": "",
-      "date": "2026-07-07",
-      "status": "PEND",
-      "units_result": null,
-      "clv_cents": null,
-      "result_score": null,
-      "graded_at": null,
-      "slate_assessment": "17-game MLB slate with no NBA or NHL action. Pitching matchups drive the board \u2014 Skubal vs. A's, Wheeler vs. Reds, deGrom vs. Angels, and Skenes vs. Braves all stand out. Prop markets thin but playable in high-total games.",
-      "executive_summary": "Tarik Skubal back from elbow surgery and dealing again headlines a 17-game MLB board with no basketball or hockey to distract us. The Tigers-A's matchup at Comerica features the two-time Cy Young winner against an overmatched Oakland lineup, and the under at 8 is the cleanest spot on the slate. Zack Wheeler's post-TOS dominance continues in Cincinnati, where the Phillies -1.5 run line offers value against a struggling Andrew Abbott. The ladder rides with Wheeler and the Phillies \u2014 elite pitcher, hitter-friendly park working in his favor, and a Reds offense that can't touch elite right-handers. Six plays today, all grounded in pitching edges.",
-      "slate_analysis": "The board features 17 MLB games spread across the afternoon and evening, with no NBA or NHL to supplement. Pricing is tight across most matchups \u2014 only LAD-COL shows significant separation, and that one's too juiced to touch on the side. The totals market offers more texture, with several games sitting at 8 or below where pitching edges can translate.\n\nTop candidates that earned a hard look: Detroit-Oakland (Skubal vs. Ginn, under 8), Philadelphia-Cincinnati (Wheeler vs. Abbott, Phillies -1.5), Pittsburgh-Atlanta (Skenes vs. Waldrep, Pirates ML), Texas-LAA (deGrom vs. Soriano, under 7), Miami-Seattle (Meyer at home, under 8), and the Dodgers-Rockies total (Wrobleski vs. Lorenzen, under 9.5). I also scanned the K props for Wheeler, Skubal, and deGrom, plus total bases props in the higher-total games.\n\nWhat got cut: The Dodgers-Rockies under looked appealing with Wrobleski's 2.80 ERA, but Lorenzen's 6.91 ERA and 1.81 WHIP create too much variance \u2014 the Dodgers could hang 8 runs by themselves. The Pirates-Braves side was tempting with Skenes at home against a rookie, but Skenes' recent struggles (0-6 in last 9 starts, velocity down, spin rate declining) and Waldrep's tiny sample (7.1 IP) made the data confidence too low. The Mets-Royals game lacks a confirmed home starter, killing that angle. The MIL-STL doubleheader Game 1 had data confidence at 0.4 with thin pitcher profiles. The SF-TOR under looked clean but Spencer Miles' 54 IP sample is borderline.\n\nThe final six: Detroit Under 8 (Skubal's elite K% and walk rate against a weak A's lineup), Phillies -1.5 (Wheeler's dominance post-surgery against Abbott's control issues), Texas Under 7 (deGrom's home splits are elite, Soriano walks too many), Miami Under 8 (Meyer's 2.53 ERA in a pitcher's park against Seattle's anemic offense), Wheeler Ks Over 7.5 (Reds K% is exploitable, Wheeler averaging 6.2 K/start), and Skubal Ks Under 6.5 (A's don't strike out, Skubal still building back pitch count). The ladder pick is Phillies -1.5 \u2014 Wheeler's floor is the highest on the board, the Reds can't hit elite RHP, and the run line lands at -108 in the even-money band.",
-      "slate_vibe": "NORMAL",
-      "published_at": "2026-07-07T13:15:43.517885-04:00"
-    },
-    {
-      "id": "20260707-MLB-LAA-TEX-TOTAL",
-      "sport": "MLB",
-      "game": "LAA @ TEX",
-      "first_pitch_iso": "2026-07-08T00:05Z",
-      "pick": "Under 7.0",
-      "best_book": "FanDuel",
-      "best_odds": "-105",
-      "book_prices": {
-        "draftkings": "-108",
-        "fanduel": "-105",
-        "betmgm": "-105"
-      },
-      "book_links": {
-        "fanduel": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.590483726&selectionId=7017906",
-        "draftkings": "https://sportsbook.draftkings.com/?outcomes=0OU85398699U700_3",
-        "betmgm": "https://sports.nj.betmgm.com/en/sports?options=19766996-1539578233-2243818043&type=Single"
-      },
-      "market": "TOTAL",
-      "confidence": 4,
-      "units": 1.5,
-      "win_probability": 0.59,
-      "ladder_designation": false,
-      "data_confidence": 0.7,
-      "rules_passed": [
-        "max_juice",
-        "ladder_even_money",
-        "parlay_well_formed",
-        "confidence_units_match",
-        "data_confidence_floor",
-        "pick_type_allowed",
-        "mlb_hr_prop_check",
-        "mlb_pitcher_k_check",
-        "mlb_total_bases_check",
-        "mlb_hits_check",
-        "nba_player_prop_check",
-        "nhl_shots_check",
-        "mlb_run_line_check",
-        "mlb_under_bb_check(soft)",
-        "no_same_game_opposite"
-      ],
-      "locked": true,
-      "late_add": false,
-      "late_add_reason": "",
-      "bonus_pick": false,
-      "event_type": "",
-      "event_name": "",
-      "legs": [],
-      "headline": "deGrom's home splits are elite, and Soriano walks too many to trust the over.",
-      "the_thesis": "Jacob deGrom has been vintage at Globe Life Field this season \u2014 3-1 with a 1.28 ERA in six home starts, striking out 43 in 35.2 innings. His recent outing against Cleveland saw him touch 100.5 mph, his fastest since before his 2023 elbow surgery. The 37-year-old is healthy and dealing.\n\nJos\u00e9 Soriano has been solid (3.42 ERA) but his 11.6% walk rate creates traffic that can turn into crooked numbers. However, the Angels' offense ranks dead last in MLB in home runs and can't punish mistakes. Texas scores just 4.08 R/G \u2014 both offenses are anemic.\n\nThe total at 7 is the lowest on the board, but it's justified. deGrom's home dominance and both teams' offensive limitations make this a 5-4 type game. I have the under at 59% true probability against the 51.2% implied.",
-      "the_data": [
-        {
-          "label": "deGrom home ERA (2026)",
-          "value": "1.28",
-          "context": "Elite, 43 K in 35.2 IP"
-        },
-        {
-          "label": "deGrom velo (recent)",
-          "value": "100.5 mph",
-          "context": "Fastest since pre-2023 surgery"
-        },
-        {
-          "label": "Soriano BB%",
-          "value": "11.6%",
-          "context": "High, creates traffic"
-        },
-        {
-          "label": "Angels HR (season)",
-          "value": "Last in MLB",
-          "context": "Can't punish mistakes"
-        },
-        {
-          "label": "Rangers R/G",
-          "value": "4.08",
-          "context": "Below average"
-        }
-      ],
-      "the_market": "Total opened at 7.0 and hasn't moved. The market respects deGrom at home and both offenses' limitations. Juice is even across books.",
-      "weather_park": "Globe Life Field is a dome \u2014 no weather impact. Park factors are neutral (1.04 runs, 1.05 HR).",
-      "case_against": "deGrom has given up 12 homers in 10 starts this year \u2014 the long ball has been an issue. If Soriano's walks turn into runs, the over comes into play. The Rangers could also break out against a pitcher they've seen before.",
-      "what_were_betting_on": "deGrom going 7 innings with minimal damage, Soriano limiting the Rangers to 2-3 runs, and both bullpens keeping it clean.",
-      "scott_bot_quip": "deGrom at home is still appointment television. The Angels are just the studio audience.",
-      "ladder_note": "",
-      "date": "2026-07-07",
-      "status": "PEND",
-      "units_result": null,
-      "clv_cents": null,
-      "result_score": null,
-      "graded_at": null,
-      "slate_assessment": "17-game MLB slate with no NBA or NHL action. Pitching matchups drive the board \u2014 Skubal vs. A's, Wheeler vs. Reds, deGrom vs. Angels, and Skenes vs. Braves all stand out. Prop markets thin but playable in high-total games.",
-      "executive_summary": "Tarik Skubal back from elbow surgery and dealing again headlines a 17-game MLB board with no basketball or hockey to distract us. The Tigers-A's matchup at Comerica features the two-time Cy Young winner against an overmatched Oakland lineup, and the under at 8 is the cleanest spot on the slate. Zack Wheeler's post-TOS dominance continues in Cincinnati, where the Phillies -1.5 run line offers value against a struggling Andrew Abbott. The ladder rides with Wheeler and the Phillies \u2014 elite pitcher, hitter-friendly park working in his favor, and a Reds offense that can't touch elite right-handers. Six plays today, all grounded in pitching edges.",
-      "slate_analysis": "The board features 17 MLB games spread across the afternoon and evening, with no NBA or NHL to supplement. Pricing is tight across most matchups \u2014 only LAD-COL shows significant separation, and that one's too juiced to touch on the side. The totals market offers more texture, with several games sitting at 8 or below where pitching edges can translate.\n\nTop candidates that earned a hard look: Detroit-Oakland (Skubal vs. Ginn, under 8), Philadelphia-Cincinnati (Wheeler vs. Abbott, Phillies -1.5), Pittsburgh-Atlanta (Skenes vs. Waldrep, Pirates ML), Texas-LAA (deGrom vs. Soriano, under 7), Miami-Seattle (Meyer at home, under 8), and the Dodgers-Rockies total (Wrobleski vs. Lorenzen, under 9.5). I also scanned the K props for Wheeler, Skubal, and deGrom, plus total bases props in the higher-total games.\n\nWhat got cut: The Dodgers-Rockies under looked appealing with Wrobleski's 2.80 ERA, but Lorenzen's 6.91 ERA and 1.81 WHIP create too much variance \u2014 the Dodgers could hang 8 runs by themselves. The Pirates-Braves side was tempting with Skenes at home against a rookie, but Skenes' recent struggles (0-6 in last 9 starts, velocity down, spin rate declining) and Waldrep's tiny sample (7.1 IP) made the data confidence too low. The Mets-Royals game lacks a confirmed home starter, killing that angle. The MIL-STL doubleheader Game 1 had data confidence at 0.4 with thin pitcher profiles. The SF-TOR under looked clean but Spencer Miles' 54 IP sample is borderline.\n\nThe final six: Detroit Under 8 (Skubal's elite K% and walk rate against a weak A's lineup), Phillies -1.5 (Wheeler's dominance post-surgery against Abbott's control issues), Texas Under 7 (deGrom's home splits are elite, Soriano walks too many), Miami Under 8 (Meyer's 2.53 ERA in a pitcher's park against Seattle's anemic offense), Wheeler Ks Over 7.5 (Reds K% is exploitable, Wheeler averaging 6.2 K/start), and Skubal Ks Under 6.5 (A's don't strike out, Skubal still building back pitch count). The ladder pick is Phillies -1.5 \u2014 Wheeler's floor is the highest on the board, the Reds can't hit elite RHP, and the run line lands at -108 in the even-money band.",
-      "slate_vibe": "NORMAL",
-      "published_at": "2026-07-07T13:15:43.517783-04:00"
-    },
-    {
-      "id": "20260707-MLB-PHI-CIN-SPREAD",
-      "sport": "MLB",
-      "game": "PHI @ CIN",
-      "first_pitch_iso": "2026-07-07T23:10Z",
-      "pick": "Philadelphia Phillies -1.5",
-      "best_book": "DraftKings",
-      "best_odds": "-108",
-      "book_prices": {
-        "draftkings": "-108",
-        "fanduel": "-110",
-        "betmgm": "-110"
-      },
-      "book_links": {
-        "draftkings": "https://sportsbook.draftkings.com/?outcomes=0HC85398694N150_3",
-        "fanduel": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.590484970&selectionId=29175",
-        "betmgm": "https://sports.nj.betmgm.com/en/sports?options=19768153-1539628282-2243929652&type=Single"
-      },
-      "market": "SPREAD",
-      "confidence": 5,
-      "units": 2.0,
-      "win_probability": 0.62,
-      "ladder_designation": true,
-      "data_confidence": 0.78,
-      "rules_passed": [
-        "max_juice",
-        "ladder_even_money",
-        "parlay_well_formed",
-        "confidence_units_match",
-        "data_confidence_floor",
-        "pick_type_allowed",
-        "mlb_hr_prop_check",
-        "mlb_pitcher_k_check",
-        "mlb_total_bases_check",
-        "mlb_hits_check",
-        "nba_player_prop_check",
-        "nhl_shots_check",
-        "mlb_run_line_check(soft)",
-        "mlb_under_bb_check",
-        "no_same_game_opposite"
-      ],
-      "locked": true,
-      "late_add": false,
-      "late_add_reason": "",
-      "bonus_pick": false,
-      "event_type": "",
-      "event_name": "",
-      "legs": [],
-      "headline": "Wheeler's post-surgery dominance continues against a Reds lineup that can't touch elite RHP.",
-      "the_thesis": "Zack Wheeler returned from thoracic outlet surgery in late April and has been arguably the best pitcher in the National League since. Through 13 starts, he's 8-1 with a 2.36 ERA, 0.94 WHIP, and 27.3% K rate. He's held hitters to a .580 OPS \u2014 fourth-best in the NL. The 36-year-old has shown zero signs of decline post-surgery.\n\nAndrew Abbott has struggled with control all season (10.8% BB rate) and his 1.42 HR/9 is exploitable at Great American Ball Park, which boosts home runs by 18%. The Reds rank bottom-third in wRC+ against right-handed pitching, and Wheeler's four-seam fastball has been unhittable. The Phillies have won 8 of Wheeler's 13 starts by 2+ runs.\n\nThe run line at -108 implies roughly 52% probability. I have the Phillies covering at 62% \u2014 that's 10 cents of edge, the largest on the board. This is the ladder pick because Wheeler's floor is the highest of any pitcher today.",
-      "the_data": [
-        {
-          "label": "Wheeler ERA (2026)",
-          "value": "2.36",
-          "context": "Elite, 8 quality starts in 10 outings"
-        },
-        {
-          "label": "Wheeler WHIP",
-          "value": "0.94",
-          "context": "Top-10 in MLB"
-        },
-        {
-          "label": "Abbott BB%",
-          "value": "10.8%",
-          "context": "Control issues, walks hurt"
-        },
-        {
-          "label": "GABP HR PF",
-          "value": "1.18",
-          "context": "HR-boosting, but Wheeler limits damage"
-        },
-        {
-          "label": "Reds wRC+ vs RHP",
-          "value": "~92",
-          "context": "Below average"
-        }
-      ],
-      "the_market": "Run line opened at -1.5 and has held steady. The Phillies ML is juiced to -174, pushing value to the run line. Sharp money hasn't moved this number.",
-      "weather_park": "Great American Ball Park is hitter-friendly (1.06 runs PF, 1.18 HR PF), but Wheeler's ability to limit hard contact neutralizes the park effect. Evening game, no weather concerns.",
-      "case_against": "GABP is a bandbox and Abbott could get lucky with some soft contact finding gaps. Wheeler is 36 and coming off major surgery \u2014 any velocity dip mid-game could open the door. The Phillies offense has been inconsistent on the road.",
-      "what_were_betting_on": "Wheeler going 7 innings with 6+ strikeouts, the Phillies scoring 4+ runs against Abbott's shaky command, and the bullpen holding a multi-run lead.",
-      "scott_bot_quip": "Wheeler's throwing darts. Abbott's throwing batting practice.",
-      "ladder_note": "Best floor on the board. Wheeler has been elite post-surgery, the Reds can't hit quality RHP, and the run line lands in the even-money band. This is the ladder.",
-      "date": "2026-07-07",
-      "status": "PEND",
-      "units_result": null,
-      "clv_cents": null,
-      "result_score": null,
-      "graded_at": null,
-      "slate_assessment": "17-game MLB slate with no NBA or NHL action. Pitching matchups drive the board \u2014 Skubal vs. A's, Wheeler vs. Reds, deGrom vs. Angels, and Skenes vs. Braves all stand out. Prop markets thin but playable in high-total games.",
-      "executive_summary": "Tarik Skubal back from elbow surgery and dealing again headlines a 17-game MLB board with no basketball or hockey to distract us. The Tigers-A's matchup at Comerica features the two-time Cy Young winner against an overmatched Oakland lineup, and the under at 8 is the cleanest spot on the slate. Zack Wheeler's post-TOS dominance continues in Cincinnati, where the Phillies -1.5 run line offers value against a struggling Andrew Abbott. The ladder rides with Wheeler and the Phillies \u2014 elite pitcher, hitter-friendly park working in his favor, and a Reds offense that can't touch elite right-handers. Six plays today, all grounded in pitching edges.",
-      "slate_analysis": "The board features 17 MLB games spread across the afternoon and evening, with no NBA or NHL to supplement. Pricing is tight across most matchups \u2014 only LAD-COL shows significant separation, and that one's too juiced to touch on the side. The totals market offers more texture, with several games sitting at 8 or below where pitching edges can translate.\n\nTop candidates that earned a hard look: Detroit-Oakland (Skubal vs. Ginn, under 8), Philadelphia-Cincinnati (Wheeler vs. Abbott, Phillies -1.5), Pittsburgh-Atlanta (Skenes vs. Waldrep, Pirates ML), Texas-LAA (deGrom vs. Soriano, under 7), Miami-Seattle (Meyer at home, under 8), and the Dodgers-Rockies total (Wrobleski vs. Lorenzen, under 9.5). I also scanned the K props for Wheeler, Skubal, and deGrom, plus total bases props in the higher-total games.\n\nWhat got cut: The Dodgers-Rockies under looked appealing with Wrobleski's 2.80 ERA, but Lorenzen's 6.91 ERA and 1.81 WHIP create too much variance \u2014 the Dodgers could hang 8 runs by themselves. The Pirates-Braves side was tempting with Skenes at home against a rookie, but Skenes' recent struggles (0-6 in last 9 starts, velocity down, spin rate declining) and Waldrep's tiny sample (7.1 IP) made the data confidence too low. The Mets-Royals game lacks a confirmed home starter, killing that angle. The MIL-STL doubleheader Game 1 had data confidence at 0.4 with thin pitcher profiles. The SF-TOR under looked clean but Spencer Miles' 54 IP sample is borderline.\n\nThe final six: Detroit Under 8 (Skubal's elite K% and walk rate against a weak A's lineup), Phillies -1.5 (Wheeler's dominance post-surgery against Abbott's control issues), Texas Under 7 (deGrom's home splits are elite, Soriano walks too many), Miami Under 8 (Meyer's 2.53 ERA in a pitcher's park against Seattle's anemic offense), Wheeler Ks Over 7.5 (Reds K% is exploitable, Wheeler averaging 6.2 K/start), and Skubal Ks Under 6.5 (A's don't strike out, Skubal still building back pitch count). The ladder pick is Phillies -1.5 \u2014 Wheeler's floor is the highest on the board, the Reds can't hit elite RHP, and the run line lands at -108 in the even-money band.",
-      "slate_vibe": "NORMAL",
-      "published_at": "2026-07-07T13:15:43.517670-04:00"
-    },
-    {
-      "id": "20260707-MLB-ATH-DET-TOTAL",
-      "sport": "MLB",
-      "game": "ATH @ DET",
-      "first_pitch_iso": "2026-07-07T22:40Z",
-      "pick": "Under 8.0",
-      "best_book": "FanDuel",
-      "best_odds": "-105",
-      "book_prices": {
-        "draftkings": "-107",
-        "fanduel": "-105",
-        "betmgm": "-105"
-      },
-      "book_links": {
-        "fanduel": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.590480859&selectionId=7017906",
-        "draftkings": "https://sportsbook.draftkings.com/?outcomes=0OU85398689U800_3",
-        "betmgm": "https://sports.nj.betmgm.com/en/sports?options=19768147-1539627903-2243928895&type=Single"
-      },
-      "market": "TOTAL",
-      "confidence": 4,
-      "units": 1.5,
-      "win_probability": 0.58,
-      "ladder_designation": false,
-      "data_confidence": 0.72,
-      "rules_passed": [
-        "max_juice",
-        "ladder_even_money",
-        "parlay_well_formed",
-        "confidence_units_match",
-        "data_confidence_floor",
-        "pick_type_allowed",
-        "mlb_hr_prop_check",
-        "mlb_pitcher_k_check",
-        "mlb_total_bases_check",
-        "mlb_hits_check",
-        "nba_player_prop_check",
-        "nhl_shots_check",
-        "mlb_run_line_check",
-        "mlb_under_bb_check(soft)",
-        "no_same_game_opposite"
-      ],
-      "locked": true,
-      "late_add": false,
-      "late_add_reason": "",
-      "bonus_pick": false,
-      "event_type": "",
-      "event_name": "",
-      "legs": [],
-      "headline": "Skubal back and dealing against an overmatched A's lineup at pitcher-friendly Comerica.",
-      "the_thesis": "Tarik Skubal returned from elbow surgery in mid-June and has been sharp \u2014 a 3.15 ERA with a 0.91 WHIP and elite 29.5% K rate against just 3.1% walks. That K-BB differential is the best in baseball among qualified starters. The A's rank bottom-10 in wRC+ against left-handed pitching and don't have the lineup depth to string together rallies against a pitcher of Skubal's caliber.\n\nJ.T. Ginn has been solid for Oakland (3.04 ERA) but walks too many batters (10.4% BB rate) to trust in a low-scoring environment. Detroit's offense is middling (4.21 R/G) and won't bail out the over. Comerica Park suppresses runs (0.96 PF) and the total opened at 8 and hasn't moved \u2014 the market agrees this is a pitching duel.\n\nThe under 8 at -105 gives us roughly 51.2% implied probability. I have this at 58% true probability based on Skubal's dominance and the A's offensive limitations. That's nearly 7 cents of edge.",
-      "the_data": [
-        {
-          "label": "Skubal K% / BB%",
-          "value": "29.5% / 3.1%",
-          "context": "Elite, best K-BB differential in MLB"
-        },
-        {
-          "label": "Skubal WHIP (season)",
-          "value": "0.91",
-          "context": "Top-5 in baseball"
-        },
-        {
-          "label": "A's R/G (season)",
-          "value": "4.62",
-          "context": "Below average"
-        },
-        {
-          "label": "Comerica Park PF (runs)",
-          "value": "0.96",
-          "context": "Pitcher-friendly"
-        },
-        {
-          "label": "Ginn BB%",
-          "value": "10.4%",
-          "context": "Concerning, limits deep counts"
-        }
-      ],
-      "the_market": "Total opened at 8.0 and has held across all three books. No movement suggests sharp money hasn't found an angle either way, but the juice is slightly favoring the under at FanDuel.",
-      "weather_park": "Comerica Park is a neutral-to-pitcher-friendly venue with a 0.96 runs PF. No weather concerns for this indoor-adjacent evening game.",
-      "case_against": "Skubal is still building back from surgery and could be on a soft pitch count. If he exits after 5 innings, the Tigers' bullpen has been inconsistent. Ginn's walk rate could also lead to traffic that turns into runs if Detroit's bats wake up.",
-      "what_were_betting_on": "Skubal going 6+ innings with 7+ strikeouts, the A's failing to string together hits, and both bullpens keeping it clean late.",
-      "scott_bot_quip": "The A's brought a knife to a Skubal fight.",
-      "ladder_note": "",
-      "date": "2026-07-07",
-      "status": "PEND",
-      "units_result": null,
-      "clv_cents": null,
-      "result_score": null,
-      "graded_at": null,
-      "slate_assessment": "17-game MLB slate with no NBA or NHL action. Pitching matchups drive the board \u2014 Skubal vs. A's, Wheeler vs. Reds, deGrom vs. Angels, and Skenes vs. Braves all stand out. Prop markets thin but playable in high-total games.",
-      "executive_summary": "Tarik Skubal back from elbow surgery and dealing again headlines a 17-game MLB board with no basketball or hockey to distract us. The Tigers-A's matchup at Comerica features the two-time Cy Young winner against an overmatched Oakland lineup, and the under at 8 is the cleanest spot on the slate. Zack Wheeler's post-TOS dominance continues in Cincinnati, where the Phillies -1.5 run line offers value against a struggling Andrew Abbott. The ladder rides with Wheeler and the Phillies \u2014 elite pitcher, hitter-friendly park working in his favor, and a Reds offense that can't touch elite right-handers. Six plays today, all grounded in pitching edges.",
-      "slate_analysis": "The board features 17 MLB games spread across the afternoon and evening, with no NBA or NHL to supplement. Pricing is tight across most matchups \u2014 only LAD-COL shows significant separation, and that one's too juiced to touch on the side. The totals market offers more texture, with several games sitting at 8 or below where pitching edges can translate.\n\nTop candidates that earned a hard look: Detroit-Oakland (Skubal vs. Ginn, under 8), Philadelphia-Cincinnati (Wheeler vs. Abbott, Phillies -1.5), Pittsburgh-Atlanta (Skenes vs. Waldrep, Pirates ML), Texas-LAA (deGrom vs. Soriano, under 7), Miami-Seattle (Meyer at home, under 8), and the Dodgers-Rockies total (Wrobleski vs. Lorenzen, under 9.5). I also scanned the K props for Wheeler, Skubal, and deGrom, plus total bases props in the higher-total games.\n\nWhat got cut: The Dodgers-Rockies under looked appealing with Wrobleski's 2.80 ERA, but Lorenzen's 6.91 ERA and 1.81 WHIP create too much variance \u2014 the Dodgers could hang 8 runs by themselves. The Pirates-Braves side was tempting with Skenes at home against a rookie, but Skenes' recent struggles (0-6 in last 9 starts, velocity down, spin rate declining) and Waldrep's tiny sample (7.1 IP) made the data confidence too low. The Mets-Royals game lacks a confirmed home starter, killing that angle. The MIL-STL doubleheader Game 1 had data confidence at 0.4 with thin pitcher profiles. The SF-TOR under looked clean but Spencer Miles' 54 IP sample is borderline.\n\nThe final six: Detroit Under 8 (Skubal's elite K% and walk rate against a weak A's lineup), Phillies -1.5 (Wheeler's dominance post-surgery against Abbott's control issues), Texas Under 7 (deGrom's home splits are elite, Soriano walks too many), Miami Under 8 (Meyer's 2.53 ERA in a pitcher's park against Seattle's anemic offense), Wheeler Ks Over 7.5 (Reds K% is exploitable, Wheeler averaging 6.2 K/start), and Skubal Ks Under 6.5 (A's don't strike out, Skubal still building back pitch count). The ladder pick is Phillies -1.5 \u2014 Wheeler's floor is the highest on the board, the Reds can't hit elite RHP, and the run line lands at -108 in the even-money band.",
-      "slate_vibe": "NORMAL",
-      "published_at": "2026-07-07T13:15:43.517528-04:00"
-    }
-  ],
+  "today_picks": [],
   "today_bonus_picks": [],
   "all_picks": [
     {
@@ -661,16 +90,22 @@
       "scott_bot_quip": "The A's don't strike out. They just make weak contact and call it a strategy.",
       "ladder_note": "",
       "date": "2026-07-07",
-      "status": "PEND",
-      "units_result": null,
+      "status": "LOSS",
+      "units_result": -1.0,
       "clv_cents": null,
-      "result_score": null,
-      "graded_at": null,
+      "result_score": "Tarik Skubal: 9 strikeOuts",
+      "graded_at": "2026-07-08T02:04:19.226562-04:00",
       "slate_assessment": "17-game MLB slate with no NBA or NHL action. Pitching matchups drive the board \u2014 Skubal vs. A's, Wheeler vs. Reds, deGrom vs. Angels, and Skenes vs. Braves all stand out. Prop markets thin but playable in high-total games.",
       "executive_summary": "Tarik Skubal back from elbow surgery and dealing again headlines a 17-game MLB board with no basketball or hockey to distract us. The Tigers-A's matchup at Comerica features the two-time Cy Young winner against an overmatched Oakland lineup, and the under at 8 is the cleanest spot on the slate. Zack Wheeler's post-TOS dominance continues in Cincinnati, where the Phillies -1.5 run line offers value against a struggling Andrew Abbott. The ladder rides with Wheeler and the Phillies \u2014 elite pitcher, hitter-friendly park working in his favor, and a Reds offense that can't touch elite right-handers. Six plays today, all grounded in pitching edges.",
       "slate_analysis": "The board features 17 MLB games spread across the afternoon and evening, with no NBA or NHL to supplement. Pricing is tight across most matchups \u2014 only LAD-COL shows significant separation, and that one's too juiced to touch on the side. The totals market offers more texture, with several games sitting at 8 or below where pitching edges can translate.\n\nTop candidates that earned a hard look: Detroit-Oakland (Skubal vs. Ginn, under 8), Philadelphia-Cincinnati (Wheeler vs. Abbott, Phillies -1.5), Pittsburgh-Atlanta (Skenes vs. Waldrep, Pirates ML), Texas-LAA (deGrom vs. Soriano, under 7), Miami-Seattle (Meyer at home, under 8), and the Dodgers-Rockies total (Wrobleski vs. Lorenzen, under 9.5). I also scanned the K props for Wheeler, Skubal, and deGrom, plus total bases props in the higher-total games.\n\nWhat got cut: The Dodgers-Rockies under looked appealing with Wrobleski's 2.80 ERA, but Lorenzen's 6.91 ERA and 1.81 WHIP create too much variance \u2014 the Dodgers could hang 8 runs by themselves. The Pirates-Braves side was tempting with Skenes at home against a rookie, but Skenes' recent struggles (0-6 in last 9 starts, velocity down, spin rate declining) and Waldrep's tiny sample (7.1 IP) made the data confidence too low. The Mets-Royals game lacks a confirmed home starter, killing that angle. The MIL-STL doubleheader Game 1 had data confidence at 0.4 with thin pitcher profiles. The SF-TOR under looked clean but Spencer Miles' 54 IP sample is borderline.\n\nThe final six: Detroit Under 8 (Skubal's elite K% and walk rate against a weak A's lineup), Phillies -1.5 (Wheeler's dominance post-surgery against Abbott's control issues), Texas Under 7 (deGrom's home splits are elite, Soriano walks too many), Miami Under 8 (Meyer's 2.53 ERA in a pitcher's park against Seattle's anemic offense), Wheeler Ks Over 7.5 (Reds K% is exploitable, Wheeler averaging 6.2 K/start), and Skubal Ks Under 6.5 (A's don't strike out, Skubal still building back pitch count). The ladder pick is Phillies -1.5 \u2014 Wheeler's floor is the highest on the board, the Reds can't hit elite RHP, and the run line lands at -108 in the even-money band.",
       "slate_vibe": "NORMAL",
-      "published_at": "2026-07-07T13:15:43.518120-04:00"
+      "published_at": "2026-07-07T13:15:43.518120-04:00",
+      "autopsy": {
+        "classification": "MODEL",
+        "post_mortem": "The pitch-count ceiling thesis collapsed because Skubal's elite stuff overwhelmed the A's even within a constrained outing. He struck out the side in the first inning and finished with 9 Ks on just 96 pitches across 5 innings \u2014 getting 22 swings-and-misses on 52 swings. The A's 'contact-oriented' profile was real on paper, but Skubal's 98-99 mph heaters late in the outing exposed the flaw in the model: a limited pitch count doesn't cap strikeouts if the pitcher is generating whiffs at an elite rate per batter faced. The thesis conflated 'fewer innings = fewer Ks' with 'fewer Ks per inning,' and those are not the same thing.",
+        "candidate_rule": "When a pitcher's SwStr% is elite (>15%), do not fade their K prop solely on pitch-count concerns \u2014 model expected Ks per batter faced, not just expected innings, and require the opposing lineup's contact rate to be bottom-5 (not merely bottom-10) before treating it as a meaningful suppressor; N=1, insufficient to establish rule.",
+        "sample_size_warning": "N=1, insufficient to establish rule \u2014 one start where Skubal ran hot on whiff rate inside a short outing. Need to see whether pitch-count-limited starts consistently produce high K/IP before adjusting the model."
+      }
     },
     {
       "id": "20260707-MLB-PHI-CIN-PROP-ZACKWHEELER",
@@ -756,11 +191,11 @@
       "scott_bot_quip": "The Reds are about to learn what TOS stands for: Tons Of Strikeouts.",
       "ladder_note": "",
       "date": "2026-07-07",
-      "status": "PEND",
-      "units_result": null,
+      "status": "WIN",
+      "units_result": 1.2,
       "clv_cents": null,
-      "result_score": null,
-      "graded_at": null,
+      "result_score": "Zack Wheeler: 14 strikeOuts",
+      "graded_at": "2026-07-08T02:04:32.455375-04:00",
       "slate_assessment": "17-game MLB slate with no NBA or NHL action. Pitching matchups drive the board \u2014 Skubal vs. A's, Wheeler vs. Reds, deGrom vs. Angels, and Skenes vs. Braves all stand out. Prop markets thin but playable in high-total games.",
       "executive_summary": "Tarik Skubal back from elbow surgery and dealing again headlines a 17-game MLB board with no basketball or hockey to distract us. The Tigers-A's matchup at Comerica features the two-time Cy Young winner against an overmatched Oakland lineup, and the under at 8 is the cleanest spot on the slate. Zack Wheeler's post-TOS dominance continues in Cincinnati, where the Phillies -1.5 run line offers value against a struggling Andrew Abbott. The ladder rides with Wheeler and the Phillies \u2014 elite pitcher, hitter-friendly park working in his favor, and a Reds offense that can't touch elite right-handers. Six plays today, all grounded in pitching edges.",
       "slate_analysis": "The board features 17 MLB games spread across the afternoon and evening, with no NBA or NHL to supplement. Pricing is tight across most matchups \u2014 only LAD-COL shows significant separation, and that one's too juiced to touch on the side. The totals market offers more texture, with several games sitting at 8 or below where pitching edges can translate.\n\nTop candidates that earned a hard look: Detroit-Oakland (Skubal vs. Ginn, under 8), Philadelphia-Cincinnati (Wheeler vs. Abbott, Phillies -1.5), Pittsburgh-Atlanta (Skenes vs. Waldrep, Pirates ML), Texas-LAA (deGrom vs. Soriano, under 7), Miami-Seattle (Meyer at home, under 8), and the Dodgers-Rockies total (Wrobleski vs. Lorenzen, under 9.5). I also scanned the K props for Wheeler, Skubal, and deGrom, plus total bases props in the higher-total games.\n\nWhat got cut: The Dodgers-Rockies under looked appealing with Wrobleski's 2.80 ERA, but Lorenzen's 6.91 ERA and 1.81 WHIP create too much variance \u2014 the Dodgers could hang 8 runs by themselves. The Pirates-Braves side was tempting with Skenes at home against a rookie, but Skenes' recent struggles (0-6 in last 9 starts, velocity down, spin rate declining) and Waldrep's tiny sample (7.1 IP) made the data confidence too low. The Mets-Royals game lacks a confirmed home starter, killing that angle. The MIL-STL doubleheader Game 1 had data confidence at 0.4 with thin pitcher profiles. The SF-TOR under looked clean but Spencer Miles' 54 IP sample is borderline.\n\nThe final six: Detroit Under 8 (Skubal's elite K% and walk rate against a weak A's lineup), Phillies -1.5 (Wheeler's dominance post-surgery against Abbott's control issues), Texas Under 7 (deGrom's home splits are elite, Soriano walks too many), Miami Under 8 (Meyer's 2.53 ERA in a pitcher's park against Seattle's anemic offense), Wheeler Ks Over 7.5 (Reds K% is exploitable, Wheeler averaging 6.2 K/start), and Skubal Ks Under 6.5 (A's don't strike out, Skubal still building back pitch count). The ladder pick is Phillies -1.5 \u2014 Wheeler's floor is the highest on the board, the Reds can't hit elite RHP, and the run line lands at -108 in the even-money band.",
@@ -851,16 +286,22 @@
       "scott_bot_quip": "loanDepot park: where fly balls go to refinance.",
       "ladder_note": "",
       "date": "2026-07-07",
-      "status": "PEND",
-      "units_result": null,
+      "status": "LOSS",
+      "units_result": -1.0,
       "clv_cents": null,
-      "result_score": null,
-      "graded_at": null,
+      "result_score": "SEA 5 \u00b7 MIA 6",
+      "graded_at": "2026-07-08T02:04:32.467528-04:00",
       "slate_assessment": "17-game MLB slate with no NBA or NHL action. Pitching matchups drive the board \u2014 Skubal vs. A's, Wheeler vs. Reds, deGrom vs. Angels, and Skenes vs. Braves all stand out. Prop markets thin but playable in high-total games.",
       "executive_summary": "Tarik Skubal back from elbow surgery and dealing again headlines a 17-game MLB board with no basketball or hockey to distract us. The Tigers-A's matchup at Comerica features the two-time Cy Young winner against an overmatched Oakland lineup, and the under at 8 is the cleanest spot on the slate. Zack Wheeler's post-TOS dominance continues in Cincinnati, where the Phillies -1.5 run line offers value against a struggling Andrew Abbott. The ladder rides with Wheeler and the Phillies \u2014 elite pitcher, hitter-friendly park working in his favor, and a Reds offense that can't touch elite right-handers. Six plays today, all grounded in pitching edges.",
       "slate_analysis": "The board features 17 MLB games spread across the afternoon and evening, with no NBA or NHL to supplement. Pricing is tight across most matchups \u2014 only LAD-COL shows significant separation, and that one's too juiced to touch on the side. The totals market offers more texture, with several games sitting at 8 or below where pitching edges can translate.\n\nTop candidates that earned a hard look: Detroit-Oakland (Skubal vs. Ginn, under 8), Philadelphia-Cincinnati (Wheeler vs. Abbott, Phillies -1.5), Pittsburgh-Atlanta (Skenes vs. Waldrep, Pirates ML), Texas-LAA (deGrom vs. Soriano, under 7), Miami-Seattle (Meyer at home, under 8), and the Dodgers-Rockies total (Wrobleski vs. Lorenzen, under 9.5). I also scanned the K props for Wheeler, Skubal, and deGrom, plus total bases props in the higher-total games.\n\nWhat got cut: The Dodgers-Rockies under looked appealing with Wrobleski's 2.80 ERA, but Lorenzen's 6.91 ERA and 1.81 WHIP create too much variance \u2014 the Dodgers could hang 8 runs by themselves. The Pirates-Braves side was tempting with Skenes at home against a rookie, but Skenes' recent struggles (0-6 in last 9 starts, velocity down, spin rate declining) and Waldrep's tiny sample (7.1 IP) made the data confidence too low. The Mets-Royals game lacks a confirmed home starter, killing that angle. The MIL-STL doubleheader Game 1 had data confidence at 0.4 with thin pitcher profiles. The SF-TOR under looked clean but Spencer Miles' 54 IP sample is borderline.\n\nThe final six: Detroit Under 8 (Skubal's elite K% and walk rate against a weak A's lineup), Phillies -1.5 (Wheeler's dominance post-surgery against Abbott's control issues), Texas Under 7 (deGrom's home splits are elite, Soriano walks too many), Miami Under 8 (Meyer's 2.53 ERA in a pitcher's park against Seattle's anemic offense), Wheeler Ks Over 7.5 (Reds K% is exploitable, Wheeler averaging 6.2 K/start), and Skubal Ks Under 6.5 (A's don't strike out, Skubal still building back pitch count). The ladder pick is Phillies -1.5 \u2014 Wheeler's floor is the highest on the board, the Reds can't hit elite RHP, and the run line lands at -108 in the even-money band.",
       "slate_vibe": "NORMAL",
-      "published_at": "2026-07-07T13:15:43.517885-04:00"
+      "published_at": "2026-07-07T13:15:43.517885-04:00",
+      "autopsy": {
+        "classification": "VARIANCE",
+        "post_mortem": "The under was very much alive through seven innings \u2014 Miami built a 4-0 lead and Meyer/the Marlins bullpen were controlling the game. Then Seattle's eighth inning detonated: Cal Raleigh doubled in a run, Josh Naylor choppered through the right side to score Arozarena, and Naylor later scored on a wild pitch by Calvin Faucher to put Seattle up 5-4. Miami pinch-hitter Heriberto Hern\u00e1ndez then answered with a 422-foot solo shot to tie it at 5-5, and the game finished 6-5 \u2014 one run over the total, decided entirely by a three-run Mariners eighth and a late Marlins homer. The thesis (Meyer + park + weak Seattle offense) was sound; the loss was manufactured in a single chaotic inning by a wild pitch and a pinch-hit bomb.",
+        "candidate_rule": null,
+        "sample_size_warning": "N=1, insufficient to establish rule \u2014 this was a clean VARIANCE loss driven by a three-run eighth inning and a wild pitch, not a systematic model or data failure."
+      }
     },
     {
       "id": "20260707-MLB-LAA-TEX-TOTAL",
@@ -946,16 +387,22 @@
       "scott_bot_quip": "deGrom at home is still appointment television. The Angels are just the studio audience.",
       "ladder_note": "",
       "date": "2026-07-07",
-      "status": "PEND",
-      "units_result": null,
+      "status": "LOSS",
+      "units_result": -1.5,
       "clv_cents": null,
-      "result_score": null,
-      "graded_at": null,
+      "result_score": "LAA 3 \u00b7 TEX 8",
+      "graded_at": "2026-07-08T02:04:51.563118-04:00",
       "slate_assessment": "17-game MLB slate with no NBA or NHL action. Pitching matchups drive the board \u2014 Skubal vs. A's, Wheeler vs. Reds, deGrom vs. Angels, and Skenes vs. Braves all stand out. Prop markets thin but playable in high-total games.",
       "executive_summary": "Tarik Skubal back from elbow surgery and dealing again headlines a 17-game MLB board with no basketball or hockey to distract us. The Tigers-A's matchup at Comerica features the two-time Cy Young winner against an overmatched Oakland lineup, and the under at 8 is the cleanest spot on the slate. Zack Wheeler's post-TOS dominance continues in Cincinnati, where the Phillies -1.5 run line offers value against a struggling Andrew Abbott. The ladder rides with Wheeler and the Phillies \u2014 elite pitcher, hitter-friendly park working in his favor, and a Reds offense that can't touch elite right-handers. Six plays today, all grounded in pitching edges.",
       "slate_analysis": "The board features 17 MLB games spread across the afternoon and evening, with no NBA or NHL to supplement. Pricing is tight across most matchups \u2014 only LAD-COL shows significant separation, and that one's too juiced to touch on the side. The totals market offers more texture, with several games sitting at 8 or below where pitching edges can translate.\n\nTop candidates that earned a hard look: Detroit-Oakland (Skubal vs. Ginn, under 8), Philadelphia-Cincinnati (Wheeler vs. Abbott, Phillies -1.5), Pittsburgh-Atlanta (Skenes vs. Waldrep, Pirates ML), Texas-LAA (deGrom vs. Soriano, under 7), Miami-Seattle (Meyer at home, under 8), and the Dodgers-Rockies total (Wrobleski vs. Lorenzen, under 9.5). I also scanned the K props for Wheeler, Skubal, and deGrom, plus total bases props in the higher-total games.\n\nWhat got cut: The Dodgers-Rockies under looked appealing with Wrobleski's 2.80 ERA, but Lorenzen's 6.91 ERA and 1.81 WHIP create too much variance \u2014 the Dodgers could hang 8 runs by themselves. The Pirates-Braves side was tempting with Skenes at home against a rookie, but Skenes' recent struggles (0-6 in last 9 starts, velocity down, spin rate declining) and Waldrep's tiny sample (7.1 IP) made the data confidence too low. The Mets-Royals game lacks a confirmed home starter, killing that angle. The MIL-STL doubleheader Game 1 had data confidence at 0.4 with thin pitcher profiles. The SF-TOR under looked clean but Spencer Miles' 54 IP sample is borderline.\n\nThe final six: Detroit Under 8 (Skubal's elite K% and walk rate against a weak A's lineup), Phillies -1.5 (Wheeler's dominance post-surgery against Abbott's control issues), Texas Under 7 (deGrom's home splits are elite, Soriano walks too many), Miami Under 8 (Meyer's 2.53 ERA in a pitcher's park against Seattle's anemic offense), Wheeler Ks Over 7.5 (Reds K% is exploitable, Wheeler averaging 6.2 K/start), and Skubal Ks Under 6.5 (A's don't strike out, Skubal still building back pitch count). The ladder pick is Phillies -1.5 \u2014 Wheeler's floor is the highest on the board, the Reds can't hit elite RHP, and the run line lands at -108 in the even-money band.",
       "slate_vibe": "NORMAL",
-      "published_at": "2026-07-07T13:15:43.517783-04:00"
+      "published_at": "2026-07-07T13:15:43.517783-04:00",
+      "autopsy": {
+        "classification": "MODEL",
+        "post_mortem": "The thesis was built on a flawed deGrom data point: his season ERA entering the game was 3.48 \u2014 not the 1.28 home ERA cited in the pick \u2014 and his career line vs. the Angels was a damning 5.22 ERA in six starts, including a 9-6 blowup on May 22. The game played out exactly along those fault lines: deGrom surrendered two runs in the first on a Soler double and a Lowe single, and the under was already under pressure at 2-0 before Texas even batted. The Angels led 3-2 through six, but Sam Bachman imploded in the eighth \u2014 Duran and Foscue RBI singles followed by Osuna's three-run homer made it a five-run inning and an 8-3 final, busting the Under 7.0 by four runs.",
+        "candidate_rule": "Before backing a pitcher-driven under, cross-check the starter's career splits vs. the specific opponent \u2014 if ERA vs. that team exceeds 4.50 in 4+ starts, downgrade confidence by at least one tier regardless of season-level home/away splits; N=1, insufficient to establish rule.",
+        "sample_size_warning": "N=1, insufficient to establish rule \u2014 one loss does not confirm the pattern, but the data gap (season home ERA vs. career opponent ERA) is a structural blind spot worth monitoring."
+      }
     },
     {
       "id": "20260707-MLB-PHI-CIN-SPREAD",
@@ -1041,11 +488,11 @@
       "scott_bot_quip": "Wheeler's throwing darts. Abbott's throwing batting practice.",
       "ladder_note": "Best floor on the board. Wheeler has been elite post-surgery, the Reds can't hit quality RHP, and the run line lands in the even-money band. This is the ladder.",
       "date": "2026-07-07",
-      "status": "PEND",
-      "units_result": null,
+      "status": "WIN",
+      "units_result": 1.8519,
       "clv_cents": null,
-      "result_score": null,
-      "graded_at": null,
+      "result_score": "PHI 4 \u00b7 CIN 1",
+      "graded_at": "2026-07-08T02:05:15.247841-04:00",
       "slate_assessment": "17-game MLB slate with no NBA or NHL action. Pitching matchups drive the board \u2014 Skubal vs. A's, Wheeler vs. Reds, deGrom vs. Angels, and Skenes vs. Braves all stand out. Prop markets thin but playable in high-total games.",
       "executive_summary": "Tarik Skubal back from elbow surgery and dealing again headlines a 17-game MLB board with no basketball or hockey to distract us. The Tigers-A's matchup at Comerica features the two-time Cy Young winner against an overmatched Oakland lineup, and the under at 8 is the cleanest spot on the slate. Zack Wheeler's post-TOS dominance continues in Cincinnati, where the Phillies -1.5 run line offers value against a struggling Andrew Abbott. The ladder rides with Wheeler and the Phillies \u2014 elite pitcher, hitter-friendly park working in his favor, and a Reds offense that can't touch elite right-handers. Six plays today, all grounded in pitching edges.",
       "slate_analysis": "The board features 17 MLB games spread across the afternoon and evening, with no NBA or NHL to supplement. Pricing is tight across most matchups \u2014 only LAD-COL shows significant separation, and that one's too juiced to touch on the side. The totals market offers more texture, with several games sitting at 8 or below where pitching edges can translate.\n\nTop candidates that earned a hard look: Detroit-Oakland (Skubal vs. Ginn, under 8), Philadelphia-Cincinnati (Wheeler vs. Abbott, Phillies -1.5), Pittsburgh-Atlanta (Skenes vs. Waldrep, Pirates ML), Texas-LAA (deGrom vs. Soriano, under 7), Miami-Seattle (Meyer at home, under 8), and the Dodgers-Rockies total (Wrobleski vs. Lorenzen, under 9.5). I also scanned the K props for Wheeler, Skubal, and deGrom, plus total bases props in the higher-total games.\n\nWhat got cut: The Dodgers-Rockies under looked appealing with Wrobleski's 2.80 ERA, but Lorenzen's 6.91 ERA and 1.81 WHIP create too much variance \u2014 the Dodgers could hang 8 runs by themselves. The Pirates-Braves side was tempting with Skenes at home against a rookie, but Skenes' recent struggles (0-6 in last 9 starts, velocity down, spin rate declining) and Waldrep's tiny sample (7.1 IP) made the data confidence too low. The Mets-Royals game lacks a confirmed home starter, killing that angle. The MIL-STL doubleheader Game 1 had data confidence at 0.4 with thin pitcher profiles. The SF-TOR under looked clean but Spencer Miles' 54 IP sample is borderline.\n\nThe final six: Detroit Under 8 (Skubal's elite K% and walk rate against a weak A's lineup), Phillies -1.5 (Wheeler's dominance post-surgery against Abbott's control issues), Texas Under 7 (deGrom's home splits are elite, Soriano walks too many), Miami Under 8 (Meyer's 2.53 ERA in a pitcher's park against Seattle's anemic offense), Wheeler Ks Over 7.5 (Reds K% is exploitable, Wheeler averaging 6.2 K/start), and Skubal Ks Under 6.5 (A's don't strike out, Skubal still building back pitch count). The ladder pick is Phillies -1.5 \u2014 Wheeler's floor is the highest on the board, the Reds can't hit elite RHP, and the run line lands at -108 in the even-money band.",
@@ -1136,11 +583,11 @@
       "scott_bot_quip": "The A's brought a knife to a Skubal fight.",
       "ladder_note": "",
       "date": "2026-07-07",
-      "status": "PEND",
-      "units_result": null,
+      "status": "PUSH",
+      "units_result": 0.0,
       "clv_cents": null,
-      "result_score": null,
-      "graded_at": null,
+      "result_score": "ATH 2 \u00b7 DET 6",
+      "graded_at": "2026-07-08T02:05:15.259954-04:00",
       "slate_assessment": "17-game MLB slate with no NBA or NHL action. Pitching matchups drive the board \u2014 Skubal vs. A's, Wheeler vs. Reds, deGrom vs. Angels, and Skenes vs. Braves all stand out. Prop markets thin but playable in high-total games.",
       "executive_summary": "Tarik Skubal back from elbow surgery and dealing again headlines a 17-game MLB board with no basketball or hockey to distract us. The Tigers-A's matchup at Comerica features the two-time Cy Young winner against an overmatched Oakland lineup, and the under at 8 is the cleanest spot on the slate. Zack Wheeler's post-TOS dominance continues in Cincinnati, where the Phillies -1.5 run line offers value against a struggling Andrew Abbott. The ladder rides with Wheeler and the Phillies \u2014 elite pitcher, hitter-friendly park working in his favor, and a Reds offense that can't touch elite right-handers. Six plays today, all grounded in pitching edges.",
       "slate_analysis": "The board features 17 MLB games spread across the afternoon and evening, with no NBA or NHL to supplement. Pricing is tight across most matchups \u2014 only LAD-COL shows significant separation, and that one's too juiced to touch on the side. The totals market offers more texture, with several games sitting at 8 or below where pitching edges can translate.\n\nTop candidates that earned a hard look: Detroit-Oakland (Skubal vs. Ginn, under 8), Philadelphia-Cincinnati (Wheeler vs. Abbott, Phillies -1.5), Pittsburgh-Atlanta (Skenes vs. Waldrep, Pirates ML), Texas-LAA (deGrom vs. Soriano, under 7), Miami-Seattle (Meyer at home, under 8), and the Dodgers-Rockies total (Wrobleski vs. Lorenzen, under 9.5). I also scanned the K props for Wheeler, Skubal, and deGrom, plus total bases props in the higher-total games.\n\nWhat got cut: The Dodgers-Rockies under looked appealing with Wrobleski's 2.80 ERA, but Lorenzen's 6.91 ERA and 1.81 WHIP create too much variance \u2014 the Dodgers could hang 8 runs by themselves. The Pirates-Braves side was tempting with Skenes at home against a rookie, but Skenes' recent struggles (0-6 in last 9 starts, velocity down, spin rate declining) and Waldrep's tiny sample (7.1 IP) made the data confidence too low. The Mets-Royals game lacks a confirmed home starter, killing that angle. The MIL-STL doubleheader Game 1 had data confidence at 0.4 with thin pitcher profiles. The SF-TOR under looked clean but Spencer Miles' 54 IP sample is borderline.\n\nThe final six: Detroit Under 8 (Skubal's elite K% and walk rate against a weak A's lineup), Phillies -1.5 (Wheeler's dominance post-surgery against Abbott's control issues), Texas Under 7 (deGrom's home splits are elite, Soriano walks too many), Miami Under 8 (Meyer's 2.53 ERA in a pitcher's park against Seattle's anemic offense), Wheeler Ks Over 7.5 (Reds K% is exploitable, Wheeler averaging 6.2 K/start), and Skubal Ks Under 6.5 (A's don't strike out, Skubal still building back pitch count). The ladder pick is Phillies -1.5 \u2014 Wheeler's floor is the highest on the board, the Reds can't hit elite RHP, and the run line lands at -108 in the even-money band.",
@@ -17031,11 +16478,19 @@
     }
   ],
   "ladder": {
-    "current_streak": 4,
+    "current_streak": 5,
     "longest_streak": 8,
     "completed_climbs": 0,
     "target": 10,
     "history": [
+      {
+        "date": "2026-07-07",
+        "pick_id": "20260707-MLB-PHI-CIN-SPREAD",
+        "pick": "Philadelphia Phillies -1.5",
+        "game": "PHI @ CIN",
+        "status": "WIN",
+        "after_streak": 5
+      },
       {
         "date": "2026-07-06",
         "pick_id": "20260706-MLB-NYY-TB-ML",
@@ -17325,13 +16780,13 @@
         "after_streak": 1
       }
     ],
-    "updated_at": "2026-07-07T02:53:10.371992-04:00"
+    "updated_at": "2026-07-08T02:05:15.259398-04:00"
   },
   "last_night_recap": {
-    "date": "2026-07-06",
-    "record": "3-2-0",
-    "units_pl": 0.14,
-    "night_summary": "3-2 night, +0.14u \u2014 a profitable card that had no business being close. The two wins that carried it: Cam Schlittler punched out 8 in NYY @ TB (cleared 5.5 with room to spare) and the Yankees backed him up with a clean 5-1 win, notching the ladder's fourth straight. ARI @ SD under 8.5 was never in doubt at 8-0 final. The losses stung differently \u2014 TOR @ SF was a model miss, plain and simple: the under leaned on Gausman as a stabilizing arm while his last-six ERA and velocity decline were both screaming red flags; he was shelled for a 5-run sixth and the game was 8-1 before the ninth. PHI @ KC was pure variance \u2014 S\u00e1nchez, a Cy Young candidate with a 2.00 ERA, had the worst start of his career (9 ER, 3 HR in 3\u2153 innings against the second-worst team in baseball); that one wasn't a bad read, it was a one-in-a-hundred game. Ladder sits at 4 of 10 \u2014 climbing.",
-    "generated_at": "2026-07-07T02:53:46.274829-04:00"
+    "date": "2026-07-07",
+    "record": "2-3-1",
+    "units_pl": -0.45,
+    "night_summary": "2-3-1 night, -0.45u \u2014 a rough one to absorb. The bright spots were real: Wheeler went off for 14 Ks across seven innings in the PHI 4-1 win over CIN, cashing the Over 7.5 at +120 and covering the -1.5 with room to spare. Skubal was a clean MODEL loss \u2014 he struck out the side in the first and finished with 9 Ks on 96 pitches, exposing the flaw in the pitch-count-caps-strikeouts thesis. The SEA/MIA Under was alive through seven before a chaotic Mariners eighth and a pinch-hit Marlins homer made it 6-5 \u2014 variance, not a bad read. The LAA/TEX Under was a MODEL miss from the jump: deGrom gave up two in the first, and Osuna's three-run shot capped a five-run Texas eighth to make it 8-3, busting the total by four. Ladder holds at 5 of 10 \u2014 still climbing.",
+    "generated_at": "2026-07-08T02:05:32.854028-04:00"
   }
 }
