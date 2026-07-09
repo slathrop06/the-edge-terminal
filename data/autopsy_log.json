@@ -1,5 +1,44 @@
 [
   {
+    "id": "20260708-MLB-TOR-SF-TOTAL",
+    "date": "2026-07-08",
+    "pick": "Under 7",
+    "game": "TOR @ SF",
+    "odds": "-112",
+    "result_score": "TOR 10 \u00b7 SF 0",
+    "classification": "MODEL",
+    "post_mortem": "The under died on Logan Webb's side of the ledger, not Cease's. Cease was historically dominant \u2014 8 no-hit innings, 11 Ks, 118 pitches, touched 99 mph in the 8th \u2014 and held SF to zero runs. Webb, however, was lit up for 10 runs, surrendering a Guerrero Jr. homer, a Springer homer, and a Okamoto grand slam. The thesis leaned on Webb's season ERA (3.66) while ignoring a critical red flag that was publicly available pre-game: Webb had just allowed 7 ER on 11 H over 3 IP in his previous start at Coors Field. A starter in that kind of freefall is not a reliable anchor for an under, regardless of park factors.",
+    "candidate_rule": "Before backing an under anchored by two starters, flag any starter who allowed 6+ ER in their most recent outing as a disqualifying condition \u2014 recency of form matters more than season ERA for single-game totals; validate with N\u226520 such starts before hardcoding.",
+    "sample_size_warning": "N=1, insufficient to establish rule \u2014 this is a directional signal only, not a validated pattern.",
+    "analyzed_at": "2026-07-09T02:52:44.647143-04:00"
+  },
+  {
+    "id": "20260708-MLB-PHI-CIN-PROP-CHASEBURNS",
+    "date": "2026-07-08",
+    "pick": "Chase Burns Ks Over 7.5",
+    "game": "PHI @ CIN",
+    "odds": "+126",
+    "result_score": "Chase Burns: 2 strikeOuts",
+    "classification": "VARIANCE",
+    "post_mortem": "Burns walked a career-high six batters in five innings and finished with a season-low-tying two strikeouts \u2014 the Phillies were simply not swinging. The Reds won 11-5 on five home runs, including four in a single fourth inning, but Burns was burning through pitches on walks rather than strikeouts: he walked Crawford and Realmuto back-to-back in the fourth, then opened the fifth by walking Harper and Schwarber consecutively, forcing a short outing at 5 IP. The thesis was sound \u2014 Burns entered 10-1 with a 2.40 ERA and had posted 7+ Ks in 11 of his prior starts \u2014 but on this night the Phillies worked counts and took pitches instead of chasing, collapsing his K opportunity into a walk-fest that ended his night too early to accumulate strikeouts.",
+    "candidate_rule": null,
+    "sample_size_warning": "N=1, insufficient to establish rule. Burns' walk rate entering this start was 2.9 BB/9 \u2014 the six-walk implosion was a clear outlier, not a pattern. Monitor if walk rate trends up post-All-Star break before revisiting K props.",
+    "analyzed_at": "2026-07-09T02:52:23.205006-04:00"
+  },
+  {
+    "id": "20260708-MLB-TOR-SF-ML",
+    "date": "2026-07-08",
+    "pick": "San Francisco Giants ML",
+    "game": "TOR @ SF",
+    "odds": "+101",
+    "result_score": "TOR 10 \u00b7 SF 0",
+    "classification": "MODEL",
+    "post_mortem": "Webb was cooked before the first pitch was thrown. His immediately prior outing \u2014 7 ER on 11 hits in 3 IP in a 15-3 blowout loss to Colorado on Friday \u2014 was publicly available and signaled he was not in 'elite home pitcher' form. The pick leaned on season-long ERA (3.66) while ignoring a pitcher in visible decline. Toronto made it academic in the first inning: Okamoto's grand slam off a Webb sinker put the Blue Jays up 5-0 before the Giants batted, and Cease shut SF out on 11 strikeouts over 8 innings. This wasn't bad luck \u2014 the thesis picked the wrong version of Logan Webb.",
+    "candidate_rule": "Before rostering a SP as the primary thesis driver, check his last 2 starts for ER and IP; if he posted 6+ ER in either, downgrade confidence by at least 1 tier regardless of season ERA \u2014 but enforce only after N\u226510 similar cases to confirm predictive value.",
+    "sample_size_warning": "N=1, insufficient to establish rule. One blowout loss following a rough prior start is noise; pattern requires broader sample before codifying.",
+    "analyzed_at": "2026-07-09T02:52:07.184929-04:00"
+  },
+  {
     "id": "20260707-MLB-LAA-TEX-TOTAL",
     "date": "2026-07-07",
     "pick": "Under 7.0",

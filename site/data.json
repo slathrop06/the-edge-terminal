@@ -1,495 +1,9 @@
 {
-  "generated_at": "2026-07-08T18:01:25.054000-04:00",
-  "today": "2026-07-08",
+  "generated_at": "2026-07-09T02:53:04.036285-04:00",
+  "today": "2026-07-09",
   "system_paused": false,
   "pause_reason": "",
-  "today_picks": [
-    {
-      "id": "20260708-MLB-TOR-SF-ML",
-      "sport": "MLB",
-      "game": "TOR @ SF",
-      "first_pitch_iso": "2026-07-08T19:45Z",
-      "pick": "San Francisco Giants ML",
-      "best_book": "DraftKings",
-      "best_odds": "+101",
-      "book_prices": {
-        "draftkings": "+101",
-        "fanduel": "+100",
-        "betmgm": "+100"
-      },
-      "book_links": {
-        "fanduel": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.590580947&selectionId=29178",
-        "draftkings": "https://sportsbook.draftkings.com/?outcomes=0ML85411476_1",
-        "betmgm": "https://sports.nj.betmgm.com/en/sports?options=19767006-1539578774-2243819197&type=Single"
-      },
-      "market": "ML",
-      "confidence": 3,
-      "units": 1.0,
-      "win_probability": 0.54,
-      "ladder_designation": false,
-      "data_confidence": 0.72,
-      "rules_passed": [
-        "max_juice",
-        "ladder_even_money",
-        "parlay_well_formed",
-        "confidence_units_match",
-        "data_confidence_floor",
-        "pick_type_allowed",
-        "mlb_hr_prop_check",
-        "mlb_pitcher_k_check",
-        "mlb_total_bases_check",
-        "mlb_hits_check",
-        "nba_player_prop_check",
-        "nhl_shots_check",
-        "mlb_run_line_check",
-        "mlb_under_bb_check",
-        "no_same_game_opposite"
-      ],
-      "locked": true,
-      "late_add": false,
-      "late_add_reason": "",
-      "bonus_pick": false,
-      "event_type": "",
-      "event_name": "",
-      "legs": [],
-      "headline": "Logan Webb at home, plus-money, against a Toronto offense that can't score. Take the Giants.",
-      "the_thesis": "Logan Webb is one of the most underrated pitchers in baseball. His 3.66 ERA and 0.68 HR/9 are elite, and he's been even better at Oracle Park where the marine layer and park dimensions play to his groundball-heavy approach. Toronto's offense averages just 3.98 R/G on the season \u2014 that's bottom-third in baseball.\n\nDylan Cease is excellent, but he's on the road against a Giants lineup that's been scrappy at home. The market has this as a pick'em, with San Francisco available at +101 on DraftKings. The de-vigged implied probability is 48% for the Giants \u2014 I have them closer to 54%, which gives us 6 cents of edge.\n\nWebb at home is a different pitcher. He's comfortable in Oracle Park's dimensions and knows how to use the park to his advantage. Toronto's lineup has power (Guerrero Jr., Springer) but struggles against quality pitching. This is a spot where the home team with the better park fit should be favored, not a dog.",
-      "the_data": [
-        {
-          "label": "Webb ERA / HR/9",
-          "value": "3.66 / 0.68",
-          "context": "Elite HR suppression"
-        },
-        {
-          "label": "Webb home splits",
-          "value": "Strong",
-          "context": "Oracle Park fits his style"
-        },
-        {
-          "label": "TOR R/G",
-          "value": "3.98",
-          "context": "Bottom-third in MLB"
-        },
-        {
-          "label": "SF ML price",
-          "value": "+101",
-          "context": "Plus-money at home"
-        },
-        {
-          "label": "Oracle Park PF",
-          "value": "0.93 runs",
-          "context": "Pitcher-friendly"
-        }
-      ],
-      "the_market": "Giants are +101 at DraftKings, essentially a pick'em. Market is undervaluing Webb at home.",
-      "weather_park": "Oracle Park is outdoor with marine layer influence. 0.93 runs PF, 0.85 HR PF \u2014 heavily favors pitching.",
-      "case_against": "Cease is elite and could dominate the Giants' lineup. Toronto's power bats (Guerrero, Springer) can break through any pitcher. If Webb doesn't go deep, San Francisco's bullpen is average.",
-      "what_were_betting_on": "Webb outpitching Cease at home, Oracle Park suppressing Toronto's power, and the Giants scratching out enough runs to win a low-scoring game.",
-      "scott_bot_quip": "Plus-money on the home team with the better park fit and the better HR suppression? Sign us up.",
-      "ladder_note": "",
-      "date": "2026-07-08",
-      "status": "PEND",
-      "units_result": null,
-      "clv_cents": null,
-      "result_score": null,
-      "graded_at": null,
-      "slate_assessment": "17-game MLB slate with no NBA or NHL action. Two elite pitching matchups anchor the board \u2014 Webb vs. Cease at Oracle Park and Burns vs. TBD at GABP \u2014 plus a strong under spot at the Trop and a sharp K prop on Chase Burns.",
-      "executive_summary": "Seventeen MLB games today, no playoff basketball or hockey, and the pitching matchups are the story. Webb vs. Cease at Oracle Park is the cleanest under on the board \u2014 two elite arms, a pitcher-friendly park, and a total sitting at just 7. Chase Burns faces a TBD Phillies arm at Great American Ball Park, and his K line at 7.5 is begging for an over given his 30% strikeout rate. The Rays host the Yankees at the Trop with McClanahan vs. Cole, and that under 7 at even money is the ladder pick \u2014 best floor, best park, best price. Six plays today, all grounded in pitching and park factors.",
-      "slate_analysis": "Today's board features 17 MLB games spread across the afternoon and evening, with no NBA or NHL playoff action to supplement. The pricing climate is relatively tight \u2014 most favorites sit between -120 and -150, with only the Dodgers (-235 vs. Colorado) and Mets (-172 vs. Kansas City) priced as heavy chalk. The total market is where the edges live today, with several pitcher-friendly parks hosting quality arms.\n\nThe top candidates that rose during my review: (1) TOR @ SF Under 7 \u2014 Webb vs. Cease at Oracle Park, two elite arms, HR-suppressing park, total hasn't moved off 7; (2) NYY @ TB Under 7 \u2014 McClanahan vs. Cole at the Trop, another pitcher-friendly venue, even-money price on the under; (3) Chase Burns Ks Over 7.5 \u2014 Burns has a 30% K rate and has logged 7+ strikeouts in 11 of 14 starts, facing a Phillies lineup without a confirmed starter; (4) MIL @ STL Under 8 \u2014 Kyle Harrison (2.82 ERA, 30.6% K rate) vs. McGreevy at Busch Stadium, HR-suppressing park; (5) SF Giants ML +101 \u2014 Webb at home against a Toronto offense averaging under 4 R/G, plus-money on the home side; (6) Colin Rea Ks Under 4.5 \u2014 Rea's 17.2% K rate is bottom-tier, and Baltimore's lineup doesn't strike out much.\n\nWhat got cut: The Dodgers -235 exceeds our max juice cap for straight bets. The Mets -172 is close to the cap but the data confidence is low (0.4) and Steven Cruz has only 28 IP \u2014 sample too thin to trust. The DET vs. ATH game looked interesting with Troy Melton's 2.05 ERA, but the Tigers ML at -134 doesn't offer enough edge against the de-vigged implied probability. The PIT vs. ATL total was considered, but both starters have elevated BB/9 rates (Jared Jones 8.7%, Grant Holmes 10.7%), which flags under risk per our validator rules.\n\nThe final six picks survived because they combine elite pitching, favorable park factors, and market prices that offer at least 8 cents of edge. The Webb/Cease under at Oracle is the cleanest spot \u2014 two aces, a park that suppresses runs (0.93 PF), and a total that hasn't budged. The McClanahan/Cole under at the Trop is the ladder pick: even-money price, indoor pitcher-friendly venue, and two starters who limit damage. Burns Ks Over 7.5 is the sharpest prop play \u2014 his 30% K rate and track record of 7+ Ks in 11 of 14 starts make this a high-floor prop. Harrison vs. McGreevy under 8 at Busch is another pitcher-driven under with HR-suppressing park factors. Giants ML at +101 offers value on Webb at home. Rea Ks Under 4.5 rounds out the card as a low-K pitcher facing a contact-oriented lineup.",
-      "slate_vibe": "NORMAL",
-      "published_at": "2026-07-08T12:31:18.360482-04:00"
-    },
-    {
-      "id": "20260708-MLB-MIL-STL-TOTAL",
-      "sport": "MLB",
-      "game": "MIL @ STL",
-      "first_pitch_iso": "2026-07-08T23:45Z",
-      "pick": "Under 8",
-      "best_book": "BetMGM",
-      "best_odds": "-105",
-      "book_prices": {
-        "draftkings": "-107",
-        "fanduel": "-106",
-        "betmgm": "-105"
-      },
-      "book_links": {
-        "fanduel": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.590663485&selectionId=7017906",
-        "draftkings": "https://sportsbook.draftkings.com/?outcomes=0OU85411487U800_3",
-        "betmgm": "https://sports.nj.betmgm.com/en/sports?options=19767017-1539579814-2243821475&type=Single"
-      },
-      "market": "TOTAL",
-      "confidence": 3,
-      "units": 1.0,
-      "win_probability": 0.55,
-      "ladder_designation": false,
-      "data_confidence": 0.7,
-      "rules_passed": [
-        "max_juice",
-        "ladder_even_money",
-        "parlay_well_formed",
-        "confidence_units_match",
-        "data_confidence_floor",
-        "pick_type_allowed",
-        "mlb_hr_prop_check",
-        "mlb_pitcher_k_check",
-        "mlb_total_bases_check",
-        "mlb_hits_check",
-        "nba_player_prop_check",
-        "nhl_shots_check",
-        "mlb_run_line_check",
-        "mlb_under_bb_check",
-        "no_same_game_opposite"
-      ],
-      "locked": true,
-      "late_add": false,
-      "late_add_reason": "",
-      "bonus_pick": false,
-      "event_type": "",
-      "event_name": "",
-      "legs": [],
-      "headline": "Kyle Harrison's breakout continues at Busch Stadium \u2014 another pitcher-driven under.",
-      "the_thesis": "Kyle Harrison has been one of the best stories in baseball this season. After bouncing between the Giants and Red Sox, he's found a home in Milwaukee and is pitching like an ace: 2.82 ERA, 30.6% K rate, and a 99:20 K:BB ratio through 79.2 innings. He's given up two runs or fewer in 14 of his 15 starts this season.\n\nMichael McGreevy isn't a strikeout pitcher (15.9% K rate), but he's been effective: 3.12 ERA, 1.11 WHIP, and a 1.23 HR/9 that plays well at Busch Stadium (0.93 HR park factor). Both starters have BB/9 rates under 3.5, which clears our validator's under-risk flag.\n\nBusch Stadium suppresses home runs (0.93 PF) and runs (0.97 PF). The total is set at 8, and BetMGM has the under at -105. The de-vigged implied probability is 51% \u2014 I have this at 55%, which gives us 4 cents of edge. That's borderline, but Harrison's dominance and the park factors push this over the line.",
-      "the_data": [
-        {
-          "label": "Harrison ERA / K%",
-          "value": "2.82 / 30.6%",
-          "context": "Breakout season, elite K rate"
-        },
-        {
-          "label": "Harrison 2 ER or fewer",
-          "value": "14 of 15 starts",
-          "context": "Remarkably consistent"
-        },
-        {
-          "label": "McGreevy ERA / WHIP",
-          "value": "3.12 / 1.11",
-          "context": "Solid, contact-oriented"
-        },
-        {
-          "label": "Busch Stadium PF (runs / HR)",
-          "value": "0.97 / 0.93",
-          "context": "Slightly pitcher-friendly"
-        },
-        {
-          "label": "Total line",
-          "value": "8",
-          "context": "Under at -105 on BetMGM"
-        }
-      ],
-      "the_market": "Total opened at 8 and sits at 8 across all books. Under is -105 at BetMGM \u2014 best price available.",
-      "weather_park": "Busch Stadium is outdoor. Park factors favor pitching slightly: 0.97 runs, 0.93 HR.",
-      "case_against": "Milwaukee's offense averages 5.13 R/G \u2014 they can score. McGreevy's low K rate means more balls in play, which introduces variance. If Harrison has an off night (like his June 8 blowup), this could get ugly.",
-      "what_were_betting_on": "Harrison continuing his dominance, McGreevy keeping the ball in the park, and Busch Stadium suppressing damage. Low-scoring NL Central matchup.",
-      "scott_bot_quip": "Harrison's been lights-out in 14 of 15 starts. We're betting on the trend, not the exception.",
-      "ladder_note": "",
-      "date": "2026-07-08",
-      "status": "PEND",
-      "units_result": null,
-      "clv_cents": null,
-      "result_score": null,
-      "graded_at": null,
-      "slate_assessment": "17-game MLB slate with no NBA or NHL action. Two elite pitching matchups anchor the board \u2014 Webb vs. Cease at Oracle Park and Burns vs. TBD at GABP \u2014 plus a strong under spot at the Trop and a sharp K prop on Chase Burns.",
-      "executive_summary": "Seventeen MLB games today, no playoff basketball or hockey, and the pitching matchups are the story. Webb vs. Cease at Oracle Park is the cleanest under on the board \u2014 two elite arms, a pitcher-friendly park, and a total sitting at just 7. Chase Burns faces a TBD Phillies arm at Great American Ball Park, and his K line at 7.5 is begging for an over given his 30% strikeout rate. The Rays host the Yankees at the Trop with McClanahan vs. Cole, and that under 7 at even money is the ladder pick \u2014 best floor, best park, best price. Six plays today, all grounded in pitching and park factors.",
-      "slate_analysis": "Today's board features 17 MLB games spread across the afternoon and evening, with no NBA or NHL playoff action to supplement. The pricing climate is relatively tight \u2014 most favorites sit between -120 and -150, with only the Dodgers (-235 vs. Colorado) and Mets (-172 vs. Kansas City) priced as heavy chalk. The total market is where the edges live today, with several pitcher-friendly parks hosting quality arms.\n\nThe top candidates that rose during my review: (1) TOR @ SF Under 7 \u2014 Webb vs. Cease at Oracle Park, two elite arms, HR-suppressing park, total hasn't moved off 7; (2) NYY @ TB Under 7 \u2014 McClanahan vs. Cole at the Trop, another pitcher-friendly venue, even-money price on the under; (3) Chase Burns Ks Over 7.5 \u2014 Burns has a 30% K rate and has logged 7+ strikeouts in 11 of 14 starts, facing a Phillies lineup without a confirmed starter; (4) MIL @ STL Under 8 \u2014 Kyle Harrison (2.82 ERA, 30.6% K rate) vs. McGreevy at Busch Stadium, HR-suppressing park; (5) SF Giants ML +101 \u2014 Webb at home against a Toronto offense averaging under 4 R/G, plus-money on the home side; (6) Colin Rea Ks Under 4.5 \u2014 Rea's 17.2% K rate is bottom-tier, and Baltimore's lineup doesn't strike out much.\n\nWhat got cut: The Dodgers -235 exceeds our max juice cap for straight bets. The Mets -172 is close to the cap but the data confidence is low (0.4) and Steven Cruz has only 28 IP \u2014 sample too thin to trust. The DET vs. ATH game looked interesting with Troy Melton's 2.05 ERA, but the Tigers ML at -134 doesn't offer enough edge against the de-vigged implied probability. The PIT vs. ATL total was considered, but both starters have elevated BB/9 rates (Jared Jones 8.7%, Grant Holmes 10.7%), which flags under risk per our validator rules.\n\nThe final six picks survived because they combine elite pitching, favorable park factors, and market prices that offer at least 8 cents of edge. The Webb/Cease under at Oracle is the cleanest spot \u2014 two aces, a park that suppresses runs (0.93 PF), and a total that hasn't budged. The McClanahan/Cole under at the Trop is the ladder pick: even-money price, indoor pitcher-friendly venue, and two starters who limit damage. Burns Ks Over 7.5 is the sharpest prop play \u2014 his 30% K rate and track record of 7+ Ks in 11 of 14 starts make this a high-floor prop. Harrison vs. McGreevy under 8 at Busch is another pitcher-driven under with HR-suppressing park factors. Giants ML at +101 offers value on Webb at home. Rea Ks Under 4.5 rounds out the card as a low-K pitcher facing a contact-oriented lineup.",
-      "slate_vibe": "NORMAL",
-      "published_at": "2026-07-08T12:31:18.360379-04:00"
-    },
-    {
-      "id": "20260708-MLB-PHI-CIN-PROP-CHASEBURNS",
-      "sport": "MLB",
-      "game": "PHI @ CIN",
-      "first_pitch_iso": "2026-07-08T23:00Z",
-      "pick": "Chase Burns Ks Over 7.5",
-      "best_book": "FanDuel",
-      "best_odds": "+126",
-      "book_prices": {
-        "draftkings": "+126",
-        "fanduel": "+126",
-        "betmgm": "+126"
-      },
-      "book_links": {
-        "fanduel": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.590673741&selectionId=85205986",
-        "draftkings": "https://sportsbook.draftkings.com/?outcomes=0QA349615196%232206207397_13L84240Q1860273293Q20",
-        "betmgm": "https://sports.nj.betmgm.com/en/sports?options=2:7824944-201362926-763855112&type=Single"
-      },
-      "market": "PROP",
-      "confidence": 4,
-      "units": 1.5,
-      "win_probability": 0.56,
-      "ladder_designation": false,
-      "data_confidence": 0.78,
-      "rules_passed": [
-        "max_juice",
-        "ladder_even_money",
-        "parlay_well_formed",
-        "confidence_units_match",
-        "data_confidence_floor",
-        "pick_type_allowed",
-        "mlb_hr_prop_check",
-        "mlb_pitcher_k_check",
-        "mlb_total_bases_check",
-        "mlb_hits_check",
-        "nba_player_prop_check",
-        "nhl_shots_check",
-        "mlb_run_line_check",
-        "mlb_under_bb_check",
-        "no_same_game_opposite"
-      ],
-      "locked": true,
-      "late_add": false,
-      "late_add_reason": "",
-      "bonus_pick": false,
-      "event_type": "",
-      "event_name": "",
-      "legs": [],
-      "headline": "Chase Burns has 7+ Ks in 11 of 14 starts. The line is 7.5. Do the math.",
-      "the_thesis": "Chase Burns is having a breakout season for the Reds. His numbers are staggering: 2.40 ERA, 29.7% K rate, and 125 strikeouts through 16 starts. He's logged 7 or more strikeouts in 11 of his 14 starts this season \u2014 that's a 78.6% hit rate on this exact prop. The line is set at 7.5 with +126 juice on the over.\n\nThe Phillies haven't announced a starter, which typically means a bullpen game or a spot starter. Either way, Burns won't be facing a lineup that's been prepped for a specific arm. Philadelphia's offense has been middle-of-the-pack in K rate, and Great American Ball Park's hitter-friendly reputation doesn't suppress strikeouts \u2014 it just inflates runs.\n\nBurns' stuff is elite. His fastball touches 102 mph and his slider has a 43.7% whiff rate. He's struck out the side in multiple innings this season and has shown the ability to pile up Ks even when he's not at his sharpest. At +126, we're getting plus-money on a prop that hits nearly 80% of the time.",
-      "the_data": [
-        {
-          "label": "Burns K% (season)",
-          "value": "29.7%",
-          "context": "Elite, top-10 in MLB"
-        },
-        {
-          "label": "Burns 7+ K games",
-          "value": "11 of 14",
-          "context": "78.6% hit rate"
-        },
-        {
-          "label": "Burns K/9",
-          "value": "10.3",
-          "context": "Strikeout machine"
-        },
-        {
-          "label": "Slider whiff%",
-          "value": "43.7%",
-          "context": "Elite swing-and-miss"
-        },
-        {
-          "label": "Line / Price",
-          "value": "7.5 / +126",
-          "context": "Plus-money on high-floor prop"
-        }
-      ],
-      "the_market": "Line is 7.5 across all books with +126 on the over. No movement. Market is undervaluing Burns' K upside.",
-      "weather_park": "Great American Ball Park is hitter-friendly for runs and HRs, but that doesn't suppress strikeouts. Burns' stuff plays anywhere.",
-      "case_against": "If Burns gets into early trouble and exits before the 5th, the K total becomes unreachable. The Phillies could also work deep counts and force him out early. GABP's hitter-friendly nature could lead to hard contact that shortens his outing.",
-      "what_were_betting_on": "Burns going 5+ innings and doing what he's done all season \u2014 missing bats at an elite rate. 7+ Ks is his baseline, not his ceiling.",
-      "scott_bot_quip": "Burns has 7+ Ks in 78% of his starts. The book is offering plus-money. Sometimes the math is just math.",
-      "ladder_note": "",
-      "date": "2026-07-08",
-      "status": "PEND",
-      "units_result": null,
-      "clv_cents": null,
-      "result_score": null,
-      "graded_at": null,
-      "slate_assessment": "17-game MLB slate with no NBA or NHL action. Two elite pitching matchups anchor the board \u2014 Webb vs. Cease at Oracle Park and Burns vs. TBD at GABP \u2014 plus a strong under spot at the Trop and a sharp K prop on Chase Burns.",
-      "executive_summary": "Seventeen MLB games today, no playoff basketball or hockey, and the pitching matchups are the story. Webb vs. Cease at Oracle Park is the cleanest under on the board \u2014 two elite arms, a pitcher-friendly park, and a total sitting at just 7. Chase Burns faces a TBD Phillies arm at Great American Ball Park, and his K line at 7.5 is begging for an over given his 30% strikeout rate. The Rays host the Yankees at the Trop with McClanahan vs. Cole, and that under 7 at even money is the ladder pick \u2014 best floor, best park, best price. Six plays today, all grounded in pitching and park factors.",
-      "slate_analysis": "Today's board features 17 MLB games spread across the afternoon and evening, with no NBA or NHL playoff action to supplement. The pricing climate is relatively tight \u2014 most favorites sit between -120 and -150, with only the Dodgers (-235 vs. Colorado) and Mets (-172 vs. Kansas City) priced as heavy chalk. The total market is where the edges live today, with several pitcher-friendly parks hosting quality arms.\n\nThe top candidates that rose during my review: (1) TOR @ SF Under 7 \u2014 Webb vs. Cease at Oracle Park, two elite arms, HR-suppressing park, total hasn't moved off 7; (2) NYY @ TB Under 7 \u2014 McClanahan vs. Cole at the Trop, another pitcher-friendly venue, even-money price on the under; (3) Chase Burns Ks Over 7.5 \u2014 Burns has a 30% K rate and has logged 7+ strikeouts in 11 of 14 starts, facing a Phillies lineup without a confirmed starter; (4) MIL @ STL Under 8 \u2014 Kyle Harrison (2.82 ERA, 30.6% K rate) vs. McGreevy at Busch Stadium, HR-suppressing park; (5) SF Giants ML +101 \u2014 Webb at home against a Toronto offense averaging under 4 R/G, plus-money on the home side; (6) Colin Rea Ks Under 4.5 \u2014 Rea's 17.2% K rate is bottom-tier, and Baltimore's lineup doesn't strike out much.\n\nWhat got cut: The Dodgers -235 exceeds our max juice cap for straight bets. The Mets -172 is close to the cap but the data confidence is low (0.4) and Steven Cruz has only 28 IP \u2014 sample too thin to trust. The DET vs. ATH game looked interesting with Troy Melton's 2.05 ERA, but the Tigers ML at -134 doesn't offer enough edge against the de-vigged implied probability. The PIT vs. ATL total was considered, but both starters have elevated BB/9 rates (Jared Jones 8.7%, Grant Holmes 10.7%), which flags under risk per our validator rules.\n\nThe final six picks survived because they combine elite pitching, favorable park factors, and market prices that offer at least 8 cents of edge. The Webb/Cease under at Oracle is the cleanest spot \u2014 two aces, a park that suppresses runs (0.93 PF), and a total that hasn't budged. The McClanahan/Cole under at the Trop is the ladder pick: even-money price, indoor pitcher-friendly venue, and two starters who limit damage. Burns Ks Over 7.5 is the sharpest prop play \u2014 his 30% K rate and track record of 7+ Ks in 11 of 14 starts make this a high-floor prop. Harrison vs. McGreevy under 8 at Busch is another pitcher-driven under with HR-suppressing park factors. Giants ML at +101 offers value on Webb at home. Rea Ks Under 4.5 rounds out the card as a low-K pitcher facing a contact-oriented lineup.",
-      "slate_vibe": "NORMAL",
-      "published_at": "2026-07-08T12:31:18.360282-04:00"
-    },
-    {
-      "id": "20260708-MLB-NYY-TB-TOTAL",
-      "sport": "MLB",
-      "game": "NYY @ TB",
-      "first_pitch_iso": "2026-07-08T22:40Z",
-      "pick": "Under 7",
-      "best_book": "FanDuel",
-      "best_odds": "+100",
-      "book_prices": {
-        "draftkings": "-103",
-        "fanduel": "+100",
-        "betmgm": "+100"
-      },
-      "book_links": {
-        "fanduel": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.590662226&selectionId=7017906",
-        "draftkings": "https://sportsbook.draftkings.com/?outcomes=0OU85411481U700_3",
-        "betmgm": "https://sports.nj.betmgm.com/en/sports?options=19767011-1539579251-2243820241&type=Single"
-      },
-      "market": "TOTAL",
-      "confidence": 4,
-      "units": 1.5,
-      "win_probability": 0.57,
-      "ladder_designation": true,
-      "data_confidence": 0.72,
-      "rules_passed": [
-        "max_juice",
-        "ladder_even_money",
-        "parlay_well_formed",
-        "confidence_units_match",
-        "data_confidence_floor",
-        "pick_type_allowed",
-        "mlb_hr_prop_check",
-        "mlb_pitcher_k_check",
-        "mlb_total_bases_check",
-        "mlb_hits_check",
-        "nba_player_prop_check",
-        "nhl_shots_check",
-        "mlb_run_line_check",
-        "mlb_under_bb_check",
-        "no_same_game_opposite"
-      ],
-      "locked": true,
-      "late_add": false,
-      "late_add_reason": "",
-      "bonus_pick": false,
-      "event_type": "",
-      "event_name": "",
-      "legs": [],
-      "headline": "McClanahan vs. Cole at the Trop \u2014 even money on the under is the ladder lock.",
-      "the_thesis": "Shane McClanahan has been the Rays' ace all season: 3.05 ERA, 0.68 HR/9, and a 23.2% K rate. He's pitching at home in Tropicana Field, which carries a 0.95 runs park factor and 0.92 HR factor \u2014 one of the most pitcher-friendly venues in baseball. Gerrit Cole is working his way back to form with a 4.01 ERA, but his 1.71 HR/9 is concerning in most parks. At the Trop, that HR risk is mitigated.\n\nThe total is set at 7, and FanDuel is offering even money on the under. That's rare for a game featuring two quality starters in a pitcher's park. The de-vigged implied probability is 50% \u2014 I have this at 57%, which gives us 7 cents of edge. For a ladder pick that needs to land near even money, this is the highest-floor spot on the board.\n\nTampa's offense averages 4.53 R/G, New York 4.79 \u2014 both slightly above league average, but neither lineup has been explosive lately. McClanahan at home is a different animal, and Cole has the stuff to match zeroes for 5-6 innings.",
-      "the_data": [
-        {
-          "label": "McClanahan ERA / HR/9",
-          "value": "3.05 / 0.68",
-          "context": "Elite, top-15 in MLB"
-        },
-        {
-          "label": "Cole ERA / HR/9",
-          "value": "4.01 / 1.71",
-          "context": "HR-prone but Trop mitigates"
-        },
-        {
-          "label": "Tropicana Field PF (runs / HR)",
-          "value": "0.95 / 0.92",
-          "context": "Pitcher-friendly, HR-suppressing"
-        },
-        {
-          "label": "NYY R/G",
-          "value": "4.79",
-          "context": "Slightly above average"
-        },
-        {
-          "label": "TB R/G",
-          "value": "4.53",
-          "context": "Slightly above average"
-        },
-        {
-          "label": "Under price",
-          "value": "+100",
-          "context": "Even money at FanDuel"
-        }
-      ],
-      "the_market": "Total opened at 7 and hasn't moved. Under is available at even money on FanDuel \u2014 that's the best price on the board for a pitcher-driven under.",
-      "weather_park": "Tropicana Field is a dome. No weather impact. Park factors favor pitching: 0.95 runs, 0.92 HR.",
-      "case_against": "Cole's HR/9 is elevated and the Yankees have power throughout the lineup. If McClanahan doesn't go deep, Tampa's bullpen has been inconsistent. A single crooked inning could sink this.",
-      "what_were_betting_on": "McClanahan dealing at home, Cole matching him for 5-6 innings, and the Trop suppressing any damage. Low-scoring, tight game.",
-      "scott_bot_quip": "Even money on an under at the Trop with two quality arms? That's the floor we're looking for.",
-      "ladder_note": "Best floor on the board today. Even-money price, elite home starter, pitcher-friendly dome, and a total that hasn't moved. This is the ladder pick because it has the fewest variance dependencies \u2014 we just need two starters to do their jobs in a park that helps them.",
-      "date": "2026-07-08",
-      "status": "PEND",
-      "units_result": null,
-      "clv_cents": null,
-      "result_score": null,
-      "graded_at": null,
-      "slate_assessment": "17-game MLB slate with no NBA or NHL action. Two elite pitching matchups anchor the board \u2014 Webb vs. Cease at Oracle Park and Burns vs. TBD at GABP \u2014 plus a strong under spot at the Trop and a sharp K prop on Chase Burns.",
-      "executive_summary": "Seventeen MLB games today, no playoff basketball or hockey, and the pitching matchups are the story. Webb vs. Cease at Oracle Park is the cleanest under on the board \u2014 two elite arms, a pitcher-friendly park, and a total sitting at just 7. Chase Burns faces a TBD Phillies arm at Great American Ball Park, and his K line at 7.5 is begging for an over given his 30% strikeout rate. The Rays host the Yankees at the Trop with McClanahan vs. Cole, and that under 7 at even money is the ladder pick \u2014 best floor, best park, best price. Six plays today, all grounded in pitching and park factors.",
-      "slate_analysis": "Today's board features 17 MLB games spread across the afternoon and evening, with no NBA or NHL playoff action to supplement. The pricing climate is relatively tight \u2014 most favorites sit between -120 and -150, with only the Dodgers (-235 vs. Colorado) and Mets (-172 vs. Kansas City) priced as heavy chalk. The total market is where the edges live today, with several pitcher-friendly parks hosting quality arms.\n\nThe top candidates that rose during my review: (1) TOR @ SF Under 7 \u2014 Webb vs. Cease at Oracle Park, two elite arms, HR-suppressing park, total hasn't moved off 7; (2) NYY @ TB Under 7 \u2014 McClanahan vs. Cole at the Trop, another pitcher-friendly venue, even-money price on the under; (3) Chase Burns Ks Over 7.5 \u2014 Burns has a 30% K rate and has logged 7+ strikeouts in 11 of 14 starts, facing a Phillies lineup without a confirmed starter; (4) MIL @ STL Under 8 \u2014 Kyle Harrison (2.82 ERA, 30.6% K rate) vs. McGreevy at Busch Stadium, HR-suppressing park; (5) SF Giants ML +101 \u2014 Webb at home against a Toronto offense averaging under 4 R/G, plus-money on the home side; (6) Colin Rea Ks Under 4.5 \u2014 Rea's 17.2% K rate is bottom-tier, and Baltimore's lineup doesn't strike out much.\n\nWhat got cut: The Dodgers -235 exceeds our max juice cap for straight bets. The Mets -172 is close to the cap but the data confidence is low (0.4) and Steven Cruz has only 28 IP \u2014 sample too thin to trust. The DET vs. ATH game looked interesting with Troy Melton's 2.05 ERA, but the Tigers ML at -134 doesn't offer enough edge against the de-vigged implied probability. The PIT vs. ATL total was considered, but both starters have elevated BB/9 rates (Jared Jones 8.7%, Grant Holmes 10.7%), which flags under risk per our validator rules.\n\nThe final six picks survived because they combine elite pitching, favorable park factors, and market prices that offer at least 8 cents of edge. The Webb/Cease under at Oracle is the cleanest spot \u2014 two aces, a park that suppresses runs (0.93 PF), and a total that hasn't budged. The McClanahan/Cole under at the Trop is the ladder pick: even-money price, indoor pitcher-friendly venue, and two starters who limit damage. Burns Ks Over 7.5 is the sharpest prop play \u2014 his 30% K rate and track record of 7+ Ks in 11 of 14 starts make this a high-floor prop. Harrison vs. McGreevy under 8 at Busch is another pitcher-driven under with HR-suppressing park factors. Giants ML at +101 offers value on Webb at home. Rea Ks Under 4.5 rounds out the card as a low-K pitcher facing a contact-oriented lineup.",
-      "slate_vibe": "NORMAL",
-      "published_at": "2026-07-08T12:31:18.360148-04:00"
-    },
-    {
-      "id": "20260708-MLB-TOR-SF-TOTAL",
-      "sport": "MLB",
-      "game": "TOR @ SF",
-      "first_pitch_iso": "2026-07-08T19:45Z",
-      "pick": "Under 7",
-      "best_book": "FanDuel",
-      "best_odds": "-112",
-      "book_prices": {
-        "draftkings": "-114",
-        "fanduel": "-112",
-        "betmgm": "-115"
-      },
-      "book_links": {
-        "fanduel": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.590662029&selectionId=7017906",
-        "draftkings": "https://sportsbook.draftkings.com/?outcomes=0OU85411476U700_3",
-        "betmgm": "https://sports.nj.betmgm.com/en/sports?options=19767006-1539578786-2243819221&type=Single"
-      },
-      "market": "TOTAL",
-      "confidence": 4,
-      "units": 1.5,
-      "win_probability": 0.58,
-      "ladder_designation": false,
-      "data_confidence": 0.75,
-      "rules_passed": [
-        "max_juice",
-        "ladder_even_money",
-        "parlay_well_formed",
-        "confidence_units_match",
-        "data_confidence_floor",
-        "pick_type_allowed",
-        "mlb_hr_prop_check",
-        "mlb_pitcher_k_check",
-        "mlb_total_bases_check",
-        "mlb_hits_check",
-        "nba_player_prop_check",
-        "nhl_shots_check",
-        "mlb_run_line_check",
-        "mlb_under_bb_check",
-        "no_same_game_opposite"
-      ],
-      "locked": true,
-      "late_add": false,
-      "late_add_reason": "",
-      "bonus_pick": false,
-      "event_type": "",
-      "event_name": "",
-      "legs": [],
-      "headline": "Two aces, Oracle Park, and a total that hasn't moved \u2014 this is the cleanest under on the board.",
-      "the_thesis": "Logan Webb and Dylan Cease are both pitching at elite levels in 2026. Webb carries a 3.66 ERA with a 0.68 HR/9 \u2014 that's top-10 in baseball for home run suppression. Cease is even better: 2.79 ERA, 0.50 HR/9, and a 36.7% strikeout rate that ranks among the league leaders. When you put two arms like this in Oracle Park \u2014 a venue with a 0.93 runs park factor and 0.85 HR factor \u2014 you're stacking the deck against offense.\n\nThe market agrees. This total opened at 7 and hasn't moved despite public money typically favoring overs. Toronto's offense averages just 3.98 R/G on the season, and San Francisco isn't much better at 4.14. Neither lineup has the firepower to break through two front-line starters in a pitcher's paradise.\n\nThe de-vigged implied probability on the under is roughly 52%. I have this closer to 58% \u2014 that's 6 cents of edge, and with the park and pitching alignment, I'm comfortable calling it 8+ when you factor in the HR suppression. Both starters have BB/9 rates under 3.5 (Webb 6.3% BB rate, Cease 11% but offset by elite K rate), so we clear the validator's under-risk flag.",
-      "the_data": [
-        {
-          "label": "Webb ERA / HR/9",
-          "value": "3.66 / 0.68",
-          "context": "Elite HR suppression, top-10 in MLB"
-        },
-        {
-          "label": "Cease ERA / K%",
-          "value": "2.79 / 36.7%",
-          "context": "Ace-level, strikeout machine"
-        },
-        {
-          "label": "Oracle Park PF (runs / HR)",
-          "value": "0.93 / 0.85",
-          "context": "Pitcher-friendly, HR-suppressing"
-        },
-        {
-          "label": "TOR R/G",
-          "value": "3.98",
-          "context": "Below league average"
-        },
-        {
-          "label": "SF R/G",
-          "value": "4.14",
-          "context": "Below league average"
-        },
-        {
-          "label": "Total line",
-          "value": "7",
-          "context": "Hasn't moved off open"
-        }
-      ],
-      "the_market": "Total opened at 7 and sits at 7 across all three books. No movement despite typical public over bias \u2014 that's a sharp hold.",
-      "weather_park": "Oracle Park is outdoor but the marine layer and park dimensions suppress offense. 0.93 runs PF, 0.85 HR PF \u2014 net pitcher-friendly.",
-      "case_against": "Cease's 11% BB rate could extend innings and put runners on. If either starter exits early, both bullpens are solid but not elite. A single mistake pitch in a 2-1 game could flip this.",
-      "what_were_betting_on": "Both starters going 6+ innings, combined K rate suppressing contact, and Oracle Park doing what it does \u2014 eating fly balls and keeping the score low.",
-      "scott_bot_quip": "Two aces walk into a pitcher's park. Nobody scores.",
-      "ladder_note": "",
-      "date": "2026-07-08",
-      "status": "PEND",
-      "units_result": null,
-      "clv_cents": null,
-      "result_score": null,
-      "graded_at": null,
-      "slate_assessment": "17-game MLB slate with no NBA or NHL action. Two elite pitching matchups anchor the board \u2014 Webb vs. Cease at Oracle Park and Burns vs. TBD at GABP \u2014 plus a strong under spot at the Trop and a sharp K prop on Chase Burns.",
-      "executive_summary": "Seventeen MLB games today, no playoff basketball or hockey, and the pitching matchups are the story. Webb vs. Cease at Oracle Park is the cleanest under on the board \u2014 two elite arms, a pitcher-friendly park, and a total sitting at just 7. Chase Burns faces a TBD Phillies arm at Great American Ball Park, and his K line at 7.5 is begging for an over given his 30% strikeout rate. The Rays host the Yankees at the Trop with McClanahan vs. Cole, and that under 7 at even money is the ladder pick \u2014 best floor, best park, best price. Six plays today, all grounded in pitching and park factors.",
-      "slate_analysis": "Today's board features 17 MLB games spread across the afternoon and evening, with no NBA or NHL playoff action to supplement. The pricing climate is relatively tight \u2014 most favorites sit between -120 and -150, with only the Dodgers (-235 vs. Colorado) and Mets (-172 vs. Kansas City) priced as heavy chalk. The total market is where the edges live today, with several pitcher-friendly parks hosting quality arms.\n\nThe top candidates that rose during my review: (1) TOR @ SF Under 7 \u2014 Webb vs. Cease at Oracle Park, two elite arms, HR-suppressing park, total hasn't moved off 7; (2) NYY @ TB Under 7 \u2014 McClanahan vs. Cole at the Trop, another pitcher-friendly venue, even-money price on the under; (3) Chase Burns Ks Over 7.5 \u2014 Burns has a 30% K rate and has logged 7+ strikeouts in 11 of 14 starts, facing a Phillies lineup without a confirmed starter; (4) MIL @ STL Under 8 \u2014 Kyle Harrison (2.82 ERA, 30.6% K rate) vs. McGreevy at Busch Stadium, HR-suppressing park; (5) SF Giants ML +101 \u2014 Webb at home against a Toronto offense averaging under 4 R/G, plus-money on the home side; (6) Colin Rea Ks Under 4.5 \u2014 Rea's 17.2% K rate is bottom-tier, and Baltimore's lineup doesn't strike out much.\n\nWhat got cut: The Dodgers -235 exceeds our max juice cap for straight bets. The Mets -172 is close to the cap but the data confidence is low (0.4) and Steven Cruz has only 28 IP \u2014 sample too thin to trust. The DET vs. ATH game looked interesting with Troy Melton's 2.05 ERA, but the Tigers ML at -134 doesn't offer enough edge against the de-vigged implied probability. The PIT vs. ATL total was considered, but both starters have elevated BB/9 rates (Jared Jones 8.7%, Grant Holmes 10.7%), which flags under risk per our validator rules.\n\nThe final six picks survived because they combine elite pitching, favorable park factors, and market prices that offer at least 8 cents of edge. The Webb/Cease under at Oracle is the cleanest spot \u2014 two aces, a park that suppresses runs (0.93 PF), and a total that hasn't budged. The McClanahan/Cole under at the Trop is the ladder pick: even-money price, indoor pitcher-friendly venue, and two starters who limit damage. Burns Ks Over 7.5 is the sharpest prop play \u2014 his 30% K rate and track record of 7+ Ks in 11 of 14 starts make this a high-floor prop. Harrison vs. McGreevy under 8 at Busch is another pitcher-driven under with HR-suppressing park factors. Giants ML at +101 offers value on Webb at home. Rea Ks Under 4.5 rounds out the card as a low-K pitcher facing a contact-oriented lineup.",
-      "slate_vibe": "NORMAL",
-      "published_at": "2026-07-08T12:31:18.359947-04:00"
-    }
-  ],
+  "today_picks": [],
   "today_bonus_picks": [],
   "all_picks": [
     {
@@ -576,16 +90,22 @@
       "scott_bot_quip": "Plus-money on the home team with the better park fit and the better HR suppression? Sign us up.",
       "ladder_note": "",
       "date": "2026-07-08",
-      "status": "PEND",
-      "units_result": null,
+      "status": "LOSS",
+      "units_result": -1.0,
       "clv_cents": null,
-      "result_score": null,
-      "graded_at": null,
+      "result_score": "TOR 10 \u00b7 SF 0",
+      "graded_at": "2026-07-09T02:51:45.228297-04:00",
       "slate_assessment": "17-game MLB slate with no NBA or NHL action. Two elite pitching matchups anchor the board \u2014 Webb vs. Cease at Oracle Park and Burns vs. TBD at GABP \u2014 plus a strong under spot at the Trop and a sharp K prop on Chase Burns.",
       "executive_summary": "Seventeen MLB games today, no playoff basketball or hockey, and the pitching matchups are the story. Webb vs. Cease at Oracle Park is the cleanest under on the board \u2014 two elite arms, a pitcher-friendly park, and a total sitting at just 7. Chase Burns faces a TBD Phillies arm at Great American Ball Park, and his K line at 7.5 is begging for an over given his 30% strikeout rate. The Rays host the Yankees at the Trop with McClanahan vs. Cole, and that under 7 at even money is the ladder pick \u2014 best floor, best park, best price. Six plays today, all grounded in pitching and park factors.",
       "slate_analysis": "Today's board features 17 MLB games spread across the afternoon and evening, with no NBA or NHL playoff action to supplement. The pricing climate is relatively tight \u2014 most favorites sit between -120 and -150, with only the Dodgers (-235 vs. Colorado) and Mets (-172 vs. Kansas City) priced as heavy chalk. The total market is where the edges live today, with several pitcher-friendly parks hosting quality arms.\n\nThe top candidates that rose during my review: (1) TOR @ SF Under 7 \u2014 Webb vs. Cease at Oracle Park, two elite arms, HR-suppressing park, total hasn't moved off 7; (2) NYY @ TB Under 7 \u2014 McClanahan vs. Cole at the Trop, another pitcher-friendly venue, even-money price on the under; (3) Chase Burns Ks Over 7.5 \u2014 Burns has a 30% K rate and has logged 7+ strikeouts in 11 of 14 starts, facing a Phillies lineup without a confirmed starter; (4) MIL @ STL Under 8 \u2014 Kyle Harrison (2.82 ERA, 30.6% K rate) vs. McGreevy at Busch Stadium, HR-suppressing park; (5) SF Giants ML +101 \u2014 Webb at home against a Toronto offense averaging under 4 R/G, plus-money on the home side; (6) Colin Rea Ks Under 4.5 \u2014 Rea's 17.2% K rate is bottom-tier, and Baltimore's lineup doesn't strike out much.\n\nWhat got cut: The Dodgers -235 exceeds our max juice cap for straight bets. The Mets -172 is close to the cap but the data confidence is low (0.4) and Steven Cruz has only 28 IP \u2014 sample too thin to trust. The DET vs. ATH game looked interesting with Troy Melton's 2.05 ERA, but the Tigers ML at -134 doesn't offer enough edge against the de-vigged implied probability. The PIT vs. ATL total was considered, but both starters have elevated BB/9 rates (Jared Jones 8.7%, Grant Holmes 10.7%), which flags under risk per our validator rules.\n\nThe final six picks survived because they combine elite pitching, favorable park factors, and market prices that offer at least 8 cents of edge. The Webb/Cease under at Oracle is the cleanest spot \u2014 two aces, a park that suppresses runs (0.93 PF), and a total that hasn't budged. The McClanahan/Cole under at the Trop is the ladder pick: even-money price, indoor pitcher-friendly venue, and two starters who limit damage. Burns Ks Over 7.5 is the sharpest prop play \u2014 his 30% K rate and track record of 7+ Ks in 11 of 14 starts make this a high-floor prop. Harrison vs. McGreevy under 8 at Busch is another pitcher-driven under with HR-suppressing park factors. Giants ML at +101 offers value on Webb at home. Rea Ks Under 4.5 rounds out the card as a low-K pitcher facing a contact-oriented lineup.",
       "slate_vibe": "NORMAL",
-      "published_at": "2026-07-08T12:31:18.360482-04:00"
+      "published_at": "2026-07-08T12:31:18.360482-04:00",
+      "autopsy": {
+        "classification": "MODEL",
+        "post_mortem": "Webb was cooked before the first pitch was thrown. His immediately prior outing \u2014 7 ER on 11 hits in 3 IP in a 15-3 blowout loss to Colorado on Friday \u2014 was publicly available and signaled he was not in 'elite home pitcher' form. The pick leaned on season-long ERA (3.66) while ignoring a pitcher in visible decline. Toronto made it academic in the first inning: Okamoto's grand slam off a Webb sinker put the Blue Jays up 5-0 before the Giants batted, and Cease shut SF out on 11 strikeouts over 8 innings. This wasn't bad luck \u2014 the thesis picked the wrong version of Logan Webb.",
+        "candidate_rule": "Before rostering a SP as the primary thesis driver, check his last 2 starts for ER and IP; if he posted 6+ ER in either, downgrade confidence by at least 1 tier regardless of season ERA \u2014 but enforce only after N\u226510 similar cases to confirm predictive value.",
+        "sample_size_warning": "N=1, insufficient to establish rule. One blowout loss following a rough prior start is noise; pattern requires broader sample before codifying."
+      }
     },
     {
       "id": "20260708-MLB-MIL-STL-TOTAL",
@@ -671,11 +191,11 @@
       "scott_bot_quip": "Harrison's been lights-out in 14 of 15 starts. We're betting on the trend, not the exception.",
       "ladder_note": "",
       "date": "2026-07-08",
-      "status": "PEND",
-      "units_result": null,
+      "status": "WIN",
+      "units_result": 0.9524,
       "clv_cents": null,
-      "result_score": null,
-      "graded_at": null,
+      "result_score": "MIL 1 \u00b7 STL 5",
+      "graded_at": "2026-07-09T02:52:07.187314-04:00",
       "slate_assessment": "17-game MLB slate with no NBA or NHL action. Two elite pitching matchups anchor the board \u2014 Webb vs. Cease at Oracle Park and Burns vs. TBD at GABP \u2014 plus a strong under spot at the Trop and a sharp K prop on Chase Burns.",
       "executive_summary": "Seventeen MLB games today, no playoff basketball or hockey, and the pitching matchups are the story. Webb vs. Cease at Oracle Park is the cleanest under on the board \u2014 two elite arms, a pitcher-friendly park, and a total sitting at just 7. Chase Burns faces a TBD Phillies arm at Great American Ball Park, and his K line at 7.5 is begging for an over given his 30% strikeout rate. The Rays host the Yankees at the Trop with McClanahan vs. Cole, and that under 7 at even money is the ladder pick \u2014 best floor, best park, best price. Six plays today, all grounded in pitching and park factors.",
       "slate_analysis": "Today's board features 17 MLB games spread across the afternoon and evening, with no NBA or NHL playoff action to supplement. The pricing climate is relatively tight \u2014 most favorites sit between -120 and -150, with only the Dodgers (-235 vs. Colorado) and Mets (-172 vs. Kansas City) priced as heavy chalk. The total market is where the edges live today, with several pitcher-friendly parks hosting quality arms.\n\nThe top candidates that rose during my review: (1) TOR @ SF Under 7 \u2014 Webb vs. Cease at Oracle Park, two elite arms, HR-suppressing park, total hasn't moved off 7; (2) NYY @ TB Under 7 \u2014 McClanahan vs. Cole at the Trop, another pitcher-friendly venue, even-money price on the under; (3) Chase Burns Ks Over 7.5 \u2014 Burns has a 30% K rate and has logged 7+ strikeouts in 11 of 14 starts, facing a Phillies lineup without a confirmed starter; (4) MIL @ STL Under 8 \u2014 Kyle Harrison (2.82 ERA, 30.6% K rate) vs. McGreevy at Busch Stadium, HR-suppressing park; (5) SF Giants ML +101 \u2014 Webb at home against a Toronto offense averaging under 4 R/G, plus-money on the home side; (6) Colin Rea Ks Under 4.5 \u2014 Rea's 17.2% K rate is bottom-tier, and Baltimore's lineup doesn't strike out much.\n\nWhat got cut: The Dodgers -235 exceeds our max juice cap for straight bets. The Mets -172 is close to the cap but the data confidence is low (0.4) and Steven Cruz has only 28 IP \u2014 sample too thin to trust. The DET vs. ATH game looked interesting with Troy Melton's 2.05 ERA, but the Tigers ML at -134 doesn't offer enough edge against the de-vigged implied probability. The PIT vs. ATL total was considered, but both starters have elevated BB/9 rates (Jared Jones 8.7%, Grant Holmes 10.7%), which flags under risk per our validator rules.\n\nThe final six picks survived because they combine elite pitching, favorable park factors, and market prices that offer at least 8 cents of edge. The Webb/Cease under at Oracle is the cleanest spot \u2014 two aces, a park that suppresses runs (0.93 PF), and a total that hasn't budged. The McClanahan/Cole under at the Trop is the ladder pick: even-money price, indoor pitcher-friendly venue, and two starters who limit damage. Burns Ks Over 7.5 is the sharpest prop play \u2014 his 30% K rate and track record of 7+ Ks in 11 of 14 starts make this a high-floor prop. Harrison vs. McGreevy under 8 at Busch is another pitcher-driven under with HR-suppressing park factors. Giants ML at +101 offers value on Webb at home. Rea Ks Under 4.5 rounds out the card as a low-K pitcher facing a contact-oriented lineup.",
@@ -766,16 +286,22 @@
       "scott_bot_quip": "Burns has 7+ Ks in 78% of his starts. The book is offering plus-money. Sometimes the math is just math.",
       "ladder_note": "",
       "date": "2026-07-08",
-      "status": "PEND",
-      "units_result": null,
+      "status": "LOSS",
+      "units_result": -1.5,
       "clv_cents": null,
-      "result_score": null,
-      "graded_at": null,
+      "result_score": "Chase Burns: 2 strikeOuts",
+      "graded_at": "2026-07-09T02:52:07.329801-04:00",
       "slate_assessment": "17-game MLB slate with no NBA or NHL action. Two elite pitching matchups anchor the board \u2014 Webb vs. Cease at Oracle Park and Burns vs. TBD at GABP \u2014 plus a strong under spot at the Trop and a sharp K prop on Chase Burns.",
       "executive_summary": "Seventeen MLB games today, no playoff basketball or hockey, and the pitching matchups are the story. Webb vs. Cease at Oracle Park is the cleanest under on the board \u2014 two elite arms, a pitcher-friendly park, and a total sitting at just 7. Chase Burns faces a TBD Phillies arm at Great American Ball Park, and his K line at 7.5 is begging for an over given his 30% strikeout rate. The Rays host the Yankees at the Trop with McClanahan vs. Cole, and that under 7 at even money is the ladder pick \u2014 best floor, best park, best price. Six plays today, all grounded in pitching and park factors.",
       "slate_analysis": "Today's board features 17 MLB games spread across the afternoon and evening, with no NBA or NHL playoff action to supplement. The pricing climate is relatively tight \u2014 most favorites sit between -120 and -150, with only the Dodgers (-235 vs. Colorado) and Mets (-172 vs. Kansas City) priced as heavy chalk. The total market is where the edges live today, with several pitcher-friendly parks hosting quality arms.\n\nThe top candidates that rose during my review: (1) TOR @ SF Under 7 \u2014 Webb vs. Cease at Oracle Park, two elite arms, HR-suppressing park, total hasn't moved off 7; (2) NYY @ TB Under 7 \u2014 McClanahan vs. Cole at the Trop, another pitcher-friendly venue, even-money price on the under; (3) Chase Burns Ks Over 7.5 \u2014 Burns has a 30% K rate and has logged 7+ strikeouts in 11 of 14 starts, facing a Phillies lineup without a confirmed starter; (4) MIL @ STL Under 8 \u2014 Kyle Harrison (2.82 ERA, 30.6% K rate) vs. McGreevy at Busch Stadium, HR-suppressing park; (5) SF Giants ML +101 \u2014 Webb at home against a Toronto offense averaging under 4 R/G, plus-money on the home side; (6) Colin Rea Ks Under 4.5 \u2014 Rea's 17.2% K rate is bottom-tier, and Baltimore's lineup doesn't strike out much.\n\nWhat got cut: The Dodgers -235 exceeds our max juice cap for straight bets. The Mets -172 is close to the cap but the data confidence is low (0.4) and Steven Cruz has only 28 IP \u2014 sample too thin to trust. The DET vs. ATH game looked interesting with Troy Melton's 2.05 ERA, but the Tigers ML at -134 doesn't offer enough edge against the de-vigged implied probability. The PIT vs. ATL total was considered, but both starters have elevated BB/9 rates (Jared Jones 8.7%, Grant Holmes 10.7%), which flags under risk per our validator rules.\n\nThe final six picks survived because they combine elite pitching, favorable park factors, and market prices that offer at least 8 cents of edge. The Webb/Cease under at Oracle is the cleanest spot \u2014 two aces, a park that suppresses runs (0.93 PF), and a total that hasn't budged. The McClanahan/Cole under at the Trop is the ladder pick: even-money price, indoor pitcher-friendly venue, and two starters who limit damage. Burns Ks Over 7.5 is the sharpest prop play \u2014 his 30% K rate and track record of 7+ Ks in 11 of 14 starts make this a high-floor prop. Harrison vs. McGreevy under 8 at Busch is another pitcher-driven under with HR-suppressing park factors. Giants ML at +101 offers value on Webb at home. Rea Ks Under 4.5 rounds out the card as a low-K pitcher facing a contact-oriented lineup.",
       "slate_vibe": "NORMAL",
-      "published_at": "2026-07-08T12:31:18.360282-04:00"
+      "published_at": "2026-07-08T12:31:18.360282-04:00",
+      "autopsy": {
+        "classification": "VARIANCE",
+        "post_mortem": "Burns walked a career-high six batters in five innings and finished with a season-low-tying two strikeouts \u2014 the Phillies were simply not swinging. The Reds won 11-5 on five home runs, including four in a single fourth inning, but Burns was burning through pitches on walks rather than strikeouts: he walked Crawford and Realmuto back-to-back in the fourth, then opened the fifth by walking Harper and Schwarber consecutively, forcing a short outing at 5 IP. The thesis was sound \u2014 Burns entered 10-1 with a 2.40 ERA and had posted 7+ Ks in 11 of his prior starts \u2014 but on this night the Phillies worked counts and took pitches instead of chasing, collapsing his K opportunity into a walk-fest that ended his night too early to accumulate strikeouts.",
+        "candidate_rule": null,
+        "sample_size_warning": "N=1, insufficient to establish rule. Burns' walk rate entering this start was 2.9 BB/9 \u2014 the six-walk implosion was a clear outlier, not a pattern. Monitor if walk rate trends up post-All-Star break before revisiting K props."
+      }
     },
     {
       "id": "20260708-MLB-NYY-TB-TOTAL",
@@ -866,11 +392,11 @@
       "scott_bot_quip": "Even money on an under at the Trop with two quality arms? That's the floor we're looking for.",
       "ladder_note": "Best floor on the board today. Even-money price, elite home starter, pitcher-friendly dome, and a total that hasn't moved. This is the ladder pick because it has the fewest variance dependencies \u2014 we just need two starters to do their jobs in a park that helps them.",
       "date": "2026-07-08",
-      "status": "PEND",
-      "units_result": null,
+      "status": "WIN",
+      "units_result": 1.5,
       "clv_cents": null,
-      "result_score": null,
-      "graded_at": null,
+      "result_score": "NYY 0 \u00b7 TB 3",
+      "graded_at": "2026-07-09T02:52:23.206388-04:00",
       "slate_assessment": "17-game MLB slate with no NBA or NHL action. Two elite pitching matchups anchor the board \u2014 Webb vs. Cease at Oracle Park and Burns vs. TBD at GABP \u2014 plus a strong under spot at the Trop and a sharp K prop on Chase Burns.",
       "executive_summary": "Seventeen MLB games today, no playoff basketball or hockey, and the pitching matchups are the story. Webb vs. Cease at Oracle Park is the cleanest under on the board \u2014 two elite arms, a pitcher-friendly park, and a total sitting at just 7. Chase Burns faces a TBD Phillies arm at Great American Ball Park, and his K line at 7.5 is begging for an over given his 30% strikeout rate. The Rays host the Yankees at the Trop with McClanahan vs. Cole, and that under 7 at even money is the ladder pick \u2014 best floor, best park, best price. Six plays today, all grounded in pitching and park factors.",
       "slate_analysis": "Today's board features 17 MLB games spread across the afternoon and evening, with no NBA or NHL playoff action to supplement. The pricing climate is relatively tight \u2014 most favorites sit between -120 and -150, with only the Dodgers (-235 vs. Colorado) and Mets (-172 vs. Kansas City) priced as heavy chalk. The total market is where the edges live today, with several pitcher-friendly parks hosting quality arms.\n\nThe top candidates that rose during my review: (1) TOR @ SF Under 7 \u2014 Webb vs. Cease at Oracle Park, two elite arms, HR-suppressing park, total hasn't moved off 7; (2) NYY @ TB Under 7 \u2014 McClanahan vs. Cole at the Trop, another pitcher-friendly venue, even-money price on the under; (3) Chase Burns Ks Over 7.5 \u2014 Burns has a 30% K rate and has logged 7+ strikeouts in 11 of 14 starts, facing a Phillies lineup without a confirmed starter; (4) MIL @ STL Under 8 \u2014 Kyle Harrison (2.82 ERA, 30.6% K rate) vs. McGreevy at Busch Stadium, HR-suppressing park; (5) SF Giants ML +101 \u2014 Webb at home against a Toronto offense averaging under 4 R/G, plus-money on the home side; (6) Colin Rea Ks Under 4.5 \u2014 Rea's 17.2% K rate is bottom-tier, and Baltimore's lineup doesn't strike out much.\n\nWhat got cut: The Dodgers -235 exceeds our max juice cap for straight bets. The Mets -172 is close to the cap but the data confidence is low (0.4) and Steven Cruz has only 28 IP \u2014 sample too thin to trust. The DET vs. ATH game looked interesting with Troy Melton's 2.05 ERA, but the Tigers ML at -134 doesn't offer enough edge against the de-vigged implied probability. The PIT vs. ATL total was considered, but both starters have elevated BB/9 rates (Jared Jones 8.7%, Grant Holmes 10.7%), which flags under risk per our validator rules.\n\nThe final six picks survived because they combine elite pitching, favorable park factors, and market prices that offer at least 8 cents of edge. The Webb/Cease under at Oracle is the cleanest spot \u2014 two aces, a park that suppresses runs (0.93 PF), and a total that hasn't budged. The McClanahan/Cole under at the Trop is the ladder pick: even-money price, indoor pitcher-friendly venue, and two starters who limit damage. Burns Ks Over 7.5 is the sharpest prop play \u2014 his 30% K rate and track record of 7+ Ks in 11 of 14 starts make this a high-floor prop. Harrison vs. McGreevy under 8 at Busch is another pitcher-driven under with HR-suppressing park factors. Giants ML at +101 offers value on Webb at home. Rea Ks Under 4.5 rounds out the card as a low-K pitcher facing a contact-oriented lineup.",
@@ -966,16 +492,22 @@
       "scott_bot_quip": "Two aces walk into a pitcher's park. Nobody scores.",
       "ladder_note": "",
       "date": "2026-07-08",
-      "status": "PEND",
-      "units_result": null,
+      "status": "LOSS",
+      "units_result": -1.5,
       "clv_cents": null,
-      "result_score": null,
-      "graded_at": null,
+      "result_score": "TOR 10 \u00b7 SF 0",
+      "graded_at": "2026-07-09T02:52:23.217391-04:00",
       "slate_assessment": "17-game MLB slate with no NBA or NHL action. Two elite pitching matchups anchor the board \u2014 Webb vs. Cease at Oracle Park and Burns vs. TBD at GABP \u2014 plus a strong under spot at the Trop and a sharp K prop on Chase Burns.",
       "executive_summary": "Seventeen MLB games today, no playoff basketball or hockey, and the pitching matchups are the story. Webb vs. Cease at Oracle Park is the cleanest under on the board \u2014 two elite arms, a pitcher-friendly park, and a total sitting at just 7. Chase Burns faces a TBD Phillies arm at Great American Ball Park, and his K line at 7.5 is begging for an over given his 30% strikeout rate. The Rays host the Yankees at the Trop with McClanahan vs. Cole, and that under 7 at even money is the ladder pick \u2014 best floor, best park, best price. Six plays today, all grounded in pitching and park factors.",
       "slate_analysis": "Today's board features 17 MLB games spread across the afternoon and evening, with no NBA or NHL playoff action to supplement. The pricing climate is relatively tight \u2014 most favorites sit between -120 and -150, with only the Dodgers (-235 vs. Colorado) and Mets (-172 vs. Kansas City) priced as heavy chalk. The total market is where the edges live today, with several pitcher-friendly parks hosting quality arms.\n\nThe top candidates that rose during my review: (1) TOR @ SF Under 7 \u2014 Webb vs. Cease at Oracle Park, two elite arms, HR-suppressing park, total hasn't moved off 7; (2) NYY @ TB Under 7 \u2014 McClanahan vs. Cole at the Trop, another pitcher-friendly venue, even-money price on the under; (3) Chase Burns Ks Over 7.5 \u2014 Burns has a 30% K rate and has logged 7+ strikeouts in 11 of 14 starts, facing a Phillies lineup without a confirmed starter; (4) MIL @ STL Under 8 \u2014 Kyle Harrison (2.82 ERA, 30.6% K rate) vs. McGreevy at Busch Stadium, HR-suppressing park; (5) SF Giants ML +101 \u2014 Webb at home against a Toronto offense averaging under 4 R/G, plus-money on the home side; (6) Colin Rea Ks Under 4.5 \u2014 Rea's 17.2% K rate is bottom-tier, and Baltimore's lineup doesn't strike out much.\n\nWhat got cut: The Dodgers -235 exceeds our max juice cap for straight bets. The Mets -172 is close to the cap but the data confidence is low (0.4) and Steven Cruz has only 28 IP \u2014 sample too thin to trust. The DET vs. ATH game looked interesting with Troy Melton's 2.05 ERA, but the Tigers ML at -134 doesn't offer enough edge against the de-vigged implied probability. The PIT vs. ATL total was considered, but both starters have elevated BB/9 rates (Jared Jones 8.7%, Grant Holmes 10.7%), which flags under risk per our validator rules.\n\nThe final six picks survived because they combine elite pitching, favorable park factors, and market prices that offer at least 8 cents of edge. The Webb/Cease under at Oracle is the cleanest spot \u2014 two aces, a park that suppresses runs (0.93 PF), and a total that hasn't budged. The McClanahan/Cole under at the Trop is the ladder pick: even-money price, indoor pitcher-friendly venue, and two starters who limit damage. Burns Ks Over 7.5 is the sharpest prop play \u2014 his 30% K rate and track record of 7+ Ks in 11 of 14 starts make this a high-floor prop. Harrison vs. McGreevy under 8 at Busch is another pitcher-driven under with HR-suppressing park factors. Giants ML at +101 offers value on Webb at home. Rea Ks Under 4.5 rounds out the card as a low-K pitcher facing a contact-oriented lineup.",
       "slate_vibe": "NORMAL",
-      "published_at": "2026-07-08T12:31:18.359947-04:00"
+      "published_at": "2026-07-08T12:31:18.359947-04:00",
+      "autopsy": {
+        "classification": "MODEL",
+        "post_mortem": "The under died on Logan Webb's side of the ledger, not Cease's. Cease was historically dominant \u2014 8 no-hit innings, 11 Ks, 118 pitches, touched 99 mph in the 8th \u2014 and held SF to zero runs. Webb, however, was lit up for 10 runs, surrendering a Guerrero Jr. homer, a Springer homer, and a Okamoto grand slam. The thesis leaned on Webb's season ERA (3.66) while ignoring a critical red flag that was publicly available pre-game: Webb had just allowed 7 ER on 11 H over 3 IP in his previous start at Coors Field. A starter in that kind of freefall is not a reliable anchor for an under, regardless of park factors.",
+        "candidate_rule": "Before backing an under anchored by two starters, flag any starter who allowed 6+ ER in their most recent outing as a disqualifying condition \u2014 recency of form matters more than season ERA for single-game totals; validate with N\u226520 such starts before hardcoding.",
+        "sample_size_warning": "N=1, insufficient to establish rule \u2014 this is a directional signal only, not a validated pattern."
+      }
     },
     {
       "id": "20260707-MLB-ATH-DET-PROP-TARIKSKUBAL",
@@ -17449,11 +16981,19 @@
     }
   ],
   "ladder": {
-    "current_streak": 5,
+    "current_streak": 6,
     "longest_streak": 8,
     "completed_climbs": 0,
     "target": 10,
     "history": [
+      {
+        "date": "2026-07-08",
+        "pick_id": "20260708-MLB-NYY-TB-TOTAL",
+        "pick": "Under 7",
+        "game": "NYY @ TB",
+        "status": "WIN",
+        "after_streak": 6
+      },
       {
         "date": "2026-07-07",
         "pick_id": "20260707-MLB-PHI-CIN-SPREAD",
@@ -17751,13 +17291,13 @@
         "after_streak": 1
       }
     ],
-    "updated_at": "2026-07-08T02:05:15.259398-04:00"
+    "updated_at": "2026-07-09T02:52:23.216901-04:00"
   },
   "last_night_recap": {
-    "date": "2026-07-07",
-    "record": "2-3-1",
-    "units_pl": -0.45,
-    "night_summary": "2-3-1 night, -0.45u \u2014 a rough one to absorb. The bright spots were real: Wheeler went off for 14 Ks across seven innings in the PHI 4-1 win over CIN, cashing the Over 7.5 at +120 and covering the -1.5 with room to spare. Skubal was a clean MODEL loss \u2014 he struck out the side in the first and finished with 9 Ks on 96 pitches, exposing the flaw in the pitch-count-caps-strikeouts thesis. The SEA/MIA Under was alive through seven before a chaotic Mariners eighth and a pinch-hit Marlins homer made it 6-5 \u2014 variance, not a bad read. The LAA/TEX Under was a MODEL miss from the jump: deGrom gave up two in the first, and Osuna's three-run shot capped a five-run Texas eighth to make it 8-3, busting the total by four. Ladder holds at 5 of 10 \u2014 still climbing.",
-    "generated_at": "2026-07-08T02:05:32.854028-04:00"
+    "date": "2026-07-08",
+    "record": "2-3-0",
+    "units_pl": -1.55,
+    "night_summary": "2-3 night, -1.55u \u2014 two clean wins buried under a Logan Webb disaster and a Chase Burns walk-fest. The NYY @ TB under (ladder) was the best ticket of the night: Shane McClanahan tossed 6.1 scoreless, Jonathan Aranda drove in all three Rays runs, and New York was shut out 3-0 \u2014 well inside the 7. MIL @ STL under was equally tidy at 6-1. The damage came from Oracle Park: Webb got lit for 10 runs including Okamoto's grand slam and homers from Guerrero Jr. and Springer, torching both the Giants ML and the TOR @ SF under in one implosion \u2014 model errors, both, for leaning on Webb's season ERA while ignoring his 7-ER meltdown the start prior. Burns was variance \u2014 he walked a career-high six in five innings against a Phillies lineup that refused to chase, finishing with just two strikeouts; the read was right, the approach wasn't. Ladder sits at 6 of 10 \u2014 keep climbing.",
+    "generated_at": "2026-07-09T02:53:04.026911-04:00"
   }
 }

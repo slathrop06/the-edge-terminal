@@ -1,9 +1,17 @@
 {
-  "current_streak": 5,
+  "current_streak": 6,
   "longest_streak": 8,
   "completed_climbs": 0,
   "target": 10,
   "history": [
+    {
+      "date": "2026-07-08",
+      "pick_id": "20260708-MLB-NYY-TB-TOTAL",
+      "pick": "Under 7",
+      "game": "NYY @ TB",
+      "status": "WIN",
+      "after_streak": 6
+    },
     {
       "date": "2026-07-07",
       "pick_id": "20260707-MLB-PHI-CIN-SPREAD",
@@ -301,5 +309,5 @@
       "after_streak": 1
     }
   ],
-  "updated_at": "2026-07-08T02:05:15.259398-04:00"
+  "updated_at": "2026-07-09T02:52:23.216901-04:00"
 }
