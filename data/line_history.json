@@ -43820,6 +43820,21 @@
       "over_line": 9.0,
       "under_price": -114,
       "under_line": 9.0
+    },
+    {
+      "snap_iso": "2026-07-09T18:15:57.354287-04:00",
+      "total": 9.0,
+      "home_spread": -1.5,
+      "home_ml_implied": 0.5393395841826336,
+      "home_ml_price": -126,
+      "away_ml_price": 110,
+      "home_spread_price": 155,
+      "away_spread_price": -185,
+      "home_spread_line": -1.5,
+      "over_price": -105,
+      "over_line": 9.0,
+      "under_price": -110,
+      "under_line": 9.0
     }
   ],
   "MLB-401816089": [
@@ -43849,6 +43864,21 @@
       "away_spread_price": 135,
       "home_spread_line": 1.5,
       "over_price": -109,
+      "over_line": 8.0,
+      "under_price": -105,
+      "under_line": 8.0
+    },
+    {
+      "snap_iso": "2026-07-09T18:15:57.357732-04:00",
+      "total": 8.0,
+      "home_spread": 1.5,
+      "home_ml_implied": 0.46153846153846156,
+      "home_ml_price": 110,
+      "away_ml_price": -125,
+      "home_spread_price": -154,
+      "away_spread_price": 135,
+      "home_spread_line": 1.5,
+      "over_price": -110,
       "over_line": 8.0,
       "under_price": -105,
       "under_line": 8.0
@@ -43884,6 +43914,21 @@
       "over_line": 9.5,
       "under_price": -118,
       "under_line": 9.5
+    },
+    {
+      "snap_iso": "2026-07-09T18:15:57.360924-04:00",
+      "total": 9.5,
+      "home_spread": 1.5,
+      "home_ml_implied": 0.3942757009345795,
+      "home_ml_price": 144,
+      "away_ml_price": -170,
+      "home_spread_price": -110,
+      "away_spread_price": -108,
+      "home_spread_line": 1.5,
+      "over_price": -102,
+      "over_line": 9.5,
+      "under_price": -118,
+      "under_line": 9.5
     }
   ],
   "MLB-401816093": [
@@ -43915,6 +43960,21 @@
       "over_price": -102,
       "over_line": 8.5,
       "under_price": -101,
+      "under_line": 8.0
+    },
+    {
+      "snap_iso": "2026-07-09T18:15:57.364035-04:00",
+      "total": 8.333333333333334,
+      "home_spread": 1.5,
+      "home_ml_implied": 0.4481900019153419,
+      "home_ml_price": 115,
+      "away_ml_price": -134,
+      "home_spread_price": -150,
+      "away_spread_price": 130,
+      "home_spread_line": 1.5,
+      "over_price": -105,
+      "over_line": 8.5,
+      "under_price": -102,
       "under_line": 8.0
     }
   ],
@@ -43948,6 +44008,21 @@
       "over_line": 7.0,
       "under_price": -102,
       "under_line": 7.0
+    },
+    {
+      "snap_iso": "2026-07-09T18:15:57.367146-04:00",
+      "total": 7.333333333333333,
+      "home_spread": -1.5,
+      "home_ml_implied": 0.5536401416038171,
+      "home_ml_price": -132,
+      "away_ml_price": 118,
+      "home_spread_price": 162,
+      "away_spread_price": -187,
+      "home_spread_line": -1.5,
+      "over_price": -105,
+      "over_line": 7.5,
+      "under_price": 102,
+      "under_line": 7.0
     }
   ],
   "MLB-401816094": [
@@ -43977,6 +44052,21 @@
       "away_spread_price": 172,
       "home_spread_line": -1.5,
       "over_price": 101,
+      "over_line": 9.0,
+      "under_price": 102,
+      "under_line": 8.5
+    },
+    {
+      "snap_iso": "2026-07-09T18:15:57.370306-04:00",
+      "total": 8.666666666666666,
+      "home_spread": -1.5,
+      "home_ml_implied": 0.5384615384615385,
+      "home_ml_price": -125,
+      "away_ml_price": 110,
+      "home_spread_price": 168,
+      "away_spread_price": -185,
+      "home_spread_line": -1.5,
+      "over_price": -101,
       "over_line": 9.0,
       "under_price": 102,
       "under_line": 8.5
@@ -44012,6 +44102,21 @@
       "over_line": 8.5,
       "under_price": -102,
       "under_line": 8.5
+    },
+    {
+      "snap_iso": "2026-07-09T18:15:57.373532-04:00",
+      "total": 9.0,
+      "home_spread": -1.5,
+      "home_ml_implied": 0.5381534311521641,
+      "home_ml_price": -126,
+      "away_ml_price": 109,
+      "home_spread_price": 158,
+      "away_spread_price": -187,
+      "home_spread_line": -1.5,
+      "over_price": -105,
+      "over_line": 9.0,
+      "under_price": -109,
+      "under_line": 9.0
     }
   ]
 }
