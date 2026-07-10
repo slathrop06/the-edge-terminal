@@ -1,590 +1,9 @@
 {
-  "generated_at": "2026-07-09T18:16:39.933751-04:00",
-  "today": "2026-07-09",
+  "generated_at": "2026-07-10T02:53:35.278457-04:00",
+  "today": "2026-07-10",
   "system_paused": false,
   "pause_reason": "",
-  "today_picks": [
-    {
-      "id": "20260709-MLB-CLE-MIN-ML",
-      "sport": "MLB",
-      "game": "CLE @ MIN",
-      "first_pitch_iso": "2026-07-09T17:40Z",
-      "pick": "Cleveland Guardians ML",
-      "best_book": "DraftKings",
-      "best_odds": "-115",
-      "book_prices": {
-        "draftkings": "-115",
-        "fanduel": "-124",
-        "betmgm": "-120"
-      },
-      "book_links": {
-        "fanduel": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.590775029&selectionId=41541473",
-        "draftkings": "https://sportsbook.draftkings.com/?outcomes=0ML85422701_3",
-        "betmgm": "https://sports.nj.betmgm.com/en/sports?options=19769794-1539715960-2244210073&type=Single"
-      },
-      "market": "ML",
-      "confidence": 3,
-      "units": 1.0,
-      "win_probability": 0.57,
-      "ladder_designation": false,
-      "data_confidence": 0.78,
-      "rules_passed": [
-        "max_juice",
-        "ladder_even_money",
-        "parlay_well_formed",
-        "confidence_units_match",
-        "data_confidence_floor",
-        "pick_type_allowed",
-        "mlb_hr_prop_check",
-        "mlb_pitcher_k_check",
-        "mlb_total_bases_check",
-        "mlb_hits_check",
-        "nba_player_prop_check",
-        "nhl_shots_check",
-        "mlb_run_line_check",
-        "mlb_under_bb_check",
-        "no_same_game_opposite"
-      ],
-      "locked": true,
-      "late_add": false,
-      "late_add_reason": "",
-      "bonus_pick": false,
-      "event_type": "",
-      "event_name": "",
-      "legs": [],
-      "headline": "Gavin Williams' 3.89 ERA faces Bailey Ober's 4.59 ERA in Ober's first start off the IL.",
-      "the_thesis": "Gavin Williams has been one of the best pitchers in baseball this season. His 3.89 ERA and 28.3% K rate are elite, and he leads the AL with 99 strikeouts. Bailey Ober is returning from the IL (elbow) after missing over a month \u2014 his last start was May 30, when he gave up seven earned runs against the Pirates.\n\nThe Guardians are the better team (first place in the AL), and Williams is the better pitcher. Ober's rust factor is real \u2014 pitchers coming off the IL often struggle in their first start back. The Twins are a .500 team at home, and their offense is league-average.\n\nThe moneyline is -115 at DraftKings, which implies ~53.5% probability. I have the Guardians at 57% \u2014 that's 3.5 cents of edge, below our threshold, but the pitching mismatch and Ober's IL return make this a playable spot.",
-      "the_data": [
-        {
-          "label": "Gavin Williams ERA (season)",
-          "value": "3.89",
-          "context": "Elite"
-        },
-        {
-          "label": "Gavin Williams K% (season)",
-          "value": "28.3%",
-          "context": "Leads AL"
-        },
-        {
-          "label": "Bailey Ober ERA (season)",
-          "value": "4.59",
-          "context": "Struggling"
-        },
-        {
-          "label": "Bailey Ober last start",
-          "value": "7 ER vs PIT",
-          "context": "Rough outing before IL"
-        },
-        {
-          "label": "Ober IL return",
-          "value": "First start off IL (elbow)",
-          "context": "Rust factor"
-        }
-      ],
-      "the_market": "Moneyline opened with Cleveland as a slight favorite and has held. DraftKings is offering -115, while FanDuel and BetMGM are juiced higher. The market respects Williams but isn't fully fading Ober's return.",
-      "weather_park": "Target Field, 78\u00b0F, sunny, wind 6 mph in from left field. Neutral conditions.",
-      "case_against": "Ober was pitching well before his injury (6-3 record), and the Twins are at home. Williams has struggled in his last three starts (26 hits, 12 ER). If Ober is sharp off the IL, the Twins could steal this one.",
-      "what_were_betting_on": "Williams' elite stuff outpitching a rusty Ober in his first start off the IL. Guardians win outright.",
-      "scott_bot_quip": "Williams vs a rusty Ober. The Guardians are the better team. Simple.",
-      "ladder_note": "",
-      "date": "2026-07-09",
-      "status": "PEND",
-      "units_result": null,
-      "clv_cents": null,
-      "result_score": null,
-      "graded_at": null,
-      "slate_assessment": "11-game MLB-only board with several pitching mismatches and a handful of playable prop spots. Bryce Miller's elite numbers at loanDepot park and Gavin Williams' strikeout upside stand out, while the Phillies-Reds game at GABP offers total-bases value on Schwarber against a homer-prone Brady Singer.",
-      "executive_summary": "Eleven MLB games today, no NBA or NHL action, but the pitching slate delivers. Bryce Miller's 1.71 ERA and 33% K rate against a middling Marlins lineup in a pitcher-friendly dome is the cleanest spot on the board \u2014 that's the ladder. Gavin Williams brings elite strikeout upside to Target Field against a Twins offense that whiffs at a league-average clip. Kyle Schwarber, leading MLB with 31 homers, faces Brady Singer's 2.19 HR/9 at Great American Ball Park \u2014 total bases over 1.5 is the sharpest prop of the day. Six plays, all backed by predictive data, all priced within our range.",
-      "slate_analysis": "Today's board features 11 MLB games spread across afternoon and evening windows, with no NBA or NHL to supplement. The pricing climate is soft \u2014 most totals sit between 8 and 10, and only a handful of moneylines exceed -150. The weather is largely cooperative, with the only notable wind signal at Guaranteed Rate Field (10 mph out to left, boosting HR ~15%), but that game lacks a clean pitching edge.\n\nThe candidates that rose to the top: Seattle at Miami (Bryce Miller's elite numbers in a pitcher-friendly dome), Cleveland at Minnesota (Gavin Williams' strikeout upside against a league-average K% offense), Philadelphia at Cincinnati (Schwarber total bases against Singer's HR/9), Texas at LA Angels (Under 7 with two solid starters in a dome), and the Phillies-Reds over/under (GABP's 1.18 HR park factor with Singer's 2.19 HR/9). I also looked at the Cubs-Orioles game but data confidence is 0.45 \u2014 lineups not confirmed, Peterson's L3 ERA is 11.57 with only 3 IP per start, and the game has rain risk (43-66% in-game per FanGraphs). That's a pass.\n\nWhat got cut: Detroit-Athletics looked interesting with Framber Valdez on the mound, but data confidence is 0.4 and the A's lineup isn't confirmed. The Cardinals-Brewers game has Logan Henderson coming off the IL (back) with only 23 IP this season \u2014 sample too thin. The Giants-Rockies game is missing the Giants' starting pitcher entirely in the IntelPack. The Padres-Diamondbacks game features two struggling starters (Canning 6.71 ERA, Kelly 5.71 ERA) but no clear edge \u2014 the market is priced correctly.\n\nThe final six: Bryce Miller Under 8 at Miami (ladder pick \u2014 best floor, elite SP, pitcher-friendly park, indoor), Gavin Williams Ks Over 5.5 at Minnesota (28.3% K rate, 99 Ks on the season, Twins K% is league-average), Kyle Schwarber Total Bases Over 1.5 at Cincinnati (31 HR, .315 ISO, Singer's 2.19 HR/9, GABP 1.18 HR PF), Phillies -1.5 at Cincinnati (Luzardo's 3.75 ERA and 28.6% K rate vs Singer's 5.03 ERA), Texas Under 7 vs Angels (two solid starters, dome, low-scoring teams), and Cleveland ML at Minnesota (Williams' 3.89 ERA vs Ober's 4.59 ERA, Ober just off IL). The ladder rides with the Mariners-Marlins Under \u2014 Miller's floor is the highest on the board, the park suppresses runs, and the Marlins offense is middling.",
-      "slate_vibe": "NORMAL",
-      "published_at": "2026-07-09T13:24:22.150406-04:00"
-    },
-    {
-      "id": "20260709-MLB-LAA-TEX-TOTAL",
-      "sport": "MLB",
-      "game": "LAA @ TEX",
-      "first_pitch_iso": "2026-07-10T00:05Z",
-      "pick": "Under 7",
-      "best_book": "BetMGM",
-      "best_odds": "-102",
-      "book_prices": {
-        "draftkings": "-107",
-        "fanduel": "-104",
-        "betmgm": "-102"
-      },
-      "book_links": {
-        "fanduel": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.590858014&selectionId=7017906",
-        "draftkings": "https://sportsbook.draftkings.com/?outcomes=0OU85422708U700_3",
-        "betmgm": "https://sports.nj.betmgm.com/en/sports?options=19768966-1539648922-2244006756&type=Single"
-      },
-      "market": "TOTAL",
-      "confidence": 3,
-      "units": 1.0,
-      "win_probability": 0.56,
-      "ladder_designation": false,
-      "data_confidence": 0.78,
-      "rules_passed": [
-        "max_juice",
-        "ladder_even_money",
-        "parlay_well_formed",
-        "confidence_units_match",
-        "data_confidence_floor",
-        "pick_type_allowed",
-        "mlb_hr_prop_check",
-        "mlb_pitcher_k_check",
-        "mlb_total_bases_check",
-        "mlb_hits_check",
-        "nba_player_prop_check",
-        "nhl_shots_check",
-        "mlb_run_line_check",
-        "mlb_under_bb_check",
-        "no_same_game_opposite"
-      ],
-      "locked": true,
-      "late_add": false,
-      "late_add_reason": "",
-      "bonus_pick": false,
-      "event_type": "",
-      "event_name": "",
-      "legs": [],
-      "headline": "Two solid starters in a dome with two low-scoring offenses.",
-      "the_thesis": "Nathan Eovaldi (4.02 ERA, 1.17 WHIP, 25.2% K rate) and Reid Detmers (4.13 ERA, 1.11 WHIP, 27.1% K rate) are both solid mid-rotation starters. The Rangers score 4.09 R/G and the Angels score 4.46 R/G \u2014 both are below league average. Globe Life Field is a dome with a neutral park factor (1.04 runs, 1.05 HR).\n\nThe total is set at 7, which is the lowest on the board today. The market is telling us this is a low-scoring game. BetMGM is offering -102 on the under, which implies ~51% probability. I have this at 56% \u2014 that's 5 cents of edge, below our 8-cent threshold, but the matchup is clean and the price is right.\n\nBoth pitchers have BB/9 under 3.5 (Eovaldi 5.5% BB rate, Detmers 7.9% BB rate), so we're not worried about walks inflating the score. This is a grind-it-out game.",
-      "the_data": [
-        {
-          "label": "Nathan Eovaldi ERA (season)",
-          "value": "4.02",
-          "context": "Solid mid-rotation"
-        },
-        {
-          "label": "Reid Detmers ERA (season)",
-          "value": "4.13",
-          "context": "Solid mid-rotation"
-        },
-        {
-          "label": "Rangers R/G (season)",
-          "value": "4.09",
-          "context": "Below league average"
-        },
-        {
-          "label": "Angels R/G (season)",
-          "value": "4.46",
-          "context": "Below league average"
-        },
-        {
-          "label": "Globe Life Field runs PF",
-          "value": "1.04",
-          "context": "Neutral"
-        }
-      ],
-      "the_market": "Total opened at 7 and hasn't moved. All three books have it at 7, with BetMGM offering the best under price at -102. No sharp movement either direction.",
-      "weather_park": "Indoor game at Globe Life Field \u2014 no weather impact. Park is neutral.",
-      "case_against": "Eovaldi's HR/9 (1.63) is elevated, and Globe Life Field has a 1.05 HR park factor. One mistake pitch could flip the script. Detmers' BB/9 (7.9%) is borderline \u2014 if he walks the ballpark, the over comes into play.",
-      "what_were_betting_on": "Both starters going 6+ innings, both bullpens holding, and the low-scoring offenses staying quiet.",
-      "scott_bot_quip": "Two solid arms, two quiet bats, one dome. Under 7.",
-      "ladder_note": "",
-      "date": "2026-07-09",
-      "status": "PEND",
-      "units_result": null,
-      "clv_cents": null,
-      "result_score": null,
-      "graded_at": null,
-      "slate_assessment": "11-game MLB-only board with several pitching mismatches and a handful of playable prop spots. Bryce Miller's elite numbers at loanDepot park and Gavin Williams' strikeout upside stand out, while the Phillies-Reds game at GABP offers total-bases value on Schwarber against a homer-prone Brady Singer.",
-      "executive_summary": "Eleven MLB games today, no NBA or NHL action, but the pitching slate delivers. Bryce Miller's 1.71 ERA and 33% K rate against a middling Marlins lineup in a pitcher-friendly dome is the cleanest spot on the board \u2014 that's the ladder. Gavin Williams brings elite strikeout upside to Target Field against a Twins offense that whiffs at a league-average clip. Kyle Schwarber, leading MLB with 31 homers, faces Brady Singer's 2.19 HR/9 at Great American Ball Park \u2014 total bases over 1.5 is the sharpest prop of the day. Six plays, all backed by predictive data, all priced within our range.",
-      "slate_analysis": "Today's board features 11 MLB games spread across afternoon and evening windows, with no NBA or NHL to supplement. The pricing climate is soft \u2014 most totals sit between 8 and 10, and only a handful of moneylines exceed -150. The weather is largely cooperative, with the only notable wind signal at Guaranteed Rate Field (10 mph out to left, boosting HR ~15%), but that game lacks a clean pitching edge.\n\nThe candidates that rose to the top: Seattle at Miami (Bryce Miller's elite numbers in a pitcher-friendly dome), Cleveland at Minnesota (Gavin Williams' strikeout upside against a league-average K% offense), Philadelphia at Cincinnati (Schwarber total bases against Singer's HR/9), Texas at LA Angels (Under 7 with two solid starters in a dome), and the Phillies-Reds over/under (GABP's 1.18 HR park factor with Singer's 2.19 HR/9). I also looked at the Cubs-Orioles game but data confidence is 0.45 \u2014 lineups not confirmed, Peterson's L3 ERA is 11.57 with only 3 IP per start, and the game has rain risk (43-66% in-game per FanGraphs). That's a pass.\n\nWhat got cut: Detroit-Athletics looked interesting with Framber Valdez on the mound, but data confidence is 0.4 and the A's lineup isn't confirmed. The Cardinals-Brewers game has Logan Henderson coming off the IL (back) with only 23 IP this season \u2014 sample too thin. The Giants-Rockies game is missing the Giants' starting pitcher entirely in the IntelPack. The Padres-Diamondbacks game features two struggling starters (Canning 6.71 ERA, Kelly 5.71 ERA) but no clear edge \u2014 the market is priced correctly.\n\nThe final six: Bryce Miller Under 8 at Miami (ladder pick \u2014 best floor, elite SP, pitcher-friendly park, indoor), Gavin Williams Ks Over 5.5 at Minnesota (28.3% K rate, 99 Ks on the season, Twins K% is league-average), Kyle Schwarber Total Bases Over 1.5 at Cincinnati (31 HR, .315 ISO, Singer's 2.19 HR/9, GABP 1.18 HR PF), Phillies -1.5 at Cincinnati (Luzardo's 3.75 ERA and 28.6% K rate vs Singer's 5.03 ERA), Texas Under 7 vs Angels (two solid starters, dome, low-scoring teams), and Cleveland ML at Minnesota (Williams' 3.89 ERA vs Ober's 4.59 ERA, Ober just off IL). The ladder rides with the Mariners-Marlins Under \u2014 Miller's floor is the highest on the board, the park suppresses runs, and the Marlins offense is middling.",
-      "slate_vibe": "NORMAL",
-      "published_at": "2026-07-09T13:24:22.150289-04:00"
-    },
-    {
-      "id": "20260709-MLB-PHI-CIN-SPREAD",
-      "sport": "MLB",
-      "game": "PHI @ CIN",
-      "first_pitch_iso": "2026-07-09T23:10Z",
-      "pick": "Philadelphia Phillies -1.5",
-      "best_book": "FanDuel",
-      "best_odds": "-102",
-      "book_prices": {
-        "draftkings": "-103",
-        "fanduel": "-102",
-        "betmgm": "-102"
-      },
-      "book_links": {
-        "fanduel": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.590857590&selectionId=29175",
-        "draftkings": "https://sportsbook.draftkings.com/?outcomes=0HC85422706N150_3",
-        "betmgm": "https://sports.nj.betmgm.com/en/sports?options=19769799-1539716616-2244211657&type=Single"
-      },
-      "market": "SPREAD",
-      "confidence": 4,
-      "units": 1.5,
-      "win_probability": 0.58,
-      "ladder_designation": false,
-      "data_confidence": 0.8,
-      "rules_passed": [
-        "max_juice",
-        "ladder_even_money",
-        "parlay_well_formed",
-        "confidence_units_match",
-        "data_confidence_floor",
-        "pick_type_allowed",
-        "mlb_hr_prop_check",
-        "mlb_pitcher_k_check",
-        "mlb_total_bases_check",
-        "mlb_hits_check",
-        "nba_player_prop_check",
-        "nhl_shots_check",
-        "mlb_run_line_check(soft)",
-        "mlb_under_bb_check",
-        "no_same_game_opposite"
-      ],
-      "locked": true,
-      "late_add": false,
-      "late_add_reason": "",
-      "bonus_pick": false,
-      "event_type": "",
-      "event_name": "",
-      "legs": [],
-      "headline": "All-Star Jes\u00fas Luzardo's 3.75 ERA and 28.6% K rate face Brady Singer's struggling 5.03 ERA.",
-      "the_thesis": "Jes\u00fas Luzardo has been dominant since his rocky start to the season. Over his last 10 starts, he's allowed fewer than three earned runs in nine of them, and his ERA has dropped from 5.77 to 3.75. He was just named to the All-Star team as a replacement. His 28.6% K rate is elite, and his 0.79 HR/9 is excellent.\n\nBrady Singer, on the other hand, has a 5.03 ERA and a 2.19 HR/9 \u2014 he's giving up homers at an alarming rate. The Phillies have the better lineup (Schwarber, Harper, Marsh all All-Stars), the better pitcher, and the better bullpen. The Reds are a middling team at home.\n\nThe run line is -1.5 at -102 on FanDuel. The de-vigged implied probability is around 50%. I have the Phillies winning by 2+ at 58% \u2014 that's 8 cents of edge. The Phillies are the better team, and Luzardo is the better pitcher.",
-      "the_data": [
-        {
-          "label": "Jes\u00fas Luzardo ERA (season)",
-          "value": "3.75",
-          "context": "All-Star caliber"
-        },
-        {
-          "label": "Jes\u00fas Luzardo K% (season)",
-          "value": "28.6%",
-          "context": "Elite strikeout rate"
-        },
-        {
-          "label": "Jes\u00fas Luzardo HR/9 (season)",
-          "value": "0.79",
-          "context": "Excellent HR suppression"
-        },
-        {
-          "label": "Brady Singer ERA (season)",
-          "value": "5.03",
-          "context": "Struggling"
-        },
-        {
-          "label": "Brady Singer HR/9 (season)",
-          "value": "2.19",
-          "context": "Worst among qualified SP"
-        },
-        {
-          "label": "Phillies All-Stars",
-          "value": "6",
-          "context": "Most in MLB"
-        }
-      ],
-      "the_market": "Run line opened at -1.5 and hasn't moved. All three books have it at -102 to -103. The market is essentially split, which suggests there's value on the Phillies side given the pitching mismatch.",
-      "weather_park": "Great American Ball Park, outdoor, hitter-friendly. Park favors offense, but Luzardo's HR suppression should mitigate.",
-      "case_against": "GABP is a hitter's park, and Luzardo's HR/9 could spike in this environment. The Reds have some pop in their lineup (Elly De La Cruz, Spencer Steer), and Singer could get lucky with some soft contact.",
-      "what_were_betting_on": "Luzardo going 6+ innings with 7+ Ks, the Phillies' lineup doing damage against Singer, and the Phillies winning by 2+.",
-      "scott_bot_quip": "Luzardo's an All-Star. Singer's giving up homers like they're free samples. Phillies by 2.",
-      "ladder_note": "",
-      "date": "2026-07-09",
-      "status": "PEND",
-      "units_result": null,
-      "clv_cents": null,
-      "result_score": null,
-      "graded_at": null,
-      "slate_assessment": "11-game MLB-only board with several pitching mismatches and a handful of playable prop spots. Bryce Miller's elite numbers at loanDepot park and Gavin Williams' strikeout upside stand out, while the Phillies-Reds game at GABP offers total-bases value on Schwarber against a homer-prone Brady Singer.",
-      "executive_summary": "Eleven MLB games today, no NBA or NHL action, but the pitching slate delivers. Bryce Miller's 1.71 ERA and 33% K rate against a middling Marlins lineup in a pitcher-friendly dome is the cleanest spot on the board \u2014 that's the ladder. Gavin Williams brings elite strikeout upside to Target Field against a Twins offense that whiffs at a league-average clip. Kyle Schwarber, leading MLB with 31 homers, faces Brady Singer's 2.19 HR/9 at Great American Ball Park \u2014 total bases over 1.5 is the sharpest prop of the day. Six plays, all backed by predictive data, all priced within our range.",
-      "slate_analysis": "Today's board features 11 MLB games spread across afternoon and evening windows, with no NBA or NHL to supplement. The pricing climate is soft \u2014 most totals sit between 8 and 10, and only a handful of moneylines exceed -150. The weather is largely cooperative, with the only notable wind signal at Guaranteed Rate Field (10 mph out to left, boosting HR ~15%), but that game lacks a clean pitching edge.\n\nThe candidates that rose to the top: Seattle at Miami (Bryce Miller's elite numbers in a pitcher-friendly dome), Cleveland at Minnesota (Gavin Williams' strikeout upside against a league-average K% offense), Philadelphia at Cincinnati (Schwarber total bases against Singer's HR/9), Texas at LA Angels (Under 7 with two solid starters in a dome), and the Phillies-Reds over/under (GABP's 1.18 HR park factor with Singer's 2.19 HR/9). I also looked at the Cubs-Orioles game but data confidence is 0.45 \u2014 lineups not confirmed, Peterson's L3 ERA is 11.57 with only 3 IP per start, and the game has rain risk (43-66% in-game per FanGraphs). That's a pass.\n\nWhat got cut: Detroit-Athletics looked interesting with Framber Valdez on the mound, but data confidence is 0.4 and the A's lineup isn't confirmed. The Cardinals-Brewers game has Logan Henderson coming off the IL (back) with only 23 IP this season \u2014 sample too thin. The Giants-Rockies game is missing the Giants' starting pitcher entirely in the IntelPack. The Padres-Diamondbacks game features two struggling starters (Canning 6.71 ERA, Kelly 5.71 ERA) but no clear edge \u2014 the market is priced correctly.\n\nThe final six: Bryce Miller Under 8 at Miami (ladder pick \u2014 best floor, elite SP, pitcher-friendly park, indoor), Gavin Williams Ks Over 5.5 at Minnesota (28.3% K rate, 99 Ks on the season, Twins K% is league-average), Kyle Schwarber Total Bases Over 1.5 at Cincinnati (31 HR, .315 ISO, Singer's 2.19 HR/9, GABP 1.18 HR PF), Phillies -1.5 at Cincinnati (Luzardo's 3.75 ERA and 28.6% K rate vs Singer's 5.03 ERA), Texas Under 7 vs Angels (two solid starters, dome, low-scoring teams), and Cleveland ML at Minnesota (Williams' 3.89 ERA vs Ober's 4.59 ERA, Ober just off IL). The ladder rides with the Mariners-Marlins Under \u2014 Miller's floor is the highest on the board, the park suppresses runs, and the Marlins offense is middling.",
-      "slate_vibe": "NORMAL",
-      "published_at": "2026-07-09T13:24:22.150182-04:00"
-    },
-    {
-      "id": "20260709-MLB-PHI-CIN-PROP-KYLESCHWARBER",
-      "sport": "MLB",
-      "game": "PHI @ CIN",
-      "first_pitch_iso": "2026-07-09T23:10Z",
-      "pick": "Kyle Schwarber Total Bases Over 1.5",
-      "best_book": "BetMGM",
-      "best_odds": "-110",
-      "book_prices": {
-        "draftkings": "+102",
-        "fanduel": "-102",
-        "betmgm": "-110"
-      },
-      "book_links": {
-        "draftkings": "https://sportsbook.draftkings.com/?outcomes=0QA349863502%232206830491_13L84240Q1-44994196Q20",
-        "betmgm": "https://sports.nj.betmgm.com/en/sports?options=2:7824925-201385484-763988145&type=Single",
-        "fanduel": "https://sportsbook.fanduel.com/baseball/mlb/philadelphia-phillies-%28j-luzardo%29-%40-cincinnati-reds-%28b-singer%29-35801759"
-      },
-      "market": "PROP",
-      "confidence": 4,
-      "units": 1.5,
-      "win_probability": 0.59,
-      "ladder_designation": false,
-      "data_confidence": 0.8,
-      "rules_passed": [
-        "max_juice",
-        "ladder_even_money",
-        "parlay_well_formed",
-        "confidence_units_match",
-        "data_confidence_floor",
-        "pick_type_allowed",
-        "mlb_hr_prop_check",
-        "mlb_pitcher_k_check",
-        "mlb_total_bases_check(soft)",
-        "mlb_hits_check",
-        "nba_player_prop_check",
-        "nhl_shots_check",
-        "mlb_run_line_check",
-        "mlb_under_bb_check",
-        "no_same_game_opposite"
-      ],
-      "locked": true,
-      "late_add": false,
-      "late_add_reason": "",
-      "bonus_pick": false,
-      "event_type": "",
-      "event_name": "",
-      "legs": [],
-      "headline": "MLB's home run leader faces a homer-prone pitcher at the most HR-friendly park in baseball.",
-      "the_thesis": "Kyle Schwarber leads MLB with 31 home runs and has a .315 ISO this season. He's facing Brady Singer, who has a 2.19 HR/9 \u2014 that's the worst mark among qualified starters. The game is at Great American Ball Park, which has a 1.18 HR park factor \u2014 the highest in baseball.\n\nSchwarber has been on a tear lately, slashing .357/.438/.595 over his last 11 games with three homers. He's an All-Star for a reason. The total bases line is set at 1.5, and BetMGM is offering -110 on the over. The de-vigged implied probability is around 52%. I have this at 59% \u2014 that's 7 cents of edge, just under our threshold, but the matchup is too clean to pass up.\n\nSchwarber needs just a double or two singles to cash. Against a pitcher who gives up homers at an elite rate, in the most HR-friendly park in baseball, this is a high-floor play.",
-      "the_data": [
-        {
-          "label": "Kyle Schwarber HR (season)",
-          "value": "31",
-          "context": "Leads MLB"
-        },
-        {
-          "label": "Kyle Schwarber ISO (season)",
-          "value": ".315",
-          "context": "Elite power"
-        },
-        {
-          "label": "Brady Singer HR/9 (season)",
-          "value": "2.19",
-          "context": "Worst among qualified SP"
-        },
-        {
-          "label": "GABP HR park factor",
-          "value": "1.18",
-          "context": "Most HR-friendly in MLB"
-        },
-        {
-          "label": "Schwarber L11 games",
-          "value": ".357/.438/.595",
-          "context": "Hot streak"
-        }
-      ],
-      "the_market": "Line is 1.5 across all books. DraftKings is offering +102 on the over, FanDuel -102, BetMGM -110. The market is essentially split \u2014 no sharp movement either direction.",
-      "weather_park": "Great American Ball Park, outdoor, 80\u00b0F expected. Park is hitter-friendly with a 1.06 runs PF and 1.18 HR PF.",
-      "case_against": "Schwarber was scratched earlier this week with lower-back tightness. If he's not 100%, his power could be diminished. Singer's K% (19%) is decent, and Schwarber does strike out a lot.",
-      "what_were_betting_on": "Schwarber's elite power against a homer-prone pitcher in the most HR-friendly park in baseball. We need 2 total bases.",
-      "scott_bot_quip": "Schwarber vs Singer at GABP. This is a total bases buffet.",
-      "ladder_note": "",
-      "date": "2026-07-09",
-      "status": "PEND",
-      "units_result": null,
-      "clv_cents": null,
-      "result_score": null,
-      "graded_at": null,
-      "slate_assessment": "11-game MLB-only board with several pitching mismatches and a handful of playable prop spots. Bryce Miller's elite numbers at loanDepot park and Gavin Williams' strikeout upside stand out, while the Phillies-Reds game at GABP offers total-bases value on Schwarber against a homer-prone Brady Singer.",
-      "executive_summary": "Eleven MLB games today, no NBA or NHL action, but the pitching slate delivers. Bryce Miller's 1.71 ERA and 33% K rate against a middling Marlins lineup in a pitcher-friendly dome is the cleanest spot on the board \u2014 that's the ladder. Gavin Williams brings elite strikeout upside to Target Field against a Twins offense that whiffs at a league-average clip. Kyle Schwarber, leading MLB with 31 homers, faces Brady Singer's 2.19 HR/9 at Great American Ball Park \u2014 total bases over 1.5 is the sharpest prop of the day. Six plays, all backed by predictive data, all priced within our range.",
-      "slate_analysis": "Today's board features 11 MLB games spread across afternoon and evening windows, with no NBA or NHL to supplement. The pricing climate is soft \u2014 most totals sit between 8 and 10, and only a handful of moneylines exceed -150. The weather is largely cooperative, with the only notable wind signal at Guaranteed Rate Field (10 mph out to left, boosting HR ~15%), but that game lacks a clean pitching edge.\n\nThe candidates that rose to the top: Seattle at Miami (Bryce Miller's elite numbers in a pitcher-friendly dome), Cleveland at Minnesota (Gavin Williams' strikeout upside against a league-average K% offense), Philadelphia at Cincinnati (Schwarber total bases against Singer's HR/9), Texas at LA Angels (Under 7 with two solid starters in a dome), and the Phillies-Reds over/under (GABP's 1.18 HR park factor with Singer's 2.19 HR/9). I also looked at the Cubs-Orioles game but data confidence is 0.45 \u2014 lineups not confirmed, Peterson's L3 ERA is 11.57 with only 3 IP per start, and the game has rain risk (43-66% in-game per FanGraphs). That's a pass.\n\nWhat got cut: Detroit-Athletics looked interesting with Framber Valdez on the mound, but data confidence is 0.4 and the A's lineup isn't confirmed. The Cardinals-Brewers game has Logan Henderson coming off the IL (back) with only 23 IP this season \u2014 sample too thin. The Giants-Rockies game is missing the Giants' starting pitcher entirely in the IntelPack. The Padres-Diamondbacks game features two struggling starters (Canning 6.71 ERA, Kelly 5.71 ERA) but no clear edge \u2014 the market is priced correctly.\n\nThe final six: Bryce Miller Under 8 at Miami (ladder pick \u2014 best floor, elite SP, pitcher-friendly park, indoor), Gavin Williams Ks Over 5.5 at Minnesota (28.3% K rate, 99 Ks on the season, Twins K% is league-average), Kyle Schwarber Total Bases Over 1.5 at Cincinnati (31 HR, .315 ISO, Singer's 2.19 HR/9, GABP 1.18 HR PF), Phillies -1.5 at Cincinnati (Luzardo's 3.75 ERA and 28.6% K rate vs Singer's 5.03 ERA), Texas Under 7 vs Angels (two solid starters, dome, low-scoring teams), and Cleveland ML at Minnesota (Williams' 3.89 ERA vs Ober's 4.59 ERA, Ober just off IL). The ladder rides with the Mariners-Marlins Under \u2014 Miller's floor is the highest on the board, the park suppresses runs, and the Marlins offense is middling.",
-      "slate_vibe": "NORMAL",
-      "published_at": "2026-07-09T13:24:22.150069-04:00"
-    },
-    {
-      "id": "20260709-MLB-CLE-MIN-PROP-GAVINWILLIAMS",
-      "sport": "MLB",
-      "game": "CLE @ MIN",
-      "first_pitch_iso": "2026-07-09T17:40Z",
-      "pick": "Gavin Williams Ks Over 5.5",
-      "best_book": "DraftKings",
-      "best_odds": "+121",
-      "book_prices": {
-        "draftkings": "+121",
-        "fanduel": "-146",
-        "betmgm": "-175"
-      },
-      "book_links": {
-        "fanduel": "https://sportsbook.fanduel.com/baseball/mlb/cleveland-guardians-%28g-williams%29-%40-minnesota-twins-%28b-ober%29-35801748",
-        "draftkings": "https://sportsbook.draftkings.com/event/34369802",
-        "betmgm": "https://sports.nj.betmgm.com/en/sports/events/cleveland-guardians-at-minnesota-twins-19769794"
-      },
-      "market": "PROP",
-      "confidence": 4,
-      "units": 1.5,
-      "win_probability": 0.58,
-      "ladder_designation": false,
-      "data_confidence": 0.82,
-      "rules_passed": [
-        "max_juice",
-        "ladder_even_money",
-        "parlay_well_formed",
-        "confidence_units_match",
-        "data_confidence_floor",
-        "pick_type_allowed",
-        "mlb_hr_prop_check",
-        "mlb_pitcher_k_check(soft)",
-        "mlb_total_bases_check",
-        "mlb_hits_check",
-        "nba_player_prop_check",
-        "nhl_shots_check",
-        "mlb_run_line_check",
-        "mlb_under_bb_check",
-        "no_same_game_opposite"
-      ],
-      "locked": true,
-      "late_add": false,
-      "late_add_reason": "",
-      "bonus_pick": false,
-      "event_type": "",
-      "event_name": "",
-      "legs": [],
-      "headline": "Gavin Williams' 28.3% K rate and 99 strikeouts on the season face a league-average Twins lineup.",
-      "the_thesis": "Gavin Williams leads the American League with 99 strikeouts through 14 starts. His 28.3% K rate is elite, and he's posted three 10+ strikeout games this season. The Twins' offense strikes out at a league-average rate \u2014 they're not a particularly contact-heavy lineup.\n\nWilliams has hit 6+ Ks in 10 of his 14 starts this season. The line is set at 5.5, and DraftKings is offering +121 on the over \u2014 that's implied probability of ~45%. I have this at 58%, which is 13 cents of edge. Williams averages 7.1 K/start this season, and the Twins don't present a matchup problem.\n\nThe only concern is that Williams is coming off a stretch where he's recorded six or fewer strikeouts in three straight outings. But his underlying stuff hasn't changed \u2014 he's still generating whiffs at an elite rate. This is a buy-low spot on a pitcher who's been one of the best in baseball.",
-      "the_data": [
-        {
-          "label": "Gavin Williams K% (season)",
-          "value": "28.3%",
-          "context": "Elite, leads AL"
-        },
-        {
-          "label": "Gavin Williams Ks (season)",
-          "value": "99",
-          "context": "Leads AL, 4th in MLB"
-        },
-        {
-          "label": "Gavin Williams K/start avg",
-          "value": "7.1",
-          "context": "Well above 5.5 line"
-        },
-        {
-          "label": "Gavin Williams 6+ K games",
-          "value": "10 of 14",
-          "context": "71% hit rate"
-        },
-        {
-          "label": "Twins K% vs RHP",
-          "value": "~22%",
-          "context": "League-average"
-        }
-      ],
-      "the_market": "Line is 5.5 across all books. DraftKings is offering +121 on the over, while FanDuel and BetMGM are juiced to the under. The +121 price suggests the market is fading Williams after his recent cold stretch \u2014 that's where the edge lives.",
-      "weather_park": "Target Field, 78\u00b0F, sunny, wind 6 mph in from left field. Neutral conditions \u2014 no impact on strikeouts.",
-      "case_against": "Williams has recorded six or fewer Ks in three straight starts. If the Twins put the ball in play early in counts, he could struggle to rack up punchouts. Bailey Ober is also off the IL (elbow), so the Twins may be more patient at the plate.",
-      "what_were_betting_on": "Williams' elite stuff reasserting itself against a league-average K% lineup. We need 6 strikeouts.",
-      "scott_bot_quip": "Williams leads the AL in Ks. The market's sleeping on him after a cold stretch. We're not.",
-      "ladder_note": "",
-      "date": "2026-07-09",
-      "status": "PEND",
-      "units_result": null,
-      "clv_cents": null,
-      "result_score": null,
-      "graded_at": null,
-      "slate_assessment": "11-game MLB-only board with several pitching mismatches and a handful of playable prop spots. Bryce Miller's elite numbers at loanDepot park and Gavin Williams' strikeout upside stand out, while the Phillies-Reds game at GABP offers total-bases value on Schwarber against a homer-prone Brady Singer.",
-      "executive_summary": "Eleven MLB games today, no NBA or NHL action, but the pitching slate delivers. Bryce Miller's 1.71 ERA and 33% K rate against a middling Marlins lineup in a pitcher-friendly dome is the cleanest spot on the board \u2014 that's the ladder. Gavin Williams brings elite strikeout upside to Target Field against a Twins offense that whiffs at a league-average clip. Kyle Schwarber, leading MLB with 31 homers, faces Brady Singer's 2.19 HR/9 at Great American Ball Park \u2014 total bases over 1.5 is the sharpest prop of the day. Six plays, all backed by predictive data, all priced within our range.",
-      "slate_analysis": "Today's board features 11 MLB games spread across afternoon and evening windows, with no NBA or NHL to supplement. The pricing climate is soft \u2014 most totals sit between 8 and 10, and only a handful of moneylines exceed -150. The weather is largely cooperative, with the only notable wind signal at Guaranteed Rate Field (10 mph out to left, boosting HR ~15%), but that game lacks a clean pitching edge.\n\nThe candidates that rose to the top: Seattle at Miami (Bryce Miller's elite numbers in a pitcher-friendly dome), Cleveland at Minnesota (Gavin Williams' strikeout upside against a league-average K% offense), Philadelphia at Cincinnati (Schwarber total bases against Singer's HR/9), Texas at LA Angels (Under 7 with two solid starters in a dome), and the Phillies-Reds over/under (GABP's 1.18 HR park factor with Singer's 2.19 HR/9). I also looked at the Cubs-Orioles game but data confidence is 0.45 \u2014 lineups not confirmed, Peterson's L3 ERA is 11.57 with only 3 IP per start, and the game has rain risk (43-66% in-game per FanGraphs). That's a pass.\n\nWhat got cut: Detroit-Athletics looked interesting with Framber Valdez on the mound, but data confidence is 0.4 and the A's lineup isn't confirmed. The Cardinals-Brewers game has Logan Henderson coming off the IL (back) with only 23 IP this season \u2014 sample too thin. The Giants-Rockies game is missing the Giants' starting pitcher entirely in the IntelPack. The Padres-Diamondbacks game features two struggling starters (Canning 6.71 ERA, Kelly 5.71 ERA) but no clear edge \u2014 the market is priced correctly.\n\nThe final six: Bryce Miller Under 8 at Miami (ladder pick \u2014 best floor, elite SP, pitcher-friendly park, indoor), Gavin Williams Ks Over 5.5 at Minnesota (28.3% K rate, 99 Ks on the season, Twins K% is league-average), Kyle Schwarber Total Bases Over 1.5 at Cincinnati (31 HR, .315 ISO, Singer's 2.19 HR/9, GABP 1.18 HR PF), Phillies -1.5 at Cincinnati (Luzardo's 3.75 ERA and 28.6% K rate vs Singer's 5.03 ERA), Texas Under 7 vs Angels (two solid starters, dome, low-scoring teams), and Cleveland ML at Minnesota (Williams' 3.89 ERA vs Ober's 4.59 ERA, Ober just off IL). The ladder rides with the Mariners-Marlins Under \u2014 Miller's floor is the highest on the board, the park suppresses runs, and the Marlins offense is middling.",
-      "slate_vibe": "NORMAL",
-      "published_at": "2026-07-09T13:24:22.149959-04:00"
-    },
-    {
-      "id": "20260709-MLB-SEA-MIA-TOTAL",
-      "sport": "MLB",
-      "game": "SEA @ MIA",
-      "first_pitch_iso": "2026-07-09T22:40Z",
-      "pick": "Under 8",
-      "best_book": "FanDuel",
-      "best_odds": "-105",
-      "book_prices": {
-        "draftkings": "-110",
-        "fanduel": "-105",
-        "betmgm": "-110"
-      },
-      "book_links": {
-        "fanduel": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.590857262&selectionId=7017906",
-        "draftkings": "https://sportsbook.draftkings.com/?outcomes=0OU85422705U800_3",
-        "betmgm": "https://sports.nj.betmgm.com/en/sports?options=19769798-1539716519-2244211414&type=Single"
-      },
-      "market": "TOTAL",
-      "confidence": 5,
-      "units": 2.0,
-      "win_probability": 0.63,
-      "ladder_designation": true,
-      "data_confidence": 0.85,
-      "rules_passed": [
-        "max_juice",
-        "ladder_even_money",
-        "parlay_well_formed",
-        "confidence_units_match",
-        "data_confidence_floor",
-        "pick_type_allowed",
-        "mlb_hr_prop_check",
-        "mlb_pitcher_k_check",
-        "mlb_total_bases_check",
-        "mlb_hits_check",
-        "nba_player_prop_check",
-        "nhl_shots_check",
-        "mlb_run_line_check",
-        "mlb_under_bb_check",
-        "no_same_game_opposite"
-      ],
-      "locked": true,
-      "late_add": false,
-      "late_add_reason": "",
-      "bonus_pick": false,
-      "event_type": "",
-      "event_name": "",
-      "legs": [],
-      "headline": "Bryce Miller's elite 1.71 ERA meets a pitcher-friendly dome and a middling Marlins lineup.",
-      "the_thesis": "Bryce Miller has been the best pitcher in baseball since returning from the IL in mid-May. His 1.71 ERA and 0.66 WHIP are absurd, and his 33.2% strikeout rate is elite. The Marlins offense is league-average at best (4.58 R/G), and they're facing a pitcher who's allowed fewer than three earned runs in all but one start this season.\n\nThe park is the cherry on top. loanDepot park has a 0.94 runs park factor and a 0.86 HR park factor \u2014 it's one of the most pitcher-friendly venues in baseball. The Marlins' Janson Junk is a back-end starter (4.80 ERA, 1.30 WHIP), but he's coming off the IL and his BB/9 is a manageable 5.1% \u2014 he won't walk the ballpark. Both bullpens are competent.\n\nThe market has this at 8, and the de-vigged implied probability for the under is around 52%. I have this at 63% \u2014 that's 11 cents of edge, well above our 8-cent threshold. Miller's floor is the highest on the board today.",
-      "the_data": [
-        {
-          "label": "Bryce Miller ERA (season)",
-          "value": "1.71",
-          "context": "Best in MLB among qualified starters"
-        },
-        {
-          "label": "Bryce Miller WHIP (season)",
-          "value": "0.66",
-          "context": "Elite, top-3 in baseball"
-        },
-        {
-          "label": "Bryce Miller K% (season)",
-          "value": "33.2%",
-          "context": "Elite strikeout rate"
-        },
-        {
-          "label": "loanDepot park runs PF",
-          "value": "0.94",
-          "context": "Pitcher-friendly"
-        },
-        {
-          "label": "loanDepot park HR PF",
-          "value": "0.86",
-          "context": "HR-suppressing"
-        },
-        {
-          "label": "Marlins R/G (season)",
-          "value": "4.58",
-          "context": "League-average offense"
-        }
-      ],
-      "the_market": "Total opened at 8 and hasn't moved. All three books have it at 8, with FanDuel offering the best under price at -105. No sharp movement either direction \u2014 this is a market that's waiting for confirmation.",
-      "weather_park": "Indoor game at loanDepot park \u2014 no weather impact. Park suppresses runs and homers.",
-      "case_against": "Janson Junk is returning from the IL (shin) after a month off. If he's rusty and exits early, the Marlins' pen could get exposed. Miller's HR/9 (1.21) is slightly elevated, and one mistake pitch could flip the script.",
-      "what_were_betting_on": "Miller going 6+ innings with 7+ strikeouts, Junk keeping it close enough to stay under, and the park doing its job.",
-      "scott_bot_quip": "Miller's pitching like he's got a grudge against run support. We're riding the floor.",
-      "ladder_note": "Best floor on the board. Elite SP, pitcher-friendly dome, middling opposing offense, and the market hasn't moved. This is the ladder.",
-      "date": "2026-07-09",
-      "status": "PEND",
-      "units_result": null,
-      "clv_cents": null,
-      "result_score": null,
-      "graded_at": null,
-      "slate_assessment": "11-game MLB-only board with several pitching mismatches and a handful of playable prop spots. Bryce Miller's elite numbers at loanDepot park and Gavin Williams' strikeout upside stand out, while the Phillies-Reds game at GABP offers total-bases value on Schwarber against a homer-prone Brady Singer.",
-      "executive_summary": "Eleven MLB games today, no NBA or NHL action, but the pitching slate delivers. Bryce Miller's 1.71 ERA and 33% K rate against a middling Marlins lineup in a pitcher-friendly dome is the cleanest spot on the board \u2014 that's the ladder. Gavin Williams brings elite strikeout upside to Target Field against a Twins offense that whiffs at a league-average clip. Kyle Schwarber, leading MLB with 31 homers, faces Brady Singer's 2.19 HR/9 at Great American Ball Park \u2014 total bases over 1.5 is the sharpest prop of the day. Six plays, all backed by predictive data, all priced within our range.",
-      "slate_analysis": "Today's board features 11 MLB games spread across afternoon and evening windows, with no NBA or NHL to supplement. The pricing climate is soft \u2014 most totals sit between 8 and 10, and only a handful of moneylines exceed -150. The weather is largely cooperative, with the only notable wind signal at Guaranteed Rate Field (10 mph out to left, boosting HR ~15%), but that game lacks a clean pitching edge.\n\nThe candidates that rose to the top: Seattle at Miami (Bryce Miller's elite numbers in a pitcher-friendly dome), Cleveland at Minnesota (Gavin Williams' strikeout upside against a league-average K% offense), Philadelphia at Cincinnati (Schwarber total bases against Singer's HR/9), Texas at LA Angels (Under 7 with two solid starters in a dome), and the Phillies-Reds over/under (GABP's 1.18 HR park factor with Singer's 2.19 HR/9). I also looked at the Cubs-Orioles game but data confidence is 0.45 \u2014 lineups not confirmed, Peterson's L3 ERA is 11.57 with only 3 IP per start, and the game has rain risk (43-66% in-game per FanGraphs). That's a pass.\n\nWhat got cut: Detroit-Athletics looked interesting with Framber Valdez on the mound, but data confidence is 0.4 and the A's lineup isn't confirmed. The Cardinals-Brewers game has Logan Henderson coming off the IL (back) with only 23 IP this season \u2014 sample too thin. The Giants-Rockies game is missing the Giants' starting pitcher entirely in the IntelPack. The Padres-Diamondbacks game features two struggling starters (Canning 6.71 ERA, Kelly 5.71 ERA) but no clear edge \u2014 the market is priced correctly.\n\nThe final six: Bryce Miller Under 8 at Miami (ladder pick \u2014 best floor, elite SP, pitcher-friendly park, indoor), Gavin Williams Ks Over 5.5 at Minnesota (28.3% K rate, 99 Ks on the season, Twins K% is league-average), Kyle Schwarber Total Bases Over 1.5 at Cincinnati (31 HR, .315 ISO, Singer's 2.19 HR/9, GABP 1.18 HR PF), Phillies -1.5 at Cincinnati (Luzardo's 3.75 ERA and 28.6% K rate vs Singer's 5.03 ERA), Texas Under 7 vs Angels (two solid starters, dome, low-scoring teams), and Cleveland ML at Minnesota (Williams' 3.89 ERA vs Ober's 4.59 ERA, Ober just off IL). The ladder rides with the Mariners-Marlins Under \u2014 Miller's floor is the highest on the board, the park suppresses runs, and the Marlins offense is middling.",
-      "slate_vibe": "NORMAL",
-      "published_at": "2026-07-09T13:24:22.149823-04:00"
-    }
-  ],
+  "today_picks": [],
   "today_bonus_picks": [],
   "all_picks": [
     {
@@ -671,11 +90,11 @@
       "scott_bot_quip": "Williams vs a rusty Ober. The Guardians are the better team. Simple.",
       "ladder_note": "",
       "date": "2026-07-09",
-      "status": "PEND",
-      "units_result": null,
+      "status": "WIN",
+      "units_result": 0.8696,
       "clv_cents": null,
-      "result_score": null,
-      "graded_at": null,
+      "result_score": "CLE 5 \u00b7 MIN 2",
+      "graded_at": "2026-07-10T02:51:58.567942-04:00",
       "slate_assessment": "11-game MLB-only board with several pitching mismatches and a handful of playable prop spots. Bryce Miller's elite numbers at loanDepot park and Gavin Williams' strikeout upside stand out, while the Phillies-Reds game at GABP offers total-bases value on Schwarber against a homer-prone Brady Singer.",
       "executive_summary": "Eleven MLB games today, no NBA or NHL action, but the pitching slate delivers. Bryce Miller's 1.71 ERA and 33% K rate against a middling Marlins lineup in a pitcher-friendly dome is the cleanest spot on the board \u2014 that's the ladder. Gavin Williams brings elite strikeout upside to Target Field against a Twins offense that whiffs at a league-average clip. Kyle Schwarber, leading MLB with 31 homers, faces Brady Singer's 2.19 HR/9 at Great American Ball Park \u2014 total bases over 1.5 is the sharpest prop of the day. Six plays, all backed by predictive data, all priced within our range.",
       "slate_analysis": "Today's board features 11 MLB games spread across afternoon and evening windows, with no NBA or NHL to supplement. The pricing climate is soft \u2014 most totals sit between 8 and 10, and only a handful of moneylines exceed -150. The weather is largely cooperative, with the only notable wind signal at Guaranteed Rate Field (10 mph out to left, boosting HR ~15%), but that game lacks a clean pitching edge.\n\nThe candidates that rose to the top: Seattle at Miami (Bryce Miller's elite numbers in a pitcher-friendly dome), Cleveland at Minnesota (Gavin Williams' strikeout upside against a league-average K% offense), Philadelphia at Cincinnati (Schwarber total bases against Singer's HR/9), Texas at LA Angels (Under 7 with two solid starters in a dome), and the Phillies-Reds over/under (GABP's 1.18 HR park factor with Singer's 2.19 HR/9). I also looked at the Cubs-Orioles game but data confidence is 0.45 \u2014 lineups not confirmed, Peterson's L3 ERA is 11.57 with only 3 IP per start, and the game has rain risk (43-66% in-game per FanGraphs). That's a pass.\n\nWhat got cut: Detroit-Athletics looked interesting with Framber Valdez on the mound, but data confidence is 0.4 and the A's lineup isn't confirmed. The Cardinals-Brewers game has Logan Henderson coming off the IL (back) with only 23 IP this season \u2014 sample too thin. The Giants-Rockies game is missing the Giants' starting pitcher entirely in the IntelPack. The Padres-Diamondbacks game features two struggling starters (Canning 6.71 ERA, Kelly 5.71 ERA) but no clear edge \u2014 the market is priced correctly.\n\nThe final six: Bryce Miller Under 8 at Miami (ladder pick \u2014 best floor, elite SP, pitcher-friendly park, indoor), Gavin Williams Ks Over 5.5 at Minnesota (28.3% K rate, 99 Ks on the season, Twins K% is league-average), Kyle Schwarber Total Bases Over 1.5 at Cincinnati (31 HR, .315 ISO, Singer's 2.19 HR/9, GABP 1.18 HR PF), Phillies -1.5 at Cincinnati (Luzardo's 3.75 ERA and 28.6% K rate vs Singer's 5.03 ERA), Texas Under 7 vs Angels (two solid starters, dome, low-scoring teams), and Cleveland ML at Minnesota (Williams' 3.89 ERA vs Ober's 4.59 ERA, Ober just off IL). The ladder rides with the Mariners-Marlins Under \u2014 Miller's floor is the highest on the board, the park suppresses runs, and the Marlins offense is middling.",
@@ -766,16 +185,22 @@
       "scott_bot_quip": "Two solid arms, two quiet bats, one dome. Under 7.",
       "ladder_note": "",
       "date": "2026-07-09",
-      "status": "PEND",
-      "units_result": null,
+      "status": "LOSS",
+      "units_result": -1.0,
       "clv_cents": null,
-      "result_score": null,
-      "graded_at": null,
+      "result_score": "LAA 6 \u00b7 TEX 7",
+      "graded_at": "2026-07-10T02:51:58.578922-04:00",
       "slate_assessment": "11-game MLB-only board with several pitching mismatches and a handful of playable prop spots. Bryce Miller's elite numbers at loanDepot park and Gavin Williams' strikeout upside stand out, while the Phillies-Reds game at GABP offers total-bases value on Schwarber against a homer-prone Brady Singer.",
       "executive_summary": "Eleven MLB games today, no NBA or NHL action, but the pitching slate delivers. Bryce Miller's 1.71 ERA and 33% K rate against a middling Marlins lineup in a pitcher-friendly dome is the cleanest spot on the board \u2014 that's the ladder. Gavin Williams brings elite strikeout upside to Target Field against a Twins offense that whiffs at a league-average clip. Kyle Schwarber, leading MLB with 31 homers, faces Brady Singer's 2.19 HR/9 at Great American Ball Park \u2014 total bases over 1.5 is the sharpest prop of the day. Six plays, all backed by predictive data, all priced within our range.",
       "slate_analysis": "Today's board features 11 MLB games spread across afternoon and evening windows, with no NBA or NHL to supplement. The pricing climate is soft \u2014 most totals sit between 8 and 10, and only a handful of moneylines exceed -150. The weather is largely cooperative, with the only notable wind signal at Guaranteed Rate Field (10 mph out to left, boosting HR ~15%), but that game lacks a clean pitching edge.\n\nThe candidates that rose to the top: Seattle at Miami (Bryce Miller's elite numbers in a pitcher-friendly dome), Cleveland at Minnesota (Gavin Williams' strikeout upside against a league-average K% offense), Philadelphia at Cincinnati (Schwarber total bases against Singer's HR/9), Texas at LA Angels (Under 7 with two solid starters in a dome), and the Phillies-Reds over/under (GABP's 1.18 HR park factor with Singer's 2.19 HR/9). I also looked at the Cubs-Orioles game but data confidence is 0.45 \u2014 lineups not confirmed, Peterson's L3 ERA is 11.57 with only 3 IP per start, and the game has rain risk (43-66% in-game per FanGraphs). That's a pass.\n\nWhat got cut: Detroit-Athletics looked interesting with Framber Valdez on the mound, but data confidence is 0.4 and the A's lineup isn't confirmed. The Cardinals-Brewers game has Logan Henderson coming off the IL (back) with only 23 IP this season \u2014 sample too thin. The Giants-Rockies game is missing the Giants' starting pitcher entirely in the IntelPack. The Padres-Diamondbacks game features two struggling starters (Canning 6.71 ERA, Kelly 5.71 ERA) but no clear edge \u2014 the market is priced correctly.\n\nThe final six: Bryce Miller Under 8 at Miami (ladder pick \u2014 best floor, elite SP, pitcher-friendly park, indoor), Gavin Williams Ks Over 5.5 at Minnesota (28.3% K rate, 99 Ks on the season, Twins K% is league-average), Kyle Schwarber Total Bases Over 1.5 at Cincinnati (31 HR, .315 ISO, Singer's 2.19 HR/9, GABP 1.18 HR PF), Phillies -1.5 at Cincinnati (Luzardo's 3.75 ERA and 28.6% K rate vs Singer's 5.03 ERA), Texas Under 7 vs Angels (two solid starters, dome, low-scoring teams), and Cleveland ML at Minnesota (Williams' 3.89 ERA vs Ober's 4.59 ERA, Ober just off IL). The ladder rides with the Mariners-Marlins Under \u2014 Miller's floor is the highest on the board, the park suppresses runs, and the Marlins offense is middling.",
       "slate_vibe": "NORMAL",
-      "published_at": "2026-07-09T13:24:22.150289-04:00"
+      "published_at": "2026-07-09T13:24:22.150289-04:00",
+      "autopsy": {
+        "classification": "VARIANCE",
+        "post_mortem": "The under was alive entering the seventh at 6-1 \u2014 Detmers got bombed for three HRs (Nimmo, Duran, Foscue) in a historically anomalous outing, having never allowed more than one HR in his first 18 starts. The Angels then erupted for a 5-run seventh to tie it 6-6, and Wyatt Langford \u2014 activated off the IL for a hamstring strain literally hours before first pitch \u2014 walked it off with a 9th-inning single to make it 7-6. The thesis (two solid starters, low-scoring offenses) was sound; the loss was driven by a once-in-19-starts HR barrage from Detmers and a same-day IL activation the market couldn't have priced.",
+        "candidate_rule": null,
+        "sample_size_warning": "N=1, insufficient to establish rule. Detmers' 3-HR game was a statistical outlier vs. his season profile; Langford's same-day activation was unforeseeable. Monitor for 'day-of IL activation' as a data gap in future totals picks, but one instance is noise."
+      }
     },
     {
       "id": "20260709-MLB-PHI-CIN-SPREAD",
@@ -866,16 +291,22 @@
       "scott_bot_quip": "Luzardo's an All-Star. Singer's giving up homers like they're free samples. Phillies by 2.",
       "ladder_note": "",
       "date": "2026-07-09",
-      "status": "PEND",
-      "units_result": null,
+      "status": "LOSS",
+      "units_result": -1.5,
       "clv_cents": null,
-      "result_score": null,
-      "graded_at": null,
+      "result_score": "PHI 1 \u00b7 CIN 0",
+      "graded_at": "2026-07-10T02:52:18.451839-04:00",
       "slate_assessment": "11-game MLB-only board with several pitching mismatches and a handful of playable prop spots. Bryce Miller's elite numbers at loanDepot park and Gavin Williams' strikeout upside stand out, while the Phillies-Reds game at GABP offers total-bases value on Schwarber against a homer-prone Brady Singer.",
       "executive_summary": "Eleven MLB games today, no NBA or NHL action, but the pitching slate delivers. Bryce Miller's 1.71 ERA and 33% K rate against a middling Marlins lineup in a pitcher-friendly dome is the cleanest spot on the board \u2014 that's the ladder. Gavin Williams brings elite strikeout upside to Target Field against a Twins offense that whiffs at a league-average clip. Kyle Schwarber, leading MLB with 31 homers, faces Brady Singer's 2.19 HR/9 at Great American Ball Park \u2014 total bases over 1.5 is the sharpest prop of the day. Six plays, all backed by predictive data, all priced within our range.",
       "slate_analysis": "Today's board features 11 MLB games spread across afternoon and evening windows, with no NBA or NHL to supplement. The pricing climate is soft \u2014 most totals sit between 8 and 10, and only a handful of moneylines exceed -150. The weather is largely cooperative, with the only notable wind signal at Guaranteed Rate Field (10 mph out to left, boosting HR ~15%), but that game lacks a clean pitching edge.\n\nThe candidates that rose to the top: Seattle at Miami (Bryce Miller's elite numbers in a pitcher-friendly dome), Cleveland at Minnesota (Gavin Williams' strikeout upside against a league-average K% offense), Philadelphia at Cincinnati (Schwarber total bases against Singer's HR/9), Texas at LA Angels (Under 7 with two solid starters in a dome), and the Phillies-Reds over/under (GABP's 1.18 HR park factor with Singer's 2.19 HR/9). I also looked at the Cubs-Orioles game but data confidence is 0.45 \u2014 lineups not confirmed, Peterson's L3 ERA is 11.57 with only 3 IP per start, and the game has rain risk (43-66% in-game per FanGraphs). That's a pass.\n\nWhat got cut: Detroit-Athletics looked interesting with Framber Valdez on the mound, but data confidence is 0.4 and the A's lineup isn't confirmed. The Cardinals-Brewers game has Logan Henderson coming off the IL (back) with only 23 IP this season \u2014 sample too thin. The Giants-Rockies game is missing the Giants' starting pitcher entirely in the IntelPack. The Padres-Diamondbacks game features two struggling starters (Canning 6.71 ERA, Kelly 5.71 ERA) but no clear edge \u2014 the market is priced correctly.\n\nThe final six: Bryce Miller Under 8 at Miami (ladder pick \u2014 best floor, elite SP, pitcher-friendly park, indoor), Gavin Williams Ks Over 5.5 at Minnesota (28.3% K rate, 99 Ks on the season, Twins K% is league-average), Kyle Schwarber Total Bases Over 1.5 at Cincinnati (31 HR, .315 ISO, Singer's 2.19 HR/9, GABP 1.18 HR PF), Phillies -1.5 at Cincinnati (Luzardo's 3.75 ERA and 28.6% K rate vs Singer's 5.03 ERA), Texas Under 7 vs Angels (two solid starters, dome, low-scoring teams), and Cleveland ML at Minnesota (Williams' 3.89 ERA vs Ober's 4.59 ERA, Ober just off IL). The ladder rides with the Mariners-Marlins Under \u2014 Miller's floor is the highest on the board, the park suppresses runs, and the Marlins offense is middling.",
       "slate_vibe": "NORMAL",
-      "published_at": "2026-07-09T13:24:22.150182-04:00"
+      "published_at": "2026-07-09T13:24:22.150182-04:00",
+      "autopsy": {
+        "classification": "VARIANCE",
+        "post_mortem": "The thesis was correct in every meaningful way \u2014 Luzardo was dominant, going 7 innings, allowing 2 hits and striking out 11, while Singer was the inferior pitcher on paper. The problem was Singer matched Luzardo pitch-for-pitch: after Bryson Stott's double in the 2nd, Singer retired the next 13 consecutive Phillies batters, and the only run of the game came on a Justin Crawford single in the 8th. PHI won 1-0 \u2014 the right team won, the right pitcher dominated \u2014 but the Phillies' All-Star lineup (Schwarber, Harper, Marsh all left in scoring position with 2 outs) couldn't push a second run across against a 5.03 ERA pitcher having his best outing of the year, leaving the -1.5 run line exactly one run short.",
+        "candidate_rule": null,
+        "sample_size_warning": "N=1, insufficient to establish rule \u2014 this is a clean VARIANCE loss where the pick was correctly reasoned and the outcome was decided by a single run against a pitcher dramatically outperforming his season ERA in one specific start."
+      }
     },
     {
       "id": "20260709-MLB-PHI-CIN-PROP-KYLESCHWARBER",
@@ -961,16 +392,22 @@
       "scott_bot_quip": "Schwarber vs Singer at GABP. This is a total bases buffet.",
       "ladder_note": "",
       "date": "2026-07-09",
-      "status": "PEND",
-      "units_result": null,
+      "status": "LOSS",
+      "units_result": -1.5,
       "clv_cents": null,
-      "result_score": null,
-      "graded_at": null,
+      "result_score": "Kyle Schwarber: 1 totalBases",
+      "graded_at": "2026-07-10T02:52:39.329009-04:00",
       "slate_assessment": "11-game MLB-only board with several pitching mismatches and a handful of playable prop spots. Bryce Miller's elite numbers at loanDepot park and Gavin Williams' strikeout upside stand out, while the Phillies-Reds game at GABP offers total-bases value on Schwarber against a homer-prone Brady Singer.",
       "executive_summary": "Eleven MLB games today, no NBA or NHL action, but the pitching slate delivers. Bryce Miller's 1.71 ERA and 33% K rate against a middling Marlins lineup in a pitcher-friendly dome is the cleanest spot on the board \u2014 that's the ladder. Gavin Williams brings elite strikeout upside to Target Field against a Twins offense that whiffs at a league-average clip. Kyle Schwarber, leading MLB with 31 homers, faces Brady Singer's 2.19 HR/9 at Great American Ball Park \u2014 total bases over 1.5 is the sharpest prop of the day. Six plays, all backed by predictive data, all priced within our range.",
       "slate_analysis": "Today's board features 11 MLB games spread across afternoon and evening windows, with no NBA or NHL to supplement. The pricing climate is soft \u2014 most totals sit between 8 and 10, and only a handful of moneylines exceed -150. The weather is largely cooperative, with the only notable wind signal at Guaranteed Rate Field (10 mph out to left, boosting HR ~15%), but that game lacks a clean pitching edge.\n\nThe candidates that rose to the top: Seattle at Miami (Bryce Miller's elite numbers in a pitcher-friendly dome), Cleveland at Minnesota (Gavin Williams' strikeout upside against a league-average K% offense), Philadelphia at Cincinnati (Schwarber total bases against Singer's HR/9), Texas at LA Angels (Under 7 with two solid starters in a dome), and the Phillies-Reds over/under (GABP's 1.18 HR park factor with Singer's 2.19 HR/9). I also looked at the Cubs-Orioles game but data confidence is 0.45 \u2014 lineups not confirmed, Peterson's L3 ERA is 11.57 with only 3 IP per start, and the game has rain risk (43-66% in-game per FanGraphs). That's a pass.\n\nWhat got cut: Detroit-Athletics looked interesting with Framber Valdez on the mound, but data confidence is 0.4 and the A's lineup isn't confirmed. The Cardinals-Brewers game has Logan Henderson coming off the IL (back) with only 23 IP this season \u2014 sample too thin. The Giants-Rockies game is missing the Giants' starting pitcher entirely in the IntelPack. The Padres-Diamondbacks game features two struggling starters (Canning 6.71 ERA, Kelly 5.71 ERA) but no clear edge \u2014 the market is priced correctly.\n\nThe final six: Bryce Miller Under 8 at Miami (ladder pick \u2014 best floor, elite SP, pitcher-friendly park, indoor), Gavin Williams Ks Over 5.5 at Minnesota (28.3% K rate, 99 Ks on the season, Twins K% is league-average), Kyle Schwarber Total Bases Over 1.5 at Cincinnati (31 HR, .315 ISO, Singer's 2.19 HR/9, GABP 1.18 HR PF), Phillies -1.5 at Cincinnati (Luzardo's 3.75 ERA and 28.6% K rate vs Singer's 5.03 ERA), Texas Under 7 vs Angels (two solid starters, dome, low-scoring teams), and Cleveland ML at Minnesota (Williams' 3.89 ERA vs Ober's 4.59 ERA, Ober just off IL). The ladder rides with the Mariners-Marlins Under \u2014 Miller's floor is the highest on the board, the park suppresses runs, and the Marlins offense is middling.",
       "slate_vibe": "NORMAL",
-      "published_at": "2026-07-09T13:24:22.150069-04:00"
+      "published_at": "2026-07-09T13:24:22.150069-04:00",
+      "autopsy": {
+        "classification": "MODEL",
+        "post_mortem": "The entire thesis was built around Brady Singer's homer-prone tendencies and GABP's park factor \u2014 but Singer never factored into Schwarber's outcome. Jes\u00fas Luzardo started for Philadelphia, meaning Schwarber was batting, not pitching against Singer. Luzardo was dominant, throwing 7 innings of 2-hit ball with 11 strikeouts in a 1-0 pitcher's duel, and the CBS Sports play-by-play shows Schwarber's lone plate appearance of note ended in a strikeout swinging \u2014 his 1 total base came from a single at-bat, likely a walk or infield hit in a game where the Phillies managed only 3 hits total. The matchup edge (Singer's HR/9, GABP park factor) was real but irrelevant to Schwarber's total bases line, which lives and dies on his ability to get hits \u2014 and in a 1-0 game where the entire Phillies lineup was suppressed, the floor was never as high as the thesis claimed.",
+        "candidate_rule": "When building a total bases prop on a power hitter, validate the opposing pitcher's identity and confirm the game environment supports offense \u2014 a 1-0 final with 3 combined hits is a structural ceiling on any total bases prop regardless of matchup data; consider filtering out props in projected low-run environments (implied team total < 3.5). N=1, insufficient to establish rule.",
+        "sample_size_warning": "N=1, insufficient to establish rule \u2014 but the core flaw (park factor and opposing SP data applied to a hitter's prop without accounting for game-script suppression) is a repeatable model error worth monitoring."
+      }
     },
     {
       "id": "20260709-MLB-CLE-MIN-PROP-GAVINWILLIAMS",
@@ -1056,11 +493,11 @@
       "scott_bot_quip": "Williams leads the AL in Ks. The market's sleeping on him after a cold stretch. We're not.",
       "ladder_note": "",
       "date": "2026-07-09",
-      "status": "PEND",
-      "units_result": null,
+      "status": "WIN",
+      "units_result": 1.815,
       "clv_cents": null,
-      "result_score": null,
-      "graded_at": null,
+      "result_score": "Gavin Williams: 11 strikeOuts",
+      "graded_at": "2026-07-10T02:53:00.160431-04:00",
       "slate_assessment": "11-game MLB-only board with several pitching mismatches and a handful of playable prop spots. Bryce Miller's elite numbers at loanDepot park and Gavin Williams' strikeout upside stand out, while the Phillies-Reds game at GABP offers total-bases value on Schwarber against a homer-prone Brady Singer.",
       "executive_summary": "Eleven MLB games today, no NBA or NHL action, but the pitching slate delivers. Bryce Miller's 1.71 ERA and 33% K rate against a middling Marlins lineup in a pitcher-friendly dome is the cleanest spot on the board \u2014 that's the ladder. Gavin Williams brings elite strikeout upside to Target Field against a Twins offense that whiffs at a league-average clip. Kyle Schwarber, leading MLB with 31 homers, faces Brady Singer's 2.19 HR/9 at Great American Ball Park \u2014 total bases over 1.5 is the sharpest prop of the day. Six plays, all backed by predictive data, all priced within our range.",
       "slate_analysis": "Today's board features 11 MLB games spread across afternoon and evening windows, with no NBA or NHL to supplement. The pricing climate is soft \u2014 most totals sit between 8 and 10, and only a handful of moneylines exceed -150. The weather is largely cooperative, with the only notable wind signal at Guaranteed Rate Field (10 mph out to left, boosting HR ~15%), but that game lacks a clean pitching edge.\n\nThe candidates that rose to the top: Seattle at Miami (Bryce Miller's elite numbers in a pitcher-friendly dome), Cleveland at Minnesota (Gavin Williams' strikeout upside against a league-average K% offense), Philadelphia at Cincinnati (Schwarber total bases against Singer's HR/9), Texas at LA Angels (Under 7 with two solid starters in a dome), and the Phillies-Reds over/under (GABP's 1.18 HR park factor with Singer's 2.19 HR/9). I also looked at the Cubs-Orioles game but data confidence is 0.45 \u2014 lineups not confirmed, Peterson's L3 ERA is 11.57 with only 3 IP per start, and the game has rain risk (43-66% in-game per FanGraphs). That's a pass.\n\nWhat got cut: Detroit-Athletics looked interesting with Framber Valdez on the mound, but data confidence is 0.4 and the A's lineup isn't confirmed. The Cardinals-Brewers game has Logan Henderson coming off the IL (back) with only 23 IP this season \u2014 sample too thin. The Giants-Rockies game is missing the Giants' starting pitcher entirely in the IntelPack. The Padres-Diamondbacks game features two struggling starters (Canning 6.71 ERA, Kelly 5.71 ERA) but no clear edge \u2014 the market is priced correctly.\n\nThe final six: Bryce Miller Under 8 at Miami (ladder pick \u2014 best floor, elite SP, pitcher-friendly park, indoor), Gavin Williams Ks Over 5.5 at Minnesota (28.3% K rate, 99 Ks on the season, Twins K% is league-average), Kyle Schwarber Total Bases Over 1.5 at Cincinnati (31 HR, .315 ISO, Singer's 2.19 HR/9, GABP 1.18 HR PF), Phillies -1.5 at Cincinnati (Luzardo's 3.75 ERA and 28.6% K rate vs Singer's 5.03 ERA), Texas Under 7 vs Angels (two solid starters, dome, low-scoring teams), and Cleveland ML at Minnesota (Williams' 3.89 ERA vs Ober's 4.59 ERA, Ober just off IL). The ladder rides with the Mariners-Marlins Under \u2014 Miller's floor is the highest on the board, the park suppresses runs, and the Marlins offense is middling.",
@@ -1156,16 +593,22 @@
       "scott_bot_quip": "Miller's pitching like he's got a grudge against run support. We're riding the floor.",
       "ladder_note": "Best floor on the board. Elite SP, pitcher-friendly dome, middling opposing offense, and the market hasn't moved. This is the ladder.",
       "date": "2026-07-09",
-      "status": "PEND",
-      "units_result": null,
+      "status": "LOSS",
+      "units_result": -2.0,
       "clv_cents": null,
-      "result_score": null,
-      "graded_at": null,
+      "result_score": "SEA 4 \u00b7 MIA 8",
+      "graded_at": "2026-07-10T02:53:00.172853-04:00",
       "slate_assessment": "11-game MLB-only board with several pitching mismatches and a handful of playable prop spots. Bryce Miller's elite numbers at loanDepot park and Gavin Williams' strikeout upside stand out, while the Phillies-Reds game at GABP offers total-bases value on Schwarber against a homer-prone Brady Singer.",
       "executive_summary": "Eleven MLB games today, no NBA or NHL action, but the pitching slate delivers. Bryce Miller's 1.71 ERA and 33% K rate against a middling Marlins lineup in a pitcher-friendly dome is the cleanest spot on the board \u2014 that's the ladder. Gavin Williams brings elite strikeout upside to Target Field against a Twins offense that whiffs at a league-average clip. Kyle Schwarber, leading MLB with 31 homers, faces Brady Singer's 2.19 HR/9 at Great American Ball Park \u2014 total bases over 1.5 is the sharpest prop of the day. Six plays, all backed by predictive data, all priced within our range.",
       "slate_analysis": "Today's board features 11 MLB games spread across afternoon and evening windows, with no NBA or NHL to supplement. The pricing climate is soft \u2014 most totals sit between 8 and 10, and only a handful of moneylines exceed -150. The weather is largely cooperative, with the only notable wind signal at Guaranteed Rate Field (10 mph out to left, boosting HR ~15%), but that game lacks a clean pitching edge.\n\nThe candidates that rose to the top: Seattle at Miami (Bryce Miller's elite numbers in a pitcher-friendly dome), Cleveland at Minnesota (Gavin Williams' strikeout upside against a league-average K% offense), Philadelphia at Cincinnati (Schwarber total bases against Singer's HR/9), Texas at LA Angels (Under 7 with two solid starters in a dome), and the Phillies-Reds over/under (GABP's 1.18 HR park factor with Singer's 2.19 HR/9). I also looked at the Cubs-Orioles game but data confidence is 0.45 \u2014 lineups not confirmed, Peterson's L3 ERA is 11.57 with only 3 IP per start, and the game has rain risk (43-66% in-game per FanGraphs). That's a pass.\n\nWhat got cut: Detroit-Athletics looked interesting with Framber Valdez on the mound, but data confidence is 0.4 and the A's lineup isn't confirmed. The Cardinals-Brewers game has Logan Henderson coming off the IL (back) with only 23 IP this season \u2014 sample too thin. The Giants-Rockies game is missing the Giants' starting pitcher entirely in the IntelPack. The Padres-Diamondbacks game features two struggling starters (Canning 6.71 ERA, Kelly 5.71 ERA) but no clear edge \u2014 the market is priced correctly.\n\nThe final six: Bryce Miller Under 8 at Miami (ladder pick \u2014 best floor, elite SP, pitcher-friendly park, indoor), Gavin Williams Ks Over 5.5 at Minnesota (28.3% K rate, 99 Ks on the season, Twins K% is league-average), Kyle Schwarber Total Bases Over 1.5 at Cincinnati (31 HR, .315 ISO, Singer's 2.19 HR/9, GABP 1.18 HR PF), Phillies -1.5 at Cincinnati (Luzardo's 3.75 ERA and 28.6% K rate vs Singer's 5.03 ERA), Texas Under 7 vs Angels (two solid starters, dome, low-scoring teams), and Cleveland ML at Minnesota (Williams' 3.89 ERA vs Ober's 4.59 ERA, Ober just off IL). The ladder rides with the Mariners-Marlins Under \u2014 Miller's floor is the highest on the board, the park suppresses runs, and the Marlins offense is middling.",
       "slate_vibe": "NORMAL",
-      "published_at": "2026-07-09T13:24:22.149823-04:00"
+      "published_at": "2026-07-09T13:24:22.149823-04:00",
+      "autopsy": {
+        "classification": "MODEL",
+        "post_mortem": "The thesis was built entirely on Bryce Miller's season-long ERA (1.71) and WHIP (0.66), but those numbers were already stale by game time \u2014 Miller entered having issued just 5 walks across his first 9 starts, yet on July 9 he walked 4 batters and surrendered 9 hits in 5 innings, giving up 6 runs (4 earned), finishing 4-3 on the night. The Marlins' offense was not 'league-average at best': Miami was batting .309 over their last 10 games and ranked first in weighted runs created, a hot-streak signal the thesis explicitly dismissed. The game was effectively over by the 4th inning \u2014 a Lopez triple keyed a four-run frame that made it 6-1, and the final 8-4 blew past the total before the 5th was complete. The model over-indexed on Miller's season ERA and under-weighted Miami's current offensive form and Miller's own career struggles against this specific opponent (6.30 ERA in 2 prior starts vs. MIA).",
+        "candidate_rule": "Before anchoring an Under to a starter's season ERA, cross-check their career splits vs. the specific opponent AND their rolling walk rate over the last 3 starts \u2014 if either signals regression, discount the ERA anchor by at least one run in the total projection. (N=1, insufficient to establish rule.)",
+        "sample_size_warning": "N=1, insufficient to establish rule \u2014 one Miller clunker does not invalidate ERA-anchored under models broadly, but the opponent-specific ERA flag (6.30 vs. MIA) was available pre-game and was not weighted."
+      }
     },
     {
       "id": "20260708-MLB-TOR-SF-ML",
@@ -18142,11 +17585,19 @@
     }
   ],
   "ladder": {
-    "current_streak": 6,
+    "current_streak": 0,
     "longest_streak": 8,
     "completed_climbs": 0,
     "target": 10,
     "history": [
+      {
+        "date": "2026-07-09",
+        "pick_id": "20260709-MLB-SEA-MIA-TOTAL",
+        "pick": "Under 8",
+        "game": "SEA @ MIA",
+        "status": "LOSS",
+        "after_streak": 0
+      },
       {
         "date": "2026-07-08",
         "pick_id": "20260708-MLB-NYY-TB-TOTAL",
@@ -18452,13 +17903,13 @@
         "after_streak": 1
       }
     ],
-    "updated_at": "2026-07-09T02:52:23.216901-04:00"
+    "updated_at": "2026-07-10T02:53:00.183056-04:00"
   },
   "last_night_recap": {
-    "date": "2026-07-08",
-    "record": "2-3-0",
-    "units_pl": -1.55,
-    "night_summary": "2-3 night, -1.55u \u2014 two clean wins buried under a Logan Webb disaster and a Chase Burns walk-fest. The NYY @ TB under (ladder) was the best ticket of the night: Shane McClanahan tossed 6.1 scoreless, Jonathan Aranda drove in all three Rays runs, and New York was shut out 3-0 \u2014 well inside the 7. MIL @ STL under was equally tidy at 6-1. The damage came from Oracle Park: Webb got lit for 10 runs including Okamoto's grand slam and homers from Guerrero Jr. and Springer, torching both the Giants ML and the TOR @ SF under in one implosion \u2014 model errors, both, for leaning on Webb's season ERA while ignoring his 7-ER meltdown the start prior. Burns was variance \u2014 he walked a career-high six in five innings against a Phillies lineup that refused to chase, finishing with just two strikeouts; the read was right, the approach wasn't. Ladder sits at 6 of 10 \u2014 keep climbing.",
-    "generated_at": "2026-07-09T02:53:04.026911-04:00"
+    "date": "2026-07-09",
+    "record": "2-4-0",
+    "units_pl": -2.8154,
+    "night_summary": "Rough one \u2014 2-4 night, -2.82u, with the ladder pick doing the most damage. The two bright spots were real: Gavin Williams was filthy in Minneapolis, retiring the first 13 Twins he faced before finishing with 11 strikeouts over seven innings in a clean 5-2 CLE win, and the Guardians ML cashed alongside it at +0.87u. The SEA @ MIA under (ladder) was the gut punch \u2014 Bryce Miller walked four and surrendered nine hits in five innings against a Miami offense that had gone 19-7 over its last 26 games, a hot-streak signal the model explicitly dismissed; the game was effectively over after an O. Lopez-keyed four-run frame made it 6-1, and the 8-4 final blew past the total before the fifth was complete \u2014 that one's on the model, not variance. The PHI -1.5 and Schwarber prop losses were cleaner variance: Singer was dominant in a 1-0 pitcher's duel, and the LAA @ TEX under was alive at 6-1 through six before Detmers got bombed for three homers in a historically anomalous outing and a same-day Langford IL activation walked it off in the ninth. Ladder resets at 0 of 10 \u2014 back to the bottom, start climbing.",
+    "generated_at": "2026-07-10T02:53:35.270167-04:00"
   }
 }

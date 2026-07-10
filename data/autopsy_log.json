@@ -1,5 +1,57 @@
 [
   {
+    "id": "20260709-MLB-SEA-MIA-TOTAL",
+    "date": "2026-07-09",
+    "pick": "Under 8",
+    "game": "SEA @ MIA",
+    "odds": "-105",
+    "result_score": "SEA 4 \u00b7 MIA 8",
+    "classification": "MODEL",
+    "post_mortem": "The thesis was built entirely on Bryce Miller's season-long ERA (1.71) and WHIP (0.66), but those numbers were already stale by game time \u2014 Miller entered having issued just 5 walks across his first 9 starts, yet on July 9 he walked 4 batters and surrendered 9 hits in 5 innings, giving up 6 runs (4 earned), finishing 4-3 on the night. The Marlins' offense was not 'league-average at best': Miami was batting .309 over their last 10 games and ranked first in weighted runs created, a hot-streak signal the thesis explicitly dismissed. The game was effectively over by the 4th inning \u2014 a Lopez triple keyed a four-run frame that made it 6-1, and the final 8-4 blew past the total before the 5th was complete. The model over-indexed on Miller's season ERA and under-weighted Miami's current offensive form and Miller's own career struggles against this specific opponent (6.30 ERA in 2 prior starts vs. MIA).",
+    "candidate_rule": "Before anchoring an Under to a starter's season ERA, cross-check their career splits vs. the specific opponent AND their rolling walk rate over the last 3 starts \u2014 if either signals regression, discount the ERA anchor by at least one run in the total projection. (N=1, insufficient to establish rule.)",
+    "sample_size_warning": "N=1, insufficient to establish rule \u2014 one Miller clunker does not invalidate ERA-anchored under models broadly, but the opponent-specific ERA flag (6.30 vs. MIA) was available pre-game and was not weighted.",
+    "analyzed_at": "2026-07-10T02:53:15.537528-04:00"
+  },
+  {
+    "id": "20260709-MLB-PHI-CIN-PROP-KYLESCHWARBER",
+    "date": "2026-07-09",
+    "pick": "Kyle Schwarber Total Bases Over 1.5",
+    "game": "PHI @ CIN",
+    "odds": "-110",
+    "result_score": "Kyle Schwarber: 1 totalBases",
+    "classification": "MODEL",
+    "post_mortem": "The entire thesis was built around Brady Singer's homer-prone tendencies and GABP's park factor \u2014 but Singer never factored into Schwarber's outcome. Jes\u00fas Luzardo started for Philadelphia, meaning Schwarber was batting, not pitching against Singer. Luzardo was dominant, throwing 7 innings of 2-hit ball with 11 strikeouts in a 1-0 pitcher's duel, and the CBS Sports play-by-play shows Schwarber's lone plate appearance of note ended in a strikeout swinging \u2014 his 1 total base came from a single at-bat, likely a walk or infield hit in a game where the Phillies managed only 3 hits total. The matchup edge (Singer's HR/9, GABP park factor) was real but irrelevant to Schwarber's total bases line, which lives and dies on his ability to get hits \u2014 and in a 1-0 game where the entire Phillies lineup was suppressed, the floor was never as high as the thesis claimed.",
+    "candidate_rule": "When building a total bases prop on a power hitter, validate the opposing pitcher's identity and confirm the game environment supports offense \u2014 a 1-0 final with 3 combined hits is a structural ceiling on any total bases prop regardless of matchup data; consider filtering out props in projected low-run environments (implied team total < 3.5). N=1, insufficient to establish rule.",
+    "sample_size_warning": "N=1, insufficient to establish rule \u2014 but the core flaw (park factor and opposing SP data applied to a hitter's prop without accounting for game-script suppression) is a repeatable model error worth monitoring.",
+    "analyzed_at": "2026-07-10T02:53:00.024364-04:00"
+  },
+  {
+    "id": "20260709-MLB-PHI-CIN-SPREAD",
+    "date": "2026-07-09",
+    "pick": "Philadelphia Phillies -1.5",
+    "game": "PHI @ CIN",
+    "odds": "-102",
+    "result_score": "PHI 1 \u00b7 CIN 0",
+    "classification": "VARIANCE",
+    "post_mortem": "The thesis was correct in every meaningful way \u2014 Luzardo was dominant, going 7 innings, allowing 2 hits and striking out 11, while Singer was the inferior pitcher on paper. The problem was Singer matched Luzardo pitch-for-pitch: after Bryson Stott's double in the 2nd, Singer retired the next 13 consecutive Phillies batters, and the only run of the game came on a Justin Crawford single in the 8th. PHI won 1-0 \u2014 the right team won, the right pitcher dominated \u2014 but the Phillies' All-Star lineup (Schwarber, Harper, Marsh all left in scoring position with 2 outs) couldn't push a second run across against a 5.03 ERA pitcher having his best outing of the year, leaving the -1.5 run line exactly one run short.",
+    "candidate_rule": null,
+    "sample_size_warning": "N=1, insufficient to establish rule \u2014 this is a clean VARIANCE loss where the pick was correctly reasoned and the outcome was decided by a single run against a pitcher dramatically outperforming his season ERA in one specific start.",
+    "analyzed_at": "2026-07-10T02:52:39.166069-04:00"
+  },
+  {
+    "id": "20260709-MLB-LAA-TEX-TOTAL",
+    "date": "2026-07-09",
+    "pick": "Under 7",
+    "game": "LAA @ TEX",
+    "odds": "-102",
+    "result_score": "LAA 6 \u00b7 TEX 7",
+    "classification": "VARIANCE",
+    "post_mortem": "The under was alive entering the seventh at 6-1 \u2014 Detmers got bombed for three HRs (Nimmo, Duran, Foscue) in a historically anomalous outing, having never allowed more than one HR in his first 18 starts. The Angels then erupted for a 5-run seventh to tie it 6-6, and Wyatt Langford \u2014 activated off the IL for a hamstring strain literally hours before first pitch \u2014 walked it off with a 9th-inning single to make it 7-6. The thesis (two solid starters, low-scoring offenses) was sound; the loss was driven by a once-in-19-starts HR barrage from Detmers and a same-day IL activation the market couldn't have priced.",
+    "candidate_rule": null,
+    "sample_size_warning": "N=1, insufficient to establish rule. Detmers' 3-HR game was a statistical outlier vs. his season profile; Langford's same-day activation was unforeseeable. Monitor for 'day-of IL activation' as a data gap in future totals picks, but one instance is noise.",
+    "analyzed_at": "2026-07-10T02:52:18.450370-04:00"
+  },
+  {
     "id": "20260708-MLB-TOR-SF-TOTAL",
     "date": "2026-07-08",
     "pick": "Under 7",

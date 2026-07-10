@@ -350,5 +350,21 @@
     "candidate_rule": "Before backing an under anchored by two starters, flag any starter who allowed 6+ ER in their most recent outing as a disqualifying condition \u2014 recency of form matters more than season ERA for single-game totals; validate with N\u226520 such starts before hardcoding.",
     "sample_size_warning": "N=1, insufficient to establish rule \u2014 this is a directional signal only, not a validated pattern.",
     "status": "PENDING_REVIEW"
+  },
+  {
+    "proposed_at": "2026-07-10T02:53:00.025846-04:00",
+    "source_pick_id": "20260709-MLB-PHI-CIN-PROP-KYLESCHWARBER",
+    "source_loss": "Kyle Schwarber Total Bases Over 1.5 (PHI @ CIN)",
+    "candidate_rule": "When building a total bases prop on a power hitter, validate the opposing pitcher's identity and confirm the game environment supports offense \u2014 a 1-0 final with 3 combined hits is a structural ceiling on any total bases prop regardless of matchup data; consider filtering out props in projected low-run environments (implied team total < 3.5). N=1, insufficient to establish rule.",
+    "sample_size_warning": "N=1, insufficient to establish rule \u2014 but the core flaw (park factor and opposing SP data applied to a hitter's prop without accounting for game-script suppression) is a repeatable model error worth monitoring.",
+    "status": "PENDING_REVIEW"
+  },
+  {
+    "proposed_at": "2026-07-10T02:53:15.539070-04:00",
+    "source_pick_id": "20260709-MLB-SEA-MIA-TOTAL",
+    "source_loss": "Under 8 (SEA @ MIA)",
+    "candidate_rule": "Before anchoring an Under to a starter's season ERA, cross-check their career splits vs. the specific opponent AND their rolling walk rate over the last 3 starts \u2014 if either signals regression, discount the ERA anchor by at least one run in the total projection. (N=1, insufficient to establish rule.)",
+    "sample_size_warning": "N=1, insufficient to establish rule \u2014 one Miller clunker does not invalidate ERA-anchored under models broadly, but the opponent-specific ERA flag (6.30 vs. MIA) was available pre-game and was not weighted.",
+    "status": "PENDING_REVIEW"
   }
 ]
