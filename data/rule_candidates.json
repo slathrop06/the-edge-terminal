@@ -366,5 +366,21 @@
     "candidate_rule": "Before anchoring an Under to a starter's season ERA, cross-check their career splits vs. the specific opponent AND their rolling walk rate over the last 3 starts \u2014 if either signals regression, discount the ERA anchor by at least one run in the total projection. (N=1, insufficient to establish rule.)",
     "sample_size_warning": "N=1, insufficient to establish rule \u2014 one Miller clunker does not invalidate ERA-anchored under models broadly, but the opponent-specific ERA flag (6.30 vs. MIA) was available pre-game and was not weighted.",
     "status": "PENDING_REVIEW"
+  },
+  {
+    "proposed_at": "2026-07-11T01:47:00.944542-04:00",
+    "source_pick_id": "20260710-MLB-CHC-CIN-PROP-SHOTAIMANAGA",
+    "source_loss": "Shota Imanaga Ks Over 5.5 (CHC @ CIN)",
+    "candidate_rule": "Before posting any prop that depends on an opponent's starter being unavailable or limited, require same-day confirmation of the pitching matchup from an official lineup source (MLB.com or beat reporter) within 2 hours of first pitch \u2014 not just a prior-start ERA signal; N=1, insufficient to establish rule.",
+    "sample_size_warning": "N=1, insufficient to establish rule \u2014 but the structural flaw (building a prop thesis on an opponent's starter being compromised without day-of confirmation) is worth flagging as a process gap immediately.",
+    "status": "PENDING_REVIEW"
+  },
+  {
+    "proposed_at": "2026-07-11T01:47:22.445464-04:00",
+    "source_pick_id": "20260710-MLB-BOS-NYM-TOTAL",
+    "source_loss": "Under 7.5 (BOS @ NYM)",
+    "candidate_rule": "When projecting team offense for totals, use road/home splits rather than season-average R/G \u2014 if a team's road R/G exceeds their season average by 0.4+ runs, flag the discrepancy before applying the season number to an away game; validate against N\u226510 road games in the current season.",
+    "sample_size_warning": "N=1, insufficient to establish rule \u2014 one loss on a road-split oversight is noise, not pattern.",
+    "status": "PENDING_REVIEW"
   }
 ]

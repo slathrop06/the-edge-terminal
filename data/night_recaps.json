@@ -264,5 +264,12 @@
     "units_pl": -2.8154,
     "night_summary": "Rough one \u2014 2-4 night, -2.82u, with the ladder pick doing the most damage. The two bright spots were real: Gavin Williams was filthy in Minneapolis, retiring the first 13 Twins he faced before finishing with 11 strikeouts over seven innings in a clean 5-2 CLE win, and the Guardians ML cashed alongside it at +0.87u. The SEA @ MIA under (ladder) was the gut punch \u2014 Bryce Miller walked four and surrendered nine hits in five innings against a Miami offense that had gone 19-7 over its last 26 games, a hot-streak signal the model explicitly dismissed; the game was effectively over after an O. Lopez-keyed four-run frame made it 6-1, and the 8-4 final blew past the total before the fifth was complete \u2014 that one's on the model, not variance. The PHI -1.5 and Schwarber prop losses were cleaner variance: Singer was dominant in a 1-0 pitcher's duel, and the LAA @ TEX under was alive at 6-1 through six before Detmers got bombed for three homers in a historically anomalous outing and a same-day Langford IL activation walked it off in the ninth. Ladder resets at 0 of 10 \u2014 back to the bottom, start climbing.",
     "generated_at": "2026-07-10T02:53:35.270167-04:00"
+  },
+  "2026-07-10": {
+    "date": "2026-07-10",
+    "record": "2-2-0",
+    "units_pl": 0.47,
+    "night_summary": "2-2 night, +0.47u. The two unders did the heavy lifting \u2014 ATL @ STL finished 2-1 and CLE @ MIA came in 3-2, both cruising well under their numbers and combining for +3.47u on the night. The ladder pick (CLE @ MIA, Under 7.5) cashed clean. The losses were both model errors we own: the Imanaga K prop was dead on arrival once Hunter Greene \u2014 who we assumed was compromised \u2014 went out and struck out 12 Cubs in 7 scoreless innings, holding Imanaga to 5 Ks in 5 innings; the premise was wrong before first pitch. The BOS @ NYM Under 7.5 (final: 6-2) fell apart on the Boston side, where road-split offense and McLean's walk problem were underweighted. Ladder sits at 1 of 10 \u2014 fresh start, climbing.",
+    "generated_at": "2026-07-11T01:47:38.570007-04:00"
   }
 }

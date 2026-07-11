@@ -1,505 +1,9 @@
 {
-  "generated_at": "2026-07-10T17:55:25.142848-04:00",
-  "today": "2026-07-10",
+  "generated_at": "2026-07-11T01:47:38.578535-04:00",
+  "today": "2026-07-11",
   "system_paused": false,
   "pause_reason": "",
-  "today_picks": [
-    {
-      "id": "20260710-MLB-COL-SF-TOTAL",
-      "sport": "MLB",
-      "game": "COL @ SF",
-      "first_pitch_iso": "2026-07-11T02:15Z",
-      "pick": "Under 8.0",
-      "best_book": "DraftKings",
-      "best_odds": "-103",
-      "book_prices": {
-        "draftkings": "-103",
-        "fanduel": "-104",
-        "betmgm": "-105"
-      },
-      "book_links": {
-        "fanduel": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.591088591&selectionId=7017906",
-        "draftkings": "https://sportsbook.draftkings.com/?outcomes=0OU85434069U800_3",
-        "betmgm": "https://sports.nj.betmgm.com/en/sports?options=19769277-1539670005-2244069508&type=Single"
-      },
-      "market": "TOTAL",
-      "confidence": 3,
-      "units": 1.0,
-      "win_probability": 0.57,
-      "ladder_designation": false,
-      "data_confidence": 0.65,
-      "rules_passed": [
-        "max_juice",
-        "ladder_even_money",
-        "parlay_well_formed",
-        "confidence_units_match",
-        "data_confidence_floor",
-        "pick_type_allowed",
-        "mlb_hr_prop_check",
-        "mlb_pitcher_k_check",
-        "mlb_total_bases_check",
-        "mlb_hits_check",
-        "nba_player_prop_check",
-        "nhl_shots_check",
-        "mlb_run_line_check",
-        "mlb_under_bb_check",
-        "no_same_game_opposite"
-      ],
-      "locked": true,
-      "late_add": false,
-      "late_add_reason": "",
-      "bonus_pick": false,
-      "event_type": "",
-      "event_name": "",
-      "legs": [],
-      "headline": "Robbie Ray at Oracle Park against a struggling Rockies starter \u2014 the under is the play.",
-      "the_thesis": "Robbie Ray (3.45 ERA, 20.5 K%, 11.0 BB%) has been solid this season, and he's facing a Rockies lineup that will be starting Tanner Gordon (6.95 ERA, 2.2 HR/9). Oracle Park is the most pitcher-friendly venue in the NL West (0.93 runs PF, 0.85 HR PF), which should help both pitchers.\n\nGordon's 6.95 ERA and 2.2 HR/9 are ugly, but Oracle Park should suppress some of that damage. The Giants offense (4.14 R/G) is below average, and the Rockies (4.83 R/G) are inflated by their home park \u2014 they're much worse on the road.\n\nRay's 11.0 BB% is a concern, but he's been able to limit damage despite the walks. With the park suppressing runs and Gordon likely to get pulled early, this game should stay under 8.",
-      "the_data": [
-        {
-          "label": "Ray ERA (season)",
-          "value": "3.45",
-          "context": "Solid, above average"
-        },
-        {
-          "label": "Gordon ERA (season)",
-          "value": "6.95",
-          "context": "Struggling badly"
-        },
-        {
-          "label": "Oracle Park runs PF",
-          "value": "0.93",
-          "context": "Most pitcher-friendly in NL West"
-        },
-        {
-          "label": "Oracle Park HR PF",
-          "value": "0.85",
-          "context": "Suppresses power significantly"
-        },
-        {
-          "label": "Giants R/G",
-          "value": "4.14",
-          "context": "Below average"
-        },
-        {
-          "label": "Rockies road R/G",
-          "value": "~3.8",
-          "context": "Much worse away from Coors"
-        }
-      ],
-      "the_market": "Total opened at 8.0 and has held. DraftKings offers the best price at -103 for the under.",
-      "weather_park": "Oracle Park outdoor, 0.93 runs PF, 0.85 HR PF \u2014 the most pitcher-friendly park in the NL West. Weather should be cool and foggy, typical for San Francisco.",
-      "case_against": "Ray's 11.0 BB% creates traffic, and if he walks the bases loaded, the Rockies could put up a crooked number. Gordon's 2.2 HR/9 is terrifying, even in a pitcher's park.",
-      "what_were_betting_on": "Ray going 6+ innings with 2-3 earned runs, the park suppressing Gordon's HR tendency, and the Rockies' road offense staying true to form.",
-      "scott_bot_quip": "Gordon's HR/9 is 2.2. Oracle Park's HR factor is 0.85. Irresistible force, meet immovable object.",
-      "ladder_note": "",
-      "date": "2026-07-10",
-      "status": "PEND",
-      "units_result": null,
-      "clv_cents": null,
-      "result_score": null,
-      "graded_at": null,
-      "slate_assessment": "17-game MLB-only slate with several strong pitching matchups. Ohtani vs. Arizona and Sale vs. St. Louis headline, but both are priced too short for straight bets. Best edges live in totals and pitcher props where the market hasn't fully adjusted to SP quality gaps.",
-      "executive_summary": "Seventeen MLB games tonight, no NBA or NHL, but the pitching matchups deliver. The Marlins-Guardians under at loanDepot park is the cleanest spot on the board \u2014 two quality starters, a pitcher-friendly dome, and a total that hasn't moved despite sharp money trickling in. Chris Sale on the road in St. Louis creates an under lean at 8, and the Mets-Red Sox under 7.5 pairs two solid arms at Citi Field. On the prop side, Shota Imanaga's K line at 5.5 against a Cincinnati lineup that just lost Hunter Greene to injury looks soft. The ladder rides with the Marlins-Guardians under \u2014 best floor, best park, best pitching matchup.",
-      "slate_analysis": "Tonight's board features 17 MLB games across all time zones, no NBA or NHL action. The pricing climate is tight \u2014 most favorites sit between -120 and -160, with only the Dodgers (-255) and Braves (-164) priced as heavy chalk. The total market is where the edges live tonight.\n\nTop candidates that rose during my review: Marlins-Guardians under 7.0/7.5 at loanDepot park (Messick vs. Alcantara, both pitching well, HR-suppressing dome); Braves-Cardinals under 8.0 (Sale on the mound, Busch Stadium suppresses HRs); Mets-Red Sox under 7.5 (Sonny Gray vs. Nolan McLean, Citi Field, both offenses below league average in R/G); Rays-Mariners under 8.0 (Nick Martinez's 2.61 ERA at Tropicana); Shota Imanaga K prop at 5.5 against Cincinnati (Hunter Greene's 21.6 ERA in 3.1 IP suggests bullpen game, Imanaga should go deep); and the Dodgers-Diamondbacks under 8.5 (Ohtani vs. E-Rod, both sub-2.30 ERAs).\n\nWhat got cut and why: The Dodgers-Diamondbacks under looked sharp, but Ohtani's recent biceps issue and the fact that he's given up 12 earned runs in his last 24.2 IP (4.38 ERA in that stretch) introduces variance I don't love \u2014 the market hasn't moved off 8.5, so no edge. The Rays-Mariners under at 8.0 is solid, but Martinez's 15.0 K% is the lowest among starters I'm considering, and Castillo's 7.4 BB% creates traffic \u2014 borderline pass. The Braves ML at -164 is too short for a straight bet (our -150 cap), and the run line at +106 doesn't offer enough edge given Leahy's 3.86 ERA. The Pirates-Brewers game has data_confidence of 0.4 \u2014 lineups not confirmed, Sproat's 11.0 BB% is a red flag for unders, and Ashcraft's sample is thin. The Yankees-Nationals over 10.0 looked tempting with Palmquist's 7.11 ERA in 6.1 IP, but that's a 2-inning sample \u2014 can't trust it.\n\nThe final six picks: Marlins-Guardians Under 7.5 (ladder pick \u2014 best floor, two quality SPs, pitcher-friendly dome); Braves-Cardinals Under 8.0 (Sale's 2.27 ERA, Busch Stadium HR suppression); Mets-Red Sox Under 7.5 (Gray's 2.61 ERA, McLean's 3.73 ERA, Citi Field); Shota Imanaga Ks Over 5.5 (Cincinnati's bullpen game, Imanaga's 24.1 K%, should go 6+ innings); Giants-Rockies Under 8.0 (Robbie Ray at Oracle Park, Tanner Gordon's 6.95 ERA means SF bats early but Ray controls the game); and White Sox ML -154 (Sean Burke's 3.56 ERA vs. Jacob Lopez's 7.04 ERA, 13.2 BB% \u2014 this is a talent mismatch at a reasonable price). The ladder rides with Marlins-Guardians Under 7.5 at FanDuel +102 \u2014 two All-Star caliber arms, a dome that suppresses runs, and a total that hasn't moved despite the pitching matchup.",
-      "slate_vibe": "NORMAL",
-      "published_at": "2026-07-10T12:57:18.339646-04:00"
-    },
-    {
-      "id": "20260710-MLB-CHC-CIN-PROP-SHOTAIMANAGA",
-      "sport": "MLB",
-      "game": "CHC @ CIN",
-      "first_pitch_iso": "2026-07-10T23:10Z",
-      "pick": "Shota Imanaga Ks Over 5.5",
-      "best_book": "FanDuel",
-      "best_odds": "-115",
-      "book_prices": {
-        "draftkings": "-118",
-        "fanduel": "-115",
-        "betmgm": "-118"
-      },
-      "book_links": {
-        "fanduel": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.591139228&selectionId=67775323",
-        "draftkings": "https://sportsbook.draftkings.com/?outcomes=0QA350160286%232207880076_13L84240Q1-2091356037Q20",
-        "betmgm": "https://sports.nj.betmgm.com/en/sports?options=2:7826053-201414323-764136515&type=Single"
-      },
-      "market": "PROP",
-      "confidence": 4,
-      "units": 1.5,
-      "win_probability": 0.61,
-      "ladder_designation": false,
-      "data_confidence": 0.68,
-      "rules_passed": [
-        "max_juice",
-        "ladder_even_money",
-        "parlay_well_formed",
-        "confidence_units_match",
-        "data_confidence_floor",
-        "pick_type_allowed",
-        "mlb_hr_prop_check",
-        "mlb_pitcher_k_check(soft)",
-        "mlb_total_bases_check",
-        "mlb_hits_check",
-        "nba_player_prop_check",
-        "nhl_shots_check",
-        "mlb_run_line_check",
-        "mlb_under_bb_check",
-        "no_same_game_opposite"
-      ],
-      "locked": true,
-      "late_add": false,
-      "late_add_reason": "",
-      "bonus_pick": false,
-      "event_type": "",
-      "event_name": "",
-      "legs": [],
-      "headline": "Imanaga's 24.1 K% meets a Reds lineup that's about to see a lot of bullpen arms.",
-      "the_thesis": "Hunter Greene's 21.6 ERA in 3.1 innings this season tells you everything you need to know \u2014 the Reds are going to be in bullpen mode tonight. That means Shota Imanaga (4.28 ERA, 24.1 K%, 6.3 BB%) should get extended run against a lineup that will be seeing a parade of relievers.\n\nImanaga has averaged 34.33 innings per start in his last three outings \u2014 that's 6+ innings per game. His 24.1 K% is solid, and he's been particularly good at limiting walks (6.3 BB%). The Reds offense has been mediocre (4.17 R/G, 25th in MLB), and they've struck out at a league-average rate.\n\nWith Greene essentially unavailable and the Reds likely to lean on their bullpen early, Imanaga should have every opportunity to go deep and rack up strikeouts. The line at 5.5 feels soft given his recent workload.",
-      "the_data": [
-        {
-          "label": "Imanaga K% (season)",
-          "value": "24.1%",
-          "context": "Above average"
-        },
-        {
-          "label": "Imanaga L3 IP/start",
-          "value": "34.33",
-          "context": "Going deep into games"
-        },
-        {
-          "label": "Greene ERA (season)",
-          "value": "21.6",
-          "context": "3.1 IP \u2014 bullpen game incoming"
-        },
-        {
-          "label": "Reds R/G",
-          "value": "4.17",
-          "context": "25th in MLB"
-        },
-        {
-          "label": "Imanaga BB%",
-          "value": "6.3%",
-          "context": "Efficient, limits traffic"
-        }
-      ],
-      "the_market": "Line set at 5.5 across all books. FanDuel offers the best price at -115 for the over.",
-      "weather_park": "Great American Ball Park is hitter-friendly (1.06 runs PF, 1.18 HR PF), but that doesn't affect strikeouts. Imanaga's stuff should play regardless of park.",
-      "case_against": "GABP is a hitter's park, and if the Reds get into Imanaga early, he might not last long enough to rack up 6 Ks. His 1.83 HR/9 is elevated, and the park won't help.",
-      "what_were_betting_on": "Imanaga going 6+ innings against a Reds lineup that's facing a bullpen game and will be swinging early. Six strikeouts in 6+ innings is very achievable.",
-      "scott_bot_quip": "Greene's ERA is higher than the total. Imanaga's going to feast.",
-      "ladder_note": "",
-      "date": "2026-07-10",
-      "status": "PEND",
-      "units_result": null,
-      "clv_cents": null,
-      "result_score": null,
-      "graded_at": null,
-      "slate_assessment": "17-game MLB-only slate with several strong pitching matchups. Ohtani vs. Arizona and Sale vs. St. Louis headline, but both are priced too short for straight bets. Best edges live in totals and pitcher props where the market hasn't fully adjusted to SP quality gaps.",
-      "executive_summary": "Seventeen MLB games tonight, no NBA or NHL, but the pitching matchups deliver. The Marlins-Guardians under at loanDepot park is the cleanest spot on the board \u2014 two quality starters, a pitcher-friendly dome, and a total that hasn't moved despite sharp money trickling in. Chris Sale on the road in St. Louis creates an under lean at 8, and the Mets-Red Sox under 7.5 pairs two solid arms at Citi Field. On the prop side, Shota Imanaga's K line at 5.5 against a Cincinnati lineup that just lost Hunter Greene to injury looks soft. The ladder rides with the Marlins-Guardians under \u2014 best floor, best park, best pitching matchup.",
-      "slate_analysis": "Tonight's board features 17 MLB games across all time zones, no NBA or NHL action. The pricing climate is tight \u2014 most favorites sit between -120 and -160, with only the Dodgers (-255) and Braves (-164) priced as heavy chalk. The total market is where the edges live tonight.\n\nTop candidates that rose during my review: Marlins-Guardians under 7.0/7.5 at loanDepot park (Messick vs. Alcantara, both pitching well, HR-suppressing dome); Braves-Cardinals under 8.0 (Sale on the mound, Busch Stadium suppresses HRs); Mets-Red Sox under 7.5 (Sonny Gray vs. Nolan McLean, Citi Field, both offenses below league average in R/G); Rays-Mariners under 8.0 (Nick Martinez's 2.61 ERA at Tropicana); Shota Imanaga K prop at 5.5 against Cincinnati (Hunter Greene's 21.6 ERA in 3.1 IP suggests bullpen game, Imanaga should go deep); and the Dodgers-Diamondbacks under 8.5 (Ohtani vs. E-Rod, both sub-2.30 ERAs).\n\nWhat got cut and why: The Dodgers-Diamondbacks under looked sharp, but Ohtani's recent biceps issue and the fact that he's given up 12 earned runs in his last 24.2 IP (4.38 ERA in that stretch) introduces variance I don't love \u2014 the market hasn't moved off 8.5, so no edge. The Rays-Mariners under at 8.0 is solid, but Martinez's 15.0 K% is the lowest among starters I'm considering, and Castillo's 7.4 BB% creates traffic \u2014 borderline pass. The Braves ML at -164 is too short for a straight bet (our -150 cap), and the run line at +106 doesn't offer enough edge given Leahy's 3.86 ERA. The Pirates-Brewers game has data_confidence of 0.4 \u2014 lineups not confirmed, Sproat's 11.0 BB% is a red flag for unders, and Ashcraft's sample is thin. The Yankees-Nationals over 10.0 looked tempting with Palmquist's 7.11 ERA in 6.1 IP, but that's a 2-inning sample \u2014 can't trust it.\n\nThe final six picks: Marlins-Guardians Under 7.5 (ladder pick \u2014 best floor, two quality SPs, pitcher-friendly dome); Braves-Cardinals Under 8.0 (Sale's 2.27 ERA, Busch Stadium HR suppression); Mets-Red Sox Under 7.5 (Gray's 2.61 ERA, McLean's 3.73 ERA, Citi Field); Shota Imanaga Ks Over 5.5 (Cincinnati's bullpen game, Imanaga's 24.1 K%, should go 6+ innings); Giants-Rockies Under 8.0 (Robbie Ray at Oracle Park, Tanner Gordon's 6.95 ERA means SF bats early but Ray controls the game); and White Sox ML -154 (Sean Burke's 3.56 ERA vs. Jacob Lopez's 7.04 ERA, 13.2 BB% \u2014 this is a talent mismatch at a reasonable price). The ladder rides with Marlins-Guardians Under 7.5 at FanDuel +102 \u2014 two All-Star caliber arms, a dome that suppresses runs, and a total that hasn't moved despite the pitching matchup.",
-      "slate_vibe": "NORMAL",
-      "published_at": "2026-07-10T12:57:18.339568-04:00"
-    },
-    {
-      "id": "20260710-MLB-BOS-NYM-TOTAL",
-      "sport": "MLB",
-      "game": "BOS @ NYM",
-      "first_pitch_iso": "2026-07-10T23:15Z",
-      "pick": "Under 7.5",
-      "best_book": "FanDuel",
-      "best_odds": "-106",
-      "book_prices": {
-        "draftkings": "-109",
-        "fanduel": "-106",
-        "betmgm": "-110"
-      },
-      "book_links": {
-        "fanduel": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.591074434&selectionId=7017906",
-        "draftkings": "https://sportsbook.draftkings.com/?outcomes=0OU85434057U750_3",
-        "betmgm": "https://sports.nj.betmgm.com/en/sports?options=19769266-1539669201-2244067068&type=Single"
-      },
-      "market": "TOTAL",
-      "confidence": 4,
-      "units": 1.5,
-      "win_probability": 0.59,
-      "ladder_designation": false,
-      "data_confidence": 0.7,
-      "rules_passed": [
-        "max_juice",
-        "ladder_even_money",
-        "parlay_well_formed",
-        "confidence_units_match",
-        "data_confidence_floor",
-        "pick_type_allowed",
-        "mlb_hr_prop_check",
-        "mlb_pitcher_k_check",
-        "mlb_total_bases_check",
-        "mlb_hits_check",
-        "nba_player_prop_check",
-        "nhl_shots_check",
-        "mlb_run_line_check",
-        "mlb_under_bb_check(soft)",
-        "no_same_game_opposite"
-      ],
-      "locked": true,
-      "late_add": false,
-      "late_add_reason": "",
-      "bonus_pick": false,
-      "event_type": "",
-      "event_name": "",
-      "legs": [],
-      "headline": "Two quality arms at Citi Field \u2014 this total is a half-run too high.",
-      "the_thesis": "Sonny Gray (2.61 ERA, 22.8 K%, 6.4 BB%) has been one of the best pitchers in baseball this season, and he's facing a Mets lineup that ranks 22nd in runs per game (4.19). Nolan McLean (3.73 ERA, 28.0 K%, 8.8 BB%) has been solid for the Mets, and he's facing a Red Sox offense that ranks 24th in R/G (4.09).\n\nCiti Field's 0.91 HR park factor suppresses power, which benefits both pitchers. Gray's 1.01 HR/9 is slightly elevated, but the park should help. McLean's 0.89 HR/9 is excellent, and he's been particularly good at home.\n\nBoth offenses are below league average, both pitchers are above league average, and the park suppresses runs. This total should be closer to 7.0.",
-      "the_data": [
-        {
-          "label": "Gray ERA (season)",
-          "value": "2.61",
-          "context": "Elite, top-10 in MLB"
-        },
-        {
-          "label": "McLean ERA (season)",
-          "value": "3.73",
-          "context": "Above average"
-        },
-        {
-          "label": "Citi Field HR PF",
-          "value": "0.91",
-          "context": "Suppresses power"
-        },
-        {
-          "label": "Mets R/G",
-          "value": "4.19",
-          "context": "22nd in MLB"
-        },
-        {
-          "label": "Red Sox R/G",
-          "value": "4.09",
-          "context": "24th in MLB"
-        },
-        {
-          "label": "Gray K% / BB%",
-          "value": "22.8% / 6.4%",
-          "context": "Efficient"
-        }
-      ],
-      "the_market": "Total opened at 7.5 and has held. The market is respecting both arms but hasn't fully adjusted for the park factor and the below-average offenses.",
-      "weather_park": "Citi Field outdoor, 0.91 HR park factor \u2014 suppresses power. Weather should be mild.",
-      "case_against": "Gray's HR/9 (1.01) is slightly elevated, and if he leaves one over the plate, the Mets have enough pop to make it hurt. McLean's 8.8 BB% creates traffic, and the Red Sox have been hot lately (6-game win streak).",
-      "what_were_betting_on": "Both starters going 6+ innings, the park suppressing power, and two below-average offenses staying true to form.",
-      "scott_bot_quip": "Two good arms, two bad offenses, one pitcher's park. Math checks out.",
-      "ladder_note": "",
-      "date": "2026-07-10",
-      "status": "PEND",
-      "units_result": null,
-      "clv_cents": null,
-      "result_score": null,
-      "graded_at": null,
-      "slate_assessment": "17-game MLB-only slate with several strong pitching matchups. Ohtani vs. Arizona and Sale vs. St. Louis headline, but both are priced too short for straight bets. Best edges live in totals and pitcher props where the market hasn't fully adjusted to SP quality gaps.",
-      "executive_summary": "Seventeen MLB games tonight, no NBA or NHL, but the pitching matchups deliver. The Marlins-Guardians under at loanDepot park is the cleanest spot on the board \u2014 two quality starters, a pitcher-friendly dome, and a total that hasn't moved despite sharp money trickling in. Chris Sale on the road in St. Louis creates an under lean at 8, and the Mets-Red Sox under 7.5 pairs two solid arms at Citi Field. On the prop side, Shota Imanaga's K line at 5.5 against a Cincinnati lineup that just lost Hunter Greene to injury looks soft. The ladder rides with the Marlins-Guardians under \u2014 best floor, best park, best pitching matchup.",
-      "slate_analysis": "Tonight's board features 17 MLB games across all time zones, no NBA or NHL action. The pricing climate is tight \u2014 most favorites sit between -120 and -160, with only the Dodgers (-255) and Braves (-164) priced as heavy chalk. The total market is where the edges live tonight.\n\nTop candidates that rose during my review: Marlins-Guardians under 7.0/7.5 at loanDepot park (Messick vs. Alcantara, both pitching well, HR-suppressing dome); Braves-Cardinals under 8.0 (Sale on the mound, Busch Stadium suppresses HRs); Mets-Red Sox under 7.5 (Sonny Gray vs. Nolan McLean, Citi Field, both offenses below league average in R/G); Rays-Mariners under 8.0 (Nick Martinez's 2.61 ERA at Tropicana); Shota Imanaga K prop at 5.5 against Cincinnati (Hunter Greene's 21.6 ERA in 3.1 IP suggests bullpen game, Imanaga should go deep); and the Dodgers-Diamondbacks under 8.5 (Ohtani vs. E-Rod, both sub-2.30 ERAs).\n\nWhat got cut and why: The Dodgers-Diamondbacks under looked sharp, but Ohtani's recent biceps issue and the fact that he's given up 12 earned runs in his last 24.2 IP (4.38 ERA in that stretch) introduces variance I don't love \u2014 the market hasn't moved off 8.5, so no edge. The Rays-Mariners under at 8.0 is solid, but Martinez's 15.0 K% is the lowest among starters I'm considering, and Castillo's 7.4 BB% creates traffic \u2014 borderline pass. The Braves ML at -164 is too short for a straight bet (our -150 cap), and the run line at +106 doesn't offer enough edge given Leahy's 3.86 ERA. The Pirates-Brewers game has data_confidence of 0.4 \u2014 lineups not confirmed, Sproat's 11.0 BB% is a red flag for unders, and Ashcraft's sample is thin. The Yankees-Nationals over 10.0 looked tempting with Palmquist's 7.11 ERA in 6.1 IP, but that's a 2-inning sample \u2014 can't trust it.\n\nThe final six picks: Marlins-Guardians Under 7.5 (ladder pick \u2014 best floor, two quality SPs, pitcher-friendly dome); Braves-Cardinals Under 8.0 (Sale's 2.27 ERA, Busch Stadium HR suppression); Mets-Red Sox Under 7.5 (Gray's 2.61 ERA, McLean's 3.73 ERA, Citi Field); Shota Imanaga Ks Over 5.5 (Cincinnati's bullpen game, Imanaga's 24.1 K%, should go 6+ innings); Giants-Rockies Under 8.0 (Robbie Ray at Oracle Park, Tanner Gordon's 6.95 ERA means SF bats early but Ray controls the game); and White Sox ML -154 (Sean Burke's 3.56 ERA vs. Jacob Lopez's 7.04 ERA, 13.2 BB% \u2014 this is a talent mismatch at a reasonable price). The ladder rides with Marlins-Guardians Under 7.5 at FanDuel +102 \u2014 two All-Star caliber arms, a dome that suppresses runs, and a total that hasn't moved despite the pitching matchup.",
-      "slate_vibe": "NORMAL",
-      "published_at": "2026-07-10T12:57:18.339493-04:00"
-    },
-    {
-      "id": "20260710-MLB-ATL-STL-TOTAL",
-      "sport": "MLB",
-      "game": "ATL @ STL",
-      "first_pitch_iso": "2026-07-11T00:15Z",
-      "pick": "Under 8.0",
-      "best_book": "BetMGM",
-      "best_odds": "-105",
-      "book_prices": {
-        "draftkings": "-107",
-        "fanduel": "-110",
-        "betmgm": "-105"
-      },
-      "book_links": {
-        "fanduel": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.591078667&selectionId=7017906",
-        "draftkings": "https://sportsbook.draftkings.com/?outcomes=0OU85434063U800_3",
-        "betmgm": "https://sports.nj.betmgm.com/en/sports?options=19769270-1539669577-2244067892&type=Single"
-      },
-      "market": "TOTAL",
-      "confidence": 4,
-      "units": 1.5,
-      "win_probability": 0.6,
-      "ladder_designation": false,
-      "data_confidence": 0.72,
-      "rules_passed": [
-        "max_juice",
-        "ladder_even_money",
-        "parlay_well_formed",
-        "confidence_units_match",
-        "data_confidence_floor",
-        "pick_type_allowed",
-        "mlb_hr_prop_check",
-        "mlb_pitcher_k_check",
-        "mlb_total_bases_check",
-        "mlb_hits_check",
-        "nba_player_prop_check",
-        "nhl_shots_check",
-        "mlb_run_line_check",
-        "mlb_under_bb_check(soft)",
-        "no_same_game_opposite"
-      ],
-      "locked": true,
-      "late_add": false,
-      "late_add_reason": "",
-      "bonus_pick": false,
-      "event_type": "",
-      "event_name": "",
-      "legs": [],
-      "headline": "Chris Sale's 2.27 ERA meets Busch Stadium's HR suppression \u2014 this total is too high.",
-      "the_thesis": "Chris Sale enters tonight's start looking to join John Smoltz as the only Braves pitcher 37 or older to post a sub-3.00 ERA through 17 starts. Sale's 2.27 ERA ranks fourth in the National League, and his 28.6 K% paired with a 6.1 BB% makes him one of the most efficient starters in baseball. He's been dominant against teams with .500+ records, going 11-0 with a 1.85 ERA in those matchups.\n\nBusch Stadium's 0.93 HR park factor suppresses power, which plays directly into Sale's strengths \u2014 he's allowed just 0.76 HR/9 this season. Kyle Leahy (3.86 ERA, 1.45 WHIP) is a serviceable arm but not someone who will match Sale's dominance. The Cardinals offense has been average (4.57 R/G), but they'll struggle against Sale's elite stuff.\n\nThe Braves offense (4.93 R/G) is the wild card here, but Leahy has been solid at home and the park should keep balls in the yard. With Sale on the mound and a HR-suppressing environment, 8 runs feels like a stretch.",
-      "the_data": [
-        {
-          "label": "Sale ERA (season)",
-          "value": "2.27",
-          "context": "4th in NL"
-        },
-        {
-          "label": "Sale K% / BB%",
-          "value": "28.6% / 6.1%",
-          "context": "Elite efficiency"
-        },
-        {
-          "label": "Sale HR/9",
-          "value": "0.76",
-          "context": "Top-10 in MLB"
-        },
-        {
-          "label": "Busch Stadium HR PF",
-          "value": "0.93",
-          "context": "Suppresses power"
-        },
-        {
-          "label": "Leahy ERA (season)",
-          "value": "3.86",
-          "context": "Serviceable, not dominant"
-        },
-        {
-          "label": "Cardinals R/G",
-          "value": "4.57",
-          "context": "League average"
-        }
-      ],
-      "the_market": "Total opened at 8.0 and hasn't moved. The market is respecting Sale but not fully adjusting for the park factor. BetMGM offers the best price at -105.",
-      "weather_park": "Busch Stadium outdoor, 0.93 HR park factor \u2014 suppresses power. Weather should be mild for a July night in St. Louis.",
-      "case_against": "Sale has given up 9 runs (7 earned) over his last 22 innings before his most recent start \u2014 a slight regression from his elite early-season form. The Braves offense is potent and could put up crooked numbers against Leahy if he doesn't have his best stuff.",
-      "what_were_betting_on": "Sale going 6+ innings with 2 or fewer earned runs, Leahy keeping the Braves in check for at least 5 innings, and the park suppressing any power that does get hit.",
-      "scott_bot_quip": "Sale's been doing this for 15 years. The Cardinals haven't figured it out yet.",
-      "ladder_note": "",
-      "date": "2026-07-10",
-      "status": "PEND",
-      "units_result": null,
-      "clv_cents": null,
-      "result_score": null,
-      "graded_at": null,
-      "slate_assessment": "17-game MLB-only slate with several strong pitching matchups. Ohtani vs. Arizona and Sale vs. St. Louis headline, but both are priced too short for straight bets. Best edges live in totals and pitcher props where the market hasn't fully adjusted to SP quality gaps.",
-      "executive_summary": "Seventeen MLB games tonight, no NBA or NHL, but the pitching matchups deliver. The Marlins-Guardians under at loanDepot park is the cleanest spot on the board \u2014 two quality starters, a pitcher-friendly dome, and a total that hasn't moved despite sharp money trickling in. Chris Sale on the road in St. Louis creates an under lean at 8, and the Mets-Red Sox under 7.5 pairs two solid arms at Citi Field. On the prop side, Shota Imanaga's K line at 5.5 against a Cincinnati lineup that just lost Hunter Greene to injury looks soft. The ladder rides with the Marlins-Guardians under \u2014 best floor, best park, best pitching matchup.",
-      "slate_analysis": "Tonight's board features 17 MLB games across all time zones, no NBA or NHL action. The pricing climate is tight \u2014 most favorites sit between -120 and -160, with only the Dodgers (-255) and Braves (-164) priced as heavy chalk. The total market is where the edges live tonight.\n\nTop candidates that rose during my review: Marlins-Guardians under 7.0/7.5 at loanDepot park (Messick vs. Alcantara, both pitching well, HR-suppressing dome); Braves-Cardinals under 8.0 (Sale on the mound, Busch Stadium suppresses HRs); Mets-Red Sox under 7.5 (Sonny Gray vs. Nolan McLean, Citi Field, both offenses below league average in R/G); Rays-Mariners under 8.0 (Nick Martinez's 2.61 ERA at Tropicana); Shota Imanaga K prop at 5.5 against Cincinnati (Hunter Greene's 21.6 ERA in 3.1 IP suggests bullpen game, Imanaga should go deep); and the Dodgers-Diamondbacks under 8.5 (Ohtani vs. E-Rod, both sub-2.30 ERAs).\n\nWhat got cut and why: The Dodgers-Diamondbacks under looked sharp, but Ohtani's recent biceps issue and the fact that he's given up 12 earned runs in his last 24.2 IP (4.38 ERA in that stretch) introduces variance I don't love \u2014 the market hasn't moved off 8.5, so no edge. The Rays-Mariners under at 8.0 is solid, but Martinez's 15.0 K% is the lowest among starters I'm considering, and Castillo's 7.4 BB% creates traffic \u2014 borderline pass. The Braves ML at -164 is too short for a straight bet (our -150 cap), and the run line at +106 doesn't offer enough edge given Leahy's 3.86 ERA. The Pirates-Brewers game has data_confidence of 0.4 \u2014 lineups not confirmed, Sproat's 11.0 BB% is a red flag for unders, and Ashcraft's sample is thin. The Yankees-Nationals over 10.0 looked tempting with Palmquist's 7.11 ERA in 6.1 IP, but that's a 2-inning sample \u2014 can't trust it.\n\nThe final six picks: Marlins-Guardians Under 7.5 (ladder pick \u2014 best floor, two quality SPs, pitcher-friendly dome); Braves-Cardinals Under 8.0 (Sale's 2.27 ERA, Busch Stadium HR suppression); Mets-Red Sox Under 7.5 (Gray's 2.61 ERA, McLean's 3.73 ERA, Citi Field); Shota Imanaga Ks Over 5.5 (Cincinnati's bullpen game, Imanaga's 24.1 K%, should go 6+ innings); Giants-Rockies Under 8.0 (Robbie Ray at Oracle Park, Tanner Gordon's 6.95 ERA means SF bats early but Ray controls the game); and White Sox ML -154 (Sean Burke's 3.56 ERA vs. Jacob Lopez's 7.04 ERA, 13.2 BB% \u2014 this is a talent mismatch at a reasonable price). The ladder rides with Marlins-Guardians Under 7.5 at FanDuel +102 \u2014 two All-Star caliber arms, a dome that suppresses runs, and a total that hasn't moved despite the pitching matchup.",
-      "slate_vibe": "NORMAL",
-      "published_at": "2026-07-10T12:57:18.339396-04:00"
-    },
-    {
-      "id": "20260710-MLB-CLE-MIA-TOTAL",
-      "sport": "MLB",
-      "game": "CLE @ MIA",
-      "first_pitch_iso": "2026-07-10T23:10Z",
-      "pick": "Under 7.5",
-      "best_book": "FanDuel",
-      "best_odds": "+102",
-      "book_prices": {
-        "draftkings": "+102",
-        "fanduel": "+102",
-        "betmgm": "+105"
-      },
-      "book_links": {
-        "fanduel": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.591087860&selectionId=7017906",
-        "draftkings": "https://sportsbook.draftkings.com/?outcomes=0OU85434033U700_3",
-        "betmgm": "https://sports.nj.betmgm.com/en/sports?options=19768981-1539649786-2244008646&type=Single"
-      },
-      "market": "TOTAL",
-      "confidence": 5,
-      "units": 2.0,
-      "win_probability": 0.62,
-      "ladder_designation": true,
-      "data_confidence": 0.75,
-      "rules_passed": [
-        "max_juice",
-        "ladder_even_money",
-        "parlay_well_formed",
-        "confidence_units_match",
-        "data_confidence_floor",
-        "pick_type_allowed",
-        "mlb_hr_prop_check",
-        "mlb_pitcher_k_check",
-        "mlb_total_bases_check",
-        "mlb_hits_check",
-        "nba_player_prop_check",
-        "nhl_shots_check",
-        "mlb_run_line_check",
-        "mlb_under_bb_check",
-        "no_same_game_opposite"
-      ],
-      "locked": true,
-      "late_add": false,
-      "late_add_reason": "",
-      "bonus_pick": false,
-      "event_type": "",
-      "event_name": "",
-      "legs": [],
-      "headline": "Two All-Star caliber arms in a pitcher's paradise \u2014 this is the floor play of the night.",
-      "the_thesis": "Parker Messick (2.80 ERA, 25.8 K%, 7.6 BB%) returns to his home state of Florida as a first-time All-Star, facing Sandy Alcantara (4.00 ERA, 17.8 K%, 6.4 BB%) in a dome that suppresses runs like few others in baseball. loanDepot park's 0.94 runs park factor and 0.86 HR park factor make it the second-most pitcher-friendly venue in MLB behind only Tropicana Field.\n\nMessick has been one of the best stories in baseball this year \u2014 the second-round pick from 2022 came within three outs of a no-hitter in April and has a 3.87 K/BB ratio in his first 25 career starts. Alcantara, the 2022 NL Cy Young winner, has bounced back after a rough May (7.39 ERA) to post a 3.35 ERA in June and 1.13 ERA so far in July. Both pitchers have the stuff to go deep into games.\n\nThe Guardians offense ranks 26th in MLB in runs per game (3.97), and the Marlins, despite their recent hot streak, are still a below-average offensive team by season-long metrics. With two quality arms, a run-suppressing dome, and two offenses that don't overwhelm, this total should stay under.",
-      "the_data": [
-        {
-          "label": "Messick ERA (season)",
-          "value": "2.80",
-          "context": "5th in MLB among qualified starters"
-        },
-        {
-          "label": "Alcantara ERA (June-July)",
-          "value": "2.89",
-          "context": "Bounced back strong after rough May"
-        },
-        {
-          "label": "loanDepot park runs PF",
-          "value": "0.94",
-          "context": "2nd most pitcher-friendly in MLB"
-        },
-        {
-          "label": "loanDepot park HR PF",
-          "value": "0.86",
-          "context": "Suppresses power significantly"
-        },
-        {
-          "label": "Guardians R/G",
-          "value": "3.97",
-          "context": "26th in MLB"
-        },
-        {
-          "label": "Marlins R/G",
-          "value": "4.62",
-          "context": "Inflated by recent hot streak"
-        }
-      ],
-      "the_market": "Total opened at 7.0-7.5 across books, sitting at 7.5 on FanDuel and 7.0 on DraftKings/BetMGM. The split suggests sharp money hasn't fully committed to either side, but the pitching matchup and park factors favor the under.",
-      "weather_park": "Indoor dome \u2014 no weather impact. loanDepot park is the second-most pitcher-friendly venue in baseball.",
-      "case_against": "The Marlins are on a 6-game win streak and have been mashing lately (.323 BA over last 10 games). If Alcantara doesn't have his best stuff and the Marlins' bats stay hot, this could get away from us. Messick has also lost 6 of his last 7 starts despite pitching well \u2014 run support has been an issue.",
-      "what_were_betting_on": "Both starters going 6+ innings, the dome suppressing any power that does get hit, and two below-average offenses staying true to their season-long profiles.",
-      "scott_bot_quip": "Two All-Stars, one dome, zero runs. Okay, maybe a few runs. But not eight.",
-      "ladder_note": "Best floor on the board \u2014 two quality arms who go deep into games, the most pitcher-friendly park in the NL, and a total that hasn't moved despite the matchup. This is the ladder lock.",
-      "date": "2026-07-10",
-      "status": "PEND",
-      "units_result": null,
-      "clv_cents": null,
-      "result_score": null,
-      "graded_at": null,
-      "slate_assessment": "17-game MLB-only slate with several strong pitching matchups. Ohtani vs. Arizona and Sale vs. St. Louis headline, but both are priced too short for straight bets. Best edges live in totals and pitcher props where the market hasn't fully adjusted to SP quality gaps.",
-      "executive_summary": "Seventeen MLB games tonight, no NBA or NHL, but the pitching matchups deliver. The Marlins-Guardians under at loanDepot park is the cleanest spot on the board \u2014 two quality starters, a pitcher-friendly dome, and a total that hasn't moved despite sharp money trickling in. Chris Sale on the road in St. Louis creates an under lean at 8, and the Mets-Red Sox under 7.5 pairs two solid arms at Citi Field. On the prop side, Shota Imanaga's K line at 5.5 against a Cincinnati lineup that just lost Hunter Greene to injury looks soft. The ladder rides with the Marlins-Guardians under \u2014 best floor, best park, best pitching matchup.",
-      "slate_analysis": "Tonight's board features 17 MLB games across all time zones, no NBA or NHL action. The pricing climate is tight \u2014 most favorites sit between -120 and -160, with only the Dodgers (-255) and Braves (-164) priced as heavy chalk. The total market is where the edges live tonight.\n\nTop candidates that rose during my review: Marlins-Guardians under 7.0/7.5 at loanDepot park (Messick vs. Alcantara, both pitching well, HR-suppressing dome); Braves-Cardinals under 8.0 (Sale on the mound, Busch Stadium suppresses HRs); Mets-Red Sox under 7.5 (Sonny Gray vs. Nolan McLean, Citi Field, both offenses below league average in R/G); Rays-Mariners under 8.0 (Nick Martinez's 2.61 ERA at Tropicana); Shota Imanaga K prop at 5.5 against Cincinnati (Hunter Greene's 21.6 ERA in 3.1 IP suggests bullpen game, Imanaga should go deep); and the Dodgers-Diamondbacks under 8.5 (Ohtani vs. E-Rod, both sub-2.30 ERAs).\n\nWhat got cut and why: The Dodgers-Diamondbacks under looked sharp, but Ohtani's recent biceps issue and the fact that he's given up 12 earned runs in his last 24.2 IP (4.38 ERA in that stretch) introduces variance I don't love \u2014 the market hasn't moved off 8.5, so no edge. The Rays-Mariners under at 8.0 is solid, but Martinez's 15.0 K% is the lowest among starters I'm considering, and Castillo's 7.4 BB% creates traffic \u2014 borderline pass. The Braves ML at -164 is too short for a straight bet (our -150 cap), and the run line at +106 doesn't offer enough edge given Leahy's 3.86 ERA. The Pirates-Brewers game has data_confidence of 0.4 \u2014 lineups not confirmed, Sproat's 11.0 BB% is a red flag for unders, and Ashcraft's sample is thin. The Yankees-Nationals over 10.0 looked tempting with Palmquist's 7.11 ERA in 6.1 IP, but that's a 2-inning sample \u2014 can't trust it.\n\nThe final six picks: Marlins-Guardians Under 7.5 (ladder pick \u2014 best floor, two quality SPs, pitcher-friendly dome); Braves-Cardinals Under 8.0 (Sale's 2.27 ERA, Busch Stadium HR suppression); Mets-Red Sox Under 7.5 (Gray's 2.61 ERA, McLean's 3.73 ERA, Citi Field); Shota Imanaga Ks Over 5.5 (Cincinnati's bullpen game, Imanaga's 24.1 K%, should go 6+ innings); Giants-Rockies Under 8.0 (Robbie Ray at Oracle Park, Tanner Gordon's 6.95 ERA means SF bats early but Ray controls the game); and White Sox ML -154 (Sean Burke's 3.56 ERA vs. Jacob Lopez's 7.04 ERA, 13.2 BB% \u2014 this is a talent mismatch at a reasonable price). The ladder rides with Marlins-Guardians Under 7.5 at FanDuel +102 \u2014 two All-Star caliber arms, a dome that suppresses runs, and a total that hasn't moved despite the pitching matchup.",
-      "slate_vibe": "NORMAL",
-      "published_at": "2026-07-10T12:57:18.339235-04:00"
-    }
-  ],
+  "today_picks": [],
   "today_bonus_picks": [],
   "all_picks": [
     {
@@ -686,16 +190,22 @@
       "scott_bot_quip": "Greene's ERA is higher than the total. Imanaga's going to feast.",
       "ladder_note": "",
       "date": "2026-07-10",
-      "status": "PEND",
-      "units_result": null,
+      "status": "LOSS",
+      "units_result": -1.5,
       "clv_cents": null,
-      "result_score": null,
-      "graded_at": null,
+      "result_score": "Shota Imanaga: 5 strikeOuts",
+      "graded_at": "2026-07-11T01:46:42.445558-04:00",
       "slate_assessment": "17-game MLB-only slate with several strong pitching matchups. Ohtani vs. Arizona and Sale vs. St. Louis headline, but both are priced too short for straight bets. Best edges live in totals and pitcher props where the market hasn't fully adjusted to SP quality gaps.",
       "executive_summary": "Seventeen MLB games tonight, no NBA or NHL, but the pitching matchups deliver. The Marlins-Guardians under at loanDepot park is the cleanest spot on the board \u2014 two quality starters, a pitcher-friendly dome, and a total that hasn't moved despite sharp money trickling in. Chris Sale on the road in St. Louis creates an under lean at 8, and the Mets-Red Sox under 7.5 pairs two solid arms at Citi Field. On the prop side, Shota Imanaga's K line at 5.5 against a Cincinnati lineup that just lost Hunter Greene to injury looks soft. The ladder rides with the Marlins-Guardians under \u2014 best floor, best park, best pitching matchup.",
       "slate_analysis": "Tonight's board features 17 MLB games across all time zones, no NBA or NHL action. The pricing climate is tight \u2014 most favorites sit between -120 and -160, with only the Dodgers (-255) and Braves (-164) priced as heavy chalk. The total market is where the edges live tonight.\n\nTop candidates that rose during my review: Marlins-Guardians under 7.0/7.5 at loanDepot park (Messick vs. Alcantara, both pitching well, HR-suppressing dome); Braves-Cardinals under 8.0 (Sale on the mound, Busch Stadium suppresses HRs); Mets-Red Sox under 7.5 (Sonny Gray vs. Nolan McLean, Citi Field, both offenses below league average in R/G); Rays-Mariners under 8.0 (Nick Martinez's 2.61 ERA at Tropicana); Shota Imanaga K prop at 5.5 against Cincinnati (Hunter Greene's 21.6 ERA in 3.1 IP suggests bullpen game, Imanaga should go deep); and the Dodgers-Diamondbacks under 8.5 (Ohtani vs. E-Rod, both sub-2.30 ERAs).\n\nWhat got cut and why: The Dodgers-Diamondbacks under looked sharp, but Ohtani's recent biceps issue and the fact that he's given up 12 earned runs in his last 24.2 IP (4.38 ERA in that stretch) introduces variance I don't love \u2014 the market hasn't moved off 8.5, so no edge. The Rays-Mariners under at 8.0 is solid, but Martinez's 15.0 K% is the lowest among starters I'm considering, and Castillo's 7.4 BB% creates traffic \u2014 borderline pass. The Braves ML at -164 is too short for a straight bet (our -150 cap), and the run line at +106 doesn't offer enough edge given Leahy's 3.86 ERA. The Pirates-Brewers game has data_confidence of 0.4 \u2014 lineups not confirmed, Sproat's 11.0 BB% is a red flag for unders, and Ashcraft's sample is thin. The Yankees-Nationals over 10.0 looked tempting with Palmquist's 7.11 ERA in 6.1 IP, but that's a 2-inning sample \u2014 can't trust it.\n\nThe final six picks: Marlins-Guardians Under 7.5 (ladder pick \u2014 best floor, two quality SPs, pitcher-friendly dome); Braves-Cardinals Under 8.0 (Sale's 2.27 ERA, Busch Stadium HR suppression); Mets-Red Sox Under 7.5 (Gray's 2.61 ERA, McLean's 3.73 ERA, Citi Field); Shota Imanaga Ks Over 5.5 (Cincinnati's bullpen game, Imanaga's 24.1 K%, should go 6+ innings); Giants-Rockies Under 8.0 (Robbie Ray at Oracle Park, Tanner Gordon's 6.95 ERA means SF bats early but Ray controls the game); and White Sox ML -154 (Sean Burke's 3.56 ERA vs. Jacob Lopez's 7.04 ERA, 13.2 BB% \u2014 this is a talent mismatch at a reasonable price). The ladder rides with Marlins-Guardians Under 7.5 at FanDuel +102 \u2014 two All-Star caliber arms, a dome that suppresses runs, and a total that hasn't moved despite the pitching matchup.",
       "slate_vibe": "NORMAL",
-      "published_at": "2026-07-10T12:57:18.339568-04:00"
+      "published_at": "2026-07-10T12:57:18.339568-04:00",
+      "autopsy": {
+        "classification": "MODEL",
+        "post_mortem": "The entire thesis was built on Hunter Greene being unavailable or ineffective \u2014 but Greene was never actually scratched. He went out and dominated, striking out 12 Cubs in 7 scoreless innings (game score: 82), making the 'bullpen game incoming' premise completely wrong. Meanwhile, Imanaga went only 5 innings, fanning exactly 5 batters \u2014 one short of the 5.5 line \u2014 and was pulled after an Elly De La Cruz solo homer ended his scoreless effort in the 5th. The extended-run assumption that would have pushed him to 6+ Ks evaporated the moment Greene took the mound healthy.",
+        "candidate_rule": "Before posting any prop that depends on an opponent's starter being unavailable or limited, require same-day confirmation of the pitching matchup from an official lineup source (MLB.com or beat reporter) within 2 hours of first pitch \u2014 not just a prior-start ERA signal; N=1, insufficient to establish rule.",
+        "sample_size_warning": "N=1, insufficient to establish rule \u2014 but the structural flaw (building a prop thesis on an opponent's starter being compromised without day-of confirmation) is worth flagging as a process gap immediately."
+      }
     },
     {
       "id": "20260710-MLB-BOS-NYM-TOTAL",
@@ -786,16 +296,22 @@
       "scott_bot_quip": "Two good arms, two bad offenses, one pitcher's park. Math checks out.",
       "ladder_note": "",
       "date": "2026-07-10",
-      "status": "PEND",
-      "units_result": null,
+      "status": "LOSS",
+      "units_result": -1.5,
       "clv_cents": null,
-      "result_score": null,
-      "graded_at": null,
+      "result_score": "BOS 6 \u00b7 NYM 2",
+      "graded_at": "2026-07-11T01:47:00.945325-04:00",
       "slate_assessment": "17-game MLB-only slate with several strong pitching matchups. Ohtani vs. Arizona and Sale vs. St. Louis headline, but both are priced too short for straight bets. Best edges live in totals and pitcher props where the market hasn't fully adjusted to SP quality gaps.",
       "executive_summary": "Seventeen MLB games tonight, no NBA or NHL, but the pitching matchups deliver. The Marlins-Guardians under at loanDepot park is the cleanest spot on the board \u2014 two quality starters, a pitcher-friendly dome, and a total that hasn't moved despite sharp money trickling in. Chris Sale on the road in St. Louis creates an under lean at 8, and the Mets-Red Sox under 7.5 pairs two solid arms at Citi Field. On the prop side, Shota Imanaga's K line at 5.5 against a Cincinnati lineup that just lost Hunter Greene to injury looks soft. The ladder rides with the Marlins-Guardians under \u2014 best floor, best park, best pitching matchup.",
       "slate_analysis": "Tonight's board features 17 MLB games across all time zones, no NBA or NHL action. The pricing climate is tight \u2014 most favorites sit between -120 and -160, with only the Dodgers (-255) and Braves (-164) priced as heavy chalk. The total market is where the edges live tonight.\n\nTop candidates that rose during my review: Marlins-Guardians under 7.0/7.5 at loanDepot park (Messick vs. Alcantara, both pitching well, HR-suppressing dome); Braves-Cardinals under 8.0 (Sale on the mound, Busch Stadium suppresses HRs); Mets-Red Sox under 7.5 (Sonny Gray vs. Nolan McLean, Citi Field, both offenses below league average in R/G); Rays-Mariners under 8.0 (Nick Martinez's 2.61 ERA at Tropicana); Shota Imanaga K prop at 5.5 against Cincinnati (Hunter Greene's 21.6 ERA in 3.1 IP suggests bullpen game, Imanaga should go deep); and the Dodgers-Diamondbacks under 8.5 (Ohtani vs. E-Rod, both sub-2.30 ERAs).\n\nWhat got cut and why: The Dodgers-Diamondbacks under looked sharp, but Ohtani's recent biceps issue and the fact that he's given up 12 earned runs in his last 24.2 IP (4.38 ERA in that stretch) introduces variance I don't love \u2014 the market hasn't moved off 8.5, so no edge. The Rays-Mariners under at 8.0 is solid, but Martinez's 15.0 K% is the lowest among starters I'm considering, and Castillo's 7.4 BB% creates traffic \u2014 borderline pass. The Braves ML at -164 is too short for a straight bet (our -150 cap), and the run line at +106 doesn't offer enough edge given Leahy's 3.86 ERA. The Pirates-Brewers game has data_confidence of 0.4 \u2014 lineups not confirmed, Sproat's 11.0 BB% is a red flag for unders, and Ashcraft's sample is thin. The Yankees-Nationals over 10.0 looked tempting with Palmquist's 7.11 ERA in 6.1 IP, but that's a 2-inning sample \u2014 can't trust it.\n\nThe final six picks: Marlins-Guardians Under 7.5 (ladder pick \u2014 best floor, two quality SPs, pitcher-friendly dome); Braves-Cardinals Under 8.0 (Sale's 2.27 ERA, Busch Stadium HR suppression); Mets-Red Sox Under 7.5 (Gray's 2.61 ERA, McLean's 3.73 ERA, Citi Field); Shota Imanaga Ks Over 5.5 (Cincinnati's bullpen game, Imanaga's 24.1 K%, should go 6+ innings); Giants-Rockies Under 8.0 (Robbie Ray at Oracle Park, Tanner Gordon's 6.95 ERA means SF bats early but Ray controls the game); and White Sox ML -154 (Sean Burke's 3.56 ERA vs. Jacob Lopez's 7.04 ERA, 13.2 BB% \u2014 this is a talent mismatch at a reasonable price). The ladder rides with Marlins-Guardians Under 7.5 at FanDuel +102 \u2014 two All-Star caliber arms, a dome that suppresses runs, and a total that hasn't moved despite the pitching matchup.",
       "slate_vibe": "NORMAL",
-      "published_at": "2026-07-10T12:57:18.339493-04:00"
+      "published_at": "2026-07-10T12:57:18.339493-04:00",
+      "autopsy": {
+        "classification": "MODEL",
+        "post_mortem": "The thesis leaned on Boston's season-long R/G (4.09, 24th in MLB) but ignored a critical split: the Red Sox were scoring 4.60 R/G on the road \u2014 well above the number used to justify the under. McLean's known structural flaw (3.29 BB/9, 37 walks in 101.1 IP) against a patient Boston lineup materialized: Seigler and Abreu each hit two-run homers, Yoshida doubled twice and drove in two, and Boston put up 6 runs on McLean and the bullpen. Gray was dominant (1 R, 5 K in 6 IP), so the Mets' half of the total was fine at 2 \u2014 the loss came entirely from underestimating Boston's road offense and discounting McLean's walk/traffic problem against a disciplined lineup.",
+        "candidate_rule": "When projecting team offense for totals, use road/home splits rather than season-average R/G \u2014 if a team's road R/G exceeds their season average by 0.4+ runs, flag the discrepancy before applying the season number to an away game; validate against N\u226510 road games in the current season.",
+        "sample_size_warning": "N=1, insufficient to establish rule \u2014 one loss on a road-split oversight is noise, not pattern."
+      }
     },
     {
       "id": "20260710-MLB-ATL-STL-TOTAL",
@@ -886,11 +402,11 @@
       "scott_bot_quip": "Sale's been doing this for 15 years. The Cardinals haven't figured it out yet.",
       "ladder_note": "",
       "date": "2026-07-10",
-      "status": "PEND",
-      "units_result": null,
+      "status": "WIN",
+      "units_result": 1.4286,
       "clv_cents": null,
-      "result_score": null,
-      "graded_at": null,
+      "result_score": "ATL 1 \u00b7 STL 2",
+      "graded_at": "2026-07-11T01:47:22.446222-04:00",
       "slate_assessment": "17-game MLB-only slate with several strong pitching matchups. Ohtani vs. Arizona and Sale vs. St. Louis headline, but both are priced too short for straight bets. Best edges live in totals and pitcher props where the market hasn't fully adjusted to SP quality gaps.",
       "executive_summary": "Seventeen MLB games tonight, no NBA or NHL, but the pitching matchups deliver. The Marlins-Guardians under at loanDepot park is the cleanest spot on the board \u2014 two quality starters, a pitcher-friendly dome, and a total that hasn't moved despite sharp money trickling in. Chris Sale on the road in St. Louis creates an under lean at 8, and the Mets-Red Sox under 7.5 pairs two solid arms at Citi Field. On the prop side, Shota Imanaga's K line at 5.5 against a Cincinnati lineup that just lost Hunter Greene to injury looks soft. The ladder rides with the Marlins-Guardians under \u2014 best floor, best park, best pitching matchup.",
       "slate_analysis": "Tonight's board features 17 MLB games across all time zones, no NBA or NHL action. The pricing climate is tight \u2014 most favorites sit between -120 and -160, with only the Dodgers (-255) and Braves (-164) priced as heavy chalk. The total market is where the edges live tonight.\n\nTop candidates that rose during my review: Marlins-Guardians under 7.0/7.5 at loanDepot park (Messick vs. Alcantara, both pitching well, HR-suppressing dome); Braves-Cardinals under 8.0 (Sale on the mound, Busch Stadium suppresses HRs); Mets-Red Sox under 7.5 (Sonny Gray vs. Nolan McLean, Citi Field, both offenses below league average in R/G); Rays-Mariners under 8.0 (Nick Martinez's 2.61 ERA at Tropicana); Shota Imanaga K prop at 5.5 against Cincinnati (Hunter Greene's 21.6 ERA in 3.1 IP suggests bullpen game, Imanaga should go deep); and the Dodgers-Diamondbacks under 8.5 (Ohtani vs. E-Rod, both sub-2.30 ERAs).\n\nWhat got cut and why: The Dodgers-Diamondbacks under looked sharp, but Ohtani's recent biceps issue and the fact that he's given up 12 earned runs in his last 24.2 IP (4.38 ERA in that stretch) introduces variance I don't love \u2014 the market hasn't moved off 8.5, so no edge. The Rays-Mariners under at 8.0 is solid, but Martinez's 15.0 K% is the lowest among starters I'm considering, and Castillo's 7.4 BB% creates traffic \u2014 borderline pass. The Braves ML at -164 is too short for a straight bet (our -150 cap), and the run line at +106 doesn't offer enough edge given Leahy's 3.86 ERA. The Pirates-Brewers game has data_confidence of 0.4 \u2014 lineups not confirmed, Sproat's 11.0 BB% is a red flag for unders, and Ashcraft's sample is thin. The Yankees-Nationals over 10.0 looked tempting with Palmquist's 7.11 ERA in 6.1 IP, but that's a 2-inning sample \u2014 can't trust it.\n\nThe final six picks: Marlins-Guardians Under 7.5 (ladder pick \u2014 best floor, two quality SPs, pitcher-friendly dome); Braves-Cardinals Under 8.0 (Sale's 2.27 ERA, Busch Stadium HR suppression); Mets-Red Sox Under 7.5 (Gray's 2.61 ERA, McLean's 3.73 ERA, Citi Field); Shota Imanaga Ks Over 5.5 (Cincinnati's bullpen game, Imanaga's 24.1 K%, should go 6+ innings); Giants-Rockies Under 8.0 (Robbie Ray at Oracle Park, Tanner Gordon's 6.95 ERA means SF bats early but Ray controls the game); and White Sox ML -154 (Sean Burke's 3.56 ERA vs. Jacob Lopez's 7.04 ERA, 13.2 BB% \u2014 this is a talent mismatch at a reasonable price). The ladder rides with Marlins-Guardians Under 7.5 at FanDuel +102 \u2014 two All-Star caliber arms, a dome that suppresses runs, and a total that hasn't moved despite the pitching matchup.",
@@ -986,11 +502,11 @@
       "scott_bot_quip": "Two All-Stars, one dome, zero runs. Okay, maybe a few runs. But not eight.",
       "ladder_note": "Best floor on the board \u2014 two quality arms who go deep into games, the most pitcher-friendly park in the NL, and a total that hasn't moved despite the matchup. This is the ladder lock.",
       "date": "2026-07-10",
-      "status": "PEND",
-      "units_result": null,
+      "status": "WIN",
+      "units_result": 2.04,
       "clv_cents": null,
-      "result_score": null,
-      "graded_at": null,
+      "result_score": "CLE 3 \u00b7 MIA 2",
+      "graded_at": "2026-07-11T01:47:22.458911-04:00",
       "slate_assessment": "17-game MLB-only slate with several strong pitching matchups. Ohtani vs. Arizona and Sale vs. St. Louis headline, but both are priced too short for straight bets. Best edges live in totals and pitcher props where the market hasn't fully adjusted to SP quality gaps.",
       "executive_summary": "Seventeen MLB games tonight, no NBA or NHL, but the pitching matchups deliver. The Marlins-Guardians under at loanDepot park is the cleanest spot on the board \u2014 two quality starters, a pitcher-friendly dome, and a total that hasn't moved despite sharp money trickling in. Chris Sale on the road in St. Louis creates an under lean at 8, and the Mets-Red Sox under 7.5 pairs two solid arms at Citi Field. On the prop side, Shota Imanaga's K line at 5.5 against a Cincinnati lineup that just lost Hunter Greene to injury looks soft. The ladder rides with the Marlins-Guardians under \u2014 best floor, best park, best pitching matchup.",
       "slate_analysis": "Tonight's board features 17 MLB games across all time zones, no NBA or NHL action. The pricing climate is tight \u2014 most favorites sit between -120 and -160, with only the Dodgers (-255) and Braves (-164) priced as heavy chalk. The total market is where the edges live tonight.\n\nTop candidates that rose during my review: Marlins-Guardians under 7.0/7.5 at loanDepot park (Messick vs. Alcantara, both pitching well, HR-suppressing dome); Braves-Cardinals under 8.0 (Sale on the mound, Busch Stadium suppresses HRs); Mets-Red Sox under 7.5 (Sonny Gray vs. Nolan McLean, Citi Field, both offenses below league average in R/G); Rays-Mariners under 8.0 (Nick Martinez's 2.61 ERA at Tropicana); Shota Imanaga K prop at 5.5 against Cincinnati (Hunter Greene's 21.6 ERA in 3.1 IP suggests bullpen game, Imanaga should go deep); and the Dodgers-Diamondbacks under 8.5 (Ohtani vs. E-Rod, both sub-2.30 ERAs).\n\nWhat got cut and why: The Dodgers-Diamondbacks under looked sharp, but Ohtani's recent biceps issue and the fact that he's given up 12 earned runs in his last 24.2 IP (4.38 ERA in that stretch) introduces variance I don't love \u2014 the market hasn't moved off 8.5, so no edge. The Rays-Mariners under at 8.0 is solid, but Martinez's 15.0 K% is the lowest among starters I'm considering, and Castillo's 7.4 BB% creates traffic \u2014 borderline pass. The Braves ML at -164 is too short for a straight bet (our -150 cap), and the run line at +106 doesn't offer enough edge given Leahy's 3.86 ERA. The Pirates-Brewers game has data_confidence of 0.4 \u2014 lineups not confirmed, Sproat's 11.0 BB% is a red flag for unders, and Ashcraft's sample is thin. The Yankees-Nationals over 10.0 looked tempting with Palmquist's 7.11 ERA in 6.1 IP, but that's a 2-inning sample \u2014 can't trust it.\n\nThe final six picks: Marlins-Guardians Under 7.5 (ladder pick \u2014 best floor, two quality SPs, pitcher-friendly dome); Braves-Cardinals Under 8.0 (Sale's 2.27 ERA, Busch Stadium HR suppression); Mets-Red Sox Under 7.5 (Gray's 2.61 ERA, McLean's 3.73 ERA, Citi Field); Shota Imanaga Ks Over 5.5 (Cincinnati's bullpen game, Imanaga's 24.1 K%, should go 6+ innings); Giants-Rockies Under 8.0 (Robbie Ray at Oracle Park, Tanner Gordon's 6.95 ERA means SF bats early but Ray controls the game); and White Sox ML -154 (Sean Burke's 3.56 ERA vs. Jacob Lopez's 7.04 ERA, 13.2 BB% \u2014 this is a talent mismatch at a reasonable price). The ladder rides with Marlins-Guardians Under 7.5 at FanDuel +102 \u2014 two All-Star caliber arms, a dome that suppresses runs, and a total that hasn't moved despite the pitching matchup.",
@@ -18576,11 +18092,19 @@
     }
   ],
   "ladder": {
-    "current_streak": 0,
+    "current_streak": 1,
     "longest_streak": 8,
     "completed_climbs": 0,
     "target": 10,
     "history": [
+      {
+        "date": "2026-07-10",
+        "pick_id": "20260710-MLB-CLE-MIA-TOTAL",
+        "pick": "Under 7.5",
+        "game": "CLE @ MIA",
+        "status": "WIN",
+        "after_streak": 1
+      },
       {
         "date": "2026-07-09",
         "pick_id": "20260709-MLB-SEA-MIA-TOTAL",
@@ -18894,13 +18418,13 @@
         "after_streak": 1
       }
     ],
-    "updated_at": "2026-07-10T02:53:00.183056-04:00"
+    "updated_at": "2026-07-11T01:47:22.470564-04:00"
   },
   "last_night_recap": {
-    "date": "2026-07-09",
-    "record": "2-4-0",
-    "units_pl": -2.8154,
-    "night_summary": "Rough one \u2014 2-4 night, -2.82u, with the ladder pick doing the most damage. The two bright spots were real: Gavin Williams was filthy in Minneapolis, retiring the first 13 Twins he faced before finishing with 11 strikeouts over seven innings in a clean 5-2 CLE win, and the Guardians ML cashed alongside it at +0.87u. The SEA @ MIA under (ladder) was the gut punch \u2014 Bryce Miller walked four and surrendered nine hits in five innings against a Miami offense that had gone 19-7 over its last 26 games, a hot-streak signal the model explicitly dismissed; the game was effectively over after an O. Lopez-keyed four-run frame made it 6-1, and the 8-4 final blew past the total before the fifth was complete \u2014 that one's on the model, not variance. The PHI -1.5 and Schwarber prop losses were cleaner variance: Singer was dominant in a 1-0 pitcher's duel, and the LAA @ TEX under was alive at 6-1 through six before Detmers got bombed for three homers in a historically anomalous outing and a same-day Langford IL activation walked it off in the ninth. Ladder resets at 0 of 10 \u2014 back to the bottom, start climbing.",
-    "generated_at": "2026-07-10T02:53:35.270167-04:00"
+    "date": "2026-07-10",
+    "record": "2-2-0",
+    "units_pl": 0.47,
+    "night_summary": "2-2 night, +0.47u. The two unders did the heavy lifting \u2014 ATL @ STL finished 2-1 and CLE @ MIA came in 3-2, both cruising well under their numbers and combining for +3.47u on the night. The ladder pick (CLE @ MIA, Under 7.5) cashed clean. The losses were both model errors we own: the Imanaga K prop was dead on arrival once Hunter Greene \u2014 who we assumed was compromised \u2014 went out and struck out 12 Cubs in 7 scoreless innings, holding Imanaga to 5 Ks in 5 innings; the premise was wrong before first pitch. The BOS @ NYM Under 7.5 (final: 6-2) fell apart on the Boston side, where road-split offense and McLean's walk problem were underweighted. Ladder sits at 1 of 10 \u2014 fresh start, climbing.",
+    "generated_at": "2026-07-11T01:47:38.570007-04:00"
   }
 }

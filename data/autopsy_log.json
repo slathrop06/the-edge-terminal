@@ -1,5 +1,31 @@
 [
   {
+    "id": "20260710-MLB-BOS-NYM-TOTAL",
+    "date": "2026-07-10",
+    "pick": "Under 7.5",
+    "game": "BOS @ NYM",
+    "odds": "-106",
+    "result_score": "BOS 6 \u00b7 NYM 2",
+    "classification": "MODEL",
+    "post_mortem": "The thesis leaned on Boston's season-long R/G (4.09, 24th in MLB) but ignored a critical split: the Red Sox were scoring 4.60 R/G on the road \u2014 well above the number used to justify the under. McLean's known structural flaw (3.29 BB/9, 37 walks in 101.1 IP) against a patient Boston lineup materialized: Seigler and Abreu each hit two-run homers, Yoshida doubled twice and drove in two, and Boston put up 6 runs on McLean and the bullpen. Gray was dominant (1 R, 5 K in 6 IP), so the Mets' half of the total was fine at 2 \u2014 the loss came entirely from underestimating Boston's road offense and discounting McLean's walk/traffic problem against a disciplined lineup.",
+    "candidate_rule": "When projecting team offense for totals, use road/home splits rather than season-average R/G \u2014 if a team's road R/G exceeds their season average by 0.4+ runs, flag the discrepancy before applying the season number to an away game; validate against N\u226510 road games in the current season.",
+    "sample_size_warning": "N=1, insufficient to establish rule \u2014 one loss on a road-split oversight is noise, not pattern.",
+    "analyzed_at": "2026-07-11T01:47:22.443919-04:00"
+  },
+  {
+    "id": "20260710-MLB-CHC-CIN-PROP-SHOTAIMANAGA",
+    "date": "2026-07-10",
+    "pick": "Shota Imanaga Ks Over 5.5",
+    "game": "CHC @ CIN",
+    "odds": "-115",
+    "result_score": "Shota Imanaga: 5 strikeOuts",
+    "classification": "MODEL",
+    "post_mortem": "The entire thesis was built on Hunter Greene being unavailable or ineffective \u2014 but Greene was never actually scratched. He went out and dominated, striking out 12 Cubs in 7 scoreless innings (game score: 82), making the 'bullpen game incoming' premise completely wrong. Meanwhile, Imanaga went only 5 innings, fanning exactly 5 batters \u2014 one short of the 5.5 line \u2014 and was pulled after an Elly De La Cruz solo homer ended his scoreless effort in the 5th. The extended-run assumption that would have pushed him to 6+ Ks evaporated the moment Greene took the mound healthy.",
+    "candidate_rule": "Before posting any prop that depends on an opponent's starter being unavailable or limited, require same-day confirmation of the pitching matchup from an official lineup source (MLB.com or beat reporter) within 2 hours of first pitch \u2014 not just a prior-start ERA signal; N=1, insufficient to establish rule.",
+    "sample_size_warning": "N=1, insufficient to establish rule \u2014 but the structural flaw (building a prop thesis on an opponent's starter being compromised without day-of confirmation) is worth flagging as a process gap immediately.",
+    "analyzed_at": "2026-07-11T01:47:00.942972-04:00"
+  },
+  {
     "id": "20260709-MLB-SEA-MIA-TOTAL",
     "date": "2026-07-09",
     "pick": "Under 8",
