@@ -1,5 +1,18 @@
 [
   {
+    "id": "20260711-MLB-LAA-MIN-PROP-JOERYAN",
+    "date": "2026-07-11",
+    "pick": "Joe Ryan Ks Over 7.5",
+    "game": "LAA @ MIN",
+    "odds": "+100",
+    "result_score": "Joe Ryan: 6 strikeOuts",
+    "classification": "MODEL",
+    "post_mortem": "Ryan went exactly 6 innings, allowed 2 runs on 6 hits, and finished with 6 strikeouts \u2014 one short of the 7.5 line. The game stayed competitive (Twins won 5-3), so he had the runway, but the Angels made contact all day: Ryan posted a 3 GB / 9 FB split, indicating a put-it-in-play approach rather than a swing-and-miss one. The core model error was ignoring the margin: Ryan's 10.5 K/9 rate over 6 innings projects to ~6.1 Ks \u2014 essentially a coin flip at 7.5, not the 'free money' the thesis claimed.",
+    "candidate_rule": "When a pitcher's projected K total (K/9 \u00d7 expected IP) lands within 1.0 of the line, flag as thin-edge and require a K% vs. opponent strikeout rate crosscheck before recommending the over \u2014 N=1, insufficient to establish rule.",
+    "sample_size_warning": "N=1, insufficient to establish rule. One razor-thin miss does not confirm a systematic projection error, but the margin math should be reviewed on future K props.",
+    "analyzed_at": "2026-07-11T18:37:59.816259-04:00"
+  },
+  {
     "id": "20260710-MLB-BOS-NYM-TOTAL",
     "date": "2026-07-10",
     "pick": "Under 7.5",

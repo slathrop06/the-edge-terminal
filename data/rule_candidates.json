@@ -382,5 +382,13 @@
     "candidate_rule": "When projecting team offense for totals, use road/home splits rather than season-average R/G \u2014 if a team's road R/G exceeds their season average by 0.4+ runs, flag the discrepancy before applying the season number to an away game; validate against N\u226510 road games in the current season.",
     "sample_size_warning": "N=1, insufficient to establish rule \u2014 one loss on a road-split oversight is noise, not pattern.",
     "status": "PENDING_REVIEW"
+  },
+  {
+    "proposed_at": "2026-07-11T18:37:59.817789-04:00",
+    "source_pick_id": "20260711-MLB-LAA-MIN-PROP-JOERYAN",
+    "source_loss": "Joe Ryan Ks Over 7.5 (LAA @ MIN)",
+    "candidate_rule": "When a pitcher's projected K total (K/9 \u00d7 expected IP) lands within 1.0 of the line, flag as thin-edge and require a K% vs. opponent strikeout rate crosscheck before recommending the over \u2014 N=1, insufficient to establish rule.",
+    "sample_size_warning": "N=1, insufficient to establish rule. One razor-thin miss does not confirm a systematic projection error, but the margin math should be reviewed on future K props.",
+    "status": "PENDING_REVIEW"
   }
 ]
