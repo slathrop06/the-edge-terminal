@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-11T01:47:38.578535-04:00",
+  "generated_at": "2026-07-11T02:18:07.579996-04:00",
   "today": "2026-07-11",
   "system_paused": false,
   "pause_reason": "",
@@ -95,11 +95,11 @@
       "scott_bot_quip": "Gordon's HR/9 is 2.2. Oracle Park's HR factor is 0.85. Irresistible force, meet immovable object.",
       "ladder_note": "",
       "date": "2026-07-10",
-      "status": "PEND",
-      "units_result": null,
+      "status": "WIN",
+      "units_result": 0.9709,
       "clv_cents": null,
-      "result_score": null,
-      "graded_at": null,
+      "result_score": "COL 4 \u00b7 SF 3",
+      "graded_at": "2026-07-11T02:17:53.223148-04:00",
       "slate_assessment": "17-game MLB-only slate with several strong pitching matchups. Ohtani vs. Arizona and Sale vs. St. Louis headline, but both are priced too short for straight bets. Best edges live in totals and pitcher props where the market hasn't fully adjusted to SP quality gaps.",
       "executive_summary": "Seventeen MLB games tonight, no NBA or NHL, but the pitching matchups deliver. The Marlins-Guardians under at loanDepot park is the cleanest spot on the board \u2014 two quality starters, a pitcher-friendly dome, and a total that hasn't moved despite sharp money trickling in. Chris Sale on the road in St. Louis creates an under lean at 8, and the Mets-Red Sox under 7.5 pairs two solid arms at Citi Field. On the prop side, Shota Imanaga's K line at 5.5 against a Cincinnati lineup that just lost Hunter Greene to injury looks soft. The ladder rides with the Marlins-Guardians under \u2014 best floor, best park, best pitching matchup.",
       "slate_analysis": "Tonight's board features 17 MLB games across all time zones, no NBA or NHL action. The pricing climate is tight \u2014 most favorites sit between -120 and -160, with only the Dodgers (-255) and Braves (-164) priced as heavy chalk. The total market is where the edges live tonight.\n\nTop candidates that rose during my review: Marlins-Guardians under 7.0/7.5 at loanDepot park (Messick vs. Alcantara, both pitching well, HR-suppressing dome); Braves-Cardinals under 8.0 (Sale on the mound, Busch Stadium suppresses HRs); Mets-Red Sox under 7.5 (Sonny Gray vs. Nolan McLean, Citi Field, both offenses below league average in R/G); Rays-Mariners under 8.0 (Nick Martinez's 2.61 ERA at Tropicana); Shota Imanaga K prop at 5.5 against Cincinnati (Hunter Greene's 21.6 ERA in 3.1 IP suggests bullpen game, Imanaga should go deep); and the Dodgers-Diamondbacks under 8.5 (Ohtani vs. E-Rod, both sub-2.30 ERAs).\n\nWhat got cut and why: The Dodgers-Diamondbacks under looked sharp, but Ohtani's recent biceps issue and the fact that he's given up 12 earned runs in his last 24.2 IP (4.38 ERA in that stretch) introduces variance I don't love \u2014 the market hasn't moved off 8.5, so no edge. The Rays-Mariners under at 8.0 is solid, but Martinez's 15.0 K% is the lowest among starters I'm considering, and Castillo's 7.4 BB% creates traffic \u2014 borderline pass. The Braves ML at -164 is too short for a straight bet (our -150 cap), and the run line at +106 doesn't offer enough edge given Leahy's 3.86 ERA. The Pirates-Brewers game has data_confidence of 0.4 \u2014 lineups not confirmed, Sproat's 11.0 BB% is a red flag for unders, and Ashcraft's sample is thin. The Yankees-Nationals over 10.0 looked tempting with Palmquist's 7.11 ERA in 6.1 IP, but that's a 2-inning sample \u2014 can't trust it.\n\nThe final six picks: Marlins-Guardians Under 7.5 (ladder pick \u2014 best floor, two quality SPs, pitcher-friendly dome); Braves-Cardinals Under 8.0 (Sale's 2.27 ERA, Busch Stadium HR suppression); Mets-Red Sox Under 7.5 (Gray's 2.61 ERA, McLean's 3.73 ERA, Citi Field); Shota Imanaga Ks Over 5.5 (Cincinnati's bullpen game, Imanaga's 24.1 K%, should go 6+ innings); Giants-Rockies Under 8.0 (Robbie Ray at Oracle Park, Tanner Gordon's 6.95 ERA means SF bats early but Ray controls the game); and White Sox ML -154 (Sean Burke's 3.56 ERA vs. Jacob Lopez's 7.04 ERA, 13.2 BB% \u2014 this is a talent mismatch at a reasonable price). The ladder rides with Marlins-Guardians Under 7.5 at FanDuel +102 \u2014 two All-Star caliber arms, a dome that suppresses runs, and a total that hasn't moved despite the pitching matchup.",
@@ -18422,9 +18422,9 @@
   },
   "last_night_recap": {
     "date": "2026-07-10",
-    "record": "2-2-0",
-    "units_pl": 0.47,
-    "night_summary": "2-2 night, +0.47u. The two unders did the heavy lifting \u2014 ATL @ STL finished 2-1 and CLE @ MIA came in 3-2, both cruising well under their numbers and combining for +3.47u on the night. The ladder pick (CLE @ MIA, Under 7.5) cashed clean. The losses were both model errors we own: the Imanaga K prop was dead on arrival once Hunter Greene \u2014 who we assumed was compromised \u2014 went out and struck out 12 Cubs in 7 scoreless innings, holding Imanaga to 5 Ks in 5 innings; the premise was wrong before first pitch. The BOS @ NYM Under 7.5 (final: 6-2) fell apart on the Boston side, where road-split offense and McLean's walk problem were underweighted. Ladder sits at 1 of 10 \u2014 fresh start, climbing.",
-    "generated_at": "2026-07-11T01:47:38.570007-04:00"
+    "record": "3-2-0",
+    "units_pl": 0.9395,
+    "night_summary": "3-2 night, +0.94u. The two unders that mattered most both cashed clean \u2014 ATL @ STL finished 1-2 (well inside 8.0) and the ladder pick, CLE @ MIA, closed 3-2 in nine with Parker Messick dealing and the Marlins never threatening the total after the 7th. COL @ SF chipped in a quiet 4-3 cover of the 8.0 as well. The Imanaga K prop was a process loss, plain and simple \u2014 we built the thesis around Hunter Greene being compromised, but he was fully healthy and put up one of the best starts of his career: 12 strikeouts in 7 scoreless innings against the Cubs, leaving Imanaga with just 5 Ks in 5 innings and no path to the over. The BOS @ NYM under was the same story \u2014 we leaned on Boston's season R/G and discounted McLean's walk problem against a disciplined lineup; Red Sox put up 6 and covered the 7.5 with room. Two model misses, owned. Ladder is at 1 of 10 \u2014 back on the board, climbing.",
+    "generated_at": "2026-07-11T02:18:07.572894-04:00"
   }
 }
