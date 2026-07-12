@@ -390,5 +390,13 @@
     "candidate_rule": "When a pitcher's projected K total (K/9 \u00d7 expected IP) lands within 1.0 of the line, flag as thin-edge and require a K% vs. opponent strikeout rate crosscheck before recommending the over \u2014 N=1, insufficient to establish rule.",
     "sample_size_warning": "N=1, insufficient to establish rule. One razor-thin miss does not confirm a systematic projection error, but the margin math should be reviewed on future K props.",
     "status": "PENDING_REVIEW"
+  },
+  {
+    "proposed_at": "2026-07-12T00:23:30.362014-04:00",
+    "source_pick_id": "20260711-MLB-ARI-LAD-SPREAD",
+    "source_loss": "Dodgers -1.5 (ARI @ LAD)",
+    "candidate_rule": "Before fading a starter on ERA alone, cross-check their last 3 starts for trend direction \u2014 a pitcher with a bad season ERA but two consecutive quality starts is not the same bet as one in active freefall; apply this filter before publishing the thesis (N=1, insufficient to establish rule).",
+    "sample_size_warning": "N=1, insufficient to establish rule \u2014 one game where the 'bad' starter outpitched the ace is noise, not signal.",
+    "status": "PENDING_REVIEW"
   }
 ]

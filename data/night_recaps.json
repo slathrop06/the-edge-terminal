@@ -274,9 +274,9 @@
   },
   "2026-07-11": {
     "date": "2026-07-11",
-    "record": "1-1-1",
-    "units_pl": -0.8289,
-    "night_summary": "1-1-1 night, -0.83u. The Giants ML did its job cleanly \u2014 SF handled Colorado 4-2 at Oracle Park, a straightforward cover against a Freeland start that had no business keeping it close. The SEA @ TB under pushed right on the number at 7 (Rays won 7-2), which is a fine outcome on a 1u play. The damage came from Joe Ryan, who finished with exactly 6 Ks against the Angels \u2014 one short of the 7.5 line \u2014 in a 5-3 Twins win. We got that one wrong: the model overestimated the edge, and the Angels put the ball in play all day rather than swing and miss. Ladder sits at 1 of 10 \u2014 still climbing.",
-    "generated_at": "2026-07-11T20:02:46.683895-04:00"
+    "record": "3-2-1",
+    "units_pl": 1.0563,
+    "night_summary": "3-2-1 night, +1.06u. The ladder pick carried the card \u2014 Cristopher Sanchez and Casey Mize combined to keep PHI @ DET at 4-2, well inside the 7.5, and that's two straight for the climb. Giants ML was clean too, SF handled Colorado 4-2 with no drama, and Elly delivered exactly 2 total bases in CHC @ CIN to cash the prop. The SEA @ TB under pushed at exactly 7 \u2014 fine, move on. The two losses were model errors, not variance: Joe Ryan finished with 6 Ks against the Angels when the projected total was essentially a coin flip at 7.5, and the Dodgers -1.5 got torched 9-3 by Arizona \u2014 Ohtani was a DH nursing a bad knee, the Dodgers ran a bullpen game, and Eduardo Rodriguez was the one who looked like the ace. We got those wrong. Ladder is at 2 of 10 \u2014 climbing.",
+    "generated_at": "2026-07-12T00:23:49.662979-04:00"
   }
 }

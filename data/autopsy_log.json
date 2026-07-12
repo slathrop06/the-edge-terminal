@@ -1,5 +1,18 @@
 [
   {
+    "id": "20260711-MLB-ARI-LAD-SPREAD",
+    "date": "2026-07-11",
+    "pick": "Dodgers -1.5",
+    "game": "ARI @ LAD",
+    "odds": "-125",
+    "result_score": "ARI 9 \u00b7 LAD 2",
+    "classification": "MODEL",
+    "post_mortem": "The thesis was built entirely on Yamamoto dominating and Pfaadt imploding \u2014 neither happened. Per the ESPN box score, Yamamoto faced 21 batters and posted a Game Score of 63, meaning he was merely average, not unhittable; Arizona scored 9 runs against him and the Dodger bullpen. Pfaadt, the supposed liability, posted a Game Score of 65 and held the Dodgers to 0-for-3 with RISP, with the team stranding only 2 baserunners all game. The pick was a classic 'fade the bad pitcher, ride the ace' model that ignored a critical hidden data point: Pfaadt had just thrown five scoreless innings in relief against San Diego on Tuesday and was quietly trending up, while the thesis recycled season-long ERA numbers without accounting for his recent form (4.03 ERA over his last 22.1 IP, not the disaster the headline implied). The model also ignored the pre-game context that the Dodgers' bullpen was beleaguered after burning seven arms in Game 1 the night before \u2014 a factor that amplified any Yamamoto early exit.",
+    "candidate_rule": "Before fading a starter on ERA alone, cross-check their last 3 starts for trend direction \u2014 a pitcher with a bad season ERA but two consecutive quality starts is not the same bet as one in active freefall; apply this filter before publishing the thesis (N=1, insufficient to establish rule).",
+    "sample_size_warning": "N=1, insufficient to establish rule \u2014 one game where the 'bad' starter outpitched the ace is noise, not signal.",
+    "analyzed_at": "2026-07-12T00:23:30.360392-04:00"
+  },
+  {
     "id": "20260711-MLB-LAA-MIN-PROP-JOERYAN",
     "date": "2026-07-11",
     "pick": "Joe Ryan Ks Over 7.5",

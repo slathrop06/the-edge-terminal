@@ -1,9 +1,17 @@
 {
-  "current_streak": 1,
+  "current_streak": 2,
   "longest_streak": 8,
   "completed_climbs": 0,
   "target": 10,
   "history": [
+    {
+      "date": "2026-07-11",
+      "pick_id": "20260711-MLB-PHI-DET-TOTAL",
+      "pick": "Under 7.5",
+      "game": "PHI @ DET",
+      "status": "WIN",
+      "after_streak": 2
+    },
     {
       "date": "2026-07-10",
       "pick_id": "20260710-MLB-CLE-MIA-TOTAL",
@@ -325,5 +333,5 @@
       "after_streak": 1
     }
   ],
-  "updated_at": "2026-07-11T01:47:22.470564-04:00"
+  "updated_at": "2026-07-12T00:23:30.374796-04:00"
 }
