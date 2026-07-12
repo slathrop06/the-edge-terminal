@@ -278,5 +278,12 @@
     "units_pl": 1.0563,
     "night_summary": "3-2-1 night, +1.06u. The ladder pick carried the card \u2014 Cristopher Sanchez and Casey Mize combined to keep PHI @ DET at 4-2, well inside the 7.5, and that's two straight for the climb. Giants ML was clean too, SF handled Colorado 4-2 with no drama, and Elly delivered exactly 2 total bases in CHC @ CIN to cash the prop. The SEA @ TB under pushed at exactly 7 \u2014 fine, move on. The two losses were model errors, not variance: Joe Ryan finished with 6 Ks against the Angels when the projected total was essentially a coin flip at 7.5, and the Dodgers -1.5 got torched 9-3 by Arizona \u2014 Ohtani was a DH nursing a bad knee, the Dodgers ran a bullpen game, and Eduardo Rodriguez was the one who looked like the ace. We got those wrong. Ladder is at 2 of 10 \u2014 climbing.",
     "generated_at": "2026-07-12T00:23:49.662979-04:00"
+  },
+  "2026-07-12": {
+    "date": "2026-07-12",
+    "record": "2-3-0",
+    "units_pl": -1.9206,
+    "night_summary": "2-3 night, -1.92u \u2014 rough card, but the ladder pick did its job. PHI @ DET under 7 was the cleanest win of the night: Zack Wheeler and Tarik Skubal kept it quiet, the Phillies went up 5-0 through six and Detroit never answered, final 5-0. The Cubs ML cashed too, 8-4, so the night wasn't a total wreck. The SEA @ TB under 7.5 was the gut-punch loss \u2014 Yandy D\u00edaz drilled a 107.2 mph comebacker off Hancock's bare hand in the first inning, and after Hancock signaled he couldn't continue in the second, Seattle's pen turned a low-total game into an 8-2 blowout. Pure black swan, no model could price that. Bradley going 7 IP and punching out exactly 6 \u2014 one short \u2014 was a tough variance miss too; the Angels just made contact all day. Boyd's 3-K line was on us \u2014 road split was in the data and we didn't weight it enough. Ladder is at 3 of 10 \u2014 climbing.",
+    "generated_at": "2026-07-12T18:39:29.302296-04:00"
   }
 }

@@ -398,5 +398,13 @@
     "candidate_rule": "Before fading a starter on ERA alone, cross-check their last 3 starts for trend direction \u2014 a pitcher with a bad season ERA but two consecutive quality starts is not the same bet as one in active freefall; apply this filter before publishing the thesis (N=1, insufficient to establish rule).",
     "sample_size_warning": "N=1, insufficient to establish rule \u2014 one game where the 'bad' starter outpitched the ace is noise, not signal.",
     "status": "PENDING_REVIEW"
+  },
+  {
+    "proposed_at": "2026-07-12T18:38:35.699334-04:00",
+    "source_pick_id": "20260712-MLB-CHC-CIN-PROP-MATTHEWBOYD",
+    "source_loss": "Matthew Boyd Ks Over 5.5 (CHC @ CIN)",
+    "candidate_rule": "Before rostering a pitcher K prop on the road, cross-check road K rate or road ERA split \u2014 if road ERA is 1.5+ runs higher than home ERA, flag as a degraded-stuff environment and require a larger edge to justify the juice; N=1, insufficient to establish rule.",
+    "sample_size_warning": "N=1, insufficient to establish rule \u2014 one start where Boyd's road split bit us does not confirm a systemic pattern, but the 5.19 road ERA was available pre-game and was not weighted in the thesis.",
+    "status": "PENDING_REVIEW"
   }
 ]

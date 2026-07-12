@@ -1,5 +1,44 @@
 [
   {
+    "id": "20260712-MLB-SEA-TB-TOTAL",
+    "date": "2026-07-12",
+    "pick": "Under 7.5",
+    "game": "SEA @ TB",
+    "odds": "+102",
+    "result_score": "SEA 8 \u00b7 TB 2",
+    "classification": "VARIANCE",
+    "post_mortem": "The under was killed by a freak injury to the pick's own anchor: Emerson Hancock took a hard comebacker off his bare right hand on his very first pitch of the game and was forced to leave in the second inning with a right-hand contusion, turning it into an unplanned bullpen day for Seattle. With Hancock gone early, the Mariners' pen leaked runs freely \u2014 Weston Wilson homered to lead off the fourth to end Seymour's outing, then Randy Arozarena followed with a three-run opposite-field homer to make it 7-0, and Seattle cruised to an 8-2 final. The thesis on Seymour was directionally correct (he was knocked around and exited early), but the catastrophic run-scoring was driven entirely by Seattle's bullpen exposure after Hancock's injury \u2014 an unforeseeable in-game event that no pre-game model could have priced.",
+    "candidate_rule": null,
+    "sample_size_warning": "N=1, insufficient to establish rule. Starter injury on pitch #1 is a black-swan event, not a systematic modeling gap.",
+    "analyzed_at": "2026-07-12T18:39:09.137073-04:00"
+  },
+  {
+    "id": "20260712-MLB-LAA-MIN-PROP-TAJBRADLEY",
+    "date": "2026-07-12",
+    "pick": "Taj Bradley Ks Over 6.5",
+    "game": "LAA @ MIN",
+    "odds": "-108",
+    "result_score": "Taj Bradley: 6 strikeOuts",
+    "classification": "VARIANCE",
+    "post_mortem": "Bradley went 7 IP and struck out exactly 6 \u2014 one short of the 6.5 line. The Angels made contact all game rather than chasing, and a key 6th-inning double play off Jo Adell (a ground ball, not a strikeout) killed what could have been a multi-K at-bat. Bradley was pulled after Guzman's solo homer in the 7th ended his night at 6 Ks with no further opportunity to push over the line. The thesis was sound \u2014 the Angels just didn't swing and miss at the rate the K% implied on this specific day.",
+    "candidate_rule": null,
+    "sample_size_warning": "N=1, insufficient to establish rule \u2014 Bradley's season K rate and the matchup logic remain valid; this was a one-start contact variance outcome.",
+    "analyzed_at": "2026-07-12T18:38:50.767303-04:00"
+  },
+  {
+    "id": "20260712-MLB-CHC-CIN-PROP-MATTHEWBOYD",
+    "date": "2026-07-12",
+    "pick": "Matthew Boyd Ks Over 5.5",
+    "game": "CHC @ CIN",
+    "odds": "-128",
+    "result_score": "Matthew Boyd: 3 strikeOuts",
+    "classification": "MODEL",
+    "post_mortem": "Boyd generated only 8 swinging strikes across his entire outing \u2014 the Reds made contact relentlessly, posting a 10-6 GB/FB ratio against him and forcing weak grounders rather than swings-and-misses. The thesis leaned on Boyd's season-long 26.2% K rate but ignored his 5.19 road ERA, which signaled his stuff plays down away from Wrigley. With only 8 whiffs on the day, reaching 6 Ks was never realistic regardless of innings pitched.",
+    "candidate_rule": "Before rostering a pitcher K prop on the road, cross-check road K rate or road ERA split \u2014 if road ERA is 1.5+ runs higher than home ERA, flag as a degraded-stuff environment and require a larger edge to justify the juice; N=1, insufficient to establish rule.",
+    "sample_size_warning": "N=1, insufficient to establish rule \u2014 one start where Boyd's road split bit us does not confirm a systemic pattern, but the 5.19 road ERA was available pre-game and was not weighted in the thesis.",
+    "analyzed_at": "2026-07-12T18:38:35.697637-04:00"
+  },
+  {
     "id": "20260711-MLB-ARI-LAD-SPREAD",
     "date": "2026-07-11",
     "pick": "Dodgers -1.5",
