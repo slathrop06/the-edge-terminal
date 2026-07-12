@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated_at": "2026-07-11T18:38:01.087459-04:00",
+  "updated_at": "2026-07-11T20:02:33.870926-04:00",
   "picks": [
     {
       "id": "20260711-MLB-COL-SF-ML",
@@ -271,11 +271,11 @@
       "scott_bot_quip": "Gilbert in a dome. The Trop does the rest.",
       "ladder_note": "",
       "date": "2026-07-11",
-      "status": "PEND",
-      "units_result": null,
+      "status": "PUSH",
+      "units_result": 0.0,
       "clv_cents": null,
-      "result_score": null,
-      "graded_at": null,
+      "result_score": "SEA 1 \u00b7 TB 6",
+      "graded_at": "2026-07-11T20:02:32.243603-04:00",
       "slate_assessment": "16-game MLB board with two elite pitching matchups (Mize vs S\u00e1nchez in Detroit, Yamamoto vs Pfaadt in LA) and several soft totals in pitcher-friendly parks. No NBA or NHL today. Prop markets thin but K unders and TB overs offer angles.",
       "executive_summary": "Two aces headline today's 16-game MLB slate: Casey Mize hosts Cristopher S\u00e1nchez in a pitcher's duel at Comerica Park, and Yoshinobu Yamamoto faces a struggling Brandon Pfaadt in LA. The Mize-S\u00e1nchez matchup screams under \u2014 both starters have sub-3.00 ERAs, Comerica suppresses HRs, and the wind is blowing left-to-right. In LA, Yamamoto has posted a 1.48 ERA over his last eight starts and faces an Arizona lineup that can't touch elite pitching. The ladder rides with the Detroit under \u2014 best floor on the board, two elite arms, neutral weather, and the market hasn't moved off 7.5.",
       "slate_analysis": "Today's board features 16 MLB games with no NBA or NHL action. The pricing climate is relatively tight \u2014 most favorites sit between -130 and -180, with only the Dodgers (-275) standing out as a heavy chalk. Totals range from 7.0 (TB/SEA) to 10.0 (CHC/CIN), with several games in pitcher-friendly parks offering under angles.\n\nThe top candidates that earned a hard look: (1) DET/PHI Under 7.5 \u2014 Mize (2.64 ERA, 0.98 WHIP) vs S\u00e1nchez (2.62 ERA, 1.16 WHIP) at Comerica Park with wind blowing L-to-R. Two All-Star caliber arms in a neutral-to-pitcher-friendly environment. (2) LAD -1.5 \u2014 Yamamoto (2.49 ERA, 0.88 WHIP, 1.48 ERA over last 8 starts) vs Pfaadt (4.84 ERA, 1.34 WHIP) is a massive mismatch. (3) TB/SEA Under 7.0 \u2014 Gilbert (3.19 ERA, 0.95 WHIP) at Tropicana Field (0.95 PF runs). (4) MIA/CLE Under 7.5 \u2014 Eury P\u00e9rez vs Bibee at loanDepot park (0.94 PF runs). (5) Joe Ryan Ks Over 7.5 \u2014 Ryan's 28.8 K% against a weak Angels lineup. (6) Elly De La Cruz TB Over 1.5 \u2014 facing Assad (14.7 K%, 1.60 HR/9) at GABP.\n\nWhat got cut: The Dodgers ML at -275 exceeds our -150 juice cap for straight bets. The LAD -1.5 at -125 is playable but the edge is thinner than it looks \u2014 Arizona has been scrappy and Pfaadt's short IP (16 IP per start L3) means bullpen exposure. The TB/SEA under at 7.0 is too tight \u2014 Gilbert is elite but Jax has a 1.66 HR/9 and Tropicana's HR factor (0.92) doesn't suppress enough. The MIA/CLE under looked good but Bibee's 1.70 HR/9 and P\u00e9rez's 1.48 HR/9 create variance. The MIN/LAA game has data confidence at 0.45 \u2014 too thin. The MIL/PIT game has 71% rain chance and 0.4 data confidence.\n\nThe final six picks: DET/PHI Under 7.5 (ladder pick \u2014 two elite SPs, pitcher-friendly park, wind neutral, best floor on the board), LAD -1.5 (Yamamoto dominance vs weak Pfaadt), Joe Ryan Ks Over 7.5 (elite K rate vs weak Angels lineup), Elly De La Cruz TB Over 1.5 (power bat vs HR-prone pitcher at GABP), TB/SEA Under 7.0 (Gilbert elite, Tropicana suppresses), and SF ML vs COL (Freeland's 7.46 ERA at Oracle Park's 0.93 PF runs).",
