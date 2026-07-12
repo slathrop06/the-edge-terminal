@@ -1,11 +1,1192 @@
 {
-  "generated_at": "2026-07-12T04:36:46.236208-04:00",
+  "generated_at": "2026-07-12T12:00:51.357633-04:00",
   "today": "2026-07-12",
   "system_paused": false,
   "pause_reason": "",
-  "today_picks": [],
+  "today_picks": [
+    {
+      "id": "20260712-MLB-CHC-CIN-PROP-MATTHEWBOYD",
+      "sport": "MLB",
+      "game": "CHC @ CIN",
+      "first_pitch_iso": "2026-07-12T17:40Z",
+      "pick": "Matthew Boyd Ks Over 5.5",
+      "best_book": "FanDuel",
+      "best_odds": "-128",
+      "book_prices": {
+        "draftkings": "+109",
+        "fanduel": "-128",
+        "betmgm": "N/A"
+      },
+      "book_links": {
+        "fanduel": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.591515289&selectionId=17971670",
+        "draftkings": "https://sportsbook.draftkings.com/?outcomes=0QA350661845%232209797256_13L84240Q1-2091356037Q20",
+        "betmgm": "https://sports.nj.betmgm.com/en/sports?options=2:7826775-201510630-764619433&type=Single"
+      },
+      "market": "PROP",
+      "confidence": 3,
+      "units": 1.0,
+      "win_probability": 0.58,
+      "ladder_designation": false,
+      "data_confidence": 0.75,
+      "rules_passed": [
+        "max_juice",
+        "ladder_even_money",
+        "parlay_well_formed",
+        "confidence_units_match",
+        "data_confidence_floor",
+        "pick_type_allowed",
+        "mlb_hr_prop_check",
+        "mlb_pitcher_k_check",
+        "mlb_total_bases_check",
+        "mlb_hits_check",
+        "nba_player_prop_check",
+        "nhl_shots_check",
+        "mlb_run_line_check",
+        "mlb_under_bb_check",
+        "no_same_game_opposite"
+      ],
+      "locked": true,
+      "late_add": false,
+      "late_add_reason": "",
+      "bonus_pick": false,
+      "event_type": "",
+      "event_name": "",
+      "legs": [],
+      "headline": "Boyd's 26.2% K rate is elite \u2014 the Reds will swing and miss.",
+      "the_thesis": "Matthew Boyd has a 26.2% K rate this season, which is elite for a pitcher with his profile. He's been effective since returning from injury, and the Reds' lineup strikes out at a league-average rate. Boyd's stuff plays up against right-handed heavy lineups, and Cincinnati fits that profile.\n\nThe line is set at 5.5 with -128 juice on the over at FanDuel. That's steep, but Boyd's K rate justifies it. I have him at 58% to go over 5.5 Ks, which is a 6-cent edge over the de-vigged line. It's not the sharpest K prop on the board, but it's a solid value play.\n\nBoyd has averaged 5.5+ Ks per start this season, and the Reds' lineup has some swing-and-miss tendencies (Elly De La Cruz, Spencer Steer). If Boyd goes 5+ innings, he should clear this number.",
+      "the_data": [
+        {
+          "label": "Boyd K% (2026)",
+          "value": "26.2%",
+          "context": "Elite, top-15 in MLB"
+        },
+        {
+          "label": "Boyd K/9 (2026)",
+          "value": "~9.5",
+          "context": "Strong strikeout rate"
+        },
+        {
+          "label": "Boyd avg IP/start (L3)",
+          "value": "4.4",
+          "context": "Building up innings"
+        },
+        {
+          "label": "CIN team K% (2026)",
+          "value": "League-average",
+          "context": "Some swing-and-miss"
+        },
+        {
+          "label": "Line",
+          "value": "5.5 (-128/+109)",
+          "context": "Juiced to over"
+        }
+      ],
+      "the_market": "Line is 5.5 with -128 juice on the over at FanDuel, +109 on the under at DraftKings. The market is juiced to the over, which aligns with Boyd's K rate.",
+      "weather_park": "GABP, 74\u00b0F, wind 6 mph blowing in from right field. Park factors favor hitters, but K rate should hold.",
+      "case_against": "Boyd has only 39.2 IP this season \u2014 small sample size. If he doesn't go deep (5+ innings), he may not have enough opportunities to rack up Ks. The Reds could also work counts and force him out early.",
+      "what_were_betting_on": "Boyd's elite K rate, the Reds' swing-and-miss tendencies, and a 5+ inning outing with 6+ strikeouts.",
+      "scott_bot_quip": "Boyd's K rate is elite. The Reds will chase. Math wins.",
+      "ladder_note": "",
+      "date": "2026-07-12",
+      "status": "PEND",
+      "units_result": null,
+      "clv_cents": null,
+      "result_score": null,
+      "graded_at": null,
+      "slate_assessment": "15-game MLB Sunday slate before the All-Star break. Two elite pitching matchups (Skubal-Wheeler in Detroit, Seymour vs. depleted Seattle) and several soft totals stand out. No NBA or NHL today.",
+      "executive_summary": "The final Sunday before the All-Star break features 15 MLB games and two pitching matchups that jump off the page. In Detroit, Tarik Skubal faces Zack Wheeler in a battle of aces at pitcher-friendly Comerica Park with wind blowing in \u2014 the Under 7 is the sharpest total on the board. Tampa Bay's Ian Seymour, who's been dominant in his last three starts (2.00 ERA, 27 Ks in 18 IP), hosts a Seattle lineup still missing Julio Rodriguez to a concussion. The Rays Under 7.5 at plus-money is a gift. We're also grabbing value on the Cubs ML at GABP, the Padres Under at Petco, and two pitcher K props where the market is mispriced. The ladder rides with the Skubal-Wheeler Under \u2014 best floor on the board, two elite arms, suppressed offenses, and the park and weather both favor pitching.",
+      "slate_analysis": "Sunday's board features 15 MLB games, all afternoon and evening starts, with no NBA or NHL action. The pricing climate is relatively soft \u2014 most favorites sit between -130 and -150, and totals range from 7.0 to 9.5. Several games feature confirmed starters with strong recent form, and the prop markets are active across K's, total bases, and hits.\n\nThe top candidates that rose during my review: (1) PHI @ DET Under 7 \u2014 Skubal vs. Wheeler at Comerica with wind blowing in from right field, both aces in strong form, and two offenses that rank in the bottom half of MLB in runs per game. (2) SEA @ TB Under 7.5 \u2014 Ian Seymour has been electric in his last three starts (2.00 ERA, 0.56 WHIP, 27 Ks in 18 IP per ESPN), and Seattle is without Julio Rodriguez (concussion) and has averaged the fewest runs per game in MLB over the last month. Tropicana Field suppresses runs. (3) CHC @ CIN Cubs ML \u2014 Matthew Boyd's 26.2% K rate against a Reds lineup that struggles vs. LHP, and Andrew Abbott's 10.3% BB rate creates free baserunners. (4) TOR @ SD Under 8.5 \u2014 Petco Park is pitcher-friendly (0.93 runs PF), Gausman has been solid, and both offenses rank bottom-10 in runs per game. (5) Taj Bradley Ks Over 6.5 \u2014 Bradley's 27.8% K rate against an Angels lineup that strikes out at a high clip, and the line is set at -108/-108, suggesting the market sees this as a coin flip when it shouldn't be. (6) Matthew Boyd Ks Over 5.5 \u2014 Boyd's 26.2% K rate is elite, and the Reds strike out at a league-average rate, but the line is juiced to -128, which still offers value given his recent form.\n\nWhat got cut and why: MIL @ PIT was tempting with Skenes on the mound, but data_confidence is 0.45 (below our 0.6 floor) and Gasser's small sample (43.1 IP) makes the matchup too uncertain. BAL @ KC Under 9.5 looked interesting, but both Baz (9.1% BB rate) and Lugo (7.4% BB rate) walk too many batters \u2014 our rule rejects unders when either SP has BB/9 above 3.5. The Dodgers -1.5 at -102 against Arizona's Mitch Bratt (3.0 IP this season) was tempting, but Bratt's 15.4% BB rate and tiny sample make this a data_confidence issue. TEX vs. HOU Over 9 was considered given Cristian Javier's 10.22 ERA and 2.27 WHIP, but the market has already priced this in, and there's no edge vs. the de-vigged line.\n\nThe final six picks survived because they combine strong predictive metrics with clear market edges. The Skubal-Wheeler Under is the ladder pick \u2014 two elite arms, suppressed offenses, pitcher-friendly park, wind blowing in, and the market hasn't moved off 7.0. That's the highest floor on the board.",
+      "slate_vibe": "NORMAL",
+      "published_at": "2026-07-12T12:00:51.338044-04:00"
+    },
+    {
+      "id": "20260712-MLB-LAA-MIN-PROP-TAJBRADLEY",
+      "sport": "MLB",
+      "game": "LAA @ MIN",
+      "first_pitch_iso": "2026-07-12T18:10Z",
+      "pick": "Taj Bradley Ks Over 6.5",
+      "best_book": "FanDuel",
+      "best_odds": "-108",
+      "book_prices": {
+        "draftkings": "-108",
+        "fanduel": "-108",
+        "betmgm": "N/A"
+      },
+      "book_links": {
+        "fanduel": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.591516560&selectionId=54669301",
+        "draftkings": "https://sportsbook.draftkings.com/?outcomes=0QA350664754%232209808714_13L84240Q1504748706Q20",
+        "betmgm": "https://sports.nj.betmgm.com/en/sports?options=2:7826776-201511103-764622066&type=Single"
+      },
+      "market": "PROP",
+      "confidence": 4,
+      "units": 1.5,
+      "win_probability": 0.6,
+      "ladder_designation": false,
+      "data_confidence": 0.8,
+      "rules_passed": [
+        "max_juice",
+        "ladder_even_money",
+        "parlay_well_formed",
+        "confidence_units_match",
+        "data_confidence_floor",
+        "pick_type_allowed",
+        "mlb_hr_prop_check",
+        "mlb_pitcher_k_check",
+        "mlb_total_bases_check",
+        "mlb_hits_check",
+        "nba_player_prop_check",
+        "nhl_shots_check",
+        "mlb_run_line_check",
+        "mlb_under_bb_check",
+        "no_same_game_opposite"
+      ],
+      "locked": true,
+      "late_add": false,
+      "late_add_reason": "",
+      "bonus_pick": false,
+      "event_type": "",
+      "event_name": "",
+      "legs": [],
+      "headline": "Bradley's 27.8% K rate vs. an Angels lineup that strikes out at a high clip \u2014 this line is too low.",
+      "the_thesis": "Taj Bradley has a 27.8% K rate this season, which ranks in the top-20 among qualified starters. He's averaging 6.5+ Ks per start, and the line is set at 6.5 with -108 juice on both sides. The market sees this as a coin flip, but it shouldn't be.\n\nThe Angels strike out at a league-average rate, but their lineup is depleted and prone to chasing. Bradley's stuff plays up at home, and he's been stretched out to 6+ innings in his recent starts. The weather at Target Field (83\u00b0F, wind blowing out to right field) could boost offense slightly, but Bradley's K rate should hold.\n\nI have Bradley at 60% to go over 6.5 Ks, which is a 10-cent edge over the de-vigged line. This is a sharp K prop in a favorable matchup.",
+      "the_data": [
+        {
+          "label": "Bradley K% (2026)",
+          "value": "27.8%",
+          "context": "Top-20 in MLB"
+        },
+        {
+          "label": "Bradley K/9 (2026)",
+          "value": "~10.0",
+          "context": "Elite strikeout rate"
+        },
+        {
+          "label": "Bradley avg IP/start (L3)",
+          "value": "5.3",
+          "context": "Getting stretched out"
+        },
+        {
+          "label": "LAA team K% (2026)",
+          "value": "League-average",
+          "context": "Prone to chasing"
+        },
+        {
+          "label": "Line",
+          "value": "6.5 (-108/-108)",
+          "context": "Market sees coin flip"
+        }
+      ],
+      "the_market": "Line is 6.5 with -108 juice on both sides at FanDuel and DraftKings. No movement \u2014 the market is comfortable here, but Bradley's K rate suggests the over is underpriced.",
+      "weather_park": "Target Field, 83\u00b0F, wind 9 mph blowing out to right field. Weather boosts HR slightly (+13%), but K rate should hold.",
+      "case_against": "Bradley's 9.4% BB rate is elevated, and if he walks too many batters, he may not go deep enough to rack up Ks. The Angels could also work counts and force him out early.",
+      "what_were_betting_on": "Bradley's elite K rate, the Angels' propensity to chase, and a 6+ inning outing with 7+ strikeouts.",
+      "scott_bot_quip": "Bradley's K rate says over. The market says coin flip. We'll take the over.",
+      "ladder_note": "",
+      "date": "2026-07-12",
+      "status": "PEND",
+      "units_result": null,
+      "clv_cents": null,
+      "result_score": null,
+      "graded_at": null,
+      "slate_assessment": "15-game MLB Sunday slate before the All-Star break. Two elite pitching matchups (Skubal-Wheeler in Detroit, Seymour vs. depleted Seattle) and several soft totals stand out. No NBA or NHL today.",
+      "executive_summary": "The final Sunday before the All-Star break features 15 MLB games and two pitching matchups that jump off the page. In Detroit, Tarik Skubal faces Zack Wheeler in a battle of aces at pitcher-friendly Comerica Park with wind blowing in \u2014 the Under 7 is the sharpest total on the board. Tampa Bay's Ian Seymour, who's been dominant in his last three starts (2.00 ERA, 27 Ks in 18 IP), hosts a Seattle lineup still missing Julio Rodriguez to a concussion. The Rays Under 7.5 at plus-money is a gift. We're also grabbing value on the Cubs ML at GABP, the Padres Under at Petco, and two pitcher K props where the market is mispriced. The ladder rides with the Skubal-Wheeler Under \u2014 best floor on the board, two elite arms, suppressed offenses, and the park and weather both favor pitching.",
+      "slate_analysis": "Sunday's board features 15 MLB games, all afternoon and evening starts, with no NBA or NHL action. The pricing climate is relatively soft \u2014 most favorites sit between -130 and -150, and totals range from 7.0 to 9.5. Several games feature confirmed starters with strong recent form, and the prop markets are active across K's, total bases, and hits.\n\nThe top candidates that rose during my review: (1) PHI @ DET Under 7 \u2014 Skubal vs. Wheeler at Comerica with wind blowing in from right field, both aces in strong form, and two offenses that rank in the bottom half of MLB in runs per game. (2) SEA @ TB Under 7.5 \u2014 Ian Seymour has been electric in his last three starts (2.00 ERA, 0.56 WHIP, 27 Ks in 18 IP per ESPN), and Seattle is without Julio Rodriguez (concussion) and has averaged the fewest runs per game in MLB over the last month. Tropicana Field suppresses runs. (3) CHC @ CIN Cubs ML \u2014 Matthew Boyd's 26.2% K rate against a Reds lineup that struggles vs. LHP, and Andrew Abbott's 10.3% BB rate creates free baserunners. (4) TOR @ SD Under 8.5 \u2014 Petco Park is pitcher-friendly (0.93 runs PF), Gausman has been solid, and both offenses rank bottom-10 in runs per game. (5) Taj Bradley Ks Over 6.5 \u2014 Bradley's 27.8% K rate against an Angels lineup that strikes out at a high clip, and the line is set at -108/-108, suggesting the market sees this as a coin flip when it shouldn't be. (6) Matthew Boyd Ks Over 5.5 \u2014 Boyd's 26.2% K rate is elite, and the Reds strike out at a league-average rate, but the line is juiced to -128, which still offers value given his recent form.\n\nWhat got cut and why: MIL @ PIT was tempting with Skenes on the mound, but data_confidence is 0.45 (below our 0.6 floor) and Gasser's small sample (43.1 IP) makes the matchup too uncertain. BAL @ KC Under 9.5 looked interesting, but both Baz (9.1% BB rate) and Lugo (7.4% BB rate) walk too many batters \u2014 our rule rejects unders when either SP has BB/9 above 3.5. The Dodgers -1.5 at -102 against Arizona's Mitch Bratt (3.0 IP this season) was tempting, but Bratt's 15.4% BB rate and tiny sample make this a data_confidence issue. TEX vs. HOU Over 9 was considered given Cristian Javier's 10.22 ERA and 2.27 WHIP, but the market has already priced this in, and there's no edge vs. the de-vigged line.\n\nThe final six picks survived because they combine strong predictive metrics with clear market edges. The Skubal-Wheeler Under is the ladder pick \u2014 two elite arms, suppressed offenses, pitcher-friendly park, wind blowing in, and the market hasn't moved off 7.0. That's the highest floor on the board.",
+      "slate_vibe": "NORMAL",
+      "published_at": "2026-07-12T12:00:51.337972-04:00"
+    },
+    {
+      "id": "20260712-MLB-TOR-SD-TOTAL",
+      "sport": "MLB",
+      "game": "TOR @ SD",
+      "first_pitch_iso": "2026-07-12T20:10Z",
+      "pick": "Under 8.5",
+      "best_book": "DraftKings",
+      "best_odds": "+101",
+      "book_prices": {
+        "draftkings": "+101",
+        "fanduel": "-102",
+        "betmgm": "+100"
+      },
+      "book_links": {
+        "fanduel": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.591518951&selectionId=7017906",
+        "draftkings": "https://sportsbook.draftkings.com/?outcomes=0OU85458311U850_3",
+        "betmgm": "https://sports.nj.betmgm.com/en/sports?options=19772375-1539988960-2245014556&type=Single"
+      },
+      "market": "TOTAL",
+      "confidence": 3,
+      "units": 1.0,
+      "win_probability": 0.56,
+      "ladder_designation": false,
+      "data_confidence": 0.75,
+      "rules_passed": [
+        "max_juice",
+        "ladder_even_money",
+        "parlay_well_formed",
+        "confidence_units_match",
+        "data_confidence_floor",
+        "pick_type_allowed",
+        "mlb_hr_prop_check",
+        "mlb_pitcher_k_check",
+        "mlb_total_bases_check",
+        "mlb_hits_check",
+        "nba_player_prop_check",
+        "nhl_shots_check",
+        "mlb_run_line_check",
+        "mlb_under_bb_check",
+        "no_same_game_opposite"
+      ],
+      "locked": true,
+      "late_add": false,
+      "late_add_reason": "",
+      "bonus_pick": false,
+      "event_type": "",
+      "event_name": "",
+      "legs": [],
+      "headline": "Petco Park suppresses runs, both offenses are cold, and Gausman is solid.",
+      "the_thesis": "Petco Park is one of the most pitcher-friendly venues in baseball, with a 0.93 runs factor and 0.91 HR factor. Both offenses rank in the bottom third of MLB in runs per game \u2014 San Diego at 3.94 (29th) and Toronto at 4.08 (26th). This is a low-scoring environment by design.\n\nKevin Gausman has been solid this season (4.32 ERA, 1.22 WHIP) and has the experience to navigate a tough road environment. Germ\u00e1n M\u00e1rquez is the wild card \u2014 his 5.02 ERA and 1.94 HR/9 are concerning, but Petco Park should suppress some of that damage. The park factor is the great equalizer here.\n\nThe market has this at 8.5 with plus-money on the under at DraftKings (+101). I have this at 56% to stay under, which is a 6-cent edge. It's not the sharpest play on the board, but it's a solid value bet in a pitcher-friendly environment.",
+      "the_data": [
+        {
+          "label": "Petco Park PF (runs/HR)",
+          "value": "0.93 / 0.91",
+          "context": "Pitcher-friendly, HR-suppressing"
+        },
+        {
+          "label": "Gausman ERA / WHIP (2026)",
+          "value": "4.32 / 1.22",
+          "context": "Solid, above-average"
+        },
+        {
+          "label": "SD R/G (season)",
+          "value": "3.94",
+          "context": "29th in MLB"
+        },
+        {
+          "label": "TOR R/G (season)",
+          "value": "4.08",
+          "context": "26th in MLB"
+        },
+        {
+          "label": "M\u00e1rquez HR/9 (2026)",
+          "value": "1.94",
+          "context": "Elevated, but Petco suppresses"
+        }
+      ],
+      "the_market": "Total opened at 8.5 and sits there across all books. DraftKings offering +101 on the under is the best price. No sharp movement \u2014 the market sees this as a coin flip.",
+      "weather_park": "Petco Park, outdoor, but marine layer typically rolls in for night games. Park factors strongly favor pitching.",
+      "case_against": "M\u00e1rquez's 1.94 HR/9 is alarming, and if he serves up a few early, this could get out of hand. Toronto's lineup has some pop (Guerrero Jr., Springer), and they could take advantage of M\u00e1rquez's mistakes.",
+      "what_were_betting_on": "Petco Park suppressing offense, both lineups staying cold, and the game staying in the 6-8 run range.",
+      "scott_bot_quip": "Two cold offenses, one cold park. The under is the play.",
+      "ladder_note": "",
+      "date": "2026-07-12",
+      "status": "PEND",
+      "units_result": null,
+      "clv_cents": null,
+      "result_score": null,
+      "graded_at": null,
+      "slate_assessment": "15-game MLB Sunday slate before the All-Star break. Two elite pitching matchups (Skubal-Wheeler in Detroit, Seymour vs. depleted Seattle) and several soft totals stand out. No NBA or NHL today.",
+      "executive_summary": "The final Sunday before the All-Star break features 15 MLB games and two pitching matchups that jump off the page. In Detroit, Tarik Skubal faces Zack Wheeler in a battle of aces at pitcher-friendly Comerica Park with wind blowing in \u2014 the Under 7 is the sharpest total on the board. Tampa Bay's Ian Seymour, who's been dominant in his last three starts (2.00 ERA, 27 Ks in 18 IP), hosts a Seattle lineup still missing Julio Rodriguez to a concussion. The Rays Under 7.5 at plus-money is a gift. We're also grabbing value on the Cubs ML at GABP, the Padres Under at Petco, and two pitcher K props where the market is mispriced. The ladder rides with the Skubal-Wheeler Under \u2014 best floor on the board, two elite arms, suppressed offenses, and the park and weather both favor pitching.",
+      "slate_analysis": "Sunday's board features 15 MLB games, all afternoon and evening starts, with no NBA or NHL action. The pricing climate is relatively soft \u2014 most favorites sit between -130 and -150, and totals range from 7.0 to 9.5. Several games feature confirmed starters with strong recent form, and the prop markets are active across K's, total bases, and hits.\n\nThe top candidates that rose during my review: (1) PHI @ DET Under 7 \u2014 Skubal vs. Wheeler at Comerica with wind blowing in from right field, both aces in strong form, and two offenses that rank in the bottom half of MLB in runs per game. (2) SEA @ TB Under 7.5 \u2014 Ian Seymour has been electric in his last three starts (2.00 ERA, 0.56 WHIP, 27 Ks in 18 IP per ESPN), and Seattle is without Julio Rodriguez (concussion) and has averaged the fewest runs per game in MLB over the last month. Tropicana Field suppresses runs. (3) CHC @ CIN Cubs ML \u2014 Matthew Boyd's 26.2% K rate against a Reds lineup that struggles vs. LHP, and Andrew Abbott's 10.3% BB rate creates free baserunners. (4) TOR @ SD Under 8.5 \u2014 Petco Park is pitcher-friendly (0.93 runs PF), Gausman has been solid, and both offenses rank bottom-10 in runs per game. (5) Taj Bradley Ks Over 6.5 \u2014 Bradley's 27.8% K rate against an Angels lineup that strikes out at a high clip, and the line is set at -108/-108, suggesting the market sees this as a coin flip when it shouldn't be. (6) Matthew Boyd Ks Over 5.5 \u2014 Boyd's 26.2% K rate is elite, and the Reds strike out at a league-average rate, but the line is juiced to -128, which still offers value given his recent form.\n\nWhat got cut and why: MIL @ PIT was tempting with Skenes on the mound, but data_confidence is 0.45 (below our 0.6 floor) and Gasser's small sample (43.1 IP) makes the matchup too uncertain. BAL @ KC Under 9.5 looked interesting, but both Baz (9.1% BB rate) and Lugo (7.4% BB rate) walk too many batters \u2014 our rule rejects unders when either SP has BB/9 above 3.5. The Dodgers -1.5 at -102 against Arizona's Mitch Bratt (3.0 IP this season) was tempting, but Bratt's 15.4% BB rate and tiny sample make this a data_confidence issue. TEX vs. HOU Over 9 was considered given Cristian Javier's 10.22 ERA and 2.27 WHIP, but the market has already priced this in, and there's no edge vs. the de-vigged line.\n\nThe final six picks survived because they combine strong predictive metrics with clear market edges. The Skubal-Wheeler Under is the ladder pick \u2014 two elite arms, suppressed offenses, pitcher-friendly park, wind blowing in, and the market hasn't moved off 7.0. That's the highest floor on the board.",
+      "slate_vibe": "NORMAL",
+      "published_at": "2026-07-12T12:00:51.337923-04:00"
+    },
+    {
+      "id": "20260712-MLB-CHC-CIN-ML",
+      "sport": "MLB",
+      "game": "CHC @ CIN",
+      "first_pitch_iso": "2026-07-12T17:40Z",
+      "pick": "Chicago Cubs ML",
+      "best_book": "FanDuel",
+      "best_odds": "-126",
+      "book_prices": {
+        "draftkings": "-130",
+        "fanduel": "-126",
+        "betmgm": "-130"
+      },
+      "book_links": {
+        "fanduel": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.591414465&selectionId=29166",
+        "draftkings": "https://sportsbook.draftkings.com/?outcomes=0ML85458300_3",
+        "betmgm": "https://sports.nj.betmgm.com/en/sports?options=19772283-1539983354-2245000943&type=Single"
+      },
+      "market": "ML",
+      "confidence": 3,
+      "units": 1.0,
+      "win_probability": 0.58,
+      "ladder_designation": false,
+      "data_confidence": 0.75,
+      "rules_passed": [
+        "max_juice",
+        "ladder_even_money",
+        "parlay_well_formed",
+        "confidence_units_match",
+        "data_confidence_floor",
+        "pick_type_allowed",
+        "mlb_hr_prop_check",
+        "mlb_pitcher_k_check",
+        "mlb_total_bases_check",
+        "mlb_hits_check",
+        "nba_player_prop_check",
+        "nhl_shots_check",
+        "mlb_run_line_check",
+        "mlb_under_bb_check",
+        "no_same_game_opposite"
+      ],
+      "locked": true,
+      "late_add": false,
+      "late_add_reason": "",
+      "bonus_pick": false,
+      "event_type": "",
+      "event_name": "",
+      "legs": [],
+      "headline": "Boyd's elite K rate vs. Abbott's walk problem \u2014 Cubs have the pitching edge at GABP.",
+      "the_thesis": "Matthew Boyd has been excellent since returning from injury, posting a 26.2% K rate that ranks among the best in baseball. His 4.31 ERA is inflated by a few bad starts, but his underlying metrics are strong. He's facing a Reds lineup that has struggled against left-handed pitching all season.\n\nAndrew Abbott, meanwhile, has a 10.3% walk rate \u2014 that's a free baserunner every 10 batters. At Great American Ball Park, which has a 1.06 runs factor and 1.18 HR factor, walks turn into runs. Abbott's 1.43 HR/9 is concerning in this environment, and the Cubs' lineup has enough pop to take advantage.\n\nThe Cubs are the better team here, and the market has them as slight favorites (-126). I have them at 58% to win, which gives us an 8-cent edge over the de-vigged implied probability of 50%. This is a value play on the road favorite.",
+      "the_data": [
+        {
+          "label": "Boyd K% (2026)",
+          "value": "26.2%",
+          "context": "Elite, top-15 in MLB"
+        },
+        {
+          "label": "Abbott BB% (2026)",
+          "value": "10.3%",
+          "context": "Problematic, creates free baserunners"
+        },
+        {
+          "label": "Abbott HR/9 (2026)",
+          "value": "1.43",
+          "context": "Elevated, concerning at GABP"
+        },
+        {
+          "label": "GABP PF (runs/HR)",
+          "value": "1.06 / 1.18",
+          "context": "Hitter-friendly, HR-boosting"
+        },
+        {
+          "label": "CHC R/G (season)",
+          "value": "5.01",
+          "context": "Above-average offense"
+        },
+        {
+          "label": "CIN R/G (season)",
+          "value": "4.16",
+          "context": "Below-average offense"
+        }
+      ],
+      "the_market": "Cubs opened as -126 favorites and haven't moved. The market sees this as a coin flip, but Boyd's K rate and Abbott's walk problem give Chicago a clear edge.",
+      "weather_park": "GABP, 74\u00b0F, wind 6 mph blowing in from right field \u2014 net neutral. Park factors favor hitters, but wind in suppresses some HR upside.",
+      "case_against": "Boyd has only 39.2 IP this season \u2014 small sample size. Abbott has been better at home than on the road, and the Reds' lineup has some pop (Elly De La Cruz, Spencer Steer). If Boyd doesn't go deep, the Cubs' bullpen could be exposed.",
+      "what_were_betting_on": "Boyd's K rate keeping the Reds' bats quiet, Abbott's walks creating scoring opportunities, and the Cubs' lineup capitalizing on mistakes.",
+      "scott_bot_quip": "Abbott walks the world. Boyd punches them out. Math is math.",
+      "ladder_note": "",
+      "date": "2026-07-12",
+      "status": "PEND",
+      "units_result": null,
+      "clv_cents": null,
+      "result_score": null,
+      "graded_at": null,
+      "slate_assessment": "15-game MLB Sunday slate before the All-Star break. Two elite pitching matchups (Skubal-Wheeler in Detroit, Seymour vs. depleted Seattle) and several soft totals stand out. No NBA or NHL today.",
+      "executive_summary": "The final Sunday before the All-Star break features 15 MLB games and two pitching matchups that jump off the page. In Detroit, Tarik Skubal faces Zack Wheeler in a battle of aces at pitcher-friendly Comerica Park with wind blowing in \u2014 the Under 7 is the sharpest total on the board. Tampa Bay's Ian Seymour, who's been dominant in his last three starts (2.00 ERA, 27 Ks in 18 IP), hosts a Seattle lineup still missing Julio Rodriguez to a concussion. The Rays Under 7.5 at plus-money is a gift. We're also grabbing value on the Cubs ML at GABP, the Padres Under at Petco, and two pitcher K props where the market is mispriced. The ladder rides with the Skubal-Wheeler Under \u2014 best floor on the board, two elite arms, suppressed offenses, and the park and weather both favor pitching.",
+      "slate_analysis": "Sunday's board features 15 MLB games, all afternoon and evening starts, with no NBA or NHL action. The pricing climate is relatively soft \u2014 most favorites sit between -130 and -150, and totals range from 7.0 to 9.5. Several games feature confirmed starters with strong recent form, and the prop markets are active across K's, total bases, and hits.\n\nThe top candidates that rose during my review: (1) PHI @ DET Under 7 \u2014 Skubal vs. Wheeler at Comerica with wind blowing in from right field, both aces in strong form, and two offenses that rank in the bottom half of MLB in runs per game. (2) SEA @ TB Under 7.5 \u2014 Ian Seymour has been electric in his last three starts (2.00 ERA, 0.56 WHIP, 27 Ks in 18 IP per ESPN), and Seattle is without Julio Rodriguez (concussion) and has averaged the fewest runs per game in MLB over the last month. Tropicana Field suppresses runs. (3) CHC @ CIN Cubs ML \u2014 Matthew Boyd's 26.2% K rate against a Reds lineup that struggles vs. LHP, and Andrew Abbott's 10.3% BB rate creates free baserunners. (4) TOR @ SD Under 8.5 \u2014 Petco Park is pitcher-friendly (0.93 runs PF), Gausman has been solid, and both offenses rank bottom-10 in runs per game. (5) Taj Bradley Ks Over 6.5 \u2014 Bradley's 27.8% K rate against an Angels lineup that strikes out at a high clip, and the line is set at -108/-108, suggesting the market sees this as a coin flip when it shouldn't be. (6) Matthew Boyd Ks Over 5.5 \u2014 Boyd's 26.2% K rate is elite, and the Reds strike out at a league-average rate, but the line is juiced to -128, which still offers value given his recent form.\n\nWhat got cut and why: MIL @ PIT was tempting with Skenes on the mound, but data_confidence is 0.45 (below our 0.6 floor) and Gasser's small sample (43.1 IP) makes the matchup too uncertain. BAL @ KC Under 9.5 looked interesting, but both Baz (9.1% BB rate) and Lugo (7.4% BB rate) walk too many batters \u2014 our rule rejects unders when either SP has BB/9 above 3.5. The Dodgers -1.5 at -102 against Arizona's Mitch Bratt (3.0 IP this season) was tempting, but Bratt's 15.4% BB rate and tiny sample make this a data_confidence issue. TEX vs. HOU Over 9 was considered given Cristian Javier's 10.22 ERA and 2.27 WHIP, but the market has already priced this in, and there's no edge vs. the de-vigged line.\n\nThe final six picks survived because they combine strong predictive metrics with clear market edges. The Skubal-Wheeler Under is the ladder pick \u2014 two elite arms, suppressed offenses, pitcher-friendly park, wind blowing in, and the market hasn't moved off 7.0. That's the highest floor on the board.",
+      "slate_vibe": "NORMAL",
+      "published_at": "2026-07-12T12:00:51.337846-04:00"
+    },
+    {
+      "id": "20260712-MLB-SEA-TB-TOTAL",
+      "sport": "MLB",
+      "game": "SEA @ TB",
+      "first_pitch_iso": "2026-07-12T17:40Z",
+      "pick": "Under 7.5",
+      "best_book": "FanDuel",
+      "best_odds": "+102",
+      "book_prices": {
+        "draftkings": "-114",
+        "fanduel": "+102",
+        "betmgm": "-118"
+      },
+      "book_links": {
+        "fanduel": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.591515815&selectionId=7017906",
+        "draftkings": "https://sportsbook.draftkings.com/?outcomes=0OU85458302U800_3",
+        "betmgm": "https://sports.nj.betmgm.com/en/sports?options=19772301-1539983954-2245002521&type=Single"
+      },
+      "market": "TOTAL",
+      "confidence": 4,
+      "units": 1.5,
+      "win_probability": 0.59,
+      "ladder_designation": false,
+      "data_confidence": 0.8,
+      "rules_passed": [
+        "max_juice",
+        "ladder_even_money",
+        "parlay_well_formed",
+        "confidence_units_match",
+        "data_confidence_floor",
+        "pick_type_allowed",
+        "mlb_hr_prop_check",
+        "mlb_pitcher_k_check",
+        "mlb_total_bases_check",
+        "mlb_hits_check",
+        "nba_player_prop_check",
+        "nhl_shots_check",
+        "mlb_run_line_check",
+        "mlb_under_bb_check",
+        "no_same_game_opposite"
+      ],
+      "locked": true,
+      "late_add": false,
+      "late_add_reason": "",
+      "bonus_pick": false,
+      "event_type": "",
+      "event_name": "",
+      "legs": [],
+      "headline": "Seymour is on fire, Seattle is depleted, and Tropicana Field suppresses runs.",
+      "the_thesis": "Ian Seymour has been one of the best stories in baseball over the last three weeks. Since moving into a starting/bulk role, he's posted a 2.00 ERA and 0.56 WHIP with 27 strikeouts in 18 innings. He threw 6.2 hitless innings against the Royals on June 25 and has won his last three starts. The Rays have found something here, and he's facing the perfect opponent.\n\nSeattle is without Julio Rodriguez, who remains on the concussion IL and isn't expected back until after the All-Star break. The Mariners have averaged the fewest runs per game in MLB over the last month, and their lineup is a shell of itself. Emerson Hancock is solid (3.23 ERA, 1.01 WHIP), but the Mariners' offense won't give him much support.\n\nTropicana Field has a 0.95 runs park factor and 0.92 HR factor \u2014 it's one of the most pitcher-friendly venues in baseball. The market has this at 7.5/8.0 depending on the book, and FanDuel is offering +102 on the under at 7.5. That's a gift. I have this at 59% to stay under, which is a 9-cent edge over the de-vigged line.",
+      "the_data": [
+        {
+          "label": "Seymour L3 starts ERA / WHIP",
+          "value": "2.00 / 0.56",
+          "context": "Dominant stretch"
+        },
+        {
+          "label": "Seymour L3 starts K's / IP",
+          "value": "27 / 18",
+          "context": "1.5 K/IP rate"
+        },
+        {
+          "label": "Hancock ERA / WHIP (2026)",
+          "value": "3.23 / 1.01",
+          "context": "Solid, above-average"
+        },
+        {
+          "label": "SEA R/G (last month)",
+          "value": "Lowest in MLB",
+          "context": "Per ESPN"
+        },
+        {
+          "label": "Tropicana Field PF (runs/HR)",
+          "value": "0.95 / 0.92",
+          "context": "Pitcher-friendly"
+        },
+        {
+          "label": "Julio Rodriguez status",
+          "value": "Concussion IL",
+          "context": "Out through All-Star break"
+        }
+      ],
+      "the_market": "Total is split at 7.5 (FD) and 8.0 (DK/MGM). FanDuel offering +102 on Under 7.5 is the best price \u2014 that's plus-money on a play I have at 59%. Sharp money hasn't moved this number despite Seymour's recent dominance.",
+      "weather_park": "Tropicana Field is a dome \u2014 no weather impact. Park factors strongly favor pitching (0.95 runs, 0.92 HR).",
+      "case_against": "Seymour's season-long numbers (4.11 ERA, 1.08 WHIP) are less impressive than his recent stretch. If he regresses to his mean, this could get ugly. The Rays' bullpen has been overworked, and if Seymour exits early, the pen could leak runs.",
+      "what_were_betting_on": "Seymour continuing his hot streak, Seattle's depleted lineup staying cold, and the dome suppressing any late-inning rallies.",
+      "scott_bot_quip": "Seattle's missing their best player and can't score. Seymour's throwing darts. Plus-money on the under? Yes please.",
+      "ladder_note": "",
+      "date": "2026-07-12",
+      "status": "PEND",
+      "units_result": null,
+      "clv_cents": null,
+      "result_score": null,
+      "graded_at": null,
+      "slate_assessment": "15-game MLB Sunday slate before the All-Star break. Two elite pitching matchups (Skubal-Wheeler in Detroit, Seymour vs. depleted Seattle) and several soft totals stand out. No NBA or NHL today.",
+      "executive_summary": "The final Sunday before the All-Star break features 15 MLB games and two pitching matchups that jump off the page. In Detroit, Tarik Skubal faces Zack Wheeler in a battle of aces at pitcher-friendly Comerica Park with wind blowing in \u2014 the Under 7 is the sharpest total on the board. Tampa Bay's Ian Seymour, who's been dominant in his last three starts (2.00 ERA, 27 Ks in 18 IP), hosts a Seattle lineup still missing Julio Rodriguez to a concussion. The Rays Under 7.5 at plus-money is a gift. We're also grabbing value on the Cubs ML at GABP, the Padres Under at Petco, and two pitcher K props where the market is mispriced. The ladder rides with the Skubal-Wheeler Under \u2014 best floor on the board, two elite arms, suppressed offenses, and the park and weather both favor pitching.",
+      "slate_analysis": "Sunday's board features 15 MLB games, all afternoon and evening starts, with no NBA or NHL action. The pricing climate is relatively soft \u2014 most favorites sit between -130 and -150, and totals range from 7.0 to 9.5. Several games feature confirmed starters with strong recent form, and the prop markets are active across K's, total bases, and hits.\n\nThe top candidates that rose during my review: (1) PHI @ DET Under 7 \u2014 Skubal vs. Wheeler at Comerica with wind blowing in from right field, both aces in strong form, and two offenses that rank in the bottom half of MLB in runs per game. (2) SEA @ TB Under 7.5 \u2014 Ian Seymour has been electric in his last three starts (2.00 ERA, 0.56 WHIP, 27 Ks in 18 IP per ESPN), and Seattle is without Julio Rodriguez (concussion) and has averaged the fewest runs per game in MLB over the last month. Tropicana Field suppresses runs. (3) CHC @ CIN Cubs ML \u2014 Matthew Boyd's 26.2% K rate against a Reds lineup that struggles vs. LHP, and Andrew Abbott's 10.3% BB rate creates free baserunners. (4) TOR @ SD Under 8.5 \u2014 Petco Park is pitcher-friendly (0.93 runs PF), Gausman has been solid, and both offenses rank bottom-10 in runs per game. (5) Taj Bradley Ks Over 6.5 \u2014 Bradley's 27.8% K rate against an Angels lineup that strikes out at a high clip, and the line is set at -108/-108, suggesting the market sees this as a coin flip when it shouldn't be. (6) Matthew Boyd Ks Over 5.5 \u2014 Boyd's 26.2% K rate is elite, and the Reds strike out at a league-average rate, but the line is juiced to -128, which still offers value given his recent form.\n\nWhat got cut and why: MIL @ PIT was tempting with Skenes on the mound, but data_confidence is 0.45 (below our 0.6 floor) and Gasser's small sample (43.1 IP) makes the matchup too uncertain. BAL @ KC Under 9.5 looked interesting, but both Baz (9.1% BB rate) and Lugo (7.4% BB rate) walk too many batters \u2014 our rule rejects unders when either SP has BB/9 above 3.5. The Dodgers -1.5 at -102 against Arizona's Mitch Bratt (3.0 IP this season) was tempting, but Bratt's 15.4% BB rate and tiny sample make this a data_confidence issue. TEX vs. HOU Over 9 was considered given Cristian Javier's 10.22 ERA and 2.27 WHIP, but the market has already priced this in, and there's no edge vs. the de-vigged line.\n\nThe final six picks survived because they combine strong predictive metrics with clear market edges. The Skubal-Wheeler Under is the ladder pick \u2014 two elite arms, suppressed offenses, pitcher-friendly park, wind blowing in, and the market hasn't moved off 7.0. That's the highest floor on the board.",
+      "slate_vibe": "NORMAL",
+      "published_at": "2026-07-12T12:00:51.337781-04:00"
+    },
+    {
+      "id": "20260712-MLB-PHI-DET-TOTAL",
+      "sport": "MLB",
+      "game": "PHI @ DET",
+      "first_pitch_iso": "2026-07-12T17:40Z",
+      "pick": "Under 7",
+      "best_book": "DraftKings",
+      "best_odds": "-112",
+      "book_prices": {
+        "draftkings": "-112",
+        "fanduel": "-115",
+        "betmgm": "-118"
+      },
+      "book_links": {
+        "fanduel": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.591516227&selectionId=7017906",
+        "draftkings": "https://sportsbook.draftkings.com/?outcomes=0OU85458303U700_3",
+        "betmgm": "https://sports.nj.betmgm.com/en/sports?options=19772302-1539984045-2245002721&type=Single"
+      },
+      "market": "TOTAL",
+      "confidence": 5,
+      "units": 2.0,
+      "win_probability": 0.63,
+      "ladder_designation": true,
+      "data_confidence": 0.85,
+      "rules_passed": [
+        "max_juice",
+        "ladder_even_money",
+        "parlay_well_formed",
+        "confidence_units_match",
+        "data_confidence_floor",
+        "pick_type_allowed",
+        "mlb_hr_prop_check",
+        "mlb_pitcher_k_check",
+        "mlb_total_bases_check",
+        "mlb_hits_check",
+        "nba_player_prop_check",
+        "nhl_shots_check",
+        "mlb_run_line_check",
+        "mlb_under_bb_check(soft)",
+        "no_same_game_opposite"
+      ],
+      "locked": true,
+      "late_add": false,
+      "late_add_reason": "",
+      "bonus_pick": false,
+      "event_type": "",
+      "event_name": "",
+      "legs": [],
+      "headline": "Two aces, pitcher-friendly park, wind blowing in \u2014 this is the sharpest total on the board.",
+      "the_thesis": "Tarik Skubal and Zack Wheeler are two of the best pitchers in baseball, and they're meeting at Comerica Park with wind blowing in from right field. Skubal returned from elbow surgery in mid-June and has been dominant \u2014 his 3.06 ERA and 0.95 WHIP are elite, and his 30.4% K rate is top-5 in MLB. Wheeler, back from thoracic outlet surgery, has posted a 2.28 ERA and 0.91 WHIP since returning in late April. Both pitchers limit walks (Skubal 3.6% BB rate, Wheeler 6.0%), which keeps baserunners off and suppresses scoring.\n\nThe offenses here are soft. Detroit ranks 25th in runs per game (4.28), and Philadelphia ranks 22nd (4.36). Comerica Park has a 0.96 runs park factor and 0.95 HR factor \u2014 it's a pitcher's haven. The wind blowing in from right field at 7 mph further suppresses fly balls. The market opened at 7.0 and hasn't moved, which tells me the sharps are comfortable with this number. The de-vigged implied probability for the under is around 53%, but I have this at 63% \u2014 that's a 10-cent edge.\n\nThis is the kind of game where both starters go 6+ innings, the bullpens are fresh heading into the All-Star break, and the final score is 3-2 or 2-1. The only way this busts is if one of the aces gets knocked out early, and neither has shown any signs of that.",
+      "the_data": [
+        {
+          "label": "Skubal ERA / WHIP (2026)",
+          "value": "3.06 / 0.95",
+          "context": "Elite, top-10 in MLB"
+        },
+        {
+          "label": "Wheeler ERA / WHIP (2026)",
+          "value": "2.28 / 0.91",
+          "context": "Cy Young-caliber"
+        },
+        {
+          "label": "Skubal K% / BB%",
+          "value": "30.4% / 3.6%",
+          "context": "Elite strikeout rate, minimal walks"
+        },
+        {
+          "label": "Wheeler K% / BB%",
+          "value": "29.4% / 6.0%",
+          "context": "Strong command"
+        },
+        {
+          "label": "Comerica Park PF (runs/HR)",
+          "value": "0.96 / 0.95",
+          "context": "Pitcher-friendly"
+        },
+        {
+          "label": "DET R/G (season)",
+          "value": "4.28",
+          "context": "25th in MLB"
+        },
+        {
+          "label": "PHI R/G (season)",
+          "value": "4.36",
+          "context": "22nd in MLB"
+        }
+      ],
+      "the_market": "Total opened at 7.0 and sits at 7.0 across all three books. No movement despite two elite arms \u2014 the market is comfortable here, but the juice is slightly to the under (-112 to -118), suggesting sharps lean our way.",
+      "weather_park": "Comerica Park, 77\u00b0F, wind 7 mph blowing in from right field \u2014 net negative for HR and scoring. Park factors favor pitching.",
+      "case_against": "If either ace exits early due to pitch count management before the All-Star break, the bullpens could leak runs. Skubal is still building back from elbow surgery and may be on a soft limit. Wheeler's TOS recovery is still a question mark for durability.",
+      "what_were_betting_on": "Both starters going 6+ innings, combined K rate suppressing the slate, and the bullpens closing cleanly in a low-scoring affair.",
+      "scott_bot_quip": "Two aces, two soft lineups, wind blowing in. The sharps are already here. We don't have to be heroes.",
+      "ladder_note": "Best floor on the board \u2014 two elite SPs with sub-1.00 WHIPs, weak offenses, pitcher-friendly park, and weather all stacked. This is the highest-probability play of the day.",
+      "date": "2026-07-12",
+      "status": "PEND",
+      "units_result": null,
+      "clv_cents": null,
+      "result_score": null,
+      "graded_at": null,
+      "slate_assessment": "15-game MLB Sunday slate before the All-Star break. Two elite pitching matchups (Skubal-Wheeler in Detroit, Seymour vs. depleted Seattle) and several soft totals stand out. No NBA or NHL today.",
+      "executive_summary": "The final Sunday before the All-Star break features 15 MLB games and two pitching matchups that jump off the page. In Detroit, Tarik Skubal faces Zack Wheeler in a battle of aces at pitcher-friendly Comerica Park with wind blowing in \u2014 the Under 7 is the sharpest total on the board. Tampa Bay's Ian Seymour, who's been dominant in his last three starts (2.00 ERA, 27 Ks in 18 IP), hosts a Seattle lineup still missing Julio Rodriguez to a concussion. The Rays Under 7.5 at plus-money is a gift. We're also grabbing value on the Cubs ML at GABP, the Padres Under at Petco, and two pitcher K props where the market is mispriced. The ladder rides with the Skubal-Wheeler Under \u2014 best floor on the board, two elite arms, suppressed offenses, and the park and weather both favor pitching.",
+      "slate_analysis": "Sunday's board features 15 MLB games, all afternoon and evening starts, with no NBA or NHL action. The pricing climate is relatively soft \u2014 most favorites sit between -130 and -150, and totals range from 7.0 to 9.5. Several games feature confirmed starters with strong recent form, and the prop markets are active across K's, total bases, and hits.\n\nThe top candidates that rose during my review: (1) PHI @ DET Under 7 \u2014 Skubal vs. Wheeler at Comerica with wind blowing in from right field, both aces in strong form, and two offenses that rank in the bottom half of MLB in runs per game. (2) SEA @ TB Under 7.5 \u2014 Ian Seymour has been electric in his last three starts (2.00 ERA, 0.56 WHIP, 27 Ks in 18 IP per ESPN), and Seattle is without Julio Rodriguez (concussion) and has averaged the fewest runs per game in MLB over the last month. Tropicana Field suppresses runs. (3) CHC @ CIN Cubs ML \u2014 Matthew Boyd's 26.2% K rate against a Reds lineup that struggles vs. LHP, and Andrew Abbott's 10.3% BB rate creates free baserunners. (4) TOR @ SD Under 8.5 \u2014 Petco Park is pitcher-friendly (0.93 runs PF), Gausman has been solid, and both offenses rank bottom-10 in runs per game. (5) Taj Bradley Ks Over 6.5 \u2014 Bradley's 27.8% K rate against an Angels lineup that strikes out at a high clip, and the line is set at -108/-108, suggesting the market sees this as a coin flip when it shouldn't be. (6) Matthew Boyd Ks Over 5.5 \u2014 Boyd's 26.2% K rate is elite, and the Reds strike out at a league-average rate, but the line is juiced to -128, which still offers value given his recent form.\n\nWhat got cut and why: MIL @ PIT was tempting with Skenes on the mound, but data_confidence is 0.45 (below our 0.6 floor) and Gasser's small sample (43.1 IP) makes the matchup too uncertain. BAL @ KC Under 9.5 looked interesting, but both Baz (9.1% BB rate) and Lugo (7.4% BB rate) walk too many batters \u2014 our rule rejects unders when either SP has BB/9 above 3.5. The Dodgers -1.5 at -102 against Arizona's Mitch Bratt (3.0 IP this season) was tempting, but Bratt's 15.4% BB rate and tiny sample make this a data_confidence issue. TEX vs. HOU Over 9 was considered given Cristian Javier's 10.22 ERA and 2.27 WHIP, but the market has already priced this in, and there's no edge vs. the de-vigged line.\n\nThe final six picks survived because they combine strong predictive metrics with clear market edges. The Skubal-Wheeler Under is the ladder pick \u2014 two elite arms, suppressed offenses, pitcher-friendly park, wind blowing in, and the market hasn't moved off 7.0. That's the highest floor on the board.",
+      "slate_vibe": "NORMAL",
+      "published_at": "2026-07-12T12:00:51.337679-04:00"
+    }
+  ],
   "today_bonus_picks": [],
   "all_picks": [
+    {
+      "id": "20260712-MLB-CHC-CIN-PROP-MATTHEWBOYD",
+      "sport": "MLB",
+      "game": "CHC @ CIN",
+      "first_pitch_iso": "2026-07-12T17:40Z",
+      "pick": "Matthew Boyd Ks Over 5.5",
+      "best_book": "FanDuel",
+      "best_odds": "-128",
+      "book_prices": {
+        "draftkings": "+109",
+        "fanduel": "-128",
+        "betmgm": "N/A"
+      },
+      "book_links": {
+        "fanduel": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.591515289&selectionId=17971670",
+        "draftkings": "https://sportsbook.draftkings.com/?outcomes=0QA350661845%232209797256_13L84240Q1-2091356037Q20",
+        "betmgm": "https://sports.nj.betmgm.com/en/sports?options=2:7826775-201510630-764619433&type=Single"
+      },
+      "market": "PROP",
+      "confidence": 3,
+      "units": 1.0,
+      "win_probability": 0.58,
+      "ladder_designation": false,
+      "data_confidence": 0.75,
+      "rules_passed": [
+        "max_juice",
+        "ladder_even_money",
+        "parlay_well_formed",
+        "confidence_units_match",
+        "data_confidence_floor",
+        "pick_type_allowed",
+        "mlb_hr_prop_check",
+        "mlb_pitcher_k_check",
+        "mlb_total_bases_check",
+        "mlb_hits_check",
+        "nba_player_prop_check",
+        "nhl_shots_check",
+        "mlb_run_line_check",
+        "mlb_under_bb_check",
+        "no_same_game_opposite"
+      ],
+      "locked": true,
+      "late_add": false,
+      "late_add_reason": "",
+      "bonus_pick": false,
+      "event_type": "",
+      "event_name": "",
+      "legs": [],
+      "headline": "Boyd's 26.2% K rate is elite \u2014 the Reds will swing and miss.",
+      "the_thesis": "Matthew Boyd has a 26.2% K rate this season, which is elite for a pitcher with his profile. He's been effective since returning from injury, and the Reds' lineup strikes out at a league-average rate. Boyd's stuff plays up against right-handed heavy lineups, and Cincinnati fits that profile.\n\nThe line is set at 5.5 with -128 juice on the over at FanDuel. That's steep, but Boyd's K rate justifies it. I have him at 58% to go over 5.5 Ks, which is a 6-cent edge over the de-vigged line. It's not the sharpest K prop on the board, but it's a solid value play.\n\nBoyd has averaged 5.5+ Ks per start this season, and the Reds' lineup has some swing-and-miss tendencies (Elly De La Cruz, Spencer Steer). If Boyd goes 5+ innings, he should clear this number.",
+      "the_data": [
+        {
+          "label": "Boyd K% (2026)",
+          "value": "26.2%",
+          "context": "Elite, top-15 in MLB"
+        },
+        {
+          "label": "Boyd K/9 (2026)",
+          "value": "~9.5",
+          "context": "Strong strikeout rate"
+        },
+        {
+          "label": "Boyd avg IP/start (L3)",
+          "value": "4.4",
+          "context": "Building up innings"
+        },
+        {
+          "label": "CIN team K% (2026)",
+          "value": "League-average",
+          "context": "Some swing-and-miss"
+        },
+        {
+          "label": "Line",
+          "value": "5.5 (-128/+109)",
+          "context": "Juiced to over"
+        }
+      ],
+      "the_market": "Line is 5.5 with -128 juice on the over at FanDuel, +109 on the under at DraftKings. The market is juiced to the over, which aligns with Boyd's K rate.",
+      "weather_park": "GABP, 74\u00b0F, wind 6 mph blowing in from right field. Park factors favor hitters, but K rate should hold.",
+      "case_against": "Boyd has only 39.2 IP this season \u2014 small sample size. If he doesn't go deep (5+ innings), he may not have enough opportunities to rack up Ks. The Reds could also work counts and force him out early.",
+      "what_were_betting_on": "Boyd's elite K rate, the Reds' swing-and-miss tendencies, and a 5+ inning outing with 6+ strikeouts.",
+      "scott_bot_quip": "Boyd's K rate is elite. The Reds will chase. Math wins.",
+      "ladder_note": "",
+      "date": "2026-07-12",
+      "status": "PEND",
+      "units_result": null,
+      "clv_cents": null,
+      "result_score": null,
+      "graded_at": null,
+      "slate_assessment": "15-game MLB Sunday slate before the All-Star break. Two elite pitching matchups (Skubal-Wheeler in Detroit, Seymour vs. depleted Seattle) and several soft totals stand out. No NBA or NHL today.",
+      "executive_summary": "The final Sunday before the All-Star break features 15 MLB games and two pitching matchups that jump off the page. In Detroit, Tarik Skubal faces Zack Wheeler in a battle of aces at pitcher-friendly Comerica Park with wind blowing in \u2014 the Under 7 is the sharpest total on the board. Tampa Bay's Ian Seymour, who's been dominant in his last three starts (2.00 ERA, 27 Ks in 18 IP), hosts a Seattle lineup still missing Julio Rodriguez to a concussion. The Rays Under 7.5 at plus-money is a gift. We're also grabbing value on the Cubs ML at GABP, the Padres Under at Petco, and two pitcher K props where the market is mispriced. The ladder rides with the Skubal-Wheeler Under \u2014 best floor on the board, two elite arms, suppressed offenses, and the park and weather both favor pitching.",
+      "slate_analysis": "Sunday's board features 15 MLB games, all afternoon and evening starts, with no NBA or NHL action. The pricing climate is relatively soft \u2014 most favorites sit between -130 and -150, and totals range from 7.0 to 9.5. Several games feature confirmed starters with strong recent form, and the prop markets are active across K's, total bases, and hits.\n\nThe top candidates that rose during my review: (1) PHI @ DET Under 7 \u2014 Skubal vs. Wheeler at Comerica with wind blowing in from right field, both aces in strong form, and two offenses that rank in the bottom half of MLB in runs per game. (2) SEA @ TB Under 7.5 \u2014 Ian Seymour has been electric in his last three starts (2.00 ERA, 0.56 WHIP, 27 Ks in 18 IP per ESPN), and Seattle is without Julio Rodriguez (concussion) and has averaged the fewest runs per game in MLB over the last month. Tropicana Field suppresses runs. (3) CHC @ CIN Cubs ML \u2014 Matthew Boyd's 26.2% K rate against a Reds lineup that struggles vs. LHP, and Andrew Abbott's 10.3% BB rate creates free baserunners. (4) TOR @ SD Under 8.5 \u2014 Petco Park is pitcher-friendly (0.93 runs PF), Gausman has been solid, and both offenses rank bottom-10 in runs per game. (5) Taj Bradley Ks Over 6.5 \u2014 Bradley's 27.8% K rate against an Angels lineup that strikes out at a high clip, and the line is set at -108/-108, suggesting the market sees this as a coin flip when it shouldn't be. (6) Matthew Boyd Ks Over 5.5 \u2014 Boyd's 26.2% K rate is elite, and the Reds strike out at a league-average rate, but the line is juiced to -128, which still offers value given his recent form.\n\nWhat got cut and why: MIL @ PIT was tempting with Skenes on the mound, but data_confidence is 0.45 (below our 0.6 floor) and Gasser's small sample (43.1 IP) makes the matchup too uncertain. BAL @ KC Under 9.5 looked interesting, but both Baz (9.1% BB rate) and Lugo (7.4% BB rate) walk too many batters \u2014 our rule rejects unders when either SP has BB/9 above 3.5. The Dodgers -1.5 at -102 against Arizona's Mitch Bratt (3.0 IP this season) was tempting, but Bratt's 15.4% BB rate and tiny sample make this a data_confidence issue. TEX vs. HOU Over 9 was considered given Cristian Javier's 10.22 ERA and 2.27 WHIP, but the market has already priced this in, and there's no edge vs. the de-vigged line.\n\nThe final six picks survived because they combine strong predictive metrics with clear market edges. The Skubal-Wheeler Under is the ladder pick \u2014 two elite arms, suppressed offenses, pitcher-friendly park, wind blowing in, and the market hasn't moved off 7.0. That's the highest floor on the board.",
+      "slate_vibe": "NORMAL",
+      "published_at": "2026-07-12T12:00:51.338044-04:00"
+    },
+    {
+      "id": "20260712-MLB-LAA-MIN-PROP-TAJBRADLEY",
+      "sport": "MLB",
+      "game": "LAA @ MIN",
+      "first_pitch_iso": "2026-07-12T18:10Z",
+      "pick": "Taj Bradley Ks Over 6.5",
+      "best_book": "FanDuel",
+      "best_odds": "-108",
+      "book_prices": {
+        "draftkings": "-108",
+        "fanduel": "-108",
+        "betmgm": "N/A"
+      },
+      "book_links": {
+        "fanduel": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.591516560&selectionId=54669301",
+        "draftkings": "https://sportsbook.draftkings.com/?outcomes=0QA350664754%232209808714_13L84240Q1504748706Q20",
+        "betmgm": "https://sports.nj.betmgm.com/en/sports?options=2:7826776-201511103-764622066&type=Single"
+      },
+      "market": "PROP",
+      "confidence": 4,
+      "units": 1.5,
+      "win_probability": 0.6,
+      "ladder_designation": false,
+      "data_confidence": 0.8,
+      "rules_passed": [
+        "max_juice",
+        "ladder_even_money",
+        "parlay_well_formed",
+        "confidence_units_match",
+        "data_confidence_floor",
+        "pick_type_allowed",
+        "mlb_hr_prop_check",
+        "mlb_pitcher_k_check",
+        "mlb_total_bases_check",
+        "mlb_hits_check",
+        "nba_player_prop_check",
+        "nhl_shots_check",
+        "mlb_run_line_check",
+        "mlb_under_bb_check",
+        "no_same_game_opposite"
+      ],
+      "locked": true,
+      "late_add": false,
+      "late_add_reason": "",
+      "bonus_pick": false,
+      "event_type": "",
+      "event_name": "",
+      "legs": [],
+      "headline": "Bradley's 27.8% K rate vs. an Angels lineup that strikes out at a high clip \u2014 this line is too low.",
+      "the_thesis": "Taj Bradley has a 27.8% K rate this season, which ranks in the top-20 among qualified starters. He's averaging 6.5+ Ks per start, and the line is set at 6.5 with -108 juice on both sides. The market sees this as a coin flip, but it shouldn't be.\n\nThe Angels strike out at a league-average rate, but their lineup is depleted and prone to chasing. Bradley's stuff plays up at home, and he's been stretched out to 6+ innings in his recent starts. The weather at Target Field (83\u00b0F, wind blowing out to right field) could boost offense slightly, but Bradley's K rate should hold.\n\nI have Bradley at 60% to go over 6.5 Ks, which is a 10-cent edge over the de-vigged line. This is a sharp K prop in a favorable matchup.",
+      "the_data": [
+        {
+          "label": "Bradley K% (2026)",
+          "value": "27.8%",
+          "context": "Top-20 in MLB"
+        },
+        {
+          "label": "Bradley K/9 (2026)",
+          "value": "~10.0",
+          "context": "Elite strikeout rate"
+        },
+        {
+          "label": "Bradley avg IP/start (L3)",
+          "value": "5.3",
+          "context": "Getting stretched out"
+        },
+        {
+          "label": "LAA team K% (2026)",
+          "value": "League-average",
+          "context": "Prone to chasing"
+        },
+        {
+          "label": "Line",
+          "value": "6.5 (-108/-108)",
+          "context": "Market sees coin flip"
+        }
+      ],
+      "the_market": "Line is 6.5 with -108 juice on both sides at FanDuel and DraftKings. No movement \u2014 the market is comfortable here, but Bradley's K rate suggests the over is underpriced.",
+      "weather_park": "Target Field, 83\u00b0F, wind 9 mph blowing out to right field. Weather boosts HR slightly (+13%), but K rate should hold.",
+      "case_against": "Bradley's 9.4% BB rate is elevated, and if he walks too many batters, he may not go deep enough to rack up Ks. The Angels could also work counts and force him out early.",
+      "what_were_betting_on": "Bradley's elite K rate, the Angels' propensity to chase, and a 6+ inning outing with 7+ strikeouts.",
+      "scott_bot_quip": "Bradley's K rate says over. The market says coin flip. We'll take the over.",
+      "ladder_note": "",
+      "date": "2026-07-12",
+      "status": "PEND",
+      "units_result": null,
+      "clv_cents": null,
+      "result_score": null,
+      "graded_at": null,
+      "slate_assessment": "15-game MLB Sunday slate before the All-Star break. Two elite pitching matchups (Skubal-Wheeler in Detroit, Seymour vs. depleted Seattle) and several soft totals stand out. No NBA or NHL today.",
+      "executive_summary": "The final Sunday before the All-Star break features 15 MLB games and two pitching matchups that jump off the page. In Detroit, Tarik Skubal faces Zack Wheeler in a battle of aces at pitcher-friendly Comerica Park with wind blowing in \u2014 the Under 7 is the sharpest total on the board. Tampa Bay's Ian Seymour, who's been dominant in his last three starts (2.00 ERA, 27 Ks in 18 IP), hosts a Seattle lineup still missing Julio Rodriguez to a concussion. The Rays Under 7.5 at plus-money is a gift. We're also grabbing value on the Cubs ML at GABP, the Padres Under at Petco, and two pitcher K props where the market is mispriced. The ladder rides with the Skubal-Wheeler Under \u2014 best floor on the board, two elite arms, suppressed offenses, and the park and weather both favor pitching.",
+      "slate_analysis": "Sunday's board features 15 MLB games, all afternoon and evening starts, with no NBA or NHL action. The pricing climate is relatively soft \u2014 most favorites sit between -130 and -150, and totals range from 7.0 to 9.5. Several games feature confirmed starters with strong recent form, and the prop markets are active across K's, total bases, and hits.\n\nThe top candidates that rose during my review: (1) PHI @ DET Under 7 \u2014 Skubal vs. Wheeler at Comerica with wind blowing in from right field, both aces in strong form, and two offenses that rank in the bottom half of MLB in runs per game. (2) SEA @ TB Under 7.5 \u2014 Ian Seymour has been electric in his last three starts (2.00 ERA, 0.56 WHIP, 27 Ks in 18 IP per ESPN), and Seattle is without Julio Rodriguez (concussion) and has averaged the fewest runs per game in MLB over the last month. Tropicana Field suppresses runs. (3) CHC @ CIN Cubs ML \u2014 Matthew Boyd's 26.2% K rate against a Reds lineup that struggles vs. LHP, and Andrew Abbott's 10.3% BB rate creates free baserunners. (4) TOR @ SD Under 8.5 \u2014 Petco Park is pitcher-friendly (0.93 runs PF), Gausman has been solid, and both offenses rank bottom-10 in runs per game. (5) Taj Bradley Ks Over 6.5 \u2014 Bradley's 27.8% K rate against an Angels lineup that strikes out at a high clip, and the line is set at -108/-108, suggesting the market sees this as a coin flip when it shouldn't be. (6) Matthew Boyd Ks Over 5.5 \u2014 Boyd's 26.2% K rate is elite, and the Reds strike out at a league-average rate, but the line is juiced to -128, which still offers value given his recent form.\n\nWhat got cut and why: MIL @ PIT was tempting with Skenes on the mound, but data_confidence is 0.45 (below our 0.6 floor) and Gasser's small sample (43.1 IP) makes the matchup too uncertain. BAL @ KC Under 9.5 looked interesting, but both Baz (9.1% BB rate) and Lugo (7.4% BB rate) walk too many batters \u2014 our rule rejects unders when either SP has BB/9 above 3.5. The Dodgers -1.5 at -102 against Arizona's Mitch Bratt (3.0 IP this season) was tempting, but Bratt's 15.4% BB rate and tiny sample make this a data_confidence issue. TEX vs. HOU Over 9 was considered given Cristian Javier's 10.22 ERA and 2.27 WHIP, but the market has already priced this in, and there's no edge vs. the de-vigged line.\n\nThe final six picks survived because they combine strong predictive metrics with clear market edges. The Skubal-Wheeler Under is the ladder pick \u2014 two elite arms, suppressed offenses, pitcher-friendly park, wind blowing in, and the market hasn't moved off 7.0. That's the highest floor on the board.",
+      "slate_vibe": "NORMAL",
+      "published_at": "2026-07-12T12:00:51.337972-04:00"
+    },
+    {
+      "id": "20260712-MLB-TOR-SD-TOTAL",
+      "sport": "MLB",
+      "game": "TOR @ SD",
+      "first_pitch_iso": "2026-07-12T20:10Z",
+      "pick": "Under 8.5",
+      "best_book": "DraftKings",
+      "best_odds": "+101",
+      "book_prices": {
+        "draftkings": "+101",
+        "fanduel": "-102",
+        "betmgm": "+100"
+      },
+      "book_links": {
+        "fanduel": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.591518951&selectionId=7017906",
+        "draftkings": "https://sportsbook.draftkings.com/?outcomes=0OU85458311U850_3",
+        "betmgm": "https://sports.nj.betmgm.com/en/sports?options=19772375-1539988960-2245014556&type=Single"
+      },
+      "market": "TOTAL",
+      "confidence": 3,
+      "units": 1.0,
+      "win_probability": 0.56,
+      "ladder_designation": false,
+      "data_confidence": 0.75,
+      "rules_passed": [
+        "max_juice",
+        "ladder_even_money",
+        "parlay_well_formed",
+        "confidence_units_match",
+        "data_confidence_floor",
+        "pick_type_allowed",
+        "mlb_hr_prop_check",
+        "mlb_pitcher_k_check",
+        "mlb_total_bases_check",
+        "mlb_hits_check",
+        "nba_player_prop_check",
+        "nhl_shots_check",
+        "mlb_run_line_check",
+        "mlb_under_bb_check",
+        "no_same_game_opposite"
+      ],
+      "locked": true,
+      "late_add": false,
+      "late_add_reason": "",
+      "bonus_pick": false,
+      "event_type": "",
+      "event_name": "",
+      "legs": [],
+      "headline": "Petco Park suppresses runs, both offenses are cold, and Gausman is solid.",
+      "the_thesis": "Petco Park is one of the most pitcher-friendly venues in baseball, with a 0.93 runs factor and 0.91 HR factor. Both offenses rank in the bottom third of MLB in runs per game \u2014 San Diego at 3.94 (29th) and Toronto at 4.08 (26th). This is a low-scoring environment by design.\n\nKevin Gausman has been solid this season (4.32 ERA, 1.22 WHIP) and has the experience to navigate a tough road environment. Germ\u00e1n M\u00e1rquez is the wild card \u2014 his 5.02 ERA and 1.94 HR/9 are concerning, but Petco Park should suppress some of that damage. The park factor is the great equalizer here.\n\nThe market has this at 8.5 with plus-money on the under at DraftKings (+101). I have this at 56% to stay under, which is a 6-cent edge. It's not the sharpest play on the board, but it's a solid value bet in a pitcher-friendly environment.",
+      "the_data": [
+        {
+          "label": "Petco Park PF (runs/HR)",
+          "value": "0.93 / 0.91",
+          "context": "Pitcher-friendly, HR-suppressing"
+        },
+        {
+          "label": "Gausman ERA / WHIP (2026)",
+          "value": "4.32 / 1.22",
+          "context": "Solid, above-average"
+        },
+        {
+          "label": "SD R/G (season)",
+          "value": "3.94",
+          "context": "29th in MLB"
+        },
+        {
+          "label": "TOR R/G (season)",
+          "value": "4.08",
+          "context": "26th in MLB"
+        },
+        {
+          "label": "M\u00e1rquez HR/9 (2026)",
+          "value": "1.94",
+          "context": "Elevated, but Petco suppresses"
+        }
+      ],
+      "the_market": "Total opened at 8.5 and sits there across all books. DraftKings offering +101 on the under is the best price. No sharp movement \u2014 the market sees this as a coin flip.",
+      "weather_park": "Petco Park, outdoor, but marine layer typically rolls in for night games. Park factors strongly favor pitching.",
+      "case_against": "M\u00e1rquez's 1.94 HR/9 is alarming, and if he serves up a few early, this could get out of hand. Toronto's lineup has some pop (Guerrero Jr., Springer), and they could take advantage of M\u00e1rquez's mistakes.",
+      "what_were_betting_on": "Petco Park suppressing offense, both lineups staying cold, and the game staying in the 6-8 run range.",
+      "scott_bot_quip": "Two cold offenses, one cold park. The under is the play.",
+      "ladder_note": "",
+      "date": "2026-07-12",
+      "status": "PEND",
+      "units_result": null,
+      "clv_cents": null,
+      "result_score": null,
+      "graded_at": null,
+      "slate_assessment": "15-game MLB Sunday slate before the All-Star break. Two elite pitching matchups (Skubal-Wheeler in Detroit, Seymour vs. depleted Seattle) and several soft totals stand out. No NBA or NHL today.",
+      "executive_summary": "The final Sunday before the All-Star break features 15 MLB games and two pitching matchups that jump off the page. In Detroit, Tarik Skubal faces Zack Wheeler in a battle of aces at pitcher-friendly Comerica Park with wind blowing in \u2014 the Under 7 is the sharpest total on the board. Tampa Bay's Ian Seymour, who's been dominant in his last three starts (2.00 ERA, 27 Ks in 18 IP), hosts a Seattle lineup still missing Julio Rodriguez to a concussion. The Rays Under 7.5 at plus-money is a gift. We're also grabbing value on the Cubs ML at GABP, the Padres Under at Petco, and two pitcher K props where the market is mispriced. The ladder rides with the Skubal-Wheeler Under \u2014 best floor on the board, two elite arms, suppressed offenses, and the park and weather both favor pitching.",
+      "slate_analysis": "Sunday's board features 15 MLB games, all afternoon and evening starts, with no NBA or NHL action. The pricing climate is relatively soft \u2014 most favorites sit between -130 and -150, and totals range from 7.0 to 9.5. Several games feature confirmed starters with strong recent form, and the prop markets are active across K's, total bases, and hits.\n\nThe top candidates that rose during my review: (1) PHI @ DET Under 7 \u2014 Skubal vs. Wheeler at Comerica with wind blowing in from right field, both aces in strong form, and two offenses that rank in the bottom half of MLB in runs per game. (2) SEA @ TB Under 7.5 \u2014 Ian Seymour has been electric in his last three starts (2.00 ERA, 0.56 WHIP, 27 Ks in 18 IP per ESPN), and Seattle is without Julio Rodriguez (concussion) and has averaged the fewest runs per game in MLB over the last month. Tropicana Field suppresses runs. (3) CHC @ CIN Cubs ML \u2014 Matthew Boyd's 26.2% K rate against a Reds lineup that struggles vs. LHP, and Andrew Abbott's 10.3% BB rate creates free baserunners. (4) TOR @ SD Under 8.5 \u2014 Petco Park is pitcher-friendly (0.93 runs PF), Gausman has been solid, and both offenses rank bottom-10 in runs per game. (5) Taj Bradley Ks Over 6.5 \u2014 Bradley's 27.8% K rate against an Angels lineup that strikes out at a high clip, and the line is set at -108/-108, suggesting the market sees this as a coin flip when it shouldn't be. (6) Matthew Boyd Ks Over 5.5 \u2014 Boyd's 26.2% K rate is elite, and the Reds strike out at a league-average rate, but the line is juiced to -128, which still offers value given his recent form.\n\nWhat got cut and why: MIL @ PIT was tempting with Skenes on the mound, but data_confidence is 0.45 (below our 0.6 floor) and Gasser's small sample (43.1 IP) makes the matchup too uncertain. BAL @ KC Under 9.5 looked interesting, but both Baz (9.1% BB rate) and Lugo (7.4% BB rate) walk too many batters \u2014 our rule rejects unders when either SP has BB/9 above 3.5. The Dodgers -1.5 at -102 against Arizona's Mitch Bratt (3.0 IP this season) was tempting, but Bratt's 15.4% BB rate and tiny sample make this a data_confidence issue. TEX vs. HOU Over 9 was considered given Cristian Javier's 10.22 ERA and 2.27 WHIP, but the market has already priced this in, and there's no edge vs. the de-vigged line.\n\nThe final six picks survived because they combine strong predictive metrics with clear market edges. The Skubal-Wheeler Under is the ladder pick \u2014 two elite arms, suppressed offenses, pitcher-friendly park, wind blowing in, and the market hasn't moved off 7.0. That's the highest floor on the board.",
+      "slate_vibe": "NORMAL",
+      "published_at": "2026-07-12T12:00:51.337923-04:00"
+    },
+    {
+      "id": "20260712-MLB-CHC-CIN-ML",
+      "sport": "MLB",
+      "game": "CHC @ CIN",
+      "first_pitch_iso": "2026-07-12T17:40Z",
+      "pick": "Chicago Cubs ML",
+      "best_book": "FanDuel",
+      "best_odds": "-126",
+      "book_prices": {
+        "draftkings": "-130",
+        "fanduel": "-126",
+        "betmgm": "-130"
+      },
+      "book_links": {
+        "fanduel": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.591414465&selectionId=29166",
+        "draftkings": "https://sportsbook.draftkings.com/?outcomes=0ML85458300_3",
+        "betmgm": "https://sports.nj.betmgm.com/en/sports?options=19772283-1539983354-2245000943&type=Single"
+      },
+      "market": "ML",
+      "confidence": 3,
+      "units": 1.0,
+      "win_probability": 0.58,
+      "ladder_designation": false,
+      "data_confidence": 0.75,
+      "rules_passed": [
+        "max_juice",
+        "ladder_even_money",
+        "parlay_well_formed",
+        "confidence_units_match",
+        "data_confidence_floor",
+        "pick_type_allowed",
+        "mlb_hr_prop_check",
+        "mlb_pitcher_k_check",
+        "mlb_total_bases_check",
+        "mlb_hits_check",
+        "nba_player_prop_check",
+        "nhl_shots_check",
+        "mlb_run_line_check",
+        "mlb_under_bb_check",
+        "no_same_game_opposite"
+      ],
+      "locked": true,
+      "late_add": false,
+      "late_add_reason": "",
+      "bonus_pick": false,
+      "event_type": "",
+      "event_name": "",
+      "legs": [],
+      "headline": "Boyd's elite K rate vs. Abbott's walk problem \u2014 Cubs have the pitching edge at GABP.",
+      "the_thesis": "Matthew Boyd has been excellent since returning from injury, posting a 26.2% K rate that ranks among the best in baseball. His 4.31 ERA is inflated by a few bad starts, but his underlying metrics are strong. He's facing a Reds lineup that has struggled against left-handed pitching all season.\n\nAndrew Abbott, meanwhile, has a 10.3% walk rate \u2014 that's a free baserunner every 10 batters. At Great American Ball Park, which has a 1.06 runs factor and 1.18 HR factor, walks turn into runs. Abbott's 1.43 HR/9 is concerning in this environment, and the Cubs' lineup has enough pop to take advantage.\n\nThe Cubs are the better team here, and the market has them as slight favorites (-126). I have them at 58% to win, which gives us an 8-cent edge over the de-vigged implied probability of 50%. This is a value play on the road favorite.",
+      "the_data": [
+        {
+          "label": "Boyd K% (2026)",
+          "value": "26.2%",
+          "context": "Elite, top-15 in MLB"
+        },
+        {
+          "label": "Abbott BB% (2026)",
+          "value": "10.3%",
+          "context": "Problematic, creates free baserunners"
+        },
+        {
+          "label": "Abbott HR/9 (2026)",
+          "value": "1.43",
+          "context": "Elevated, concerning at GABP"
+        },
+        {
+          "label": "GABP PF (runs/HR)",
+          "value": "1.06 / 1.18",
+          "context": "Hitter-friendly, HR-boosting"
+        },
+        {
+          "label": "CHC R/G (season)",
+          "value": "5.01",
+          "context": "Above-average offense"
+        },
+        {
+          "label": "CIN R/G (season)",
+          "value": "4.16",
+          "context": "Below-average offense"
+        }
+      ],
+      "the_market": "Cubs opened as -126 favorites and haven't moved. The market sees this as a coin flip, but Boyd's K rate and Abbott's walk problem give Chicago a clear edge.",
+      "weather_park": "GABP, 74\u00b0F, wind 6 mph blowing in from right field \u2014 net neutral. Park factors favor hitters, but wind in suppresses some HR upside.",
+      "case_against": "Boyd has only 39.2 IP this season \u2014 small sample size. Abbott has been better at home than on the road, and the Reds' lineup has some pop (Elly De La Cruz, Spencer Steer). If Boyd doesn't go deep, the Cubs' bullpen could be exposed.",
+      "what_were_betting_on": "Boyd's K rate keeping the Reds' bats quiet, Abbott's walks creating scoring opportunities, and the Cubs' lineup capitalizing on mistakes.",
+      "scott_bot_quip": "Abbott walks the world. Boyd punches them out. Math is math.",
+      "ladder_note": "",
+      "date": "2026-07-12",
+      "status": "PEND",
+      "units_result": null,
+      "clv_cents": null,
+      "result_score": null,
+      "graded_at": null,
+      "slate_assessment": "15-game MLB Sunday slate before the All-Star break. Two elite pitching matchups (Skubal-Wheeler in Detroit, Seymour vs. depleted Seattle) and several soft totals stand out. No NBA or NHL today.",
+      "executive_summary": "The final Sunday before the All-Star break features 15 MLB games and two pitching matchups that jump off the page. In Detroit, Tarik Skubal faces Zack Wheeler in a battle of aces at pitcher-friendly Comerica Park with wind blowing in \u2014 the Under 7 is the sharpest total on the board. Tampa Bay's Ian Seymour, who's been dominant in his last three starts (2.00 ERA, 27 Ks in 18 IP), hosts a Seattle lineup still missing Julio Rodriguez to a concussion. The Rays Under 7.5 at plus-money is a gift. We're also grabbing value on the Cubs ML at GABP, the Padres Under at Petco, and two pitcher K props where the market is mispriced. The ladder rides with the Skubal-Wheeler Under \u2014 best floor on the board, two elite arms, suppressed offenses, and the park and weather both favor pitching.",
+      "slate_analysis": "Sunday's board features 15 MLB games, all afternoon and evening starts, with no NBA or NHL action. The pricing climate is relatively soft \u2014 most favorites sit between -130 and -150, and totals range from 7.0 to 9.5. Several games feature confirmed starters with strong recent form, and the prop markets are active across K's, total bases, and hits.\n\nThe top candidates that rose during my review: (1) PHI @ DET Under 7 \u2014 Skubal vs. Wheeler at Comerica with wind blowing in from right field, both aces in strong form, and two offenses that rank in the bottom half of MLB in runs per game. (2) SEA @ TB Under 7.5 \u2014 Ian Seymour has been electric in his last three starts (2.00 ERA, 0.56 WHIP, 27 Ks in 18 IP per ESPN), and Seattle is without Julio Rodriguez (concussion) and has averaged the fewest runs per game in MLB over the last month. Tropicana Field suppresses runs. (3) CHC @ CIN Cubs ML \u2014 Matthew Boyd's 26.2% K rate against a Reds lineup that struggles vs. LHP, and Andrew Abbott's 10.3% BB rate creates free baserunners. (4) TOR @ SD Under 8.5 \u2014 Petco Park is pitcher-friendly (0.93 runs PF), Gausman has been solid, and both offenses rank bottom-10 in runs per game. (5) Taj Bradley Ks Over 6.5 \u2014 Bradley's 27.8% K rate against an Angels lineup that strikes out at a high clip, and the line is set at -108/-108, suggesting the market sees this as a coin flip when it shouldn't be. (6) Matthew Boyd Ks Over 5.5 \u2014 Boyd's 26.2% K rate is elite, and the Reds strike out at a league-average rate, but the line is juiced to -128, which still offers value given his recent form.\n\nWhat got cut and why: MIL @ PIT was tempting with Skenes on the mound, but data_confidence is 0.45 (below our 0.6 floor) and Gasser's small sample (43.1 IP) makes the matchup too uncertain. BAL @ KC Under 9.5 looked interesting, but both Baz (9.1% BB rate) and Lugo (7.4% BB rate) walk too many batters \u2014 our rule rejects unders when either SP has BB/9 above 3.5. The Dodgers -1.5 at -102 against Arizona's Mitch Bratt (3.0 IP this season) was tempting, but Bratt's 15.4% BB rate and tiny sample make this a data_confidence issue. TEX vs. HOU Over 9 was considered given Cristian Javier's 10.22 ERA and 2.27 WHIP, but the market has already priced this in, and there's no edge vs. the de-vigged line.\n\nThe final six picks survived because they combine strong predictive metrics with clear market edges. The Skubal-Wheeler Under is the ladder pick \u2014 two elite arms, suppressed offenses, pitcher-friendly park, wind blowing in, and the market hasn't moved off 7.0. That's the highest floor on the board.",
+      "slate_vibe": "NORMAL",
+      "published_at": "2026-07-12T12:00:51.337846-04:00"
+    },
+    {
+      "id": "20260712-MLB-SEA-TB-TOTAL",
+      "sport": "MLB",
+      "game": "SEA @ TB",
+      "first_pitch_iso": "2026-07-12T17:40Z",
+      "pick": "Under 7.5",
+      "best_book": "FanDuel",
+      "best_odds": "+102",
+      "book_prices": {
+        "draftkings": "-114",
+        "fanduel": "+102",
+        "betmgm": "-118"
+      },
+      "book_links": {
+        "fanduel": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.591515815&selectionId=7017906",
+        "draftkings": "https://sportsbook.draftkings.com/?outcomes=0OU85458302U800_3",
+        "betmgm": "https://sports.nj.betmgm.com/en/sports?options=19772301-1539983954-2245002521&type=Single"
+      },
+      "market": "TOTAL",
+      "confidence": 4,
+      "units": 1.5,
+      "win_probability": 0.59,
+      "ladder_designation": false,
+      "data_confidence": 0.8,
+      "rules_passed": [
+        "max_juice",
+        "ladder_even_money",
+        "parlay_well_formed",
+        "confidence_units_match",
+        "data_confidence_floor",
+        "pick_type_allowed",
+        "mlb_hr_prop_check",
+        "mlb_pitcher_k_check",
+        "mlb_total_bases_check",
+        "mlb_hits_check",
+        "nba_player_prop_check",
+        "nhl_shots_check",
+        "mlb_run_line_check",
+        "mlb_under_bb_check",
+        "no_same_game_opposite"
+      ],
+      "locked": true,
+      "late_add": false,
+      "late_add_reason": "",
+      "bonus_pick": false,
+      "event_type": "",
+      "event_name": "",
+      "legs": [],
+      "headline": "Seymour is on fire, Seattle is depleted, and Tropicana Field suppresses runs.",
+      "the_thesis": "Ian Seymour has been one of the best stories in baseball over the last three weeks. Since moving into a starting/bulk role, he's posted a 2.00 ERA and 0.56 WHIP with 27 strikeouts in 18 innings. He threw 6.2 hitless innings against the Royals on June 25 and has won his last three starts. The Rays have found something here, and he's facing the perfect opponent.\n\nSeattle is without Julio Rodriguez, who remains on the concussion IL and isn't expected back until after the All-Star break. The Mariners have averaged the fewest runs per game in MLB over the last month, and their lineup is a shell of itself. Emerson Hancock is solid (3.23 ERA, 1.01 WHIP), but the Mariners' offense won't give him much support.\n\nTropicana Field has a 0.95 runs park factor and 0.92 HR factor \u2014 it's one of the most pitcher-friendly venues in baseball. The market has this at 7.5/8.0 depending on the book, and FanDuel is offering +102 on the under at 7.5. That's a gift. I have this at 59% to stay under, which is a 9-cent edge over the de-vigged line.",
+      "the_data": [
+        {
+          "label": "Seymour L3 starts ERA / WHIP",
+          "value": "2.00 / 0.56",
+          "context": "Dominant stretch"
+        },
+        {
+          "label": "Seymour L3 starts K's / IP",
+          "value": "27 / 18",
+          "context": "1.5 K/IP rate"
+        },
+        {
+          "label": "Hancock ERA / WHIP (2026)",
+          "value": "3.23 / 1.01",
+          "context": "Solid, above-average"
+        },
+        {
+          "label": "SEA R/G (last month)",
+          "value": "Lowest in MLB",
+          "context": "Per ESPN"
+        },
+        {
+          "label": "Tropicana Field PF (runs/HR)",
+          "value": "0.95 / 0.92",
+          "context": "Pitcher-friendly"
+        },
+        {
+          "label": "Julio Rodriguez status",
+          "value": "Concussion IL",
+          "context": "Out through All-Star break"
+        }
+      ],
+      "the_market": "Total is split at 7.5 (FD) and 8.0 (DK/MGM). FanDuel offering +102 on Under 7.5 is the best price \u2014 that's plus-money on a play I have at 59%. Sharp money hasn't moved this number despite Seymour's recent dominance.",
+      "weather_park": "Tropicana Field is a dome \u2014 no weather impact. Park factors strongly favor pitching (0.95 runs, 0.92 HR).",
+      "case_against": "Seymour's season-long numbers (4.11 ERA, 1.08 WHIP) are less impressive than his recent stretch. If he regresses to his mean, this could get ugly. The Rays' bullpen has been overworked, and if Seymour exits early, the pen could leak runs.",
+      "what_were_betting_on": "Seymour continuing his hot streak, Seattle's depleted lineup staying cold, and the dome suppressing any late-inning rallies.",
+      "scott_bot_quip": "Seattle's missing their best player and can't score. Seymour's throwing darts. Plus-money on the under? Yes please.",
+      "ladder_note": "",
+      "date": "2026-07-12",
+      "status": "PEND",
+      "units_result": null,
+      "clv_cents": null,
+      "result_score": null,
+      "graded_at": null,
+      "slate_assessment": "15-game MLB Sunday slate before the All-Star break. Two elite pitching matchups (Skubal-Wheeler in Detroit, Seymour vs. depleted Seattle) and several soft totals stand out. No NBA or NHL today.",
+      "executive_summary": "The final Sunday before the All-Star break features 15 MLB games and two pitching matchups that jump off the page. In Detroit, Tarik Skubal faces Zack Wheeler in a battle of aces at pitcher-friendly Comerica Park with wind blowing in \u2014 the Under 7 is the sharpest total on the board. Tampa Bay's Ian Seymour, who's been dominant in his last three starts (2.00 ERA, 27 Ks in 18 IP), hosts a Seattle lineup still missing Julio Rodriguez to a concussion. The Rays Under 7.5 at plus-money is a gift. We're also grabbing value on the Cubs ML at GABP, the Padres Under at Petco, and two pitcher K props where the market is mispriced. The ladder rides with the Skubal-Wheeler Under \u2014 best floor on the board, two elite arms, suppressed offenses, and the park and weather both favor pitching.",
+      "slate_analysis": "Sunday's board features 15 MLB games, all afternoon and evening starts, with no NBA or NHL action. The pricing climate is relatively soft \u2014 most favorites sit between -130 and -150, and totals range from 7.0 to 9.5. Several games feature confirmed starters with strong recent form, and the prop markets are active across K's, total bases, and hits.\n\nThe top candidates that rose during my review: (1) PHI @ DET Under 7 \u2014 Skubal vs. Wheeler at Comerica with wind blowing in from right field, both aces in strong form, and two offenses that rank in the bottom half of MLB in runs per game. (2) SEA @ TB Under 7.5 \u2014 Ian Seymour has been electric in his last three starts (2.00 ERA, 0.56 WHIP, 27 Ks in 18 IP per ESPN), and Seattle is without Julio Rodriguez (concussion) and has averaged the fewest runs per game in MLB over the last month. Tropicana Field suppresses runs. (3) CHC @ CIN Cubs ML \u2014 Matthew Boyd's 26.2% K rate against a Reds lineup that struggles vs. LHP, and Andrew Abbott's 10.3% BB rate creates free baserunners. (4) TOR @ SD Under 8.5 \u2014 Petco Park is pitcher-friendly (0.93 runs PF), Gausman has been solid, and both offenses rank bottom-10 in runs per game. (5) Taj Bradley Ks Over 6.5 \u2014 Bradley's 27.8% K rate against an Angels lineup that strikes out at a high clip, and the line is set at -108/-108, suggesting the market sees this as a coin flip when it shouldn't be. (6) Matthew Boyd Ks Over 5.5 \u2014 Boyd's 26.2% K rate is elite, and the Reds strike out at a league-average rate, but the line is juiced to -128, which still offers value given his recent form.\n\nWhat got cut and why: MIL @ PIT was tempting with Skenes on the mound, but data_confidence is 0.45 (below our 0.6 floor) and Gasser's small sample (43.1 IP) makes the matchup too uncertain. BAL @ KC Under 9.5 looked interesting, but both Baz (9.1% BB rate) and Lugo (7.4% BB rate) walk too many batters \u2014 our rule rejects unders when either SP has BB/9 above 3.5. The Dodgers -1.5 at -102 against Arizona's Mitch Bratt (3.0 IP this season) was tempting, but Bratt's 15.4% BB rate and tiny sample make this a data_confidence issue. TEX vs. HOU Over 9 was considered given Cristian Javier's 10.22 ERA and 2.27 WHIP, but the market has already priced this in, and there's no edge vs. the de-vigged line.\n\nThe final six picks survived because they combine strong predictive metrics with clear market edges. The Skubal-Wheeler Under is the ladder pick \u2014 two elite arms, suppressed offenses, pitcher-friendly park, wind blowing in, and the market hasn't moved off 7.0. That's the highest floor on the board.",
+      "slate_vibe": "NORMAL",
+      "published_at": "2026-07-12T12:00:51.337781-04:00"
+    },
+    {
+      "id": "20260712-MLB-PHI-DET-TOTAL",
+      "sport": "MLB",
+      "game": "PHI @ DET",
+      "first_pitch_iso": "2026-07-12T17:40Z",
+      "pick": "Under 7",
+      "best_book": "DraftKings",
+      "best_odds": "-112",
+      "book_prices": {
+        "draftkings": "-112",
+        "fanduel": "-115",
+        "betmgm": "-118"
+      },
+      "book_links": {
+        "fanduel": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.591516227&selectionId=7017906",
+        "draftkings": "https://sportsbook.draftkings.com/?outcomes=0OU85458303U700_3",
+        "betmgm": "https://sports.nj.betmgm.com/en/sports?options=19772302-1539984045-2245002721&type=Single"
+      },
+      "market": "TOTAL",
+      "confidence": 5,
+      "units": 2.0,
+      "win_probability": 0.63,
+      "ladder_designation": true,
+      "data_confidence": 0.85,
+      "rules_passed": [
+        "max_juice",
+        "ladder_even_money",
+        "parlay_well_formed",
+        "confidence_units_match",
+        "data_confidence_floor",
+        "pick_type_allowed",
+        "mlb_hr_prop_check",
+        "mlb_pitcher_k_check",
+        "mlb_total_bases_check",
+        "mlb_hits_check",
+        "nba_player_prop_check",
+        "nhl_shots_check",
+        "mlb_run_line_check",
+        "mlb_under_bb_check(soft)",
+        "no_same_game_opposite"
+      ],
+      "locked": true,
+      "late_add": false,
+      "late_add_reason": "",
+      "bonus_pick": false,
+      "event_type": "",
+      "event_name": "",
+      "legs": [],
+      "headline": "Two aces, pitcher-friendly park, wind blowing in \u2014 this is the sharpest total on the board.",
+      "the_thesis": "Tarik Skubal and Zack Wheeler are two of the best pitchers in baseball, and they're meeting at Comerica Park with wind blowing in from right field. Skubal returned from elbow surgery in mid-June and has been dominant \u2014 his 3.06 ERA and 0.95 WHIP are elite, and his 30.4% K rate is top-5 in MLB. Wheeler, back from thoracic outlet surgery, has posted a 2.28 ERA and 0.91 WHIP since returning in late April. Both pitchers limit walks (Skubal 3.6% BB rate, Wheeler 6.0%), which keeps baserunners off and suppresses scoring.\n\nThe offenses here are soft. Detroit ranks 25th in runs per game (4.28), and Philadelphia ranks 22nd (4.36). Comerica Park has a 0.96 runs park factor and 0.95 HR factor \u2014 it's a pitcher's haven. The wind blowing in from right field at 7 mph further suppresses fly balls. The market opened at 7.0 and hasn't moved, which tells me the sharps are comfortable with this number. The de-vigged implied probability for the under is around 53%, but I have this at 63% \u2014 that's a 10-cent edge.\n\nThis is the kind of game where both starters go 6+ innings, the bullpens are fresh heading into the All-Star break, and the final score is 3-2 or 2-1. The only way this busts is if one of the aces gets knocked out early, and neither has shown any signs of that.",
+      "the_data": [
+        {
+          "label": "Skubal ERA / WHIP (2026)",
+          "value": "3.06 / 0.95",
+          "context": "Elite, top-10 in MLB"
+        },
+        {
+          "label": "Wheeler ERA / WHIP (2026)",
+          "value": "2.28 / 0.91",
+          "context": "Cy Young-caliber"
+        },
+        {
+          "label": "Skubal K% / BB%",
+          "value": "30.4% / 3.6%",
+          "context": "Elite strikeout rate, minimal walks"
+        },
+        {
+          "label": "Wheeler K% / BB%",
+          "value": "29.4% / 6.0%",
+          "context": "Strong command"
+        },
+        {
+          "label": "Comerica Park PF (runs/HR)",
+          "value": "0.96 / 0.95",
+          "context": "Pitcher-friendly"
+        },
+        {
+          "label": "DET R/G (season)",
+          "value": "4.28",
+          "context": "25th in MLB"
+        },
+        {
+          "label": "PHI R/G (season)",
+          "value": "4.36",
+          "context": "22nd in MLB"
+        }
+      ],
+      "the_market": "Total opened at 7.0 and sits at 7.0 across all three books. No movement despite two elite arms \u2014 the market is comfortable here, but the juice is slightly to the under (-112 to -118), suggesting sharps lean our way.",
+      "weather_park": "Comerica Park, 77\u00b0F, wind 7 mph blowing in from right field \u2014 net negative for HR and scoring. Park factors favor pitching.",
+      "case_against": "If either ace exits early due to pitch count management before the All-Star break, the bullpens could leak runs. Skubal is still building back from elbow surgery and may be on a soft limit. Wheeler's TOS recovery is still a question mark for durability.",
+      "what_were_betting_on": "Both starters going 6+ innings, combined K rate suppressing the slate, and the bullpens closing cleanly in a low-scoring affair.",
+      "scott_bot_quip": "Two aces, two soft lineups, wind blowing in. The sharps are already here. We don't have to be heroes.",
+      "ladder_note": "Best floor on the board \u2014 two elite SPs with sub-1.00 WHIPs, weak offenses, pitcher-friendly park, and weather all stacked. This is the highest-probability play of the day.",
+      "date": "2026-07-12",
+      "status": "PEND",
+      "units_result": null,
+      "clv_cents": null,
+      "result_score": null,
+      "graded_at": null,
+      "slate_assessment": "15-game MLB Sunday slate before the All-Star break. Two elite pitching matchups (Skubal-Wheeler in Detroit, Seymour vs. depleted Seattle) and several soft totals stand out. No NBA or NHL today.",
+      "executive_summary": "The final Sunday before the All-Star break features 15 MLB games and two pitching matchups that jump off the page. In Detroit, Tarik Skubal faces Zack Wheeler in a battle of aces at pitcher-friendly Comerica Park with wind blowing in \u2014 the Under 7 is the sharpest total on the board. Tampa Bay's Ian Seymour, who's been dominant in his last three starts (2.00 ERA, 27 Ks in 18 IP), hosts a Seattle lineup still missing Julio Rodriguez to a concussion. The Rays Under 7.5 at plus-money is a gift. We're also grabbing value on the Cubs ML at GABP, the Padres Under at Petco, and two pitcher K props where the market is mispriced. The ladder rides with the Skubal-Wheeler Under \u2014 best floor on the board, two elite arms, suppressed offenses, and the park and weather both favor pitching.",
+      "slate_analysis": "Sunday's board features 15 MLB games, all afternoon and evening starts, with no NBA or NHL action. The pricing climate is relatively soft \u2014 most favorites sit between -130 and -150, and totals range from 7.0 to 9.5. Several games feature confirmed starters with strong recent form, and the prop markets are active across K's, total bases, and hits.\n\nThe top candidates that rose during my review: (1) PHI @ DET Under 7 \u2014 Skubal vs. Wheeler at Comerica with wind blowing in from right field, both aces in strong form, and two offenses that rank in the bottom half of MLB in runs per game. (2) SEA @ TB Under 7.5 \u2014 Ian Seymour has been electric in his last three starts (2.00 ERA, 0.56 WHIP, 27 Ks in 18 IP per ESPN), and Seattle is without Julio Rodriguez (concussion) and has averaged the fewest runs per game in MLB over the last month. Tropicana Field suppresses runs. (3) CHC @ CIN Cubs ML \u2014 Matthew Boyd's 26.2% K rate against a Reds lineup that struggles vs. LHP, and Andrew Abbott's 10.3% BB rate creates free baserunners. (4) TOR @ SD Under 8.5 \u2014 Petco Park is pitcher-friendly (0.93 runs PF), Gausman has been solid, and both offenses rank bottom-10 in runs per game. (5) Taj Bradley Ks Over 6.5 \u2014 Bradley's 27.8% K rate against an Angels lineup that strikes out at a high clip, and the line is set at -108/-108, suggesting the market sees this as a coin flip when it shouldn't be. (6) Matthew Boyd Ks Over 5.5 \u2014 Boyd's 26.2% K rate is elite, and the Reds strike out at a league-average rate, but the line is juiced to -128, which still offers value given his recent form.\n\nWhat got cut and why: MIL @ PIT was tempting with Skenes on the mound, but data_confidence is 0.45 (below our 0.6 floor) and Gasser's small sample (43.1 IP) makes the matchup too uncertain. BAL @ KC Under 9.5 looked interesting, but both Baz (9.1% BB rate) and Lugo (7.4% BB rate) walk too many batters \u2014 our rule rejects unders when either SP has BB/9 above 3.5. The Dodgers -1.5 at -102 against Arizona's Mitch Bratt (3.0 IP this season) was tempting, but Bratt's 15.4% BB rate and tiny sample make this a data_confidence issue. TEX vs. HOU Over 9 was considered given Cristian Javier's 10.22 ERA and 2.27 WHIP, but the market has already priced this in, and there's no edge vs. the de-vigged line.\n\nThe final six picks survived because they combine strong predictive metrics with clear market edges. The Skubal-Wheeler Under is the ladder pick \u2014 two elite arms, suppressed offenses, pitcher-friendly park, wind blowing in, and the market hasn't moved off 7.0. That's the highest floor on the board.",
+      "slate_vibe": "NORMAL",
+      "published_at": "2026-07-12T12:00:51.337679-04:00"
+    },
     {
       "id": "20260711-MLB-COL-SF-ML",
       "sport": "MLB",
