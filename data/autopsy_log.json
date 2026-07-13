@@ -1,5 +1,18 @@
 [
   {
+    "id": "20260712-MLB-TOR-SD-TOTAL",
+    "date": "2026-07-12",
+    "pick": "Under 8.5",
+    "game": "TOR @ SD",
+    "odds": "+101",
+    "result_score": "TOR 4 \u00b7 SD 5",
+    "classification": "VARIANCE",
+    "post_mortem": "The under was very much alive through seven innings \u2014 the game sat at TOR 3, SD 3 after Gausman's solid 6-inning, 3-ER outing, and Toronto scratched ahead 4-3 in the top of the 8th on a Jonatan Clase RBI off Adrian Morejon. The under died in the bottom of the 8th against Toronto closer Jeff Hoffman: Manny Machado tied it at 4-4, then Ty France walked it off at 5-4 to push the total to 9. The pick was correctly structured \u2014 Gausman delivered, M\u00e1rquez was pulled early and managed, and the game was under the number heading into the final two innings.",
+    "candidate_rule": null,
+    "sample_size_warning": "N=1, insufficient to establish rule \u2014 this is a clean VARIANCE loss driven by a single two-run 8th inning off the closer; no systemic flaw to correct.",
+    "analyzed_at": "2026-07-12T20:01:13.241599-04:00"
+  },
+  {
     "id": "20260712-MLB-SEA-TB-TOTAL",
     "date": "2026-07-12",
     "pick": "Under 7.5",
