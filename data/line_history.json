@@ -46744,6 +46744,21 @@
       "over_line": 8.5,
       "under_price": -105,
       "under_line": 8.0
+    },
+    {
+      "snap_iso": "2026-07-14T17:51:29.730991-04:00",
+      "total": 8.5,
+      "home_spread": -1.5,
+      "home_ml_implied": 0.5497259201252936,
+      "home_ml_price": -130,
+      "away_ml_price": 116,
+      "home_spread_price": 155,
+      "away_spread_price": -178,
+      "home_spread_line": -1.5,
+      "over_price": -110,
+      "over_line": 8.5,
+      "under_price": -110,
+      "under_line": 8.5
     }
   ]
 }
