@@ -46623,5 +46623,22 @@
       "under_price": -108,
       "under_line": 9.5
     }
+  ],
+  "MLB-401817370": [
+    {
+      "snap_iso": "2026-07-14T12:13:11.129221-04:00",
+      "total": 8.0,
+      "home_spread": -1.5,
+      "home_ml_implied": 0.5427435387673957,
+      "home_ml_price": -130,
+      "away_ml_price": 110,
+      "home_spread_price": 160,
+      "away_spread_price": -185,
+      "home_spread_line": -1.5,
+      "over_price": -115,
+      "over_line": 8.0,
+      "under_price": -104,
+      "under_line": 8.0
+    }
   ]
 }
