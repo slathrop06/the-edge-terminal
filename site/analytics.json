@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-15T12:20:11.482275-04:00",
+  "generated_at": "2026-07-15T12:39:14.184272-04:00",
   "scopes": {
     "daily": {
       "overall": {
@@ -1343,8 +1343,8 @@
       "wins": 0,
       "losses": 0,
       "pushes": 0,
-      "pending": 1,
-      "total_picks": 1,
+      "pending": 2,
+      "total_picks": 2,
       "settled_picks": 0,
       "units_pl": 0,
       "roi_pct": 0.0,
@@ -1355,11 +1355,11 @@
       "biggest_win_units": 0,
       "biggest_loss_units": 0
     },
-    "total": 1
+    "total": 2
   },
   "totals": {
     "all_picks": 193,
-    "bonus_picks": 1,
+    "bonus_picks": 2,
     "sports": [
       "MLB",
       "NBA",

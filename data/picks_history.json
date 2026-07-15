@@ -1,7 +1,102 @@
 {
   "version": 1,
-  "updated_at": "2026-07-15T04:40:40.803260-04:00",
+  "updated_at": "2026-07-15T12:39:14.093716-04:00",
   "picks": [
+    {
+      "id": "20260716-GOLF-OPEN-WINNER-FLEETWOOD",
+      "sport": "GOLF",
+      "game": "The Open Championship \u2014 Round 1",
+      "first_pitch_iso": "2026-07-16T05:35:00Z",
+      "pick": "Tommy Fleetwood \u2014 Outright Winner",
+      "best_book": "DraftKings",
+      "best_odds": "+1750",
+      "book_prices": {
+        "draftkings": "+1750",
+        "fanduel": "+1500",
+        "betmgm": "+1600"
+      },
+      "book_links": {
+        "betmgm": "https://sports.nj.betmgm.com/en/sports/golf-7",
+        "draftkings": "https://sportsbook.draftkings.com/leagues/golf/pga",
+        "fanduel": "https://sportsbook.fanduel.com/navigation/golf"
+      },
+      "market": "OUTRIGHT",
+      "confidence": 3,
+      "units": 1.0,
+      "win_probability": 0.06,
+      "ladder_designation": false,
+      "data_confidence": 0.75,
+      "rules_passed": [
+        "max_juice",
+        "ladder_even_money",
+        "parlay_well_formed",
+        "confidence_units_match",
+        "data_confidence_floor",
+        "pick_type_allowed",
+        "mlb_hr_prop_check",
+        "mlb_pitcher_k_check",
+        "mlb_total_bases_check",
+        "mlb_hits_check",
+        "nba_player_prop_check",
+        "nhl_shots_check",
+        "mlb_run_line_check",
+        "mlb_under_bb_check",
+        "no_same_game_opposite"
+      ],
+      "locked": true,
+      "late_add": false,
+      "late_add_reason": "",
+      "bonus_pick": true,
+      "event_type": "golf_major",
+      "event_name": "The Open Championship",
+      "legs": [],
+      "headline": "The hometown kid at his home course \u2014 this is the story bet of the year.",
+      "the_thesis": "Tommy Fleetwood grew up in Southport. He used to sneak onto Royal Birkdale with his dad as a kid. He attended his first Open at Birkdale in 1998 at age 7. Now he returns as a 35-year-old in the best form of his career, ranked 9th in the world, with his first PGA Tour win under his belt from last year's Tour Championship.\n\nThe conditions favor him. Birkdale is playing firm and fast after a UK heatwave \u2014 temps in the low 80s, minimal rain, moderate winds. Fleetwood grew up flighting shots into blustery links winds. His low ball flight and precision approach play are tailor-made for this test. He's got six top-10s this season, contended at the U.S. Open (T11), and the putter has finally heated up after a slow start to the year.\n\nThis is the narrative bet. If Fleetwood wins The Open at Royal Birkdale, it's an all-time sports moment \u2014 the first English winner since Faldo in '92, at his childhood course, in front of his people. At +1750, you're getting nearly 18-1 on a top-10 player in the world with a legitimate path. The boys need this ticket.",
+      "the_data": [
+        {
+          "label": "2026 Top-10s",
+          "value": "6",
+          "context": "Career-best season"
+        },
+        {
+          "label": "World Ranking",
+          "value": "9",
+          "context": "Elite tier"
+        },
+        {
+          "label": "U.S. Open 2026",
+          "value": "T11",
+          "context": "Contended at a major"
+        },
+        {
+          "label": "First PGA Tour Win",
+          "value": "2025 Tour Championship",
+          "context": "Knows how to close"
+        },
+        {
+          "label": "Open at Birkdale 2017",
+          "value": "T27",
+          "context": "Experience on the course"
+        }
+      ],
+      "the_market": "+1750 at DraftKings \u2014 best price across DK/FD/MGM. FanDuel has him at +1500, BetMGM at +1600.",
+      "weather_park": "Royal Birkdale: 82\u00b0F Thursday, firm and fast. Minimal rain expected. Winds 8-14 mph with gusts to 20. Course is baked out after UK heatwave \u2014 ball-strikers and low-ball-flight players have an edge.",
+      "case_against": "Fleetwood has never won a major. The pressure of a hometown Open could crush him \u2014 ask Rory about Portrush 2019 when he went OB on the first hole and missed the cut. Scheffler is the defending champ and world #1. The narrative doesn't guarantee the result.",
+      "what_were_betting_on": "Fleetwood rides the home crowd, keeps the ball low in the wind, and putts lights out on greens he's dreamed about since childhood. He's in the final pairing Sunday and closes it out for the Claret Jug.",
+      "scott_bot_quip": "The kid who snuck onto Birkdale with his dad is trying to walk off with the Claret Jug. At +1750, we're in.",
+      "ladder_note": "",
+      "date": "2026-07-15",
+      "status": "PEND",
+      "units_result": null,
+      "clv_cents": null,
+      "result_score": null,
+      "graded_at": null,
+      "slate_assessment": "",
+      "executive_summary": "The 154th Open tees off Thursday at Royal Birkdale \u2014 firm, fast, and sun-baked after a UK heatwave. Scottie Scheffler defends at +680, but the story of the week is Tommy Fleetwood. The Southport native grew up sneaking onto Birkdale with his dad. He's in career-best form with six top-10s this season, a T11 at the U.S. Open, and a first PGA Tour win last year. At +1750 on DraftKings, the hometown kid chasing his first major in front of his people is the juice play.",
+      "slate_analysis": "",
+      "slate_vibe": "NORMAL",
+      "published_at": "2026-07-15T12:39:14.093602-04:00"
+    },
     {
       "id": "20260712-MLB-CHC-CIN-PROP-MATTHEWBOYD",
       "sport": "MLB",
