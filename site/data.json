@@ -1,11 +1,772 @@
 {
-  "generated_at": "2026-07-16T12:17:06.734891-04:00",
+  "generated_at": "2026-07-16T12:52:31.562033-04:00",
   "today": "2026-07-16",
   "system_paused": false,
   "pause_reason": "",
-  "today_picks": [],
+  "today_picks": [
+    {
+      "id": "20260716-MLB-NYM-PHI-PROP-BRYCEHARPER",
+      "sport": "MLB",
+      "game": "NYM @ PHI",
+      "first_pitch_iso": "2026-07-16T23:00Z",
+      "pick": "Bryce Harper TB Over 1.5",
+      "best_book": "BetMGM",
+      "best_odds": "+105",
+      "book_prices": {
+        "draftkings": "-135",
+        "fanduel": "N/A",
+        "betmgm": "+105"
+      },
+      "book_links": {
+        "betmgm": "https://sports.nj.betmgm.com/en/sports?options=2:7827644-201585547-765098482&type=Single",
+        "draftkings": "https://sportsbook.draftkings.com/?outcomes=0QA351759351%232213770882_13L84240Q1-44994196Q20",
+        "fanduel": "https://sportsbook.fanduel.com/baseball/mlb/new-york-mets-%28c-scott%29-%40-philadelphia-phillies-%28a-nola%29-35816161"
+      },
+      "market": "PROP",
+      "confidence": 3,
+      "units": 1.0,
+      "win_probability": 0.55,
+      "ladder_designation": false,
+      "data_confidence": 0.7,
+      "rules_passed": [
+        "max_juice",
+        "ladder_even_money",
+        "parlay_well_formed",
+        "confidence_units_match",
+        "data_confidence_floor",
+        "pick_type_allowed",
+        "mlb_hr_prop_check",
+        "mlb_pitcher_k_check",
+        "mlb_total_bases_check",
+        "mlb_hits_check",
+        "nba_player_prop_check",
+        "nhl_shots_check",
+        "mlb_run_line_check",
+        "mlb_under_bb_check",
+        "no_same_game_opposite"
+      ],
+      "locked": true,
+      "late_add": false,
+      "late_add_reason": "",
+      "bonus_pick": false,
+      "event_type": "",
+      "event_name": "",
+      "legs": [],
+      "headline": "Harper at home against a pitcher coming off the IL \u2014 plus money on a proven masher.",
+      "the_thesis": "Bryce Harper has been solid at home all year, and he's facing a pitcher coming off the IL. Christian Scott has been sharp (3.17 ERA) but he's a young arm who hasn't faced the Phillies' full lineup this year. Harper is a proven masher who thrives in Citizens Bank Park.\n\nScott's 1.17 HR/9 is solid but not elite \u2014 Harper has the power to exploit any mistake. The warm weather (92\u00b0F) and HR-friendly park factor (1.10) only amplify the edge. Harper bats 3rd in the lineup, so he'll get 4+ ABs and plenty of opportunities.\n\nThe market has this at +105 on BetMGM, implying about 48.8% probability. I have Harper at 55% to clear 1.5 TB \u2014 that's a 6-cent edge. Plus money on a proven masher at home is value.",
+      "the_data": [
+        {
+          "label": "Harper career HR",
+          "value": "377",
+          "context": "Proven power"
+        },
+        {
+          "label": "Harper lineup spot",
+          "value": "3rd",
+          "context": "4+ ABs guaranteed"
+        },
+        {
+          "label": "Scott HR/9",
+          "value": "1.17",
+          "context": "Solid but exploitable"
+        },
+        {
+          "label": "Citizens Bank Park HR PF",
+          "value": "1.10",
+          "context": "HR-boosting"
+        },
+        {
+          "label": "Game-time temp",
+          "value": "92\u00b0F",
+          "context": "Ball carries"
+        }
+      ],
+      "the_market": "BetMGM has the best price at +105. DraftKings is at -135 \u2014 significant line discrepancy. BetMGM is offering value here.",
+      "weather_park": "92\u00b0F at Citizens Bank Park (1.10 HR factor). Harper's power plays perfectly in this environment.",
+      "case_against": "Scott has been sharp when healthy (3.17 ERA) and could limit Harper to soft contact. Harper could also go 0-for-4 if Scott is on.",
+      "what_were_betting_on": "Harper getting 4+ ABs, Scott leaving a pitch over the plate, Harper's elite power producing at least one XBH.",
+      "scott_bot_quip": "Plus money on Bryce Harper at home. The books are feeling generous tonight.",
+      "ladder_note": "",
+      "date": "2026-07-16",
+      "status": "PEND",
+      "units_result": null,
+      "clv_cents": null,
+      "result_score": null,
+      "graded_at": null,
+      "slate_assessment": "Single-game MLB slate coming out of the All-Star break \u2014 Mets at Phillies at Citizens Bank Park. One game, limited markets, but enough prop depth to find 6 plays.",
+      "executive_summary": "The boys get one game tonight \u2014 Mets at Phillies in Philly, the only action on the board as MLB returns from the All-Star break. Aaron Nola's struggles continue (5.75 ERA, 1.86 HR/9) against a Mets lineup that features Juan Soto, who has homered twice off Nola already this year. Christian Scott is back from the IL and looked sharp in his last outing, but the Mets bullpen is depleted and the Phillies offense \u2014 led by Kyle Schwarber's MLB-leading 32 homers \u2014 has been red-hot. The total at 9.5 in a HR-friendly park with a struggling Nola on the mound points toward the over. The ladder rides with Phillies ML at -130 \u2014 best floor on the board against a last-place club missing key arms.",
+      "slate_analysis": "One game on the board tonight as MLB returns from the All-Star break: Mets at Phillies at Citizens Bank Park, 7:10 PM ET. This is the entire slate \u2014 no NBA, no NHL, no other MLB games. That means we're working with one game's worth of sides, totals, and props to find 6 plays. The good news: Citizens Bank Park is a HR-boosting venue (1.10 HR park factor), the weather is warm (92\u00b0F forecast), and we have two pitchers with exploitable profiles.\n\nThe candidates that rose: (1) Phillies ML at -130 \u2014 the Mets are 40-57, just fired their manager, and their bullpen is missing key arms. The Phillies are 54-43 and have won 7 of their last 10. (2) Over 9.5 at -105 \u2014 Nola's 5.75 ERA and 1.86 HR/9 are brutal, and the Phillies offense has been red-hot (.829 OPS in their last 10 games). Citizens Bank Park's HR factor and warm weather support runs. (3) Juan Soto TB Over 1.5 at -104 \u2014 Soto has homered twice off Nola already this year and is slashing .297/.414/.579 with 21 HR. Nola's HR/9 is 1.86 \u2014 elite power hitters feast on him. (4) Kyle Schwarber TB Over 1.5 at +105 \u2014 Schwarber leads MLB with 32 HR and has been crushing the ball. Scott's 1.17 HR/9 is solid but not elite, and Schwarber's power plays in this park. (5) Christian Scott Ks Under 5.5 at -122 \u2014 Scott's K% is 27.9% but his BB% is 11.2%, meaning he works deep counts and doesn't always get to his strikeout stuff. The Phillies have a disciplined lineup. (6) Bryce Harper TB Over 1.5 at +105 \u2014 Harper has been solid at home and Nola's struggles against lefties are well-documented.\n\nWhat got cut: Mets ML at +110 was tempting given Nola's struggles, but the Mets are a disaster \u2014 40-57, just fired their manager, bullpen is depleted, and they got swept by Boston before the break. The situational edge isn't there. Phillies -1.5 at +150 was considered but the juice is too high for a run line against a team with Juan Soto who can single-handedly keep games close. Under 9.5 was briefly considered but Nola's HR/9 and the park factor make it a non-starter.\n\nThe final six: Phillies ML (ladder pick \u2014 best floor, home team, full strength against a last-place club), Over 9.5 (Nola's struggles + HR-friendly park), Juan Soto TB Over 1.5 (elite hitter vs. struggling pitcher), Kyle Schwarber TB Over 1.5 (MLB HR leader in a HR-friendly park), Christian Scott Ks Under 5.5 (high BB% pitcher vs. disciplined lineup), and Bryce Harper TB Over 1.5 (lefty masher vs. Nola's struggles against LHH). The ladder pick is Phillies ML \u2014 it's the highest-floor play on the board with a winning team at home against a last-place opponent.",
+      "slate_vibe": "SOFT",
+      "published_at": "2026-07-16T12:52:31.538925-04:00"
+    },
+    {
+      "id": "20260716-MLB-NYM-PHI-PROP-KYLESCHWARBER",
+      "sport": "MLB",
+      "game": "NYM @ PHI",
+      "first_pitch_iso": "2026-07-16T23:00Z",
+      "pick": "Kyle Schwarber TB Over 1.5",
+      "best_book": "BetMGM",
+      "best_odds": "+105",
+      "book_prices": {
+        "draftkings": "-123",
+        "fanduel": "N/A",
+        "betmgm": "+105"
+      },
+      "book_links": {
+        "betmgm": "https://sports.nj.betmgm.com/en/sports?options=2:7827644-201585572-765098532&type=Single",
+        "draftkings": "https://sportsbook.draftkings.com/?outcomes=0QA351759386%232213770477_13L84240Q1-44994196Q20",
+        "fanduel": "https://sportsbook.fanduel.com/baseball/mlb/new-york-mets-%28c-scott%29-%40-philadelphia-phillies-%28a-nola%29-35816161"
+      },
+      "market": "PROP",
+      "confidence": 3,
+      "units": 1.0,
+      "win_probability": 0.56,
+      "ladder_designation": false,
+      "data_confidence": 0.75,
+      "rules_passed": [
+        "max_juice",
+        "ladder_even_money",
+        "parlay_well_formed",
+        "confidence_units_match",
+        "data_confidence_floor",
+        "pick_type_allowed",
+        "mlb_hr_prop_check",
+        "mlb_pitcher_k_check",
+        "mlb_total_bases_check(soft)",
+        "mlb_hits_check",
+        "nba_player_prop_check",
+        "nhl_shots_check",
+        "mlb_run_line_check",
+        "mlb_under_bb_check",
+        "no_same_game_opposite"
+      ],
+      "locked": true,
+      "late_add": false,
+      "late_add_reason": "",
+      "bonus_pick": false,
+      "event_type": "",
+      "event_name": "",
+      "legs": [],
+      "headline": "MLB's HR leader in a HR-friendly park against a pitcher coming off the IL \u2014 plus money is a gift.",
+      "the_thesis": "Kyle Schwarber leads MLB with 32 HR and is on pace for 58 on the season. He's been crushing the ball all year \u2014 .962 OPS, 54 RBI, and he's hit 30+ HR before the All-Star break for the first time since Mark McGwire in 1998. This is an elite power hitter in his home park.\n\nChristian Scott has been solid (3.17 ERA, 1.17 HR/9) but he's coming off a hip injury and hasn't pitched in a game since before the All-Star break. The rust factor is real. Scott's 11.2% BB rate also means he works deep counts \u2014 Schwarber is patient enough to wait for his pitch.\n\nThe market has this at +105 on BetMGM, implying about 48.8% probability. I have Schwarber at 56% to clear 1.5 TB \u2014 that's a 7-cent edge. Plus money on the MLB HR leader in a HR-friendly park is a gift.",
+      "the_data": [
+        {
+          "label": "Schwarber HR (2026)",
+          "value": "32",
+          "context": "MLB leader"
+        },
+        {
+          "label": "Schwarber OPS (2026)",
+          "value": ".962",
+          "context": "Elite production"
+        },
+        {
+          "label": "Scott HR/9",
+          "value": "1.17",
+          "context": "Solid but not elite"
+        },
+        {
+          "label": "Citizens Bank Park HR PF",
+          "value": "1.10",
+          "context": "HR-boosting"
+        },
+        {
+          "label": "Scott BB%",
+          "value": "11.2%",
+          "context": "High walk rate, deep counts"
+        }
+      ],
+      "the_market": "BetMGM has the best price at +105. DraftKings is at -123 \u2014 significant line discrepancy. BetMGM is offering value here.",
+      "weather_park": "92\u00b0F at Citizens Bank Park (1.10 HR factor). Schwarber's power plays perfectly in this environment.",
+      "case_against": "Scott has been sharp when healthy (3.17 ERA) and could limit Schwarber to soft contact. Schwarber also strikes out a lot (56.8% K/BB/HR rate) \u2014 he could go 0-for-4 with 3 Ks.",
+      "what_were_betting_on": "Schwarber getting 4+ ABs, Scott leaving a pitch over the plate, Schwarber's elite power producing at least one XBH.",
+      "scott_bot_quip": "The MLB HR leader at plus money in a launching pad. Sometimes the books just give you a gift.",
+      "ladder_note": "",
+      "date": "2026-07-16",
+      "status": "PEND",
+      "units_result": null,
+      "clv_cents": null,
+      "result_score": null,
+      "graded_at": null,
+      "slate_assessment": "Single-game MLB slate coming out of the All-Star break \u2014 Mets at Phillies at Citizens Bank Park. One game, limited markets, but enough prop depth to find 6 plays.",
+      "executive_summary": "The boys get one game tonight \u2014 Mets at Phillies in Philly, the only action on the board as MLB returns from the All-Star break. Aaron Nola's struggles continue (5.75 ERA, 1.86 HR/9) against a Mets lineup that features Juan Soto, who has homered twice off Nola already this year. Christian Scott is back from the IL and looked sharp in his last outing, but the Mets bullpen is depleted and the Phillies offense \u2014 led by Kyle Schwarber's MLB-leading 32 homers \u2014 has been red-hot. The total at 9.5 in a HR-friendly park with a struggling Nola on the mound points toward the over. The ladder rides with Phillies ML at -130 \u2014 best floor on the board against a last-place club missing key arms.",
+      "slate_analysis": "One game on the board tonight as MLB returns from the All-Star break: Mets at Phillies at Citizens Bank Park, 7:10 PM ET. This is the entire slate \u2014 no NBA, no NHL, no other MLB games. That means we're working with one game's worth of sides, totals, and props to find 6 plays. The good news: Citizens Bank Park is a HR-boosting venue (1.10 HR park factor), the weather is warm (92\u00b0F forecast), and we have two pitchers with exploitable profiles.\n\nThe candidates that rose: (1) Phillies ML at -130 \u2014 the Mets are 40-57, just fired their manager, and their bullpen is missing key arms. The Phillies are 54-43 and have won 7 of their last 10. (2) Over 9.5 at -105 \u2014 Nola's 5.75 ERA and 1.86 HR/9 are brutal, and the Phillies offense has been red-hot (.829 OPS in their last 10 games). Citizens Bank Park's HR factor and warm weather support runs. (3) Juan Soto TB Over 1.5 at -104 \u2014 Soto has homered twice off Nola already this year and is slashing .297/.414/.579 with 21 HR. Nola's HR/9 is 1.86 \u2014 elite power hitters feast on him. (4) Kyle Schwarber TB Over 1.5 at +105 \u2014 Schwarber leads MLB with 32 HR and has been crushing the ball. Scott's 1.17 HR/9 is solid but not elite, and Schwarber's power plays in this park. (5) Christian Scott Ks Under 5.5 at -122 \u2014 Scott's K% is 27.9% but his BB% is 11.2%, meaning he works deep counts and doesn't always get to his strikeout stuff. The Phillies have a disciplined lineup. (6) Bryce Harper TB Over 1.5 at +105 \u2014 Harper has been solid at home and Nola's struggles against lefties are well-documented.\n\nWhat got cut: Mets ML at +110 was tempting given Nola's struggles, but the Mets are a disaster \u2014 40-57, just fired their manager, bullpen is depleted, and they got swept by Boston before the break. The situational edge isn't there. Phillies -1.5 at +150 was considered but the juice is too high for a run line against a team with Juan Soto who can single-handedly keep games close. Under 9.5 was briefly considered but Nola's HR/9 and the park factor make it a non-starter.\n\nThe final six: Phillies ML (ladder pick \u2014 best floor, home team, full strength against a last-place club), Over 9.5 (Nola's struggles + HR-friendly park), Juan Soto TB Over 1.5 (elite hitter vs. struggling pitcher), Kyle Schwarber TB Over 1.5 (MLB HR leader in a HR-friendly park), Christian Scott Ks Under 5.5 (high BB% pitcher vs. disciplined lineup), and Bryce Harper TB Over 1.5 (lefty masher vs. Nola's struggles against LHH). The ladder pick is Phillies ML \u2014 it's the highest-floor play on the board with a winning team at home against a last-place opponent.",
+      "slate_vibe": "SOFT",
+      "published_at": "2026-07-16T12:52:31.538857-04:00"
+    },
+    {
+      "id": "20260716-MLB-NYM-PHI-PROP-JUANSOTO",
+      "sport": "MLB",
+      "game": "NYM @ PHI",
+      "first_pitch_iso": "2026-07-16T23:00Z",
+      "pick": "Juan Soto TB Over 1.5",
+      "best_book": "DraftKings",
+      "best_odds": "-104",
+      "book_prices": {
+        "draftkings": "-104",
+        "fanduel": "N/A",
+        "betmgm": "-118"
+      },
+      "book_links": {
+        "betmgm": "https://sports.nj.betmgm.com/en/sports?options=2:7827644-201585505-765098398&type=Single",
+        "draftkings": "https://sportsbook.draftkings.com/?outcomes=0QA351759045%232213769437_13L84240Q1-44994196Q20",
+        "fanduel": "https://sportsbook.fanduel.com/baseball/mlb/new-york-mets-%28c-scott%29-%40-philadelphia-phillies-%28a-nola%29-35816161"
+      },
+      "market": "PROP",
+      "confidence": 4,
+      "units": 1.5,
+      "win_probability": 0.62,
+      "ladder_designation": true,
+      "data_confidence": 0.8,
+      "rules_passed": [
+        "max_juice",
+        "ladder_even_money",
+        "parlay_well_formed",
+        "confidence_units_match",
+        "data_confidence_floor",
+        "pick_type_allowed",
+        "mlb_hr_prop_check",
+        "mlb_pitcher_k_check",
+        "mlb_total_bases_check(soft)",
+        "mlb_hits_check",
+        "nba_player_prop_check",
+        "nhl_shots_check",
+        "mlb_run_line_check",
+        "mlb_under_bb_check",
+        "no_same_game_opposite"
+      ],
+      "locked": true,
+      "late_add": false,
+      "late_add_reason": "",
+      "bonus_pick": false,
+      "event_type": "",
+      "event_name": "",
+      "legs": [],
+      "headline": "Soto has homered twice off Nola this year \u2014 elite hitter vs. struggling pitcher in a HR-friendly park.",
+      "the_thesis": "Juan Soto is slashing .297/.414/.579 with 21 HR this season. He's been on a tear lately \u2014 4 HR in his last 7 games with a 1.348 OPS. And he owns Aaron Nola: he's already homered twice off him this year, including a pair of solo shots in their last meeting.\n\nNola's 1.86 HR/9 is the worst of his career. His four-seam fastball ranks in the 1st percentile in MLB \u2014 elite hitters are sitting on it and crushing it. Soto is exactly the type of hitter who exploits this: patient, elite bat-to-ball skills, and massive power. Citizens Bank Park's 1.10 HR factor and 92\u00b0F weather only amplify the edge.\n\nThe market has this at -104, implying about 51% probability. I have Soto at 62% to clear 1.5 TB \u2014 that's an 11-cent edge. This is one of the sharpest prop plays on the board.",
+      "the_data": [
+        {
+          "label": "Soto 2026 slash",
+          "value": ".297/.414/.579",
+          "context": "Elite production"
+        },
+        {
+          "label": "Soto HR (2026)",
+          "value": "21",
+          "context": "On pace for 40+"
+        },
+        {
+          "label": "Soto vs. Nola (2026)",
+          "value": "2 HR",
+          "context": "Owns him this year"
+        },
+        {
+          "label": "Nola HR/9",
+          "value": "1.86",
+          "context": "Career-worst, HR-prone"
+        },
+        {
+          "label": "Soto L7 OPS",
+          "value": "1.348",
+          "context": "Red-hot stretch"
+        }
+      ],
+      "the_market": "DraftKings has the best price at -104. BetMGM is at -118. The line hasn't moved despite Soto's recent tear \u2014 value is still there.",
+      "weather_park": "92\u00b0F at Citizens Bank Park (1.10 HR factor). Warm weather + HR-friendly park = ideal conditions for Soto's power.",
+      "case_against": "Nola could find his curveball and keep Soto off-balance. Soto could also walk 2-3 times (he leads the NL in OBP) and not get enough ABs to clear 1.5 TB.",
+      "what_were_betting_on": "Soto getting 4+ ABs, Nola leaving a fastball over the plate, Soto's elite bat-to-ball skills producing at least one XBH.",
+      "scott_bot_quip": "Soto has homered twice off Nola this year. Third time's the charm \u2014 or the fourth.",
+      "ladder_note": "",
+      "date": "2026-07-16",
+      "status": "PEND",
+      "units_result": null,
+      "clv_cents": null,
+      "result_score": null,
+      "graded_at": null,
+      "slate_assessment": "Single-game MLB slate coming out of the All-Star break \u2014 Mets at Phillies at Citizens Bank Park. One game, limited markets, but enough prop depth to find 6 plays.",
+      "executive_summary": "The boys get one game tonight \u2014 Mets at Phillies in Philly, the only action on the board as MLB returns from the All-Star break. Aaron Nola's struggles continue (5.75 ERA, 1.86 HR/9) against a Mets lineup that features Juan Soto, who has homered twice off Nola already this year. Christian Scott is back from the IL and looked sharp in his last outing, but the Mets bullpen is depleted and the Phillies offense \u2014 led by Kyle Schwarber's MLB-leading 32 homers \u2014 has been red-hot. The total at 9.5 in a HR-friendly park with a struggling Nola on the mound points toward the over. The ladder rides with Phillies ML at -130 \u2014 best floor on the board against a last-place club missing key arms.",
+      "slate_analysis": "One game on the board tonight as MLB returns from the All-Star break: Mets at Phillies at Citizens Bank Park, 7:10 PM ET. This is the entire slate \u2014 no NBA, no NHL, no other MLB games. That means we're working with one game's worth of sides, totals, and props to find 6 plays. The good news: Citizens Bank Park is a HR-boosting venue (1.10 HR park factor), the weather is warm (92\u00b0F forecast), and we have two pitchers with exploitable profiles.\n\nThe candidates that rose: (1) Phillies ML at -130 \u2014 the Mets are 40-57, just fired their manager, and their bullpen is missing key arms. The Phillies are 54-43 and have won 7 of their last 10. (2) Over 9.5 at -105 \u2014 Nola's 5.75 ERA and 1.86 HR/9 are brutal, and the Phillies offense has been red-hot (.829 OPS in their last 10 games). Citizens Bank Park's HR factor and warm weather support runs. (3) Juan Soto TB Over 1.5 at -104 \u2014 Soto has homered twice off Nola already this year and is slashing .297/.414/.579 with 21 HR. Nola's HR/9 is 1.86 \u2014 elite power hitters feast on him. (4) Kyle Schwarber TB Over 1.5 at +105 \u2014 Schwarber leads MLB with 32 HR and has been crushing the ball. Scott's 1.17 HR/9 is solid but not elite, and Schwarber's power plays in this park. (5) Christian Scott Ks Under 5.5 at -122 \u2014 Scott's K% is 27.9% but his BB% is 11.2%, meaning he works deep counts and doesn't always get to his strikeout stuff. The Phillies have a disciplined lineup. (6) Bryce Harper TB Over 1.5 at +105 \u2014 Harper has been solid at home and Nola's struggles against lefties are well-documented.\n\nWhat got cut: Mets ML at +110 was tempting given Nola's struggles, but the Mets are a disaster \u2014 40-57, just fired their manager, bullpen is depleted, and they got swept by Boston before the break. The situational edge isn't there. Phillies -1.5 at +150 was considered but the juice is too high for a run line against a team with Juan Soto who can single-handedly keep games close. Under 9.5 was briefly considered but Nola's HR/9 and the park factor make it a non-starter.\n\nThe final six: Phillies ML (ladder pick \u2014 best floor, home team, full strength against a last-place club), Over 9.5 (Nola's struggles + HR-friendly park), Juan Soto TB Over 1.5 (elite hitter vs. struggling pitcher), Kyle Schwarber TB Over 1.5 (MLB HR leader in a HR-friendly park), Christian Scott Ks Under 5.5 (high BB% pitcher vs. disciplined lineup), and Bryce Harper TB Over 1.5 (lefty masher vs. Nola's struggles against LHH). The ladder pick is Phillies ML \u2014 it's the highest-floor play on the board with a winning team at home against a last-place opponent.",
+      "slate_vibe": "SOFT",
+      "published_at": "2026-07-16T12:52:31.538781-04:00"
+    },
+    {
+      "id": "20260716-MLB-NYM-PHI-TOTAL",
+      "sport": "MLB",
+      "game": "NYM @ PHI",
+      "first_pitch_iso": "2026-07-16T23:00Z",
+      "pick": "Over 9.5",
+      "best_book": "BetMGM",
+      "best_odds": "-105",
+      "book_prices": {
+        "draftkings": "-107",
+        "fanduel": "-110",
+        "betmgm": "-105"
+      },
+      "book_links": {
+        "fanduel": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.592258354&selectionId=7017905",
+        "betmgm": "https://sports.nj.betmgm.com/en/sports?options=19803968-1542775860-2253406444&type=Single",
+        "draftkings": "https://sportsbook.draftkings.com/?outcomes=0OU85504590O950_1"
+      },
+      "market": "TOTAL",
+      "confidence": 4,
+      "units": 1.5,
+      "win_probability": 0.6,
+      "ladder_designation": false,
+      "data_confidence": 0.75,
+      "rules_passed": [
+        "max_juice",
+        "ladder_even_money",
+        "parlay_well_formed",
+        "confidence_units_match",
+        "data_confidence_floor",
+        "pick_type_allowed",
+        "mlb_hr_prop_check",
+        "mlb_pitcher_k_check",
+        "mlb_total_bases_check",
+        "mlb_hits_check",
+        "nba_player_prop_check",
+        "nhl_shots_check",
+        "mlb_run_line_check",
+        "mlb_under_bb_check",
+        "no_same_game_opposite"
+      ],
+      "locked": true,
+      "late_add": false,
+      "late_add_reason": "",
+      "bonus_pick": false,
+      "event_type": "",
+      "event_name": "",
+      "legs": [],
+      "headline": "Nola's HR/9 is 1.86 in a HR-boosting park on a 92-degree night \u2014 runs are coming.",
+      "the_thesis": "Aaron Nola's 1.86 HR/9 is a disaster waiting to happen at Citizens Bank Park, which has a 1.10 HR park factor. The Phillies have been crushing the ball \u2014 .829 OPS over their last 10 games \u2014 and Schwarber leads MLB with 32 HR. Warm weather (92\u00b0F) only amplifies the HR risk.\n\nOn the other side, Christian Scott has been solid (3.17 ERA) but his 11.2% BB rate means he works deep counts and puts runners on. The Phillies are a disciplined lineup that will make Scott work. If Scott exits early, the Mets bullpen is depleted \u2014 they're missing key arms and got outscored 13-4 in their last series against Boston.\n\nThe total opened at 9.5 and has held. The market is pricing this as a coin flip, but I have the over at 60% given Nola's struggles, the park factor, and the weather. That's an 8-cent edge.",
+      "the_data": [
+        {
+          "label": "Nola HR/9 (2026)",
+          "value": "1.86",
+          "context": "Worst of career, HR-prone"
+        },
+        {
+          "label": "Citizens Bank Park HR PF",
+          "value": "1.10",
+          "context": "HR-boosting"
+        },
+        {
+          "label": "Game-time temp",
+          "value": "92\u00b0F",
+          "context": "Warm, ball carries"
+        },
+        {
+          "label": "PHI OPS L10",
+          "value": ".829",
+          "context": "Red-hot offense"
+        },
+        {
+          "label": "Scott BB%",
+          "value": "11.2%",
+          "context": "High walk rate, runners on"
+        }
+      ],
+      "the_market": "Total opened 9.5 and has held across all books. Public is 67% on the over per consensus, but the line hasn't moved \u2014 books are comfortable with this number. BetMGM has the best price at -105.",
+      "weather_park": "92\u00b0F, warm and humid at Citizens Bank Park. HR-friendly park factor (1.10) \u2014 this is a launching pad tonight.",
+      "case_against": "Scott has been sharp (3.17 ERA) and could suppress the Phillies if he's on. If Nola finds his curveball and limits damage, this could stay under. Both bullpens could also lock it down late.",
+      "what_were_betting_on": "Nola giving up 4+ runs, Phillies offense continuing to mash, warm weather boosting HR distance.",
+      "scott_bot_quip": "Nola's HR/9 says 'launch angle.' The park says 'short porch.' The weather says 'carry.'",
+      "ladder_note": "",
+      "date": "2026-07-16",
+      "status": "PEND",
+      "units_result": null,
+      "clv_cents": null,
+      "result_score": null,
+      "graded_at": null,
+      "slate_assessment": "Single-game MLB slate coming out of the All-Star break \u2014 Mets at Phillies at Citizens Bank Park. One game, limited markets, but enough prop depth to find 6 plays.",
+      "executive_summary": "The boys get one game tonight \u2014 Mets at Phillies in Philly, the only action on the board as MLB returns from the All-Star break. Aaron Nola's struggles continue (5.75 ERA, 1.86 HR/9) against a Mets lineup that features Juan Soto, who has homered twice off Nola already this year. Christian Scott is back from the IL and looked sharp in his last outing, but the Mets bullpen is depleted and the Phillies offense \u2014 led by Kyle Schwarber's MLB-leading 32 homers \u2014 has been red-hot. The total at 9.5 in a HR-friendly park with a struggling Nola on the mound points toward the over. The ladder rides with Phillies ML at -130 \u2014 best floor on the board against a last-place club missing key arms.",
+      "slate_analysis": "One game on the board tonight as MLB returns from the All-Star break: Mets at Phillies at Citizens Bank Park, 7:10 PM ET. This is the entire slate \u2014 no NBA, no NHL, no other MLB games. That means we're working with one game's worth of sides, totals, and props to find 6 plays. The good news: Citizens Bank Park is a HR-boosting venue (1.10 HR park factor), the weather is warm (92\u00b0F forecast), and we have two pitchers with exploitable profiles.\n\nThe candidates that rose: (1) Phillies ML at -130 \u2014 the Mets are 40-57, just fired their manager, and their bullpen is missing key arms. The Phillies are 54-43 and have won 7 of their last 10. (2) Over 9.5 at -105 \u2014 Nola's 5.75 ERA and 1.86 HR/9 are brutal, and the Phillies offense has been red-hot (.829 OPS in their last 10 games). Citizens Bank Park's HR factor and warm weather support runs. (3) Juan Soto TB Over 1.5 at -104 \u2014 Soto has homered twice off Nola already this year and is slashing .297/.414/.579 with 21 HR. Nola's HR/9 is 1.86 \u2014 elite power hitters feast on him. (4) Kyle Schwarber TB Over 1.5 at +105 \u2014 Schwarber leads MLB with 32 HR and has been crushing the ball. Scott's 1.17 HR/9 is solid but not elite, and Schwarber's power plays in this park. (5) Christian Scott Ks Under 5.5 at -122 \u2014 Scott's K% is 27.9% but his BB% is 11.2%, meaning he works deep counts and doesn't always get to his strikeout stuff. The Phillies have a disciplined lineup. (6) Bryce Harper TB Over 1.5 at +105 \u2014 Harper has been solid at home and Nola's struggles against lefties are well-documented.\n\nWhat got cut: Mets ML at +110 was tempting given Nola's struggles, but the Mets are a disaster \u2014 40-57, just fired their manager, bullpen is depleted, and they got swept by Boston before the break. The situational edge isn't there. Phillies -1.5 at +150 was considered but the juice is too high for a run line against a team with Juan Soto who can single-handedly keep games close. Under 9.5 was briefly considered but Nola's HR/9 and the park factor make it a non-starter.\n\nThe final six: Phillies ML (ladder pick \u2014 best floor, home team, full strength against a last-place club), Over 9.5 (Nola's struggles + HR-friendly park), Juan Soto TB Over 1.5 (elite hitter vs. struggling pitcher), Kyle Schwarber TB Over 1.5 (MLB HR leader in a HR-friendly park), Christian Scott Ks Under 5.5 (high BB% pitcher vs. disciplined lineup), and Bryce Harper TB Over 1.5 (lefty masher vs. Nola's struggles against LHH). The ladder pick is Phillies ML \u2014 it's the highest-floor play on the board with a winning team at home against a last-place opponent.",
+      "slate_vibe": "SOFT",
+      "published_at": "2026-07-16T12:52:31.538654-04:00"
+    }
+  ],
   "today_bonus_picks": [],
   "all_picks": [
+    {
+      "id": "20260716-MLB-NYM-PHI-PROP-BRYCEHARPER",
+      "sport": "MLB",
+      "game": "NYM @ PHI",
+      "first_pitch_iso": "2026-07-16T23:00Z",
+      "pick": "Bryce Harper TB Over 1.5",
+      "best_book": "BetMGM",
+      "best_odds": "+105",
+      "book_prices": {
+        "draftkings": "-135",
+        "fanduel": "N/A",
+        "betmgm": "+105"
+      },
+      "book_links": {
+        "betmgm": "https://sports.nj.betmgm.com/en/sports?options=2:7827644-201585547-765098482&type=Single",
+        "draftkings": "https://sportsbook.draftkings.com/?outcomes=0QA351759351%232213770882_13L84240Q1-44994196Q20",
+        "fanduel": "https://sportsbook.fanduel.com/baseball/mlb/new-york-mets-%28c-scott%29-%40-philadelphia-phillies-%28a-nola%29-35816161"
+      },
+      "market": "PROP",
+      "confidence": 3,
+      "units": 1.0,
+      "win_probability": 0.55,
+      "ladder_designation": false,
+      "data_confidence": 0.7,
+      "rules_passed": [
+        "max_juice",
+        "ladder_even_money",
+        "parlay_well_formed",
+        "confidence_units_match",
+        "data_confidence_floor",
+        "pick_type_allowed",
+        "mlb_hr_prop_check",
+        "mlb_pitcher_k_check",
+        "mlb_total_bases_check",
+        "mlb_hits_check",
+        "nba_player_prop_check",
+        "nhl_shots_check",
+        "mlb_run_line_check",
+        "mlb_under_bb_check",
+        "no_same_game_opposite"
+      ],
+      "locked": true,
+      "late_add": false,
+      "late_add_reason": "",
+      "bonus_pick": false,
+      "event_type": "",
+      "event_name": "",
+      "legs": [],
+      "headline": "Harper at home against a pitcher coming off the IL \u2014 plus money on a proven masher.",
+      "the_thesis": "Bryce Harper has been solid at home all year, and he's facing a pitcher coming off the IL. Christian Scott has been sharp (3.17 ERA) but he's a young arm who hasn't faced the Phillies' full lineup this year. Harper is a proven masher who thrives in Citizens Bank Park.\n\nScott's 1.17 HR/9 is solid but not elite \u2014 Harper has the power to exploit any mistake. The warm weather (92\u00b0F) and HR-friendly park factor (1.10) only amplify the edge. Harper bats 3rd in the lineup, so he'll get 4+ ABs and plenty of opportunities.\n\nThe market has this at +105 on BetMGM, implying about 48.8% probability. I have Harper at 55% to clear 1.5 TB \u2014 that's a 6-cent edge. Plus money on a proven masher at home is value.",
+      "the_data": [
+        {
+          "label": "Harper career HR",
+          "value": "377",
+          "context": "Proven power"
+        },
+        {
+          "label": "Harper lineup spot",
+          "value": "3rd",
+          "context": "4+ ABs guaranteed"
+        },
+        {
+          "label": "Scott HR/9",
+          "value": "1.17",
+          "context": "Solid but exploitable"
+        },
+        {
+          "label": "Citizens Bank Park HR PF",
+          "value": "1.10",
+          "context": "HR-boosting"
+        },
+        {
+          "label": "Game-time temp",
+          "value": "92\u00b0F",
+          "context": "Ball carries"
+        }
+      ],
+      "the_market": "BetMGM has the best price at +105. DraftKings is at -135 \u2014 significant line discrepancy. BetMGM is offering value here.",
+      "weather_park": "92\u00b0F at Citizens Bank Park (1.10 HR factor). Harper's power plays perfectly in this environment.",
+      "case_against": "Scott has been sharp when healthy (3.17 ERA) and could limit Harper to soft contact. Harper could also go 0-for-4 if Scott is on.",
+      "what_were_betting_on": "Harper getting 4+ ABs, Scott leaving a pitch over the plate, Harper's elite power producing at least one XBH.",
+      "scott_bot_quip": "Plus money on Bryce Harper at home. The books are feeling generous tonight.",
+      "ladder_note": "",
+      "date": "2026-07-16",
+      "status": "PEND",
+      "units_result": null,
+      "clv_cents": null,
+      "result_score": null,
+      "graded_at": null,
+      "slate_assessment": "Single-game MLB slate coming out of the All-Star break \u2014 Mets at Phillies at Citizens Bank Park. One game, limited markets, but enough prop depth to find 6 plays.",
+      "executive_summary": "The boys get one game tonight \u2014 Mets at Phillies in Philly, the only action on the board as MLB returns from the All-Star break. Aaron Nola's struggles continue (5.75 ERA, 1.86 HR/9) against a Mets lineup that features Juan Soto, who has homered twice off Nola already this year. Christian Scott is back from the IL and looked sharp in his last outing, but the Mets bullpen is depleted and the Phillies offense \u2014 led by Kyle Schwarber's MLB-leading 32 homers \u2014 has been red-hot. The total at 9.5 in a HR-friendly park with a struggling Nola on the mound points toward the over. The ladder rides with Phillies ML at -130 \u2014 best floor on the board against a last-place club missing key arms.",
+      "slate_analysis": "One game on the board tonight as MLB returns from the All-Star break: Mets at Phillies at Citizens Bank Park, 7:10 PM ET. This is the entire slate \u2014 no NBA, no NHL, no other MLB games. That means we're working with one game's worth of sides, totals, and props to find 6 plays. The good news: Citizens Bank Park is a HR-boosting venue (1.10 HR park factor), the weather is warm (92\u00b0F forecast), and we have two pitchers with exploitable profiles.\n\nThe candidates that rose: (1) Phillies ML at -130 \u2014 the Mets are 40-57, just fired their manager, and their bullpen is missing key arms. The Phillies are 54-43 and have won 7 of their last 10. (2) Over 9.5 at -105 \u2014 Nola's 5.75 ERA and 1.86 HR/9 are brutal, and the Phillies offense has been red-hot (.829 OPS in their last 10 games). Citizens Bank Park's HR factor and warm weather support runs. (3) Juan Soto TB Over 1.5 at -104 \u2014 Soto has homered twice off Nola already this year and is slashing .297/.414/.579 with 21 HR. Nola's HR/9 is 1.86 \u2014 elite power hitters feast on him. (4) Kyle Schwarber TB Over 1.5 at +105 \u2014 Schwarber leads MLB with 32 HR and has been crushing the ball. Scott's 1.17 HR/9 is solid but not elite, and Schwarber's power plays in this park. (5) Christian Scott Ks Under 5.5 at -122 \u2014 Scott's K% is 27.9% but his BB% is 11.2%, meaning he works deep counts and doesn't always get to his strikeout stuff. The Phillies have a disciplined lineup. (6) Bryce Harper TB Over 1.5 at +105 \u2014 Harper has been solid at home and Nola's struggles against lefties are well-documented.\n\nWhat got cut: Mets ML at +110 was tempting given Nola's struggles, but the Mets are a disaster \u2014 40-57, just fired their manager, bullpen is depleted, and they got swept by Boston before the break. The situational edge isn't there. Phillies -1.5 at +150 was considered but the juice is too high for a run line against a team with Juan Soto who can single-handedly keep games close. Under 9.5 was briefly considered but Nola's HR/9 and the park factor make it a non-starter.\n\nThe final six: Phillies ML (ladder pick \u2014 best floor, home team, full strength against a last-place club), Over 9.5 (Nola's struggles + HR-friendly park), Juan Soto TB Over 1.5 (elite hitter vs. struggling pitcher), Kyle Schwarber TB Over 1.5 (MLB HR leader in a HR-friendly park), Christian Scott Ks Under 5.5 (high BB% pitcher vs. disciplined lineup), and Bryce Harper TB Over 1.5 (lefty masher vs. Nola's struggles against LHH). The ladder pick is Phillies ML \u2014 it's the highest-floor play on the board with a winning team at home against a last-place opponent.",
+      "slate_vibe": "SOFT",
+      "published_at": "2026-07-16T12:52:31.538925-04:00"
+    },
+    {
+      "id": "20260716-MLB-NYM-PHI-PROP-KYLESCHWARBER",
+      "sport": "MLB",
+      "game": "NYM @ PHI",
+      "first_pitch_iso": "2026-07-16T23:00Z",
+      "pick": "Kyle Schwarber TB Over 1.5",
+      "best_book": "BetMGM",
+      "best_odds": "+105",
+      "book_prices": {
+        "draftkings": "-123",
+        "fanduel": "N/A",
+        "betmgm": "+105"
+      },
+      "book_links": {
+        "betmgm": "https://sports.nj.betmgm.com/en/sports?options=2:7827644-201585572-765098532&type=Single",
+        "draftkings": "https://sportsbook.draftkings.com/?outcomes=0QA351759386%232213770477_13L84240Q1-44994196Q20",
+        "fanduel": "https://sportsbook.fanduel.com/baseball/mlb/new-york-mets-%28c-scott%29-%40-philadelphia-phillies-%28a-nola%29-35816161"
+      },
+      "market": "PROP",
+      "confidence": 3,
+      "units": 1.0,
+      "win_probability": 0.56,
+      "ladder_designation": false,
+      "data_confidence": 0.75,
+      "rules_passed": [
+        "max_juice",
+        "ladder_even_money",
+        "parlay_well_formed",
+        "confidence_units_match",
+        "data_confidence_floor",
+        "pick_type_allowed",
+        "mlb_hr_prop_check",
+        "mlb_pitcher_k_check",
+        "mlb_total_bases_check(soft)",
+        "mlb_hits_check",
+        "nba_player_prop_check",
+        "nhl_shots_check",
+        "mlb_run_line_check",
+        "mlb_under_bb_check",
+        "no_same_game_opposite"
+      ],
+      "locked": true,
+      "late_add": false,
+      "late_add_reason": "",
+      "bonus_pick": false,
+      "event_type": "",
+      "event_name": "",
+      "legs": [],
+      "headline": "MLB's HR leader in a HR-friendly park against a pitcher coming off the IL \u2014 plus money is a gift.",
+      "the_thesis": "Kyle Schwarber leads MLB with 32 HR and is on pace for 58 on the season. He's been crushing the ball all year \u2014 .962 OPS, 54 RBI, and he's hit 30+ HR before the All-Star break for the first time since Mark McGwire in 1998. This is an elite power hitter in his home park.\n\nChristian Scott has been solid (3.17 ERA, 1.17 HR/9) but he's coming off a hip injury and hasn't pitched in a game since before the All-Star break. The rust factor is real. Scott's 11.2% BB rate also means he works deep counts \u2014 Schwarber is patient enough to wait for his pitch.\n\nThe market has this at +105 on BetMGM, implying about 48.8% probability. I have Schwarber at 56% to clear 1.5 TB \u2014 that's a 7-cent edge. Plus money on the MLB HR leader in a HR-friendly park is a gift.",
+      "the_data": [
+        {
+          "label": "Schwarber HR (2026)",
+          "value": "32",
+          "context": "MLB leader"
+        },
+        {
+          "label": "Schwarber OPS (2026)",
+          "value": ".962",
+          "context": "Elite production"
+        },
+        {
+          "label": "Scott HR/9",
+          "value": "1.17",
+          "context": "Solid but not elite"
+        },
+        {
+          "label": "Citizens Bank Park HR PF",
+          "value": "1.10",
+          "context": "HR-boosting"
+        },
+        {
+          "label": "Scott BB%",
+          "value": "11.2%",
+          "context": "High walk rate, deep counts"
+        }
+      ],
+      "the_market": "BetMGM has the best price at +105. DraftKings is at -123 \u2014 significant line discrepancy. BetMGM is offering value here.",
+      "weather_park": "92\u00b0F at Citizens Bank Park (1.10 HR factor). Schwarber's power plays perfectly in this environment.",
+      "case_against": "Scott has been sharp when healthy (3.17 ERA) and could limit Schwarber to soft contact. Schwarber also strikes out a lot (56.8% K/BB/HR rate) \u2014 he could go 0-for-4 with 3 Ks.",
+      "what_were_betting_on": "Schwarber getting 4+ ABs, Scott leaving a pitch over the plate, Schwarber's elite power producing at least one XBH.",
+      "scott_bot_quip": "The MLB HR leader at plus money in a launching pad. Sometimes the books just give you a gift.",
+      "ladder_note": "",
+      "date": "2026-07-16",
+      "status": "PEND",
+      "units_result": null,
+      "clv_cents": null,
+      "result_score": null,
+      "graded_at": null,
+      "slate_assessment": "Single-game MLB slate coming out of the All-Star break \u2014 Mets at Phillies at Citizens Bank Park. One game, limited markets, but enough prop depth to find 6 plays.",
+      "executive_summary": "The boys get one game tonight \u2014 Mets at Phillies in Philly, the only action on the board as MLB returns from the All-Star break. Aaron Nola's struggles continue (5.75 ERA, 1.86 HR/9) against a Mets lineup that features Juan Soto, who has homered twice off Nola already this year. Christian Scott is back from the IL and looked sharp in his last outing, but the Mets bullpen is depleted and the Phillies offense \u2014 led by Kyle Schwarber's MLB-leading 32 homers \u2014 has been red-hot. The total at 9.5 in a HR-friendly park with a struggling Nola on the mound points toward the over. The ladder rides with Phillies ML at -130 \u2014 best floor on the board against a last-place club missing key arms.",
+      "slate_analysis": "One game on the board tonight as MLB returns from the All-Star break: Mets at Phillies at Citizens Bank Park, 7:10 PM ET. This is the entire slate \u2014 no NBA, no NHL, no other MLB games. That means we're working with one game's worth of sides, totals, and props to find 6 plays. The good news: Citizens Bank Park is a HR-boosting venue (1.10 HR park factor), the weather is warm (92\u00b0F forecast), and we have two pitchers with exploitable profiles.\n\nThe candidates that rose: (1) Phillies ML at -130 \u2014 the Mets are 40-57, just fired their manager, and their bullpen is missing key arms. The Phillies are 54-43 and have won 7 of their last 10. (2) Over 9.5 at -105 \u2014 Nola's 5.75 ERA and 1.86 HR/9 are brutal, and the Phillies offense has been red-hot (.829 OPS in their last 10 games). Citizens Bank Park's HR factor and warm weather support runs. (3) Juan Soto TB Over 1.5 at -104 \u2014 Soto has homered twice off Nola already this year and is slashing .297/.414/.579 with 21 HR. Nola's HR/9 is 1.86 \u2014 elite power hitters feast on him. (4) Kyle Schwarber TB Over 1.5 at +105 \u2014 Schwarber leads MLB with 32 HR and has been crushing the ball. Scott's 1.17 HR/9 is solid but not elite, and Schwarber's power plays in this park. (5) Christian Scott Ks Under 5.5 at -122 \u2014 Scott's K% is 27.9% but his BB% is 11.2%, meaning he works deep counts and doesn't always get to his strikeout stuff. The Phillies have a disciplined lineup. (6) Bryce Harper TB Over 1.5 at +105 \u2014 Harper has been solid at home and Nola's struggles against lefties are well-documented.\n\nWhat got cut: Mets ML at +110 was tempting given Nola's struggles, but the Mets are a disaster \u2014 40-57, just fired their manager, bullpen is depleted, and they got swept by Boston before the break. The situational edge isn't there. Phillies -1.5 at +150 was considered but the juice is too high for a run line against a team with Juan Soto who can single-handedly keep games close. Under 9.5 was briefly considered but Nola's HR/9 and the park factor make it a non-starter.\n\nThe final six: Phillies ML (ladder pick \u2014 best floor, home team, full strength against a last-place club), Over 9.5 (Nola's struggles + HR-friendly park), Juan Soto TB Over 1.5 (elite hitter vs. struggling pitcher), Kyle Schwarber TB Over 1.5 (MLB HR leader in a HR-friendly park), Christian Scott Ks Under 5.5 (high BB% pitcher vs. disciplined lineup), and Bryce Harper TB Over 1.5 (lefty masher vs. Nola's struggles against LHH). The ladder pick is Phillies ML \u2014 it's the highest-floor play on the board with a winning team at home against a last-place opponent.",
+      "slate_vibe": "SOFT",
+      "published_at": "2026-07-16T12:52:31.538857-04:00"
+    },
+    {
+      "id": "20260716-MLB-NYM-PHI-PROP-JUANSOTO",
+      "sport": "MLB",
+      "game": "NYM @ PHI",
+      "first_pitch_iso": "2026-07-16T23:00Z",
+      "pick": "Juan Soto TB Over 1.5",
+      "best_book": "DraftKings",
+      "best_odds": "-104",
+      "book_prices": {
+        "draftkings": "-104",
+        "fanduel": "N/A",
+        "betmgm": "-118"
+      },
+      "book_links": {
+        "betmgm": "https://sports.nj.betmgm.com/en/sports?options=2:7827644-201585505-765098398&type=Single",
+        "draftkings": "https://sportsbook.draftkings.com/?outcomes=0QA351759045%232213769437_13L84240Q1-44994196Q20",
+        "fanduel": "https://sportsbook.fanduel.com/baseball/mlb/new-york-mets-%28c-scott%29-%40-philadelphia-phillies-%28a-nola%29-35816161"
+      },
+      "market": "PROP",
+      "confidence": 4,
+      "units": 1.5,
+      "win_probability": 0.62,
+      "ladder_designation": true,
+      "data_confidence": 0.8,
+      "rules_passed": [
+        "max_juice",
+        "ladder_even_money",
+        "parlay_well_formed",
+        "confidence_units_match",
+        "data_confidence_floor",
+        "pick_type_allowed",
+        "mlb_hr_prop_check",
+        "mlb_pitcher_k_check",
+        "mlb_total_bases_check(soft)",
+        "mlb_hits_check",
+        "nba_player_prop_check",
+        "nhl_shots_check",
+        "mlb_run_line_check",
+        "mlb_under_bb_check",
+        "no_same_game_opposite"
+      ],
+      "locked": true,
+      "late_add": false,
+      "late_add_reason": "",
+      "bonus_pick": false,
+      "event_type": "",
+      "event_name": "",
+      "legs": [],
+      "headline": "Soto has homered twice off Nola this year \u2014 elite hitter vs. struggling pitcher in a HR-friendly park.",
+      "the_thesis": "Juan Soto is slashing .297/.414/.579 with 21 HR this season. He's been on a tear lately \u2014 4 HR in his last 7 games with a 1.348 OPS. And he owns Aaron Nola: he's already homered twice off him this year, including a pair of solo shots in their last meeting.\n\nNola's 1.86 HR/9 is the worst of his career. His four-seam fastball ranks in the 1st percentile in MLB \u2014 elite hitters are sitting on it and crushing it. Soto is exactly the type of hitter who exploits this: patient, elite bat-to-ball skills, and massive power. Citizens Bank Park's 1.10 HR factor and 92\u00b0F weather only amplify the edge.\n\nThe market has this at -104, implying about 51% probability. I have Soto at 62% to clear 1.5 TB \u2014 that's an 11-cent edge. This is one of the sharpest prop plays on the board.",
+      "the_data": [
+        {
+          "label": "Soto 2026 slash",
+          "value": ".297/.414/.579",
+          "context": "Elite production"
+        },
+        {
+          "label": "Soto HR (2026)",
+          "value": "21",
+          "context": "On pace for 40+"
+        },
+        {
+          "label": "Soto vs. Nola (2026)",
+          "value": "2 HR",
+          "context": "Owns him this year"
+        },
+        {
+          "label": "Nola HR/9",
+          "value": "1.86",
+          "context": "Career-worst, HR-prone"
+        },
+        {
+          "label": "Soto L7 OPS",
+          "value": "1.348",
+          "context": "Red-hot stretch"
+        }
+      ],
+      "the_market": "DraftKings has the best price at -104. BetMGM is at -118. The line hasn't moved despite Soto's recent tear \u2014 value is still there.",
+      "weather_park": "92\u00b0F at Citizens Bank Park (1.10 HR factor). Warm weather + HR-friendly park = ideal conditions for Soto's power.",
+      "case_against": "Nola could find his curveball and keep Soto off-balance. Soto could also walk 2-3 times (he leads the NL in OBP) and not get enough ABs to clear 1.5 TB.",
+      "what_were_betting_on": "Soto getting 4+ ABs, Nola leaving a fastball over the plate, Soto's elite bat-to-ball skills producing at least one XBH.",
+      "scott_bot_quip": "Soto has homered twice off Nola this year. Third time's the charm \u2014 or the fourth.",
+      "ladder_note": "",
+      "date": "2026-07-16",
+      "status": "PEND",
+      "units_result": null,
+      "clv_cents": null,
+      "result_score": null,
+      "graded_at": null,
+      "slate_assessment": "Single-game MLB slate coming out of the All-Star break \u2014 Mets at Phillies at Citizens Bank Park. One game, limited markets, but enough prop depth to find 6 plays.",
+      "executive_summary": "The boys get one game tonight \u2014 Mets at Phillies in Philly, the only action on the board as MLB returns from the All-Star break. Aaron Nola's struggles continue (5.75 ERA, 1.86 HR/9) against a Mets lineup that features Juan Soto, who has homered twice off Nola already this year. Christian Scott is back from the IL and looked sharp in his last outing, but the Mets bullpen is depleted and the Phillies offense \u2014 led by Kyle Schwarber's MLB-leading 32 homers \u2014 has been red-hot. The total at 9.5 in a HR-friendly park with a struggling Nola on the mound points toward the over. The ladder rides with Phillies ML at -130 \u2014 best floor on the board against a last-place club missing key arms.",
+      "slate_analysis": "One game on the board tonight as MLB returns from the All-Star break: Mets at Phillies at Citizens Bank Park, 7:10 PM ET. This is the entire slate \u2014 no NBA, no NHL, no other MLB games. That means we're working with one game's worth of sides, totals, and props to find 6 plays. The good news: Citizens Bank Park is a HR-boosting venue (1.10 HR park factor), the weather is warm (92\u00b0F forecast), and we have two pitchers with exploitable profiles.\n\nThe candidates that rose: (1) Phillies ML at -130 \u2014 the Mets are 40-57, just fired their manager, and their bullpen is missing key arms. The Phillies are 54-43 and have won 7 of their last 10. (2) Over 9.5 at -105 \u2014 Nola's 5.75 ERA and 1.86 HR/9 are brutal, and the Phillies offense has been red-hot (.829 OPS in their last 10 games). Citizens Bank Park's HR factor and warm weather support runs. (3) Juan Soto TB Over 1.5 at -104 \u2014 Soto has homered twice off Nola already this year and is slashing .297/.414/.579 with 21 HR. Nola's HR/9 is 1.86 \u2014 elite power hitters feast on him. (4) Kyle Schwarber TB Over 1.5 at +105 \u2014 Schwarber leads MLB with 32 HR and has been crushing the ball. Scott's 1.17 HR/9 is solid but not elite, and Schwarber's power plays in this park. (5) Christian Scott Ks Under 5.5 at -122 \u2014 Scott's K% is 27.9% but his BB% is 11.2%, meaning he works deep counts and doesn't always get to his strikeout stuff. The Phillies have a disciplined lineup. (6) Bryce Harper TB Over 1.5 at +105 \u2014 Harper has been solid at home and Nola's struggles against lefties are well-documented.\n\nWhat got cut: Mets ML at +110 was tempting given Nola's struggles, but the Mets are a disaster \u2014 40-57, just fired their manager, bullpen is depleted, and they got swept by Boston before the break. The situational edge isn't there. Phillies -1.5 at +150 was considered but the juice is too high for a run line against a team with Juan Soto who can single-handedly keep games close. Under 9.5 was briefly considered but Nola's HR/9 and the park factor make it a non-starter.\n\nThe final six: Phillies ML (ladder pick \u2014 best floor, home team, full strength against a last-place club), Over 9.5 (Nola's struggles + HR-friendly park), Juan Soto TB Over 1.5 (elite hitter vs. struggling pitcher), Kyle Schwarber TB Over 1.5 (MLB HR leader in a HR-friendly park), Christian Scott Ks Under 5.5 (high BB% pitcher vs. disciplined lineup), and Bryce Harper TB Over 1.5 (lefty masher vs. Nola's struggles against LHH). The ladder pick is Phillies ML \u2014 it's the highest-floor play on the board with a winning team at home against a last-place opponent.",
+      "slate_vibe": "SOFT",
+      "published_at": "2026-07-16T12:52:31.538781-04:00"
+    },
+    {
+      "id": "20260716-MLB-NYM-PHI-TOTAL",
+      "sport": "MLB",
+      "game": "NYM @ PHI",
+      "first_pitch_iso": "2026-07-16T23:00Z",
+      "pick": "Over 9.5",
+      "best_book": "BetMGM",
+      "best_odds": "-105",
+      "book_prices": {
+        "draftkings": "-107",
+        "fanduel": "-110",
+        "betmgm": "-105"
+      },
+      "book_links": {
+        "fanduel": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.592258354&selectionId=7017905",
+        "betmgm": "https://sports.nj.betmgm.com/en/sports?options=19803968-1542775860-2253406444&type=Single",
+        "draftkings": "https://sportsbook.draftkings.com/?outcomes=0OU85504590O950_1"
+      },
+      "market": "TOTAL",
+      "confidence": 4,
+      "units": 1.5,
+      "win_probability": 0.6,
+      "ladder_designation": false,
+      "data_confidence": 0.75,
+      "rules_passed": [
+        "max_juice",
+        "ladder_even_money",
+        "parlay_well_formed",
+        "confidence_units_match",
+        "data_confidence_floor",
+        "pick_type_allowed",
+        "mlb_hr_prop_check",
+        "mlb_pitcher_k_check",
+        "mlb_total_bases_check",
+        "mlb_hits_check",
+        "nba_player_prop_check",
+        "nhl_shots_check",
+        "mlb_run_line_check",
+        "mlb_under_bb_check",
+        "no_same_game_opposite"
+      ],
+      "locked": true,
+      "late_add": false,
+      "late_add_reason": "",
+      "bonus_pick": false,
+      "event_type": "",
+      "event_name": "",
+      "legs": [],
+      "headline": "Nola's HR/9 is 1.86 in a HR-boosting park on a 92-degree night \u2014 runs are coming.",
+      "the_thesis": "Aaron Nola's 1.86 HR/9 is a disaster waiting to happen at Citizens Bank Park, which has a 1.10 HR park factor. The Phillies have been crushing the ball \u2014 .829 OPS over their last 10 games \u2014 and Schwarber leads MLB with 32 HR. Warm weather (92\u00b0F) only amplifies the HR risk.\n\nOn the other side, Christian Scott has been solid (3.17 ERA) but his 11.2% BB rate means he works deep counts and puts runners on. The Phillies are a disciplined lineup that will make Scott work. If Scott exits early, the Mets bullpen is depleted \u2014 they're missing key arms and got outscored 13-4 in their last series against Boston.\n\nThe total opened at 9.5 and has held. The market is pricing this as a coin flip, but I have the over at 60% given Nola's struggles, the park factor, and the weather. That's an 8-cent edge.",
+      "the_data": [
+        {
+          "label": "Nola HR/9 (2026)",
+          "value": "1.86",
+          "context": "Worst of career, HR-prone"
+        },
+        {
+          "label": "Citizens Bank Park HR PF",
+          "value": "1.10",
+          "context": "HR-boosting"
+        },
+        {
+          "label": "Game-time temp",
+          "value": "92\u00b0F",
+          "context": "Warm, ball carries"
+        },
+        {
+          "label": "PHI OPS L10",
+          "value": ".829",
+          "context": "Red-hot offense"
+        },
+        {
+          "label": "Scott BB%",
+          "value": "11.2%",
+          "context": "High walk rate, runners on"
+        }
+      ],
+      "the_market": "Total opened 9.5 and has held across all books. Public is 67% on the over per consensus, but the line hasn't moved \u2014 books are comfortable with this number. BetMGM has the best price at -105.",
+      "weather_park": "92\u00b0F, warm and humid at Citizens Bank Park. HR-friendly park factor (1.10) \u2014 this is a launching pad tonight.",
+      "case_against": "Scott has been sharp (3.17 ERA) and could suppress the Phillies if he's on. If Nola finds his curveball and limits damage, this could stay under. Both bullpens could also lock it down late.",
+      "what_were_betting_on": "Nola giving up 4+ runs, Phillies offense continuing to mash, warm weather boosting HR distance.",
+      "scott_bot_quip": "Nola's HR/9 says 'launch angle.' The park says 'short porch.' The weather says 'carry.'",
+      "ladder_note": "",
+      "date": "2026-07-16",
+      "status": "PEND",
+      "units_result": null,
+      "clv_cents": null,
+      "result_score": null,
+      "graded_at": null,
+      "slate_assessment": "Single-game MLB slate coming out of the All-Star break \u2014 Mets at Phillies at Citizens Bank Park. One game, limited markets, but enough prop depth to find 6 plays.",
+      "executive_summary": "The boys get one game tonight \u2014 Mets at Phillies in Philly, the only action on the board as MLB returns from the All-Star break. Aaron Nola's struggles continue (5.75 ERA, 1.86 HR/9) against a Mets lineup that features Juan Soto, who has homered twice off Nola already this year. Christian Scott is back from the IL and looked sharp in his last outing, but the Mets bullpen is depleted and the Phillies offense \u2014 led by Kyle Schwarber's MLB-leading 32 homers \u2014 has been red-hot. The total at 9.5 in a HR-friendly park with a struggling Nola on the mound points toward the over. The ladder rides with Phillies ML at -130 \u2014 best floor on the board against a last-place club missing key arms.",
+      "slate_analysis": "One game on the board tonight as MLB returns from the All-Star break: Mets at Phillies at Citizens Bank Park, 7:10 PM ET. This is the entire slate \u2014 no NBA, no NHL, no other MLB games. That means we're working with one game's worth of sides, totals, and props to find 6 plays. The good news: Citizens Bank Park is a HR-boosting venue (1.10 HR park factor), the weather is warm (92\u00b0F forecast), and we have two pitchers with exploitable profiles.\n\nThe candidates that rose: (1) Phillies ML at -130 \u2014 the Mets are 40-57, just fired their manager, and their bullpen is missing key arms. The Phillies are 54-43 and have won 7 of their last 10. (2) Over 9.5 at -105 \u2014 Nola's 5.75 ERA and 1.86 HR/9 are brutal, and the Phillies offense has been red-hot (.829 OPS in their last 10 games). Citizens Bank Park's HR factor and warm weather support runs. (3) Juan Soto TB Over 1.5 at -104 \u2014 Soto has homered twice off Nola already this year and is slashing .297/.414/.579 with 21 HR. Nola's HR/9 is 1.86 \u2014 elite power hitters feast on him. (4) Kyle Schwarber TB Over 1.5 at +105 \u2014 Schwarber leads MLB with 32 HR and has been crushing the ball. Scott's 1.17 HR/9 is solid but not elite, and Schwarber's power plays in this park. (5) Christian Scott Ks Under 5.5 at -122 \u2014 Scott's K% is 27.9% but his BB% is 11.2%, meaning he works deep counts and doesn't always get to his strikeout stuff. The Phillies have a disciplined lineup. (6) Bryce Harper TB Over 1.5 at +105 \u2014 Harper has been solid at home and Nola's struggles against lefties are well-documented.\n\nWhat got cut: Mets ML at +110 was tempting given Nola's struggles, but the Mets are a disaster \u2014 40-57, just fired their manager, bullpen is depleted, and they got swept by Boston before the break. The situational edge isn't there. Phillies -1.5 at +150 was considered but the juice is too high for a run line against a team with Juan Soto who can single-handedly keep games close. Under 9.5 was briefly considered but Nola's HR/9 and the park factor make it a non-starter.\n\nThe final six: Phillies ML (ladder pick \u2014 best floor, home team, full strength against a last-place club), Over 9.5 (Nola's struggles + HR-friendly park), Juan Soto TB Over 1.5 (elite hitter vs. struggling pitcher), Kyle Schwarber TB Over 1.5 (MLB HR leader in a HR-friendly park), Christian Scott Ks Under 5.5 (high BB% pitcher vs. disciplined lineup), and Bryce Harper TB Over 1.5 (lefty masher vs. Nola's struggles against LHH). The ladder pick is Phillies ML \u2014 it's the highest-floor play on the board with a winning team at home against a last-place opponent.",
+      "slate_vibe": "SOFT",
+      "published_at": "2026-07-16T12:52:31.538654-04:00"
+    },
     {
       "id": "20260716-GOLF-OPEN-WINNER-FLEETWOOD",
       "sport": "GOLF",
