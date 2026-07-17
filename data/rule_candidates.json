@@ -406,5 +406,13 @@
     "candidate_rule": "Before rostering a pitcher K prop on the road, cross-check road K rate or road ERA split \u2014 if road ERA is 1.5+ runs higher than home ERA, flag as a degraded-stuff environment and require a larger edge to justify the juice; N=1, insufficient to establish rule.",
     "sample_size_warning": "N=1, insufficient to establish rule \u2014 one start where Boyd's road split bit us does not confirm a systemic pattern, but the 5.19 road ERA was available pre-game and was not weighted in the thesis.",
     "status": "PENDING_REVIEW"
+  },
+  {
+    "proposed_at": "2026-07-17T01:48:22.563669-04:00",
+    "source_pick_id": "20260716-MLB-NYM-PHI-TOTAL",
+    "source_loss": "Over 9.5 (NYM @ PHI)",
+    "candidate_rule": "When the over thesis depends on a high-BB% starter walking batters into trouble, require a minimum sample of 3+ recent starts showing elevated BB rates before treating it as a reliable game-day input \u2014 one-start or season-long BB% can mask recent command improvements (N=1, insufficient to establish rule).",
+    "sample_size_warning": "N=1, insufficient to establish rule \u2014 but the solo-HR trap (runs scored without run accumulation) is a recurring over-killer worth tracking across future Nola starts.",
+    "status": "PENDING_REVIEW"
   }
 ]

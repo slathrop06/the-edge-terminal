@@ -1,5 +1,31 @@
 [
   {
+    "id": "20260716-MLB-NYM-PHI-TOTAL",
+    "date": "2026-07-16",
+    "pick": "Over 9.5",
+    "game": "NYM @ PHI",
+    "odds": "-105",
+    "result_score": "NYM 4 \u00b7 PHI 1",
+    "classification": "MODEL",
+    "post_mortem": "The thesis correctly identified Nola as HR-prone \u2014 the Mets hit three solo shots off him \u2014 but the model over-weighted run volume and under-weighted the scenario where all damage is solo and the Phillies offense goes completely cold (4 hits, 1 run). Christian Scott walked nobody and struck out seven, the exact opposite of his 11.2% BB% projection. The over's only lifeline was a bases-loaded, no-out jam in the 5th that Nola escaped via a line-drive double play, and Schwarber's would-be tying HR that hit the right-field railing and stayed in play. The pick was built on run accumulation from both sides; only one side produced, and only in solo-HR drips.",
+    "candidate_rule": "When the over thesis depends on a high-BB% starter walking batters into trouble, require a minimum sample of 3+ recent starts showing elevated BB rates before treating it as a reliable game-day input \u2014 one-start or season-long BB% can mask recent command improvements (N=1, insufficient to establish rule).",
+    "sample_size_warning": "N=1, insufficient to establish rule \u2014 but the solo-HR trap (runs scored without run accumulation) is a recurring over-killer worth tracking across future Nola starts.",
+    "analyzed_at": "2026-07-17T01:48:22.562097-04:00"
+  },
+  {
+    "id": "20260716-MLB-NYM-PHI-PROP-JUANSOTO",
+    "date": "2026-07-16",
+    "pick": "Juan Soto TB Over 1.5",
+    "game": "NYM @ PHI",
+    "odds": "-104",
+    "result_score": "Juan Soto: 1 totalBases",
+    "classification": "VARIANCE",
+    "post_mortem": "Nola leaned on his curveball and changeup all night \u2014 14 of 16 whiffs came on secondaries \u2014 neutralizing the four-seam fastball thesis, but Soto still managed contact. The pick died when Soto was pulled in the 8th inning with left calf soreness, ending his night at 1 total base before he could accumulate. The Mets won 4-1 and the game environment was fine; Soto's mid-game injury exit was the decisive, unforeseeable event.",
+    "candidate_rule": null,
+    "sample_size_warning": "N=1, insufficient to establish rule. Soto's calf injury is an isolated event; monitor his health status before future prop exposure.",
+    "analyzed_at": "2026-07-17T01:47:55.762249-04:00"
+  },
+  {
     "id": "20260712-MLB-TOR-SD-TOTAL",
     "date": "2026-07-12",
     "pick": "Under 8.5",
