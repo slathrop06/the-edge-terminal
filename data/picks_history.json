@@ -1,7 +1,497 @@
 {
   "version": 1,
-  "updated_at": "2026-07-17T04:32:19.764728-04:00",
+  "updated_at": "2026-07-17T12:16:44.432640-04:00",
   "picks": [
+    {
+      "id": "20260717-MLB-MIA-MIL-TOTAL",
+      "sport": "MLB",
+      "game": "MIA @ MIL",
+      "first_pitch_iso": "2026-07-17T23:40Z",
+      "pick": "Under 8",
+      "best_book": "FanDuel",
+      "best_odds": "-105",
+      "book_prices": {
+        "draftkings": "-105",
+        "fanduel": "-105",
+        "betmgm": "-105"
+      },
+      "book_links": {
+        "fanduel": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.592475420&selectionId=7017906",
+        "draftkings": "https://sportsbook.draftkings.com/?outcomes=0OU85505195U800_3",
+        "betmgm": "https://sports.nj.betmgm.com/en/sports?options=19800596-1542501888-2252564878&type=Single"
+      },
+      "market": "TOTAL",
+      "confidence": 3,
+      "units": 1.0,
+      "win_probability": 0.57,
+      "ladder_designation": false,
+      "data_confidence": 0.78,
+      "rules_passed": [
+        "max_juice",
+        "ladder_even_money",
+        "parlay_well_formed",
+        "confidence_units_match",
+        "data_confidence_floor",
+        "pick_type_allowed",
+        "mlb_hr_prop_check",
+        "mlb_pitcher_k_check",
+        "mlb_total_bases_check",
+        "mlb_hits_check",
+        "nba_player_prop_check",
+        "nhl_shots_check",
+        "mlb_run_line_check",
+        "mlb_under_bb_check",
+        "no_same_game_opposite"
+      ],
+      "locked": true,
+      "late_add": false,
+      "late_add_reason": "",
+      "bonus_pick": false,
+      "event_type": "",
+      "event_name": "",
+      "legs": [],
+      "headline": "Logan Henderson's elite WHIP and Sandy Alcantara's groundball tendencies in a neutral park.",
+      "the_thesis": "Logan Henderson has been a revelation for the Brewers. His 0.99 WHIP is elite, and his 30.6% K rate means he's missing bats. He's only thrown 28.1 IP this season, but the sample is encouraging \u2014 a 3.18 ERA with a 0.64 HR/9. Henderson keeps the ball in the yard and doesn't walk batters (6.3% BB rate).\n\nSandy Alcantara counters with a 3.99 ERA and a 1.22 WHIP. He's not the Cy Young-caliber pitcher he was in 2022, but he's still a groundball machine who can eat innings. Alcantara's 18.4% K rate is low, but his 6.1% BB rate means he's not putting runners on base for free.\n\nAmerican Family Field is a neutral park (1.0 runs PF, 1.06 HR PF). Both offenses are above average (MIL 5.09 R/G, MIA 4.53 R/G), but the pitching matchup favors the under. I have this total at 7.3 runs. The market is at 8. That's 0.7 runs of edge.",
+      "the_data": [
+        {
+          "label": "Henderson WHIP / K%",
+          "value": "0.99 / 30.6%",
+          "context": "Elite peripherals"
+        },
+        {
+          "label": "Henderson HR/9",
+          "value": "0.64",
+          "context": "Keeps ball in yard"
+        },
+        {
+          "label": "Alcantara ERA / BB%",
+          "value": "3.99 / 6.1%",
+          "context": "Solid command"
+        },
+        {
+          "label": "American Family Field Runs PF",
+          "value": "1.0",
+          "context": "Neutral"
+        },
+        {
+          "label": "Henderson IP (season)",
+          "value": "28.1",
+          "context": "Small sample caveat"
+        }
+      ],
+      "the_market": "Total opened at 8 and has held. Under is -105 across all three books. No movement.",
+      "weather_park": "American Family Field is a retractable roof stadium. Neutral conditions.",
+      "case_against": "Henderson has only 28.1 IP \u2014 small sample size. Alcantara's 3.99 ERA is mediocre, and the Brewers offense (5.09 R/G) can score. If Henderson exits early, the Brewers' bullpen has been shaky.",
+      "what_were_betting_on": "Henderson going 5+ innings with 2 or fewer runs, Alcantara keeping the Brewers in check, combined score staying under 8.",
+      "scott_bot_quip": "Henderson's WHIP is sub-1.00. The Marlins' playoff hopes are sub-zero.",
+      "ladder_note": "",
+      "date": "2026-07-17",
+      "status": "PEND",
+      "units_result": null,
+      "clv_cents": null,
+      "result_score": null,
+      "graded_at": null,
+      "slate_assessment": "Fifteen-game MLB board on the first day back from the All-Star break. No NBA or NHL in scope. Pitching matchups are the story \u2014 Bryce Miller at T-Mobile, Chris Sale at Truist, and a struggling Roki Sasaki at Yankee Stadium all jump off the page.",
+      "executive_summary": "First day back from the break brings a 15-game MLB slate with no NBA or NHL action. The marquee matchup is Dodgers-Yankees in the Bronx, but Roki Sasaki's 5.33 ERA and loud-contact issues make the Yankees ML the sharpest side play on the board. Bryce Miller's elite peripherals at pitcher-friendly T-Mobile Park give Seattle Under 7 the best floor of the day \u2014 that's the ladder. Chris Sale's dominance against a weak Texas lineup rounds out the sides, while Gavin Williams' K prop and a Coors-fueled total bases play on Elly De La Cruz add prop value. Six picks, all at playable juice, all with clear edges.",
+      "slate_analysis": "The board today is 15 MLB games, all coming out of the All-Star break. No NBA or NHL in scope. The pricing climate is soft \u2014 books are cautious after the layoff, and several totals and sides are sitting at near pick'em numbers that invite edge-hunting. The highest-total games (CHC-MIN at 11, COL-CIN at 12, KC-SD at 10.5) offer prop depth, while the marquee LAD-NYY matchup has the most liquid market.\n\nTop candidates that rose during my review: (1) SEA vs SF Under 7 \u2014 Bryce Miller's 2.18 ERA, 0.83 WHIP, and 30.2% K rate at T-Mobile Park (0.93 runs PF) against a Giants offense that ranks middle-of-the-pack. (2) NYY ML vs LAD \u2014 Roki Sasaki's 5.33 ERA, 2.11 HR/9, and 9.4% BB rate are a disaster waiting to happen at Yankee Stadium (1.14 HR PF). Gerrit Cole is the better pitcher today. (3) ATL -1.5 vs TEX \u2014 Chris Sale's 2.20 ERA and 29% K rate against a Rangers offense averaging 4.16 R/G. (4) Gavin Williams Ks Over 5.5 \u2014 29.1% K rate against a Pirates lineup that strikes out at a league-average clip. (5) Elly De La Cruz Total Bases Over 1.5 at Coors \u2014 Brady Singer's 2.02 HR/9 and Coors' 1.14 HR PF make this a power play. (6) MIL vs MIA Under 8 \u2014 Logan Henderson's 0.99 WHIP and Sandy Alcantara's groundball tendencies in a neutral park.\n\nWhat got cut and why: TB @ BOS Game 1 \u2014 data confidence 0.4, lineups not confirmed, and the total moved from 8.5 to 9.0 against my lean. CLE vs PIT sides \u2014 Cleveland ML at -130 exceeds my edge threshold (market implies 56.5%, my fair line is 58%, only 1.5 cents of edge). HOU vs BAL \u2014 data confidence 0.3, park factors unknown for Daikin Park. CHC vs MIN Over 11 \u2014 both starters have BB/9 above 3.5 (Rea 8.6%, Ober 6.3%), which triggers my under-rejection flag for totals but also makes the over too volatile. COL vs CIN sides \u2014 Gabriel Hughes has only 9 IP this season, sample too thin to trust.\n\nThe final six: Yankees ML (best edge on the board, Sasaki's flaws meet NYY's power profile), Seattle Under 7 (ladder pick \u2014 Miller's elite peripherals at a pitcher's park, highest floor), Braves -1.5 (Sale's dominance, weak opponent), Gavin Williams Ks Over 5.5 (K-rate edge, clean spot), Elly De La Cruz TBs Over 1.5 (Coors + Singer's HR/9), and Brewers-Marlins Under 8 (Henderson's WHIP, Alcantara's groundball tendencies). The ladder rides with Seattle Under 7 \u2014 Miller's floor is the highest on the board, the park suppresses runs, and the Giants offense is mediocre.",
+      "slate_vibe": "NORMAL",
+      "published_at": "2026-07-17T12:16:44.432564-04:00"
+    },
+    {
+      "id": "20260717-MLB-PIT-CLE-PROP-GAVINWILLIAMS",
+      "sport": "MLB",
+      "game": "PIT @ CLE",
+      "first_pitch_iso": "2026-07-17T23:10Z",
+      "pick": "Gavin Williams Ks Over 5.5",
+      "best_book": "DraftKings",
+      "best_odds": "-110",
+      "book_prices": {
+        "draftkings": "-110",
+        "fanduel": "-114",
+        "betmgm": "-110"
+      },
+      "book_links": {
+        "fanduel": "https://sportsbook.fanduel.com/baseball/mlb/pittsburgh-pirates-%28j-jones%29-%40-cleveland-guardians-%28g-williams%29-35816169",
+        "draftkings": "https://sportsbook.draftkings.com/event/34397801",
+        "betmgm": "https://sports.nj.betmgm.com/en/sports/events/pittsburgh-pirates-at-cleveland-guardians-19803972"
+      },
+      "market": "PROP",
+      "confidence": 3,
+      "units": 1.0,
+      "win_probability": 0.58,
+      "ladder_designation": false,
+      "data_confidence": 0.78,
+      "rules_passed": [
+        "max_juice",
+        "ladder_even_money",
+        "parlay_well_formed",
+        "confidence_units_match",
+        "data_confidence_floor",
+        "pick_type_allowed",
+        "mlb_hr_prop_check",
+        "mlb_pitcher_k_check(soft)",
+        "mlb_total_bases_check",
+        "mlb_hits_check",
+        "nba_player_prop_check",
+        "nhl_shots_check",
+        "mlb_run_line_check",
+        "mlb_under_bb_check",
+        "no_same_game_opposite"
+      ],
+      "locked": true,
+      "late_add": false,
+      "late_add_reason": "",
+      "bonus_pick": false,
+      "event_type": "",
+      "event_name": "",
+      "legs": [],
+      "headline": "Williams' 29.1% K rate against a Pirates lineup that strikes out at a league-average clip.",
+      "the_thesis": "Gavin Williams has been a strikeout machine this season. His 29.1% K rate is elite \u2014 that's top-15 among qualified starters. He's averaging 6.5 K/start over his last 10 outings, and his stuff plays up at home in Progressive Field. Williams has gone over 5.5 Ks in 8 of his last 12 starts.\n\nThe Pirates strike out at a league-average rate (22.1% K%), which isn't elite but isn't immune to a high-K pitcher either. Jared Jones on the other side has a 27.1% K rate, so this game should feature plenty of whiffs. Williams' 8.0% BB rate is the only concern \u2014 he can get into trouble with walks \u2014 but his ability to miss bats should carry him to 6+ Ks.\n\nI have Williams at 6.2 Ks projected. The line is 5.5. That's 0.7 Ks of edge, which translates to about 8 cents of probability edge.",
+      "the_data": [
+        {
+          "label": "Williams K%",
+          "value": "29.1%",
+          "context": "Top-15 in MLB"
+        },
+        {
+          "label": "Williams K/start (L10)",
+          "value": "6.5",
+          "context": "Consistent volume"
+        },
+        {
+          "label": "Williams Over 5.5 Ks (L12)",
+          "value": "8-4",
+          "context": "67% hit rate"
+        },
+        {
+          "label": "PIT K%",
+          "value": "22.1%",
+          "context": "League average"
+        },
+        {
+          "label": "Williams IP/start (L3)",
+          "value": "37.7 (12.6/start)",
+          "context": "Deep into games"
+        }
+      ],
+      "the_market": "Line is 5.5 at -110 across all three books. No movement. Market is pricing Williams' K upside but not fully.",
+      "weather_park": "Progressive Field, outdoor, neutral park. No weather concerns.",
+      "case_against": "Williams' 8.0% BB rate can lead to high pitch counts and early exits. If he walks 3+ batters in the first few innings, he might not get enough batters faced to hit 6 Ks. The Pirates can be patient.",
+      "what_were_betting_on": "Williams going 6+ innings, facing 24+ batters, and his 29.1% K rate translating to 6+ strikeouts.",
+      "scott_bot_quip": "Williams' fastball has life. The Pirates' bats do not.",
+      "ladder_note": "",
+      "date": "2026-07-17",
+      "status": "PEND",
+      "units_result": null,
+      "clv_cents": null,
+      "result_score": null,
+      "graded_at": null,
+      "slate_assessment": "Fifteen-game MLB board on the first day back from the All-Star break. No NBA or NHL in scope. Pitching matchups are the story \u2014 Bryce Miller at T-Mobile, Chris Sale at Truist, and a struggling Roki Sasaki at Yankee Stadium all jump off the page.",
+      "executive_summary": "First day back from the break brings a 15-game MLB slate with no NBA or NHL action. The marquee matchup is Dodgers-Yankees in the Bronx, but Roki Sasaki's 5.33 ERA and loud-contact issues make the Yankees ML the sharpest side play on the board. Bryce Miller's elite peripherals at pitcher-friendly T-Mobile Park give Seattle Under 7 the best floor of the day \u2014 that's the ladder. Chris Sale's dominance against a weak Texas lineup rounds out the sides, while Gavin Williams' K prop and a Coors-fueled total bases play on Elly De La Cruz add prop value. Six picks, all at playable juice, all with clear edges.",
+      "slate_analysis": "The board today is 15 MLB games, all coming out of the All-Star break. No NBA or NHL in scope. The pricing climate is soft \u2014 books are cautious after the layoff, and several totals and sides are sitting at near pick'em numbers that invite edge-hunting. The highest-total games (CHC-MIN at 11, COL-CIN at 12, KC-SD at 10.5) offer prop depth, while the marquee LAD-NYY matchup has the most liquid market.\n\nTop candidates that rose during my review: (1) SEA vs SF Under 7 \u2014 Bryce Miller's 2.18 ERA, 0.83 WHIP, and 30.2% K rate at T-Mobile Park (0.93 runs PF) against a Giants offense that ranks middle-of-the-pack. (2) NYY ML vs LAD \u2014 Roki Sasaki's 5.33 ERA, 2.11 HR/9, and 9.4% BB rate are a disaster waiting to happen at Yankee Stadium (1.14 HR PF). Gerrit Cole is the better pitcher today. (3) ATL -1.5 vs TEX \u2014 Chris Sale's 2.20 ERA and 29% K rate against a Rangers offense averaging 4.16 R/G. (4) Gavin Williams Ks Over 5.5 \u2014 29.1% K rate against a Pirates lineup that strikes out at a league-average clip. (5) Elly De La Cruz Total Bases Over 1.5 at Coors \u2014 Brady Singer's 2.02 HR/9 and Coors' 1.14 HR PF make this a power play. (6) MIL vs MIA Under 8 \u2014 Logan Henderson's 0.99 WHIP and Sandy Alcantara's groundball tendencies in a neutral park.\n\nWhat got cut and why: TB @ BOS Game 1 \u2014 data confidence 0.4, lineups not confirmed, and the total moved from 8.5 to 9.0 against my lean. CLE vs PIT sides \u2014 Cleveland ML at -130 exceeds my edge threshold (market implies 56.5%, my fair line is 58%, only 1.5 cents of edge). HOU vs BAL \u2014 data confidence 0.3, park factors unknown for Daikin Park. CHC vs MIN Over 11 \u2014 both starters have BB/9 above 3.5 (Rea 8.6%, Ober 6.3%), which triggers my under-rejection flag for totals but also makes the over too volatile. COL vs CIN sides \u2014 Gabriel Hughes has only 9 IP this season, sample too thin to trust.\n\nThe final six: Yankees ML (best edge on the board, Sasaki's flaws meet NYY's power profile), Seattle Under 7 (ladder pick \u2014 Miller's elite peripherals at a pitcher's park, highest floor), Braves -1.5 (Sale's dominance, weak opponent), Gavin Williams Ks Over 5.5 (K-rate edge, clean spot), Elly De La Cruz TBs Over 1.5 (Coors + Singer's HR/9), and Brewers-Marlins Under 8 (Henderson's WHIP, Alcantara's groundball tendencies). The ladder rides with Seattle Under 7 \u2014 Miller's floor is the highest on the board, the park suppresses runs, and the Giants offense is mediocre.",
+      "slate_vibe": "NORMAL",
+      "published_at": "2026-07-17T12:16:44.432483-04:00"
+    },
+    {
+      "id": "20260717-MLB-TEX-ATL-SPREAD",
+      "sport": "MLB",
+      "game": "TEX @ ATL",
+      "first_pitch_iso": "2026-07-17T23:15Z",
+      "pick": "Atlanta Braves -1.5",
+      "best_book": "DraftKings",
+      "best_odds": "+106",
+      "book_prices": {
+        "draftkings": "+106",
+        "fanduel": "+104",
+        "betmgm": "+100"
+      },
+      "book_links": {
+        "fanduel": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.592475372&selectionId=7100960",
+        "betmgm": "https://sports.nj.betmgm.com/en/sports?options=19800594-1542501660-2252564386&type=Single",
+        "draftkings": "https://sportsbook.draftkings.com/?outcomes=0HC85505170N150_1"
+      },
+      "market": "SPREAD",
+      "confidence": 4,
+      "units": 1.5,
+      "win_probability": 0.56,
+      "ladder_designation": false,
+      "data_confidence": 0.82,
+      "rules_passed": [
+        "max_juice",
+        "ladder_even_money",
+        "parlay_well_formed",
+        "confidence_units_match",
+        "data_confidence_floor",
+        "pick_type_allowed",
+        "mlb_hr_prop_check",
+        "mlb_pitcher_k_check",
+        "mlb_total_bases_check",
+        "mlb_hits_check",
+        "nba_player_prop_check",
+        "nhl_shots_check",
+        "mlb_run_line_check",
+        "mlb_under_bb_check",
+        "no_same_game_opposite"
+      ],
+      "locked": true,
+      "late_add": false,
+      "late_add_reason": "",
+      "bonus_pick": false,
+      "event_type": "",
+      "event_name": "",
+      "legs": [],
+      "headline": "Chris Sale's dominance against a weak Texas lineup \u2014 run line value at plus money.",
+      "the_thesis": "Chris Sale has been one of the best pitchers in baseball this season. His 2.20 ERA is backed by a 29% strikeout rate and a 0.73 HR/9 \u2014 he's not giving up long balls, and he's missing bats. Sale hasn't surrendered more than three runs in an appearance since April 6. He's coming off a rain-shortened start before the break where he struck out five in three scoreless innings on just 43 pitches.\n\nThe Rangers counter with Cal Quantrill, who has a 3.11 ERA but a pedestrian 14.5% K rate. Quantrill is a contact manager, not a strikeout pitcher, and his 1.17 HR/9 is concerning against a Braves lineup that can hit. Texas averages just 4.16 R/G \u2014 that's bottom-third in baseball. Atlanta's offense (4.84 R/G) should be able to provide run support.\n\nThe Braves are -205 on the ML, which is too steep. But the run line at +106 offers value. I have Atlanta covering -1.5 at 56% \u2014 the market implies 48.5%. That's 7.5 cents of edge at plus money.",
+      "the_data": [
+        {
+          "label": "Sale ERA / K%",
+          "value": "2.20 / 29.0%",
+          "context": "Cy Young caliber"
+        },
+        {
+          "label": "Sale HR/9",
+          "value": "0.73",
+          "context": "Elite HR suppression"
+        },
+        {
+          "label": "Quantrill ERA / K%",
+          "value": "3.11 / 14.5%",
+          "context": "Contact manager"
+        },
+        {
+          "label": "TEX R/G",
+          "value": "4.16",
+          "context": "Bottom-third in MLB"
+        },
+        {
+          "label": "ATL R/G",
+          "value": "4.84",
+          "context": "Above average"
+        },
+        {
+          "label": "Sale last 13 starts",
+          "value": "5+ IP each",
+          "context": "Consistent length"
+        }
+      ],
+      "the_market": "Braves ML opened at -205 and has held. Run line is +106 at DraftKings. The market is pricing Sale's dominance but offering value on the spread.",
+      "weather_park": "Truist Park, outdoor, neutral park factors (1.02 runs, 1.04 HR). No weather concerns.",
+      "case_against": "Sale is 37 and has injury history. If he doesn't go deep, the Braves' bullpen has to hold a lead. Quantrill can keep games close \u2014 his 3.11 ERA isn't a mirage. One-run games are common in Sale starts.",
+      "what_were_betting_on": "Sale going 6+ innings with 2 or fewer runs, Braves offense providing 4+ runs of support, Atlanta winning by 2+.",
+      "scott_bot_quip": "Sale's slider is still unhittable. The Rangers' lineup is still very hittable.",
+      "ladder_note": "",
+      "date": "2026-07-17",
+      "status": "PEND",
+      "units_result": null,
+      "clv_cents": null,
+      "result_score": null,
+      "graded_at": null,
+      "slate_assessment": "Fifteen-game MLB board on the first day back from the All-Star break. No NBA or NHL in scope. Pitching matchups are the story \u2014 Bryce Miller at T-Mobile, Chris Sale at Truist, and a struggling Roki Sasaki at Yankee Stadium all jump off the page.",
+      "executive_summary": "First day back from the break brings a 15-game MLB slate with no NBA or NHL action. The marquee matchup is Dodgers-Yankees in the Bronx, but Roki Sasaki's 5.33 ERA and loud-contact issues make the Yankees ML the sharpest side play on the board. Bryce Miller's elite peripherals at pitcher-friendly T-Mobile Park give Seattle Under 7 the best floor of the day \u2014 that's the ladder. Chris Sale's dominance against a weak Texas lineup rounds out the sides, while Gavin Williams' K prop and a Coors-fueled total bases play on Elly De La Cruz add prop value. Six picks, all at playable juice, all with clear edges.",
+      "slate_analysis": "The board today is 15 MLB games, all coming out of the All-Star break. No NBA or NHL in scope. The pricing climate is soft \u2014 books are cautious after the layoff, and several totals and sides are sitting at near pick'em numbers that invite edge-hunting. The highest-total games (CHC-MIN at 11, COL-CIN at 12, KC-SD at 10.5) offer prop depth, while the marquee LAD-NYY matchup has the most liquid market.\n\nTop candidates that rose during my review: (1) SEA vs SF Under 7 \u2014 Bryce Miller's 2.18 ERA, 0.83 WHIP, and 30.2% K rate at T-Mobile Park (0.93 runs PF) against a Giants offense that ranks middle-of-the-pack. (2) NYY ML vs LAD \u2014 Roki Sasaki's 5.33 ERA, 2.11 HR/9, and 9.4% BB rate are a disaster waiting to happen at Yankee Stadium (1.14 HR PF). Gerrit Cole is the better pitcher today. (3) ATL -1.5 vs TEX \u2014 Chris Sale's 2.20 ERA and 29% K rate against a Rangers offense averaging 4.16 R/G. (4) Gavin Williams Ks Over 5.5 \u2014 29.1% K rate against a Pirates lineup that strikes out at a league-average clip. (5) Elly De La Cruz Total Bases Over 1.5 at Coors \u2014 Brady Singer's 2.02 HR/9 and Coors' 1.14 HR PF make this a power play. (6) MIL vs MIA Under 8 \u2014 Logan Henderson's 0.99 WHIP and Sandy Alcantara's groundball tendencies in a neutral park.\n\nWhat got cut and why: TB @ BOS Game 1 \u2014 data confidence 0.4, lineups not confirmed, and the total moved from 8.5 to 9.0 against my lean. CLE vs PIT sides \u2014 Cleveland ML at -130 exceeds my edge threshold (market implies 56.5%, my fair line is 58%, only 1.5 cents of edge). HOU vs BAL \u2014 data confidence 0.3, park factors unknown for Daikin Park. CHC vs MIN Over 11 \u2014 both starters have BB/9 above 3.5 (Rea 8.6%, Ober 6.3%), which triggers my under-rejection flag for totals but also makes the over too volatile. COL vs CIN sides \u2014 Gabriel Hughes has only 9 IP this season, sample too thin to trust.\n\nThe final six: Yankees ML (best edge on the board, Sasaki's flaws meet NYY's power profile), Seattle Under 7 (ladder pick \u2014 Miller's elite peripherals at a pitcher's park, highest floor), Braves -1.5 (Sale's dominance, weak opponent), Gavin Williams Ks Over 5.5 (K-rate edge, clean spot), Elly De La Cruz TBs Over 1.5 (Coors + Singer's HR/9), and Brewers-Marlins Under 8 (Henderson's WHIP, Alcantara's groundball tendencies). The ladder rides with Seattle Under 7 \u2014 Miller's floor is the highest on the board, the park suppresses runs, and the Giants offense is mediocre.",
+      "slate_vibe": "NORMAL",
+      "published_at": "2026-07-17T12:16:44.432404-04:00"
+    },
+    {
+      "id": "20260717-MLB-SF-SEA-TOTAL",
+      "sport": "MLB",
+      "game": "SF @ SEA",
+      "first_pitch_iso": "2026-07-18T02:10Z",
+      "pick": "Under 7",
+      "best_book": "DraftKings",
+      "best_odds": "+102",
+      "book_prices": {
+        "draftkings": "+102",
+        "fanduel": "+100",
+        "betmgm": "+100"
+      },
+      "book_links": {
+        "fanduel": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.592476470&selectionId=7017906",
+        "betmgm": "https://sports.nj.betmgm.com/en/sports?options=19801262-1542529504-2252661495&type=Single",
+        "draftkings": "https://sportsbook.draftkings.com/?outcomes=0OU85505581U700_3"
+      },
+      "market": "TOTAL",
+      "confidence": 5,
+      "units": 2.0,
+      "win_probability": 0.62,
+      "ladder_designation": true,
+      "data_confidence": 0.88,
+      "rules_passed": [
+        "max_juice",
+        "ladder_even_money",
+        "parlay_well_formed",
+        "confidence_units_match",
+        "data_confidence_floor",
+        "pick_type_allowed",
+        "mlb_hr_prop_check",
+        "mlb_pitcher_k_check",
+        "mlb_total_bases_check",
+        "mlb_hits_check",
+        "nba_player_prop_check",
+        "nhl_shots_check",
+        "mlb_run_line_check",
+        "mlb_under_bb_check(soft)",
+        "no_same_game_opposite"
+      ],
+      "locked": true,
+      "late_add": false,
+      "late_add_reason": "",
+      "bonus_pick": false,
+      "event_type": "",
+      "event_name": "",
+      "legs": [],
+      "headline": "Bryce Miller's elite peripherals at T-Mobile Park \u2014 the best floor on the board.",
+      "the_thesis": "Bryce Miller has been dominant since returning from his early-season IL stint. His 2.18 ERA is backed by a 0.83 WHIP and a 30.2% strikeout rate \u2014 those are ace-level numbers. His 4.2% walk rate means he's not putting runners on base for free, and his command has been sharp. T-Mobile Park is one of the best pitcher's parks in baseball with a 0.93 runs park factor and 0.93 HR park factor.\n\nThe Giants counter with Landen Roupp, who has a 4.27 ERA and a bloated 10.2% walk rate. But Roupp keeps the ball in the yard (0.65 HR/9), and his 25.3% K rate is solid. This is a game where both starters should be able to work deep into the game without giving up crooked numbers. The Giants offense ranks middle-of-the-pack, and Seattle's offense has been mediocre all year (4.04 R/G).\n\nI have this total at 6.2 runs. The market is at 7. That's nearly a full run of edge, and I'm getting plus money on the under. This is the highest-floor play on the board.",
+      "the_data": [
+        {
+          "label": "Miller ERA / WHIP",
+          "value": "2.18 / 0.83",
+          "context": "Elite"
+        },
+        {
+          "label": "Miller K% / BB%",
+          "value": "30.2% / 4.2%",
+          "context": "Ace-level command"
+        },
+        {
+          "label": "T-Mobile Park Runs PF",
+          "value": "0.93",
+          "context": "Pitcher-friendly"
+        },
+        {
+          "label": "T-Mobile Park HR PF",
+          "value": "0.93",
+          "context": "HR-suppressing"
+        },
+        {
+          "label": "Roupp ERA / HR/9",
+          "value": "4.27 / 0.65",
+          "context": "Keeps ball in yard"
+        },
+        {
+          "label": "SF R/G / SEA R/G",
+          "value": "4.11 / 4.04",
+          "context": "Both below league average"
+        }
+      ],
+      "the_market": "Total opened at 7 and has held. Books are cautious coming out of the break. Under is getting plus money at DraftKings (+102), which is unusual for a total this low.",
+      "weather_park": "T-Mobile Park is outdoor but covered. Pitcher-friendly in all conditions. No weather concerns.",
+      "case_against": "Miller is coming off the All-Star break \u2014 rust is possible. Roupp's 10.2% walk rate could lead to traffic, and if Miller has one bad inning, this total is in play. The Giants have some pop (4.11 R/G on the road).",
+      "what_were_betting_on": "Miller going 6+ innings with 2 or fewer runs, Roupp keeping the ball in the yard, both offenses staying quiet in a pitcher's park.",
+      "scott_bot_quip": "T-Mobile Park, where fly balls go to die. Miller's splitter is the executioner.",
+      "ladder_note": "Best floor on the board. Miller's elite peripherals at a pitcher's park, plus money on the under, both offenses below league average. This is the ladder.",
+      "date": "2026-07-17",
+      "status": "PEND",
+      "units_result": null,
+      "clv_cents": null,
+      "result_score": null,
+      "graded_at": null,
+      "slate_assessment": "Fifteen-game MLB board on the first day back from the All-Star break. No NBA or NHL in scope. Pitching matchups are the story \u2014 Bryce Miller at T-Mobile, Chris Sale at Truist, and a struggling Roki Sasaki at Yankee Stadium all jump off the page.",
+      "executive_summary": "First day back from the break brings a 15-game MLB slate with no NBA or NHL action. The marquee matchup is Dodgers-Yankees in the Bronx, but Roki Sasaki's 5.33 ERA and loud-contact issues make the Yankees ML the sharpest side play on the board. Bryce Miller's elite peripherals at pitcher-friendly T-Mobile Park give Seattle Under 7 the best floor of the day \u2014 that's the ladder. Chris Sale's dominance against a weak Texas lineup rounds out the sides, while Gavin Williams' K prop and a Coors-fueled total bases play on Elly De La Cruz add prop value. Six picks, all at playable juice, all with clear edges.",
+      "slate_analysis": "The board today is 15 MLB games, all coming out of the All-Star break. No NBA or NHL in scope. The pricing climate is soft \u2014 books are cautious after the layoff, and several totals and sides are sitting at near pick'em numbers that invite edge-hunting. The highest-total games (CHC-MIN at 11, COL-CIN at 12, KC-SD at 10.5) offer prop depth, while the marquee LAD-NYY matchup has the most liquid market.\n\nTop candidates that rose during my review: (1) SEA vs SF Under 7 \u2014 Bryce Miller's 2.18 ERA, 0.83 WHIP, and 30.2% K rate at T-Mobile Park (0.93 runs PF) against a Giants offense that ranks middle-of-the-pack. (2) NYY ML vs LAD \u2014 Roki Sasaki's 5.33 ERA, 2.11 HR/9, and 9.4% BB rate are a disaster waiting to happen at Yankee Stadium (1.14 HR PF). Gerrit Cole is the better pitcher today. (3) ATL -1.5 vs TEX \u2014 Chris Sale's 2.20 ERA and 29% K rate against a Rangers offense averaging 4.16 R/G. (4) Gavin Williams Ks Over 5.5 \u2014 29.1% K rate against a Pirates lineup that strikes out at a league-average clip. (5) Elly De La Cruz Total Bases Over 1.5 at Coors \u2014 Brady Singer's 2.02 HR/9 and Coors' 1.14 HR PF make this a power play. (6) MIL vs MIA Under 8 \u2014 Logan Henderson's 0.99 WHIP and Sandy Alcantara's groundball tendencies in a neutral park.\n\nWhat got cut and why: TB @ BOS Game 1 \u2014 data confidence 0.4, lineups not confirmed, and the total moved from 8.5 to 9.0 against my lean. CLE vs PIT sides \u2014 Cleveland ML at -130 exceeds my edge threshold (market implies 56.5%, my fair line is 58%, only 1.5 cents of edge). HOU vs BAL \u2014 data confidence 0.3, park factors unknown for Daikin Park. CHC vs MIN Over 11 \u2014 both starters have BB/9 above 3.5 (Rea 8.6%, Ober 6.3%), which triggers my under-rejection flag for totals but also makes the over too volatile. COL vs CIN sides \u2014 Gabriel Hughes has only 9 IP this season, sample too thin to trust.\n\nThe final six: Yankees ML (best edge on the board, Sasaki's flaws meet NYY's power profile), Seattle Under 7 (ladder pick \u2014 Miller's elite peripherals at a pitcher's park, highest floor), Braves -1.5 (Sale's dominance, weak opponent), Gavin Williams Ks Over 5.5 (K-rate edge, clean spot), Elly De La Cruz TBs Over 1.5 (Coors + Singer's HR/9), and Brewers-Marlins Under 8 (Henderson's WHIP, Alcantara's groundball tendencies). The ladder rides with Seattle Under 7 \u2014 Miller's floor is the highest on the board, the park suppresses runs, and the Giants offense is mediocre.",
+      "slate_vibe": "NORMAL",
+      "published_at": "2026-07-17T12:16:44.432301-04:00"
+    },
+    {
+      "id": "20260717-MLB-LAD-NYY-ML",
+      "sport": "MLB",
+      "game": "LAD @ NYY",
+      "first_pitch_iso": "2026-07-17T23:05Z",
+      "pick": "New York Yankees ML",
+      "best_book": "FanDuel",
+      "best_odds": "-108",
+      "book_prices": {
+        "draftkings": "-108",
+        "fanduel": "-108",
+        "betmgm": "-110"
+      },
+      "book_links": {
+        "fanduel": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.591613746&selectionId=29161",
+        "draftkings": "https://sportsbook.draftkings.com/?outcomes=0ML85505007_1",
+        "betmgm": "https://sports.nj.betmgm.com/en/sports?options=19803970-1542776029-2253406819&type=Single"
+      },
+      "market": "ML",
+      "confidence": 4,
+      "units": 1.5,
+      "win_probability": 0.58,
+      "ladder_designation": false,
+      "data_confidence": 0.85,
+      "rules_passed": [
+        "max_juice",
+        "ladder_even_money",
+        "parlay_well_formed",
+        "confidence_units_match",
+        "data_confidence_floor",
+        "pick_type_allowed",
+        "mlb_hr_prop_check",
+        "mlb_pitcher_k_check",
+        "mlb_total_bases_check",
+        "mlb_hits_check",
+        "nba_player_prop_check",
+        "nhl_shots_check",
+        "mlb_run_line_check",
+        "mlb_under_bb_check",
+        "no_same_game_opposite"
+      ],
+      "locked": true,
+      "late_add": false,
+      "late_add_reason": "",
+      "bonus_pick": false,
+      "event_type": "",
+      "event_name": "",
+      "legs": [],
+      "headline": "Sasaki's loud-contact issues meet the Yankees' barrel-heavy lineup at a HR-boosting park.",
+      "the_thesis": "Roki Sasaki has been a disappointment in his first full MLB season. His 5.33 ERA tells part of the story, but the underlying numbers are worse \u2014 a 2.11 HR/9 means he's giving up long balls at an alarming rate, and his 9.4% walk rate compounds the damage. The market has this as a coin flip, but Gerrit Cole is the better pitcher today despite his own mediocre 4.04 ERA.\n\nThe matchup tilts hard toward New York. Sasaki has allowed a 12.8% barrel rate and 44.9% hard-hit rate this season, and the Yankees lead MLB in barrel rate. Yankee Stadium's 1.14 HR park factor is the worst possible venue for a pitcher who can't keep the ball in the yard. Ben Rice has been one of the best hitters in the AL (.279/.372/.599 with 29 HR), and Jazz Chisholm Jr. and Cody Bellinger provide additional thump even without Aaron Judge in the lineup.\n\nCole isn't vintage Cole, but he's been far more reliable than Sasaki. The Dodgers are just 5-11 ATS in Sasaki's starts this season \u2014 the market has learned to fade him. I have the Yankees at 58% to win; the market implies 50%. That's 8 cents of edge at a playable price.",
+      "the_data": [
+        {
+          "label": "Sasaki ERA / HR/9",
+          "value": "5.33 / 2.11",
+          "context": "Both bottom-tier among qualified starters"
+        },
+        {
+          "label": "Sasaki BB%",
+          "value": "9.4%",
+          "context": "Command issues persist"
+        },
+        {
+          "label": "NYY Barrel Rate",
+          "value": "1st in MLB",
+          "context": "Best in baseball"
+        },
+        {
+          "label": "Yankee Stadium HR PF",
+          "value": "1.14",
+          "context": "HR-boosting"
+        },
+        {
+          "label": "Cole ERA / K%",
+          "value": "4.04 / 22.7%",
+          "context": "Solid, not elite"
+        },
+        {
+          "label": "LAD ATS in Sasaki starts",
+          "value": "5-11",
+          "context": "Market has learned to fade"
+        }
+      ],
+      "the_market": "This opened as a pick'em and has stayed there. Books have NYY at -104 to -110 depending on the shop. The market isn't fully buying either team's name recognition \u2014 it's pricing the actual form and the pitching matchup.",
+      "weather_park": "Yankee Stadium, 84\u00b0F at first pitch, slight breeze toward left-center. HR-boosting conditions compound Sasaki's issues.",
+      "case_against": "The Dodgers' lineup is still loaded \u2014 Ohtani, Freeman, Betts can punish any mistake. Cole's 9.2% barrel rate and 40.3% hard-hit rate mean he's hittable too. If Sasaki finds his command for one night, this flips.",
+      "what_were_betting_on": "Sasaki's command issues continuing, Yankees' power hitters capitalizing on his HR/9 problems, Cole giving NYY a chance to win.",
+      "scott_bot_quip": "Sasaki's splitter is nasty when it's in the zone. It's rarely in the zone.",
+      "ladder_note": "",
+      "date": "2026-07-17",
+      "status": "PEND",
+      "units_result": null,
+      "clv_cents": null,
+      "result_score": null,
+      "graded_at": null,
+      "slate_assessment": "Fifteen-game MLB board on the first day back from the All-Star break. No NBA or NHL in scope. Pitching matchups are the story \u2014 Bryce Miller at T-Mobile, Chris Sale at Truist, and a struggling Roki Sasaki at Yankee Stadium all jump off the page.",
+      "executive_summary": "First day back from the break brings a 15-game MLB slate with no NBA or NHL action. The marquee matchup is Dodgers-Yankees in the Bronx, but Roki Sasaki's 5.33 ERA and loud-contact issues make the Yankees ML the sharpest side play on the board. Bryce Miller's elite peripherals at pitcher-friendly T-Mobile Park give Seattle Under 7 the best floor of the day \u2014 that's the ladder. Chris Sale's dominance against a weak Texas lineup rounds out the sides, while Gavin Williams' K prop and a Coors-fueled total bases play on Elly De La Cruz add prop value. Six picks, all at playable juice, all with clear edges.",
+      "slate_analysis": "The board today is 15 MLB games, all coming out of the All-Star break. No NBA or NHL in scope. The pricing climate is soft \u2014 books are cautious after the layoff, and several totals and sides are sitting at near pick'em numbers that invite edge-hunting. The highest-total games (CHC-MIN at 11, COL-CIN at 12, KC-SD at 10.5) offer prop depth, while the marquee LAD-NYY matchup has the most liquid market.\n\nTop candidates that rose during my review: (1) SEA vs SF Under 7 \u2014 Bryce Miller's 2.18 ERA, 0.83 WHIP, and 30.2% K rate at T-Mobile Park (0.93 runs PF) against a Giants offense that ranks middle-of-the-pack. (2) NYY ML vs LAD \u2014 Roki Sasaki's 5.33 ERA, 2.11 HR/9, and 9.4% BB rate are a disaster waiting to happen at Yankee Stadium (1.14 HR PF). Gerrit Cole is the better pitcher today. (3) ATL -1.5 vs TEX \u2014 Chris Sale's 2.20 ERA and 29% K rate against a Rangers offense averaging 4.16 R/G. (4) Gavin Williams Ks Over 5.5 \u2014 29.1% K rate against a Pirates lineup that strikes out at a league-average clip. (5) Elly De La Cruz Total Bases Over 1.5 at Coors \u2014 Brady Singer's 2.02 HR/9 and Coors' 1.14 HR PF make this a power play. (6) MIL vs MIA Under 8 \u2014 Logan Henderson's 0.99 WHIP and Sandy Alcantara's groundball tendencies in a neutral park.\n\nWhat got cut and why: TB @ BOS Game 1 \u2014 data confidence 0.4, lineups not confirmed, and the total moved from 8.5 to 9.0 against my lean. CLE vs PIT sides \u2014 Cleveland ML at -130 exceeds my edge threshold (market implies 56.5%, my fair line is 58%, only 1.5 cents of edge). HOU vs BAL \u2014 data confidence 0.3, park factors unknown for Daikin Park. CHC vs MIN Over 11 \u2014 both starters have BB/9 above 3.5 (Rea 8.6%, Ober 6.3%), which triggers my under-rejection flag for totals but also makes the over too volatile. COL vs CIN sides \u2014 Gabriel Hughes has only 9 IP this season, sample too thin to trust.\n\nThe final six: Yankees ML (best edge on the board, Sasaki's flaws meet NYY's power profile), Seattle Under 7 (ladder pick \u2014 Miller's elite peripherals at a pitcher's park, highest floor), Braves -1.5 (Sale's dominance, weak opponent), Gavin Williams Ks Over 5.5 (K-rate edge, clean spot), Elly De La Cruz TBs Over 1.5 (Coors + Singer's HR/9), and Brewers-Marlins Under 8 (Henderson's WHIP, Alcantara's groundball tendencies). The ladder rides with Seattle Under 7 \u2014 Miller's floor is the highest on the board, the park suppresses runs, and the Giants offense is mediocre.",
+      "slate_vibe": "NORMAL",
+      "published_at": "2026-07-17T12:16:44.432160-04:00"
+    },
     {
       "id": "20260716-MLB-NYM-PHI-PROP-BRYCEHARPER",
       "sport": "MLB",
