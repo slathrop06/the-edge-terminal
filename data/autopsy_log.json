@@ -1,5 +1,44 @@
 [
   {
+    "id": "20260718-MLB-DET-LAA-SPREAD",
+    "date": "2026-07-18",
+    "pick": "Tigers -1.5",
+    "game": "DET @ LAA",
+    "odds": "-113",
+    "result_score": "DET 2 \u00b7 LAA 1",
+    "classification": "VARIANCE",
+    "post_mortem": "The Tigers won 2-1, so the thesis was directionally correct \u2014 Detroit got the W. But -1.5 requires a 2-run margin, and the game stayed a 1-run contest wire to wire. Per the play-by-play, LAA scored in the 1st inning and held that 1-0 lead through 8 innings of near-total offensive silence from Detroit (0 runs across innings 1-8). The Tigers' only offense came on a Hao-Yu Lee two-out, two-run double in the top of the 9th off Kirby Yates \u2014 a walk-off rally that flipped a 1-0 deficit into a 2-1 win, but left zero margin for the run line. The Angels' bullpen \u2014 which ranked as the best in baseball over the prior 14 days (2.61 SIERA, 31.2% K%) \u2014 held Detroit scoreless until the final out of the 9th, exactly the scenario the pick's 'case against' flagged but underweighted.",
+    "candidate_rule": null,
+    "sample_size_warning": "N=1, insufficient to establish rule. The pick won the game, lost the run line by exactly 1 run \u2014 pure margin variance, not a systematic model failure.",
+    "analyzed_at": "2026-07-18T18:40:24.539543-04:00"
+  },
+  {
+    "id": "20260718-MLB-CIN-COL-TOTAL",
+    "date": "2026-07-18",
+    "pick": "Over 12.5",
+    "game": "CIN @ COL",
+    "odds": "-108",
+    "result_score": "CIN 7 \u00b7 COL 2",
+    "classification": "DATA",
+    "post_mortem": "The entire thesis was built on Sugano (4.80 ERA, 1.71 HR/9) and Lowder (4.91 ERA) as the two mediocre arms. Neither started. Brady Singer went seven strong innings allowing four hits, and Gabriel Hughes held Cincinnati to two runs through 5.1 innings \u2014 two competent performances the model never priced in. The final was 7-2 (9 total), a full 3.5 runs short of the 12.5 over. Coors Field never got a chance to do its job because the starters the pick was predicated on were not on the mound.",
+    "candidate_rule": "Before posting any total pick, verify the confirmed starter via MLB.com or the team's official transaction wire within 2 hours of first pitch \u2014 if the named starter has changed, void or re-evaluate the pick from scratch; N=1, insufficient to establish rule.",
+    "sample_size_warning": "N=1, insufficient to establish rule \u2014 but starter-swap invalidations are a known, recurring failure mode worth tracking as a pattern.",
+    "analyzed_at": "2026-07-18T18:39:43.606158-04:00"
+  },
+  {
+    "id": "20260718-MLB-SD-KC-PROP-BOBBYWITTJR",
+    "date": "2026-07-18",
+    "pick": "Bobby Witt Jr. TBs Over 1.5",
+    "game": "SD @ KC",
+    "odds": "-133",
+    "result_score": "Bobby Witt Jr.: 0 totalBases",
+    "classification": "MODEL",
+    "post_mortem": "Witt went 0-for in Game 2 (July 18, 4:10 PM, Canning starting) with 0 total bases, exactly the 0-for-4 scenario the 'case against' acknowledged but dismissed. The thesis leaned hard on Canning's 6.47 ERA and weather boost while ignoring a flagged structural problem: Canning held the platoon advantage over Witt, as both are right-handed \u2014 a factor pre-game analysis explicitly noted. A right-handed bat facing a righty pitcher, even a bad one, is a materially worse matchup than the ERA-only framing suggested, and Canning's sinker-heavy approach (38.3% usage) generates ground balls, not the hard-contact extra-base hits the model needed. The thesis picked the right pitcher to attack but the wrong hitter to do it with.",
+    "candidate_rule": "When targeting a player prop against a weak starter, verify platoon split alignment before entry \u2014 if the hitter faces a same-handed pitcher, require a minimum platoon-adjusted wOBA threshold (e.g., .370+) before approving the pick at juice above -120. (N=1, insufficient to establish rule \u2014 monitor for pattern.)",
+    "sample_size_warning": "N=1, insufficient to establish rule. One 0-for game against a bad pitcher is noise, but the platoon oversight is a repeatable model flaw worth tracking.",
+    "analyzed_at": "2026-07-18T18:39:26.872133-04:00"
+  },
+  {
     "id": "20260717-MLB-LAD-NYY-ML",
     "date": "2026-07-17",
     "pick": "New York Yankees ML",

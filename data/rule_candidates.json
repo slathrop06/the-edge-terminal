@@ -414,5 +414,21 @@
     "candidate_rule": "When the over thesis depends on a high-BB% starter walking batters into trouble, require a minimum sample of 3+ recent starts showing elevated BB rates before treating it as a reliable game-day input \u2014 one-start or season-long BB% can mask recent command improvements (N=1, insufficient to establish rule).",
     "sample_size_warning": "N=1, insufficient to establish rule \u2014 but the solo-HR trap (runs scored without run accumulation) is a recurring over-killer worth tracking across future Nola starts.",
     "status": "PENDING_REVIEW"
+  },
+  {
+    "proposed_at": "2026-07-18T18:39:26.873849-04:00",
+    "source_pick_id": "20260718-MLB-SD-KC-PROP-BOBBYWITTJR",
+    "source_loss": "Bobby Witt Jr. TBs Over 1.5 (SD @ KC)",
+    "candidate_rule": "When targeting a player prop against a weak starter, verify platoon split alignment before entry \u2014 if the hitter faces a same-handed pitcher, require a minimum platoon-adjusted wOBA threshold (e.g., .370+) before approving the pick at juice above -120. (N=1, insufficient to establish rule \u2014 monitor for pattern.)",
+    "sample_size_warning": "N=1, insufficient to establish rule. One 0-for game against a bad pitcher is noise, but the platoon oversight is a repeatable model flaw worth tracking.",
+    "status": "PENDING_REVIEW"
+  },
+  {
+    "proposed_at": "2026-07-18T18:39:43.607772-04:00",
+    "source_pick_id": "20260718-MLB-CIN-COL-TOTAL",
+    "source_loss": "Over 12.5 (CIN @ COL)",
+    "candidate_rule": "Before posting any total pick, verify the confirmed starter via MLB.com or the team's official transaction wire within 2 hours of first pitch \u2014 if the named starter has changed, void or re-evaluate the pick from scratch; N=1, insufficient to establish rule.",
+    "sample_size_warning": "N=1, insufficient to establish rule \u2014 but starter-swap invalidations are a known, recurring failure mode worth tracking as a pattern.",
+    "status": "PENDING_REVIEW"
   }
 ]
