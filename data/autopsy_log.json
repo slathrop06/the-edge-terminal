@@ -1,5 +1,18 @@
 [
   {
+    "id": "20260717-MLB-LAD-NYY-ML",
+    "date": "2026-07-17",
+    "pick": "New York Yankees ML",
+    "game": "LAD @ NYY",
+    "odds": "-108",
+    "result_score": "LAD 2 \u00b7 NYY 1",
+    "classification": "VARIANCE",
+    "post_mortem": "The thesis was executing perfectly: Cole was dominant through six innings, holding the Dodgers hitless and the Yankees led 1-0 on an unearned run off Sasaki in the fourth. The loss came down to a single pitch \u2014 Cole at 90 pitches to start the seventh, walked Mookie Betts, Boone visited the mound and left Cole in, and Muncy hammered a hanging 2-2 slider into the right-field second deck for a go-ahead two-run shot (his 18th HR). The Yankees' best scoring chance in the eighth died when Grisham was gunned down at the plate on a Ben Rice double via an Andy Pages-to-Betts relay. Tanner Scott closed it out in the ninth. The pick was right \u2014 Cole outpitched Sasaki, the Yankees generated traffic \u2014 but one left-over slider to a hot hitter ended it.",
+    "candidate_rule": null,
+    "sample_size_warning": "N=1, insufficient to establish rule \u2014 this is a clean VARIANCE loss on a single hung slider in the seventh; no systemic flaw to correct.",
+    "analyzed_at": "2026-07-18T01:33:51.062141-04:00"
+  },
+  {
     "id": "20260716-MLB-NYM-PHI-TOTAL",
     "date": "2026-07-16",
     "pick": "Over 9.5",

@@ -5,6 +5,14 @@
   "target": 10,
   "history": [
     {
+      "date": "2026-07-17",
+      "pick_id": "20260717-MLB-SF-SEA-TOTAL",
+      "pick": "Under 7",
+      "game": "SF @ SEA",
+      "status": "PUSH",
+      "after_streak": 0
+    },
+    {
       "date": "2026-07-16",
       "pick_id": "20260716-MLB-NYM-PHI-PROP-JUANSOTO",
       "pick": "Juan Soto TB Over 1.5",
@@ -349,5 +357,5 @@
       "after_streak": 1
     }
   ],
-  "updated_at": "2026-07-17T01:47:40.132444-04:00"
+  "updated_at": "2026-07-18T01:33:27.526932-04:00"
 }
