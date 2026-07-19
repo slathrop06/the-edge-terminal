@@ -1,5 +1,31 @@
 [
   {
+    "id": "20260719-MLB-DET-LAA-PROP-CASEYMIZE",
+    "date": "2026-07-19",
+    "pick": "Casey Mize Ks Over 5.5",
+    "game": "DET @ LAA",
+    "odds": "-120",
+    "result_score": "Casey Mize: 5 strikeOuts",
+    "classification": "MODEL",
+    "post_mortem": "Mize finished with exactly 5 Ks \u2014 one short of the 5.5 line \u2014 in what was a contact-heavy outing consistent with his July trend of 4.5 Ks/start over his prior two outings. The fatal flaw: the thesis labeled the Angels a 'league-average' strikeout lineup, but LAA ranked dead last in MLB in strikeouts allowed (941), making them the hardest team in baseball to punch out. Mize's ground-ball-heavy profile (2 GB/3 FB per ESPN box score) compounded the mismatch \u2014 he induced weak contact rather than swings-and-misses against a lineup built to put the ball in play.",
+    "candidate_rule": "Before taking a pitcher K prop Over, validate the opposing team's actual strikeout rank \u2014 if the lineup ranks in the bottom 5 of MLB in Ks allowed, apply a 0.5\u20131.0 K discount to the pitcher's recent average before comparing to the line; N=1, insufficient to establish rule.",
+    "sample_size_warning": "N=1, insufficient to establish rule \u2014 but the data error (misclassifying a bottom-30 K lineup as league-average) is a repeatable validator gap worth flagging immediately.",
+    "analyzed_at": "2026-07-19T18:42:15.244717-04:00"
+  },
+  {
+    "id": "20260719-MLB-BOS-TB-TOTAL",
+    "date": "2026-07-19",
+    "pick": "Under 8.5",
+    "game": "TB @ BOS",
+    "odds": "-114",
+    "result_score": "TB 0 \u00b7 BOS 10",
+    "classification": "MODEL",
+    "post_mortem": "The final was BOS 6, TB 1 \u2014 total of 7, which actually clears the Under 8.5 on paper, but the pick was submitted with a result score of 'TB 0 \u00b7 BOS 10' (that was the July 17 Game 1 blowout, not this game). Setting the score confusion aside and autopsying the actual July 19 game: McClanahan imploded in the third inning without surrendering a single hit \u2014 two walks, a hit batter, a passed ball, a Caminero throwing error, and an RBI groundout produced three unearned runs, giving Boston a 4-1 lead it never relinquished. The thesis that McClanahan's 0.63 HR/9 and command profile would keep the game clean was directly contradicted by his 7.9% walk rate materializing in the worst possible way; the case-against section flagged this exact risk ('McClanahan's 7.9% walk rate could lead to crooked innings if he loses the zone') but the model still backed the Under. Gray also issued a season-high four walks, and the Rays went 0-for-11 with RISP \u2014 the under actually hit at 7 total runs, but the model's core walk-rate concern was a known, flagged risk that was underweighted rather than a surprise.",
+    "candidate_rule": "When a starter's walk rate exceeds 7.5% AND the pick thesis explicitly flags command risk as a 'case against,' require the walk rate concern to be quantitatively stress-tested (e.g., expected runs added per walk event at Fenway) before approving an Under \u2014 N=1, insufficient to establish rule.",
+    "sample_size_warning": "N=1, insufficient to establish rule; also note the submitted result score ('TB 0 \u00b7 BOS 10') was from July 17 Game 1, not this game \u2014 verify result scores against box scores before logging.",
+    "analyzed_at": "2026-07-19T18:41:47.638084-04:00"
+  },
+  {
     "id": "20260718-MLB-DET-LAA-SPREAD",
     "date": "2026-07-18",
     "pick": "Tigers -1.5",

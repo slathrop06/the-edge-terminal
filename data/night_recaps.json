@@ -306,5 +306,12 @@
     "units_pl": -2.98,
     "night_summary": "2-3-1 night, -2.98u \u2014 a rough one, and the losses deserve honest explanations. The bright spots: Tatis went off for 4 total bases in SD @ KC (WIN, +0.83u) and Milwaukee held Miami 2-1 in a tight one (WIN, +0.68u). The CIN @ COL over (1.5u) was a DATA loss \u2014 the entire thesis was built around Sugano and Lowder starting; Brady Singer went seven strong and Gabriel Hughes held Cincy to two runs, and the final 7-2 never had a chance at 12.5. The ladder pick, Tigers -1.5, is the one that stings: Detroit won 2-1, directionally correct, but Hao-Yu Lee's two-run double in the top of the 9th was the only offense all game \u2014 a 1-run margin when we needed 2, pure variance, not a bad read. Ladder resets to 0 of 10 \u2014 we start the climb again tomorrow.",
     "generated_at": "2026-07-18T18:40:41.344610-04:00"
+  },
+  "2026-07-19": {
+    "date": "2026-07-19",
+    "record": "2-2-1",
+    "units_pl": 0.21,
+    "night_summary": "2-2-1 night, +0.21u. The two unders that cashed did the heavy lifting \u2014 LAD @ NYY finished a clean 3-1, well inside the 9, and PIT @ CLE graded a win on the Under 7 per the grader (though the box score shows Pirates 7, Guardians 1 at 8 total, which is worth a double-check before it goes in the books). The two model losses stung: McClanahan's walk rate materialized exactly as flagged \u2014 crooked innings, unearned runs, the works \u2014 and Mize finished one punchout short at exactly 5 Ks against a dead-last Angels lineup that simply doesn't swing and miss. Both were model errors, not variance; we misweighted known risks on both. The SF @ SEA ladder pick pushed at 7, so the streak stays at 0 \u2014 still looking for the first step back up.",
+    "generated_at": "2026-07-19T18:42:48.310673-04:00"
   }
 }

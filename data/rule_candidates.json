@@ -430,5 +430,21 @@
     "candidate_rule": "Before posting any total pick, verify the confirmed starter via MLB.com or the team's official transaction wire within 2 hours of first pitch \u2014 if the named starter has changed, void or re-evaluate the pick from scratch; N=1, insufficient to establish rule.",
     "sample_size_warning": "N=1, insufficient to establish rule \u2014 but starter-swap invalidations are a known, recurring failure mode worth tracking as a pattern.",
     "status": "PENDING_REVIEW"
+  },
+  {
+    "proposed_at": "2026-07-19T18:41:47.639920-04:00",
+    "source_pick_id": "20260719-MLB-BOS-TB-TOTAL",
+    "source_loss": "Under 8.5 (TB @ BOS)",
+    "candidate_rule": "When a starter's walk rate exceeds 7.5% AND the pick thesis explicitly flags command risk as a 'case against,' require the walk rate concern to be quantitatively stress-tested (e.g., expected runs added per walk event at Fenway) before approving an Under \u2014 N=1, insufficient to establish rule.",
+    "sample_size_warning": "N=1, insufficient to establish rule; also note the submitted result score ('TB 0 \u00b7 BOS 10') was from July 17 Game 1, not this game \u2014 verify result scores against box scores before logging.",
+    "status": "PENDING_REVIEW"
+  },
+  {
+    "proposed_at": "2026-07-19T18:42:15.246484-04:00",
+    "source_pick_id": "20260719-MLB-DET-LAA-PROP-CASEYMIZE",
+    "source_loss": "Casey Mize Ks Over 5.5 (DET @ LAA)",
+    "candidate_rule": "Before taking a pitcher K prop Over, validate the opposing team's actual strikeout rank \u2014 if the lineup ranks in the bottom 5 of MLB in Ks allowed, apply a 0.5\u20131.0 K discount to the pitcher's recent average before comparing to the line; N=1, insufficient to establish rule.",
+    "sample_size_warning": "N=1, insufficient to establish rule \u2014 but the data error (misclassifying a bottom-30 K lineup as league-average) is a repeatable validator gap worth flagging immediately.",
+    "status": "PENDING_REVIEW"
   }
 ]
