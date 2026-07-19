@@ -1,7 +1,502 @@
 {
   "version": 1,
-  "updated_at": "2026-07-19T04:44:06.051422-04:00",
+  "updated_at": "2026-07-19T11:58:37.347571-04:00",
   "picks": [
+    {
+      "id": "20260719-MLB-BOS-TB-TOTAL",
+      "sport": "MLB",
+      "game": "TB @ BOS",
+      "first_pitch_iso": "2026-07-19T17:35Z",
+      "pick": "Under 8.5",
+      "best_book": "FanDuel",
+      "best_odds": "-114",
+      "book_prices": {
+        "draftkings": "-114",
+        "fanduel": "-114",
+        "betmgm": "-120"
+      },
+      "book_links": {
+        "fanduel": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.592905539&selectionId=7017906",
+        "draftkings": "https://sportsbook.draftkings.com/?outcomes=0OU85543715U850_3",
+        "betmgm": "https://sports.nj.betmgm.com/en/sports?options=19801387-1542537068-2252683218&type=Single"
+      },
+      "market": "TOTAL",
+      "confidence": 3,
+      "units": 1.0,
+      "win_probability": 0.56,
+      "ladder_designation": false,
+      "data_confidence": 0.7,
+      "rules_passed": [
+        "max_juice",
+        "ladder_even_money",
+        "parlay_well_formed",
+        "confidence_units_match",
+        "data_confidence_floor",
+        "pick_type_allowed",
+        "mlb_hr_prop_check",
+        "mlb_pitcher_k_check",
+        "mlb_total_bases_check",
+        "mlb_hits_check",
+        "nba_player_prop_check",
+        "nhl_shots_check",
+        "mlb_run_line_check",
+        "mlb_under_bb_check",
+        "no_same_game_opposite"
+      ],
+      "locked": true,
+      "late_add": false,
+      "late_add_reason": "",
+      "bonus_pick": false,
+      "event_type": "",
+      "event_name": "",
+      "legs": [],
+      "headline": "Two quality starters at Fenway with wind blowing L-to-R \u2014 not the typical Fenway slugfest.",
+      "the_thesis": "Sonny Gray vs Shane McClanahan is a quality pitching matchup that's flying under the radar. Gray has been excellent this season with a 2.54 ERA and 1.10 WHIP \u2014 those are elite numbers for a veteran who's reinvented himself. McClanahan has been solid with a 2.83 ERA, though his 7.9% walk rate is slightly elevated.\n\nFenway Park is hitter-friendly (1.05 runs PF), but the wind is blowing L-to-R at 14 mph, which doesn't boost HR the way wind blowing out to RF would. The total is sitting at 8.5, and both offenses are middle-of-the-pack (BOS 4.2 R/G, TB 4.47 R/G).\n\nThis is a spot where two quality arms should keep the game low-scoring. Gray's 6.3% walk rate and McClanahan's 0.63 HR/9 both point to a clean game.",
+      "the_data": [
+        {
+          "label": "Gray ERA / WHIP",
+          "value": "2.54 / 1.10",
+          "context": "Elite season"
+        },
+        {
+          "label": "McClanahan ERA / HR/9",
+          "value": "2.83 / 0.63",
+          "context": "Suppresses long ball"
+        },
+        {
+          "label": "Fenway PF (runs)",
+          "value": "1.05",
+          "context": "Hitter-friendly but not extreme"
+        },
+        {
+          "label": "Wind direction",
+          "value": "L-to-R 14 mph",
+          "context": "Doesn't boost HR"
+        },
+        {
+          "label": "BOS R/G",
+          "value": "4.2",
+          "context": "League average"
+        },
+        {
+          "label": "TB R/G",
+          "value": "4.47",
+          "context": "Slightly above average"
+        }
+      ],
+      "the_market": "Total opened at 8.5 and hasn't moved. The market is pricing this as a standard Fenway game, but the pitching matchup suggests it should be lower.",
+      "weather_park": "Fenway is hitter-friendly (1.05 runs PF), but wind is blowing L-to-R at 14 mph, which doesn't boost HR. Sunny, 78\u00b0F.",
+      "case_against": "Fenway is still Fenway \u2014 the Green Monster can turn routine fly balls into doubles. McClanahan's 7.9% walk rate could lead to crooked innings if he loses the zone. Both bullpens have been inconsistent.",
+      "what_were_betting_on": "Both starters going 6+ innings, the wind keeping the ball in the park, and a clean game from both bullpens.",
+      "scott_bot_quip": "Two aces at Fenway, wind blowing sideways. This isn't the slugfest the public expects.",
+      "ladder_note": "",
+      "date": "2026-07-19",
+      "status": "PEND",
+      "units_result": null,
+      "clv_cents": null,
+      "result_score": null,
+      "graded_at": null,
+      "slate_assessment": "16-game MLB-only Sunday slate with two elite pitching matchups (Schlittler-Yamamoto at Yankee Stadium, Gilbert vs SF at T-Mobile) and several exploitable totals. No NBA or NHL action today.",
+      "executive_summary": "Sunday's 16-game MLB board is headlined by the Dodgers-Yankees showdown at Yankee Stadium, where Cam Schlittler (2.05 ERA) faces Yoshinobu Yamamoto in a marquee pitching duel. The total has ballooned from 7.8 to 9.0 since open \u2014 a sharp signal that the market is overcorrecting for the HR-friendly park. Meanwhile, Logan Gilbert at T-Mobile Park against a weak Giants lineup offers the cleanest under spot on the board. The ladder rides with the Seattle Under 7 \u2014 Gilbert's elite command, a pitcher-friendly park, and Robbie Ray's walk rate all point to a low-scoring affair.",
+      "slate_analysis": "Sixteen MLB games today, no NBA or NHL, so we're working a full baseball board. The pricing climate is soft \u2014 most games are pick'em or short favorites, with only a handful of heavy chalk (Cubs -172, Mariners -196). The total market is where the edges live today.\n\nThe candidates that rose to the top: (1) Seattle Under 7 vs SF \u2014 Gilbert's 3.32 ERA and 0.99 WHIP at T-Mobile (0.93 runs PF) against a Giants lineup that's struggled on the road. Robbie Ray's 11.7% BB rate is a concern for the over, but his 3.38 ERA keeps this total suppressed. (2) Yankees-Dodgers Under 9 \u2014 Schlittler (2.05 ERA) vs Yamamoto (2.85 ERA) is the best pitching matchup on the board, but the total has moved from 7.8 to 9.0 since open. That's a massive move, and the market is pricing in Yankee Stadium's HR factor too aggressively. (3) Detroit ML at LAA \u2014 Casey Mize (2.79 ERA, 1.00 WHIP) against Ryan Johnson (6.75 ERA, 2.45 HR/9) is a massive SP mismatch. Mize is healthy and rolling since his IL return. (4) Cleveland Under 7 vs Pittsburgh \u2014 Skenes (3.57 ERA, 29.5% K rate) vs Cantillo with wind blowing in 10 mph at Progressive Field. Weather suppressing HR by 13%. (5) Casey Mize Ks Over 5.5 \u2014 Mize has a 25.3% K rate and faces an Angels lineup that strikes out at a league-average clip. (6) Paul Skenes Ks Under 7.5 \u2014 Skenes has 130 Ks in 108.1 IP (10.8 K/9), but Cleveland's lineup has one of the lower K rates in baseball and Skenes has shown inconsistency this year.\n\nWhat got cut: Cubs ML at -172 exceeds our -150 juice cap. Nationals ML at -138 looked interesting against Jacob Lopez (6.83 ERA), but data confidence is only 0.4 and lineups aren't confirmed. The Coors game (CIN @ COL) is a stay-away \u2014 Hunter Greene has only 10.1 IP this year and the total is already at 11. The KC-SD game has two weak starters (Cameron 4.89 ERA, Marquez 5.18 ERA) but the total is already at 9.5 and the park suppresses HR.\n\nThe final six: Seattle Under 7 (ladder), Yankees-Dodgers Under 9, Detroit ML, Cleveland Under 7, Casey Mize Ks Over 5.5, and Paul Skenes Ks Under 7.5. The Seattle Under is the ladder pick because Gilbert's floor is the highest on the board \u2014 elite command, pitcher-friendly park, and a Giants lineup that's been inconsistent. The Yankees-Dodgers Under has the best pitching matchup but the total movement is concerning. Detroit ML is the value play of the day with a massive SP mismatch.",
+      "slate_vibe": "NORMAL",
+      "published_at": "2026-07-19T11:58:37.347478-04:00"
+    },
+    {
+      "id": "20260719-MLB-DET-LAA-PROP-CASEYMIZE",
+      "sport": "MLB",
+      "game": "DET @ LAA",
+      "first_pitch_iso": "2026-07-19T20:07Z",
+      "pick": "Casey Mize Ks Over 5.5",
+      "best_book": "DraftKings",
+      "best_odds": "-120",
+      "book_prices": {
+        "draftkings": "-120",
+        "fanduel": "+110",
+        "betmgm": "-105"
+      },
+      "book_links": {
+        "fanduel": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.592927444&selectionId=35677891",
+        "draftkings": "https://sportsbook.draftkings.com/?outcomes=0QA352609409%232216929016_13L84240Q1-2091356037Q20",
+        "betmgm": "https://sports.nj.betmgm.com/en/sports?options=2:7827665-201728447-765964475&type=Single"
+      },
+      "market": "PROP",
+      "confidence": 4,
+      "units": 1.5,
+      "win_probability": 0.6,
+      "ladder_designation": false,
+      "data_confidence": 0.7,
+      "rules_passed": [
+        "max_juice",
+        "ladder_even_money",
+        "parlay_well_formed",
+        "confidence_units_match",
+        "data_confidence_floor",
+        "pick_type_allowed",
+        "mlb_hr_prop_check",
+        "mlb_pitcher_k_check(soft)",
+        "mlb_total_bases_check",
+        "mlb_hits_check",
+        "nba_player_prop_check",
+        "nhl_shots_check",
+        "mlb_run_line_check",
+        "mlb_under_bb_check",
+        "no_same_game_opposite"
+      ],
+      "locked": true,
+      "late_add": false,
+      "late_add_reason": "",
+      "bonus_pick": false,
+      "event_type": "",
+      "event_name": "",
+      "legs": [],
+      "headline": "Mize's 25.3% K rate meets an Angels lineup that strikes out at a league-average clip.",
+      "the_thesis": "Casey Mize has been excellent since returning from the IL, posting a 23:4 K:BB over his last four starts. His season K rate of 25.3% is solid, and he's facing an Angels lineup that strikes out at a league-average rate.\n\nThe line is 5.5 at DraftKings with the over at -120. Mize has gone 6+ innings in most of his starts this year, and if he gets through 6 innings against this Angels lineup, he should easily clear 5.5 Ks. His last four starts have averaged 5.75 Ks per game, and that's with some shorter outings mixed in.\n\nThe Angels don't have a particularly contact-heavy lineup \u2014 Trout, Neto, and Adell all have elevated K rates. This is a clean spot for Mize to rack up punchouts.",
+      "the_data": [
+        {
+          "label": "Mize K% (2026)",
+          "value": "25.3%",
+          "context": "Solid strikeout rate"
+        },
+        {
+          "label": "Mize K:BB (L4 starts)",
+          "value": "23:4",
+          "context": "Excellent since IL return"
+        },
+        {
+          "label": "Mize avg IP/start",
+          "value": "6.0+",
+          "context": "Goes deep in games"
+        },
+        {
+          "label": "LAA team K%",
+          "value": "~22%",
+          "context": "League average"
+        },
+        {
+          "label": "Johnson opposing SP",
+          "value": "6.75 ERA",
+          "context": "Tigers should have lead, Mize stays in"
+        }
+      ],
+      "the_market": "Line is 5.5 across all books. DraftKings has the over at -120, FanDuel at +110, BetMGM at -105. The line hasn't moved, suggesting balanced action.",
+      "weather_park": "Angel Stadium is neutral. No weather concerns.",
+      "case_against": "If the Tigers jump out to a big lead early, Mize could be pulled after 5 innings to save his arm. The Angels could also make early contact and keep Mize's pitch count low, limiting his K opportunities.",
+      "what_were_betting_on": "Mize going 6+ innings and averaging about 1 K per inning against a league-average K lineup.",
+      "scott_bot_quip": "Mize is dealing, the Angels are swinging, and 5.5 Ks is a low bar. Let him work.",
+      "ladder_note": "",
+      "date": "2026-07-19",
+      "status": "PEND",
+      "units_result": null,
+      "clv_cents": null,
+      "result_score": null,
+      "graded_at": null,
+      "slate_assessment": "16-game MLB-only Sunday slate with two elite pitching matchups (Schlittler-Yamamoto at Yankee Stadium, Gilbert vs SF at T-Mobile) and several exploitable totals. No NBA or NHL action today.",
+      "executive_summary": "Sunday's 16-game MLB board is headlined by the Dodgers-Yankees showdown at Yankee Stadium, where Cam Schlittler (2.05 ERA) faces Yoshinobu Yamamoto in a marquee pitching duel. The total has ballooned from 7.8 to 9.0 since open \u2014 a sharp signal that the market is overcorrecting for the HR-friendly park. Meanwhile, Logan Gilbert at T-Mobile Park against a weak Giants lineup offers the cleanest under spot on the board. The ladder rides with the Seattle Under 7 \u2014 Gilbert's elite command, a pitcher-friendly park, and Robbie Ray's walk rate all point to a low-scoring affair.",
+      "slate_analysis": "Sixteen MLB games today, no NBA or NHL, so we're working a full baseball board. The pricing climate is soft \u2014 most games are pick'em or short favorites, with only a handful of heavy chalk (Cubs -172, Mariners -196). The total market is where the edges live today.\n\nThe candidates that rose to the top: (1) Seattle Under 7 vs SF \u2014 Gilbert's 3.32 ERA and 0.99 WHIP at T-Mobile (0.93 runs PF) against a Giants lineup that's struggled on the road. Robbie Ray's 11.7% BB rate is a concern for the over, but his 3.38 ERA keeps this total suppressed. (2) Yankees-Dodgers Under 9 \u2014 Schlittler (2.05 ERA) vs Yamamoto (2.85 ERA) is the best pitching matchup on the board, but the total has moved from 7.8 to 9.0 since open. That's a massive move, and the market is pricing in Yankee Stadium's HR factor too aggressively. (3) Detroit ML at LAA \u2014 Casey Mize (2.79 ERA, 1.00 WHIP) against Ryan Johnson (6.75 ERA, 2.45 HR/9) is a massive SP mismatch. Mize is healthy and rolling since his IL return. (4) Cleveland Under 7 vs Pittsburgh \u2014 Skenes (3.57 ERA, 29.5% K rate) vs Cantillo with wind blowing in 10 mph at Progressive Field. Weather suppressing HR by 13%. (5) Casey Mize Ks Over 5.5 \u2014 Mize has a 25.3% K rate and faces an Angels lineup that strikes out at a league-average clip. (6) Paul Skenes Ks Under 7.5 \u2014 Skenes has 130 Ks in 108.1 IP (10.8 K/9), but Cleveland's lineup has one of the lower K rates in baseball and Skenes has shown inconsistency this year.\n\nWhat got cut: Cubs ML at -172 exceeds our -150 juice cap. Nationals ML at -138 looked interesting against Jacob Lopez (6.83 ERA), but data confidence is only 0.4 and lineups aren't confirmed. The Coors game (CIN @ COL) is a stay-away \u2014 Hunter Greene has only 10.1 IP this year and the total is already at 11. The KC-SD game has two weak starters (Cameron 4.89 ERA, Marquez 5.18 ERA) but the total is already at 9.5 and the park suppresses HR.\n\nThe final six: Seattle Under 7 (ladder), Yankees-Dodgers Under 9, Detroit ML, Cleveland Under 7, Casey Mize Ks Over 5.5, and Paul Skenes Ks Under 7.5. The Seattle Under is the ladder pick because Gilbert's floor is the highest on the board \u2014 elite command, pitcher-friendly park, and a Giants lineup that's been inconsistent. The Yankees-Dodgers Under has the best pitching matchup but the total movement is concerning. Detroit ML is the value play of the day with a massive SP mismatch.",
+      "slate_vibe": "NORMAL",
+      "published_at": "2026-07-19T11:58:37.347374-04:00"
+    },
+    {
+      "id": "20260719-MLB-PIT-CLE-TOTAL",
+      "sport": "MLB",
+      "game": "PIT @ CLE",
+      "first_pitch_iso": "2026-07-19T17:40Z",
+      "pick": "Under 7",
+      "best_book": "DraftKings",
+      "best_odds": "-111",
+      "book_prices": {
+        "draftkings": "-111",
+        "fanduel": "-118",
+        "betmgm": "-120"
+      },
+      "book_links": {
+        "fanduel": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.592906300&selectionId=7017906",
+        "draftkings": "https://sportsbook.draftkings.com/?outcomes=0OU85543808U700_3",
+        "betmgm": "https://sports.nj.betmgm.com/en/sports?options=19801220-1542525910-2252650435&type=Single"
+      },
+      "market": "TOTAL",
+      "confidence": 4,
+      "units": 1.5,
+      "win_probability": 0.58,
+      "ladder_designation": false,
+      "data_confidence": 0.7,
+      "rules_passed": [
+        "max_juice",
+        "ladder_even_money",
+        "parlay_well_formed",
+        "confidence_units_match",
+        "data_confidence_floor",
+        "pick_type_allowed",
+        "mlb_hr_prop_check",
+        "mlb_pitcher_k_check",
+        "mlb_total_bases_check",
+        "mlb_hits_check",
+        "nba_player_prop_check",
+        "nhl_shots_check",
+        "mlb_run_line_check",
+        "mlb_under_bb_check",
+        "no_same_game_opposite"
+      ],
+      "locked": true,
+      "late_add": false,
+      "late_add_reason": "",
+      "bonus_pick": false,
+      "event_type": "",
+      "event_name": "",
+      "legs": [],
+      "headline": "Skenes vs Cantillo with wind blowing in 10 mph \u2014 weather suppressing HR by 13%.",
+      "the_thesis": "Paul Skenes is the reigning NL Cy Young winner, and while his 2026 has been inconsistent (3.57 ERA), he's still one of the most dominant pitchers in baseball when he's on. His 29.5% K rate is elite, and he's facing a Cleveland lineup that doesn't strike out much.\n\nJoey Cantillo has been solid for Cleveland with a 3.56 ERA, though his 11.4% walk rate is concerning. The key here is the weather \u2014 wind is blowing in from CF at 10 mph, which the IntelPack signals is suppressing HR by 13%. Progressive Field is already neutral (0.97 runs PF, 0.96 HR PF), and the wind makes it even more pitcher-friendly.\n\nBoth offenses are middle-of-the-pack, and the total is sitting at 7. With two solid starters and weather suppressing the long ball, this is a clean under spot.",
+      "the_data": [
+        {
+          "label": "Skenes ERA / K%",
+          "value": "3.57 / 29.5%",
+          "context": "Elite K rate"
+        },
+        {
+          "label": "Cantillo ERA / BB%",
+          "value": "3.56 / 11.4%",
+          "context": "Solid but walks guys"
+        },
+        {
+          "label": "Weather HR impact",
+          "value": "-13%",
+          "context": "Wind blowing in suppresses HR"
+        },
+        {
+          "label": "Progressive Field PF",
+          "value": "0.97 runs / 0.96 HR",
+          "context": "Neutral to pitcher-friendly"
+        },
+        {
+          "label": "PIT R/G",
+          "value": "5.31",
+          "context": "Above average"
+        },
+        {
+          "label": "CLE R/G",
+          "value": "3.95",
+          "context": "Below average"
+        }
+      ],
+      "the_market": "Total opened at 7 and hasn't moved. The market is pricing in the weather and the pitching matchup correctly. No sharp movement either way.",
+      "weather_park": "Progressive Field is neutral, but wind blowing in from CF at 10 mph is suppressing HR by 13%. This is a significant weather edge for the under.",
+      "case_against": "Cantillo's 11.4% walk rate could lead to crooked innings if he loses the zone. Pittsburgh's offense has been hot (5.31 R/G), and Skenes has shown inconsistency this year. If Skenes doesn't have his best stuff, the Pirates could put up a crooked number.",
+      "what_were_betting_on": "Both starters going 6+ innings, the wind keeping the ball in the park, and both bullpens closing it out cleanly.",
+      "scott_bot_quip": "Wind blowing in, two solid arms, and a total that's already low. The weather is doing our work for us.",
+      "ladder_note": "",
+      "date": "2026-07-19",
+      "status": "PEND",
+      "units_result": null,
+      "clv_cents": null,
+      "result_score": null,
+      "graded_at": null,
+      "slate_assessment": "16-game MLB-only Sunday slate with two elite pitching matchups (Schlittler-Yamamoto at Yankee Stadium, Gilbert vs SF at T-Mobile) and several exploitable totals. No NBA or NHL action today.",
+      "executive_summary": "Sunday's 16-game MLB board is headlined by the Dodgers-Yankees showdown at Yankee Stadium, where Cam Schlittler (2.05 ERA) faces Yoshinobu Yamamoto in a marquee pitching duel. The total has ballooned from 7.8 to 9.0 since open \u2014 a sharp signal that the market is overcorrecting for the HR-friendly park. Meanwhile, Logan Gilbert at T-Mobile Park against a weak Giants lineup offers the cleanest under spot on the board. The ladder rides with the Seattle Under 7 \u2014 Gilbert's elite command, a pitcher-friendly park, and Robbie Ray's walk rate all point to a low-scoring affair.",
+      "slate_analysis": "Sixteen MLB games today, no NBA or NHL, so we're working a full baseball board. The pricing climate is soft \u2014 most games are pick'em or short favorites, with only a handful of heavy chalk (Cubs -172, Mariners -196). The total market is where the edges live today.\n\nThe candidates that rose to the top: (1) Seattle Under 7 vs SF \u2014 Gilbert's 3.32 ERA and 0.99 WHIP at T-Mobile (0.93 runs PF) against a Giants lineup that's struggled on the road. Robbie Ray's 11.7% BB rate is a concern for the over, but his 3.38 ERA keeps this total suppressed. (2) Yankees-Dodgers Under 9 \u2014 Schlittler (2.05 ERA) vs Yamamoto (2.85 ERA) is the best pitching matchup on the board, but the total has moved from 7.8 to 9.0 since open. That's a massive move, and the market is pricing in Yankee Stadium's HR factor too aggressively. (3) Detroit ML at LAA \u2014 Casey Mize (2.79 ERA, 1.00 WHIP) against Ryan Johnson (6.75 ERA, 2.45 HR/9) is a massive SP mismatch. Mize is healthy and rolling since his IL return. (4) Cleveland Under 7 vs Pittsburgh \u2014 Skenes (3.57 ERA, 29.5% K rate) vs Cantillo with wind blowing in 10 mph at Progressive Field. Weather suppressing HR by 13%. (5) Casey Mize Ks Over 5.5 \u2014 Mize has a 25.3% K rate and faces an Angels lineup that strikes out at a league-average clip. (6) Paul Skenes Ks Under 7.5 \u2014 Skenes has 130 Ks in 108.1 IP (10.8 K/9), but Cleveland's lineup has one of the lower K rates in baseball and Skenes has shown inconsistency this year.\n\nWhat got cut: Cubs ML at -172 exceeds our -150 juice cap. Nationals ML at -138 looked interesting against Jacob Lopez (6.83 ERA), but data confidence is only 0.4 and lineups aren't confirmed. The Coors game (CIN @ COL) is a stay-away \u2014 Hunter Greene has only 10.1 IP this year and the total is already at 11. The KC-SD game has two weak starters (Cameron 4.89 ERA, Marquez 5.18 ERA) but the total is already at 9.5 and the park suppresses HR.\n\nThe final six: Seattle Under 7 (ladder), Yankees-Dodgers Under 9, Detroit ML, Cleveland Under 7, Casey Mize Ks Over 5.5, and Paul Skenes Ks Under 7.5. The Seattle Under is the ladder pick because Gilbert's floor is the highest on the board \u2014 elite command, pitcher-friendly park, and a Giants lineup that's been inconsistent. The Yankees-Dodgers Under has the best pitching matchup but the total movement is concerning. Detroit ML is the value play of the day with a massive SP mismatch.",
+      "slate_vibe": "NORMAL",
+      "published_at": "2026-07-19T11:58:37.347271-04:00"
+    },
+    {
+      "id": "20260719-MLB-LAD-NYY-TOTAL",
+      "sport": "MLB",
+      "game": "LAD @ NYY",
+      "first_pitch_iso": "2026-07-19T16:35Z",
+      "pick": "Under 9",
+      "best_book": "DraftKings",
+      "best_odds": "-110",
+      "book_prices": {
+        "draftkings": "-110",
+        "fanduel": "-118",
+        "betmgm": "-110"
+      },
+      "book_links": {
+        "fanduel": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.592910302&selectionId=7017906",
+        "draftkings": "https://sportsbook.draftkings.com/?outcomes=0OU85543901U900_3",
+        "betmgm": "https://sports.nj.betmgm.com/en/sports?options=19801985-1542591086-2252837436&type=Single"
+      },
+      "market": "TOTAL",
+      "confidence": 4,
+      "units": 1.5,
+      "win_probability": 0.59,
+      "ladder_designation": false,
+      "data_confidence": 0.7,
+      "rules_passed": [
+        "max_juice",
+        "ladder_even_money",
+        "parlay_well_formed",
+        "confidence_units_match",
+        "data_confidence_floor",
+        "pick_type_allowed",
+        "mlb_hr_prop_check",
+        "mlb_pitcher_k_check",
+        "mlb_total_bases_check",
+        "mlb_hits_check",
+        "nba_player_prop_check",
+        "nhl_shots_check",
+        "mlb_run_line_check",
+        "mlb_under_bb_check",
+        "no_same_game_opposite"
+      ],
+      "locked": true,
+      "late_add": false,
+      "late_add_reason": "",
+      "bonus_pick": false,
+      "event_type": "",
+      "event_name": "",
+      "legs": [],
+      "headline": "Best pitching matchup on the board, but the market has overcorrected for Yankee Stadium.",
+      "the_thesis": "Cam Schlittler vs Yoshinobu Yamamoto is the marquee pitching matchup of the day. Schlittler has been the Yankees' ace this season with a 2.05 ERA and 0.94 WHIP \u2014 those are elite numbers that put him in Cy Young conversation. Yamamoto has been nearly as good with a 2.85 ERA and a league-best 0.91 WHIP.\n\nThe total opened at 7.83 and has ballooned to 9.0. That's a 1.17-run move, which is massive for a total. The market is pricing in Yankee Stadium's HR-friendly park factor (1.14 HR PF), but it's overcorrecting. Both of these pitchers have elite HR suppression \u2014 Schlittler's 0.91 HR/9 and Yamamoto's 0.98 HR/9 are both well below league average.\n\nThe wind is blowing out to RF at 11.6 mph, which does favor hitters, but these two arms are good enough to overcome park and weather factors. The public is hammering the over in a marquee matchup, and the sharps are fading them.",
+      "the_data": [
+        {
+          "label": "Schlittler ERA / WHIP",
+          "value": "2.05 / 0.94",
+          "context": "Cy Young caliber"
+        },
+        {
+          "label": "Yamamoto ERA / WHIP",
+          "value": "2.85 / 0.91",
+          "context": "Elite command"
+        },
+        {
+          "label": "Schlittler HR/9",
+          "value": "0.91",
+          "context": "Suppresses long ball"
+        },
+        {
+          "label": "Yamamoto HR/9",
+          "value": "0.98",
+          "context": "Below league average"
+        },
+        {
+          "label": "Total movement",
+          "value": "7.83 \u2192 9.0",
+          "context": "1.17-run move since open"
+        },
+        {
+          "label": "Yankee Stadium HR PF",
+          "value": "1.14",
+          "context": "HR-boosting but priced in"
+        }
+      ],
+      "the_market": "Total opened at 7.83 and has moved to 9.0 \u2014 a 1.17-run move that signals heavy public over action. The line hasn't moved back despite the sharp money typically fading these moves. This is a classic case of the market overcorrecting for park factors.",
+      "weather_park": "Yankee Stadium is HR-friendly (1.14 HR PF), and wind is blowing out to RF at 11.6 mph. Both factors favor hitters, but both SPs have elite HR suppression.",
+      "case_against": "Yankee Stadium is a bandbox, and the wind is blowing out. If either starter doesn't have his best stuff, this could turn into a slugfest. The Dodgers and Yankees both have elite lineups that can punish mistakes.",
+      "what_were_betting_on": "Both aces going 6+ innings, combined K rate suppressing the slate, and bullpens closing it out without drama.",
+      "scott_bot_quip": "Two aces, one bandbox, and a total that's moved a full run. The public is begging for fireworks. We're betting on pitching.",
+      "ladder_note": "",
+      "date": "2026-07-19",
+      "status": "PEND",
+      "units_result": null,
+      "clv_cents": null,
+      "result_score": null,
+      "graded_at": null,
+      "slate_assessment": "16-game MLB-only Sunday slate with two elite pitching matchups (Schlittler-Yamamoto at Yankee Stadium, Gilbert vs SF at T-Mobile) and several exploitable totals. No NBA or NHL action today.",
+      "executive_summary": "Sunday's 16-game MLB board is headlined by the Dodgers-Yankees showdown at Yankee Stadium, where Cam Schlittler (2.05 ERA) faces Yoshinobu Yamamoto in a marquee pitching duel. The total has ballooned from 7.8 to 9.0 since open \u2014 a sharp signal that the market is overcorrecting for the HR-friendly park. Meanwhile, Logan Gilbert at T-Mobile Park against a weak Giants lineup offers the cleanest under spot on the board. The ladder rides with the Seattle Under 7 \u2014 Gilbert's elite command, a pitcher-friendly park, and Robbie Ray's walk rate all point to a low-scoring affair.",
+      "slate_analysis": "Sixteen MLB games today, no NBA or NHL, so we're working a full baseball board. The pricing climate is soft \u2014 most games are pick'em or short favorites, with only a handful of heavy chalk (Cubs -172, Mariners -196). The total market is where the edges live today.\n\nThe candidates that rose to the top: (1) Seattle Under 7 vs SF \u2014 Gilbert's 3.32 ERA and 0.99 WHIP at T-Mobile (0.93 runs PF) against a Giants lineup that's struggled on the road. Robbie Ray's 11.7% BB rate is a concern for the over, but his 3.38 ERA keeps this total suppressed. (2) Yankees-Dodgers Under 9 \u2014 Schlittler (2.05 ERA) vs Yamamoto (2.85 ERA) is the best pitching matchup on the board, but the total has moved from 7.8 to 9.0 since open. That's a massive move, and the market is pricing in Yankee Stadium's HR factor too aggressively. (3) Detroit ML at LAA \u2014 Casey Mize (2.79 ERA, 1.00 WHIP) against Ryan Johnson (6.75 ERA, 2.45 HR/9) is a massive SP mismatch. Mize is healthy and rolling since his IL return. (4) Cleveland Under 7 vs Pittsburgh \u2014 Skenes (3.57 ERA, 29.5% K rate) vs Cantillo with wind blowing in 10 mph at Progressive Field. Weather suppressing HR by 13%. (5) Casey Mize Ks Over 5.5 \u2014 Mize has a 25.3% K rate and faces an Angels lineup that strikes out at a league-average clip. (6) Paul Skenes Ks Under 7.5 \u2014 Skenes has 130 Ks in 108.1 IP (10.8 K/9), but Cleveland's lineup has one of the lower K rates in baseball and Skenes has shown inconsistency this year.\n\nWhat got cut: Cubs ML at -172 exceeds our -150 juice cap. Nationals ML at -138 looked interesting against Jacob Lopez (6.83 ERA), but data confidence is only 0.4 and lineups aren't confirmed. The Coors game (CIN @ COL) is a stay-away \u2014 Hunter Greene has only 10.1 IP this year and the total is already at 11. The KC-SD game has two weak starters (Cameron 4.89 ERA, Marquez 5.18 ERA) but the total is already at 9.5 and the park suppresses HR.\n\nThe final six: Seattle Under 7 (ladder), Yankees-Dodgers Under 9, Detroit ML, Cleveland Under 7, Casey Mize Ks Over 5.5, and Paul Skenes Ks Under 7.5. The Seattle Under is the ladder pick because Gilbert's floor is the highest on the board \u2014 elite command, pitcher-friendly park, and a Giants lineup that's been inconsistent. The Yankees-Dodgers Under has the best pitching matchup but the total movement is concerning. Detroit ML is the value play of the day with a massive SP mismatch.",
+      "slate_vibe": "NORMAL",
+      "published_at": "2026-07-19T11:58:37.347165-04:00"
+    },
+    {
+      "id": "20260719-MLB-SF-SEA-TOTAL",
+      "sport": "MLB",
+      "game": "SF @ SEA",
+      "first_pitch_iso": "2026-07-19T20:10Z",
+      "pick": "Under 7",
+      "best_book": "BetMGM",
+      "best_odds": "+105",
+      "book_prices": {
+        "draftkings": "+102",
+        "fanduel": "-124",
+        "betmgm": "+105"
+      },
+      "book_links": {
+        "fanduel": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.592909613&selectionId=7017906",
+        "draftkings": "https://sportsbook.draftkings.com/?outcomes=0OU85543886U700_3",
+        "betmgm": "https://sports.nj.betmgm.com/en/sports?options=19804684-1542809377-2253496447&type=Single"
+      },
+      "market": "TOTAL",
+      "confidence": 5,
+      "units": 2.0,
+      "win_probability": 0.58,
+      "ladder_designation": true,
+      "data_confidence": 0.75,
+      "rules_passed": [
+        "max_juice",
+        "ladder_even_money",
+        "parlay_well_formed",
+        "confidence_units_match",
+        "data_confidence_floor",
+        "pick_type_allowed",
+        "mlb_hr_prop_check",
+        "mlb_pitcher_k_check",
+        "mlb_total_bases_check",
+        "mlb_hits_check",
+        "nba_player_prop_check",
+        "nhl_shots_check",
+        "mlb_run_line_check",
+        "mlb_under_bb_check(soft)",
+        "no_same_game_opposite"
+      ],
+      "locked": true,
+      "late_add": false,
+      "late_add_reason": "",
+      "bonus_pick": false,
+      "event_type": "",
+      "event_name": "",
+      "legs": [],
+      "headline": "Gilbert's elite command meets a pitcher-friendly park and a struggling Giants road lineup.",
+      "the_thesis": "Logan Gilbert is having one of the best seasons of his career. His 3.32 ERA and 0.99 WHIP are both career-best marks, and he's coming off a stretch where he's given up just 10 runs over his last 29.2 innings. The 29-year-old right-hander has 119 strikeouts in 114 IP \u2014 that's a 26.5% K rate \u2014 and his command has been razor-sharp with just a 5.3% walk rate.\n\nT-Mobile Park is one of the best pitcher's parks in baseball with a 0.93 runs park factor and 0.93 HR park factor. The Giants are sending Robbie Ray, who has a solid 3.38 ERA but a concerning 11.7% walk rate. That walk rate is a double-edged sword \u2014 it can lead to crooked innings, but it also means Ray is nibbling and not attacking, which keeps pitch counts high and innings short.\n\nThe Giants offense has been mediocre on the road, and they're facing a pitcher who just struck out nine in his last start and has been dominant at home. This total is sitting at 7 across most books, and the under is getting plus money at BetMGM. That's value.",
+      "the_data": [
+        {
+          "label": "Gilbert ERA (2026)",
+          "value": "3.32",
+          "context": "Career-best, top-20 in AL"
+        },
+        {
+          "label": "Gilbert WHIP (2026)",
+          "value": "0.99",
+          "context": "Elite command"
+        },
+        {
+          "label": "Gilbert K% / BB%",
+          "value": "26.5% / 5.3%",
+          "context": "Excellent ratio"
+        },
+        {
+          "label": "T-Mobile Park PF (runs)",
+          "value": "0.93",
+          "context": "Pitcher-friendly"
+        },
+        {
+          "label": "Ray BB%",
+          "value": "11.7%",
+          "context": "High walk rate limits damage"
+        },
+        {
+          "label": "SF R/G (road)",
+          "value": "4.13",
+          "context": "Below league average"
+        }
+      ],
+      "the_market": "Total opened at 7.17 consensus and has settled at 7 across most books. The under is getting plus money at BetMGM (+105) while FanDuel has it at -124 on 7.5. Sharp money appears to be on the under given the line hasn't moved despite public over tendencies.",
+      "weather_park": "T-Mobile Park is a pitcher's haven with a 0.93 runs PF. No weather concerns \u2014 outdoor but mild Pacific Northwest conditions.",
+      "case_against": "Robbie Ray's walk rate could lead to a crooked inning if he loses the zone. Gilbert has given up 13 HR this season, which is on pace for a career-worst \u2014 one mistake pitch could flip this game. The Giants have some pop with Devers and Adames in the lineup.",
+      "what_were_betting_on": "Gilbert going 6+ innings with 6+ strikeouts, Ray keeping the ball in the park despite his walk issues, and both bullpens closing it out cleanly.",
+      "scott_bot_quip": "Gilbert at T-Mobile is the closest thing to a cheat code on this board. Take the plus money and sleep well.",
+      "ladder_note": "Highest floor on the board. Elite SP, pitcher-friendly park, plus money on the under. This is the definition of a floor play \u2014 Gilbert has to implode for this to lose.",
+      "date": "2026-07-19",
+      "status": "PEND",
+      "units_result": null,
+      "clv_cents": null,
+      "result_score": null,
+      "graded_at": null,
+      "slate_assessment": "16-game MLB-only Sunday slate with two elite pitching matchups (Schlittler-Yamamoto at Yankee Stadium, Gilbert vs SF at T-Mobile) and several exploitable totals. No NBA or NHL action today.",
+      "executive_summary": "Sunday's 16-game MLB board is headlined by the Dodgers-Yankees showdown at Yankee Stadium, where Cam Schlittler (2.05 ERA) faces Yoshinobu Yamamoto in a marquee pitching duel. The total has ballooned from 7.8 to 9.0 since open \u2014 a sharp signal that the market is overcorrecting for the HR-friendly park. Meanwhile, Logan Gilbert at T-Mobile Park against a weak Giants lineup offers the cleanest under spot on the board. The ladder rides with the Seattle Under 7 \u2014 Gilbert's elite command, a pitcher-friendly park, and Robbie Ray's walk rate all point to a low-scoring affair.",
+      "slate_analysis": "Sixteen MLB games today, no NBA or NHL, so we're working a full baseball board. The pricing climate is soft \u2014 most games are pick'em or short favorites, with only a handful of heavy chalk (Cubs -172, Mariners -196). The total market is where the edges live today.\n\nThe candidates that rose to the top: (1) Seattle Under 7 vs SF \u2014 Gilbert's 3.32 ERA and 0.99 WHIP at T-Mobile (0.93 runs PF) against a Giants lineup that's struggled on the road. Robbie Ray's 11.7% BB rate is a concern for the over, but his 3.38 ERA keeps this total suppressed. (2) Yankees-Dodgers Under 9 \u2014 Schlittler (2.05 ERA) vs Yamamoto (2.85 ERA) is the best pitching matchup on the board, but the total has moved from 7.8 to 9.0 since open. That's a massive move, and the market is pricing in Yankee Stadium's HR factor too aggressively. (3) Detroit ML at LAA \u2014 Casey Mize (2.79 ERA, 1.00 WHIP) against Ryan Johnson (6.75 ERA, 2.45 HR/9) is a massive SP mismatch. Mize is healthy and rolling since his IL return. (4) Cleveland Under 7 vs Pittsburgh \u2014 Skenes (3.57 ERA, 29.5% K rate) vs Cantillo with wind blowing in 10 mph at Progressive Field. Weather suppressing HR by 13%. (5) Casey Mize Ks Over 5.5 \u2014 Mize has a 25.3% K rate and faces an Angels lineup that strikes out at a league-average clip. (6) Paul Skenes Ks Under 7.5 \u2014 Skenes has 130 Ks in 108.1 IP (10.8 K/9), but Cleveland's lineup has one of the lower K rates in baseball and Skenes has shown inconsistency this year.\n\nWhat got cut: Cubs ML at -172 exceeds our -150 juice cap. Nationals ML at -138 looked interesting against Jacob Lopez (6.83 ERA), but data confidence is only 0.4 and lineups aren't confirmed. The Coors game (CIN @ COL) is a stay-away \u2014 Hunter Greene has only 10.1 IP this year and the total is already at 11. The KC-SD game has two weak starters (Cameron 4.89 ERA, Marquez 5.18 ERA) but the total is already at 9.5 and the park suppresses HR.\n\nThe final six: Seattle Under 7 (ladder), Yankees-Dodgers Under 9, Detroit ML, Cleveland Under 7, Casey Mize Ks Over 5.5, and Paul Skenes Ks Under 7.5. The Seattle Under is the ladder pick because Gilbert's floor is the highest on the board \u2014 elite command, pitcher-friendly park, and a Giants lineup that's been inconsistent. The Yankees-Dodgers Under has the best pitching matchup but the total movement is concerning. Detroit ML is the value play of the day with a massive SP mismatch.",
+      "slate_vibe": "NORMAL",
+      "published_at": "2026-07-19T11:58:37.347018-04:00"
+    },
     {
       "id": "20260718-MLB-SD-KC-PROP-FERNANDOTATISJR",
       "sport": "MLB",
