@@ -313,5 +313,12 @@
     "units_pl": 0.21,
     "night_summary": "2-2-1 night, +0.21u. The two unders that cashed did the heavy lifting \u2014 LAD @ NYY finished a clean 3-1, well inside the 9, and PIT @ CLE graded a win on the Under 7 per the grader (though the box score shows Pirates 7, Guardians 1 at 8 total, which is worth a double-check before it goes in the books). The two model losses stung: McClanahan's walk rate materialized exactly as flagged \u2014 crooked innings, unearned runs, the works \u2014 and Mize finished one punchout short at exactly 5 Ks against a dead-last Angels lineup that simply doesn't swing and miss. Both were model errors, not variance; we misweighted known risks on both. The SF @ SEA ladder pick pushed at 7, so the streak stays at 0 \u2014 still looking for the first step back up.",
     "generated_at": "2026-07-19T18:42:48.310673-04:00"
+  },
+  "2026-07-20": {
+    "date": "2026-07-20",
+    "record": "1-5-0",
+    "units_pl": -5.44,
+    "night_summary": "1-5 night, -5.44u \u2014 a rough one to sit through. The one bright spot was PHI ML at -142, which cashed 10-7 over the Dodgers behind Trea Turner's early two-run shot and a Phillies offense that did exactly what the model expected. Everything else went sideways. The CIN @ SEA under was alive at 3-0 through six with Kirby dealing on 80 pitches, then died in one swing: Francona intentionally walked Dominic Canzone to load the bases for a slumping Cal Raleigh \u2014 .163 average, no homer since July 4 \u2014 and Raleigh crushed a grand slam on the first pitch to make it 7-0, final 8-0. Pure variance, brutal timing. The NYM @ MIL ladder pick was the real gut punch: Misiorowski was on a publicly disclosed pitch count coming off a layoff, pulled after 4 innings, and the Brewers' bullpen got torched for 8 runs \u2014 that was a DATA miss we should have caught pre-game. Cease got taken deep three times in TB @ TOR, both prop unders were smothered by walks and cold bats. Ladder resets to 0 of 10 \u2014 we climb again tomorrow.",
+    "generated_at": "2026-07-21T01:59:23.894042-04:00"
   }
 }

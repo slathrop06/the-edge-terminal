@@ -5,6 +5,14 @@
   "target": 10,
   "history": [
     {
+      "date": "2026-07-20",
+      "pick_id": "20260720-MLB-NYM-MIL-TOTAL",
+      "pick": "Under 7.5",
+      "game": "NYM @ MIL",
+      "status": "LOSS",
+      "after_streak": 0
+    },
+    {
       "date": "2026-07-19",
       "pick_id": "20260719-MLB-SF-SEA-TOTAL",
       "pick": "Under 7",
@@ -373,5 +381,5 @@
       "after_streak": 1
     }
   ],
-  "updated_at": "2026-07-19T18:42:15.280855-04:00"
+  "updated_at": "2026-07-21T01:58:44.292102-04:00"
 }

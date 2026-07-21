@@ -446,5 +446,29 @@
     "candidate_rule": "Before taking a pitcher K prop Over, validate the opposing team's actual strikeout rank \u2014 if the lineup ranks in the bottom 5 of MLB in Ks allowed, apply a 0.5\u20131.0 K discount to the pitcher's recent average before comparing to the line; N=1, insufficient to establish rule.",
     "sample_size_warning": "N=1, insufficient to establish rule \u2014 but the data error (misclassifying a bottom-30 K lineup as league-average) is a repeatable validator gap worth flagging immediately.",
     "status": "PENDING_REVIEW"
+  },
+  {
+    "proposed_at": "2026-07-21T01:57:57.433061-04:00",
+    "source_pick_id": "20260720-MLB-SD-ATL-PROP-FERNANDOTATISJR",
+    "source_loss": "Fernando Tatis Jr. TB Over 1.5 (SD @ ATL)",
+    "candidate_rule": "Before targeting a player prop for XBH/TB upside, cross-check the player's current-season SLG against their career baseline \u2014 if SLG is suppressed by 50+ points with no clear injury explanation, discount the XBH ceiling regardless of opposing pitcher profile; N=1, insufficient to establish rule.",
+    "sample_size_warning": "N=1, insufficient to establish rule \u2014 one game where Elder was sharp and Tatis was cold does not confirm a systematic model flaw, but the pre-game data (Tatis .324 SLG, 5 HR in 83 games) was available and should have been a red flag.",
+    "status": "PENDING_REVIEW"
+  },
+  {
+    "proposed_at": "2026-07-21T01:58:44.267587-04:00",
+    "source_pick_id": "20260720-MLB-TB-TOR-TOTAL",
+    "source_loss": "Under 7.5 (TB @ TOR)",
+    "candidate_rule": "When the ace's ERA thesis depends on a sub-0.50 HR/9 rate holding against a power-capable lineup, require that the opponent's HR/game rate be below 0.9 before crediting full HR suppression in the model \u2014 Cease's season HR/9 was a small-sample outlier that the Rays (1.0 HR/game) were always capable of busting; N=1, insufficient to establish rule.",
+    "sample_size_warning": "N=1, insufficient to establish rule \u2014 one game where a pitcher's HR suppression failed does not invalidate the stat, but flags that small-sample ERA/HR-rate inputs deserve a regression discount before being used as primary thesis drivers.",
+    "status": "PENDING_REVIEW"
+  },
+  {
+    "proposed_at": "2026-07-21T01:59:00.903154-04:00",
+    "source_pick_id": "20260720-MLB-NYM-MIL-TOTAL",
+    "source_loss": "Under 7.5 (NYM @ MIL)",
+    "candidate_rule": "If the ace anchor of an under pick is publicly confirmed to be on a strict pitch count or innings cap before first pitch, flag the pick for review or void it \u2014 a 4-inning ceiling on an elite starter eliminates the primary run-suppression mechanism the model depends on (N=1, insufficient to establish rule; monitor for pattern).",
+    "sample_size_warning": "N=1, insufficient to establish rule. One game where a pitch-count disclosure killed an under is noise, not signal. Track future instances before codifying.",
+    "status": "PENDING_REVIEW"
   }
 ]

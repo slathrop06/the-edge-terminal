@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated_at": "2026-07-20T12:25:34.668888-04:00",
+  "updated_at": "2026-07-21T01:59:03.433605-04:00",
   "picks": [
     {
       "id": "20260720-MLB-WSH-COL-PROP-JAMESWOOD",
@@ -81,16 +81,22 @@
       "scott_bot_quip": "Coors Field: where ERAs go to die and total bases go to thrive.",
       "ladder_note": "",
       "date": "2026-07-20",
-      "status": "PEND",
-      "units_result": null,
+      "status": "LOSS",
+      "units_result": -1.0,
       "clv_cents": null,
-      "result_score": null,
-      "graded_at": null,
+      "result_score": "James Wood: 1 totalBases",
+      "graded_at": "2026-07-21T01:57:04.700040-04:00",
       "slate_assessment": "15-game MLB slate with no NBA or NHL today. Several pitching mismatches jump off the page \u2014 Misiorowski vs Mets, S\u00e1nchez vs Sheehan, and Cease vs Martinez \u2014 but data confidence is uniformly low (0.3-0.4) across the board, forcing us to lean on confirmed SP stats and market edges.",
       "executive_summary": "The Brewers-Mets game is the headline: Jacob Misiorowski returns from arm fatigue with a league-leading 1.62 ERA and 39.6% K rate against a struggling Freddy Peralta (4.66 ERA). Milwaukee -205 is too steep for a straight bet, but the under 7.5 at -105 is the cleanest play on the board. Phillies-Dodgers offers another pitching mismatch with All-Star Cristopher S\u00e1nchez (2.62 ERA) facing Emmet Sheehan (4.81 ERA, 1.64 HR/9) at a HR-boosting park \u2014 but wind blowing in suppresses the over. The ladder rides with the Brewers under: best floor, elite SP, weak opposing lineup, market support all stacked.",
       "slate_analysis": "Today's board features 15 MLB games with no NBA or NHL action. The pricing climate is tight \u2014 most favorites sit between -115 and -165, with few outliers. Data confidence is uniformly low (0.3-0.4) across the slate because lineups aren't confirmed until closer to first pitch, but the starting pitcher matchups are locked in and that's where the edges live.\n\nThe top candidates that rose during my review: (1) MIL vs NYM under 7.5 \u2014 Misiorowski's 1.62 ERA and 39.6% K rate against Peralta's 4.66 ERA creates a one-sided pitching mismatch, but the total is the play because Milwaukee ML at -205 exceeds our juice cap; (2) PHI ML vs LAD \u2014 S\u00e1nchez (2.62 ERA, 0.85 HR/9) vs Sheehan (4.81 ERA, 1.64 HR/9) is a massive SP gap, and the Phillies are -142 at home; (3) TOR vs TB under 7.5 \u2014 Cease (2.56 ERA, 36.9% K rate) vs Martinez (2.65 ERA, 14.5% K rate) is two quality arms in a dome; (4) SEA vs CIN under 7.5 \u2014 Kirby at T-Mobile Park (0.93 runs PF) against Abbott; (5) TEX vs CHW \u2014 deGrom at home against Fedde, but Texas ML at -165 exceeds our cap; (6) Fernando Tatis Jr. TB Over 1.5 vs Bryce Elder (1.32 HR/9) at Truist Park.\n\nWhat got cut: Texas ML (-165) exceeds our -150 juice cap. Toronto ML (-160) also exceeds the cap. Cleveland-Minnesota has data confidence of 0.4 and no clear edge \u2014 Joe Ryan is elite (2.85 ERA) but the market already prices that in. Boston-Baltimore has a high total (8.5-9.0) and both SPs have walk issues (Baz 8.7% BB, Tolle 7.3% BB) \u2014 unders are rejected when SP BB/9 exceeds 3.5. Cubs-Tigers at 11.0 is too high-variance with two shaky SPs (Taillon 5.19 ERA, Flaherty 4.48 ERA). Houston-Miami has Ronel Blanco with no season stats in the pack \u2014 data confidence 0.3, pass.\n\nThe final six: (1) MIL vs NYM Under 7.5 \u2014 ladder pick, best floor with Misiorowski's dominance; (2) PHI ML vs LAD \u2014 S\u00e1nchez is the NL All-Star starter, Sheehan is hittable but wind blowing in at CBP suppresses damage; (3) TOR vs TB Under 7.5 \u2014 two quality arms, dome, low-scoring environment; (4) SEA vs CIN Under 7.5 \u2014 Kirby at pitcher-friendly T-Mobile; (5) Fernando Tatis Jr. TB Over 1.5 \u2014 Elder's 1.32 HR/9 and Truist's 1.04 HR PF create XBH upside; (6) James Wood TB Over 1.5 \u2014 Coors Field (1.18 runs PF) against Kyle Freeland (7.36 ERA, 1.84 HR/9). The ladder pick is MIL-NYM Under 7.5 because Misiorowski is the best pitcher on the board, the Mets offense is weak (4.09 R/G), and the market hasn't moved off 7.5 despite the mismatch.",
       "slate_vibe": "NORMAL",
-      "published_at": "2026-07-20T12:25:34.668831-04:00"
+      "published_at": "2026-07-20T12:25:34.668831-04:00",
+      "autopsy": {
+        "classification": "VARIANCE",
+        "post_mortem": "Freeland did exactly what a struggling pitcher does against the hottest hitter in baseball \u2014 he didn't challenge him. An AP wire photo caption confirms Wood drew a walk from Freeland in the first inning, and he finished with just 1 total base on the night. This wasn't a model failure: the park, the matchup, and the data all pointed the right direction. The problem is Wood had already been receiving the Barry Bonds treatment all month \u2014 15 walks in his prior 10 games \u2014 and Freeland, despite his brutal ERA, chose free passes over getting torched. Wood's 1 TB came from a single, not the XBH the thesis needed. The pick lost to a pitcher rationally conceding the at-bat, not to bad reasoning.",
+        "candidate_rule": null,
+        "sample_size_warning": "N=1, insufficient to establish rule. However, Wood's walk rate in July (15 BB in 10 games prior) is a documented pattern worth monitoring as a TB-suppressor when pricing Over 1.5 at -140 juice \u2014 one more loss in this scenario warrants a discount to the implied probability."
+      }
     },
     {
       "id": "20260720-MLB-SD-ATL-PROP-FERNANDOTATISJR",
@@ -171,16 +177,22 @@
       "scott_bot_quip": "Elder gives up bombs. Tatis hits bombs. Math checks out.",
       "ladder_note": "",
       "date": "2026-07-20",
-      "status": "PEND",
-      "units_result": null,
+      "status": "LOSS",
+      "units_result": -1.0,
       "clv_cents": null,
-      "result_score": null,
-      "graded_at": null,
+      "result_score": "Fernando Tatis Jr.: 0 totalBases",
+      "graded_at": "2026-07-21T01:57:31.627487-04:00",
       "slate_assessment": "15-game MLB slate with no NBA or NHL today. Several pitching mismatches jump off the page \u2014 Misiorowski vs Mets, S\u00e1nchez vs Sheehan, and Cease vs Martinez \u2014 but data confidence is uniformly low (0.3-0.4) across the board, forcing us to lean on confirmed SP stats and market edges.",
       "executive_summary": "The Brewers-Mets game is the headline: Jacob Misiorowski returns from arm fatigue with a league-leading 1.62 ERA and 39.6% K rate against a struggling Freddy Peralta (4.66 ERA). Milwaukee -205 is too steep for a straight bet, but the under 7.5 at -105 is the cleanest play on the board. Phillies-Dodgers offers another pitching mismatch with All-Star Cristopher S\u00e1nchez (2.62 ERA) facing Emmet Sheehan (4.81 ERA, 1.64 HR/9) at a HR-boosting park \u2014 but wind blowing in suppresses the over. The ladder rides with the Brewers under: best floor, elite SP, weak opposing lineup, market support all stacked.",
       "slate_analysis": "Today's board features 15 MLB games with no NBA or NHL action. The pricing climate is tight \u2014 most favorites sit between -115 and -165, with few outliers. Data confidence is uniformly low (0.3-0.4) across the slate because lineups aren't confirmed until closer to first pitch, but the starting pitcher matchups are locked in and that's where the edges live.\n\nThe top candidates that rose during my review: (1) MIL vs NYM under 7.5 \u2014 Misiorowski's 1.62 ERA and 39.6% K rate against Peralta's 4.66 ERA creates a one-sided pitching mismatch, but the total is the play because Milwaukee ML at -205 exceeds our juice cap; (2) PHI ML vs LAD \u2014 S\u00e1nchez (2.62 ERA, 0.85 HR/9) vs Sheehan (4.81 ERA, 1.64 HR/9) is a massive SP gap, and the Phillies are -142 at home; (3) TOR vs TB under 7.5 \u2014 Cease (2.56 ERA, 36.9% K rate) vs Martinez (2.65 ERA, 14.5% K rate) is two quality arms in a dome; (4) SEA vs CIN under 7.5 \u2014 Kirby at T-Mobile Park (0.93 runs PF) against Abbott; (5) TEX vs CHW \u2014 deGrom at home against Fedde, but Texas ML at -165 exceeds our cap; (6) Fernando Tatis Jr. TB Over 1.5 vs Bryce Elder (1.32 HR/9) at Truist Park.\n\nWhat got cut: Texas ML (-165) exceeds our -150 juice cap. Toronto ML (-160) also exceeds the cap. Cleveland-Minnesota has data confidence of 0.4 and no clear edge \u2014 Joe Ryan is elite (2.85 ERA) but the market already prices that in. Boston-Baltimore has a high total (8.5-9.0) and both SPs have walk issues (Baz 8.7% BB, Tolle 7.3% BB) \u2014 unders are rejected when SP BB/9 exceeds 3.5. Cubs-Tigers at 11.0 is too high-variance with two shaky SPs (Taillon 5.19 ERA, Flaherty 4.48 ERA). Houston-Miami has Ronel Blanco with no season stats in the pack \u2014 data confidence 0.3, pass.\n\nThe final six: (1) MIL vs NYM Under 7.5 \u2014 ladder pick, best floor with Misiorowski's dominance; (2) PHI ML vs LAD \u2014 S\u00e1nchez is the NL All-Star starter, Sheehan is hittable but wind blowing in at CBP suppresses damage; (3) TOR vs TB Under 7.5 \u2014 two quality arms, dome, low-scoring environment; (4) SEA vs CIN Under 7.5 \u2014 Kirby at pitcher-friendly T-Mobile; (5) Fernando Tatis Jr. TB Over 1.5 \u2014 Elder's 1.32 HR/9 and Truist's 1.04 HR PF create XBH upside; (6) James Wood TB Over 1.5 \u2014 Coors Field (1.18 runs PF) against Kyle Freeland (7.36 ERA, 1.84 HR/9). The ladder pick is MIL-NYM Under 7.5 because Misiorowski is the best pitcher on the board, the Mets offense is weak (4.09 R/G), and the market hasn't moved off 7.5 despite the mismatch.",
       "slate_vibe": "NORMAL",
-      "published_at": "2026-07-20T12:25:34.668757-04:00"
+      "published_at": "2026-07-20T12:25:34.668757-04:00",
+      "autopsy": {
+        "classification": "MODEL",
+        "post_mortem": "Elder was sharp \u2014 10 swinging strikes, 10 called strikes per the ESPN box score, good enough for a 57 game score in a 3-2 Braves win. The thesis leaned on Elder's HR/9 as the primary vulnerability, but his slider (28.0% whiff rate) and changeup (.244 xwOBA against) gave him legitimate swing-and-miss weapons that neutralized Tatis, who finished 0 total bases. The deeper problem: Tatis entered this game with a .324 SLG and just 5 HR in ~83 games \u2014 a player in a prolonged power drought \u2014 and the thesis treated him as his peak-power self. Betting XBH upside on a hitter whose SLG is 60 points below his career norm was the core model error.",
+        "candidate_rule": "Before targeting a player prop for XBH/TB upside, cross-check the player's current-season SLG against their career baseline \u2014 if SLG is suppressed by 50+ points with no clear injury explanation, discount the XBH ceiling regardless of opposing pitcher profile; N=1, insufficient to establish rule.",
+        "sample_size_warning": "N=1, insufficient to establish rule \u2014 one game where Elder was sharp and Tatis was cold does not confirm a systematic model flaw, but the pre-game data (Tatis .324 SLG, 5 HR in 83 games) was available and should have been a red flag."
+      }
     },
     {
       "id": "20260720-MLB-CIN-SEA-TOTAL",
@@ -266,16 +278,22 @@
       "scott_bot_quip": "The marine layer is undefeated. Kirby just has to show up.",
       "ladder_note": "",
       "date": "2026-07-20",
-      "status": "PEND",
-      "units_result": null,
+      "status": "LOSS",
+      "units_result": -1.0,
       "clv_cents": null,
-      "result_score": null,
-      "graded_at": null,
+      "result_score": "CIN 0 \u00b7 SEA 8",
+      "graded_at": "2026-07-21T01:57:57.433877-04:00",
       "slate_assessment": "15-game MLB slate with no NBA or NHL today. Several pitching mismatches jump off the page \u2014 Misiorowski vs Mets, S\u00e1nchez vs Sheehan, and Cease vs Martinez \u2014 but data confidence is uniformly low (0.3-0.4) across the board, forcing us to lean on confirmed SP stats and market edges.",
       "executive_summary": "The Brewers-Mets game is the headline: Jacob Misiorowski returns from arm fatigue with a league-leading 1.62 ERA and 39.6% K rate against a struggling Freddy Peralta (4.66 ERA). Milwaukee -205 is too steep for a straight bet, but the under 7.5 at -105 is the cleanest play on the board. Phillies-Dodgers offers another pitching mismatch with All-Star Cristopher S\u00e1nchez (2.62 ERA) facing Emmet Sheehan (4.81 ERA, 1.64 HR/9) at a HR-boosting park \u2014 but wind blowing in suppresses the over. The ladder rides with the Brewers under: best floor, elite SP, weak opposing lineup, market support all stacked.",
       "slate_analysis": "Today's board features 15 MLB games with no NBA or NHL action. The pricing climate is tight \u2014 most favorites sit between -115 and -165, with few outliers. Data confidence is uniformly low (0.3-0.4) across the slate because lineups aren't confirmed until closer to first pitch, but the starting pitcher matchups are locked in and that's where the edges live.\n\nThe top candidates that rose during my review: (1) MIL vs NYM under 7.5 \u2014 Misiorowski's 1.62 ERA and 39.6% K rate against Peralta's 4.66 ERA creates a one-sided pitching mismatch, but the total is the play because Milwaukee ML at -205 exceeds our juice cap; (2) PHI ML vs LAD \u2014 S\u00e1nchez (2.62 ERA, 0.85 HR/9) vs Sheehan (4.81 ERA, 1.64 HR/9) is a massive SP gap, and the Phillies are -142 at home; (3) TOR vs TB under 7.5 \u2014 Cease (2.56 ERA, 36.9% K rate) vs Martinez (2.65 ERA, 14.5% K rate) is two quality arms in a dome; (4) SEA vs CIN under 7.5 \u2014 Kirby at T-Mobile Park (0.93 runs PF) against Abbott; (5) TEX vs CHW \u2014 deGrom at home against Fedde, but Texas ML at -165 exceeds our cap; (6) Fernando Tatis Jr. TB Over 1.5 vs Bryce Elder (1.32 HR/9) at Truist Park.\n\nWhat got cut: Texas ML (-165) exceeds our -150 juice cap. Toronto ML (-160) also exceeds the cap. Cleveland-Minnesota has data confidence of 0.4 and no clear edge \u2014 Joe Ryan is elite (2.85 ERA) but the market already prices that in. Boston-Baltimore has a high total (8.5-9.0) and both SPs have walk issues (Baz 8.7% BB, Tolle 7.3% BB) \u2014 unders are rejected when SP BB/9 exceeds 3.5. Cubs-Tigers at 11.0 is too high-variance with two shaky SPs (Taillon 5.19 ERA, Flaherty 4.48 ERA). Houston-Miami has Ronel Blanco with no season stats in the pack \u2014 data confidence 0.3, pass.\n\nThe final six: (1) MIL vs NYM Under 7.5 \u2014 ladder pick, best floor with Misiorowski's dominance; (2) PHI ML vs LAD \u2014 S\u00e1nchez is the NL All-Star starter, Sheehan is hittable but wind blowing in at CBP suppresses damage; (3) TOR vs TB Under 7.5 \u2014 two quality arms, dome, low-scoring environment; (4) SEA vs CIN Under 7.5 \u2014 Kirby at pitcher-friendly T-Mobile; (5) Fernando Tatis Jr. TB Over 1.5 \u2014 Elder's 1.32 HR/9 and Truist's 1.04 HR PF create XBH upside; (6) James Wood TB Over 1.5 \u2014 Coors Field (1.18 runs PF) against Kyle Freeland (7.36 ERA, 1.84 HR/9). The ladder pick is MIL-NYM Under 7.5 because Misiorowski is the best pitcher on the board, the Mets offense is weak (4.09 R/G), and the market hasn't moved off 7.5 despite the mismatch.",
       "slate_vibe": "NORMAL",
-      "published_at": "2026-07-20T12:25:34.668679-04:00"
+      "published_at": "2026-07-20T12:25:34.668679-04:00",
+      "autopsy": {
+        "classification": "VARIANCE",
+        "post_mortem": "The thesis executed almost perfectly through six innings \u2014 Kirby allowed just three hits over six shutout frames on 80 pitches, and Cincinnati's offense was completely neutralized (Edwin Arroyo was the only Red to advance past second base all night). The game broke open in the seventh when the Reds made a catastrophic tactical error: with Seattle leading 3-0 and the bases loaded, manager Terry Francona intentionally walked Dominic Canzone to face a slumping Cal Raleigh \u2014 a catcher hitting .163 with a .565 OPS who hadn't homered since July 4. Raleigh crushed a grand slam on the first pitch he saw, blowing the total past 7.5 in a single swing. The under was alive and well at 3-0 through six; it died on one managerial blunder and a cold hitter getting a gift moment.",
+        "candidate_rule": null,
+        "sample_size_warning": "N=1, insufficient to establish any rule \u2014 this was a one-pitch, one-decision variance event, not a systemic modeling failure."
+      }
     },
     {
       "id": "20260720-MLB-TB-TOR-TOTAL",
@@ -361,16 +379,22 @@
       "scott_bot_quip": "Two aces, one dome, zero drama. The under is the play.",
       "ladder_note": "",
       "date": "2026-07-20",
-      "status": "PEND",
-      "units_result": null,
+      "status": "LOSS",
+      "units_result": -1.5,
       "clv_cents": null,
-      "result_score": null,
-      "graded_at": null,
+      "result_score": "TB 7 \u00b7 TOR 1",
+      "graded_at": "2026-07-21T01:58:12.724532-04:00",
       "slate_assessment": "15-game MLB slate with no NBA or NHL today. Several pitching mismatches jump off the page \u2014 Misiorowski vs Mets, S\u00e1nchez vs Sheehan, and Cease vs Martinez \u2014 but data confidence is uniformly low (0.3-0.4) across the board, forcing us to lean on confirmed SP stats and market edges.",
       "executive_summary": "The Brewers-Mets game is the headline: Jacob Misiorowski returns from arm fatigue with a league-leading 1.62 ERA and 39.6% K rate against a struggling Freddy Peralta (4.66 ERA). Milwaukee -205 is too steep for a straight bet, but the under 7.5 at -105 is the cleanest play on the board. Phillies-Dodgers offers another pitching mismatch with All-Star Cristopher S\u00e1nchez (2.62 ERA) facing Emmet Sheehan (4.81 ERA, 1.64 HR/9) at a HR-boosting park \u2014 but wind blowing in suppresses the over. The ladder rides with the Brewers under: best floor, elite SP, weak opposing lineup, market support all stacked.",
       "slate_analysis": "Today's board features 15 MLB games with no NBA or NHL action. The pricing climate is tight \u2014 most favorites sit between -115 and -165, with few outliers. Data confidence is uniformly low (0.3-0.4) across the slate because lineups aren't confirmed until closer to first pitch, but the starting pitcher matchups are locked in and that's where the edges live.\n\nThe top candidates that rose during my review: (1) MIL vs NYM under 7.5 \u2014 Misiorowski's 1.62 ERA and 39.6% K rate against Peralta's 4.66 ERA creates a one-sided pitching mismatch, but the total is the play because Milwaukee ML at -205 exceeds our juice cap; (2) PHI ML vs LAD \u2014 S\u00e1nchez (2.62 ERA, 0.85 HR/9) vs Sheehan (4.81 ERA, 1.64 HR/9) is a massive SP gap, and the Phillies are -142 at home; (3) TOR vs TB under 7.5 \u2014 Cease (2.56 ERA, 36.9% K rate) vs Martinez (2.65 ERA, 14.5% K rate) is two quality arms in a dome; (4) SEA vs CIN under 7.5 \u2014 Kirby at T-Mobile Park (0.93 runs PF) against Abbott; (5) TEX vs CHW \u2014 deGrom at home against Fedde, but Texas ML at -165 exceeds our cap; (6) Fernando Tatis Jr. TB Over 1.5 vs Bryce Elder (1.32 HR/9) at Truist Park.\n\nWhat got cut: Texas ML (-165) exceeds our -150 juice cap. Toronto ML (-160) also exceeds the cap. Cleveland-Minnesota has data confidence of 0.4 and no clear edge \u2014 Joe Ryan is elite (2.85 ERA) but the market already prices that in. Boston-Baltimore has a high total (8.5-9.0) and both SPs have walk issues (Baz 8.7% BB, Tolle 7.3% BB) \u2014 unders are rejected when SP BB/9 exceeds 3.5. Cubs-Tigers at 11.0 is too high-variance with two shaky SPs (Taillon 5.19 ERA, Flaherty 4.48 ERA). Houston-Miami has Ronel Blanco with no season stats in the pack \u2014 data confidence 0.3, pass.\n\nThe final six: (1) MIL vs NYM Under 7.5 \u2014 ladder pick, best floor with Misiorowski's dominance; (2) PHI ML vs LAD \u2014 S\u00e1nchez is the NL All-Star starter, Sheehan is hittable but wind blowing in at CBP suppresses damage; (3) TOR vs TB Under 7.5 \u2014 two quality arms, dome, low-scoring environment; (4) SEA vs CIN Under 7.5 \u2014 Kirby at pitcher-friendly T-Mobile; (5) Fernando Tatis Jr. TB Over 1.5 \u2014 Elder's 1.32 HR/9 and Truist's 1.04 HR PF create XBH upside; (6) James Wood TB Over 1.5 \u2014 Coors Field (1.18 runs PF) against Kyle Freeland (7.36 ERA, 1.84 HR/9). The ladder pick is MIL-NYM Under 7.5 because Misiorowski is the best pitcher on the board, the Mets offense is weak (4.09 R/G), and the market hasn't moved off 7.5 despite the mismatch.",
       "slate_vibe": "NORMAL",
-      "published_at": "2026-07-20T12:25:34.668590-04:00"
+      "published_at": "2026-07-20T12:25:34.668590-04:00",
+      "autopsy": {
+        "classification": "MODEL",
+        "post_mortem": "The thesis leaned entirely on Cease being dominant, but the model ignored two structural vulnerabilities that both materialized: Cease's errant pickoff throw in the 3rd gifted Tampa Bay an unearned run, and the Rays hit three solo homers (Mesa Jr. in the 2nd, Mullins in the 6th off Cease, Fortes in the 9th off the bullpen) \u2014 exactly the kind of damage his 0.46 HR/9 was supposed to prevent. Cease allowed 5 runs (3 earned) on 7 hits in 6 innings, the bullpen added a 7th on a Caminero RBI double in the 7th, and Toronto's three errors inflated the total further. Martinez, meanwhile, was untouchable \u2014 6 IP, 1 R, 6 hits, 0 strikeouts, 1 walk \u2014 the contact-management profile held, but it held for the wrong team. The under was never alive: Tampa Bay led 2-0 after 3 innings and the game was effectively over by the 6th.",
+        "candidate_rule": "When the ace's ERA thesis depends on a sub-0.50 HR/9 rate holding against a power-capable lineup, require that the opponent's HR/game rate be below 0.9 before crediting full HR suppression in the model \u2014 Cease's season HR/9 was a small-sample outlier that the Rays (1.0 HR/game) were always capable of busting; N=1, insufficient to establish rule.",
+        "sample_size_warning": "N=1, insufficient to establish rule \u2014 one game where a pitcher's HR suppression failed does not invalidate the stat, but flags that small-sample ERA/HR-rate inputs deserve a regression discount before being used as primary thesis drivers."
+      }
     },
     {
       "id": "20260720-MLB-LAD-PHI-ML",
@@ -456,11 +480,11 @@
       "scott_bot_quip": "S\u00e1nchez started the All-Star Game. Sheehan started the second half on the wrong foot.",
       "ladder_note": "",
       "date": "2026-07-20",
-      "status": "PEND",
-      "units_result": null,
+      "status": "WIN",
+      "units_result": 1.0563,
       "clv_cents": null,
-      "result_score": null,
-      "graded_at": null,
+      "result_score": "LAD 7 \u00b7 PHI 10",
+      "graded_at": "2026-07-21T01:58:44.268418-04:00",
       "slate_assessment": "15-game MLB slate with no NBA or NHL today. Several pitching mismatches jump off the page \u2014 Misiorowski vs Mets, S\u00e1nchez vs Sheehan, and Cease vs Martinez \u2014 but data confidence is uniformly low (0.3-0.4) across the board, forcing us to lean on confirmed SP stats and market edges.",
       "executive_summary": "The Brewers-Mets game is the headline: Jacob Misiorowski returns from arm fatigue with a league-leading 1.62 ERA and 39.6% K rate against a struggling Freddy Peralta (4.66 ERA). Milwaukee -205 is too steep for a straight bet, but the under 7.5 at -105 is the cleanest play on the board. Phillies-Dodgers offers another pitching mismatch with All-Star Cristopher S\u00e1nchez (2.62 ERA) facing Emmet Sheehan (4.81 ERA, 1.64 HR/9) at a HR-boosting park \u2014 but wind blowing in suppresses the over. The ladder rides with the Brewers under: best floor, elite SP, weak opposing lineup, market support all stacked.",
       "slate_analysis": "Today's board features 15 MLB games with no NBA or NHL action. The pricing climate is tight \u2014 most favorites sit between -115 and -165, with few outliers. Data confidence is uniformly low (0.3-0.4) across the slate because lineups aren't confirmed until closer to first pitch, but the starting pitcher matchups are locked in and that's where the edges live.\n\nThe top candidates that rose during my review: (1) MIL vs NYM under 7.5 \u2014 Misiorowski's 1.62 ERA and 39.6% K rate against Peralta's 4.66 ERA creates a one-sided pitching mismatch, but the total is the play because Milwaukee ML at -205 exceeds our juice cap; (2) PHI ML vs LAD \u2014 S\u00e1nchez (2.62 ERA, 0.85 HR/9) vs Sheehan (4.81 ERA, 1.64 HR/9) is a massive SP gap, and the Phillies are -142 at home; (3) TOR vs TB under 7.5 \u2014 Cease (2.56 ERA, 36.9% K rate) vs Martinez (2.65 ERA, 14.5% K rate) is two quality arms in a dome; (4) SEA vs CIN under 7.5 \u2014 Kirby at T-Mobile Park (0.93 runs PF) against Abbott; (5) TEX vs CHW \u2014 deGrom at home against Fedde, but Texas ML at -165 exceeds our cap; (6) Fernando Tatis Jr. TB Over 1.5 vs Bryce Elder (1.32 HR/9) at Truist Park.\n\nWhat got cut: Texas ML (-165) exceeds our -150 juice cap. Toronto ML (-160) also exceeds the cap. Cleveland-Minnesota has data confidence of 0.4 and no clear edge \u2014 Joe Ryan is elite (2.85 ERA) but the market already prices that in. Boston-Baltimore has a high total (8.5-9.0) and both SPs have walk issues (Baz 8.7% BB, Tolle 7.3% BB) \u2014 unders are rejected when SP BB/9 exceeds 3.5. Cubs-Tigers at 11.0 is too high-variance with two shaky SPs (Taillon 5.19 ERA, Flaherty 4.48 ERA). Houston-Miami has Ronel Blanco with no season stats in the pack \u2014 data confidence 0.3, pass.\n\nThe final six: (1) MIL vs NYM Under 7.5 \u2014 ladder pick, best floor with Misiorowski's dominance; (2) PHI ML vs LAD \u2014 S\u00e1nchez is the NL All-Star starter, Sheehan is hittable but wind blowing in at CBP suppresses damage; (3) TOR vs TB Under 7.5 \u2014 two quality arms, dome, low-scoring environment; (4) SEA vs CIN Under 7.5 \u2014 Kirby at pitcher-friendly T-Mobile; (5) Fernando Tatis Jr. TB Over 1.5 \u2014 Elder's 1.32 HR/9 and Truist's 1.04 HR PF create XBH upside; (6) James Wood TB Over 1.5 \u2014 Coors Field (1.18 runs PF) against Kyle Freeland (7.36 ERA, 1.84 HR/9). The ladder pick is MIL-NYM Under 7.5 because Misiorowski is the best pitcher on the board, the Mets offense is weak (4.09 R/G), and the market hasn't moved off 7.5 despite the mismatch.",
@@ -556,16 +580,22 @@
       "scott_bot_quip": "The Miz is back. The Mets are not ready.",
       "ladder_note": "Best floor on the board. Misiorowski is the best pitcher in baseball, the Mets can't hit, and the market hasn't adjusted. This is as close to a lock as you'll find in July baseball.",
       "date": "2026-07-20",
-      "status": "PEND",
-      "units_result": null,
+      "status": "LOSS",
+      "units_result": -2.0,
       "clv_cents": null,
-      "result_score": null,
-      "graded_at": null,
+      "result_score": "NYM 3 \u00b7 MIL 8",
+      "graded_at": "2026-07-21T01:58:44.280773-04:00",
       "slate_assessment": "15-game MLB slate with no NBA or NHL today. Several pitching mismatches jump off the page \u2014 Misiorowski vs Mets, S\u00e1nchez vs Sheehan, and Cease vs Martinez \u2014 but data confidence is uniformly low (0.3-0.4) across the board, forcing us to lean on confirmed SP stats and market edges.",
       "executive_summary": "The Brewers-Mets game is the headline: Jacob Misiorowski returns from arm fatigue with a league-leading 1.62 ERA and 39.6% K rate against a struggling Freddy Peralta (4.66 ERA). Milwaukee -205 is too steep for a straight bet, but the under 7.5 at -105 is the cleanest play on the board. Phillies-Dodgers offers another pitching mismatch with All-Star Cristopher S\u00e1nchez (2.62 ERA) facing Emmet Sheehan (4.81 ERA, 1.64 HR/9) at a HR-boosting park \u2014 but wind blowing in suppresses the over. The ladder rides with the Brewers under: best floor, elite SP, weak opposing lineup, market support all stacked.",
       "slate_analysis": "Today's board features 15 MLB games with no NBA or NHL action. The pricing climate is tight \u2014 most favorites sit between -115 and -165, with few outliers. Data confidence is uniformly low (0.3-0.4) across the slate because lineups aren't confirmed until closer to first pitch, but the starting pitcher matchups are locked in and that's where the edges live.\n\nThe top candidates that rose during my review: (1) MIL vs NYM under 7.5 \u2014 Misiorowski's 1.62 ERA and 39.6% K rate against Peralta's 4.66 ERA creates a one-sided pitching mismatch, but the total is the play because Milwaukee ML at -205 exceeds our juice cap; (2) PHI ML vs LAD \u2014 S\u00e1nchez (2.62 ERA, 0.85 HR/9) vs Sheehan (4.81 ERA, 1.64 HR/9) is a massive SP gap, and the Phillies are -142 at home; (3) TOR vs TB under 7.5 \u2014 Cease (2.56 ERA, 36.9% K rate) vs Martinez (2.65 ERA, 14.5% K rate) is two quality arms in a dome; (4) SEA vs CIN under 7.5 \u2014 Kirby at T-Mobile Park (0.93 runs PF) against Abbott; (5) TEX vs CHW \u2014 deGrom at home against Fedde, but Texas ML at -165 exceeds our cap; (6) Fernando Tatis Jr. TB Over 1.5 vs Bryce Elder (1.32 HR/9) at Truist Park.\n\nWhat got cut: Texas ML (-165) exceeds our -150 juice cap. Toronto ML (-160) also exceeds the cap. Cleveland-Minnesota has data confidence of 0.4 and no clear edge \u2014 Joe Ryan is elite (2.85 ERA) but the market already prices that in. Boston-Baltimore has a high total (8.5-9.0) and both SPs have walk issues (Baz 8.7% BB, Tolle 7.3% BB) \u2014 unders are rejected when SP BB/9 exceeds 3.5. Cubs-Tigers at 11.0 is too high-variance with two shaky SPs (Taillon 5.19 ERA, Flaherty 4.48 ERA). Houston-Miami has Ronel Blanco with no season stats in the pack \u2014 data confidence 0.3, pass.\n\nThe final six: (1) MIL vs NYM Under 7.5 \u2014 ladder pick, best floor with Misiorowski's dominance; (2) PHI ML vs LAD \u2014 S\u00e1nchez is the NL All-Star starter, Sheehan is hittable but wind blowing in at CBP suppresses damage; (3) TOR vs TB Under 7.5 \u2014 two quality arms, dome, low-scoring environment; (4) SEA vs CIN Under 7.5 \u2014 Kirby at pitcher-friendly T-Mobile; (5) Fernando Tatis Jr. TB Over 1.5 \u2014 Elder's 1.32 HR/9 and Truist's 1.04 HR PF create XBH upside; (6) James Wood TB Over 1.5 \u2014 Coors Field (1.18 runs PF) against Kyle Freeland (7.36 ERA, 1.84 HR/9). The ladder pick is MIL-NYM Under 7.5 because Misiorowski is the best pitcher on the board, the Mets offense is weak (4.09 R/G), and the market hasn't moved off 7.5 despite the mismatch.",
       "slate_vibe": "NORMAL",
-      "published_at": "2026-07-20T12:25:34.668329-04:00"
+      "published_at": "2026-07-20T12:25:34.668329-04:00",
+      "autopsy": {
+        "classification": "DATA",
+        "post_mortem": "The thesis was structurally sound \u2014 Misiorowski is elite, Peralta is shaky \u2014 but the pick was undermined by a known-before-first-pitch data gap: manager Pat Murphy publicly stated in his pregame media session that Misiorowski would be on a strict pitch count coming off a two-week layoff, and he was pulled after just 4 innings and 64 pitches. The under needed Misiorowski to eat innings and suppress the Mets deep into the game; instead, the Brewers bullpen (Yoho, Curry, McCullers, Anderson) had to cover 5 innings. Meanwhile, Peralta imploded exactly as modeled \u2014 7 ER in 5.1 IP, capped by a Joey Ortiz 3-run HR off reliever Curry in the 6th \u2014 and the Brewers' offense put up 8 runs on 10 hits including 3 HRs. The under was never alive: MIL led 4-1 after 3, 7-1 after 6, and finished 8-3. The pitch-count constraint on Misiorowski was publicly disclosed pre-game and should have been a hard disqualifier for this pick.",
+        "candidate_rule": "If the ace anchor of an under pick is publicly confirmed to be on a strict pitch count or innings cap before first pitch, flag the pick for review or void it \u2014 a 4-inning ceiling on an elite starter eliminates the primary run-suppression mechanism the model depends on (N=1, insufficient to establish rule; monitor for pattern).",
+        "sample_size_warning": "N=1, insufficient to establish rule. One game where a pitch-count disclosure killed an under is noise, not signal. Track future instances before codifying."
+      }
     },
     {
       "id": "20260719-MLB-BOS-TB-TOTAL",
