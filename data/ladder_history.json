@@ -5,6 +5,14 @@
   "target": 10,
   "history": [
     {
+      "date": "2026-07-21",
+      "pick_id": "20260721-MLB-LAD-PHI-ML",
+      "pick": "Philadelphia Phillies ML",
+      "game": "LAD @ PHI",
+      "status": "LOSS",
+      "after_streak": 0
+    },
+    {
       "date": "2026-07-20",
       "pick_id": "20260720-MLB-NYM-MIL-TOTAL",
       "pick": "Under 7.5",
@@ -381,5 +389,5 @@
       "after_streak": 1
     }
   ],
-  "updated_at": "2026-07-21T01:58:44.292102-04:00"
+  "updated_at": "2026-07-22T01:56:30.803177-04:00"
 }

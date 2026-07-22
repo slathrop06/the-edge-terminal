@@ -1,5 +1,31 @@
 [
   {
+    "id": "20260721-MLB-LAD-PHI-ML",
+    "date": "2026-07-21",
+    "pick": "Philadelphia Phillies ML",
+    "game": "LAD @ PHI",
+    "odds": "-120",
+    "result_score": "LAD 2 \u00b7 PHI 1",
+    "classification": "VARIANCE",
+    "post_mortem": "Wheeler was brilliant \u2014 7 innings, 9 Ks, 0 walks, 93 pitches, allowing only Max Muncy's 2-run homer as the game's lone damage. The thesis executed almost perfectly: Wrobleski held the Phillies to 5 hits and 1 run, but the Phillies had runners on 2nd and 3rd with one out in the 9th, one hit from winning. Instead, a catastrophic baserunning blunder ended it: Justin Crawford on 3rd was explicitly told not to run on a ball hit to third \u2014 the ball was hit to third, Crawford ran anyway, and the resulting 5-2-6-4 rundown double play ended the game. J.T. Realmuto was also implicated in the breakdown. The pick lost not because the model was wrong or the data was bad, but because a runner ignored his own instructions in the final at-bat of a 2-1 game.",
+    "candidate_rule": null,
+    "sample_size_warning": "N=1, pure VARIANCE event \u2014 a baserunning blunder on a walk-off double play is not a repeatable or forecastable risk; no rule warranted.",
+    "analyzed_at": "2026-07-22T01:56:43.647846-04:00"
+  },
+  {
+    "id": "20260721-MLB-DET-CHC-ML",
+    "date": "2026-07-21",
+    "pick": "Detroit Tigers ML",
+    "game": "DET @ CHC",
+    "odds": "+102",
+    "result_score": "DET 2 \u00b7 CHC 11",
+    "classification": "MODEL",
+    "post_mortem": "The thesis collapsed on both sides simultaneously. Peterson \u2014 flagged as 'in freefall' \u2014 tossed 6\u2154 scoreless innings, allowing just 3 hits with 4 Ks and 1 walk, the exact opposite of the regression the model projected. Valdez, meanwhile, imploded in the first inning: the first seven Cubs reached base, a wind-aided bloop fell in shallow right for a 4-0 lead, and Valdez was pulled after recording just two outs on 42 pitches (\u2154 IP, 5 H, 6 R). The 'case against' explicitly flagged Valdez's emotional return and sharpness risk \u2014 the model discounted it; it was the decisive factor.",
+    "candidate_rule": "When a pitcher is returning from bereavement leave with 12+ days off, require a sharpness discount of at least 0.5 ERA runs in the projection model before issuing a pick reliant on that pitcher's performance \u2014 but validate against a larger sample before hardcoding (N=1 here).",
+    "sample_size_warning": "N=1, insufficient to establish a rule. One catastrophic bereavement-return start does not confirm a pattern; monitor for additional cases before applying any systematic discount.",
+    "analyzed_at": "2026-07-22T01:56:30.782680-04:00"
+  },
+  {
     "id": "20260720-MLB-NYM-MIL-TOTAL",
     "date": "2026-07-20",
     "pick": "Under 7.5",

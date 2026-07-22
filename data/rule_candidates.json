@@ -470,5 +470,13 @@
     "candidate_rule": "If the ace anchor of an under pick is publicly confirmed to be on a strict pitch count or innings cap before first pitch, flag the pick for review or void it \u2014 a 4-inning ceiling on an elite starter eliminates the primary run-suppression mechanism the model depends on (N=1, insufficient to establish rule; monitor for pattern).",
     "sample_size_warning": "N=1, insufficient to establish rule. One game where a pitch-count disclosure killed an under is noise, not signal. Track future instances before codifying.",
     "status": "PENDING_REVIEW"
+  },
+  {
+    "proposed_at": "2026-07-22T01:56:30.783969-04:00",
+    "source_pick_id": "20260721-MLB-DET-CHC-ML",
+    "source_loss": "Detroit Tigers ML (DET @ CHC)",
+    "candidate_rule": "When a pitcher is returning from bereavement leave with 12+ days off, require a sharpness discount of at least 0.5 ERA runs in the projection model before issuing a pick reliant on that pitcher's performance \u2014 but validate against a larger sample before hardcoding (N=1 here).",
+    "sample_size_warning": "N=1, insufficient to establish a rule. One catastrophic bereavement-return start does not confirm a pattern; monitor for additional cases before applying any systematic discount.",
+    "status": "PENDING_REVIEW"
   }
 ]
