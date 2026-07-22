@@ -1,7 +1,482 @@
 {
   "version": 1,
-  "updated_at": "2026-07-22T05:06:36.895220-04:00",
+  "updated_at": "2026-07-22T12:21:29.329993-04:00",
   "picks": [
+    {
+      "id": "20260722-MLB-DET-CHC-ML",
+      "sport": "MLB",
+      "game": "DET @ CHC",
+      "first_pitch_iso": "2026-07-23T00:00Z",
+      "pick": "Chicago Cubs ML",
+      "best_book": "FanDuel",
+      "best_odds": "-120",
+      "book_prices": {
+        "draftkings": "-125",
+        "fanduel": "-120",
+        "betmgm": "-120"
+      },
+      "book_links": {
+        "fanduel": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.593439834&selectionId=29166",
+        "draftkings": "https://sportsbook.draftkings.com/?outcomes=0ML85577108_1",
+        "betmgm": "https://sports.nj.betmgm.com/en/sports?options=19804631-1542803382-2253482174&type=Single"
+      },
+      "market": "ML",
+      "confidence": 3,
+      "units": 1.0,
+      "win_probability": 0.58,
+      "ladder_designation": false,
+      "data_confidence": 0.68,
+      "rules_passed": [
+        "max_juice",
+        "ladder_even_money",
+        "parlay_well_formed",
+        "confidence_units_match",
+        "data_confidence_floor",
+        "pick_type_allowed",
+        "mlb_hr_prop_check",
+        "mlb_pitcher_k_check",
+        "mlb_total_bases_check",
+        "mlb_hits_check",
+        "nba_player_prop_check",
+        "nhl_shots_check",
+        "mlb_run_line_check",
+        "mlb_under_bb_check",
+        "no_same_game_opposite"
+      ],
+      "locked": true,
+      "late_add": false,
+      "late_add_reason": "",
+      "bonus_pick": false,
+      "event_type": "",
+      "event_name": "",
+      "legs": [],
+      "headline": "Cubs offense is top-10 in R/G, Montero is solid but hittable, and Wrigley favors the home team.",
+      "the_thesis": "The Cubs have one of the better offenses in baseball this season \u2014 5.14 R/G, which ranks in the top 10. They're at home at Wrigley Field, which has a neutral park factor (1.02 runs) but historically favors the home team due to the unique dimensions and wind patterns.\n\nKeider Montero has been solid for Detroit \u2014 3.22 ERA, 0.98 WHIP \u2014 but his 17.5% K rate is below average. He's not going to miss bats, which means he's relying on weak contact. Against a Cubs lineup that makes hard contact, that's a risky proposition. Colin Rea has been mediocre (4.74 ERA, 1.42 WHIP), but he's at home and the Cubs offense should provide run support.\n\nThe market has Chicago at -120, implying about 54.5% win probability. I have them at 58%, which gives us roughly 8 cents of edge. It's a thin edge, but the home park and offensive advantage are real.",
+      "the_data": [
+        {
+          "label": "Cubs R/G",
+          "value": "5.14",
+          "context": "Top-10 in MLB"
+        },
+        {
+          "label": "Montero K%",
+          "value": "17.5%",
+          "context": "Below average"
+        },
+        {
+          "label": "Montero ERA / WHIP",
+          "value": "3.22 / 0.98",
+          "context": "Solid"
+        },
+        {
+          "label": "Wrigley Field PF (runs)",
+          "value": "1.02",
+          "context": "Neutral"
+        },
+        {
+          "label": "Tigers R/G",
+          "value": "4.24",
+          "context": "Below average"
+        }
+      ],
+      "the_market": "Chicago opened around -120 and has held. No significant movement. The total is set at 8.0, suggesting a moderate-scoring game.",
+      "weather_park": "Wrigley Field, 75\u00b0F, wind blowing out to left at 8 mph. That's slightly favorable for right-handed power.",
+      "case_against": "Montero has been better than his peripherals suggest. If he's locating, the Cubs could struggle to get to him. Rea has been inconsistent, and if he gives up early runs, the Cubs bullpen will be tested.",
+      "what_were_betting_on": "Cubs offense scoring 5+ runs, Rea going 5+ innings, home park advantage.",
+      "scott_bot_quip": "Montero doesn't miss bats. The Cubs do. This one's over by the 6th.",
+      "ladder_note": "",
+      "date": "2026-07-22",
+      "status": "PEND",
+      "units_result": null,
+      "clv_cents": null,
+      "result_score": null,
+      "graded_at": null,
+      "slate_assessment": "17-game MLB slate with no NBA or NHL action. Max Fried returns from IL on a pitch count, Red Sox riding a historic 14-game win streak, and several totals have moved sharply since open.",
+      "executive_summary": "Big MLB-only Wednesday with 17 games on the board. The headline is Max Fried's early return from the IL for the Yankees \u2014 he's on a 60-pitch count after just one rehab start, which caps his upside and creates value on the under in a hitter-friendly Yankee Stadium. The Red Sox are riding a franchise-record-tying 14-game win streak and face a Bradish who's 1-6 with a 6.75 ERA lifetime at Fenway. Seattle's Emerson Hancock at pitcher-friendly T-Mobile Park against a struggling Brady Singer is the cleanest pitching matchup on the slate. The ladder rides with the Mariners ML \u2014 best floor, best park, best SP edge.",
+      "slate_analysis": "The board today is MLB-only: 17 games, no NBA or NHL in scope. Pricing is tight across most matchups \u2014 lots of pick'em games and short favorites in the -110 to -140 range. The totals market has been active, with PIT@NYY dropping from 9.5 to 8.83 and BAL@BOS falling from 9.5 to 8.67. That movement tells us sharps are on unders in the early games.\n\nTop candidates that rose during my review: (1) PIT@NYY Under \u2014 Fried returning on a 60-pitch count, Chandler is a high-walk rookie, Yankee Stadium HR-friendly but both SPs should be pulled early; (2) SEA ML vs CIN \u2014 Hancock's 3.17 ERA and 1.01 WHIP at T-Mobile Park against Singer's 1.96 HR/9 is a mismatch; (3) BOS ML vs BAL \u2014 Red Sox on a 14-game heater, Bradish has a 6.75 ERA lifetime at Fenway, Bennett has been sharp; (4) MIL@NYM Under 7.5 \u2014 two high-K starters (Henderson 29.7% K, Scott 28.5% K) in a neutral park; (5) CIN@SEA Under 8.0 \u2014 T-Mobile suppresses runs (0.93 PF), Hancock is elite, Singer gives up HRs but not at this park; (6) Shohei Ohtani TB Over 1.5 \u2014 Nola's 2.01 HR/9 and 5.68 ERA, HR-boosting park, Ohtani's power.\n\nWhat got cut: PIT@NYY Under had the sharpest line movement but data confidence is only 0.4 \u2014 Fried's pitch count is confirmed but his velocity post-IL is unknown, and the Pirates offense has been top-4 vs LHP over the last 30 days. I'm taking it anyway because the market agrees and the under has moved a full run. BOS ML at -137 is borderline on juice but clears the -150 cap and the situational edge is massive. MIL@NYM Under looked clean but Henderson has only 33.1 IP this season \u2014 sample too thin for a high-confidence play, and data confidence is 0.45. I passed on LAD@PHI Over despite the HR-friendly park because both SPs have high HR/9 but also high walk rates, making the game script unpredictable. ATL@SD was a coin flip with no edge.\n\nThe final six: (1) SEA ML \u2014 best SP edge, best park, best floor, this is the ladder pick; (2) PIT@NYY Under \u2014 sharp money, Fried on a count, both offenses should see limited starter innings; (3) BOS ML \u2014 historic streak, Bradish's Fenway struggles, bullpen edge; (4) CIN@SEA Under 8.0 \u2014 Hancock at home, Singer's HR/9 neutralized by T-Mobile; (5) Ohtani TB Over 1.5 \u2014 Nola's HR/9 is elite-bad, park boosts, Ohtani healthy as a hitter; (6) CHC ML vs DET \u2014 Montero is solid but Cubs offense is top-10 in R/G, home park, slight edge. The ladder pick is Seattle ML at -155 \u2014 Hancock's underlying metrics are elite, T-Mobile suppresses runs, and Singer has been a HR machine. Best floor on the board.",
+      "slate_vibe": "NORMAL",
+      "published_at": "2026-07-22T12:21:29.329930-04:00"
+    },
+    {
+      "id": "20260722-MLB-LAD-PHI-PROP-SHOHEIOHTANI",
+      "sport": "MLB",
+      "game": "LAD @ PHI",
+      "first_pitch_iso": "2026-07-22T22:40Z",
+      "pick": "Shohei Ohtani Total Bases Over 1.5",
+      "best_book": "DraftKings",
+      "best_odds": "-113",
+      "book_prices": {
+        "draftkings": "-113",
+        "fanduel": "N/A",
+        "betmgm": "-105"
+      },
+      "book_links": {
+        "draftkings": "https://sportsbook.draftkings.com/?outcomes=0QA353427340%232220000933_13L84240Q1-44994196Q20",
+        "betmgm": "https://sports.nj.betmgm.com/en/sports?options=2:7827942-201844173-766607167&type=Single",
+        "fanduel": "https://sportsbook.fanduel.com/baseball/mlb/los-angeles-dodgers-%28e-lauer%29-%40-philadelphia-phillies-%28a-nola%29-35848505"
+      },
+      "market": "PROP",
+      "confidence": 3,
+      "units": 1.0,
+      "win_probability": 0.59,
+      "ladder_designation": false,
+      "data_confidence": 0.68,
+      "rules_passed": [
+        "max_juice",
+        "ladder_even_money",
+        "parlay_well_formed",
+        "confidence_units_match",
+        "data_confidence_floor",
+        "pick_type_allowed",
+        "mlb_hr_prop_check",
+        "mlb_pitcher_k_check",
+        "mlb_total_bases_check(soft)",
+        "mlb_hits_check",
+        "nba_player_prop_check",
+        "nhl_shots_check",
+        "mlb_run_line_check",
+        "mlb_under_bb_check",
+        "no_same_game_opposite"
+      ],
+      "locked": true,
+      "late_add": false,
+      "late_add_reason": "",
+      "bonus_pick": false,
+      "event_type": "",
+      "event_name": "",
+      "legs": [],
+      "headline": "Ohtani vs. Nola's 2.01 HR/9 in a HR-boosting park \u2014 the math screams extra bases.",
+      "the_thesis": "Aaron Nola has been a home run machine this season. His 2.01 HR/9 is among the worst in baseball for qualified starters. His 5.68 ERA and 1.45 WHIP tell you he's not fooling anyone. And he's pitching at Citizens Bank Park, which has a 1.10 HR park factor \u2014 one of the most HR-friendly environments in the league.\n\nShohei Ohtani is healthy as a hitter. The Dodgers announced he's not pitching due to knee soreness, but manager Dave Roberts confirmed he feels no pain when hitting. Ohtani's power is elite, and he's facing a pitcher who gives up bombs in a park that boosts them. The total bases line is set at 1.5, which means we need a double, two singles, or a HR to cash.\n\nThe market has Over 1.5 TB at -113 on DraftKings, implying about 53.1% probability. I have it at 59%, which gives us roughly 10 cents of edge. Ohtani's baseline TB/G is around 1.8, and this matchup should push it higher.",
+      "the_data": [
+        {
+          "label": "Nola HR/9",
+          "value": "2.01",
+          "context": "Bottom-5 in MLB"
+        },
+        {
+          "label": "Nola ERA / WHIP",
+          "value": "5.68 / 1.45",
+          "context": "Struggling"
+        },
+        {
+          "label": "Citizens Bank Park HR PF",
+          "value": "1.10",
+          "context": "HR-boosting"
+        },
+        {
+          "label": "Ohtani TB/G (season)",
+          "value": "~1.8",
+          "context": "Elite"
+        },
+        {
+          "label": "Ohtani hitting status",
+          "value": "Healthy",
+          "context": "No knee pain when hitting"
+        }
+      ],
+      "the_market": "DraftKings has Over 1.5 TB at -113, BetMGM at -105. The line is standard for Ohtani, but the matchup is above average.",
+      "weather_park": "Citizens Bank Park, 78\u00b0F, clear. Park factor is 1.10 for HR \u2014 this is a launching pad.",
+      "case_against": "Nola could have a bounce-back game. His stuff is still there \u2014 23.9% K rate \u2014 and if he's locating, Ohtani could go 0-for-4. The Dodgers are also on the road, which slightly suppresses offense.",
+      "what_were_betting_on": "Ohtani getting at least one XBH or two singles. The matchup and park both favor extra bases.",
+      "scott_bot_quip": "Nola's serving up meatballs in a park where the fences are suggestions. Ohtani's eating tonight.",
+      "ladder_note": "",
+      "date": "2026-07-22",
+      "status": "PEND",
+      "units_result": null,
+      "clv_cents": null,
+      "result_score": null,
+      "graded_at": null,
+      "slate_assessment": "17-game MLB slate with no NBA or NHL action. Max Fried returns from IL on a pitch count, Red Sox riding a historic 14-game win streak, and several totals have moved sharply since open.",
+      "executive_summary": "Big MLB-only Wednesday with 17 games on the board. The headline is Max Fried's early return from the IL for the Yankees \u2014 he's on a 60-pitch count after just one rehab start, which caps his upside and creates value on the under in a hitter-friendly Yankee Stadium. The Red Sox are riding a franchise-record-tying 14-game win streak and face a Bradish who's 1-6 with a 6.75 ERA lifetime at Fenway. Seattle's Emerson Hancock at pitcher-friendly T-Mobile Park against a struggling Brady Singer is the cleanest pitching matchup on the slate. The ladder rides with the Mariners ML \u2014 best floor, best park, best SP edge.",
+      "slate_analysis": "The board today is MLB-only: 17 games, no NBA or NHL in scope. Pricing is tight across most matchups \u2014 lots of pick'em games and short favorites in the -110 to -140 range. The totals market has been active, with PIT@NYY dropping from 9.5 to 8.83 and BAL@BOS falling from 9.5 to 8.67. That movement tells us sharps are on unders in the early games.\n\nTop candidates that rose during my review: (1) PIT@NYY Under \u2014 Fried returning on a 60-pitch count, Chandler is a high-walk rookie, Yankee Stadium HR-friendly but both SPs should be pulled early; (2) SEA ML vs CIN \u2014 Hancock's 3.17 ERA and 1.01 WHIP at T-Mobile Park against Singer's 1.96 HR/9 is a mismatch; (3) BOS ML vs BAL \u2014 Red Sox on a 14-game heater, Bradish has a 6.75 ERA lifetime at Fenway, Bennett has been sharp; (4) MIL@NYM Under 7.5 \u2014 two high-K starters (Henderson 29.7% K, Scott 28.5% K) in a neutral park; (5) CIN@SEA Under 8.0 \u2014 T-Mobile suppresses runs (0.93 PF), Hancock is elite, Singer gives up HRs but not at this park; (6) Shohei Ohtani TB Over 1.5 \u2014 Nola's 2.01 HR/9 and 5.68 ERA, HR-boosting park, Ohtani's power.\n\nWhat got cut: PIT@NYY Under had the sharpest line movement but data confidence is only 0.4 \u2014 Fried's pitch count is confirmed but his velocity post-IL is unknown, and the Pirates offense has been top-4 vs LHP over the last 30 days. I'm taking it anyway because the market agrees and the under has moved a full run. BOS ML at -137 is borderline on juice but clears the -150 cap and the situational edge is massive. MIL@NYM Under looked clean but Henderson has only 33.1 IP this season \u2014 sample too thin for a high-confidence play, and data confidence is 0.45. I passed on LAD@PHI Over despite the HR-friendly park because both SPs have high HR/9 but also high walk rates, making the game script unpredictable. ATL@SD was a coin flip with no edge.\n\nThe final six: (1) SEA ML \u2014 best SP edge, best park, best floor, this is the ladder pick; (2) PIT@NYY Under \u2014 sharp money, Fried on a count, both offenses should see limited starter innings; (3) BOS ML \u2014 historic streak, Bradish's Fenway struggles, bullpen edge; (4) CIN@SEA Under 8.0 \u2014 Hancock at home, Singer's HR/9 neutralized by T-Mobile; (5) Ohtani TB Over 1.5 \u2014 Nola's HR/9 is elite-bad, park boosts, Ohtani healthy as a hitter; (6) CHC ML vs DET \u2014 Montero is solid but Cubs offense is top-10 in R/G, home park, slight edge. The ladder pick is Seattle ML at -155 \u2014 Hancock's underlying metrics are elite, T-Mobile suppresses runs, and Singer has been a HR machine. Best floor on the board.",
+      "slate_vibe": "NORMAL",
+      "published_at": "2026-07-22T12:21:29.329851-04:00"
+    },
+    {
+      "id": "20260722-MLB-CIN-SEA-TOTAL",
+      "sport": "MLB",
+      "game": "CIN @ SEA",
+      "first_pitch_iso": "2026-07-22T19:40Z",
+      "pick": "Under 8.0",
+      "best_book": "DraftKings",
+      "best_odds": "-108",
+      "book_prices": {
+        "draftkings": "-108",
+        "fanduel": "-124",
+        "betmgm": "-110"
+      },
+      "book_links": {
+        "fanduel": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.593559495&selectionId=7017906",
+        "draftkings": "https://sportsbook.draftkings.com/?outcomes=0OU85577076U800_3",
+        "betmgm": "https://sports.nj.betmgm.com/en/sports?options=19804245-1542787901-2253437230&type=Single"
+      },
+      "market": "TOTAL",
+      "confidence": 3,
+      "units": 1.0,
+      "win_probability": 0.58,
+      "ladder_designation": false,
+      "data_confidence": 0.7,
+      "rules_passed": [
+        "max_juice",
+        "ladder_even_money",
+        "parlay_well_formed",
+        "confidence_units_match",
+        "data_confidence_floor",
+        "pick_type_allowed",
+        "mlb_hr_prop_check",
+        "mlb_pitcher_k_check",
+        "mlb_total_bases_check",
+        "mlb_hits_check",
+        "nba_player_prop_check",
+        "nhl_shots_check",
+        "mlb_run_line_check",
+        "mlb_under_bb_check",
+        "no_same_game_opposite"
+      ],
+      "locked": true,
+      "late_add": false,
+      "late_add_reason": "",
+      "bonus_pick": false,
+      "event_type": "",
+      "event_name": "",
+      "legs": [],
+      "headline": "T-Mobile Park suppresses runs, Hancock is elite, and Singer's HR tendency gets neutralized by the fences.",
+      "the_thesis": "This is a companion play to the Seattle ML. T-Mobile Park has a 0.93 runs park factor \u2014 one of the most pitcher-friendly environments in baseball. Emerson Hancock has been excellent at home, and his 1.01 WHIP means he's not putting runners on base. Brady Singer's 1.96 HR/9 is a problem at most parks, but T-Mobile's 0.93 HR factor should keep some of those fly balls in the yard.\n\nBoth offenses are middle-of-the-pack. Seattle scores 4.04 R/G, Cincinnati scores 4.18 R/G. Neither team is going to light up the scoreboard against competent pitching. The total is set at 8.0, which feels about right \u2014 but the park and pitching matchup both point to the under.\n\nThe market has the under at -108 on DraftKings, implying about 51.9% probability. I have it at 58%, which gives us roughly 10 cents of edge. That's enough to take a 1.0u position.",
+      "the_data": [
+        {
+          "label": "T-Mobile Park PF (runs)",
+          "value": "0.93",
+          "context": "Pitcher-friendly"
+        },
+        {
+          "label": "Hancock WHIP",
+          "value": "1.01",
+          "context": "Elite"
+        },
+        {
+          "label": "Singer HR/9",
+          "value": "1.96",
+          "context": "Neutralized by park"
+        },
+        {
+          "label": "SEA R/G",
+          "value": "4.04",
+          "context": "Below average"
+        },
+        {
+          "label": "CIN R/G",
+          "value": "4.18",
+          "context": "League average"
+        }
+      ],
+      "the_market": "Total opened at 8.0 and has held. DraftKings has the best under price at -108. FanDuel is at -124, which is too juicy.",
+      "weather_park": "T-Mobile Park is outdoor but covered. The 0.93 runs factor is the key \u2014 this park suppresses offense.",
+      "case_against": "Singer could get knocked around early if his command is off. The Reds have some power bats who could take advantage of mistakes. If Hancock doesn't go deep, Seattle's bullpen has been inconsistent.",
+      "what_were_betting_on": "Both starters going 6+ innings, park suppressing HR, total staying under 8.",
+      "scott_bot_quip": "T-Mobile Park is where fly balls go to die. Tonight's final: 3-2, and we're all yawning by the 7th.",
+      "ladder_note": "",
+      "date": "2026-07-22",
+      "status": "PEND",
+      "units_result": null,
+      "clv_cents": null,
+      "result_score": null,
+      "graded_at": null,
+      "slate_assessment": "17-game MLB slate with no NBA or NHL action. Max Fried returns from IL on a pitch count, Red Sox riding a historic 14-game win streak, and several totals have moved sharply since open.",
+      "executive_summary": "Big MLB-only Wednesday with 17 games on the board. The headline is Max Fried's early return from the IL for the Yankees \u2014 he's on a 60-pitch count after just one rehab start, which caps his upside and creates value on the under in a hitter-friendly Yankee Stadium. The Red Sox are riding a franchise-record-tying 14-game win streak and face a Bradish who's 1-6 with a 6.75 ERA lifetime at Fenway. Seattle's Emerson Hancock at pitcher-friendly T-Mobile Park against a struggling Brady Singer is the cleanest pitching matchup on the slate. The ladder rides with the Mariners ML \u2014 best floor, best park, best SP edge.",
+      "slate_analysis": "The board today is MLB-only: 17 games, no NBA or NHL in scope. Pricing is tight across most matchups \u2014 lots of pick'em games and short favorites in the -110 to -140 range. The totals market has been active, with PIT@NYY dropping from 9.5 to 8.83 and BAL@BOS falling from 9.5 to 8.67. That movement tells us sharps are on unders in the early games.\n\nTop candidates that rose during my review: (1) PIT@NYY Under \u2014 Fried returning on a 60-pitch count, Chandler is a high-walk rookie, Yankee Stadium HR-friendly but both SPs should be pulled early; (2) SEA ML vs CIN \u2014 Hancock's 3.17 ERA and 1.01 WHIP at T-Mobile Park against Singer's 1.96 HR/9 is a mismatch; (3) BOS ML vs BAL \u2014 Red Sox on a 14-game heater, Bradish has a 6.75 ERA lifetime at Fenway, Bennett has been sharp; (4) MIL@NYM Under 7.5 \u2014 two high-K starters (Henderson 29.7% K, Scott 28.5% K) in a neutral park; (5) CIN@SEA Under 8.0 \u2014 T-Mobile suppresses runs (0.93 PF), Hancock is elite, Singer gives up HRs but not at this park; (6) Shohei Ohtani TB Over 1.5 \u2014 Nola's 2.01 HR/9 and 5.68 ERA, HR-boosting park, Ohtani's power.\n\nWhat got cut: PIT@NYY Under had the sharpest line movement but data confidence is only 0.4 \u2014 Fried's pitch count is confirmed but his velocity post-IL is unknown, and the Pirates offense has been top-4 vs LHP over the last 30 days. I'm taking it anyway because the market agrees and the under has moved a full run. BOS ML at -137 is borderline on juice but clears the -150 cap and the situational edge is massive. MIL@NYM Under looked clean but Henderson has only 33.1 IP this season \u2014 sample too thin for a high-confidence play, and data confidence is 0.45. I passed on LAD@PHI Over despite the HR-friendly park because both SPs have high HR/9 but also high walk rates, making the game script unpredictable. ATL@SD was a coin flip with no edge.\n\nThe final six: (1) SEA ML \u2014 best SP edge, best park, best floor, this is the ladder pick; (2) PIT@NYY Under \u2014 sharp money, Fried on a count, both offenses should see limited starter innings; (3) BOS ML \u2014 historic streak, Bradish's Fenway struggles, bullpen edge; (4) CIN@SEA Under 8.0 \u2014 Hancock at home, Singer's HR/9 neutralized by T-Mobile; (5) Ohtani TB Over 1.5 \u2014 Nola's HR/9 is elite-bad, park boosts, Ohtani healthy as a hitter; (6) CHC ML vs DET \u2014 Montero is solid but Cubs offense is top-10 in R/G, home park, slight edge. The ladder pick is Seattle ML at -155 \u2014 Hancock's underlying metrics are elite, T-Mobile suppresses runs, and Singer has been a HR machine. Best floor on the board.",
+      "slate_vibe": "NORMAL",
+      "published_at": "2026-07-22T12:21:29.329764-04:00"
+    },
+    {
+      "id": "20260722-MLB-BAL-BOS-ML",
+      "sport": "MLB",
+      "game": "BAL @ BOS (Game 1)",
+      "first_pitch_iso": "2026-07-22T17:35Z",
+      "pick": "Boston Red Sox ML",
+      "best_book": "DraftKings",
+      "best_odds": "-137",
+      "book_prices": {
+        "draftkings": "-137",
+        "fanduel": "-138",
+        "betmgm": "-145"
+      },
+      "book_links": {
+        "draftkings": "https://sportsbook.draftkings.com/?outcomes=0ML85577081_1",
+        "fanduel": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.593439851&selectionId=29158",
+        "betmgm": "https://sports.nj.betmgm.com/en/sports?options=19804629-1542803193-2253481760&type=Single"
+      },
+      "market": "ML",
+      "confidence": 4,
+      "units": 1.5,
+      "win_probability": 0.61,
+      "ladder_designation": true,
+      "data_confidence": 0.72,
+      "rules_passed": [
+        "max_juice",
+        "ladder_even_money",
+        "parlay_well_formed",
+        "confidence_units_match",
+        "data_confidence_floor",
+        "pick_type_allowed",
+        "mlb_hr_prop_check",
+        "mlb_pitcher_k_check",
+        "mlb_total_bases_check",
+        "mlb_hits_check",
+        "nba_player_prop_check",
+        "nhl_shots_check",
+        "mlb_run_line_check",
+        "mlb_under_bb_check",
+        "no_same_game_opposite"
+      ],
+      "locked": true,
+      "late_add": false,
+      "late_add_reason": "",
+      "bonus_pick": false,
+      "event_type": "",
+      "event_name": "",
+      "legs": [],
+      "headline": "Red Sox riding a historic 14-game win streak against a pitcher who's 1-6 with a 6.75 ERA lifetime at Fenway.",
+      "the_thesis": "The Red Sox have won 14 straight games \u2014 the longest streak in franchise history since 1946. They've gone from worst record in the AL to 51-48 and are playing with house money. Jake Bennett has been a revelation: 2.35 ERA, 0.88 WHIP, and a minuscule 4.4% walk rate. He's facing the Orioles for the first time, which is a slight unknown, but his underlying metrics are elite.\n\nKyle Bradish is 1-6 with a 6.75 ERA in 10 career starts at Fenway Park. That's not a small sample \u2014 that's a decade of evidence that he doesn't pitch well in this building. His season numbers (3.61 ERA, 1.35 WHIP) are fine, but the 11.0% walk rate is a problem. Boston's offense has been clicking during this streak, and they'll make Bradish work.\n\nThe market has Boston at -137, implying about 57.8% win probability. I have them at 61%, which gives us roughly 9 cents of edge. The situational factors \u2014 streak, home park, Bradish's Fenway struggles \u2014 all point the same direction.",
+      "the_data": [
+        {
+          "label": "Red Sox win streak",
+          "value": "14 games",
+          "context": "Longest since 1946"
+        },
+        {
+          "label": "Bennett ERA / WHIP",
+          "value": "2.35 / 0.88",
+          "context": "Elite"
+        },
+        {
+          "label": "Bennett BB%",
+          "value": "4.4%",
+          "context": "Top-5 in MLB"
+        },
+        {
+          "label": "Bradish career at Fenway",
+          "value": "1-6, 6.75 ERA",
+          "context": "10 starts"
+        },
+        {
+          "label": "BOS bullpen ERA",
+          "value": "3.09",
+          "context": "Best in MLB"
+        }
+      ],
+      "the_market": "Boston opened around -140 and has held steady. The total has dropped from 9.5 to 8.67, suggesting sharps expect a lower-scoring game. That's fine \u2014 we're on the side, not the total.",
+      "weather_park": "Fenway Park, 75\u00b0F, clear. Park factor is 1.05 for runs \u2014 slightly hitter-friendly but not extreme.",
+      "case_against": "Bennett has never faced the Orioles, and Baltimore's offense is dangerous. If Bennett struggles early, the Red Sox bullpen \u2014 despite its elite ERA \u2014 has been worked hard during this streak. Regression is coming eventually.",
+      "what_were_betting_on": "Bennett going 6+ innings, Bradish continuing his Fenway struggles, Red Sox offense scratching across 4-5 runs.",
+      "scott_bot_quip": "Bradish at Fenway is like bringing a knife to a gunfight. The Sox are 14-0 and they're not stopping tonight.",
+      "ladder_note": "",
+      "date": "2026-07-22",
+      "status": "PEND",
+      "units_result": null,
+      "clv_cents": null,
+      "result_score": null,
+      "graded_at": null,
+      "slate_assessment": "17-game MLB slate with no NBA or NHL action. Max Fried returns from IL on a pitch count, Red Sox riding a historic 14-game win streak, and several totals have moved sharply since open.",
+      "executive_summary": "Big MLB-only Wednesday with 17 games on the board. The headline is Max Fried's early return from the IL for the Yankees \u2014 he's on a 60-pitch count after just one rehab start, which caps his upside and creates value on the under in a hitter-friendly Yankee Stadium. The Red Sox are riding a franchise-record-tying 14-game win streak and face a Bradish who's 1-6 with a 6.75 ERA lifetime at Fenway. Seattle's Emerson Hancock at pitcher-friendly T-Mobile Park against a struggling Brady Singer is the cleanest pitching matchup on the slate. The ladder rides with the Mariners ML \u2014 best floor, best park, best SP edge.",
+      "slate_analysis": "The board today is MLB-only: 17 games, no NBA or NHL in scope. Pricing is tight across most matchups \u2014 lots of pick'em games and short favorites in the -110 to -140 range. The totals market has been active, with PIT@NYY dropping from 9.5 to 8.83 and BAL@BOS falling from 9.5 to 8.67. That movement tells us sharps are on unders in the early games.\n\nTop candidates that rose during my review: (1) PIT@NYY Under \u2014 Fried returning on a 60-pitch count, Chandler is a high-walk rookie, Yankee Stadium HR-friendly but both SPs should be pulled early; (2) SEA ML vs CIN \u2014 Hancock's 3.17 ERA and 1.01 WHIP at T-Mobile Park against Singer's 1.96 HR/9 is a mismatch; (3) BOS ML vs BAL \u2014 Red Sox on a 14-game heater, Bradish has a 6.75 ERA lifetime at Fenway, Bennett has been sharp; (4) MIL@NYM Under 7.5 \u2014 two high-K starters (Henderson 29.7% K, Scott 28.5% K) in a neutral park; (5) CIN@SEA Under 8.0 \u2014 T-Mobile suppresses runs (0.93 PF), Hancock is elite, Singer gives up HRs but not at this park; (6) Shohei Ohtani TB Over 1.5 \u2014 Nola's 2.01 HR/9 and 5.68 ERA, HR-boosting park, Ohtani's power.\n\nWhat got cut: PIT@NYY Under had the sharpest line movement but data confidence is only 0.4 \u2014 Fried's pitch count is confirmed but his velocity post-IL is unknown, and the Pirates offense has been top-4 vs LHP over the last 30 days. I'm taking it anyway because the market agrees and the under has moved a full run. BOS ML at -137 is borderline on juice but clears the -150 cap and the situational edge is massive. MIL@NYM Under looked clean but Henderson has only 33.1 IP this season \u2014 sample too thin for a high-confidence play, and data confidence is 0.45. I passed on LAD@PHI Over despite the HR-friendly park because both SPs have high HR/9 but also high walk rates, making the game script unpredictable. ATL@SD was a coin flip with no edge.\n\nThe final six: (1) SEA ML \u2014 best SP edge, best park, best floor, this is the ladder pick; (2) PIT@NYY Under \u2014 sharp money, Fried on a count, both offenses should see limited starter innings; (3) BOS ML \u2014 historic streak, Bradish's Fenway struggles, bullpen edge; (4) CIN@SEA Under 8.0 \u2014 Hancock at home, Singer's HR/9 neutralized by T-Mobile; (5) Ohtani TB Over 1.5 \u2014 Nola's HR/9 is elite-bad, park boosts, Ohtani healthy as a hitter; (6) CHC ML vs DET \u2014 Montero is solid but Cubs offense is top-10 in R/G, home park, slight edge. The ladder pick is Seattle ML at -155 \u2014 Hancock's underlying metrics are elite, T-Mobile suppresses runs, and Singer has been a HR machine. Best floor on the board.",
+      "slate_vibe": "NORMAL",
+      "published_at": "2026-07-22T12:21:29.329662-04:00"
+    },
+    {
+      "id": "20260722-MLB-PIT-NYY-TOTAL",
+      "sport": "MLB",
+      "game": "PIT @ NYY (Game 2)",
+      "first_pitch_iso": "2026-07-22T17:05Z",
+      "pick": "Under 9.0",
+      "best_book": "DraftKings",
+      "best_odds": "-114",
+      "book_prices": {
+        "draftkings": "-114",
+        "fanduel": "+102",
+        "betmgm": "-115"
+      },
+      "book_links": {
+        "draftkings": "https://sportsbook.draftkings.com/?outcomes=0OU85585901U900_3",
+        "betmgm": "https://sports.nj.betmgm.com/en/sports?options=19832451-1545875791-2261841048&type=Single",
+        "fanduel": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.593565551&selectionId=7017906"
+      },
+      "market": "TOTAL",
+      "confidence": 4,
+      "units": 1.5,
+      "win_probability": 0.6,
+      "ladder_designation": false,
+      "data_confidence": 0.7,
+      "rules_passed": [
+        "max_juice",
+        "ladder_even_money",
+        "parlay_well_formed",
+        "confidence_units_match",
+        "data_confidence_floor",
+        "pick_type_allowed",
+        "mlb_hr_prop_check",
+        "mlb_pitcher_k_check",
+        "mlb_total_bases_check",
+        "mlb_hits_check",
+        "nba_player_prop_check",
+        "nhl_shots_check",
+        "mlb_run_line_check",
+        "mlb_under_bb_check(soft)",
+        "no_same_game_opposite"
+      ],
+      "locked": true,
+      "late_add": false,
+      "late_add_reason": "",
+      "bonus_pick": false,
+      "event_type": "",
+      "event_name": "",
+      "legs": [],
+      "headline": "Fried returns on a 60-pitch count, Chandler walks the world \u2014 both starters exit early, but the runs won't pile up.",
+      "the_thesis": "Max Fried is back from the IL after a bone bruise in his pitching elbow kept him out since mid-May. The Yankees announced he'll start Game 2 of the doubleheader, but manager Aaron Boone confirmed a 60-pitch limit. That means 4-5 innings max from Fried, regardless of how well he's pitching. His pre-injury numbers were strong \u2014 3.21 ERA, 1.01 WHIP, opponents hitting .199 \u2014 but the pitch count caps his impact.\n\nBubba Chandler is a rookie with a 13.1% walk rate. That's a disaster waiting to happen, but it also means long at-bats, high pitch counts, and an early exit. The Pirates will likely see 4-5 innings from him too. So we're looking at a game where both bullpens are heavily involved from the 5th inning on.\n\nThe market has moved this total from 9.5 at open to 8.83 consensus. That's a full run of sharp action on the under. Yankee Stadium is HR-friendly (1.14 PF), but with both starters on short leashes and both bullpens relatively fresh, I expect a 4-3 or 5-4 type game.",
+      "the_data": [
+        {
+          "label": "Fried pitch count",
+          "value": "~60",
+          "context": "Confirmed by Boone"
+        },
+        {
+          "label": "Fried pre-IL ERA / WHIP",
+          "value": "3.21 / 1.01",
+          "context": "Strong"
+        },
+        {
+          "label": "Chandler BB%",
+          "value": "13.1%",
+          "context": "Bottom-10 in MLB"
+        },
+        {
+          "label": "Total movement",
+          "value": "9.5 \u2192 8.83",
+          "context": "Sharp money on under"
+        },
+        {
+          "label": "Yankee Stadium HR PF",
+          "value": "1.14",
+          "context": "HR-boosting"
+        }
+      ],
+      "the_market": "Total opened 9.5 and has dropped to 8.83 consensus. FanDuel is offering Under 8.5 at +102, which is the sharpest number. DraftKings has Under 9.0 at -114. The movement is clear: sharps are on the under.",
+      "weather_park": "Yankee Stadium is HR-friendly, but with both starters on pitch counts, the game will be decided by bullpen work. Weather is clear, mid-70s.",
+      "case_against": "Fried's velocity post-IL is unknown. If he's sitting 88-89 instead of 91-92, the Pirates \u2014 who've been top-4 vs LHP over the last 30 days \u2014 could tee off early. Yankee Stadium's short porch in right is a problem if Fried leaves anything over the plate.",
+      "what_were_betting_on": "Both starters exiting by the 5th, bullpens keeping the game close, total staying under 9.",
+      "scott_bot_quip": "Fried's on a pitch count, Chandler's on a walk count. This game ends 5-3 and we all go home happy.",
+      "ladder_note": "",
+      "date": "2026-07-22",
+      "status": "PEND",
+      "units_result": null,
+      "clv_cents": null,
+      "result_score": null,
+      "graded_at": null,
+      "slate_assessment": "17-game MLB slate with no NBA or NHL action. Max Fried returns from IL on a pitch count, Red Sox riding a historic 14-game win streak, and several totals have moved sharply since open.",
+      "executive_summary": "Big MLB-only Wednesday with 17 games on the board. The headline is Max Fried's early return from the IL for the Yankees \u2014 he's on a 60-pitch count after just one rehab start, which caps his upside and creates value on the under in a hitter-friendly Yankee Stadium. The Red Sox are riding a franchise-record-tying 14-game win streak and face a Bradish who's 1-6 with a 6.75 ERA lifetime at Fenway. Seattle's Emerson Hancock at pitcher-friendly T-Mobile Park against a struggling Brady Singer is the cleanest pitching matchup on the slate. The ladder rides with the Mariners ML \u2014 best floor, best park, best SP edge.",
+      "slate_analysis": "The board today is MLB-only: 17 games, no NBA or NHL in scope. Pricing is tight across most matchups \u2014 lots of pick'em games and short favorites in the -110 to -140 range. The totals market has been active, with PIT@NYY dropping from 9.5 to 8.83 and BAL@BOS falling from 9.5 to 8.67. That movement tells us sharps are on unders in the early games.\n\nTop candidates that rose during my review: (1) PIT@NYY Under \u2014 Fried returning on a 60-pitch count, Chandler is a high-walk rookie, Yankee Stadium HR-friendly but both SPs should be pulled early; (2) SEA ML vs CIN \u2014 Hancock's 3.17 ERA and 1.01 WHIP at T-Mobile Park against Singer's 1.96 HR/9 is a mismatch; (3) BOS ML vs BAL \u2014 Red Sox on a 14-game heater, Bradish has a 6.75 ERA lifetime at Fenway, Bennett has been sharp; (4) MIL@NYM Under 7.5 \u2014 two high-K starters (Henderson 29.7% K, Scott 28.5% K) in a neutral park; (5) CIN@SEA Under 8.0 \u2014 T-Mobile suppresses runs (0.93 PF), Hancock is elite, Singer gives up HRs but not at this park; (6) Shohei Ohtani TB Over 1.5 \u2014 Nola's 2.01 HR/9 and 5.68 ERA, HR-boosting park, Ohtani's power.\n\nWhat got cut: PIT@NYY Under had the sharpest line movement but data confidence is only 0.4 \u2014 Fried's pitch count is confirmed but his velocity post-IL is unknown, and the Pirates offense has been top-4 vs LHP over the last 30 days. I'm taking it anyway because the market agrees and the under has moved a full run. BOS ML at -137 is borderline on juice but clears the -150 cap and the situational edge is massive. MIL@NYM Under looked clean but Henderson has only 33.1 IP this season \u2014 sample too thin for a high-confidence play, and data confidence is 0.45. I passed on LAD@PHI Over despite the HR-friendly park because both SPs have high HR/9 but also high walk rates, making the game script unpredictable. ATL@SD was a coin flip with no edge.\n\nThe final six: (1) SEA ML \u2014 best SP edge, best park, best floor, this is the ladder pick; (2) PIT@NYY Under \u2014 sharp money, Fried on a count, both offenses should see limited starter innings; (3) BOS ML \u2014 historic streak, Bradish's Fenway struggles, bullpen edge; (4) CIN@SEA Under 8.0 \u2014 Hancock at home, Singer's HR/9 neutralized by T-Mobile; (5) Ohtani TB Over 1.5 \u2014 Nola's HR/9 is elite-bad, park boosts, Ohtani healthy as a hitter; (6) CHC ML vs DET \u2014 Montero is solid but Cubs offense is top-10 in R/G, home park, slight edge. The ladder pick is Seattle ML at -155 \u2014 Hancock's underlying metrics are elite, T-Mobile suppresses runs, and Singer has been a HR machine. Best floor on the board.",
+      "slate_vibe": "NORMAL",
+      "published_at": "2026-07-22T12:21:29.329498-04:00"
+    },
     {
       "id": "20260721-MLB-SD-ATL-PROP-WALKERBUEHLER",
       "sport": "MLB",
