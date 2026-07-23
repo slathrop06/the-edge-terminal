@@ -327,5 +327,12 @@
     "units_pl": 0.0023,
     "night_summary": "2-2 night, basically a wash at +0.00u. The two wins were clean: Buehler punched out exactly 3 in the SD/ATL game to cash the K under at +106, and the CIN/SEA under cruised home 4-2 with room to breathe. The DET ML was a model miss \u2014 Framber Valdez imploded in the first inning, recording just two outs while surrendering 5 hits and 6 runs before getting yanked, and Peterson \u2014 the guy the model had in freefall \u2014 tossed 6\u2154 scoreless innings. We got that one wrong. The ladder pick, PHI ML, is the one that stings: Wheeler was brilliant for 7 innings, the Phillies had runners on second and third with one out in the ninth trailing 2-1, and then Crawford ran on a ball hit directly to third, got caught in a rundown, and Realmuto inexplicably retreated to second and was thrown out on the game-ending 5-2-6-4 double play. Pure variance \u2014 the read was right, the baserunning was a disaster. Ladder resets at 0; we climb again tomorrow.",
     "generated_at": "2026-07-22T01:56:59.874384-04:00"
+  },
+  "2026-07-22": {
+    "date": "2026-07-22",
+    "record": "3-1-1",
+    "units_pl": 2.075,
+    "night_summary": "3-1-1 night, +2.08u \u2014 the best unit haul in a while. The Cubs ML was the headliner: CHC put up 11 on Detroit in a blowout, never in doubt. The CIN @ SEA under was equally clean at 4-2, and the PIT @ NYY Game 2 under was a gift \u2014 Max Fried and Bubba Chandler combined to keep it at 2-0 through seven innings, well inside the 9.0. The one blemish was Ohtani going 0-for-4 with zero total bases in a game the Dodgers won 9-5; variance, not a bad read \u2014 he just had one of those quiet nights in a team blowout. The ladder pick, BOS ML, never got off the ground \u2014 the BAL @ BOS Game 1 was postponed, so that's a push and the streak stays at zero. Still climbing.",
+    "generated_at": "2026-07-23T02:07:49.350756-04:00"
   }
 }

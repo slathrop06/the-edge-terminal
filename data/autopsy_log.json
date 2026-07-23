@@ -1,5 +1,18 @@
 [
   {
+    "id": "20260722-MLB-LAD-PHI-PROP-SHOHEIOHTANI",
+    "date": "2026-07-22",
+    "pick": "Shohei Ohtani Total Bases Over 1.5",
+    "game": "LAD @ PHI",
+    "odds": "-113",
+    "result_score": "Shohei Ohtani: 0 totalBases",
+    "classification": "VARIANCE",
+    "post_mortem": "The thesis was sound \u2014 Nola's 2.01 HR/9, a HR-boosting park, and Ohtani's elite power profile made Over 1.5 TB a reasonable lean. But Ohtani went 0-for-4 with zero hits in a game the Dodgers won 9-5, meaning the offense showed up everywhere except in his AB column. The StatMuse game log confirms 4 AB, 0 H, 0 XBH, 0 TB \u2014 a cold individual game in a team blowout win, the exact low-probability outcome the 53% implied probability already priced in. No data failure, no model flaw; Ohtani simply had one of his quiet nights.",
+    "candidate_rule": null,
+    "sample_size_warning": "N=1, insufficient to establish any rule \u2014 individual player prop variance is extremely high on a per-game basis.",
+    "analyzed_at": "2026-07-23T02:07:26.144492-04:00"
+  },
+  {
     "id": "20260721-MLB-LAD-PHI-ML",
     "date": "2026-07-21",
     "pick": "Philadelphia Phillies ML",
