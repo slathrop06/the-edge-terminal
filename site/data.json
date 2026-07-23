@@ -1,11 +1,982 @@
 {
-  "generated_at": "2026-07-23T05:05:21.758943-04:00",
+  "generated_at": "2026-07-23T12:27:17.165830-04:00",
   "today": "2026-07-23",
   "system_paused": false,
   "pause_reason": "",
-  "today_picks": [],
+  "today_picks": [
+    {
+      "id": "20260723-MLB-MIN-CLE-PROP-GAVINWILLIAMS",
+      "sport": "MLB",
+      "game": "MIN @ CLE",
+      "first_pitch_iso": "2026-07-23T17:10Z",
+      "pick": "Gavin Williams Ks Over 6.5",
+      "best_book": "FanDuel",
+      "best_odds": "-130",
+      "book_prices": {
+        "draftkings": "+113 (U)",
+        "fanduel": "-130",
+        "betmgm": "-135"
+      },
+      "book_links": {
+        "fanduel": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.593898467&selectionId=57377394",
+        "draftkings": "https://sportsbook.draftkings.com/?outcomes=0QA353773170%232221225204_13L84240Q1504748706Q20",
+        "betmgm": "https://sports.nj.betmgm.com/en/sports?options=2:7821143-201877460-766847400&type=Single"
+      },
+      "market": "PROP",
+      "confidence": 3,
+      "units": 1.0,
+      "win_probability": 0.57,
+      "ladder_designation": false,
+      "data_confidence": 0.65,
+      "rules_passed": [
+        "max_juice",
+        "ladder_even_money",
+        "parlay_well_formed",
+        "confidence_units_match",
+        "data_confidence_floor",
+        "pick_type_allowed",
+        "mlb_hr_prop_check",
+        "mlb_pitcher_k_check(soft)",
+        "mlb_total_bases_check",
+        "mlb_hits_check",
+        "nba_player_prop_check",
+        "nhl_shots_check",
+        "mlb_run_line_check",
+        "mlb_under_bb_check",
+        "no_same_game_opposite"
+      ],
+      "locked": true,
+      "late_add": false,
+      "late_add_reason": "",
+      "bonus_pick": false,
+      "event_type": "",
+      "event_name": "",
+      "legs": [],
+      "headline": "Williams' elite K rate meets a Twins lineup that strikes out.",
+      "the_thesis": "Gavin Williams has a 29.9% K rate on the season \u2014 that's elite, top-15 in baseball among qualified starters. He's averaging nearly 7 Ks per start, and his stuff plays up at Progressive Field. The Twins lineup, while solid offensively (4.81 R/G), has hitters who can be exploited with swing-and-miss stuff.\n\nThe line is set at 6.5, which is right at his season average. At -130, we're paying juice, but Williams' K rate suggests he should hit this number more often than not. The wind blowing in from center field (6 mph) won't help hitters make contact.\n\nThis is a confidence-3 play because the data confidence on this game is lower (0.45), but Williams' underlying K metrics are strong enough to proceed.",
+      "the_data": [
+        {
+          "label": "Williams K% (season)",
+          "value": "29.9%",
+          "context": "Elite, top-15 in MLB"
+        },
+        {
+          "label": "Williams BB% (season)",
+          "value": "7.6%",
+          "context": "Acceptable"
+        },
+        {
+          "label": "Williams IP (season)",
+          "value": "119.1",
+          "context": "Full workload"
+        },
+        {
+          "label": "Twins R/G (season)",
+          "value": "4.81",
+          "context": "Above average offense"
+        },
+        {
+          "label": "Wind",
+          "value": "6 mph in from CF",
+          "context": "Helps pitchers"
+        }
+      ],
+      "the_market": "Line set at 6.5 with -130 juice on the over. The market respects Williams' K ability but is pricing in some variance.",
+      "weather_park": "Progressive Field, 75\u00b0F, wind 6 mph in from CF. Neutral to slightly pitcher-friendly conditions.",
+      "case_against": "Williams' 1.51 HR/9 is concerning \u2014 if he gives up a few early runs, the Guardians might pull him before he can rack up Ks. The Twins also have patient hitters who could work counts and limit his opportunities. Data confidence at 0.45 is below ideal.",
+      "what_were_betting_on": "Williams going 6+ innings and maintaining his elite K rate against a Twins lineup that will swing and miss.",
+      "scott_bot_quip": "29.9% K rate, 6.5 line. The math says over. The juice says pay it.",
+      "ladder_note": "",
+      "date": "2026-07-23",
+      "status": "PEND",
+      "units_result": null,
+      "clv_cents": null,
+      "result_score": null,
+      "graded_at": null,
+      "slate_assessment": "Light 4-game MLB-only slate with thin data confidence across the board. Detroit-KC stands out with a dominant SP matchup and a depleted Royals lineup missing Bobby Witt Jr. Cardinals-Diamondbacks offers a pitching edge with McGreevy's breakout season. Prop markets provide additional angles.",
+      "executive_summary": "Four-game MLB slate with no NBA or NHL action, but the Tigers-Royals matchup jumps off the page. Troy Melton has been electric in July \u2014 0.52 ERA in three starts \u2014 and faces a Royals lineup missing Bobby Witt Jr. to the IL. McGreevy's breakout season in St. Louis gives us another pitching edge against Pfaadt. The prop slate is thin but Melton's strikeout over and a Cardinals ML parlay give us the volume we need. Ladder rides with the Tigers run line \u2014 best floor on the board with a dominant SP, depleted opponent, and pitcher-friendly Comerica.",
+      "slate_analysis": "Today's board is a four-game MLB-only slate with no NBA or NHL games to supplement. The pricing climate is tight \u2014 most totals sit at 7.5-8.5, and the only heavy favorite is Detroit at -220. Data confidence is low across the board (0.40-0.45), which is a red flag, but the underlying matchup data is strong enough in two spots to proceed.\n\nThe top candidates that rose during my review: (1) Detroit-KC, where Troy Melton's 1.80 ERA and 0.87 WHIP face a Royals lineup that just lost Bobby Witt Jr. to the IL with lower back tightness \u2014 that's their best hitter gone from a team already at 42-60. (2) Cardinals-Diamondbacks, where Michael McGreevy's 2.92 ERA and elite 5.6% BB rate face Brandon Pfaadt's 4.58 ERA and 1.22 HR/9. (3) The Tigers run line at -102 (FanDuel) \u2014 a 1.5-run spread with a dominant SP and a depleted opponent. (4) Melton's strikeout prop (Over 5.5 at -118) given his 23.6% K rate and recent nine-strikeout performances. (5) The MIN-CLE under at 7.5, but both SPs have elevated HR/9 rates (Williams 1.51, Bradley 1.34) that make me nervous. (6) The TB-TOR game, but Shane Bieber's 5.70 ERA and 2.72 HR/9 in limited 2026 action after returning from elbow injury is a stay-away.\n\nWhat got cut: The MIN-CLE under looked appealing on paper, but Gavin Williams' 1.51 HR/9 and Taj Bradley's 9.4% BB rate create variance I don't want to bet into \u2014 one mistake pitch and the under is dead. The TB-TOR game is a mess: Bieber is clearly not right (5.70 ERA, 17.6% K rate, 2.72 HR/9 in 23.2 IP), and Casey Legumina has only 41.1 IP of sample. Data confidence at 0.40 is below my floor. The Cardinals ML at -120 is solid but doesn't land in the even-money band for ladder purposes, so I'm parlaying it with another leg.\n\nThe final six: (1) Tigers run line -1.5 at -102 \u2014 this is the ladder pick with the best floor on the board. Melton is dealing, Witt is out, Comerica suppresses runs. (2) Tigers ML at -220 \u2014 too short for a straight bet but the edge is real. Instead, I'm taking the run line. (3) Cardinals ML at -120 \u2014 McGreevy's breakout season continues against a mediocre Pfaadt. (4) Troy Melton Ks Over 5.5 at -118 \u2014 he's struck out nine in back-to-back starts and faces a KC lineup that will be swinging at air. (5) Under 7.5 STL-ARI at -110 \u2014 McGreevy's elite BB rate and Busch Stadium's HR-suppressing park factor. (6) A parlay of Cardinals ML + Tigers Under 8.5 to land near even money for additional exposure. The ladder pick is the Tigers run line \u2014 highest floor, dominant SP, depleted opponent, pitcher-friendly park.",
+      "slate_vibe": "SOFT",
+      "published_at": "2026-07-23T12:27:17.135767-04:00"
+    },
+    {
+      "id": "20260723-MLB-ARI-STL-TOTAL",
+      "sport": "MLB",
+      "game": "ARI @ STL",
+      "first_pitch_iso": "2026-07-23T21:15Z",
+      "pick": "Under 7.5",
+      "best_book": "BetMGM",
+      "best_odds": "-110",
+      "book_prices": {
+        "draftkings": "-118",
+        "fanduel": "-118",
+        "betmgm": "-110"
+      },
+      "book_links": {
+        "fanduel": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.593859648&selectionId=7017906",
+        "draftkings": "https://sportsbook.draftkings.com/?outcomes=0OU85589288U750_3",
+        "betmgm": "https://sports.nj.betmgm.com/en/sports?options=19806531-1543008795-2254018847&type=Single"
+      },
+      "market": "TOTAL",
+      "confidence": 3,
+      "units": 1.0,
+      "win_probability": 0.56,
+      "ladder_designation": false,
+      "data_confidence": 0.68,
+      "rules_passed": [
+        "max_juice",
+        "ladder_even_money",
+        "parlay_well_formed",
+        "confidence_units_match",
+        "data_confidence_floor",
+        "pick_type_allowed",
+        "mlb_hr_prop_check",
+        "mlb_pitcher_k_check",
+        "mlb_total_bases_check",
+        "mlb_hits_check",
+        "nba_player_prop_check",
+        "nhl_shots_check",
+        "mlb_run_line_check",
+        "mlb_under_bb_check",
+        "no_same_game_opposite"
+      ],
+      "locked": true,
+      "late_add": false,
+      "late_add_reason": "",
+      "bonus_pick": false,
+      "event_type": "",
+      "event_name": "",
+      "legs": [],
+      "headline": "McGreevy's elite command and Busch Stadium's park factor favor the under.",
+      "the_thesis": "Michael McGreevy doesn't walk anyone. His 5.6% BB rate is elite, and that's the foundation of any under bet \u2014 fewer free passes means fewer baserunners, which means fewer runs. Busch Stadium's 0.93 HR park factor further suppresses scoring, making this a favorable environment for pitching.\n\nPfaadt is the wild card. His 7.1% BB rate is acceptable (below our 3.5 BB/9 threshold), and while his 1.22 HR/9 is concerning, Busch Stadium should help mitigate that. The total opened at 7.5 and has held \u2014 the market sees this as a low-scoring game.\n\nAt -110, we're getting a fair price on a game that profiles as a 3-3 or 4-3 final.",
+      "the_data": [
+        {
+          "label": "McGreevy BB% (season)",
+          "value": "5.6%",
+          "context": "93rd percentile"
+        },
+        {
+          "label": "Pfaadt BB% (season)",
+          "value": "7.1%",
+          "context": "Acceptable"
+        },
+        {
+          "label": "Busch Stadium PF (runs)",
+          "value": "0.97",
+          "context": "Slightly pitcher-friendly"
+        },
+        {
+          "label": "Busch Stadium PF (HR)",
+          "value": "0.93",
+          "context": "HR-suppressing"
+        },
+        {
+          "label": "Total",
+          "value": "7.5",
+          "context": "Low number"
+        }
+      ],
+      "the_market": "Total opened 7.5 and has held across all books. No significant movement, suggesting the market is comfortable with this number.",
+      "weather_park": "Busch Stadium, outdoor, HR-suppressing. Weather should be favorable for pitching.",
+      "case_against": "Pfaadt's 1.22 HR/9 means one mistake could blow up the under. The Diamondbacks have power (Marte, Carroll) that could exploit a hanging pitch. If McGreevy doesn't have his best stuff, this could turn into a 5-4 game quickly.",
+      "what_were_betting_on": "Both starters going 6+ innings with minimal damage, bullpens holding serve, and the park factor suppressing any late-inning rallies.",
+      "scott_bot_quip": "McGreevy doesn't walk anyone. Busch doesn't give up homers. The math is simple.",
+      "ladder_note": "",
+      "date": "2026-07-23",
+      "status": "PEND",
+      "units_result": null,
+      "clv_cents": null,
+      "result_score": null,
+      "graded_at": null,
+      "slate_assessment": "Light 4-game MLB-only slate with thin data confidence across the board. Detroit-KC stands out with a dominant SP matchup and a depleted Royals lineup missing Bobby Witt Jr. Cardinals-Diamondbacks offers a pitching edge with McGreevy's breakout season. Prop markets provide additional angles.",
+      "executive_summary": "Four-game MLB slate with no NBA or NHL action, but the Tigers-Royals matchup jumps off the page. Troy Melton has been electric in July \u2014 0.52 ERA in three starts \u2014 and faces a Royals lineup missing Bobby Witt Jr. to the IL. McGreevy's breakout season in St. Louis gives us another pitching edge against Pfaadt. The prop slate is thin but Melton's strikeout over and a Cardinals ML parlay give us the volume we need. Ladder rides with the Tigers run line \u2014 best floor on the board with a dominant SP, depleted opponent, and pitcher-friendly Comerica.",
+      "slate_analysis": "Today's board is a four-game MLB-only slate with no NBA or NHL games to supplement. The pricing climate is tight \u2014 most totals sit at 7.5-8.5, and the only heavy favorite is Detroit at -220. Data confidence is low across the board (0.40-0.45), which is a red flag, but the underlying matchup data is strong enough in two spots to proceed.\n\nThe top candidates that rose during my review: (1) Detroit-KC, where Troy Melton's 1.80 ERA and 0.87 WHIP face a Royals lineup that just lost Bobby Witt Jr. to the IL with lower back tightness \u2014 that's their best hitter gone from a team already at 42-60. (2) Cardinals-Diamondbacks, where Michael McGreevy's 2.92 ERA and elite 5.6% BB rate face Brandon Pfaadt's 4.58 ERA and 1.22 HR/9. (3) The Tigers run line at -102 (FanDuel) \u2014 a 1.5-run spread with a dominant SP and a depleted opponent. (4) Melton's strikeout prop (Over 5.5 at -118) given his 23.6% K rate and recent nine-strikeout performances. (5) The MIN-CLE under at 7.5, but both SPs have elevated HR/9 rates (Williams 1.51, Bradley 1.34) that make me nervous. (6) The TB-TOR game, but Shane Bieber's 5.70 ERA and 2.72 HR/9 in limited 2026 action after returning from elbow injury is a stay-away.\n\nWhat got cut: The MIN-CLE under looked appealing on paper, but Gavin Williams' 1.51 HR/9 and Taj Bradley's 9.4% BB rate create variance I don't want to bet into \u2014 one mistake pitch and the under is dead. The TB-TOR game is a mess: Bieber is clearly not right (5.70 ERA, 17.6% K rate, 2.72 HR/9 in 23.2 IP), and Casey Legumina has only 41.1 IP of sample. Data confidence at 0.40 is below my floor. The Cardinals ML at -120 is solid but doesn't land in the even-money band for ladder purposes, so I'm parlaying it with another leg.\n\nThe final six: (1) Tigers run line -1.5 at -102 \u2014 this is the ladder pick with the best floor on the board. Melton is dealing, Witt is out, Comerica suppresses runs. (2) Tigers ML at -220 \u2014 too short for a straight bet but the edge is real. Instead, I'm taking the run line. (3) Cardinals ML at -120 \u2014 McGreevy's breakout season continues against a mediocre Pfaadt. (4) Troy Melton Ks Over 5.5 at -118 \u2014 he's struck out nine in back-to-back starts and faces a KC lineup that will be swinging at air. (5) Under 7.5 STL-ARI at -110 \u2014 McGreevy's elite BB rate and Busch Stadium's HR-suppressing park factor. (6) A parlay of Cardinals ML + Tigers Under 8.5 to land near even money for additional exposure. The ladder pick is the Tigers run line \u2014 highest floor, dominant SP, depleted opponent, pitcher-friendly park.",
+      "slate_vibe": "SOFT",
+      "published_at": "2026-07-23T12:27:17.135649-04:00"
+    },
+    {
+      "id": "20260723-MLB-KC-DET-PROP-TROYMELTON",
+      "sport": "MLB",
+      "game": "KC @ DET",
+      "first_pitch_iso": "2026-07-23T22:40Z",
+      "pick": "Troy Melton Ks Over 5.5",
+      "best_book": "FanDuel",
+      "best_odds": "-118",
+      "book_prices": {
+        "draftkings": "-106 (U)",
+        "fanduel": "-118",
+        "betmgm": "-140"
+      },
+      "book_links": {
+        "fanduel": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.593889150&selectionId=86345828",
+        "draftkings": "https://sportsbook.draftkings.com/?outcomes=0QA353771491%232221219539_13L84240Q1-2091356037Q20",
+        "betmgm": "https://sports.nj.betmgm.com/en/sports?options=2:7827898-201876115-766844424&type=Single"
+      },
+      "market": "PROP",
+      "confidence": 4,
+      "units": 1.5,
+      "win_probability": 0.6,
+      "ladder_designation": false,
+      "data_confidence": 0.7,
+      "rules_passed": [
+        "max_juice",
+        "ladder_even_money",
+        "parlay_well_formed",
+        "confidence_units_match",
+        "data_confidence_floor",
+        "pick_type_allowed",
+        "mlb_hr_prop_check",
+        "mlb_pitcher_k_check(soft)",
+        "mlb_total_bases_check",
+        "mlb_hits_check",
+        "nba_player_prop_check",
+        "nhl_shots_check",
+        "mlb_run_line_check",
+        "mlb_under_bb_check",
+        "no_same_game_opposite"
+      ],
+      "locked": true,
+      "late_add": false,
+      "late_add_reason": "",
+      "bonus_pick": false,
+      "event_type": "",
+      "event_name": "",
+      "legs": [],
+      "headline": "Melton's back-to-back 9-K games set up another big strikeout night.",
+      "the_thesis": "Troy Melton has struck out nine batters in each of his last two starts \u2014 the first Tigers pitcher age 25 or younger to do that since Tarik Skubal. His 23.6% K rate on the season is solid, but his recent form suggests he's found another gear. The cutter has been devastating (26% whiff rate), and he's commanding it to both sides of the plate.\n\nThe Royals without Bobby Witt Jr. are a worse lineup, but more importantly, they're a lineup that will be pressing. Replacement-level hitters facing a pitcher with elite stuff tend to chase \u2014 and Melton's cutter is designed to get chases. The line is set at 5.5, which feels low given his recent performance.\n\nAt -118, we're paying a small premium for a pitcher who's hit 9 Ks in back-to-back starts. The over has value.",
+      "the_data": [
+        {
+          "label": "Melton Ks (last 2 starts)",
+          "value": "9, 9",
+          "context": "Back-to-back elite outings"
+        },
+        {
+          "label": "Melton K% (season)",
+          "value": "23.6%",
+          "context": "Above average"
+        },
+        {
+          "label": "Melton cutter whiff%",
+          "value": "26.0%",
+          "context": "Elite swing-and-miss"
+        },
+        {
+          "label": "Royals lineup",
+          "value": "Missing Witt Jr.",
+          "context": "Depleted"
+        },
+        {
+          "label": "Melton IP/start (L3)",
+          "value": "18.33 total",
+          "context": "~6 IP per start"
+        }
+      ],
+      "the_market": "Line set at 5.5 with -118 juice on the over. The market is respecting Melton's recent form but not fully pricing in the Witt absence.",
+      "weather_park": "Comerica Park, neutral conditions. No weather impact on strikeouts.",
+      "case_against": "Melton's workload is being managed after the back tightness. If the Tigers pull him after 5 innings as a precaution, he'd need to strike out more than one per inning to hit the over. The Royals could also adjust and take a more patient approach.",
+      "what_were_betting_on": "Melton going 6+ innings and maintaining his recent K rate against a depleted lineup.",
+      "scott_bot_quip": "Nine Ks, then nine more. The line says 5.5. The math says over.",
+      "ladder_note": "",
+      "date": "2026-07-23",
+      "status": "PEND",
+      "units_result": null,
+      "clv_cents": null,
+      "result_score": null,
+      "graded_at": null,
+      "slate_assessment": "Light 4-game MLB-only slate with thin data confidence across the board. Detroit-KC stands out with a dominant SP matchup and a depleted Royals lineup missing Bobby Witt Jr. Cardinals-Diamondbacks offers a pitching edge with McGreevy's breakout season. Prop markets provide additional angles.",
+      "executive_summary": "Four-game MLB slate with no NBA or NHL action, but the Tigers-Royals matchup jumps off the page. Troy Melton has been electric in July \u2014 0.52 ERA in three starts \u2014 and faces a Royals lineup missing Bobby Witt Jr. to the IL. McGreevy's breakout season in St. Louis gives us another pitching edge against Pfaadt. The prop slate is thin but Melton's strikeout over and a Cardinals ML parlay give us the volume we need. Ladder rides with the Tigers run line \u2014 best floor on the board with a dominant SP, depleted opponent, and pitcher-friendly Comerica.",
+      "slate_analysis": "Today's board is a four-game MLB-only slate with no NBA or NHL games to supplement. The pricing climate is tight \u2014 most totals sit at 7.5-8.5, and the only heavy favorite is Detroit at -220. Data confidence is low across the board (0.40-0.45), which is a red flag, but the underlying matchup data is strong enough in two spots to proceed.\n\nThe top candidates that rose during my review: (1) Detroit-KC, where Troy Melton's 1.80 ERA and 0.87 WHIP face a Royals lineup that just lost Bobby Witt Jr. to the IL with lower back tightness \u2014 that's their best hitter gone from a team already at 42-60. (2) Cardinals-Diamondbacks, where Michael McGreevy's 2.92 ERA and elite 5.6% BB rate face Brandon Pfaadt's 4.58 ERA and 1.22 HR/9. (3) The Tigers run line at -102 (FanDuel) \u2014 a 1.5-run spread with a dominant SP and a depleted opponent. (4) Melton's strikeout prop (Over 5.5 at -118) given his 23.6% K rate and recent nine-strikeout performances. (5) The MIN-CLE under at 7.5, but both SPs have elevated HR/9 rates (Williams 1.51, Bradley 1.34) that make me nervous. (6) The TB-TOR game, but Shane Bieber's 5.70 ERA and 2.72 HR/9 in limited 2026 action after returning from elbow injury is a stay-away.\n\nWhat got cut: The MIN-CLE under looked appealing on paper, but Gavin Williams' 1.51 HR/9 and Taj Bradley's 9.4% BB rate create variance I don't want to bet into \u2014 one mistake pitch and the under is dead. The TB-TOR game is a mess: Bieber is clearly not right (5.70 ERA, 17.6% K rate, 2.72 HR/9 in 23.2 IP), and Casey Legumina has only 41.1 IP of sample. Data confidence at 0.40 is below my floor. The Cardinals ML at -120 is solid but doesn't land in the even-money band for ladder purposes, so I'm parlaying it with another leg.\n\nThe final six: (1) Tigers run line -1.5 at -102 \u2014 this is the ladder pick with the best floor on the board. Melton is dealing, Witt is out, Comerica suppresses runs. (2) Tigers ML at -220 \u2014 too short for a straight bet but the edge is real. Instead, I'm taking the run line. (3) Cardinals ML at -120 \u2014 McGreevy's breakout season continues against a mediocre Pfaadt. (4) Troy Melton Ks Over 5.5 at -118 \u2014 he's struck out nine in back-to-back starts and faces a KC lineup that will be swinging at air. (5) Under 7.5 STL-ARI at -110 \u2014 McGreevy's elite BB rate and Busch Stadium's HR-suppressing park factor. (6) A parlay of Cardinals ML + Tigers Under 8.5 to land near even money for additional exposure. The ladder pick is the Tigers run line \u2014 highest floor, dominant SP, depleted opponent, pitcher-friendly park.",
+      "slate_vibe": "SOFT",
+      "published_at": "2026-07-23T12:27:17.135543-04:00"
+    },
+    {
+      "id": "20260723-MLB-ARI-STL-ML",
+      "sport": "MLB",
+      "game": "ARI @ STL",
+      "first_pitch_iso": "2026-07-23T21:15Z",
+      "pick": "St. Louis Cardinals ML",
+      "best_book": "BetMGM",
+      "best_odds": "-120",
+      "book_prices": {
+        "draftkings": "-122",
+        "fanduel": "-124",
+        "betmgm": "-120"
+      },
+      "book_links": {
+        "fanduel": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.593723276&selectionId=50291",
+        "draftkings": "https://sportsbook.draftkings.com/?outcomes=0ML85589288_1",
+        "betmgm": "https://sports.nj.betmgm.com/en/sports?options=19806531-1543008782-2254018821&type=Single"
+      },
+      "market": "MONEYLINE",
+      "confidence": 4,
+      "units": 1.5,
+      "win_probability": 0.58,
+      "ladder_designation": false,
+      "data_confidence": 0.72,
+      "rules_passed": [
+        "max_juice",
+        "ladder_even_money",
+        "parlay_well_formed",
+        "confidence_units_match",
+        "data_confidence_floor",
+        "pick_type_allowed",
+        "mlb_hr_prop_check",
+        "mlb_pitcher_k_check",
+        "mlb_total_bases_check",
+        "mlb_hits_check",
+        "nba_player_prop_check",
+        "nhl_shots_check",
+        "mlb_run_line_check",
+        "mlb_under_bb_check",
+        "no_same_game_opposite"
+      ],
+      "locked": true,
+      "late_add": false,
+      "late_add_reason": "",
+      "bonus_pick": false,
+      "event_type": "",
+      "event_name": "",
+      "legs": [],
+      "headline": "McGreevy's breakout season continues against a mediocre Pfaadt.",
+      "the_thesis": "Michael McGreevy has been the Cardinals' best story in 2026. The 25-year-old has a 2.92 ERA and 1.10 WHIP through 108 innings, and he's done it with elite command \u2014 his 5.6% BB rate ranks in the 93rd percentile of baseball. He doesn't overpower hitters, but he moves the ball around the zone and generates weak contact. The Cardinals are 21-9 in games McGreevy has pitched since his 2024 debut.\n\nBrandon Pfaadt, meanwhile, has been mediocre. His 4.58 ERA and 1.31 WHIP tell the story \u2014 he's hittable, and his 1.22 HR/9 means he's prone to the big mistake. The Diamondbacks offense is solid (4.47 R/G), but McGreevy's ability to limit free passes should keep them off the bases.\n\nBusch Stadium is a pitcher's park (0.93 HR factor), which helps McGreevy's profile. At -120, we're getting a fair price on the better pitcher in the better park.",
+      "the_data": [
+        {
+          "label": "McGreevy ERA (season)",
+          "value": "2.92",
+          "context": "13th in MLB"
+        },
+        {
+          "label": "McGreevy BB% (season)",
+          "value": "5.6%",
+          "context": "93rd percentile"
+        },
+        {
+          "label": "McGreevy WHIP (season)",
+          "value": "1.10",
+          "context": "Above average"
+        },
+        {
+          "label": "Pfaadt ERA (season)",
+          "value": "4.58",
+          "context": "Below average"
+        },
+        {
+          "label": "Pfaadt HR/9 (season)",
+          "value": "1.22",
+          "context": "Prone to mistakes"
+        },
+        {
+          "label": "Busch Stadium PF (HR)",
+          "value": "0.93",
+          "context": "HR-suppressing"
+        }
+      ],
+      "the_market": "Cardinals opened -120 and have held. The market sees this as a coin flip, but McGreevy's underlying numbers suggest he's undervalued. No significant line movement.",
+      "weather_park": "Busch Stadium, outdoor, HR-suppressing park factor (0.93). Weather should be favorable for pitching.",
+      "case_against": "McGreevy's 16.6% K rate is below average \u2014 he needs his defense to make plays behind him. If the Cardinals' defense has an off night, balls in play could fall. The Diamondbacks have Ketel Marte and Corbin Carroll, who can punish mistakes.",
+      "what_were_betting_on": "McGreevy going 6+ quality innings, Cardinals offense providing 3-4 runs against Pfaadt, and the home team closing it out.",
+      "scott_bot_quip": "McGreevy doesn't throw hard, but he throws smart. Sometimes that's enough.",
+      "ladder_note": "",
+      "date": "2026-07-23",
+      "status": "PEND",
+      "units_result": null,
+      "clv_cents": null,
+      "result_score": null,
+      "graded_at": null,
+      "slate_assessment": "Light 4-game MLB-only slate with thin data confidence across the board. Detroit-KC stands out with a dominant SP matchup and a depleted Royals lineup missing Bobby Witt Jr. Cardinals-Diamondbacks offers a pitching edge with McGreevy's breakout season. Prop markets provide additional angles.",
+      "executive_summary": "Four-game MLB slate with no NBA or NHL action, but the Tigers-Royals matchup jumps off the page. Troy Melton has been electric in July \u2014 0.52 ERA in three starts \u2014 and faces a Royals lineup missing Bobby Witt Jr. to the IL. McGreevy's breakout season in St. Louis gives us another pitching edge against Pfaadt. The prop slate is thin but Melton's strikeout over and a Cardinals ML parlay give us the volume we need. Ladder rides with the Tigers run line \u2014 best floor on the board with a dominant SP, depleted opponent, and pitcher-friendly Comerica.",
+      "slate_analysis": "Today's board is a four-game MLB-only slate with no NBA or NHL games to supplement. The pricing climate is tight \u2014 most totals sit at 7.5-8.5, and the only heavy favorite is Detroit at -220. Data confidence is low across the board (0.40-0.45), which is a red flag, but the underlying matchup data is strong enough in two spots to proceed.\n\nThe top candidates that rose during my review: (1) Detroit-KC, where Troy Melton's 1.80 ERA and 0.87 WHIP face a Royals lineup that just lost Bobby Witt Jr. to the IL with lower back tightness \u2014 that's their best hitter gone from a team already at 42-60. (2) Cardinals-Diamondbacks, where Michael McGreevy's 2.92 ERA and elite 5.6% BB rate face Brandon Pfaadt's 4.58 ERA and 1.22 HR/9. (3) The Tigers run line at -102 (FanDuel) \u2014 a 1.5-run spread with a dominant SP and a depleted opponent. (4) Melton's strikeout prop (Over 5.5 at -118) given his 23.6% K rate and recent nine-strikeout performances. (5) The MIN-CLE under at 7.5, but both SPs have elevated HR/9 rates (Williams 1.51, Bradley 1.34) that make me nervous. (6) The TB-TOR game, but Shane Bieber's 5.70 ERA and 2.72 HR/9 in limited 2026 action after returning from elbow injury is a stay-away.\n\nWhat got cut: The MIN-CLE under looked appealing on paper, but Gavin Williams' 1.51 HR/9 and Taj Bradley's 9.4% BB rate create variance I don't want to bet into \u2014 one mistake pitch and the under is dead. The TB-TOR game is a mess: Bieber is clearly not right (5.70 ERA, 17.6% K rate, 2.72 HR/9 in 23.2 IP), and Casey Legumina has only 41.1 IP of sample. Data confidence at 0.40 is below my floor. The Cardinals ML at -120 is solid but doesn't land in the even-money band for ladder purposes, so I'm parlaying it with another leg.\n\nThe final six: (1) Tigers run line -1.5 at -102 \u2014 this is the ladder pick with the best floor on the board. Melton is dealing, Witt is out, Comerica suppresses runs. (2) Tigers ML at -220 \u2014 too short for a straight bet but the edge is real. Instead, I'm taking the run line. (3) Cardinals ML at -120 \u2014 McGreevy's breakout season continues against a mediocre Pfaadt. (4) Troy Melton Ks Over 5.5 at -118 \u2014 he's struck out nine in back-to-back starts and faces a KC lineup that will be swinging at air. (5) Under 7.5 STL-ARI at -110 \u2014 McGreevy's elite BB rate and Busch Stadium's HR-suppressing park factor. (6) A parlay of Cardinals ML + Tigers Under 8.5 to land near even money for additional exposure. The ladder pick is the Tigers run line \u2014 highest floor, dominant SP, depleted opponent, pitcher-friendly park.",
+      "slate_vibe": "SOFT",
+      "published_at": "2026-07-23T12:27:17.135434-04:00"
+    },
+    {
+      "id": "20260723-MLB-KC-DET-SPREAD",
+      "sport": "MLB",
+      "game": "KC @ DET",
+      "first_pitch_iso": "2026-07-23T22:40Z",
+      "pick": "Detroit Tigers -1.5",
+      "best_book": "FanDuel",
+      "best_odds": "-102",
+      "book_prices": {
+        "draftkings": "-110",
+        "fanduel": "-102",
+        "betmgm": "-110"
+      },
+      "book_links": {
+        "fanduel": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.593861070&selectionId=29159",
+        "draftkings": "https://sportsbook.draftkings.com/?outcomes=0HC85589287N150_1",
+        "betmgm": "https://sports.nj.betmgm.com/en/sports?options=19805164-1542848596-2253598627&type=Single"
+      },
+      "market": "SPREAD",
+      "confidence": 5,
+      "units": 2.0,
+      "win_probability": 0.62,
+      "ladder_designation": true,
+      "data_confidence": 0.75,
+      "rules_passed": [
+        "max_juice",
+        "ladder_even_money",
+        "parlay_well_formed",
+        "confidence_units_match",
+        "data_confidence_floor",
+        "pick_type_allowed",
+        "mlb_hr_prop_check",
+        "mlb_pitcher_k_check",
+        "mlb_total_bases_check",
+        "mlb_hits_check",
+        "nba_player_prop_check",
+        "nhl_shots_check",
+        "mlb_run_line_check(soft)",
+        "mlb_under_bb_check",
+        "no_same_game_opposite"
+      ],
+      "locked": true,
+      "late_add": false,
+      "late_add_reason": "",
+      "bonus_pick": false,
+      "event_type": "",
+      "event_name": "",
+      "legs": [],
+      "headline": "Melton's July dominance meets a Royals lineup missing its best player.",
+      "the_thesis": "Troy Melton has been the best story in Detroit's rotation this month. After missing the first two months with elbow inflammation, he's returned with a vengeance \u2014 0.52 ERA in three July starts, including back-to-back nine-strikeout performances. His cutter has been unhittable (.083 BAA, 26% whiff rate), and his command has been elite (0.87 WHIP on the season).\n\nThe Royals, meanwhile, just placed Bobby Witt Jr. on the 10-day IL with lower back tightness. That's their franchise player, their MVP candidate, their entire offense. Without Witt, Kansas City is running out a lineup that was already struggling \u2014 they're 42-60 and selling at the deadline. Randy Dobnak is listed as the starter, but this is essentially a bullpen game (14.0 IP on the season, 12.9% BB rate).\n\nComerica Park is a pitcher's paradise (0.96 HR park factor), and the weather is neutral. The Tigers have the pitching edge, the lineup edge, and the park edge. At -102 on the run line, we're getting plus-money value on a team that should win by multiple runs.",
+      "the_data": [
+        {
+          "label": "Melton ERA (July)",
+          "value": "0.52",
+          "context": "Elite, 3 starts"
+        },
+        {
+          "label": "Melton WHIP (season)",
+          "value": "0.87",
+          "context": "Top-10 in MLB"
+        },
+        {
+          "label": "Melton K% (season)",
+          "value": "23.6%",
+          "context": "Above average"
+        },
+        {
+          "label": "Bobby Witt Jr.",
+          "value": "10-day IL",
+          "context": "Lower back tightness"
+        },
+        {
+          "label": "Royals record",
+          "value": "42-60",
+          "context": "3rd-worst in MLB"
+        },
+        {
+          "label": "Comerica PF (runs)",
+          "value": "0.96",
+          "context": "Pitcher-friendly"
+        }
+      ],
+      "the_market": "Tigers opened -220 ML and have held steady. The run line at -102 is essentially a pick'em, which feels like value given the matchup disparity. Sharp money hasn't moved this number.",
+      "weather_park": "Comerica Park, 75\u00b0F, neutral conditions. Park factor suppresses runs (0.96) and homers (0.95).",
+      "case_against": "Melton's workload is being managed after the back tightness scare earlier this month. If he exits early (5 IP or less), the Tigers bullpen \u2014 while solid \u2014 would need to cover significant innings against a Royals team that could rally late. Dobnak's 1.93 ERA in limited innings suggests he's not a total pushover.",
+      "what_were_betting_on": "Melton going 6+ innings with minimal damage, Tigers offense providing 4+ runs of support against a bullpen game, and the Royals' depleted lineup failing to mount a comeback.",
+      "scott_bot_quip": "Witt's on the IL, Dobnak's on the mound, and Melton's dealing. Sometimes the board just hands you one.",
+      "ladder_note": "Best floor on the slate. Elite SP, depleted opponent, pitcher-friendly park, and we're getting essentially even money on a 1.5-run spread. This is the ladder lock.",
+      "date": "2026-07-23",
+      "status": "PEND",
+      "units_result": null,
+      "clv_cents": null,
+      "result_score": null,
+      "graded_at": null,
+      "slate_assessment": "Light 4-game MLB-only slate with thin data confidence across the board. Detroit-KC stands out with a dominant SP matchup and a depleted Royals lineup missing Bobby Witt Jr. Cardinals-Diamondbacks offers a pitching edge with McGreevy's breakout season. Prop markets provide additional angles.",
+      "executive_summary": "Four-game MLB slate with no NBA or NHL action, but the Tigers-Royals matchup jumps off the page. Troy Melton has been electric in July \u2014 0.52 ERA in three starts \u2014 and faces a Royals lineup missing Bobby Witt Jr. to the IL. McGreevy's breakout season in St. Louis gives us another pitching edge against Pfaadt. The prop slate is thin but Melton's strikeout over and a Cardinals ML parlay give us the volume we need. Ladder rides with the Tigers run line \u2014 best floor on the board with a dominant SP, depleted opponent, and pitcher-friendly Comerica.",
+      "slate_analysis": "Today's board is a four-game MLB-only slate with no NBA or NHL games to supplement. The pricing climate is tight \u2014 most totals sit at 7.5-8.5, and the only heavy favorite is Detroit at -220. Data confidence is low across the board (0.40-0.45), which is a red flag, but the underlying matchup data is strong enough in two spots to proceed.\n\nThe top candidates that rose during my review: (1) Detroit-KC, where Troy Melton's 1.80 ERA and 0.87 WHIP face a Royals lineup that just lost Bobby Witt Jr. to the IL with lower back tightness \u2014 that's their best hitter gone from a team already at 42-60. (2) Cardinals-Diamondbacks, where Michael McGreevy's 2.92 ERA and elite 5.6% BB rate face Brandon Pfaadt's 4.58 ERA and 1.22 HR/9. (3) The Tigers run line at -102 (FanDuel) \u2014 a 1.5-run spread with a dominant SP and a depleted opponent. (4) Melton's strikeout prop (Over 5.5 at -118) given his 23.6% K rate and recent nine-strikeout performances. (5) The MIN-CLE under at 7.5, but both SPs have elevated HR/9 rates (Williams 1.51, Bradley 1.34) that make me nervous. (6) The TB-TOR game, but Shane Bieber's 5.70 ERA and 2.72 HR/9 in limited 2026 action after returning from elbow injury is a stay-away.\n\nWhat got cut: The MIN-CLE under looked appealing on paper, but Gavin Williams' 1.51 HR/9 and Taj Bradley's 9.4% BB rate create variance I don't want to bet into \u2014 one mistake pitch and the under is dead. The TB-TOR game is a mess: Bieber is clearly not right (5.70 ERA, 17.6% K rate, 2.72 HR/9 in 23.2 IP), and Casey Legumina has only 41.1 IP of sample. Data confidence at 0.40 is below my floor. The Cardinals ML at -120 is solid but doesn't land in the even-money band for ladder purposes, so I'm parlaying it with another leg.\n\nThe final six: (1) Tigers run line -1.5 at -102 \u2014 this is the ladder pick with the best floor on the board. Melton is dealing, Witt is out, Comerica suppresses runs. (2) Tigers ML at -220 \u2014 too short for a straight bet but the edge is real. Instead, I'm taking the run line. (3) Cardinals ML at -120 \u2014 McGreevy's breakout season continues against a mediocre Pfaadt. (4) Troy Melton Ks Over 5.5 at -118 \u2014 he's struck out nine in back-to-back starts and faces a KC lineup that will be swinging at air. (5) Under 7.5 STL-ARI at -110 \u2014 McGreevy's elite BB rate and Busch Stadium's HR-suppressing park factor. (6) A parlay of Cardinals ML + Tigers Under 8.5 to land near even money for additional exposure. The ladder pick is the Tigers run line \u2014 highest floor, dominant SP, depleted opponent, pitcher-friendly park.",
+      "slate_vibe": "SOFT",
+      "published_at": "2026-07-23T12:27:17.135288-04:00"
+    }
+  ],
   "today_bonus_picks": [],
   "all_picks": [
+    {
+      "id": "20260723-MLB-MIN-CLE-PROP-GAVINWILLIAMS",
+      "sport": "MLB",
+      "game": "MIN @ CLE",
+      "first_pitch_iso": "2026-07-23T17:10Z",
+      "pick": "Gavin Williams Ks Over 6.5",
+      "best_book": "FanDuel",
+      "best_odds": "-130",
+      "book_prices": {
+        "draftkings": "+113 (U)",
+        "fanduel": "-130",
+        "betmgm": "-135"
+      },
+      "book_links": {
+        "fanduel": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.593898467&selectionId=57377394",
+        "draftkings": "https://sportsbook.draftkings.com/?outcomes=0QA353773170%232221225204_13L84240Q1504748706Q20",
+        "betmgm": "https://sports.nj.betmgm.com/en/sports?options=2:7821143-201877460-766847400&type=Single"
+      },
+      "market": "PROP",
+      "confidence": 3,
+      "units": 1.0,
+      "win_probability": 0.57,
+      "ladder_designation": false,
+      "data_confidence": 0.65,
+      "rules_passed": [
+        "max_juice",
+        "ladder_even_money",
+        "parlay_well_formed",
+        "confidence_units_match",
+        "data_confidence_floor",
+        "pick_type_allowed",
+        "mlb_hr_prop_check",
+        "mlb_pitcher_k_check(soft)",
+        "mlb_total_bases_check",
+        "mlb_hits_check",
+        "nba_player_prop_check",
+        "nhl_shots_check",
+        "mlb_run_line_check",
+        "mlb_under_bb_check",
+        "no_same_game_opposite"
+      ],
+      "locked": true,
+      "late_add": false,
+      "late_add_reason": "",
+      "bonus_pick": false,
+      "event_type": "",
+      "event_name": "",
+      "legs": [],
+      "headline": "Williams' elite K rate meets a Twins lineup that strikes out.",
+      "the_thesis": "Gavin Williams has a 29.9% K rate on the season \u2014 that's elite, top-15 in baseball among qualified starters. He's averaging nearly 7 Ks per start, and his stuff plays up at Progressive Field. The Twins lineup, while solid offensively (4.81 R/G), has hitters who can be exploited with swing-and-miss stuff.\n\nThe line is set at 6.5, which is right at his season average. At -130, we're paying juice, but Williams' K rate suggests he should hit this number more often than not. The wind blowing in from center field (6 mph) won't help hitters make contact.\n\nThis is a confidence-3 play because the data confidence on this game is lower (0.45), but Williams' underlying K metrics are strong enough to proceed.",
+      "the_data": [
+        {
+          "label": "Williams K% (season)",
+          "value": "29.9%",
+          "context": "Elite, top-15 in MLB"
+        },
+        {
+          "label": "Williams BB% (season)",
+          "value": "7.6%",
+          "context": "Acceptable"
+        },
+        {
+          "label": "Williams IP (season)",
+          "value": "119.1",
+          "context": "Full workload"
+        },
+        {
+          "label": "Twins R/G (season)",
+          "value": "4.81",
+          "context": "Above average offense"
+        },
+        {
+          "label": "Wind",
+          "value": "6 mph in from CF",
+          "context": "Helps pitchers"
+        }
+      ],
+      "the_market": "Line set at 6.5 with -130 juice on the over. The market respects Williams' K ability but is pricing in some variance.",
+      "weather_park": "Progressive Field, 75\u00b0F, wind 6 mph in from CF. Neutral to slightly pitcher-friendly conditions.",
+      "case_against": "Williams' 1.51 HR/9 is concerning \u2014 if he gives up a few early runs, the Guardians might pull him before he can rack up Ks. The Twins also have patient hitters who could work counts and limit his opportunities. Data confidence at 0.45 is below ideal.",
+      "what_were_betting_on": "Williams going 6+ innings and maintaining his elite K rate against a Twins lineup that will swing and miss.",
+      "scott_bot_quip": "29.9% K rate, 6.5 line. The math says over. The juice says pay it.",
+      "ladder_note": "",
+      "date": "2026-07-23",
+      "status": "PEND",
+      "units_result": null,
+      "clv_cents": null,
+      "result_score": null,
+      "graded_at": null,
+      "slate_assessment": "Light 4-game MLB-only slate with thin data confidence across the board. Detroit-KC stands out with a dominant SP matchup and a depleted Royals lineup missing Bobby Witt Jr. Cardinals-Diamondbacks offers a pitching edge with McGreevy's breakout season. Prop markets provide additional angles.",
+      "executive_summary": "Four-game MLB slate with no NBA or NHL action, but the Tigers-Royals matchup jumps off the page. Troy Melton has been electric in July \u2014 0.52 ERA in three starts \u2014 and faces a Royals lineup missing Bobby Witt Jr. to the IL. McGreevy's breakout season in St. Louis gives us another pitching edge against Pfaadt. The prop slate is thin but Melton's strikeout over and a Cardinals ML parlay give us the volume we need. Ladder rides with the Tigers run line \u2014 best floor on the board with a dominant SP, depleted opponent, and pitcher-friendly Comerica.",
+      "slate_analysis": "Today's board is a four-game MLB-only slate with no NBA or NHL games to supplement. The pricing climate is tight \u2014 most totals sit at 7.5-8.5, and the only heavy favorite is Detroit at -220. Data confidence is low across the board (0.40-0.45), which is a red flag, but the underlying matchup data is strong enough in two spots to proceed.\n\nThe top candidates that rose during my review: (1) Detroit-KC, where Troy Melton's 1.80 ERA and 0.87 WHIP face a Royals lineup that just lost Bobby Witt Jr. to the IL with lower back tightness \u2014 that's their best hitter gone from a team already at 42-60. (2) Cardinals-Diamondbacks, where Michael McGreevy's 2.92 ERA and elite 5.6% BB rate face Brandon Pfaadt's 4.58 ERA and 1.22 HR/9. (3) The Tigers run line at -102 (FanDuel) \u2014 a 1.5-run spread with a dominant SP and a depleted opponent. (4) Melton's strikeout prop (Over 5.5 at -118) given his 23.6% K rate and recent nine-strikeout performances. (5) The MIN-CLE under at 7.5, but both SPs have elevated HR/9 rates (Williams 1.51, Bradley 1.34) that make me nervous. (6) The TB-TOR game, but Shane Bieber's 5.70 ERA and 2.72 HR/9 in limited 2026 action after returning from elbow injury is a stay-away.\n\nWhat got cut: The MIN-CLE under looked appealing on paper, but Gavin Williams' 1.51 HR/9 and Taj Bradley's 9.4% BB rate create variance I don't want to bet into \u2014 one mistake pitch and the under is dead. The TB-TOR game is a mess: Bieber is clearly not right (5.70 ERA, 17.6% K rate, 2.72 HR/9 in 23.2 IP), and Casey Legumina has only 41.1 IP of sample. Data confidence at 0.40 is below my floor. The Cardinals ML at -120 is solid but doesn't land in the even-money band for ladder purposes, so I'm parlaying it with another leg.\n\nThe final six: (1) Tigers run line -1.5 at -102 \u2014 this is the ladder pick with the best floor on the board. Melton is dealing, Witt is out, Comerica suppresses runs. (2) Tigers ML at -220 \u2014 too short for a straight bet but the edge is real. Instead, I'm taking the run line. (3) Cardinals ML at -120 \u2014 McGreevy's breakout season continues against a mediocre Pfaadt. (4) Troy Melton Ks Over 5.5 at -118 \u2014 he's struck out nine in back-to-back starts and faces a KC lineup that will be swinging at air. (5) Under 7.5 STL-ARI at -110 \u2014 McGreevy's elite BB rate and Busch Stadium's HR-suppressing park factor. (6) A parlay of Cardinals ML + Tigers Under 8.5 to land near even money for additional exposure. The ladder pick is the Tigers run line \u2014 highest floor, dominant SP, depleted opponent, pitcher-friendly park.",
+      "slate_vibe": "SOFT",
+      "published_at": "2026-07-23T12:27:17.135767-04:00"
+    },
+    {
+      "id": "20260723-MLB-ARI-STL-TOTAL",
+      "sport": "MLB",
+      "game": "ARI @ STL",
+      "first_pitch_iso": "2026-07-23T21:15Z",
+      "pick": "Under 7.5",
+      "best_book": "BetMGM",
+      "best_odds": "-110",
+      "book_prices": {
+        "draftkings": "-118",
+        "fanduel": "-118",
+        "betmgm": "-110"
+      },
+      "book_links": {
+        "fanduel": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.593859648&selectionId=7017906",
+        "draftkings": "https://sportsbook.draftkings.com/?outcomes=0OU85589288U750_3",
+        "betmgm": "https://sports.nj.betmgm.com/en/sports?options=19806531-1543008795-2254018847&type=Single"
+      },
+      "market": "TOTAL",
+      "confidence": 3,
+      "units": 1.0,
+      "win_probability": 0.56,
+      "ladder_designation": false,
+      "data_confidence": 0.68,
+      "rules_passed": [
+        "max_juice",
+        "ladder_even_money",
+        "parlay_well_formed",
+        "confidence_units_match",
+        "data_confidence_floor",
+        "pick_type_allowed",
+        "mlb_hr_prop_check",
+        "mlb_pitcher_k_check",
+        "mlb_total_bases_check",
+        "mlb_hits_check",
+        "nba_player_prop_check",
+        "nhl_shots_check",
+        "mlb_run_line_check",
+        "mlb_under_bb_check",
+        "no_same_game_opposite"
+      ],
+      "locked": true,
+      "late_add": false,
+      "late_add_reason": "",
+      "bonus_pick": false,
+      "event_type": "",
+      "event_name": "",
+      "legs": [],
+      "headline": "McGreevy's elite command and Busch Stadium's park factor favor the under.",
+      "the_thesis": "Michael McGreevy doesn't walk anyone. His 5.6% BB rate is elite, and that's the foundation of any under bet \u2014 fewer free passes means fewer baserunners, which means fewer runs. Busch Stadium's 0.93 HR park factor further suppresses scoring, making this a favorable environment for pitching.\n\nPfaadt is the wild card. His 7.1% BB rate is acceptable (below our 3.5 BB/9 threshold), and while his 1.22 HR/9 is concerning, Busch Stadium should help mitigate that. The total opened at 7.5 and has held \u2014 the market sees this as a low-scoring game.\n\nAt -110, we're getting a fair price on a game that profiles as a 3-3 or 4-3 final.",
+      "the_data": [
+        {
+          "label": "McGreevy BB% (season)",
+          "value": "5.6%",
+          "context": "93rd percentile"
+        },
+        {
+          "label": "Pfaadt BB% (season)",
+          "value": "7.1%",
+          "context": "Acceptable"
+        },
+        {
+          "label": "Busch Stadium PF (runs)",
+          "value": "0.97",
+          "context": "Slightly pitcher-friendly"
+        },
+        {
+          "label": "Busch Stadium PF (HR)",
+          "value": "0.93",
+          "context": "HR-suppressing"
+        },
+        {
+          "label": "Total",
+          "value": "7.5",
+          "context": "Low number"
+        }
+      ],
+      "the_market": "Total opened 7.5 and has held across all books. No significant movement, suggesting the market is comfortable with this number.",
+      "weather_park": "Busch Stadium, outdoor, HR-suppressing. Weather should be favorable for pitching.",
+      "case_against": "Pfaadt's 1.22 HR/9 means one mistake could blow up the under. The Diamondbacks have power (Marte, Carroll) that could exploit a hanging pitch. If McGreevy doesn't have his best stuff, this could turn into a 5-4 game quickly.",
+      "what_were_betting_on": "Both starters going 6+ innings with minimal damage, bullpens holding serve, and the park factor suppressing any late-inning rallies.",
+      "scott_bot_quip": "McGreevy doesn't walk anyone. Busch doesn't give up homers. The math is simple.",
+      "ladder_note": "",
+      "date": "2026-07-23",
+      "status": "PEND",
+      "units_result": null,
+      "clv_cents": null,
+      "result_score": null,
+      "graded_at": null,
+      "slate_assessment": "Light 4-game MLB-only slate with thin data confidence across the board. Detroit-KC stands out with a dominant SP matchup and a depleted Royals lineup missing Bobby Witt Jr. Cardinals-Diamondbacks offers a pitching edge with McGreevy's breakout season. Prop markets provide additional angles.",
+      "executive_summary": "Four-game MLB slate with no NBA or NHL action, but the Tigers-Royals matchup jumps off the page. Troy Melton has been electric in July \u2014 0.52 ERA in three starts \u2014 and faces a Royals lineup missing Bobby Witt Jr. to the IL. McGreevy's breakout season in St. Louis gives us another pitching edge against Pfaadt. The prop slate is thin but Melton's strikeout over and a Cardinals ML parlay give us the volume we need. Ladder rides with the Tigers run line \u2014 best floor on the board with a dominant SP, depleted opponent, and pitcher-friendly Comerica.",
+      "slate_analysis": "Today's board is a four-game MLB-only slate with no NBA or NHL games to supplement. The pricing climate is tight \u2014 most totals sit at 7.5-8.5, and the only heavy favorite is Detroit at -220. Data confidence is low across the board (0.40-0.45), which is a red flag, but the underlying matchup data is strong enough in two spots to proceed.\n\nThe top candidates that rose during my review: (1) Detroit-KC, where Troy Melton's 1.80 ERA and 0.87 WHIP face a Royals lineup that just lost Bobby Witt Jr. to the IL with lower back tightness \u2014 that's their best hitter gone from a team already at 42-60. (2) Cardinals-Diamondbacks, where Michael McGreevy's 2.92 ERA and elite 5.6% BB rate face Brandon Pfaadt's 4.58 ERA and 1.22 HR/9. (3) The Tigers run line at -102 (FanDuel) \u2014 a 1.5-run spread with a dominant SP and a depleted opponent. (4) Melton's strikeout prop (Over 5.5 at -118) given his 23.6% K rate and recent nine-strikeout performances. (5) The MIN-CLE under at 7.5, but both SPs have elevated HR/9 rates (Williams 1.51, Bradley 1.34) that make me nervous. (6) The TB-TOR game, but Shane Bieber's 5.70 ERA and 2.72 HR/9 in limited 2026 action after returning from elbow injury is a stay-away.\n\nWhat got cut: The MIN-CLE under looked appealing on paper, but Gavin Williams' 1.51 HR/9 and Taj Bradley's 9.4% BB rate create variance I don't want to bet into \u2014 one mistake pitch and the under is dead. The TB-TOR game is a mess: Bieber is clearly not right (5.70 ERA, 17.6% K rate, 2.72 HR/9 in 23.2 IP), and Casey Legumina has only 41.1 IP of sample. Data confidence at 0.40 is below my floor. The Cardinals ML at -120 is solid but doesn't land in the even-money band for ladder purposes, so I'm parlaying it with another leg.\n\nThe final six: (1) Tigers run line -1.5 at -102 \u2014 this is the ladder pick with the best floor on the board. Melton is dealing, Witt is out, Comerica suppresses runs. (2) Tigers ML at -220 \u2014 too short for a straight bet but the edge is real. Instead, I'm taking the run line. (3) Cardinals ML at -120 \u2014 McGreevy's breakout season continues against a mediocre Pfaadt. (4) Troy Melton Ks Over 5.5 at -118 \u2014 he's struck out nine in back-to-back starts and faces a KC lineup that will be swinging at air. (5) Under 7.5 STL-ARI at -110 \u2014 McGreevy's elite BB rate and Busch Stadium's HR-suppressing park factor. (6) A parlay of Cardinals ML + Tigers Under 8.5 to land near even money for additional exposure. The ladder pick is the Tigers run line \u2014 highest floor, dominant SP, depleted opponent, pitcher-friendly park.",
+      "slate_vibe": "SOFT",
+      "published_at": "2026-07-23T12:27:17.135649-04:00"
+    },
+    {
+      "id": "20260723-MLB-KC-DET-PROP-TROYMELTON",
+      "sport": "MLB",
+      "game": "KC @ DET",
+      "first_pitch_iso": "2026-07-23T22:40Z",
+      "pick": "Troy Melton Ks Over 5.5",
+      "best_book": "FanDuel",
+      "best_odds": "-118",
+      "book_prices": {
+        "draftkings": "-106 (U)",
+        "fanduel": "-118",
+        "betmgm": "-140"
+      },
+      "book_links": {
+        "fanduel": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.593889150&selectionId=86345828",
+        "draftkings": "https://sportsbook.draftkings.com/?outcomes=0QA353771491%232221219539_13L84240Q1-2091356037Q20",
+        "betmgm": "https://sports.nj.betmgm.com/en/sports?options=2:7827898-201876115-766844424&type=Single"
+      },
+      "market": "PROP",
+      "confidence": 4,
+      "units": 1.5,
+      "win_probability": 0.6,
+      "ladder_designation": false,
+      "data_confidence": 0.7,
+      "rules_passed": [
+        "max_juice",
+        "ladder_even_money",
+        "parlay_well_formed",
+        "confidence_units_match",
+        "data_confidence_floor",
+        "pick_type_allowed",
+        "mlb_hr_prop_check",
+        "mlb_pitcher_k_check(soft)",
+        "mlb_total_bases_check",
+        "mlb_hits_check",
+        "nba_player_prop_check",
+        "nhl_shots_check",
+        "mlb_run_line_check",
+        "mlb_under_bb_check",
+        "no_same_game_opposite"
+      ],
+      "locked": true,
+      "late_add": false,
+      "late_add_reason": "",
+      "bonus_pick": false,
+      "event_type": "",
+      "event_name": "",
+      "legs": [],
+      "headline": "Melton's back-to-back 9-K games set up another big strikeout night.",
+      "the_thesis": "Troy Melton has struck out nine batters in each of his last two starts \u2014 the first Tigers pitcher age 25 or younger to do that since Tarik Skubal. His 23.6% K rate on the season is solid, but his recent form suggests he's found another gear. The cutter has been devastating (26% whiff rate), and he's commanding it to both sides of the plate.\n\nThe Royals without Bobby Witt Jr. are a worse lineup, but more importantly, they're a lineup that will be pressing. Replacement-level hitters facing a pitcher with elite stuff tend to chase \u2014 and Melton's cutter is designed to get chases. The line is set at 5.5, which feels low given his recent performance.\n\nAt -118, we're paying a small premium for a pitcher who's hit 9 Ks in back-to-back starts. The over has value.",
+      "the_data": [
+        {
+          "label": "Melton Ks (last 2 starts)",
+          "value": "9, 9",
+          "context": "Back-to-back elite outings"
+        },
+        {
+          "label": "Melton K% (season)",
+          "value": "23.6%",
+          "context": "Above average"
+        },
+        {
+          "label": "Melton cutter whiff%",
+          "value": "26.0%",
+          "context": "Elite swing-and-miss"
+        },
+        {
+          "label": "Royals lineup",
+          "value": "Missing Witt Jr.",
+          "context": "Depleted"
+        },
+        {
+          "label": "Melton IP/start (L3)",
+          "value": "18.33 total",
+          "context": "~6 IP per start"
+        }
+      ],
+      "the_market": "Line set at 5.5 with -118 juice on the over. The market is respecting Melton's recent form but not fully pricing in the Witt absence.",
+      "weather_park": "Comerica Park, neutral conditions. No weather impact on strikeouts.",
+      "case_against": "Melton's workload is being managed after the back tightness. If the Tigers pull him after 5 innings as a precaution, he'd need to strike out more than one per inning to hit the over. The Royals could also adjust and take a more patient approach.",
+      "what_were_betting_on": "Melton going 6+ innings and maintaining his recent K rate against a depleted lineup.",
+      "scott_bot_quip": "Nine Ks, then nine more. The line says 5.5. The math says over.",
+      "ladder_note": "",
+      "date": "2026-07-23",
+      "status": "PEND",
+      "units_result": null,
+      "clv_cents": null,
+      "result_score": null,
+      "graded_at": null,
+      "slate_assessment": "Light 4-game MLB-only slate with thin data confidence across the board. Detroit-KC stands out with a dominant SP matchup and a depleted Royals lineup missing Bobby Witt Jr. Cardinals-Diamondbacks offers a pitching edge with McGreevy's breakout season. Prop markets provide additional angles.",
+      "executive_summary": "Four-game MLB slate with no NBA or NHL action, but the Tigers-Royals matchup jumps off the page. Troy Melton has been electric in July \u2014 0.52 ERA in three starts \u2014 and faces a Royals lineup missing Bobby Witt Jr. to the IL. McGreevy's breakout season in St. Louis gives us another pitching edge against Pfaadt. The prop slate is thin but Melton's strikeout over and a Cardinals ML parlay give us the volume we need. Ladder rides with the Tigers run line \u2014 best floor on the board with a dominant SP, depleted opponent, and pitcher-friendly Comerica.",
+      "slate_analysis": "Today's board is a four-game MLB-only slate with no NBA or NHL games to supplement. The pricing climate is tight \u2014 most totals sit at 7.5-8.5, and the only heavy favorite is Detroit at -220. Data confidence is low across the board (0.40-0.45), which is a red flag, but the underlying matchup data is strong enough in two spots to proceed.\n\nThe top candidates that rose during my review: (1) Detroit-KC, where Troy Melton's 1.80 ERA and 0.87 WHIP face a Royals lineup that just lost Bobby Witt Jr. to the IL with lower back tightness \u2014 that's their best hitter gone from a team already at 42-60. (2) Cardinals-Diamondbacks, where Michael McGreevy's 2.92 ERA and elite 5.6% BB rate face Brandon Pfaadt's 4.58 ERA and 1.22 HR/9. (3) The Tigers run line at -102 (FanDuel) \u2014 a 1.5-run spread with a dominant SP and a depleted opponent. (4) Melton's strikeout prop (Over 5.5 at -118) given his 23.6% K rate and recent nine-strikeout performances. (5) The MIN-CLE under at 7.5, but both SPs have elevated HR/9 rates (Williams 1.51, Bradley 1.34) that make me nervous. (6) The TB-TOR game, but Shane Bieber's 5.70 ERA and 2.72 HR/9 in limited 2026 action after returning from elbow injury is a stay-away.\n\nWhat got cut: The MIN-CLE under looked appealing on paper, but Gavin Williams' 1.51 HR/9 and Taj Bradley's 9.4% BB rate create variance I don't want to bet into \u2014 one mistake pitch and the under is dead. The TB-TOR game is a mess: Bieber is clearly not right (5.70 ERA, 17.6% K rate, 2.72 HR/9 in 23.2 IP), and Casey Legumina has only 41.1 IP of sample. Data confidence at 0.40 is below my floor. The Cardinals ML at -120 is solid but doesn't land in the even-money band for ladder purposes, so I'm parlaying it with another leg.\n\nThe final six: (1) Tigers run line -1.5 at -102 \u2014 this is the ladder pick with the best floor on the board. Melton is dealing, Witt is out, Comerica suppresses runs. (2) Tigers ML at -220 \u2014 too short for a straight bet but the edge is real. Instead, I'm taking the run line. (3) Cardinals ML at -120 \u2014 McGreevy's breakout season continues against a mediocre Pfaadt. (4) Troy Melton Ks Over 5.5 at -118 \u2014 he's struck out nine in back-to-back starts and faces a KC lineup that will be swinging at air. (5) Under 7.5 STL-ARI at -110 \u2014 McGreevy's elite BB rate and Busch Stadium's HR-suppressing park factor. (6) A parlay of Cardinals ML + Tigers Under 8.5 to land near even money for additional exposure. The ladder pick is the Tigers run line \u2014 highest floor, dominant SP, depleted opponent, pitcher-friendly park.",
+      "slate_vibe": "SOFT",
+      "published_at": "2026-07-23T12:27:17.135543-04:00"
+    },
+    {
+      "id": "20260723-MLB-ARI-STL-ML",
+      "sport": "MLB",
+      "game": "ARI @ STL",
+      "first_pitch_iso": "2026-07-23T21:15Z",
+      "pick": "St. Louis Cardinals ML",
+      "best_book": "BetMGM",
+      "best_odds": "-120",
+      "book_prices": {
+        "draftkings": "-122",
+        "fanduel": "-124",
+        "betmgm": "-120"
+      },
+      "book_links": {
+        "fanduel": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.593723276&selectionId=50291",
+        "draftkings": "https://sportsbook.draftkings.com/?outcomes=0ML85589288_1",
+        "betmgm": "https://sports.nj.betmgm.com/en/sports?options=19806531-1543008782-2254018821&type=Single"
+      },
+      "market": "MONEYLINE",
+      "confidence": 4,
+      "units": 1.5,
+      "win_probability": 0.58,
+      "ladder_designation": false,
+      "data_confidence": 0.72,
+      "rules_passed": [
+        "max_juice",
+        "ladder_even_money",
+        "parlay_well_formed",
+        "confidence_units_match",
+        "data_confidence_floor",
+        "pick_type_allowed",
+        "mlb_hr_prop_check",
+        "mlb_pitcher_k_check",
+        "mlb_total_bases_check",
+        "mlb_hits_check",
+        "nba_player_prop_check",
+        "nhl_shots_check",
+        "mlb_run_line_check",
+        "mlb_under_bb_check",
+        "no_same_game_opposite"
+      ],
+      "locked": true,
+      "late_add": false,
+      "late_add_reason": "",
+      "bonus_pick": false,
+      "event_type": "",
+      "event_name": "",
+      "legs": [],
+      "headline": "McGreevy's breakout season continues against a mediocre Pfaadt.",
+      "the_thesis": "Michael McGreevy has been the Cardinals' best story in 2026. The 25-year-old has a 2.92 ERA and 1.10 WHIP through 108 innings, and he's done it with elite command \u2014 his 5.6% BB rate ranks in the 93rd percentile of baseball. He doesn't overpower hitters, but he moves the ball around the zone and generates weak contact. The Cardinals are 21-9 in games McGreevy has pitched since his 2024 debut.\n\nBrandon Pfaadt, meanwhile, has been mediocre. His 4.58 ERA and 1.31 WHIP tell the story \u2014 he's hittable, and his 1.22 HR/9 means he's prone to the big mistake. The Diamondbacks offense is solid (4.47 R/G), but McGreevy's ability to limit free passes should keep them off the bases.\n\nBusch Stadium is a pitcher's park (0.93 HR factor), which helps McGreevy's profile. At -120, we're getting a fair price on the better pitcher in the better park.",
+      "the_data": [
+        {
+          "label": "McGreevy ERA (season)",
+          "value": "2.92",
+          "context": "13th in MLB"
+        },
+        {
+          "label": "McGreevy BB% (season)",
+          "value": "5.6%",
+          "context": "93rd percentile"
+        },
+        {
+          "label": "McGreevy WHIP (season)",
+          "value": "1.10",
+          "context": "Above average"
+        },
+        {
+          "label": "Pfaadt ERA (season)",
+          "value": "4.58",
+          "context": "Below average"
+        },
+        {
+          "label": "Pfaadt HR/9 (season)",
+          "value": "1.22",
+          "context": "Prone to mistakes"
+        },
+        {
+          "label": "Busch Stadium PF (HR)",
+          "value": "0.93",
+          "context": "HR-suppressing"
+        }
+      ],
+      "the_market": "Cardinals opened -120 and have held. The market sees this as a coin flip, but McGreevy's underlying numbers suggest he's undervalued. No significant line movement.",
+      "weather_park": "Busch Stadium, outdoor, HR-suppressing park factor (0.93). Weather should be favorable for pitching.",
+      "case_against": "McGreevy's 16.6% K rate is below average \u2014 he needs his defense to make plays behind him. If the Cardinals' defense has an off night, balls in play could fall. The Diamondbacks have Ketel Marte and Corbin Carroll, who can punish mistakes.",
+      "what_were_betting_on": "McGreevy going 6+ quality innings, Cardinals offense providing 3-4 runs against Pfaadt, and the home team closing it out.",
+      "scott_bot_quip": "McGreevy doesn't throw hard, but he throws smart. Sometimes that's enough.",
+      "ladder_note": "",
+      "date": "2026-07-23",
+      "status": "PEND",
+      "units_result": null,
+      "clv_cents": null,
+      "result_score": null,
+      "graded_at": null,
+      "slate_assessment": "Light 4-game MLB-only slate with thin data confidence across the board. Detroit-KC stands out with a dominant SP matchup and a depleted Royals lineup missing Bobby Witt Jr. Cardinals-Diamondbacks offers a pitching edge with McGreevy's breakout season. Prop markets provide additional angles.",
+      "executive_summary": "Four-game MLB slate with no NBA or NHL action, but the Tigers-Royals matchup jumps off the page. Troy Melton has been electric in July \u2014 0.52 ERA in three starts \u2014 and faces a Royals lineup missing Bobby Witt Jr. to the IL. McGreevy's breakout season in St. Louis gives us another pitching edge against Pfaadt. The prop slate is thin but Melton's strikeout over and a Cardinals ML parlay give us the volume we need. Ladder rides with the Tigers run line \u2014 best floor on the board with a dominant SP, depleted opponent, and pitcher-friendly Comerica.",
+      "slate_analysis": "Today's board is a four-game MLB-only slate with no NBA or NHL games to supplement. The pricing climate is tight \u2014 most totals sit at 7.5-8.5, and the only heavy favorite is Detroit at -220. Data confidence is low across the board (0.40-0.45), which is a red flag, but the underlying matchup data is strong enough in two spots to proceed.\n\nThe top candidates that rose during my review: (1) Detroit-KC, where Troy Melton's 1.80 ERA and 0.87 WHIP face a Royals lineup that just lost Bobby Witt Jr. to the IL with lower back tightness \u2014 that's their best hitter gone from a team already at 42-60. (2) Cardinals-Diamondbacks, where Michael McGreevy's 2.92 ERA and elite 5.6% BB rate face Brandon Pfaadt's 4.58 ERA and 1.22 HR/9. (3) The Tigers run line at -102 (FanDuel) \u2014 a 1.5-run spread with a dominant SP and a depleted opponent. (4) Melton's strikeout prop (Over 5.5 at -118) given his 23.6% K rate and recent nine-strikeout performances. (5) The MIN-CLE under at 7.5, but both SPs have elevated HR/9 rates (Williams 1.51, Bradley 1.34) that make me nervous. (6) The TB-TOR game, but Shane Bieber's 5.70 ERA and 2.72 HR/9 in limited 2026 action after returning from elbow injury is a stay-away.\n\nWhat got cut: The MIN-CLE under looked appealing on paper, but Gavin Williams' 1.51 HR/9 and Taj Bradley's 9.4% BB rate create variance I don't want to bet into \u2014 one mistake pitch and the under is dead. The TB-TOR game is a mess: Bieber is clearly not right (5.70 ERA, 17.6% K rate, 2.72 HR/9 in 23.2 IP), and Casey Legumina has only 41.1 IP of sample. Data confidence at 0.40 is below my floor. The Cardinals ML at -120 is solid but doesn't land in the even-money band for ladder purposes, so I'm parlaying it with another leg.\n\nThe final six: (1) Tigers run line -1.5 at -102 \u2014 this is the ladder pick with the best floor on the board. Melton is dealing, Witt is out, Comerica suppresses runs. (2) Tigers ML at -220 \u2014 too short for a straight bet but the edge is real. Instead, I'm taking the run line. (3) Cardinals ML at -120 \u2014 McGreevy's breakout season continues against a mediocre Pfaadt. (4) Troy Melton Ks Over 5.5 at -118 \u2014 he's struck out nine in back-to-back starts and faces a KC lineup that will be swinging at air. (5) Under 7.5 STL-ARI at -110 \u2014 McGreevy's elite BB rate and Busch Stadium's HR-suppressing park factor. (6) A parlay of Cardinals ML + Tigers Under 8.5 to land near even money for additional exposure. The ladder pick is the Tigers run line \u2014 highest floor, dominant SP, depleted opponent, pitcher-friendly park.",
+      "slate_vibe": "SOFT",
+      "published_at": "2026-07-23T12:27:17.135434-04:00"
+    },
+    {
+      "id": "20260723-MLB-KC-DET-SPREAD",
+      "sport": "MLB",
+      "game": "KC @ DET",
+      "first_pitch_iso": "2026-07-23T22:40Z",
+      "pick": "Detroit Tigers -1.5",
+      "best_book": "FanDuel",
+      "best_odds": "-102",
+      "book_prices": {
+        "draftkings": "-110",
+        "fanduel": "-102",
+        "betmgm": "-110"
+      },
+      "book_links": {
+        "fanduel": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.593861070&selectionId=29159",
+        "draftkings": "https://sportsbook.draftkings.com/?outcomes=0HC85589287N150_1",
+        "betmgm": "https://sports.nj.betmgm.com/en/sports?options=19805164-1542848596-2253598627&type=Single"
+      },
+      "market": "SPREAD",
+      "confidence": 5,
+      "units": 2.0,
+      "win_probability": 0.62,
+      "ladder_designation": true,
+      "data_confidence": 0.75,
+      "rules_passed": [
+        "max_juice",
+        "ladder_even_money",
+        "parlay_well_formed",
+        "confidence_units_match",
+        "data_confidence_floor",
+        "pick_type_allowed",
+        "mlb_hr_prop_check",
+        "mlb_pitcher_k_check",
+        "mlb_total_bases_check",
+        "mlb_hits_check",
+        "nba_player_prop_check",
+        "nhl_shots_check",
+        "mlb_run_line_check(soft)",
+        "mlb_under_bb_check",
+        "no_same_game_opposite"
+      ],
+      "locked": true,
+      "late_add": false,
+      "late_add_reason": "",
+      "bonus_pick": false,
+      "event_type": "",
+      "event_name": "",
+      "legs": [],
+      "headline": "Melton's July dominance meets a Royals lineup missing its best player.",
+      "the_thesis": "Troy Melton has been the best story in Detroit's rotation this month. After missing the first two months with elbow inflammation, he's returned with a vengeance \u2014 0.52 ERA in three July starts, including back-to-back nine-strikeout performances. His cutter has been unhittable (.083 BAA, 26% whiff rate), and his command has been elite (0.87 WHIP on the season).\n\nThe Royals, meanwhile, just placed Bobby Witt Jr. on the 10-day IL with lower back tightness. That's their franchise player, their MVP candidate, their entire offense. Without Witt, Kansas City is running out a lineup that was already struggling \u2014 they're 42-60 and selling at the deadline. Randy Dobnak is listed as the starter, but this is essentially a bullpen game (14.0 IP on the season, 12.9% BB rate).\n\nComerica Park is a pitcher's paradise (0.96 HR park factor), and the weather is neutral. The Tigers have the pitching edge, the lineup edge, and the park edge. At -102 on the run line, we're getting plus-money value on a team that should win by multiple runs.",
+      "the_data": [
+        {
+          "label": "Melton ERA (July)",
+          "value": "0.52",
+          "context": "Elite, 3 starts"
+        },
+        {
+          "label": "Melton WHIP (season)",
+          "value": "0.87",
+          "context": "Top-10 in MLB"
+        },
+        {
+          "label": "Melton K% (season)",
+          "value": "23.6%",
+          "context": "Above average"
+        },
+        {
+          "label": "Bobby Witt Jr.",
+          "value": "10-day IL",
+          "context": "Lower back tightness"
+        },
+        {
+          "label": "Royals record",
+          "value": "42-60",
+          "context": "3rd-worst in MLB"
+        },
+        {
+          "label": "Comerica PF (runs)",
+          "value": "0.96",
+          "context": "Pitcher-friendly"
+        }
+      ],
+      "the_market": "Tigers opened -220 ML and have held steady. The run line at -102 is essentially a pick'em, which feels like value given the matchup disparity. Sharp money hasn't moved this number.",
+      "weather_park": "Comerica Park, 75\u00b0F, neutral conditions. Park factor suppresses runs (0.96) and homers (0.95).",
+      "case_against": "Melton's workload is being managed after the back tightness scare earlier this month. If he exits early (5 IP or less), the Tigers bullpen \u2014 while solid \u2014 would need to cover significant innings against a Royals team that could rally late. Dobnak's 1.93 ERA in limited innings suggests he's not a total pushover.",
+      "what_were_betting_on": "Melton going 6+ innings with minimal damage, Tigers offense providing 4+ runs of support against a bullpen game, and the Royals' depleted lineup failing to mount a comeback.",
+      "scott_bot_quip": "Witt's on the IL, Dobnak's on the mound, and Melton's dealing. Sometimes the board just hands you one.",
+      "ladder_note": "Best floor on the slate. Elite SP, depleted opponent, pitcher-friendly park, and we're getting essentially even money on a 1.5-run spread. This is the ladder lock.",
+      "date": "2026-07-23",
+      "status": "PEND",
+      "units_result": null,
+      "clv_cents": null,
+      "result_score": null,
+      "graded_at": null,
+      "slate_assessment": "Light 4-game MLB-only slate with thin data confidence across the board. Detroit-KC stands out with a dominant SP matchup and a depleted Royals lineup missing Bobby Witt Jr. Cardinals-Diamondbacks offers a pitching edge with McGreevy's breakout season. Prop markets provide additional angles.",
+      "executive_summary": "Four-game MLB slate with no NBA or NHL action, but the Tigers-Royals matchup jumps off the page. Troy Melton has been electric in July \u2014 0.52 ERA in three starts \u2014 and faces a Royals lineup missing Bobby Witt Jr. to the IL. McGreevy's breakout season in St. Louis gives us another pitching edge against Pfaadt. The prop slate is thin but Melton's strikeout over and a Cardinals ML parlay give us the volume we need. Ladder rides with the Tigers run line \u2014 best floor on the board with a dominant SP, depleted opponent, and pitcher-friendly Comerica.",
+      "slate_analysis": "Today's board is a four-game MLB-only slate with no NBA or NHL games to supplement. The pricing climate is tight \u2014 most totals sit at 7.5-8.5, and the only heavy favorite is Detroit at -220. Data confidence is low across the board (0.40-0.45), which is a red flag, but the underlying matchup data is strong enough in two spots to proceed.\n\nThe top candidates that rose during my review: (1) Detroit-KC, where Troy Melton's 1.80 ERA and 0.87 WHIP face a Royals lineup that just lost Bobby Witt Jr. to the IL with lower back tightness \u2014 that's their best hitter gone from a team already at 42-60. (2) Cardinals-Diamondbacks, where Michael McGreevy's 2.92 ERA and elite 5.6% BB rate face Brandon Pfaadt's 4.58 ERA and 1.22 HR/9. (3) The Tigers run line at -102 (FanDuel) \u2014 a 1.5-run spread with a dominant SP and a depleted opponent. (4) Melton's strikeout prop (Over 5.5 at -118) given his 23.6% K rate and recent nine-strikeout performances. (5) The MIN-CLE under at 7.5, but both SPs have elevated HR/9 rates (Williams 1.51, Bradley 1.34) that make me nervous. (6) The TB-TOR game, but Shane Bieber's 5.70 ERA and 2.72 HR/9 in limited 2026 action after returning from elbow injury is a stay-away.\n\nWhat got cut: The MIN-CLE under looked appealing on paper, but Gavin Williams' 1.51 HR/9 and Taj Bradley's 9.4% BB rate create variance I don't want to bet into \u2014 one mistake pitch and the under is dead. The TB-TOR game is a mess: Bieber is clearly not right (5.70 ERA, 17.6% K rate, 2.72 HR/9 in 23.2 IP), and Casey Legumina has only 41.1 IP of sample. Data confidence at 0.40 is below my floor. The Cardinals ML at -120 is solid but doesn't land in the even-money band for ladder purposes, so I'm parlaying it with another leg.\n\nThe final six: (1) Tigers run line -1.5 at -102 \u2014 this is the ladder pick with the best floor on the board. Melton is dealing, Witt is out, Comerica suppresses runs. (2) Tigers ML at -220 \u2014 too short for a straight bet but the edge is real. Instead, I'm taking the run line. (3) Cardinals ML at -120 \u2014 McGreevy's breakout season continues against a mediocre Pfaadt. (4) Troy Melton Ks Over 5.5 at -118 \u2014 he's struck out nine in back-to-back starts and faces a KC lineup that will be swinging at air. (5) Under 7.5 STL-ARI at -110 \u2014 McGreevy's elite BB rate and Busch Stadium's HR-suppressing park factor. (6) A parlay of Cardinals ML + Tigers Under 8.5 to land near even money for additional exposure. The ladder pick is the Tigers run line \u2014 highest floor, dominant SP, depleted opponent, pitcher-friendly park.",
+      "slate_vibe": "SOFT",
+      "published_at": "2026-07-23T12:27:17.135288-04:00"
+    },
     {
       "id": "20260722-MLB-DET-CHC-ML",
       "sport": "MLB",
