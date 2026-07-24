@@ -1,11 +1,986 @@
 {
-  "generated_at": "2026-07-24T12:43:01.061706-04:00",
+  "generated_at": "2026-07-24T13:09:45.240586-04:00",
   "today": "2026-07-24",
   "system_paused": false,
   "pause_reason": "",
-  "today_picks": [],
+  "today_picks": [
+    {
+      "id": "20260724-MLB-ARI-WSH-PROP-KETELMARTE",
+      "sport": "MLB",
+      "game": "ARI @ WSH",
+      "first_pitch_iso": "2026-07-24T22:45Z",
+      "pick": "Ketel Marte TB Over 1.5",
+      "best_book": "BetMGM",
+      "best_odds": "-120",
+      "book_prices": {
+        "draftkings": "N/A",
+        "betmgm": "-120"
+      },
+      "book_links": {
+        "draftkings": "https://sportsbook.draftkings.com/?outcomes=0QA354113664%232222504981_13L84240Q1-44994196Q20",
+        "betmgm": "https://sports.nj.betmgm.com/en/sports?options=2:7827892-201908996-767077514&type=Single",
+        "fanduel": "https://sportsbook.fanduel.com/baseball/mlb/arizona-diamondbacks-%28e-rodriguez%29-%40-washington-nationals-%28c-palmquist%29-35855633"
+      },
+      "market": "PROP",
+      "confidence": 3,
+      "units": 1.0,
+      "win_probability": 0.57,
+      "ladder_designation": false,
+      "data_confidence": 0.72,
+      "rules_passed": [
+        "max_juice",
+        "ladder_even_money",
+        "parlay_well_formed",
+        "confidence_units_match",
+        "data_confidence_floor",
+        "pick_type_allowed",
+        "mlb_hr_prop_check",
+        "mlb_pitcher_k_check",
+        "mlb_total_bases_check(soft)",
+        "mlb_hits_check",
+        "nba_player_prop_check",
+        "nhl_shots_check",
+        "mlb_run_line_check",
+        "mlb_under_bb_check",
+        "no_same_game_opposite"
+      ],
+      "locked": true,
+      "late_add": false,
+      "late_add_reason": "",
+      "bonus_pick": false,
+      "event_type": "",
+      "event_name": "",
+      "legs": [],
+      "headline": "Marte's consistency meets Palmquist's 8.74 ERA \u2014 the matchup is a layup.",
+      "the_thesis": "Ketel Marte has been one of the most consistent hitters in baseball, and tonight he faces Carson Palmquist, who has an 8.74 ERA, 1.68 WHIP, and just 11.1 IP this season. Palmquist is a rookie who's been overmatched at the MLB level, and Marte should feast. Nationals Park is neutral (1.01 runs PF, 1.02 HR PF), so the park isn't a factor.\n\nThe line is set at 1.5 total bases, with the over at -120 on BetMGM. My fair line is closer to -110, which gives me a small edge. Marte's been hitting for power and average, and Palmquist's struggles should continue.",
+      "the_data": [
+        {
+          "label": "Palmquist ERA / WHIP (season)",
+          "value": "8.74 / 1.68",
+          "context": "Struggling badly"
+        },
+        {
+          "label": "Palmquist IP (season)",
+          "value": "11.1",
+          "context": "Tiny sample, overmatched"
+        },
+        {
+          "label": "Marte TB line",
+          "value": "1.5",
+          "context": "Over at -120"
+        },
+        {
+          "label": "Nationals Park HR PF",
+          "value": "1.02",
+          "context": "Neutral"
+        },
+        {
+          "label": "ARI R/G (season)",
+          "value": "4.52",
+          "context": "Average offense"
+        }
+      ],
+      "the_market": "Line is set at 1.5 total bases. BetMGM has the best over price at -120.",
+      "weather_park": "Nationals Park is outdoor, weather is favorable \u2014 81\u00b0F, 8 mph wind. Park is neutral.",
+      "case_against": "Palmquist's sample is tiny (11.1 IP), so there's variance here. If he settles in early, Marte might not get the pitches he needs. The Diamondbacks' lineup is deep, so Marte might not get as many at-bats as we'd like.",
+      "what_were_betting_on": "Marte gets 2+ total bases \u2014 a double, a home run, or two singles.",
+      "scott_bot_quip": "Rookie with an 8.74 ERA vs. one of the best hitters in baseball. Do the math.",
+      "ladder_note": "",
+      "date": "2026-07-24",
+      "status": "PEND",
+      "units_result": null,
+      "clv_cents": null,
+      "result_score": null,
+      "graded_at": null,
+      "slate_assessment": "Sixteen-game MLB slate with no NBA or NHL action. Skubal vs. KC at Comerica and Bryce Miller vs. TEX at Globe Life jump off the page as the two clearest pitching edges. Prop markets offer depth in K's and total bases.",
+      "executive_summary": "Friday's 16-game MLB board is headlined by two elite arms in favorable spots: Tarik Skubal at home against a Royals lineup that's struggled against lefties, and Bryce Miller carrying a 2.27 ERA into Globe Life against MacKenzie Gore. The under in Detroit at 7.5 is the sharpest total on the board \u2014 Skubal's coming off seven shutout innings, the park suppresses runs, and Beck Way's 10.2% walk rate invites trouble but not crosstalk. The ladder rides with the DET/KC Under 7.5 \u2014 best floor on the slate, two-time Cy Young winner at home, weather neutral, and the market hasn't budged off the opener.",
+      "slate_analysis": "The board today features 16 MLB games across a full Friday slate, with no NBA or NHL in session. Pricing is tight across most matchups \u2014 only a handful of moneylines clear -150, and totals are clustered in the 7.5-9.5 range. The overall climate is cautious: books are respecting pitching matchups and not overreacting to recent form.\n\nThe top candidates that rose during my review were: (1) DET/KC Under 7.5 \u2014 Skubal at home, coming off seven shutout innings, facing a Royals lineup that's been mediocre against lefties, with Beck Way's 10.2% walk rate on the other side but only 22 IP of sample; (2) SEA/TEX Under 7.5 \u2014 Bryce Miller's 2.27 ERA and 0.88 WHIP against MacKenzie Gore's 4.80 ERA, indoor park, both offenses below 4.2 R/G; (3) PHI/NYY Under 7.5 \u2014 Luzardo vs. Schlittler, two quality arms, but Citizens Bank Park's HR factor (1.10) and the Yankees' power make this a pass; (4) TB/CLE Under 7.5 \u2014 McClanahan vs. Cantillo, Trop suppresses runs, but Cantillo's 11.4% walk rate is a red flag for unders; (5) ARI ML at WSH \u2014 Eduardo Rodriguez's 2.62 ERA vs. Carson Palmquist's 8.74 ERA, but the juice at -124 doesn't clear my edge threshold given Rodriguez's 8.6% walk rate; (6) Skubal Ks Under 6.5 \u2014 Skubal's K% is elite (30.5%), but KC's lineup doesn't strike out at a high rate, and the line is set at 6.5 with under juice at -140, which is too short.\n\nWhat got cut: PHI/NYY Under was dropped because Citizens Bank Park's HR factor (1.10) introduces variance that undermines the under thesis. TB/CLE Under was dropped because Cantillo's 11.4% walk rate exceeds my 3.5 BB/9 threshold for under plays. ARI ML was dropped because the -124 juice doesn't clear my 8-cent edge requirement \u2014 my fair line is closer to -115. The Skubal K under was dropped because the -140 juice is too short and the line is set low enough that it's already priced in.\n\nThe final six picks are: (1) DET/KC Under 7.5 \u2014 Skubal at home, best floor on the board, ladder pick; (2) SEA/TEX Under 7.5 \u2014 Bryce Miller's elite peripherals vs. Gore's struggles; (3) SF ML vs. LAA \u2014 Logan Webb at Oracle Park against Grayson Rodriguez's 8.23 ERA; (4) Ketel Marte TB Over 1.5 \u2014 facing Palmquist's 8.74 ERA, Marte's been consistent; (5) Shohei Ohtani TB Over 1.5 \u2014 Manaea's 1.36 HR/9 at Citi Field, Ohtani's power plays; (6) Byron Buxton TB Over 1.5 \u2014 facing Jacob Lopez's 6.64 ERA and 1.67 HR/9, Buxton's been hot. The ladder rides with DET/KC Under 7.5 \u2014 Skubal's floor is the highest on the board, the market hasn't moved, and the weather is neutral.",
+      "slate_vibe": "NORMAL",
+      "published_at": "2026-07-24T13:09:45.208905-04:00"
+    },
+    {
+      "id": "20260724-MLB-LAD-NYM-PROP-SHOHEIOHTANI",
+      "sport": "MLB",
+      "game": "LAD @ NYM",
+      "first_pitch_iso": "2026-07-24T23:10Z",
+      "pick": "Shohei Ohtani TB Over 1.5",
+      "best_book": "BetMGM",
+      "best_odds": "+100",
+      "book_prices": {
+        "draftkings": "-123",
+        "betmgm": "+100"
+      },
+      "book_links": {
+        "betmgm": "https://sports.nj.betmgm.com/en/sports?options=2:7827877-201916847-767104388&type=Single",
+        "draftkings": "https://sportsbook.draftkings.com/?outcomes=0QA354068788%232222332822_13L84240Q1-44994196Q20",
+        "fanduel": "https://sportsbook.fanduel.com/baseball/mlb/los-angeles-dodgers-%28r-sasaki%29-%40-new-york-mets-%28s-manaea%29-35855639"
+      },
+      "market": "PROP",
+      "confidence": 4,
+      "units": 1.5,
+      "win_probability": 0.58,
+      "ladder_designation": false,
+      "data_confidence": 0.78,
+      "rules_passed": [
+        "max_juice",
+        "ladder_even_money",
+        "parlay_well_formed",
+        "confidence_units_match",
+        "data_confidence_floor",
+        "pick_type_allowed",
+        "mlb_hr_prop_check",
+        "mlb_pitcher_k_check",
+        "mlb_total_bases_check(soft)",
+        "mlb_hits_check",
+        "nba_player_prop_check",
+        "nhl_shots_check",
+        "mlb_run_line_check",
+        "mlb_under_bb_check",
+        "no_same_game_opposite"
+      ],
+      "locked": true,
+      "late_add": false,
+      "late_add_reason": "",
+      "bonus_pick": false,
+      "event_type": "",
+      "event_name": "",
+      "legs": [],
+      "headline": "Ohtani's power meets Manaea's 1.36 HR/9 at Citi Field \u2014 plus money on the over is a gift.",
+      "the_thesis": "Shohei Ohtani is the best hitter in baseball, and tonight he faces Sean Manaea, who has a 4.74 ERA, 1.36 WHIP, and a 1.36 HR/9 in 79.2 IP. Manaea gives up home runs, and Ohtani hits home runs \u2014 the matchup is clear. Citi Field suppresses HRs slightly (0.91 PF), but Ohtani's power plays anywhere.\n\nThe line is set at 1.5 total bases, with the over at +100 on BetMGM. That's plus money on Ohtani to get 2+ total bases against a pitcher who gives up HRs. My fair line is closer to -115, which gives me a 15-cent edge. This is the best value on the prop board today.",
+      "the_data": [
+        {
+          "label": "Manaea ERA / WHIP (season)",
+          "value": "4.74 / 1.36",
+          "context": "Struggling"
+        },
+        {
+          "label": "Manaea HR/9 (season)",
+          "value": "1.36",
+          "context": "Elevated, gives up HRs"
+        },
+        {
+          "label": "Ohtani TB line",
+          "value": "1.5",
+          "context": "Over at +100"
+        },
+        {
+          "label": "Citi Field HR PF",
+          "value": "0.91",
+          "context": "Slight HR suppression"
+        },
+        {
+          "label": "LAD R/G (season)",
+          "value": "5.19",
+          "context": "Elite offense"
+        }
+      ],
+      "the_market": "Line is set at 1.5 total bases. BetMGM has the best over price at +100 \u2014 that's plus money on Ohtani. DraftKings has it at -123, which is a significant difference.",
+      "weather_park": "Citi Field is outdoor, weather is favorable. Park suppresses HRs slightly (0.91 PF), but Ohtani's power plays anywhere.",
+      "case_against": "Manaea's been better lately, and if he's locating his fastball, Ohtani might not get the pitches he needs. Citi Field's HR suppression could turn a HR into a flyout.",
+      "what_were_betting_on": "Ohtani gets 2+ total bases \u2014 a double, a home run, or two singles.",
+      "scott_bot_quip": "Plus money on Ohtani to do Ohtani things. The books are asleep.",
+      "ladder_note": "",
+      "date": "2026-07-24",
+      "status": "PEND",
+      "units_result": null,
+      "clv_cents": null,
+      "result_score": null,
+      "graded_at": null,
+      "slate_assessment": "Sixteen-game MLB slate with no NBA or NHL action. Skubal vs. KC at Comerica and Bryce Miller vs. TEX at Globe Life jump off the page as the two clearest pitching edges. Prop markets offer depth in K's and total bases.",
+      "executive_summary": "Friday's 16-game MLB board is headlined by two elite arms in favorable spots: Tarik Skubal at home against a Royals lineup that's struggled against lefties, and Bryce Miller carrying a 2.27 ERA into Globe Life against MacKenzie Gore. The under in Detroit at 7.5 is the sharpest total on the board \u2014 Skubal's coming off seven shutout innings, the park suppresses runs, and Beck Way's 10.2% walk rate invites trouble but not crosstalk. The ladder rides with the DET/KC Under 7.5 \u2014 best floor on the slate, two-time Cy Young winner at home, weather neutral, and the market hasn't budged off the opener.",
+      "slate_analysis": "The board today features 16 MLB games across a full Friday slate, with no NBA or NHL in session. Pricing is tight across most matchups \u2014 only a handful of moneylines clear -150, and totals are clustered in the 7.5-9.5 range. The overall climate is cautious: books are respecting pitching matchups and not overreacting to recent form.\n\nThe top candidates that rose during my review were: (1) DET/KC Under 7.5 \u2014 Skubal at home, coming off seven shutout innings, facing a Royals lineup that's been mediocre against lefties, with Beck Way's 10.2% walk rate on the other side but only 22 IP of sample; (2) SEA/TEX Under 7.5 \u2014 Bryce Miller's 2.27 ERA and 0.88 WHIP against MacKenzie Gore's 4.80 ERA, indoor park, both offenses below 4.2 R/G; (3) PHI/NYY Under 7.5 \u2014 Luzardo vs. Schlittler, two quality arms, but Citizens Bank Park's HR factor (1.10) and the Yankees' power make this a pass; (4) TB/CLE Under 7.5 \u2014 McClanahan vs. Cantillo, Trop suppresses runs, but Cantillo's 11.4% walk rate is a red flag for unders; (5) ARI ML at WSH \u2014 Eduardo Rodriguez's 2.62 ERA vs. Carson Palmquist's 8.74 ERA, but the juice at -124 doesn't clear my edge threshold given Rodriguez's 8.6% walk rate; (6) Skubal Ks Under 6.5 \u2014 Skubal's K% is elite (30.5%), but KC's lineup doesn't strike out at a high rate, and the line is set at 6.5 with under juice at -140, which is too short.\n\nWhat got cut: PHI/NYY Under was dropped because Citizens Bank Park's HR factor (1.10) introduces variance that undermines the under thesis. TB/CLE Under was dropped because Cantillo's 11.4% walk rate exceeds my 3.5 BB/9 threshold for under plays. ARI ML was dropped because the -124 juice doesn't clear my 8-cent edge requirement \u2014 my fair line is closer to -115. The Skubal K under was dropped because the -140 juice is too short and the line is set low enough that it's already priced in.\n\nThe final six picks are: (1) DET/KC Under 7.5 \u2014 Skubal at home, best floor on the board, ladder pick; (2) SEA/TEX Under 7.5 \u2014 Bryce Miller's elite peripherals vs. Gore's struggles; (3) SF ML vs. LAA \u2014 Logan Webb at Oracle Park against Grayson Rodriguez's 8.23 ERA; (4) Ketel Marte TB Over 1.5 \u2014 facing Palmquist's 8.74 ERA, Marte's been consistent; (5) Shohei Ohtani TB Over 1.5 \u2014 Manaea's 1.36 HR/9 at Citi Field, Ohtani's power plays; (6) Byron Buxton TB Over 1.5 \u2014 facing Jacob Lopez's 6.64 ERA and 1.67 HR/9, Buxton's been hot. The ladder rides with DET/KC Under 7.5 \u2014 Skubal's floor is the highest on the board, the market hasn't moved, and the weather is neutral.",
+      "slate_vibe": "NORMAL",
+      "published_at": "2026-07-24T13:09:45.208786-04:00"
+    },
+    {
+      "id": "20260724-MLB-ATH-MIN-PROP-BYRONBUXTON",
+      "sport": "MLB",
+      "game": "ATH @ MIN",
+      "first_pitch_iso": "2026-07-25T00:10Z",
+      "pick": "Byron Buxton TB Over 1.5",
+      "best_book": "BetMGM",
+      "best_odds": "-120",
+      "book_prices": {
+        "draftkings": "-106",
+        "betmgm": "-120"
+      },
+      "book_links": {
+        "betmgm": "https://sports.nj.betmgm.com/en/sports?options=2:7828119-201917570-767106519&type=Single",
+        "draftkings": "https://sportsbook.draftkings.com/?outcomes=0QA354071003%232222339798_13L84240Q1-44994196Q20",
+        "fanduel": "https://sportsbook.fanduel.com/baseball/mlb/athletics-%28j-lopez%29-%40-minnesota-twins-%28z-matthews%29-35855628"
+      },
+      "market": "PROP",
+      "confidence": 3,
+      "units": 1.0,
+      "win_probability": 0.58,
+      "ladder_designation": false,
+      "data_confidence": 0.75,
+      "rules_passed": [
+        "max_juice",
+        "ladder_even_money",
+        "parlay_well_formed",
+        "confidence_units_match",
+        "data_confidence_floor",
+        "pick_type_allowed",
+        "mlb_hr_prop_check",
+        "mlb_pitcher_k_check",
+        "mlb_total_bases_check(soft)",
+        "mlb_hits_check",
+        "nba_player_prop_check",
+        "nhl_shots_check",
+        "mlb_run_line_check",
+        "mlb_under_bb_check",
+        "no_same_game_opposite"
+      ],
+      "locked": true,
+      "late_add": false,
+      "late_add_reason": "",
+      "bonus_pick": false,
+      "event_type": "",
+      "event_name": "",
+      "legs": [],
+      "headline": "Buxton's power meets Jacob Lopez's 6.64 ERA and 1.67 HR/9 \u2014 the matchup screams XBH.",
+      "the_thesis": "Byron Buxton has been hot lately, and tonight he faces Jacob Lopez, who has a 6.64 ERA, 1.73 WHIP, and a 1.67 HR/9 in 59.2 IP. Lopez's control issues (12.8% walk rate) mean he's going to be in hitter's counts, and Buxton's power plays in those situations. Target Field is neutral (0.98 runs PF, 0.97 HR PF), so the park isn't a factor either way.\n\nThe line is set at 1.5 total bases, with the over at -120 on BetMGM. My fair line is closer to -110, which gives me a small edge. Buxton's been hitting for power, and Lopez's HR/9 is elevated \u2014 this is a spot where Buxton can go deep or rip a double.",
+      "the_data": [
+        {
+          "label": "Lopez ERA / WHIP (season)",
+          "value": "6.64 / 1.73",
+          "context": "Struggling badly"
+        },
+        {
+          "label": "Lopez HR/9 (season)",
+          "value": "1.67",
+          "context": "Elevated, gives up HRs"
+        },
+        {
+          "label": "Lopez BB% (season)",
+          "value": "12.8%",
+          "context": "Control issues"
+        },
+        {
+          "label": "Buxton TB line",
+          "value": "1.5",
+          "context": "Over at -120"
+        },
+        {
+          "label": "Target Field HR PF",
+          "value": "0.97",
+          "context": "Neutral"
+        }
+      ],
+      "the_market": "Line is set at 1.5 total bases. BetMGM has the best over price at -120. DraftKings has it at -106, which is a better price but the line is the same.",
+      "weather_park": "Target Field is outdoor, weather is favorable. Park is neutral (0.98 runs PF).",
+      "case_against": "Buxton's been inconsistent this season, and if Lopez settles in early, Buxton might not get the pitches he needs. The Twins' lineup is deep, so Buxton might not get as many at-bats as we'd like.",
+      "what_were_betting_on": "Buxton gets 2+ total bases \u2014 a double, a home run, or two singles.",
+      "scott_bot_quip": "Lopez gives up bombs. Buxton hits bombs. Math.",
+      "ladder_note": "",
+      "date": "2026-07-24",
+      "status": "PEND",
+      "units_result": null,
+      "clv_cents": null,
+      "result_score": null,
+      "graded_at": null,
+      "slate_assessment": "Sixteen-game MLB slate with no NBA or NHL action. Skubal vs. KC at Comerica and Bryce Miller vs. TEX at Globe Life jump off the page as the two clearest pitching edges. Prop markets offer depth in K's and total bases.",
+      "executive_summary": "Friday's 16-game MLB board is headlined by two elite arms in favorable spots: Tarik Skubal at home against a Royals lineup that's struggled against lefties, and Bryce Miller carrying a 2.27 ERA into Globe Life against MacKenzie Gore. The under in Detroit at 7.5 is the sharpest total on the board \u2014 Skubal's coming off seven shutout innings, the park suppresses runs, and Beck Way's 10.2% walk rate invites trouble but not crosstalk. The ladder rides with the DET/KC Under 7.5 \u2014 best floor on the slate, two-time Cy Young winner at home, weather neutral, and the market hasn't budged off the opener.",
+      "slate_analysis": "The board today features 16 MLB games across a full Friday slate, with no NBA or NHL in session. Pricing is tight across most matchups \u2014 only a handful of moneylines clear -150, and totals are clustered in the 7.5-9.5 range. The overall climate is cautious: books are respecting pitching matchups and not overreacting to recent form.\n\nThe top candidates that rose during my review were: (1) DET/KC Under 7.5 \u2014 Skubal at home, coming off seven shutout innings, facing a Royals lineup that's been mediocre against lefties, with Beck Way's 10.2% walk rate on the other side but only 22 IP of sample; (2) SEA/TEX Under 7.5 \u2014 Bryce Miller's 2.27 ERA and 0.88 WHIP against MacKenzie Gore's 4.80 ERA, indoor park, both offenses below 4.2 R/G; (3) PHI/NYY Under 7.5 \u2014 Luzardo vs. Schlittler, two quality arms, but Citizens Bank Park's HR factor (1.10) and the Yankees' power make this a pass; (4) TB/CLE Under 7.5 \u2014 McClanahan vs. Cantillo, Trop suppresses runs, but Cantillo's 11.4% walk rate is a red flag for unders; (5) ARI ML at WSH \u2014 Eduardo Rodriguez's 2.62 ERA vs. Carson Palmquist's 8.74 ERA, but the juice at -124 doesn't clear my edge threshold given Rodriguez's 8.6% walk rate; (6) Skubal Ks Under 6.5 \u2014 Skubal's K% is elite (30.5%), but KC's lineup doesn't strike out at a high rate, and the line is set at 6.5 with under juice at -140, which is too short.\n\nWhat got cut: PHI/NYY Under was dropped because Citizens Bank Park's HR factor (1.10) introduces variance that undermines the under thesis. TB/CLE Under was dropped because Cantillo's 11.4% walk rate exceeds my 3.5 BB/9 threshold for under plays. ARI ML was dropped because the -124 juice doesn't clear my 8-cent edge requirement \u2014 my fair line is closer to -115. The Skubal K under was dropped because the -140 juice is too short and the line is set low enough that it's already priced in.\n\nThe final six picks are: (1) DET/KC Under 7.5 \u2014 Skubal at home, best floor on the board, ladder pick; (2) SEA/TEX Under 7.5 \u2014 Bryce Miller's elite peripherals vs. Gore's struggles; (3) SF ML vs. LAA \u2014 Logan Webb at Oracle Park against Grayson Rodriguez's 8.23 ERA; (4) Ketel Marte TB Over 1.5 \u2014 facing Palmquist's 8.74 ERA, Marte's been consistent; (5) Shohei Ohtani TB Over 1.5 \u2014 Manaea's 1.36 HR/9 at Citi Field, Ohtani's power plays; (6) Byron Buxton TB Over 1.5 \u2014 facing Jacob Lopez's 6.64 ERA and 1.67 HR/9, Buxton's been hot. The ladder rides with DET/KC Under 7.5 \u2014 Skubal's floor is the highest on the board, the market hasn't moved, and the weather is neutral.",
+      "slate_vibe": "NORMAL",
+      "published_at": "2026-07-24T13:09:45.208657-04:00"
+    },
+    {
+      "id": "20260724-MLB-SEA-TEX-TOTAL",
+      "sport": "MLB",
+      "game": "SEA @ TEX",
+      "first_pitch_iso": "2026-07-25T00:05Z",
+      "pick": "Under 7.5",
+      "best_book": "FanDuel",
+      "best_odds": "-105",
+      "book_prices": {
+        "draftkings": "-106",
+        "fanduel": "-105",
+        "betmgm": "-105"
+      },
+      "book_links": {
+        "fanduel": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.594099130&selectionId=7017906",
+        "betmgm": "https://sports.nj.betmgm.com/en/sports?options=19805354-1542866679-2253642234&type=Single",
+        "draftkings": "https://sportsbook.draftkings.com/?outcomes=0OU85589333U750_3"
+      },
+      "market": "TOTAL",
+      "confidence": 4,
+      "units": 1.5,
+      "win_probability": 0.59,
+      "ladder_designation": false,
+      "data_confidence": 0.82,
+      "rules_passed": [
+        "max_juice",
+        "ladder_even_money",
+        "parlay_well_formed",
+        "confidence_units_match",
+        "data_confidence_floor",
+        "pick_type_allowed",
+        "mlb_hr_prop_check",
+        "mlb_pitcher_k_check",
+        "mlb_total_bases_check",
+        "mlb_hits_check",
+        "nba_player_prop_check",
+        "nhl_shots_check",
+        "mlb_run_line_check",
+        "mlb_under_bb_check",
+        "no_same_game_opposite"
+      ],
+      "locked": true,
+      "late_add": false,
+      "late_add_reason": "",
+      "bonus_pick": false,
+      "event_type": "",
+      "event_name": "",
+      "legs": [],
+      "headline": "Bryce Miller's elite peripherals meet MacKenzie Gore's struggles in a dome that plays neutral.",
+      "the_thesis": "Bryce Miller has been outstanding since returning from the IL \u2014 2.27 ERA, 0.88 WHIP, 10.1 K/9 in 63.1 IP. He's limiting opponents to a .201 batting average and has been dominant on the road. MacKenzie Gore, on the other hand, has a 4.80 ERA and 1.28 WHIP, with an 8.8% walk rate that invites trouble. The Rangers' offense has been below average (4.19 R/G), and the Mariners' offense is even worse (4.03 R/G).\n\nGlobe Life Field is a dome, so weather isn't a factor. The park plays neutral to slightly hitter-friendly (1.04 runs PF, 1.05 HR PF), but Miller's ability to suppress hard contact should neutralize that. The market opened at 7.5 and hasn't moved \u2014 that's a sign the sharps are comfortable with this number.\n\nMy fair line is 7.1, which gives me an 8-cent edge on the under at -105. This is a 3-2 or 4-3 game.",
+      "the_data": [
+        {
+          "label": "Bryce Miller ERA / WHIP (season)",
+          "value": "2.27 / 0.88",
+          "context": "Elite, top-10 in MLB"
+        },
+        {
+          "label": "Miller K/9 (season)",
+          "value": "10.1",
+          "context": "Dominant strikeout rate"
+        },
+        {
+          "label": "Miller opp BA (season)",
+          "value": ".201",
+          "context": "Top-10 in baseball"
+        },
+        {
+          "label": "Gore ERA / WHIP (season)",
+          "value": "4.80 / 1.28",
+          "context": "Struggling"
+        },
+        {
+          "label": "SEA R/G (season)",
+          "value": "4.03",
+          "context": "Below league average"
+        },
+        {
+          "label": "TEX R/G (season)",
+          "value": "4.19",
+          "context": "Below league average"
+        }
+      ],
+      "the_market": "Total opened at 7.5 and hasn't moved. FanDuel has the best under price at -105. The market is comfortable with this number, which suggests sharps aren't seeing value on either side.",
+      "weather_park": "Globe Life Field is a dome \u2014 weather is not a factor. Park plays neutral to slightly hitter-friendly (1.04 runs PF).",
+      "case_against": "Gore's HR/9 (1.14) is elevated, and if the Mariners' power bats get to him early, this game could flip. Miller's HR/9 (1.28) is also elevated, which is a concern in a park that boosts HRs slightly. Both bullpens are middle-of-the-pack.",
+      "what_were_betting_on": "Miller goes 6+ innings with 2 or fewer runs allowed, Gore limits damage despite his struggles, and the game stays under 7.5.",
+      "scott_bot_quip": "Two weak offenses, one elite arm, one struggling arm. The under writes itself.",
+      "ladder_note": "",
+      "date": "2026-07-24",
+      "status": "PEND",
+      "units_result": null,
+      "clv_cents": null,
+      "result_score": null,
+      "graded_at": null,
+      "slate_assessment": "Sixteen-game MLB slate with no NBA or NHL action. Skubal vs. KC at Comerica and Bryce Miller vs. TEX at Globe Life jump off the page as the two clearest pitching edges. Prop markets offer depth in K's and total bases.",
+      "executive_summary": "Friday's 16-game MLB board is headlined by two elite arms in favorable spots: Tarik Skubal at home against a Royals lineup that's struggled against lefties, and Bryce Miller carrying a 2.27 ERA into Globe Life against MacKenzie Gore. The under in Detroit at 7.5 is the sharpest total on the board \u2014 Skubal's coming off seven shutout innings, the park suppresses runs, and Beck Way's 10.2% walk rate invites trouble but not crosstalk. The ladder rides with the DET/KC Under 7.5 \u2014 best floor on the slate, two-time Cy Young winner at home, weather neutral, and the market hasn't budged off the opener.",
+      "slate_analysis": "The board today features 16 MLB games across a full Friday slate, with no NBA or NHL in session. Pricing is tight across most matchups \u2014 only a handful of moneylines clear -150, and totals are clustered in the 7.5-9.5 range. The overall climate is cautious: books are respecting pitching matchups and not overreacting to recent form.\n\nThe top candidates that rose during my review were: (1) DET/KC Under 7.5 \u2014 Skubal at home, coming off seven shutout innings, facing a Royals lineup that's been mediocre against lefties, with Beck Way's 10.2% walk rate on the other side but only 22 IP of sample; (2) SEA/TEX Under 7.5 \u2014 Bryce Miller's 2.27 ERA and 0.88 WHIP against MacKenzie Gore's 4.80 ERA, indoor park, both offenses below 4.2 R/G; (3) PHI/NYY Under 7.5 \u2014 Luzardo vs. Schlittler, two quality arms, but Citizens Bank Park's HR factor (1.10) and the Yankees' power make this a pass; (4) TB/CLE Under 7.5 \u2014 McClanahan vs. Cantillo, Trop suppresses runs, but Cantillo's 11.4% walk rate is a red flag for unders; (5) ARI ML at WSH \u2014 Eduardo Rodriguez's 2.62 ERA vs. Carson Palmquist's 8.74 ERA, but the juice at -124 doesn't clear my edge threshold given Rodriguez's 8.6% walk rate; (6) Skubal Ks Under 6.5 \u2014 Skubal's K% is elite (30.5%), but KC's lineup doesn't strike out at a high rate, and the line is set at 6.5 with under juice at -140, which is too short.\n\nWhat got cut: PHI/NYY Under was dropped because Citizens Bank Park's HR factor (1.10) introduces variance that undermines the under thesis. TB/CLE Under was dropped because Cantillo's 11.4% walk rate exceeds my 3.5 BB/9 threshold for under plays. ARI ML was dropped because the -124 juice doesn't clear my 8-cent edge requirement \u2014 my fair line is closer to -115. The Skubal K under was dropped because the -140 juice is too short and the line is set low enough that it's already priced in.\n\nThe final six picks are: (1) DET/KC Under 7.5 \u2014 Skubal at home, best floor on the board, ladder pick; (2) SEA/TEX Under 7.5 \u2014 Bryce Miller's elite peripherals vs. Gore's struggles; (3) SF ML vs. LAA \u2014 Logan Webb at Oracle Park against Grayson Rodriguez's 8.23 ERA; (4) Ketel Marte TB Over 1.5 \u2014 facing Palmquist's 8.74 ERA, Marte's been consistent; (5) Shohei Ohtani TB Over 1.5 \u2014 Manaea's 1.36 HR/9 at Citi Field, Ohtani's power plays; (6) Byron Buxton TB Over 1.5 \u2014 facing Jacob Lopez's 6.64 ERA and 1.67 HR/9, Buxton's been hot. The ladder rides with DET/KC Under 7.5 \u2014 Skubal's floor is the highest on the board, the market hasn't moved, and the weather is neutral.",
+      "slate_vibe": "NORMAL",
+      "published_at": "2026-07-24T13:09:45.208523-04:00"
+    },
+    {
+      "id": "20260724-MLB-KC-DET-TOTAL",
+      "sport": "MLB",
+      "game": "KC @ DET",
+      "first_pitch_iso": "2026-07-24T22:40Z",
+      "pick": "Under 7.5",
+      "best_book": "DraftKings",
+      "best_odds": "-101",
+      "book_prices": {
+        "draftkings": "-101",
+        "fanduel": "-112",
+        "betmgm": "-115"
+      },
+      "book_links": {
+        "fanduel": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.594097195&selectionId=7017906",
+        "draftkings": "https://sportsbook.draftkings.com/?outcomes=0OU85589290U750_3",
+        "betmgm": "https://sports.nj.betmgm.com/en/sports?options=19805168-1542848803-2253599079&type=Single"
+      },
+      "market": "TOTAL",
+      "confidence": 5,
+      "units": 2.0,
+      "win_probability": 0.63,
+      "ladder_designation": true,
+      "data_confidence": 0.85,
+      "rules_passed": [
+        "max_juice",
+        "ladder_even_money",
+        "parlay_well_formed",
+        "confidence_units_match",
+        "data_confidence_floor",
+        "pick_type_allowed",
+        "mlb_hr_prop_check",
+        "mlb_pitcher_k_check",
+        "mlb_total_bases_check",
+        "mlb_hits_check",
+        "nba_player_prop_check",
+        "nhl_shots_check",
+        "mlb_run_line_check",
+        "mlb_under_bb_check",
+        "no_same_game_opposite"
+      ],
+      "locked": true,
+      "late_add": false,
+      "late_add_reason": "",
+      "bonus_pick": false,
+      "event_type": "",
+      "event_name": "",
+      "legs": [],
+      "headline": "Two-time Cy Young winner at home against a rookie with control issues \u2014 the floor is the ceiling.",
+      "the_thesis": "Tarik Skubal is coming off seven shutout innings against the Angels, his best start since returning from elbow surgery. His 2.83 ERA and 0.93 WHIP are elite, and his 30.5% K rate means he can miss bats even when he's not at his sharpest. The Royals send Beck Way, who has just 22.1 IP this season and a 10.2% walk rate \u2014 that's a recipe for short outings and bullpen games, but not necessarily crosstalk. Way's 1.63 HR/9 is concerning, but Comerica Park suppresses home runs (0.95 PF) and the weather tonight is neutral: 75\u00b0F, 8.5 mph wind, 0% chance of rain.\n\nThe Royals offense has been mediocre against lefties, and Skubal's been dominant at home. The Tigers' bullpen has been solid, and the Royals' pen is middle-of-the-pack. The market opened at 7.5 and hasn't moved \u2014 that's a sign the sharps are comfortable with this number. My fair line is 7.2, which gives me a 10-cent edge on the under at -101.\n\nThe case for the under is simple: Skubal goes 6+ innings, the Royals scratch out 2-3 runs, and the Tigers' offense \u2014 which averages just 4.24 R/G \u2014 doesn't need to do much. This is a 4-3 or 3-2 game.",
+      "the_data": [
+        {
+          "label": "Skubal ERA / WHIP (season)",
+          "value": "2.83 / 0.93",
+          "context": "Elite, top-5 in MLB"
+        },
+        {
+          "label": "Skubal K% (season)",
+          "value": "30.5%",
+          "context": "Top-10 in baseball"
+        },
+        {
+          "label": "Skubal last start",
+          "value": "7 IP, 0 ER, 9 K",
+          "context": "Best since surgery"
+        },
+        {
+          "label": "Beck Way BB% (season)",
+          "value": "10.2%",
+          "context": "Control issues, short outings"
+        },
+        {
+          "label": "Comerica Park HR PF",
+          "value": "0.95",
+          "context": "HR-suppressing"
+        },
+        {
+          "label": "DET R/G (season)",
+          "value": "4.24",
+          "context": "Below league average"
+        },
+        {
+          "label": "KC R/G (season)",
+          "value": "4.24",
+          "context": "Below league average"
+        }
+      ],
+      "the_market": "Total opened at 7.5 and hasn't moved across all three books. DraftKings has the best under price at -101. The market is comfortable with this number, which suggests sharps aren't seeing value on either side \u2014 but the -101 juice on the under is the best price on the board.",
+      "weather_park": "Comerica Park, 75\u00b0F, 8.5 mph wind, 0% chance of rain. Park suppresses HRs (0.95 PF). Net neutral to slight under lean.",
+      "case_against": "Beck Way's control issues could lead to walks and baserunners, which could turn into crosstalk if the Tigers' offense gets hot. Skubal's HR/9 (1.09) is slightly elevated, and if he hangs one to a Royals power bat, this game could flip. The Tigers' bullpen has been solid but not elite.",
+      "what_were_betting_on": "Skubal goes 6+ innings with 2 or fewer runs allowed, the Royals scratch out 2-3 runs against Way and the bullpen, and the game stays under 7.5.",
+      "scott_bot_quip": "Two-time Cy Young at home, rookie with control issues on the road. The math does itself.",
+      "ladder_note": "Best floor on the board. Skubal's elite, the park suppresses runs, the weather is neutral, and the market hasn't moved. This is the highest-floor play of the day.",
+      "date": "2026-07-24",
+      "status": "PEND",
+      "units_result": null,
+      "clv_cents": null,
+      "result_score": null,
+      "graded_at": null,
+      "slate_assessment": "Sixteen-game MLB slate with no NBA or NHL action. Skubal vs. KC at Comerica and Bryce Miller vs. TEX at Globe Life jump off the page as the two clearest pitching edges. Prop markets offer depth in K's and total bases.",
+      "executive_summary": "Friday's 16-game MLB board is headlined by two elite arms in favorable spots: Tarik Skubal at home against a Royals lineup that's struggled against lefties, and Bryce Miller carrying a 2.27 ERA into Globe Life against MacKenzie Gore. The under in Detroit at 7.5 is the sharpest total on the board \u2014 Skubal's coming off seven shutout innings, the park suppresses runs, and Beck Way's 10.2% walk rate invites trouble but not crosstalk. The ladder rides with the DET/KC Under 7.5 \u2014 best floor on the slate, two-time Cy Young winner at home, weather neutral, and the market hasn't budged off the opener.",
+      "slate_analysis": "The board today features 16 MLB games across a full Friday slate, with no NBA or NHL in session. Pricing is tight across most matchups \u2014 only a handful of moneylines clear -150, and totals are clustered in the 7.5-9.5 range. The overall climate is cautious: books are respecting pitching matchups and not overreacting to recent form.\n\nThe top candidates that rose during my review were: (1) DET/KC Under 7.5 \u2014 Skubal at home, coming off seven shutout innings, facing a Royals lineup that's been mediocre against lefties, with Beck Way's 10.2% walk rate on the other side but only 22 IP of sample; (2) SEA/TEX Under 7.5 \u2014 Bryce Miller's 2.27 ERA and 0.88 WHIP against MacKenzie Gore's 4.80 ERA, indoor park, both offenses below 4.2 R/G; (3) PHI/NYY Under 7.5 \u2014 Luzardo vs. Schlittler, two quality arms, but Citizens Bank Park's HR factor (1.10) and the Yankees' power make this a pass; (4) TB/CLE Under 7.5 \u2014 McClanahan vs. Cantillo, Trop suppresses runs, but Cantillo's 11.4% walk rate is a red flag for unders; (5) ARI ML at WSH \u2014 Eduardo Rodriguez's 2.62 ERA vs. Carson Palmquist's 8.74 ERA, but the juice at -124 doesn't clear my edge threshold given Rodriguez's 8.6% walk rate; (6) Skubal Ks Under 6.5 \u2014 Skubal's K% is elite (30.5%), but KC's lineup doesn't strike out at a high rate, and the line is set at 6.5 with under juice at -140, which is too short.\n\nWhat got cut: PHI/NYY Under was dropped because Citizens Bank Park's HR factor (1.10) introduces variance that undermines the under thesis. TB/CLE Under was dropped because Cantillo's 11.4% walk rate exceeds my 3.5 BB/9 threshold for under plays. ARI ML was dropped because the -124 juice doesn't clear my 8-cent edge requirement \u2014 my fair line is closer to -115. The Skubal K under was dropped because the -140 juice is too short and the line is set low enough that it's already priced in.\n\nThe final six picks are: (1) DET/KC Under 7.5 \u2014 Skubal at home, best floor on the board, ladder pick; (2) SEA/TEX Under 7.5 \u2014 Bryce Miller's elite peripherals vs. Gore's struggles; (3) SF ML vs. LAA \u2014 Logan Webb at Oracle Park against Grayson Rodriguez's 8.23 ERA; (4) Ketel Marte TB Over 1.5 \u2014 facing Palmquist's 8.74 ERA, Marte's been consistent; (5) Shohei Ohtani TB Over 1.5 \u2014 Manaea's 1.36 HR/9 at Citi Field, Ohtani's power plays; (6) Byron Buxton TB Over 1.5 \u2014 facing Jacob Lopez's 6.64 ERA and 1.67 HR/9, Buxton's been hot. The ladder rides with DET/KC Under 7.5 \u2014 Skubal's floor is the highest on the board, the market hasn't moved, and the weather is neutral.",
+      "slate_vibe": "NORMAL",
+      "published_at": "2026-07-24T13:09:45.208311-04:00"
+    }
+  ],
   "today_bonus_picks": [],
   "all_picks": [
+    {
+      "id": "20260724-MLB-ARI-WSH-PROP-KETELMARTE",
+      "sport": "MLB",
+      "game": "ARI @ WSH",
+      "first_pitch_iso": "2026-07-24T22:45Z",
+      "pick": "Ketel Marte TB Over 1.5",
+      "best_book": "BetMGM",
+      "best_odds": "-120",
+      "book_prices": {
+        "draftkings": "N/A",
+        "betmgm": "-120"
+      },
+      "book_links": {
+        "draftkings": "https://sportsbook.draftkings.com/?outcomes=0QA354113664%232222504981_13L84240Q1-44994196Q20",
+        "betmgm": "https://sports.nj.betmgm.com/en/sports?options=2:7827892-201908996-767077514&type=Single",
+        "fanduel": "https://sportsbook.fanduel.com/baseball/mlb/arizona-diamondbacks-%28e-rodriguez%29-%40-washington-nationals-%28c-palmquist%29-35855633"
+      },
+      "market": "PROP",
+      "confidence": 3,
+      "units": 1.0,
+      "win_probability": 0.57,
+      "ladder_designation": false,
+      "data_confidence": 0.72,
+      "rules_passed": [
+        "max_juice",
+        "ladder_even_money",
+        "parlay_well_formed",
+        "confidence_units_match",
+        "data_confidence_floor",
+        "pick_type_allowed",
+        "mlb_hr_prop_check",
+        "mlb_pitcher_k_check",
+        "mlb_total_bases_check(soft)",
+        "mlb_hits_check",
+        "nba_player_prop_check",
+        "nhl_shots_check",
+        "mlb_run_line_check",
+        "mlb_under_bb_check",
+        "no_same_game_opposite"
+      ],
+      "locked": true,
+      "late_add": false,
+      "late_add_reason": "",
+      "bonus_pick": false,
+      "event_type": "",
+      "event_name": "",
+      "legs": [],
+      "headline": "Marte's consistency meets Palmquist's 8.74 ERA \u2014 the matchup is a layup.",
+      "the_thesis": "Ketel Marte has been one of the most consistent hitters in baseball, and tonight he faces Carson Palmquist, who has an 8.74 ERA, 1.68 WHIP, and just 11.1 IP this season. Palmquist is a rookie who's been overmatched at the MLB level, and Marte should feast. Nationals Park is neutral (1.01 runs PF, 1.02 HR PF), so the park isn't a factor.\n\nThe line is set at 1.5 total bases, with the over at -120 on BetMGM. My fair line is closer to -110, which gives me a small edge. Marte's been hitting for power and average, and Palmquist's struggles should continue.",
+      "the_data": [
+        {
+          "label": "Palmquist ERA / WHIP (season)",
+          "value": "8.74 / 1.68",
+          "context": "Struggling badly"
+        },
+        {
+          "label": "Palmquist IP (season)",
+          "value": "11.1",
+          "context": "Tiny sample, overmatched"
+        },
+        {
+          "label": "Marte TB line",
+          "value": "1.5",
+          "context": "Over at -120"
+        },
+        {
+          "label": "Nationals Park HR PF",
+          "value": "1.02",
+          "context": "Neutral"
+        },
+        {
+          "label": "ARI R/G (season)",
+          "value": "4.52",
+          "context": "Average offense"
+        }
+      ],
+      "the_market": "Line is set at 1.5 total bases. BetMGM has the best over price at -120.",
+      "weather_park": "Nationals Park is outdoor, weather is favorable \u2014 81\u00b0F, 8 mph wind. Park is neutral.",
+      "case_against": "Palmquist's sample is tiny (11.1 IP), so there's variance here. If he settles in early, Marte might not get the pitches he needs. The Diamondbacks' lineup is deep, so Marte might not get as many at-bats as we'd like.",
+      "what_were_betting_on": "Marte gets 2+ total bases \u2014 a double, a home run, or two singles.",
+      "scott_bot_quip": "Rookie with an 8.74 ERA vs. one of the best hitters in baseball. Do the math.",
+      "ladder_note": "",
+      "date": "2026-07-24",
+      "status": "PEND",
+      "units_result": null,
+      "clv_cents": null,
+      "result_score": null,
+      "graded_at": null,
+      "slate_assessment": "Sixteen-game MLB slate with no NBA or NHL action. Skubal vs. KC at Comerica and Bryce Miller vs. TEX at Globe Life jump off the page as the two clearest pitching edges. Prop markets offer depth in K's and total bases.",
+      "executive_summary": "Friday's 16-game MLB board is headlined by two elite arms in favorable spots: Tarik Skubal at home against a Royals lineup that's struggled against lefties, and Bryce Miller carrying a 2.27 ERA into Globe Life against MacKenzie Gore. The under in Detroit at 7.5 is the sharpest total on the board \u2014 Skubal's coming off seven shutout innings, the park suppresses runs, and Beck Way's 10.2% walk rate invites trouble but not crosstalk. The ladder rides with the DET/KC Under 7.5 \u2014 best floor on the slate, two-time Cy Young winner at home, weather neutral, and the market hasn't budged off the opener.",
+      "slate_analysis": "The board today features 16 MLB games across a full Friday slate, with no NBA or NHL in session. Pricing is tight across most matchups \u2014 only a handful of moneylines clear -150, and totals are clustered in the 7.5-9.5 range. The overall climate is cautious: books are respecting pitching matchups and not overreacting to recent form.\n\nThe top candidates that rose during my review were: (1) DET/KC Under 7.5 \u2014 Skubal at home, coming off seven shutout innings, facing a Royals lineup that's been mediocre against lefties, with Beck Way's 10.2% walk rate on the other side but only 22 IP of sample; (2) SEA/TEX Under 7.5 \u2014 Bryce Miller's 2.27 ERA and 0.88 WHIP against MacKenzie Gore's 4.80 ERA, indoor park, both offenses below 4.2 R/G; (3) PHI/NYY Under 7.5 \u2014 Luzardo vs. Schlittler, two quality arms, but Citizens Bank Park's HR factor (1.10) and the Yankees' power make this a pass; (4) TB/CLE Under 7.5 \u2014 McClanahan vs. Cantillo, Trop suppresses runs, but Cantillo's 11.4% walk rate is a red flag for unders; (5) ARI ML at WSH \u2014 Eduardo Rodriguez's 2.62 ERA vs. Carson Palmquist's 8.74 ERA, but the juice at -124 doesn't clear my edge threshold given Rodriguez's 8.6% walk rate; (6) Skubal Ks Under 6.5 \u2014 Skubal's K% is elite (30.5%), but KC's lineup doesn't strike out at a high rate, and the line is set at 6.5 with under juice at -140, which is too short.\n\nWhat got cut: PHI/NYY Under was dropped because Citizens Bank Park's HR factor (1.10) introduces variance that undermines the under thesis. TB/CLE Under was dropped because Cantillo's 11.4% walk rate exceeds my 3.5 BB/9 threshold for under plays. ARI ML was dropped because the -124 juice doesn't clear my 8-cent edge requirement \u2014 my fair line is closer to -115. The Skubal K under was dropped because the -140 juice is too short and the line is set low enough that it's already priced in.\n\nThe final six picks are: (1) DET/KC Under 7.5 \u2014 Skubal at home, best floor on the board, ladder pick; (2) SEA/TEX Under 7.5 \u2014 Bryce Miller's elite peripherals vs. Gore's struggles; (3) SF ML vs. LAA \u2014 Logan Webb at Oracle Park against Grayson Rodriguez's 8.23 ERA; (4) Ketel Marte TB Over 1.5 \u2014 facing Palmquist's 8.74 ERA, Marte's been consistent; (5) Shohei Ohtani TB Over 1.5 \u2014 Manaea's 1.36 HR/9 at Citi Field, Ohtani's power plays; (6) Byron Buxton TB Over 1.5 \u2014 facing Jacob Lopez's 6.64 ERA and 1.67 HR/9, Buxton's been hot. The ladder rides with DET/KC Under 7.5 \u2014 Skubal's floor is the highest on the board, the market hasn't moved, and the weather is neutral.",
+      "slate_vibe": "NORMAL",
+      "published_at": "2026-07-24T13:09:45.208905-04:00"
+    },
+    {
+      "id": "20260724-MLB-LAD-NYM-PROP-SHOHEIOHTANI",
+      "sport": "MLB",
+      "game": "LAD @ NYM",
+      "first_pitch_iso": "2026-07-24T23:10Z",
+      "pick": "Shohei Ohtani TB Over 1.5",
+      "best_book": "BetMGM",
+      "best_odds": "+100",
+      "book_prices": {
+        "draftkings": "-123",
+        "betmgm": "+100"
+      },
+      "book_links": {
+        "betmgm": "https://sports.nj.betmgm.com/en/sports?options=2:7827877-201916847-767104388&type=Single",
+        "draftkings": "https://sportsbook.draftkings.com/?outcomes=0QA354068788%232222332822_13L84240Q1-44994196Q20",
+        "fanduel": "https://sportsbook.fanduel.com/baseball/mlb/los-angeles-dodgers-%28r-sasaki%29-%40-new-york-mets-%28s-manaea%29-35855639"
+      },
+      "market": "PROP",
+      "confidence": 4,
+      "units": 1.5,
+      "win_probability": 0.58,
+      "ladder_designation": false,
+      "data_confidence": 0.78,
+      "rules_passed": [
+        "max_juice",
+        "ladder_even_money",
+        "parlay_well_formed",
+        "confidence_units_match",
+        "data_confidence_floor",
+        "pick_type_allowed",
+        "mlb_hr_prop_check",
+        "mlb_pitcher_k_check",
+        "mlb_total_bases_check(soft)",
+        "mlb_hits_check",
+        "nba_player_prop_check",
+        "nhl_shots_check",
+        "mlb_run_line_check",
+        "mlb_under_bb_check",
+        "no_same_game_opposite"
+      ],
+      "locked": true,
+      "late_add": false,
+      "late_add_reason": "",
+      "bonus_pick": false,
+      "event_type": "",
+      "event_name": "",
+      "legs": [],
+      "headline": "Ohtani's power meets Manaea's 1.36 HR/9 at Citi Field \u2014 plus money on the over is a gift.",
+      "the_thesis": "Shohei Ohtani is the best hitter in baseball, and tonight he faces Sean Manaea, who has a 4.74 ERA, 1.36 WHIP, and a 1.36 HR/9 in 79.2 IP. Manaea gives up home runs, and Ohtani hits home runs \u2014 the matchup is clear. Citi Field suppresses HRs slightly (0.91 PF), but Ohtani's power plays anywhere.\n\nThe line is set at 1.5 total bases, with the over at +100 on BetMGM. That's plus money on Ohtani to get 2+ total bases against a pitcher who gives up HRs. My fair line is closer to -115, which gives me a 15-cent edge. This is the best value on the prop board today.",
+      "the_data": [
+        {
+          "label": "Manaea ERA / WHIP (season)",
+          "value": "4.74 / 1.36",
+          "context": "Struggling"
+        },
+        {
+          "label": "Manaea HR/9 (season)",
+          "value": "1.36",
+          "context": "Elevated, gives up HRs"
+        },
+        {
+          "label": "Ohtani TB line",
+          "value": "1.5",
+          "context": "Over at +100"
+        },
+        {
+          "label": "Citi Field HR PF",
+          "value": "0.91",
+          "context": "Slight HR suppression"
+        },
+        {
+          "label": "LAD R/G (season)",
+          "value": "5.19",
+          "context": "Elite offense"
+        }
+      ],
+      "the_market": "Line is set at 1.5 total bases. BetMGM has the best over price at +100 \u2014 that's plus money on Ohtani. DraftKings has it at -123, which is a significant difference.",
+      "weather_park": "Citi Field is outdoor, weather is favorable. Park suppresses HRs slightly (0.91 PF), but Ohtani's power plays anywhere.",
+      "case_against": "Manaea's been better lately, and if he's locating his fastball, Ohtani might not get the pitches he needs. Citi Field's HR suppression could turn a HR into a flyout.",
+      "what_were_betting_on": "Ohtani gets 2+ total bases \u2014 a double, a home run, or two singles.",
+      "scott_bot_quip": "Plus money on Ohtani to do Ohtani things. The books are asleep.",
+      "ladder_note": "",
+      "date": "2026-07-24",
+      "status": "PEND",
+      "units_result": null,
+      "clv_cents": null,
+      "result_score": null,
+      "graded_at": null,
+      "slate_assessment": "Sixteen-game MLB slate with no NBA or NHL action. Skubal vs. KC at Comerica and Bryce Miller vs. TEX at Globe Life jump off the page as the two clearest pitching edges. Prop markets offer depth in K's and total bases.",
+      "executive_summary": "Friday's 16-game MLB board is headlined by two elite arms in favorable spots: Tarik Skubal at home against a Royals lineup that's struggled against lefties, and Bryce Miller carrying a 2.27 ERA into Globe Life against MacKenzie Gore. The under in Detroit at 7.5 is the sharpest total on the board \u2014 Skubal's coming off seven shutout innings, the park suppresses runs, and Beck Way's 10.2% walk rate invites trouble but not crosstalk. The ladder rides with the DET/KC Under 7.5 \u2014 best floor on the slate, two-time Cy Young winner at home, weather neutral, and the market hasn't budged off the opener.",
+      "slate_analysis": "The board today features 16 MLB games across a full Friday slate, with no NBA or NHL in session. Pricing is tight across most matchups \u2014 only a handful of moneylines clear -150, and totals are clustered in the 7.5-9.5 range. The overall climate is cautious: books are respecting pitching matchups and not overreacting to recent form.\n\nThe top candidates that rose during my review were: (1) DET/KC Under 7.5 \u2014 Skubal at home, coming off seven shutout innings, facing a Royals lineup that's been mediocre against lefties, with Beck Way's 10.2% walk rate on the other side but only 22 IP of sample; (2) SEA/TEX Under 7.5 \u2014 Bryce Miller's 2.27 ERA and 0.88 WHIP against MacKenzie Gore's 4.80 ERA, indoor park, both offenses below 4.2 R/G; (3) PHI/NYY Under 7.5 \u2014 Luzardo vs. Schlittler, two quality arms, but Citizens Bank Park's HR factor (1.10) and the Yankees' power make this a pass; (4) TB/CLE Under 7.5 \u2014 McClanahan vs. Cantillo, Trop suppresses runs, but Cantillo's 11.4% walk rate is a red flag for unders; (5) ARI ML at WSH \u2014 Eduardo Rodriguez's 2.62 ERA vs. Carson Palmquist's 8.74 ERA, but the juice at -124 doesn't clear my edge threshold given Rodriguez's 8.6% walk rate; (6) Skubal Ks Under 6.5 \u2014 Skubal's K% is elite (30.5%), but KC's lineup doesn't strike out at a high rate, and the line is set at 6.5 with under juice at -140, which is too short.\n\nWhat got cut: PHI/NYY Under was dropped because Citizens Bank Park's HR factor (1.10) introduces variance that undermines the under thesis. TB/CLE Under was dropped because Cantillo's 11.4% walk rate exceeds my 3.5 BB/9 threshold for under plays. ARI ML was dropped because the -124 juice doesn't clear my 8-cent edge requirement \u2014 my fair line is closer to -115. The Skubal K under was dropped because the -140 juice is too short and the line is set low enough that it's already priced in.\n\nThe final six picks are: (1) DET/KC Under 7.5 \u2014 Skubal at home, best floor on the board, ladder pick; (2) SEA/TEX Under 7.5 \u2014 Bryce Miller's elite peripherals vs. Gore's struggles; (3) SF ML vs. LAA \u2014 Logan Webb at Oracle Park against Grayson Rodriguez's 8.23 ERA; (4) Ketel Marte TB Over 1.5 \u2014 facing Palmquist's 8.74 ERA, Marte's been consistent; (5) Shohei Ohtani TB Over 1.5 \u2014 Manaea's 1.36 HR/9 at Citi Field, Ohtani's power plays; (6) Byron Buxton TB Over 1.5 \u2014 facing Jacob Lopez's 6.64 ERA and 1.67 HR/9, Buxton's been hot. The ladder rides with DET/KC Under 7.5 \u2014 Skubal's floor is the highest on the board, the market hasn't moved, and the weather is neutral.",
+      "slate_vibe": "NORMAL",
+      "published_at": "2026-07-24T13:09:45.208786-04:00"
+    },
+    {
+      "id": "20260724-MLB-ATH-MIN-PROP-BYRONBUXTON",
+      "sport": "MLB",
+      "game": "ATH @ MIN",
+      "first_pitch_iso": "2026-07-25T00:10Z",
+      "pick": "Byron Buxton TB Over 1.5",
+      "best_book": "BetMGM",
+      "best_odds": "-120",
+      "book_prices": {
+        "draftkings": "-106",
+        "betmgm": "-120"
+      },
+      "book_links": {
+        "betmgm": "https://sports.nj.betmgm.com/en/sports?options=2:7828119-201917570-767106519&type=Single",
+        "draftkings": "https://sportsbook.draftkings.com/?outcomes=0QA354071003%232222339798_13L84240Q1-44994196Q20",
+        "fanduel": "https://sportsbook.fanduel.com/baseball/mlb/athletics-%28j-lopez%29-%40-minnesota-twins-%28z-matthews%29-35855628"
+      },
+      "market": "PROP",
+      "confidence": 3,
+      "units": 1.0,
+      "win_probability": 0.58,
+      "ladder_designation": false,
+      "data_confidence": 0.75,
+      "rules_passed": [
+        "max_juice",
+        "ladder_even_money",
+        "parlay_well_formed",
+        "confidence_units_match",
+        "data_confidence_floor",
+        "pick_type_allowed",
+        "mlb_hr_prop_check",
+        "mlb_pitcher_k_check",
+        "mlb_total_bases_check(soft)",
+        "mlb_hits_check",
+        "nba_player_prop_check",
+        "nhl_shots_check",
+        "mlb_run_line_check",
+        "mlb_under_bb_check",
+        "no_same_game_opposite"
+      ],
+      "locked": true,
+      "late_add": false,
+      "late_add_reason": "",
+      "bonus_pick": false,
+      "event_type": "",
+      "event_name": "",
+      "legs": [],
+      "headline": "Buxton's power meets Jacob Lopez's 6.64 ERA and 1.67 HR/9 \u2014 the matchup screams XBH.",
+      "the_thesis": "Byron Buxton has been hot lately, and tonight he faces Jacob Lopez, who has a 6.64 ERA, 1.73 WHIP, and a 1.67 HR/9 in 59.2 IP. Lopez's control issues (12.8% walk rate) mean he's going to be in hitter's counts, and Buxton's power plays in those situations. Target Field is neutral (0.98 runs PF, 0.97 HR PF), so the park isn't a factor either way.\n\nThe line is set at 1.5 total bases, with the over at -120 on BetMGM. My fair line is closer to -110, which gives me a small edge. Buxton's been hitting for power, and Lopez's HR/9 is elevated \u2014 this is a spot where Buxton can go deep or rip a double.",
+      "the_data": [
+        {
+          "label": "Lopez ERA / WHIP (season)",
+          "value": "6.64 / 1.73",
+          "context": "Struggling badly"
+        },
+        {
+          "label": "Lopez HR/9 (season)",
+          "value": "1.67",
+          "context": "Elevated, gives up HRs"
+        },
+        {
+          "label": "Lopez BB% (season)",
+          "value": "12.8%",
+          "context": "Control issues"
+        },
+        {
+          "label": "Buxton TB line",
+          "value": "1.5",
+          "context": "Over at -120"
+        },
+        {
+          "label": "Target Field HR PF",
+          "value": "0.97",
+          "context": "Neutral"
+        }
+      ],
+      "the_market": "Line is set at 1.5 total bases. BetMGM has the best over price at -120. DraftKings has it at -106, which is a better price but the line is the same.",
+      "weather_park": "Target Field is outdoor, weather is favorable. Park is neutral (0.98 runs PF).",
+      "case_against": "Buxton's been inconsistent this season, and if Lopez settles in early, Buxton might not get the pitches he needs. The Twins' lineup is deep, so Buxton might not get as many at-bats as we'd like.",
+      "what_were_betting_on": "Buxton gets 2+ total bases \u2014 a double, a home run, or two singles.",
+      "scott_bot_quip": "Lopez gives up bombs. Buxton hits bombs. Math.",
+      "ladder_note": "",
+      "date": "2026-07-24",
+      "status": "PEND",
+      "units_result": null,
+      "clv_cents": null,
+      "result_score": null,
+      "graded_at": null,
+      "slate_assessment": "Sixteen-game MLB slate with no NBA or NHL action. Skubal vs. KC at Comerica and Bryce Miller vs. TEX at Globe Life jump off the page as the two clearest pitching edges. Prop markets offer depth in K's and total bases.",
+      "executive_summary": "Friday's 16-game MLB board is headlined by two elite arms in favorable spots: Tarik Skubal at home against a Royals lineup that's struggled against lefties, and Bryce Miller carrying a 2.27 ERA into Globe Life against MacKenzie Gore. The under in Detroit at 7.5 is the sharpest total on the board \u2014 Skubal's coming off seven shutout innings, the park suppresses runs, and Beck Way's 10.2% walk rate invites trouble but not crosstalk. The ladder rides with the DET/KC Under 7.5 \u2014 best floor on the slate, two-time Cy Young winner at home, weather neutral, and the market hasn't budged off the opener.",
+      "slate_analysis": "The board today features 16 MLB games across a full Friday slate, with no NBA or NHL in session. Pricing is tight across most matchups \u2014 only a handful of moneylines clear -150, and totals are clustered in the 7.5-9.5 range. The overall climate is cautious: books are respecting pitching matchups and not overreacting to recent form.\n\nThe top candidates that rose during my review were: (1) DET/KC Under 7.5 \u2014 Skubal at home, coming off seven shutout innings, facing a Royals lineup that's been mediocre against lefties, with Beck Way's 10.2% walk rate on the other side but only 22 IP of sample; (2) SEA/TEX Under 7.5 \u2014 Bryce Miller's 2.27 ERA and 0.88 WHIP against MacKenzie Gore's 4.80 ERA, indoor park, both offenses below 4.2 R/G; (3) PHI/NYY Under 7.5 \u2014 Luzardo vs. Schlittler, two quality arms, but Citizens Bank Park's HR factor (1.10) and the Yankees' power make this a pass; (4) TB/CLE Under 7.5 \u2014 McClanahan vs. Cantillo, Trop suppresses runs, but Cantillo's 11.4% walk rate is a red flag for unders; (5) ARI ML at WSH \u2014 Eduardo Rodriguez's 2.62 ERA vs. Carson Palmquist's 8.74 ERA, but the juice at -124 doesn't clear my edge threshold given Rodriguez's 8.6% walk rate; (6) Skubal Ks Under 6.5 \u2014 Skubal's K% is elite (30.5%), but KC's lineup doesn't strike out at a high rate, and the line is set at 6.5 with under juice at -140, which is too short.\n\nWhat got cut: PHI/NYY Under was dropped because Citizens Bank Park's HR factor (1.10) introduces variance that undermines the under thesis. TB/CLE Under was dropped because Cantillo's 11.4% walk rate exceeds my 3.5 BB/9 threshold for under plays. ARI ML was dropped because the -124 juice doesn't clear my 8-cent edge requirement \u2014 my fair line is closer to -115. The Skubal K under was dropped because the -140 juice is too short and the line is set low enough that it's already priced in.\n\nThe final six picks are: (1) DET/KC Under 7.5 \u2014 Skubal at home, best floor on the board, ladder pick; (2) SEA/TEX Under 7.5 \u2014 Bryce Miller's elite peripherals vs. Gore's struggles; (3) SF ML vs. LAA \u2014 Logan Webb at Oracle Park against Grayson Rodriguez's 8.23 ERA; (4) Ketel Marte TB Over 1.5 \u2014 facing Palmquist's 8.74 ERA, Marte's been consistent; (5) Shohei Ohtani TB Over 1.5 \u2014 Manaea's 1.36 HR/9 at Citi Field, Ohtani's power plays; (6) Byron Buxton TB Over 1.5 \u2014 facing Jacob Lopez's 6.64 ERA and 1.67 HR/9, Buxton's been hot. The ladder rides with DET/KC Under 7.5 \u2014 Skubal's floor is the highest on the board, the market hasn't moved, and the weather is neutral.",
+      "slate_vibe": "NORMAL",
+      "published_at": "2026-07-24T13:09:45.208657-04:00"
+    },
+    {
+      "id": "20260724-MLB-SEA-TEX-TOTAL",
+      "sport": "MLB",
+      "game": "SEA @ TEX",
+      "first_pitch_iso": "2026-07-25T00:05Z",
+      "pick": "Under 7.5",
+      "best_book": "FanDuel",
+      "best_odds": "-105",
+      "book_prices": {
+        "draftkings": "-106",
+        "fanduel": "-105",
+        "betmgm": "-105"
+      },
+      "book_links": {
+        "fanduel": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.594099130&selectionId=7017906",
+        "betmgm": "https://sports.nj.betmgm.com/en/sports?options=19805354-1542866679-2253642234&type=Single",
+        "draftkings": "https://sportsbook.draftkings.com/?outcomes=0OU85589333U750_3"
+      },
+      "market": "TOTAL",
+      "confidence": 4,
+      "units": 1.5,
+      "win_probability": 0.59,
+      "ladder_designation": false,
+      "data_confidence": 0.82,
+      "rules_passed": [
+        "max_juice",
+        "ladder_even_money",
+        "parlay_well_formed",
+        "confidence_units_match",
+        "data_confidence_floor",
+        "pick_type_allowed",
+        "mlb_hr_prop_check",
+        "mlb_pitcher_k_check",
+        "mlb_total_bases_check",
+        "mlb_hits_check",
+        "nba_player_prop_check",
+        "nhl_shots_check",
+        "mlb_run_line_check",
+        "mlb_under_bb_check",
+        "no_same_game_opposite"
+      ],
+      "locked": true,
+      "late_add": false,
+      "late_add_reason": "",
+      "bonus_pick": false,
+      "event_type": "",
+      "event_name": "",
+      "legs": [],
+      "headline": "Bryce Miller's elite peripherals meet MacKenzie Gore's struggles in a dome that plays neutral.",
+      "the_thesis": "Bryce Miller has been outstanding since returning from the IL \u2014 2.27 ERA, 0.88 WHIP, 10.1 K/9 in 63.1 IP. He's limiting opponents to a .201 batting average and has been dominant on the road. MacKenzie Gore, on the other hand, has a 4.80 ERA and 1.28 WHIP, with an 8.8% walk rate that invites trouble. The Rangers' offense has been below average (4.19 R/G), and the Mariners' offense is even worse (4.03 R/G).\n\nGlobe Life Field is a dome, so weather isn't a factor. The park plays neutral to slightly hitter-friendly (1.04 runs PF, 1.05 HR PF), but Miller's ability to suppress hard contact should neutralize that. The market opened at 7.5 and hasn't moved \u2014 that's a sign the sharps are comfortable with this number.\n\nMy fair line is 7.1, which gives me an 8-cent edge on the under at -105. This is a 3-2 or 4-3 game.",
+      "the_data": [
+        {
+          "label": "Bryce Miller ERA / WHIP (season)",
+          "value": "2.27 / 0.88",
+          "context": "Elite, top-10 in MLB"
+        },
+        {
+          "label": "Miller K/9 (season)",
+          "value": "10.1",
+          "context": "Dominant strikeout rate"
+        },
+        {
+          "label": "Miller opp BA (season)",
+          "value": ".201",
+          "context": "Top-10 in baseball"
+        },
+        {
+          "label": "Gore ERA / WHIP (season)",
+          "value": "4.80 / 1.28",
+          "context": "Struggling"
+        },
+        {
+          "label": "SEA R/G (season)",
+          "value": "4.03",
+          "context": "Below league average"
+        },
+        {
+          "label": "TEX R/G (season)",
+          "value": "4.19",
+          "context": "Below league average"
+        }
+      ],
+      "the_market": "Total opened at 7.5 and hasn't moved. FanDuel has the best under price at -105. The market is comfortable with this number, which suggests sharps aren't seeing value on either side.",
+      "weather_park": "Globe Life Field is a dome \u2014 weather is not a factor. Park plays neutral to slightly hitter-friendly (1.04 runs PF).",
+      "case_against": "Gore's HR/9 (1.14) is elevated, and if the Mariners' power bats get to him early, this game could flip. Miller's HR/9 (1.28) is also elevated, which is a concern in a park that boosts HRs slightly. Both bullpens are middle-of-the-pack.",
+      "what_were_betting_on": "Miller goes 6+ innings with 2 or fewer runs allowed, Gore limits damage despite his struggles, and the game stays under 7.5.",
+      "scott_bot_quip": "Two weak offenses, one elite arm, one struggling arm. The under writes itself.",
+      "ladder_note": "",
+      "date": "2026-07-24",
+      "status": "PEND",
+      "units_result": null,
+      "clv_cents": null,
+      "result_score": null,
+      "graded_at": null,
+      "slate_assessment": "Sixteen-game MLB slate with no NBA or NHL action. Skubal vs. KC at Comerica and Bryce Miller vs. TEX at Globe Life jump off the page as the two clearest pitching edges. Prop markets offer depth in K's and total bases.",
+      "executive_summary": "Friday's 16-game MLB board is headlined by two elite arms in favorable spots: Tarik Skubal at home against a Royals lineup that's struggled against lefties, and Bryce Miller carrying a 2.27 ERA into Globe Life against MacKenzie Gore. The under in Detroit at 7.5 is the sharpest total on the board \u2014 Skubal's coming off seven shutout innings, the park suppresses runs, and Beck Way's 10.2% walk rate invites trouble but not crosstalk. The ladder rides with the DET/KC Under 7.5 \u2014 best floor on the slate, two-time Cy Young winner at home, weather neutral, and the market hasn't budged off the opener.",
+      "slate_analysis": "The board today features 16 MLB games across a full Friday slate, with no NBA or NHL in session. Pricing is tight across most matchups \u2014 only a handful of moneylines clear -150, and totals are clustered in the 7.5-9.5 range. The overall climate is cautious: books are respecting pitching matchups and not overreacting to recent form.\n\nThe top candidates that rose during my review were: (1) DET/KC Under 7.5 \u2014 Skubal at home, coming off seven shutout innings, facing a Royals lineup that's been mediocre against lefties, with Beck Way's 10.2% walk rate on the other side but only 22 IP of sample; (2) SEA/TEX Under 7.5 \u2014 Bryce Miller's 2.27 ERA and 0.88 WHIP against MacKenzie Gore's 4.80 ERA, indoor park, both offenses below 4.2 R/G; (3) PHI/NYY Under 7.5 \u2014 Luzardo vs. Schlittler, two quality arms, but Citizens Bank Park's HR factor (1.10) and the Yankees' power make this a pass; (4) TB/CLE Under 7.5 \u2014 McClanahan vs. Cantillo, Trop suppresses runs, but Cantillo's 11.4% walk rate is a red flag for unders; (5) ARI ML at WSH \u2014 Eduardo Rodriguez's 2.62 ERA vs. Carson Palmquist's 8.74 ERA, but the juice at -124 doesn't clear my edge threshold given Rodriguez's 8.6% walk rate; (6) Skubal Ks Under 6.5 \u2014 Skubal's K% is elite (30.5%), but KC's lineup doesn't strike out at a high rate, and the line is set at 6.5 with under juice at -140, which is too short.\n\nWhat got cut: PHI/NYY Under was dropped because Citizens Bank Park's HR factor (1.10) introduces variance that undermines the under thesis. TB/CLE Under was dropped because Cantillo's 11.4% walk rate exceeds my 3.5 BB/9 threshold for under plays. ARI ML was dropped because the -124 juice doesn't clear my 8-cent edge requirement \u2014 my fair line is closer to -115. The Skubal K under was dropped because the -140 juice is too short and the line is set low enough that it's already priced in.\n\nThe final six picks are: (1) DET/KC Under 7.5 \u2014 Skubal at home, best floor on the board, ladder pick; (2) SEA/TEX Under 7.5 \u2014 Bryce Miller's elite peripherals vs. Gore's struggles; (3) SF ML vs. LAA \u2014 Logan Webb at Oracle Park against Grayson Rodriguez's 8.23 ERA; (4) Ketel Marte TB Over 1.5 \u2014 facing Palmquist's 8.74 ERA, Marte's been consistent; (5) Shohei Ohtani TB Over 1.5 \u2014 Manaea's 1.36 HR/9 at Citi Field, Ohtani's power plays; (6) Byron Buxton TB Over 1.5 \u2014 facing Jacob Lopez's 6.64 ERA and 1.67 HR/9, Buxton's been hot. The ladder rides with DET/KC Under 7.5 \u2014 Skubal's floor is the highest on the board, the market hasn't moved, and the weather is neutral.",
+      "slate_vibe": "NORMAL",
+      "published_at": "2026-07-24T13:09:45.208523-04:00"
+    },
+    {
+      "id": "20260724-MLB-KC-DET-TOTAL",
+      "sport": "MLB",
+      "game": "KC @ DET",
+      "first_pitch_iso": "2026-07-24T22:40Z",
+      "pick": "Under 7.5",
+      "best_book": "DraftKings",
+      "best_odds": "-101",
+      "book_prices": {
+        "draftkings": "-101",
+        "fanduel": "-112",
+        "betmgm": "-115"
+      },
+      "book_links": {
+        "fanduel": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.594097195&selectionId=7017906",
+        "draftkings": "https://sportsbook.draftkings.com/?outcomes=0OU85589290U750_3",
+        "betmgm": "https://sports.nj.betmgm.com/en/sports?options=19805168-1542848803-2253599079&type=Single"
+      },
+      "market": "TOTAL",
+      "confidence": 5,
+      "units": 2.0,
+      "win_probability": 0.63,
+      "ladder_designation": true,
+      "data_confidence": 0.85,
+      "rules_passed": [
+        "max_juice",
+        "ladder_even_money",
+        "parlay_well_formed",
+        "confidence_units_match",
+        "data_confidence_floor",
+        "pick_type_allowed",
+        "mlb_hr_prop_check",
+        "mlb_pitcher_k_check",
+        "mlb_total_bases_check",
+        "mlb_hits_check",
+        "nba_player_prop_check",
+        "nhl_shots_check",
+        "mlb_run_line_check",
+        "mlb_under_bb_check",
+        "no_same_game_opposite"
+      ],
+      "locked": true,
+      "late_add": false,
+      "late_add_reason": "",
+      "bonus_pick": false,
+      "event_type": "",
+      "event_name": "",
+      "legs": [],
+      "headline": "Two-time Cy Young winner at home against a rookie with control issues \u2014 the floor is the ceiling.",
+      "the_thesis": "Tarik Skubal is coming off seven shutout innings against the Angels, his best start since returning from elbow surgery. His 2.83 ERA and 0.93 WHIP are elite, and his 30.5% K rate means he can miss bats even when he's not at his sharpest. The Royals send Beck Way, who has just 22.1 IP this season and a 10.2% walk rate \u2014 that's a recipe for short outings and bullpen games, but not necessarily crosstalk. Way's 1.63 HR/9 is concerning, but Comerica Park suppresses home runs (0.95 PF) and the weather tonight is neutral: 75\u00b0F, 8.5 mph wind, 0% chance of rain.\n\nThe Royals offense has been mediocre against lefties, and Skubal's been dominant at home. The Tigers' bullpen has been solid, and the Royals' pen is middle-of-the-pack. The market opened at 7.5 and hasn't moved \u2014 that's a sign the sharps are comfortable with this number. My fair line is 7.2, which gives me a 10-cent edge on the under at -101.\n\nThe case for the under is simple: Skubal goes 6+ innings, the Royals scratch out 2-3 runs, and the Tigers' offense \u2014 which averages just 4.24 R/G \u2014 doesn't need to do much. This is a 4-3 or 3-2 game.",
+      "the_data": [
+        {
+          "label": "Skubal ERA / WHIP (season)",
+          "value": "2.83 / 0.93",
+          "context": "Elite, top-5 in MLB"
+        },
+        {
+          "label": "Skubal K% (season)",
+          "value": "30.5%",
+          "context": "Top-10 in baseball"
+        },
+        {
+          "label": "Skubal last start",
+          "value": "7 IP, 0 ER, 9 K",
+          "context": "Best since surgery"
+        },
+        {
+          "label": "Beck Way BB% (season)",
+          "value": "10.2%",
+          "context": "Control issues, short outings"
+        },
+        {
+          "label": "Comerica Park HR PF",
+          "value": "0.95",
+          "context": "HR-suppressing"
+        },
+        {
+          "label": "DET R/G (season)",
+          "value": "4.24",
+          "context": "Below league average"
+        },
+        {
+          "label": "KC R/G (season)",
+          "value": "4.24",
+          "context": "Below league average"
+        }
+      ],
+      "the_market": "Total opened at 7.5 and hasn't moved across all three books. DraftKings has the best under price at -101. The market is comfortable with this number, which suggests sharps aren't seeing value on either side \u2014 but the -101 juice on the under is the best price on the board.",
+      "weather_park": "Comerica Park, 75\u00b0F, 8.5 mph wind, 0% chance of rain. Park suppresses HRs (0.95 PF). Net neutral to slight under lean.",
+      "case_against": "Beck Way's control issues could lead to walks and baserunners, which could turn into crosstalk if the Tigers' offense gets hot. Skubal's HR/9 (1.09) is slightly elevated, and if he hangs one to a Royals power bat, this game could flip. The Tigers' bullpen has been solid but not elite.",
+      "what_were_betting_on": "Skubal goes 6+ innings with 2 or fewer runs allowed, the Royals scratch out 2-3 runs against Way and the bullpen, and the game stays under 7.5.",
+      "scott_bot_quip": "Two-time Cy Young at home, rookie with control issues on the road. The math does itself.",
+      "ladder_note": "Best floor on the board. Skubal's elite, the park suppresses runs, the weather is neutral, and the market hasn't moved. This is the highest-floor play of the day.",
+      "date": "2026-07-24",
+      "status": "PEND",
+      "units_result": null,
+      "clv_cents": null,
+      "result_score": null,
+      "graded_at": null,
+      "slate_assessment": "Sixteen-game MLB slate with no NBA or NHL action. Skubal vs. KC at Comerica and Bryce Miller vs. TEX at Globe Life jump off the page as the two clearest pitching edges. Prop markets offer depth in K's and total bases.",
+      "executive_summary": "Friday's 16-game MLB board is headlined by two elite arms in favorable spots: Tarik Skubal at home against a Royals lineup that's struggled against lefties, and Bryce Miller carrying a 2.27 ERA into Globe Life against MacKenzie Gore. The under in Detroit at 7.5 is the sharpest total on the board \u2014 Skubal's coming off seven shutout innings, the park suppresses runs, and Beck Way's 10.2% walk rate invites trouble but not crosstalk. The ladder rides with the DET/KC Under 7.5 \u2014 best floor on the slate, two-time Cy Young winner at home, weather neutral, and the market hasn't budged off the opener.",
+      "slate_analysis": "The board today features 16 MLB games across a full Friday slate, with no NBA or NHL in session. Pricing is tight across most matchups \u2014 only a handful of moneylines clear -150, and totals are clustered in the 7.5-9.5 range. The overall climate is cautious: books are respecting pitching matchups and not overreacting to recent form.\n\nThe top candidates that rose during my review were: (1) DET/KC Under 7.5 \u2014 Skubal at home, coming off seven shutout innings, facing a Royals lineup that's been mediocre against lefties, with Beck Way's 10.2% walk rate on the other side but only 22 IP of sample; (2) SEA/TEX Under 7.5 \u2014 Bryce Miller's 2.27 ERA and 0.88 WHIP against MacKenzie Gore's 4.80 ERA, indoor park, both offenses below 4.2 R/G; (3) PHI/NYY Under 7.5 \u2014 Luzardo vs. Schlittler, two quality arms, but Citizens Bank Park's HR factor (1.10) and the Yankees' power make this a pass; (4) TB/CLE Under 7.5 \u2014 McClanahan vs. Cantillo, Trop suppresses runs, but Cantillo's 11.4% walk rate is a red flag for unders; (5) ARI ML at WSH \u2014 Eduardo Rodriguez's 2.62 ERA vs. Carson Palmquist's 8.74 ERA, but the juice at -124 doesn't clear my edge threshold given Rodriguez's 8.6% walk rate; (6) Skubal Ks Under 6.5 \u2014 Skubal's K% is elite (30.5%), but KC's lineup doesn't strike out at a high rate, and the line is set at 6.5 with under juice at -140, which is too short.\n\nWhat got cut: PHI/NYY Under was dropped because Citizens Bank Park's HR factor (1.10) introduces variance that undermines the under thesis. TB/CLE Under was dropped because Cantillo's 11.4% walk rate exceeds my 3.5 BB/9 threshold for under plays. ARI ML was dropped because the -124 juice doesn't clear my 8-cent edge requirement \u2014 my fair line is closer to -115. The Skubal K under was dropped because the -140 juice is too short and the line is set low enough that it's already priced in.\n\nThe final six picks are: (1) DET/KC Under 7.5 \u2014 Skubal at home, best floor on the board, ladder pick; (2) SEA/TEX Under 7.5 \u2014 Bryce Miller's elite peripherals vs. Gore's struggles; (3) SF ML vs. LAA \u2014 Logan Webb at Oracle Park against Grayson Rodriguez's 8.23 ERA; (4) Ketel Marte TB Over 1.5 \u2014 facing Palmquist's 8.74 ERA, Marte's been consistent; (5) Shohei Ohtani TB Over 1.5 \u2014 Manaea's 1.36 HR/9 at Citi Field, Ohtani's power plays; (6) Byron Buxton TB Over 1.5 \u2014 facing Jacob Lopez's 6.64 ERA and 1.67 HR/9, Buxton's been hot. The ladder rides with DET/KC Under 7.5 \u2014 Skubal's floor is the highest on the board, the market hasn't moved, and the weather is neutral.",
+      "slate_vibe": "NORMAL",
+      "published_at": "2026-07-24T13:09:45.208311-04:00"
+    },
     {
       "id": "20260723-MLB-MIN-CLE-PROP-GAVINWILLIAMS",
       "sport": "MLB",
