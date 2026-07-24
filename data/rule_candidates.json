@@ -478,5 +478,29 @@
     "candidate_rule": "When a pitcher is returning from bereavement leave with 12+ days off, require a sharpness discount of at least 0.5 ERA runs in the projection model before issuing a pick reliant on that pitcher's performance \u2014 but validate against a larger sample before hardcoding (N=1 here).",
     "sample_size_warning": "N=1, insufficient to establish a rule. One catastrophic bereavement-return start does not confirm a pattern; monitor for additional cases before applying any systematic discount.",
     "status": "PENDING_REVIEW"
+  },
+  {
+    "proposed_at": "2026-07-24T01:55:33.593803-04:00",
+    "source_pick_id": "20260723-MLB-ARI-STL-TOTAL",
+    "source_loss": "Under 7.5 (ARI @ STL)",
+    "candidate_rule": "When a starter's FIP/xFIP exceeds ERA by 1.0+ runs AND the opposing starter carries a road ERA above 4.50, apply a bullpen-exposure penalty to any under bet \u2014 the combination signals elevated late-inning run risk that ERA-based framing will systematically miss; requires N\u226520 similar setups to validate as a filter.",
+    "sample_size_warning": "N=1, insufficient to establish rule \u2014 this is a directional hypothesis only, not a validated pattern.",
+    "status": "PENDING_REVIEW"
+  },
+  {
+    "proposed_at": "2026-07-24T01:55:47.083076-04:00",
+    "source_pick_id": "20260723-MLB-KC-DET-PROP-TROYMELTON",
+    "source_loss": "Troy Melton Ks Over 5.5 (KC @ DET)",
+    "candidate_rule": "For pitcher K props on starters with documented workload restrictions or recent injury flags, require projected IP \u2265 6.0 before backing an over line that needs 6+ innings to clear \u2014 N=1, insufficient to establish rule.",
+    "sample_size_warning": "N=1, insufficient to establish rule. One data point; monitor for pattern across managed starters with sub-6 IP ceilings.",
+    "status": "PENDING_REVIEW"
+  },
+  {
+    "proposed_at": "2026-07-24T01:56:13.519756-04:00",
+    "source_pick_id": "20260723-MLB-ARI-STL-ML",
+    "source_loss": "St. Louis Cardinals ML (ARI @ STL)",
+    "candidate_rule": "When using ERA as a pitcher-quality proxy, require a recent-form check (last 10 starts ERA/K%) as a mandatory data point \u2014 if recent ERA diverges from season ERA by more than 1.00, flag the pick for manual review before publishing; N=1, insufficient to establish rule.",
+    "sample_size_warning": "N=1, insufficient to establish rule \u2014 single-game bullpen collapses are high-variance events; monitor Cardinals relief ERA in home games over next 10 appearances before drawing structural conclusions.",
+    "status": "PENDING_REVIEW"
   }
 ]

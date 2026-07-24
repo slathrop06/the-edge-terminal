@@ -1,5 +1,57 @@
 [
   {
+    "id": "20260723-MLB-KC-DET-SPREAD",
+    "date": "2026-07-23",
+    "pick": "Detroit Tigers -1.5",
+    "game": "KC @ DET",
+    "odds": "-102",
+    "result_score": "KC 3 \u00b7 DET 4",
+    "classification": "VARIANCE",
+    "post_mortem": "Detroit won the game 4-3 \u2014 but never covered the -1.5. The Tigers trailed 2-0 entering the seventh after Melton was lifted, then Outman hit a 3-run homer off Royals reliever Schreiber to flip it 3-2 Detroit. Kansas City's Josh Rojas tied it 3-3 with an RBI single in the eighth off Drew Anderson, and Dingler's tiebreaking double in the bottom of the eighth was the walk-off margin \u2014 but it only got Detroit to 4-3, one run short of the cover. The thesis was correct (Tigers won, Dobnak was limited to 5 IP, Melton started well), but the game was a 3-3 nail-biter through eight innings and the final margin was exactly one run shy.",
+    "candidate_rule": null,
+    "sample_size_warning": "N=1, insufficient to establish rule. Single-run margins on run lines are inherent variance; no pattern to act on from one game.",
+    "analyzed_at": "2026-07-24T01:56:31.532247-04:00"
+  },
+  {
+    "id": "20260723-MLB-ARI-STL-ML",
+    "date": "2026-07-23",
+    "pick": "St. Louis Cardinals ML",
+    "game": "ARI @ STL",
+    "odds": "-120",
+    "result_score": "ARI 10 \u00b7 STL 6",
+    "classification": "MODEL",
+    "post_mortem": "McGreevy was fine (4 ER in 6.1 IP, including a Locklear 2-run HR in the 4th), but the thesis ignored two critical factors: Pfaadt's recent form (3.34 ERA over his last 10 starts, 6.67 K/9) versus his inflated season ERA, and McGreevy's 4.14 FIP signaling ERA overperformance. The Cardinals' bullpen delivered the killing blow \u2014 Arizona sent 11 batters to the plate in the 8th and scored 5 runs off Svanson, turning a competitive game into a 10-6 blowout. The 4-run Cardinals 9th was garbage time against a mop-up arm.",
+    "candidate_rule": "When using ERA as a pitcher-quality proxy, require a recent-form check (last 10 starts ERA/K%) as a mandatory data point \u2014 if recent ERA diverges from season ERA by more than 1.00, flag the pick for manual review before publishing; N=1, insufficient to establish rule.",
+    "sample_size_warning": "N=1, insufficient to establish rule \u2014 single-game bullpen collapses are high-variance events; monitor Cardinals relief ERA in home games over next 10 appearances before drawing structural conclusions.",
+    "analyzed_at": "2026-07-24T01:56:13.517689-04:00"
+  },
+  {
+    "id": "20260723-MLB-KC-DET-PROP-TROYMELTON",
+    "date": "2026-07-23",
+    "pick": "Troy Melton Ks Over 5.5",
+    "game": "KC @ DET",
+    "odds": "-118",
+    "result_score": "Troy Melton: 5 strikeOuts",
+    "classification": "MODEL",
+    "post_mortem": "Melton was pulled after exactly 5 innings and 90 pitches, facing only 24 batters \u2014 the workload cap the pick itself identified as the primary risk. With 5 Ks in 5 IP he was striking out roughly one per inning, meaning he needed a 6th inning just to hit the number. The thesis correctly identified his stuff and the depleted Royals lineup, but priced the prop as if a full 6-IP outing was the base case when the team's documented pitch-count caution made a 5-inning hook the more likely outcome. The 'case against' was the right call and should have been the deciding factor.",
+    "candidate_rule": "For pitcher K props on starters with documented workload restrictions or recent injury flags, require projected IP \u2265 6.0 before backing an over line that needs 6+ innings to clear \u2014 N=1, insufficient to establish rule.",
+    "sample_size_warning": "N=1, insufficient to establish rule. One data point; monitor for pattern across managed starters with sub-6 IP ceilings.",
+    "analyzed_at": "2026-07-24T01:55:47.081068-04:00"
+  },
+  {
+    "id": "20260723-MLB-ARI-STL-TOTAL",
+    "date": "2026-07-23",
+    "pick": "Under 7.5",
+    "game": "ARI @ STL",
+    "odds": "-110",
+    "result_score": "ARI 10 \u00b7 STL 6",
+    "classification": "MODEL",
+    "post_mortem": "The under thesis was built on McGreevy's elite command and a low-scoring environment, but two critical data points were ignored or underweighted: McGreevy's 4.14 FIP/4.06 xFIP sat more than a full run above his 2.92 ERA, flagging meaningful regression risk, and Pfaadt carried a 4.74 ERA on the road with a .440 slugging percentage allowed away from home. The game broke open in two specific bursts \u2014 Arizona sent 11 batters to the plate in the 8th inning and scored five runs off the Cardinals bullpen (Svanson/Bruihl), and STL's bullpen then surrendered four two-out runs in the 9th off Ryan Thompson, turning a manageable 5-2 deficit into a 10-6 blowout. McGreevy himself allowed four runs on seven hits in 6.1 innings, including a two-run homer to Locklear in the 4th \u2014 the exact 'one mistake' scenario the case-against flagged but the model didn't price in adequately. The under was effectively dead by the end of the 8th.",
+    "candidate_rule": "When a starter's FIP/xFIP exceeds ERA by 1.0+ runs AND the opposing starter carries a road ERA above 4.50, apply a bullpen-exposure penalty to any under bet \u2014 the combination signals elevated late-inning run risk that ERA-based framing will systematically miss; requires N\u226520 similar setups to validate as a filter.",
+    "sample_size_warning": "N=1, insufficient to establish rule \u2014 this is a directional hypothesis only, not a validated pattern.",
+    "analyzed_at": "2026-07-24T01:55:33.591795-04:00"
+  },
+  {
     "id": "20260722-MLB-LAD-PHI-PROP-SHOHEIOHTANI",
     "date": "2026-07-22",
     "pick": "Shohei Ohtani Total Bases Over 1.5",

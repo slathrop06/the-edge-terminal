@@ -5,6 +5,14 @@
   "target": 10,
   "history": [
     {
+      "date": "2026-07-23",
+      "pick_id": "20260723-MLB-KC-DET-SPREAD",
+      "pick": "Detroit Tigers -1.5",
+      "game": "KC @ DET",
+      "status": "LOSS",
+      "after_streak": 0
+    },
+    {
       "date": "2026-07-22",
       "pick_id": "20260722-MLB-BAL-BOS-ML",
       "pick": "Boston Red Sox ML",
@@ -397,5 +405,5 @@
       "after_streak": 1
     }
   ],
-  "updated_at": "2026-07-23T02:07:26.172961-04:00"
+  "updated_at": "2026-07-24T01:56:13.533105-04:00"
 }
