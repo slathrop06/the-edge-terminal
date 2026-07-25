@@ -341,5 +341,12 @@
     "units_pl": -3.7308,
     "night_summary": "1-3 night, -3.73u \u2014 a rough one to sit through. The bright spot was Gavin Williams, who didn't just clear 6.5 Ks, he torched the Twins for 11 strikeouts over seven scoreless innings, including an immaculate inning in the 4th on nine pitches \u2014 a dominant, clean win. The ARI @ STL double (under and Cardinals ML) was a model failure on both counts: McGreevy's FIP was screaming regression, Pfaadt's recent form was better than his season number, and Arizona sent 11 batters to the plate in the 8th to blow it open 10-6. We got those wrong. The Tigers -1.5 ladder pick stings differently \u2014 Detroit won 4-3, but the margin was exactly one run short of the cover; Outman's 3-run homer flipped it in the 7th, Rojas tied it in the 8th, Dingler walked it off, and that was the ballgame. Right call, wrong spread \u2014 pure variance. Troy Melton's K prop was a model miss too: 5 Ks in 5 innings, pulled at 90 pitches, never got the 6th inning the over needed. Ladder resets at 0 of 10 \u2014 back to square one.",
     "generated_at": "2026-07-24T01:56:52.787693-04:00"
+  },
+  "2026-07-24": {
+    "date": "2026-07-24",
+    "record": "2-3-0",
+    "units_pl": -1.0198,
+    "night_summary": "2-3 night, -1.02u \u2014 a grind. The bright spot was Ohtani, who delivered exactly what the model wanted: a leadoff single off Manaea, then a go-ahead sac fly to center in the 7th to put LA up 2-1, finishing with 3 total bases in a 4-2 Dodgers win (+1.5u). KC @ DET was the ladder pick and it did its job quietly \u2014 a 2-1 final, well inside the 7.5, ladder now at 1 of 10. The SEA @ TEX under was the gut-punch: 3-3 through five, exactly the game we drew up, until Burger singled in the go-ahead run in the 6th and Lopez's bunt turned into a Bazardo bare-hand flip that sailed off Cal Raleigh's glove \u2014 unearned run, 5-3 Rangers, variance loss, not a thesis failure. Marte and Buxton were tougher to swallow: Marte got opener-swapped into Zack Littell and never had a real shot at the line (DATA loss), and Buxton ran into a lefty the model didn't properly L/R-adjust for, going 0-for-2 with no contact to speak of (MODEL loss, noted for the rulebook). Ladder is at 1 of 10 \u2014 back to climbing.",
+    "generated_at": "2026-07-25T01:49:24.314339-04:00"
   }
 }

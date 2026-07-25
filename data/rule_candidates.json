@@ -502,5 +502,21 @@
     "candidate_rule": "When using ERA as a pitcher-quality proxy, require a recent-form check (last 10 starts ERA/K%) as a mandatory data point \u2014 if recent ERA diverges from season ERA by more than 1.00, flag the pick for manual review before publishing; N=1, insufficient to establish rule.",
     "sample_size_warning": "N=1, insufficient to establish rule \u2014 single-game bullpen collapses are high-variance events; monitor Cardinals relief ERA in home games over next 10 appearances before drawing structural conclusions.",
     "status": "PENDING_REVIEW"
+  },
+  {
+    "proposed_at": "2026-07-25T01:48:29.248229-04:00",
+    "source_pick_id": "20260724-MLB-ARI-WSH-PROP-KETELMARTE",
+    "source_loss": "Ketel Marte TB Over 1.5 (ARI @ WSH)",
+    "candidate_rule": "Flag any player prop where the target pitcher is an opener with sub-2-inning expected usage \u2014 if the bulk reliever is a credible arm (Littell: 4.84 ERA vs. ARI career), the matchup thesis evaporates after the 1st or 2nd inning; require the prop to hold value against the full bullpen, not just the opener. (N=1, insufficient to establish rule.)",
+    "sample_size_warning": "N=1, insufficient to establish rule \u2014 but the opener/bulk-reliever structure is a recurring setup worth tracking as a data validation gap.",
+    "status": "PENDING_REVIEW"
+  },
+  {
+    "proposed_at": "2026-07-25T01:48:45.900034-04:00",
+    "source_pick_id": "20260724-MLB-ATH-MIN-PROP-BYRONBUXTON",
+    "source_loss": "Byron Buxton TB Over 1.5 (ATH @ MIN)",
+    "candidate_rule": "Before targeting a batter prop against a pitcher with a high ERA, validate the batter's handedness split vs. that pitcher's arm \u2014 a right-handed batter vs. a lefty with strong L/R suppression can negate the ERA signal entirely; requires N\u226520 same-handedness PA sample to be actionable.",
+    "sample_size_warning": "N=1, insufficient to establish rule \u2014 but the L/R split omission is a structural gap in the model worth flagging immediately.",
+    "status": "PENDING_REVIEW"
   }
 ]

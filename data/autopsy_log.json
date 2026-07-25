@@ -1,5 +1,44 @@
 [
   {
+    "id": "20260724-MLB-SEA-TEX-TOTAL",
+    "date": "2026-07-24",
+    "pick": "Under 7.5",
+    "game": "SEA @ TEX",
+    "odds": "-105",
+    "result_score": "SEA 4 \u00b7 TEX 5",
+    "classification": "VARIANCE",
+    "post_mortem": "The under was alive and well through five innings at 3-3 \u2014 exactly the low-scoring game the thesis projected. Miller's undoing was two specific unlucky moments: Langford hit a solo HR in the 1st on a splitter that 'didn't split,' and Burger muscled a 96-mph fastball above the zone \u2014 described as 'not exactly a bad pitch' \u2014 for a 2-run HR in the 4th to tie it 3-3. The kill shot came in the 6th off reliever Eduard Bazardo: Burger singled in a run, then Nicky Lopez dropped a bunt and Bazardo's bare-handed underhand toss sailed off catcher Cal Raleigh's glove, letting Evan Carter score an unearned run to make it 5-3. Miller finished with 0 strikeouts in 5.1 IP \u2014 a career first \u2014 but the fly-ball contact was largely weak (just one barrel), and the 6th-inning passed ball/error sequence was the decisive, unforeseeable moment that pushed the total over.",
+    "candidate_rule": null,
+    "sample_size_warning": "N=1, insufficient to establish rule. The loss was driven by a bunt-play passed ball in the 6th, not a thesis failure \u2014 no rule warranted from a single chaotic sequence.",
+    "analyzed_at": "2026-07-25T01:49:02.650132-04:00"
+  },
+  {
+    "id": "20260724-MLB-ATH-MIN-PROP-BYRONBUXTON",
+    "date": "2026-07-24",
+    "pick": "Byron Buxton TB Over 1.5",
+    "game": "ATH @ MIN",
+    "odds": "-120",
+    "result_score": "Byron Buxton: 0 totalBases",
+    "classification": "MODEL",
+    "post_mortem": "The thesis was built entirely on Lopez's ERA and HR/9 \u2014 but those numbers masked a critical hidden factor: Lopez is a lefthander, and the Twins have a documented struggle against left-handed starters. Lopez went 5 scoreless innings, allowing just 1 hit and walking 4, while the entire Twins lineup went 0-for-8 with RISP. Buxton specifically went 0-for-2 with an HBP \u2014 his one plate appearance against Lopez with a runner on base resulted in a line drive right at the left fielder, and his other PA was a flyout to deep center. The ERA/HR/9 data was real but the model ignored the L/R split context that made Lopez a completely different pitcher against this lineup.",
+    "candidate_rule": "Before targeting a batter prop against a pitcher with a high ERA, validate the batter's handedness split vs. that pitcher's arm \u2014 a right-handed batter vs. a lefty with strong L/R suppression can negate the ERA signal entirely; requires N\u226520 same-handedness PA sample to be actionable.",
+    "sample_size_warning": "N=1, insufficient to establish rule \u2014 but the L/R split omission is a structural gap in the model worth flagging immediately.",
+    "analyzed_at": "2026-07-25T01:48:45.898039-04:00"
+  },
+  {
+    "id": "20260724-MLB-ARI-WSH-PROP-KETELMARTE",
+    "date": "2026-07-24",
+    "pick": "Ketel Marte TB Over 1.5",
+    "game": "ARI @ WSH",
+    "odds": "-120",
+    "result_score": "Ketel Marte: 1 totalBases",
+    "classification": "DATA",
+    "post_mortem": "Marte was a late scratch the night before with back tightness, and while he returned for this game, he was playing through it \u2014 and had been slashing a cold .229/.276/.343 across 76 July plate appearances entering the game. More critically, the pick was built around feasting on Palmquist, but Palmquist was pulled after just 1 1/3 innings and replaced by bulk reliever Zack Littell, who held Arizona to one run over five innings. Marte's two plate appearances against Palmquist produced a fielder's-choice/challenged double play in the 2nd (ruled safe at first \u2014 1 TB), and his only other hit was a single off Littell in the 7th \u2014 ending the night at exactly 1 TB, one short of the line.",
+    "candidate_rule": "Flag any player prop where the target pitcher is an opener with sub-2-inning expected usage \u2014 if the bulk reliever is a credible arm (Littell: 4.84 ERA vs. ARI career), the matchup thesis evaporates after the 1st or 2nd inning; require the prop to hold value against the full bullpen, not just the opener. (N=1, insufficient to establish rule.)",
+    "sample_size_warning": "N=1, insufficient to establish rule \u2014 but the opener/bulk-reliever structure is a recurring setup worth tracking as a data validation gap.",
+    "analyzed_at": "2026-07-25T01:48:29.246268-04:00"
+  },
+  {
     "id": "20260723-MLB-KC-DET-SPREAD",
     "date": "2026-07-23",
     "pick": "Detroit Tigers -1.5",
