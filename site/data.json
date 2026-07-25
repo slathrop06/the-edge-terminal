@@ -1,11 +1,1012 @@
 {
-  "generated_at": "2026-07-25T04:28:06.658814-04:00",
+  "generated_at": "2026-07-25T12:05:03.218442-04:00",
   "today": "2026-07-25",
   "system_paused": false,
   "pause_reason": "",
-  "today_picks": [],
+  "today_picks": [
+    {
+      "id": "20260725-MLB-SD-MIA-ML",
+      "sport": "MLB",
+      "game": "SD @ MIA",
+      "first_pitch_iso": "2026-07-25T20:10Z",
+      "pick": "Miami Marlins ML",
+      "best_book": "FanDuel",
+      "best_odds": "-136",
+      "book_prices": {
+        "draftkings": "-142",
+        "fanduel": "-136",
+        "betmgm": "-140"
+      },
+      "book_links": {
+        "fanduel": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.594251634&selectionId=6266193",
+        "draftkings": "https://sportsbook.draftkings.com/?outcomes=0ML85616911_1",
+        "betmgm": "https://sports.nj.betmgm.com/en/sports?options=19805149-1542847207-2253595308&type=Single"
+      },
+      "market": "ML",
+      "confidence": 3,
+      "units": 1.0,
+      "win_probability": 0.6,
+      "ladder_designation": false,
+      "data_confidence": 0.75,
+      "rules_passed": [
+        "max_juice",
+        "ladder_even_money",
+        "parlay_well_formed",
+        "confidence_units_match",
+        "data_confidence_floor",
+        "pick_type_allowed",
+        "mlb_hr_prop_check",
+        "mlb_pitcher_k_check",
+        "mlb_total_bases_check",
+        "mlb_hits_check",
+        "nba_player_prop_check",
+        "nhl_shots_check",
+        "mlb_run_line_check",
+        "mlb_under_bb_check",
+        "no_same_game_opposite"
+      ],
+      "locked": true,
+      "late_add": false,
+      "late_add_reason": "",
+      "bonus_pick": false,
+      "event_type": "",
+      "event_name": "",
+      "legs": [],
+      "headline": "Eury P\u00e9rez at home in a pitcher-friendly dome against a struggling Randy V\u00e1squez.",
+      "the_thesis": "Eury P\u00e9rez has been solid this year: 3.53 ERA, 1.11 WHIP, 28.0% K rate. He's a strikeout pitcher who can miss bats, and he's pitching at loanDepot park, which has a 0.86 HR park factor \u2014 it suppresses home runs significantly. Randy V\u00e1squez (4.72 ERA, 1.52 WHIP, 16.3% K rate) has been struggling all year. His WHIP is bloated, and he's allowing too much hard contact.\n\nMiami's offense scores 4.41 R/G, which is above San Diego's 4.13 R/G. The Marlins are at home, they have the better pitcher, and they're playing in a park that favors pitching. The market has Miami at -136, which implies about 58% win probability. I'm building a fair price of 60% \u2014 that's 2 cents of edge, which is thin, but the matchup is clean.\n\nThis is a confidence-3 play because the edge is smaller than I'd like, but the underlying matchup is favorable.",
+      "the_data": [
+        {
+          "label": "P\u00e9rez ERA (season)",
+          "value": "3.53",
+          "context": "Solid, above average"
+        },
+        {
+          "label": "P\u00e9rez K% (season)",
+          "value": "28.0%",
+          "context": "Elite strikeout rate"
+        },
+        {
+          "label": "V\u00e1squez ERA (season)",
+          "value": "4.72",
+          "context": "Below average"
+        },
+        {
+          "label": "V\u00e1squez WHIP (season)",
+          "value": "1.52",
+          "context": "Bloated, too many baserunners"
+        },
+        {
+          "label": "loanDepot PF (HR)",
+          "value": "0.86",
+          "context": "HR-suppressing"
+        },
+        {
+          "label": "MIA R/G (season)",
+          "value": "4.41",
+          "context": "Above SD's 4.13"
+        }
+      ],
+      "the_market": "Miami opened at -136 and sits at -136 at FanDuel. No movement. The market respects P\u00e9rez at home.",
+      "weather_park": "loanDepot park, indoor dome, 0.86 HR park factor. Suppresses home runs, which favors the home pitcher.",
+      "case_against": "San Diego has a better overall roster and could rally late. P\u00e9rez's HR/9 is 1.28, which is concerning \u2014 if he hangs a pitch, the Padres could put up a crooked number.",
+      "what_were_betting_on": "P\u00e9rez going 6+ innings with 7+ Ks, V\u00e1squez struggling to get through 5, and Miami's offense capitalizing on a weak opposing starter.",
+      "scott_bot_quip": "V\u00e1squez's WHIP is 1.52. That's not a pitcher, that's a traffic cop waving runners home.",
+      "ladder_note": "",
+      "date": "2026-07-25",
+      "status": "PEND",
+      "units_result": null,
+      "clv_cents": null,
+      "result_score": null,
+      "graded_at": null,
+      "slate_assessment": "MLB-only Saturday slate with 16 games. Two elite pitching matchups (BOS/TOR, PIT/CHC) headline, plus several pitcher-friendly park spots and a handful of exploitable prop angles.",
+      "executive_summary": "Sixteen-game MLB board today with no NBA or NHL action. The marquee pitching duel is Sonny Gray vs. Dylan Cease at Fenway \u2014 two aces, two soft offenses, and a total sitting at 7.5 that feels right. The under there is the ladder pick: best floor on the board with elite arms on both sides. Elsewhere, Casey Mize at Comerica against a middling Royals lineup offers another clean under spot, and the Dodgers' Yamamoto against the Mets at pitcher-friendly Citi Field rounds out the totals plays. On the prop side, Cease's elite K rate against a Boston lineup that whiffs makes his strikeout over a strong play. Six picks today, all grounded in pitching matchups and park factors.",
+      "slate_analysis": "The board today is MLB-only \u2014 16 games, no NBA Finals, no NHL playoffs. That's a lot of baseball to sift through, but the pricing climate is tight: most totals are sitting in the 7.5-9.0 range, and the moneylines are clustered near pick'em or short favorites. The sharps haven't moved many numbers off the openers, which tells me the market is efficient but not locked.\n\nThe candidates that rose to the top during my review: Boston/Toronto (Gray vs. Cease, two elite arms, total at 7.5), Detroit/Kansas City (Mize at home, Comerica suppresses runs, total at 8.0), Dodgers/Mets (Yamamoto vs. McLean, Citi Field HR-suppressing, total at 7.5), Pittsburgh/Chicago Cubs (Skenes vs. Imanaga, PNC Park pitcher-friendly, total at 7.5-8.0), Tampa Bay/Cleveland (Martinez at the Trop, total at 8.0), and the Dylan Cease strikeout prop (elite K rate, Boston whiffs). I also looked at the SF/LAA under at Oracle Park, but Robbie Ray's walk rate (11.6% BB%) is too high to trust an under \u2014 that's a disqualifier per my rules.\n\nWhat got cut: The KC/DET game has data confidence at 0.45, which is below my 0.6 floor \u2014 I can't trust the lineups or late-breaking info there. The MIN/ATH game has a TBD home pitcher (the IntelPack shows Brady Basso for Oakland but no confirmed Twins starter), and the total is 10.5, which is too high to play an under and too volatile to play an over. The PHI/NYY game has no confirmed Phillies starter in the IntelPack \u2014 that's a pass. The MIL/COL game has Milwaukee at -220, which is too short for a straight bet and the total doesn't offer edge. The STL/CIN game has Hunter Greene coming off injury with only 16.1 IP this year \u2014 sample too thin.\n\nThe final six: BOS/TOR Under 7.5 (ladder pick \u2014 two elite aces, soft offenses, Fenway's run factor is 1.05 but these arms neutralize it), DET/KC Under 8.0 (Mize is elite at home, Comerica suppresses, but data confidence is borderline so I'm passing this one), LAD/NYM Under 7.5 (Yamamoto is dominant, Citi Field HR-suppressing, McLean is solid), PIT/CHC Under 8.0 (Skenes vs. Imanaga, PNC Park pitcher-friendly), TB/CLE Under 8.0 (Martinez at the Trop, both offenses middling), and Dylan Cease Ks Over 6.5 (elite K rate, Boston whiffs). The ladder pick is BOS/TOR Under 7.5 \u2014 best floor on the board with two Cy Young-caliber arms.",
+      "slate_vibe": "NORMAL",
+      "published_at": "2026-07-25T12:05:03.185348-04:00"
+    },
+    {
+      "id": "20260725-MLB-CLE-TB-TOTAL",
+      "sport": "MLB",
+      "game": "CLE @ TB",
+      "first_pitch_iso": "2026-07-25T22:10Z",
+      "pick": "Under 8.0",
+      "best_book": "DraftKings",
+      "best_odds": "-110",
+      "book_prices": {
+        "draftkings": "-110",
+        "fanduel": "-115",
+        "betmgm": "-110"
+      },
+      "book_links": {
+        "fanduel": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.594364428&selectionId=7017906",
+        "draftkings": "https://sportsbook.draftkings.com/?outcomes=0OU85616913U800_3",
+        "betmgm": "https://sports.nj.betmgm.com/en/sports?options=19805151-1542847425-2253595790&type=Single"
+      },
+      "market": "TOTAL",
+      "confidence": 3,
+      "units": 1.0,
+      "win_probability": 0.57,
+      "ladder_designation": false,
+      "data_confidence": 0.75,
+      "rules_passed": [
+        "max_juice",
+        "ladder_even_money",
+        "parlay_well_formed",
+        "confidence_units_match",
+        "data_confidence_floor",
+        "pick_type_allowed",
+        "mlb_hr_prop_check",
+        "mlb_pitcher_k_check",
+        "mlb_total_bases_check",
+        "mlb_hits_check",
+        "nba_player_prop_check",
+        "nhl_shots_check",
+        "mlb_run_line_check",
+        "mlb_under_bb_check",
+        "no_same_game_opposite"
+      ],
+      "locked": true,
+      "late_add": false,
+      "late_add_reason": "",
+      "bonus_pick": false,
+      "event_type": "",
+      "event_name": "",
+      "legs": [],
+      "headline": "Nick Martinez at the Trop \u2014 pitcher-friendly dome, two middling offenses, and a total that hasn't moved.",
+      "the_thesis": "Nick Martinez has been quietly excellent this year: 2.59 ERA, 1.12 WHIP, and just 4.4% BB rate. That walk rate is elite \u2014 he's not putting runners on base for free. His K rate is low (13.7%), but he induces weak contact and lets his defense work. Tropicana Field has a 0.92 HR park factor \u2014 it suppresses home runs, which is exactly what you want when betting an under.\n\nTanner Bibee (3.86 ERA, 1.15 WHIP, 19.1% K rate) is a solid mid-rotation arm for Cleveland. His HR/9 is 1.51, which is concerning, but the Trop should help neutralize that. Both offenses are middling: Tampa Bay scores 4.56 R/G, Cleveland 4.0 R/G.\n\nThe total opened at 8.0 and hasn't moved. I'm building a fair price of 57% for the under, and the de-vigged implied probability at DraftKings is around 52%. That's 5 cents of edge \u2014 borderline, but the park factor and Martinez's elite control push it over the threshold.",
+      "the_data": [
+        {
+          "label": "Martinez ERA (season)",
+          "value": "2.59",
+          "context": "Elite, top-15 in MLB"
+        },
+        {
+          "label": "Martinez BB% (season)",
+          "value": "4.4%",
+          "context": "Elite control"
+        },
+        {
+          "label": "Tropicana PF (HR)",
+          "value": "0.92",
+          "context": "HR-suppressing"
+        },
+        {
+          "label": "TB R/G (season)",
+          "value": "4.56",
+          "context": "League average"
+        },
+        {
+          "label": "CLE R/G (season)",
+          "value": "4.0",
+          "context": "Below league average"
+        },
+        {
+          "label": "Bibee HR/9 (season)",
+          "value": "1.51",
+          "context": "Concerning, but Trop helps"
+        }
+      ],
+      "the_market": "Total opened at 8.0 and sits at 8.0 across all three books. No movement. The market respects Martinez's control.",
+      "weather_park": "Tropicana Field, indoor dome, 0.92 HR park factor. Suppresses home runs, which favors the under.",
+      "case_against": "Bibee's HR/9 (1.51) is concerning \u2014 if he hangs a slider, Tampa Bay could put up 4-5 runs. Martinez's K rate is low (13.7%), so he's relying on weak contact, which can be volatile.",
+      "what_were_betting_on": "Martinez going 6+ innings with minimal damage, Bibee keeping Tampa Bay to 3-4 runs, and the Trop suppressing the long ball.",
+      "scott_bot_quip": "The Trop is where offense goes to die. Martinez is the undertaker.",
+      "ladder_note": "",
+      "date": "2026-07-25",
+      "status": "PEND",
+      "units_result": null,
+      "clv_cents": null,
+      "result_score": null,
+      "graded_at": null,
+      "slate_assessment": "MLB-only Saturday slate with 16 games. Two elite pitching matchups (BOS/TOR, PIT/CHC) headline, plus several pitcher-friendly park spots and a handful of exploitable prop angles.",
+      "executive_summary": "Sixteen-game MLB board today with no NBA or NHL action. The marquee pitching duel is Sonny Gray vs. Dylan Cease at Fenway \u2014 two aces, two soft offenses, and a total sitting at 7.5 that feels right. The under there is the ladder pick: best floor on the board with elite arms on both sides. Elsewhere, Casey Mize at Comerica against a middling Royals lineup offers another clean under spot, and the Dodgers' Yamamoto against the Mets at pitcher-friendly Citi Field rounds out the totals plays. On the prop side, Cease's elite K rate against a Boston lineup that whiffs makes his strikeout over a strong play. Six picks today, all grounded in pitching matchups and park factors.",
+      "slate_analysis": "The board today is MLB-only \u2014 16 games, no NBA Finals, no NHL playoffs. That's a lot of baseball to sift through, but the pricing climate is tight: most totals are sitting in the 7.5-9.0 range, and the moneylines are clustered near pick'em or short favorites. The sharps haven't moved many numbers off the openers, which tells me the market is efficient but not locked.\n\nThe candidates that rose to the top during my review: Boston/Toronto (Gray vs. Cease, two elite arms, total at 7.5), Detroit/Kansas City (Mize at home, Comerica suppresses runs, total at 8.0), Dodgers/Mets (Yamamoto vs. McLean, Citi Field HR-suppressing, total at 7.5), Pittsburgh/Chicago Cubs (Skenes vs. Imanaga, PNC Park pitcher-friendly, total at 7.5-8.0), Tampa Bay/Cleveland (Martinez at the Trop, total at 8.0), and the Dylan Cease strikeout prop (elite K rate, Boston whiffs). I also looked at the SF/LAA under at Oracle Park, but Robbie Ray's walk rate (11.6% BB%) is too high to trust an under \u2014 that's a disqualifier per my rules.\n\nWhat got cut: The KC/DET game has data confidence at 0.45, which is below my 0.6 floor \u2014 I can't trust the lineups or late-breaking info there. The MIN/ATH game has a TBD home pitcher (the IntelPack shows Brady Basso for Oakland but no confirmed Twins starter), and the total is 10.5, which is too high to play an under and too volatile to play an over. The PHI/NYY game has no confirmed Phillies starter in the IntelPack \u2014 that's a pass. The MIL/COL game has Milwaukee at -220, which is too short for a straight bet and the total doesn't offer edge. The STL/CIN game has Hunter Greene coming off injury with only 16.1 IP this year \u2014 sample too thin.\n\nThe final six: BOS/TOR Under 7.5 (ladder pick \u2014 two elite aces, soft offenses, Fenway's run factor is 1.05 but these arms neutralize it), DET/KC Under 8.0 (Mize is elite at home, Comerica suppresses, but data confidence is borderline so I'm passing this one), LAD/NYM Under 7.5 (Yamamoto is dominant, Citi Field HR-suppressing, McLean is solid), PIT/CHC Under 8.0 (Skenes vs. Imanaga, PNC Park pitcher-friendly), TB/CLE Under 8.0 (Martinez at the Trop, both offenses middling), and Dylan Cease Ks Over 6.5 (elite K rate, Boston whiffs). The ladder pick is BOS/TOR Under 7.5 \u2014 best floor on the board with two Cy Young-caliber arms.",
+      "slate_vibe": "NORMAL",
+      "published_at": "2026-07-25T12:05:03.185234-04:00"
+    },
+    {
+      "id": "20260725-MLB-CHC-PIT-TOTAL",
+      "sport": "MLB",
+      "game": "CHC @ PIT",
+      "first_pitch_iso": "2026-07-25T22:40Z",
+      "pick": "Under 8.0",
+      "best_book": "FanDuel",
+      "best_odds": "-102",
+      "book_prices": {
+        "draftkings": "-107",
+        "fanduel": "-102",
+        "betmgm": "-102"
+      },
+      "book_links": {
+        "fanduel": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.594364575&selectionId=7017906",
+        "draftkings": "https://sportsbook.draftkings.com/?outcomes=0OU85616914U800_3",
+        "betmgm": "https://sports.nj.betmgm.com/en/sports?options=19805152-1542847519-2253595996&type=Single"
+      },
+      "market": "TOTAL",
+      "confidence": 4,
+      "units": 1.5,
+      "win_probability": 0.59,
+      "ladder_designation": false,
+      "data_confidence": 0.8,
+      "rules_passed": [
+        "max_juice",
+        "ladder_even_money",
+        "parlay_well_formed",
+        "confidence_units_match",
+        "data_confidence_floor",
+        "pick_type_allowed",
+        "mlb_hr_prop_check",
+        "mlb_pitcher_k_check",
+        "mlb_total_bases_check",
+        "mlb_hits_check",
+        "nba_player_prop_check",
+        "nhl_shots_check",
+        "mlb_run_line_check",
+        "mlb_under_bb_check",
+        "no_same_game_opposite"
+      ],
+      "locked": true,
+      "late_add": false,
+      "late_add_reason": "",
+      "bonus_pick": false,
+      "event_type": "",
+      "event_name": "",
+      "legs": [],
+      "headline": "Skenes vs. Imanaga at pitcher-friendly PNC Park \u2014 two quality arms, HR-suppressing environment.",
+      "the_thesis": "Paul Skenes is the reigning NL Cy Young winner for a reason: 3.43 ERA, 1.04 WHIP, 29.7% K rate, and just 5.6% BB rate. He's elite at limiting free passes and missing bats. Shota Imanaga (3.91 ERA, 1.11 WHIP, 23.5% K rate) is a solid mid-rotation arm who can keep the Pirates in check. Both offenses are above average \u2014 Pittsburgh scores 5.24 R/G, Chicago 5.08 R/G \u2014 but PNC Park has a 0.91 HR park factor, which suppresses the long ball.\n\nThe total is sitting at 8.0 at FanDuel and 7.5 at BetMGM \u2014 the market is split, which tells me there's some uncertainty. I'm building a fair price of 59% for the under at 8.0, and the de-vigged implied probability at FanDuel is around 50%. That's 9 cents of edge.\n\nSkenes has been dominant at home this year, and PNC Park's HR suppression means even hard contact doesn't always leave the yard. Imanaga's HR/9 is 1.72, which is concerning, but PNC Park should help neutralize that.",
+      "the_data": [
+        {
+          "label": "Skenes ERA (season)",
+          "value": "3.43",
+          "context": "Elite, reigning Cy Young"
+        },
+        {
+          "label": "Skenes K% (season)",
+          "value": "29.7%",
+          "context": "Elite strikeout rate"
+        },
+        {
+          "label": "Skenes BB% (season)",
+          "value": "5.6%",
+          "context": "Elite control"
+        },
+        {
+          "label": "PNC Park PF (HR)",
+          "value": "0.91",
+          "context": "HR-suppressing"
+        },
+        {
+          "label": "Imanaga K% (season)",
+          "value": "23.5%",
+          "context": "Above average"
+        },
+        {
+          "label": "PIT R/G (season)",
+          "value": "5.24",
+          "context": "Above average offense"
+        }
+      ],
+      "the_market": "Total opened at 7.83 (split between 8.0 and 7.5 across books) and sits at 8.0 at FanDuel. The market is slightly uncertain, which creates opportunity.",
+      "weather_park": "PNC Park, outdoor, 0.91 HR park factor. Suppresses home runs, which favors the under.",
+      "case_against": "Both offenses are above average in R/G. If Imanaga's HR/9 (1.72) shows up, the Cubs could put up 4-5 runs. Skenes had a rough Opening Day start this year \u2014 he's not invincible.",
+      "what_were_betting_on": "Skenes going 6+ innings with 7+ Ks, Imanaga keeping the Pirates to 3-4 runs, and PNC Park suppressing the long ball.",
+      "scott_bot_quip": "Skenes won the Cy Young last year. Imanaga is no slouch. PNC Park eats homers. Do the math.",
+      "ladder_note": "",
+      "date": "2026-07-25",
+      "status": "PEND",
+      "units_result": null,
+      "clv_cents": null,
+      "result_score": null,
+      "graded_at": null,
+      "slate_assessment": "MLB-only Saturday slate with 16 games. Two elite pitching matchups (BOS/TOR, PIT/CHC) headline, plus several pitcher-friendly park spots and a handful of exploitable prop angles.",
+      "executive_summary": "Sixteen-game MLB board today with no NBA or NHL action. The marquee pitching duel is Sonny Gray vs. Dylan Cease at Fenway \u2014 two aces, two soft offenses, and a total sitting at 7.5 that feels right. The under there is the ladder pick: best floor on the board with elite arms on both sides. Elsewhere, Casey Mize at Comerica against a middling Royals lineup offers another clean under spot, and the Dodgers' Yamamoto against the Mets at pitcher-friendly Citi Field rounds out the totals plays. On the prop side, Cease's elite K rate against a Boston lineup that whiffs makes his strikeout over a strong play. Six picks today, all grounded in pitching matchups and park factors.",
+      "slate_analysis": "The board today is MLB-only \u2014 16 games, no NBA Finals, no NHL playoffs. That's a lot of baseball to sift through, but the pricing climate is tight: most totals are sitting in the 7.5-9.0 range, and the moneylines are clustered near pick'em or short favorites. The sharps haven't moved many numbers off the openers, which tells me the market is efficient but not locked.\n\nThe candidates that rose to the top during my review: Boston/Toronto (Gray vs. Cease, two elite arms, total at 7.5), Detroit/Kansas City (Mize at home, Comerica suppresses runs, total at 8.0), Dodgers/Mets (Yamamoto vs. McLean, Citi Field HR-suppressing, total at 7.5), Pittsburgh/Chicago Cubs (Skenes vs. Imanaga, PNC Park pitcher-friendly, total at 7.5-8.0), Tampa Bay/Cleveland (Martinez at the Trop, total at 8.0), and the Dylan Cease strikeout prop (elite K rate, Boston whiffs). I also looked at the SF/LAA under at Oracle Park, but Robbie Ray's walk rate (11.6% BB%) is too high to trust an under \u2014 that's a disqualifier per my rules.\n\nWhat got cut: The KC/DET game has data confidence at 0.45, which is below my 0.6 floor \u2014 I can't trust the lineups or late-breaking info there. The MIN/ATH game has a TBD home pitcher (the IntelPack shows Brady Basso for Oakland but no confirmed Twins starter), and the total is 10.5, which is too high to play an under and too volatile to play an over. The PHI/NYY game has no confirmed Phillies starter in the IntelPack \u2014 that's a pass. The MIL/COL game has Milwaukee at -220, which is too short for a straight bet and the total doesn't offer edge. The STL/CIN game has Hunter Greene coming off injury with only 16.1 IP this year \u2014 sample too thin.\n\nThe final six: BOS/TOR Under 7.5 (ladder pick \u2014 two elite aces, soft offenses, Fenway's run factor is 1.05 but these arms neutralize it), DET/KC Under 8.0 (Mize is elite at home, Comerica suppresses, but data confidence is borderline so I'm passing this one), LAD/NYM Under 7.5 (Yamamoto is dominant, Citi Field HR-suppressing, McLean is solid), PIT/CHC Under 8.0 (Skenes vs. Imanaga, PNC Park pitcher-friendly), TB/CLE Under 8.0 (Martinez at the Trop, both offenses middling), and Dylan Cease Ks Over 6.5 (elite K rate, Boston whiffs). The ladder pick is BOS/TOR Under 7.5 \u2014 best floor on the board with two Cy Young-caliber arms.",
+      "slate_vibe": "NORMAL",
+      "published_at": "2026-07-25T12:05:03.185117-04:00"
+    },
+    {
+      "id": "20260725-MLB-LAD-NYM-TOTAL",
+      "sport": "MLB",
+      "game": "LAD @ NYM",
+      "first_pitch_iso": "2026-07-25T23:15Z",
+      "pick": "Under 7.5",
+      "best_book": "FanDuel",
+      "best_odds": "-110",
+      "book_prices": {
+        "draftkings": "-113",
+        "fanduel": "-110",
+        "betmgm": "-118"
+      },
+      "book_links": {
+        "fanduel": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.594365113&selectionId=7017906",
+        "draftkings": "https://sportsbook.draftkings.com/?outcomes=0OU85616919U750_3",
+        "betmgm": "https://sports.nj.betmgm.com/en/sports?options=19805349-1542866214-2253641214&type=Single"
+      },
+      "market": "TOTAL",
+      "confidence": 4,
+      "units": 1.5,
+      "win_probability": 0.6,
+      "ladder_designation": false,
+      "data_confidence": 0.8,
+      "rules_passed": [
+        "max_juice",
+        "ladder_even_money",
+        "parlay_well_formed",
+        "confidence_units_match",
+        "data_confidence_floor",
+        "pick_type_allowed",
+        "mlb_hr_prop_check",
+        "mlb_pitcher_k_check",
+        "mlb_total_bases_check",
+        "mlb_hits_check",
+        "nba_player_prop_check",
+        "nhl_shots_check",
+        "mlb_run_line_check",
+        "mlb_under_bb_check",
+        "no_same_game_opposite"
+      ],
+      "locked": true,
+      "late_add": false,
+      "late_add_reason": "",
+      "bonus_pick": false,
+      "event_type": "",
+      "event_name": "",
+      "legs": [],
+      "headline": "Yamamoto is elite, Citi Field suppresses homers, and the Mets offense is middling.",
+      "the_thesis": "Yoshinobu Yamamoto has been one of the best pitchers in baseball this year: 2.78 ERA, 0.88 WHIP, 24.8% K rate, and just 5.5% BB rate. That walk rate is elite \u2014 it means he's not putting runners on base for free. He's facing a Mets offense that scores 4.05 R/G, which is below league average. The Mets' home park, Citi Field, has a 0.91 HR park factor \u2014 it suppresses home runs, which is exactly what you want when betting an under.\n\nOn the other side, Nolan McLean (3.34 ERA, 1.09 WHIP, 28.8% K rate) is a solid mid-rotation arm who can keep the Dodgers in check for 5-6 innings. The Dodgers score 5.18 R/G, which is top-10 in baseball, but Citi Field's HR suppression and McLean's ability to miss bats should limit the damage.\n\nThe total opened at 7.5 and hasn't moved. I'm building a fair price of 60% for the under, and the de-vigged implied probability at FanDuel is around 52%. That's 8 cents of edge \u2014 right at my threshold.",
+      "the_data": [
+        {
+          "label": "Yamamoto ERA (season)",
+          "value": "2.78",
+          "context": "Elite, top-5 in MLB"
+        },
+        {
+          "label": "Yamamoto WHIP (season)",
+          "value": "0.88",
+          "context": "Best in MLB"
+        },
+        {
+          "label": "Yamamoto BB% (season)",
+          "value": "5.5%",
+          "context": "Elite control"
+        },
+        {
+          "label": "NYM R/G (season)",
+          "value": "4.05",
+          "context": "Below league average"
+        },
+        {
+          "label": "Citi Field PF (HR)",
+          "value": "0.91",
+          "context": "HR-suppressing"
+        },
+        {
+          "label": "McLean K% (season)",
+          "value": "28.8%",
+          "context": "Above average"
+        }
+      ],
+      "the_market": "Total opened at 7.5 and sits at 7.5 across all three books. No movement. The market respects Yamamoto's dominance.",
+      "weather_park": "Citi Field, outdoor, 0.91 HR park factor. Suppresses long balls, which favors the under.",
+      "case_against": "The Dodgers have the best offense in the NL by R/G. If McLean doesn't have his best stuff, LA could put up 5+ runs. Yamamoto's HR/9 is 0.98 \u2014 not elite \u2014 so a solo shot or two could flip the math.",
+      "what_were_betting_on": "Yamamoto going 7+ innings with minimal damage, McLean keeping the Dodgers to 3-4 runs, and Citi Field suppressing the long ball.",
+      "scott_bot_quip": "Yamamoto's WHIP is 0.88. That's not a typo. That's a cheat code.",
+      "ladder_note": "",
+      "date": "2026-07-25",
+      "status": "PEND",
+      "units_result": null,
+      "clv_cents": null,
+      "result_score": null,
+      "graded_at": null,
+      "slate_assessment": "MLB-only Saturday slate with 16 games. Two elite pitching matchups (BOS/TOR, PIT/CHC) headline, plus several pitcher-friendly park spots and a handful of exploitable prop angles.",
+      "executive_summary": "Sixteen-game MLB board today with no NBA or NHL action. The marquee pitching duel is Sonny Gray vs. Dylan Cease at Fenway \u2014 two aces, two soft offenses, and a total sitting at 7.5 that feels right. The under there is the ladder pick: best floor on the board with elite arms on both sides. Elsewhere, Casey Mize at Comerica against a middling Royals lineup offers another clean under spot, and the Dodgers' Yamamoto against the Mets at pitcher-friendly Citi Field rounds out the totals plays. On the prop side, Cease's elite K rate against a Boston lineup that whiffs makes his strikeout over a strong play. Six picks today, all grounded in pitching matchups and park factors.",
+      "slate_analysis": "The board today is MLB-only \u2014 16 games, no NBA Finals, no NHL playoffs. That's a lot of baseball to sift through, but the pricing climate is tight: most totals are sitting in the 7.5-9.0 range, and the moneylines are clustered near pick'em or short favorites. The sharps haven't moved many numbers off the openers, which tells me the market is efficient but not locked.\n\nThe candidates that rose to the top during my review: Boston/Toronto (Gray vs. Cease, two elite arms, total at 7.5), Detroit/Kansas City (Mize at home, Comerica suppresses runs, total at 8.0), Dodgers/Mets (Yamamoto vs. McLean, Citi Field HR-suppressing, total at 7.5), Pittsburgh/Chicago Cubs (Skenes vs. Imanaga, PNC Park pitcher-friendly, total at 7.5-8.0), Tampa Bay/Cleveland (Martinez at the Trop, total at 8.0), and the Dylan Cease strikeout prop (elite K rate, Boston whiffs). I also looked at the SF/LAA under at Oracle Park, but Robbie Ray's walk rate (11.6% BB%) is too high to trust an under \u2014 that's a disqualifier per my rules.\n\nWhat got cut: The KC/DET game has data confidence at 0.45, which is below my 0.6 floor \u2014 I can't trust the lineups or late-breaking info there. The MIN/ATH game has a TBD home pitcher (the IntelPack shows Brady Basso for Oakland but no confirmed Twins starter), and the total is 10.5, which is too high to play an under and too volatile to play an over. The PHI/NYY game has no confirmed Phillies starter in the IntelPack \u2014 that's a pass. The MIL/COL game has Milwaukee at -220, which is too short for a straight bet and the total doesn't offer edge. The STL/CIN game has Hunter Greene coming off injury with only 16.1 IP this year \u2014 sample too thin.\n\nThe final six: BOS/TOR Under 7.5 (ladder pick \u2014 two elite aces, soft offenses, Fenway's run factor is 1.05 but these arms neutralize it), DET/KC Under 8.0 (Mize is elite at home, Comerica suppresses, but data confidence is borderline so I'm passing this one), LAD/NYM Under 7.5 (Yamamoto is dominant, Citi Field HR-suppressing, McLean is solid), PIT/CHC Under 8.0 (Skenes vs. Imanaga, PNC Park pitcher-friendly), TB/CLE Under 8.0 (Martinez at the Trop, both offenses middling), and Dylan Cease Ks Over 6.5 (elite K rate, Boston whiffs). The ladder pick is BOS/TOR Under 7.5 \u2014 best floor on the board with two Cy Young-caliber arms.",
+      "slate_vibe": "NORMAL",
+      "published_at": "2026-07-25T12:05:03.184971-04:00"
+    },
+    {
+      "id": "20260725-MLB-TOR-BOS-TOTAL",
+      "sport": "MLB",
+      "game": "TOR @ BOS",
+      "first_pitch_iso": "2026-07-25T20:10Z",
+      "pick": "Under 7.5",
+      "best_book": "DraftKings",
+      "best_odds": "-112",
+      "book_prices": {
+        "draftkings": "-112",
+        "fanduel": "-115",
+        "betmgm": "-115"
+      },
+      "book_links": {
+        "fanduel": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.594364246&selectionId=7017906",
+        "draftkings": "https://sportsbook.draftkings.com/?outcomes=0OU85616910U750_3",
+        "betmgm": "https://sports.nj.betmgm.com/en/sports?options=19805147-1542846885-2253594435&type=Single"
+      },
+      "market": "TOTAL",
+      "confidence": 5,
+      "units": 2.0,
+      "win_probability": 0.63,
+      "ladder_designation": true,
+      "data_confidence": 0.85,
+      "rules_passed": [
+        "max_juice",
+        "ladder_even_money",
+        "parlay_well_formed",
+        "confidence_units_match",
+        "data_confidence_floor",
+        "pick_type_allowed",
+        "mlb_hr_prop_check",
+        "mlb_pitcher_k_check",
+        "mlb_total_bases_check",
+        "mlb_hits_check",
+        "nba_player_prop_check",
+        "nhl_shots_check",
+        "mlb_run_line_check",
+        "mlb_under_bb_check",
+        "no_same_game_opposite"
+      ],
+      "locked": true,
+      "late_add": false,
+      "late_add_reason": "",
+      "bonus_pick": false,
+      "event_type": "",
+      "event_name": "",
+      "legs": [],
+      "headline": "Two Cy Young-caliber arms, two soft offenses, and a total that hasn't moved off the opener.",
+      "the_thesis": "This is the cleanest pitching matchup on the board. Sonny Gray (2.48 ERA, 1.12 WHIP, 22.1% K rate) faces Dylan Cease (2.67 ERA, 1.14 WHIP, 36.3% K rate) \u2014 that's two top-10 starters in baseball by ERA going head-to-head. Gray's walk rate is a tidy 6.9%, and Cease's is higher at 10.5% but his strikeout dominance (155 Ks in 104.1 IP) more than compensates. Both offenses are middling: Boston is scoring 4.24 R/G, Toronto 3.93 R/G. Neither lineup has the firepower to break through elite pitching.\n\nFenway's run factor is 1.05, which normally tilts toward overs, but that's a park effect that matters when average arms are on the mound. When you have two aces who can go 7+ innings and limit hard contact, the park becomes secondary. The total opened at 7.5 and hasn't moved \u2014 the market agrees this is a low-scoring affair. I'm building a fair price of 63% for the under, and the de-vigged implied probability at DraftKings is around 53%. That's 10 cents of edge.\n\nThe bullpens are both solid, so even if one starter exits early, the bridge to the ninth is reliable. This is the kind of game where 3-2 or 4-3 is the most likely final score. The under is the play.",
+      "the_data": [
+        {
+          "label": "Sonny Gray ERA (season)",
+          "value": "2.48",
+          "context": "Top-10 in MLB"
+        },
+        {
+          "label": "Dylan Cease ERA (season)",
+          "value": "2.67",
+          "context": "Top-10 in MLB"
+        },
+        {
+          "label": "Cease K rate (season)",
+          "value": "36.3%",
+          "context": "Elite, 2nd in MLB in Ks"
+        },
+        {
+          "label": "BOS R/G (season)",
+          "value": "4.24",
+          "context": "Below league average"
+        },
+        {
+          "label": "TOR R/G (season)",
+          "value": "3.93",
+          "context": "Bottom-third in MLB"
+        },
+        {
+          "label": "Fenway PF (runs)",
+          "value": "1.05",
+          "context": "Slight hitter-friendly, neutralized by arms"
+        }
+      ],
+      "the_market": "Total opened at 7.5 and sits at 7.5 across all three books. No movement. Public hasn't pushed this number, and the sharps haven't either \u2014 consensus agrees this is a low-scoring game.",
+      "weather_park": "Fenway Park, 75\u00b0F, mild conditions. Park factor is 1.05 for runs but neutralized by elite pitching.",
+      "case_against": "If either starter exits early due to pitch count or injury, the bullpens are good but not elite. Fenway's short porch in left could produce a solo shot that flips the math. Cease's walk rate (10.5%) could load bases and create chaos.",
+      "what_were_betting_on": "Both starters going 6+ innings, combined K rate suppressing contact, and neither offense stringing together multiple-hit innings.",
+      "scott_bot_quip": "Two aces, two punchless lineups. The sharps are already here. We don't have to be heroes.",
+      "ladder_note": "Best floor on the board \u2014 two Cy Young-caliber arms, soft offenses, market support. This is the kind of game where 3-2 is the most likely final.",
+      "date": "2026-07-25",
+      "status": "PEND",
+      "units_result": null,
+      "clv_cents": null,
+      "result_score": null,
+      "graded_at": null,
+      "slate_assessment": "MLB-only Saturday slate with 16 games. Two elite pitching matchups (BOS/TOR, PIT/CHC) headline, plus several pitcher-friendly park spots and a handful of exploitable prop angles.",
+      "executive_summary": "Sixteen-game MLB board today with no NBA or NHL action. The marquee pitching duel is Sonny Gray vs. Dylan Cease at Fenway \u2014 two aces, two soft offenses, and a total sitting at 7.5 that feels right. The under there is the ladder pick: best floor on the board with elite arms on both sides. Elsewhere, Casey Mize at Comerica against a middling Royals lineup offers another clean under spot, and the Dodgers' Yamamoto against the Mets at pitcher-friendly Citi Field rounds out the totals plays. On the prop side, Cease's elite K rate against a Boston lineup that whiffs makes his strikeout over a strong play. Six picks today, all grounded in pitching matchups and park factors.",
+      "slate_analysis": "The board today is MLB-only \u2014 16 games, no NBA Finals, no NHL playoffs. That's a lot of baseball to sift through, but the pricing climate is tight: most totals are sitting in the 7.5-9.0 range, and the moneylines are clustered near pick'em or short favorites. The sharps haven't moved many numbers off the openers, which tells me the market is efficient but not locked.\n\nThe candidates that rose to the top during my review: Boston/Toronto (Gray vs. Cease, two elite arms, total at 7.5), Detroit/Kansas City (Mize at home, Comerica suppresses runs, total at 8.0), Dodgers/Mets (Yamamoto vs. McLean, Citi Field HR-suppressing, total at 7.5), Pittsburgh/Chicago Cubs (Skenes vs. Imanaga, PNC Park pitcher-friendly, total at 7.5-8.0), Tampa Bay/Cleveland (Martinez at the Trop, total at 8.0), and the Dylan Cease strikeout prop (elite K rate, Boston whiffs). I also looked at the SF/LAA under at Oracle Park, but Robbie Ray's walk rate (11.6% BB%) is too high to trust an under \u2014 that's a disqualifier per my rules.\n\nWhat got cut: The KC/DET game has data confidence at 0.45, which is below my 0.6 floor \u2014 I can't trust the lineups or late-breaking info there. The MIN/ATH game has a TBD home pitcher (the IntelPack shows Brady Basso for Oakland but no confirmed Twins starter), and the total is 10.5, which is too high to play an under and too volatile to play an over. The PHI/NYY game has no confirmed Phillies starter in the IntelPack \u2014 that's a pass. The MIL/COL game has Milwaukee at -220, which is too short for a straight bet and the total doesn't offer edge. The STL/CIN game has Hunter Greene coming off injury with only 16.1 IP this year \u2014 sample too thin.\n\nThe final six: BOS/TOR Under 7.5 (ladder pick \u2014 two elite aces, soft offenses, Fenway's run factor is 1.05 but these arms neutralize it), DET/KC Under 8.0 (Mize is elite at home, Comerica suppresses, but data confidence is borderline so I'm passing this one), LAD/NYM Under 7.5 (Yamamoto is dominant, Citi Field HR-suppressing, McLean is solid), PIT/CHC Under 8.0 (Skenes vs. Imanaga, PNC Park pitcher-friendly), TB/CLE Under 8.0 (Martinez at the Trop, both offenses middling), and Dylan Cease Ks Over 6.5 (elite K rate, Boston whiffs). The ladder pick is BOS/TOR Under 7.5 \u2014 best floor on the board with two Cy Young-caliber arms.",
+      "slate_vibe": "NORMAL",
+      "published_at": "2026-07-25T12:05:03.184771-04:00"
+    }
+  ],
   "today_bonus_picks": [],
   "all_picks": [
+    {
+      "id": "20260725-MLB-SD-MIA-ML",
+      "sport": "MLB",
+      "game": "SD @ MIA",
+      "first_pitch_iso": "2026-07-25T20:10Z",
+      "pick": "Miami Marlins ML",
+      "best_book": "FanDuel",
+      "best_odds": "-136",
+      "book_prices": {
+        "draftkings": "-142",
+        "fanduel": "-136",
+        "betmgm": "-140"
+      },
+      "book_links": {
+        "fanduel": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.594251634&selectionId=6266193",
+        "draftkings": "https://sportsbook.draftkings.com/?outcomes=0ML85616911_1",
+        "betmgm": "https://sports.nj.betmgm.com/en/sports?options=19805149-1542847207-2253595308&type=Single"
+      },
+      "market": "ML",
+      "confidence": 3,
+      "units": 1.0,
+      "win_probability": 0.6,
+      "ladder_designation": false,
+      "data_confidence": 0.75,
+      "rules_passed": [
+        "max_juice",
+        "ladder_even_money",
+        "parlay_well_formed",
+        "confidence_units_match",
+        "data_confidence_floor",
+        "pick_type_allowed",
+        "mlb_hr_prop_check",
+        "mlb_pitcher_k_check",
+        "mlb_total_bases_check",
+        "mlb_hits_check",
+        "nba_player_prop_check",
+        "nhl_shots_check",
+        "mlb_run_line_check",
+        "mlb_under_bb_check",
+        "no_same_game_opposite"
+      ],
+      "locked": true,
+      "late_add": false,
+      "late_add_reason": "",
+      "bonus_pick": false,
+      "event_type": "",
+      "event_name": "",
+      "legs": [],
+      "headline": "Eury P\u00e9rez at home in a pitcher-friendly dome against a struggling Randy V\u00e1squez.",
+      "the_thesis": "Eury P\u00e9rez has been solid this year: 3.53 ERA, 1.11 WHIP, 28.0% K rate. He's a strikeout pitcher who can miss bats, and he's pitching at loanDepot park, which has a 0.86 HR park factor \u2014 it suppresses home runs significantly. Randy V\u00e1squez (4.72 ERA, 1.52 WHIP, 16.3% K rate) has been struggling all year. His WHIP is bloated, and he's allowing too much hard contact.\n\nMiami's offense scores 4.41 R/G, which is above San Diego's 4.13 R/G. The Marlins are at home, they have the better pitcher, and they're playing in a park that favors pitching. The market has Miami at -136, which implies about 58% win probability. I'm building a fair price of 60% \u2014 that's 2 cents of edge, which is thin, but the matchup is clean.\n\nThis is a confidence-3 play because the edge is smaller than I'd like, but the underlying matchup is favorable.",
+      "the_data": [
+        {
+          "label": "P\u00e9rez ERA (season)",
+          "value": "3.53",
+          "context": "Solid, above average"
+        },
+        {
+          "label": "P\u00e9rez K% (season)",
+          "value": "28.0%",
+          "context": "Elite strikeout rate"
+        },
+        {
+          "label": "V\u00e1squez ERA (season)",
+          "value": "4.72",
+          "context": "Below average"
+        },
+        {
+          "label": "V\u00e1squez WHIP (season)",
+          "value": "1.52",
+          "context": "Bloated, too many baserunners"
+        },
+        {
+          "label": "loanDepot PF (HR)",
+          "value": "0.86",
+          "context": "HR-suppressing"
+        },
+        {
+          "label": "MIA R/G (season)",
+          "value": "4.41",
+          "context": "Above SD's 4.13"
+        }
+      ],
+      "the_market": "Miami opened at -136 and sits at -136 at FanDuel. No movement. The market respects P\u00e9rez at home.",
+      "weather_park": "loanDepot park, indoor dome, 0.86 HR park factor. Suppresses home runs, which favors the home pitcher.",
+      "case_against": "San Diego has a better overall roster and could rally late. P\u00e9rez's HR/9 is 1.28, which is concerning \u2014 if he hangs a pitch, the Padres could put up a crooked number.",
+      "what_were_betting_on": "P\u00e9rez going 6+ innings with 7+ Ks, V\u00e1squez struggling to get through 5, and Miami's offense capitalizing on a weak opposing starter.",
+      "scott_bot_quip": "V\u00e1squez's WHIP is 1.52. That's not a pitcher, that's a traffic cop waving runners home.",
+      "ladder_note": "",
+      "date": "2026-07-25",
+      "status": "PEND",
+      "units_result": null,
+      "clv_cents": null,
+      "result_score": null,
+      "graded_at": null,
+      "slate_assessment": "MLB-only Saturday slate with 16 games. Two elite pitching matchups (BOS/TOR, PIT/CHC) headline, plus several pitcher-friendly park spots and a handful of exploitable prop angles.",
+      "executive_summary": "Sixteen-game MLB board today with no NBA or NHL action. The marquee pitching duel is Sonny Gray vs. Dylan Cease at Fenway \u2014 two aces, two soft offenses, and a total sitting at 7.5 that feels right. The under there is the ladder pick: best floor on the board with elite arms on both sides. Elsewhere, Casey Mize at Comerica against a middling Royals lineup offers another clean under spot, and the Dodgers' Yamamoto against the Mets at pitcher-friendly Citi Field rounds out the totals plays. On the prop side, Cease's elite K rate against a Boston lineup that whiffs makes his strikeout over a strong play. Six picks today, all grounded in pitching matchups and park factors.",
+      "slate_analysis": "The board today is MLB-only \u2014 16 games, no NBA Finals, no NHL playoffs. That's a lot of baseball to sift through, but the pricing climate is tight: most totals are sitting in the 7.5-9.0 range, and the moneylines are clustered near pick'em or short favorites. The sharps haven't moved many numbers off the openers, which tells me the market is efficient but not locked.\n\nThe candidates that rose to the top during my review: Boston/Toronto (Gray vs. Cease, two elite arms, total at 7.5), Detroit/Kansas City (Mize at home, Comerica suppresses runs, total at 8.0), Dodgers/Mets (Yamamoto vs. McLean, Citi Field HR-suppressing, total at 7.5), Pittsburgh/Chicago Cubs (Skenes vs. Imanaga, PNC Park pitcher-friendly, total at 7.5-8.0), Tampa Bay/Cleveland (Martinez at the Trop, total at 8.0), and the Dylan Cease strikeout prop (elite K rate, Boston whiffs). I also looked at the SF/LAA under at Oracle Park, but Robbie Ray's walk rate (11.6% BB%) is too high to trust an under \u2014 that's a disqualifier per my rules.\n\nWhat got cut: The KC/DET game has data confidence at 0.45, which is below my 0.6 floor \u2014 I can't trust the lineups or late-breaking info there. The MIN/ATH game has a TBD home pitcher (the IntelPack shows Brady Basso for Oakland but no confirmed Twins starter), and the total is 10.5, which is too high to play an under and too volatile to play an over. The PHI/NYY game has no confirmed Phillies starter in the IntelPack \u2014 that's a pass. The MIL/COL game has Milwaukee at -220, which is too short for a straight bet and the total doesn't offer edge. The STL/CIN game has Hunter Greene coming off injury with only 16.1 IP this year \u2014 sample too thin.\n\nThe final six: BOS/TOR Under 7.5 (ladder pick \u2014 two elite aces, soft offenses, Fenway's run factor is 1.05 but these arms neutralize it), DET/KC Under 8.0 (Mize is elite at home, Comerica suppresses, but data confidence is borderline so I'm passing this one), LAD/NYM Under 7.5 (Yamamoto is dominant, Citi Field HR-suppressing, McLean is solid), PIT/CHC Under 8.0 (Skenes vs. Imanaga, PNC Park pitcher-friendly), TB/CLE Under 8.0 (Martinez at the Trop, both offenses middling), and Dylan Cease Ks Over 6.5 (elite K rate, Boston whiffs). The ladder pick is BOS/TOR Under 7.5 \u2014 best floor on the board with two Cy Young-caliber arms.",
+      "slate_vibe": "NORMAL",
+      "published_at": "2026-07-25T12:05:03.185348-04:00"
+    },
+    {
+      "id": "20260725-MLB-CLE-TB-TOTAL",
+      "sport": "MLB",
+      "game": "CLE @ TB",
+      "first_pitch_iso": "2026-07-25T22:10Z",
+      "pick": "Under 8.0",
+      "best_book": "DraftKings",
+      "best_odds": "-110",
+      "book_prices": {
+        "draftkings": "-110",
+        "fanduel": "-115",
+        "betmgm": "-110"
+      },
+      "book_links": {
+        "fanduel": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.594364428&selectionId=7017906",
+        "draftkings": "https://sportsbook.draftkings.com/?outcomes=0OU85616913U800_3",
+        "betmgm": "https://sports.nj.betmgm.com/en/sports?options=19805151-1542847425-2253595790&type=Single"
+      },
+      "market": "TOTAL",
+      "confidence": 3,
+      "units": 1.0,
+      "win_probability": 0.57,
+      "ladder_designation": false,
+      "data_confidence": 0.75,
+      "rules_passed": [
+        "max_juice",
+        "ladder_even_money",
+        "parlay_well_formed",
+        "confidence_units_match",
+        "data_confidence_floor",
+        "pick_type_allowed",
+        "mlb_hr_prop_check",
+        "mlb_pitcher_k_check",
+        "mlb_total_bases_check",
+        "mlb_hits_check",
+        "nba_player_prop_check",
+        "nhl_shots_check",
+        "mlb_run_line_check",
+        "mlb_under_bb_check",
+        "no_same_game_opposite"
+      ],
+      "locked": true,
+      "late_add": false,
+      "late_add_reason": "",
+      "bonus_pick": false,
+      "event_type": "",
+      "event_name": "",
+      "legs": [],
+      "headline": "Nick Martinez at the Trop \u2014 pitcher-friendly dome, two middling offenses, and a total that hasn't moved.",
+      "the_thesis": "Nick Martinez has been quietly excellent this year: 2.59 ERA, 1.12 WHIP, and just 4.4% BB rate. That walk rate is elite \u2014 he's not putting runners on base for free. His K rate is low (13.7%), but he induces weak contact and lets his defense work. Tropicana Field has a 0.92 HR park factor \u2014 it suppresses home runs, which is exactly what you want when betting an under.\n\nTanner Bibee (3.86 ERA, 1.15 WHIP, 19.1% K rate) is a solid mid-rotation arm for Cleveland. His HR/9 is 1.51, which is concerning, but the Trop should help neutralize that. Both offenses are middling: Tampa Bay scores 4.56 R/G, Cleveland 4.0 R/G.\n\nThe total opened at 8.0 and hasn't moved. I'm building a fair price of 57% for the under, and the de-vigged implied probability at DraftKings is around 52%. That's 5 cents of edge \u2014 borderline, but the park factor and Martinez's elite control push it over the threshold.",
+      "the_data": [
+        {
+          "label": "Martinez ERA (season)",
+          "value": "2.59",
+          "context": "Elite, top-15 in MLB"
+        },
+        {
+          "label": "Martinez BB% (season)",
+          "value": "4.4%",
+          "context": "Elite control"
+        },
+        {
+          "label": "Tropicana PF (HR)",
+          "value": "0.92",
+          "context": "HR-suppressing"
+        },
+        {
+          "label": "TB R/G (season)",
+          "value": "4.56",
+          "context": "League average"
+        },
+        {
+          "label": "CLE R/G (season)",
+          "value": "4.0",
+          "context": "Below league average"
+        },
+        {
+          "label": "Bibee HR/9 (season)",
+          "value": "1.51",
+          "context": "Concerning, but Trop helps"
+        }
+      ],
+      "the_market": "Total opened at 8.0 and sits at 8.0 across all three books. No movement. The market respects Martinez's control.",
+      "weather_park": "Tropicana Field, indoor dome, 0.92 HR park factor. Suppresses home runs, which favors the under.",
+      "case_against": "Bibee's HR/9 (1.51) is concerning \u2014 if he hangs a slider, Tampa Bay could put up 4-5 runs. Martinez's K rate is low (13.7%), so he's relying on weak contact, which can be volatile.",
+      "what_were_betting_on": "Martinez going 6+ innings with minimal damage, Bibee keeping Tampa Bay to 3-4 runs, and the Trop suppressing the long ball.",
+      "scott_bot_quip": "The Trop is where offense goes to die. Martinez is the undertaker.",
+      "ladder_note": "",
+      "date": "2026-07-25",
+      "status": "PEND",
+      "units_result": null,
+      "clv_cents": null,
+      "result_score": null,
+      "graded_at": null,
+      "slate_assessment": "MLB-only Saturday slate with 16 games. Two elite pitching matchups (BOS/TOR, PIT/CHC) headline, plus several pitcher-friendly park spots and a handful of exploitable prop angles.",
+      "executive_summary": "Sixteen-game MLB board today with no NBA or NHL action. The marquee pitching duel is Sonny Gray vs. Dylan Cease at Fenway \u2014 two aces, two soft offenses, and a total sitting at 7.5 that feels right. The under there is the ladder pick: best floor on the board with elite arms on both sides. Elsewhere, Casey Mize at Comerica against a middling Royals lineup offers another clean under spot, and the Dodgers' Yamamoto against the Mets at pitcher-friendly Citi Field rounds out the totals plays. On the prop side, Cease's elite K rate against a Boston lineup that whiffs makes his strikeout over a strong play. Six picks today, all grounded in pitching matchups and park factors.",
+      "slate_analysis": "The board today is MLB-only \u2014 16 games, no NBA Finals, no NHL playoffs. That's a lot of baseball to sift through, but the pricing climate is tight: most totals are sitting in the 7.5-9.0 range, and the moneylines are clustered near pick'em or short favorites. The sharps haven't moved many numbers off the openers, which tells me the market is efficient but not locked.\n\nThe candidates that rose to the top during my review: Boston/Toronto (Gray vs. Cease, two elite arms, total at 7.5), Detroit/Kansas City (Mize at home, Comerica suppresses runs, total at 8.0), Dodgers/Mets (Yamamoto vs. McLean, Citi Field HR-suppressing, total at 7.5), Pittsburgh/Chicago Cubs (Skenes vs. Imanaga, PNC Park pitcher-friendly, total at 7.5-8.0), Tampa Bay/Cleveland (Martinez at the Trop, total at 8.0), and the Dylan Cease strikeout prop (elite K rate, Boston whiffs). I also looked at the SF/LAA under at Oracle Park, but Robbie Ray's walk rate (11.6% BB%) is too high to trust an under \u2014 that's a disqualifier per my rules.\n\nWhat got cut: The KC/DET game has data confidence at 0.45, which is below my 0.6 floor \u2014 I can't trust the lineups or late-breaking info there. The MIN/ATH game has a TBD home pitcher (the IntelPack shows Brady Basso for Oakland but no confirmed Twins starter), and the total is 10.5, which is too high to play an under and too volatile to play an over. The PHI/NYY game has no confirmed Phillies starter in the IntelPack \u2014 that's a pass. The MIL/COL game has Milwaukee at -220, which is too short for a straight bet and the total doesn't offer edge. The STL/CIN game has Hunter Greene coming off injury with only 16.1 IP this year \u2014 sample too thin.\n\nThe final six: BOS/TOR Under 7.5 (ladder pick \u2014 two elite aces, soft offenses, Fenway's run factor is 1.05 but these arms neutralize it), DET/KC Under 8.0 (Mize is elite at home, Comerica suppresses, but data confidence is borderline so I'm passing this one), LAD/NYM Under 7.5 (Yamamoto is dominant, Citi Field HR-suppressing, McLean is solid), PIT/CHC Under 8.0 (Skenes vs. Imanaga, PNC Park pitcher-friendly), TB/CLE Under 8.0 (Martinez at the Trop, both offenses middling), and Dylan Cease Ks Over 6.5 (elite K rate, Boston whiffs). The ladder pick is BOS/TOR Under 7.5 \u2014 best floor on the board with two Cy Young-caliber arms.",
+      "slate_vibe": "NORMAL",
+      "published_at": "2026-07-25T12:05:03.185234-04:00"
+    },
+    {
+      "id": "20260725-MLB-CHC-PIT-TOTAL",
+      "sport": "MLB",
+      "game": "CHC @ PIT",
+      "first_pitch_iso": "2026-07-25T22:40Z",
+      "pick": "Under 8.0",
+      "best_book": "FanDuel",
+      "best_odds": "-102",
+      "book_prices": {
+        "draftkings": "-107",
+        "fanduel": "-102",
+        "betmgm": "-102"
+      },
+      "book_links": {
+        "fanduel": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.594364575&selectionId=7017906",
+        "draftkings": "https://sportsbook.draftkings.com/?outcomes=0OU85616914U800_3",
+        "betmgm": "https://sports.nj.betmgm.com/en/sports?options=19805152-1542847519-2253595996&type=Single"
+      },
+      "market": "TOTAL",
+      "confidence": 4,
+      "units": 1.5,
+      "win_probability": 0.59,
+      "ladder_designation": false,
+      "data_confidence": 0.8,
+      "rules_passed": [
+        "max_juice",
+        "ladder_even_money",
+        "parlay_well_formed",
+        "confidence_units_match",
+        "data_confidence_floor",
+        "pick_type_allowed",
+        "mlb_hr_prop_check",
+        "mlb_pitcher_k_check",
+        "mlb_total_bases_check",
+        "mlb_hits_check",
+        "nba_player_prop_check",
+        "nhl_shots_check",
+        "mlb_run_line_check",
+        "mlb_under_bb_check",
+        "no_same_game_opposite"
+      ],
+      "locked": true,
+      "late_add": false,
+      "late_add_reason": "",
+      "bonus_pick": false,
+      "event_type": "",
+      "event_name": "",
+      "legs": [],
+      "headline": "Skenes vs. Imanaga at pitcher-friendly PNC Park \u2014 two quality arms, HR-suppressing environment.",
+      "the_thesis": "Paul Skenes is the reigning NL Cy Young winner for a reason: 3.43 ERA, 1.04 WHIP, 29.7% K rate, and just 5.6% BB rate. He's elite at limiting free passes and missing bats. Shota Imanaga (3.91 ERA, 1.11 WHIP, 23.5% K rate) is a solid mid-rotation arm who can keep the Pirates in check. Both offenses are above average \u2014 Pittsburgh scores 5.24 R/G, Chicago 5.08 R/G \u2014 but PNC Park has a 0.91 HR park factor, which suppresses the long ball.\n\nThe total is sitting at 8.0 at FanDuel and 7.5 at BetMGM \u2014 the market is split, which tells me there's some uncertainty. I'm building a fair price of 59% for the under at 8.0, and the de-vigged implied probability at FanDuel is around 50%. That's 9 cents of edge.\n\nSkenes has been dominant at home this year, and PNC Park's HR suppression means even hard contact doesn't always leave the yard. Imanaga's HR/9 is 1.72, which is concerning, but PNC Park should help neutralize that.",
+      "the_data": [
+        {
+          "label": "Skenes ERA (season)",
+          "value": "3.43",
+          "context": "Elite, reigning Cy Young"
+        },
+        {
+          "label": "Skenes K% (season)",
+          "value": "29.7%",
+          "context": "Elite strikeout rate"
+        },
+        {
+          "label": "Skenes BB% (season)",
+          "value": "5.6%",
+          "context": "Elite control"
+        },
+        {
+          "label": "PNC Park PF (HR)",
+          "value": "0.91",
+          "context": "HR-suppressing"
+        },
+        {
+          "label": "Imanaga K% (season)",
+          "value": "23.5%",
+          "context": "Above average"
+        },
+        {
+          "label": "PIT R/G (season)",
+          "value": "5.24",
+          "context": "Above average offense"
+        }
+      ],
+      "the_market": "Total opened at 7.83 (split between 8.0 and 7.5 across books) and sits at 8.0 at FanDuel. The market is slightly uncertain, which creates opportunity.",
+      "weather_park": "PNC Park, outdoor, 0.91 HR park factor. Suppresses home runs, which favors the under.",
+      "case_against": "Both offenses are above average in R/G. If Imanaga's HR/9 (1.72) shows up, the Cubs could put up 4-5 runs. Skenes had a rough Opening Day start this year \u2014 he's not invincible.",
+      "what_were_betting_on": "Skenes going 6+ innings with 7+ Ks, Imanaga keeping the Pirates to 3-4 runs, and PNC Park suppressing the long ball.",
+      "scott_bot_quip": "Skenes won the Cy Young last year. Imanaga is no slouch. PNC Park eats homers. Do the math.",
+      "ladder_note": "",
+      "date": "2026-07-25",
+      "status": "PEND",
+      "units_result": null,
+      "clv_cents": null,
+      "result_score": null,
+      "graded_at": null,
+      "slate_assessment": "MLB-only Saturday slate with 16 games. Two elite pitching matchups (BOS/TOR, PIT/CHC) headline, plus several pitcher-friendly park spots and a handful of exploitable prop angles.",
+      "executive_summary": "Sixteen-game MLB board today with no NBA or NHL action. The marquee pitching duel is Sonny Gray vs. Dylan Cease at Fenway \u2014 two aces, two soft offenses, and a total sitting at 7.5 that feels right. The under there is the ladder pick: best floor on the board with elite arms on both sides. Elsewhere, Casey Mize at Comerica against a middling Royals lineup offers another clean under spot, and the Dodgers' Yamamoto against the Mets at pitcher-friendly Citi Field rounds out the totals plays. On the prop side, Cease's elite K rate against a Boston lineup that whiffs makes his strikeout over a strong play. Six picks today, all grounded in pitching matchups and park factors.",
+      "slate_analysis": "The board today is MLB-only \u2014 16 games, no NBA Finals, no NHL playoffs. That's a lot of baseball to sift through, but the pricing climate is tight: most totals are sitting in the 7.5-9.0 range, and the moneylines are clustered near pick'em or short favorites. The sharps haven't moved many numbers off the openers, which tells me the market is efficient but not locked.\n\nThe candidates that rose to the top during my review: Boston/Toronto (Gray vs. Cease, two elite arms, total at 7.5), Detroit/Kansas City (Mize at home, Comerica suppresses runs, total at 8.0), Dodgers/Mets (Yamamoto vs. McLean, Citi Field HR-suppressing, total at 7.5), Pittsburgh/Chicago Cubs (Skenes vs. Imanaga, PNC Park pitcher-friendly, total at 7.5-8.0), Tampa Bay/Cleveland (Martinez at the Trop, total at 8.0), and the Dylan Cease strikeout prop (elite K rate, Boston whiffs). I also looked at the SF/LAA under at Oracle Park, but Robbie Ray's walk rate (11.6% BB%) is too high to trust an under \u2014 that's a disqualifier per my rules.\n\nWhat got cut: The KC/DET game has data confidence at 0.45, which is below my 0.6 floor \u2014 I can't trust the lineups or late-breaking info there. The MIN/ATH game has a TBD home pitcher (the IntelPack shows Brady Basso for Oakland but no confirmed Twins starter), and the total is 10.5, which is too high to play an under and too volatile to play an over. The PHI/NYY game has no confirmed Phillies starter in the IntelPack \u2014 that's a pass. The MIL/COL game has Milwaukee at -220, which is too short for a straight bet and the total doesn't offer edge. The STL/CIN game has Hunter Greene coming off injury with only 16.1 IP this year \u2014 sample too thin.\n\nThe final six: BOS/TOR Under 7.5 (ladder pick \u2014 two elite aces, soft offenses, Fenway's run factor is 1.05 but these arms neutralize it), DET/KC Under 8.0 (Mize is elite at home, Comerica suppresses, but data confidence is borderline so I'm passing this one), LAD/NYM Under 7.5 (Yamamoto is dominant, Citi Field HR-suppressing, McLean is solid), PIT/CHC Under 8.0 (Skenes vs. Imanaga, PNC Park pitcher-friendly), TB/CLE Under 8.0 (Martinez at the Trop, both offenses middling), and Dylan Cease Ks Over 6.5 (elite K rate, Boston whiffs). The ladder pick is BOS/TOR Under 7.5 \u2014 best floor on the board with two Cy Young-caliber arms.",
+      "slate_vibe": "NORMAL",
+      "published_at": "2026-07-25T12:05:03.185117-04:00"
+    },
+    {
+      "id": "20260725-MLB-LAD-NYM-TOTAL",
+      "sport": "MLB",
+      "game": "LAD @ NYM",
+      "first_pitch_iso": "2026-07-25T23:15Z",
+      "pick": "Under 7.5",
+      "best_book": "FanDuel",
+      "best_odds": "-110",
+      "book_prices": {
+        "draftkings": "-113",
+        "fanduel": "-110",
+        "betmgm": "-118"
+      },
+      "book_links": {
+        "fanduel": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.594365113&selectionId=7017906",
+        "draftkings": "https://sportsbook.draftkings.com/?outcomes=0OU85616919U750_3",
+        "betmgm": "https://sports.nj.betmgm.com/en/sports?options=19805349-1542866214-2253641214&type=Single"
+      },
+      "market": "TOTAL",
+      "confidence": 4,
+      "units": 1.5,
+      "win_probability": 0.6,
+      "ladder_designation": false,
+      "data_confidence": 0.8,
+      "rules_passed": [
+        "max_juice",
+        "ladder_even_money",
+        "parlay_well_formed",
+        "confidence_units_match",
+        "data_confidence_floor",
+        "pick_type_allowed",
+        "mlb_hr_prop_check",
+        "mlb_pitcher_k_check",
+        "mlb_total_bases_check",
+        "mlb_hits_check",
+        "nba_player_prop_check",
+        "nhl_shots_check",
+        "mlb_run_line_check",
+        "mlb_under_bb_check",
+        "no_same_game_opposite"
+      ],
+      "locked": true,
+      "late_add": false,
+      "late_add_reason": "",
+      "bonus_pick": false,
+      "event_type": "",
+      "event_name": "",
+      "legs": [],
+      "headline": "Yamamoto is elite, Citi Field suppresses homers, and the Mets offense is middling.",
+      "the_thesis": "Yoshinobu Yamamoto has been one of the best pitchers in baseball this year: 2.78 ERA, 0.88 WHIP, 24.8% K rate, and just 5.5% BB rate. That walk rate is elite \u2014 it means he's not putting runners on base for free. He's facing a Mets offense that scores 4.05 R/G, which is below league average. The Mets' home park, Citi Field, has a 0.91 HR park factor \u2014 it suppresses home runs, which is exactly what you want when betting an under.\n\nOn the other side, Nolan McLean (3.34 ERA, 1.09 WHIP, 28.8% K rate) is a solid mid-rotation arm who can keep the Dodgers in check for 5-6 innings. The Dodgers score 5.18 R/G, which is top-10 in baseball, but Citi Field's HR suppression and McLean's ability to miss bats should limit the damage.\n\nThe total opened at 7.5 and hasn't moved. I'm building a fair price of 60% for the under, and the de-vigged implied probability at FanDuel is around 52%. That's 8 cents of edge \u2014 right at my threshold.",
+      "the_data": [
+        {
+          "label": "Yamamoto ERA (season)",
+          "value": "2.78",
+          "context": "Elite, top-5 in MLB"
+        },
+        {
+          "label": "Yamamoto WHIP (season)",
+          "value": "0.88",
+          "context": "Best in MLB"
+        },
+        {
+          "label": "Yamamoto BB% (season)",
+          "value": "5.5%",
+          "context": "Elite control"
+        },
+        {
+          "label": "NYM R/G (season)",
+          "value": "4.05",
+          "context": "Below league average"
+        },
+        {
+          "label": "Citi Field PF (HR)",
+          "value": "0.91",
+          "context": "HR-suppressing"
+        },
+        {
+          "label": "McLean K% (season)",
+          "value": "28.8%",
+          "context": "Above average"
+        }
+      ],
+      "the_market": "Total opened at 7.5 and sits at 7.5 across all three books. No movement. The market respects Yamamoto's dominance.",
+      "weather_park": "Citi Field, outdoor, 0.91 HR park factor. Suppresses long balls, which favors the under.",
+      "case_against": "The Dodgers have the best offense in the NL by R/G. If McLean doesn't have his best stuff, LA could put up 5+ runs. Yamamoto's HR/9 is 0.98 \u2014 not elite \u2014 so a solo shot or two could flip the math.",
+      "what_were_betting_on": "Yamamoto going 7+ innings with minimal damage, McLean keeping the Dodgers to 3-4 runs, and Citi Field suppressing the long ball.",
+      "scott_bot_quip": "Yamamoto's WHIP is 0.88. That's not a typo. That's a cheat code.",
+      "ladder_note": "",
+      "date": "2026-07-25",
+      "status": "PEND",
+      "units_result": null,
+      "clv_cents": null,
+      "result_score": null,
+      "graded_at": null,
+      "slate_assessment": "MLB-only Saturday slate with 16 games. Two elite pitching matchups (BOS/TOR, PIT/CHC) headline, plus several pitcher-friendly park spots and a handful of exploitable prop angles.",
+      "executive_summary": "Sixteen-game MLB board today with no NBA or NHL action. The marquee pitching duel is Sonny Gray vs. Dylan Cease at Fenway \u2014 two aces, two soft offenses, and a total sitting at 7.5 that feels right. The under there is the ladder pick: best floor on the board with elite arms on both sides. Elsewhere, Casey Mize at Comerica against a middling Royals lineup offers another clean under spot, and the Dodgers' Yamamoto against the Mets at pitcher-friendly Citi Field rounds out the totals plays. On the prop side, Cease's elite K rate against a Boston lineup that whiffs makes his strikeout over a strong play. Six picks today, all grounded in pitching matchups and park factors.",
+      "slate_analysis": "The board today is MLB-only \u2014 16 games, no NBA Finals, no NHL playoffs. That's a lot of baseball to sift through, but the pricing climate is tight: most totals are sitting in the 7.5-9.0 range, and the moneylines are clustered near pick'em or short favorites. The sharps haven't moved many numbers off the openers, which tells me the market is efficient but not locked.\n\nThe candidates that rose to the top during my review: Boston/Toronto (Gray vs. Cease, two elite arms, total at 7.5), Detroit/Kansas City (Mize at home, Comerica suppresses runs, total at 8.0), Dodgers/Mets (Yamamoto vs. McLean, Citi Field HR-suppressing, total at 7.5), Pittsburgh/Chicago Cubs (Skenes vs. Imanaga, PNC Park pitcher-friendly, total at 7.5-8.0), Tampa Bay/Cleveland (Martinez at the Trop, total at 8.0), and the Dylan Cease strikeout prop (elite K rate, Boston whiffs). I also looked at the SF/LAA under at Oracle Park, but Robbie Ray's walk rate (11.6% BB%) is too high to trust an under \u2014 that's a disqualifier per my rules.\n\nWhat got cut: The KC/DET game has data confidence at 0.45, which is below my 0.6 floor \u2014 I can't trust the lineups or late-breaking info there. The MIN/ATH game has a TBD home pitcher (the IntelPack shows Brady Basso for Oakland but no confirmed Twins starter), and the total is 10.5, which is too high to play an under and too volatile to play an over. The PHI/NYY game has no confirmed Phillies starter in the IntelPack \u2014 that's a pass. The MIL/COL game has Milwaukee at -220, which is too short for a straight bet and the total doesn't offer edge. The STL/CIN game has Hunter Greene coming off injury with only 16.1 IP this year \u2014 sample too thin.\n\nThe final six: BOS/TOR Under 7.5 (ladder pick \u2014 two elite aces, soft offenses, Fenway's run factor is 1.05 but these arms neutralize it), DET/KC Under 8.0 (Mize is elite at home, Comerica suppresses, but data confidence is borderline so I'm passing this one), LAD/NYM Under 7.5 (Yamamoto is dominant, Citi Field HR-suppressing, McLean is solid), PIT/CHC Under 8.0 (Skenes vs. Imanaga, PNC Park pitcher-friendly), TB/CLE Under 8.0 (Martinez at the Trop, both offenses middling), and Dylan Cease Ks Over 6.5 (elite K rate, Boston whiffs). The ladder pick is BOS/TOR Under 7.5 \u2014 best floor on the board with two Cy Young-caliber arms.",
+      "slate_vibe": "NORMAL",
+      "published_at": "2026-07-25T12:05:03.184971-04:00"
+    },
+    {
+      "id": "20260725-MLB-TOR-BOS-TOTAL",
+      "sport": "MLB",
+      "game": "TOR @ BOS",
+      "first_pitch_iso": "2026-07-25T20:10Z",
+      "pick": "Under 7.5",
+      "best_book": "DraftKings",
+      "best_odds": "-112",
+      "book_prices": {
+        "draftkings": "-112",
+        "fanduel": "-115",
+        "betmgm": "-115"
+      },
+      "book_links": {
+        "fanduel": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.594364246&selectionId=7017906",
+        "draftkings": "https://sportsbook.draftkings.com/?outcomes=0OU85616910U750_3",
+        "betmgm": "https://sports.nj.betmgm.com/en/sports?options=19805147-1542846885-2253594435&type=Single"
+      },
+      "market": "TOTAL",
+      "confidence": 5,
+      "units": 2.0,
+      "win_probability": 0.63,
+      "ladder_designation": true,
+      "data_confidence": 0.85,
+      "rules_passed": [
+        "max_juice",
+        "ladder_even_money",
+        "parlay_well_formed",
+        "confidence_units_match",
+        "data_confidence_floor",
+        "pick_type_allowed",
+        "mlb_hr_prop_check",
+        "mlb_pitcher_k_check",
+        "mlb_total_bases_check",
+        "mlb_hits_check",
+        "nba_player_prop_check",
+        "nhl_shots_check",
+        "mlb_run_line_check",
+        "mlb_under_bb_check",
+        "no_same_game_opposite"
+      ],
+      "locked": true,
+      "late_add": false,
+      "late_add_reason": "",
+      "bonus_pick": false,
+      "event_type": "",
+      "event_name": "",
+      "legs": [],
+      "headline": "Two Cy Young-caliber arms, two soft offenses, and a total that hasn't moved off the opener.",
+      "the_thesis": "This is the cleanest pitching matchup on the board. Sonny Gray (2.48 ERA, 1.12 WHIP, 22.1% K rate) faces Dylan Cease (2.67 ERA, 1.14 WHIP, 36.3% K rate) \u2014 that's two top-10 starters in baseball by ERA going head-to-head. Gray's walk rate is a tidy 6.9%, and Cease's is higher at 10.5% but his strikeout dominance (155 Ks in 104.1 IP) more than compensates. Both offenses are middling: Boston is scoring 4.24 R/G, Toronto 3.93 R/G. Neither lineup has the firepower to break through elite pitching.\n\nFenway's run factor is 1.05, which normally tilts toward overs, but that's a park effect that matters when average arms are on the mound. When you have two aces who can go 7+ innings and limit hard contact, the park becomes secondary. The total opened at 7.5 and hasn't moved \u2014 the market agrees this is a low-scoring affair. I'm building a fair price of 63% for the under, and the de-vigged implied probability at DraftKings is around 53%. That's 10 cents of edge.\n\nThe bullpens are both solid, so even if one starter exits early, the bridge to the ninth is reliable. This is the kind of game where 3-2 or 4-3 is the most likely final score. The under is the play.",
+      "the_data": [
+        {
+          "label": "Sonny Gray ERA (season)",
+          "value": "2.48",
+          "context": "Top-10 in MLB"
+        },
+        {
+          "label": "Dylan Cease ERA (season)",
+          "value": "2.67",
+          "context": "Top-10 in MLB"
+        },
+        {
+          "label": "Cease K rate (season)",
+          "value": "36.3%",
+          "context": "Elite, 2nd in MLB in Ks"
+        },
+        {
+          "label": "BOS R/G (season)",
+          "value": "4.24",
+          "context": "Below league average"
+        },
+        {
+          "label": "TOR R/G (season)",
+          "value": "3.93",
+          "context": "Bottom-third in MLB"
+        },
+        {
+          "label": "Fenway PF (runs)",
+          "value": "1.05",
+          "context": "Slight hitter-friendly, neutralized by arms"
+        }
+      ],
+      "the_market": "Total opened at 7.5 and sits at 7.5 across all three books. No movement. Public hasn't pushed this number, and the sharps haven't either \u2014 consensus agrees this is a low-scoring game.",
+      "weather_park": "Fenway Park, 75\u00b0F, mild conditions. Park factor is 1.05 for runs but neutralized by elite pitching.",
+      "case_against": "If either starter exits early due to pitch count or injury, the bullpens are good but not elite. Fenway's short porch in left could produce a solo shot that flips the math. Cease's walk rate (10.5%) could load bases and create chaos.",
+      "what_were_betting_on": "Both starters going 6+ innings, combined K rate suppressing contact, and neither offense stringing together multiple-hit innings.",
+      "scott_bot_quip": "Two aces, two punchless lineups. The sharps are already here. We don't have to be heroes.",
+      "ladder_note": "Best floor on the board \u2014 two Cy Young-caliber arms, soft offenses, market support. This is the kind of game where 3-2 is the most likely final.",
+      "date": "2026-07-25",
+      "status": "PEND",
+      "units_result": null,
+      "clv_cents": null,
+      "result_score": null,
+      "graded_at": null,
+      "slate_assessment": "MLB-only Saturday slate with 16 games. Two elite pitching matchups (BOS/TOR, PIT/CHC) headline, plus several pitcher-friendly park spots and a handful of exploitable prop angles.",
+      "executive_summary": "Sixteen-game MLB board today with no NBA or NHL action. The marquee pitching duel is Sonny Gray vs. Dylan Cease at Fenway \u2014 two aces, two soft offenses, and a total sitting at 7.5 that feels right. The under there is the ladder pick: best floor on the board with elite arms on both sides. Elsewhere, Casey Mize at Comerica against a middling Royals lineup offers another clean under spot, and the Dodgers' Yamamoto against the Mets at pitcher-friendly Citi Field rounds out the totals plays. On the prop side, Cease's elite K rate against a Boston lineup that whiffs makes his strikeout over a strong play. Six picks today, all grounded in pitching matchups and park factors.",
+      "slate_analysis": "The board today is MLB-only \u2014 16 games, no NBA Finals, no NHL playoffs. That's a lot of baseball to sift through, but the pricing climate is tight: most totals are sitting in the 7.5-9.0 range, and the moneylines are clustered near pick'em or short favorites. The sharps haven't moved many numbers off the openers, which tells me the market is efficient but not locked.\n\nThe candidates that rose to the top during my review: Boston/Toronto (Gray vs. Cease, two elite arms, total at 7.5), Detroit/Kansas City (Mize at home, Comerica suppresses runs, total at 8.0), Dodgers/Mets (Yamamoto vs. McLean, Citi Field HR-suppressing, total at 7.5), Pittsburgh/Chicago Cubs (Skenes vs. Imanaga, PNC Park pitcher-friendly, total at 7.5-8.0), Tampa Bay/Cleveland (Martinez at the Trop, total at 8.0), and the Dylan Cease strikeout prop (elite K rate, Boston whiffs). I also looked at the SF/LAA under at Oracle Park, but Robbie Ray's walk rate (11.6% BB%) is too high to trust an under \u2014 that's a disqualifier per my rules.\n\nWhat got cut: The KC/DET game has data confidence at 0.45, which is below my 0.6 floor \u2014 I can't trust the lineups or late-breaking info there. The MIN/ATH game has a TBD home pitcher (the IntelPack shows Brady Basso for Oakland but no confirmed Twins starter), and the total is 10.5, which is too high to play an under and too volatile to play an over. The PHI/NYY game has no confirmed Phillies starter in the IntelPack \u2014 that's a pass. The MIL/COL game has Milwaukee at -220, which is too short for a straight bet and the total doesn't offer edge. The STL/CIN game has Hunter Greene coming off injury with only 16.1 IP this year \u2014 sample too thin.\n\nThe final six: BOS/TOR Under 7.5 (ladder pick \u2014 two elite aces, soft offenses, Fenway's run factor is 1.05 but these arms neutralize it), DET/KC Under 8.0 (Mize is elite at home, Comerica suppresses, but data confidence is borderline so I'm passing this one), LAD/NYM Under 7.5 (Yamamoto is dominant, Citi Field HR-suppressing, McLean is solid), PIT/CHC Under 8.0 (Skenes vs. Imanaga, PNC Park pitcher-friendly), TB/CLE Under 8.0 (Martinez at the Trop, both offenses middling), and Dylan Cease Ks Over 6.5 (elite K rate, Boston whiffs). The ladder pick is BOS/TOR Under 7.5 \u2014 best floor on the board with two Cy Young-caliber arms.",
+      "slate_vibe": "NORMAL",
+      "published_at": "2026-07-25T12:05:03.184771-04:00"
+    },
     {
       "id": "20260724-MLB-ARI-WSH-PROP-KETELMARTE",
       "sport": "MLB",
