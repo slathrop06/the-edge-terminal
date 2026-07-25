@@ -1,9 +1,17 @@
 {
-  "current_streak": 1,
+  "current_streak": 2,
   "longest_streak": 8,
   "completed_climbs": 0,
   "target": 10,
   "history": [
+    {
+      "date": "2026-07-25",
+      "pick_id": "20260725-MLB-TOR-BOS-TOTAL",
+      "pick": "Under 7.5",
+      "game": "TOR @ BOS",
+      "status": "WIN",
+      "after_streak": 2
+    },
     {
       "date": "2026-07-24",
       "pick_id": "20260724-MLB-KC-DET-TOTAL",
@@ -413,5 +421,5 @@
       "after_streak": 1
     }
   ],
-  "updated_at": "2026-07-25T01:49:02.665813-04:00"
+  "updated_at": "2026-07-25T18:43:42.567731-04:00"
 }

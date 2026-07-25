@@ -348,5 +348,12 @@
     "units_pl": -1.0198,
     "night_summary": "2-3 night, -1.02u \u2014 a grind. The bright spot was Ohtani, who delivered exactly what the model wanted: a leadoff single off Manaea, then a go-ahead sac fly to center in the 7th to put LA up 2-1, finishing with 3 total bases in a 4-2 Dodgers win (+1.5u). KC @ DET was the ladder pick and it did its job quietly \u2014 a 2-1 final, well inside the 7.5, ladder now at 1 of 10. The SEA @ TEX under was the gut-punch: 3-3 through five, exactly the game we drew up, until Burger singled in the go-ahead run in the 6th and Lopez's bunt turned into a Bazardo bare-hand flip that sailed off Cal Raleigh's glove \u2014 unearned run, 5-3 Rangers, variance loss, not a thesis failure. Marte and Buxton were tougher to swallow: Marte got opener-swapped into Zack Littell and never had a real shot at the line (DATA loss), and Buxton ran into a lefty the model didn't properly L/R-adjust for, going 0-for-2 with no contact to speak of (MODEL loss, noted for the rulebook). Ladder is at 1 of 10 \u2014 back to climbing.",
     "generated_at": "2026-07-25T01:49:24.314339-04:00"
+  },
+  "2026-07-25": {
+    "date": "2026-07-25",
+    "record": "1-0-0",
+    "units_pl": 1.7857,
+    "night_summary": "1-0 night, +1.79u. The TOR @ BOS under 7.5 was never in doubt \u2014 Toronto's starter was dominant, holding Boston to 1 hit and 0 runs through 7.2 innings with 8 strikeouts, and a Springer 3-run shot in the 3rd was all the offense either side needed. Final: TOR 6, BOS 0. Six total runs, cleared the 7.5 with a run and a half to spare. Clean win, no drama. Ladder is at 2 of 10 \u2014 back-to-back, climbing.",
+    "generated_at": "2026-07-25T18:43:57.370072-04:00"
   }
 }
