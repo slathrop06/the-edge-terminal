@@ -518,5 +518,13 @@
     "candidate_rule": "Before targeting a batter prop against a pitcher with a high ERA, validate the batter's handedness split vs. that pitcher's arm \u2014 a right-handed batter vs. a lefty with strong L/R suppression can negate the ERA signal entirely; requires N\u226520 same-handedness PA sample to be actionable.",
     "sample_size_warning": "N=1, insufficient to establish rule \u2014 but the L/R split omission is a structural gap in the model worth flagging immediately.",
     "status": "PENDING_REVIEW"
+  },
+  {
+    "proposed_at": "2026-07-25T20:05:49.417362-04:00",
+    "source_pick_id": "20260725-MLB-SD-MIA-ML",
+    "source_loss": "Miami Marlins ML (SD @ MIA)",
+    "candidate_rule": "Flag any game where the opposing 'starter' has a recent history of opener usage or sub-3-inning outings \u2014 if the named starter is likely an opener, the pitching matchup edge is partially or fully voided before first pitch; cross-check projected pitch counts and role before locking the pick. (N=1, insufficient to establish rule \u2014 monitor for pattern.)",
+    "sample_size_warning": "N=1, insufficient to establish rule. One opener deployment neutralizing a matchup thesis is noise; would need 3+ similar cases to propose a systematic validator.",
+    "status": "PENDING_REVIEW"
   }
 ]

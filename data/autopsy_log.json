@@ -1,5 +1,18 @@
 [
   {
+    "id": "20260725-MLB-SD-MIA-ML",
+    "date": "2026-07-25",
+    "pick": "Miami Marlins ML",
+    "game": "SD @ MIA",
+    "odds": "-136",
+    "result_score": "SD 7 \u00b7 MIA 2",
+    "classification": "MODEL",
+    "post_mortem": "The core matchup thesis was undermined by a DATA gap: V\u00e1squez was deployed as an opener, facing only 10 batters before JP Sears took over as the bulk pitcher \u2014 the 'struggling V\u00e1squez' edge never materialized. P\u00e9rez was actually solid, holding San Diego to 2 runs through 7 innings while the game sat at SD 2, MIA 1, but Miami's offense went 0-for-with-RISP and the bullpen (Dax Fulton) imploded in the 8th, surrendering at least 4 runs as Ty France (3 RBI) and Jase Bowen (2 RBI) blew the game open to 7-1 before the final 7-2.",
+    "candidate_rule": "Flag any game where the opposing 'starter' has a recent history of opener usage or sub-3-inning outings \u2014 if the named starter is likely an opener, the pitching matchup edge is partially or fully voided before first pitch; cross-check projected pitch counts and role before locking the pick. (N=1, insufficient to establish rule \u2014 monitor for pattern.)",
+    "sample_size_warning": "N=1, insufficient to establish rule. One opener deployment neutralizing a matchup thesis is noise; would need 3+ similar cases to propose a systematic validator.",
+    "analyzed_at": "2026-07-25T20:05:49.415280-04:00"
+  },
+  {
     "id": "20260724-MLB-SEA-TEX-TOTAL",
     "date": "2026-07-24",
     "pick": "Under 7.5",
