@@ -1,5 +1,31 @@
 [
   {
+    "id": "20260726-MLB-SEA-TEX-TOTAL",
+    "date": "2026-07-26",
+    "pick": "Under 7",
+    "game": "SEA @ TEX",
+    "odds": "+102",
+    "result_score": "SEA 6 \u00b7 TEX 4",
+    "classification": "MODEL",
+    "post_mortem": "The thesis leaned heavily on deGrom's 30.2% K rate and 1.05 WHIP, but his most recent start before this game was a 10-3 blowout loss where he surrendered 5 ER on 7 hits over 4.2 IP \u2014 a red flag the model underweighted. On July 26, deGrom faced only 22 batters, consistent with another abbreviated outing, and the Rangers burned five relievers, meaning the 'both starters go deep' pillar of the under thesis collapsed entirely. The case_against section explicitly flagged this risk ('if he doesn't have his best stuff or exits early, the Rangers bullpen is thin'), but the model still rated confidence at 5 and deployed 2 units \u2014 the data was there to downgrade, and it wasn't.",
+    "candidate_rule": "If a targeted SP has allowed 5+ ER in either of his two most recent starts, require a confidence reduction of at least 1 point and a unit reduction of 0.5 before backing an under that depends on that SP going 6+ IP \u2014 N=1, insufficient to establish rule.",
+    "sample_size_warning": "N=1, insufficient to establish rule. One bad deGrom start does not confirm a pattern, but the pre-game data signal (10-3 blowout, 4.2 IP in prior start) was available and not acted upon.",
+    "analyzed_at": "2026-07-26T18:51:34.896639-04:00"
+  },
+  {
+    "id": "20260726-MLB-CHC-PIT-PROP-BRAXTONASHCRAFT",
+    "date": "2026-07-26",
+    "pick": "Braxton Ashcraft Ks Over 5.5",
+    "game": "CHC @ PIT",
+    "odds": "-130",
+    "result_score": "Braxton Ashcraft: 5 strikeOuts",
+    "classification": "MODEL",
+    "post_mortem": "Ashcraft went 6 innings and struck out exactly 5 batters \u2014 one short of the 5.5 line. Per the MLB.com highlight, he 'strikes out five batters in six innings of work,' and the ESPN box score confirms he faced 26 batters with only 10 swinging strikes total. The thesis assumed the Cubs' K% would translate into Ashcraft piling up whiffs, but the box score shows 7 groundballs vs. 5 flyouts \u2014 the Cubs were putting the ball in play, not swinging through him. Six innings of work was sufficient runway; the problem was contact rate, not pitch count. The 'case against' literally flagged this risk ('Cubs could work counts') and it materialized: Chicago made contact, kept the at-bats alive, and Ashcraft finished one K short with a game score of 45 \u2014 a mediocre outing, not a dominant one.",
+    "candidate_rule": "Before backing a K prop on a starter coming off a bullpen/short relief appearance (Ashcraft threw only 3 IP vs. NYY the prior start), require confirmation he is fully stretched out and on a normal workload \u2014 a compromised recent outing may suppress both stuff and inning depth; N=1, insufficient to establish rule.",
+    "sample_size_warning": "N=1, insufficient to establish rule \u2014 one missed K prop by a single strikeout is noise, not signal.",
+    "analyzed_at": "2026-07-26T18:51:05.544074-04:00"
+  },
+  {
     "id": "20260725-MLB-CHC-PIT-TOTAL",
     "date": "2026-07-25",
     "pick": "Under 8.0",

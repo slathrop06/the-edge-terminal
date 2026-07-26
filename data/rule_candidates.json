@@ -534,5 +534,21 @@
     "candidate_rule": "When a starter's ERA meaningfully exceeds his FIP/xERA (Skenes: 3.43 ERA vs. 2.81 FIP / 2.76 xERA) AND a known pitch-quality regression is documented pre-game, flag the under as fragile on that arm's side before pricing in ace-level run suppression \u2014 but N=1, insufficient to establish a rule.",
     "sample_size_warning": "N=1, insufficient to establish rule. One start where changeup regression materialized does not confirm a systemic model blind spot; watching for pattern across future Skenes starts and similar ERA/FIP divergence spots.",
     "status": "PENDING_REVIEW"
+  },
+  {
+    "proposed_at": "2026-07-26T18:51:05.546202-04:00",
+    "source_pick_id": "20260726-MLB-CHC-PIT-PROP-BRAXTONASHCRAFT",
+    "source_loss": "Braxton Ashcraft Ks Over 5.5 (CHC @ PIT)",
+    "candidate_rule": "Before backing a K prop on a starter coming off a bullpen/short relief appearance (Ashcraft threw only 3 IP vs. NYY the prior start), require confirmation he is fully stretched out and on a normal workload \u2014 a compromised recent outing may suppress both stuff and inning depth; N=1, insufficient to establish rule.",
+    "sample_size_warning": "N=1, insufficient to establish rule \u2014 one missed K prop by a single strikeout is noise, not signal.",
+    "status": "PENDING_REVIEW"
+  },
+  {
+    "proposed_at": "2026-07-26T18:51:34.898582-04:00",
+    "source_pick_id": "20260726-MLB-SEA-TEX-TOTAL",
+    "source_loss": "Under 7 (SEA @ TEX)",
+    "candidate_rule": "If a targeted SP has allowed 5+ ER in either of his two most recent starts, require a confidence reduction of at least 1 point and a unit reduction of 0.5 before backing an under that depends on that SP going 6+ IP \u2014 N=1, insufficient to establish rule.",
+    "sample_size_warning": "N=1, insufficient to establish rule. One bad deGrom start does not confirm a pattern, but the pre-game data signal (10-3 blowout, 4.2 IP in prior start) was available and not acted upon.",
+    "status": "PENDING_REVIEW"
   }
 ]
