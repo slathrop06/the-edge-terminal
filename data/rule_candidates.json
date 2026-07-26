@@ -526,5 +526,13 @@
     "candidate_rule": "Flag any game where the opposing 'starter' has a recent history of opener usage or sub-3-inning outings \u2014 if the named starter is likely an opener, the pitching matchup edge is partially or fully voided before first pitch; cross-check projected pitch counts and role before locking the pick. (N=1, insufficient to establish rule \u2014 monitor for pattern.)",
     "sample_size_warning": "N=1, insufficient to establish rule. One opener deployment neutralizing a matchup thesis is noise; would need 3+ similar cases to propose a systematic validator.",
     "status": "PENDING_REVIEW"
+  },
+  {
+    "proposed_at": "2026-07-26T00:23:53.855932-04:00",
+    "source_pick_id": "20260725-MLB-CHC-PIT-TOTAL",
+    "source_loss": "Under 8.0 (CHC @ PIT)",
+    "candidate_rule": "When a starter's ERA meaningfully exceeds his FIP/xERA (Skenes: 3.43 ERA vs. 2.81 FIP / 2.76 xERA) AND a known pitch-quality regression is documented pre-game, flag the under as fragile on that arm's side before pricing in ace-level run suppression \u2014 but N=1, insufficient to establish a rule.",
+    "sample_size_warning": "N=1, insufficient to establish rule. One start where changeup regression materialized does not confirm a systemic model blind spot; watching for pattern across future Skenes starts and similar ERA/FIP divergence spots.",
+    "status": "PENDING_REVIEW"
   }
 ]

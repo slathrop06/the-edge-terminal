@@ -1,5 +1,18 @@
 [
   {
+    "id": "20260725-MLB-CHC-PIT-TOTAL",
+    "date": "2026-07-25",
+    "pick": "Under 8.0",
+    "game": "CHC @ PIT",
+    "odds": "-102",
+    "result_score": "CHC 11 \u00b7 PIT 0",
+    "classification": "MODEL",
+    "post_mortem": "The thesis leaned entirely on Skenes being elite, but the Cubs solved him in the 5th and 6th innings in back-to-back crooked numbers. Skenes struck out 11 in 5.1 innings \u2014 the stuff was real \u2014 but gave up 5 earned runs on 6 hits and 2 walks, and the Pirates' decision to send him back out at 92 pitches trailing 3-0 turned a manageable deficit into an 8-run blowout, with Swanson, Amaya, and Busch all driving in runs in the 6th. The model correctly identified Imanaga's side of the ledger (6 shutout innings, 4 hits allowed) but failed to account for Skenes' 2026 changeup regression \u2014 his arm angle shift had made the pitch exploitable all season \u2014 and the Cubs' lineup quality against a pitcher who was already showing cracks in his ERA vs. peripherals split.",
+    "candidate_rule": "When a starter's ERA meaningfully exceeds his FIP/xERA (Skenes: 3.43 ERA vs. 2.81 FIP / 2.76 xERA) AND a known pitch-quality regression is documented pre-game, flag the under as fragile on that arm's side before pricing in ace-level run suppression \u2014 but N=1, insufficient to establish a rule.",
+    "sample_size_warning": "N=1, insufficient to establish rule. One start where changeup regression materialized does not confirm a systemic model blind spot; watching for pattern across future Skenes starts and similar ERA/FIP divergence spots.",
+    "analyzed_at": "2026-07-26T00:23:53.853707-04:00"
+  },
+  {
     "id": "20260725-MLB-SD-MIA-ML",
     "date": "2026-07-25",
     "pick": "Miami Marlins ML",
