@@ -1,5 +1,18 @@
 [
   {
+    "id": "20260726-MLB-NYY-PHI-TOTAL",
+    "date": "2026-07-26",
+    "pick": "Under 8",
+    "game": "NYY @ PHI",
+    "odds": "-102",
+    "result_score": "NYY 4 \u00b7 PHI 11",
+    "classification": "MODEL",
+    "post_mortem": "The thesis was built entirely on S\u00e1nchez's dominance \u2014 but the under died on Warren's side, not S\u00e1nchez's. Warren was knocked out before the 4th inning, having surrendered 6 runs on a Schwarber sac fly in the 1st, a Stott solo HR in the 2nd, and a Bohm bases-loaded double in the 3rd that made it 5-0. The under was effectively dead by the end of the 3rd inning (PHI 6, NYY 0), before S\u00e1nchez even had a chance to falter. The model correctly identified S\u00e1nchez as the anchor but failed to weight Warren's 1.27 HR/9 and 1.37 WHIP as a genuine bust risk in a HR-boosting park \u2014 the 'case against' was acknowledged and then dismissed too quickly. The Phillies' own offense (Stott 5 RBI, Bohm 4 RBI) was never modeled as a threat to the under.",
+    "candidate_rule": "When the away starter carries a WHIP \u2265 1.35 AND HR/9 \u2265 1.20 in a park with HR factor \u2265 1.08, require the under thesis to survive a 6+ run scenario from that starter alone before flagging as a value play \u2014 N=1, insufficient to establish rule.",
+    "sample_size_warning": "N=1, insufficient to establish rule. One blowup from a shaky road starter does not confirm a pattern, but the 'case against' section explicitly flagged Warren's HR/9 as a real concern and the model discounted it anyway \u2014 worth tracking.",
+    "analyzed_at": "2026-07-27T00:34:02.423580-04:00"
+  },
+  {
     "id": "20260726-MLB-SEA-TEX-TOTAL",
     "date": "2026-07-26",
     "pick": "Under 7",

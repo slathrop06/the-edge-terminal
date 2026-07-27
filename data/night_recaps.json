@@ -358,9 +358,9 @@
   },
   "2026-07-26": {
     "date": "2026-07-26",
-    "record": "3-2-0",
-    "units_pl": 1.1,
-    "night_summary": "3-2 night, +1.10u. The headliner was Milwaukee \u2014 Jacob Misiorowski set a franchise record by striking out the first seven Rockies and finished with 11 Ks in five innings, and the Brewers rolled 11-2 to cash the -1.5 easily. TOR @ BOS under was just as clean: Blue Jays managed one run in a 6-1 Boston win, never sniffing 7.5. The Ashcraft K prop was a one-K miss \u2014 he went six innings and put up exactly 5, with the Cubs making contact all night rather than swinging through him; we got that one wrong, the model overestimated the matchup. The ladder pick stings more: deGrom lasted only 22 batters against Seattle before the Rangers burned five relievers, the 'both starters go deep' pillar collapsed, and the game went over 7 at 6-4 \u2014 the pre-game red flag (10-3 blowout in his prior start) was in the data and we didn't act on it. Ladder resets to 0 of 10 \u2014 longest streak still 8, back to the bottom.",
-    "generated_at": "2026-07-26T18:51:54.873093-04:00"
+    "record": "3-3-0",
+    "units_pl": 0.6,
+    "night_summary": "3-3 night, +0.60u. The Brewers -1.5 did the heavy lifting \u2014 Milwaukee rolled Colorado 11-2 and it wasn't close from the jump. TOR/BOS Under cashed clean at 7-1, and the Pirates ML snuck through 8-7 in a game that had no business being that tight. On the loss side, we got that one wrong twice and got squeezed once. The NYY/PHI Under was dead by the end of the 3rd \u2014 Warren surrendered six runs in three-plus innings, Bohm's bases-clearing double made it 5-0, and the model never adequately weighted Warren's track record as a genuine bust risk. The SEA/TEX Under was the ladder pick and the most costly: deGrom was coming off a 10-3 blowup against the White Sox and the warning signs were there \u2014 we got that one wrong, and it resets the ladder back to zero.",
+    "generated_at": "2026-07-27T00:34:21.340929-04:00"
   }
 }

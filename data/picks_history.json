@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated_at": "2026-07-26T20:05:59.839622-04:00",
+  "updated_at": "2026-07-27T00:34:05.696537-04:00",
   "picks": [
     {
       "id": "20260726-MLB-CHC-PIT-PROP-BRAXTONASHCRAFT",
@@ -397,16 +397,22 @@
       "scott_bot_quip": "The All-Star starter at home, the Yankees are cold, and the park factor is already priced in.",
       "ladder_note": "",
       "date": "2026-07-26",
-      "status": "PEND",
-      "units_result": null,
+      "status": "LOSS",
+      "units_result": -1.5,
       "clv_cents": null,
-      "result_score": null,
-      "graded_at": null,
+      "result_score": "NYY 4 \u00b7 PHI 11",
+      "graded_at": "2026-07-27T00:33:42.292054-04:00",
       "slate_assessment": "17-game MLB-only slate with two elite pitching matchups (Misiorowski vs COL, S\u00e1nchez vs NYY) and several under-the-radar edges in totals and props. No NBA or NHL today.",
       "executive_summary": "Sunday's 17-game MLB board features two dominant aces in premium spots: Jacob Misiorowski returns from arm fatigue to face a flailing Rockies lineup, and Cristopher S\u00e1nchez gets the Yankees at home where he's been nearly unhittable. The under at Globe Life Field (deGrom vs Gilbert) is the sharpest total on the board \u2014 two elite starters, two weak offenses, and a 7-line that hasn't budged. The ladder rides with the TEX/SEA Under 7 at even money: best floor, cleanest setup, market support.",
       "slate_analysis": "Today's board is 17 MLB games, no NBA or NHL action. The pricing climate is soft \u2014 most totals are sitting at consensus with minimal movement, and several moneylines are priced near pick'em despite clear pitching mismatches. The market hasn't fully adjusted to Misiorowski's return from arm fatigue or to S\u00e1nchez's home/road splits.\n\nThe top candidates that earned a hard look: (1) MIL vs COL Under 8 \u2014 Misiorowski's 1.57 ERA and 39.4% K rate against a Rockies lineup that's been lost outside Coors, with Freeland's 7.28 ERA on the other side. (2) TEX vs SEA Under 7 \u2014 deGrom vs Gilbert is the best pitching matchup on the board, both offenses rank bottom-10 in R/G, and the total hasn't moved off 7. (3) PHI vs NYY Under 8 \u2014 S\u00e1nchez at home has been elite (sub-2.00 ERA at CBP), and Warren's 1.27 HR/9 in a HR-boosting park is a concern, but the under still has value. (4) BOS vs TOR Under 7.5 \u2014 Suarez's 0.49 HR/9 and wind blowing in at Fenway suppresses scoring. (5) PIT ML vs CHC \u2014 Ashcraft's 27% K rate vs Taillon's 2.75 HR/9 is a mismatch, but the -130 juice is borderline. (6) Braxton Ashcraft Ks Over 5.5 \u2014 Cubs K% is high, Ashcraft's K rate is elite, and the line is -130.\n\nWhat got cut: CLE @ TB Under 7 had appeal (Messick vs Rasmussen, Trop suppresses), but data_confidence at 0.4 is below our floor. DET vs KC was tempting with Valdez at home, but -190 juice exceeds our straight-bet cap. ARI @ WSH Over 10 looked live with Mikolas's 1.93 HR/9, but Kohl Drake has only 5 IP this season \u2014 sample too thin. BAL vs ATL was a coin flip with no edge. NYM vs LAD had two shaky starters but no clear side.\n\nThe final six: (1) TEX/SEA Under 7 \u2014 ladder pick, best floor, two aces, two weak offenses, market support. (2) MIL -1.5 \u2014 Misiorowski's dominance vs Freeland's implosion, run line at -105 is value. (3) PHI/NYY Under 8 \u2014 S\u00e1nchez at home, HR-boosting park but wind neutral, Warren's HR/9 is a concern but under still has edge. (4) BOS/TOR Under 7.5 \u2014 Suarez's elite HR suppression, wind blowing in, both offenses bottom-third. (5) PIT ML \u2014 Ashcraft vs Taillon mismatch, PNC suppresses, -130 is acceptable. (6) Braxton Ashcraft Ks Over 5.5 \u2014 Cubs K% is high, Ashcraft's K rate is elite, line is -130 at FanDuel.",
       "slate_vibe": "NORMAL",
-      "published_at": "2026-07-26T12:02:30.026468-04:00"
+      "published_at": "2026-07-26T12:02:30.026468-04:00",
+      "autopsy": {
+        "classification": "MODEL",
+        "post_mortem": "The thesis was built entirely on S\u00e1nchez's dominance \u2014 but the under died on Warren's side, not S\u00e1nchez's. Warren was knocked out before the 4th inning, having surrendered 6 runs on a Schwarber sac fly in the 1st, a Stott solo HR in the 2nd, and a Bohm bases-loaded double in the 3rd that made it 5-0. The under was effectively dead by the end of the 3rd inning (PHI 6, NYY 0), before S\u00e1nchez even had a chance to falter. The model correctly identified S\u00e1nchez as the anchor but failed to weight Warren's 1.27 HR/9 and 1.37 WHIP as a genuine bust risk in a HR-boosting park \u2014 the 'case against' was acknowledged and then dismissed too quickly. The Phillies' own offense (Stott 5 RBI, Bohm 4 RBI) was never modeled as a threat to the under.",
+        "candidate_rule": "When the away starter carries a WHIP \u2265 1.35 AND HR/9 \u2265 1.20 in a park with HR factor \u2265 1.08, require the under thesis to survive a 6+ run scenario from that starter alone before flagging as a value play \u2014 N=1, insufficient to establish rule.",
+        "sample_size_warning": "N=1, insufficient to establish rule. One blowup from a shaky road starter does not confirm a pattern, but the 'case against' section explicitly flagged Warren's HR/9 as a real concern and the model discounted it anyway \u2014 worth tracking."
+      }
     },
     {
       "id": "20260726-MLB-COL-MIL-SPREAD",

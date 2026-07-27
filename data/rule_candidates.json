@@ -550,5 +550,13 @@
     "candidate_rule": "If a targeted SP has allowed 5+ ER in either of his two most recent starts, require a confidence reduction of at least 1 point and a unit reduction of 0.5 before backing an under that depends on that SP going 6+ IP \u2014 N=1, insufficient to establish rule.",
     "sample_size_warning": "N=1, insufficient to establish rule. One bad deGrom start does not confirm a pattern, but the pre-game data signal (10-3 blowout, 4.2 IP in prior start) was available and not acted upon.",
     "status": "PENDING_REVIEW"
+  },
+  {
+    "proposed_at": "2026-07-27T00:34:02.425748-04:00",
+    "source_pick_id": "20260726-MLB-NYY-PHI-TOTAL",
+    "source_loss": "Under 8 (NYY @ PHI)",
+    "candidate_rule": "When the away starter carries a WHIP \u2265 1.35 AND HR/9 \u2265 1.20 in a park with HR factor \u2265 1.08, require the under thesis to survive a 6+ run scenario from that starter alone before flagging as a value play \u2014 N=1, insufficient to establish rule.",
+    "sample_size_warning": "N=1, insufficient to establish rule. One blowup from a shaky road starter does not confirm a pattern, but the 'case against' section explicitly flagged Warren's HR/9 as a real concern and the model discounted it anyway \u2014 worth tracking.",
+    "status": "PENDING_REVIEW"
   }
 ]
