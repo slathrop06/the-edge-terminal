@@ -1,5 +1,31 @@
 [
   {
+    "id": "20260727-MLB-PHI-MIA-TOTAL",
+    "date": "2026-07-27",
+    "pick": "Under 7.5",
+    "game": "PHI @ MIA",
+    "odds": "-105",
+    "result_score": "PHI 7 \u00b7 MIA 8",
+    "classification": "VARIANCE",
+    "post_mortem": "The under thesis was built on Wheeler being Wheeler \u2014 but Wheeler was not Wheeler. His sinker sat at 91.3 mph against its season-average of ~95 mph, he was pulled after just 3 innings having surrendered 5 runs on 6 hits (including HRs to Hern\u00e1ndez and Conine), and the manager cited possible nausea as a cause. The game was 5-2 Marlins after 2 innings \u2014 the under was effectively dead before the 4th inning started. The kill shot came in the 9th: closer Jhoan Duran entered with a 7-5 lead, loaded the bases with no outs, allowed a tying 2-run single, and Griffin Conine walked it off. The total finished 15 \u2014 nearly double the line. This was not a bad thesis; it was a mid-game health event (Wheeler's velocity cratering, possible illness) that no pre-game data could have flagged, compounded by a blown save from a closer acquired specifically to prevent this outcome.",
+    "candidate_rule": null,
+    "sample_size_warning": "N=1, insufficient to establish rule. Wheeler's velocity drop and possible illness are a one-off event; do not adjust ace-under models based on this single game without a pattern of early exits.",
+    "analyzed_at": "2026-07-28T01:54:43.626185-04:00"
+  },
+  {
+    "id": "20260727-MLB-BAL-DET-ML",
+    "date": "2026-07-27",
+    "pick": "Detroit Tigers ML",
+    "game": "BAL @ DET",
+    "odds": "-118",
+    "result_score": "BAL 8 \u00b7 DET 5",
+    "classification": "MODEL",
+    "post_mortem": "Montero was flat from the jump \u2014 velocity down, spin rates below norm, just 1 strikeout and a 90.6 mph average exit velocity on 21 balls in play. Baltimore scored in the 1st, 2nd, 3rd, and 5th innings, with the killing blow a Taveras HR and a Coby Mayo two-run shot off the bullpen in the 5th to make it 7-3. The thesis leaned on Montero's season-long 3.14 ERA/0.96 WHIP without accounting for the fact that he had just been pulled back into the rotation after five straight bullpen appearances, on a 13-game stretch with no days off \u2014 a workload/fatigue flag the model ignored.",
+    "candidate_rule": "When a starter has made 4+ consecutive bullpen appearances immediately before a rotation start, apply a fatigue discount to projected ERA and reduce ML confidence by at least one tier \u2014 regardless of season-long ERA profile; validate with minimum N=10 similar workload patterns before treating as a hard filter.",
+    "sample_size_warning": "N=1, insufficient to establish rule \u2014 this is a hypothesis worth tracking, not a confirmed edge.",
+    "analyzed_at": "2026-07-28T01:54:30.566256-04:00"
+  },
+  {
     "id": "20260726-MLB-NYY-PHI-TOTAL",
     "date": "2026-07-26",
     "pick": "Under 8",

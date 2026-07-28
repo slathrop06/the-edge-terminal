@@ -558,5 +558,13 @@
     "candidate_rule": "When the away starter carries a WHIP \u2265 1.35 AND HR/9 \u2265 1.20 in a park with HR factor \u2265 1.08, require the under thesis to survive a 6+ run scenario from that starter alone before flagging as a value play \u2014 N=1, insufficient to establish rule.",
     "sample_size_warning": "N=1, insufficient to establish rule. One blowup from a shaky road starter does not confirm a pattern, but the 'case against' section explicitly flagged Warren's HR/9 as a real concern and the model discounted it anyway \u2014 worth tracking.",
     "status": "PENDING_REVIEW"
+  },
+  {
+    "proposed_at": "2026-07-28T01:54:30.568483-04:00",
+    "source_pick_id": "20260727-MLB-BAL-DET-ML",
+    "source_loss": "Detroit Tigers ML (BAL @ DET)",
+    "candidate_rule": "When a starter has made 4+ consecutive bullpen appearances immediately before a rotation start, apply a fatigue discount to projected ERA and reduce ML confidence by at least one tier \u2014 regardless of season-long ERA profile; validate with minimum N=10 similar workload patterns before treating as a hard filter.",
+    "sample_size_warning": "N=1, insufficient to establish rule \u2014 this is a hypothesis worth tracking, not a confirmed edge.",
+    "status": "PENDING_REVIEW"
   }
 ]

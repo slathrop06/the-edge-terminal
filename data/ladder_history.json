@@ -5,6 +5,14 @@
   "target": 10,
   "history": [
     {
+      "date": "2026-07-27",
+      "pick_id": "20260727-MLB-PHI-MIA-TOTAL",
+      "pick": "Under 7.5",
+      "game": "PHI @ MIA",
+      "status": "LOSS",
+      "after_streak": 0
+    },
+    {
       "date": "2026-07-26",
       "pick_id": "20260726-MLB-SEA-TEX-TOTAL",
       "pick": "Under 7",
@@ -429,5 +437,5 @@
       "after_streak": 1
     }
   ],
-  "updated_at": "2026-07-26T18:51:05.594201-04:00"
+  "updated_at": "2026-07-28T01:54:30.597015-04:00"
 }

@@ -1,485 +1,9 @@
 {
-  "generated_at": "2026-07-27T17:59:48.457280-04:00",
-  "today": "2026-07-27",
+  "generated_at": "2026-07-28T01:55:01.664996-04:00",
+  "today": "2026-07-28",
   "system_paused": false,
   "pause_reason": "",
-  "today_picks": [
-    {
-      "id": "20260727-MLB-BOS-ATH-PROP-PAYTONTOLLE",
-      "sport": "MLB",
-      "game": "BOS @ ATH",
-      "first_pitch_iso": "2026-07-28T01:40Z",
-      "pick": "Payton Tolle Ks Over 5.5",
-      "best_book": "FanDuel",
-      "best_odds": "-115",
-      "book_prices": {
-        "draftkings": "-117",
-        "fanduel": "-115",
-        "betmgm": "-120"
-      },
-      "book_links": {
-        "draftkings": "https://sportsbook.draftkings.com/?outcomes=0QA354845559%232225293650_13L84240Q1-2091356037Q20",
-        "fanduel": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.594895795&selectionId=87858972",
-        "betmgm": "https://sports.nj.betmgm.com/en/sports?options=2:7828107-202096946-768174446&type=Single"
-      },
-      "market": "PROP",
-      "confidence": 3,
-      "units": 1.0,
-      "win_probability": 0.58,
-      "ladder_designation": false,
-      "data_confidence": 0.75,
-      "rules_passed": [
-        "max_juice",
-        "ladder_even_money",
-        "parlay_well_formed",
-        "confidence_units_match",
-        "data_confidence_floor",
-        "pick_type_allowed",
-        "mlb_hr_prop_check",
-        "mlb_pitcher_k_check(soft)",
-        "mlb_total_bases_check",
-        "mlb_hits_check",
-        "nba_player_prop_check",
-        "nhl_shots_check",
-        "mlb_run_line_check",
-        "mlb_under_bb_check",
-        "no_same_game_opposite"
-      ],
-      "locked": true,
-      "late_add": false,
-      "late_add_reason": "",
-      "bonus_pick": false,
-      "event_type": "",
-      "event_name": "",
-      "legs": [],
-      "headline": "Tolle's 26.2% K rate meets a strikeout-prone Athletics lineup.",
-      "the_thesis": "Payton Tolle has been excellent for the Red Sox this season \u2014 3.31 ERA, 1.10 WHIP, and a 26.2% K rate through 89.2 innings. His stuff plays, and he's been consistently hitting 6+ Ks in his recent starts.\n\nThe Athletics are one of the more strikeout-prone teams in baseball. Their lineup features several high-K hitters, and they've struggled against quality pitching all season. Jack Perkins on the other side has a 26.7% K rate himself, but his 6.75 ERA suggests he's giving up runs despite the strikeouts.\n\nThe over is getting -115 juice at FanDuel, which is a fair price for a pitcher with Tolle's K rate against this matchup. He's gone over 5.5 Ks in his last several starts, and this sets up as another high-K outing.",
-      "the_data": [
-        {
-          "label": "Tolle K% (2026)",
-          "value": "26.2%",
-          "context": "Strong swing-and-miss"
-        },
-        {
-          "label": "Tolle L3 K/start",
-          "value": "6.3 avg",
-          "context": "Trending over the line"
-        },
-        {
-          "label": "ATH team K%",
-          "value": "High",
-          "context": "Strikeout-prone lineup"
-        },
-        {
-          "label": "Tolle IP/start",
-          "value": "5.9 avg",
-          "context": "Goes deep enough for Ks"
-        },
-        {
-          "label": "Sutter Health Park",
-          "value": "Neutral",
-          "context": "No park impact on Ks"
-        }
-      ],
-      "the_market": "Line opened at 5.5 and has held. The over is getting slight juice across all books, suggesting the market agrees this is a fair number.",
-      "weather_park": "Sutter Health Park is neutral for runs and HRs. Weather is a non-factor for this late-night game.",
-      "case_against": "The Athletics have shown flashes of contact-oriented baseball at times. If Tolle doesn't have his best stuff, he could struggle to put hitters away.",
-      "what_were_betting_on": "Tolle going 6+ innings with 6+ strikeouts against a strikeout-prone lineup.",
-      "scott_bot_quip": "The A's swing and miss. Tolle makes them miss. Simple math.",
-      "ladder_note": "",
-      "date": "2026-07-27",
-      "status": "PEND",
-      "units_result": null,
-      "clv_cents": null,
-      "result_score": null,
-      "graded_at": null,
-      "slate_assessment": "14-game MLB-only board with several strong pitching matchups. Wheeler at loanDepot, Chase Burns at GABP, and Max Fried returning from IL against the White Sox all stand out. Prop markets offer clean K under spots and a few total bases edges.",
-      "executive_summary": "Monday's 14-game MLB slate features two elite aces in favorable spots \u2014 Zack Wheeler at pitcher-friendly loanDepot Park against the Marlins, and Chase Burns hosting Cleveland at GABP. Wheeler's 2.16 ERA and 30.8% K rate against a weak Miami lineup is the cleanest mismatch on the board. Max Fried returns from the IL against a struggling White Sox offense, and Keider Montero's breakout season continues at Comerica against Baltimore. The ladder rides with Wheeler \u2014 best floor, best park, best price.",
-      "slate_analysis": "Today's board is a 14-game MLB-only slate with no NBA or NHL action. The pricing climate is relatively tight across most games, with only a handful of sides offering juice better than -130. Several totals sit at 8.5, and the prop markets are populated across the higher-total games.\n\nThe top candidates that rose during my review: PHI @ MIA (Wheeler vs Phillips at loanDepot), CLE @ CIN (Burns vs Cecconi at GABP), NYY @ CHW (Fried vs Schultz), BAL @ DET (Bradish vs Montero at Comerica), BOS @ ATH (Tolle vs Perkins), and the K prop slate \u2014 particularly Merrill Kelly's K under at PIT and Kyle Bradish's K under at DET. I also looked at the TOR @ WSH game given Scherzer's disastrous 10.23 ERA, but the Nationals' starter Eddy Yean has only 5.1 IP this season \u2014 sample too thin to trust.\n\nWhat got cut and why: SEA @ TEX was eliminated because data_confidence is 0.4 and the pitching matchup (Kirby vs Rocker) doesn't offer enough edge at -130 juice. ARI @ PIT had weak pitching on both sides (Kelly 5.12 ERA, Keller 4.90 ERA) but no clear side edge \u2014 the total at 9.5 is already priced in. TOR @ WSH was cut because Yean's 5.1 IP sample is too small to build a fair price around. MIL @ SF was considered for the under given Oracle's pitcher-friendly park, but both starters (Mahle 5.31 ERA, Sproat 5.09 ERA) have elevated walk rates that make unders risky. The Cubs @ Cardinals game lacks a confirmed home starter, which tanks data confidence.\n\nThe final six picks: Wheeler at loanDepot is the cleanest ace-vs-weak-lineup spot on the board and gets the ladder designation. Burns at home against Cleveland offers elite stuff against a middling offense. Fried returning from IL against a struggling White Sox lineup is a strong value play at -145. Montero's breakout season continues at Comerica against a Baltimore team that struggles on the road. Bradish K Under 5.5 is a sharp prop play given Detroit's low K% offense. Finally, Tolle's K Over 5.5 against a strikeout-prone Athletics lineup rounds out the card.",
-      "slate_vibe": "NORMAL",
-      "published_at": "2026-07-27T12:58:15.825182-04:00"
-    },
-    {
-      "id": "20260727-MLB-BAL-DET-PROP-KYLEBRADISH",
-      "sport": "MLB",
-      "game": "BAL @ DET",
-      "first_pitch_iso": "2026-07-27T22:40Z",
-      "pick": "Kyle Bradish Ks Under 5.5",
-      "best_book": "DraftKings",
-      "best_odds": "-110",
-      "book_prices": {
-        "draftkings": "-110",
-        "fanduel": "-113",
-        "betmgm": "-115"
-      },
-      "book_links": {
-        "draftkings": "https://sportsbook.draftkings.com/?outcomes=0QA354843816%232225287276_13L84240Q1848900156Q20",
-        "fanduel": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.594894817&selectionId=44622156",
-        "betmgm": "https://sports.nj.betmgm.com/en/sports?options=2:7828112-202091714-768154276&type=Single"
-      },
-      "market": "PROP",
-      "confidence": 3,
-      "units": 1.0,
-      "win_probability": 0.57,
-      "ladder_designation": false,
-      "data_confidence": 0.75,
-      "rules_passed": [
-        "max_juice",
-        "ladder_even_money",
-        "parlay_well_formed",
-        "confidence_units_match",
-        "data_confidence_floor",
-        "pick_type_allowed",
-        "mlb_hr_prop_check",
-        "mlb_pitcher_k_check(soft)",
-        "mlb_total_bases_check",
-        "mlb_hits_check",
-        "nba_player_prop_check",
-        "nhl_shots_check",
-        "mlb_run_line_check",
-        "mlb_under_bb_check",
-        "no_same_game_opposite"
-      ],
-      "locked": true,
-      "late_add": false,
-      "late_add_reason": "",
-      "bonus_pick": false,
-      "event_type": "",
-      "event_name": "",
-      "legs": [],
-      "headline": "Bradish's K rate doesn't match the line against a Tigers offense that doesn't strike out.",
-      "the_thesis": "Kyle Bradish has a 23.1% K rate this season, which is solid but not elite. The line is set at 5.5, which implies he needs to strike out 6+ batters to beat the over. Against a Tigers offense that has been one of the better contact teams in the league, that's a tall order.\n\nDetroit's lineup features several low-K hitters, and Comerica Park's pitcher-friendly environment means Bradish may be pitching to contact rather than going for strikeouts. His 10.7% walk rate also suggests he's not always ahead in counts, which limits his ability to put hitters away.\n\nThe under is getting -110 juice at DraftKings, which is a fair price. Bradish has gone under 5.5 Ks in several starts this season, and this matchup sets up well for another low-K outing.",
-      "the_data": [
-        {
-          "label": "Bradish K% (2026)",
-          "value": "23.1%",
-          "context": "Solid but not elite"
-        },
-        {
-          "label": "Bradish BB%",
-          "value": "10.7%",
-          "context": "Elevated, limits K opportunities"
-        },
-        {
-          "label": "DET team K%",
-          "value": "Low",
-          "context": "Contact-oriented lineup"
-        },
-        {
-          "label": "Bradish L3 K/start",
-          "value": "5.2 avg",
-          "context": "Trending under the line"
-        },
-        {
-          "label": "Comerica PF",
-          "value": "0.96 runs",
-          "context": "Pitcher-friendly, contact-oriented"
-        }
-      ],
-      "the_market": "Line opened at 5.5 and has held. The under is getting slight juice across all books, suggesting the market agrees this is a fair number.",
-      "weather_park": "Comerica Park is pitcher-friendly, which may encourage Bradish to pitch to contact rather than chase strikeouts.",
-      "case_against": "Bradish has the stuff to rack up Ks if he's on. If he gets ahead in counts early, he could blow past this number. The Tigers also have some swing-and-miss hitters in the lineup.",
-      "what_were_betting_on": "Bradish pitching to contact, the Tigers putting balls in play, and a 5-K or fewer outing.",
-      "scott_bot_quip": "Bradish walks too many to strike out enough. Math is math.",
-      "ladder_note": "",
-      "date": "2026-07-27",
-      "status": "PEND",
-      "units_result": null,
-      "clv_cents": null,
-      "result_score": null,
-      "graded_at": null,
-      "slate_assessment": "14-game MLB-only board with several strong pitching matchups. Wheeler at loanDepot, Chase Burns at GABP, and Max Fried returning from IL against the White Sox all stand out. Prop markets offer clean K under spots and a few total bases edges.",
-      "executive_summary": "Monday's 14-game MLB slate features two elite aces in favorable spots \u2014 Zack Wheeler at pitcher-friendly loanDepot Park against the Marlins, and Chase Burns hosting Cleveland at GABP. Wheeler's 2.16 ERA and 30.8% K rate against a weak Miami lineup is the cleanest mismatch on the board. Max Fried returns from the IL against a struggling White Sox offense, and Keider Montero's breakout season continues at Comerica against Baltimore. The ladder rides with Wheeler \u2014 best floor, best park, best price.",
-      "slate_analysis": "Today's board is a 14-game MLB-only slate with no NBA or NHL action. The pricing climate is relatively tight across most games, with only a handful of sides offering juice better than -130. Several totals sit at 8.5, and the prop markets are populated across the higher-total games.\n\nThe top candidates that rose during my review: PHI @ MIA (Wheeler vs Phillips at loanDepot), CLE @ CIN (Burns vs Cecconi at GABP), NYY @ CHW (Fried vs Schultz), BAL @ DET (Bradish vs Montero at Comerica), BOS @ ATH (Tolle vs Perkins), and the K prop slate \u2014 particularly Merrill Kelly's K under at PIT and Kyle Bradish's K under at DET. I also looked at the TOR @ WSH game given Scherzer's disastrous 10.23 ERA, but the Nationals' starter Eddy Yean has only 5.1 IP this season \u2014 sample too thin to trust.\n\nWhat got cut and why: SEA @ TEX was eliminated because data_confidence is 0.4 and the pitching matchup (Kirby vs Rocker) doesn't offer enough edge at -130 juice. ARI @ PIT had weak pitching on both sides (Kelly 5.12 ERA, Keller 4.90 ERA) but no clear side edge \u2014 the total at 9.5 is already priced in. TOR @ WSH was cut because Yean's 5.1 IP sample is too small to build a fair price around. MIL @ SF was considered for the under given Oracle's pitcher-friendly park, but both starters (Mahle 5.31 ERA, Sproat 5.09 ERA) have elevated walk rates that make unders risky. The Cubs @ Cardinals game lacks a confirmed home starter, which tanks data confidence.\n\nThe final six picks: Wheeler at loanDepot is the cleanest ace-vs-weak-lineup spot on the board and gets the ladder designation. Burns at home against Cleveland offers elite stuff against a middling offense. Fried returning from IL against a struggling White Sox lineup is a strong value play at -145. Montero's breakout season continues at Comerica against a Baltimore team that struggles on the road. Bradish K Under 5.5 is a sharp prop play given Detroit's low K% offense. Finally, Tolle's K Over 5.5 against a strikeout-prone Athletics lineup rounds out the card.",
-      "slate_vibe": "NORMAL",
-      "published_at": "2026-07-27T12:58:15.825067-04:00"
-    },
-    {
-      "id": "20260727-MLB-BAL-DET-ML",
-      "sport": "MLB",
-      "game": "BAL @ DET",
-      "first_pitch_iso": "2026-07-27T22:40Z",
-      "pick": "Detroit Tigers ML",
-      "best_book": "FanDuel",
-      "best_odds": "-118",
-      "book_prices": {
-        "draftkings": "-120",
-        "fanduel": "-118",
-        "betmgm": "-118"
-      },
-      "book_links": {
-        "draftkings": "https://sportsbook.draftkings.com/?outcomes=0ML85638117_1",
-        "fanduel": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.594750959&selectionId=29159",
-        "betmgm": "https://sports.nj.betmgm.com/en/sports?options=19829114-1545542419-2260951918&type=Single"
-      },
-      "market": "ML",
-      "confidence": 4,
-      "units": 1.5,
-      "win_probability": 0.58,
-      "ladder_designation": false,
-      "data_confidence": 0.78,
-      "rules_passed": [
-        "max_juice",
-        "ladder_even_money",
-        "parlay_well_formed",
-        "confidence_units_match",
-        "data_confidence_floor",
-        "pick_type_allowed",
-        "mlb_hr_prop_check",
-        "mlb_pitcher_k_check",
-        "mlb_total_bases_check",
-        "mlb_hits_check",
-        "nba_player_prop_check",
-        "nhl_shots_check",
-        "mlb_run_line_check",
-        "mlb_under_bb_check",
-        "no_same_game_opposite"
-      ],
-      "locked": true,
-      "late_add": false,
-      "late_add_reason": "",
-      "bonus_pick": false,
-      "event_type": "",
-      "event_name": "",
-      "legs": [],
-      "headline": "Keider Montero's breakout season continues at Comerica against a Baltimore team that struggles on the road.",
-      "the_thesis": "Keider Montero has been one of the best stories in baseball this season. The Tigers' Swiss Army knife has posted a 3.14 ERA and 0.96 WHIP through 106 innings \u2014 that WHIP ranks 4th in the American League among qualified starters. His 5.3% walk rate is elite, and he's been the steady hand Detroit needed with their rotation decimated by injuries.\n\nKyle Bradish on the other side has been solid (3.49 ERA) but his 10.7% walk rate is concerning. He puts runners on base, and the Tigers have shown they can capitalize on mistakes. Comerica Park is pitcher-friendly (0.96 runs PF, 0.95 HR PF), which favors Montero's contact-management approach.\n\nThe Orioles have been inconsistent on the road this season, and Montero has been excellent at home. The Tigers are fighting for a playoff spot, and this is a game they need to win.",
-      "the_data": [
-        {
-          "label": "Montero ERA / WHIP (2026)",
-          "value": "3.14 / 0.96",
-          "context": "4th in AL WHIP"
-        },
-        {
-          "label": "Montero BB%",
-          "value": "5.3%",
-          "context": "Elite command"
-        },
-        {
-          "label": "Bradish BB%",
-          "value": "10.7%",
-          "context": "Elevated, creates traffic"
-        },
-        {
-          "label": "Comerica PF (runs/HR)",
-          "value": "0.96 / 0.95",
-          "context": "Pitcher-friendly"
-        },
-        {
-          "label": "DET home record",
-          "value": "Strong",
-          "context": "Tigers play well at Comerica"
-        }
-      ],
-      "the_market": "Tigers opened as -118 favorites and the line has held. The market respects Montero's breakout but isn't overreacting. This is a fair price for a home favorite with a pitching edge.",
-      "weather_park": "Comerica Park is pitcher-friendly with a 0.95 HR factor. Weather is a non-factor for this evening game.",
-      "case_against": "Bradish has been solid this season, and the Orioles offense can explode at any time. If Montero doesn't have his command, Baltimore could put up a crooked inning.",
-      "what_were_betting_on": "Montero going 6+ innings with 2 or fewer runs, the Tigers offense providing support against Bradish's walks, and the bullpen closing it out.",
-      "scott_bot_quip": "Montero's WHIP is 0.96. That's not a typo \u2014 that's a breakout.",
-      "ladder_note": "",
-      "date": "2026-07-27",
-      "status": "PEND",
-      "units_result": null,
-      "clv_cents": null,
-      "result_score": null,
-      "graded_at": null,
-      "slate_assessment": "14-game MLB-only board with several strong pitching matchups. Wheeler at loanDepot, Chase Burns at GABP, and Max Fried returning from IL against the White Sox all stand out. Prop markets offer clean K under spots and a few total bases edges.",
-      "executive_summary": "Monday's 14-game MLB slate features two elite aces in favorable spots \u2014 Zack Wheeler at pitcher-friendly loanDepot Park against the Marlins, and Chase Burns hosting Cleveland at GABP. Wheeler's 2.16 ERA and 30.8% K rate against a weak Miami lineup is the cleanest mismatch on the board. Max Fried returns from the IL against a struggling White Sox offense, and Keider Montero's breakout season continues at Comerica against Baltimore. The ladder rides with Wheeler \u2014 best floor, best park, best price.",
-      "slate_analysis": "Today's board is a 14-game MLB-only slate with no NBA or NHL action. The pricing climate is relatively tight across most games, with only a handful of sides offering juice better than -130. Several totals sit at 8.5, and the prop markets are populated across the higher-total games.\n\nThe top candidates that rose during my review: PHI @ MIA (Wheeler vs Phillips at loanDepot), CLE @ CIN (Burns vs Cecconi at GABP), NYY @ CHW (Fried vs Schultz), BAL @ DET (Bradish vs Montero at Comerica), BOS @ ATH (Tolle vs Perkins), and the K prop slate \u2014 particularly Merrill Kelly's K under at PIT and Kyle Bradish's K under at DET. I also looked at the TOR @ WSH game given Scherzer's disastrous 10.23 ERA, but the Nationals' starter Eddy Yean has only 5.1 IP this season \u2014 sample too thin to trust.\n\nWhat got cut and why: SEA @ TEX was eliminated because data_confidence is 0.4 and the pitching matchup (Kirby vs Rocker) doesn't offer enough edge at -130 juice. ARI @ PIT had weak pitching on both sides (Kelly 5.12 ERA, Keller 4.90 ERA) but no clear side edge \u2014 the total at 9.5 is already priced in. TOR @ WSH was cut because Yean's 5.1 IP sample is too small to build a fair price around. MIL @ SF was considered for the under given Oracle's pitcher-friendly park, but both starters (Mahle 5.31 ERA, Sproat 5.09 ERA) have elevated walk rates that make unders risky. The Cubs @ Cardinals game lacks a confirmed home starter, which tanks data confidence.\n\nThe final six picks: Wheeler at loanDepot is the cleanest ace-vs-weak-lineup spot on the board and gets the ladder designation. Burns at home against Cleveland offers elite stuff against a middling offense. Fried returning from IL against a struggling White Sox lineup is a strong value play at -145. Montero's breakout season continues at Comerica against a Baltimore team that struggles on the road. Bradish K Under 5.5 is a sharp prop play given Detroit's low K% offense. Finally, Tolle's K Over 5.5 against a strikeout-prone Athletics lineup rounds out the card.",
-      "slate_vibe": "NORMAL",
-      "published_at": "2026-07-27T12:58:15.824930-04:00"
-    },
-    {
-      "id": "20260727-MLB-NYY-CHW-ML",
-      "sport": "MLB",
-      "game": "NYY @ CHW",
-      "first_pitch_iso": "2026-07-27T23:40Z",
-      "pick": "New York Yankees ML",
-      "best_book": "BetMGM",
-      "best_odds": "-145",
-      "book_prices": {
-        "draftkings": "-149",
-        "fanduel": "-146",
-        "betmgm": "-145"
-      },
-      "book_links": {
-        "draftkings": "https://sportsbook.draftkings.com/?outcomes=0ML85638130_3",
-        "fanduel": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.594750960&selectionId=29161",
-        "betmgm": "https://sports.nj.betmgm.com/en/sports?options=19829124-1545543365-2260953989&type=Single"
-      },
-      "market": "ML",
-      "confidence": 4,
-      "units": 1.5,
-      "win_probability": 0.64,
-      "ladder_designation": false,
-      "data_confidence": 0.8,
-      "rules_passed": [
-        "max_juice",
-        "ladder_even_money",
-        "parlay_well_formed",
-        "confidence_units_match",
-        "data_confidence_floor",
-        "pick_type_allowed",
-        "mlb_hr_prop_check",
-        "mlb_pitcher_k_check",
-        "mlb_total_bases_check",
-        "mlb_hits_check",
-        "nba_player_prop_check",
-        "nhl_shots_check",
-        "mlb_run_line_check",
-        "mlb_under_bb_check",
-        "no_same_game_opposite"
-      ],
-      "locked": true,
-      "late_add": false,
-      "late_add_reason": "",
-      "bonus_pick": false,
-      "event_type": "",
-      "event_name": "",
-      "legs": [],
-      "headline": "Max Fried returns from the IL in dominant form against a struggling White Sox starter.",
-      "the_thesis": "Max Fried made his return from a two-month layoff last week and looked sharp \u2014 five scoreless innings, one hit allowed. His 2026 numbers before the injury were excellent: 3.21 ERA, 1.01 WHIP, 50 strikeouts in 61.2 innings. The Yankees are getting their ace back at the perfect time.\n\nNoah Schultz on the other side has been rough \u2014 6.04 ERA, 1.46 WHIP, and a 1.44 HR/9. His 11.5% walk rate creates traffic, and the Yankees have one of the best offenses in baseball. Aaron Judge and company should be able to capitalize on Schultz's mistakes.\n\nThe White Sox have been competitive at home this season, but Fried's return changes the calculus. He's a former Cy Young runner-up who dominated in his first start back. The Yankees need wins for their playoff push, and this is a get-right spot.",
-      "the_data": [
-        {
-          "label": "Fried ERA / WHIP (2026)",
-          "value": "3.21 / 1.01",
-          "context": "Strong before IL stint"
-        },
-        {
-          "label": "Fried return start",
-          "value": "5 IP, 1 H, 0 R",
-          "context": "Dominant in return"
-        },
-        {
-          "label": "Schultz ERA / BB%",
-          "value": "6.04 / 11.5%",
-          "context": "Struggling, walks too many"
-        },
-        {
-          "label": "NYY R/G (season)",
-          "value": "4.65",
-          "context": "Above league average"
-        },
-        {
-          "label": "Rate Field PF (HR)",
-          "value": "1.08",
-          "context": "HR-boosting"
-        }
-      ],
-      "the_market": "Yankees opened as -145 favorites and the line has held. The market is pricing in Fried's return but not overreacting. Sharp money hasn't moved this line.",
-      "weather_park": "Rate Field is slightly HR-boosting (1.08 PF), which favors the Yankees' power-heavy lineup. Weather is a non-factor for this evening game.",
-      "case_against": "Fried is coming off a long layoff and may be on a pitch count. If he exits early, the Yankees bullpen has been inconsistent. The White Sox have also shown they can compete at home.",
-      "what_were_betting_on": "Fried going 5-6 quality innings, the Yankees offense tagging Schultz early, and the bullpen holding a lead.",
-      "scott_bot_quip": "Fried looked like he never left. Schultz looks like he wishes he could.",
-      "ladder_note": "",
-      "date": "2026-07-27",
-      "status": "PEND",
-      "units_result": null,
-      "clv_cents": null,
-      "result_score": null,
-      "graded_at": null,
-      "slate_assessment": "14-game MLB-only board with several strong pitching matchups. Wheeler at loanDepot, Chase Burns at GABP, and Max Fried returning from IL against the White Sox all stand out. Prop markets offer clean K under spots and a few total bases edges.",
-      "executive_summary": "Monday's 14-game MLB slate features two elite aces in favorable spots \u2014 Zack Wheeler at pitcher-friendly loanDepot Park against the Marlins, and Chase Burns hosting Cleveland at GABP. Wheeler's 2.16 ERA and 30.8% K rate against a weak Miami lineup is the cleanest mismatch on the board. Max Fried returns from the IL against a struggling White Sox offense, and Keider Montero's breakout season continues at Comerica against Baltimore. The ladder rides with Wheeler \u2014 best floor, best park, best price.",
-      "slate_analysis": "Today's board is a 14-game MLB-only slate with no NBA or NHL action. The pricing climate is relatively tight across most games, with only a handful of sides offering juice better than -130. Several totals sit at 8.5, and the prop markets are populated across the higher-total games.\n\nThe top candidates that rose during my review: PHI @ MIA (Wheeler vs Phillips at loanDepot), CLE @ CIN (Burns vs Cecconi at GABP), NYY @ CHW (Fried vs Schultz), BAL @ DET (Bradish vs Montero at Comerica), BOS @ ATH (Tolle vs Perkins), and the K prop slate \u2014 particularly Merrill Kelly's K under at PIT and Kyle Bradish's K under at DET. I also looked at the TOR @ WSH game given Scherzer's disastrous 10.23 ERA, but the Nationals' starter Eddy Yean has only 5.1 IP this season \u2014 sample too thin to trust.\n\nWhat got cut and why: SEA @ TEX was eliminated because data_confidence is 0.4 and the pitching matchup (Kirby vs Rocker) doesn't offer enough edge at -130 juice. ARI @ PIT had weak pitching on both sides (Kelly 5.12 ERA, Keller 4.90 ERA) but no clear side edge \u2014 the total at 9.5 is already priced in. TOR @ WSH was cut because Yean's 5.1 IP sample is too small to build a fair price around. MIL @ SF was considered for the under given Oracle's pitcher-friendly park, but both starters (Mahle 5.31 ERA, Sproat 5.09 ERA) have elevated walk rates that make unders risky. The Cubs @ Cardinals game lacks a confirmed home starter, which tanks data confidence.\n\nThe final six picks: Wheeler at loanDepot is the cleanest ace-vs-weak-lineup spot on the board and gets the ladder designation. Burns at home against Cleveland offers elite stuff against a middling offense. Fried returning from IL against a struggling White Sox lineup is a strong value play at -145. Montero's breakout season continues at Comerica against a Baltimore team that struggles on the road. Bradish K Under 5.5 is a sharp prop play given Detroit's low K% offense. Finally, Tolle's K Over 5.5 against a strikeout-prone Athletics lineup rounds out the card.",
-      "slate_vibe": "NORMAL",
-      "published_at": "2026-07-27T12:58:15.824813-04:00"
-    },
-    {
-      "id": "20260727-MLB-PHI-MIA-TOTAL",
-      "sport": "MLB",
-      "game": "PHI @ MIA",
-      "first_pitch_iso": "2026-07-27T22:40Z",
-      "pick": "Under 7.5",
-      "best_book": "FanDuel",
-      "best_odds": "-105",
-      "book_prices": {
-        "draftkings": "-105",
-        "fanduel": "-105",
-        "betmgm": "-105"
-      },
-      "book_links": {
-        "fanduel": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.594872582&selectionId=7017906",
-        "draftkings": "https://sportsbook.draftkings.com/?outcomes=0OU85638118U750_3",
-        "betmgm": "https://sports.nj.betmgm.com/en/sports?options=19829116-1545542634-2260952384&type=Single"
-      },
-      "market": "TOTAL",
-      "confidence": 5,
-      "units": 2.0,
-      "win_probability": 0.63,
-      "ladder_designation": true,
-      "data_confidence": 0.85,
-      "rules_passed": [
-        "max_juice",
-        "ladder_even_money",
-        "parlay_well_formed",
-        "confidence_units_match",
-        "data_confidence_floor",
-        "pick_type_allowed",
-        "mlb_hr_prop_check",
-        "mlb_pitcher_k_check",
-        "mlb_total_bases_check",
-        "mlb_hits_check",
-        "nba_player_prop_check",
-        "nhl_shots_check",
-        "mlb_run_line_check",
-        "mlb_under_bb_check(soft)",
-        "no_same_game_opposite"
-      ],
-      "locked": true,
-      "late_add": false,
-      "late_add_reason": "",
-      "bonus_pick": false,
-      "event_type": "",
-      "event_name": "",
-      "legs": [],
-      "headline": "Wheeler's elite stuff meets a pitcher-friendly park and a punchless Marlins lineup.",
-      "the_thesis": "Zack Wheeler has been dominant since returning from thoracic outlet surgery, posting a 2.16 ERA and 0.88 WHIP through 100 innings. His 30.8% K rate is elite, and his 5.8% walk rate means he's not putting runners on base. Against a Marlins offense that ranks in the bottom third of the league in wRC+, this is as clean a mismatch as you'll find on a Monday slate.\n\nloanDepot Park is one of the most pitcher-friendly venues in baseball \u2014 the 0.94 runs park factor and 0.86 HR factor actively suppress offense. Wheeler's 0.99 HR/9 becomes even less threatening in this environment. Tyler Phillips on the other side has been serviceable (3.52 ERA) but his 10.5% walk rate creates traffic that could lead to crooked innings. However, the Phillies offense has been league-average, and Phillips has shown he can eat innings.\n\nThe market has this total at 7.5 across all books, and the under is getting -105 juice everywhere. That's a fair line, but Wheeler's underlying metrics suggest he's even better than his surface stats \u2014 his xFIP and SIERA both support a sub-3.00 ERA. The combination of elite pitching, a suppressive park, and a weak opposing lineup gives us a high-floor play.",
-      "the_data": [
-        {
-          "label": "Wheeler ERA / WHIP (2026)",
-          "value": "2.16 / 0.88",
-          "context": "Elite, top-5 in MLB"
-        },
-        {
-          "label": "Wheeler K% / BB%",
-          "value": "30.8% / 5.8%",
-          "context": "Elite command and swing-and-miss"
-        },
-        {
-          "label": "loanDepot Park PF (runs/HR)",
-          "value": "0.94 / 0.86",
-          "context": "Pitcher-friendly, HR-suppressing"
-        },
-        {
-          "label": "MIA R/G (season)",
-          "value": "4.38",
-          "context": "Below league average"
-        },
-        {
-          "label": "Phillips BB%",
-          "value": "10.5%",
-          "context": "Elevated, creates traffic"
-        }
-      ],
-      "the_market": "Total opened at 7.5 and hasn't moved. All three books have the under at -105, suggesting sharp money hasn't pushed this either direction. The market respects Wheeler but isn't overreacting.",
-      "weather_park": "Indoor stadium \u2014 no weather impact. loanDepot Park's 0.86 HR factor is the real story here.",
-      "case_against": "Phillips has been decent at home, and if Wheeler's command wavers early, the Phillies could put up a crooked inning before he settles in. The Marlins have also shown flashes of life against elite pitching this season.",
-      "what_were_betting_on": "Wheeler going 7+ innings with 2 or fewer runs, Phillips keeping the Phillies in check for 5-6 innings, and the park suppressing any late-game fireworks.",
-      "scott_bot_quip": "Wheeler at loanDepot is a cheat code. The park does half the work.",
-      "ladder_note": "Best floor on the board \u2014 elite ace, suppressive park, weak opposing lineup, and even-money juice. This is the play you build a ladder around.",
-      "date": "2026-07-27",
-      "status": "PEND",
-      "units_result": null,
-      "clv_cents": null,
-      "result_score": null,
-      "graded_at": null,
-      "slate_assessment": "14-game MLB-only board with several strong pitching matchups. Wheeler at loanDepot, Chase Burns at GABP, and Max Fried returning from IL against the White Sox all stand out. Prop markets offer clean K under spots and a few total bases edges.",
-      "executive_summary": "Monday's 14-game MLB slate features two elite aces in favorable spots \u2014 Zack Wheeler at pitcher-friendly loanDepot Park against the Marlins, and Chase Burns hosting Cleveland at GABP. Wheeler's 2.16 ERA and 30.8% K rate against a weak Miami lineup is the cleanest mismatch on the board. Max Fried returns from the IL against a struggling White Sox offense, and Keider Montero's breakout season continues at Comerica against Baltimore. The ladder rides with Wheeler \u2014 best floor, best park, best price.",
-      "slate_analysis": "Today's board is a 14-game MLB-only slate with no NBA or NHL action. The pricing climate is relatively tight across most games, with only a handful of sides offering juice better than -130. Several totals sit at 8.5, and the prop markets are populated across the higher-total games.\n\nThe top candidates that rose during my review: PHI @ MIA (Wheeler vs Phillips at loanDepot), CLE @ CIN (Burns vs Cecconi at GABP), NYY @ CHW (Fried vs Schultz), BAL @ DET (Bradish vs Montero at Comerica), BOS @ ATH (Tolle vs Perkins), and the K prop slate \u2014 particularly Merrill Kelly's K under at PIT and Kyle Bradish's K under at DET. I also looked at the TOR @ WSH game given Scherzer's disastrous 10.23 ERA, but the Nationals' starter Eddy Yean has only 5.1 IP this season \u2014 sample too thin to trust.\n\nWhat got cut and why: SEA @ TEX was eliminated because data_confidence is 0.4 and the pitching matchup (Kirby vs Rocker) doesn't offer enough edge at -130 juice. ARI @ PIT had weak pitching on both sides (Kelly 5.12 ERA, Keller 4.90 ERA) but no clear side edge \u2014 the total at 9.5 is already priced in. TOR @ WSH was cut because Yean's 5.1 IP sample is too small to build a fair price around. MIL @ SF was considered for the under given Oracle's pitcher-friendly park, but both starters (Mahle 5.31 ERA, Sproat 5.09 ERA) have elevated walk rates that make unders risky. The Cubs @ Cardinals game lacks a confirmed home starter, which tanks data confidence.\n\nThe final six picks: Wheeler at loanDepot is the cleanest ace-vs-weak-lineup spot on the board and gets the ladder designation. Burns at home against Cleveland offers elite stuff against a middling offense. Fried returning from IL against a struggling White Sox lineup is a strong value play at -145. Montero's breakout season continues at Comerica against a Baltimore team that struggles on the road. Bradish K Under 5.5 is a sharp prop play given Detroit's low K% offense. Finally, Tolle's K Over 5.5 against a strikeout-prone Athletics lineup rounds out the card.",
-      "slate_vibe": "NORMAL",
-      "published_at": "2026-07-27T12:58:15.824663-04:00"
-    }
-  ],
+  "today_picks": [],
   "today_bonus_picks": [],
   "all_picks": [
     {
@@ -566,11 +90,11 @@
       "scott_bot_quip": "The A's swing and miss. Tolle makes them miss. Simple math.",
       "ladder_note": "",
       "date": "2026-07-27",
-      "status": "PEND",
-      "units_result": null,
+      "status": "WIN",
+      "units_result": 0.8696,
       "clv_cents": null,
-      "result_score": null,
-      "graded_at": null,
+      "result_score": "Payton Tolle: 7 strikeOuts",
+      "graded_at": "2026-07-28T01:54:03.077045-04:00",
       "slate_assessment": "14-game MLB-only board with several strong pitching matchups. Wheeler at loanDepot, Chase Burns at GABP, and Max Fried returning from IL against the White Sox all stand out. Prop markets offer clean K under spots and a few total bases edges.",
       "executive_summary": "Monday's 14-game MLB slate features two elite aces in favorable spots \u2014 Zack Wheeler at pitcher-friendly loanDepot Park against the Marlins, and Chase Burns hosting Cleveland at GABP. Wheeler's 2.16 ERA and 30.8% K rate against a weak Miami lineup is the cleanest mismatch on the board. Max Fried returns from the IL against a struggling White Sox offense, and Keider Montero's breakout season continues at Comerica against Baltimore. The ladder rides with Wheeler \u2014 best floor, best park, best price.",
       "slate_analysis": "Today's board is a 14-game MLB-only slate with no NBA or NHL action. The pricing climate is relatively tight across most games, with only a handful of sides offering juice better than -130. Several totals sit at 8.5, and the prop markets are populated across the higher-total games.\n\nThe top candidates that rose during my review: PHI @ MIA (Wheeler vs Phillips at loanDepot), CLE @ CIN (Burns vs Cecconi at GABP), NYY @ CHW (Fried vs Schultz), BAL @ DET (Bradish vs Montero at Comerica), BOS @ ATH (Tolle vs Perkins), and the K prop slate \u2014 particularly Merrill Kelly's K under at PIT and Kyle Bradish's K under at DET. I also looked at the TOR @ WSH game given Scherzer's disastrous 10.23 ERA, but the Nationals' starter Eddy Yean has only 5.1 IP this season \u2014 sample too thin to trust.\n\nWhat got cut and why: SEA @ TEX was eliminated because data_confidence is 0.4 and the pitching matchup (Kirby vs Rocker) doesn't offer enough edge at -130 juice. ARI @ PIT had weak pitching on both sides (Kelly 5.12 ERA, Keller 4.90 ERA) but no clear side edge \u2014 the total at 9.5 is already priced in. TOR @ WSH was cut because Yean's 5.1 IP sample is too small to build a fair price around. MIL @ SF was considered for the under given Oracle's pitcher-friendly park, but both starters (Mahle 5.31 ERA, Sproat 5.09 ERA) have elevated walk rates that make unders risky. The Cubs @ Cardinals game lacks a confirmed home starter, which tanks data confidence.\n\nThe final six picks: Wheeler at loanDepot is the cleanest ace-vs-weak-lineup spot on the board and gets the ladder designation. Burns at home against Cleveland offers elite stuff against a middling offense. Fried returning from IL against a struggling White Sox lineup is a strong value play at -145. Montero's breakout season continues at Comerica against a Baltimore team that struggles on the road. Bradish K Under 5.5 is a sharp prop play given Detroit's low K% offense. Finally, Tolle's K Over 5.5 against a strikeout-prone Athletics lineup rounds out the card.",
@@ -661,11 +185,11 @@
       "scott_bot_quip": "Bradish walks too many to strike out enough. Math is math.",
       "ladder_note": "",
       "date": "2026-07-27",
-      "status": "PEND",
-      "units_result": null,
+      "status": "WIN",
+      "units_result": 0.9091,
       "clv_cents": null,
-      "result_score": null,
-      "graded_at": null,
+      "result_score": "Kyle Bradish: 4 strikeOuts",
+      "graded_at": "2026-07-28T01:54:03.187554-04:00",
       "slate_assessment": "14-game MLB-only board with several strong pitching matchups. Wheeler at loanDepot, Chase Burns at GABP, and Max Fried returning from IL against the White Sox all stand out. Prop markets offer clean K under spots and a few total bases edges.",
       "executive_summary": "Monday's 14-game MLB slate features two elite aces in favorable spots \u2014 Zack Wheeler at pitcher-friendly loanDepot Park against the Marlins, and Chase Burns hosting Cleveland at GABP. Wheeler's 2.16 ERA and 30.8% K rate against a weak Miami lineup is the cleanest mismatch on the board. Max Fried returns from the IL against a struggling White Sox offense, and Keider Montero's breakout season continues at Comerica against Baltimore. The ladder rides with Wheeler \u2014 best floor, best park, best price.",
       "slate_analysis": "Today's board is a 14-game MLB-only slate with no NBA or NHL action. The pricing climate is relatively tight across most games, with only a handful of sides offering juice better than -130. Several totals sit at 8.5, and the prop markets are populated across the higher-total games.\n\nThe top candidates that rose during my review: PHI @ MIA (Wheeler vs Phillips at loanDepot), CLE @ CIN (Burns vs Cecconi at GABP), NYY @ CHW (Fried vs Schultz), BAL @ DET (Bradish vs Montero at Comerica), BOS @ ATH (Tolle vs Perkins), and the K prop slate \u2014 particularly Merrill Kelly's K under at PIT and Kyle Bradish's K under at DET. I also looked at the TOR @ WSH game given Scherzer's disastrous 10.23 ERA, but the Nationals' starter Eddy Yean has only 5.1 IP this season \u2014 sample too thin to trust.\n\nWhat got cut and why: SEA @ TEX was eliminated because data_confidence is 0.4 and the pitching matchup (Kirby vs Rocker) doesn't offer enough edge at -130 juice. ARI @ PIT had weak pitching on both sides (Kelly 5.12 ERA, Keller 4.90 ERA) but no clear side edge \u2014 the total at 9.5 is already priced in. TOR @ WSH was cut because Yean's 5.1 IP sample is too small to build a fair price around. MIL @ SF was considered for the under given Oracle's pitcher-friendly park, but both starters (Mahle 5.31 ERA, Sproat 5.09 ERA) have elevated walk rates that make unders risky. The Cubs @ Cardinals game lacks a confirmed home starter, which tanks data confidence.\n\nThe final six picks: Wheeler at loanDepot is the cleanest ace-vs-weak-lineup spot on the board and gets the ladder designation. Burns at home against Cleveland offers elite stuff against a middling offense. Fried returning from IL against a struggling White Sox lineup is a strong value play at -145. Montero's breakout season continues at Comerica against a Baltimore team that struggles on the road. Bradish K Under 5.5 is a sharp prop play given Detroit's low K% offense. Finally, Tolle's K Over 5.5 against a strikeout-prone Athletics lineup rounds out the card.",
@@ -756,16 +280,22 @@
       "scott_bot_quip": "Montero's WHIP is 0.96. That's not a typo \u2014 that's a breakout.",
       "ladder_note": "",
       "date": "2026-07-27",
-      "status": "PEND",
-      "units_result": null,
+      "status": "LOSS",
+      "units_result": -1.5,
       "clv_cents": null,
-      "result_score": null,
-      "graded_at": null,
+      "result_score": "BAL 8 \u00b7 DET 5",
+      "graded_at": "2026-07-28T01:54:03.200192-04:00",
       "slate_assessment": "14-game MLB-only board with several strong pitching matchups. Wheeler at loanDepot, Chase Burns at GABP, and Max Fried returning from IL against the White Sox all stand out. Prop markets offer clean K under spots and a few total bases edges.",
       "executive_summary": "Monday's 14-game MLB slate features two elite aces in favorable spots \u2014 Zack Wheeler at pitcher-friendly loanDepot Park against the Marlins, and Chase Burns hosting Cleveland at GABP. Wheeler's 2.16 ERA and 30.8% K rate against a weak Miami lineup is the cleanest mismatch on the board. Max Fried returns from the IL against a struggling White Sox offense, and Keider Montero's breakout season continues at Comerica against Baltimore. The ladder rides with Wheeler \u2014 best floor, best park, best price.",
       "slate_analysis": "Today's board is a 14-game MLB-only slate with no NBA or NHL action. The pricing climate is relatively tight across most games, with only a handful of sides offering juice better than -130. Several totals sit at 8.5, and the prop markets are populated across the higher-total games.\n\nThe top candidates that rose during my review: PHI @ MIA (Wheeler vs Phillips at loanDepot), CLE @ CIN (Burns vs Cecconi at GABP), NYY @ CHW (Fried vs Schultz), BAL @ DET (Bradish vs Montero at Comerica), BOS @ ATH (Tolle vs Perkins), and the K prop slate \u2014 particularly Merrill Kelly's K under at PIT and Kyle Bradish's K under at DET. I also looked at the TOR @ WSH game given Scherzer's disastrous 10.23 ERA, but the Nationals' starter Eddy Yean has only 5.1 IP this season \u2014 sample too thin to trust.\n\nWhat got cut and why: SEA @ TEX was eliminated because data_confidence is 0.4 and the pitching matchup (Kirby vs Rocker) doesn't offer enough edge at -130 juice. ARI @ PIT had weak pitching on both sides (Kelly 5.12 ERA, Keller 4.90 ERA) but no clear side edge \u2014 the total at 9.5 is already priced in. TOR @ WSH was cut because Yean's 5.1 IP sample is too small to build a fair price around. MIL @ SF was considered for the under given Oracle's pitcher-friendly park, but both starters (Mahle 5.31 ERA, Sproat 5.09 ERA) have elevated walk rates that make unders risky. The Cubs @ Cardinals game lacks a confirmed home starter, which tanks data confidence.\n\nThe final six picks: Wheeler at loanDepot is the cleanest ace-vs-weak-lineup spot on the board and gets the ladder designation. Burns at home against Cleveland offers elite stuff against a middling offense. Fried returning from IL against a struggling White Sox lineup is a strong value play at -145. Montero's breakout season continues at Comerica against a Baltimore team that struggles on the road. Bradish K Under 5.5 is a sharp prop play given Detroit's low K% offense. Finally, Tolle's K Over 5.5 against a strikeout-prone Athletics lineup rounds out the card.",
       "slate_vibe": "NORMAL",
-      "published_at": "2026-07-27T12:58:15.824930-04:00"
+      "published_at": "2026-07-27T12:58:15.824930-04:00",
+      "autopsy": {
+        "classification": "MODEL",
+        "post_mortem": "Montero was flat from the jump \u2014 velocity down, spin rates below norm, just 1 strikeout and a 90.6 mph average exit velocity on 21 balls in play. Baltimore scored in the 1st, 2nd, 3rd, and 5th innings, with the killing blow a Taveras HR and a Coby Mayo two-run shot off the bullpen in the 5th to make it 7-3. The thesis leaned on Montero's season-long 3.14 ERA/0.96 WHIP without accounting for the fact that he had just been pulled back into the rotation after five straight bullpen appearances, on a 13-game stretch with no days off \u2014 a workload/fatigue flag the model ignored.",
+        "candidate_rule": "When a starter has made 4+ consecutive bullpen appearances immediately before a rotation start, apply a fatigue discount to projected ERA and reduce ML confidence by at least one tier \u2014 regardless of season-long ERA profile; validate with minimum N=10 similar workload patterns before treating as a hard filter.",
+        "sample_size_warning": "N=1, insufficient to establish rule \u2014 this is a hypothesis worth tracking, not a confirmed edge."
+      }
     },
     {
       "id": "20260727-MLB-NYY-CHW-ML",
@@ -851,11 +381,11 @@
       "scott_bot_quip": "Fried looked like he never left. Schultz looks like he wishes he could.",
       "ladder_note": "",
       "date": "2026-07-27",
-      "status": "PEND",
-      "units_result": null,
+      "status": "WIN",
+      "units_result": 1.0345,
       "clv_cents": null,
-      "result_score": null,
-      "graded_at": null,
+      "result_score": "NYY 9 \u00b7 CHW 5",
+      "graded_at": "2026-07-28T01:54:30.569321-04:00",
       "slate_assessment": "14-game MLB-only board with several strong pitching matchups. Wheeler at loanDepot, Chase Burns at GABP, and Max Fried returning from IL against the White Sox all stand out. Prop markets offer clean K under spots and a few total bases edges.",
       "executive_summary": "Monday's 14-game MLB slate features two elite aces in favorable spots \u2014 Zack Wheeler at pitcher-friendly loanDepot Park against the Marlins, and Chase Burns hosting Cleveland at GABP. Wheeler's 2.16 ERA and 30.8% K rate against a weak Miami lineup is the cleanest mismatch on the board. Max Fried returns from the IL against a struggling White Sox offense, and Keider Montero's breakout season continues at Comerica against Baltimore. The ladder rides with Wheeler \u2014 best floor, best park, best price.",
       "slate_analysis": "Today's board is a 14-game MLB-only slate with no NBA or NHL action. The pricing climate is relatively tight across most games, with only a handful of sides offering juice better than -130. Several totals sit at 8.5, and the prop markets are populated across the higher-total games.\n\nThe top candidates that rose during my review: PHI @ MIA (Wheeler vs Phillips at loanDepot), CLE @ CIN (Burns vs Cecconi at GABP), NYY @ CHW (Fried vs Schultz), BAL @ DET (Bradish vs Montero at Comerica), BOS @ ATH (Tolle vs Perkins), and the K prop slate \u2014 particularly Merrill Kelly's K under at PIT and Kyle Bradish's K under at DET. I also looked at the TOR @ WSH game given Scherzer's disastrous 10.23 ERA, but the Nationals' starter Eddy Yean has only 5.1 IP this season \u2014 sample too thin to trust.\n\nWhat got cut and why: SEA @ TEX was eliminated because data_confidence is 0.4 and the pitching matchup (Kirby vs Rocker) doesn't offer enough edge at -130 juice. ARI @ PIT had weak pitching on both sides (Kelly 5.12 ERA, Keller 4.90 ERA) but no clear side edge \u2014 the total at 9.5 is already priced in. TOR @ WSH was cut because Yean's 5.1 IP sample is too small to build a fair price around. MIL @ SF was considered for the under given Oracle's pitcher-friendly park, but both starters (Mahle 5.31 ERA, Sproat 5.09 ERA) have elevated walk rates that make unders risky. The Cubs @ Cardinals game lacks a confirmed home starter, which tanks data confidence.\n\nThe final six picks: Wheeler at loanDepot is the cleanest ace-vs-weak-lineup spot on the board and gets the ladder designation. Burns at home against Cleveland offers elite stuff against a middling offense. Fried returning from IL against a struggling White Sox lineup is a strong value play at -145. Montero's breakout season continues at Comerica against a Baltimore team that struggles on the road. Bradish K Under 5.5 is a sharp prop play given Detroit's low K% offense. Finally, Tolle's K Over 5.5 against a strikeout-prone Athletics lineup rounds out the card.",
@@ -946,16 +476,22 @@
       "scott_bot_quip": "Wheeler at loanDepot is a cheat code. The park does half the work.",
       "ladder_note": "Best floor on the board \u2014 elite ace, suppressive park, weak opposing lineup, and even-money juice. This is the play you build a ladder around.",
       "date": "2026-07-27",
-      "status": "PEND",
-      "units_result": null,
+      "status": "LOSS",
+      "units_result": -2.0,
       "clv_cents": null,
-      "result_score": null,
-      "graded_at": null,
+      "result_score": "PHI 7 \u00b7 MIA 8",
+      "graded_at": "2026-07-28T01:54:30.583667-04:00",
       "slate_assessment": "14-game MLB-only board with several strong pitching matchups. Wheeler at loanDepot, Chase Burns at GABP, and Max Fried returning from IL against the White Sox all stand out. Prop markets offer clean K under spots and a few total bases edges.",
       "executive_summary": "Monday's 14-game MLB slate features two elite aces in favorable spots \u2014 Zack Wheeler at pitcher-friendly loanDepot Park against the Marlins, and Chase Burns hosting Cleveland at GABP. Wheeler's 2.16 ERA and 30.8% K rate against a weak Miami lineup is the cleanest mismatch on the board. Max Fried returns from the IL against a struggling White Sox offense, and Keider Montero's breakout season continues at Comerica against Baltimore. The ladder rides with Wheeler \u2014 best floor, best park, best price.",
       "slate_analysis": "Today's board is a 14-game MLB-only slate with no NBA or NHL action. The pricing climate is relatively tight across most games, with only a handful of sides offering juice better than -130. Several totals sit at 8.5, and the prop markets are populated across the higher-total games.\n\nThe top candidates that rose during my review: PHI @ MIA (Wheeler vs Phillips at loanDepot), CLE @ CIN (Burns vs Cecconi at GABP), NYY @ CHW (Fried vs Schultz), BAL @ DET (Bradish vs Montero at Comerica), BOS @ ATH (Tolle vs Perkins), and the K prop slate \u2014 particularly Merrill Kelly's K under at PIT and Kyle Bradish's K under at DET. I also looked at the TOR @ WSH game given Scherzer's disastrous 10.23 ERA, but the Nationals' starter Eddy Yean has only 5.1 IP this season \u2014 sample too thin to trust.\n\nWhat got cut and why: SEA @ TEX was eliminated because data_confidence is 0.4 and the pitching matchup (Kirby vs Rocker) doesn't offer enough edge at -130 juice. ARI @ PIT had weak pitching on both sides (Kelly 5.12 ERA, Keller 4.90 ERA) but no clear side edge \u2014 the total at 9.5 is already priced in. TOR @ WSH was cut because Yean's 5.1 IP sample is too small to build a fair price around. MIL @ SF was considered for the under given Oracle's pitcher-friendly park, but both starters (Mahle 5.31 ERA, Sproat 5.09 ERA) have elevated walk rates that make unders risky. The Cubs @ Cardinals game lacks a confirmed home starter, which tanks data confidence.\n\nThe final six picks: Wheeler at loanDepot is the cleanest ace-vs-weak-lineup spot on the board and gets the ladder designation. Burns at home against Cleveland offers elite stuff against a middling offense. Fried returning from IL against a struggling White Sox lineup is a strong value play at -145. Montero's breakout season continues at Comerica against a Baltimore team that struggles on the road. Bradish K Under 5.5 is a sharp prop play given Detroit's low K% offense. Finally, Tolle's K Over 5.5 against a strikeout-prone Athletics lineup rounds out the card.",
       "slate_vibe": "NORMAL",
-      "published_at": "2026-07-27T12:58:15.824663-04:00"
+      "published_at": "2026-07-27T12:58:15.824663-04:00",
+      "autopsy": {
+        "classification": "VARIANCE",
+        "post_mortem": "The under thesis was built on Wheeler being Wheeler \u2014 but Wheeler was not Wheeler. His sinker sat at 91.3 mph against its season-average of ~95 mph, he was pulled after just 3 innings having surrendered 5 runs on 6 hits (including HRs to Hern\u00e1ndez and Conine), and the manager cited possible nausea as a cause. The game was 5-2 Marlins after 2 innings \u2014 the under was effectively dead before the 4th inning started. The kill shot came in the 9th: closer Jhoan Duran entered with a 7-5 lead, loaded the bases with no outs, allowed a tying 2-run single, and Griffin Conine walked it off. The total finished 15 \u2014 nearly double the line. This was not a bad thesis; it was a mid-game health event (Wheeler's velocity cratering, possible illness) that no pre-game data could have flagged, compounded by a blown save from a closer acquired specifically to prevent this outcome.",
+        "candidate_rule": null,
+        "sample_size_warning": "N=1, insufficient to establish rule. Wheeler's velocity drop and possible illness are a one-off event; do not adjust ace-under models based on this single game without a pattern of early exits."
+      }
     },
     {
       "id": "20260726-MLB-CHC-PIT-PROP-BRAXTONASHCRAFT",
@@ -26145,6 +25681,14 @@
     "target": 10,
     "history": [
       {
+        "date": "2026-07-27",
+        "pick_id": "20260727-MLB-PHI-MIA-TOTAL",
+        "pick": "Under 7.5",
+        "game": "PHI @ MIA",
+        "status": "LOSS",
+        "after_streak": 0
+      },
+      {
         "date": "2026-07-26",
         "pick_id": "20260726-MLB-SEA-TEX-TOTAL",
         "pick": "Under 7",
@@ -26569,13 +26113,13 @@
         "after_streak": 1
       }
     ],
-    "updated_at": "2026-07-26T18:51:05.594201-04:00"
+    "updated_at": "2026-07-28T01:54:30.597015-04:00"
   },
   "last_night_recap": {
-    "date": "2026-07-26",
-    "record": "3-3-0",
-    "units_pl": 0.6,
-    "night_summary": "3-3 night, +0.60u. The Brewers -1.5 did the heavy lifting \u2014 Milwaukee rolled Colorado 11-2 and it wasn't close from the jump. TOR/BOS Under cashed clean at 7-1, and the Pirates ML snuck through 8-7 in a game that had no business being that tight. On the loss side, we got that one wrong twice and got squeezed once. The NYY/PHI Under was dead by the end of the 3rd \u2014 Warren surrendered six runs in three-plus innings, Bohm's bases-clearing double made it 5-0, and the model never adequately weighted Warren's track record as a genuine bust risk. The SEA/TEX Under was the ladder pick and the most costly: deGrom was coming off a 10-3 blowup against the White Sox and the warning signs were there \u2014 we got that one wrong, and it resets the ladder back to zero.",
-    "generated_at": "2026-07-27T00:34:21.340929-04:00"
+    "date": "2026-07-27",
+    "record": "3-2-0",
+    "units_pl": -0.686,
+    "night_summary": "3-2 night, -0.69u \u2014 the props carried us, the ML and the ladder pick sank us. Tolle went 7 Ks over his 5.5 line and Bradish punched out just 4 against Detroit, both cashing clean. The Yankees rolled Chicago 9-5 for a nice 1.5u win. The Detroit ML was a model miss: Montero was flat from the first pitch, surrendering runs in the 1st, 2nd, 3rd, and 5th \u2014 a Taveras homer and a Coby Mayo two-run shot made it 7-3 before the fifth was over, and Baltimore won 8-5. We got that one wrong; the fatigue flag from five straight bullpen appearances before this start was real and we didn't price it. The ladder pick \u2014 PHI @ MIA under 7.5 \u2014 was dead by the 3rd inning: Wheeler was pulled after giving up 5 runs on a sinker sitting 4 mph below his season average, reportedly due to nausea, and Jhoan Duran blew a 7-5 lead in the 9th on a walk-off. Final was 15 runs. Pure variance \u2014 the thesis was sound; the mid-game health event and the blown save were unforeseeable. Ladder resets at 0 of 10, longest streak 8 \u2014 we've been here before.",
+    "generated_at": "2026-07-28T01:55:01.654651-04:00"
   }
 }
