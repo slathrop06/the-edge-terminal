@@ -1,7 +1,527 @@
 {
   "version": 1,
-  "updated_at": "2026-07-28T05:14:10.996306-04:00",
+  "updated_at": "2026-07-28T12:41:45.992537-04:00",
   "picks": [
+    {
+      "id": "20260728-MLB-SEA-LAD-PROP-SHOHEIOHTANI",
+      "sport": "MLB",
+      "game": "SEA @ LAD",
+      "first_pitch_iso": "2026-07-29T02:10Z",
+      "pick": "Shohei Ohtani TB Over 1.5",
+      "best_book": "BetMGM",
+      "best_odds": "+100",
+      "book_prices": {
+        "draftkings": "-118",
+        "fanduel": "N/A",
+        "betmgm": "+100"
+      },
+      "book_links": {
+        "draftkings": "https://sportsbook.draftkings.com/?outcomes=0QA355190763%232226628548_13L84240Q1-44994196Q20",
+        "betmgm": "https://sports.nj.betmgm.com/en/sports?options=2:7827954-202130110-768375380&type=Single",
+        "fanduel": "https://sportsbook.fanduel.com/baseball/mlb/seattle-mariners-%28l-castillo%29-%40-los-angeles-dodgers-%28tbd%29-35871677"
+      },
+      "market": "PROP",
+      "confidence": 4,
+      "units": 1.5,
+      "win_probability": 0.58,
+      "ladder_designation": false,
+      "data_confidence": 0.82,
+      "rules_passed": [
+        "max_juice",
+        "ladder_even_money",
+        "parlay_well_formed",
+        "confidence_units_match",
+        "data_confidence_floor",
+        "pick_type_allowed",
+        "mlb_hr_prop_check",
+        "mlb_pitcher_k_check",
+        "mlb_total_bases_check(soft)",
+        "mlb_hits_check",
+        "nba_player_prop_check",
+        "nhl_shots_check",
+        "mlb_run_line_check",
+        "mlb_under_bb_check",
+        "no_same_game_opposite"
+      ],
+      "locked": true,
+      "late_add": false,
+      "late_add_reason": "",
+      "bonus_pick": false,
+      "event_type": "",
+      "event_name": "",
+      "legs": [],
+      "headline": "Ohtani at even money against a struggling Luis Castillo \u2014 this is a gift.",
+      "the_thesis": "Shohei Ohtani is having another MVP-caliber season \u2014 .293 average, 22 homers, and a .900+ OPS. He's the best hitter in baseball, and tonight he faces Luis Castillo, who's been struggling with a 4.85 ERA and 1.34 HR/9. Castillo's strikeout rate has dropped to 20.1%, meaning he's not missing bats like he used to.\n\nOhtani has been dealing with a knee issue that's affecting his pitching, but he's still serving as the Dodgers' DH and hitting at an elite level. The knee doesn't seem to be impacting his swing \u2014 he's still in the 90th+ percentile for exit velocity and hard-hit rate.\n\nThe line is 1.5 TB at even money (+100) on BetMGM. That implies 50% probability. Given Ohtani's elite profile and Castillo's struggles, I have this closer to 58%. That's 8 cents of edge on the best hitter in baseball.",
+      "the_data": [
+        {
+          "label": "Ohtani AVG (season)",
+          "value": ".293",
+          "context": "Elite"
+        },
+        {
+          "label": "Ohtani HR (season)",
+          "value": "22",
+          "context": "On pace for 40+"
+        },
+        {
+          "label": "Ohtani OPS (season)",
+          "value": ".900+",
+          "context": "MVP-caliber"
+        },
+        {
+          "label": "Castillo ERA (season)",
+          "value": "4.85",
+          "context": "Struggling"
+        },
+        {
+          "label": "Castillo HR/9 (season)",
+          "value": "1.34",
+          "context": "Giving up homers"
+        },
+        {
+          "label": "Castillo K% (season)",
+          "value": "20.1%",
+          "context": "Not missing bats"
+        }
+      ],
+      "the_market": "BetMGM has Ohtani TB Over 1.5 at even money (+100). DraftKings has it at -118. The BetMGM line is the clear value play.",
+      "weather_park": "Dodger Stadium is neutral (0.97 runs PF, 0.99 HR PF). Weather is a non-factor in LA.",
+      "case_against": "Ohtani's knee issue could flare up. Castillo could have a bounce-back game. The Dodgers could rest Ohtani given the late start time.",
+      "what_were_betting_on": "Ohtani getting 4+ plate appearances and making hard contact, resulting in an XBH or multiple singles.",
+      "scott_bot_quip": "Even money on the best hitter in baseball? The books are asleep.",
+      "ladder_note": "",
+      "date": "2026-07-28",
+      "status": "PEND",
+      "units_result": null,
+      "clv_cents": null,
+      "result_score": null,
+      "graded_at": null,
+      "slate_assessment": "17-game MLB slate with no NBA or NHL action. Chris Sale vs Christian Scott at Citi Field is the marquee matchup. Several pitching mismatches and prop opportunities emerge across the board.",
+      "executive_summary": "Tuesday's 17-game MLB slate features one marquee pitching matchup \u2014 Chris Sale at Citi Field against the Mets \u2014 but the real value lives in the margins. The Padres-Rockies game offers a clean run-line spot with Michael King facing a struggling Michael Lorenzen at pitcher-friendly Petco Park. The ATL-NYM under at 7.5 is the sharpest total on the board with Sale's elite peripherals meeting a pitcher-friendly park. Byron Buxton's total bases prop stands out in Minnesota after his return from the IL. The ladder rides with the Padres run line \u2014 best floor on the board with a dominant home starter against a bottom-tier opponent.",
+      "slate_analysis": "The board today features 17 MLB games spread across the afternoon and evening, with no NBA or NHL action to supplement. The pricing climate is relatively soft \u2014 several heavy favorites (Dodgers -188, Padres -200, Twins -168, Rays -178) push past our -150 juice threshold on the moneyline, forcing us to look at run lines, totals, and props for value.\n\nThe top candidates that earned a hard look: (1) ATL @ NYM Under 7.5 \u2014 Chris Sale's elite 2.19 ERA and 29.7% K rate against Christian Scott at HR-suppressing Citi Field screams under; (2) SD -1.5 vs COL \u2014 Michael King (3.24 ERA, 0.83 HR/9) at Petco against Michael Lorenzen (6.53 ERA, 1.79 WHIP) is a massive mismatch; (3) MIN vs KC total \u2014 Taj Bradley vs Seth Lugo at neutral Target Field with two mid-tier offenses; (4) Byron Buxton TB Over 1.5 \u2014 Buxton just returned from the IL and faces Seth Lugo, a contact-oriented pitcher with a 1.15 HR/9; (5) MIA vs PHI Under 8.0 \u2014 Sandy Alcantara at pitcher-friendly loanDepot park against a struggling Aaron Nola; (6) Shohei Ohtani TB Over 1.5 \u2014 Ohtani's .293 average and 22 homers against Luis Castillo's 4.85 ERA.\n\nWhat got cut: The Dodgers ML at -188 exceeds our juice cap. The Tigers ML at -144 against Baltimore looked interesting with Troy Melton's 1.95 ERA, but the data confidence is only 0.4 and Melton has just 60 IP this season \u2014 sample too thin. The Yankees ML at -120 against the White Sox was tempting with Gerrit Cole back from Tommy John, but Cole's 3.92 ERA and 1.6 HR/9 in limited action this year doesn't inspire confidence, and the White Sox offense (4.82 R/G) can hit. The Rays ML at -178 exceeds our cap. The CLE @ CIN game lacks pitcher data for the nightcap.\n\nThe final six picks: ATL @ NYM Under 7.5 (Sale's elite form + Citi Field), SD -1.5 (massive pitching mismatch at Petco), MIA Under 8.0 (Alcantara at home in a pitcher's park), Byron Buxton TB Over 1.5 (fresh off IL, facing contact pitcher), Shohei Ohtani TB Over 1.5 (elite hitter vs struggling Castillo), and MIN Under 9.0 (Bradley's K rate vs KC's contact approach). The ladder pick is SD -1.5 at +105 \u2014 best floor on the board with a dominant home starter against a bottom-tier opponent at a pitcher-friendly park.",
+      "slate_vibe": "NORMAL",
+      "published_at": "2026-07-28T12:41:45.992455-04:00"
+    },
+    {
+      "id": "20260728-MLB-KC-MIN-TOTAL",
+      "sport": "MLB",
+      "game": "KC @ MIN",
+      "first_pitch_iso": "2026-07-28T23:40Z",
+      "pick": "Under 9.0",
+      "best_book": "DraftKings",
+      "best_odds": "+100",
+      "book_prices": {
+        "draftkings": "+100",
+        "fanduel": "-104",
+        "betmgm": "-105"
+      },
+      "book_links": {
+        "fanduel": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.595083194&selectionId=7017906",
+        "betmgm": "https://sports.nj.betmgm.com/en/sports?options=19829122-1545543195-2260953614&type=Single",
+        "draftkings": "https://sportsbook.draftkings.com/?outcomes=0OU85652360U900_3"
+      },
+      "market": "TOTAL",
+      "confidence": 3,
+      "units": 1.0,
+      "win_probability": 0.56,
+      "ladder_designation": false,
+      "data_confidence": 0.75,
+      "rules_passed": [
+        "max_juice",
+        "ladder_even_money",
+        "parlay_well_formed",
+        "confidence_units_match",
+        "data_confidence_floor",
+        "pick_type_allowed",
+        "mlb_hr_prop_check",
+        "mlb_pitcher_k_check",
+        "mlb_total_bases_check",
+        "mlb_hits_check",
+        "nba_player_prop_check",
+        "nhl_shots_check",
+        "mlb_run_line_check",
+        "mlb_under_bb_check",
+        "no_same_game_opposite"
+      ],
+      "locked": true,
+      "late_add": false,
+      "late_add_reason": "",
+      "bonus_pick": false,
+      "event_type": "",
+      "event_name": "",
+      "legs": [],
+      "headline": "Taj Bradley's strikeout stuff meets Seth Lugo's contact approach at neutral Target Field.",
+      "the_thesis": "Taj Bradley has been solid for the Twins with a 3.69 ERA and 26.8% strikeout rate. He's facing a Royals offense that's contact-oriented (4.21 R/G) but doesn't have elite power. Seth Lugo on the other side has a 4.36 ERA and 18.8% K rate \u2014 he's a contact pitcher who relies on weak contact rather than strikeouts.\n\nTarget Field is neutral (0.98 runs PF, 0.97 HR PF), so the park won't help or hurt either side. The key here is that both offenses are average \u2014 the Twins at 4.78 R/G and the Royals at 4.21 R/G. Neither team has the firepower to consistently push games over 9.\n\nThe market has this at 9.0 with the under getting even money at DraftKings. That's value for a game featuring two mid-tier offenses and a strikeout pitcher in Bradley.",
+      "the_data": [
+        {
+          "label": "Bradley ERA (season)",
+          "value": "3.69",
+          "context": "Solid"
+        },
+        {
+          "label": "Bradley K% (season)",
+          "value": "26.8%",
+          "context": "Above-average"
+        },
+        {
+          "label": "Lugo ERA (season)",
+          "value": "4.36",
+          "context": "Average"
+        },
+        {
+          "label": "Lugo K% (season)",
+          "value": "18.8%",
+          "context": "Contact pitcher"
+        },
+        {
+          "label": "MIN R/G (season)",
+          "value": "4.78",
+          "context": "Above-average"
+        },
+        {
+          "label": "KC R/G (season)",
+          "value": "4.21",
+          "context": "Average"
+        },
+        {
+          "label": "Target Field runs PF",
+          "value": "0.98",
+          "context": "Neutral"
+        }
+      ],
+      "the_market": "Total opened at 9.0 and sits there now. DraftKings has the under at even money (+100), which is the best price among our three books.",
+      "weather_park": "Target Field is an outdoor venue with neutral park factors. Weather is a non-factor tonight.",
+      "case_against": "Byron Buxton is back from the IL and could provide a spark. The Twins offense has been hot at home. Lugo's contact approach could lead to a crooked inning if the Twins string together hits.",
+      "what_were_betting_on": "Bradley going 6+ innings with 6+ strikeouts, Lugo inducing weak contact, and both bullpens holding serve.",
+      "scott_bot_quip": "Two average offenses, one strikeout pitcher, and a total that's begging to stay under.",
+      "ladder_note": "",
+      "date": "2026-07-28",
+      "status": "PEND",
+      "units_result": null,
+      "clv_cents": null,
+      "result_score": null,
+      "graded_at": null,
+      "slate_assessment": "17-game MLB slate with no NBA or NHL action. Chris Sale vs Christian Scott at Citi Field is the marquee matchup. Several pitching mismatches and prop opportunities emerge across the board.",
+      "executive_summary": "Tuesday's 17-game MLB slate features one marquee pitching matchup \u2014 Chris Sale at Citi Field against the Mets \u2014 but the real value lives in the margins. The Padres-Rockies game offers a clean run-line spot with Michael King facing a struggling Michael Lorenzen at pitcher-friendly Petco Park. The ATL-NYM under at 7.5 is the sharpest total on the board with Sale's elite peripherals meeting a pitcher-friendly park. Byron Buxton's total bases prop stands out in Minnesota after his return from the IL. The ladder rides with the Padres run line \u2014 best floor on the board with a dominant home starter against a bottom-tier opponent.",
+      "slate_analysis": "The board today features 17 MLB games spread across the afternoon and evening, with no NBA or NHL action to supplement. The pricing climate is relatively soft \u2014 several heavy favorites (Dodgers -188, Padres -200, Twins -168, Rays -178) push past our -150 juice threshold on the moneyline, forcing us to look at run lines, totals, and props for value.\n\nThe top candidates that earned a hard look: (1) ATL @ NYM Under 7.5 \u2014 Chris Sale's elite 2.19 ERA and 29.7% K rate against Christian Scott at HR-suppressing Citi Field screams under; (2) SD -1.5 vs COL \u2014 Michael King (3.24 ERA, 0.83 HR/9) at Petco against Michael Lorenzen (6.53 ERA, 1.79 WHIP) is a massive mismatch; (3) MIN vs KC total \u2014 Taj Bradley vs Seth Lugo at neutral Target Field with two mid-tier offenses; (4) Byron Buxton TB Over 1.5 \u2014 Buxton just returned from the IL and faces Seth Lugo, a contact-oriented pitcher with a 1.15 HR/9; (5) MIA vs PHI Under 8.0 \u2014 Sandy Alcantara at pitcher-friendly loanDepot park against a struggling Aaron Nola; (6) Shohei Ohtani TB Over 1.5 \u2014 Ohtani's .293 average and 22 homers against Luis Castillo's 4.85 ERA.\n\nWhat got cut: The Dodgers ML at -188 exceeds our juice cap. The Tigers ML at -144 against Baltimore looked interesting with Troy Melton's 1.95 ERA, but the data confidence is only 0.4 and Melton has just 60 IP this season \u2014 sample too thin. The Yankees ML at -120 against the White Sox was tempting with Gerrit Cole back from Tommy John, but Cole's 3.92 ERA and 1.6 HR/9 in limited action this year doesn't inspire confidence, and the White Sox offense (4.82 R/G) can hit. The Rays ML at -178 exceeds our cap. The CLE @ CIN game lacks pitcher data for the nightcap.\n\nThe final six picks: ATL @ NYM Under 7.5 (Sale's elite form + Citi Field), SD -1.5 (massive pitching mismatch at Petco), MIA Under 8.0 (Alcantara at home in a pitcher's park), Byron Buxton TB Over 1.5 (fresh off IL, facing contact pitcher), Shohei Ohtani TB Over 1.5 (elite hitter vs struggling Castillo), and MIN Under 9.0 (Bradley's K rate vs KC's contact approach). The ladder pick is SD -1.5 at +105 \u2014 best floor on the board with a dominant home starter against a bottom-tier opponent at a pitcher-friendly park.",
+      "slate_vibe": "NORMAL",
+      "published_at": "2026-07-28T12:41:45.992341-04:00"
+    },
+    {
+      "id": "20260728-MLB-PHI-MIA-TOTAL",
+      "sport": "MLB",
+      "game": "PHI @ MIA",
+      "first_pitch_iso": "2026-07-28T22:40Z",
+      "pick": "Under 8.0",
+      "best_book": "BetMGM",
+      "best_odds": "-102",
+      "book_prices": {
+        "draftkings": "-102",
+        "fanduel": "-104",
+        "betmgm": "-102"
+      },
+      "book_links": {
+        "fanduel": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.595081483&selectionId=7017906",
+        "betmgm": "https://sports.nj.betmgm.com/en/sports?options=19829113-1545542315-2260951674&type=Single",
+        "draftkings": "https://sportsbook.draftkings.com/?outcomes=0OU85652338U800_3"
+      },
+      "market": "TOTAL",
+      "confidence": 4,
+      "units": 1.5,
+      "win_probability": 0.59,
+      "ladder_designation": false,
+      "data_confidence": 0.78,
+      "rules_passed": [
+        "max_juice",
+        "ladder_even_money",
+        "parlay_well_formed",
+        "confidence_units_match",
+        "data_confidence_floor",
+        "pick_type_allowed",
+        "mlb_hr_prop_check",
+        "mlb_pitcher_k_check",
+        "mlb_total_bases_check",
+        "mlb_hits_check",
+        "nba_player_prop_check",
+        "nhl_shots_check",
+        "mlb_run_line_check",
+        "mlb_under_bb_check",
+        "no_same_game_opposite"
+      ],
+      "locked": true,
+      "late_add": false,
+      "late_add_reason": "",
+      "bonus_pick": false,
+      "event_type": "",
+      "event_name": "",
+      "legs": [],
+      "headline": "Sandy Alcantara at loanDepot park against a struggling Aaron Nola \u2014 the park does the heavy lifting.",
+      "the_thesis": "loanDepot park is one of the most pitcher-friendly venues in baseball \u2014 0.94 runs PF and 0.86 HR PF. That's a massive suppression effect that compounds when you have a groundball pitcher like Sandy Alcantara on the mound. Alcantara's 4.01 ERA isn't elite, but his 1.07 HR/9 and 6.4% walk rate mean he won't beat himself.\n\nAaron Nola has been struggling with a 5.82 ERA and 2.08 HR/9 \u2014 he's giving up too many homers. But here's the key: loanDepot park suppresses homers dramatically. Nola's flyball tendencies become less damaging in this environment. The Phillies offense (4.36 R/G) is solid but not elite, and the Marlins (4.41 R/G) are similarly average.\n\nThe market has this at 8.0 with minimal juice, which suggests the sharps see this as a coin flip. But the park factor gives us an edge \u2014 runs are harder to come by here than the raw numbers suggest.",
+      "the_data": [
+        {
+          "label": "loanDepot park runs PF",
+          "value": "0.94",
+          "context": "Pitcher-friendly"
+        },
+        {
+          "label": "loanDepot park HR PF",
+          "value": "0.86",
+          "context": "Significant HR suppression"
+        },
+        {
+          "label": "Alcantara ERA (season)",
+          "value": "4.01",
+          "context": "Solid, not elite"
+        },
+        {
+          "label": "Alcantara HR/9 (season)",
+          "value": "1.07",
+          "context": "Average"
+        },
+        {
+          "label": "Nola ERA (season)",
+          "value": "5.82",
+          "context": "Struggling"
+        },
+        {
+          "label": "Nola HR/9 (season)",
+          "value": "2.08",
+          "context": "Giving up too many bombs"
+        },
+        {
+          "label": "PHI R/G (season)",
+          "value": "4.36",
+          "context": "Average"
+        }
+      ],
+      "the_market": "Total opened at 8.0 and hasn't moved. The under is getting slight juice (-102 to -104), indicating the market leans our way.",
+      "weather_park": "loanDepot park is a dome \u2014 weather is irrelevant. The park's pitcher-friendly tendencies are the story.",
+      "case_against": "Nola's struggles could lead to a crooked inning early. If the Phillies jump on him for 4+ runs in the first few innings, the over comes into play. Alcantara's 143.2 IP is a heavy workload.",
+      "what_were_betting_on": "The park suppressing offense, Alcantara going 6+ innings, and Nola's flyball tendencies being neutralized by the venue.",
+      "scott_bot_quip": "Nola's been serving meatballs, but this park turns them into grounders.",
+      "ladder_note": "",
+      "date": "2026-07-28",
+      "status": "PEND",
+      "units_result": null,
+      "clv_cents": null,
+      "result_score": null,
+      "graded_at": null,
+      "slate_assessment": "17-game MLB slate with no NBA or NHL action. Chris Sale vs Christian Scott at Citi Field is the marquee matchup. Several pitching mismatches and prop opportunities emerge across the board.",
+      "executive_summary": "Tuesday's 17-game MLB slate features one marquee pitching matchup \u2014 Chris Sale at Citi Field against the Mets \u2014 but the real value lives in the margins. The Padres-Rockies game offers a clean run-line spot with Michael King facing a struggling Michael Lorenzen at pitcher-friendly Petco Park. The ATL-NYM under at 7.5 is the sharpest total on the board with Sale's elite peripherals meeting a pitcher-friendly park. Byron Buxton's total bases prop stands out in Minnesota after his return from the IL. The ladder rides with the Padres run line \u2014 best floor on the board with a dominant home starter against a bottom-tier opponent.",
+      "slate_analysis": "The board today features 17 MLB games spread across the afternoon and evening, with no NBA or NHL action to supplement. The pricing climate is relatively soft \u2014 several heavy favorites (Dodgers -188, Padres -200, Twins -168, Rays -178) push past our -150 juice threshold on the moneyline, forcing us to look at run lines, totals, and props for value.\n\nThe top candidates that earned a hard look: (1) ATL @ NYM Under 7.5 \u2014 Chris Sale's elite 2.19 ERA and 29.7% K rate against Christian Scott at HR-suppressing Citi Field screams under; (2) SD -1.5 vs COL \u2014 Michael King (3.24 ERA, 0.83 HR/9) at Petco against Michael Lorenzen (6.53 ERA, 1.79 WHIP) is a massive mismatch; (3) MIN vs KC total \u2014 Taj Bradley vs Seth Lugo at neutral Target Field with two mid-tier offenses; (4) Byron Buxton TB Over 1.5 \u2014 Buxton just returned from the IL and faces Seth Lugo, a contact-oriented pitcher with a 1.15 HR/9; (5) MIA vs PHI Under 8.0 \u2014 Sandy Alcantara at pitcher-friendly loanDepot park against a struggling Aaron Nola; (6) Shohei Ohtani TB Over 1.5 \u2014 Ohtani's .293 average and 22 homers against Luis Castillo's 4.85 ERA.\n\nWhat got cut: The Dodgers ML at -188 exceeds our juice cap. The Tigers ML at -144 against Baltimore looked interesting with Troy Melton's 1.95 ERA, but the data confidence is only 0.4 and Melton has just 60 IP this season \u2014 sample too thin. The Yankees ML at -120 against the White Sox was tempting with Gerrit Cole back from Tommy John, but Cole's 3.92 ERA and 1.6 HR/9 in limited action this year doesn't inspire confidence, and the White Sox offense (4.82 R/G) can hit. The Rays ML at -178 exceeds our cap. The CLE @ CIN game lacks pitcher data for the nightcap.\n\nThe final six picks: ATL @ NYM Under 7.5 (Sale's elite form + Citi Field), SD -1.5 (massive pitching mismatch at Petco), MIA Under 8.0 (Alcantara at home in a pitcher's park), Byron Buxton TB Over 1.5 (fresh off IL, facing contact pitcher), Shohei Ohtani TB Over 1.5 (elite hitter vs struggling Castillo), and MIN Under 9.0 (Bradley's K rate vs KC's contact approach). The ladder pick is SD -1.5 at +105 \u2014 best floor on the board with a dominant home starter against a bottom-tier opponent at a pitcher-friendly park.",
+      "slate_vibe": "NORMAL",
+      "published_at": "2026-07-28T12:41:45.992200-04:00"
+    },
+    {
+      "id": "20260728-MLB-COL-SD-SPREAD",
+      "sport": "MLB",
+      "game": "COL @ SD",
+      "first_pitch_iso": "2026-07-29T01:40Z",
+      "pick": "Padres -1.5",
+      "best_book": "BetMGM",
+      "best_odds": "+105",
+      "book_prices": {
+        "draftkings": "+104",
+        "fanduel": "+104",
+        "betmgm": "+105"
+      },
+      "book_links": {
+        "fanduel": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.595084199&selectionId=29177",
+        "betmgm": "https://sports.nj.betmgm.com/en/sports?options=19829060-1545538538-2260943406&type=Single",
+        "draftkings": "https://sportsbook.draftkings.com/?outcomes=0HC85652365N150_1"
+      },
+      "market": "SPREAD",
+      "confidence": 5,
+      "units": 2.0,
+      "win_probability": 0.61,
+      "ladder_designation": true,
+      "data_confidence": 0.82,
+      "rules_passed": [
+        "max_juice",
+        "ladder_even_money",
+        "parlay_well_formed",
+        "confidence_units_match",
+        "data_confidence_floor",
+        "pick_type_allowed",
+        "mlb_hr_prop_check",
+        "mlb_pitcher_k_check",
+        "mlb_total_bases_check",
+        "mlb_hits_check",
+        "nba_player_prop_check",
+        "nhl_shots_check",
+        "mlb_run_line_check",
+        "mlb_under_bb_check",
+        "no_same_game_opposite"
+      ],
+      "locked": true,
+      "late_add": false,
+      "late_add_reason": "",
+      "bonus_pick": false,
+      "event_type": "",
+      "event_name": "",
+      "legs": [],
+      "headline": "Michael King at Petco against a struggling Lorenzen \u2014 this is the floor play of the day.",
+      "the_thesis": "This is as clean a pitching mismatch as you'll find on any MLB slate. Michael King has been excellent for San Diego \u2014 3.24 ERA, 1.17 WHIP, and a stellar 0.83 HR/9 that plays up at pitcher-friendly Petco Park (0.91 HR PF). He's facing Michael Lorenzen, who's been a disaster with a 6.53 ERA and 1.79 WHIP. Lorenzen is allowing 1.44 HR/9 and walking batters at an alarming rate.\n\nThe Rockies are a bottom-tier road team, and their offense (4.74 R/G) is inflated by Coors Field. On the road, they're significantly worse. The Padres are heavy favorites (-200 ML) for a reason, but the run line at +105 offers plus-money on a team that should win by multiple runs.\n\nPetco Park suppresses runs (0.93 PF) and homers (0.91 PF), which further limits Colorado's ability to stay close. The Padres have the better lineup, the better starter, and the better park. This is the highest-floor play on the board.",
+      "the_data": [
+        {
+          "label": "King ERA (season)",
+          "value": "3.24",
+          "context": "Solid, above-average"
+        },
+        {
+          "label": "King HR/9 (season)",
+          "value": "0.83",
+          "context": "Excellent HR suppression"
+        },
+        {
+          "label": "Lorenzen ERA (season)",
+          "value": "6.53",
+          "context": "Poor, bottom-tier"
+        },
+        {
+          "label": "Lorenzen WHIP (season)",
+          "value": "1.79",
+          "context": "Traffic everywhere"
+        },
+        {
+          "label": "Petco Park runs PF",
+          "value": "0.93",
+          "context": "Pitcher-friendly"
+        },
+        {
+          "label": "COL road R/G",
+          "value": "~3.8",
+          "context": "Significantly worse away from Coors"
+        },
+        {
+          "label": "SD ML implied",
+          "value": "65.1%",
+          "context": "Heavy favorite"
+        }
+      ],
+      "the_market": "Padres opened as heavy favorites and the line hasn't moved. The run line at +105 offers value given the pitching mismatch and park factors.",
+      "weather_park": "Petco Park is an outdoor venue that suppresses runs (0.93 PF) and homers (0.91 PF). Weather is a non-factor in San Diego.",
+      "case_against": "The Rockies can occasionally ambush a starter early, and if Lorenzen somehow navigates 5 innings, their bullpen could keep it close. The Padres offense (4.17 R/G) isn't elite.",
+      "what_were_betting_on": "King going 6+ innings, Lorenzen getting knocked around early, and the Padres winning by 2+ runs.",
+      "scott_bot_quip": "Lorenzen at Petco is like bringing a knife to a gunfight. In a library.",
+      "ladder_note": "Best floor on the board \u2014 dominant home starter, massive pitching mismatch, pitcher-friendly park, plus-money on the run line. This is the ladder pick.",
+      "date": "2026-07-28",
+      "status": "PEND",
+      "units_result": null,
+      "clv_cents": null,
+      "result_score": null,
+      "graded_at": null,
+      "slate_assessment": "17-game MLB slate with no NBA or NHL action. Chris Sale vs Christian Scott at Citi Field is the marquee matchup. Several pitching mismatches and prop opportunities emerge across the board.",
+      "executive_summary": "Tuesday's 17-game MLB slate features one marquee pitching matchup \u2014 Chris Sale at Citi Field against the Mets \u2014 but the real value lives in the margins. The Padres-Rockies game offers a clean run-line spot with Michael King facing a struggling Michael Lorenzen at pitcher-friendly Petco Park. The ATL-NYM under at 7.5 is the sharpest total on the board with Sale's elite peripherals meeting a pitcher-friendly park. Byron Buxton's total bases prop stands out in Minnesota after his return from the IL. The ladder rides with the Padres run line \u2014 best floor on the board with a dominant home starter against a bottom-tier opponent.",
+      "slate_analysis": "The board today features 17 MLB games spread across the afternoon and evening, with no NBA or NHL action to supplement. The pricing climate is relatively soft \u2014 several heavy favorites (Dodgers -188, Padres -200, Twins -168, Rays -178) push past our -150 juice threshold on the moneyline, forcing us to look at run lines, totals, and props for value.\n\nThe top candidates that earned a hard look: (1) ATL @ NYM Under 7.5 \u2014 Chris Sale's elite 2.19 ERA and 29.7% K rate against Christian Scott at HR-suppressing Citi Field screams under; (2) SD -1.5 vs COL \u2014 Michael King (3.24 ERA, 0.83 HR/9) at Petco against Michael Lorenzen (6.53 ERA, 1.79 WHIP) is a massive mismatch; (3) MIN vs KC total \u2014 Taj Bradley vs Seth Lugo at neutral Target Field with two mid-tier offenses; (4) Byron Buxton TB Over 1.5 \u2014 Buxton just returned from the IL and faces Seth Lugo, a contact-oriented pitcher with a 1.15 HR/9; (5) MIA vs PHI Under 8.0 \u2014 Sandy Alcantara at pitcher-friendly loanDepot park against a struggling Aaron Nola; (6) Shohei Ohtani TB Over 1.5 \u2014 Ohtani's .293 average and 22 homers against Luis Castillo's 4.85 ERA.\n\nWhat got cut: The Dodgers ML at -188 exceeds our juice cap. The Tigers ML at -144 against Baltimore looked interesting with Troy Melton's 1.95 ERA, but the data confidence is only 0.4 and Melton has just 60 IP this season \u2014 sample too thin. The Yankees ML at -120 against the White Sox was tempting with Gerrit Cole back from Tommy John, but Cole's 3.92 ERA and 1.6 HR/9 in limited action this year doesn't inspire confidence, and the White Sox offense (4.82 R/G) can hit. The Rays ML at -178 exceeds our cap. The CLE @ CIN game lacks pitcher data for the nightcap.\n\nThe final six picks: ATL @ NYM Under 7.5 (Sale's elite form + Citi Field), SD -1.5 (massive pitching mismatch at Petco), MIA Under 8.0 (Alcantara at home in a pitcher's park), Byron Buxton TB Over 1.5 (fresh off IL, facing contact pitcher), Shohei Ohtani TB Over 1.5 (elite hitter vs struggling Castillo), and MIN Under 9.0 (Bradley's K rate vs KC's contact approach). The ladder pick is SD -1.5 at +105 \u2014 best floor on the board with a dominant home starter against a bottom-tier opponent at a pitcher-friendly park.",
+      "slate_vibe": "NORMAL",
+      "published_at": "2026-07-28T12:41:45.992088-04:00"
+    },
+    {
+      "id": "20260728-MLB-ATL-NYM-TOTAL",
+      "sport": "MLB",
+      "game": "ATL @ NYM",
+      "first_pitch_iso": "2026-07-28T23:10Z",
+      "pick": "Under 7.5",
+      "best_book": "DraftKings",
+      "best_odds": "-113",
+      "book_prices": {
+        "draftkings": "-113",
+        "fanduel": "-118",
+        "betmgm": "-118"
+      },
+      "book_links": {
+        "fanduel": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.595082476&selectionId=7017906",
+        "betmgm": "https://sports.nj.betmgm.com/en/sports?options=19829121-1545543099-2260953404&type=Single",
+        "draftkings": "https://sportsbook.draftkings.com/?outcomes=0OU85652358U750_3"
+      },
+      "market": "TOTAL",
+      "confidence": 5,
+      "units": 2.0,
+      "win_probability": 0.63,
+      "ladder_designation": false,
+      "data_confidence": 0.85,
+      "rules_passed": [
+        "max_juice",
+        "ladder_even_money",
+        "parlay_well_formed",
+        "confidence_units_match",
+        "data_confidence_floor",
+        "pick_type_allowed",
+        "mlb_hr_prop_check",
+        "mlb_pitcher_k_check",
+        "mlb_total_bases_check",
+        "mlb_hits_check",
+        "nba_player_prop_check",
+        "nhl_shots_check",
+        "mlb_run_line_check",
+        "mlb_under_bb_check",
+        "no_same_game_opposite"
+      ],
+      "locked": true,
+      "late_add": false,
+      "late_add_reason": "",
+      "bonus_pick": false,
+      "event_type": "",
+      "event_name": "",
+      "legs": [],
+      "headline": "Chris Sale's elite peripherals meet a pitcher-friendly Citi Field \u2014 this is the sharpest under on the board.",
+      "the_thesis": "Chris Sale is pitching like a Cy Young contender again. His 2.19 ERA and 29.7% strikeout rate are elite, and his 0.65 HR/9 is the best in baseball among qualified starters. He's facing a Mets offense that ranks middle-of-the-pack in runs per game (4.17) and will struggle to generate power against a lefty who's allowing fewer than one homer per nine innings.\n\nOn the other side, Christian Scott has been solid with a 3.13 ERA and 28.8% K rate, but his 10.7% walk rate creates some traffic. The key here is Citi Field \u2014 the park suppresses homers (0.91 PF) and runs (0.97 PF), which compounds the effect of two high-strikeout pitchers. The Braves offense (4.93 R/G) is potent, but Scott's stuff plays up at home.\n\nThe market has this at 7.5 with juice on the under, which tells you the sharps agree. Sale's 5.8% walk rate means he won't beat himself, and Scott's K rate should keep the Braves from stringing together rallies. Both bullpens are rested. This is a 6-5 game at most.",
+      "the_data": [
+        {
+          "label": "Sale ERA (season)",
+          "value": "2.19",
+          "context": "Elite, top-3 in NL"
+        },
+        {
+          "label": "Sale K% (season)",
+          "value": "29.7%",
+          "context": "Elite strikeout rate"
+        },
+        {
+          "label": "Sale HR/9 (season)",
+          "value": "0.65",
+          "context": "Best in baseball"
+        },
+        {
+          "label": "Scott K% (season)",
+          "value": "28.8%",
+          "context": "Above-average"
+        },
+        {
+          "label": "Citi Field HR PF",
+          "value": "0.91",
+          "context": "HR-suppressing"
+        },
+        {
+          "label": "NYM R/G (season)",
+          "value": "4.17",
+          "context": "Middle-of-pack"
+        },
+        {
+          "label": "ATL R/G (season)",
+          "value": "4.93",
+          "context": "Above-average"
+        }
+      ],
+      "the_market": "Total opened at 7.5 and hasn't moved. The under is juiced across all three books (-113 to -118), indicating sharp money agrees with the low-scoring thesis.",
+      "weather_park": "Citi Field is an outdoor venue with HR-suppressing tendencies (0.91 PF). Weather is a non-factor tonight.",
+      "case_against": "The Braves have the better offense and Sale is on the road. If Scott walks a few early and the Braves string together a rally, this could push over. Sale's 111 IP is heavy workload \u2014 any fatigue could show.",
+      "what_were_betting_on": "Both starters going 6+ innings with combined 12+ strikeouts, limited traffic on the bases, and bullpens closing cleanly.",
+      "scott_bot_quip": "Two aces, one pitcher's park, and a total that's already sweating.",
+      "ladder_note": "",
+      "date": "2026-07-28",
+      "status": "PEND",
+      "units_result": null,
+      "clv_cents": null,
+      "result_score": null,
+      "graded_at": null,
+      "slate_assessment": "17-game MLB slate with no NBA or NHL action. Chris Sale vs Christian Scott at Citi Field is the marquee matchup. Several pitching mismatches and prop opportunities emerge across the board.",
+      "executive_summary": "Tuesday's 17-game MLB slate features one marquee pitching matchup \u2014 Chris Sale at Citi Field against the Mets \u2014 but the real value lives in the margins. The Padres-Rockies game offers a clean run-line spot with Michael King facing a struggling Michael Lorenzen at pitcher-friendly Petco Park. The ATL-NYM under at 7.5 is the sharpest total on the board with Sale's elite peripherals meeting a pitcher-friendly park. Byron Buxton's total bases prop stands out in Minnesota after his return from the IL. The ladder rides with the Padres run line \u2014 best floor on the board with a dominant home starter against a bottom-tier opponent.",
+      "slate_analysis": "The board today features 17 MLB games spread across the afternoon and evening, with no NBA or NHL action to supplement. The pricing climate is relatively soft \u2014 several heavy favorites (Dodgers -188, Padres -200, Twins -168, Rays -178) push past our -150 juice threshold on the moneyline, forcing us to look at run lines, totals, and props for value.\n\nThe top candidates that earned a hard look: (1) ATL @ NYM Under 7.5 \u2014 Chris Sale's elite 2.19 ERA and 29.7% K rate against Christian Scott at HR-suppressing Citi Field screams under; (2) SD -1.5 vs COL \u2014 Michael King (3.24 ERA, 0.83 HR/9) at Petco against Michael Lorenzen (6.53 ERA, 1.79 WHIP) is a massive mismatch; (3) MIN vs KC total \u2014 Taj Bradley vs Seth Lugo at neutral Target Field with two mid-tier offenses; (4) Byron Buxton TB Over 1.5 \u2014 Buxton just returned from the IL and faces Seth Lugo, a contact-oriented pitcher with a 1.15 HR/9; (5) MIA vs PHI Under 8.0 \u2014 Sandy Alcantara at pitcher-friendly loanDepot park against a struggling Aaron Nola; (6) Shohei Ohtani TB Over 1.5 \u2014 Ohtani's .293 average and 22 homers against Luis Castillo's 4.85 ERA.\n\nWhat got cut: The Dodgers ML at -188 exceeds our juice cap. The Tigers ML at -144 against Baltimore looked interesting with Troy Melton's 1.95 ERA, but the data confidence is only 0.4 and Melton has just 60 IP this season \u2014 sample too thin. The Yankees ML at -120 against the White Sox was tempting with Gerrit Cole back from Tommy John, but Cole's 3.92 ERA and 1.6 HR/9 in limited action this year doesn't inspire confidence, and the White Sox offense (4.82 R/G) can hit. The Rays ML at -178 exceeds our cap. The CLE @ CIN game lacks pitcher data for the nightcap.\n\nThe final six picks: ATL @ NYM Under 7.5 (Sale's elite form + Citi Field), SD -1.5 (massive pitching mismatch at Petco), MIA Under 8.0 (Alcantara at home in a pitcher's park), Byron Buxton TB Over 1.5 (fresh off IL, facing contact pitcher), Shohei Ohtani TB Over 1.5 (elite hitter vs struggling Castillo), and MIN Under 9.0 (Bradley's K rate vs KC's contact approach). The ladder pick is SD -1.5 at +105 \u2014 best floor on the board with a dominant home starter against a bottom-tier opponent at a pitcher-friendly park.",
+      "slate_vibe": "NORMAL",
+      "published_at": "2026-07-28T12:41:45.991941-04:00"
+    },
     {
       "id": "20260727-MLB-BOS-ATH-PROP-PAYTONTOLLE",
       "sport": "MLB",
