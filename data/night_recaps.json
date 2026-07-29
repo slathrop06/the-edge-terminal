@@ -369,5 +369,12 @@
     "units_pl": -0.686,
     "night_summary": "3-2 night, -0.69u \u2014 the props carried us, the ML and the ladder pick sank us. Tolle went 7 Ks over his 5.5 line and Bradish punched out just 4 against Detroit, both cashing clean. The Yankees rolled Chicago 9-5 for a nice 1.5u win. The Detroit ML was a model miss: Montero was flat from the first pitch, surrendering runs in the 1st, 2nd, 3rd, and 5th \u2014 a Taveras homer and a Coby Mayo two-run shot made it 7-3 before the fifth was over, and Baltimore won 8-5. We got that one wrong; the fatigue flag from five straight bullpen appearances before this start was real and we didn't price it. The ladder pick \u2014 PHI @ MIA under 7.5 \u2014 was dead by the 3rd inning: Wheeler was pulled after giving up 5 runs on a sinker sitting 4 mph below his season average, reportedly due to nausea, and Jhoan Duran blew a 7-5 lead in the 9th on a walk-off. Final was 15 runs. Pure variance \u2014 the thesis was sound; the mid-game health event and the blown save were unforeseeable. Ladder resets at 0 of 10, longest streak 8 \u2014 we've been here before.",
     "generated_at": "2026-07-28T01:55:01.654651-04:00"
+  },
+  "2026-07-28": {
+    "date": "2026-07-28",
+    "record": "3-2-0",
+    "units_pl": -0.03,
+    "night_summary": "3-2 night, -0.03u \u2014 essentially a wash, but the stories matter. Ohtani went off for 7 total bases against Luis Castillo in a back-and-forth SEA/LAD game, cashing the TB over 1.5 at +100 with room to spare. The two unders were clean: KC/MIN finished 3-2 and PHI/MIA ended 1-0, both well inside their numbers. The ladder pick \u2014 Padres -1.5 \u2014 is the one that stings: San Diego won 8-7, but Michael King surrendered a 4-run third (back-to-back HRs from Castro and Moniak) that put Colorado ahead early and the Padres never got the cushion back; variance, not a bad read. The ATL/NYM under is a DATA loss \u2014 the game was postponed due to heavy rain and rescheduled as the nightcap of a July 29 doubleheader, putting Sale into a fatigued, torched-bullpen environment the model never priced; the Mets won 8-1 and we're flagging postponement/doubleheader context as a pre-lock check going forward. Ladder resets at 0 of 10 \u2014 back to the bottom, climbing again.",
+    "generated_at": "2026-07-29T02:05:36.213834-04:00"
   }
 }

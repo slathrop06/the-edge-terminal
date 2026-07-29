@@ -566,5 +566,13 @@
     "candidate_rule": "When a starter has made 4+ consecutive bullpen appearances immediately before a rotation start, apply a fatigue discount to projected ERA and reduce ML confidence by at least one tier \u2014 regardless of season-long ERA profile; validate with minimum N=10 similar workload patterns before treating as a hard filter.",
     "sample_size_warning": "N=1, insufficient to establish rule \u2014 this is a hypothesis worth tracking, not a confirmed edge.",
     "status": "PENDING_REVIEW"
+  },
+  {
+    "proposed_at": "2026-07-29T02:05:14.195699-04:00",
+    "source_pick_id": "20260728-MLB-ATL-NYM-TOTAL",
+    "source_loss": "Under 7.5 (ATL @ NYM)",
+    "candidate_rule": "Before grading or settling any MLB total pick, verify whether the game was postponed and rescheduled as part of a doubleheader, and flag any pick where the starting pitcher is now slotted into Game 2 of a twin bill with a depleted bullpen \u2014 N=1, insufficient to establish a hard rule, but the context shift is severe enough to warrant a pre-game data check as standard process.",
+    "sample_size_warning": "N=1, insufficient to establish rule \u2014 this is a single-game postponement scenario; watching for pattern before codifying a doubleheader-context validator.",
+    "status": "PENDING_REVIEW"
   }
 ]

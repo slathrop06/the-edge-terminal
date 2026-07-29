@@ -1,5 +1,31 @@
 [
   {
+    "id": "20260728-MLB-ATL-NYM-TOTAL",
+    "date": "2026-07-28",
+    "pick": "Under 7.5",
+    "game": "ATL @ NYM",
+    "odds": "-113",
+    "result_score": "ATL 1 \u00b7 NYM 8",
+    "classification": "DATA",
+    "post_mortem": "The July 28 game was postponed due to heavy rain and rescheduled as the nightcap of a July 29 doubleheader \u2014 a context the pick was never priced against. Sale took the mound in Game 2 of a doubleheader with a fatigued Braves bullpen (Connor Thomas had already surrendered 11 runs in 2\u2154 innings in Game 1 of the series), and the Mets carried massive offensive momentum into the start after a 14-3 blowout the night prior. The under thesis was built on a clean, rested Sale start at Citi Field; the actual game environment \u2014 doubleheader fatigue, a torched bullpen, and a red-hot Mets lineup \u2014 was materially different from what was modeled.",
+    "candidate_rule": "Before grading or settling any MLB total pick, verify whether the game was postponed and rescheduled as part of a doubleheader, and flag any pick where the starting pitcher is now slotted into Game 2 of a twin bill with a depleted bullpen \u2014 N=1, insufficient to establish a hard rule, but the context shift is severe enough to warrant a pre-game data check as standard process.",
+    "sample_size_warning": "N=1, insufficient to establish rule \u2014 this is a single-game postponement scenario; watching for pattern before codifying a doubleheader-context validator.",
+    "analyzed_at": "2026-07-29T02:05:14.192299-04:00"
+  },
+  {
+    "id": "20260728-MLB-COL-SD-SPREAD",
+    "date": "2026-07-28",
+    "pick": "Padres -1.5",
+    "game": "COL @ SD",
+    "odds": "+105",
+    "result_score": "COL 7 \u00b7 SD 8",
+    "classification": "VARIANCE",
+    "post_mortem": "The thesis was sound and the Padres did win 8-7, but the -1.5 run line died in the top of the 3rd inning when Michael King \u2014 the entire foundation of the pick \u2014 surrendered a 4-run explosion: W. Castro led off with a solo HR, then M. Moniak followed with a 2-run HR, and J. McCarthy added an RBI single, all in the same frame. Colorado jumped to an early multi-run lead against the very pitcher the model was built around, forcing San Diego to spend the rest of the game clawing back. The Padres ultimately won by 1 (8-7), one run short of covering -1.5. King was pulled after 6 innings, and the Colorado bullpen (Mejia, Senzatela, Bernardino) held the deficit close enough that the cover never materialized despite Tatis going 4-for-4 with 2 RBI.",
+    "candidate_rule": null,
+    "sample_size_warning": "N=1, insufficient to establish rule \u2014 King's 3rd-inning HR cluster was a low-probability event against a pitcher with a 0.83 HR/9; this is noise, not signal.",
+    "analyzed_at": "2026-07-29T02:04:50.196449-04:00"
+  },
+  {
     "id": "20260727-MLB-PHI-MIA-TOTAL",
     "date": "2026-07-27",
     "pick": "Under 7.5",
