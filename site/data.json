@@ -1,11 +1,1172 @@
 {
-  "generated_at": "2026-07-29T05:19:20.362193-04:00",
+  "generated_at": "2026-07-29T12:23:36.862920-04:00",
   "today": "2026-07-29",
   "system_paused": false,
   "pause_reason": "",
-  "today_picks": [],
+  "today_picks": [
+    {
+      "id": "20260729-MLB-KC-MIN-PROP-JOERYAN",
+      "sport": "MLB",
+      "game": "KC @ MIN",
+      "first_pitch_iso": "2026-07-29T23:40Z",
+      "pick": "Joe Ryan Ks Under 6.5",
+      "best_book": "FanDuel",
+      "best_odds": "-136",
+      "book_prices": {
+        "draftkings": "-136",
+        "fanduel": "-136",
+        "betmgm": "-140"
+      },
+      "book_links": {
+        "fanduel": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.595393020&selectionId=40779391",
+        "draftkings": "https://sportsbook.draftkings.com/?outcomes=0QA355499408%232227751479_13L84240Q1-46364625Q20",
+        "betmgm": "https://sports.nj.betmgm.com/en/sports?options=2:7828213-202158139-768523569&type=Single"
+      },
+      "market": "PROP",
+      "confidence": 3,
+      "units": 1.0,
+      "win_probability": 0.58,
+      "ladder_designation": false,
+      "data_confidence": 0.75,
+      "rules_passed": [
+        "max_juice",
+        "ladder_even_money",
+        "parlay_well_formed",
+        "confidence_units_match",
+        "data_confidence_floor",
+        "pick_type_allowed",
+        "mlb_hr_prop_check",
+        "mlb_pitcher_k_check(soft)",
+        "mlb_total_bases_check",
+        "mlb_hits_check",
+        "nba_player_prop_check",
+        "nhl_shots_check",
+        "mlb_run_line_check",
+        "mlb_under_bb_check(soft)",
+        "no_same_game_opposite"
+      ],
+      "locked": true,
+      "late_add": false,
+      "late_add_reason": "",
+      "bonus_pick": false,
+      "event_type": "",
+      "event_name": "",
+      "legs": [],
+      "headline": "Joe Ryan's K rate has been solid but the Royals don't strike out \u2014 6.5 is too high.",
+      "the_thesis": "Joe Ryan has a 27.8% K rate this season, which is above average but not elite. The Royals' offense has been one of the better contact teams in baseball, and they don't strike out at a high rate. Randy Dobnak on the other side has a 12.5% K rate \u2014 this is a contact-heavy game.\n\nRyan's 5.3% walk rate is excellent, meaning he's efficient with his pitches. But efficiency cuts both ways \u2014 he's not going to rack up 10+ Ks because he's not nibbling. The line at 6.5 with -136 juice on the under suggests the market expects him to land right around 6. We're betting he stays at or below that number.\n\nThe Royals' lineup features contact hitters like Vinnie Pasquantino, Salvador Perez, and Michael Massey who put the ball in play. Ryan will get his outs, but they'll come on contact, not swings and misses.",
+      "the_data": [
+        {
+          "label": "Ryan K% / BB%",
+          "value": "27.8% / 5.3%",
+          "context": "Above average, efficient"
+        },
+        {
+          "label": "Ryan K line",
+          "value": "6.5",
+          "context": "Market expects ~6"
+        },
+        {
+          "label": "Royals K% vs RHP",
+          "value": "Low",
+          "context": "Contact-heavy lineup"
+        },
+        {
+          "label": "Dobnak K%",
+          "value": "12.5%",
+          "context": "Contact game expected"
+        },
+        {
+          "label": "Ryan L3 IP/start",
+          "value": "38.03",
+          "context": "Goes deep, but not K-heavy"
+        }
+      ],
+      "the_market": "Line at 6.5 with -136 on the under at FanDuel. The market is pricing Ryan around 6 Ks, and we're betting he stays at or below.",
+      "weather_park": "Target Field outdoor, neutral park factor. No weather concerns.",
+      "case_against": "Ryan's 27.8% K rate is above average \u2014 he could easily hit 7+ against any lineup. The Royals have some swing-and-miss in their lineup (Carter Jensen, Andrew Velazquez). If Ryan goes 7+ innings, he has more opportunities to rack up Ks.",
+      "what_were_betting_on": "The Royals' contact-heavy approach limiting Ryan's strikeout opportunities, and Ryan's efficiency keeping his pitch count low enough to exit before racking up Ks.",
+      "scott_bot_quip": "Ryan's efficient. The Royals make contact. Math says under.",
+      "ladder_note": "",
+      "date": "2026-07-29",
+      "status": "PEND",
+      "units_result": null,
+      "clv_cents": null,
+      "result_score": null,
+      "graded_at": null,
+      "slate_assessment": "15-game MLB slate with no NBA or NHL action. Two elite pitching matchups stand out \u2014 Skubal vs Baltimore and Sale vs Mets in the nightcap \u2014 plus Schlittler's dominance creates a clear under angle in Chicago. Prop markets thin but a few K unders have edge.",
+      "executive_summary": "Tarik Skubal takes the mound at Comerica Park chasing his 1,000th career strikeout, and the two-time Cy Young winner faces a Baltimore lineup that's been middling against lefties. The under 7.5 is the cleanest play on the board \u2014 Skubal's 0.92 WHIP and 31.5% K rate against a Trevor Rogers who's been serviceable but not sharp. In the nightcap at Citi Field, Chris Sale brings his 2.19 ERA against a Mets offense that ranks bottom-third in wRC+ vs LHP. The Yankees-White Sox under 7.5 rounds out the core \u2014 Cam Schlittler's 2.07 ERA and 0.93 WHIP against a Chicago lineup that's been streaky. The ladder rides with the Skubal under \u2014 best floor, elite SP, pitcher-friendly park, and the market hasn't moved off 7.5.",
+      "slate_analysis": "Today's board features 15 MLB games with no NBA or NHL in play. The pricing climate is relatively tight \u2014 most totals sit between 7.5 and 9.5, and the moneyline favorites are priced reasonably without many extreme chalk plays. The Twins-Royals game has Minnesota at -200, which exceeds our straight-bet cap, and the Tigers-Orioles game has Detroit at -188, also too steep for a moneyline play.\n\nThe top candidates that rose during my review: (1) Tigers-Orioles Under 7.5 \u2014 Skubal's elite metrics against a Rogers who's been average, pitcher-friendly Comerica despite wind blowing out; (2) Braves-Mets Game 2 Under 7.5 \u2014 Chris Sale's 2.19 ERA against a struggling Mets offense, Citi Field's HR-suppressing park factor; (3) Yankees-White Sox Under 7.5 \u2014 Schlittler's dominance (2.07 ERA, 0.93 WHIP) against Davis Martin who's been solid but not elite; (4) Giants ML vs Brewers \u2014 Logan Webb at Oracle Park against a TBD/Pannone start, pitcher-friendly environment; (5) Braves ML Game 2 \u2014 Sale on the mound against Christian Scott, but the -154 juice is borderline; (6) Chris Sale Ks Under 6.5 \u2014 Mets have a low K% against elite lefties, but the line is too tight.\n\nWhat got cut: The Tigers ML at -188 exceeds our -150 cap. The Braves ML at -154 is right at the edge but the Mets have been scrappy at home. The ARI-PIT game has data confidence at 0.45 \u2014 too thin. The TOR-WSH game features two pitchers with high walk rates (Yesavage 11.9% BB, Littell 7.1%) which creates variance concerns for unders. The LAA-HOU game has Grayson Rodriguez's 8.54 ERA creating too much variance for any confident play. The SEA-LAD game has Lauer regressing (6.69 L3 ERA) but the Dodgers' offense is too potent to back an under confidently.\n\nThe final six picks survived because they combine elite pitching with favorable park factors and reasonable juice. The Skubal under is the ladder pick \u2014 it has the highest floor with a two-time Cy Young winner at home in a pitcher-friendly park, and the market hasn't moved despite his dominance. The Sale under in Game 2 offers similar value with an elite lefty against a weak offense. The Schlittler under completes the pitching-driven under trio. The Giants ML at +108 offers value against a TBD Brewers starter at Oracle Park. The Braves-Mets Game 1 under and the Joe Ryan Ks prop round out the card with solid supporting data.",
+      "slate_vibe": "NORMAL",
+      "published_at": "2026-07-29T12:23:36.830028-04:00"
+    },
+    {
+      "id": "20260729-MLB-ATL-NYM-G1-TOTAL",
+      "sport": "MLB",
+      "game": "ATL @ NYM (Game 1)",
+      "first_pitch_iso": "2026-07-29T17:10Z",
+      "pick": "Under 7.5",
+      "best_book": "DraftKings",
+      "best_odds": "+102",
+      "book_prices": {
+        "draftkings": "+102",
+        "fanduel": "+100",
+        "betmgm": "+100"
+      },
+      "book_links": {
+        "fanduel": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.595366337&selectionId=7017906",
+        "draftkings": "https://sportsbook.draftkings.com/?outcomes=0OU85673872U750_3",
+        "betmgm": "https://sports.nj.betmgm.com/en/sports?options=19847030-1547378350-2265968338&type=Single"
+      },
+      "market": "TOTAL",
+      "confidence": 3,
+      "units": 1.0,
+      "win_probability": 0.54,
+      "ladder_designation": false,
+      "data_confidence": 0.7,
+      "rules_passed": [
+        "max_juice",
+        "ladder_even_money",
+        "parlay_well_formed",
+        "confidence_units_match",
+        "data_confidence_floor",
+        "pick_type_allowed",
+        "mlb_hr_prop_check",
+        "mlb_pitcher_k_check",
+        "mlb_total_bases_check",
+        "mlb_hits_check",
+        "nba_player_prop_check",
+        "nhl_shots_check",
+        "mlb_run_line_check",
+        "mlb_under_bb_check",
+        "no_same_game_opposite"
+      ],
+      "locked": true,
+      "late_add": false,
+      "late_add_reason": "",
+      "bonus_pick": false,
+      "event_type": "",
+      "event_name": "",
+      "legs": [],
+      "headline": "Christian Scott vs AJ Smith-Shawver in a doubleheader opener at HR-suppressing Citi Field.",
+      "the_thesis": "The first game of the Mets-Braves doubleheader features Christian Scott (3.13 ERA) against AJ Smith-Shawver, who's returning from Tommy John surgery. Smith-Shawver made five rehab starts and looked sharp, but he's an unknown quantity at the MLB level after missing over a year.\n\nScott has been solid for the Mets with a 3.13 ERA, though his 10.7% walk rate is concerning. The key here is Citi Field's HR-suppressing park factor (0.91) and the uncertainty around Smith-Shawver's workload. Coming off TJ surgery, he's unlikely to go deep into the game, which means both bullpens will be involved.\n\nThe total at 7.5 with plus-money on the under is value. Both teams will be managing their pitchers carefully in a doubleheader, and Citi Field suppresses runs. This is a grind-it-out spot.",
+      "the_data": [
+        {
+          "label": "Scott ERA / BB%",
+          "value": "3.13 / 10.7%",
+          "context": "Solid but walks too many"
+        },
+        {
+          "label": "Smith-Shawver status",
+          "value": "TJ return",
+          "context": "First MLB start since June 2025"
+        },
+        {
+          "label": "Citi Field PF (HR)",
+          "value": "0.91",
+          "context": "HR-suppressing"
+        },
+        {
+          "label": "Doubleheader context",
+          "value": "Game 1 of 2",
+          "context": "Bullpen management critical"
+        },
+        {
+          "label": "Under price",
+          "value": "+102",
+          "context": "Plus-money value"
+        }
+      ],
+      "the_market": "Total at 7.5 with plus-money on the under at DraftKings (+102). The market is pricing in uncertainty around Smith-Shawver but not fully accounting for Citi Field's park factor.",
+      "weather_park": "Citi Field outdoor, HR park factor 0.91 \u2014 suppresses power. Possible rain delay noted but games expected to be played.",
+      "case_against": "Smith-Shawver is a complete unknown after TJ surgery \u2014 he could be sharp or he could get shelled. Scott's 10.7% walk rate creates traffic. The Braves' offense (4.93 R/G) is potent and could capitalize on any mistakes. Doubleheader bullpen usage is unpredictable.",
+      "what_were_betting_on": "Both starters being competent for 4-5 innings, bullpens holding, and Citi Field's park factor suppressing any damage.",
+      "scott_bot_quip": "TJ surgery return, doubleheader Game 1, Citi Field. Recipe for a 4-3 final.",
+      "ladder_note": "",
+      "date": "2026-07-29",
+      "status": "PEND",
+      "units_result": null,
+      "clv_cents": null,
+      "result_score": null,
+      "graded_at": null,
+      "slate_assessment": "15-game MLB slate with no NBA or NHL action. Two elite pitching matchups stand out \u2014 Skubal vs Baltimore and Sale vs Mets in the nightcap \u2014 plus Schlittler's dominance creates a clear under angle in Chicago. Prop markets thin but a few K unders have edge.",
+      "executive_summary": "Tarik Skubal takes the mound at Comerica Park chasing his 1,000th career strikeout, and the two-time Cy Young winner faces a Baltimore lineup that's been middling against lefties. The under 7.5 is the cleanest play on the board \u2014 Skubal's 0.92 WHIP and 31.5% K rate against a Trevor Rogers who's been serviceable but not sharp. In the nightcap at Citi Field, Chris Sale brings his 2.19 ERA against a Mets offense that ranks bottom-third in wRC+ vs LHP. The Yankees-White Sox under 7.5 rounds out the core \u2014 Cam Schlittler's 2.07 ERA and 0.93 WHIP against a Chicago lineup that's been streaky. The ladder rides with the Skubal under \u2014 best floor, elite SP, pitcher-friendly park, and the market hasn't moved off 7.5.",
+      "slate_analysis": "Today's board features 15 MLB games with no NBA or NHL in play. The pricing climate is relatively tight \u2014 most totals sit between 7.5 and 9.5, and the moneyline favorites are priced reasonably without many extreme chalk plays. The Twins-Royals game has Minnesota at -200, which exceeds our straight-bet cap, and the Tigers-Orioles game has Detroit at -188, also too steep for a moneyline play.\n\nThe top candidates that rose during my review: (1) Tigers-Orioles Under 7.5 \u2014 Skubal's elite metrics against a Rogers who's been average, pitcher-friendly Comerica despite wind blowing out; (2) Braves-Mets Game 2 Under 7.5 \u2014 Chris Sale's 2.19 ERA against a struggling Mets offense, Citi Field's HR-suppressing park factor; (3) Yankees-White Sox Under 7.5 \u2014 Schlittler's dominance (2.07 ERA, 0.93 WHIP) against Davis Martin who's been solid but not elite; (4) Giants ML vs Brewers \u2014 Logan Webb at Oracle Park against a TBD/Pannone start, pitcher-friendly environment; (5) Braves ML Game 2 \u2014 Sale on the mound against Christian Scott, but the -154 juice is borderline; (6) Chris Sale Ks Under 6.5 \u2014 Mets have a low K% against elite lefties, but the line is too tight.\n\nWhat got cut: The Tigers ML at -188 exceeds our -150 cap. The Braves ML at -154 is right at the edge but the Mets have been scrappy at home. The ARI-PIT game has data confidence at 0.45 \u2014 too thin. The TOR-WSH game features two pitchers with high walk rates (Yesavage 11.9% BB, Littell 7.1%) which creates variance concerns for unders. The LAA-HOU game has Grayson Rodriguez's 8.54 ERA creating too much variance for any confident play. The SEA-LAD game has Lauer regressing (6.69 L3 ERA) but the Dodgers' offense is too potent to back an under confidently.\n\nThe final six picks survived because they combine elite pitching with favorable park factors and reasonable juice. The Skubal under is the ladder pick \u2014 it has the highest floor with a two-time Cy Young winner at home in a pitcher-friendly park, and the market hasn't moved despite his dominance. The Sale under in Game 2 offers similar value with an elite lefty against a weak offense. The Schlittler under completes the pitching-driven under trio. The Giants ML at +108 offers value against a TBD Brewers starter at Oracle Park. The Braves-Mets Game 1 under and the Joe Ryan Ks prop round out the card with solid supporting data.",
+      "slate_vibe": "NORMAL",
+      "published_at": "2026-07-29T12:23:36.829944-04:00"
+    },
+    {
+      "id": "20260729-MLB-MIL-SF-ML",
+      "sport": "MLB",
+      "game": "MIL @ SF",
+      "first_pitch_iso": "2026-07-29T19:45Z",
+      "pick": "San Francisco Giants ML",
+      "best_book": "DraftKings",
+      "best_odds": "+108",
+      "book_prices": {
+        "draftkings": "+108",
+        "fanduel": "-104",
+        "betmgm": "+105"
+      },
+      "book_links": {
+        "fanduel": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.595237623&selectionId=29178",
+        "betmgm": "https://sports.nj.betmgm.com/en/sports?options=19829506-1545560567-2260992507&type=Single",
+        "draftkings": "https://sportsbook.draftkings.com/?outcomes=0ML85660838_1"
+      },
+      "market": "ML",
+      "confidence": 3,
+      "units": 1.0,
+      "win_probability": 0.55,
+      "ladder_designation": false,
+      "data_confidence": 0.75,
+      "rules_passed": [
+        "max_juice",
+        "ladder_even_money",
+        "parlay_well_formed",
+        "confidence_units_match",
+        "data_confidence_floor",
+        "pick_type_allowed",
+        "mlb_hr_prop_check",
+        "mlb_pitcher_k_check",
+        "mlb_total_bases_check",
+        "mlb_hits_check",
+        "nba_player_prop_check",
+        "nhl_shots_check",
+        "mlb_run_line_check",
+        "mlb_under_bb_check",
+        "no_same_game_opposite"
+      ],
+      "locked": true,
+      "late_add": false,
+      "late_add_reason": "",
+      "bonus_pick": false,
+      "event_type": "",
+      "event_name": "",
+      "legs": [],
+      "headline": "Logan Webb at Oracle Park against a TBD Brewers starter \u2014 home-field edge in a pitcher's park.",
+      "the_thesis": "Logan Webb has been solid this season with a 3.98 ERA and an excellent 0.72 HR/9. Oracle Park is one of the most pitcher-friendly venues in baseball (0.93 runs PF, 0.85 HR PF), and Webb knows how to use it. The Brewers are starting Thomas Pannone, a lefty who's been a bullpen arm pressed into spot duty.\n\nThe Giants are getting plus-money at home with their best starter on the mound against a TBD/spot starter. That's value. Webb's 19.2% K rate isn't elite, but his 6.3% walk rate and ground-ball tendencies play up at Oracle. The Brewers' offense (5.07 R/G) is potent, but they've struggled on the road against quality starters in pitcher-friendly parks.\n\nThis is a spot where the market is undervaluing home-field advantage and the pitching matchup disparity. Webb vs a spot starter at Oracle Park should be closer to -120 than +108.",
+      "the_data": [
+        {
+          "label": "Webb ERA / HR9",
+          "value": "3.98 / 0.72",
+          "context": "Solid, elite HR suppression"
+        },
+        {
+          "label": "Webb BB%",
+          "value": "6.3%",
+          "context": "Good command"
+        },
+        {
+          "label": "Oracle Park PF (runs/HR)",
+          "value": "0.93 / 0.85",
+          "context": "Most pitcher-friendly in NL"
+        },
+        {
+          "label": "Brewers starter",
+          "value": "Thomas Pannone (TBD)",
+          "context": "Spot starter, bullpen arm"
+        },
+        {
+          "label": "Giants home record",
+          "value": "Home favorite",
+          "context": "Plus-money value"
+        }
+      ],
+      "the_market": "Giants opened as slight favorites and have drifted to plus-money at DraftKings (+108). The market is overreacting to the Brewers' overall record and undervaluing the pitching matchup disparity.",
+      "weather_park": "Oracle Park outdoor, runs PF 0.93, HR PF 0.85 \u2014 most pitcher-friendly park in the NL. Webb's ground-ball tendencies play up here.",
+      "case_against": "The Brewers have the better overall team (5.07 R/G offense) and could shell Pannone's replacement if he struggles. Webb's 3.98 ERA isn't elite, and the Giants' offense (4.12 R/G) is below average. If the Brewers get to Webb early, the Giants' pen isn't reliable.",
+      "what_were_betting_on": "Webb going 6+ quality innings at home, the Brewers' spot starter struggling, and Oracle Park suppressing any Brewers power.",
+      "scott_bot_quip": "Plus-money on Webb at Oracle against a guy named Pannone. The market's asleep.",
+      "ladder_note": "",
+      "date": "2026-07-29",
+      "status": "PEND",
+      "units_result": null,
+      "clv_cents": null,
+      "result_score": null,
+      "graded_at": null,
+      "slate_assessment": "15-game MLB slate with no NBA or NHL action. Two elite pitching matchups stand out \u2014 Skubal vs Baltimore and Sale vs Mets in the nightcap \u2014 plus Schlittler's dominance creates a clear under angle in Chicago. Prop markets thin but a few K unders have edge.",
+      "executive_summary": "Tarik Skubal takes the mound at Comerica Park chasing his 1,000th career strikeout, and the two-time Cy Young winner faces a Baltimore lineup that's been middling against lefties. The under 7.5 is the cleanest play on the board \u2014 Skubal's 0.92 WHIP and 31.5% K rate against a Trevor Rogers who's been serviceable but not sharp. In the nightcap at Citi Field, Chris Sale brings his 2.19 ERA against a Mets offense that ranks bottom-third in wRC+ vs LHP. The Yankees-White Sox under 7.5 rounds out the core \u2014 Cam Schlittler's 2.07 ERA and 0.93 WHIP against a Chicago lineup that's been streaky. The ladder rides with the Skubal under \u2014 best floor, elite SP, pitcher-friendly park, and the market hasn't moved off 7.5.",
+      "slate_analysis": "Today's board features 15 MLB games with no NBA or NHL in play. The pricing climate is relatively tight \u2014 most totals sit between 7.5 and 9.5, and the moneyline favorites are priced reasonably without many extreme chalk plays. The Twins-Royals game has Minnesota at -200, which exceeds our straight-bet cap, and the Tigers-Orioles game has Detroit at -188, also too steep for a moneyline play.\n\nThe top candidates that rose during my review: (1) Tigers-Orioles Under 7.5 \u2014 Skubal's elite metrics against a Rogers who's been average, pitcher-friendly Comerica despite wind blowing out; (2) Braves-Mets Game 2 Under 7.5 \u2014 Chris Sale's 2.19 ERA against a struggling Mets offense, Citi Field's HR-suppressing park factor; (3) Yankees-White Sox Under 7.5 \u2014 Schlittler's dominance (2.07 ERA, 0.93 WHIP) against Davis Martin who's been solid but not elite; (4) Giants ML vs Brewers \u2014 Logan Webb at Oracle Park against a TBD/Pannone start, pitcher-friendly environment; (5) Braves ML Game 2 \u2014 Sale on the mound against Christian Scott, but the -154 juice is borderline; (6) Chris Sale Ks Under 6.5 \u2014 Mets have a low K% against elite lefties, but the line is too tight.\n\nWhat got cut: The Tigers ML at -188 exceeds our -150 cap. The Braves ML at -154 is right at the edge but the Mets have been scrappy at home. The ARI-PIT game has data confidence at 0.45 \u2014 too thin. The TOR-WSH game features two pitchers with high walk rates (Yesavage 11.9% BB, Littell 7.1%) which creates variance concerns for unders. The LAA-HOU game has Grayson Rodriguez's 8.54 ERA creating too much variance for any confident play. The SEA-LAD game has Lauer regressing (6.69 L3 ERA) but the Dodgers' offense is too potent to back an under confidently.\n\nThe final six picks survived because they combine elite pitching with favorable park factors and reasonable juice. The Skubal under is the ladder pick \u2014 it has the highest floor with a two-time Cy Young winner at home in a pitcher-friendly park, and the market hasn't moved despite his dominance. The Sale under in Game 2 offers similar value with an elite lefty against a weak offense. The Schlittler under completes the pitching-driven under trio. The Giants ML at +108 offers value against a TBD Brewers starter at Oracle Park. The Braves-Mets Game 1 under and the Joe Ryan Ks prop round out the card with solid supporting data.",
+      "slate_vibe": "NORMAL",
+      "published_at": "2026-07-29T12:23:36.829852-04:00"
+    },
+    {
+      "id": "20260729-MLB-NYY-CHW-TOTAL",
+      "sport": "MLB",
+      "game": "NYY @ CHW",
+      "first_pitch_iso": "2026-07-29T23:40Z",
+      "pick": "Under 7.5",
+      "best_book": "FanDuel",
+      "best_odds": "-105",
+      "book_prices": {
+        "draftkings": "-109",
+        "fanduel": "-105",
+        "betmgm": "-110"
+      },
+      "book_links": {
+        "fanduel": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.595359650&selectionId=7017906",
+        "betmgm": "https://sports.nj.betmgm.com/en/sports?options=19829511-1545561051-2260993565&type=Single",
+        "draftkings": "https://sportsbook.draftkings.com/?outcomes=0OU85660842U750_3"
+      },
+      "market": "TOTAL",
+      "confidence": 4,
+      "units": 1.5,
+      "win_probability": 0.59,
+      "ladder_designation": false,
+      "data_confidence": 0.8,
+      "rules_passed": [
+        "max_juice",
+        "ladder_even_money",
+        "parlay_well_formed",
+        "confidence_units_match",
+        "data_confidence_floor",
+        "pick_type_allowed",
+        "mlb_hr_prop_check",
+        "mlb_pitcher_k_check",
+        "mlb_total_bases_check",
+        "mlb_hits_check",
+        "nba_player_prop_check",
+        "nhl_shots_check",
+        "mlb_run_line_check",
+        "mlb_under_bb_check(soft)",
+        "no_same_game_opposite"
+      ],
+      "locked": true,
+      "late_add": false,
+      "late_add_reason": "",
+      "bonus_pick": false,
+      "event_type": "",
+      "event_name": "",
+      "legs": [],
+      "headline": "Cam Schlittler's 2.07 ERA and 0.93 WHIP against a White Sox lineup missing its best bats.",
+      "the_thesis": "Cam Schlittler has been one of the best pitchers in baseball this season with a 2.07 ERA, 0.93 WHIP, and a 30.5% K rate. The 25-year-old has emerged as the Yankees' ace, and his stuff plays up against any lineup. The White Sox have been streaky offensively, and their lineup lacks the consistent power to threaten Schlittler.\n\nDavis Martin on the other side has been solid with a 3.49 ERA and a remarkably low 0.49 HR/9. He's not going to dominate the Yankees, but he's been good enough to keep games close. The Yankees have been struggling offensively with Aaron Judge and Giancarlo Stanton out \u2014 their power has dried up and strikeouts have climbed.\n\nGuaranteed Rate Field has a 1.08 HR park factor, which is the main concern here. But with both pitchers showing excellent HR suppression (Schlittler 0.83 HR/9, Martin 0.49 HR/9), the park factor is less relevant than usual.",
+      "the_data": [
+        {
+          "label": "Schlittler ERA / WHIP",
+          "value": "2.07 / 0.93",
+          "context": "2nd in AL ERA"
+        },
+        {
+          "label": "Schlittler K% / BB%",
+          "value": "30.5% / 4.9%",
+          "context": "Elite command"
+        },
+        {
+          "label": "Martin ERA / HR9",
+          "value": "3.49 / 0.49",
+          "context": "Solid, elite HR suppression"
+        },
+        {
+          "label": "Rate Field PF (HR)",
+          "value": "1.08",
+          "context": "HR-boosting, but SPs mitigate"
+        },
+        {
+          "label": "Yankees injuries",
+          "value": "Judge, Stanton out",
+          "context": "Power dried up"
+        }
+      ],
+      "the_market": "Total opened at 7.5 and hasn't moved. Best price at FanDuel -105 \u2014 excellent juice for an under with two solid starters.",
+      "weather_park": "Guaranteed Rate Field outdoor, HR park factor 1.08. Both SPs have elite HR suppression to offset.",
+      "case_against": "The park factor (1.08 HR) is real \u2014 one mistake from either pitcher could leave the yard. The Yankees' lineup, even depleted, has professional hitters who can string together rallies. Martin's 1.27 WHIP suggests he puts runners on, which could bite him against a patient Yankees lineup.",
+      "what_were_betting_on": "Schlittler dominating for 7+ innings, Martin being competent, and both pitchers' HR suppression overcoming the park factor.",
+      "scott_bot_quip": "Schlittler's WHIP is lower than most pitchers' ERA. The White Sox aren't solving this.",
+      "ladder_note": "",
+      "date": "2026-07-29",
+      "status": "PEND",
+      "units_result": null,
+      "clv_cents": null,
+      "result_score": null,
+      "graded_at": null,
+      "slate_assessment": "15-game MLB slate with no NBA or NHL action. Two elite pitching matchups stand out \u2014 Skubal vs Baltimore and Sale vs Mets in the nightcap \u2014 plus Schlittler's dominance creates a clear under angle in Chicago. Prop markets thin but a few K unders have edge.",
+      "executive_summary": "Tarik Skubal takes the mound at Comerica Park chasing his 1,000th career strikeout, and the two-time Cy Young winner faces a Baltimore lineup that's been middling against lefties. The under 7.5 is the cleanest play on the board \u2014 Skubal's 0.92 WHIP and 31.5% K rate against a Trevor Rogers who's been serviceable but not sharp. In the nightcap at Citi Field, Chris Sale brings his 2.19 ERA against a Mets offense that ranks bottom-third in wRC+ vs LHP. The Yankees-White Sox under 7.5 rounds out the core \u2014 Cam Schlittler's 2.07 ERA and 0.93 WHIP against a Chicago lineup that's been streaky. The ladder rides with the Skubal under \u2014 best floor, elite SP, pitcher-friendly park, and the market hasn't moved off 7.5.",
+      "slate_analysis": "Today's board features 15 MLB games with no NBA or NHL in play. The pricing climate is relatively tight \u2014 most totals sit between 7.5 and 9.5, and the moneyline favorites are priced reasonably without many extreme chalk plays. The Twins-Royals game has Minnesota at -200, which exceeds our straight-bet cap, and the Tigers-Orioles game has Detroit at -188, also too steep for a moneyline play.\n\nThe top candidates that rose during my review: (1) Tigers-Orioles Under 7.5 \u2014 Skubal's elite metrics against a Rogers who's been average, pitcher-friendly Comerica despite wind blowing out; (2) Braves-Mets Game 2 Under 7.5 \u2014 Chris Sale's 2.19 ERA against a struggling Mets offense, Citi Field's HR-suppressing park factor; (3) Yankees-White Sox Under 7.5 \u2014 Schlittler's dominance (2.07 ERA, 0.93 WHIP) against Davis Martin who's been solid but not elite; (4) Giants ML vs Brewers \u2014 Logan Webb at Oracle Park against a TBD/Pannone start, pitcher-friendly environment; (5) Braves ML Game 2 \u2014 Sale on the mound against Christian Scott, but the -154 juice is borderline; (6) Chris Sale Ks Under 6.5 \u2014 Mets have a low K% against elite lefties, but the line is too tight.\n\nWhat got cut: The Tigers ML at -188 exceeds our -150 cap. The Braves ML at -154 is right at the edge but the Mets have been scrappy at home. The ARI-PIT game has data confidence at 0.45 \u2014 too thin. The TOR-WSH game features two pitchers with high walk rates (Yesavage 11.9% BB, Littell 7.1%) which creates variance concerns for unders. The LAA-HOU game has Grayson Rodriguez's 8.54 ERA creating too much variance for any confident play. The SEA-LAD game has Lauer regressing (6.69 L3 ERA) but the Dodgers' offense is too potent to back an under confidently.\n\nThe final six picks survived because they combine elite pitching with favorable park factors and reasonable juice. The Skubal under is the ladder pick \u2014 it has the highest floor with a two-time Cy Young winner at home in a pitcher-friendly park, and the market hasn't moved despite his dominance. The Sale under in Game 2 offers similar value with an elite lefty against a weak offense. The Schlittler under completes the pitching-driven under trio. The Giants ML at +108 offers value against a TBD Brewers starter at Oracle Park. The Braves-Mets Game 1 under and the Joe Ryan Ks prop round out the card with solid supporting data.",
+      "slate_vibe": "NORMAL",
+      "published_at": "2026-07-29T12:23:36.829733-04:00"
+    },
+    {
+      "id": "20260729-MLB-ATL-NYM-G2-TOTAL",
+      "sport": "MLB",
+      "game": "ATL @ NYM (Game 2)",
+      "first_pitch_iso": "2026-07-29T17:10Z",
+      "pick": "Under 7.5",
+      "best_book": "BetMGM",
+      "best_odds": "-120",
+      "book_prices": {
+        "draftkings": "-123",
+        "fanduel": "-122",
+        "betmgm": "-120"
+      },
+      "book_links": {
+        "fanduel": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.595366337&selectionId=7017906",
+        "draftkings": "https://sportsbook.draftkings.com/?outcomes=0OU85673872U750_3",
+        "betmgm": "https://sports.nj.betmgm.com/en/sports?options=19847030-1547378350-2265968338&type=Single"
+      },
+      "market": "TOTAL",
+      "confidence": 4,
+      "units": 1.5,
+      "win_probability": 0.6,
+      "ladder_designation": false,
+      "data_confidence": 0.8,
+      "rules_passed": [
+        "max_juice",
+        "ladder_even_money",
+        "parlay_well_formed",
+        "confidence_units_match",
+        "data_confidence_floor",
+        "pick_type_allowed",
+        "mlb_hr_prop_check",
+        "mlb_pitcher_k_check",
+        "mlb_total_bases_check",
+        "mlb_hits_check",
+        "nba_player_prop_check",
+        "nhl_shots_check",
+        "mlb_run_line_check",
+        "mlb_under_bb_check(soft)",
+        "no_same_game_opposite"
+      ],
+      "locked": true,
+      "late_add": false,
+      "late_add_reason": "",
+      "bonus_pick": false,
+      "event_type": "",
+      "event_name": "",
+      "legs": [],
+      "headline": "Chris Sale's 2.19 ERA against a Mets offense that's been bottom-third in baseball.",
+      "the_thesis": "Chris Sale is having another Cy Young-caliber season with a 2.19 ERA, 1.05 WHIP, and a 29.7% K rate. He's been dominant since returning from his 2025 rib injury, and the Mets' offense has been one of the worst in baseball this season. The Mets are 45-62 and their lineup has struggled mightily against elite left-handed pitching.\n\nChristian Scott on the other side has been solid with a 3.13 ERA, but his 10.7% walk rate creates some traffic concerns. However, the Braves' offense (4.93 R/G) isn't elite, and Citi Field's HR-suppressing park factor (0.91) helps both pitchers. The total dropped from 8.5 to 7.5 since open \u2014 the market is telling us this is a low-scoring game.\n\nThe line movement is the key signal here. A full run drop on the total indicates sharp money on the under. Sale's dominance plus a weak Mets lineup plus a pitcher-friendly park equals a clean under spot.",
+      "the_data": [
+        {
+          "label": "Sale ERA / WHIP (2026)",
+          "value": "2.19 / 1.05",
+          "context": "Cy Young-caliber"
+        },
+        {
+          "label": "Sale K% / BB%",
+          "value": "29.7% / 5.8%",
+          "context": "Elite command"
+        },
+        {
+          "label": "Scott ERA / BB%",
+          "value": "3.13 / 10.7%",
+          "context": "Solid but walks too many"
+        },
+        {
+          "label": "Citi Field PF (HR)",
+          "value": "0.91",
+          "context": "HR-suppressing"
+        },
+        {
+          "label": "Mets record",
+          "value": "45-62",
+          "context": "Bottom-third offense"
+        },
+        {
+          "label": "Total movement",
+          "value": "8.5 \u2192 7.5",
+          "context": "Full run drop since open"
+        }
+      ],
+      "the_market": "Total opened at 8.5 and has dropped to 7.5 \u2014 a full run of movement toward the under. Sharp money is clearly on this side. Best price at BetMGM -120.",
+      "weather_park": "Citi Field outdoor, HR park factor 0.91 \u2014 suppresses power. Neutral weather conditions expected.",
+      "case_against": "Scott's 10.7% walk rate could create traffic that the Braves' lineup capitalizes on. The Braves have a potent offense (4.93 R/G) that could break through against a young pitcher. Doubleheader fatigue could affect bullpen availability if either starter exits early.",
+      "what_were_betting_on": "Sale going 7+ innings with minimal damage, Scott being competent enough to keep the Braves in check, and Citi Field's park factor suppressing any mistakes.",
+      "scott_bot_quip": "Sale's ERA is lower than the Mets' playoff odds. Under.",
+      "ladder_note": "",
+      "date": "2026-07-29",
+      "status": "PEND",
+      "units_result": null,
+      "clv_cents": null,
+      "result_score": null,
+      "graded_at": null,
+      "slate_assessment": "15-game MLB slate with no NBA or NHL action. Two elite pitching matchups stand out \u2014 Skubal vs Baltimore and Sale vs Mets in the nightcap \u2014 plus Schlittler's dominance creates a clear under angle in Chicago. Prop markets thin but a few K unders have edge.",
+      "executive_summary": "Tarik Skubal takes the mound at Comerica Park chasing his 1,000th career strikeout, and the two-time Cy Young winner faces a Baltimore lineup that's been middling against lefties. The under 7.5 is the cleanest play on the board \u2014 Skubal's 0.92 WHIP and 31.5% K rate against a Trevor Rogers who's been serviceable but not sharp. In the nightcap at Citi Field, Chris Sale brings his 2.19 ERA against a Mets offense that ranks bottom-third in wRC+ vs LHP. The Yankees-White Sox under 7.5 rounds out the core \u2014 Cam Schlittler's 2.07 ERA and 0.93 WHIP against a Chicago lineup that's been streaky. The ladder rides with the Skubal under \u2014 best floor, elite SP, pitcher-friendly park, and the market hasn't moved off 7.5.",
+      "slate_analysis": "Today's board features 15 MLB games with no NBA or NHL in play. The pricing climate is relatively tight \u2014 most totals sit between 7.5 and 9.5, and the moneyline favorites are priced reasonably without many extreme chalk plays. The Twins-Royals game has Minnesota at -200, which exceeds our straight-bet cap, and the Tigers-Orioles game has Detroit at -188, also too steep for a moneyline play.\n\nThe top candidates that rose during my review: (1) Tigers-Orioles Under 7.5 \u2014 Skubal's elite metrics against a Rogers who's been average, pitcher-friendly Comerica despite wind blowing out; (2) Braves-Mets Game 2 Under 7.5 \u2014 Chris Sale's 2.19 ERA against a struggling Mets offense, Citi Field's HR-suppressing park factor; (3) Yankees-White Sox Under 7.5 \u2014 Schlittler's dominance (2.07 ERA, 0.93 WHIP) against Davis Martin who's been solid but not elite; (4) Giants ML vs Brewers \u2014 Logan Webb at Oracle Park against a TBD/Pannone start, pitcher-friendly environment; (5) Braves ML Game 2 \u2014 Sale on the mound against Christian Scott, but the -154 juice is borderline; (6) Chris Sale Ks Under 6.5 \u2014 Mets have a low K% against elite lefties, but the line is too tight.\n\nWhat got cut: The Tigers ML at -188 exceeds our -150 cap. The Braves ML at -154 is right at the edge but the Mets have been scrappy at home. The ARI-PIT game has data confidence at 0.45 \u2014 too thin. The TOR-WSH game features two pitchers with high walk rates (Yesavage 11.9% BB, Littell 7.1%) which creates variance concerns for unders. The LAA-HOU game has Grayson Rodriguez's 8.54 ERA creating too much variance for any confident play. The SEA-LAD game has Lauer regressing (6.69 L3 ERA) but the Dodgers' offense is too potent to back an under confidently.\n\nThe final six picks survived because they combine elite pitching with favorable park factors and reasonable juice. The Skubal under is the ladder pick \u2014 it has the highest floor with a two-time Cy Young winner at home in a pitcher-friendly park, and the market hasn't moved despite his dominance. The Sale under in Game 2 offers similar value with an elite lefty against a weak offense. The Schlittler under completes the pitching-driven under trio. The Giants ML at +108 offers value against a TBD Brewers starter at Oracle Park. The Braves-Mets Game 1 under and the Joe Ryan Ks prop round out the card with solid supporting data.",
+      "slate_vibe": "NORMAL",
+      "published_at": "2026-07-29T12:23:36.829623-04:00"
+    },
+    {
+      "id": "20260729-MLB-BAL-DET-TOTAL",
+      "sport": "MLB",
+      "game": "BAL @ DET",
+      "first_pitch_iso": "2026-07-29T17:10Z",
+      "pick": "Under 7.5",
+      "best_book": "FanDuel",
+      "best_odds": "-108",
+      "book_prices": {
+        "draftkings": "-111",
+        "fanduel": "-108",
+        "betmgm": "-110"
+      },
+      "book_links": {
+        "fanduel": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.595358415&selectionId=7017906",
+        "betmgm": "https://sports.nj.betmgm.com/en/sports?options=19829504-1545560394-2260992125&type=Single",
+        "draftkings": "https://sportsbook.draftkings.com/?outcomes=0OU85660836U750_3"
+      },
+      "market": "TOTAL",
+      "confidence": 5,
+      "units": 2.0,
+      "win_probability": 0.62,
+      "ladder_designation": true,
+      "data_confidence": 0.85,
+      "rules_passed": [
+        "max_juice",
+        "ladder_even_money",
+        "parlay_well_formed",
+        "confidence_units_match",
+        "data_confidence_floor",
+        "pick_type_allowed",
+        "mlb_hr_prop_check",
+        "mlb_pitcher_k_check",
+        "mlb_total_bases_check",
+        "mlb_hits_check",
+        "nba_player_prop_check",
+        "nhl_shots_check",
+        "mlb_run_line_check",
+        "mlb_under_bb_check(soft)",
+        "no_same_game_opposite"
+      ],
+      "locked": true,
+      "late_add": false,
+      "late_add_reason": "",
+      "bonus_pick": false,
+      "event_type": "",
+      "event_name": "",
+      "legs": [],
+      "headline": "Two-time Cy Young winner Skubal at home in a pitcher-friendly park against a middling Baltimore lineup.",
+      "the_thesis": "Tarik Skubal is the best pitcher in baseball right now, and he's pitching at home chasing his 1,000th career strikeout. His 2.70 ERA and 0.92 WHIP are elite, but the underlying metrics are even better \u2014 a 31.5% K rate paired with just a 3.7% walk rate means he's not giving away free baserunners. Against a Baltimore offense that's been average against lefties this season, Skubal should cruise.\n\nTrevor Rogers on the other side has been serviceable with a 4.17 ERA, but his 7.4% walk rate creates traffic. The key here is that Comerica Park suppresses runs (0.96 PF) despite the wind blowing out today. The wind boost to HR is real (~20%), but Skubal's 1.0 HR/9 and Rogers' 0.87 HR/9 suggest neither pitcher is particularly homer-prone. The total opened at 7.5 and hasn't moved \u2014 the market agrees this is a low-scoring affair.\n\nThe Tigers' offense (4.30 R/G) and Orioles' offense (4.55 R/G) are both below league average. With Skubal likely going 7+ innings and limiting damage, we need Rogers to be merely competent for this under to cash. He's been exactly that \u2014 not dominant, but not a blowup risk either.",
+      "the_data": [
+        {
+          "label": "Skubal ERA / WHIP (2026)",
+          "value": "2.70 / 0.92",
+          "context": "Elite, top-3 in AL"
+        },
+        {
+          "label": "Skubal K% / BB%",
+          "value": "31.5% / 3.7%",
+          "context": "Best K-BB differential in MLB"
+        },
+        {
+          "label": "Rogers ERA / WHIP",
+          "value": "4.17 / 1.27",
+          "context": "Serviceable, not dominant"
+        },
+        {
+          "label": "Comerica Park PF (runs)",
+          "value": "0.96",
+          "context": "Pitcher-friendly"
+        },
+        {
+          "label": "DET R/G vs BAL R/G",
+          "value": "4.30 vs 4.55",
+          "context": "Both below league average"
+        },
+        {
+          "label": "Wind impact",
+          "value": "+20% HR boost",
+          "context": "Offset by low HR/9 from both SPs"
+        }
+      ],
+      "the_market": "Total opened at 7.5 and sits at 7.5 across all three books. No movement despite Skubal's dominance \u2014 the market is pricing in his excellence but not overreacting. Best price at FanDuel -108.",
+      "weather_park": "Comerica Park 73\u00b0F, wind 16mph blowing out to RF. HR boost ~20%, but park factor (0.96 runs) and both SPs' low HR/9 mitigate the risk.",
+      "case_against": "The wind blowing out at 16mph is real \u2014 if either pitcher hangs a mistake, it could leave the yard. Rogers' 7.4% walk rate could create traffic that Skubal's dominance can't fully suppress. If Skubal exits early (trade deadline uncertainty?), the Tigers' pen faces a decent Baltimore lineup.",
+      "what_were_betting_on": "Skubal going 7+ innings with 10+ Ks, Rogers being competent enough to keep it close, and the park/weather factors not overwhelming elite pitching.",
+      "scott_bot_quip": "Skubal's chasing 1,000 Ks. Baltimore's lineup is about to help him get there.",
+      "ladder_note": "Best floor on the board \u2014 two-time Cy Young winner at home, pitcher-friendly park, market hasn't moved. This is the highest-confidence play of the day.",
+      "date": "2026-07-29",
+      "status": "PEND",
+      "units_result": null,
+      "clv_cents": null,
+      "result_score": null,
+      "graded_at": null,
+      "slate_assessment": "15-game MLB slate with no NBA or NHL action. Two elite pitching matchups stand out \u2014 Skubal vs Baltimore and Sale vs Mets in the nightcap \u2014 plus Schlittler's dominance creates a clear under angle in Chicago. Prop markets thin but a few K unders have edge.",
+      "executive_summary": "Tarik Skubal takes the mound at Comerica Park chasing his 1,000th career strikeout, and the two-time Cy Young winner faces a Baltimore lineup that's been middling against lefties. The under 7.5 is the cleanest play on the board \u2014 Skubal's 0.92 WHIP and 31.5% K rate against a Trevor Rogers who's been serviceable but not sharp. In the nightcap at Citi Field, Chris Sale brings his 2.19 ERA against a Mets offense that ranks bottom-third in wRC+ vs LHP. The Yankees-White Sox under 7.5 rounds out the core \u2014 Cam Schlittler's 2.07 ERA and 0.93 WHIP against a Chicago lineup that's been streaky. The ladder rides with the Skubal under \u2014 best floor, elite SP, pitcher-friendly park, and the market hasn't moved off 7.5.",
+      "slate_analysis": "Today's board features 15 MLB games with no NBA or NHL in play. The pricing climate is relatively tight \u2014 most totals sit between 7.5 and 9.5, and the moneyline favorites are priced reasonably without many extreme chalk plays. The Twins-Royals game has Minnesota at -200, which exceeds our straight-bet cap, and the Tigers-Orioles game has Detroit at -188, also too steep for a moneyline play.\n\nThe top candidates that rose during my review: (1) Tigers-Orioles Under 7.5 \u2014 Skubal's elite metrics against a Rogers who's been average, pitcher-friendly Comerica despite wind blowing out; (2) Braves-Mets Game 2 Under 7.5 \u2014 Chris Sale's 2.19 ERA against a struggling Mets offense, Citi Field's HR-suppressing park factor; (3) Yankees-White Sox Under 7.5 \u2014 Schlittler's dominance (2.07 ERA, 0.93 WHIP) against Davis Martin who's been solid but not elite; (4) Giants ML vs Brewers \u2014 Logan Webb at Oracle Park against a TBD/Pannone start, pitcher-friendly environment; (5) Braves ML Game 2 \u2014 Sale on the mound against Christian Scott, but the -154 juice is borderline; (6) Chris Sale Ks Under 6.5 \u2014 Mets have a low K% against elite lefties, but the line is too tight.\n\nWhat got cut: The Tigers ML at -188 exceeds our -150 cap. The Braves ML at -154 is right at the edge but the Mets have been scrappy at home. The ARI-PIT game has data confidence at 0.45 \u2014 too thin. The TOR-WSH game features two pitchers with high walk rates (Yesavage 11.9% BB, Littell 7.1%) which creates variance concerns for unders. The LAA-HOU game has Grayson Rodriguez's 8.54 ERA creating too much variance for any confident play. The SEA-LAD game has Lauer regressing (6.69 L3 ERA) but the Dodgers' offense is too potent to back an under confidently.\n\nThe final six picks survived because they combine elite pitching with favorable park factors and reasonable juice. The Skubal under is the ladder pick \u2014 it has the highest floor with a two-time Cy Young winner at home in a pitcher-friendly park, and the market hasn't moved despite his dominance. The Sale under in Game 2 offers similar value with an elite lefty against a weak offense. The Schlittler under completes the pitching-driven under trio. The Giants ML at +108 offers value against a TBD Brewers starter at Oracle Park. The Braves-Mets Game 1 under and the Joe Ryan Ks prop round out the card with solid supporting data.",
+      "slate_vibe": "NORMAL",
+      "published_at": "2026-07-29T12:23:36.829476-04:00"
+    }
+  ],
   "today_bonus_picks": [],
   "all_picks": [
+    {
+      "id": "20260729-MLB-KC-MIN-PROP-JOERYAN",
+      "sport": "MLB",
+      "game": "KC @ MIN",
+      "first_pitch_iso": "2026-07-29T23:40Z",
+      "pick": "Joe Ryan Ks Under 6.5",
+      "best_book": "FanDuel",
+      "best_odds": "-136",
+      "book_prices": {
+        "draftkings": "-136",
+        "fanduel": "-136",
+        "betmgm": "-140"
+      },
+      "book_links": {
+        "fanduel": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.595393020&selectionId=40779391",
+        "draftkings": "https://sportsbook.draftkings.com/?outcomes=0QA355499408%232227751479_13L84240Q1-46364625Q20",
+        "betmgm": "https://sports.nj.betmgm.com/en/sports?options=2:7828213-202158139-768523569&type=Single"
+      },
+      "market": "PROP",
+      "confidence": 3,
+      "units": 1.0,
+      "win_probability": 0.58,
+      "ladder_designation": false,
+      "data_confidence": 0.75,
+      "rules_passed": [
+        "max_juice",
+        "ladder_even_money",
+        "parlay_well_formed",
+        "confidence_units_match",
+        "data_confidence_floor",
+        "pick_type_allowed",
+        "mlb_hr_prop_check",
+        "mlb_pitcher_k_check(soft)",
+        "mlb_total_bases_check",
+        "mlb_hits_check",
+        "nba_player_prop_check",
+        "nhl_shots_check",
+        "mlb_run_line_check",
+        "mlb_under_bb_check(soft)",
+        "no_same_game_opposite"
+      ],
+      "locked": true,
+      "late_add": false,
+      "late_add_reason": "",
+      "bonus_pick": false,
+      "event_type": "",
+      "event_name": "",
+      "legs": [],
+      "headline": "Joe Ryan's K rate has been solid but the Royals don't strike out \u2014 6.5 is too high.",
+      "the_thesis": "Joe Ryan has a 27.8% K rate this season, which is above average but not elite. The Royals' offense has been one of the better contact teams in baseball, and they don't strike out at a high rate. Randy Dobnak on the other side has a 12.5% K rate \u2014 this is a contact-heavy game.\n\nRyan's 5.3% walk rate is excellent, meaning he's efficient with his pitches. But efficiency cuts both ways \u2014 he's not going to rack up 10+ Ks because he's not nibbling. The line at 6.5 with -136 juice on the under suggests the market expects him to land right around 6. We're betting he stays at or below that number.\n\nThe Royals' lineup features contact hitters like Vinnie Pasquantino, Salvador Perez, and Michael Massey who put the ball in play. Ryan will get his outs, but they'll come on contact, not swings and misses.",
+      "the_data": [
+        {
+          "label": "Ryan K% / BB%",
+          "value": "27.8% / 5.3%",
+          "context": "Above average, efficient"
+        },
+        {
+          "label": "Ryan K line",
+          "value": "6.5",
+          "context": "Market expects ~6"
+        },
+        {
+          "label": "Royals K% vs RHP",
+          "value": "Low",
+          "context": "Contact-heavy lineup"
+        },
+        {
+          "label": "Dobnak K%",
+          "value": "12.5%",
+          "context": "Contact game expected"
+        },
+        {
+          "label": "Ryan L3 IP/start",
+          "value": "38.03",
+          "context": "Goes deep, but not K-heavy"
+        }
+      ],
+      "the_market": "Line at 6.5 with -136 on the under at FanDuel. The market is pricing Ryan around 6 Ks, and we're betting he stays at or below.",
+      "weather_park": "Target Field outdoor, neutral park factor. No weather concerns.",
+      "case_against": "Ryan's 27.8% K rate is above average \u2014 he could easily hit 7+ against any lineup. The Royals have some swing-and-miss in their lineup (Carter Jensen, Andrew Velazquez). If Ryan goes 7+ innings, he has more opportunities to rack up Ks.",
+      "what_were_betting_on": "The Royals' contact-heavy approach limiting Ryan's strikeout opportunities, and Ryan's efficiency keeping his pitch count low enough to exit before racking up Ks.",
+      "scott_bot_quip": "Ryan's efficient. The Royals make contact. Math says under.",
+      "ladder_note": "",
+      "date": "2026-07-29",
+      "status": "PEND",
+      "units_result": null,
+      "clv_cents": null,
+      "result_score": null,
+      "graded_at": null,
+      "slate_assessment": "15-game MLB slate with no NBA or NHL action. Two elite pitching matchups stand out \u2014 Skubal vs Baltimore and Sale vs Mets in the nightcap \u2014 plus Schlittler's dominance creates a clear under angle in Chicago. Prop markets thin but a few K unders have edge.",
+      "executive_summary": "Tarik Skubal takes the mound at Comerica Park chasing his 1,000th career strikeout, and the two-time Cy Young winner faces a Baltimore lineup that's been middling against lefties. The under 7.5 is the cleanest play on the board \u2014 Skubal's 0.92 WHIP and 31.5% K rate against a Trevor Rogers who's been serviceable but not sharp. In the nightcap at Citi Field, Chris Sale brings his 2.19 ERA against a Mets offense that ranks bottom-third in wRC+ vs LHP. The Yankees-White Sox under 7.5 rounds out the core \u2014 Cam Schlittler's 2.07 ERA and 0.93 WHIP against a Chicago lineup that's been streaky. The ladder rides with the Skubal under \u2014 best floor, elite SP, pitcher-friendly park, and the market hasn't moved off 7.5.",
+      "slate_analysis": "Today's board features 15 MLB games with no NBA or NHL in play. The pricing climate is relatively tight \u2014 most totals sit between 7.5 and 9.5, and the moneyline favorites are priced reasonably without many extreme chalk plays. The Twins-Royals game has Minnesota at -200, which exceeds our straight-bet cap, and the Tigers-Orioles game has Detroit at -188, also too steep for a moneyline play.\n\nThe top candidates that rose during my review: (1) Tigers-Orioles Under 7.5 \u2014 Skubal's elite metrics against a Rogers who's been average, pitcher-friendly Comerica despite wind blowing out; (2) Braves-Mets Game 2 Under 7.5 \u2014 Chris Sale's 2.19 ERA against a struggling Mets offense, Citi Field's HR-suppressing park factor; (3) Yankees-White Sox Under 7.5 \u2014 Schlittler's dominance (2.07 ERA, 0.93 WHIP) against Davis Martin who's been solid but not elite; (4) Giants ML vs Brewers \u2014 Logan Webb at Oracle Park against a TBD/Pannone start, pitcher-friendly environment; (5) Braves ML Game 2 \u2014 Sale on the mound against Christian Scott, but the -154 juice is borderline; (6) Chris Sale Ks Under 6.5 \u2014 Mets have a low K% against elite lefties, but the line is too tight.\n\nWhat got cut: The Tigers ML at -188 exceeds our -150 cap. The Braves ML at -154 is right at the edge but the Mets have been scrappy at home. The ARI-PIT game has data confidence at 0.45 \u2014 too thin. The TOR-WSH game features two pitchers with high walk rates (Yesavage 11.9% BB, Littell 7.1%) which creates variance concerns for unders. The LAA-HOU game has Grayson Rodriguez's 8.54 ERA creating too much variance for any confident play. The SEA-LAD game has Lauer regressing (6.69 L3 ERA) but the Dodgers' offense is too potent to back an under confidently.\n\nThe final six picks survived because they combine elite pitching with favorable park factors and reasonable juice. The Skubal under is the ladder pick \u2014 it has the highest floor with a two-time Cy Young winner at home in a pitcher-friendly park, and the market hasn't moved despite his dominance. The Sale under in Game 2 offers similar value with an elite lefty against a weak offense. The Schlittler under completes the pitching-driven under trio. The Giants ML at +108 offers value against a TBD Brewers starter at Oracle Park. The Braves-Mets Game 1 under and the Joe Ryan Ks prop round out the card with solid supporting data.",
+      "slate_vibe": "NORMAL",
+      "published_at": "2026-07-29T12:23:36.830028-04:00"
+    },
+    {
+      "id": "20260729-MLB-ATL-NYM-G1-TOTAL",
+      "sport": "MLB",
+      "game": "ATL @ NYM (Game 1)",
+      "first_pitch_iso": "2026-07-29T17:10Z",
+      "pick": "Under 7.5",
+      "best_book": "DraftKings",
+      "best_odds": "+102",
+      "book_prices": {
+        "draftkings": "+102",
+        "fanduel": "+100",
+        "betmgm": "+100"
+      },
+      "book_links": {
+        "fanduel": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.595366337&selectionId=7017906",
+        "draftkings": "https://sportsbook.draftkings.com/?outcomes=0OU85673872U750_3",
+        "betmgm": "https://sports.nj.betmgm.com/en/sports?options=19847030-1547378350-2265968338&type=Single"
+      },
+      "market": "TOTAL",
+      "confidence": 3,
+      "units": 1.0,
+      "win_probability": 0.54,
+      "ladder_designation": false,
+      "data_confidence": 0.7,
+      "rules_passed": [
+        "max_juice",
+        "ladder_even_money",
+        "parlay_well_formed",
+        "confidence_units_match",
+        "data_confidence_floor",
+        "pick_type_allowed",
+        "mlb_hr_prop_check",
+        "mlb_pitcher_k_check",
+        "mlb_total_bases_check",
+        "mlb_hits_check",
+        "nba_player_prop_check",
+        "nhl_shots_check",
+        "mlb_run_line_check",
+        "mlb_under_bb_check",
+        "no_same_game_opposite"
+      ],
+      "locked": true,
+      "late_add": false,
+      "late_add_reason": "",
+      "bonus_pick": false,
+      "event_type": "",
+      "event_name": "",
+      "legs": [],
+      "headline": "Christian Scott vs AJ Smith-Shawver in a doubleheader opener at HR-suppressing Citi Field.",
+      "the_thesis": "The first game of the Mets-Braves doubleheader features Christian Scott (3.13 ERA) against AJ Smith-Shawver, who's returning from Tommy John surgery. Smith-Shawver made five rehab starts and looked sharp, but he's an unknown quantity at the MLB level after missing over a year.\n\nScott has been solid for the Mets with a 3.13 ERA, though his 10.7% walk rate is concerning. The key here is Citi Field's HR-suppressing park factor (0.91) and the uncertainty around Smith-Shawver's workload. Coming off TJ surgery, he's unlikely to go deep into the game, which means both bullpens will be involved.\n\nThe total at 7.5 with plus-money on the under is value. Both teams will be managing their pitchers carefully in a doubleheader, and Citi Field suppresses runs. This is a grind-it-out spot.",
+      "the_data": [
+        {
+          "label": "Scott ERA / BB%",
+          "value": "3.13 / 10.7%",
+          "context": "Solid but walks too many"
+        },
+        {
+          "label": "Smith-Shawver status",
+          "value": "TJ return",
+          "context": "First MLB start since June 2025"
+        },
+        {
+          "label": "Citi Field PF (HR)",
+          "value": "0.91",
+          "context": "HR-suppressing"
+        },
+        {
+          "label": "Doubleheader context",
+          "value": "Game 1 of 2",
+          "context": "Bullpen management critical"
+        },
+        {
+          "label": "Under price",
+          "value": "+102",
+          "context": "Plus-money value"
+        }
+      ],
+      "the_market": "Total at 7.5 with plus-money on the under at DraftKings (+102). The market is pricing in uncertainty around Smith-Shawver but not fully accounting for Citi Field's park factor.",
+      "weather_park": "Citi Field outdoor, HR park factor 0.91 \u2014 suppresses power. Possible rain delay noted but games expected to be played.",
+      "case_against": "Smith-Shawver is a complete unknown after TJ surgery \u2014 he could be sharp or he could get shelled. Scott's 10.7% walk rate creates traffic. The Braves' offense (4.93 R/G) is potent and could capitalize on any mistakes. Doubleheader bullpen usage is unpredictable.",
+      "what_were_betting_on": "Both starters being competent for 4-5 innings, bullpens holding, and Citi Field's park factor suppressing any damage.",
+      "scott_bot_quip": "TJ surgery return, doubleheader Game 1, Citi Field. Recipe for a 4-3 final.",
+      "ladder_note": "",
+      "date": "2026-07-29",
+      "status": "PEND",
+      "units_result": null,
+      "clv_cents": null,
+      "result_score": null,
+      "graded_at": null,
+      "slate_assessment": "15-game MLB slate with no NBA or NHL action. Two elite pitching matchups stand out \u2014 Skubal vs Baltimore and Sale vs Mets in the nightcap \u2014 plus Schlittler's dominance creates a clear under angle in Chicago. Prop markets thin but a few K unders have edge.",
+      "executive_summary": "Tarik Skubal takes the mound at Comerica Park chasing his 1,000th career strikeout, and the two-time Cy Young winner faces a Baltimore lineup that's been middling against lefties. The under 7.5 is the cleanest play on the board \u2014 Skubal's 0.92 WHIP and 31.5% K rate against a Trevor Rogers who's been serviceable but not sharp. In the nightcap at Citi Field, Chris Sale brings his 2.19 ERA against a Mets offense that ranks bottom-third in wRC+ vs LHP. The Yankees-White Sox under 7.5 rounds out the core \u2014 Cam Schlittler's 2.07 ERA and 0.93 WHIP against a Chicago lineup that's been streaky. The ladder rides with the Skubal under \u2014 best floor, elite SP, pitcher-friendly park, and the market hasn't moved off 7.5.",
+      "slate_analysis": "Today's board features 15 MLB games with no NBA or NHL in play. The pricing climate is relatively tight \u2014 most totals sit between 7.5 and 9.5, and the moneyline favorites are priced reasonably without many extreme chalk plays. The Twins-Royals game has Minnesota at -200, which exceeds our straight-bet cap, and the Tigers-Orioles game has Detroit at -188, also too steep for a moneyline play.\n\nThe top candidates that rose during my review: (1) Tigers-Orioles Under 7.5 \u2014 Skubal's elite metrics against a Rogers who's been average, pitcher-friendly Comerica despite wind blowing out; (2) Braves-Mets Game 2 Under 7.5 \u2014 Chris Sale's 2.19 ERA against a struggling Mets offense, Citi Field's HR-suppressing park factor; (3) Yankees-White Sox Under 7.5 \u2014 Schlittler's dominance (2.07 ERA, 0.93 WHIP) against Davis Martin who's been solid but not elite; (4) Giants ML vs Brewers \u2014 Logan Webb at Oracle Park against a TBD/Pannone start, pitcher-friendly environment; (5) Braves ML Game 2 \u2014 Sale on the mound against Christian Scott, but the -154 juice is borderline; (6) Chris Sale Ks Under 6.5 \u2014 Mets have a low K% against elite lefties, but the line is too tight.\n\nWhat got cut: The Tigers ML at -188 exceeds our -150 cap. The Braves ML at -154 is right at the edge but the Mets have been scrappy at home. The ARI-PIT game has data confidence at 0.45 \u2014 too thin. The TOR-WSH game features two pitchers with high walk rates (Yesavage 11.9% BB, Littell 7.1%) which creates variance concerns for unders. The LAA-HOU game has Grayson Rodriguez's 8.54 ERA creating too much variance for any confident play. The SEA-LAD game has Lauer regressing (6.69 L3 ERA) but the Dodgers' offense is too potent to back an under confidently.\n\nThe final six picks survived because they combine elite pitching with favorable park factors and reasonable juice. The Skubal under is the ladder pick \u2014 it has the highest floor with a two-time Cy Young winner at home in a pitcher-friendly park, and the market hasn't moved despite his dominance. The Sale under in Game 2 offers similar value with an elite lefty against a weak offense. The Schlittler under completes the pitching-driven under trio. The Giants ML at +108 offers value against a TBD Brewers starter at Oracle Park. The Braves-Mets Game 1 under and the Joe Ryan Ks prop round out the card with solid supporting data.",
+      "slate_vibe": "NORMAL",
+      "published_at": "2026-07-29T12:23:36.829944-04:00"
+    },
+    {
+      "id": "20260729-MLB-MIL-SF-ML",
+      "sport": "MLB",
+      "game": "MIL @ SF",
+      "first_pitch_iso": "2026-07-29T19:45Z",
+      "pick": "San Francisco Giants ML",
+      "best_book": "DraftKings",
+      "best_odds": "+108",
+      "book_prices": {
+        "draftkings": "+108",
+        "fanduel": "-104",
+        "betmgm": "+105"
+      },
+      "book_links": {
+        "fanduel": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.595237623&selectionId=29178",
+        "betmgm": "https://sports.nj.betmgm.com/en/sports?options=19829506-1545560567-2260992507&type=Single",
+        "draftkings": "https://sportsbook.draftkings.com/?outcomes=0ML85660838_1"
+      },
+      "market": "ML",
+      "confidence": 3,
+      "units": 1.0,
+      "win_probability": 0.55,
+      "ladder_designation": false,
+      "data_confidence": 0.75,
+      "rules_passed": [
+        "max_juice",
+        "ladder_even_money",
+        "parlay_well_formed",
+        "confidence_units_match",
+        "data_confidence_floor",
+        "pick_type_allowed",
+        "mlb_hr_prop_check",
+        "mlb_pitcher_k_check",
+        "mlb_total_bases_check",
+        "mlb_hits_check",
+        "nba_player_prop_check",
+        "nhl_shots_check",
+        "mlb_run_line_check",
+        "mlb_under_bb_check",
+        "no_same_game_opposite"
+      ],
+      "locked": true,
+      "late_add": false,
+      "late_add_reason": "",
+      "bonus_pick": false,
+      "event_type": "",
+      "event_name": "",
+      "legs": [],
+      "headline": "Logan Webb at Oracle Park against a TBD Brewers starter \u2014 home-field edge in a pitcher's park.",
+      "the_thesis": "Logan Webb has been solid this season with a 3.98 ERA and an excellent 0.72 HR/9. Oracle Park is one of the most pitcher-friendly venues in baseball (0.93 runs PF, 0.85 HR PF), and Webb knows how to use it. The Brewers are starting Thomas Pannone, a lefty who's been a bullpen arm pressed into spot duty.\n\nThe Giants are getting plus-money at home with their best starter on the mound against a TBD/spot starter. That's value. Webb's 19.2% K rate isn't elite, but his 6.3% walk rate and ground-ball tendencies play up at Oracle. The Brewers' offense (5.07 R/G) is potent, but they've struggled on the road against quality starters in pitcher-friendly parks.\n\nThis is a spot where the market is undervaluing home-field advantage and the pitching matchup disparity. Webb vs a spot starter at Oracle Park should be closer to -120 than +108.",
+      "the_data": [
+        {
+          "label": "Webb ERA / HR9",
+          "value": "3.98 / 0.72",
+          "context": "Solid, elite HR suppression"
+        },
+        {
+          "label": "Webb BB%",
+          "value": "6.3%",
+          "context": "Good command"
+        },
+        {
+          "label": "Oracle Park PF (runs/HR)",
+          "value": "0.93 / 0.85",
+          "context": "Most pitcher-friendly in NL"
+        },
+        {
+          "label": "Brewers starter",
+          "value": "Thomas Pannone (TBD)",
+          "context": "Spot starter, bullpen arm"
+        },
+        {
+          "label": "Giants home record",
+          "value": "Home favorite",
+          "context": "Plus-money value"
+        }
+      ],
+      "the_market": "Giants opened as slight favorites and have drifted to plus-money at DraftKings (+108). The market is overreacting to the Brewers' overall record and undervaluing the pitching matchup disparity.",
+      "weather_park": "Oracle Park outdoor, runs PF 0.93, HR PF 0.85 \u2014 most pitcher-friendly park in the NL. Webb's ground-ball tendencies play up here.",
+      "case_against": "The Brewers have the better overall team (5.07 R/G offense) and could shell Pannone's replacement if he struggles. Webb's 3.98 ERA isn't elite, and the Giants' offense (4.12 R/G) is below average. If the Brewers get to Webb early, the Giants' pen isn't reliable.",
+      "what_were_betting_on": "Webb going 6+ quality innings at home, the Brewers' spot starter struggling, and Oracle Park suppressing any Brewers power.",
+      "scott_bot_quip": "Plus-money on Webb at Oracle against a guy named Pannone. The market's asleep.",
+      "ladder_note": "",
+      "date": "2026-07-29",
+      "status": "PEND",
+      "units_result": null,
+      "clv_cents": null,
+      "result_score": null,
+      "graded_at": null,
+      "slate_assessment": "15-game MLB slate with no NBA or NHL action. Two elite pitching matchups stand out \u2014 Skubal vs Baltimore and Sale vs Mets in the nightcap \u2014 plus Schlittler's dominance creates a clear under angle in Chicago. Prop markets thin but a few K unders have edge.",
+      "executive_summary": "Tarik Skubal takes the mound at Comerica Park chasing his 1,000th career strikeout, and the two-time Cy Young winner faces a Baltimore lineup that's been middling against lefties. The under 7.5 is the cleanest play on the board \u2014 Skubal's 0.92 WHIP and 31.5% K rate against a Trevor Rogers who's been serviceable but not sharp. In the nightcap at Citi Field, Chris Sale brings his 2.19 ERA against a Mets offense that ranks bottom-third in wRC+ vs LHP. The Yankees-White Sox under 7.5 rounds out the core \u2014 Cam Schlittler's 2.07 ERA and 0.93 WHIP against a Chicago lineup that's been streaky. The ladder rides with the Skubal under \u2014 best floor, elite SP, pitcher-friendly park, and the market hasn't moved off 7.5.",
+      "slate_analysis": "Today's board features 15 MLB games with no NBA or NHL in play. The pricing climate is relatively tight \u2014 most totals sit between 7.5 and 9.5, and the moneyline favorites are priced reasonably without many extreme chalk plays. The Twins-Royals game has Minnesota at -200, which exceeds our straight-bet cap, and the Tigers-Orioles game has Detroit at -188, also too steep for a moneyline play.\n\nThe top candidates that rose during my review: (1) Tigers-Orioles Under 7.5 \u2014 Skubal's elite metrics against a Rogers who's been average, pitcher-friendly Comerica despite wind blowing out; (2) Braves-Mets Game 2 Under 7.5 \u2014 Chris Sale's 2.19 ERA against a struggling Mets offense, Citi Field's HR-suppressing park factor; (3) Yankees-White Sox Under 7.5 \u2014 Schlittler's dominance (2.07 ERA, 0.93 WHIP) against Davis Martin who's been solid but not elite; (4) Giants ML vs Brewers \u2014 Logan Webb at Oracle Park against a TBD/Pannone start, pitcher-friendly environment; (5) Braves ML Game 2 \u2014 Sale on the mound against Christian Scott, but the -154 juice is borderline; (6) Chris Sale Ks Under 6.5 \u2014 Mets have a low K% against elite lefties, but the line is too tight.\n\nWhat got cut: The Tigers ML at -188 exceeds our -150 cap. The Braves ML at -154 is right at the edge but the Mets have been scrappy at home. The ARI-PIT game has data confidence at 0.45 \u2014 too thin. The TOR-WSH game features two pitchers with high walk rates (Yesavage 11.9% BB, Littell 7.1%) which creates variance concerns for unders. The LAA-HOU game has Grayson Rodriguez's 8.54 ERA creating too much variance for any confident play. The SEA-LAD game has Lauer regressing (6.69 L3 ERA) but the Dodgers' offense is too potent to back an under confidently.\n\nThe final six picks survived because they combine elite pitching with favorable park factors and reasonable juice. The Skubal under is the ladder pick \u2014 it has the highest floor with a two-time Cy Young winner at home in a pitcher-friendly park, and the market hasn't moved despite his dominance. The Sale under in Game 2 offers similar value with an elite lefty against a weak offense. The Schlittler under completes the pitching-driven under trio. The Giants ML at +108 offers value against a TBD Brewers starter at Oracle Park. The Braves-Mets Game 1 under and the Joe Ryan Ks prop round out the card with solid supporting data.",
+      "slate_vibe": "NORMAL",
+      "published_at": "2026-07-29T12:23:36.829852-04:00"
+    },
+    {
+      "id": "20260729-MLB-NYY-CHW-TOTAL",
+      "sport": "MLB",
+      "game": "NYY @ CHW",
+      "first_pitch_iso": "2026-07-29T23:40Z",
+      "pick": "Under 7.5",
+      "best_book": "FanDuel",
+      "best_odds": "-105",
+      "book_prices": {
+        "draftkings": "-109",
+        "fanduel": "-105",
+        "betmgm": "-110"
+      },
+      "book_links": {
+        "fanduel": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.595359650&selectionId=7017906",
+        "betmgm": "https://sports.nj.betmgm.com/en/sports?options=19829511-1545561051-2260993565&type=Single",
+        "draftkings": "https://sportsbook.draftkings.com/?outcomes=0OU85660842U750_3"
+      },
+      "market": "TOTAL",
+      "confidence": 4,
+      "units": 1.5,
+      "win_probability": 0.59,
+      "ladder_designation": false,
+      "data_confidence": 0.8,
+      "rules_passed": [
+        "max_juice",
+        "ladder_even_money",
+        "parlay_well_formed",
+        "confidence_units_match",
+        "data_confidence_floor",
+        "pick_type_allowed",
+        "mlb_hr_prop_check",
+        "mlb_pitcher_k_check",
+        "mlb_total_bases_check",
+        "mlb_hits_check",
+        "nba_player_prop_check",
+        "nhl_shots_check",
+        "mlb_run_line_check",
+        "mlb_under_bb_check(soft)",
+        "no_same_game_opposite"
+      ],
+      "locked": true,
+      "late_add": false,
+      "late_add_reason": "",
+      "bonus_pick": false,
+      "event_type": "",
+      "event_name": "",
+      "legs": [],
+      "headline": "Cam Schlittler's 2.07 ERA and 0.93 WHIP against a White Sox lineup missing its best bats.",
+      "the_thesis": "Cam Schlittler has been one of the best pitchers in baseball this season with a 2.07 ERA, 0.93 WHIP, and a 30.5% K rate. The 25-year-old has emerged as the Yankees' ace, and his stuff plays up against any lineup. The White Sox have been streaky offensively, and their lineup lacks the consistent power to threaten Schlittler.\n\nDavis Martin on the other side has been solid with a 3.49 ERA and a remarkably low 0.49 HR/9. He's not going to dominate the Yankees, but he's been good enough to keep games close. The Yankees have been struggling offensively with Aaron Judge and Giancarlo Stanton out \u2014 their power has dried up and strikeouts have climbed.\n\nGuaranteed Rate Field has a 1.08 HR park factor, which is the main concern here. But with both pitchers showing excellent HR suppression (Schlittler 0.83 HR/9, Martin 0.49 HR/9), the park factor is less relevant than usual.",
+      "the_data": [
+        {
+          "label": "Schlittler ERA / WHIP",
+          "value": "2.07 / 0.93",
+          "context": "2nd in AL ERA"
+        },
+        {
+          "label": "Schlittler K% / BB%",
+          "value": "30.5% / 4.9%",
+          "context": "Elite command"
+        },
+        {
+          "label": "Martin ERA / HR9",
+          "value": "3.49 / 0.49",
+          "context": "Solid, elite HR suppression"
+        },
+        {
+          "label": "Rate Field PF (HR)",
+          "value": "1.08",
+          "context": "HR-boosting, but SPs mitigate"
+        },
+        {
+          "label": "Yankees injuries",
+          "value": "Judge, Stanton out",
+          "context": "Power dried up"
+        }
+      ],
+      "the_market": "Total opened at 7.5 and hasn't moved. Best price at FanDuel -105 \u2014 excellent juice for an under with two solid starters.",
+      "weather_park": "Guaranteed Rate Field outdoor, HR park factor 1.08. Both SPs have elite HR suppression to offset.",
+      "case_against": "The park factor (1.08 HR) is real \u2014 one mistake from either pitcher could leave the yard. The Yankees' lineup, even depleted, has professional hitters who can string together rallies. Martin's 1.27 WHIP suggests he puts runners on, which could bite him against a patient Yankees lineup.",
+      "what_were_betting_on": "Schlittler dominating for 7+ innings, Martin being competent, and both pitchers' HR suppression overcoming the park factor.",
+      "scott_bot_quip": "Schlittler's WHIP is lower than most pitchers' ERA. The White Sox aren't solving this.",
+      "ladder_note": "",
+      "date": "2026-07-29",
+      "status": "PEND",
+      "units_result": null,
+      "clv_cents": null,
+      "result_score": null,
+      "graded_at": null,
+      "slate_assessment": "15-game MLB slate with no NBA or NHL action. Two elite pitching matchups stand out \u2014 Skubal vs Baltimore and Sale vs Mets in the nightcap \u2014 plus Schlittler's dominance creates a clear under angle in Chicago. Prop markets thin but a few K unders have edge.",
+      "executive_summary": "Tarik Skubal takes the mound at Comerica Park chasing his 1,000th career strikeout, and the two-time Cy Young winner faces a Baltimore lineup that's been middling against lefties. The under 7.5 is the cleanest play on the board \u2014 Skubal's 0.92 WHIP and 31.5% K rate against a Trevor Rogers who's been serviceable but not sharp. In the nightcap at Citi Field, Chris Sale brings his 2.19 ERA against a Mets offense that ranks bottom-third in wRC+ vs LHP. The Yankees-White Sox under 7.5 rounds out the core \u2014 Cam Schlittler's 2.07 ERA and 0.93 WHIP against a Chicago lineup that's been streaky. The ladder rides with the Skubal under \u2014 best floor, elite SP, pitcher-friendly park, and the market hasn't moved off 7.5.",
+      "slate_analysis": "Today's board features 15 MLB games with no NBA or NHL in play. The pricing climate is relatively tight \u2014 most totals sit between 7.5 and 9.5, and the moneyline favorites are priced reasonably without many extreme chalk plays. The Twins-Royals game has Minnesota at -200, which exceeds our straight-bet cap, and the Tigers-Orioles game has Detroit at -188, also too steep for a moneyline play.\n\nThe top candidates that rose during my review: (1) Tigers-Orioles Under 7.5 \u2014 Skubal's elite metrics against a Rogers who's been average, pitcher-friendly Comerica despite wind blowing out; (2) Braves-Mets Game 2 Under 7.5 \u2014 Chris Sale's 2.19 ERA against a struggling Mets offense, Citi Field's HR-suppressing park factor; (3) Yankees-White Sox Under 7.5 \u2014 Schlittler's dominance (2.07 ERA, 0.93 WHIP) against Davis Martin who's been solid but not elite; (4) Giants ML vs Brewers \u2014 Logan Webb at Oracle Park against a TBD/Pannone start, pitcher-friendly environment; (5) Braves ML Game 2 \u2014 Sale on the mound against Christian Scott, but the -154 juice is borderline; (6) Chris Sale Ks Under 6.5 \u2014 Mets have a low K% against elite lefties, but the line is too tight.\n\nWhat got cut: The Tigers ML at -188 exceeds our -150 cap. The Braves ML at -154 is right at the edge but the Mets have been scrappy at home. The ARI-PIT game has data confidence at 0.45 \u2014 too thin. The TOR-WSH game features two pitchers with high walk rates (Yesavage 11.9% BB, Littell 7.1%) which creates variance concerns for unders. The LAA-HOU game has Grayson Rodriguez's 8.54 ERA creating too much variance for any confident play. The SEA-LAD game has Lauer regressing (6.69 L3 ERA) but the Dodgers' offense is too potent to back an under confidently.\n\nThe final six picks survived because they combine elite pitching with favorable park factors and reasonable juice. The Skubal under is the ladder pick \u2014 it has the highest floor with a two-time Cy Young winner at home in a pitcher-friendly park, and the market hasn't moved despite his dominance. The Sale under in Game 2 offers similar value with an elite lefty against a weak offense. The Schlittler under completes the pitching-driven under trio. The Giants ML at +108 offers value against a TBD Brewers starter at Oracle Park. The Braves-Mets Game 1 under and the Joe Ryan Ks prop round out the card with solid supporting data.",
+      "slate_vibe": "NORMAL",
+      "published_at": "2026-07-29T12:23:36.829733-04:00"
+    },
+    {
+      "id": "20260729-MLB-ATL-NYM-G2-TOTAL",
+      "sport": "MLB",
+      "game": "ATL @ NYM (Game 2)",
+      "first_pitch_iso": "2026-07-29T17:10Z",
+      "pick": "Under 7.5",
+      "best_book": "BetMGM",
+      "best_odds": "-120",
+      "book_prices": {
+        "draftkings": "-123",
+        "fanduel": "-122",
+        "betmgm": "-120"
+      },
+      "book_links": {
+        "fanduel": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.595366337&selectionId=7017906",
+        "draftkings": "https://sportsbook.draftkings.com/?outcomes=0OU85673872U750_3",
+        "betmgm": "https://sports.nj.betmgm.com/en/sports?options=19847030-1547378350-2265968338&type=Single"
+      },
+      "market": "TOTAL",
+      "confidence": 4,
+      "units": 1.5,
+      "win_probability": 0.6,
+      "ladder_designation": false,
+      "data_confidence": 0.8,
+      "rules_passed": [
+        "max_juice",
+        "ladder_even_money",
+        "parlay_well_formed",
+        "confidence_units_match",
+        "data_confidence_floor",
+        "pick_type_allowed",
+        "mlb_hr_prop_check",
+        "mlb_pitcher_k_check",
+        "mlb_total_bases_check",
+        "mlb_hits_check",
+        "nba_player_prop_check",
+        "nhl_shots_check",
+        "mlb_run_line_check",
+        "mlb_under_bb_check(soft)",
+        "no_same_game_opposite"
+      ],
+      "locked": true,
+      "late_add": false,
+      "late_add_reason": "",
+      "bonus_pick": false,
+      "event_type": "",
+      "event_name": "",
+      "legs": [],
+      "headline": "Chris Sale's 2.19 ERA against a Mets offense that's been bottom-third in baseball.",
+      "the_thesis": "Chris Sale is having another Cy Young-caliber season with a 2.19 ERA, 1.05 WHIP, and a 29.7% K rate. He's been dominant since returning from his 2025 rib injury, and the Mets' offense has been one of the worst in baseball this season. The Mets are 45-62 and their lineup has struggled mightily against elite left-handed pitching.\n\nChristian Scott on the other side has been solid with a 3.13 ERA, but his 10.7% walk rate creates some traffic concerns. However, the Braves' offense (4.93 R/G) isn't elite, and Citi Field's HR-suppressing park factor (0.91) helps both pitchers. The total dropped from 8.5 to 7.5 since open \u2014 the market is telling us this is a low-scoring game.\n\nThe line movement is the key signal here. A full run drop on the total indicates sharp money on the under. Sale's dominance plus a weak Mets lineup plus a pitcher-friendly park equals a clean under spot.",
+      "the_data": [
+        {
+          "label": "Sale ERA / WHIP (2026)",
+          "value": "2.19 / 1.05",
+          "context": "Cy Young-caliber"
+        },
+        {
+          "label": "Sale K% / BB%",
+          "value": "29.7% / 5.8%",
+          "context": "Elite command"
+        },
+        {
+          "label": "Scott ERA / BB%",
+          "value": "3.13 / 10.7%",
+          "context": "Solid but walks too many"
+        },
+        {
+          "label": "Citi Field PF (HR)",
+          "value": "0.91",
+          "context": "HR-suppressing"
+        },
+        {
+          "label": "Mets record",
+          "value": "45-62",
+          "context": "Bottom-third offense"
+        },
+        {
+          "label": "Total movement",
+          "value": "8.5 \u2192 7.5",
+          "context": "Full run drop since open"
+        }
+      ],
+      "the_market": "Total opened at 8.5 and has dropped to 7.5 \u2014 a full run of movement toward the under. Sharp money is clearly on this side. Best price at BetMGM -120.",
+      "weather_park": "Citi Field outdoor, HR park factor 0.91 \u2014 suppresses power. Neutral weather conditions expected.",
+      "case_against": "Scott's 10.7% walk rate could create traffic that the Braves' lineup capitalizes on. The Braves have a potent offense (4.93 R/G) that could break through against a young pitcher. Doubleheader fatigue could affect bullpen availability if either starter exits early.",
+      "what_were_betting_on": "Sale going 7+ innings with minimal damage, Scott being competent enough to keep the Braves in check, and Citi Field's park factor suppressing any mistakes.",
+      "scott_bot_quip": "Sale's ERA is lower than the Mets' playoff odds. Under.",
+      "ladder_note": "",
+      "date": "2026-07-29",
+      "status": "PEND",
+      "units_result": null,
+      "clv_cents": null,
+      "result_score": null,
+      "graded_at": null,
+      "slate_assessment": "15-game MLB slate with no NBA or NHL action. Two elite pitching matchups stand out \u2014 Skubal vs Baltimore and Sale vs Mets in the nightcap \u2014 plus Schlittler's dominance creates a clear under angle in Chicago. Prop markets thin but a few K unders have edge.",
+      "executive_summary": "Tarik Skubal takes the mound at Comerica Park chasing his 1,000th career strikeout, and the two-time Cy Young winner faces a Baltimore lineup that's been middling against lefties. The under 7.5 is the cleanest play on the board \u2014 Skubal's 0.92 WHIP and 31.5% K rate against a Trevor Rogers who's been serviceable but not sharp. In the nightcap at Citi Field, Chris Sale brings his 2.19 ERA against a Mets offense that ranks bottom-third in wRC+ vs LHP. The Yankees-White Sox under 7.5 rounds out the core \u2014 Cam Schlittler's 2.07 ERA and 0.93 WHIP against a Chicago lineup that's been streaky. The ladder rides with the Skubal under \u2014 best floor, elite SP, pitcher-friendly park, and the market hasn't moved off 7.5.",
+      "slate_analysis": "Today's board features 15 MLB games with no NBA or NHL in play. The pricing climate is relatively tight \u2014 most totals sit between 7.5 and 9.5, and the moneyline favorites are priced reasonably without many extreme chalk plays. The Twins-Royals game has Minnesota at -200, which exceeds our straight-bet cap, and the Tigers-Orioles game has Detroit at -188, also too steep for a moneyline play.\n\nThe top candidates that rose during my review: (1) Tigers-Orioles Under 7.5 \u2014 Skubal's elite metrics against a Rogers who's been average, pitcher-friendly Comerica despite wind blowing out; (2) Braves-Mets Game 2 Under 7.5 \u2014 Chris Sale's 2.19 ERA against a struggling Mets offense, Citi Field's HR-suppressing park factor; (3) Yankees-White Sox Under 7.5 \u2014 Schlittler's dominance (2.07 ERA, 0.93 WHIP) against Davis Martin who's been solid but not elite; (4) Giants ML vs Brewers \u2014 Logan Webb at Oracle Park against a TBD/Pannone start, pitcher-friendly environment; (5) Braves ML Game 2 \u2014 Sale on the mound against Christian Scott, but the -154 juice is borderline; (6) Chris Sale Ks Under 6.5 \u2014 Mets have a low K% against elite lefties, but the line is too tight.\n\nWhat got cut: The Tigers ML at -188 exceeds our -150 cap. The Braves ML at -154 is right at the edge but the Mets have been scrappy at home. The ARI-PIT game has data confidence at 0.45 \u2014 too thin. The TOR-WSH game features two pitchers with high walk rates (Yesavage 11.9% BB, Littell 7.1%) which creates variance concerns for unders. The LAA-HOU game has Grayson Rodriguez's 8.54 ERA creating too much variance for any confident play. The SEA-LAD game has Lauer regressing (6.69 L3 ERA) but the Dodgers' offense is too potent to back an under confidently.\n\nThe final six picks survived because they combine elite pitching with favorable park factors and reasonable juice. The Skubal under is the ladder pick \u2014 it has the highest floor with a two-time Cy Young winner at home in a pitcher-friendly park, and the market hasn't moved despite his dominance. The Sale under in Game 2 offers similar value with an elite lefty against a weak offense. The Schlittler under completes the pitching-driven under trio. The Giants ML at +108 offers value against a TBD Brewers starter at Oracle Park. The Braves-Mets Game 1 under and the Joe Ryan Ks prop round out the card with solid supporting data.",
+      "slate_vibe": "NORMAL",
+      "published_at": "2026-07-29T12:23:36.829623-04:00"
+    },
+    {
+      "id": "20260729-MLB-BAL-DET-TOTAL",
+      "sport": "MLB",
+      "game": "BAL @ DET",
+      "first_pitch_iso": "2026-07-29T17:10Z",
+      "pick": "Under 7.5",
+      "best_book": "FanDuel",
+      "best_odds": "-108",
+      "book_prices": {
+        "draftkings": "-111",
+        "fanduel": "-108",
+        "betmgm": "-110"
+      },
+      "book_links": {
+        "fanduel": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.595358415&selectionId=7017906",
+        "betmgm": "https://sports.nj.betmgm.com/en/sports?options=19829504-1545560394-2260992125&type=Single",
+        "draftkings": "https://sportsbook.draftkings.com/?outcomes=0OU85660836U750_3"
+      },
+      "market": "TOTAL",
+      "confidence": 5,
+      "units": 2.0,
+      "win_probability": 0.62,
+      "ladder_designation": true,
+      "data_confidence": 0.85,
+      "rules_passed": [
+        "max_juice",
+        "ladder_even_money",
+        "parlay_well_formed",
+        "confidence_units_match",
+        "data_confidence_floor",
+        "pick_type_allowed",
+        "mlb_hr_prop_check",
+        "mlb_pitcher_k_check",
+        "mlb_total_bases_check",
+        "mlb_hits_check",
+        "nba_player_prop_check",
+        "nhl_shots_check",
+        "mlb_run_line_check",
+        "mlb_under_bb_check(soft)",
+        "no_same_game_opposite"
+      ],
+      "locked": true,
+      "late_add": false,
+      "late_add_reason": "",
+      "bonus_pick": false,
+      "event_type": "",
+      "event_name": "",
+      "legs": [],
+      "headline": "Two-time Cy Young winner Skubal at home in a pitcher-friendly park against a middling Baltimore lineup.",
+      "the_thesis": "Tarik Skubal is the best pitcher in baseball right now, and he's pitching at home chasing his 1,000th career strikeout. His 2.70 ERA and 0.92 WHIP are elite, but the underlying metrics are even better \u2014 a 31.5% K rate paired with just a 3.7% walk rate means he's not giving away free baserunners. Against a Baltimore offense that's been average against lefties this season, Skubal should cruise.\n\nTrevor Rogers on the other side has been serviceable with a 4.17 ERA, but his 7.4% walk rate creates traffic. The key here is that Comerica Park suppresses runs (0.96 PF) despite the wind blowing out today. The wind boost to HR is real (~20%), but Skubal's 1.0 HR/9 and Rogers' 0.87 HR/9 suggest neither pitcher is particularly homer-prone. The total opened at 7.5 and hasn't moved \u2014 the market agrees this is a low-scoring affair.\n\nThe Tigers' offense (4.30 R/G) and Orioles' offense (4.55 R/G) are both below league average. With Skubal likely going 7+ innings and limiting damage, we need Rogers to be merely competent for this under to cash. He's been exactly that \u2014 not dominant, but not a blowup risk either.",
+      "the_data": [
+        {
+          "label": "Skubal ERA / WHIP (2026)",
+          "value": "2.70 / 0.92",
+          "context": "Elite, top-3 in AL"
+        },
+        {
+          "label": "Skubal K% / BB%",
+          "value": "31.5% / 3.7%",
+          "context": "Best K-BB differential in MLB"
+        },
+        {
+          "label": "Rogers ERA / WHIP",
+          "value": "4.17 / 1.27",
+          "context": "Serviceable, not dominant"
+        },
+        {
+          "label": "Comerica Park PF (runs)",
+          "value": "0.96",
+          "context": "Pitcher-friendly"
+        },
+        {
+          "label": "DET R/G vs BAL R/G",
+          "value": "4.30 vs 4.55",
+          "context": "Both below league average"
+        },
+        {
+          "label": "Wind impact",
+          "value": "+20% HR boost",
+          "context": "Offset by low HR/9 from both SPs"
+        }
+      ],
+      "the_market": "Total opened at 7.5 and sits at 7.5 across all three books. No movement despite Skubal's dominance \u2014 the market is pricing in his excellence but not overreacting. Best price at FanDuel -108.",
+      "weather_park": "Comerica Park 73\u00b0F, wind 16mph blowing out to RF. HR boost ~20%, but park factor (0.96 runs) and both SPs' low HR/9 mitigate the risk.",
+      "case_against": "The wind blowing out at 16mph is real \u2014 if either pitcher hangs a mistake, it could leave the yard. Rogers' 7.4% walk rate could create traffic that Skubal's dominance can't fully suppress. If Skubal exits early (trade deadline uncertainty?), the Tigers' pen faces a decent Baltimore lineup.",
+      "what_were_betting_on": "Skubal going 7+ innings with 10+ Ks, Rogers being competent enough to keep it close, and the park/weather factors not overwhelming elite pitching.",
+      "scott_bot_quip": "Skubal's chasing 1,000 Ks. Baltimore's lineup is about to help him get there.",
+      "ladder_note": "Best floor on the board \u2014 two-time Cy Young winner at home, pitcher-friendly park, market hasn't moved. This is the highest-confidence play of the day.",
+      "date": "2026-07-29",
+      "status": "PEND",
+      "units_result": null,
+      "clv_cents": null,
+      "result_score": null,
+      "graded_at": null,
+      "slate_assessment": "15-game MLB slate with no NBA or NHL action. Two elite pitching matchups stand out \u2014 Skubal vs Baltimore and Sale vs Mets in the nightcap \u2014 plus Schlittler's dominance creates a clear under angle in Chicago. Prop markets thin but a few K unders have edge.",
+      "executive_summary": "Tarik Skubal takes the mound at Comerica Park chasing his 1,000th career strikeout, and the two-time Cy Young winner faces a Baltimore lineup that's been middling against lefties. The under 7.5 is the cleanest play on the board \u2014 Skubal's 0.92 WHIP and 31.5% K rate against a Trevor Rogers who's been serviceable but not sharp. In the nightcap at Citi Field, Chris Sale brings his 2.19 ERA against a Mets offense that ranks bottom-third in wRC+ vs LHP. The Yankees-White Sox under 7.5 rounds out the core \u2014 Cam Schlittler's 2.07 ERA and 0.93 WHIP against a Chicago lineup that's been streaky. The ladder rides with the Skubal under \u2014 best floor, elite SP, pitcher-friendly park, and the market hasn't moved off 7.5.",
+      "slate_analysis": "Today's board features 15 MLB games with no NBA or NHL in play. The pricing climate is relatively tight \u2014 most totals sit between 7.5 and 9.5, and the moneyline favorites are priced reasonably without many extreme chalk plays. The Twins-Royals game has Minnesota at -200, which exceeds our straight-bet cap, and the Tigers-Orioles game has Detroit at -188, also too steep for a moneyline play.\n\nThe top candidates that rose during my review: (1) Tigers-Orioles Under 7.5 \u2014 Skubal's elite metrics against a Rogers who's been average, pitcher-friendly Comerica despite wind blowing out; (2) Braves-Mets Game 2 Under 7.5 \u2014 Chris Sale's 2.19 ERA against a struggling Mets offense, Citi Field's HR-suppressing park factor; (3) Yankees-White Sox Under 7.5 \u2014 Schlittler's dominance (2.07 ERA, 0.93 WHIP) against Davis Martin who's been solid but not elite; (4) Giants ML vs Brewers \u2014 Logan Webb at Oracle Park against a TBD/Pannone start, pitcher-friendly environment; (5) Braves ML Game 2 \u2014 Sale on the mound against Christian Scott, but the -154 juice is borderline; (6) Chris Sale Ks Under 6.5 \u2014 Mets have a low K% against elite lefties, but the line is too tight.\n\nWhat got cut: The Tigers ML at -188 exceeds our -150 cap. The Braves ML at -154 is right at the edge but the Mets have been scrappy at home. The ARI-PIT game has data confidence at 0.45 \u2014 too thin. The TOR-WSH game features two pitchers with high walk rates (Yesavage 11.9% BB, Littell 7.1%) which creates variance concerns for unders. The LAA-HOU game has Grayson Rodriguez's 8.54 ERA creating too much variance for any confident play. The SEA-LAD game has Lauer regressing (6.69 L3 ERA) but the Dodgers' offense is too potent to back an under confidently.\n\nThe final six picks survived because they combine elite pitching with favorable park factors and reasonable juice. The Skubal under is the ladder pick \u2014 it has the highest floor with a two-time Cy Young winner at home in a pitcher-friendly park, and the market hasn't moved despite his dominance. The Sale under in Game 2 offers similar value with an elite lefty against a weak offense. The Schlittler under completes the pitching-driven under trio. The Giants ML at +108 offers value against a TBD Brewers starter at Oracle Park. The Braves-Mets Game 1 under and the Joe Ryan Ks prop round out the card with solid supporting data.",
+      "slate_vibe": "NORMAL",
+      "published_at": "2026-07-29T12:23:36.829476-04:00"
+    },
     {
       "id": "20260728-MLB-SEA-LAD-PROP-SHOHEIOHTANI",
       "sport": "MLB",
