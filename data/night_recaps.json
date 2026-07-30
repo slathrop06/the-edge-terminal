@@ -376,5 +376,12 @@
     "units_pl": -0.03,
     "night_summary": "3-2 night, -0.03u \u2014 essentially a wash, but the stories matter. Ohtani went off for 7 total bases against Luis Castillo in a back-and-forth SEA/LAD game, cashing the TB over 1.5 at +100 with room to spare. The two unders were clean: KC/MIN finished 3-2 and PHI/MIA ended 1-0, both well inside their numbers. The ladder pick \u2014 Padres -1.5 \u2014 is the one that stings: San Diego won 8-7, but Michael King surrendered a 4-run third (back-to-back HRs from Castro and Moniak) that put Colorado ahead early and the Padres never got the cushion back; variance, not a bad read. The ATL/NYM under is a DATA loss \u2014 the game was postponed due to heavy rain and rescheduled as the nightcap of a July 29 doubleheader, putting Sale into a fatigued, torched-bullpen environment the model never priced; the Mets won 8-1 and we're flagging postponement/doubleheader context as a pre-lock check going forward. Ladder resets at 0 of 10 \u2014 back to the bottom, climbing again.",
     "generated_at": "2026-07-29T02:05:36.213834-04:00"
+  },
+  "2026-07-29": {
+    "date": "2026-07-29",
+    "record": "4-2-0",
+    "units_pl": 2.5853,
+    "night_summary": "4-2 night, +2.59u. The headliner was SF Giants ML \u2014 Logan Webb and the offense dismantled Milwaukee 16-3, blowing it open with a seven-run sixth inning off the Brewers' bullpen that turned a 3-2 game into a laugher. Joe Ryan punched out just 4 in KC @ MIN and the Ks under cashed easy, and the Mets swept both ends of the ATL doubleheader 3-2 in each game, cashing both unders without a sweat. The NYY @ CHW under was variance \u2014 Schlittler was masterful through 6.1 innings before the bullpen and extras ran the total to 11. The ladder pick in BAL @ DET was the gut-punch of the night: Skubal was one out from seven scoreless, but Baltimore turned a 7-0 deficit into a 10-9 win in 12 innings, with five runs in the 7th and the walk-off in the 12th burying a clean read. Two straight variance losses on the ladder \u2014 streak resets to 0, still hunting that first completed climb.",
+    "generated_at": "2026-07-30T01:51:00.271053-04:00"
   }
 }

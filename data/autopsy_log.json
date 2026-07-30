@@ -1,5 +1,31 @@
 [
   {
+    "id": "20260729-MLB-BAL-DET-TOTAL",
+    "date": "2026-07-29",
+    "pick": "Under 7.5",
+    "game": "BAL @ DET",
+    "odds": "-108",
+    "result_score": "BAL 10 \u00b7 DET 9",
+    "classification": "VARIANCE",
+    "post_mortem": "The under was very much alive through six innings \u2014 Skubal was cruising, DET led 7-0, and Baltimore had been held scoreless. Then the 7th inning collapsed the ticket: Skubal allowed a run, was pulled, and Kyle Finnegan entered and immediately surrendered a 4-run explosion (BAL went from 1-7 to 5-7 in the same inning), with Jackson Holliday delivering the key 2-RBI hit. Baltimore tied it 7-7 in the 8th, then the game went to extras \u2014 BAL scored in the 11th to go up 8-7, and the final 10-9 was sealed with late-inning runs on both sides. The under (7.5) was alive and winning through 6+ innings of a 7-0 game; a bullpen meltdown in the 7th and extra innings killed it.",
+    "candidate_rule": null,
+    "sample_size_warning": "N=1, insufficient to establish rule \u2014 this is a clean VARIANCE loss driven by a specific 7th-inning bullpen implosion and extra innings; no systematic flaw to correct.",
+    "analyzed_at": "2026-07-30T01:50:40.239036-04:00"
+  },
+  {
+    "id": "20260729-MLB-NYY-CHW-TOTAL",
+    "date": "2026-07-29",
+    "pick": "Under 7.5",
+    "game": "NYY @ CHW",
+    "odds": "-105",
+    "result_score": "NYY 5 \u00b7 CHW 6",
+    "classification": "VARIANCE",
+    "post_mortem": "The under was alive and dominant through 6+ innings \u2014 Schlittler was masterful (6.1 IP, 1 ER, 8 K, 93 pitches) and the Yankees had jumped to a 4-0 lead in the 1st inning on a Spencer Jones 3-run HR and a Goldschmidt RBI single. The White Sox chipped back via Murakami and Antonacci home runs to tie it, and the game pushed into extra innings (final: NYY 5, CHW 6 in 12). The under died in the bullpen \u2014 Yarbrough took the loss, and the walk-off run in extras pushed the total to 11, busting the 7.5 line on a game that was a 4-1 pitcher's duel through 7.",
+    "candidate_rule": null,
+    "sample_size_warning": "N=1, insufficient to establish rule \u2014 this was a clean VARIANCE loss driven by extra-inning bullpen runs, not a thesis or data failure.",
+    "analyzed_at": "2026-07-30T01:50:22.053054-04:00"
+  },
+  {
     "id": "20260728-MLB-ATL-NYM-TOTAL",
     "date": "2026-07-28",
     "pick": "Under 7.5",

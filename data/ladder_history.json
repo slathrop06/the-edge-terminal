@@ -5,6 +5,14 @@
   "target": 10,
   "history": [
     {
+      "date": "2026-07-29",
+      "pick_id": "20260729-MLB-BAL-DET-TOTAL",
+      "pick": "Under 7.5",
+      "game": "BAL @ DET",
+      "status": "LOSS",
+      "after_streak": 0
+    },
+    {
       "date": "2026-07-28",
       "pick_id": "20260728-MLB-COL-SD-SPREAD",
       "pick": "Padres -1.5",
@@ -445,5 +453,5 @@
       "after_streak": 1
     }
   ],
-  "updated_at": "2026-07-29T02:04:29.015340-04:00"
+  "updated_at": "2026-07-30T01:50:22.081145-04:00"
 }
