@@ -1,485 +1,9 @@
 {
-  "generated_at": "2026-07-30T18:01:05.738682-04:00",
-  "today": "2026-07-30",
+  "generated_at": "2026-07-31T02:20:20.208833-04:00",
+  "today": "2026-07-31",
   "system_paused": false,
   "pause_reason": "",
-  "today_picks": [
-    {
-      "id": "20260730-MLB-NYY-CHW-PROP-SEANBURKE",
-      "sport": "MLB",
-      "game": "NYY @ CHW",
-      "first_pitch_iso": "2026-07-30T18:10Z",
-      "pick": "Sean Burke Ks Under 4.5",
-      "best_book": "FanDuel",
-      "best_odds": "+128",
-      "book_prices": {
-        "draftkings": "-164",
-        "fanduel": "+128",
-        "betmgm": "-160"
-      },
-      "book_links": {
-        "fanduel": "https://sportsbook.fanduel.com/baseball/mlb/new-york-yankees-%28r-weathers%29-%40-chicago-white-sox-%28s-burke%29-35879426",
-        "betmgm": "https://sports.nj.betmgm.com/en/sports/events/new-york-yankees-at-chicago-white-sox-19829069",
-        "draftkings": "https://sportsbook.draftkings.com/event/34453955"
-      },
-      "market": "PROP",
-      "confidence": 3,
-      "units": 1.0,
-      "win_probability": 0.55,
-      "ladder_designation": false,
-      "data_confidence": 0.8,
-      "rules_passed": [
-        "max_juice",
-        "ladder_even_money",
-        "parlay_well_formed",
-        "confidence_units_match",
-        "data_confidence_floor",
-        "pick_type_allowed",
-        "mlb_hr_prop_check",
-        "mlb_pitcher_k_check(soft)",
-        "mlb_total_bases_check",
-        "mlb_hits_check",
-        "nba_player_prop_check",
-        "nhl_shots_check",
-        "mlb_run_line_check",
-        "mlb_under_bb_check",
-        "no_same_game_opposite"
-      ],
-      "locked": true,
-      "late_add": false,
-      "late_add_reason": "",
-      "bonus_pick": false,
-      "event_type": "",
-      "event_name": "",
-      "legs": [],
-      "headline": "Burke's K rate is solid but not elite, and the Yankees don't whiff at an extreme rate.",
-      "the_thesis": "Sean Burke has a 27.0 K% this season \u2014 that's good, but it's not in the elite tier of strikeout pitchers. Over his last seven starts, he's averaged about 5.7 Ks per game, but that includes some outlier performances. His season average is closer to 5.0 Ks per start.\n\nThe Yankees have a league-average strikeout rate against right-handed pitching. They're not a team that whiffs at an extreme rate, and Burke's approach has been more about pounding the zone and inducing weak contact than racking up strikeouts.\n\nAt +128, the under 4.5 Ks has value. Burke needs to strike out 5+ to beat this line, and given his approach and the Yankees' contact-oriented lineup, I have him going under about 55% of the time.",
-      "the_data": [
-        {
-          "label": "Burke K%",
-          "value": "27.0%",
-          "context": "Good, not elite"
-        },
-        {
-          "label": "Burke Ks/start (season)",
-          "value": "~5.0",
-          "context": "Hovers around the line"
-        },
-        {
-          "label": "Burke BB% (L7)",
-          "value": "1.4%",
-          "context": "Elite command, fewer deep counts"
-        },
-        {
-          "label": "Yankees K% vs RHP",
-          "value": "~22%",
-          "context": "League average"
-        },
-        {
-          "label": "Line",
-          "value": "4.5",
-          "context": "Needs 5+ to go over"
-        }
-      ],
-      "the_market": "FanDuel has the best under price at +128. DraftKings and BetMGM are heavily juiced to the over.",
-      "weather_park": "N/A \u2014 prop market.",
-      "case_against": "Burke has struck out 5+ in several recent starts, and his stuff is good enough to rack up Ks against any lineup. If he's feeling it, he could easily hit 6-7.",
-      "what_were_betting_on": "Burke's zone-pounding approach leading to weak contact rather than strikeouts, and the Yankees putting the ball in play.",
-      "scott_bot_quip": "Burke's been dealing, but he's not a K artist. The Yankees make contact. Under 4.5 at plus money.",
-      "ladder_note": "",
-      "date": "2026-07-30",
-      "status": "PEND",
-      "units_result": null,
-      "clv_cents": null,
-      "result_score": null,
-      "graded_at": null,
-      "slate_assessment": "Nine-game MLB slate with no NBA or NHL action. Sean Burke's hot streak against the Yankees and the Mets-Marlins pitching duel at Citi Field headline the board, while prop markets offer clean K under spots and total bases plays.",
-      "executive_summary": "Nine MLB games today, no basketball or hockey. The sharpest edge on the board is Sean Burke and the White Sox at home against the Yankees \u2014 Burke has a 1.61 ERA over his last seven starts with 57 strikeouts and just seven walks, and he's facing a New York lineup that's been inconsistent on the road. The Mets-Marlins under at 7 is the cleanest total on the slate: two quality arms, a pitcher-friendly park, and soft offenses. The ladder rides with the White Sox moneyline at -110 \u2014 best floor, best price, best recent form.",
-      "slate_analysis": "Today's board features nine MLB games spread across afternoon and evening windows, with no NBA or NHL to supplement. The pricing climate is tight \u2014 most moneylines sit between -115 and -160, and totals cluster in the 7.5-9.5 range. The prop markets are active, particularly pitcher strikeouts and batter total bases, giving us multiple angles to attack.\n\nThe top candidates that earned a hard look: (1) White Sox ML vs Yankees \u2014 Sean Burke's recent run is elite, and the Yankees are sending Ryan Weathers, who has a 1.42 HR/9 and has been hittable; (2) Mets-Marlins Under 7 \u2014 Nolan McLean and Eury P\u00e9rez are both quality arms, Citi Field suppresses runs, and both offenses rank in the bottom half of MLB; (3) Red Sox -1.5 at Oakland \u2014 Sonny Gray (2.78 ERA, 12-2) against Mason Barnett (4.74 ERA, 24.2 IP) is a massive mismatch; (4) Padres ML vs Giants \u2014 Petco Park is pitcher-friendly and San Diego is the better team; (5) Dodgers-Mariners Under 8.5 \u2014 Roki Sasaki and Bryan Woo are both capable of eating innings, and Dodger Stadium plays neutral; (6) Sean Burke Ks Under 4.5 \u2014 Burke's K% is only 27%, and the Yankees don't strike out at an elite rate.\n\nWhat got cut: The Twins-Royals game has a data confidence of 0.45 \u2014 too thin to trust. The Cubs-Cardinals total looked interesting, but Assad's 1.66 HR/9 and Pallante's 0.80 HR/9 create variance in opposite directions, and neither SP has a clear edge. The Braves-Nationals game has Holmes walking 10.2% of batters \u2014 too many free passes to trust an under, and the over doesn't have enough edge. The Pirates-Reds game at GABP is a coin flip with two shaky starters and a hitter-friendly park \u2014 no edge either way. The Padres ML at -154 is too juicy for a straight bet when we don't have the Giants' starter confirmed in the pack.\n\nThe final six: White Sox ML (Burke's form is undeniable), Mets-Marlins Under 7 (two quality arms, pitcher's park), Red Sox -1.5 (Sonny Gray mismatch), Dodgers-Mariners Under 8.5 (two capable starters, neutral park), Sean Burke Ks Under 4.5 (low K% pitcher, Yankees don't whiff), and Shohei Ohtani Total Bases Over 1.5 (he's still playing every day and crushed a 432-foot homer Tuesday). The ladder pick is White Sox ML \u2014 best floor, best price, best recent form, and the Yankees have been inconsistent on the road.",
-      "slate_vibe": "NORMAL",
-      "published_at": "2026-07-30T12:27:39.191726-04:00"
-    },
-    {
-      "id": "20260730-MLB-SEA-LAD-TOTAL",
-      "sport": "MLB",
-      "game": "SEA @ LAD",
-      "first_pitch_iso": "2026-07-31T02:10Z",
-      "pick": "Under 8.5",
-      "best_book": "FanDuel",
-      "best_odds": "+102",
-      "book_prices": {
-        "draftkings": "-117",
-        "fanduel": "+102",
-        "betmgm": "-102"
-      },
-      "book_links": {
-        "fanduel": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.595685890&selectionId=7017906",
-        "betmgm": "https://sports.nj.betmgm.com/en/sports?options=19829076-1545540107-2260946928&type=Single",
-        "draftkings": "https://sportsbook.draftkings.com/?outcomes=0OU85676470U900_3"
-      },
-      "market": "TOTAL",
-      "confidence": 3,
-      "units": 1.0,
-      "win_probability": 0.56,
-      "ladder_designation": false,
-      "data_confidence": 0.78,
-      "rules_passed": [
-        "max_juice",
-        "ladder_even_money",
-        "parlay_well_formed",
-        "confidence_units_match",
-        "data_confidence_floor",
-        "pick_type_allowed",
-        "mlb_hr_prop_check",
-        "mlb_pitcher_k_check",
-        "mlb_total_bases_check",
-        "mlb_hits_check",
-        "nba_player_prop_check",
-        "nhl_shots_check",
-        "mlb_run_line_check",
-        "mlb_under_bb_check",
-        "no_same_game_opposite"
-      ],
-      "locked": true,
-      "late_add": false,
-      "late_add_reason": "",
-      "bonus_pick": false,
-      "event_type": "",
-      "event_name": "",
-      "legs": [],
-      "headline": "Two capable starters, a neutral park, and plus money on the under.",
-      "the_thesis": "Roki Sasaki has had an up-and-down season (4.71 ERA, 1.93 HR/9), but his stuff is still elite \u2014 23.6 K% and the ability to miss bats. Bryan Woo has been solid for Seattle (4.37 ERA, 24.0 K%, 0.94 HR/9) and has excellent command (5.1 BB%). Both pitchers can eat innings.\n\nDodger Stadium plays neutral (0.97 runs PF, 0.99 HR PF), and the Mariners offense is one of the weakest in baseball (4.02 R/G). The Dodgers are better offensively (5.15 R/G), but Shohei Ohtani is dealing with knee and biceps issues that have limited his power recently \u2014 he went nine games without a homer before Tuesday.\n\nThe under at +102 on FanDuel is excellent value. Both starters should go 6+ innings, and the Mariners' weak offense keeps this game low-scoring.",
-      "the_data": [
-        {
-          "label": "Woo ERA / BB%",
-          "value": "4.37 / 5.1%",
-          "context": "Solid, excellent command"
-        },
-        {
-          "label": "Woo HR/9",
-          "value": "0.94",
-          "context": "Suppresses power"
-        },
-        {
-          "label": "Sasaki K%",
-          "value": "23.6%",
-          "context": "Still has swing-and-miss stuff"
-        },
-        {
-          "label": "Mariners R/G",
-          "value": "4.02",
-          "context": "Bottom-10 offense"
-        },
-        {
-          "label": "Dodger Stadium Runs PF",
-          "value": "0.97",
-          "context": "Neutral"
-        }
-      ],
-      "the_market": "Total opened at 8.5-9 depending on the book. FanDuel has the best under price at +102 on 8.5. No significant sharp movement.",
-      "weather_park": "Dodger Stadium is neutral. Weather is a non-factor for this night game.",
-      "case_against": "Sasaki's 1.93 HR/9 is concerning \u2014 if the Dodgers' power hitters get into him early, this could go over. Ohtani hit a 432-foot homer Tuesday, so he's not completely cold.",
-      "what_were_betting_on": "Both starters going 6+ innings, the Mariners' weak offense staying quiet, and the Dodgers not exploding.",
-      "scott_bot_quip": "Woo's got command, Sasaki's got stuff, and the Mariners can't hit. Plus money on the under? Yes please.",
-      "ladder_note": "",
-      "date": "2026-07-30",
-      "status": "PEND",
-      "units_result": null,
-      "clv_cents": null,
-      "result_score": null,
-      "graded_at": null,
-      "slate_assessment": "Nine-game MLB slate with no NBA or NHL action. Sean Burke's hot streak against the Yankees and the Mets-Marlins pitching duel at Citi Field headline the board, while prop markets offer clean K under spots and total bases plays.",
-      "executive_summary": "Nine MLB games today, no basketball or hockey. The sharpest edge on the board is Sean Burke and the White Sox at home against the Yankees \u2014 Burke has a 1.61 ERA over his last seven starts with 57 strikeouts and just seven walks, and he's facing a New York lineup that's been inconsistent on the road. The Mets-Marlins under at 7 is the cleanest total on the slate: two quality arms, a pitcher-friendly park, and soft offenses. The ladder rides with the White Sox moneyline at -110 \u2014 best floor, best price, best recent form.",
-      "slate_analysis": "Today's board features nine MLB games spread across afternoon and evening windows, with no NBA or NHL to supplement. The pricing climate is tight \u2014 most moneylines sit between -115 and -160, and totals cluster in the 7.5-9.5 range. The prop markets are active, particularly pitcher strikeouts and batter total bases, giving us multiple angles to attack.\n\nThe top candidates that earned a hard look: (1) White Sox ML vs Yankees \u2014 Sean Burke's recent run is elite, and the Yankees are sending Ryan Weathers, who has a 1.42 HR/9 and has been hittable; (2) Mets-Marlins Under 7 \u2014 Nolan McLean and Eury P\u00e9rez are both quality arms, Citi Field suppresses runs, and both offenses rank in the bottom half of MLB; (3) Red Sox -1.5 at Oakland \u2014 Sonny Gray (2.78 ERA, 12-2) against Mason Barnett (4.74 ERA, 24.2 IP) is a massive mismatch; (4) Padres ML vs Giants \u2014 Petco Park is pitcher-friendly and San Diego is the better team; (5) Dodgers-Mariners Under 8.5 \u2014 Roki Sasaki and Bryan Woo are both capable of eating innings, and Dodger Stadium plays neutral; (6) Sean Burke Ks Under 4.5 \u2014 Burke's K% is only 27%, and the Yankees don't strike out at an elite rate.\n\nWhat got cut: The Twins-Royals game has a data confidence of 0.45 \u2014 too thin to trust. The Cubs-Cardinals total looked interesting, but Assad's 1.66 HR/9 and Pallante's 0.80 HR/9 create variance in opposite directions, and neither SP has a clear edge. The Braves-Nationals game has Holmes walking 10.2% of batters \u2014 too many free passes to trust an under, and the over doesn't have enough edge. The Pirates-Reds game at GABP is a coin flip with two shaky starters and a hitter-friendly park \u2014 no edge either way. The Padres ML at -154 is too juicy for a straight bet when we don't have the Giants' starter confirmed in the pack.\n\nThe final six: White Sox ML (Burke's form is undeniable), Mets-Marlins Under 7 (two quality arms, pitcher's park), Red Sox -1.5 (Sonny Gray mismatch), Dodgers-Mariners Under 8.5 (two capable starters, neutral park), Sean Burke Ks Under 4.5 (low K% pitcher, Yankees don't whiff), and Shohei Ohtani Total Bases Over 1.5 (he's still playing every day and crushed a 432-foot homer Tuesday). The ladder pick is White Sox ML \u2014 best floor, best price, best recent form, and the Yankees have been inconsistent on the road.",
-      "slate_vibe": "NORMAL",
-      "published_at": "2026-07-30T12:27:39.191612-04:00"
-    },
-    {
-      "id": "20260730-MLB-BOS-ATH-SPREAD",
-      "sport": "MLB",
-      "game": "BOS @ ATH",
-      "first_pitch_iso": "2026-07-31T01:40Z",
-      "pick": "Boston Red Sox -1.5",
-      "best_book": "FanDuel",
-      "best_odds": "-110",
-      "book_prices": {
-        "draftkings": "-114",
-        "fanduel": "-110",
-        "betmgm": "-118"
-      },
-      "book_links": {
-        "fanduel": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.595688054&selectionId=29158",
-        "draftkings": "https://sportsbook.draftkings.com/?outcomes=0HC85676468N150_3",
-        "betmgm": "https://sports.nj.betmgm.com/en/sports?options=19829074-1545539902-2260946457&type=Single"
-      },
-      "market": "SPREAD",
-      "confidence": 4,
-      "units": 1.5,
-      "win_probability": 0.59,
-      "ladder_designation": false,
-      "data_confidence": 0.8,
-      "rules_passed": [
-        "max_juice",
-        "ladder_even_money",
-        "parlay_well_formed",
-        "confidence_units_match",
-        "data_confidence_floor",
-        "pick_type_allowed",
-        "mlb_hr_prop_check",
-        "mlb_pitcher_k_check",
-        "mlb_total_bases_check",
-        "mlb_hits_check",
-        "nba_player_prop_check",
-        "nhl_shots_check",
-        "mlb_run_line_check(soft)",
-        "mlb_under_bb_check",
-        "no_same_game_opposite"
-      ],
-      "locked": true,
-      "late_add": false,
-      "late_add_reason": "",
-      "bonus_pick": false,
-      "event_type": "",
-      "event_name": "",
-      "legs": [],
-      "headline": "Sonny Gray is pitching like a Cy Young candidate against a rookie with 24 innings of experience.",
-      "the_thesis": "Sonny Gray has been one of the best pitchers in baseball this year \u2014 2.78 ERA, 12-2 record, 1.16 WHIP, and a 21.6 K%. He's coming off a dominant stretch where he's had nine consecutive quality starts. The Red Sox are riding a hot streak and playing with confidence.\n\nMason Barnett, on the other hand, has just 24.2 innings of MLB experience this season. His 4.74 ERA and 1.86 HR/9 are concerning, and his 12.4 BB% means he's going to put runners on base. The Athletics are one of the worst teams in baseball, and this is a massive mismatch.\n\nThe run line at -110 is excellent value. Gray should dominate, and the Red Sox offense should score enough to cover the 1.5 runs.",
-      "the_data": [
-        {
-          "label": "Gray ERA / W-L",
-          "value": "2.78 / 12-2",
-          "context": "Cy Young candidate numbers"
-        },
-        {
-          "label": "Gray WHIP",
-          "value": "1.16",
-          "context": "Elite, limits traffic"
-        },
-        {
-          "label": "Barnett ERA / IP",
-          "value": "4.74 / 24.2",
-          "context": "Tiny sample, shaky results"
-        },
-        {
-          "label": "Barnett HR/9",
-          "value": "1.86",
-          "context": "HR-prone, dangerous"
-        },
-        {
-          "label": "Barnett BB%",
-          "value": "12.4%",
-          "context": "Walks too many"
-        }
-      ],
-      "the_market": "Red Sox opened as -174 favorites and the line has held. FanDuel has the best run line at -110. Sharp money is on Boston.",
-      "weather_park": "Sutter Health Park is neutral (1.02 runs PF). Weather is a non-factor for this night game.",
-      "case_against": "Gray is 36 years old and had a hamstring issue earlier this year. If he's not 100%, the A's could hang around. The Red Sox offense has been inconsistent at times.",
-      "what_were_betting_on": "Gray going 7+ innings, Barnett giving up at least 4 runs, and the Red Sox winning by 2+.",
-      "scott_bot_quip": "Sonny Gray vs. a guy with 24 innings of experience. This is a mismatch. Cover the run line.",
-      "ladder_note": "",
-      "date": "2026-07-30",
-      "status": "PEND",
-      "units_result": null,
-      "clv_cents": null,
-      "result_score": null,
-      "graded_at": null,
-      "slate_assessment": "Nine-game MLB slate with no NBA or NHL action. Sean Burke's hot streak against the Yankees and the Mets-Marlins pitching duel at Citi Field headline the board, while prop markets offer clean K under spots and total bases plays.",
-      "executive_summary": "Nine MLB games today, no basketball or hockey. The sharpest edge on the board is Sean Burke and the White Sox at home against the Yankees \u2014 Burke has a 1.61 ERA over his last seven starts with 57 strikeouts and just seven walks, and he's facing a New York lineup that's been inconsistent on the road. The Mets-Marlins under at 7 is the cleanest total on the slate: two quality arms, a pitcher-friendly park, and soft offenses. The ladder rides with the White Sox moneyline at -110 \u2014 best floor, best price, best recent form.",
-      "slate_analysis": "Today's board features nine MLB games spread across afternoon and evening windows, with no NBA or NHL to supplement. The pricing climate is tight \u2014 most moneylines sit between -115 and -160, and totals cluster in the 7.5-9.5 range. The prop markets are active, particularly pitcher strikeouts and batter total bases, giving us multiple angles to attack.\n\nThe top candidates that earned a hard look: (1) White Sox ML vs Yankees \u2014 Sean Burke's recent run is elite, and the Yankees are sending Ryan Weathers, who has a 1.42 HR/9 and has been hittable; (2) Mets-Marlins Under 7 \u2014 Nolan McLean and Eury P\u00e9rez are both quality arms, Citi Field suppresses runs, and both offenses rank in the bottom half of MLB; (3) Red Sox -1.5 at Oakland \u2014 Sonny Gray (2.78 ERA, 12-2) against Mason Barnett (4.74 ERA, 24.2 IP) is a massive mismatch; (4) Padres ML vs Giants \u2014 Petco Park is pitcher-friendly and San Diego is the better team; (5) Dodgers-Mariners Under 8.5 \u2014 Roki Sasaki and Bryan Woo are both capable of eating innings, and Dodger Stadium plays neutral; (6) Sean Burke Ks Under 4.5 \u2014 Burke's K% is only 27%, and the Yankees don't strike out at an elite rate.\n\nWhat got cut: The Twins-Royals game has a data confidence of 0.45 \u2014 too thin to trust. The Cubs-Cardinals total looked interesting, but Assad's 1.66 HR/9 and Pallante's 0.80 HR/9 create variance in opposite directions, and neither SP has a clear edge. The Braves-Nationals game has Holmes walking 10.2% of batters \u2014 too many free passes to trust an under, and the over doesn't have enough edge. The Pirates-Reds game at GABP is a coin flip with two shaky starters and a hitter-friendly park \u2014 no edge either way. The Padres ML at -154 is too juicy for a straight bet when we don't have the Giants' starter confirmed in the pack.\n\nThe final six: White Sox ML (Burke's form is undeniable), Mets-Marlins Under 7 (two quality arms, pitcher's park), Red Sox -1.5 (Sonny Gray mismatch), Dodgers-Mariners Under 8.5 (two capable starters, neutral park), Sean Burke Ks Under 4.5 (low K% pitcher, Yankees don't whiff), and Shohei Ohtani Total Bases Over 1.5 (he's still playing every day and crushed a 432-foot homer Tuesday). The ladder pick is White Sox ML \u2014 best floor, best price, best recent form, and the Yankees have been inconsistent on the road.",
-      "slate_vibe": "NORMAL",
-      "published_at": "2026-07-30T12:27:39.191499-04:00"
-    },
-    {
-      "id": "20260730-MLB-MIA-NYM-TOTAL",
-      "sport": "MLB",
-      "game": "MIA @ NYM",
-      "first_pitch_iso": "2026-07-30T23:10Z",
-      "pick": "Under 7",
-      "best_book": "BetMGM",
-      "best_odds": "-102",
-      "book_prices": {
-        "draftkings": "-105",
-        "fanduel": "-105",
-        "betmgm": "-102"
-      },
-      "book_links": {
-        "fanduel": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.595687595&selectionId=7017906",
-        "betmgm": "https://sports.nj.betmgm.com/en/sports?options=19829072-1545539724-2260946066&type=Single",
-        "draftkings": "https://sportsbook.draftkings.com/?outcomes=0OU85676466U700_3"
-      },
-      "market": "TOTAL",
-      "confidence": 4,
-      "units": 1.5,
-      "win_probability": 0.6,
-      "ladder_designation": false,
-      "data_confidence": 0.82,
-      "rules_passed": [
-        "max_juice",
-        "ladder_even_money",
-        "parlay_well_formed",
-        "confidence_units_match",
-        "data_confidence_floor",
-        "pick_type_allowed",
-        "mlb_hr_prop_check",
-        "mlb_pitcher_k_check",
-        "mlb_total_bases_check",
-        "mlb_hits_check",
-        "nba_player_prop_check",
-        "nhl_shots_check",
-        "mlb_run_line_check",
-        "mlb_under_bb_check",
-        "no_same_game_opposite"
-      ],
-      "locked": true,
-      "late_add": false,
-      "late_add_reason": "",
-      "bonus_pick": false,
-      "event_type": "",
-      "event_name": "",
-      "legs": [],
-      "headline": "Two quality arms, a pitcher's park, and two offenses that don't scare anyone.",
-      "the_thesis": "Nolan McLean has been one of the best young pitchers in baseball this year \u2014 3.32 ERA, 28.6 K%, and a 0.83 HR/9. He's got a 1.11 WHIP and has been dominant at Citi Field, which suppresses runs (0.97 PF) and home runs (0.91 PF). The Marlins offense ranks in the bottom third of MLB in runs per game (4.41).\n\nEury P\u00e9rez is no slouch either \u2014 3.56 ERA, 26.6 K%, and a 1.11 WHIP. He's got swing-and-miss stuff and has been solid on the road. The Mets offense is even weaker than Miami's (4.12 R/G), and this game has all the makings of a low-scoring affair.\n\nThe total is set at 7, and the market is essentially split. I have this going under about 60% of the time \u2014 that's a solid edge at -102 juice.",
-      "the_data": [
-        {
-          "label": "McLean ERA / K%",
-          "value": "3.32 / 28.6%",
-          "context": "Elite strikeout rate, solid ERA"
-        },
-        {
-          "label": "McLean HR/9",
-          "value": "0.83",
-          "context": "Suppresses power"
-        },
-        {
-          "label": "P\u00e9rez ERA / K%",
-          "value": "3.56 / 26.6%",
-          "context": "Quality arm, swing-and-miss stuff"
-        },
-        {
-          "label": "Citi Field Runs PF",
-          "value": "0.97",
-          "context": "Pitcher-friendly"
-        },
-        {
-          "label": "Combined R/G",
-          "value": "8.53",
-          "context": "Both offenses below average"
-        }
-      ],
-      "the_market": "Total opened at 7 and has held. BetMGM has the best under price at -102. No sharp movement either way.",
-      "weather_park": "Citi Field is pitcher-friendly with a 0.91 HR park factor. Weather is a non-factor for this night game.",
-      "case_against": "Both pitchers have walk rates above 8%, which can extend innings and create traffic. If either starter exits early, the bullpens could give up runs. The Marlins have some pop in their lineup.",
-      "what_were_betting_on": "Both starters going 6+ innings, limited traffic on the bases, and the park suppressing any fly-ball power.",
-      "scott_bot_quip": "Two aces, two punchless lineups, Citi Field doing its thing. The under is the play.",
-      "ladder_note": "",
-      "date": "2026-07-30",
-      "status": "PEND",
-      "units_result": null,
-      "clv_cents": null,
-      "result_score": null,
-      "graded_at": null,
-      "slate_assessment": "Nine-game MLB slate with no NBA or NHL action. Sean Burke's hot streak against the Yankees and the Mets-Marlins pitching duel at Citi Field headline the board, while prop markets offer clean K under spots and total bases plays.",
-      "executive_summary": "Nine MLB games today, no basketball or hockey. The sharpest edge on the board is Sean Burke and the White Sox at home against the Yankees \u2014 Burke has a 1.61 ERA over his last seven starts with 57 strikeouts and just seven walks, and he's facing a New York lineup that's been inconsistent on the road. The Mets-Marlins under at 7 is the cleanest total on the slate: two quality arms, a pitcher-friendly park, and soft offenses. The ladder rides with the White Sox moneyline at -110 \u2014 best floor, best price, best recent form.",
-      "slate_analysis": "Today's board features nine MLB games spread across afternoon and evening windows, with no NBA or NHL to supplement. The pricing climate is tight \u2014 most moneylines sit between -115 and -160, and totals cluster in the 7.5-9.5 range. The prop markets are active, particularly pitcher strikeouts and batter total bases, giving us multiple angles to attack.\n\nThe top candidates that earned a hard look: (1) White Sox ML vs Yankees \u2014 Sean Burke's recent run is elite, and the Yankees are sending Ryan Weathers, who has a 1.42 HR/9 and has been hittable; (2) Mets-Marlins Under 7 \u2014 Nolan McLean and Eury P\u00e9rez are both quality arms, Citi Field suppresses runs, and both offenses rank in the bottom half of MLB; (3) Red Sox -1.5 at Oakland \u2014 Sonny Gray (2.78 ERA, 12-2) against Mason Barnett (4.74 ERA, 24.2 IP) is a massive mismatch; (4) Padres ML vs Giants \u2014 Petco Park is pitcher-friendly and San Diego is the better team; (5) Dodgers-Mariners Under 8.5 \u2014 Roki Sasaki and Bryan Woo are both capable of eating innings, and Dodger Stadium plays neutral; (6) Sean Burke Ks Under 4.5 \u2014 Burke's K% is only 27%, and the Yankees don't strike out at an elite rate.\n\nWhat got cut: The Twins-Royals game has a data confidence of 0.45 \u2014 too thin to trust. The Cubs-Cardinals total looked interesting, but Assad's 1.66 HR/9 and Pallante's 0.80 HR/9 create variance in opposite directions, and neither SP has a clear edge. The Braves-Nationals game has Holmes walking 10.2% of batters \u2014 too many free passes to trust an under, and the over doesn't have enough edge. The Pirates-Reds game at GABP is a coin flip with two shaky starters and a hitter-friendly park \u2014 no edge either way. The Padres ML at -154 is too juicy for a straight bet when we don't have the Giants' starter confirmed in the pack.\n\nThe final six: White Sox ML (Burke's form is undeniable), Mets-Marlins Under 7 (two quality arms, pitcher's park), Red Sox -1.5 (Sonny Gray mismatch), Dodgers-Mariners Under 8.5 (two capable starters, neutral park), Sean Burke Ks Under 4.5 (low K% pitcher, Yankees don't whiff), and Shohei Ohtani Total Bases Over 1.5 (he's still playing every day and crushed a 432-foot homer Tuesday). The ladder pick is White Sox ML \u2014 best floor, best price, best recent form, and the Yankees have been inconsistent on the road.",
-      "slate_vibe": "NORMAL",
-      "published_at": "2026-07-30T12:27:39.191376-04:00"
-    },
-    {
-      "id": "20260730-MLB-NYY-CHW-ML",
-      "sport": "MLB",
-      "game": "NYY @ CHW",
-      "first_pitch_iso": "2026-07-30T18:10Z",
-      "pick": "Chicago White Sox ML",
-      "best_book": "DraftKings",
-      "best_odds": "-110",
-      "book_prices": {
-        "draftkings": "-110",
-        "fanduel": "-116",
-        "betmgm": "-115"
-      },
-      "book_links": {
-        "fanduel": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.595549739&selectionId=5408012",
-        "betmgm": "https://sports.nj.betmgm.com/en/sports?options=19829069-1545539432-2260945428&type=Single",
-        "draftkings": "https://sportsbook.draftkings.com/?outcomes=0ML85676268_1"
-      },
-      "market": "ML",
-      "confidence": 4,
-      "units": 1.5,
-      "win_probability": 0.58,
-      "ladder_designation": true,
-      "data_confidence": 0.85,
-      "rules_passed": [
-        "max_juice",
-        "ladder_even_money",
-        "parlay_well_formed",
-        "confidence_units_match",
-        "data_confidence_floor",
-        "pick_type_allowed",
-        "mlb_hr_prop_check",
-        "mlb_pitcher_k_check",
-        "mlb_total_bases_check",
-        "mlb_hits_check",
-        "nba_player_prop_check",
-        "nhl_shots_check",
-        "mlb_run_line_check",
-        "mlb_under_bb_check",
-        "no_same_game_opposite"
-      ],
-      "locked": true,
-      "late_add": false,
-      "late_add_reason": "",
-      "bonus_pick": false,
-      "event_type": "",
-      "event_name": "",
-      "legs": [],
-      "headline": "Sean Burke is on a heater, and the Yankees are sending a HR-prone lefty to the South Side.",
-      "the_thesis": "Sean Burke has been one of the best pitchers in baseball over the last seven starts: 1.61 ERA, 57 strikeouts, and just seven walks in 44\u2154 innings. That's a 12.8 K/BB ratio \u2014 elite by any measure. He's pounding the zone, his mid-90s fastball has a 111 Stuff+ rating, and he's facing a Yankees lineup that's been inconsistent on the road.\n\nRyan Weathers, meanwhile, has a 1.42 HR/9 this season \u2014 that's a home run every 6.3 innings. Guaranteed Rate Field has a 1.08 HR park factor, and while the wind is blowing in from center today (suppressing some fly balls), Weathers' fly-ball tendencies make him vulnerable. The White Sox are in the AL Central race and playing with urgency at home.\n\nThe market has this as a pick'em, but Burke's recent form and Weathers' HR issues give us a clear edge. The de-vigged implied probability for the White Sox is around 50.9%, and I have them at 58% \u2014 that's a 7+ cent edge, right at our threshold.",
-      "the_data": [
-        {
-          "label": "Burke ERA (L7 starts)",
-          "value": "1.61",
-          "context": "Elite, top-5 in MLB over that span"
-        },
-        {
-          "label": "Burke K:BB (L7 starts)",
-          "value": "57:7",
-          "context": "12.8 ratio \u2014 dominant command"
-        },
-        {
-          "label": "Burke Stuff+",
-          "value": "111",
-          "context": "Plus fastball, deep four-pitch mix"
-        },
-        {
-          "label": "Weathers HR/9",
-          "value": "1.42",
-          "context": "HR-prone, 1 HR every 6.3 IP"
-        },
-        {
-          "label": "Rate Field HR PF",
-          "value": "1.08",
-          "context": "HR-boosting park"
-        }
-      ],
-      "the_market": "Line opened as a pick'em and has held steady. DraftKings has the best price at -110 for the White Sox. No significant sharp movement either way.",
-      "weather_park": "79\u00b0F, wind 5 mph in from center \u2014 suppresses some fly balls, but park still plays HR-friendly overall.",
-      "case_against": "Burke's season-long numbers (3.19 ERA, 7.3 BB%) are good but not elite. If he walks a few early and the Yankees' power hitters get into Weathers-like counts, this could flip. The Yankees also have more offensive upside on paper.",
-      "what_were_betting_on": "Burke continuing his dominant stretch, Weathers giving up at least one HR, and the White Sox bullpen holding a lead.",
-      "scott_bot_quip": "Burke's been dealing. The Yankees are sending a guy who gives up dingers like candy. We'll take the home team.",
-      "ladder_note": "Best floor on the board \u2014 Burke's form is undeniable, the price is right at -110, and the White Sox are playing meaningful baseball at home. This is the ladder.",
-      "date": "2026-07-30",
-      "status": "PEND",
-      "units_result": null,
-      "clv_cents": null,
-      "result_score": null,
-      "graded_at": null,
-      "slate_assessment": "Nine-game MLB slate with no NBA or NHL action. Sean Burke's hot streak against the Yankees and the Mets-Marlins pitching duel at Citi Field headline the board, while prop markets offer clean K under spots and total bases plays.",
-      "executive_summary": "Nine MLB games today, no basketball or hockey. The sharpest edge on the board is Sean Burke and the White Sox at home against the Yankees \u2014 Burke has a 1.61 ERA over his last seven starts with 57 strikeouts and just seven walks, and he's facing a New York lineup that's been inconsistent on the road. The Mets-Marlins under at 7 is the cleanest total on the slate: two quality arms, a pitcher-friendly park, and soft offenses. The ladder rides with the White Sox moneyline at -110 \u2014 best floor, best price, best recent form.",
-      "slate_analysis": "Today's board features nine MLB games spread across afternoon and evening windows, with no NBA or NHL to supplement. The pricing climate is tight \u2014 most moneylines sit between -115 and -160, and totals cluster in the 7.5-9.5 range. The prop markets are active, particularly pitcher strikeouts and batter total bases, giving us multiple angles to attack.\n\nThe top candidates that earned a hard look: (1) White Sox ML vs Yankees \u2014 Sean Burke's recent run is elite, and the Yankees are sending Ryan Weathers, who has a 1.42 HR/9 and has been hittable; (2) Mets-Marlins Under 7 \u2014 Nolan McLean and Eury P\u00e9rez are both quality arms, Citi Field suppresses runs, and both offenses rank in the bottom half of MLB; (3) Red Sox -1.5 at Oakland \u2014 Sonny Gray (2.78 ERA, 12-2) against Mason Barnett (4.74 ERA, 24.2 IP) is a massive mismatch; (4) Padres ML vs Giants \u2014 Petco Park is pitcher-friendly and San Diego is the better team; (5) Dodgers-Mariners Under 8.5 \u2014 Roki Sasaki and Bryan Woo are both capable of eating innings, and Dodger Stadium plays neutral; (6) Sean Burke Ks Under 4.5 \u2014 Burke's K% is only 27%, and the Yankees don't strike out at an elite rate.\n\nWhat got cut: The Twins-Royals game has a data confidence of 0.45 \u2014 too thin to trust. The Cubs-Cardinals total looked interesting, but Assad's 1.66 HR/9 and Pallante's 0.80 HR/9 create variance in opposite directions, and neither SP has a clear edge. The Braves-Nationals game has Holmes walking 10.2% of batters \u2014 too many free passes to trust an under, and the over doesn't have enough edge. The Pirates-Reds game at GABP is a coin flip with two shaky starters and a hitter-friendly park \u2014 no edge either way. The Padres ML at -154 is too juicy for a straight bet when we don't have the Giants' starter confirmed in the pack.\n\nThe final six: White Sox ML (Burke's form is undeniable), Mets-Marlins Under 7 (two quality arms, pitcher's park), Red Sox -1.5 (Sonny Gray mismatch), Dodgers-Mariners Under 8.5 (two capable starters, neutral park), Sean Burke Ks Under 4.5 (low K% pitcher, Yankees don't whiff), and Shohei Ohtani Total Bases Over 1.5 (he's still playing every day and crushed a 432-foot homer Tuesday). The ladder pick is White Sox ML \u2014 best floor, best price, best recent form, and the Yankees have been inconsistent on the road.",
-      "slate_vibe": "NORMAL",
-      "published_at": "2026-07-30T12:27:39.191190-04:00"
-    }
-  ],
+  "today_picks": [],
   "today_bonus_picks": [],
   "all_picks": [
     {
@@ -566,16 +90,22 @@
       "scott_bot_quip": "Burke's been dealing, but he's not a K artist. The Yankees make contact. Under 4.5 at plus money.",
       "ladder_note": "",
       "date": "2026-07-30",
-      "status": "PEND",
-      "units_result": null,
+      "status": "LOSS",
+      "units_result": -1.0,
       "clv_cents": null,
-      "result_score": null,
-      "graded_at": null,
+      "result_score": "Sean Burke: 10 strikeOuts",
+      "graded_at": "2026-07-31T02:19:21.678304-04:00",
       "slate_assessment": "Nine-game MLB slate with no NBA or NHL action. Sean Burke's hot streak against the Yankees and the Mets-Marlins pitching duel at Citi Field headline the board, while prop markets offer clean K under spots and total bases plays.",
       "executive_summary": "Nine MLB games today, no basketball or hockey. The sharpest edge on the board is Sean Burke and the White Sox at home against the Yankees \u2014 Burke has a 1.61 ERA over his last seven starts with 57 strikeouts and just seven walks, and he's facing a New York lineup that's been inconsistent on the road. The Mets-Marlins under at 7 is the cleanest total on the slate: two quality arms, a pitcher-friendly park, and soft offenses. The ladder rides with the White Sox moneyline at -110 \u2014 best floor, best price, best recent form.",
       "slate_analysis": "Today's board features nine MLB games spread across afternoon and evening windows, with no NBA or NHL to supplement. The pricing climate is tight \u2014 most moneylines sit between -115 and -160, and totals cluster in the 7.5-9.5 range. The prop markets are active, particularly pitcher strikeouts and batter total bases, giving us multiple angles to attack.\n\nThe top candidates that earned a hard look: (1) White Sox ML vs Yankees \u2014 Sean Burke's recent run is elite, and the Yankees are sending Ryan Weathers, who has a 1.42 HR/9 and has been hittable; (2) Mets-Marlins Under 7 \u2014 Nolan McLean and Eury P\u00e9rez are both quality arms, Citi Field suppresses runs, and both offenses rank in the bottom half of MLB; (3) Red Sox -1.5 at Oakland \u2014 Sonny Gray (2.78 ERA, 12-2) against Mason Barnett (4.74 ERA, 24.2 IP) is a massive mismatch; (4) Padres ML vs Giants \u2014 Petco Park is pitcher-friendly and San Diego is the better team; (5) Dodgers-Mariners Under 8.5 \u2014 Roki Sasaki and Bryan Woo are both capable of eating innings, and Dodger Stadium plays neutral; (6) Sean Burke Ks Under 4.5 \u2014 Burke's K% is only 27%, and the Yankees don't strike out at an elite rate.\n\nWhat got cut: The Twins-Royals game has a data confidence of 0.45 \u2014 too thin to trust. The Cubs-Cardinals total looked interesting, but Assad's 1.66 HR/9 and Pallante's 0.80 HR/9 create variance in opposite directions, and neither SP has a clear edge. The Braves-Nationals game has Holmes walking 10.2% of batters \u2014 too many free passes to trust an under, and the over doesn't have enough edge. The Pirates-Reds game at GABP is a coin flip with two shaky starters and a hitter-friendly park \u2014 no edge either way. The Padres ML at -154 is too juicy for a straight bet when we don't have the Giants' starter confirmed in the pack.\n\nThe final six: White Sox ML (Burke's form is undeniable), Mets-Marlins Under 7 (two quality arms, pitcher's park), Red Sox -1.5 (Sonny Gray mismatch), Dodgers-Mariners Under 8.5 (two capable starters, neutral park), Sean Burke Ks Under 4.5 (low K% pitcher, Yankees don't whiff), and Shohei Ohtani Total Bases Over 1.5 (he's still playing every day and crushed a 432-foot homer Tuesday). The ladder pick is White Sox ML \u2014 best floor, best price, best recent form, and the Yankees have been inconsistent on the road.",
       "slate_vibe": "NORMAL",
-      "published_at": "2026-07-30T12:27:39.191726-04:00"
+      "published_at": "2026-07-30T12:27:39.191726-04:00",
+      "autopsy": {
+        "classification": "VARIANCE",
+        "post_mortem": "Burke was dominant from the jump in a pitcher's duel that stayed scoreless through nine innings \u2014 a low-run environment that kept him in the game long enough to pile up Ks. He finished with 10 strikeouts, doubling the line of 4.5, in a game the White Sox won 2-1 on a walk-off bases-loaded walk in extras. The thesis was defensible: 27% K-rate, league-average Yankees contact profile, +128 odds. But Burke's elite chase rate (33%) and above-average whiff rate (25.2%) gave him a ceiling the model discounted, and he hit it on the right day against the right lineup.",
+        "candidate_rule": null,
+        "sample_size_warning": "N=1, insufficient to establish rule \u2014 Burke's 10-K performance is a single outlier event in a pitcher's duel context; no pattern can be drawn from one start."
+      }
     },
     {
       "id": "20260730-MLB-SEA-LAD-TOTAL",
@@ -661,11 +191,11 @@
       "scott_bot_quip": "Woo's got command, Sasaki's got stuff, and the Mariners can't hit. Plus money on the under? Yes please.",
       "ladder_note": "",
       "date": "2026-07-30",
-      "status": "PEND",
-      "units_result": null,
+      "status": "WIN",
+      "units_result": 1.02,
       "clv_cents": null,
-      "result_score": null,
-      "graded_at": null,
+      "result_score": "SEA 2 \u00b7 LAD 6",
+      "graded_at": "2026-07-31T02:19:35.966484-04:00",
       "slate_assessment": "Nine-game MLB slate with no NBA or NHL action. Sean Burke's hot streak against the Yankees and the Mets-Marlins pitching duel at Citi Field headline the board, while prop markets offer clean K under spots and total bases plays.",
       "executive_summary": "Nine MLB games today, no basketball or hockey. The sharpest edge on the board is Sean Burke and the White Sox at home against the Yankees \u2014 Burke has a 1.61 ERA over his last seven starts with 57 strikeouts and just seven walks, and he's facing a New York lineup that's been inconsistent on the road. The Mets-Marlins under at 7 is the cleanest total on the slate: two quality arms, a pitcher-friendly park, and soft offenses. The ladder rides with the White Sox moneyline at -110 \u2014 best floor, best price, best recent form.",
       "slate_analysis": "Today's board features nine MLB games spread across afternoon and evening windows, with no NBA or NHL to supplement. The pricing climate is tight \u2014 most moneylines sit between -115 and -160, and totals cluster in the 7.5-9.5 range. The prop markets are active, particularly pitcher strikeouts and batter total bases, giving us multiple angles to attack.\n\nThe top candidates that earned a hard look: (1) White Sox ML vs Yankees \u2014 Sean Burke's recent run is elite, and the Yankees are sending Ryan Weathers, who has a 1.42 HR/9 and has been hittable; (2) Mets-Marlins Under 7 \u2014 Nolan McLean and Eury P\u00e9rez are both quality arms, Citi Field suppresses runs, and both offenses rank in the bottom half of MLB; (3) Red Sox -1.5 at Oakland \u2014 Sonny Gray (2.78 ERA, 12-2) against Mason Barnett (4.74 ERA, 24.2 IP) is a massive mismatch; (4) Padres ML vs Giants \u2014 Petco Park is pitcher-friendly and San Diego is the better team; (5) Dodgers-Mariners Under 8.5 \u2014 Roki Sasaki and Bryan Woo are both capable of eating innings, and Dodger Stadium plays neutral; (6) Sean Burke Ks Under 4.5 \u2014 Burke's K% is only 27%, and the Yankees don't strike out at an elite rate.\n\nWhat got cut: The Twins-Royals game has a data confidence of 0.45 \u2014 too thin to trust. The Cubs-Cardinals total looked interesting, but Assad's 1.66 HR/9 and Pallante's 0.80 HR/9 create variance in opposite directions, and neither SP has a clear edge. The Braves-Nationals game has Holmes walking 10.2% of batters \u2014 too many free passes to trust an under, and the over doesn't have enough edge. The Pirates-Reds game at GABP is a coin flip with two shaky starters and a hitter-friendly park \u2014 no edge either way. The Padres ML at -154 is too juicy for a straight bet when we don't have the Giants' starter confirmed in the pack.\n\nThe final six: White Sox ML (Burke's form is undeniable), Mets-Marlins Under 7 (two quality arms, pitcher's park), Red Sox -1.5 (Sonny Gray mismatch), Dodgers-Mariners Under 8.5 (two capable starters, neutral park), Sean Burke Ks Under 4.5 (low K% pitcher, Yankees don't whiff), and Shohei Ohtani Total Bases Over 1.5 (he's still playing every day and crushed a 432-foot homer Tuesday). The ladder pick is White Sox ML \u2014 best floor, best price, best recent form, and the Yankees have been inconsistent on the road.",
@@ -756,16 +286,22 @@
       "scott_bot_quip": "Sonny Gray vs. a guy with 24 innings of experience. This is a mismatch. Cover the run line.",
       "ladder_note": "",
       "date": "2026-07-30",
-      "status": "PEND",
-      "units_result": null,
+      "status": "LOSS",
+      "units_result": -1.5,
       "clv_cents": null,
-      "result_score": null,
-      "graded_at": null,
+      "result_score": "BOS 5 \u00b7 ATH 4",
+      "graded_at": "2026-07-31T02:19:35.981153-04:00",
       "slate_assessment": "Nine-game MLB slate with no NBA or NHL action. Sean Burke's hot streak against the Yankees and the Mets-Marlins pitching duel at Citi Field headline the board, while prop markets offer clean K under spots and total bases plays.",
       "executive_summary": "Nine MLB games today, no basketball or hockey. The sharpest edge on the board is Sean Burke and the White Sox at home against the Yankees \u2014 Burke has a 1.61 ERA over his last seven starts with 57 strikeouts and just seven walks, and he's facing a New York lineup that's been inconsistent on the road. The Mets-Marlins under at 7 is the cleanest total on the slate: two quality arms, a pitcher-friendly park, and soft offenses. The ladder rides with the White Sox moneyline at -110 \u2014 best floor, best price, best recent form.",
       "slate_analysis": "Today's board features nine MLB games spread across afternoon and evening windows, with no NBA or NHL to supplement. The pricing climate is tight \u2014 most moneylines sit between -115 and -160, and totals cluster in the 7.5-9.5 range. The prop markets are active, particularly pitcher strikeouts and batter total bases, giving us multiple angles to attack.\n\nThe top candidates that earned a hard look: (1) White Sox ML vs Yankees \u2014 Sean Burke's recent run is elite, and the Yankees are sending Ryan Weathers, who has a 1.42 HR/9 and has been hittable; (2) Mets-Marlins Under 7 \u2014 Nolan McLean and Eury P\u00e9rez are both quality arms, Citi Field suppresses runs, and both offenses rank in the bottom half of MLB; (3) Red Sox -1.5 at Oakland \u2014 Sonny Gray (2.78 ERA, 12-2) against Mason Barnett (4.74 ERA, 24.2 IP) is a massive mismatch; (4) Padres ML vs Giants \u2014 Petco Park is pitcher-friendly and San Diego is the better team; (5) Dodgers-Mariners Under 8.5 \u2014 Roki Sasaki and Bryan Woo are both capable of eating innings, and Dodger Stadium plays neutral; (6) Sean Burke Ks Under 4.5 \u2014 Burke's K% is only 27%, and the Yankees don't strike out at an elite rate.\n\nWhat got cut: The Twins-Royals game has a data confidence of 0.45 \u2014 too thin to trust. The Cubs-Cardinals total looked interesting, but Assad's 1.66 HR/9 and Pallante's 0.80 HR/9 create variance in opposite directions, and neither SP has a clear edge. The Braves-Nationals game has Holmes walking 10.2% of batters \u2014 too many free passes to trust an under, and the over doesn't have enough edge. The Pirates-Reds game at GABP is a coin flip with two shaky starters and a hitter-friendly park \u2014 no edge either way. The Padres ML at -154 is too juicy for a straight bet when we don't have the Giants' starter confirmed in the pack.\n\nThe final six: White Sox ML (Burke's form is undeniable), Mets-Marlins Under 7 (two quality arms, pitcher's park), Red Sox -1.5 (Sonny Gray mismatch), Dodgers-Mariners Under 8.5 (two capable starters, neutral park), Sean Burke Ks Under 4.5 (low K% pitcher, Yankees don't whiff), and Shohei Ohtani Total Bases Over 1.5 (he's still playing every day and crushed a 432-foot homer Tuesday). The ladder pick is White Sox ML \u2014 best floor, best price, best recent form, and the Yankees have been inconsistent on the road.",
       "slate_vibe": "NORMAL",
-      "published_at": "2026-07-30T12:27:39.191499-04:00"
+      "published_at": "2026-07-30T12:27:39.191499-04:00",
+      "autopsy": {
+        "classification": "MODEL",
+        "post_mortem": "Gray was not the dominant version of himself \u2014 he allowed 4 runs on 7 hits over 7 innings, and the A's led 4-3 heading into the eighth. The Red Sox only won on back-to-back solo homers from Abreu and Contreras on consecutive pitches in the 8th, a 5-4 final that covered the moneyline but missed the -1.5 run line by exactly one run. The thesis leaned entirely on Gray's season-long ERA without accounting for two critical model failures: (1) Gray had just posted his worst start of the year (5 ER, 10 H vs. Toronto) the prior Saturday, signaling he was not in peak form, and (2) Gray carries a 4.58 ERA in 7 career starts specifically against the Athletics \u2014 a known splits liability that was available in the data but ignored.",
+        "candidate_rule": "When a starting pitcher's career ERA vs. the specific opponent is 150%+ of his season ERA, flag the run line as elevated risk and require a secondary confirming edge before recommending -1.5 \u2014 but N=1 here, insufficient to establish a rule.",
+        "sample_size_warning": "N=1, insufficient to establish rule. One loss on a pitcher-specific splits miss is noise; track over minimum 10 similar setups before codifying."
+      }
     },
     {
       "id": "20260730-MLB-MIA-NYM-TOTAL",
@@ -851,11 +387,11 @@
       "scott_bot_quip": "Two aces, two punchless lineups, Citi Field doing its thing. The under is the play.",
       "ladder_note": "",
       "date": "2026-07-30",
-      "status": "PEND",
-      "units_result": null,
+      "status": "WIN",
+      "units_result": 1.4706,
       "clv_cents": null,
-      "result_score": null,
-      "graded_at": null,
+      "result_score": "MIA 2 \u00b7 NYM 4",
+      "graded_at": "2026-07-31T02:20:01.816014-04:00",
       "slate_assessment": "Nine-game MLB slate with no NBA or NHL action. Sean Burke's hot streak against the Yankees and the Mets-Marlins pitching duel at Citi Field headline the board, while prop markets offer clean K under spots and total bases plays.",
       "executive_summary": "Nine MLB games today, no basketball or hockey. The sharpest edge on the board is Sean Burke and the White Sox at home against the Yankees \u2014 Burke has a 1.61 ERA over his last seven starts with 57 strikeouts and just seven walks, and he's facing a New York lineup that's been inconsistent on the road. The Mets-Marlins under at 7 is the cleanest total on the slate: two quality arms, a pitcher-friendly park, and soft offenses. The ladder rides with the White Sox moneyline at -110 \u2014 best floor, best price, best recent form.",
       "slate_analysis": "Today's board features nine MLB games spread across afternoon and evening windows, with no NBA or NHL to supplement. The pricing climate is tight \u2014 most moneylines sit between -115 and -160, and totals cluster in the 7.5-9.5 range. The prop markets are active, particularly pitcher strikeouts and batter total bases, giving us multiple angles to attack.\n\nThe top candidates that earned a hard look: (1) White Sox ML vs Yankees \u2014 Sean Burke's recent run is elite, and the Yankees are sending Ryan Weathers, who has a 1.42 HR/9 and has been hittable; (2) Mets-Marlins Under 7 \u2014 Nolan McLean and Eury P\u00e9rez are both quality arms, Citi Field suppresses runs, and both offenses rank in the bottom half of MLB; (3) Red Sox -1.5 at Oakland \u2014 Sonny Gray (2.78 ERA, 12-2) against Mason Barnett (4.74 ERA, 24.2 IP) is a massive mismatch; (4) Padres ML vs Giants \u2014 Petco Park is pitcher-friendly and San Diego is the better team; (5) Dodgers-Mariners Under 8.5 \u2014 Roki Sasaki and Bryan Woo are both capable of eating innings, and Dodger Stadium plays neutral; (6) Sean Burke Ks Under 4.5 \u2014 Burke's K% is only 27%, and the Yankees don't strike out at an elite rate.\n\nWhat got cut: The Twins-Royals game has a data confidence of 0.45 \u2014 too thin to trust. The Cubs-Cardinals total looked interesting, but Assad's 1.66 HR/9 and Pallante's 0.80 HR/9 create variance in opposite directions, and neither SP has a clear edge. The Braves-Nationals game has Holmes walking 10.2% of batters \u2014 too many free passes to trust an under, and the over doesn't have enough edge. The Pirates-Reds game at GABP is a coin flip with two shaky starters and a hitter-friendly park \u2014 no edge either way. The Padres ML at -154 is too juicy for a straight bet when we don't have the Giants' starter confirmed in the pack.\n\nThe final six: White Sox ML (Burke's form is undeniable), Mets-Marlins Under 7 (two quality arms, pitcher's park), Red Sox -1.5 (Sonny Gray mismatch), Dodgers-Mariners Under 8.5 (two capable starters, neutral park), Sean Burke Ks Under 4.5 (low K% pitcher, Yankees don't whiff), and Shohei Ohtani Total Bases Over 1.5 (he's still playing every day and crushed a 432-foot homer Tuesday). The ladder pick is White Sox ML \u2014 best floor, best price, best recent form, and the Yankees have been inconsistent on the road.",
@@ -946,11 +482,11 @@
       "scott_bot_quip": "Burke's been dealing. The Yankees are sending a guy who gives up dingers like candy. We'll take the home team.",
       "ladder_note": "Best floor on the board \u2014 Burke's form is undeniable, the price is right at -110, and the White Sox are playing meaningful baseball at home. This is the ladder.",
       "date": "2026-07-30",
-      "status": "PEND",
-      "units_result": null,
+      "status": "WIN",
+      "units_result": 1.3636,
       "clv_cents": null,
-      "result_score": null,
-      "graded_at": null,
+      "result_score": "NYY 1 \u00b7 CHW 2",
+      "graded_at": "2026-07-31T02:20:01.830844-04:00",
       "slate_assessment": "Nine-game MLB slate with no NBA or NHL action. Sean Burke's hot streak against the Yankees and the Mets-Marlins pitching duel at Citi Field headline the board, while prop markets offer clean K under spots and total bases plays.",
       "executive_summary": "Nine MLB games today, no basketball or hockey. The sharpest edge on the board is Sean Burke and the White Sox at home against the Yankees \u2014 Burke has a 1.61 ERA over his last seven starts with 57 strikeouts and just seven walks, and he's facing a New York lineup that's been inconsistent on the road. The Mets-Marlins under at 7 is the cleanest total on the slate: two quality arms, a pitcher-friendly park, and soft offenses. The ladder rides with the White Sox moneyline at -110 \u2014 best floor, best price, best recent form.",
       "slate_analysis": "Today's board features nine MLB games spread across afternoon and evening windows, with no NBA or NHL to supplement. The pricing climate is tight \u2014 most moneylines sit between -115 and -160, and totals cluster in the 7.5-9.5 range. The prop markets are active, particularly pitcher strikeouts and batter total bases, giving us multiple angles to attack.\n\nThe top candidates that earned a hard look: (1) White Sox ML vs Yankees \u2014 Sean Burke's recent run is elite, and the Yankees are sending Ryan Weathers, who has a 1.42 HR/9 and has been hittable; (2) Mets-Marlins Under 7 \u2014 Nolan McLean and Eury P\u00e9rez are both quality arms, Citi Field suppresses runs, and both offenses rank in the bottom half of MLB; (3) Red Sox -1.5 at Oakland \u2014 Sonny Gray (2.78 ERA, 12-2) against Mason Barnett (4.74 ERA, 24.2 IP) is a massive mismatch; (4) Padres ML vs Giants \u2014 Petco Park is pitcher-friendly and San Diego is the better team; (5) Dodgers-Mariners Under 8.5 \u2014 Roki Sasaki and Bryan Woo are both capable of eating innings, and Dodger Stadium plays neutral; (6) Sean Burke Ks Under 4.5 \u2014 Burke's K% is only 27%, and the Yankees don't strike out at an elite rate.\n\nWhat got cut: The Twins-Royals game has a data confidence of 0.45 \u2014 too thin to trust. The Cubs-Cardinals total looked interesting, but Assad's 1.66 HR/9 and Pallante's 0.80 HR/9 create variance in opposite directions, and neither SP has a clear edge. The Braves-Nationals game has Holmes walking 10.2% of batters \u2014 too many free passes to trust an under, and the over doesn't have enough edge. The Pirates-Reds game at GABP is a coin flip with two shaky starters and a hitter-friendly park \u2014 no edge either way. The Padres ML at -154 is too juicy for a straight bet when we don't have the Giants' starter confirmed in the pack.\n\nThe final six: White Sox ML (Burke's form is undeniable), Mets-Marlins Under 7 (two quality arms, pitcher's park), Red Sox -1.5 (Sonny Gray mismatch), Dodgers-Mariners Under 8.5 (two capable starters, neutral park), Sean Burke Ks Under 4.5 (low K% pitcher, Yankees don't whiff), and Shohei Ohtani Total Bases Over 1.5 (he's still playing every day and crushed a 432-foot homer Tuesday). The ladder pick is White Sox ML \u2014 best floor, best price, best recent form, and the Yankees have been inconsistent on the road.",
@@ -27750,11 +27286,19 @@
     }
   ],
   "ladder": {
-    "current_streak": 0,
+    "current_streak": 1,
     "longest_streak": 8,
     "completed_climbs": 0,
     "target": 10,
     "history": [
+      {
+        "date": "2026-07-30",
+        "pick_id": "20260730-MLB-NYY-CHW-ML",
+        "pick": "Chicago White Sox ML",
+        "game": "NYY @ CHW",
+        "status": "WIN",
+        "after_streak": 1
+      },
       {
         "date": "2026-07-29",
         "pick_id": "20260729-MLB-BAL-DET-TOTAL",
@@ -28204,13 +27748,13 @@
         "after_streak": 1
       }
     ],
-    "updated_at": "2026-07-30T01:50:22.081145-04:00"
+    "updated_at": "2026-07-31T02:20:01.844062-04:00"
   },
   "last_night_recap": {
-    "date": "2026-07-29",
-    "record": "4-2-0",
-    "units_pl": 2.5853,
-    "night_summary": "4-2 night, +2.59u. The headliner was SF Giants ML \u2014 Logan Webb and the offense dismantled Milwaukee 16-3, blowing it open with a seven-run sixth inning off the Brewers' bullpen that turned a 3-2 game into a laugher. Joe Ryan punched out just 4 in KC @ MIN and the Ks under cashed easy, and the Mets swept both ends of the ATL doubleheader 3-2 in each game, cashing both unders without a sweat. The NYY @ CHW under was variance \u2014 Schlittler was masterful through 6.1 innings before the bullpen and extras ran the total to 11. The ladder pick in BAL @ DET was the gut-punch of the night: Skubal was one out from seven scoreless, but Baltimore turned a 7-0 deficit into a 10-9 win in 12 innings, with five runs in the 7th and the walk-off in the 12th burying a clean read. Two straight variance losses on the ladder \u2014 streak resets to 0, still hunting that first completed climb.",
-    "generated_at": "2026-07-30T01:51:00.271053-04:00"
+    "date": "2026-07-30",
+    "record": "3-2-0",
+    "units_pl": 0.6842,
+    "night_summary": "3-2 night, +0.68u. The two unders did their jobs quietly \u2014 SEA @ LAD finished 2-6 (8 total, under 8.5) and MIA @ NYM came in 2-4 (6 total, under 7) \u2014 and the CHW ladder pick cashed on a walk-off bases-loaded walk by Tristan Peters in the 11th, White Sox 2-1. The Burke K under was pure variance: a scoreless pitcher's duel kept him on the mound long enough to rack up 10 strikeouts in six innings, doubling the 4.5 line \u2014 the low-run environment that made the under look good was the exact thing that buried it. The BOS -1.5 was a model miss we own: Gray's known splits liability against the A's was in the data and got ignored, and back-to-back solo shots from Abreu and Contreras on consecutive pitches in the 8th turned a 4-3 deficit into a 5-4 win that covered the moneyline but not the run line. Ladder is at 1 of 10 \u2014 back on the board, climbing.",
+    "generated_at": "2026-07-31T02:20:20.197089-04:00"
   }
 }

@@ -1,5 +1,31 @@
 [
   {
+    "id": "20260730-MLB-BOS-ATH-SPREAD",
+    "date": "2026-07-30",
+    "pick": "Boston Red Sox -1.5",
+    "game": "BOS @ ATH",
+    "odds": "-110",
+    "result_score": "BOS 5 \u00b7 ATH 4",
+    "classification": "MODEL",
+    "post_mortem": "Gray was not the dominant version of himself \u2014 he allowed 4 runs on 7 hits over 7 innings, and the A's led 4-3 heading into the eighth. The Red Sox only won on back-to-back solo homers from Abreu and Contreras on consecutive pitches in the 8th, a 5-4 final that covered the moneyline but missed the -1.5 run line by exactly one run. The thesis leaned entirely on Gray's season-long ERA without accounting for two critical model failures: (1) Gray had just posted his worst start of the year (5 ER, 10 H vs. Toronto) the prior Saturday, signaling he was not in peak form, and (2) Gray carries a 4.58 ERA in 7 career starts specifically against the Athletics \u2014 a known splits liability that was available in the data but ignored.",
+    "candidate_rule": "When a starting pitcher's career ERA vs. the specific opponent is 150%+ of his season ERA, flag the run line as elevated risk and require a secondary confirming edge before recommending -1.5 \u2014 but N=1 here, insufficient to establish a rule.",
+    "sample_size_warning": "N=1, insufficient to establish rule. One loss on a pitcher-specific splits miss is noise; track over minimum 10 similar setups before codifying.",
+    "analyzed_at": "2026-07-31T02:20:01.812820-04:00"
+  },
+  {
+    "id": "20260730-MLB-NYY-CHW-PROP-SEANBURKE",
+    "date": "2026-07-30",
+    "pick": "Sean Burke Ks Under 4.5",
+    "game": "NYY @ CHW",
+    "odds": "+128",
+    "result_score": "Sean Burke: 10 strikeOuts",
+    "classification": "VARIANCE",
+    "post_mortem": "Burke was dominant from the jump in a pitcher's duel that stayed scoreless through nine innings \u2014 a low-run environment that kept him in the game long enough to pile up Ks. He finished with 10 strikeouts, doubling the line of 4.5, in a game the White Sox won 2-1 on a walk-off bases-loaded walk in extras. The thesis was defensible: 27% K-rate, league-average Yankees contact profile, +128 odds. But Burke's elite chase rate (33%) and above-average whiff rate (25.2%) gave him a ceiling the model discounted, and he hit it on the right day against the right lineup.",
+    "candidate_rule": null,
+    "sample_size_warning": "N=1, insufficient to establish rule \u2014 Burke's 10-K performance is a single outlier event in a pitcher's duel context; no pattern can be drawn from one start.",
+    "analyzed_at": "2026-07-31T02:19:35.964042-04:00"
+  },
+  {
     "id": "20260729-MLB-BAL-DET-TOTAL",
     "date": "2026-07-29",
     "pick": "Under 7.5",

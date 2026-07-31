@@ -574,5 +574,13 @@
     "candidate_rule": "Before grading or settling any MLB total pick, verify whether the game was postponed and rescheduled as part of a doubleheader, and flag any pick where the starting pitcher is now slotted into Game 2 of a twin bill with a depleted bullpen \u2014 N=1, insufficient to establish a hard rule, but the context shift is severe enough to warrant a pre-game data check as standard process.",
     "sample_size_warning": "N=1, insufficient to establish rule \u2014 this is a single-game postponement scenario; watching for pattern before codifying a doubleheader-context validator.",
     "status": "PENDING_REVIEW"
+  },
+  {
+    "proposed_at": "2026-07-31T02:20:01.815081-04:00",
+    "source_pick_id": "20260730-MLB-BOS-ATH-SPREAD",
+    "source_loss": "Boston Red Sox -1.5 (BOS @ ATH)",
+    "candidate_rule": "When a starting pitcher's career ERA vs. the specific opponent is 150%+ of his season ERA, flag the run line as elevated risk and require a secondary confirming edge before recommending -1.5 \u2014 but N=1 here, insufficient to establish a rule.",
+    "sample_size_warning": "N=1, insufficient to establish rule. One loss on a pitcher-specific splits miss is noise; track over minimum 10 similar setups before codifying.",
+    "status": "PENDING_REVIEW"
   }
 ]
