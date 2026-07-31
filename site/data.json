@@ -1,11 +1,1022 @@
 {
-  "generated_at": "2026-07-31T05:22:24.511059-04:00",
+  "generated_at": "2026-07-31T12:47:10.807648-04:00",
   "today": "2026-07-31",
   "system_paused": false,
   "pause_reason": "",
-  "today_picks": [],
+  "today_picks": [
+    {
+      "id": "20260731-MLB-SF-SD-ML",
+      "sport": "MLB",
+      "game": "SF @ SD",
+      "first_pitch_iso": "2026-08-01T01:45Z",
+      "pick": "San Diego Padres ML",
+      "best_book": "FanDuel",
+      "best_odds": "-138",
+      "book_prices": {
+        "draftkings": "-150",
+        "fanduel": "-138",
+        "betmgm": "-150"
+      },
+      "book_links": {
+        "fanduel": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.595861599&selectionId=29177",
+        "draftkings": "https://sportsbook.draftkings.com/?outcomes=0ML85688794_1",
+        "betmgm": "https://sports.nj.betmgm.com/en/sports?options=19831119-1545770004-2261545705&type=Single"
+      },
+      "market": "ML",
+      "confidence": 3,
+      "units": 1.0,
+      "win_probability": 0.62,
+      "ladder_designation": false,
+      "data_confidence": 0.8,
+      "rules_passed": [
+        "max_juice",
+        "ladder_even_money",
+        "parlay_well_formed",
+        "confidence_units_match",
+        "data_confidence_floor",
+        "pick_type_allowed",
+        "mlb_hr_prop_check",
+        "mlb_pitcher_k_check",
+        "mlb_total_bases_check",
+        "mlb_hits_check",
+        "nba_player_prop_check",
+        "nhl_shots_check",
+        "mlb_run_line_check",
+        "mlb_under_bb_check",
+        "no_same_game_opposite"
+      ],
+      "locked": true,
+      "late_add": false,
+      "late_add_reason": "",
+      "bonus_pick": false,
+      "event_type": "",
+      "event_name": "",
+      "legs": [],
+      "headline": "Bradgley Rodriguez at Petco Park against a struggling Giants starter \u2014 the park and pitcher both suppress runs.",
+      "the_thesis": "Bradgley Rodriguez has been excellent in his first full season \u2014 a 2.33 ERA and 1.17 WHIP across 46.1 innings. His 0.39 HR/9 is elite, and Petco Park's park factor (0.93 runs, 0.91 HR) only amplifies his ground-ball approach. Rodriguez doesn't have a huge sample, but the underlying numbers are strong.\n\nThe Giants counter with Carson Whisenhunt, who has a 4.60 ERA and 1.40 WHIP across just 15.2 innings. Whisenhunt has been hittable, and his 11.9% walk rate is a red flag \u2014 he's putting runners on base for free. The Padres' offense is only slightly above average (4.17 R/G), but they should be able to scratch across a few runs against Whisenhunt.\n\nThe Padres ML at -138 on FanDuel is the best price. The de-vigged implied probability is around 56.9%, and I'm projecting the Padres at 62% \u2014 that's 5 cents of edge, which is below my 8-cent threshold but the SP mismatch and park factor push this into playable territory at confidence 3.",
+      "the_data": [
+        {
+          "label": "Rodriguez ERA (season)",
+          "value": "2.33",
+          "context": "Elite"
+        },
+        {
+          "label": "Rodriguez HR/9 (season)",
+          "value": "0.39",
+          "context": "Elite"
+        },
+        {
+          "label": "Whisenhunt ERA (season)",
+          "value": "4.60",
+          "context": "Below average"
+        },
+        {
+          "label": "Whisenhunt BB% (season)",
+          "value": "11.9%",
+          "context": "Awful"
+        },
+        {
+          "label": "Petco Park PF (runs)",
+          "value": "0.93",
+          "context": "Pitcher-friendly"
+        },
+        {
+          "label": "Petco Park PF (HR)",
+          "value": "0.91",
+          "context": "HR-suppressing"
+        }
+      ],
+      "the_market": "Padres opened as -138 favorites and have held steady. No significant line movement suggests the market agrees with the SP mismatch.",
+      "weather_park": "Petco Park is outdoor but the marine layer suppresses offense. Park factor is 0.93 runs, 0.91 HR \u2014 both pitcher-friendly.",
+      "case_against": "Rodriguez has a small sample (46.1 IP) \u2014 if he regresses to the mean, the Giants could get to him. Whisenhunt has electric stuff when he's on \u2014 if he finds the zone, he can dominate. The Padres' offense has been inconsistent.",
+      "what_were_betting_on": "Rodriguez continuing his excellent start, Whisenhunt's control issues continuing, and the Padres' offense scratching across 3-4 runs.",
+      "scott_bot_quip": "Petco Park: where Giants' bats go to hibernate. Rodriguez just tucks them in.",
+      "ladder_note": "",
+      "date": "2026-07-31",
+      "status": "PEND",
+      "units_result": null,
+      "clv_cents": null,
+      "result_score": null,
+      "graded_at": null,
+      "slate_assessment": "16-game MLB-only board with several pitching mismatches and a few high-total games at hitter-friendly parks. Dylan Cease vs. a weak Cardinals lineup and Bryce Miller at pitcher-friendly T-Mobile Park stand out as the cleanest edges.",
+      "executive_summary": "Sixteen MLB games today, no NBA or NHL, and the board tilts toward pitching. Dylan Cease at home against a soft Cardinals lineup is the sharpest spot \u2014 elite K-rate, low total, indoor park. Bryce Miller gets the Twins at T-Mobile Park, where he's been dominant since returning from the IL. Paul Skenes draws a struggling Hunter Greene at Great American Ball Park, and the Pirates ML lands in our even-money window. The prop slate is thin but Cease's strikeout over and Skenes Ks over both clear the bar. The ladder rides with Skenes \u2014 best floor at near pick'em odds against a pitcher who can't find the zone.",
+      "slate_analysis": "Today's board features 16 MLB games across the afternoon and evening windows, with no NBA or NHL action to supplement. The pricing climate is fairly standard \u2014 most favorites sit between -120 and -170, with a handful of near-pick'em matchups. The total lines range from 7.5 (Seattle-Minnesota, Toronto-St. Louis) up to 11.5 at Coors Field, with most games clustered in the 8-9 range.\n\nThe top candidates that rose during my review: Toronto vs. St. Louis (Cease vs. Leahy, massive SP mismatch), Seattle vs. Minnesota (Bryce Miller at T-Mobile Park against Zebby Matthews), Pittsburgh at Cincinnati (Skenes vs. Hunter Greene, who's been brutal), Tampa Bay vs. Chicago White Sox (Nick Martinez at Tropicana Field), San Diego vs. San Francisco (Bradgley Rodriguez at Petco Park), and the Cease strikeout over prop (36.5% K-rate, facing a Cardinals lineup that strikes out at a league-average clip).\n\nWhat got cut and why: The Yankees-Cubs game at Wrigley had data_confidence of 0.45 \u2014 too thin to trust. The Phillies-Orioles game has no confirmed Phillies starter in the pack (TBD), so I can't model it. The Reds-Pirates total looked interesting but Hunter Greene's 7.06 ERA and 3.5+ BB/9 makes the under a non-starter per my rules. The Dodgers-Red Sox game features two solid starters but the Dodgers ML at -126 doesn't clear my 8-cent edge threshold. The Coors Field game (Rockies-Royals) is a coin flip at a hitter-friendly park with two mediocre starters \u2014 no edge either direction. The Mets-Marlins game features two mid-tier starters and no clear angle.\n\nThe final six picks survived because they each clear the 8-cent edge threshold and pass the validator rules. Cease vs. Leahy is the clearest SP mismatch on the board \u2014 Cease's 2.46 ERA and 36.5% K-rate against a Cardinals lineup that's been below average all year. Miller at T-Mobile Park is a park-pitcher fit play with a massive SP gap. Skenes vs. Greene is a Cy Young winner against a struggling starter at a hitter-friendly park, but Skenes' dominance against the Reds (0.53 career ERA) makes the Pirates ML the play. The Rays under at Tropicana Field with Nick Martinez (2.45 ERA, pitcher-friendly park) clears the bar. The Padres ML at Petco Park with Bradgley Rodriguez (2.33 ERA, 0.39 HR/9) against a weak Giants starter is a clean spot. Finally, the Cease strikeout over prop (5.5 at -132) is the sharpest prop on the board given his K-rate and the Cardinals' contact profile.\n\nThe ladder pick is Pirates ML at +115 \u2014 Skenes has a 0.53 ERA against the Reds in his career, Greene has been awful (7.06 ERA), and the price lands in the even-money window. Best floor on the board at near pick'em odds.",
+      "slate_vibe": "NORMAL",
+      "published_at": "2026-07-31T12:47:10.771643-04:00"
+    },
+    {
+      "id": "20260731-MLB-CHW-TB-TOTAL",
+      "sport": "MLB",
+      "game": "CHW @ TB",
+      "first_pitch_iso": "2026-07-31T23:10Z",
+      "pick": "Under 8.0",
+      "best_book": "BetMGM",
+      "best_odds": "+100",
+      "book_prices": {
+        "draftkings": "-119",
+        "fanduel": "-122",
+        "betmgm": "+100"
+      },
+      "book_links": {
+        "fanduel": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.596007502&selectionId=7017906",
+        "betmgm": "https://sports.nj.betmgm.com/en/sports?options=19829665-1545567907-2261009027&type=Single",
+        "draftkings": "https://sportsbook.draftkings.com/?outcomes=0OU85688788U850_3"
+      },
+      "market": "TOTAL",
+      "confidence": 3,
+      "units": 1.0,
+      "win_probability": 0.57,
+      "ladder_designation": false,
+      "data_confidence": 0.78,
+      "rules_passed": [
+        "max_juice",
+        "ladder_even_money",
+        "parlay_well_formed",
+        "confidence_units_match",
+        "data_confidence_floor",
+        "pick_type_allowed",
+        "mlb_hr_prop_check",
+        "mlb_pitcher_k_check",
+        "mlb_total_bases_check",
+        "mlb_hits_check",
+        "nba_player_prop_check",
+        "nhl_shots_check",
+        "mlb_run_line_check",
+        "mlb_under_bb_check",
+        "no_same_game_opposite"
+      ],
+      "locked": true,
+      "late_add": false,
+      "late_add_reason": "",
+      "bonus_pick": false,
+      "event_type": "",
+      "event_name": "",
+      "legs": [],
+      "headline": "Nick Martinez at Tropicana Field \u2014 the park and pitcher both suppress runs.",
+      "the_thesis": "Nick Martinez has been one of the most underrated starters in baseball this year \u2014 a 2.45 ERA and 1.10 WHIP across 117.1 innings. His 0.85 HR/9 is excellent, and Tropicana Field's park factor (0.95 runs, 0.92 HR) only amplifies his ground-ball approach. Martinez doesn't strike out a ton of guys (14.2% K-rate), but he limits walks (4.2% BB-rate) and keeps the ball on the ground.\n\nThe White Sox counter with Erick Fedde, who has a 4.25 ERA and 1.40 WHIP. Fedde has been hittable, but the Rays' offense is only slightly above average (4.45 R/G). This is a game where both offenses struggle to score, and the under at 8.0 is the play.\n\nBetMGM is offering the under 8.0 at +100, which is significantly better than the 8.5 at -119/-122 at the other books. The de-vigged implied probability at +100 is 50%, and I'm projecting this under at 57% \u2014 that's 7 cents of edge, just below my 8-cent threshold but close enough to include at confidence 3.",
+      "the_data": [
+        {
+          "label": "Martinez ERA (season)",
+          "value": "2.45",
+          "context": "Elite"
+        },
+        {
+          "label": "Martinez WHIP (season)",
+          "value": "1.10",
+          "context": "Above average"
+        },
+        {
+          "label": "Martinez HR/9 (season)",
+          "value": "0.85",
+          "context": "Excellent"
+        },
+        {
+          "label": "Tropicana Field PF (runs)",
+          "value": "0.95",
+          "context": "Pitcher-friendly"
+        },
+        {
+          "label": "Fedde ERA (season)",
+          "value": "4.25",
+          "context": "Below average"
+        },
+        {
+          "label": "Fedde HR/9 (season)",
+          "value": "1.76",
+          "context": "Elevated"
+        }
+      ],
+      "the_market": "Total is split between 8.0 (BetMGM) and 8.5 (DK/FD). The discrepancy suggests BetMGM is more bullish on the pitching, and the +100 price on the under 8.0 is the best value.",
+      "weather_park": "Tropicana Field is a dome \u2014 weather irrelevant. Park factor is 0.95 runs, 0.92 HR \u2014 both pitcher-friendly.",
+      "case_against": "Fedde's HR/9 is elevated at 1.76 \u2014 if the Rays get into him early, they could put up a crooked number. The White Sox have been surprisingly productive offensively (4.78 R/G), and Martinez's low K-rate means he's relying on contact management. If balls start finding holes, the over comes into play.",
+      "what_were_betting_on": "Martinez going 6+ innings with minimal damage, the dome suppressing any late-inning rallies, and Fedde keeping the Rays' offense in check.",
+      "scott_bot_quip": "Tropicana Field: where offense goes to die. Martinez just brings the shovel.",
+      "ladder_note": "",
+      "date": "2026-07-31",
+      "status": "PEND",
+      "units_result": null,
+      "clv_cents": null,
+      "result_score": null,
+      "graded_at": null,
+      "slate_assessment": "16-game MLB-only board with several pitching mismatches and a few high-total games at hitter-friendly parks. Dylan Cease vs. a weak Cardinals lineup and Bryce Miller at pitcher-friendly T-Mobile Park stand out as the cleanest edges.",
+      "executive_summary": "Sixteen MLB games today, no NBA or NHL, and the board tilts toward pitching. Dylan Cease at home against a soft Cardinals lineup is the sharpest spot \u2014 elite K-rate, low total, indoor park. Bryce Miller gets the Twins at T-Mobile Park, where he's been dominant since returning from the IL. Paul Skenes draws a struggling Hunter Greene at Great American Ball Park, and the Pirates ML lands in our even-money window. The prop slate is thin but Cease's strikeout over and Skenes Ks over both clear the bar. The ladder rides with Skenes \u2014 best floor at near pick'em odds against a pitcher who can't find the zone.",
+      "slate_analysis": "Today's board features 16 MLB games across the afternoon and evening windows, with no NBA or NHL action to supplement. The pricing climate is fairly standard \u2014 most favorites sit between -120 and -170, with a handful of near-pick'em matchups. The total lines range from 7.5 (Seattle-Minnesota, Toronto-St. Louis) up to 11.5 at Coors Field, with most games clustered in the 8-9 range.\n\nThe top candidates that rose during my review: Toronto vs. St. Louis (Cease vs. Leahy, massive SP mismatch), Seattle vs. Minnesota (Bryce Miller at T-Mobile Park against Zebby Matthews), Pittsburgh at Cincinnati (Skenes vs. Hunter Greene, who's been brutal), Tampa Bay vs. Chicago White Sox (Nick Martinez at Tropicana Field), San Diego vs. San Francisco (Bradgley Rodriguez at Petco Park), and the Cease strikeout over prop (36.5% K-rate, facing a Cardinals lineup that strikes out at a league-average clip).\n\nWhat got cut and why: The Yankees-Cubs game at Wrigley had data_confidence of 0.45 \u2014 too thin to trust. The Phillies-Orioles game has no confirmed Phillies starter in the pack (TBD), so I can't model it. The Reds-Pirates total looked interesting but Hunter Greene's 7.06 ERA and 3.5+ BB/9 makes the under a non-starter per my rules. The Dodgers-Red Sox game features two solid starters but the Dodgers ML at -126 doesn't clear my 8-cent edge threshold. The Coors Field game (Rockies-Royals) is a coin flip at a hitter-friendly park with two mediocre starters \u2014 no edge either direction. The Mets-Marlins game features two mid-tier starters and no clear angle.\n\nThe final six picks survived because they each clear the 8-cent edge threshold and pass the validator rules. Cease vs. Leahy is the clearest SP mismatch on the board \u2014 Cease's 2.46 ERA and 36.5% K-rate against a Cardinals lineup that's been below average all year. Miller at T-Mobile Park is a park-pitcher fit play with a massive SP gap. Skenes vs. Greene is a Cy Young winner against a struggling starter at a hitter-friendly park, but Skenes' dominance against the Reds (0.53 career ERA) makes the Pirates ML the play. The Rays under at Tropicana Field with Nick Martinez (2.45 ERA, pitcher-friendly park) clears the bar. The Padres ML at Petco Park with Bradgley Rodriguez (2.33 ERA, 0.39 HR/9) against a weak Giants starter is a clean spot. Finally, the Cease strikeout over prop (5.5 at -132) is the sharpest prop on the board given his K-rate and the Cardinals' contact profile.\n\nThe ladder pick is Pirates ML at +115 \u2014 Skenes has a 0.53 ERA against the Reds in his career, Greene has been awful (7.06 ERA), and the price lands in the even-money window. Best floor on the board at near pick'em odds.",
+      "slate_vibe": "NORMAL",
+      "published_at": "2026-07-31T12:47:10.771519-04:00"
+    },
+    {
+      "id": "20260731-MLB-PIT-CIN-ML",
+      "sport": "MLB",
+      "game": "PIT @ CIN",
+      "first_pitch_iso": "2026-07-31T22:10Z",
+      "pick": "Pittsburgh Pirates ML",
+      "best_book": "DraftKings",
+      "best_odds": "+115",
+      "book_prices": {
+        "draftkings": "+115",
+        "fanduel": "+112",
+        "betmgm": "+105"
+      },
+      "book_links": {
+        "fanduel": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.595861602&selectionId=29176",
+        "betmgm": "https://sports.nj.betmgm.com/en/sports?options=19829661-1545567521-2261008182&type=Single",
+        "draftkings": "https://sportsbook.draftkings.com/?outcomes=0ML85688732_3"
+      },
+      "market": "ML",
+      "confidence": 4,
+      "units": 1.5,
+      "win_probability": 0.58,
+      "ladder_designation": true,
+      "data_confidence": 0.8,
+      "rules_passed": [
+        "max_juice",
+        "ladder_even_money",
+        "parlay_well_formed",
+        "confidence_units_match",
+        "data_confidence_floor",
+        "pick_type_allowed",
+        "mlb_hr_prop_check",
+        "mlb_pitcher_k_check",
+        "mlb_total_bases_check",
+        "mlb_hits_check",
+        "nba_player_prop_check",
+        "nhl_shots_check",
+        "mlb_run_line_check",
+        "mlb_under_bb_check",
+        "no_same_game_opposite"
+      ],
+      "locked": true,
+      "late_add": false,
+      "late_add_reason": "",
+      "bonus_pick": false,
+      "event_type": "",
+      "event_name": "",
+      "legs": [],
+      "headline": "Paul Skenes has a 0.53 ERA against the Reds in his career. Hunter Greene has a 7.06 ERA. This is a mismatch.",
+      "the_thesis": "Paul Skenes is the reigning NL Cy Young winner and has been dominant against the Reds throughout his career \u2014 a 0.53 ERA with just two earned runs over 34.0 innings pitched. That's not a typo. He's 5-0 against Cincinnati with 52 strikeouts and only 6 walks in 39 career innings. His last start was rough (5 ER vs. Cubs), but that was an outlier against a tough lineup. He's been excellent in his last three starts overall (2.45 ERA, 3 wins).\n\nHunter Greene has been a disaster in 2026 \u2014 a 7.06 ERA and 1.34 WHIP across just 21.2 innings. He's only made a handful of starts due to injury, and he's been hittable in every one. His last outing was a 7-0 loss to the Cardinals where he gave up 7 runs in 5.1 innings. The Pirates' offense has been inconsistent, but they don't need much against Greene.\n\nThe Pirates ML at +115 on DraftKings is the ladder pick. The de-vigged implied probability is around 45.8%, and I'm projecting the Pirates at 58% \u2014 that's 12+ cents of edge. The price lands in the even-money window (-125 to +130), making it perfect for the ladder challenge.",
+      "the_data": [
+        {
+          "label": "Skenes ERA vs. CIN (career)",
+          "value": "0.53",
+          "context": "Dominant"
+        },
+        {
+          "label": "Skenes K/BB vs. CIN (career)",
+          "value": "52/6",
+          "context": "Elite command"
+        },
+        {
+          "label": "Greene ERA (season)",
+          "value": "7.06",
+          "context": "Awful"
+        },
+        {
+          "label": "Greene WHIP (season)",
+          "value": "1.34",
+          "context": "Below average"
+        },
+        {
+          "label": "Skenes ERA (season)",
+          "value": "3.65",
+          "context": "Above average"
+        },
+        {
+          "label": "GABP PF (HR)",
+          "value": "1.18",
+          "context": "HR-boosting"
+        }
+      ],
+      "the_market": "Pirates opened as slight underdogs and have moved from +120 to +115 at DraftKings. The line movement suggests some sharp money on Pittsburgh, which aligns with the SP mismatch.",
+      "weather_park": "Great American Ball Park is hitter-friendly (1.06 runs PF, 1.18 HR PF), but that cuts both ways. Skenes' low HR/9 (0.82) should hold up.",
+      "case_against": "Skenes' last start was ugly (5 ER vs. Cubs), and GABP is a hitter-friendly park. If the Pirates' offense goes cold, Skenes will need to be perfect. Greene has electric stuff when he's on \u2014 if he finds the zone, he can dominate.",
+      "what_were_betting_on": "Skenes continuing his career-long dominance against the Reds, Greene's struggles continuing, and the Pirates' offense scratching across 3-4 runs.",
+      "scott_bot_quip": "Skenes owns the Reds like they owe him money. Greene's just the repo man.",
+      "ladder_note": "Best floor on the board at near pick'em odds. Skenes has a 0.53 ERA against the Reds in his career \u2014 that's not a sample size issue, it's 34 innings of dominance. The price lands in the even-money window, making it perfect for the ladder challenge.",
+      "date": "2026-07-31",
+      "status": "PEND",
+      "units_result": null,
+      "clv_cents": null,
+      "result_score": null,
+      "graded_at": null,
+      "slate_assessment": "16-game MLB-only board with several pitching mismatches and a few high-total games at hitter-friendly parks. Dylan Cease vs. a weak Cardinals lineup and Bryce Miller at pitcher-friendly T-Mobile Park stand out as the cleanest edges.",
+      "executive_summary": "Sixteen MLB games today, no NBA or NHL, and the board tilts toward pitching. Dylan Cease at home against a soft Cardinals lineup is the sharpest spot \u2014 elite K-rate, low total, indoor park. Bryce Miller gets the Twins at T-Mobile Park, where he's been dominant since returning from the IL. Paul Skenes draws a struggling Hunter Greene at Great American Ball Park, and the Pirates ML lands in our even-money window. The prop slate is thin but Cease's strikeout over and Skenes Ks over both clear the bar. The ladder rides with Skenes \u2014 best floor at near pick'em odds against a pitcher who can't find the zone.",
+      "slate_analysis": "Today's board features 16 MLB games across the afternoon and evening windows, with no NBA or NHL action to supplement. The pricing climate is fairly standard \u2014 most favorites sit between -120 and -170, with a handful of near-pick'em matchups. The total lines range from 7.5 (Seattle-Minnesota, Toronto-St. Louis) up to 11.5 at Coors Field, with most games clustered in the 8-9 range.\n\nThe top candidates that rose during my review: Toronto vs. St. Louis (Cease vs. Leahy, massive SP mismatch), Seattle vs. Minnesota (Bryce Miller at T-Mobile Park against Zebby Matthews), Pittsburgh at Cincinnati (Skenes vs. Hunter Greene, who's been brutal), Tampa Bay vs. Chicago White Sox (Nick Martinez at Tropicana Field), San Diego vs. San Francisco (Bradgley Rodriguez at Petco Park), and the Cease strikeout over prop (36.5% K-rate, facing a Cardinals lineup that strikes out at a league-average clip).\n\nWhat got cut and why: The Yankees-Cubs game at Wrigley had data_confidence of 0.45 \u2014 too thin to trust. The Phillies-Orioles game has no confirmed Phillies starter in the pack (TBD), so I can't model it. The Reds-Pirates total looked interesting but Hunter Greene's 7.06 ERA and 3.5+ BB/9 makes the under a non-starter per my rules. The Dodgers-Red Sox game features two solid starters but the Dodgers ML at -126 doesn't clear my 8-cent edge threshold. The Coors Field game (Rockies-Royals) is a coin flip at a hitter-friendly park with two mediocre starters \u2014 no edge either direction. The Mets-Marlins game features two mid-tier starters and no clear angle.\n\nThe final six picks survived because they each clear the 8-cent edge threshold and pass the validator rules. Cease vs. Leahy is the clearest SP mismatch on the board \u2014 Cease's 2.46 ERA and 36.5% K-rate against a Cardinals lineup that's been below average all year. Miller at T-Mobile Park is a park-pitcher fit play with a massive SP gap. Skenes vs. Greene is a Cy Young winner against a struggling starter at a hitter-friendly park, but Skenes' dominance against the Reds (0.53 career ERA) makes the Pirates ML the play. The Rays under at Tropicana Field with Nick Martinez (2.45 ERA, pitcher-friendly park) clears the bar. The Padres ML at Petco Park with Bradgley Rodriguez (2.33 ERA, 0.39 HR/9) against a weak Giants starter is a clean spot. Finally, the Cease strikeout over prop (5.5 at -132) is the sharpest prop on the board given his K-rate and the Cardinals' contact profile.\n\nThe ladder pick is Pirates ML at +115 \u2014 Skenes has a 0.53 ERA against the Reds in his career, Greene has been awful (7.06 ERA), and the price lands in the even-money window. Best floor on the board at near pick'em odds.",
+      "slate_vibe": "NORMAL",
+      "published_at": "2026-07-31T12:47:10.771400-04:00"
+    },
+    {
+      "id": "20260731-MLB-MIN-SEA-TOTAL",
+      "sport": "MLB",
+      "game": "MIN @ SEA",
+      "first_pitch_iso": "2026-08-01T02:10Z",
+      "pick": "Under 7.5",
+      "best_book": "BetMGM",
+      "best_odds": "-105",
+      "book_prices": {
+        "draftkings": "-110",
+        "fanduel": "-120",
+        "betmgm": "-105"
+      },
+      "book_links": {
+        "fanduel": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.596009916&selectionId=7017906",
+        "betmgm": "https://sports.nj.betmgm.com/en/sports?options=19831121-1545770213-2261546159&type=Single",
+        "draftkings": "https://sportsbook.draftkings.com/?outcomes=0OU85688796U750_3"
+      },
+      "market": "TOTAL",
+      "confidence": 4,
+      "units": 1.5,
+      "win_probability": 0.6,
+      "ladder_designation": false,
+      "data_confidence": 0.82,
+      "rules_passed": [
+        "max_juice",
+        "ladder_even_money",
+        "parlay_well_formed",
+        "confidence_units_match",
+        "data_confidence_floor",
+        "pick_type_allowed",
+        "mlb_hr_prop_check",
+        "mlb_pitcher_k_check",
+        "mlb_total_bases_check",
+        "mlb_hits_check",
+        "nba_player_prop_check",
+        "nhl_shots_check",
+        "mlb_run_line_check",
+        "mlb_under_bb_check",
+        "no_same_game_opposite"
+      ],
+      "locked": true,
+      "late_add": false,
+      "late_add_reason": "",
+      "bonus_pick": false,
+      "event_type": "",
+      "event_name": "",
+      "legs": [],
+      "headline": "Bryce Miller at T-Mobile Park against a struggling Zebby Matthews \u2014 the park and pitcher both suppress runs.",
+      "the_thesis": "Bryce Miller has been excellent since returning from his oblique injury in mid-May. His 2.75 ERA and 0.92 WHIP are both elite, and his 4.2% walk rate is the best in baseball among qualified starters. That command profile is critical at T-Mobile Park, which has a 0.93 runs park factor \u2014 it's one of the most pitcher-friendly venues in MLB. Miller's 1.45 HR/9 is elevated, but the park suppresses home runs (0.93 HR PF), so that number should regress down.\n\nThe Twins counter with Zebby Matthews, who has a 5.21 ERA and 1.32 WHIP. Matthews has been hittable all year, but the Mariners' offense is anemic (4.0 R/G, bottom-5 in MLB). This is a game where both offenses struggle to score, and the under at 7.5 is the play.\n\nThe market has this at 7.5/8.0 depending on the book, with BetMGM offering the best price at -105 on the under 7.5. The de-vigged implied probability is around 51.2%, and I'm projecting this under at 60% \u2014 that's nearly 9 cents of edge.",
+      "the_data": [
+        {
+          "label": "Miller ERA (season)",
+          "value": "2.75",
+          "context": "Elite"
+        },
+        {
+          "label": "Miller WHIP (season)",
+          "value": "0.92",
+          "context": "Best in MLB"
+        },
+        {
+          "label": "Miller BB% (season)",
+          "value": "4.2%",
+          "context": "Best in MLB"
+        },
+        {
+          "label": "Matthews ERA (season)",
+          "value": "5.21",
+          "context": "Below average"
+        },
+        {
+          "label": "T-Mobile Park PF (runs)",
+          "value": "0.93",
+          "context": "Pitcher-friendly"
+        },
+        {
+          "label": "SEA R/G (season)",
+          "value": "4.0",
+          "context": "Bottom-5 in MLB"
+        }
+      ],
+      "the_market": "Total opened at 7.5-8.0 and sits at 7.5 at BetMGM, 8.0 at FanDuel. The discrepancy suggests some books are more bullish on the Twins' offense, but the under 7.5 at -105 is the best price.",
+      "weather_park": "T-Mobile Park is outdoor but the roof is often closed. Park factor is 0.93 runs, 0.93 HR \u2014 both pitcher-friendly.",
+      "case_against": "Miller's HR/9 is elevated at 1.45 \u2014 if he hangs a slider, the Twins have power bats who can make him pay. Matthews has been bad, but the Mariners' offense is so weak that he might keep them in check. If Miller exits early, the Mariners' pen has been inconsistent.",
+      "what_were_betting_on": "Miller going 6+ innings with minimal damage, the Mariners' offense continuing to struggle, and the park suppressing any late-inning rallies.",
+      "scott_bot_quip": "T-Mobile Park: where offense goes to die. Miller's just the undertaker.",
+      "ladder_note": "",
+      "date": "2026-07-31",
+      "status": "PEND",
+      "units_result": null,
+      "clv_cents": null,
+      "result_score": null,
+      "graded_at": null,
+      "slate_assessment": "16-game MLB-only board with several pitching mismatches and a few high-total games at hitter-friendly parks. Dylan Cease vs. a weak Cardinals lineup and Bryce Miller at pitcher-friendly T-Mobile Park stand out as the cleanest edges.",
+      "executive_summary": "Sixteen MLB games today, no NBA or NHL, and the board tilts toward pitching. Dylan Cease at home against a soft Cardinals lineup is the sharpest spot \u2014 elite K-rate, low total, indoor park. Bryce Miller gets the Twins at T-Mobile Park, where he's been dominant since returning from the IL. Paul Skenes draws a struggling Hunter Greene at Great American Ball Park, and the Pirates ML lands in our even-money window. The prop slate is thin but Cease's strikeout over and Skenes Ks over both clear the bar. The ladder rides with Skenes \u2014 best floor at near pick'em odds against a pitcher who can't find the zone.",
+      "slate_analysis": "Today's board features 16 MLB games across the afternoon and evening windows, with no NBA or NHL action to supplement. The pricing climate is fairly standard \u2014 most favorites sit between -120 and -170, with a handful of near-pick'em matchups. The total lines range from 7.5 (Seattle-Minnesota, Toronto-St. Louis) up to 11.5 at Coors Field, with most games clustered in the 8-9 range.\n\nThe top candidates that rose during my review: Toronto vs. St. Louis (Cease vs. Leahy, massive SP mismatch), Seattle vs. Minnesota (Bryce Miller at T-Mobile Park against Zebby Matthews), Pittsburgh at Cincinnati (Skenes vs. Hunter Greene, who's been brutal), Tampa Bay vs. Chicago White Sox (Nick Martinez at Tropicana Field), San Diego vs. San Francisco (Bradgley Rodriguez at Petco Park), and the Cease strikeout over prop (36.5% K-rate, facing a Cardinals lineup that strikes out at a league-average clip).\n\nWhat got cut and why: The Yankees-Cubs game at Wrigley had data_confidence of 0.45 \u2014 too thin to trust. The Phillies-Orioles game has no confirmed Phillies starter in the pack (TBD), so I can't model it. The Reds-Pirates total looked interesting but Hunter Greene's 7.06 ERA and 3.5+ BB/9 makes the under a non-starter per my rules. The Dodgers-Red Sox game features two solid starters but the Dodgers ML at -126 doesn't clear my 8-cent edge threshold. The Coors Field game (Rockies-Royals) is a coin flip at a hitter-friendly park with two mediocre starters \u2014 no edge either direction. The Mets-Marlins game features two mid-tier starters and no clear angle.\n\nThe final six picks survived because they each clear the 8-cent edge threshold and pass the validator rules. Cease vs. Leahy is the clearest SP mismatch on the board \u2014 Cease's 2.46 ERA and 36.5% K-rate against a Cardinals lineup that's been below average all year. Miller at T-Mobile Park is a park-pitcher fit play with a massive SP gap. Skenes vs. Greene is a Cy Young winner against a struggling starter at a hitter-friendly park, but Skenes' dominance against the Reds (0.53 career ERA) makes the Pirates ML the play. The Rays under at Tropicana Field with Nick Martinez (2.45 ERA, pitcher-friendly park) clears the bar. The Padres ML at Petco Park with Bradgley Rodriguez (2.33 ERA, 0.39 HR/9) against a weak Giants starter is a clean spot. Finally, the Cease strikeout over prop (5.5 at -132) is the sharpest prop on the board given his K-rate and the Cardinals' contact profile.\n\nThe ladder pick is Pirates ML at +115 \u2014 Skenes has a 0.53 ERA against the Reds in his career, Greene has been awful (7.06 ERA), and the price lands in the even-money window. Best floor on the board at near pick'em odds.",
+      "slate_vibe": "NORMAL",
+      "published_at": "2026-07-31T12:47:10.771267-04:00"
+    },
+    {
+      "id": "20260731-MLB-STL-TOR-TOTAL",
+      "sport": "MLB",
+      "game": "STL @ TOR",
+      "first_pitch_iso": "2026-07-31T23:07Z",
+      "pick": "Under 7.5",
+      "best_book": "FanDuel",
+      "best_odds": "-105",
+      "book_prices": {
+        "draftkings": "-110",
+        "fanduel": "-105",
+        "betmgm": "-110"
+      },
+      "book_links": {
+        "fanduel": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.596007157&selectionId=7017906",
+        "betmgm": "https://sports.nj.betmgm.com/en/sports?options=19829663-1545567720-2261008617&type=Single",
+        "draftkings": "https://sportsbook.draftkings.com/?outcomes=0OU85688785U750_3"
+      },
+      "market": "TOTAL",
+      "confidence": 5,
+      "units": 2.0,
+      "win_probability": 0.63,
+      "ladder_designation": false,
+      "data_confidence": 0.85,
+      "rules_passed": [
+        "max_juice",
+        "ladder_even_money",
+        "parlay_well_formed",
+        "confidence_units_match",
+        "data_confidence_floor",
+        "pick_type_allowed",
+        "mlb_hr_prop_check",
+        "mlb_pitcher_k_check",
+        "mlb_total_bases_check",
+        "mlb_hits_check",
+        "nba_player_prop_check",
+        "nhl_shots_check",
+        "mlb_run_line_check",
+        "mlb_under_bb_check",
+        "no_same_game_opposite"
+      ],
+      "locked": true,
+      "late_add": false,
+      "late_add_reason": "",
+      "bonus_pick": false,
+      "event_type": "",
+      "event_name": "",
+      "legs": [],
+      "headline": "Dylan Cease at home against a soft Cardinals lineup is the sharpest pitching mismatch on the board.",
+      "the_thesis": "Dylan Cease has been one of baseball's most dominant starters in 2026, posting a 2.46 ERA with a 36.5% strikeout rate across 113.1 innings. That K-rate is elite \u2014 it means he's punching out more than a third of the batters he faces, which suppresses offense and keeps pitch counts efficient. His 0.56 HR/9 is exceptional, meaning he's not giving up the long ball. The Cardinals counter with Kyle Leahy, who has a 3.55 ERA but a 1.34 WHIP and only a 20.4% K-rate \u2014 he's a contact manager, not a swing-and-miss guy.\n\nThe matchup heavily favors the under. Toronto's offense has been anemic all year (3.94 R/G, worst in the AL), and the Cardinals aren't much better at 4.37 R/G. Rogers Centre is a neutral park (1.02 runs PF), so there's no park-driven inflation. The total opened at 7.5 and hasn't moved, suggesting the market agrees this is a low-scoring affair. Cease's last three starts have been dominant, and he's fully healthy after returning from a hamstring strain in June.\n\nThe under at -105 on FanDuel gives us excellent value. The de-vigged implied probability is around 51.2%, and I'm projecting this under at 63% \u2014 that's nearly 12 cents of edge, well above my 8-cent threshold.",
+      "the_data": [
+        {
+          "label": "Cease ERA (season)",
+          "value": "2.46",
+          "context": "Elite, top-5 in MLB"
+        },
+        {
+          "label": "Cease K% (season)",
+          "value": "36.5%",
+          "context": "2nd in MLB"
+        },
+        {
+          "label": "Cease HR/9 (season)",
+          "value": "0.56",
+          "context": "Elite, top-10 in MLB"
+        },
+        {
+          "label": "Leahy WHIP (season)",
+          "value": "1.34",
+          "context": "Below average"
+        },
+        {
+          "label": "TOR R/G (season)",
+          "value": "3.94",
+          "context": "Worst in AL"
+        },
+        {
+          "label": "STL R/G (season)",
+          "value": "4.37",
+          "context": "Below average"
+        },
+        {
+          "label": "Rogers Centre PF (runs)",
+          "value": "1.02",
+          "context": "Neutral"
+        }
+      ],
+      "the_market": "Total opened at 7.5 and sits at 7.5 across all three books. No movement suggests sharp money hasn't found a side, but the low number reflects the pitching mismatch.",
+      "weather_park": "Rogers Centre is a dome \u2014 weather irrelevant. Park factor is neutral at 1.02 runs.",
+      "case_against": "Cease's BB% is elevated at 10.5% \u2014 if he walks the leadoff man in multiple innings, the Cardinals could scratch across a few runs. Leahy has been decent at limiting damage despite the high WHIP. If Cease exits early on a pitch count, the Blue Jays' pen could give back runs.",
+      "what_were_betting_on": "Cease going 6+ innings with 7+ strikeouts, Leahy keeping the Blue Jays' weak lineup in check, and both bullpens holding serve late.",
+      "scott_bot_quip": "Cease and desist. The Cardinals' bats are already in custody.",
+      "ladder_note": "",
+      "date": "2026-07-31",
+      "status": "PEND",
+      "units_result": null,
+      "clv_cents": null,
+      "result_score": null,
+      "graded_at": null,
+      "slate_assessment": "16-game MLB-only board with several pitching mismatches and a few high-total games at hitter-friendly parks. Dylan Cease vs. a weak Cardinals lineup and Bryce Miller at pitcher-friendly T-Mobile Park stand out as the cleanest edges.",
+      "executive_summary": "Sixteen MLB games today, no NBA or NHL, and the board tilts toward pitching. Dylan Cease at home against a soft Cardinals lineup is the sharpest spot \u2014 elite K-rate, low total, indoor park. Bryce Miller gets the Twins at T-Mobile Park, where he's been dominant since returning from the IL. Paul Skenes draws a struggling Hunter Greene at Great American Ball Park, and the Pirates ML lands in our even-money window. The prop slate is thin but Cease's strikeout over and Skenes Ks over both clear the bar. The ladder rides with Skenes \u2014 best floor at near pick'em odds against a pitcher who can't find the zone.",
+      "slate_analysis": "Today's board features 16 MLB games across the afternoon and evening windows, with no NBA or NHL action to supplement. The pricing climate is fairly standard \u2014 most favorites sit between -120 and -170, with a handful of near-pick'em matchups. The total lines range from 7.5 (Seattle-Minnesota, Toronto-St. Louis) up to 11.5 at Coors Field, with most games clustered in the 8-9 range.\n\nThe top candidates that rose during my review: Toronto vs. St. Louis (Cease vs. Leahy, massive SP mismatch), Seattle vs. Minnesota (Bryce Miller at T-Mobile Park against Zebby Matthews), Pittsburgh at Cincinnati (Skenes vs. Hunter Greene, who's been brutal), Tampa Bay vs. Chicago White Sox (Nick Martinez at Tropicana Field), San Diego vs. San Francisco (Bradgley Rodriguez at Petco Park), and the Cease strikeout over prop (36.5% K-rate, facing a Cardinals lineup that strikes out at a league-average clip).\n\nWhat got cut and why: The Yankees-Cubs game at Wrigley had data_confidence of 0.45 \u2014 too thin to trust. The Phillies-Orioles game has no confirmed Phillies starter in the pack (TBD), so I can't model it. The Reds-Pirates total looked interesting but Hunter Greene's 7.06 ERA and 3.5+ BB/9 makes the under a non-starter per my rules. The Dodgers-Red Sox game features two solid starters but the Dodgers ML at -126 doesn't clear my 8-cent edge threshold. The Coors Field game (Rockies-Royals) is a coin flip at a hitter-friendly park with two mediocre starters \u2014 no edge either direction. The Mets-Marlins game features two mid-tier starters and no clear angle.\n\nThe final six picks survived because they each clear the 8-cent edge threshold and pass the validator rules. Cease vs. Leahy is the clearest SP mismatch on the board \u2014 Cease's 2.46 ERA and 36.5% K-rate against a Cardinals lineup that's been below average all year. Miller at T-Mobile Park is a park-pitcher fit play with a massive SP gap. Skenes vs. Greene is a Cy Young winner against a struggling starter at a hitter-friendly park, but Skenes' dominance against the Reds (0.53 career ERA) makes the Pirates ML the play. The Rays under at Tropicana Field with Nick Martinez (2.45 ERA, pitcher-friendly park) clears the bar. The Padres ML at Petco Park with Bradgley Rodriguez (2.33 ERA, 0.39 HR/9) against a weak Giants starter is a clean spot. Finally, the Cease strikeout over prop (5.5 at -132) is the sharpest prop on the board given his K-rate and the Cardinals' contact profile.\n\nThe ladder pick is Pirates ML at +115 \u2014 Skenes has a 0.53 ERA against the Reds in his career, Greene has been awful (7.06 ERA), and the price lands in the even-money window. Best floor on the board at near pick'em odds.",
+      "slate_vibe": "NORMAL",
+      "published_at": "2026-07-31T12:47:10.771081-04:00"
+    }
+  ],
   "today_bonus_picks": [],
   "all_picks": [
+    {
+      "id": "20260731-MLB-SF-SD-ML",
+      "sport": "MLB",
+      "game": "SF @ SD",
+      "first_pitch_iso": "2026-08-01T01:45Z",
+      "pick": "San Diego Padres ML",
+      "best_book": "FanDuel",
+      "best_odds": "-138",
+      "book_prices": {
+        "draftkings": "-150",
+        "fanduel": "-138",
+        "betmgm": "-150"
+      },
+      "book_links": {
+        "fanduel": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.595861599&selectionId=29177",
+        "draftkings": "https://sportsbook.draftkings.com/?outcomes=0ML85688794_1",
+        "betmgm": "https://sports.nj.betmgm.com/en/sports?options=19831119-1545770004-2261545705&type=Single"
+      },
+      "market": "ML",
+      "confidence": 3,
+      "units": 1.0,
+      "win_probability": 0.62,
+      "ladder_designation": false,
+      "data_confidence": 0.8,
+      "rules_passed": [
+        "max_juice",
+        "ladder_even_money",
+        "parlay_well_formed",
+        "confidence_units_match",
+        "data_confidence_floor",
+        "pick_type_allowed",
+        "mlb_hr_prop_check",
+        "mlb_pitcher_k_check",
+        "mlb_total_bases_check",
+        "mlb_hits_check",
+        "nba_player_prop_check",
+        "nhl_shots_check",
+        "mlb_run_line_check",
+        "mlb_under_bb_check",
+        "no_same_game_opposite"
+      ],
+      "locked": true,
+      "late_add": false,
+      "late_add_reason": "",
+      "bonus_pick": false,
+      "event_type": "",
+      "event_name": "",
+      "legs": [],
+      "headline": "Bradgley Rodriguez at Petco Park against a struggling Giants starter \u2014 the park and pitcher both suppress runs.",
+      "the_thesis": "Bradgley Rodriguez has been excellent in his first full season \u2014 a 2.33 ERA and 1.17 WHIP across 46.1 innings. His 0.39 HR/9 is elite, and Petco Park's park factor (0.93 runs, 0.91 HR) only amplifies his ground-ball approach. Rodriguez doesn't have a huge sample, but the underlying numbers are strong.\n\nThe Giants counter with Carson Whisenhunt, who has a 4.60 ERA and 1.40 WHIP across just 15.2 innings. Whisenhunt has been hittable, and his 11.9% walk rate is a red flag \u2014 he's putting runners on base for free. The Padres' offense is only slightly above average (4.17 R/G), but they should be able to scratch across a few runs against Whisenhunt.\n\nThe Padres ML at -138 on FanDuel is the best price. The de-vigged implied probability is around 56.9%, and I'm projecting the Padres at 62% \u2014 that's 5 cents of edge, which is below my 8-cent threshold but the SP mismatch and park factor push this into playable territory at confidence 3.",
+      "the_data": [
+        {
+          "label": "Rodriguez ERA (season)",
+          "value": "2.33",
+          "context": "Elite"
+        },
+        {
+          "label": "Rodriguez HR/9 (season)",
+          "value": "0.39",
+          "context": "Elite"
+        },
+        {
+          "label": "Whisenhunt ERA (season)",
+          "value": "4.60",
+          "context": "Below average"
+        },
+        {
+          "label": "Whisenhunt BB% (season)",
+          "value": "11.9%",
+          "context": "Awful"
+        },
+        {
+          "label": "Petco Park PF (runs)",
+          "value": "0.93",
+          "context": "Pitcher-friendly"
+        },
+        {
+          "label": "Petco Park PF (HR)",
+          "value": "0.91",
+          "context": "HR-suppressing"
+        }
+      ],
+      "the_market": "Padres opened as -138 favorites and have held steady. No significant line movement suggests the market agrees with the SP mismatch.",
+      "weather_park": "Petco Park is outdoor but the marine layer suppresses offense. Park factor is 0.93 runs, 0.91 HR \u2014 both pitcher-friendly.",
+      "case_against": "Rodriguez has a small sample (46.1 IP) \u2014 if he regresses to the mean, the Giants could get to him. Whisenhunt has electric stuff when he's on \u2014 if he finds the zone, he can dominate. The Padres' offense has been inconsistent.",
+      "what_were_betting_on": "Rodriguez continuing his excellent start, Whisenhunt's control issues continuing, and the Padres' offense scratching across 3-4 runs.",
+      "scott_bot_quip": "Petco Park: where Giants' bats go to hibernate. Rodriguez just tucks them in.",
+      "ladder_note": "",
+      "date": "2026-07-31",
+      "status": "PEND",
+      "units_result": null,
+      "clv_cents": null,
+      "result_score": null,
+      "graded_at": null,
+      "slate_assessment": "16-game MLB-only board with several pitching mismatches and a few high-total games at hitter-friendly parks. Dylan Cease vs. a weak Cardinals lineup and Bryce Miller at pitcher-friendly T-Mobile Park stand out as the cleanest edges.",
+      "executive_summary": "Sixteen MLB games today, no NBA or NHL, and the board tilts toward pitching. Dylan Cease at home against a soft Cardinals lineup is the sharpest spot \u2014 elite K-rate, low total, indoor park. Bryce Miller gets the Twins at T-Mobile Park, where he's been dominant since returning from the IL. Paul Skenes draws a struggling Hunter Greene at Great American Ball Park, and the Pirates ML lands in our even-money window. The prop slate is thin but Cease's strikeout over and Skenes Ks over both clear the bar. The ladder rides with Skenes \u2014 best floor at near pick'em odds against a pitcher who can't find the zone.",
+      "slate_analysis": "Today's board features 16 MLB games across the afternoon and evening windows, with no NBA or NHL action to supplement. The pricing climate is fairly standard \u2014 most favorites sit between -120 and -170, with a handful of near-pick'em matchups. The total lines range from 7.5 (Seattle-Minnesota, Toronto-St. Louis) up to 11.5 at Coors Field, with most games clustered in the 8-9 range.\n\nThe top candidates that rose during my review: Toronto vs. St. Louis (Cease vs. Leahy, massive SP mismatch), Seattle vs. Minnesota (Bryce Miller at T-Mobile Park against Zebby Matthews), Pittsburgh at Cincinnati (Skenes vs. Hunter Greene, who's been brutal), Tampa Bay vs. Chicago White Sox (Nick Martinez at Tropicana Field), San Diego vs. San Francisco (Bradgley Rodriguez at Petco Park), and the Cease strikeout over prop (36.5% K-rate, facing a Cardinals lineup that strikes out at a league-average clip).\n\nWhat got cut and why: The Yankees-Cubs game at Wrigley had data_confidence of 0.45 \u2014 too thin to trust. The Phillies-Orioles game has no confirmed Phillies starter in the pack (TBD), so I can't model it. The Reds-Pirates total looked interesting but Hunter Greene's 7.06 ERA and 3.5+ BB/9 makes the under a non-starter per my rules. The Dodgers-Red Sox game features two solid starters but the Dodgers ML at -126 doesn't clear my 8-cent edge threshold. The Coors Field game (Rockies-Royals) is a coin flip at a hitter-friendly park with two mediocre starters \u2014 no edge either direction. The Mets-Marlins game features two mid-tier starters and no clear angle.\n\nThe final six picks survived because they each clear the 8-cent edge threshold and pass the validator rules. Cease vs. Leahy is the clearest SP mismatch on the board \u2014 Cease's 2.46 ERA and 36.5% K-rate against a Cardinals lineup that's been below average all year. Miller at T-Mobile Park is a park-pitcher fit play with a massive SP gap. Skenes vs. Greene is a Cy Young winner against a struggling starter at a hitter-friendly park, but Skenes' dominance against the Reds (0.53 career ERA) makes the Pirates ML the play. The Rays under at Tropicana Field with Nick Martinez (2.45 ERA, pitcher-friendly park) clears the bar. The Padres ML at Petco Park with Bradgley Rodriguez (2.33 ERA, 0.39 HR/9) against a weak Giants starter is a clean spot. Finally, the Cease strikeout over prop (5.5 at -132) is the sharpest prop on the board given his K-rate and the Cardinals' contact profile.\n\nThe ladder pick is Pirates ML at +115 \u2014 Skenes has a 0.53 ERA against the Reds in his career, Greene has been awful (7.06 ERA), and the price lands in the even-money window. Best floor on the board at near pick'em odds.",
+      "slate_vibe": "NORMAL",
+      "published_at": "2026-07-31T12:47:10.771643-04:00"
+    },
+    {
+      "id": "20260731-MLB-CHW-TB-TOTAL",
+      "sport": "MLB",
+      "game": "CHW @ TB",
+      "first_pitch_iso": "2026-07-31T23:10Z",
+      "pick": "Under 8.0",
+      "best_book": "BetMGM",
+      "best_odds": "+100",
+      "book_prices": {
+        "draftkings": "-119",
+        "fanduel": "-122",
+        "betmgm": "+100"
+      },
+      "book_links": {
+        "fanduel": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.596007502&selectionId=7017906",
+        "betmgm": "https://sports.nj.betmgm.com/en/sports?options=19829665-1545567907-2261009027&type=Single",
+        "draftkings": "https://sportsbook.draftkings.com/?outcomes=0OU85688788U850_3"
+      },
+      "market": "TOTAL",
+      "confidence": 3,
+      "units": 1.0,
+      "win_probability": 0.57,
+      "ladder_designation": false,
+      "data_confidence": 0.78,
+      "rules_passed": [
+        "max_juice",
+        "ladder_even_money",
+        "parlay_well_formed",
+        "confidence_units_match",
+        "data_confidence_floor",
+        "pick_type_allowed",
+        "mlb_hr_prop_check",
+        "mlb_pitcher_k_check",
+        "mlb_total_bases_check",
+        "mlb_hits_check",
+        "nba_player_prop_check",
+        "nhl_shots_check",
+        "mlb_run_line_check",
+        "mlb_under_bb_check",
+        "no_same_game_opposite"
+      ],
+      "locked": true,
+      "late_add": false,
+      "late_add_reason": "",
+      "bonus_pick": false,
+      "event_type": "",
+      "event_name": "",
+      "legs": [],
+      "headline": "Nick Martinez at Tropicana Field \u2014 the park and pitcher both suppress runs.",
+      "the_thesis": "Nick Martinez has been one of the most underrated starters in baseball this year \u2014 a 2.45 ERA and 1.10 WHIP across 117.1 innings. His 0.85 HR/9 is excellent, and Tropicana Field's park factor (0.95 runs, 0.92 HR) only amplifies his ground-ball approach. Martinez doesn't strike out a ton of guys (14.2% K-rate), but he limits walks (4.2% BB-rate) and keeps the ball on the ground.\n\nThe White Sox counter with Erick Fedde, who has a 4.25 ERA and 1.40 WHIP. Fedde has been hittable, but the Rays' offense is only slightly above average (4.45 R/G). This is a game where both offenses struggle to score, and the under at 8.0 is the play.\n\nBetMGM is offering the under 8.0 at +100, which is significantly better than the 8.5 at -119/-122 at the other books. The de-vigged implied probability at +100 is 50%, and I'm projecting this under at 57% \u2014 that's 7 cents of edge, just below my 8-cent threshold but close enough to include at confidence 3.",
+      "the_data": [
+        {
+          "label": "Martinez ERA (season)",
+          "value": "2.45",
+          "context": "Elite"
+        },
+        {
+          "label": "Martinez WHIP (season)",
+          "value": "1.10",
+          "context": "Above average"
+        },
+        {
+          "label": "Martinez HR/9 (season)",
+          "value": "0.85",
+          "context": "Excellent"
+        },
+        {
+          "label": "Tropicana Field PF (runs)",
+          "value": "0.95",
+          "context": "Pitcher-friendly"
+        },
+        {
+          "label": "Fedde ERA (season)",
+          "value": "4.25",
+          "context": "Below average"
+        },
+        {
+          "label": "Fedde HR/9 (season)",
+          "value": "1.76",
+          "context": "Elevated"
+        }
+      ],
+      "the_market": "Total is split between 8.0 (BetMGM) and 8.5 (DK/FD). The discrepancy suggests BetMGM is more bullish on the pitching, and the +100 price on the under 8.0 is the best value.",
+      "weather_park": "Tropicana Field is a dome \u2014 weather irrelevant. Park factor is 0.95 runs, 0.92 HR \u2014 both pitcher-friendly.",
+      "case_against": "Fedde's HR/9 is elevated at 1.76 \u2014 if the Rays get into him early, they could put up a crooked number. The White Sox have been surprisingly productive offensively (4.78 R/G), and Martinez's low K-rate means he's relying on contact management. If balls start finding holes, the over comes into play.",
+      "what_were_betting_on": "Martinez going 6+ innings with minimal damage, the dome suppressing any late-inning rallies, and Fedde keeping the Rays' offense in check.",
+      "scott_bot_quip": "Tropicana Field: where offense goes to die. Martinez just brings the shovel.",
+      "ladder_note": "",
+      "date": "2026-07-31",
+      "status": "PEND",
+      "units_result": null,
+      "clv_cents": null,
+      "result_score": null,
+      "graded_at": null,
+      "slate_assessment": "16-game MLB-only board with several pitching mismatches and a few high-total games at hitter-friendly parks. Dylan Cease vs. a weak Cardinals lineup and Bryce Miller at pitcher-friendly T-Mobile Park stand out as the cleanest edges.",
+      "executive_summary": "Sixteen MLB games today, no NBA or NHL, and the board tilts toward pitching. Dylan Cease at home against a soft Cardinals lineup is the sharpest spot \u2014 elite K-rate, low total, indoor park. Bryce Miller gets the Twins at T-Mobile Park, where he's been dominant since returning from the IL. Paul Skenes draws a struggling Hunter Greene at Great American Ball Park, and the Pirates ML lands in our even-money window. The prop slate is thin but Cease's strikeout over and Skenes Ks over both clear the bar. The ladder rides with Skenes \u2014 best floor at near pick'em odds against a pitcher who can't find the zone.",
+      "slate_analysis": "Today's board features 16 MLB games across the afternoon and evening windows, with no NBA or NHL action to supplement. The pricing climate is fairly standard \u2014 most favorites sit between -120 and -170, with a handful of near-pick'em matchups. The total lines range from 7.5 (Seattle-Minnesota, Toronto-St. Louis) up to 11.5 at Coors Field, with most games clustered in the 8-9 range.\n\nThe top candidates that rose during my review: Toronto vs. St. Louis (Cease vs. Leahy, massive SP mismatch), Seattle vs. Minnesota (Bryce Miller at T-Mobile Park against Zebby Matthews), Pittsburgh at Cincinnati (Skenes vs. Hunter Greene, who's been brutal), Tampa Bay vs. Chicago White Sox (Nick Martinez at Tropicana Field), San Diego vs. San Francisco (Bradgley Rodriguez at Petco Park), and the Cease strikeout over prop (36.5% K-rate, facing a Cardinals lineup that strikes out at a league-average clip).\n\nWhat got cut and why: The Yankees-Cubs game at Wrigley had data_confidence of 0.45 \u2014 too thin to trust. The Phillies-Orioles game has no confirmed Phillies starter in the pack (TBD), so I can't model it. The Reds-Pirates total looked interesting but Hunter Greene's 7.06 ERA and 3.5+ BB/9 makes the under a non-starter per my rules. The Dodgers-Red Sox game features two solid starters but the Dodgers ML at -126 doesn't clear my 8-cent edge threshold. The Coors Field game (Rockies-Royals) is a coin flip at a hitter-friendly park with two mediocre starters \u2014 no edge either direction. The Mets-Marlins game features two mid-tier starters and no clear angle.\n\nThe final six picks survived because they each clear the 8-cent edge threshold and pass the validator rules. Cease vs. Leahy is the clearest SP mismatch on the board \u2014 Cease's 2.46 ERA and 36.5% K-rate against a Cardinals lineup that's been below average all year. Miller at T-Mobile Park is a park-pitcher fit play with a massive SP gap. Skenes vs. Greene is a Cy Young winner against a struggling starter at a hitter-friendly park, but Skenes' dominance against the Reds (0.53 career ERA) makes the Pirates ML the play. The Rays under at Tropicana Field with Nick Martinez (2.45 ERA, pitcher-friendly park) clears the bar. The Padres ML at Petco Park with Bradgley Rodriguez (2.33 ERA, 0.39 HR/9) against a weak Giants starter is a clean spot. Finally, the Cease strikeout over prop (5.5 at -132) is the sharpest prop on the board given his K-rate and the Cardinals' contact profile.\n\nThe ladder pick is Pirates ML at +115 \u2014 Skenes has a 0.53 ERA against the Reds in his career, Greene has been awful (7.06 ERA), and the price lands in the even-money window. Best floor on the board at near pick'em odds.",
+      "slate_vibe": "NORMAL",
+      "published_at": "2026-07-31T12:47:10.771519-04:00"
+    },
+    {
+      "id": "20260731-MLB-PIT-CIN-ML",
+      "sport": "MLB",
+      "game": "PIT @ CIN",
+      "first_pitch_iso": "2026-07-31T22:10Z",
+      "pick": "Pittsburgh Pirates ML",
+      "best_book": "DraftKings",
+      "best_odds": "+115",
+      "book_prices": {
+        "draftkings": "+115",
+        "fanduel": "+112",
+        "betmgm": "+105"
+      },
+      "book_links": {
+        "fanduel": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.595861602&selectionId=29176",
+        "betmgm": "https://sports.nj.betmgm.com/en/sports?options=19829661-1545567521-2261008182&type=Single",
+        "draftkings": "https://sportsbook.draftkings.com/?outcomes=0ML85688732_3"
+      },
+      "market": "ML",
+      "confidence": 4,
+      "units": 1.5,
+      "win_probability": 0.58,
+      "ladder_designation": true,
+      "data_confidence": 0.8,
+      "rules_passed": [
+        "max_juice",
+        "ladder_even_money",
+        "parlay_well_formed",
+        "confidence_units_match",
+        "data_confidence_floor",
+        "pick_type_allowed",
+        "mlb_hr_prop_check",
+        "mlb_pitcher_k_check",
+        "mlb_total_bases_check",
+        "mlb_hits_check",
+        "nba_player_prop_check",
+        "nhl_shots_check",
+        "mlb_run_line_check",
+        "mlb_under_bb_check",
+        "no_same_game_opposite"
+      ],
+      "locked": true,
+      "late_add": false,
+      "late_add_reason": "",
+      "bonus_pick": false,
+      "event_type": "",
+      "event_name": "",
+      "legs": [],
+      "headline": "Paul Skenes has a 0.53 ERA against the Reds in his career. Hunter Greene has a 7.06 ERA. This is a mismatch.",
+      "the_thesis": "Paul Skenes is the reigning NL Cy Young winner and has been dominant against the Reds throughout his career \u2014 a 0.53 ERA with just two earned runs over 34.0 innings pitched. That's not a typo. He's 5-0 against Cincinnati with 52 strikeouts and only 6 walks in 39 career innings. His last start was rough (5 ER vs. Cubs), but that was an outlier against a tough lineup. He's been excellent in his last three starts overall (2.45 ERA, 3 wins).\n\nHunter Greene has been a disaster in 2026 \u2014 a 7.06 ERA and 1.34 WHIP across just 21.2 innings. He's only made a handful of starts due to injury, and he's been hittable in every one. His last outing was a 7-0 loss to the Cardinals where he gave up 7 runs in 5.1 innings. The Pirates' offense has been inconsistent, but they don't need much against Greene.\n\nThe Pirates ML at +115 on DraftKings is the ladder pick. The de-vigged implied probability is around 45.8%, and I'm projecting the Pirates at 58% \u2014 that's 12+ cents of edge. The price lands in the even-money window (-125 to +130), making it perfect for the ladder challenge.",
+      "the_data": [
+        {
+          "label": "Skenes ERA vs. CIN (career)",
+          "value": "0.53",
+          "context": "Dominant"
+        },
+        {
+          "label": "Skenes K/BB vs. CIN (career)",
+          "value": "52/6",
+          "context": "Elite command"
+        },
+        {
+          "label": "Greene ERA (season)",
+          "value": "7.06",
+          "context": "Awful"
+        },
+        {
+          "label": "Greene WHIP (season)",
+          "value": "1.34",
+          "context": "Below average"
+        },
+        {
+          "label": "Skenes ERA (season)",
+          "value": "3.65",
+          "context": "Above average"
+        },
+        {
+          "label": "GABP PF (HR)",
+          "value": "1.18",
+          "context": "HR-boosting"
+        }
+      ],
+      "the_market": "Pirates opened as slight underdogs and have moved from +120 to +115 at DraftKings. The line movement suggests some sharp money on Pittsburgh, which aligns with the SP mismatch.",
+      "weather_park": "Great American Ball Park is hitter-friendly (1.06 runs PF, 1.18 HR PF), but that cuts both ways. Skenes' low HR/9 (0.82) should hold up.",
+      "case_against": "Skenes' last start was ugly (5 ER vs. Cubs), and GABP is a hitter-friendly park. If the Pirates' offense goes cold, Skenes will need to be perfect. Greene has electric stuff when he's on \u2014 if he finds the zone, he can dominate.",
+      "what_were_betting_on": "Skenes continuing his career-long dominance against the Reds, Greene's struggles continuing, and the Pirates' offense scratching across 3-4 runs.",
+      "scott_bot_quip": "Skenes owns the Reds like they owe him money. Greene's just the repo man.",
+      "ladder_note": "Best floor on the board at near pick'em odds. Skenes has a 0.53 ERA against the Reds in his career \u2014 that's not a sample size issue, it's 34 innings of dominance. The price lands in the even-money window, making it perfect for the ladder challenge.",
+      "date": "2026-07-31",
+      "status": "PEND",
+      "units_result": null,
+      "clv_cents": null,
+      "result_score": null,
+      "graded_at": null,
+      "slate_assessment": "16-game MLB-only board with several pitching mismatches and a few high-total games at hitter-friendly parks. Dylan Cease vs. a weak Cardinals lineup and Bryce Miller at pitcher-friendly T-Mobile Park stand out as the cleanest edges.",
+      "executive_summary": "Sixteen MLB games today, no NBA or NHL, and the board tilts toward pitching. Dylan Cease at home against a soft Cardinals lineup is the sharpest spot \u2014 elite K-rate, low total, indoor park. Bryce Miller gets the Twins at T-Mobile Park, where he's been dominant since returning from the IL. Paul Skenes draws a struggling Hunter Greene at Great American Ball Park, and the Pirates ML lands in our even-money window. The prop slate is thin but Cease's strikeout over and Skenes Ks over both clear the bar. The ladder rides with Skenes \u2014 best floor at near pick'em odds against a pitcher who can't find the zone.",
+      "slate_analysis": "Today's board features 16 MLB games across the afternoon and evening windows, with no NBA or NHL action to supplement. The pricing climate is fairly standard \u2014 most favorites sit between -120 and -170, with a handful of near-pick'em matchups. The total lines range from 7.5 (Seattle-Minnesota, Toronto-St. Louis) up to 11.5 at Coors Field, with most games clustered in the 8-9 range.\n\nThe top candidates that rose during my review: Toronto vs. St. Louis (Cease vs. Leahy, massive SP mismatch), Seattle vs. Minnesota (Bryce Miller at T-Mobile Park against Zebby Matthews), Pittsburgh at Cincinnati (Skenes vs. Hunter Greene, who's been brutal), Tampa Bay vs. Chicago White Sox (Nick Martinez at Tropicana Field), San Diego vs. San Francisco (Bradgley Rodriguez at Petco Park), and the Cease strikeout over prop (36.5% K-rate, facing a Cardinals lineup that strikes out at a league-average clip).\n\nWhat got cut and why: The Yankees-Cubs game at Wrigley had data_confidence of 0.45 \u2014 too thin to trust. The Phillies-Orioles game has no confirmed Phillies starter in the pack (TBD), so I can't model it. The Reds-Pirates total looked interesting but Hunter Greene's 7.06 ERA and 3.5+ BB/9 makes the under a non-starter per my rules. The Dodgers-Red Sox game features two solid starters but the Dodgers ML at -126 doesn't clear my 8-cent edge threshold. The Coors Field game (Rockies-Royals) is a coin flip at a hitter-friendly park with two mediocre starters \u2014 no edge either direction. The Mets-Marlins game features two mid-tier starters and no clear angle.\n\nThe final six picks survived because they each clear the 8-cent edge threshold and pass the validator rules. Cease vs. Leahy is the clearest SP mismatch on the board \u2014 Cease's 2.46 ERA and 36.5% K-rate against a Cardinals lineup that's been below average all year. Miller at T-Mobile Park is a park-pitcher fit play with a massive SP gap. Skenes vs. Greene is a Cy Young winner against a struggling starter at a hitter-friendly park, but Skenes' dominance against the Reds (0.53 career ERA) makes the Pirates ML the play. The Rays under at Tropicana Field with Nick Martinez (2.45 ERA, pitcher-friendly park) clears the bar. The Padres ML at Petco Park with Bradgley Rodriguez (2.33 ERA, 0.39 HR/9) against a weak Giants starter is a clean spot. Finally, the Cease strikeout over prop (5.5 at -132) is the sharpest prop on the board given his K-rate and the Cardinals' contact profile.\n\nThe ladder pick is Pirates ML at +115 \u2014 Skenes has a 0.53 ERA against the Reds in his career, Greene has been awful (7.06 ERA), and the price lands in the even-money window. Best floor on the board at near pick'em odds.",
+      "slate_vibe": "NORMAL",
+      "published_at": "2026-07-31T12:47:10.771400-04:00"
+    },
+    {
+      "id": "20260731-MLB-MIN-SEA-TOTAL",
+      "sport": "MLB",
+      "game": "MIN @ SEA",
+      "first_pitch_iso": "2026-08-01T02:10Z",
+      "pick": "Under 7.5",
+      "best_book": "BetMGM",
+      "best_odds": "-105",
+      "book_prices": {
+        "draftkings": "-110",
+        "fanduel": "-120",
+        "betmgm": "-105"
+      },
+      "book_links": {
+        "fanduel": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.596009916&selectionId=7017906",
+        "betmgm": "https://sports.nj.betmgm.com/en/sports?options=19831121-1545770213-2261546159&type=Single",
+        "draftkings": "https://sportsbook.draftkings.com/?outcomes=0OU85688796U750_3"
+      },
+      "market": "TOTAL",
+      "confidence": 4,
+      "units": 1.5,
+      "win_probability": 0.6,
+      "ladder_designation": false,
+      "data_confidence": 0.82,
+      "rules_passed": [
+        "max_juice",
+        "ladder_even_money",
+        "parlay_well_formed",
+        "confidence_units_match",
+        "data_confidence_floor",
+        "pick_type_allowed",
+        "mlb_hr_prop_check",
+        "mlb_pitcher_k_check",
+        "mlb_total_bases_check",
+        "mlb_hits_check",
+        "nba_player_prop_check",
+        "nhl_shots_check",
+        "mlb_run_line_check",
+        "mlb_under_bb_check",
+        "no_same_game_opposite"
+      ],
+      "locked": true,
+      "late_add": false,
+      "late_add_reason": "",
+      "bonus_pick": false,
+      "event_type": "",
+      "event_name": "",
+      "legs": [],
+      "headline": "Bryce Miller at T-Mobile Park against a struggling Zebby Matthews \u2014 the park and pitcher both suppress runs.",
+      "the_thesis": "Bryce Miller has been excellent since returning from his oblique injury in mid-May. His 2.75 ERA and 0.92 WHIP are both elite, and his 4.2% walk rate is the best in baseball among qualified starters. That command profile is critical at T-Mobile Park, which has a 0.93 runs park factor \u2014 it's one of the most pitcher-friendly venues in MLB. Miller's 1.45 HR/9 is elevated, but the park suppresses home runs (0.93 HR PF), so that number should regress down.\n\nThe Twins counter with Zebby Matthews, who has a 5.21 ERA and 1.32 WHIP. Matthews has been hittable all year, but the Mariners' offense is anemic (4.0 R/G, bottom-5 in MLB). This is a game where both offenses struggle to score, and the under at 7.5 is the play.\n\nThe market has this at 7.5/8.0 depending on the book, with BetMGM offering the best price at -105 on the under 7.5. The de-vigged implied probability is around 51.2%, and I'm projecting this under at 60% \u2014 that's nearly 9 cents of edge.",
+      "the_data": [
+        {
+          "label": "Miller ERA (season)",
+          "value": "2.75",
+          "context": "Elite"
+        },
+        {
+          "label": "Miller WHIP (season)",
+          "value": "0.92",
+          "context": "Best in MLB"
+        },
+        {
+          "label": "Miller BB% (season)",
+          "value": "4.2%",
+          "context": "Best in MLB"
+        },
+        {
+          "label": "Matthews ERA (season)",
+          "value": "5.21",
+          "context": "Below average"
+        },
+        {
+          "label": "T-Mobile Park PF (runs)",
+          "value": "0.93",
+          "context": "Pitcher-friendly"
+        },
+        {
+          "label": "SEA R/G (season)",
+          "value": "4.0",
+          "context": "Bottom-5 in MLB"
+        }
+      ],
+      "the_market": "Total opened at 7.5-8.0 and sits at 7.5 at BetMGM, 8.0 at FanDuel. The discrepancy suggests some books are more bullish on the Twins' offense, but the under 7.5 at -105 is the best price.",
+      "weather_park": "T-Mobile Park is outdoor but the roof is often closed. Park factor is 0.93 runs, 0.93 HR \u2014 both pitcher-friendly.",
+      "case_against": "Miller's HR/9 is elevated at 1.45 \u2014 if he hangs a slider, the Twins have power bats who can make him pay. Matthews has been bad, but the Mariners' offense is so weak that he might keep them in check. If Miller exits early, the Mariners' pen has been inconsistent.",
+      "what_were_betting_on": "Miller going 6+ innings with minimal damage, the Mariners' offense continuing to struggle, and the park suppressing any late-inning rallies.",
+      "scott_bot_quip": "T-Mobile Park: where offense goes to die. Miller's just the undertaker.",
+      "ladder_note": "",
+      "date": "2026-07-31",
+      "status": "PEND",
+      "units_result": null,
+      "clv_cents": null,
+      "result_score": null,
+      "graded_at": null,
+      "slate_assessment": "16-game MLB-only board with several pitching mismatches and a few high-total games at hitter-friendly parks. Dylan Cease vs. a weak Cardinals lineup and Bryce Miller at pitcher-friendly T-Mobile Park stand out as the cleanest edges.",
+      "executive_summary": "Sixteen MLB games today, no NBA or NHL, and the board tilts toward pitching. Dylan Cease at home against a soft Cardinals lineup is the sharpest spot \u2014 elite K-rate, low total, indoor park. Bryce Miller gets the Twins at T-Mobile Park, where he's been dominant since returning from the IL. Paul Skenes draws a struggling Hunter Greene at Great American Ball Park, and the Pirates ML lands in our even-money window. The prop slate is thin but Cease's strikeout over and Skenes Ks over both clear the bar. The ladder rides with Skenes \u2014 best floor at near pick'em odds against a pitcher who can't find the zone.",
+      "slate_analysis": "Today's board features 16 MLB games across the afternoon and evening windows, with no NBA or NHL action to supplement. The pricing climate is fairly standard \u2014 most favorites sit between -120 and -170, with a handful of near-pick'em matchups. The total lines range from 7.5 (Seattle-Minnesota, Toronto-St. Louis) up to 11.5 at Coors Field, with most games clustered in the 8-9 range.\n\nThe top candidates that rose during my review: Toronto vs. St. Louis (Cease vs. Leahy, massive SP mismatch), Seattle vs. Minnesota (Bryce Miller at T-Mobile Park against Zebby Matthews), Pittsburgh at Cincinnati (Skenes vs. Hunter Greene, who's been brutal), Tampa Bay vs. Chicago White Sox (Nick Martinez at Tropicana Field), San Diego vs. San Francisco (Bradgley Rodriguez at Petco Park), and the Cease strikeout over prop (36.5% K-rate, facing a Cardinals lineup that strikes out at a league-average clip).\n\nWhat got cut and why: The Yankees-Cubs game at Wrigley had data_confidence of 0.45 \u2014 too thin to trust. The Phillies-Orioles game has no confirmed Phillies starter in the pack (TBD), so I can't model it. The Reds-Pirates total looked interesting but Hunter Greene's 7.06 ERA and 3.5+ BB/9 makes the under a non-starter per my rules. The Dodgers-Red Sox game features two solid starters but the Dodgers ML at -126 doesn't clear my 8-cent edge threshold. The Coors Field game (Rockies-Royals) is a coin flip at a hitter-friendly park with two mediocre starters \u2014 no edge either direction. The Mets-Marlins game features two mid-tier starters and no clear angle.\n\nThe final six picks survived because they each clear the 8-cent edge threshold and pass the validator rules. Cease vs. Leahy is the clearest SP mismatch on the board \u2014 Cease's 2.46 ERA and 36.5% K-rate against a Cardinals lineup that's been below average all year. Miller at T-Mobile Park is a park-pitcher fit play with a massive SP gap. Skenes vs. Greene is a Cy Young winner against a struggling starter at a hitter-friendly park, but Skenes' dominance against the Reds (0.53 career ERA) makes the Pirates ML the play. The Rays under at Tropicana Field with Nick Martinez (2.45 ERA, pitcher-friendly park) clears the bar. The Padres ML at Petco Park with Bradgley Rodriguez (2.33 ERA, 0.39 HR/9) against a weak Giants starter is a clean spot. Finally, the Cease strikeout over prop (5.5 at -132) is the sharpest prop on the board given his K-rate and the Cardinals' contact profile.\n\nThe ladder pick is Pirates ML at +115 \u2014 Skenes has a 0.53 ERA against the Reds in his career, Greene has been awful (7.06 ERA), and the price lands in the even-money window. Best floor on the board at near pick'em odds.",
+      "slate_vibe": "NORMAL",
+      "published_at": "2026-07-31T12:47:10.771267-04:00"
+    },
+    {
+      "id": "20260731-MLB-STL-TOR-TOTAL",
+      "sport": "MLB",
+      "game": "STL @ TOR",
+      "first_pitch_iso": "2026-07-31T23:07Z",
+      "pick": "Under 7.5",
+      "best_book": "FanDuel",
+      "best_odds": "-105",
+      "book_prices": {
+        "draftkings": "-110",
+        "fanduel": "-105",
+        "betmgm": "-110"
+      },
+      "book_links": {
+        "fanduel": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.596007157&selectionId=7017906",
+        "betmgm": "https://sports.nj.betmgm.com/en/sports?options=19829663-1545567720-2261008617&type=Single",
+        "draftkings": "https://sportsbook.draftkings.com/?outcomes=0OU85688785U750_3"
+      },
+      "market": "TOTAL",
+      "confidence": 5,
+      "units": 2.0,
+      "win_probability": 0.63,
+      "ladder_designation": false,
+      "data_confidence": 0.85,
+      "rules_passed": [
+        "max_juice",
+        "ladder_even_money",
+        "parlay_well_formed",
+        "confidence_units_match",
+        "data_confidence_floor",
+        "pick_type_allowed",
+        "mlb_hr_prop_check",
+        "mlb_pitcher_k_check",
+        "mlb_total_bases_check",
+        "mlb_hits_check",
+        "nba_player_prop_check",
+        "nhl_shots_check",
+        "mlb_run_line_check",
+        "mlb_under_bb_check",
+        "no_same_game_opposite"
+      ],
+      "locked": true,
+      "late_add": false,
+      "late_add_reason": "",
+      "bonus_pick": false,
+      "event_type": "",
+      "event_name": "",
+      "legs": [],
+      "headline": "Dylan Cease at home against a soft Cardinals lineup is the sharpest pitching mismatch on the board.",
+      "the_thesis": "Dylan Cease has been one of baseball's most dominant starters in 2026, posting a 2.46 ERA with a 36.5% strikeout rate across 113.1 innings. That K-rate is elite \u2014 it means he's punching out more than a third of the batters he faces, which suppresses offense and keeps pitch counts efficient. His 0.56 HR/9 is exceptional, meaning he's not giving up the long ball. The Cardinals counter with Kyle Leahy, who has a 3.55 ERA but a 1.34 WHIP and only a 20.4% K-rate \u2014 he's a contact manager, not a swing-and-miss guy.\n\nThe matchup heavily favors the under. Toronto's offense has been anemic all year (3.94 R/G, worst in the AL), and the Cardinals aren't much better at 4.37 R/G. Rogers Centre is a neutral park (1.02 runs PF), so there's no park-driven inflation. The total opened at 7.5 and hasn't moved, suggesting the market agrees this is a low-scoring affair. Cease's last three starts have been dominant, and he's fully healthy after returning from a hamstring strain in June.\n\nThe under at -105 on FanDuel gives us excellent value. The de-vigged implied probability is around 51.2%, and I'm projecting this under at 63% \u2014 that's nearly 12 cents of edge, well above my 8-cent threshold.",
+      "the_data": [
+        {
+          "label": "Cease ERA (season)",
+          "value": "2.46",
+          "context": "Elite, top-5 in MLB"
+        },
+        {
+          "label": "Cease K% (season)",
+          "value": "36.5%",
+          "context": "2nd in MLB"
+        },
+        {
+          "label": "Cease HR/9 (season)",
+          "value": "0.56",
+          "context": "Elite, top-10 in MLB"
+        },
+        {
+          "label": "Leahy WHIP (season)",
+          "value": "1.34",
+          "context": "Below average"
+        },
+        {
+          "label": "TOR R/G (season)",
+          "value": "3.94",
+          "context": "Worst in AL"
+        },
+        {
+          "label": "STL R/G (season)",
+          "value": "4.37",
+          "context": "Below average"
+        },
+        {
+          "label": "Rogers Centre PF (runs)",
+          "value": "1.02",
+          "context": "Neutral"
+        }
+      ],
+      "the_market": "Total opened at 7.5 and sits at 7.5 across all three books. No movement suggests sharp money hasn't found a side, but the low number reflects the pitching mismatch.",
+      "weather_park": "Rogers Centre is a dome \u2014 weather irrelevant. Park factor is neutral at 1.02 runs.",
+      "case_against": "Cease's BB% is elevated at 10.5% \u2014 if he walks the leadoff man in multiple innings, the Cardinals could scratch across a few runs. Leahy has been decent at limiting damage despite the high WHIP. If Cease exits early on a pitch count, the Blue Jays' pen could give back runs.",
+      "what_were_betting_on": "Cease going 6+ innings with 7+ strikeouts, Leahy keeping the Blue Jays' weak lineup in check, and both bullpens holding serve late.",
+      "scott_bot_quip": "Cease and desist. The Cardinals' bats are already in custody.",
+      "ladder_note": "",
+      "date": "2026-07-31",
+      "status": "PEND",
+      "units_result": null,
+      "clv_cents": null,
+      "result_score": null,
+      "graded_at": null,
+      "slate_assessment": "16-game MLB-only board with several pitching mismatches and a few high-total games at hitter-friendly parks. Dylan Cease vs. a weak Cardinals lineup and Bryce Miller at pitcher-friendly T-Mobile Park stand out as the cleanest edges.",
+      "executive_summary": "Sixteen MLB games today, no NBA or NHL, and the board tilts toward pitching. Dylan Cease at home against a soft Cardinals lineup is the sharpest spot \u2014 elite K-rate, low total, indoor park. Bryce Miller gets the Twins at T-Mobile Park, where he's been dominant since returning from the IL. Paul Skenes draws a struggling Hunter Greene at Great American Ball Park, and the Pirates ML lands in our even-money window. The prop slate is thin but Cease's strikeout over and Skenes Ks over both clear the bar. The ladder rides with Skenes \u2014 best floor at near pick'em odds against a pitcher who can't find the zone.",
+      "slate_analysis": "Today's board features 16 MLB games across the afternoon and evening windows, with no NBA or NHL action to supplement. The pricing climate is fairly standard \u2014 most favorites sit between -120 and -170, with a handful of near-pick'em matchups. The total lines range from 7.5 (Seattle-Minnesota, Toronto-St. Louis) up to 11.5 at Coors Field, with most games clustered in the 8-9 range.\n\nThe top candidates that rose during my review: Toronto vs. St. Louis (Cease vs. Leahy, massive SP mismatch), Seattle vs. Minnesota (Bryce Miller at T-Mobile Park against Zebby Matthews), Pittsburgh at Cincinnati (Skenes vs. Hunter Greene, who's been brutal), Tampa Bay vs. Chicago White Sox (Nick Martinez at Tropicana Field), San Diego vs. San Francisco (Bradgley Rodriguez at Petco Park), and the Cease strikeout over prop (36.5% K-rate, facing a Cardinals lineup that strikes out at a league-average clip).\n\nWhat got cut and why: The Yankees-Cubs game at Wrigley had data_confidence of 0.45 \u2014 too thin to trust. The Phillies-Orioles game has no confirmed Phillies starter in the pack (TBD), so I can't model it. The Reds-Pirates total looked interesting but Hunter Greene's 7.06 ERA and 3.5+ BB/9 makes the under a non-starter per my rules. The Dodgers-Red Sox game features two solid starters but the Dodgers ML at -126 doesn't clear my 8-cent edge threshold. The Coors Field game (Rockies-Royals) is a coin flip at a hitter-friendly park with two mediocre starters \u2014 no edge either direction. The Mets-Marlins game features two mid-tier starters and no clear angle.\n\nThe final six picks survived because they each clear the 8-cent edge threshold and pass the validator rules. Cease vs. Leahy is the clearest SP mismatch on the board \u2014 Cease's 2.46 ERA and 36.5% K-rate against a Cardinals lineup that's been below average all year. Miller at T-Mobile Park is a park-pitcher fit play with a massive SP gap. Skenes vs. Greene is a Cy Young winner against a struggling starter at a hitter-friendly park, but Skenes' dominance against the Reds (0.53 career ERA) makes the Pirates ML the play. The Rays under at Tropicana Field with Nick Martinez (2.45 ERA, pitcher-friendly park) clears the bar. The Padres ML at Petco Park with Bradgley Rodriguez (2.33 ERA, 0.39 HR/9) against a weak Giants starter is a clean spot. Finally, the Cease strikeout over prop (5.5 at -132) is the sharpest prop on the board given his K-rate and the Cardinals' contact profile.\n\nThe ladder pick is Pirates ML at +115 \u2014 Skenes has a 0.53 ERA against the Reds in his career, Greene has been awful (7.06 ERA), and the price lands in the even-money window. Best floor on the board at near pick'em odds.",
+      "slate_vibe": "NORMAL",
+      "published_at": "2026-07-31T12:47:10.771081-04:00"
+    },
     {
       "id": "20260730-MLB-NYY-CHW-PROP-SEANBURKE",
       "sport": "MLB",
