@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated_at": "2026-08-01T13:31:42.101540-04:00",
+  "updated_at": "2026-08-01T18:44:20.554425-04:00",
   "picks": [
     {
       "id": "20260801-MLB-MIN-SEA-TOTAL",
@@ -391,11 +391,11 @@
       "scott_bot_quip": "The lowest walk rate in baseball at a pitcher-friendly dome. Sometimes the sharps just hand you the answer.",
       "ladder_note": "",
       "date": "2026-08-01",
-      "status": "PEND",
-      "units_result": null,
+      "status": "WIN",
+      "units_result": 1.4286,
       "clv_cents": null,
-      "result_score": null,
-      "graded_at": null,
+      "result_score": "CHW 0 \u00b7 TB 1",
+      "graded_at": "2026-08-01T18:44:19.116346-04:00",
       "slate_assessment": "MLB-only Saturday slate with 15 games. No NBA or NHL action. A few pitching mismatches and one strong under spot stand out, but data confidence is thin across the board due to late-breaking lineup uncertainty.",
       "executive_summary": "Fifteen-game MLB slate with no basketball or hockey to supplement. The sharpest edge on the board is the Phillies-Orioles under at Camden Yards \u2014 Cristopher S\u00e1nchez is pitching like an ace (2.73 ERA, 157 Ks, 28 BBs) against a Baltimore lineup that's been inconsistent, and the park suppresses homers. Quinn Mathews makes his MLB debut for St. Louis in Toronto, but the Blue Jays' low-strikeout offense (third-lowest K rate in MLB) makes the rookie's path tougher. The ladder rides with the Phillies under \u2014 best floor, elite SP, HR-suppressing park, and the market hasn't moved off 8.",
       "slate_analysis": "Today's board features 15 MLB games, no NBA or NHL, and a prop slate limited to pitcher strikeouts, total bases, and hits. The pricing climate is soft \u2014 most moneylines sit in the -110 to -175 range, and totals are clustered around 7.5-9.0. Data confidence is flagged at 0.4 across most games, which limits conviction on sides but still allows for total and prop plays where the pitching matchups are clear.\n\nThe top candidates that earned a hard look: (1) PHI @ BAL Under 8.0 \u2014 S\u00e1nchez is the NL All-Star starter, posting a 2.73 ERA with elite command (157 Ks, 28 BBs), and Camden Yards suppresses homers (0.93 PF). (2) STL @ TOR \u2014 Quinn Mathews' debut is intriguing, but Toronto's third-lowest strikeout rate in MLB (19.6%) makes a K prop risky; the total dropped from 8.5 to 8.0, signaling sharp money on the under. (3) CLE vs ARI \u2014 Parker Messick (2.59 ERA, 0.79 HR/9) faces a rookie in Kohl Drake (9 IP, 5.00 ERA, 2.0 HR/9); Cleveland ML is juiced past -150 at most books, but the under at 8.0-8.5 has merit. (4) LAD vs BOS \u2014 Yamamoto (2.72 ERA, 0.90 WHIP) is elite, but the Dodgers ML is -158, and the under at 7.5 is already juiced. (5) CIN @ PIT Over 8.5 \u2014 Great American Ball Park (1.18 runs PF) with two mid-tier starters, but Abbott's BB/9 is 10.7%, which risks walks-driven variance. (6) ATL vs WSH \u2014 Mikolas (5.65 ERA, 2.03 HR/9) is hittable, but the Braves ML is -164, past our juice cap.\n\nWhat got cut: STL @ TOR Under 8.0 \u2014 data confidence is 0.4 and Mathews has zero MLB track record; I can't model his true probability. CLE ML \u2014 juiced to -164 at FanDuel, -180 at DK, past the -150 cap. ATL ML \u2014 same issue, -164 at FD. LAD ML \u2014 -158, borderline but the under is the cleaner play. CIN/PIT Over \u2014 Abbott's 10.7% BB rate is above the 3.5 BB/9 threshold for unders, but it also introduces variance that makes the over less reliable.\n\nThe final six picks: (1) PHI @ BAL Under 8.0 \u2014 S\u00e1nchez is elite, Camden suppresses HRs, and the line hasn't moved despite sharp money. (2) CLE @ ARI Under 8.5 \u2014 Messick is a top-10 ERA arm, Drake is a rookie with a 2.0 HR/9 but Progressive Field is neutral and the total is inflated. (3) TB vs CHW Under 7.5 \u2014 Rasmussen (3.07 ERA, 0.93 WHIP) at Tropicana (0.95 runs PF) against a White Sox team that's been inconsistent. (4) LAD vs BOS Under 7.5 \u2014 Yamamoto is elite, Dodger Stadium is neutral, and the total is already low. (5) SEA vs MIN Under 7.5 \u2014 Gilbert (3.44 ERA, 0.99 WHIP) at T-Mobile Park (0.93 runs PF), but the wind blowing out 14 mph boosts HR ~20%, which is a concern. (6) SD vs SF Under 8.5 \u2014 Petco Park (0.93 runs PF) with two mid-tier starters, but the park suppresses runs.\n\nThe ladder pick is PHI @ BAL Under 8.0 \u2014 best floor on the board. S\u00e1nchez is the NL All-Star starter, Camden suppresses homers, and the market hasn't moved off 8.0 despite sharp money on the under.",
