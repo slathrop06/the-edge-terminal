@@ -1,5 +1,31 @@
 [
   {
+    "id": "20260731-MLB-MIN-SEA-TOTAL",
+    "date": "2026-07-31",
+    "pick": "Under 7.5",
+    "game": "MIN @ SEA",
+    "odds": "-105",
+    "result_score": "MIN 5 \u00b7 SEA 3",
+    "classification": "VARIANCE",
+    "post_mortem": "The under was alive at 3-2 SEA through at least five innings \u2014 a textbook low-scoring game playing out exactly as modeled. Matthews was wild early (two walks, two RBI doubles in the 1st), but Brooks Lee's 367-foot two-run homer off Miller in the 2nd tied it 2-2, and Minnesota pushed three more runs across after the 5th to win 5-3 and bust the 7.5. The decisive late scoring \u2014 not a blowup by either starter \u2014 is what killed it; the game was on the right side of the number for most of the night.",
+    "candidate_rule": null,
+    "sample_size_warning": "N=1, insufficient to establish rule \u2014 this is a clean variance loss on a well-constructed under that was alive deep into the game.",
+    "analyzed_at": "2026-08-01T02:06:20.859050-04:00"
+  },
+  {
+    "id": "20260731-MLB-PIT-CIN-ML",
+    "date": "2026-07-31",
+    "pick": "Pittsburgh Pirates ML",
+    "game": "PIT @ CIN",
+    "odds": "+115",
+    "result_score": "PIT 7 \u00b7 CIN 8",
+    "classification": "VARIANCE",
+    "post_mortem": "The thesis held through the starter matchup \u2014 Skenes threw 100 pitches and faced 22 batters, and Pittsburgh built a 7-run offense against Hunter Greene and the Reds' pen. The loss came entirely in the bullpen: Pittsburgh closer Wilfredo Dotel (1-4) took the loss, and Emilio Pagan (4-1) earned the win for Cincinnati, meaning the Reds walked it off or took the lead in the late innings after Skenes exited. Sal Stewart was the killing blow \u2014 he hit a two-run homer and finished with 4 RBI, scoring the winning run in an 8-7 final, erasing a Pirates lead that Skenes had built.",
+    "candidate_rule": null,
+    "sample_size_warning": "N=1, insufficient to establish rule \u2014 this is a clean bullpen implosion in a game the starter and offense both did their jobs; one loss is noise, not a pattern.",
+    "analyzed_at": "2026-08-01T02:05:56.126219-04:00"
+  },
+  {
     "id": "20260730-MLB-BOS-ATH-SPREAD",
     "date": "2026-07-30",
     "pick": "Boston Red Sox -1.5",
