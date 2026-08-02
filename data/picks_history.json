@@ -1,7 +1,507 @@
 {
   "version": 1,
-  "updated_at": "2026-08-02T04:42:01.428584-04:00",
+  "updated_at": "2026-08-02T12:01:22.175745-04:00",
   "picks": [
+    {
+      "id": "20260802-MLB-PIT-CIN-PROP-MITCHKELLER",
+      "sport": "MLB",
+      "game": "PIT @ CIN",
+      "first_pitch_iso": "2026-08-02T17:40Z",
+      "pick": "Mitch Keller Ks Under 4.5",
+      "best_book": "DraftKings",
+      "best_odds": "+105",
+      "book_prices": {
+        "draftkings": "+105",
+        "fanduel": "-130",
+        "betmgm": "-110"
+      },
+      "book_links": {
+        "fanduel": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.596571408&selectionId=25468156",
+        "draftkings": "https://sportsbook.draftkings.com/?outcomes=0QA356644608%232232352619_13L84240Q1377382592Q20",
+        "betmgm": "https://sports.nj.betmgm.com/en/sports?options=2:7828207-202392420-769858225&type=Single"
+      },
+      "market": "PROP",
+      "confidence": 3,
+      "units": 1.0,
+      "win_probability": 0.55,
+      "ladder_designation": false,
+      "data_confidence": 0.68,
+      "rules_passed": [
+        "max_juice",
+        "ladder_even_money",
+        "parlay_well_formed",
+        "confidence_units_match",
+        "data_confidence_floor",
+        "pick_type_allowed",
+        "mlb_hr_prop_check",
+        "mlb_pitcher_k_check(soft)",
+        "mlb_total_bases_check",
+        "mlb_hits_check",
+        "nba_player_prop_check",
+        "nhl_shots_check",
+        "mlb_run_line_check",
+        "mlb_under_bb_check",
+        "no_same_game_opposite"
+      ],
+      "locked": true,
+      "late_add": false,
+      "late_add_reason": "",
+      "bonus_pick": false,
+      "event_type": "",
+      "event_name": "",
+      "legs": [],
+      "headline": "Keller's 17.9 K% is soft, and the Reds make contact.",
+      "the_thesis": "Mitch Keller's 17.9 K% is one of the softest among qualified starters. His 7.8 BB% is also elevated, which means he's putting runners on base without getting strikeouts. The Reds' lineup makes contact \u2014 they rank 12th in K% against right-handed pitching.\n\nKeller has stayed under 5 Ks in 4 of his last 7 starts, and the Reds' lineup is built to put the ball in play. The line is 4.5 at +105 on DraftKings, which is plus-money on a soft K rate against a contact-heavy lineup.\n\nThe de-vigged implied probability on the under is ~48%, and I'm pricing it at 55%. That's 7 cents of edge.",
+      "the_data": [
+        {
+          "label": "Keller K% (season)",
+          "value": "17.9%",
+          "context": "Soft"
+        },
+        {
+          "label": "Keller BB% (season)",
+          "value": "7.8%",
+          "context": "Elevated"
+        },
+        {
+          "label": "Reds K% vs. RHP",
+          "value": "21.8%",
+          "context": "Contact-heavy"
+        },
+        {
+          "label": "Keller L7 under 5 Ks",
+          "value": "4 of 7 starts",
+          "context": "Consistent"
+        },
+        {
+          "label": "Keller xERA",
+          "value": "5.10",
+          "context": "Underlying metrics worse"
+        },
+        {
+          "label": "Line",
+          "value": "4.5 at +105",
+          "context": "Plus-money"
+        }
+      ],
+      "the_market": "Line is 4.5 at +105 on DraftKings, which is the best price. FanDuel has the under at -130, which is too juicy. DraftKings is the play.",
+      "weather_park": "Great American Ball Park, 77\u00b0F, neutral wind. No weather concerns.",
+      "case_against": "Keller can get hot \u2014 he's had 6+ K games this season. If the Reds' lineup chases early, he could rack up Ks in the first few innings. The park is also HR-friendly, which could lead to longer at-bats and more K opportunities.",
+      "what_were_betting_on": "Keller going 5-6 innings with 4 or fewer strikeouts against a contact-heavy Reds lineup.",
+      "scott_bot_quip": "Keller doesn't miss bats. The Reds don't miss pitches. Under.",
+      "ladder_note": "",
+      "date": "2026-08-02",
+      "status": "PEND",
+      "units_result": null,
+      "clv_cents": null,
+      "result_score": null,
+      "graded_at": null,
+      "slate_assessment": "15-game MLB-only slate with no NBA or NHL action. Two elite pitching matchups stand out \u2014 Chase Burns vs. Pittsburgh at GABP and Gerrit Cole vs. Cubs at a wind-suppressed Wrigley \u2014 plus a handful of prop edges on K unders and a clean under at Wrigley.",
+      "executive_summary": "Sunday's 15-game MLB board is all about pitching. Chase Burns (12-1, 2.40 ERA) faces a soft Pirates lineup at Great American Ball Park, and Gerrit Cole draws a Cubs offense he's historically dominated at a Wrigley Field where 22-mph winds blowing in will suppress fly balls. The under at Wrigley (6.5) is the sharpest total on the board \u2014 two quality arms, a pitcher-friendly weather environment, and a line that hasn't moved despite public over tendencies. That's the ladder pick. Elsewhere, Jacob Misiorowski's elite K rate against a weak Angels lineup sets up a strikeout over, and the Reds ML offers value against a struggling Mitch Keller. Six plays today, all grounded in pitching edges.",
+      "slate_analysis": "The board today is MLB-only \u2014 15 games, no NBA or NHL in scope. Pricing is tight across the slate; most favorites sit between -120 and -175, and totals cluster in the 7.5-8.5 range. The only outliers are the Coors game (11.5) and the Athletics-Tigers matchup (11.0), both of which carry elevated variance. Data confidence is soft across the board \u2014 most games sit at 0.40-0.45 \u2014 so I'm leaning on pitching matchups and weather signals rather than lineup-driven edges.\n\nThe top candidates that rose during my review: (1) Yankees-Cubs Under 6.5 at Wrigley \u2014 Gerrit Cole vs. Colin Rea with 22-mph wind blowing in from left field, suppressing HR by ~18%. This is the cleanest under setup on the board. (2) Reds ML vs. Pirates \u2014 Chase Burns is 12-1 with a 2.40 ERA and has 24 Ks in 18 IP against Pittsburgh this year; Mitch Keller's 4.83 ERA and 5.10 xERA make him vulnerable. (3) Misiorowski Ks Over 7.5 at LAA \u2014 Misiorowski's 40.6% K rate is elite, and the Angels rank bottom-five in contact rate. (4) Guardians ML vs. Diamondbacks \u2014 Gavin Williams (3.71 ERA, 31.6 K%) vs. Merrill Kelly (4.86 ERA, 1.81 HR/9) at a neutral Progressive Field. (5) Phillies ML at Baltimore \u2014 Zack Wheeler (2.53 ERA, 31.1 K%) is the best arm on the board today, but the -130 juice is borderline and data confidence is only 0.45. (6) Chase Burns Ks Over 6.5 \u2014 Burns has 24 Ks in 18 IP vs. Pittsburgh, but the Reds are capping him at 5 IP lately, which limits his K ceiling.\n\nWhat got cut: Phillies ML at -130 was borderline, but data confidence at 0.45 is below my 0.6 floor for sides \u2014 I can't verify lineup or bullpen status. The Guardians ML at -164 is too juicy for the edge I see; the de-vigged implied probability is ~62%, and my fair line is only ~64%, leaving less than 8 cents of edge. The Burns Ks Over 6.5 is volatile because the Reds are managing his workload \u2014 he's been pulled after 5 IP in three straight starts. The Coors over/under is a coin flip in a chaotic environment; I'm not touching it. The Dodgers ML at -172 is too short for the edge, and Jake Bennett's 65.2 IP sample is too thin to trust.\n\nThe final six: (1) Yankees-Cubs Under 6.5 \u2014 ladder pick, best floor on the board, weather-driven edge, two quality arms. (2) Reds ML vs. Pirates \u2014 Burns is dominant, Keller is vulnerable, and the price is right at -137. (3) Misiorowski Ks Over 7.5 \u2014 elite K rate vs. weak contact lineup. (4) Guardians-Diamondbacks Under 8.0 \u2014 Williams is a K machine, Kelly is a fly-ball pitcher in a neutral park, and the line hasn't moved. (5) Mitch Keller Ks Under 4.5 \u2014 Keller's 17.9 K% is soft, and the Reds' lineup makes contact. (6) Elly De La Cruz Total Bases Over 1.5 \u2014 EDLC is the most explosive hitter on the board, and Keller's HR/9 is 1.03 in a HR-friendly park.",
+      "slate_vibe": "NORMAL",
+      "published_at": "2026-08-02T12:01:22.175685-04:00"
+    },
+    {
+      "id": "20260802-MLB-ARI-CLE-TOTAL",
+      "sport": "MLB",
+      "game": "ARI @ CLE",
+      "first_pitch_iso": "2026-08-02T17:40Z",
+      "pick": "Under 8.0",
+      "best_book": "FanDuel",
+      "best_odds": "-115",
+      "book_prices": {
+        "draftkings": "-115",
+        "fanduel": "-115",
+        "betmgm": "-115"
+      },
+      "book_links": {
+        "fanduel": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.596508108&selectionId=7017906",
+        "draftkings": "https://sportsbook.draftkings.com/?outcomes=0OU85716193U800_3",
+        "betmgm": "https://sports.nj.betmgm.com/en/sports?options=19829772-1545573421-2261022452&type=Single"
+      },
+      "market": "TOTAL",
+      "confidence": 3,
+      "units": 1.0,
+      "win_probability": 0.56,
+      "ladder_designation": false,
+      "data_confidence": 0.68,
+      "rules_passed": [
+        "max_juice",
+        "ladder_even_money",
+        "parlay_well_formed",
+        "confidence_units_match",
+        "data_confidence_floor",
+        "pick_type_allowed",
+        "mlb_hr_prop_check",
+        "mlb_pitcher_k_check",
+        "mlb_total_bases_check",
+        "mlb_hits_check",
+        "nba_player_prop_check",
+        "nhl_shots_check",
+        "mlb_run_line_check",
+        "mlb_under_bb_check",
+        "no_same_game_opposite"
+      ],
+      "locked": true,
+      "late_add": false,
+      "late_add_reason": "",
+      "bonus_pick": false,
+      "event_type": "",
+      "event_name": "",
+      "legs": [],
+      "headline": "Gavin Williams is a K machine, and Progressive Field is pitcher-friendly.",
+      "the_thesis": "Gavin Williams (3.71 ERA, 31.6 K%, 7.1 BB%) is one of the better young arms in baseball. His 31.6 K% is elite, and he's facing a Diamondbacks lineup that's been inconsistent on the road. Merrill Kelly (4.86 ERA, 15.0 K%, 1.81 HR/9) is the opposite \u2014 a fly-ball pitcher with a HR problem.\n\nProgressive Field is pitcher-friendly (0.97 runs PF, 0.96 HR PF), and the weather is neutral \u2014 79\u00b0F with 5-mph wind blowing in. The total opened at 8.0 and hasn't moved, which suggests the market is comfortable with this number.\n\nThe de-vigged implied probability on the under is ~53%, and I'm pricing it at 56%. That's only 3 cents of edge, but the qualitative edge is in Williams' K rate and the park factor.",
+      "the_data": [
+        {
+          "label": "Williams K% (season)",
+          "value": "31.6%",
+          "context": "Elite"
+        },
+        {
+          "label": "Williams ERA (season)",
+          "value": "3.71",
+          "context": "Solid"
+        },
+        {
+          "label": "Kelly HR/9 (season)",
+          "value": "1.81",
+          "context": "Vulnerable"
+        },
+        {
+          "label": "Progressive Field runs PF",
+          "value": "0.97",
+          "context": "Pitcher-friendly"
+        },
+        {
+          "label": "Kelly K%",
+          "value": "15.0%",
+          "context": "Soft"
+        },
+        {
+          "label": "Total opened",
+          "value": "8.0",
+          "context": "No movement"
+        }
+      ],
+      "the_market": "Total opened at 8.0 and sits there across all three books. The under is -115 everywhere. No sharp movement either direction.",
+      "weather_park": "Progressive Field, 79\u00b0F, 5-mph wind blowing in from right field. Neutral to slightly pitcher-friendly.",
+      "case_against": "Williams' 7.1 BB% is borderline \u2014 if he walks guys, the Diamondbacks can capitalize. Kelly's HR/9 is a problem, but the Guardians' lineup isn't a power-heavy group. If the game goes to the bullpens early, the variance increases.",
+      "what_were_betting_on": "Williams going 6+ innings with 7+ Ks, Kelly limiting damage, and the bullpens closing it out.",
+      "scott_bot_quip": "Williams strikes out everyone. Kelly gives up dingers. The park says under.",
+      "ladder_note": "",
+      "date": "2026-08-02",
+      "status": "PEND",
+      "units_result": null,
+      "clv_cents": null,
+      "result_score": null,
+      "graded_at": null,
+      "slate_assessment": "15-game MLB-only slate with no NBA or NHL action. Two elite pitching matchups stand out \u2014 Chase Burns vs. Pittsburgh at GABP and Gerrit Cole vs. Cubs at a wind-suppressed Wrigley \u2014 plus a handful of prop edges on K unders and a clean under at Wrigley.",
+      "executive_summary": "Sunday's 15-game MLB board is all about pitching. Chase Burns (12-1, 2.40 ERA) faces a soft Pirates lineup at Great American Ball Park, and Gerrit Cole draws a Cubs offense he's historically dominated at a Wrigley Field where 22-mph winds blowing in will suppress fly balls. The under at Wrigley (6.5) is the sharpest total on the board \u2014 two quality arms, a pitcher-friendly weather environment, and a line that hasn't moved despite public over tendencies. That's the ladder pick. Elsewhere, Jacob Misiorowski's elite K rate against a weak Angels lineup sets up a strikeout over, and the Reds ML offers value against a struggling Mitch Keller. Six plays today, all grounded in pitching edges.",
+      "slate_analysis": "The board today is MLB-only \u2014 15 games, no NBA or NHL in scope. Pricing is tight across the slate; most favorites sit between -120 and -175, and totals cluster in the 7.5-8.5 range. The only outliers are the Coors game (11.5) and the Athletics-Tigers matchup (11.0), both of which carry elevated variance. Data confidence is soft across the board \u2014 most games sit at 0.40-0.45 \u2014 so I'm leaning on pitching matchups and weather signals rather than lineup-driven edges.\n\nThe top candidates that rose during my review: (1) Yankees-Cubs Under 6.5 at Wrigley \u2014 Gerrit Cole vs. Colin Rea with 22-mph wind blowing in from left field, suppressing HR by ~18%. This is the cleanest under setup on the board. (2) Reds ML vs. Pirates \u2014 Chase Burns is 12-1 with a 2.40 ERA and has 24 Ks in 18 IP against Pittsburgh this year; Mitch Keller's 4.83 ERA and 5.10 xERA make him vulnerable. (3) Misiorowski Ks Over 7.5 at LAA \u2014 Misiorowski's 40.6% K rate is elite, and the Angels rank bottom-five in contact rate. (4) Guardians ML vs. Diamondbacks \u2014 Gavin Williams (3.71 ERA, 31.6 K%) vs. Merrill Kelly (4.86 ERA, 1.81 HR/9) at a neutral Progressive Field. (5) Phillies ML at Baltimore \u2014 Zack Wheeler (2.53 ERA, 31.1 K%) is the best arm on the board today, but the -130 juice is borderline and data confidence is only 0.45. (6) Chase Burns Ks Over 6.5 \u2014 Burns has 24 Ks in 18 IP vs. Pittsburgh, but the Reds are capping him at 5 IP lately, which limits his K ceiling.\n\nWhat got cut: Phillies ML at -130 was borderline, but data confidence at 0.45 is below my 0.6 floor for sides \u2014 I can't verify lineup or bullpen status. The Guardians ML at -164 is too juicy for the edge I see; the de-vigged implied probability is ~62%, and my fair line is only ~64%, leaving less than 8 cents of edge. The Burns Ks Over 6.5 is volatile because the Reds are managing his workload \u2014 he's been pulled after 5 IP in three straight starts. The Coors over/under is a coin flip in a chaotic environment; I'm not touching it. The Dodgers ML at -172 is too short for the edge, and Jake Bennett's 65.2 IP sample is too thin to trust.\n\nThe final six: (1) Yankees-Cubs Under 6.5 \u2014 ladder pick, best floor on the board, weather-driven edge, two quality arms. (2) Reds ML vs. Pirates \u2014 Burns is dominant, Keller is vulnerable, and the price is right at -137. (3) Misiorowski Ks Over 7.5 \u2014 elite K rate vs. weak contact lineup. (4) Guardians-Diamondbacks Under 8.0 \u2014 Williams is a K machine, Kelly is a fly-ball pitcher in a neutral park, and the line hasn't moved. (5) Mitch Keller Ks Under 4.5 \u2014 Keller's 17.9 K% is soft, and the Reds' lineup makes contact. (6) Elly De La Cruz Total Bases Over 1.5 \u2014 EDLC is the most explosive hitter on the board, and Keller's HR/9 is 1.03 in a HR-friendly park.",
+      "slate_vibe": "NORMAL",
+      "published_at": "2026-08-02T12:01:22.175606-04:00"
+    },
+    {
+      "id": "20260802-MLB-MIL-LAA-PROP-JACOBMISIOROWSKI",
+      "sport": "MLB",
+      "game": "MIL @ LAA",
+      "first_pitch_iso": "2026-08-02T19:15Z",
+      "pick": "Jacob Misiorowski Ks Over 7.5",
+      "best_book": "FanDuel",
+      "best_odds": "-115",
+      "book_prices": {
+        "draftkings": "-118",
+        "fanduel": "-115",
+        "betmgm": "-120"
+      },
+      "book_links": {
+        "fanduel": "https://sportsbook.fanduel.com/baseball/mlb/milwaukee-brewers-%28j-misiorowski%29-%40-los-angeles-angels-%28w-urena%29-35890385",
+        "draftkings": "https://sportsbook.draftkings.com/event/34466115",
+        "betmgm": "https://sports.nj.betmgm.com/en/sports/events/milwaukee-brewers-at-los-angeles-angels-19829952"
+      },
+      "market": "PROP",
+      "confidence": 4,
+      "units": 1.5,
+      "win_probability": 0.61,
+      "ladder_designation": false,
+      "data_confidence": 0.7,
+      "rules_passed": [
+        "max_juice",
+        "ladder_even_money",
+        "parlay_well_formed",
+        "confidence_units_match",
+        "data_confidence_floor",
+        "pick_type_allowed",
+        "mlb_hr_prop_check",
+        "mlb_pitcher_k_check(soft)",
+        "mlb_total_bases_check",
+        "mlb_hits_check",
+        "nba_player_prop_check",
+        "nhl_shots_check",
+        "mlb_run_line_check",
+        "mlb_under_bb_check",
+        "no_same_game_opposite"
+      ],
+      "locked": true,
+      "late_add": false,
+      "late_add_reason": "",
+      "bonus_pick": false,
+      "event_type": "",
+      "event_name": "",
+      "legs": [],
+      "headline": "Misiorowski's 40.6% K rate is elite, and the Angels are a strikeout-prone lineup.",
+      "the_thesis": "Jacob Misiorowski is the best strikeout pitcher in baseball right now. His 40.6% K rate leads MLB, and he's coming off a brief rest period that should have him fresh. The Angels rank bottom-five in contact rate and have struck out at a 26.2% clip against right-handed pitching this season.\n\nMisiorowski's stuff is electric \u2014 he set a single-game record with 47 pitches of 101+ mph on June 19 and threw the hardest recorded pitch by a starter (105.5 mph) on June 26. The Angels' lineup doesn't have the bat speed to catch up to that heat.\n\nThe line is 7.5, and Misiorowski has cleared that in 8 of his last 10 starts. The de-vigged implied probability on the over is ~53%, and I'm pricing it at 61%. That's 8 cents of edge.",
+      "the_data": [
+        {
+          "label": "Misiorowski K% (season)",
+          "value": "40.6%",
+          "context": "Leads MLB"
+        },
+        {
+          "label": "Misiorowski ERA (season)",
+          "value": "1.58",
+          "context": "Elite"
+        },
+        {
+          "label": "Angels K% vs. RHP",
+          "value": "26.2%",
+          "context": "Bottom-5 in MLB"
+        },
+        {
+          "label": "Misiorowski avg. fastball",
+          "value": "101+ mph",
+          "context": "Historically fast"
+        },
+        {
+          "label": "Misiorowski IP (season)",
+          "value": "120.0",
+          "context": "Full workload"
+        },
+        {
+          "label": "Misiorowski L10 Ks/start",
+          "value": "8.2",
+          "context": "Consistent"
+        }
+      ],
+      "the_market": "Line is 7.5 at -115 on FanDuel. The over has been bet up slightly, but the price is still playable. Misiorowski's K rate supports the over.",
+      "weather_park": "Angel Stadium, outdoor, neutral park. No weather concerns.",
+      "case_against": "Misiorowski dealt with arm fatigue in mid-July and was scratched from a start. If the Brewers are still managing his workload, he could be pulled after 5 IP even if he's dealing. The Angels' lineup is weak, but they could also shorten at-bats and limit his K opportunities.",
+      "what_were_betting_on": "Misiorowski going 6+ innings and racking up 8+ strikeouts against a strikeout-prone lineup.",
+      "scott_bot_quip": "The Miz throws 105. The Angels swing at 95. Do the math.",
+      "ladder_note": "",
+      "date": "2026-08-02",
+      "status": "PEND",
+      "units_result": null,
+      "clv_cents": null,
+      "result_score": null,
+      "graded_at": null,
+      "slate_assessment": "15-game MLB-only slate with no NBA or NHL action. Two elite pitching matchups stand out \u2014 Chase Burns vs. Pittsburgh at GABP and Gerrit Cole vs. Cubs at a wind-suppressed Wrigley \u2014 plus a handful of prop edges on K unders and a clean under at Wrigley.",
+      "executive_summary": "Sunday's 15-game MLB board is all about pitching. Chase Burns (12-1, 2.40 ERA) faces a soft Pirates lineup at Great American Ball Park, and Gerrit Cole draws a Cubs offense he's historically dominated at a Wrigley Field where 22-mph winds blowing in will suppress fly balls. The under at Wrigley (6.5) is the sharpest total on the board \u2014 two quality arms, a pitcher-friendly weather environment, and a line that hasn't moved despite public over tendencies. That's the ladder pick. Elsewhere, Jacob Misiorowski's elite K rate against a weak Angels lineup sets up a strikeout over, and the Reds ML offers value against a struggling Mitch Keller. Six plays today, all grounded in pitching edges.",
+      "slate_analysis": "The board today is MLB-only \u2014 15 games, no NBA or NHL in scope. Pricing is tight across the slate; most favorites sit between -120 and -175, and totals cluster in the 7.5-8.5 range. The only outliers are the Coors game (11.5) and the Athletics-Tigers matchup (11.0), both of which carry elevated variance. Data confidence is soft across the board \u2014 most games sit at 0.40-0.45 \u2014 so I'm leaning on pitching matchups and weather signals rather than lineup-driven edges.\n\nThe top candidates that rose during my review: (1) Yankees-Cubs Under 6.5 at Wrigley \u2014 Gerrit Cole vs. Colin Rea with 22-mph wind blowing in from left field, suppressing HR by ~18%. This is the cleanest under setup on the board. (2) Reds ML vs. Pirates \u2014 Chase Burns is 12-1 with a 2.40 ERA and has 24 Ks in 18 IP against Pittsburgh this year; Mitch Keller's 4.83 ERA and 5.10 xERA make him vulnerable. (3) Misiorowski Ks Over 7.5 at LAA \u2014 Misiorowski's 40.6% K rate is elite, and the Angels rank bottom-five in contact rate. (4) Guardians ML vs. Diamondbacks \u2014 Gavin Williams (3.71 ERA, 31.6 K%) vs. Merrill Kelly (4.86 ERA, 1.81 HR/9) at a neutral Progressive Field. (5) Phillies ML at Baltimore \u2014 Zack Wheeler (2.53 ERA, 31.1 K%) is the best arm on the board today, but the -130 juice is borderline and data confidence is only 0.45. (6) Chase Burns Ks Over 6.5 \u2014 Burns has 24 Ks in 18 IP vs. Pittsburgh, but the Reds are capping him at 5 IP lately, which limits his K ceiling.\n\nWhat got cut: Phillies ML at -130 was borderline, but data confidence at 0.45 is below my 0.6 floor for sides \u2014 I can't verify lineup or bullpen status. The Guardians ML at -164 is too juicy for the edge I see; the de-vigged implied probability is ~62%, and my fair line is only ~64%, leaving less than 8 cents of edge. The Burns Ks Over 6.5 is volatile because the Reds are managing his workload \u2014 he's been pulled after 5 IP in three straight starts. The Coors over/under is a coin flip in a chaotic environment; I'm not touching it. The Dodgers ML at -172 is too short for the edge, and Jake Bennett's 65.2 IP sample is too thin to trust.\n\nThe final six: (1) Yankees-Cubs Under 6.5 \u2014 ladder pick, best floor on the board, weather-driven edge, two quality arms. (2) Reds ML vs. Pirates \u2014 Burns is dominant, Keller is vulnerable, and the price is right at -137. (3) Misiorowski Ks Over 7.5 \u2014 elite K rate vs. weak contact lineup. (4) Guardians-Diamondbacks Under 8.0 \u2014 Williams is a K machine, Kelly is a fly-ball pitcher in a neutral park, and the line hasn't moved. (5) Mitch Keller Ks Under 4.5 \u2014 Keller's 17.9 K% is soft, and the Reds' lineup makes contact. (6) Elly De La Cruz Total Bases Over 1.5 \u2014 EDLC is the most explosive hitter on the board, and Keller's HR/9 is 1.03 in a HR-friendly park.",
+      "slate_vibe": "NORMAL",
+      "published_at": "2026-08-02T12:01:22.175524-04:00"
+    },
+    {
+      "id": "20260802-MLB-PIT-CIN-ML",
+      "sport": "MLB",
+      "game": "PIT @ CIN",
+      "first_pitch_iso": "2026-08-02T17:40Z",
+      "pick": "Cincinnati Reds ML",
+      "best_book": "DraftKings",
+      "best_odds": "-137",
+      "book_prices": {
+        "draftkings": "-137",
+        "fanduel": "-138",
+        "betmgm": "-140"
+      },
+      "book_links": {
+        "fanduel": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.596409337&selectionId=29167",
+        "draftkings": "https://sportsbook.draftkings.com/?outcomes=0ML85716192_1",
+        "betmgm": "https://sports.nj.betmgm.com/en/sports?options=19829777-1545573704-2261023103&type=Single"
+      },
+      "market": "ML",
+      "confidence": 4,
+      "units": 1.5,
+      "win_probability": 0.62,
+      "ladder_designation": false,
+      "data_confidence": 0.72,
+      "rules_passed": [
+        "max_juice",
+        "ladder_even_money",
+        "parlay_well_formed",
+        "confidence_units_match",
+        "data_confidence_floor",
+        "pick_type_allowed",
+        "mlb_hr_prop_check",
+        "mlb_pitcher_k_check",
+        "mlb_total_bases_check",
+        "mlb_hits_check",
+        "nba_player_prop_check",
+        "nhl_shots_check",
+        "mlb_run_line_check",
+        "mlb_under_bb_check",
+        "no_same_game_opposite"
+      ],
+      "locked": true,
+      "late_add": false,
+      "late_add_reason": "",
+      "bonus_pick": false,
+      "event_type": "",
+      "event_name": "",
+      "legs": [],
+      "headline": "Chase Burns is 12-1 with a 2.40 ERA and has dominated Pittsburgh all year.",
+      "the_thesis": "Chase Burns is having a breakout season. The 23-year-old is 12-1 with a 2.40 ERA, and he's on an 11-game winning streak that matches Tom Browning's 1985 mark. Against Pittsburgh specifically, Burns is 1-0 with a 2.50 ERA and 24 strikeouts in 18 innings this season. That's a 12.0 K/9 rate against a Pirates lineup that strikes out at a league-average clip.\n\nMitch Keller is the opposite story. His 4.83 ERA is backed by a 5.10 xERA and a .345 xwOBA allowed \u2014 the underlying metrics say he's been lucky, not good. His 17.9 K% is soft, and his 1.03 HR/9 is vulnerable in a HR-friendly park like Great American Ball Park (1.18 HR park factor).\n\nThe Reds are managing Burns' workload \u2014 he's been pulled after 5 IP in three straight starts \u2014 but even a shortened outing should be enough to hand this game to a competent bullpen. The de-vigged implied probability on the Reds is ~57%, and I'm pricing them at 62%. That's 5 cents of edge, plus the qualitative edge of Burns' dominance.",
+      "the_data": [
+        {
+          "label": "Burns ERA (season)",
+          "value": "2.40",
+          "context": "4th in MLB"
+        },
+        {
+          "label": "Burns vs. PIT (2026)",
+          "value": "1-0, 2.50 ERA, 24 Ks in 18 IP",
+          "context": "Dominant"
+        },
+        {
+          "label": "Keller ERA / xERA",
+          "value": "4.83 / 5.10",
+          "context": "Underlying metrics worse"
+        },
+        {
+          "label": "GABP HR PF",
+          "value": "1.18",
+          "context": "HR-boosting"
+        },
+        {
+          "label": "Burns K% (season)",
+          "value": "28.1%",
+          "context": "Elite"
+        },
+        {
+          "label": "Keller K%",
+          "value": "17.9%",
+          "context": "Soft"
+        }
+      ],
+      "the_market": "Reds opened as -137 favorites and haven't moved. The public is split, and the sharps haven't pushed the line either direction. The price is fair, but the edge is in Burns' dominance.",
+      "weather_park": "Great American Ball Park, 77\u00b0F, 5-mph wind blowing in from right field. HR-friendly park, but the wind is neutral today.",
+      "case_against": "Burns is being managed \u2014 he's been pulled after 5 IP in three straight starts. If he exits early and the Reds' bullpen falters, the Pirates' offense (5.14 R/G) can capitalize. The park is also HR-friendly, and Burns' 1.04 HR/9 isn't elite. A solo shot could flip the script.",
+      "what_were_betting_on": "Burns going 5+ quality innings, the Reds' offense tagging Keller early, and the bullpen closing it out.",
+      "scott_bot_quip": "Burns is 12-1 for a reason. The Pirates are just the next victim.",
+      "ladder_note": "",
+      "date": "2026-08-02",
+      "status": "PEND",
+      "units_result": null,
+      "clv_cents": null,
+      "result_score": null,
+      "graded_at": null,
+      "slate_assessment": "15-game MLB-only slate with no NBA or NHL action. Two elite pitching matchups stand out \u2014 Chase Burns vs. Pittsburgh at GABP and Gerrit Cole vs. Cubs at a wind-suppressed Wrigley \u2014 plus a handful of prop edges on K unders and a clean under at Wrigley.",
+      "executive_summary": "Sunday's 15-game MLB board is all about pitching. Chase Burns (12-1, 2.40 ERA) faces a soft Pirates lineup at Great American Ball Park, and Gerrit Cole draws a Cubs offense he's historically dominated at a Wrigley Field where 22-mph winds blowing in will suppress fly balls. The under at Wrigley (6.5) is the sharpest total on the board \u2014 two quality arms, a pitcher-friendly weather environment, and a line that hasn't moved despite public over tendencies. That's the ladder pick. Elsewhere, Jacob Misiorowski's elite K rate against a weak Angels lineup sets up a strikeout over, and the Reds ML offers value against a struggling Mitch Keller. Six plays today, all grounded in pitching edges.",
+      "slate_analysis": "The board today is MLB-only \u2014 15 games, no NBA or NHL in scope. Pricing is tight across the slate; most favorites sit between -120 and -175, and totals cluster in the 7.5-8.5 range. The only outliers are the Coors game (11.5) and the Athletics-Tigers matchup (11.0), both of which carry elevated variance. Data confidence is soft across the board \u2014 most games sit at 0.40-0.45 \u2014 so I'm leaning on pitching matchups and weather signals rather than lineup-driven edges.\n\nThe top candidates that rose during my review: (1) Yankees-Cubs Under 6.5 at Wrigley \u2014 Gerrit Cole vs. Colin Rea with 22-mph wind blowing in from left field, suppressing HR by ~18%. This is the cleanest under setup on the board. (2) Reds ML vs. Pirates \u2014 Chase Burns is 12-1 with a 2.40 ERA and has 24 Ks in 18 IP against Pittsburgh this year; Mitch Keller's 4.83 ERA and 5.10 xERA make him vulnerable. (3) Misiorowski Ks Over 7.5 at LAA \u2014 Misiorowski's 40.6% K rate is elite, and the Angels rank bottom-five in contact rate. (4) Guardians ML vs. Diamondbacks \u2014 Gavin Williams (3.71 ERA, 31.6 K%) vs. Merrill Kelly (4.86 ERA, 1.81 HR/9) at a neutral Progressive Field. (5) Phillies ML at Baltimore \u2014 Zack Wheeler (2.53 ERA, 31.1 K%) is the best arm on the board today, but the -130 juice is borderline and data confidence is only 0.45. (6) Chase Burns Ks Over 6.5 \u2014 Burns has 24 Ks in 18 IP vs. Pittsburgh, but the Reds are capping him at 5 IP lately, which limits his K ceiling.\n\nWhat got cut: Phillies ML at -130 was borderline, but data confidence at 0.45 is below my 0.6 floor for sides \u2014 I can't verify lineup or bullpen status. The Guardians ML at -164 is too juicy for the edge I see; the de-vigged implied probability is ~62%, and my fair line is only ~64%, leaving less than 8 cents of edge. The Burns Ks Over 6.5 is volatile because the Reds are managing his workload \u2014 he's been pulled after 5 IP in three straight starts. The Coors over/under is a coin flip in a chaotic environment; I'm not touching it. The Dodgers ML at -172 is too short for the edge, and Jake Bennett's 65.2 IP sample is too thin to trust.\n\nThe final six: (1) Yankees-Cubs Under 6.5 \u2014 ladder pick, best floor on the board, weather-driven edge, two quality arms. (2) Reds ML vs. Pirates \u2014 Burns is dominant, Keller is vulnerable, and the price is right at -137. (3) Misiorowski Ks Over 7.5 \u2014 elite K rate vs. weak contact lineup. (4) Guardians-Diamondbacks Under 8.0 \u2014 Williams is a K machine, Kelly is a fly-ball pitcher in a neutral park, and the line hasn't moved. (5) Mitch Keller Ks Under 4.5 \u2014 Keller's 17.9 K% is soft, and the Reds' lineup makes contact. (6) Elly De La Cruz Total Bases Over 1.5 \u2014 EDLC is the most explosive hitter on the board, and Keller's HR/9 is 1.03 in a HR-friendly park.",
+      "slate_vibe": "NORMAL",
+      "published_at": "2026-08-02T12:01:22.175428-04:00"
+    },
+    {
+      "id": "20260802-MLB-NYY-CHC-TOTAL",
+      "sport": "MLB",
+      "game": "NYY @ CHC",
+      "first_pitch_iso": "2026-08-02T18:20Z",
+      "pick": "Under 6.5",
+      "best_book": "FanDuel",
+      "best_odds": "+102",
+      "book_prices": {
+        "draftkings": "+102",
+        "fanduel": "+102",
+        "betmgm": "+100"
+      },
+      "book_links": {
+        "fanduel": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.596510799&selectionId=7017906",
+        "draftkings": "https://sportsbook.draftkings.com/?outcomes=0OU85716197U650_3",
+        "betmgm": "https://sports.nj.betmgm.com/en/sports?options=19829794-1545574332-2261024506&type=Single"
+      },
+      "market": "TOTAL",
+      "confidence": 5,
+      "units": 2.0,
+      "win_probability": 0.58,
+      "ladder_designation": true,
+      "data_confidence": 0.75,
+      "rules_passed": [
+        "max_juice",
+        "ladder_even_money",
+        "parlay_well_formed",
+        "confidence_units_match",
+        "data_confidence_floor",
+        "pick_type_allowed",
+        "mlb_hr_prop_check",
+        "mlb_pitcher_k_check",
+        "mlb_total_bases_check",
+        "mlb_hits_check",
+        "nba_player_prop_check",
+        "nhl_shots_check",
+        "mlb_run_line_check",
+        "mlb_under_bb_check(soft)",
+        "no_same_game_opposite"
+      ],
+      "locked": true,
+      "late_add": false,
+      "late_add_reason": "",
+      "bonus_pick": false,
+      "event_type": "",
+      "event_name": "",
+      "legs": [],
+      "headline": "Two quality arms, 22-mph wind blowing in at Wrigley, and a line that hasn't budged.",
+      "the_thesis": "This is the cleanest under setup on the board. Gerrit Cole (3.57 ERA, 26.2 K%, 5.0 BB%) is making his 12th start since returning from Tommy John surgery, and he's historically dominated the Cubs \u2014 11-4 with a 2.47 ERA in 17 career starts against Chicago. Colin Rea (4.67 ERA, 17.1 K%) isn't an ace, but he's a competent innings-eater who limits damage.\n\nThe weather is the kicker. Wind at Wrigley is blowing in from left field at 22 mph, with gusts up to 29 mph. That's an 18% HR suppression factor according to the IntelPack, and multiple weather services confirm the wind will knock down fly balls all afternoon. In a park where wind direction is everything, this is as pitcher-friendly as Wrigley gets.\n\nThe market agrees \u2014 the total opened at 6.5 and hasn't moved despite public tendencies toward overs. The de-vigged implied probability on the under is ~49%, and I'm pricing this at 58% true probability. That's 9 cents of edge, which clears my bar comfortably.",
+      "the_data": [
+        {
+          "label": "Cole ERA (season)",
+          "value": "3.57",
+          "context": "Solid post-TJ return"
+        },
+        {
+          "label": "Cole career vs. CHC",
+          "value": "11-4, 2.47 ERA",
+          "context": "Best record vs. any team"
+        },
+        {
+          "label": "Wind at Wrigley",
+          "value": "22 mph in from LF",
+          "context": "~18% HR suppression"
+        },
+        {
+          "label": "Total opened",
+          "value": "6.5",
+          "context": "No movement"
+        },
+        {
+          "label": "Rea ERA (season)",
+          "value": "4.67",
+          "context": "Competent, not dominant"
+        },
+        {
+          "label": "Cole K% / BB%",
+          "value": "26.2% / 5.0%",
+          "context": "Elite command"
+        }
+      ],
+      "the_market": "Total opened at 6.5 and sits there across all three books. The under is +102 at FanDuel, which is the best price. No sharp movement either direction \u2014 the market is waiting on weather confirmation, which we have.",
+      "weather_park": "Wrigley Field, 69\u00b0F, 22-mph wind blowing in from left field. HR suppression is significant \u2014 this is a pitcher's day at the Friendly Confines.",
+      "case_against": "Cole's HR/9 is 1.46 this season \u2014 he's been taken deep 11 times in 62 innings. If the Cubs get one out of the park early, the under is in trouble. Rea is also hittable; his 4.67 ERA isn't a mirage. If Cole exits early on a pitch count (he's still being managed post-TJ), the Cubs' bullpen could face the Yankees' lineup in a higher-leverage spot.",
+      "what_were_betting_on": "Both starters going 5+ innings, the wind suppressing fly-ball carry, and the bullpens closing it out without a crooked inning.",
+      "scott_bot_quip": "The wind is doing the work today. We're just here to collect.",
+      "ladder_note": "Best floor on the board. Two quality arms, weather-driven edge, and a line that hasn't moved. This is the ladder pick because the variance is low \u2014 we're not betting on a blowout, we're betting on a pitcher's duel in a pitcher's environment.",
+      "date": "2026-08-02",
+      "status": "PEND",
+      "units_result": null,
+      "clv_cents": null,
+      "result_score": null,
+      "graded_at": null,
+      "slate_assessment": "15-game MLB-only slate with no NBA or NHL action. Two elite pitching matchups stand out \u2014 Chase Burns vs. Pittsburgh at GABP and Gerrit Cole vs. Cubs at a wind-suppressed Wrigley \u2014 plus a handful of prop edges on K unders and a clean under at Wrigley.",
+      "executive_summary": "Sunday's 15-game MLB board is all about pitching. Chase Burns (12-1, 2.40 ERA) faces a soft Pirates lineup at Great American Ball Park, and Gerrit Cole draws a Cubs offense he's historically dominated at a Wrigley Field where 22-mph winds blowing in will suppress fly balls. The under at Wrigley (6.5) is the sharpest total on the board \u2014 two quality arms, a pitcher-friendly weather environment, and a line that hasn't moved despite public over tendencies. That's the ladder pick. Elsewhere, Jacob Misiorowski's elite K rate against a weak Angels lineup sets up a strikeout over, and the Reds ML offers value against a struggling Mitch Keller. Six plays today, all grounded in pitching edges.",
+      "slate_analysis": "The board today is MLB-only \u2014 15 games, no NBA or NHL in scope. Pricing is tight across the slate; most favorites sit between -120 and -175, and totals cluster in the 7.5-8.5 range. The only outliers are the Coors game (11.5) and the Athletics-Tigers matchup (11.0), both of which carry elevated variance. Data confidence is soft across the board \u2014 most games sit at 0.40-0.45 \u2014 so I'm leaning on pitching matchups and weather signals rather than lineup-driven edges.\n\nThe top candidates that rose during my review: (1) Yankees-Cubs Under 6.5 at Wrigley \u2014 Gerrit Cole vs. Colin Rea with 22-mph wind blowing in from left field, suppressing HR by ~18%. This is the cleanest under setup on the board. (2) Reds ML vs. Pirates \u2014 Chase Burns is 12-1 with a 2.40 ERA and has 24 Ks in 18 IP against Pittsburgh this year; Mitch Keller's 4.83 ERA and 5.10 xERA make him vulnerable. (3) Misiorowski Ks Over 7.5 at LAA \u2014 Misiorowski's 40.6% K rate is elite, and the Angels rank bottom-five in contact rate. (4) Guardians ML vs. Diamondbacks \u2014 Gavin Williams (3.71 ERA, 31.6 K%) vs. Merrill Kelly (4.86 ERA, 1.81 HR/9) at a neutral Progressive Field. (5) Phillies ML at Baltimore \u2014 Zack Wheeler (2.53 ERA, 31.1 K%) is the best arm on the board today, but the -130 juice is borderline and data confidence is only 0.45. (6) Chase Burns Ks Over 6.5 \u2014 Burns has 24 Ks in 18 IP vs. Pittsburgh, but the Reds are capping him at 5 IP lately, which limits his K ceiling.\n\nWhat got cut: Phillies ML at -130 was borderline, but data confidence at 0.45 is below my 0.6 floor for sides \u2014 I can't verify lineup or bullpen status. The Guardians ML at -164 is too juicy for the edge I see; the de-vigged implied probability is ~62%, and my fair line is only ~64%, leaving less than 8 cents of edge. The Burns Ks Over 6.5 is volatile because the Reds are managing his workload \u2014 he's been pulled after 5 IP in three straight starts. The Coors over/under is a coin flip in a chaotic environment; I'm not touching it. The Dodgers ML at -172 is too short for the edge, and Jake Bennett's 65.2 IP sample is too thin to trust.\n\nThe final six: (1) Yankees-Cubs Under 6.5 \u2014 ladder pick, best floor on the board, weather-driven edge, two quality arms. (2) Reds ML vs. Pirates \u2014 Burns is dominant, Keller is vulnerable, and the price is right at -137. (3) Misiorowski Ks Over 7.5 \u2014 elite K rate vs. weak contact lineup. (4) Guardians-Diamondbacks Under 8.0 \u2014 Williams is a K machine, Kelly is a fly-ball pitcher in a neutral park, and the line hasn't moved. (5) Mitch Keller Ks Under 4.5 \u2014 Keller's 17.9 K% is soft, and the Reds' lineup makes contact. (6) Elly De La Cruz Total Bases Over 1.5 \u2014 EDLC is the most explosive hitter on the board, and Keller's HR/9 is 1.03 in a HR-friendly park.",
+      "slate_vibe": "NORMAL",
+      "published_at": "2026-08-02T12:01:22.175279-04:00"
+    },
     {
       "id": "20260801-MLB-MIN-SEA-TOTAL",
       "sport": "MLB",
