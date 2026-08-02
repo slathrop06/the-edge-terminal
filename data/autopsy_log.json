@@ -1,5 +1,31 @@
 [
   {
+    "id": "20260801-MLB-ARI-CLE-TOTAL",
+    "date": "2026-08-01",
+    "pick": "Under 8.5",
+    "game": "ARI @ CLE",
+    "odds": "-102",
+    "result_score": "ARI 12 \u00b7 CLE 8",
+    "classification": "MODEL",
+    "post_mortem": "The pick's own 'case against' section predicted this outcome almost exactly: Drake got knocked around early (Hoskins hit a 2-run HR off him in the 1st inning per the ESPN box score), and a Cleveland bullpen already taxed from a Game 1 loss absorbed a brutal workload against an Arizona lineup that was 17-9 against LHP. Messick did his job \u2014 he faced 20 batters and needed only one reliever (Holderman) \u2014 but the Drake/bullpen side of the equation produced a 12-run Arizona output that buried the under by 11.5 runs. The pick was structured as 'Messick carries this,' but half the total is always on the other team's starter and bullpen, and both were pre-identified as liabilities.",
+    "candidate_rule": "When the pick's own 'case against' section describes the exact mechanism of a blowup (short rookie outing \u2192 taxed bullpen \u2192 run explosion), require that the under thesis explicitly models the bullpen-blowup scenario as a probability-weighted ceiling, not just a footnote \u2014 N=1, insufficient to establish rule.",
+    "sample_size_warning": "N=1, insufficient to establish rule. One loss where the flagged risk materialized does not confirm a systematic model flaw, but the internal contradiction between the thesis and the case-against deserves a second look if this pattern recurs.",
+    "analyzed_at": "2026-08-02T00:22:00.756616-04:00"
+  },
+  {
+    "id": "20260801-MLB-SF-SD-TOTAL",
+    "date": "2026-08-01",
+    "pick": "Under 8.5",
+    "game": "SF @ SD",
+    "odds": "-115",
+    "result_score": "SF 5 \u00b7 SD 6",
+    "classification": "VARIANCE",
+    "post_mortem": "The under was alive at 5-5 through 7.5 innings \u2014 both starters performed roughly as modeled and the park suppressed the ball. The kill shot came in the 8th when Basabe doubled off Padres reliever Miller to tie it at 5-5, pushing the total to 10 and busting the under. A walk-off Cronenworth single in the 9th off Giants reliever D. Smith made it 11 total. This was a bullpen meltdown on both sides in the final two innings, not a starter blowup or a thesis failure.",
+    "candidate_rule": null,
+    "sample_size_warning": "N=1, insufficient to establish rule \u2014 late-inning bullpen variance is inherently unpredictable and cannot be filtered pre-game with a single-game sample.",
+    "analyzed_at": "2026-08-02T00:21:34.181631-04:00"
+  },
+  {
     "id": "20260731-MLB-MIN-SEA-TOTAL",
     "date": "2026-07-31",
     "pick": "Under 7.5",

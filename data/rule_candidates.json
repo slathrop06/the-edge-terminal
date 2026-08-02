@@ -582,5 +582,13 @@
     "candidate_rule": "When a starting pitcher's career ERA vs. the specific opponent is 150%+ of his season ERA, flag the run line as elevated risk and require a secondary confirming edge before recommending -1.5 \u2014 but N=1 here, insufficient to establish a rule.",
     "sample_size_warning": "N=1, insufficient to establish rule. One loss on a pitcher-specific splits miss is noise; track over minimum 10 similar setups before codifying.",
     "status": "PENDING_REVIEW"
+  },
+  {
+    "proposed_at": "2026-08-02T00:22:00.758783-04:00",
+    "source_pick_id": "20260801-MLB-ARI-CLE-TOTAL",
+    "source_loss": "Under 8.5 (ARI @ CLE)",
+    "candidate_rule": "When the pick's own 'case against' section describes the exact mechanism of a blowup (short rookie outing \u2192 taxed bullpen \u2192 run explosion), require that the under thesis explicitly models the bullpen-blowup scenario as a probability-weighted ceiling, not just a footnote \u2014 N=1, insufficient to establish rule.",
+    "sample_size_warning": "N=1, insufficient to establish rule. One loss where the flagged risk materialized does not confirm a systematic model flaw, but the internal contradiction between the thesis and the case-against deserves a second look if this pattern recurs.",
+    "status": "PENDING_REVIEW"
   }
 ]
