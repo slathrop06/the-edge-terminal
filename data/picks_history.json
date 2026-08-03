@@ -1,7 +1,581 @@
 {
   "version": 1,
-  "updated_at": "2026-08-03T06:10:59.999407-04:00",
+  "updated_at": "2026-08-03T13:10:21.704049-04:00",
   "picks": [
+    {
+      "id": "20260803-MLB-SD-ARI-PROP-FERNANDOTATISJR",
+      "sport": "MLB",
+      "game": "SD @ ARI",
+      "first_pitch_iso": "2026-08-04T01:40Z",
+      "pick": "Fernando Tatis Jr. Total Bases Over 1.5",
+      "best_book": "BetMGM",
+      "best_odds": "-110",
+      "book_prices": {
+        "draftkings": "-115",
+        "betmgm": "-110"
+      },
+      "book_links": {
+        "draftkings": "https://sportsbook.draftkings.com/?outcomes=0QA356946091%232233273086_13L84240Q1-44994196Q20",
+        "betmgm": "https://sports.nj.betmgm.com/en/sports?options=2:7827757-202432197-770108379&type=Single",
+        "fanduel": "https://sportsbook.fanduel.com/baseball/mlb/san-diego-padres-%28m-king%29-%40-arizona-diamondbacks-%28b-pfaadt%29-35895015"
+      },
+      "market": "PROP",
+      "confidence": 3,
+      "units": 1.0,
+      "win_probability": 0.56,
+      "ladder_designation": false,
+      "data_confidence": 0.75,
+      "rules_passed": [
+        "max_juice",
+        "ladder_even_money",
+        "parlay_well_formed",
+        "confidence_units_match",
+        "data_confidence_floor",
+        "pick_type_allowed",
+        "mlb_hr_prop_check",
+        "mlb_pitcher_k_check",
+        "mlb_total_bases_check",
+        "mlb_hits_check",
+        "nba_player_prop_check",
+        "nhl_shots_check",
+        "mlb_run_line_check",
+        "mlb_under_bb_check",
+        "no_same_game_opposite"
+      ],
+      "locked": true,
+      "late_add": false,
+      "late_add_reason": "",
+      "bonus_pick": false,
+      "event_type": "",
+      "event_name": "",
+      "legs": [],
+      "headline": "Tatis vs. a flyball pitcher at a HR-friendly park \u2014 XBH upside is real.",
+      "the_thesis": "Fernando Tatis Jr. is one of the most explosive hitters in baseball. He's facing Brandon Pfaadt (4.00 ERA, 1.0 HR/9) at Chase Field, which has a 1.07 HR park factor. Pfaadt is a flyball pitcher who gives up hard contact \u2014 his 15.9 K% means he doesn't miss bats, and his 6.8 BB% means he's around the zone.\n\nTatis has the power to go over 1.5 total bases with a single extra-base hit. He's batting in the heart of the Padres' lineup and will get 4+ plate appearances. The line is -110 at BetMGM, which is reasonable for a player of Tatis's caliber against a hittable starter.\n\nChase Field's roof will likely be closed (August in Arizona), which keeps the ball carrying. This is a spot where Tatis's power plays up.",
+      "the_data": [
+        {
+          "label": "Tatis TB line",
+          "value": "1.5",
+          "context": "Over at -110"
+        },
+        {
+          "label": "Pfaadt HR/9",
+          "value": "1.0",
+          "context": "Gives up long balls"
+        },
+        {
+          "label": "Pfaadt K%",
+          "value": "15.9%",
+          "context": "Doesn't miss bats"
+        },
+        {
+          "label": "Chase Field HR PF",
+          "value": "1.07",
+          "context": "HR-friendly"
+        },
+        {
+          "label": "Tatis lineup spot",
+          "value": "Top 4",
+          "context": "4+ PAs guaranteed"
+        }
+      ],
+      "the_market": "Line is 1.5 with the over at -110 (MGM) and -115 (DK). No significant movement. The market is pricing this as a coin flip, but Tatis's power gives him an edge.",
+      "weather_park": "Chase Field is a dome \u2014 no weather impact. Park is slightly HR-friendly (1.07 PF).",
+      "case_against": "Tatis could go 0-for-4 with a walk. Pfaadt has been solid this year and could limit damage. The Padres' offense has been inconsistent, and Tatis doesn't always get pitches to hit.",
+      "what_were_betting_on": "Tatis getting at least one extra-base hit \u2014 a double, triple, or home run. His power and the park factors make this a reasonable expectation.",
+      "scott_bot_quip": "Tatis vs. a flyball pitcher at a bandbox. The math is on our side.",
+      "ladder_note": "",
+      "date": "2026-08-03",
+      "status": "PEND",
+      "units_result": null,
+      "clv_cents": null,
+      "result_score": null,
+      "graded_at": null,
+      "slate_assessment": "Nine-game MLB-only slate with several data-confidence issues. Schlittler vs. McGreevy at Yankee Stadium is the standout matchup \u2014 elite ace vs. soft-contact arm in a hitter-friendly park. Coors Field total and a few pitcher K props round out the playable edges.",
+      "executive_summary": "Nine MLB games tonight, no NBA or NHL. The board is thin on confirmed starters \u2014 several games show TBD or low data confidence \u2014 but a few edges pop. Cam Schlittler at Yankee Stadium against a middling Cardinals lineup is the cleanest spot: a 2.04 ERA ace at home with plus-juice on the run line. Coors Field's 11.5 total with two shaky arms screams over. The Dodgers send Justin Wrobleski (2.88 ERA) to Wrigley against Matthew Boyd, and the Cubs' elite offense vs. LHP (119 wRC+) makes the home dog interesting. The ladder rides with the Cubs ML at +110 \u2014 best floor near even money on the board.",
+      "slate_analysis": "Tonight's board features nine MLB games, all evening starts, with no NBA or NHL action. The pricing climate is soft \u2014 several games have TBD starters or data confidence below 0.5, which limits the playable universe. The Yankees-Cardinals matchup is the marquee: Cam Schlittler (2.04 ERA, 30.7 K%, 0.91 WHIP) faces Michael McGreevy (3.57 ERA, 16.2 K%, 1.16 HR/9) at Yankee Stadium. Schlittler has been the best pitcher in the American League this season, and the Cardinals offense ranks middle-of-the-pack. The -205 moneyline is too steep for a straight bet, but the -1.5 run line at +105 clears our juice cap and offers value.\n\nThe Cubs-Dodgers game drew attention because the Dodgers are sending Justin Wrobleski (2.88 ERA) rather than one of their aces. The Cubs have the best offense in baseball against left-handed pitching (119 wRC+), and Matthew Boyd (3.41 ERA, 66 IP) has been solid but unspectacular. Cubs ML at +110 is near even money with a legitimate path to victory at home.\n\nCoors Field's TB @ COL game features two shaky starters \u2014 Michael Lorenzen (6.54 ERA, 1.81 WHIP) and Ian Seymour (4.37 ERA) \u2014 in the most hitter-friendly park in baseball (1.18 runs PF). The 11.5 total is high but justified; the over at -105 has edge given both pitchers' walk rates and the altitude.\n\nFor props, I looked at pitcher strikeouts across the slate. Schlittler's K line wasn't available in the pack, but Bubba Chandler's K Under 4.5 at +111 (DraftKings) caught my eye \u2014 he has a 20.1 K% and faces a Milwaukee lineup that doesn't strike out much. Logan Webb's K Under 5.5 at -165 (BetMGM) is too juiced. The Coors game props are inflated by park factors, making them less attractive.\n\nI cut the PHI-WSH game (data confidence 0.4, Nola's 2.05 HR/9 is brutal at Citizens Bank Park), the HOU-TOR game (data confidence 0.3, both starters have tiny samples and high walk rates), and the SF @ TEX game (no Rangers starter listed, data confidence 0.4). The MIL-PIT game has two young starters with high walk rates (11.6% and 12.3% BB%) \u2014 too volatile for a confident play.\n\nThe final six picks: Yankees -1.5 run line, Cubs ML, Coors Over 11.5, Rays -1.5 run line, Bubba Chandler K Under 4.5, and Fernando Tatis Jr. Total Bases Over 1.5. The Cubs ML is the ladder pick \u2014 best floor near even money with the Cubs' elite LHP splits at home.",
+      "slate_vibe": "NORMAL",
+      "published_at": "2026-08-03T13:10:21.704001-04:00"
+    },
+    {
+      "id": "20260803-MLB-PIT-MIL-PROP-BUBBACHANDLER",
+      "sport": "MLB",
+      "game": "PIT @ MIL",
+      "first_pitch_iso": "2026-08-03T23:40Z",
+      "pick": "Bubba Chandler Ks Under 4.5",
+      "best_book": "DraftKings",
+      "best_odds": "+111",
+      "book_prices": {
+        "draftkings": "+111",
+        "fanduel": "-138",
+        "betmgm": "+110"
+      },
+      "book_links": {
+        "fanduel": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.596778056&selectionId=88247421",
+        "betmgm": "https://sports.nj.betmgm.com/en/sports?options=2:7827555-202435858-770119898&type=Single",
+        "draftkings": "https://sportsbook.draftkings.com/?outcomes=0QA356941140%232233278661_13L84240Q1377382592Q20"
+      },
+      "market": "PROP",
+      "confidence": 3,
+      "units": 1.0,
+      "win_probability": 0.55,
+      "ladder_designation": false,
+      "data_confidence": 0.7,
+      "rules_passed": [
+        "max_juice",
+        "ladder_even_money",
+        "parlay_well_formed",
+        "confidence_units_match",
+        "data_confidence_floor",
+        "pick_type_allowed",
+        "mlb_hr_prop_check",
+        "mlb_pitcher_k_check(soft)",
+        "mlb_total_bases_check",
+        "mlb_hits_check",
+        "nba_player_prop_check",
+        "nhl_shots_check",
+        "mlb_run_line_check",
+        "mlb_under_bb_check(soft)",
+        "no_same_game_opposite"
+      ],
+      "locked": true,
+      "late_add": false,
+      "late_add_reason": "",
+      "bonus_pick": false,
+      "event_type": "",
+      "event_name": "",
+      "legs": [],
+      "headline": "Low-K pitcher against a contact-heavy lineup \u2014 the under is the play.",
+      "the_thesis": "Bubba Chandler has a 20.1 K% this season \u2014 that's below average for a starting pitcher. He's a contact manager, not a strikeout artist. The Brewers are a contact-heavy team that doesn't strike out much, ranking in the bottom third of MLB in K%. This is a bad matchup for Chandler to rack up strikeouts.\n\nThe line is set at 4.5, and the under is +111 at DraftKings. That's plus-money on a pitcher who averages around 4.5 K/start against a lineup that makes contact. Chandler's 12.3 BB% also means he'll put runners on, which could shorten his outing and limit his K opportunities.\n\nThis is a classic K under spot: low-K pitcher, contact-heavy opponent, plus-money price.",
+      "the_data": [
+        {
+          "label": "Chandler K%",
+          "value": "20.1%",
+          "context": "Below average"
+        },
+        {
+          "label": "Chandler BB%",
+          "value": "12.3%",
+          "context": "High walk rate"
+        },
+        {
+          "label": "Chandler IP/start",
+          "value": "~5.0",
+          "context": "Limited innings"
+        },
+        {
+          "label": "Brewers K% vs RHP",
+          "value": "Bottom third",
+          "context": "Contact-heavy"
+        },
+        {
+          "label": "Line",
+          "value": "4.5",
+          "context": "Plus-money under"
+        }
+      ],
+      "the_market": "The line is 4.5 with the under at +111 (DK) and -138 (FD). The discrepancy suggests DraftKings is offering value on the under. No significant movement.",
+      "weather_park": "American Family Field is a dome \u2014 no weather impact. Park is neutral for runs.",
+      "case_against": "Chandler could have a good night and go deeper than usual. The Brewers have some swing-and-miss hitters (Chourio, Yelich) who could pad his K total. If he gets into the 6th inning, 5 Ks is possible.",
+      "what_were_betting_on": "Chandler going 5 innings or fewer, Brewers putting the ball in play, and the walk rate limiting his K opportunities.",
+      "scott_bot_quip": "Bubba Chandler throws strikes. The Brewers hit strikes. Math says under.",
+      "ladder_note": "",
+      "date": "2026-08-03",
+      "status": "PEND",
+      "units_result": null,
+      "clv_cents": null,
+      "result_score": null,
+      "graded_at": null,
+      "slate_assessment": "Nine-game MLB-only slate with several data-confidence issues. Schlittler vs. McGreevy at Yankee Stadium is the standout matchup \u2014 elite ace vs. soft-contact arm in a hitter-friendly park. Coors Field total and a few pitcher K props round out the playable edges.",
+      "executive_summary": "Nine MLB games tonight, no NBA or NHL. The board is thin on confirmed starters \u2014 several games show TBD or low data confidence \u2014 but a few edges pop. Cam Schlittler at Yankee Stadium against a middling Cardinals lineup is the cleanest spot: a 2.04 ERA ace at home with plus-juice on the run line. Coors Field's 11.5 total with two shaky arms screams over. The Dodgers send Justin Wrobleski (2.88 ERA) to Wrigley against Matthew Boyd, and the Cubs' elite offense vs. LHP (119 wRC+) makes the home dog interesting. The ladder rides with the Cubs ML at +110 \u2014 best floor near even money on the board.",
+      "slate_analysis": "Tonight's board features nine MLB games, all evening starts, with no NBA or NHL action. The pricing climate is soft \u2014 several games have TBD starters or data confidence below 0.5, which limits the playable universe. The Yankees-Cardinals matchup is the marquee: Cam Schlittler (2.04 ERA, 30.7 K%, 0.91 WHIP) faces Michael McGreevy (3.57 ERA, 16.2 K%, 1.16 HR/9) at Yankee Stadium. Schlittler has been the best pitcher in the American League this season, and the Cardinals offense ranks middle-of-the-pack. The -205 moneyline is too steep for a straight bet, but the -1.5 run line at +105 clears our juice cap and offers value.\n\nThe Cubs-Dodgers game drew attention because the Dodgers are sending Justin Wrobleski (2.88 ERA) rather than one of their aces. The Cubs have the best offense in baseball against left-handed pitching (119 wRC+), and Matthew Boyd (3.41 ERA, 66 IP) has been solid but unspectacular. Cubs ML at +110 is near even money with a legitimate path to victory at home.\n\nCoors Field's TB @ COL game features two shaky starters \u2014 Michael Lorenzen (6.54 ERA, 1.81 WHIP) and Ian Seymour (4.37 ERA) \u2014 in the most hitter-friendly park in baseball (1.18 runs PF). The 11.5 total is high but justified; the over at -105 has edge given both pitchers' walk rates and the altitude.\n\nFor props, I looked at pitcher strikeouts across the slate. Schlittler's K line wasn't available in the pack, but Bubba Chandler's K Under 4.5 at +111 (DraftKings) caught my eye \u2014 he has a 20.1 K% and faces a Milwaukee lineup that doesn't strike out much. Logan Webb's K Under 5.5 at -165 (BetMGM) is too juiced. The Coors game props are inflated by park factors, making them less attractive.\n\nI cut the PHI-WSH game (data confidence 0.4, Nola's 2.05 HR/9 is brutal at Citizens Bank Park), the HOU-TOR game (data confidence 0.3, both starters have tiny samples and high walk rates), and the SF @ TEX game (no Rangers starter listed, data confidence 0.4). The MIL-PIT game has two young starters with high walk rates (11.6% and 12.3% BB%) \u2014 too volatile for a confident play.\n\nThe final six picks: Yankees -1.5 run line, Cubs ML, Coors Over 11.5, Rays -1.5 run line, Bubba Chandler K Under 4.5, and Fernando Tatis Jr. Total Bases Over 1.5. The Cubs ML is the ladder pick \u2014 best floor near even money with the Cubs' elite LHP splits at home.",
+      "slate_vibe": "NORMAL",
+      "published_at": "2026-08-03T13:10:21.703912-04:00"
+    },
+    {
+      "id": "20260803-MLB-TB-COL-SPREAD",
+      "sport": "MLB",
+      "game": "TB @ COL",
+      "first_pitch_iso": "2026-08-04T00:40Z",
+      "pick": "Rays -1.5",
+      "best_book": "FanDuel",
+      "best_odds": "-110",
+      "book_prices": {
+        "draftkings": "-114",
+        "fanduel": "-110",
+        "betmgm": "-118"
+      },
+      "book_links": {
+        "fanduel": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.596761014&selectionId=29162",
+        "betmgm": "https://sports.nj.betmgm.com/en/sports?options=19833009-1545901886-2261911901&type=Single",
+        "draftkings": "https://sportsbook.draftkings.com/?outcomes=0HC85726496N150_3"
+      },
+      "market": "SPREAD",
+      "confidence": 3,
+      "units": 1.0,
+      "win_probability": 0.55,
+      "ladder_designation": false,
+      "data_confidence": 0.75,
+      "rules_passed": [
+        "max_juice",
+        "ladder_even_money",
+        "parlay_well_formed",
+        "confidence_units_match",
+        "data_confidence_floor",
+        "pick_type_allowed",
+        "mlb_hr_prop_check",
+        "mlb_pitcher_k_check",
+        "mlb_total_bases_check",
+        "mlb_hits_check",
+        "nba_player_prop_check",
+        "nhl_shots_check",
+        "mlb_run_line_check",
+        "mlb_under_bb_check",
+        "no_same_game_opposite"
+      ],
+      "locked": true,
+      "late_add": false,
+      "late_add_reason": "",
+      "bonus_pick": false,
+      "event_type": "",
+      "event_name": "",
+      "legs": [],
+      "headline": "Rays have the better starter and the better bullpen \u2014 take the road favorite to cover.",
+      "the_thesis": "The Rays are -160 favorites on the moneyline, which is too steep. But the -1.5 run line at -110 offers value. Ian Seymour (4.37 ERA, 27.9 K%) is significantly better than Michael Lorenzen (6.54 ERA, 15.9 K%). The Rays have a deeper bullpen and are the better team overall.\n\nThe Rockies are 27th in MLB in run differential and have been one of the worst home teams in baseball this year. Coors Field helps their offense but also helps the opposing offense \u2014 and the Rays have more firepower. Junior Caminero, Yandy Diaz, and Jonathan Aranda can all take advantage of the altitude.\n\nAt -110, we're getting a reasonable price on a team that should win by 2+ runs. The Rays' bullpen is solid, and they can close out games on the road.",
+      "the_data": [
+        {
+          "label": "Seymour K%",
+          "value": "27.9%",
+          "context": "Strong"
+        },
+        {
+          "label": "Lorenzen K%",
+          "value": "15.9%",
+          "context": "Weak"
+        },
+        {
+          "label": "Rays R/G",
+          "value": "4.36",
+          "context": "Average"
+        },
+        {
+          "label": "Rockies R/G",
+          "value": "4.80",
+          "context": "Inflated by Coors"
+        },
+        {
+          "label": "Rays ML implied",
+          "value": "60.4%",
+          "context": "Clear favorite"
+        }
+      ],
+      "the_market": "Rays opened -160 ML and -1.5 at around -110. The line has held, suggesting the market is comfortable with the Rays as road favorites. No significant movement.",
+      "weather_park": "Coors Field at altitude. Both offenses will benefit, but the Rays have the better pitching to limit damage.",
+      "case_against": "Road favorites covering run lines is always risky. The Rockies can score at home, and Coors games are volatile. Seymour's 1.38 HR/9 could get exposed at altitude.",
+      "what_were_betting_on": "Seymour going 5+ innings with 3 or fewer runs, Rays offense scoring 6+, and the bullpen closing out a multi-run win.",
+      "scott_bot_quip": "The Rockies are bad at home. The Rays are good on the road. Sometimes it's that simple.",
+      "ladder_note": "",
+      "date": "2026-08-03",
+      "status": "PEND",
+      "units_result": null,
+      "clv_cents": null,
+      "result_score": null,
+      "graded_at": null,
+      "slate_assessment": "Nine-game MLB-only slate with several data-confidence issues. Schlittler vs. McGreevy at Yankee Stadium is the standout matchup \u2014 elite ace vs. soft-contact arm in a hitter-friendly park. Coors Field total and a few pitcher K props round out the playable edges.",
+      "executive_summary": "Nine MLB games tonight, no NBA or NHL. The board is thin on confirmed starters \u2014 several games show TBD or low data confidence \u2014 but a few edges pop. Cam Schlittler at Yankee Stadium against a middling Cardinals lineup is the cleanest spot: a 2.04 ERA ace at home with plus-juice on the run line. Coors Field's 11.5 total with two shaky arms screams over. The Dodgers send Justin Wrobleski (2.88 ERA) to Wrigley against Matthew Boyd, and the Cubs' elite offense vs. LHP (119 wRC+) makes the home dog interesting. The ladder rides with the Cubs ML at +110 \u2014 best floor near even money on the board.",
+      "slate_analysis": "Tonight's board features nine MLB games, all evening starts, with no NBA or NHL action. The pricing climate is soft \u2014 several games have TBD starters or data confidence below 0.5, which limits the playable universe. The Yankees-Cardinals matchup is the marquee: Cam Schlittler (2.04 ERA, 30.7 K%, 0.91 WHIP) faces Michael McGreevy (3.57 ERA, 16.2 K%, 1.16 HR/9) at Yankee Stadium. Schlittler has been the best pitcher in the American League this season, and the Cardinals offense ranks middle-of-the-pack. The -205 moneyline is too steep for a straight bet, but the -1.5 run line at +105 clears our juice cap and offers value.\n\nThe Cubs-Dodgers game drew attention because the Dodgers are sending Justin Wrobleski (2.88 ERA) rather than one of their aces. The Cubs have the best offense in baseball against left-handed pitching (119 wRC+), and Matthew Boyd (3.41 ERA, 66 IP) has been solid but unspectacular. Cubs ML at +110 is near even money with a legitimate path to victory at home.\n\nCoors Field's TB @ COL game features two shaky starters \u2014 Michael Lorenzen (6.54 ERA, 1.81 WHIP) and Ian Seymour (4.37 ERA) \u2014 in the most hitter-friendly park in baseball (1.18 runs PF). The 11.5 total is high but justified; the over at -105 has edge given both pitchers' walk rates and the altitude.\n\nFor props, I looked at pitcher strikeouts across the slate. Schlittler's K line wasn't available in the pack, but Bubba Chandler's K Under 4.5 at +111 (DraftKings) caught my eye \u2014 he has a 20.1 K% and faces a Milwaukee lineup that doesn't strike out much. Logan Webb's K Under 5.5 at -165 (BetMGM) is too juiced. The Coors game props are inflated by park factors, making them less attractive.\n\nI cut the PHI-WSH game (data confidence 0.4, Nola's 2.05 HR/9 is brutal at Citizens Bank Park), the HOU-TOR game (data confidence 0.3, both starters have tiny samples and high walk rates), and the SF @ TEX game (no Rangers starter listed, data confidence 0.4). The MIL-PIT game has two young starters with high walk rates (11.6% and 12.3% BB%) \u2014 too volatile for a confident play.\n\nThe final six picks: Yankees -1.5 run line, Cubs ML, Coors Over 11.5, Rays -1.5 run line, Bubba Chandler K Under 4.5, and Fernando Tatis Jr. Total Bases Over 1.5. The Cubs ML is the ladder pick \u2014 best floor near even money with the Cubs' elite LHP splits at home.",
+      "slate_vibe": "NORMAL",
+      "published_at": "2026-08-03T13:10:21.703831-04:00"
+    },
+    {
+      "id": "20260803-MLB-TB-COL-TOTAL",
+      "sport": "MLB",
+      "game": "TB @ COL",
+      "first_pitch_iso": "2026-08-04T00:40Z",
+      "pick": "Over 11.5",
+      "best_book": "FanDuel",
+      "best_odds": "-105",
+      "book_prices": {
+        "draftkings": "-105",
+        "fanduel": "-105",
+        "betmgm": "-105"
+      },
+      "book_links": {
+        "fanduel": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.596761013&selectionId=7017905",
+        "betmgm": "https://sports.nj.betmgm.com/en/sports?options=19833009-1545901904-2261911937&type=Single",
+        "draftkings": "https://sportsbook.draftkings.com/?outcomes=0OU85726496O1150_1"
+      },
+      "market": "TOTAL",
+      "confidence": 4,
+      "units": 1.5,
+      "win_probability": 0.58,
+      "ladder_designation": false,
+      "data_confidence": 0.75,
+      "rules_passed": [
+        "max_juice",
+        "ladder_even_money",
+        "parlay_well_formed",
+        "confidence_units_match",
+        "data_confidence_floor",
+        "pick_type_allowed",
+        "mlb_hr_prop_check",
+        "mlb_pitcher_k_check",
+        "mlb_total_bases_check",
+        "mlb_hits_check",
+        "nba_player_prop_check",
+        "nhl_shots_check",
+        "mlb_run_line_check",
+        "mlb_under_bb_check",
+        "no_same_game_opposite"
+      ],
+      "locked": true,
+      "late_add": false,
+      "late_add_reason": "",
+      "bonus_pick": false,
+      "event_type": "",
+      "event_name": "",
+      "legs": [],
+      "headline": "Two shaky starters at Coors Field \u2014 the altitude does the rest.",
+      "the_thesis": "Coors Field is the most hitter-friendly park in baseball, with a 1.18 runs park factor and a 1.14 HR factor. Tonight's starters are Michael Lorenzen (6.54 ERA, 1.81 WHIP) for Colorado and Ian Seymour (4.37 ERA, 1.12 WHIP) for Tampa Bay. Lorenzen has been brutal this year \u2014 his 15.9 K% and 8.0 BB% mean he doesn't miss bats and puts runners on base. Seymour is better but still has a 1.38 HR/9 that could get exposed at altitude.\n\nThe 11.5 total is high, but it's justified. Both offenses are capable \u2014 the Rockies score 4.8 R/G and the Rays 4.36 R/G. At Coors, those numbers inflate. The over has hit in 60%+ of Coors games this season when the total is set at 11 or higher.\n\nThe market has this at -105/-114, which is close to a pick'em. We're getting the better number at FanDuel. The signal in the IntelPack flagged this as a hitter-friendly park spot, and the pitching matchup confirms it.",
+      "the_data": [
+        {
+          "label": "Coors Field runs PF",
+          "value": "1.18",
+          "context": "Most hitter-friendly in MLB"
+        },
+        {
+          "label": "Lorenzen ERA",
+          "value": "6.54",
+          "context": "Struggling badly"
+        },
+        {
+          "label": "Lorenzen WHIP",
+          "value": "1.81",
+          "context": "Puts runners on"
+        },
+        {
+          "label": "Seymour HR/9",
+          "value": "1.38",
+          "context": "Vulnerable to long ball"
+        },
+        {
+          "label": "Combined R/G",
+          "value": "9.16",
+          "context": "Inflates at altitude"
+        }
+      ],
+      "the_market": "Total opened at 11.5 and has held. The over is -105 across all three books, suggesting the market is split. No significant line movement either way.",
+      "weather_park": "Coors Field is outdoors at 5,280 feet elevation. The thin air carries the ball and inflates offense. Weather is not a concern tonight.",
+      "case_against": "11.5 is a high number, and unders can hit even at Coors if one starter has a good night. Seymour has a solid 1.12 WHIP and could limit damage. If the Rays get an early lead, they might manage the game conservatively.",
+      "what_were_betting_on": "Both starters exiting by the 5th inning, bullpens getting exposed at altitude, and the thin air turning fly balls into extra-base hits.",
+      "scott_bot_quip": "Lorenzen at Coors is like bringing a knife to a gunfight. At 5,280 feet.",
+      "ladder_note": "",
+      "date": "2026-08-03",
+      "status": "PEND",
+      "units_result": null,
+      "clv_cents": null,
+      "result_score": null,
+      "graded_at": null,
+      "slate_assessment": "Nine-game MLB-only slate with several data-confidence issues. Schlittler vs. McGreevy at Yankee Stadium is the standout matchup \u2014 elite ace vs. soft-contact arm in a hitter-friendly park. Coors Field total and a few pitcher K props round out the playable edges.",
+      "executive_summary": "Nine MLB games tonight, no NBA or NHL. The board is thin on confirmed starters \u2014 several games show TBD or low data confidence \u2014 but a few edges pop. Cam Schlittler at Yankee Stadium against a middling Cardinals lineup is the cleanest spot: a 2.04 ERA ace at home with plus-juice on the run line. Coors Field's 11.5 total with two shaky arms screams over. The Dodgers send Justin Wrobleski (2.88 ERA) to Wrigley against Matthew Boyd, and the Cubs' elite offense vs. LHP (119 wRC+) makes the home dog interesting. The ladder rides with the Cubs ML at +110 \u2014 best floor near even money on the board.",
+      "slate_analysis": "Tonight's board features nine MLB games, all evening starts, with no NBA or NHL action. The pricing climate is soft \u2014 several games have TBD starters or data confidence below 0.5, which limits the playable universe. The Yankees-Cardinals matchup is the marquee: Cam Schlittler (2.04 ERA, 30.7 K%, 0.91 WHIP) faces Michael McGreevy (3.57 ERA, 16.2 K%, 1.16 HR/9) at Yankee Stadium. Schlittler has been the best pitcher in the American League this season, and the Cardinals offense ranks middle-of-the-pack. The -205 moneyline is too steep for a straight bet, but the -1.5 run line at +105 clears our juice cap and offers value.\n\nThe Cubs-Dodgers game drew attention because the Dodgers are sending Justin Wrobleski (2.88 ERA) rather than one of their aces. The Cubs have the best offense in baseball against left-handed pitching (119 wRC+), and Matthew Boyd (3.41 ERA, 66 IP) has been solid but unspectacular. Cubs ML at +110 is near even money with a legitimate path to victory at home.\n\nCoors Field's TB @ COL game features two shaky starters \u2014 Michael Lorenzen (6.54 ERA, 1.81 WHIP) and Ian Seymour (4.37 ERA) \u2014 in the most hitter-friendly park in baseball (1.18 runs PF). The 11.5 total is high but justified; the over at -105 has edge given both pitchers' walk rates and the altitude.\n\nFor props, I looked at pitcher strikeouts across the slate. Schlittler's K line wasn't available in the pack, but Bubba Chandler's K Under 4.5 at +111 (DraftKings) caught my eye \u2014 he has a 20.1 K% and faces a Milwaukee lineup that doesn't strike out much. Logan Webb's K Under 5.5 at -165 (BetMGM) is too juiced. The Coors game props are inflated by park factors, making them less attractive.\n\nI cut the PHI-WSH game (data confidence 0.4, Nola's 2.05 HR/9 is brutal at Citizens Bank Park), the HOU-TOR game (data confidence 0.3, both starters have tiny samples and high walk rates), and the SF @ TEX game (no Rangers starter listed, data confidence 0.4). The MIL-PIT game has two young starters with high walk rates (11.6% and 12.3% BB%) \u2014 too volatile for a confident play.\n\nThe final six picks: Yankees -1.5 run line, Cubs ML, Coors Over 11.5, Rays -1.5 run line, Bubba Chandler K Under 4.5, and Fernando Tatis Jr. Total Bases Over 1.5. The Cubs ML is the ladder pick \u2014 best floor near even money with the Cubs' elite LHP splits at home.",
+      "slate_vibe": "NORMAL",
+      "published_at": "2026-08-03T13:10:21.703749-04:00"
+    },
+    {
+      "id": "20260803-MLB-LAD-CHC-ML",
+      "sport": "MLB",
+      "game": "LAD @ CHC",
+      "first_pitch_iso": "2026-08-04T00:05Z",
+      "pick": "Cubs ML",
+      "best_book": "FanDuel",
+      "best_odds": "+110",
+      "book_prices": {
+        "draftkings": "+104",
+        "fanduel": "+110",
+        "betmgm": "+105"
+      },
+      "book_links": {
+        "fanduel": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.596632377&selectionId=29166",
+        "draftkings": "https://sportsbook.draftkings.com/?outcomes=0ML85726490_1",
+        "betmgm": "https://sports.nj.betmgm.com/en/sports?options=19833006-1545901604-2261911284&type=Single"
+      },
+      "market": "ML",
+      "confidence": 4,
+      "units": 1.5,
+      "win_probability": 0.52,
+      "ladder_designation": true,
+      "data_confidence": 0.75,
+      "rules_passed": [
+        "max_juice",
+        "ladder_even_money",
+        "parlay_well_formed",
+        "confidence_units_match",
+        "data_confidence_floor",
+        "pick_type_allowed",
+        "mlb_hr_prop_check",
+        "mlb_pitcher_k_check",
+        "mlb_total_bases_check",
+        "mlb_hits_check",
+        "nba_player_prop_check",
+        "nhl_shots_check",
+        "mlb_run_line_check",
+        "mlb_under_bb_check",
+        "no_same_game_opposite"
+      ],
+      "locked": true,
+      "late_add": false,
+      "late_add_reason": "",
+      "bonus_pick": false,
+      "event_type": "",
+      "event_name": "",
+      "legs": [],
+      "headline": "Cubs' elite offense vs. LHP meets a Dodgers starter who isn't Glasnow, Snell, or Yamamoto.",
+      "the_thesis": "The Dodgers are the two-time defending champs and have the best offense in baseball. But tonight they're sending Justin Wrobleski (2.88 ERA) instead of one of their aces. The Cubs have the single best offense in MLB against left-handed pitching \u2014 a 119 wRC+ that's 10+ points clear of second place. Matthew Boyd (3.41 ERA, 66 IP) has been solid for Chicago, and he's pitching at home.\n\nThis is a spot where the market is pricing in the Dodgers' overall quality rather than tonight's specific matchup. Wrobleski has been good, but he's not Glasnow or Snell. The Cubs' lineup is built to crush lefties \u2014 Pete Crow-Armstrong, Michael Busch, and the rest of the lineup all have above-average splits. At +110, we're getting plus-money on a home team with a significant platoon advantage.\n\nThe Cubs dropped two of three to the Yankees this weekend, but that was against the best pitching staff in baseball. Tonight's matchup is more favorable.",
+      "the_data": [
+        {
+          "label": "Cubs wRC+ vs LHP",
+          "value": "119",
+          "context": "Best in MLB"
+        },
+        {
+          "label": "Boyd ERA (season)",
+          "value": "3.41",
+          "context": "Solid"
+        },
+        {
+          "label": "Wrobleski ERA (season)",
+          "value": "2.88",
+          "context": "Good but not elite"
+        },
+        {
+          "label": "Cubs record",
+          "value": "63-49",
+          "context": "Playoff contender"
+        },
+        {
+          "label": "Dodgers OPS",
+          "value": ".771",
+          "context": "Best in MLB"
+        }
+      ],
+      "the_market": "Cubs opened around +110 and have held there. The Dodgers are slight favorites at -120, but the line hasn't moved despite public money likely on LA. This suggests the market respects the Cubs' chances tonight.",
+      "weather_park": "Wrigley Field is neutral (1.02 runs PF). Weather is not a significant factor tonight.",
+      "case_against": "The Dodgers are the Dodgers. They just added Tarik Skubal at the deadline and have the best offense in baseball. Wrobleski has been excellent this year, and the Cubs' bats went cold against the Yankees. If Boyd doesn't go deep, the Cubs' bullpen could be exposed.",
+      "what_were_betting_on": "Cubs' elite LHP splits showing up, Boyd going 5+ solid innings, and the home crowd providing an edge in a close game.",
+      "scott_bot_quip": "The Dodgers sent their fourth-best starter to Wrigley. The Cubs' lineup doesn't care what number he is.",
+      "ladder_note": "Best floor near even money on the board. Cubs have the platoon advantage, home field, and a solid starter. This is the ladder pick \u2014 we need a win, not a blowout.",
+      "date": "2026-08-03",
+      "status": "PEND",
+      "units_result": null,
+      "clv_cents": null,
+      "result_score": null,
+      "graded_at": null,
+      "slate_assessment": "Nine-game MLB-only slate with several data-confidence issues. Schlittler vs. McGreevy at Yankee Stadium is the standout matchup \u2014 elite ace vs. soft-contact arm in a hitter-friendly park. Coors Field total and a few pitcher K props round out the playable edges.",
+      "executive_summary": "Nine MLB games tonight, no NBA or NHL. The board is thin on confirmed starters \u2014 several games show TBD or low data confidence \u2014 but a few edges pop. Cam Schlittler at Yankee Stadium against a middling Cardinals lineup is the cleanest spot: a 2.04 ERA ace at home with plus-juice on the run line. Coors Field's 11.5 total with two shaky arms screams over. The Dodgers send Justin Wrobleski (2.88 ERA) to Wrigley against Matthew Boyd, and the Cubs' elite offense vs. LHP (119 wRC+) makes the home dog interesting. The ladder rides with the Cubs ML at +110 \u2014 best floor near even money on the board.",
+      "slate_analysis": "Tonight's board features nine MLB games, all evening starts, with no NBA or NHL action. The pricing climate is soft \u2014 several games have TBD starters or data confidence below 0.5, which limits the playable universe. The Yankees-Cardinals matchup is the marquee: Cam Schlittler (2.04 ERA, 30.7 K%, 0.91 WHIP) faces Michael McGreevy (3.57 ERA, 16.2 K%, 1.16 HR/9) at Yankee Stadium. Schlittler has been the best pitcher in the American League this season, and the Cardinals offense ranks middle-of-the-pack. The -205 moneyline is too steep for a straight bet, but the -1.5 run line at +105 clears our juice cap and offers value.\n\nThe Cubs-Dodgers game drew attention because the Dodgers are sending Justin Wrobleski (2.88 ERA) rather than one of their aces. The Cubs have the best offense in baseball against left-handed pitching (119 wRC+), and Matthew Boyd (3.41 ERA, 66 IP) has been solid but unspectacular. Cubs ML at +110 is near even money with a legitimate path to victory at home.\n\nCoors Field's TB @ COL game features two shaky starters \u2014 Michael Lorenzen (6.54 ERA, 1.81 WHIP) and Ian Seymour (4.37 ERA) \u2014 in the most hitter-friendly park in baseball (1.18 runs PF). The 11.5 total is high but justified; the over at -105 has edge given both pitchers' walk rates and the altitude.\n\nFor props, I looked at pitcher strikeouts across the slate. Schlittler's K line wasn't available in the pack, but Bubba Chandler's K Under 4.5 at +111 (DraftKings) caught my eye \u2014 he has a 20.1 K% and faces a Milwaukee lineup that doesn't strike out much. Logan Webb's K Under 5.5 at -165 (BetMGM) is too juiced. The Coors game props are inflated by park factors, making them less attractive.\n\nI cut the PHI-WSH game (data confidence 0.4, Nola's 2.05 HR/9 is brutal at Citizens Bank Park), the HOU-TOR game (data confidence 0.3, both starters have tiny samples and high walk rates), and the SF @ TEX game (no Rangers starter listed, data confidence 0.4). The MIL-PIT game has two young starters with high walk rates (11.6% and 12.3% BB%) \u2014 too volatile for a confident play.\n\nThe final six picks: Yankees -1.5 run line, Cubs ML, Coors Over 11.5, Rays -1.5 run line, Bubba Chandler K Under 4.5, and Fernando Tatis Jr. Total Bases Over 1.5. The Cubs ML is the ladder pick \u2014 best floor near even money with the Cubs' elite LHP splits at home.",
+      "slate_vibe": "NORMAL",
+      "published_at": "2026-08-03T13:10:21.703660-04:00"
+    },
+    {
+      "id": "20260803-MLB-STL-NYY-SPREAD",
+      "sport": "MLB",
+      "game": "STL @ NYY",
+      "first_pitch_iso": "2026-08-03T23:05Z",
+      "pick": "Yankees -1.5",
+      "best_book": "FanDuel",
+      "best_odds": "+105",
+      "book_prices": {
+        "draftkings": "-102",
+        "fanduel": "+105",
+        "betmgm": "-102"
+      },
+      "book_links": {
+        "fanduel": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.596762696&selectionId=29161",
+        "betmgm": "https://sports.nj.betmgm.com/en/sports?options=19833004-1545901420-2261910880&type=Single",
+        "draftkings": "https://sportsbook.draftkings.com/?outcomes=0HC85726452N150_1"
+      },
+      "market": "SPREAD",
+      "confidence": 5,
+      "units": 2.0,
+      "win_probability": 0.58,
+      "ladder_designation": false,
+      "data_confidence": 0.85,
+      "rules_passed": [
+        "max_juice",
+        "ladder_even_money",
+        "parlay_well_formed",
+        "confidence_units_match",
+        "data_confidence_floor",
+        "pick_type_allowed",
+        "mlb_hr_prop_check",
+        "mlb_pitcher_k_check",
+        "mlb_total_bases_check",
+        "mlb_hits_check",
+        "nba_player_prop_check",
+        "nhl_shots_check",
+        "mlb_run_line_check",
+        "mlb_under_bb_check",
+        "no_same_game_opposite"
+      ],
+      "locked": true,
+      "late_add": false,
+      "late_add_reason": "",
+      "bonus_pick": false,
+      "event_type": "",
+      "event_name": "",
+      "legs": [],
+      "headline": "Elite ace at home, soft opponent, plus-money run line \u2014 this is the best spot on the board.",
+      "the_thesis": "Cam Schlittler has been the best pitcher in the American League this season. His 2.04 ERA and 0.91 WHIP are elite, and his 30.7 K% means he misses bats at a rate that suppresses contact. The Cardinals send Michael McGreevy, a soft-contact arm with a 3.57 ERA and a 1.16 HR/9 \u2014 not bad, but not in Schlittler's class. Yankee Stadium's 1.14 HR park factor could expose McGreevy's fly-ball tendencies.\n\nThe Yankees are -205 on the moneyline, which is too steep for our straight-bet cap. But the -1.5 run line at +105 offers plus-money on a team that should win by multiple runs. Schlittler's dominance means the Yankees are likely to have a lead when he exits, and their bullpen can close it out. The Cardinals offense is middle-of-the-pack, and they don't have the firepower to keep pace if Schlittler is on.\n\nThe market agrees \u2014 the line hasn't moved off -1.5, and the Yankees are getting sharp action. This is a confidence-5 play: elite pitcher, soft opponent, plus-money price, and market support.",
+      "the_data": [
+        {
+          "label": "Schlittler ERA (season)",
+          "value": "2.04",
+          "context": "Best in AL"
+        },
+        {
+          "label": "Schlittler K%",
+          "value": "30.7%",
+          "context": "Elite, top-5 in MLB"
+        },
+        {
+          "label": "Schlittler WHIP",
+          "value": "0.91",
+          "context": "Elite"
+        },
+        {
+          "label": "McGreevy HR/9",
+          "value": "1.16",
+          "context": "Vulnerable to long ball"
+        },
+        {
+          "label": "Yankee Stadium HR PF",
+          "value": "1.14",
+          "context": "HR-boosting"
+        },
+        {
+          "label": "Yankees R/G",
+          "value": "4.57",
+          "context": "Above average"
+        }
+      ],
+      "the_market": "Yankees opened -205 ML and -1.5 at around even money. The run line has ticked to +105 at FanDuel, suggesting some sharp money on the Cardinals +1.5. But the ML hasn't moved, indicating confidence in the Yankees to win \u2014 the question is margin.",
+      "weather_park": "Yankee Stadium is outdoors but weather is not a factor tonight. Park HR factor of 1.14 favors power hitters on both sides.",
+      "case_against": "McGreevy has been solid this year and could keep the Cardinals in the game. If Schlittler has an off night or exits early, the Yankees bullpen would need to protect a slim lead. Run lines are inherently higher variance than moneylines.",
+      "what_were_betting_on": "Schlittler going 6+ innings with 2 or fewer runs, Yankees offense providing 4+ runs of support, and the bullpen closing out a multi-run win.",
+      "scott_bot_quip": "The best pitcher in the AL at home against a guy named McGreevy. Sometimes the board just hands you one.",
+      "ladder_note": "",
+      "date": "2026-08-03",
+      "status": "PEND",
+      "units_result": null,
+      "clv_cents": null,
+      "result_score": null,
+      "graded_at": null,
+      "slate_assessment": "Nine-game MLB-only slate with several data-confidence issues. Schlittler vs. McGreevy at Yankee Stadium is the standout matchup \u2014 elite ace vs. soft-contact arm in a hitter-friendly park. Coors Field total and a few pitcher K props round out the playable edges.",
+      "executive_summary": "Nine MLB games tonight, no NBA or NHL. The board is thin on confirmed starters \u2014 several games show TBD or low data confidence \u2014 but a few edges pop. Cam Schlittler at Yankee Stadium against a middling Cardinals lineup is the cleanest spot: a 2.04 ERA ace at home with plus-juice on the run line. Coors Field's 11.5 total with two shaky arms screams over. The Dodgers send Justin Wrobleski (2.88 ERA) to Wrigley against Matthew Boyd, and the Cubs' elite offense vs. LHP (119 wRC+) makes the home dog interesting. The ladder rides with the Cubs ML at +110 \u2014 best floor near even money on the board.",
+      "slate_analysis": "Tonight's board features nine MLB games, all evening starts, with no NBA or NHL action. The pricing climate is soft \u2014 several games have TBD starters or data confidence below 0.5, which limits the playable universe. The Yankees-Cardinals matchup is the marquee: Cam Schlittler (2.04 ERA, 30.7 K%, 0.91 WHIP) faces Michael McGreevy (3.57 ERA, 16.2 K%, 1.16 HR/9) at Yankee Stadium. Schlittler has been the best pitcher in the American League this season, and the Cardinals offense ranks middle-of-the-pack. The -205 moneyline is too steep for a straight bet, but the -1.5 run line at +105 clears our juice cap and offers value.\n\nThe Cubs-Dodgers game drew attention because the Dodgers are sending Justin Wrobleski (2.88 ERA) rather than one of their aces. The Cubs have the best offense in baseball against left-handed pitching (119 wRC+), and Matthew Boyd (3.41 ERA, 66 IP) has been solid but unspectacular. Cubs ML at +110 is near even money with a legitimate path to victory at home.\n\nCoors Field's TB @ COL game features two shaky starters \u2014 Michael Lorenzen (6.54 ERA, 1.81 WHIP) and Ian Seymour (4.37 ERA) \u2014 in the most hitter-friendly park in baseball (1.18 runs PF). The 11.5 total is high but justified; the over at -105 has edge given both pitchers' walk rates and the altitude.\n\nFor props, I looked at pitcher strikeouts across the slate. Schlittler's K line wasn't available in the pack, but Bubba Chandler's K Under 4.5 at +111 (DraftKings) caught my eye \u2014 he has a 20.1 K% and faces a Milwaukee lineup that doesn't strike out much. Logan Webb's K Under 5.5 at -165 (BetMGM) is too juiced. The Coors game props are inflated by park factors, making them less attractive.\n\nI cut the PHI-WSH game (data confidence 0.4, Nola's 2.05 HR/9 is brutal at Citizens Bank Park), the HOU-TOR game (data confidence 0.3, both starters have tiny samples and high walk rates), and the SF @ TEX game (no Rangers starter listed, data confidence 0.4). The MIL-PIT game has two young starters with high walk rates (11.6% and 12.3% BB%) \u2014 too volatile for a confident play.\n\nThe final six picks: Yankees -1.5 run line, Cubs ML, Coors Over 11.5, Rays -1.5 run line, Bubba Chandler K Under 4.5, and Fernando Tatis Jr. Total Bases Over 1.5. The Cubs ML is the ladder pick \u2014 best floor near even money with the Cubs' elite LHP splits at home.",
+      "slate_vibe": "NORMAL",
+      "published_at": "2026-08-03T13:10:21.703499-04:00"
+    },
     {
       "id": "20260802-MLB-PIT-CIN-PROP-MITCHKELLER",
       "sport": "MLB",
