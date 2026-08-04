@@ -1,5 +1,44 @@
 [
   {
+    "id": "20260803-MLB-STL-NYY-SPREAD",
+    "date": "2026-08-03",
+    "pick": "Yankees -1.5",
+    "game": "STL @ NYY",
+    "odds": "+105",
+    "result_score": "STL 13 \u00b7 NYY 7",
+    "classification": "MODEL",
+    "post_mortem": "Schlittler was a disaster from pitch one \u2014 Burleson took him deep for 2 runs in the 1st, Ferm\u00edn and Church added runs in the 2nd and 3rd, and Schlittler was yanked before the 4th inning with the Cardinals already up 4-0 on 83 pitches. The thesis was built entirely on Schlittler's season ERA (2.04), but ignored a critical split: he carries a 3.83 ERA in home starts at Yankee Stadium. The ace-at-home narrative was factually inverted \u2014 Schlittler is actually worse at home, and the pick leaned on a stat that masked that. Burleson finished 3-for-5 with 3 HR and 6 RBI; the Cardinals never trailed.",
+    "candidate_rule": "Before backing a starter on the run line, validate home/away ERA splits separately \u2014 if a pitcher's home ERA is 150%+ of his road ERA, do not treat the home start as a strength; N=1, insufficient to establish rule.",
+    "sample_size_warning": "N=1, insufficient to establish rule \u2014 but the home/road split data point was available pre-game and was not checked. Flag for review in future ace-at-home run-line plays.",
+    "analyzed_at": "2026-08-04T01:56:15.014029-04:00"
+  },
+  {
+    "id": "20260803-MLB-PIT-MIL-PROP-BUBBACHANDLER",
+    "date": "2026-08-03",
+    "pick": "Bubba Chandler Ks Under 4.5",
+    "game": "PIT @ MIL",
+    "odds": "+111",
+    "result_score": "Bubba Chandler: 5 strikeOuts",
+    "classification": "MODEL",
+    "post_mortem": "Chandler finished with 5 Ks, busting the Under 4.5 by exactly one. The thesis leaned on his 20.1% K rate as the anchor, but his raw K/9 entering the start was ~8.0 \u2014 meaningfully higher \u2014 and his two most recent starts against this exact Brewers lineup produced 6 Ks (4.2 IP, July 11) and 5 Ks (6.1 IP, July 22). The model correctly identified the contact-heavy framing but ignored the pitcher-vs-opponent history and the gap between K% and K/9 as a signal of innings-volume suppression rather than true strikeout suppression.",
+    "candidate_rule": "When a pitcher's K/9 exceeds ~7.5 but K% reads below average, check IP/start \u2014 if he's pitching fewer innings, K% deflates artificially; weight K/9 more heavily for K prop unders. (N=1, insufficient to establish rule.)",
+    "sample_size_warning": "N=1, insufficient to establish rule \u2014 one loss on a borderline line (4.5, +111) is noise, not signal.",
+    "analyzed_at": "2026-08-04T01:55:53.450784-04:00"
+  },
+  {
+    "id": "20260803-MLB-SD-ARI-PROP-FERNANDOTATISJR",
+    "date": "2026-08-03",
+    "pick": "Fernando Tatis Jr. Total Bases Over 1.5",
+    "game": "SD @ ARI",
+    "odds": "-110",
+    "result_score": "Fernando Tatis Jr.: 0 totalBases",
+    "classification": "MODEL",
+    "post_mortem": "Pfaadt was not the hittable, homer-prone flyball pitcher the thesis assumed \u2014 he entered this start 5-0 with a 1.85 ERA and had held opponents to 2 ER or fewer in 14 consecutive appearances. He carried a shutout into the seventh inning in a 5-1 Arizona win, facing only 20 Padres batters with a 69-pitch, 44-strike efficiency line that left Tatis with minimal quality plate appearances against a pitcher operating at peak form. The thesis leaned on Pfaadt's season-long 4.00 ERA and 1.0 HR/9 without accounting for his dramatic mid-season correction \u2014 the data point used was stale relative to his actual June-August performance arc.",
+    "candidate_rule": "Before targeting a total bases prop against a starter with a 4.00+ ERA, validate whether that ERA is front-loaded or recent \u2014 if the pitcher's last 6-start ERA is sub-2.00, treat him as an elite arm regardless of season-long numbers; N=1, insufficient to establish rule.",
+    "sample_size_warning": "N=1, insufficient to establish rule \u2014 one loss against a hot pitcher is noise, but the ERA-recency blind spot is worth flagging as a systematic model gap to monitor.",
+    "analyzed_at": "2026-08-04T01:55:17.789131-04:00"
+  },
+  {
     "id": "20260801-MLB-ARI-CLE-TOTAL",
     "date": "2026-08-01",
     "pick": "Under 8.5",

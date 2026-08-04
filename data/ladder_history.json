@@ -1,9 +1,17 @@
 {
-  "current_streak": 2,
+  "current_streak": 3,
   "longest_streak": 8,
   "completed_climbs": 0,
   "target": 10,
   "history": [
+    {
+      "date": "2026-08-03",
+      "pick_id": "20260803-MLB-LAD-CHC-ML",
+      "pick": "Cubs ML",
+      "game": "LAD @ CHC",
+      "status": "WIN",
+      "after_streak": 3
+    },
     {
       "date": "2026-08-02",
       "pick_id": "20260802-MLB-NYY-CHC-TOTAL",
@@ -485,5 +493,5 @@
       "after_streak": 1
     }
   ],
-  "updated_at": "2026-08-02T18:45:09.065332-04:00"
+  "updated_at": "2026-08-04T01:55:53.501726-04:00"
 }

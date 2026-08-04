@@ -590,5 +590,29 @@
     "candidate_rule": "When the pick's own 'case against' section describes the exact mechanism of a blowup (short rookie outing \u2192 taxed bullpen \u2192 run explosion), require that the under thesis explicitly models the bullpen-blowup scenario as a probability-weighted ceiling, not just a footnote \u2014 N=1, insufficient to establish rule.",
     "sample_size_warning": "N=1, insufficient to establish rule. One loss where the flagged risk materialized does not confirm a systematic model flaw, but the internal contradiction between the thesis and the case-against deserves a second look if this pattern recurs.",
     "status": "PENDING_REVIEW"
+  },
+  {
+    "proposed_at": "2026-08-04T01:55:17.791466-04:00",
+    "source_pick_id": "20260803-MLB-SD-ARI-PROP-FERNANDOTATISJR",
+    "source_loss": "Fernando Tatis Jr. Total Bases Over 1.5 (SD @ ARI)",
+    "candidate_rule": "Before targeting a total bases prop against a starter with a 4.00+ ERA, validate whether that ERA is front-loaded or recent \u2014 if the pitcher's last 6-start ERA is sub-2.00, treat him as an elite arm regardless of season-long numbers; N=1, insufficient to establish rule.",
+    "sample_size_warning": "N=1, insufficient to establish rule \u2014 one loss against a hot pitcher is noise, but the ERA-recency blind spot is worth flagging as a systematic model gap to monitor.",
+    "status": "PENDING_REVIEW"
+  },
+  {
+    "proposed_at": "2026-08-04T01:55:53.453016-04:00",
+    "source_pick_id": "20260803-MLB-PIT-MIL-PROP-BUBBACHANDLER",
+    "source_loss": "Bubba Chandler Ks Under 4.5 (PIT @ MIL)",
+    "candidate_rule": "When a pitcher's K/9 exceeds ~7.5 but K% reads below average, check IP/start \u2014 if he's pitching fewer innings, K% deflates artificially; weight K/9 more heavily for K prop unders. (N=1, insufficient to establish rule.)",
+    "sample_size_warning": "N=1, insufficient to establish rule \u2014 one loss on a borderline line (4.5, +111) is noise, not signal.",
+    "status": "PENDING_REVIEW"
+  },
+  {
+    "proposed_at": "2026-08-04T01:56:15.016321-04:00",
+    "source_pick_id": "20260803-MLB-STL-NYY-SPREAD",
+    "source_loss": "Yankees -1.5 (STL @ NYY)",
+    "candidate_rule": "Before backing a starter on the run line, validate home/away ERA splits separately \u2014 if a pitcher's home ERA is 150%+ of his road ERA, do not treat the home start as a strength; N=1, insufficient to establish rule.",
+    "sample_size_warning": "N=1, insufficient to establish rule \u2014 but the home/road split data point was available pre-game and was not checked. Flag for review in future ace-at-home run-line plays.",
+    "status": "PENDING_REVIEW"
   }
 ]
